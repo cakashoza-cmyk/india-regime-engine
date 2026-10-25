@@ -1,0 +1,199 @@
+{
+  "generated_at_utc": "2026-10-25T14:08:05.902692+00:00",
+  "generated_at_ist": "2026-10-25 19:38:05 Asia/Calcutta",
+  "disclaimer": "Automated fetch only. Macro fields without a successful free feed are null/Unknown. Manual overrides in the UI are tagged separately. This tool scores dials; it does not replace judgment when dials conflict.",
+  "market": {
+    "nifty": {
+      "symbol": "^NSEI",
+      "value": 22600.0,
+      "prior": 22687.650390625,
+      "as_of": "2026-10-23",
+      "direction": "falling",
+      "source": "Yahoo Finance chart API",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=5d&interval=1d",
+      "error": null,
+      "evidence": "fact"
+    },
+    "inr_usd": {
+      "symbol": "INR=X",
+      "value": 94.93000030517578,
+      "prior": 94.7113037109375,
+      "as_of": "2026-10-25",
+      "direction": "rising",
+      "source": "Yahoo Finance chart API",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/INR%3DX?range=5d&interval=1d",
+      "error": null,
+      "evidence": "fact"
+    },
+    "brent": {
+      "symbol": "BZ=F",
+      "value": 111.69999694824219,
+      "prior": 113.16999816894531,
+      "as_of": "2026-10-23",
+      "direction": "falling",
+      "source": "Yahoo Finance chart API",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?range=5d&interval=1d",
+      "error": null,
+      "evidence": "fact"
+    },
+    "wti": {
+      "symbol": "CL=F",
+      "value": 103.2699966430664,
+      "prior": 99.47000122070312,
+      "as_of": "2026-10-23",
+      "direction": "rising",
+      "source": "Yahoo Finance chart API",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CL%3DF?range=5d&interval=1d",
+      "error": null,
+      "evidence": "fact"
+    },
+    "us10y": {
+      "symbol": "^TNX",
+      "value": 4.98799991607666,
+      "prior": 4.953000068664551,
+      "as_of": "2026-10-23",
+      "direction": "rising",
+      "source": "Yahoo Finance chart API",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=1d",
+      "error": null,
+      "evidence": "fact"
+    },
+    "dxy": {
+      "symbol": "DX-Y.NYB",
+      "value": 101.80999755859375,
+      "prior": 101.61000061035156,
+      "as_of": "2026-10-25",
+      "direction": "rising",
+      "source": "Yahoo Finance chart API",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=5d&interval=1d",
+      "error": null,
+      "evidence": "fact"
+    },
+    "india10y": {
+      "symbol": "India 10Y G-Sec",
+      "value": null,
+      "prior": null,
+      "as_of": null,
+      "direction": "unknown",
+      "source": "Yahoo Finance (symbol not resolved)",
+      "source_url": null,
+      "error": "no free symbol resolved \u2014 enter manually",
+      "evidence": "unknown"
+    }
+  },
+  "macro": {
+    "gdp_yoy": {
+      "name": "Real GDP growth (YoY)",
+      "value": null,
+      "unit": "%",
+      "as_of": null,
+      "direction": "unknown",
+      "prior": null,
+      "source": "NSO / RBI \u2014 not auto-fetched; paste from MOSPI or RBI press release",
+      "source_url": null,
+      "error": "not fetched automatically \u2014 enter manually in UI",
+      "evidence": "unknown"
+    },
+    "iip_yoy": {
+      "name": "IIP growth (YoY)",
+      "value": null,
+      "unit": "%",
+      "as_of": null,
+      "direction": "unknown",
+      "prior": null,
+      "source": "MOSPI \u2014 not auto-fetched; paste from official release",
+      "source_url": null,
+      "error": "not fetched automatically \u2014 enter manually in UI",
+      "evidence": "unknown"
+    },
+    "cpi_headline": {
+      "name": "CPI headline (YoY)",
+      "value": null,
+      "unit": "%",
+      "as_of": null,
+      "direction": "unknown",
+      "prior": null,
+      "source": "MOSPI \u2014 not auto-fetched; paste from official release",
+      "source_url": null,
+      "error": "not fetched automatically \u2014 enter manually in UI",
+      "evidence": "unknown"
+    },
+    "cpi_core": {
+      "name": "CPI core ex food & fuel (YoY)",
+      "value": null,
+      "unit": "%",
+      "as_of": null,
+      "direction": "unknown",
+      "prior": null,
+      "source": "RBI / MOSPI derived \u2014 not auto-fetched",
+      "source_url": null,
+      "error": "not fetched automatically \u2014 enter manually in UI",
+      "evidence": "unknown"
+    },
+    "food_inflation": {
+      "name": "Food inflation (YoY)",
+      "value": null,
+      "unit": "%",
+      "as_of": null,
+      "direction": "unknown",
+      "prior": null,
+      "source": "MOSPI \u2014 not auto-fetched",
+      "source_url": null,
+      "error": "not fetched automatically \u2014 enter manually in UI",
+      "evidence": "unknown"
+    },
+    "wpi_yoy": {
+      "name": "WPI (YoY)",
+      "value": null,
+      "unit": "%",
+      "as_of": null,
+      "direction": "unknown",
+      "prior": null,
+      "source": "DPIIT / OEA \u2014 not auto-fetched",
+      "source_url": null,
+      "error": "not fetched automatically \u2014 enter manually in UI",
+      "evidence": "unknown"
+    },
+    "repo_rate": {
+      "name": "RBI repo rate",
+      "value": null,
+      "unit": "%",
+      "as_of": null,
+      "direction": "unknown",
+      "stance": null,
+      "prior": null,
+      "source": "RBI MPC resolution \u2014 enter manually after each meeting",
+      "source_url": "https://www.rbi.org.in/",
+      "error": "not auto-fetched",
+      "evidence": "unknown"
+    }
+  },
+  "flows": {
+    "fii_net": {
+      "name": "FII/FPI net (equity, recent session/month)",
+      "value": null,
+      "unit": "INR crore",
+      "as_of": null,
+      "direction": "unknown",
+      "source": "NSDL / NiftyInvestors \u2014 no free unauth feed used",
+      "source_url": null,
+      "error": "enter manually; persists in browser localStorage",
+      "evidence": "unknown"
+    },
+    "dii_net": {
+      "name": "DII net (equity, recent session/month)",
+      "value": null,
+      "unit": "INR crore",
+      "as_of": null,
+      "direction": "unknown",
+      "source": "NSE / NSDL \u2014 enter manually",
+      "source_url": null,
+      "error": "enter manually",
+      "evidence": "unknown"
+    }
+  },
+  "fetch_notes": [
+    "Market series with values: 6/7. Macro left Unknown for manual entry.",
+    "india10y: no free symbol resolved \u2014 enter manually"
+  ]
+}

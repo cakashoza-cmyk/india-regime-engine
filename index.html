@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>India Regime Engine — Akash Oza</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --panel: #1a2332;
+    --panel2: #243044;
+    --border: #2d3a4f;
+    --text: #e7ecf3;
+    --muted: #8b9bb4;
+    --accent: #3b82f6;
+    --good: #22c55e;
+    --warn: #f59e0b;
+    --bad: #ef4444;
+    --info: #38bdf8;
+    --gold: #eab308;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+  header {
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, #152033, var(--bg));
+    position: sticky; top: 0; z-index: 20;
+  }
+  header h1 { margin: 0; font-size: 1.25rem; font-weight: 700; }
+  header .sub { color: var(--muted); font-size: 0.85rem; margin-top: 0.25rem; }
+  .honesty {
+    margin-top: 0.75rem;
+    padding: 0.6rem 0.75rem;
+    background: #1e293b;
+    border-left: 3px solid var(--warn);
+    border-radius: 4px;
+    font-size: 0.82rem;
+    color: #fde68a;
+  }
+  nav.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--panel);
+  }
+  nav.tabs button {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    padding: 0.45rem 0.85rem;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+  nav.tabs button.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+    font-weight: 600;
+  }
+  main { padding: 1rem 1.25rem 3rem; max-width: 1100px; margin: 0 auto; }
+  .page { display: none; }
+  .page.active { display: block; }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .card h2 { margin: 0 0 0.75rem; font-size: 1.05rem; }
+  .card h3 { margin: 1rem 0 0.5rem; font-size: 0.95rem; color: var(--info); }
+  .verdict {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    background: linear-gradient(145deg, #1e3a5f, var(--panel));
+    border: 1px solid var(--accent);
+  }
+  .verdict .label { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+  .verdict .regime { font-size: 1.6rem; font-weight: 800; margin: 0.4rem 0; }
+  .verdict .sleeve { font-size: 1.25rem; color: var(--gold); font-weight: 700; }
+  .verdict .conf { display: inline-block; margin-top: 0.6rem; padding: 0.25rem 0.7rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600; }
+  .conf-strong { background: #14532d; color: #86efac; }
+  .conf-mixed { background: #78350f; color: #fcd34d; }
+  .conf-unclear { background: #3f3f46; color: #d4d4d8; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  @media (max-width: 720px) { .grid2 { grid-template-columns: 1fr; } }
+  .ow ul { margin: 0.3rem 0 0; padding-left: 1.2rem; }
+  .tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.45rem;
+    border-radius: 4px;
+    margin-left: 0.35rem;
+    vertical-align: middle;
+  }
+  .tag-fact { background: #14532d; color: #bbf7d0; }
+  .tag-inference { background: #1e3a5f; color: #93c5fd; }
+  .tag-unknown { background: #3f3f46; color: #a1a1aa; }
+  .tag-manual { background: #4c1d95; color: #ddd6fe; }
+  table.ind { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  table.ind th, table.ind td {
+    text-align: left; padding: 0.5rem 0.4rem; border-bottom: 1px solid var(--border);
+  }
+  table.ind th { color: var(--muted); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; }
+  .dir-rising { color: var(--bad); }
+  .dir-falling { color: var(--good); }
+  .dir-flat { color: var(--warn); }
+  .dir-unknown { color: var(--muted); }
+  .dial-score {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.75rem 1rem; border-radius: 8px; background: var(--panel2); margin-bottom: 0.75rem;
+  }
+  .dial-score .name { font-weight: 700; }
+  .dial-score .val { font-size: 1.1rem; font-weight: 800; }
+  .map-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; margin-top: 0.75rem;
+  }
+  .quad {
+    min-height: 110px; border-radius: 10px; padding: 0.75rem;
+    border: 2px solid var(--border); background: var(--panel2); position: relative;
+  }
+  .quad.active {
+    border-color: var(--gold); box-shadow: 0 0 0 2px rgba(234,179,8,0.35);
+    background: #2a2410;
+  }
+  .quad .qtitle { font-weight: 700; font-size: 0.9rem; }
+  .quad .qdesc { font-size: 0.78rem; color: var(--muted); margin-top: 0.35rem; }
+  .quad .marker {
+    position: absolute; top: 0.5rem; right: 0.5rem;
+    background: var(--gold); color: #000; font-size: 0.65rem; font-weight: 800;
+    padding: 0.15rem 0.4rem; border-radius: 4px;
+  }
+  .liq-badge {
+    margin-top: 0.85rem; padding: 0.6rem 0.85rem; border-radius: 8px;
+    background: var(--panel2); border: 1px solid var(--border); font-size: 0.9rem;
+  }
+  label.field { display: block; font-size: 0.8rem; color: var(--muted); margin-top: 0.6rem; }
+  input, select {
+    width: 100%; max-width: 280px; margin-top: 0.2rem;
+    background: var(--bg); border: 1px solid var(--border); color: var(--text);
+    padding: 0.45rem 0.6rem; border-radius: 6px; font-size: 0.9rem;
+  }
+  button.btn {
+    margin-top: 0.75rem; margin-right: 0.5rem;
+    background: var(--accent); color: #fff; border: none;
+    padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; font-weight: 600;
+  }
+  button.btn.secondary { background: var(--panel2); border: 1px solid var(--border); }
+  button.btn:hover { filter: brightness(1.08); }
+  .muted { color: var(--muted); font-size: 0.85rem; }
+  .block { margin: 0.75rem 0; padding: 0.75rem; background: var(--panel2); border-radius: 8px; font-size: 0.9rem; }
+  .scenario { border-left: 3px solid var(--accent); padding-left: 0.75rem; margin: 0.75rem 0; }
+  .scenario.bull { border-color: var(--good); }
+  .scenario.bear { border-color: var(--bad); }
+  .scenario.base { border-color: var(--warn); }
+  footer { text-align: center; color: var(--muted); font-size: 0.75rem; padding: 1rem; }
+  a { color: var(--info); }
+  .refresh-meta { font-size: 0.8rem; color: var(--muted); margin-top: 0.5rem; }
+  code { background: #0b1220; padding: 0.1rem 0.35rem; border-radius: 4px; font-size: 0.85em; }
+</style>
+</head>
+<body>
+<header>
+  <h1>India Market Regime Engine</h1>
+  <div class="sub">Fixed dashboard for Growth · Inflation · Liquidity → sleeve call. Built for Akash Oza (Surat).</div>
+  <div class="honesty">
+    Honest framing: this automates dial scoring and consistency against a fixed rulebook.
+    It does <strong>not</strong> replace human judgment when dials conflict — in that case the call is <strong>Unclear / wait</strong>.
+    Facts from feeds are tagged separately from rule-based inferences. Missing data shows as <strong>Unknown</strong>, never invented.
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button type="button" data-page="call" class="active">Today's Call</button>
+  <button type="button" data-page="dials">Dials</button>
+  <button type="button" data-page="map">Map</button>
+  <button type="button" data-page="drivers">Drivers</button>
+  <button type="button" data-page="magnitude">Magnitude &amp; Scenarios</button>
+  <button type="button" data-page="method">Method</button>
+  <button type="button" data-page="inputs">Manual Inputs</button>
+</nav>
+
+<main>
+  <!-- TODAY'S CALL -->
+  <section class="page active" id="page-call">
+    <div class="card verdict" id="verdict-card">
+      <div class="label">Final sleeve call</div>
+      <div class="regime" id="v-regime">Loading…</div>
+      <div class="sleeve" id="v-sleeve">—</div>
+      <div id="v-conf" class="conf conf-unclear">—</div>
+      <div class="refresh-meta" id="v-refresh"></div>
+    </div>
+    <div class="grid2">
+      <div class="card ow">
+        <h2>Overweight</h2>
+        <ul id="v-ow"></ul>
+      </div>
+      <div class="card ow">
+        <h2>Underweight / Avoid</h2>
+        <ul id="v-uw"></ul>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Dial summary</h2>
+      <div id="v-dial-summary"></div>
+      <p class="muted" id="v-rationale"></p>
+    </div>
+  </section>
+
+  <!-- DIALS -->
+  <section class="page" id="page-dials">
+    <div class="card">
+      <h2>Growth dial</h2>
+      <div class="dial-score"><span class="name">Score</span><span class="val" id="d-growth-score">—</span></div>
+      <div class="muted">Majority of available growth indicators. Absolute level matters less than direction / rate of change.</div>
+      <div id="d-growth-table"></div>
+    </div>
+    <div class="card">
+      <h2>Inflation dial</h2>
+      <div class="dial-score"><span class="name">Score</span><span class="val" id="d-inflation-score">—</span></div>
+      <div class="muted">Separate sticky (core) from transitory (crude spike). Headline alone is not enough.</div>
+      <div id="d-inflation-table"></div>
+    </div>
+    <div class="card">
+      <h2>Liquidity dial</h2>
+      <div class="dial-score"><span class="name">Score</span><span class="val" id="d-liquidity-score">—</span></div>
+      <div class="muted">Often the override. Contracting liquidity can compress valuations even with good earnings.</div>
+      <div id="d-liquidity-table"></div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="page" id="page-map">
+    <div class="card">
+      <h2>Growth × Inflation quadrant</h2>
+      <p class="muted">India marker sits on the quadrant implied by scored dials. Liquidity overlay is the badge below.</p>
+      <div style="display:flex;justify-content:space-between;font-size:0.75rem;color:var(--muted);margin-bottom:0.35rem;">
+        <span></span><span>Inflation →</span>
+      </div>
+      <div style="display:grid;grid-template-columns:auto 1fr;gap:0.5rem;align-items:stretch;">
+        <div style="writing-mode:vertical-rl;transform:rotate(180deg);font-size:0.75rem;color:var(--muted);text-align:center;">Growth →</div>
+        <div>
+          <div class="map-grid">
+            <div class="quad" id="q-goldilocks"><div class="qtitle">Goldilocks</div><div class="qdesc">Growth ↑ · Inflation ↓ — equities broadly; midcaps can fly</div></div>
+            <div class="quad" id="q-reflation"><div class="qtitle">Reflation</div><div class="qdesc">Growth ↑ · Inflation ↑ — cyclicals, banks, commodities</div></div>
+            <div class="quad" id="q-slowdown"><div class="qtitle">Slowdown</div><div class="qdesc">Growth ↓ · Inflation ↓ — bonds, defensives, staples</div></div>
+            <div class="quad" id="q-stagflation"><div class="qtitle">Stagflation</div><div class="qdesc">Growth ↓ · Inflation ↑ — cash, gold, defensives only</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="liq-badge" id="liq-badge">Liquidity: —</div>
+      <p class="muted" id="map-note" style="margin-top:0.75rem;"></p>
+    </div>
+  </section>
+
+  <!-- DRIVERS -->
+  <section class="page" id="page-drivers">
+    <div class="card">
+      <h2>Regime drivers (transmission)</h2>
+      <p class="muted">These blocks are <span class="tag tag-inference">inference</span> from dial states — causal stories, not forecasts.</p>
+      <div id="drivers-body"></div>
+    </div>
+  </section>
+
+  <!-- MAGNITUDE -->
+  <section class="page" id="page-magnitude">
+    <div class="card">
+      <h2>Magnitude &amp; scenarios</h2>
+      <p class="muted">Relative guidance only — no invented price targets. Monitoring triggers flip the sleeve when dials change.</p>
+      <div id="scenarios-body"></div>
+    </div>
+  </section>
+
+  <!-- METHOD -->
+  <section class="page" id="page-method">
+    <div class="card">
+      <h2>Scoring method (study this to distrust the machine)</h2>
+      <h3>1. Dial scores</h3>
+      <ul>
+        <li><strong>Growth:</strong> among indicators with a known direction, if ≥60% rising → Rising; ≥60% falling → Falling; else Unclear. Indicators with Unknown direction are skipped (not counted as votes).</li>
+        <li><strong>Inflation:</strong> same majority on CPI headline/core/food + crude + INR weakness (INR/USD rising = weaker INR = inflationary). If crude/food rising but core flat/falling → <em>Transitory</em>.</li>
+        <li><strong>Liquidity:</strong> RBI stance (hiking/tightening = contracting; cutting/easing = expanding), rising US/India yields = contracting, rising DXY or weaker INR = contracting, FII selling = contracting. Majority rules; Unclear if thin data.</li>
+      </ul>
+      <h3>2. Quadrant map</h3>
+      <ul>
+        <li>Rising + Falling inflation → Goldilocks → Risk-On</li>
+        <li>Rising + Rising inflation → Reflation → Cyclicals / banks / commodities</li>
+        <li>Falling + Falling inflation → Slowdown → Staples / defensives / bonds</li>
+        <li>Falling + Rising inflation → Stagflation → Risk-Off (cash / gold)</li>
+      </ul>
+      <h3>3. Liquidity overlay</h3>
+      <p>Expanding amplifies risk assets. Contracting suppresses — nudges toward defensives / risk-off even in Goldilocks or Reflation.</p>
+      <h3>4. Final call gate</h3>
+      <p>If Growth or Inflation is Unclear, or Liquidity is Unclear <em>and</em> the quadrant is borderline, or dials conflict with no majority path → <strong>Unclear / wait</strong>. No forced buy list.</p>
+      <h3>5. Evidence tags</h3>
+      <p><span class="tag tag-fact">fact</span> from Yahoo/snapshot feed · <span class="tag tag-manual">manual</span> your override · <span class="tag tag-inference">inference</span> rule output · <span class="tag tag-unknown">unknown</span> missing</p>
+      <h3>Refresh</h3>
+      <p>Run <code>python3 refresh_data.py</code> in this folder to rewrite <code>data/snapshot.json</code>, then reload the page. Offline: last snapshot + localStorage overrides still work.</p>
+    </div>
+  </section>
+
+  <!-- INPUTS -->
+  <section class="page" id="page-inputs">
+    <div class="card">
+      <h2>Manual macro &amp; flow inputs</h2>
+      <p class="muted">Saved in browser <code>localStorage</code>. Use official MOSPI / RBI / NSDL figures. Leave blank to keep Unknown.</p>
+      <div class="grid2">
+        <div>
+          <label class="field">GDP YoY % <input id="in-gdp" type="number" step="0.1" placeholder="e.g. 7.8" /></label>
+          <label class="field">GDP as-of <input id="in-gdp-asof" type="text" placeholder="Q1 FY27" /></label>
+          <label class="field">GDP direction
+            <select id="in-gdp-dir"><option value="unknown">unknown</option><option value="rising">rising</option><option value="falling">falling</option><option value="flat">flat</option></select>
+          </label>
+          <label class="field">IIP YoY % <input id="in-iip" type="number" step="0.1" /></label>
+          <label class="field">IIP as-of <input id="in-iip-asof" type="text" /></label>
+          <label class="field">IIP direction
+            <select id="in-iip-dir"><option value="unknown">unknown</option><option value="rising">rising</option><option value="falling">falling</option><option value="flat">flat</option></select>
+          </label>
+          <label class="field">CPI headline YoY % <input id="in-cpi" type="number" step="0.01" /></label>
+          <label class="field">CPI as-of <input id="in-cpi-asof" type="text" /></label>
+          <label class="field">CPI direction
+            <select id="in-cpi-dir"><option value="unknown">unknown</option><option value="rising">rising</option><option value="falling">falling</option><option value="flat">flat</option></select>
+          </label>
+          <label class="field">CPI core YoY % <input id="in-core" type="number" step="0.01" /></label>
+          <label class="field">Core direction
+            <select id="in-core-dir"><option value="unknown">unknown</option><option value="rising">rising</option><option value="falling">falling</option><option value="flat">flat</option></select>
+          </label>
+        </div>
+        <div>
+          <label class="field">Food inflation YoY % <input id="in-food" type="number" step="0.01" /></label>
+          <label class="field">Food direction
+            <select id="in-food-dir"><option value="unknown">unknown</option><option value="rising">rising</option><option value="falling">falling</option><option value="flat">flat</option></select>
+          </label>
+          <label class="field">Repo rate % <input id="in-repo" type="number" step="0.05" /></label>
+          <label class="field">Repo as-of <input id="in-repo-asof" type="text" /></label>
+          <label class="field">RBI stance
+            <select id="in-stance">
+              <option value="unknown">unknown</option>
+              <option value="accommodative">accommodative / easing</option>
+              <option value="neutral">neutral / on hold</option>
+              <option value="tightening">calibrated tightening / hiking</option>
+            </select>
+          </label>
+          <label class="field">FII net (₹ cr, + buy / − sell) <input id="in-fii" type="number" step="1" /></label>
+          <label class="field">FII as-of <input id="in-fii-asof" type="text" /></label>
+          <label class="field">DII net (₹ cr) <input id="in-dii" type="number" step="1" /></label>
+          <label class="field">India 10Y G-Sec % <input id="in-in10" type="number" step="0.01" /></label>
+          <label class="field">India 10Y direction
+            <select id="in-in10-dir"><option value="unknown">unknown</option><option value="rising">rising</option><option value="falling">falling</option><option value="flat">flat</option></select>
+          </label>
+        </div>
+      </div>
+      <button type="button" class="btn" id="btn-save">Save &amp; re-score</button>
+      <button type="button" class="btn secondary" id="btn-clear">Clear manual overrides</button>
+      <button type="button" class="btn secondary" id="btn-seed" title="Optional press figures — verify yourself">Apply Oct-2026 press reference (optional)</button>
+      <p class="muted" style="margin-top:0.75rem;">Optional seed uses published press/RBI figures (GDP 7.8% Q1 FY27, IIP ~8% Aug, CPI 5.54% Sep, core ~4.2% Aug, repo 5.50% calibrated tightening). Tagged as manual. Verify on MOSPI/RBI before relying on them.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Regime Engine · local SPA · data under <code>data/snapshot.json</code> · Asia/Calcutta times
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  const LS_KEY = "regimeEngineManual_v1";
+  let snapshot = null;
+  let manual = loadManual();
+
+  const SLEEVES = {
+    "Risk-On": {
+      ow: ["Broad equities", "Midcaps (with liquidity expanding)", "Discretionary / consumption", "IT & growth on dips if liquidity ok"],
+      uw: ["Excess cash", "Deep defensives as core", "Gold as primary sleeve"],
+    },
+    "Cyclicals-Reflation": {
+      ow: ["Banks / PSU banks (select)", "Industrials & capital goods", "Commodities / metals / energy", "Autos (if volume data confirms)", "NBFCs only if funding stress low"],
+      uw: ["Long-duration rate-sensitives", "High-valuation growth without earnings", "Crowded midcap momentum without liquidity"],
+    },
+    "Staples-Defensives": {
+      ow: ["FMCG / staples", "Pharma / healthcare", "Quality defensives", "Select bonds / rate-sensitives as growth cools"],
+      uw: ["High-beta midcaps", "Highly leveraged cyclicals", "Commodity beta if growth falling"],
+    },
+    "Risk-Off": {
+      ow: ["Cash / liquid funds", "Gold", "High-quality defensives only", "Avoid leverage"],
+      uw: ["Cyclicals", "High-beta midcaps", "NBFCs with ALM risk", "Fresh leverage"],
+    },
+    "Unclear": {
+      ow: ["Preserve dry powder", "Wait for dial consensus (2–3 confirming readings)", "Size down — no forced buys"],
+      uw: ["New high-conviction cyclical bets", "Leverage", "Acting on a single indicator"],
+    },
+  };
+
+  function loadManual() {
+    try {
+      return JSON.parse(localStorage.getItem(LS_KEY) || "{}") || {};
+    } catch (_) {
+      return {};
+    }
+  }
+  function saveManual() {
+    localStorage.setItem(LS_KEY, JSON.stringify(manual));
+  }
+
+  function tag(kind) {
+    return '<span class="tag tag-' + kind + '">' + kind + "</span>";
+  }
+
+  function fmtNum(v, digs) {
+    if (v === null || v === undefined || v === "" || Number.isNaN(Number(v))) return "Unknown";
+    return Number(v).toLocaleString("en-IN", { maximumFractionDigits: digs ?? 2 });
+  }
+
+  function dirClass(d) {
+    return "dir-" + (d || "unknown");
+  }
+
+  function majorityDirection(dirs) {
+    const known = dirs.filter((d) => d && d !== "unknown" && d !== "flat");
+    if (known.length < 1) return { score: "Unclear", detail: "insufficient known directions" };
+    const rising = known.filter((d) => d === "rising").length;
+    const falling = known.filter((d) => d === "falling").length;
+    const n = known.length;
+    if (rising / n >= 0.6) return { score: "Rising", detail: rising + "/" + n + " rising" };
+    if (falling / n >= 0.6) return { score: "Falling", detail: falling + "/" + n + " falling" };
+    return { score: "Unclear", detail: "mixed (" + rising + "↑ " + falling + "↓ of " + n + ")" };
+  }
+
+  function mkt(key) {
+    return (snapshot && snapshot.market && snapshot.market[key]) || {};
+  }
+
+  function buildIndicators() {
+    const ind = { growth: [], inflation: [], liquidity: [] };
+
+    // Growth — mostly manual macros + optional Nifty as risk appetite proxy (tagged inference helper, not core growth)
+    ind.growth.push({
+      name: "Real GDP YoY",
+      value: manual.gdp != null && manual.gdp !== "" ? Number(manual.gdp) : null,
+      unit: "%",
+      as_of: manual.gdp_asof || null,
+      direction: manual.gdp_dir || "unknown",
+      source: "Manual / MOSPI-NSO",
+      evidence: manual.gdp != null && manual.gdp !== "" ? "manual" : "unknown",
+    });
+    ind.growth.push({
+      name: "IIP YoY",
+      value: manual.iip != null && manual.iip !== "" ? Number(manual.iip) : null,
+      unit: "%",
+      as_of: manual.iip_asof || null,
+      direction: manual.iip_dir || "unknown",
+      source: "Manual / MOSPI",
+      evidence: manual.iip != null && manual.iip !== "" ? "manual" : "unknown",
+    });
+    // Nifty trend as soft growth/risk proxy — clearly inference, lower weight by not being sole voter if alone
+    const nifty = mkt("nifty");
+    ind.growth.push({
+      name: "Nifty 50 (soft proxy)",
+      value: nifty.value ?? null,
+      unit: "",
+      as_of: nifty.as_of || null,
+      direction: nifty.direction || "unknown",
+      source: nifty.source || "Yahoo",
+      source_url: nifty.source_url,
+      evidence: nifty.value != null ? "fact" : "unknown",
+      note: "Market proxy, not GDP — used only if present",
+    });
+
+    // Inflation
+    ind.inflation.push({
+      name: "CPI headline YoY",
+      value: manual.cpi != null && manual.cpi !== "" ? Number(manual.cpi) : null,
+      unit: "%",
+      as_of: manual.cpi_asof || null,
+      direction: manual.cpi_dir || "unknown",
+      source: "Manual / MOSPI",
+      evidence: manual.cpi != null && manual.cpi !== "" ? "manual" : "unknown",
+    });
+    ind.inflation.push({
+      name: "CPI core YoY",
+      value: manual.core != null && manual.core !== "" ? Number(manual.core) : null,
+      unit: "%",
+      as_of: manual.core_asof || manual.cpi_asof || null,
+      direction: manual.core_dir || "unknown",
+      source: "Manual / RBI-MOSPI",
+      evidence: manual.core != null && manual.core !== "" ? "manual" : "unknown",
+    });
+    ind.inflation.push({
+      name: "Food inflation YoY",
+      value: manual.food != null && manual.food !== "" ? Number(manual.food) : null,
+      unit: "%",
+      as_of: manual.food_asof || null,
+      direction: manual.food_dir || "unknown",
+      source: "Manual / MOSPI",
+      evidence: manual.food != null && manual.food !== "" ? "manual" : "unknown",
+    });
+    const brent = mkt("brent");
+    ind.inflation.push({
+      name: "Brent crude",
+      value: brent.value ?? null,
+      unit: "USD/bbl",
+      as_of: brent.as_of || null,
+      direction: brent.direction || "unknown",
+      source: brent.source || "Yahoo BZ=F",
+      source_url: brent.source_url,
+      evidence: brent.value != null ? "fact" : "unknown",
+    });
+    const inr = mkt("inr_usd");
+    // Rising INR=X means more INR per USD = weaker rupee = imported inflation pressure
+    ind.inflation.push({
+      name: "INR per USD (↑ = weaker INR)",
+      value: inr.value ?? null,
+      unit: "",
+      as_of: inr.as_of || null,
+      direction: inr.direction || "unknown",
+      source: inr.source || "Yahoo INR=X",
+      source_url: inr.source_url,
+      evidence: inr.value != null ? "fact" : "unknown",
+    });
+
+    // Liquidity
+    const stance = manual.stance || "unknown";
+    let stanceDir = "unknown";
+    if (stance === "tightening") stanceDir = "falling"; // liquidity falling/contracting — we encode contracting as "falling" for majority helper then map
+    if (stance === "accommodative") stanceDir = "rising";
+    if (stance === "neutral") stanceDir = "flat";
+    ind.liquidity.push({
+      name: "RBI stance / repo",
+      value: manual.repo != null && manual.repo !== "" ? Number(manual.repo) : null,
+      unit: "% · " + stance,
+      as_of: manual.repo_asof || null,
+      direction: stanceDir,
+      liq_signal: stance === "tightening" ? "contracting" : stance === "accommodative" ? "expanding" : stance === "neutral" ? "neutral" : "unknown",
+      source: "Manual / RBI MPC",
+      evidence: stance !== "unknown" || (manual.repo != null && manual.repo !== "") ? "manual" : "unknown",
+    });
+    const us10 = mkt("us10y");
+    ind.liquidity.push({
+      name: "US 10Y yield",
+      value: us10.value ?? null,
+      unit: "%",
+      as_of: us10.as_of || null,
+      direction: us10.direction || "unknown",
+      liq_signal: us10.direction === "rising" ? "contracting" : us10.direction === "falling" ? "expanding" : "unknown",
+      source: us10.source || "Yahoo ^TNX",
+      source_url: us10.source_url,
+      evidence: us10.value != null ? "fact" : "unknown",
+    });
+    const dxy = mkt("dxy");
+    ind.liquidity.push({
+      name: "Dollar index (DXY)",
+      value: dxy.value ?? null,
+      unit: "",
+      as_of: dxy.as_of || null,
+      direction: dxy.direction || "unknown",
+      liq_signal: dxy.direction === "rising" ? "contracting" : dxy.direction === "falling" ? "expanding" : "unknown",
+      source: dxy.source || "Yahoo",
+      source_url: dxy.source_url,
+      evidence: dxy.value != null ? "fact" : "unknown",
+    });
+    ind.liquidity.push({
+      name: "INR weakness (↑ INR/USD)",
+      value: inr.value ?? null,
+      unit: "",
+      as_of: inr.as_of || null,
+      direction: inr.direction || "unknown",
+      liq_signal: inr.direction === "rising" ? "contracting" : inr.direction === "falling" ? "expanding" : "unknown",
+      source: inr.source || "Yahoo",
+      evidence: inr.value != null ? "fact" : "unknown",
+    });
+    const fiiVal = manual.fii != null && manual.fii !== "" ? Number(manual.fii) : null;
+    let fiiDir = "unknown";
+    let fiiLiq = "unknown";
+    if (fiiVal != null) {
+      if (fiiVal > 500) { fiiDir = "rising"; fiiLiq = "expanding"; }
+      else if (fiiVal < -500) { fiiDir = "falling"; fiiLiq = "contracting"; }
+      else { fiiDir = "flat"; fiiLiq = "neutral"; }
+    }
+    ind.liquidity.push({
+      name: "FII/FPI net",
+      value: fiiVal,
+      unit: "₹ cr",
+      as_of: manual.fii_asof || null,
+      direction: fiiDir,
+      liq_signal: fiiLiq,
+      source: "Manual / NSDL",
+      evidence: fiiVal != null ? "manual" : "unknown",
+    });
+    ind.liquidity.push({
+      name: "India 10Y G-Sec",
+      value: manual.in10 != null && manual.in10 !== "" ? Number(manual.in10) : null,
+      unit: "%",
+      as_of: manual.in10_asof || null,
+      direction: manual.in10_dir || "unknown",
+      liq_signal: manual.in10_dir === "rising" ? "contracting" : manual.in10_dir === "falling" ? "expanding" : "unknown",
+      source: "Manual",
+      evidence: manual.in10 != null && manual.in10 !== "" ? "manual" : "unknown",
+    });
+
+    return ind;
+  }
+
+  function scoreGrowth(list) {
+    // Require at least one macro (GDP/IIP) with known direction. Nifty alone never decides Growth.
+    const macros = list.filter((x) => x.name.indexOf("Nifty") === -1);
+    const macroKnown = macros.filter((x) => x.direction && x.direction !== "unknown");
+    if (macroKnown.length < 1) {
+      return {
+        dial: "Growth",
+        score: "Unclear",
+        detail: "no GDP/IIP direction yet — enter on Manual Inputs (Nifty is display-only proxy)",
+        evidence: "inference",
+      };
+    }
+    const m = majorityDirection(macros.map((x) => x.direction));
+    return { dial: "Growth", score: m.score, detail: m.detail, evidence: "inference" };
+  }
+
+  function scoreInflation(list) {
+    const core = list.find((x) => x.name.indexOf("core") !== -1);
+    const food = list.find((x) => x.name.indexOf("Food") !== -1);
+    const crude = list.find((x) => x.name.indexOf("Brent") !== -1);
+    const stickyRising = core && core.direction === "rising";
+    const stickyFalling = core && core.direction === "falling";
+    const transitoryRising =
+      ((crude && crude.direction === "rising") || (food && food.direction === "rising")) &&
+      core &&
+      (core.direction === "flat" || core.direction === "falling");
+
+    const m = majorityDirection(list.map((x) => x.direction));
+    if (transitoryRising && m.score === "Rising") {
+      return { dial: "Inflation", score: "Transitory", detail: m.detail + "; core not confirming", evidence: "inference" };
+    }
+    if (stickyRising) {
+      return { dial: "Inflation", score: "Rising", detail: (m.detail || "") + "; core rising (sticky)", evidence: "inference" };
+    }
+    if (m.score === "Falling" && stickyFalling) {
+      return { dial: "Inflation", score: "Falling", detail: m.detail, evidence: "inference" };
+    }
+    return { dial: "Inflation", score: m.score, detail: m.detail, evidence: "inference" };
+  }
+
+  function scoreLiquidity(list) {
+    const signals = list.map((x) => x.liq_signal).filter((s) => s && s !== "unknown" && s !== "neutral");
+    if (signals.length < 1) {
+      return { dial: "Liquidity", score: "Unclear", detail: "no known liquidity signals", evidence: "inference" };
+    }
+    const exp = signals.filter((s) => s === "expanding").length;
+    const con = signals.filter((s) => s === "contracting").length;
+    const n = signals.length;
+    if (con / n >= 0.6) return { dial: "Liquidity", score: "Contracting", detail: con + "/" + n + " contracting", evidence: "inference" };
+    if (exp / n >= 0.6) return { dial: "Liquidity", score: "Expanding", detail: exp + "/" + n + " expanding", evidence: "inference" };
+    return { dial: "Liquidity", score: "Unclear", detail: "mixed (" + exp + " exp / " + con + " con of " + n + ")", evidence: "inference" };
+  }
+
+  function quadrant(growth, inflation) {
+    const gUp = growth === "Rising";
+    const gDown = growth === "Falling";
+    const iUp = inflation === "Rising" || inflation === "Transitory";
+    const iDown = inflation === "Falling";
+    if (gUp && iDown) return "Goldilocks";
+    if (gUp && iUp) return "Reflation";
+    if (gDown && iDown) return "Slowdown";
+    if (gDown && iUp) return "Stagflation";
+    return "Unclear";
+  }
+
+  function finalCall(g, i, l, quad) {
+    // Gate: unclear dials
+    if (g === "Unclear" || quad === "Unclear") {
+      return {
+        regime: "Regime unclear / transitional",
+        sleeve: "Unclear",
+        confidence: "Unclear",
+        rationale:
+          "Growth dial or quadrant is Unclear. Rulebook forbids a forced buy list — wait for confirmation cluster (2–3 agreeing readings).",
+      };
+    }
+
+    let sleeve =
+      quad === "Goldilocks" ? "Risk-On" :
+      quad === "Reflation" ? "Cyclicals-Reflation" :
+      quad === "Slowdown" ? "Staples-Defensives" :
+      quad === "Stagflation" ? "Risk-Off" : "Unclear";
+
+    let confidence = "Strong";
+    let notes = [];
+
+    if (i === "Unclear") {
+      confidence = "Mixed";
+      notes.push("Inflation dial unclear — size down.");
+    }
+    if (i === "Transitory") {
+      confidence = confidence === "Strong" ? "Mixed" : confidence;
+      notes.push("Inflation scored Transitory (crude/food without sticky core) — treat Reflation lean cautiously.");
+    }
+    if (l === "Unclear") {
+      confidence = "Mixed";
+      notes.push("Liquidity unclear — do not max risk.");
+    }
+    if (l === "Contracting") {
+      notes.push("Liquidity contracting suppresses risk assets.");
+      if (sleeve === "Risk-On") {
+        sleeve = "Staples-Defensives";
+        confidence = "Mixed";
+        notes.push("Nudged Risk-On → Staples-Defensives due to liquidity overlay.");
+      } else if (sleeve === "Cyclicals-Reflation") {
+        confidence = "Mixed";
+        notes.push("Reflation thesis intact on growth×inflation, but timing poor while liquidity fights — prefer quality cyclicals / banks selectively, keep dry powder.");
+      }
+    }
+    if (l === "Expanding" && (sleeve === "Risk-On" || sleeve === "Cyclicals-Reflation")) {
+      notes.push("Liquidity expanding amplifies the quadrant.");
+    }
+
+    const regimeLabel =
+      quad +
+      (l === "Contracting" ? " + Tightening liquidity" :
+       l === "Expanding" ? " + Easy liquidity" :
+       l === "Unclear" ? " + Liquidity unclear" : "");
+
+    return {
+      regime: regimeLabel,
+      sleeve,
+      confidence,
+      rationale: notes.join(" ") || ("Mapped from " + quad + " with liquidity " + l + "."),
+    };
+  }
+
+  function renderTable(list) {
+    let html = '<table class="ind"><thead><tr><th>Indicator</th><th>Value</th><th>As-of</th><th>Direction</th><th>Source / tag</th></tr></thead><tbody>';
+    for (const row of list) {
+      const val =
+        row.value == null
+          ? "Unknown"
+          : fmtNum(row.value) + (row.unit ? " " + row.unit : "");
+      const ev = row.evidence || "unknown";
+      const link = row.source_url
+        ? ' <a href="' + row.source_url + '" target="_blank" rel="noopener">link</a>'
+        : "";
+      html +=
+        "<tr><td>" +
+        row.name +
+        (row.note ? '<div class="muted">' + row.note + "</div>" : "") +
+        "</td><td>" +
+        val +
+        "</td><td>" +
+        (row.as_of || "—") +
+        '</td><td class="' +
+        dirClass(row.direction) +
+        '">' +
+        (row.direction || "unknown") +
+        (row.liq_signal && row.liq_signal !== "unknown" ? " · liq:" + row.liq_signal : "") +
+        "</td><td>" +
+        (row.source || "—") +
+        link +
+        " " +
+        tag(ev) +
+        "</td></tr>";
+    }
+    html += "</tbody></table>";
+    return html;
+  }
+
+  function renderAll() {
+    const ind = buildIndicators();
+    const g = scoreGrowth(ind.growth);
+    const i = scoreInflation(ind.inflation);
+    const l = scoreLiquidity(ind.liquidity);
+    const quad = quadrant(g.score, i.score === "Transitory" ? "Rising" : i.score);
+    const call = finalCall(g.score, i.score, l.score, quad);
+    const sleeveInfo = SLEEVES[call.sleeve] || SLEEVES.Unclear;
+
+    // Verdict
+    document.getElementById("v-regime").textContent = call.regime;
+    document.getElementById("v-sleeve").textContent = call.sleeve;
+    const confEl = document.getElementById("v-conf");
+    confEl.textContent = "Confidence: " + call.confidence;
+    confEl.className =
+      "conf " +
+      (call.confidence === "Strong" ? "conf-strong" : call.confidence === "Mixed" ? "conf-mixed" : "conf-unclear");
+    document.getElementById("v-refresh").textContent =
+      "Snapshot: " +
+      ((snapshot && snapshot.generated_at_ist) || "none") +
+      " · scored " +
+      new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" }) +
+      " Asia/Calcutta";
+    document.getElementById("v-ow").innerHTML = sleeveInfo.ow.map((x) => "<li>" + x + "</li>").join("");
+    document.getElementById("v-uw").innerHTML = sleeveInfo.uw.map((x) => "<li>" + x + "</li>").join("");
+    document.getElementById("v-dial-summary").innerHTML =
+      '<div class="dial-score"><span class="name">Growth</span><span class="val">' +
+      g.score +
+      "</span></div>" +
+      '<div class="dial-score"><span class="name">Inflation</span><span class="val">' +
+      i.score +
+      "</span></div>" +
+      '<div class="dial-score"><span class="name">Liquidity</span><span class="val">' +
+      l.score +
+      "</span></div>" +
+      '<p class="muted">Growth: ' +
+      g.detail +
+      " " +
+      tag("inference") +
+      " · Inflation: " +
+      i.detail +
+      " " +
+      tag("inference") +
+      " · Liquidity: " +
+      l.detail +
+      " " +
+      tag("inference") +
+      "</p>";
+    document.getElementById("v-rationale").textContent = call.rationale;
+
+    // Dials tables
+    document.getElementById("d-growth-score").textContent = g.score;
+    document.getElementById("d-inflation-score").textContent = i.score;
+    document.getElementById("d-liquidity-score").textContent = l.score;
+    document.getElementById("d-growth-table").innerHTML = renderTable(ind.growth);
+    document.getElementById("d-inflation-table").innerHTML = renderTable(ind.inflation);
+    document.getElementById("d-liquidity-table").innerHTML = renderTable(ind.liquidity);
+
+    // Map
+    ["goldilocks", "reflation", "slowdown", "stagflation"].forEach((id) => {
+      document.getElementById("q-" + id).classList.remove("active");
+      const m = document.getElementById("q-" + id).querySelector(".marker");
+      if (m) m.remove();
+    });
+    const qmap = { Goldilocks: "goldilocks", Reflation: "reflation", Slowdown: "slowdown", Stagflation: "stagflation" };
+    if (qmap[quad]) {
+      const el = document.getElementById("q-" + qmap[quad]);
+      el.classList.add("active");
+      const mk = document.createElement("div");
+      mk.className = "marker";
+      mk.textContent = "INDIA";
+      el.appendChild(mk);
+    }
+    document.getElementById("liq-badge").innerHTML =
+      "<strong>Liquidity overlay:</strong> " +
+      l.score +
+      " (" +
+      l.detail +
+      ") " +
+      tag("inference");
+    document.getElementById("map-note").textContent =
+      quad === "Unclear"
+        ? "No India marker — growth/inflation dials do not yet form a clean quadrant. That is a valid state."
+        : "India placed in " + quad + ". Sleeve after liquidity overlay: " + call.sleeve + ".";
+
+    // Drivers
+    document.getElementById("drivers-body").innerHTML = buildDrivers(g, i, l, call);
+
+    // Scenarios
+    document.getElementById("scenarios-body").innerHTML = buildScenarios(call, g, i, l);
+
+    // Expose for debug
+    window.__regime = { g, i, l, quad, call, ind };
+  }
+
+  function buildDrivers(g, i, l, call) {
+    const blocks = [];
+    blocks.push(
+      '<div class="block"><strong>Core loop (study frame)</strong> ' +
+        tag("inference") +
+        "<br/>Crude / food → CPI → RBI stance → G-sec &amp; credit costs → FII appetite → INR → back into imported inflation and valuations. You only act when several nodes move together.</div>"
+    );
+    if (i.score === "Rising" || i.score === "Transitory") {
+      blocks.push(
+        '<div class="block"><strong>Inflation hot</strong> ' +
+          tag("inference") +
+          "<br/>With crude and/or INR signalling pressure, the RBI’s reaction function matters more than one month’s headline. Sticky core → policy must respond; food/crude alone → Transitory label, don’t overreact — but still watch pass-through.</div>"
+      );
+    }
+    if (l.score === "Contracting") {
+      blocks.push(
+        '<div class="block"><strong>Liquidity contracting</strong> ' +
+          tag("inference") +
+          "<br/>Rising global yields / strong dollar / weak INR / FII outflows compress multiples even if earnings (growth dial) are fine. This is why “attractive thesis, poor timing” shows up in Reflation + Tightening.</div>"
+      );
+    }
+    if (l.score === "Expanding") {
+      blocks.push(
+        '<div class="block"><strong>Liquidity expanding</strong> ' +
+          tag("inference") +
+          "<br/>Easing policy or returning FII flows amplify whatever quadrant you are in — especially midcaps and high-beta.</div>"
+      );
+    }
+    if (g.score === "Unclear") {
+      blocks.push(
+        '<div class="block"><strong>Growth dial thin</strong> ' +
+          tag("unknown") +
+          "<br/>GDP/IIP not filled (or directions unknown). Enter MOSPI figures on Manual Inputs. Until then the engine refuses a forced Risk-On or Reflation call.</div>"
+      );
+    }
+    if (g.score === "Rising" && (i.score === "Rising" || i.score === "Transitory") && l.score === "Contracting") {
+      blocks.push(
+        '<div class="block"><strong>Classic conflict</strong> ' +
+          tag("inference") +
+          "<br/>Growth↑ + Inflation↑ = Reflation (cyclicals should work) but liquidity is fighting them. Prefer selective banks/industrials quality, not blanket beta. Current sleeve: <strong>" +
+          call.sleeve +
+          "</strong>.</div>"
+      );
+    }
+    if (call.sleeve === "Unclear") {
+      blocks.push(
+        '<div class="block"><strong>Machine says wait</strong> ' +
+          tag("inference") +
+          "<br/>Unclear is the profitable discipline. Your South Gujarat credit book (SME drawdowns, limit utilisation) can lead published growth/liquidity data — use it as a local confirmation cluster, then update Manual Inputs.</div>"
+      );
+    }
+    return blocks.join("");
+  }
+
+  function buildScenarios(call, g, i, l) {
+    return (
+      '<div class="scenario base"><strong>Base (machine sleeve): ' +
+      call.sleeve +
+      "</strong><br/>Follow overweight/underweight on Today's Call. Re-score when any dial flips or after each RBI / CPI / IIP print.</div>" +
+      '<div class="scenario bull"><strong>Bull monitoring triggers</strong> ' +
+      tag("inference") +
+      "<br/>Growth confirmed Rising (GDP/IIP directions), Inflation Falling or clearly Transitory with core flat, Liquidity Expanding or at least Neutral with FII turning positive → allow upgrade toward Risk-On / fuller Cyclicals. Do not upgrade on Nifty alone.</div>" +
+      '<div class="scenario bear"><strong>Bear monitoring triggers</strong> ' +
+      tag("inference") +
+      "<br/>Growth flips Falling, core CPI keeps Rising, RBI still tightening, DXY↑ and FII heavy selling → migrate to Risk-Off (cash/gold/defensives), cut leverage and high-beta midcaps.</div>" +
+      '<div class="block muted">No price targets are generated. Magnitude = sleeve choice + position sizing judgment (human).</div>'
+    );
+  }
+
+  function fillInputsForm() {
+    const set = (id, v) => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.value = v == null || v === undefined ? "" : v;
+    };
+    set("in-gdp", manual.gdp);
+    set("in-gdp-asof", manual.gdp_asof);
+    set("in-gdp-dir", manual.gdp_dir || "unknown");
+    set("in-iip", manual.iip);
+    set("in-iip-asof", manual.iip_asof);
+    set("in-iip-dir", manual.iip_dir || "unknown");
+    set("in-cpi", manual.cpi);
+    set("in-cpi-asof", manual.cpi_asof);
+    set("in-cpi-dir", manual.cpi_dir || "unknown");
+    set("in-core", manual.core);
+    set("in-core-dir", manual.core_dir || "unknown");
+    set("in-food", manual.food);
+    set("in-food-dir", manual.food_dir || "unknown");
+    set("in-repo", manual.repo);
+    set("in-repo-asof", manual.repo_asof);
+    set("in-stance", manual.stance || "unknown");
+    set("in-fii", manual.fii);
+    set("in-fii-asof", manual.fii_asof);
+    set("in-dii", manual.dii);
+    set("in-in10", manual.in10);
+    set("in-in10-dir", manual.in10_dir || "unknown");
+  }
+
+  function readInputsForm() {
+    const val = (id) => {
+      const el = document.getElementById(id);
+      return el ? el.value : "";
+    };
+    manual = {
+      gdp: val("in-gdp"),
+      gdp_asof: val("in-gdp-asof"),
+      gdp_dir: val("in-gdp-dir"),
+      iip: val("in-iip"),
+      iip_asof: val("in-iip-asof"),
+      iip_dir: val("in-iip-dir"),
+      cpi: val("in-cpi"),
+      cpi_asof: val("in-cpi-asof"),
+      cpi_dir: val("in-cpi-dir"),
+      core: val("in-core"),
+      core_dir: val("in-core-dir"),
+      food: val("in-food"),
+      food_dir: val("in-food-dir"),
+      repo: val("in-repo"),
+      repo_asof: val("in-repo-asof"),
+      stance: val("in-stance"),
+      fii: val("in-fii"),
+      fii_asof: val("in-fii-asof"),
+      dii: val("in-dii"),
+      in10: val("in-in10"),
+      in10_dir: val("in-in10-dir"),
+    };
+    saveManual();
+  }
+
+  // Tabs
+  document.getElementById("tabs").addEventListener("click", (e) => {
+    const btn = e.target.closest("button[data-page]");
+    if (!btn) return;
+    document.querySelectorAll("nav.tabs button").forEach((b) => b.classList.remove("active"));
+    document.querySelectorAll("main .page").forEach((p) => p.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById("page-" + btn.dataset.page).classList.add("active");
+  });
+
+  document.getElementById("btn-save").addEventListener("click", () => {
+    readInputsForm();
+    renderAll();
+    alert("Saved to localStorage and re-scored.");
+  });
+  document.getElementById("btn-clear").addEventListener("click", () => {
+    manual = {};
+    saveManual();
+    fillInputsForm();
+    renderAll();
+  });
+  document.getElementById("btn-seed").addEventListener("click", () => {
+    if (
+      !confirm(
+        "Apply optional Oct-2026 press/RBI reference figures into Manual Inputs?\n\nVerify on MOSPI/RBI before trusting. They will be tagged as manual."
+      )
+    )
+      return;
+    manual = Object.assign({}, manual, {
+      gdp: "7.8",
+      gdp_asof: "Q1 FY27 (NSO / RBI MPC Oct 2026)",
+      gdp_dir: "rising",
+      iip: "8.0",
+      iip_asof: "Aug 2026 (press)",
+      iip_dir: "rising",
+      cpi: "5.54",
+      cpi_asof: "Sep 2026 (press / Brickwork wrap)",
+      cpi_dir: "rising",
+      core: "4.2",
+      core_dir: "rising",
+      food: "7.74",
+      food_dir: "rising",
+      repo: "5.50",
+      repo_asof: "7 Oct 2026 MPC",
+      stance: "tightening",
+    });
+    saveManual();
+    fillInputsForm();
+    renderAll();
+  });
+
+    const FALLBACK_SNAPSHOT = {"generated_at_utc":"2026-10-25T14:08:05.902692+00:00","generated_at_ist":"2026-10-25 19:38:05 Asia/Calcutta","disclaimer":"Automated fetch only. Macro fields without a successful free feed are null/Unknown. Manual overrides in the UI are tagged separately. This tool scores dials; it does not replace judgment when dials conflict.","market":{"nifty":{"symbol":"^NSEI","value":22600.0,"prior":22687.650390625,"as_of":"2026-10-23","direction":"falling","source":"Yahoo Finance chart API","source_url":"https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=5d&interval=1d","error":null,"evidence":"fact"},"inr_usd":{"symbol":"INR=X","value":94.93000030517578,"prior":94.7113037109375,"as_of":"2026-10-25","direction":"rising","source":"Yahoo Finance chart API","source_url":"https://query1.finance.yahoo.com/v8/finance/chart/INR%3DX?range=5d&interval=1d","error":null,"evidence":"fact"},"brent":{"symbol":"BZ=F","value":111.69999694824219,"prior":113.16999816894531,"as_of":"2026-10-23","direction":"falling","source":"Yahoo Finance chart API","source_url":"https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?range=5d&interval=1d","error":null,"evidence":"fact"},"wti":{"symbol":"CL=F","value":103.2699966430664,"prior":99.47000122070312,"as_of":"2026-10-23","direction":"rising","source":"Yahoo Finance chart API","source_url":"https://query1.finance.yahoo.com/v8/finance/chart/CL%3DF?range=5d&interval=1d","error":null,"evidence":"fact"},"us10y":{"symbol":"^TNX","value":4.98799991607666,"prior":4.953000068664551,"as_of":"2026-10-23","direction":"rising","source":"Yahoo Finance chart API","source_url":"https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=1d","error":null,"evidence":"fact"},"dxy":{"symbol":"DX-Y.NYB","value":101.80999755859375,"prior":101.61000061035156,"as_of":"2026-10-25","direction":"rising","source":"Yahoo Finance chart API","source_url":"https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=5d&interval=1d","error":null,"evidence":"fact"},"india10y":{"symbol":"India 10Y G-Sec","value":null,"prior":null,"as_of":null,"direction":"unknown","source":"Yahoo Finance (symbol not resolved)","source_url":null,"error":"no free symbol resolved \u2014 enter manually","evidence":"unknown"}},"macro":{"gdp_yoy":{"name":"Real GDP growth (YoY)","value":null,"unit":"%","as_of":null,"direction":"unknown","prior":null,"source":"NSO / RBI \u2014 not auto-fetched; paste from MOSPI or RBI press release","source_url":null,"error":"not fetched automatically \u2014 enter manually in UI","evidence":"unknown"},"iip_yoy":{"name":"IIP growth (YoY)","value":null,"unit":"%","as_of":null,"direction":"unknown","prior":null,"source":"MOSPI \u2014 not auto-fetched; paste from official release","source_url":null,"error":"not fetched automatically \u2014 enter manually in UI","evidence":"unknown"},"cpi_headline":{"name":"CPI headline (YoY)","value":null,"unit":"%","as_of":null,"direction":"unknown","prior":null,"source":"MOSPI \u2014 not auto-fetched; paste from official release","source_url":null,"error":"not fetched automatically \u2014 enter manually in UI","evidence":"unknown"},"cpi_core":{"name":"CPI core ex food & fuel (YoY)","value":null,"unit":"%","as_of":null,"direction":"unknown","prior":null,"source":"RBI / MOSPI derived \u2014 not auto-fetched","source_url":null,"error":"not fetched automatically \u2014 enter manually in UI","evidence":"unknown"},"food_inflation":{"name":"Food inflation (YoY)","value":null,"unit":"%","as_of":null,"direction":"unknown","prior":null,"source":"MOSPI \u2014 not auto-fetched","source_url":null,"error":"not fetched automatically \u2014 enter manually in UI","evidence":"unknown"},"wpi_yoy":{"name":"WPI (YoY)","value":null,"unit":"%","as_of":null,"direction":"unknown","prior":null,"source":"DPIIT / OEA \u2014 not auto-fetched","source_url":null,"error":"not fetched automatically \u2014 enter manually in UI","evidence":"unknown"},"repo_rate":{"name":"RBI repo rate","value":null,"unit":"%","as_of":null,"direction":"unknown","stance":null,"prior":null,"source":"RBI MPC resolution \u2014 enter manually after each meeting","source_url":"https://www.rbi.org.in/","error":"not auto-fetched","evidence":"unknown"}},"flows":{"fii_net":{"name":"FII/FPI net (equity, recent session/month)","value":null,"unit":"INR crore","as_of":null,"direction":"unknown","source":"NSDL / NiftyInvestors \u2014 no free unauth feed used","source_url":null,"error":"enter manually; persists in browser localStorage","evidence":"unknown"},"dii_net":{"name":"DII net (equity, recent session/month)","value":null,"unit":"INR crore","as_of":null,"direction":"unknown","source":"NSE / NSDL \u2014 enter manually","source_url":null,"error":"enter manually","evidence":"unknown"}},"fetch_notes":["Market series with values: 6/7. Macro left Unknown for manual entry.","india10y: no free symbol resolved \u2014 enter manually"]};
+
+  async function boot() {
+    try {
+      const res = await fetch("data/snapshot.json", { cache: "no-store" });
+      if (res.ok) snapshot = await res.json();
+      else snapshot = (typeof FALLBACK_SNAPSHOT !== "undefined" && FALLBACK_SNAPSHOT)
+        ? FALLBACK_SNAPSHOT
+        : { generated_at_ist: "snapshot missing", market: {} };
+    } catch (_) {
+      snapshot = (typeof FALLBACK_SNAPSHOT !== "undefined" && FALLBACK_SNAPSHOT)
+        ? FALLBACK_SNAPSHOT
+        : { generated_at_ist: "offline / snapshot unreadable", market: {} };
+    }
+    fillInputsForm();
+    renderAll();
+  }
+
+  boot();
+})();
+</script>
+</body>
+</html>
