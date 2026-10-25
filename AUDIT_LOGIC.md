@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | **Document** | Logic extract for independent review |
-| **Source of truth** | `/workspace/regime-engine/index.html` @ git `5c98bac` (+ Selective `SLEEVES` entry restored if missing) |
+| **Source of truth** | `index.html` + `app-gates.js` (Seven Gates wizard); prior SPA at `index.legacy.html`
 | **Live app** | https://cakashoza-cmyk.github.io/india-regime-engine/ |
 | **Source repo** | https://github.com/cakashoza-cmyk/india-regime-engine |
 | **Method tab** | Same live URL → **Method** |
@@ -296,3 +296,11 @@ Independent reviewers should ask:
 ---
 
 *End of specification. Generated from code extract; re-run extract on each release.*
+
+---
+
+## Operating flowchart
+
+The weekly rejection-machine process (Gates 1–7, practice ramp, sequence stages) lives in **[OPERATING_FLOWCHART.md](./OPERATING_FLOWCHART.md)**.
+
+**Implemented vs Target (2026-10-26):** Gates 1–7 are in the live Operating wizard UI. DeepSeek assists fill/interpret; outputs are **AI-assisted, not authoritative**. Legacy sleeve tab + `index.legacy.html` preserve the prior single-page dial/sleeve view.

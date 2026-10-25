@@ -1,3 +1,15 @@
+# India Regime Engine
+
+**Live:** https://cakashoza-cmyk.github.io/india-regime-engine/
+
+Seven-gate **rejection machine** for India macro regime investing (Operating wizard). STOP / Unclear is valid. DeepSeek-assisted fills are tagged AI — not fact.
+
+- [OPERATING_FLOWCHART.md](./OPERATING_FLOWCHART.md) — gates, stages, practice ramp
+- [AUDIT_LOGIC.md](./AUDIT_LOGIC.md) — scoring rules as implemented
+- [index.legacy.html](./index.legacy.html) — prior single-page sleeve SPA
+
+DeepSeek API key stays in browser `localStorage` only.
+
 # India Market Regime Engine
 
 **Live site:** [https://cakashoza-cmyk.github.io/india-regime-engine/](https://cakashoza-cmyk.github.io/india-regime-engine/)
