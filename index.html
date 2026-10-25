@@ -226,7 +226,7 @@
 
     <div class="card ai-panel">
       <h2>Fill macros via AI <span class="tag tag-ai">ai</span></h2>
-      <p class="warn">Best-effort only. AI can hallucinate numbers. Keys stay in your browser localStorage — never uploaded to this site&apos;s repo. Configure provider on Manual Inputs, or fill below.</p>
+      <p class="warn">Best-effort only. AI can hallucinate numbers. Paste your DeepSeek key on Manual Inputs (localStorage only). Fill below uses the same saved key.</p>
       <div class="ai-compact">
         <button type="button" class="btn" data-ai-fill>Fill macros via AI</button>
         <button type="button" class="btn secondary" data-goto-inputs>Open Manual Inputs</button>
@@ -340,23 +340,16 @@
       <p class="warn">AI-sourced values are <strong>not guaranteed</strong>. They are tagged <span class="tag tag-ai">ai</span>. Cross-check MOSPI, RBI MPC, and NSDL/NSE before acting. This does not replace judgment; models can invent or stale-cache figures.</p>
       <div class="ai-row">
         <label class="field">Provider
-          <select id="ai-provider">
-            <option value="openrouter">OpenRouter (free/cheap models)</option>
-            <option value="gemini">Google Gemini (AI Studio free tier)</option>
-          </select>
+          <input id="ai-provider" type="text" value="DeepSeek" readonly />
         </label>
         <label class="field">Model
           <select id="ai-model">
-            <option value="google/gemini-2.0-flash-exp:free">OpenRouter · gemini-2.0-flash-exp:free</option>
-            <option value="moonshotai/kimi-k2:free">OpenRouter · moonshotai/kimi-k2:free</option>
-            <option value="meta-llama/llama-3.3-70b-instruct:free">OpenRouter · llama-3.3-70b:free</option>
-            <option value="openai/gpt-4o-mini">OpenRouter · gpt-4o-mini (paid if no free credits)</option>
-            <option value="gemini-3.8-flash">Gemini · gemini-3.8-flash</option>
-            <option value="gemini-2.5-flash">Gemini · gemini-2.5-flash (fallback)</option>
+            <option value="deepseek-chat" selected>deepseek-chat (default)</option>
+            <option value="deepseek-reasoner">deepseek-reasoner</option>
           </select>
         </label>
-        <label class="field">API key (saved only in localStorage)
-          <input id="ai-key" type="password" autocomplete="off" placeholder="sk-or-… or AIza…" />
+        <label class="field">DeepSeek API key (localStorage only)
+          <input id="ai-key" type="password" autocomplete="off" placeholder="sk-… from platform.deepseek.com" />
         </label>
       </div>
       <button type="button" class="btn" data-ai-fill id="btn-ai-fill">Fill macros via AI</button>
@@ -487,61 +480,31 @@
   }
 
   function loadAiSettings() {
-    const prov = localStorage.getItem(LS_AI_PROVIDER) || "openrouter";
-    const model = localStorage.getItem(LS_AI_MODEL) || "";
+    // Force DeepSeek provider; keep any previously saved API key in localStorage.
+    localStorage.setItem(LS_AI_PROVIDER, "deepseek");
+    let model = localStorage.getItem(LS_AI_MODEL) || "deepseek-chat";
+    if (model !== "deepseek-chat" && model !== "deepseek-reasoner") {
+      model = "deepseek-chat";
+      localStorage.setItem(LS_AI_MODEL, model);
+    }
     const key = localStorage.getItem(LS_AI_KEY) || "";
     const provEl = document.getElementById("ai-provider");
     const modelEl = document.getElementById("ai-model");
     const keyEl = document.getElementById("ai-key");
-    if (provEl) provEl.value = prov;
-    if (modelEl && model) {
-      // migrate retired Gemini ids
-      if (model === "gemini-2.0-flash" || model === "gemini-1.5-flash" || model === "models/gemini-2.0-flash") {
-        model = "gemini-3.8-flash";
-      }
-      let found = false;
-      for (const o of modelEl.options) if (o.value === model) found = true;
-      if (!found) {
-        const opt = document.createElement("option");
-        opt.value = model;
-        opt.textContent = model;
-        modelEl.appendChild(opt);
-      }
-      modelEl.value = model;
-    }
+    if (provEl) provEl.value = "DeepSeek";
+    if (modelEl) modelEl.value = model;
     if (keyEl) keyEl.value = key;
-    syncModelOptions();
     refreshAiLastLabels();
   }
 
   function saveAiSettings() {
-    const provEl = document.getElementById("ai-provider");
+    localStorage.setItem(LS_AI_PROVIDER, "deepseek");
     const modelEl = document.getElementById("ai-model");
     const keyEl = document.getElementById("ai-key");
-    if (provEl) localStorage.setItem(LS_AI_PROVIDER, provEl.value);
-    if (modelEl) localStorage.setItem(LS_AI_MODEL, modelEl.value);
-    if (keyEl) {
-      if (keyEl.value.trim()) localStorage.setItem(LS_AI_KEY, keyEl.value.trim());
-    }
+    if (modelEl) localStorage.setItem(LS_AI_MODEL, modelEl.value || "deepseek-chat");
+    if (keyEl && keyEl.value.trim()) localStorage.setItem(LS_AI_KEY, keyEl.value.trim());
   }
 
-  function syncModelOptions() {
-    const prov = (document.getElementById("ai-provider") || {}).value || "openrouter";
-    const modelEl = document.getElementById("ai-model");
-    if (!modelEl) return;
-    for (const o of modelEl.options) {
-      const isGeminiModel = o.value.startsWith("gemini-");
-      const isOR = !isGeminiModel;
-      o.hidden = prov === "gemini" ? !isGeminiModel : !isOR;
-    }
-    // pick first visible if current hidden
-    const cur = modelEl.options[modelEl.selectedIndex];
-    if (cur && cur.hidden) {
-      for (const o of modelEl.options) {
-        if (!o.hidden) { modelEl.value = o.value; break; }
-      }
-    }
-  }
 
   function refreshAiLastLabels() {
     let meta = null;
@@ -1287,7 +1250,7 @@ Rules: omit field or set value null if unknown. direction for growth/inflation i
     const at = new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" }) + " Asia/Calcutta";
     const meta = {
       at: at,
-      provider: (document.getElementById("ai-provider") || {}).value,
+      provider: "deepseek",
       model: (document.getElementById("ai-model") || {}).value,
       as_of_note: data.as_of_note || "",
       warnings: data.warnings || [],
@@ -1298,20 +1261,19 @@ Rules: omit field or set value null if unknown. direction for growth/inflation i
     return meta;
   }
 
-  async function callOpenRouter(apiKey, model) {
-    const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+  async function callDeepSeek(apiKey, model) {
+    const res = await fetch("https://api.deepseek.com/v1/chat/completions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
         Authorization: "Bearer " + apiKey,
-        "HTTP-Referer": PAGES_URL,
-        "X-Title": "India Regime Engine",
       },
       body: JSON.stringify({
-        model: model,
+        model: model || "deepseek-chat",
         temperature: 0.1,
+        response_format: { type: "json_object" },
         messages: [
-          { role: "system", content: "Return valid JSON only." },
+          { role: "system", content: "Return valid JSON only matching the schema." },
           { role: "user", content: AI_PROMPT },
         ],
       }),
@@ -1319,7 +1281,7 @@ Rules: omit field or set value null if unknown. direction for growth/inflation i
     const body = await res.json().catch(() => ({}));
     if (!res.ok) {
       const msg = (body && body.error && (body.error.message || body.error)) || res.statusText;
-      throw new Error("OpenRouter " + res.status + ": " + msg);
+      throw new Error("DeepSeek " + res.status + ": " + msg);
     }
     const content =
       body.choices &&
@@ -1329,55 +1291,22 @@ Rules: omit field or set value null if unknown. direction for growth/inflation i
     return parseAiJson(content);
   }
 
-  async function callGemini(apiKey, model) {
-    const url =
-      "https://generativelanguage.googleapis.com/v1beta/models/" +
-      encodeURIComponent(model) +
-      ":generateContent?key=" +
-      encodeURIComponent(apiKey);
-    const res = await fetch(url, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        contents: [{ role: "user", parts: [{ text: AI_PROMPT }] }],
-        generationConfig: { temperature: 0.1, responseMimeType: "application/json" },
-      }),
-    });
-    const body = await res.json().catch(() => ({}));
-    if (!res.ok) {
-      const msg = (body && body.error && body.error.message) || res.statusText;
-      throw new Error("Gemini " + res.status + ": " + msg);
-    }
-    const parts =
-      body.candidates &&
-      body.candidates[0] &&
-      body.candidates[0].content &&
-      body.candidates[0].content.parts;
-    const text = (parts || []).map((p) => p.text || "").join("");
-    return parseAiJson(text);
-  }
-
   async function runAiFill() {
     saveAiSettings();
-    const provider = (document.getElementById("ai-provider") || {}).value || "openrouter";
-    const model = (document.getElementById("ai-model") || {}).value || "";
+    const model = (document.getElementById("ai-model") || {}).value || "deepseek-chat";
     const key = ((document.getElementById("ai-key") || {}).value || "").trim() || localStorage.getItem(LS_AI_KEY) || "";
     if (!key) {
-      setAiStatus("Paste an API key first (OpenRouter or Gemini). It stays in localStorage only.", "err");
-      return;
-    }
-    if (!model) {
-      setAiStatus("Select a model.", "err");
+      setAiStatus("Paste a DeepSeek API key first (platform.deepseek.com). It stays in localStorage only.", "err");
       return;
     }
     document.querySelectorAll("[data-ai-fill]").forEach((b) => { b.disabled = true; });
-    setAiStatus("Calling " + provider + " (" + model + ")…", "loading");
+    setAiStatus("Calling DeepSeek (" + model + ")…", "loading");
     try {
-      const data =
-        provider === "gemini"
-          ? await callGemini(key, model)
-          : await callOpenRouter(key, model);
+      const data = await callDeepSeek(key, model);
       const meta = applyAiPayload(data);
+      meta.provider = "deepseek";
+      localStorage.setItem(LS_AI_LAST, JSON.stringify(meta));
+      refreshAiLastLabels();
       const warn =
         meta.warnings && meta.warnings.length
           ? " Warnings: " + meta.warnings.join("; ")
@@ -1397,6 +1326,7 @@ Rules: omit field or set value null if unknown. direction for growth/inflation i
   }
 
   // Dry-run parse helper for tests
+ for tests
   window.__regimeAiParse = parseAiJson;
   window.__regimeAiApply = applyAiPayload;
 
@@ -1468,8 +1398,6 @@ Rules: omit field or set value null if unknown. direction for growth/inflation i
       document.getElementById("page-inputs").classList.add("active");
     });
   });
-  const aiProv = document.getElementById("ai-provider");
-  if (aiProv) aiProv.addEventListener("change", () => { syncModelOptions(); saveAiSettings(); });
   const aiModel = document.getElementById("ai-model");
   if (aiModel) aiModel.addEventListener("change", saveAiSettings);
   const aiKey = document.getElementById("ai-key");
