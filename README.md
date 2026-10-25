@@ -38,7 +38,7 @@ OpenRouter courtesy headers from this app point at the Pages URL.
 ### Free Gemini key (AI Studio)
 
 1. Open [Google AI Studio](https://aistudio.google.com/apikey) and create an API key.
-2. Select provider **Google Gemini** and model `gemini-2.0-flash` or `gemini-1.5-flash`.
+2. Select provider **Google Gemini** and model `gemini-3.8-flash` (or `gemini-2.5-flash` fallback).
 
 ### Evidence tags
 

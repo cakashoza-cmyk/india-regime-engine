@@ -351,8 +351,8 @@
             <option value="moonshotai/kimi-k2:free">OpenRouter · moonshotai/kimi-k2:free</option>
             <option value="meta-llama/llama-3.3-70b-instruct:free">OpenRouter · llama-3.3-70b:free</option>
             <option value="openai/gpt-4o-mini">OpenRouter · gpt-4o-mini (paid if no free credits)</option>
-            <option value="gemini-2.0-flash">Gemini · gemini-2.0-flash</option>
-            <option value="gemini-1.5-flash">Gemini · gemini-1.5-flash</option>
+            <option value="gemini-3.8-flash">Gemini · gemini-3.8-flash</option>
+            <option value="gemini-2.5-flash">Gemini · gemini-2.5-flash (fallback)</option>
           </select>
         </label>
         <label class="field">API key (saved only in localStorage)
@@ -495,7 +495,10 @@
     const keyEl = document.getElementById("ai-key");
     if (provEl) provEl.value = prov;
     if (modelEl && model) {
-      // ensure option exists
+      // migrate retired Gemini ids
+      if (model === "gemini-2.0-flash" || model === "gemini-1.5-flash" || model === "models/gemini-2.0-flash") {
+        model = "gemini-3.8-flash";
+      }
       let found = false;
       for (const o of modelEl.options) if (o.value === model) found = true;
       if (!found) {
