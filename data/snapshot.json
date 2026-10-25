@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-25T14:08:05.902692+00:00",
-  "generated_at_ist": "2026-10-25 19:38:05 Asia/Calcutta",
-  "disclaimer": "Automated fetch only. Macro fields without a successful free feed are null/Unknown. Manual overrides in the UI are tagged separately. This tool scores dials; it does not replace judgment when dials conflict.",
+  "generated_at_utc": "2026-10-25T19:42:38.319220+00:00",
+  "generated_at_ist": "2026-10-26 01:12:38 Asia/Calcutta",
+  "disclaimer": "Automated fetch only. Failed scrapes are null with warnings \u2014 never invented. FII/DII are equity cash CM (NSE provisional / Moneycontrol), NOT NSDL equity+debt grand total. Manual overrides in the UI are tagged separately. This tool scores dials; it does not replace judgment when dials conflict.",
   "market": {
     "nifty": {
       "symbol": "^NSEI",
@@ -9,6 +9,7 @@
       "prior": 22687.650390625,
       "as_of": "2026-10-23",
       "direction": "falling",
+      "change_1m_pct": -2.3596,
       "source": "Yahoo Finance chart API",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=5d&interval=1d",
       "error": null,
@@ -20,8 +21,9 @@
       "prior": 94.7113037109375,
       "as_of": "2026-10-25",
       "direction": "rising",
+      "change_1m_pct": -0.794,
       "source": "Yahoo Finance chart API",
-      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/INR%3DX?range=5d&interval=1d",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/INR%3DX?range=1mo&interval=1d",
       "error": null,
       "evidence": "fact"
     },
@@ -31,6 +33,7 @@
       "prior": 113.16999816894531,
       "as_of": "2026-10-23",
       "direction": "falling",
+      "change_1m_pct": 2.6749,
       "source": "Yahoo Finance chart API",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?range=5d&interval=1d",
       "error": null,
@@ -42,6 +45,7 @@
       "prior": 99.47000122070312,
       "as_of": "2026-10-23",
       "direction": "rising",
+      "change_1m_pct": 1.454,
       "source": "Yahoo Finance chart API",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CL%3DF?range=5d&interval=1d",
       "error": null,
@@ -53,6 +57,7 @@
       "prior": 4.953000068664551,
       "as_of": "2026-10-23",
       "direction": "rising",
+      "change_1m_pct": -2.8816,
       "source": "Yahoo Finance chart API",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=1d",
       "error": null,
@@ -64,21 +69,37 @@
       "prior": 101.61000061035156,
       "as_of": "2026-10-25",
       "direction": "rising",
+      "change_1m_pct": 0.0786,
       "source": "Yahoo Finance chart API",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=5d&interval=1d",
       "error": null,
       "evidence": "fact"
     },
+    "india_vix": {
+      "symbol": "^INDIAVIX",
+      "value": 16.860000610351562,
+      "prior": 15.760000228881836,
+      "as_of": "2026-10-23",
+      "direction": "rising",
+      "change_1m_pct": 62.8986,
+      "source": "Yahoo Finance chart API",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EINDIAVIX?range=1mo&interval=1d",
+      "error": null,
+      "evidence": "fact"
+    },
     "india10y": {
       "symbol": "India 10Y G-Sec",
-      "value": null,
-      "prior": null,
-      "as_of": null,
-      "direction": "unknown",
-      "source": "Yahoo Finance (symbol not resolved)",
-      "source_url": null,
-      "error": "no free symbol resolved \u2014 enter manually",
-      "evidence": "unknown"
+      "value": 7.473,
+      "prior": 7.462,
+      "as_of": "2026-10-26",
+      "direction": "rising",
+      "change": 0.011,
+      "change_pct": 0.15,
+      "source": "Investing.com India 10-Year Bond Yield",
+      "source_url": "https://www.investing.com/rates-bonds/india-10-year-bond-yield",
+      "error": null,
+      "evidence": "fact",
+      "tenor_note": "target 9Y-10Y / GS ~2035-36 tenorwise when CCIL available"
     }
   },
   "macro": {
@@ -170,30 +191,51 @@
   },
   "flows": {
     "fii_net": {
-      "name": "FII/FPI net (equity, recent session/month)",
-      "value": null,
+      "name": "FII/FPI net (equity cash CM)",
+      "value": 887.65,
       "unit": "INR crore",
-      "as_of": null,
-      "direction": "unknown",
-      "source": "NSDL / NiftyInvestors \u2014 no free unauth feed used",
-      "source_url": null,
-      "error": "enter manually; persists in browser localStorage",
-      "evidence": "unknown"
+      "as_of": "2026-10-23",
+      "direction": "rising",
+      "source": "NSE provisional cash CM (fiidiiTradeReact) \u2014 equity only, not NSDL grand total",
+      "source_url": "https://www.nseindia.com/reports/fii-dii",
+      "error": null,
+      "evidence": "fact",
+      "scope": "equity_cash_CM"
     },
     "dii_net": {
-      "name": "DII net (equity, recent session/month)",
-      "value": null,
+      "name": "DII net (equity cash CM)",
+      "value": 3235.36,
       "unit": "INR crore",
-      "as_of": null,
-      "direction": "unknown",
-      "source": "NSE / NSDL \u2014 enter manually",
-      "source_url": null,
-      "error": "enter manually",
-      "evidence": "unknown"
+      "as_of": "2026-10-23",
+      "direction": "rising",
+      "source": "NSE provisional cash CM (fiidiiTradeReact) \u2014 equity only, not NSDL grand total",
+      "source_url": "https://www.nseindia.com/reports/fii-dii",
+      "error": null,
+      "evidence": "fact",
+      "scope": "equity_cash_CM"
     }
   },
+  "soft_proxy": {
+    "enabled_default": false,
+    "note": "Optional Gate-2 soft proxy ONLY when FII is null AND user enables in UI. Uses USDINR 1m change + India VIX. Clearly labeled proxy, lower weight. Default OFF.",
+    "inr_usd_1m_pct": -0.794,
+    "india_vix": {
+      "value": 16.860000610351562,
+      "direction": "rising",
+      "as_of": "2026-10-23",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EINDIAVIX?range=1mo&interval=1d"
+    }
+  },
+  "warnings": [
+    "Moneycontrol FII/DII scrape failed (HTTPError: HTTP Error 403: Forbidden); trying NSE cash CM API.",
+    "CCIL tenorwise failed (HTTPError: HTTP Error 403: Forbidden).",
+    "CCIL tenorwise failed (HTTPError: HTTP Error 403: Forbidden)."
+  ],
   "fetch_notes": [
-    "Market series with values: 6/7. Macro left Unknown for manual entry.",
-    "india10y: no free symbol resolved \u2014 enter manually"
+    "Market series with values: 8/8.",
+    "FII=887.65 DII=3235.36 india10y=7.473 (null means scrape failed \u2014 do not invent).",
+    "WARN: Moneycontrol FII/DII scrape failed (HTTPError: HTTP Error 403: Forbidden); trying NSE cash CM API.",
+    "WARN: CCIL tenorwise failed (HTTPError: HTTP Error 403: Forbidden).",
+    "WARN: CCIL tenorwise failed (HTTPError: HTTP Error 403: Forbidden)."
   ]
 }

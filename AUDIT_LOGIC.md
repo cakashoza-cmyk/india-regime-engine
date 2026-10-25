@@ -304,3 +304,17 @@ Independent reviewers should ask:
 The weekly rejection-machine process (Gates 1–7, practice ramp, sequence stages) lives in **[OPERATING_FLOWCHART.md](./OPERATING_FLOWCHART.md)**.
 
 **Implemented vs Target (2026-10-26):** Gates 1–7 are in the live Operating wizard UI. DeepSeek assists fill/interpret; outputs are **AI-assisted, not authoritative**. Legacy sleeve tab + `index.legacy.html` preserve the prior single-page dial/sleeve view.
+
+---
+
+## Snapshot flows & India 10Y (wired 2026-10-26)
+
+`refresh_data.py` populates:
+
+| Field | Source priority | Notes |
+|-------|-----------------|-------|
+| `flows.fii_net` / `flows.dii_net` | Moneycontrol cash CM → NSE `fiidiiTradeReact` provisional cash | Equity cash CM only — **not** NSDL equity+debt grand total. Null + warning if scrape fails. |
+| `market.india10y` | CCIL tenorwise → Investing.com India 10Y | Null + warning if scrape fails. |
+| `soft_proxy` | USDINR 1m % + India VIX from Yahoo | UI opt-in only when FII null; **default OFF**; labeled proxy, lower weight. |
+
+Gate 2 Liquidity dial auto-reads snapshot FII / India 10Y. DeepSeek must use snapshot values when present and must not invent nulls.

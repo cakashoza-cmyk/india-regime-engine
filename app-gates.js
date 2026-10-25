@@ -43,6 +43,34 @@
     return (snapshot && snapshot.market && snapshot.market[key]) || {};
   }
 
+  function flowField(key) {
+    return (snapshot && snapshot.flows && snapshot.flows[key]) || {};
+  }
+
+  function snapFii() {
+    var f = flowField("fii_net");
+    if (f.value != null && f.value !== "") return Number(f.value);
+    return null;
+  }
+
+  function snapDii() {
+    var f = flowField("dii_net");
+    if (f.value != null && f.value !== "") return Number(f.value);
+    return null;
+  }
+
+  function snapIndia10y() {
+    var x = mkt("india10y");
+    if (x.value != null && x.value !== "") return x;
+    return { value: null, direction: "unknown", as_of: null, source: null, source_url: null };
+  }
+
+  function softProxyEnabled() {
+    var el = document.getElementById("g2-soft-proxy");
+    if (el) return !!el.checked;
+    try { return localStorage.getItem("india_regime_soft_proxy") === "1"; } catch (e) { return false; }
+  }
+
   function majorityDirection(dirs) {
     const known = dirs.filter((d) => d && d !== "unknown" && d !== "flat");
     if (known.length < 1) return { score: "Unclear", detail: "insufficient known directions" };
@@ -83,29 +111,73 @@
 
   function scoreLiquidity() {
     const dirs = [];
+    const notes = [];
     const stance = manual.rbi_stance || "unknown";
-    if (stance === "tightening") dirs.push("falling"); // contracting liquidity
+    if (stance === "tightening") dirs.push("falling");
     else if (stance === "accommodative") dirs.push("rising");
+
     const us10 = mkt("us10y").direction || manual.us10y_dir || "unknown";
     const dxy = mkt("dxy").direction || "unknown";
     const inr = mkt("inr_usd").direction || "unknown";
-    const india10 = manual.india10y_dir || "unknown";
-    // rising yields / DXY / INR-per-USD => contracting
+
+    // India 10Y: prefer snapshot market.india10y; manual only as override
+    const i10 = snapIndia10y();
+    let india10 = "unknown";
+    if (manual.india10y_dir && manual.india10y_dir !== "unknown" && manual._ev && manual._ev.india10y_dir === "manual") {
+      india10 = manual.india10y_dir;
+      notes.push("India10Y dir from manual override");
+    } else if (i10.direction && i10.direction !== "unknown") {
+      india10 = i10.direction;
+      notes.push("India10Y from snapshot " + (i10.value != null ? i10.value + "%" : "") + (i10.as_of ? " @" + i10.as_of : ""));
+    } else if (manual.india10y_dir) {
+      india10 = manual.india10y_dir;
+    }
+
     function toLiq(dir) {
-      if (dir === "rising") return "falling";
+      if (dir === "rising") return "falling"; // rising yields/DXY/INR-per-USD => contracting
       if (dir === "falling") return "rising";
       return dir;
     }
-    [us10, dxy, inr, india10].forEach((d) => dirs.push(toLiq(d)));
-    const fii = Number(manual.fii);
-    if (!isNaN(fii)) {
+    [us10, dxy, inr, india10].forEach(function (d) { dirs.push(toLiq(d)); });
+
+    // FII: prefer snapshot.flows.fii_net; manual override if explicitly set
+    let fii = snapFii();
+    let fiiSrc = "snapshot";
+    if (manual.fii != null && manual.fii !== "" && manual._ev && manual._ev.fii === "manual") {
+      fii = Number(manual.fii);
+      fiiSrc = "manual";
+    } else if (fii == null && manual.fii != null && manual.fii !== "") {
+      fii = Number(manual.fii);
+      fiiSrc = "manual/ai";
+    }
+    if (fii != null && !isNaN(fii)) {
       if (fii > 500) dirs.push("rising");
       else if (fii < -500) dirs.push("falling");
+      notes.push("FII " + fii + " cr (" + fiiSrc + ")");
+    } else {
+      notes.push("FII null in snapshot — not invented");
+      // Soft proxy (default OFF): only if FII null AND user enabled
+      if (softProxyEnabled()) {
+        const inr1m = (snapshot.soft_proxy && snapshot.soft_proxy.inr_usd_1m_pct != null)
+          ? Number(snapshot.soft_proxy.inr_usd_1m_pct)
+          : (mkt("inr_usd").change_1m_pct != null ? Number(mkt("inr_usd").change_1m_pct) : null);
+        const vixDir = (mkt("india_vix").direction) || "unknown";
+        // Weaker INR over 1m (INR=X up) + rising VIX => contracting (lower weight: single vote)
+        if (inr1m != null && inr1m > 1.0) dirs.push("falling");
+        else if (inr1m != null && inr1m < -1.0) dirs.push("rising");
+        if (vixDir === "rising") dirs.push("falling");
+        else if (vixDir === "falling") dirs.push("rising");
+        notes.push("SOFT PROXY (labeled, lower weight): USDINR 1m=" + inr1m + "% VIX=" + vixDir);
+      }
     }
+
+    // DII recorded for display; does not vote (same as prior AUDIT rule)
+    const dii = snapDii();
+    if (dii != null && !isNaN(dii)) notes.push("DII " + dii + " cr (snapshot, non-voting)");
+
     const base = majorityDirection(dirs);
-    // Hard stress: FII very negative + INR weakening + DXY rising
     const hard =
-      (!isNaN(fii) && fii < -2000) ||
+      (fii != null && !isNaN(fii) && fii < -2000) ||
       (inr === "rising" && dxy === "rising" && (us10 === "rising" || india10 === "rising"));
     let score = base.score;
     if (score === "Rising") score = "Expanding";
@@ -113,8 +185,12 @@
     if (hard) score = "Contracting";
     return {
       score: score,
-      detail: (base.detail || "") + (hard ? " · hard stress overlay" : ""),
+      detail: (base.detail || "") + (hard ? " · hard stress overlay" : "") + (notes.length ? " · " + notes.join("; ") : ""),
       hard: hard,
+      fii: fii,
+      dii: dii,
+      india10y: i10.value,
+      india10y_dir: india10,
     };
   }
 
@@ -367,6 +443,29 @@
     renderOps();
   }
 
+
+  function snapshotRatesHtml() {
+    var fii = flowField("fii_net");
+    var dii = flowField("dii_net");
+    var i10 = snapIndia10y();
+    var warn = (snapshot.warnings || []).slice(0, 3).map(function (w) {
+      return '<div class="muted">⚠ ' + escapeHtml(w) + "</div>";
+    }).join("");
+    function cell(label, val, asof, src, url) {
+      var v = val == null || val === "" ? "null" : String(val);
+      var extra = (asof ? " · " + asof : "") + (src ? " · " + src : "");
+      var link = url ? ' <a href="' + escapeHtml(url) + '" style="color:#93c5fd" target="_blank" rel="noopener">src</a>' : "";
+      return '<div class="dial"><div class="name">' + label + '</div><div class="score" style="font-size:1rem">' +
+        escapeHtml(v) + '</div><div class="muted">' + escapeHtml(extra) + link + "</div></div>";
+    }
+    return '<div style="margin:10px 0 6px;font-size:.8rem;color:var(--muted)">Snapshot feeds (auto → Liquidity). Null = scrape failed — never invented.</div>' +
+      '<div class="row">' +
+      cell("FII net ₹cr", fii.value, fii.as_of, fii.source, fii.source_url) +
+      cell("DII net ₹cr", dii.value, dii.as_of, dii.source, dii.source_url) +
+      cell("India 10Y %", i10.value, i10.as_of, i10.source, i10.source_url) +
+      "</div>" + warn;
+  }
+
   function renderGate1() {
     return '<div class="panel"><h2>Gate 1 — QUESTION</h2>' +
       '<p class="muted">One sentence: what asset / horizon / decision? Cannot state → STOP.</p>' +
@@ -409,7 +508,9 @@
       "<p style=\"margin-top:10px\"><strong>Sleeve:</strong> " + escapeHtml(scores.call.sleeve) +
       " · <strong>Conviction:</strong> " + escapeHtml(scores.call.confidence || "—") + "</p>" +
       '<p class="muted">' + escapeHtml(scores.call.regime || "") + "</p>" +
+      snapshotRatesHtml() +
       '<label class="field">Notes / market vote<textarea id="g2-notes" class="blue">' + escapeHtml(run.g2.notes || "") + "</textarea></label>" +
+      '<label class="check" style="margin-top:8px"><input type="checkbox" id="g2-soft-proxy"/> <span>Soft proxy if FII null (USDINR 1m + India VIX) — <strong>default OFF</strong>, labeled proxy, lower weight</span></label>' +
       '<div class="row" style="margin-top:10px">' +
       '<button type="button" class="primary" id="g2-ai">Fill dials with AI <span class="ai-tag">AI</span></button>' +
       '<button type="button" class="stop" id="g2-stop">STOP Unclear</button>' +
@@ -418,6 +519,15 @@
   }
 
   function wireGate2() {
+
+    var sp = document.getElementById("g2-soft-proxy");
+    if (sp) {
+      try { sp.checked = localStorage.getItem("india_regime_soft_proxy") === "1"; } catch (e) {}
+      sp.onchange = function () {
+        try { localStorage.setItem("india_regime_soft_proxy", sp.checked ? "1" : "0"); } catch (e) {}
+        renderOps();
+      };
+    }
     document.getElementById("g2-notes").oninput = function (e) { run.g2.notes = e.target.value; saveRun(); };
     document.getElementById("g2-stop").onclick = function () {
       document.getElementById("g2-verdict").innerHTML = verdictBox("stop", "STOP — Unclear", "Wait for dial consensus.");
@@ -437,12 +547,17 @@
       var st = document.getElementById("g2-status");
       st.className = "status loading"; st.textContent = "Calling DeepSeek…";
       try {
-        var snapBrief = JSON.stringify({ generated: snapshot.generated_at_ist, market: snapshot.market || {} }).slice(0, 6000);
+        var snapBrief = JSON.stringify({ generated: snapshot.generated_at_ist, market: snapshot.market || {}, flows: snapshot.flows || {}, warnings: snapshot.warnings || [] }).slice(0, 8000);
         var data = await callDeepSeek([
-          { role: "system", content: "India macro regime assistant. Return JSON only. Schema keys: gdp,gdp_dir,iip,iip_dir,cpi,cpi_dir,core,core_dir,food,food_dir,fii,dii,repo,rbi_stance,india10y,india10y_dir,warnings (array). dirs in rising|falling|flat|unknown. rbi_stance in tightening|neutral|accommodative|unknown. Do not invent fake precision." },
-          { role: "user", content: "Fill latest India macro dials. Yahoo snapshot (fact for market prints): " + snapBrief },
+          { role: "system", content: "India macro regime assistant. Return JSON only. Schema keys: gdp,gdp_dir,iip,iip_dir,cpi,cpi_dir,core,core_dir,food,food_dir,fii,dii,repo,rbi_stance,india10y,india10y_dir,warnings (array). dirs in rising|falling|flat|unknown. rbi_stance in tightening|neutral|accommodative|unknown. CRITICAL: use snapshot FII/DII/India10Y when present (non-null); never invent FII, DII, or india10y if snapshot value is null — leave null and add a warning. Do not invent fake precision." },
+          { role: "user", content: "Fill latest India macro dials. Snapshot JSON includes market + flows.fii_net/dii_net + market.india10y (fact when non-null). Use snapshot FII/DII/10Y when present; never invent if null. Snapshot: " + snapBrief },
         ]);
         manual._ev = manual._ev || {};
+
+        // Never let AI overwrite non-null snapshot FII/DII/10Y with invented numbers
+        if (snapFii() != null) { delete data.fii; }
+        if (snapDii() != null) { delete data.dii; }
+        if (snapIndia10y().value != null) { delete data.india10y; delete data.india10y_dir; }
         ["gdp", "iip", "cpi", "core", "food", "fii", "dii", "repo", "india10y"].forEach(function (k) {
           if (data[k] != null && data[k] !== "") { manual[k] = data[k]; manual._ev[k] = "ai"; }
         });
@@ -796,6 +911,32 @@
       "</ul></div></div>";
   }
 
+
+  function hydrateManualFromSnapshot() {
+    // Seed dial inputs from snapshot when manual empty — tagged as coming from snapshot fact feed
+    manual._ev = manual._ev || {};
+    var fii = snapFii();
+    var dii = snapDii();
+    var i10 = snapIndia10y();
+    if ((manual.fii == null || manual.fii === "") && fii != null) {
+      manual.fii = fii;
+      manual._ev.fii = "fact";
+    }
+    if ((manual.dii == null || manual.dii === "") && dii != null) {
+      manual.dii = dii;
+      manual._ev.dii = "fact";
+    }
+    if ((manual.india10y == null || manual.india10y === "") && i10.value != null) {
+      manual.india10y = i10.value;
+      manual._ev.india10y = "fact";
+      if (i10.direction && i10.direction !== "unknown") {
+        manual.india10y_dir = i10.direction;
+        manual._ev.india10y_dir = "fact";
+      }
+    }
+    try { saveManual(); } catch (e) {}
+  }
+
   async function boot() {
     document.getElementById("ai-key").value = localStorage.getItem(LS_AI_KEY) || "";
     document.getElementById("ai-model").value = localStorage.getItem(LS_AI_MODEL) || "deepseek-chat";
@@ -804,8 +945,9 @@
       var res = await fetch("./data/snapshot.json", { cache: "no-store" });
       if (res.ok) snapshot = await res.json();
     } catch (e) {
-      snapshot = { generated_at_ist: "offline / snapshot unreadable", market: {} };
+      snapshot = { generated_at_ist: "offline / snapshot unreadable", market: {}, flows: {}, warnings: ["snapshot unreadable"] };
     }
+    hydrateManualFromSnapshot();
     renderOps();
   }
 

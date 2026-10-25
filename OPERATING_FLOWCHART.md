@@ -135,6 +135,8 @@ Practice mode in the live app mirrors this ramp (Gates 1–3 / through 4 / throu
 | 6 STAGE | Stages 1–6 checklist | **In UI**; AI stage diagnosis |
 | 7 EDGE | Journal + export | **In UI**; AI draft journal |
 
+**Snapshot feeds (2026-10-26):** FII/DII equity cash CM + India 10Y auto-populated by `refresh_data.py` into Gate 2 Liquidity (null if scrape fails). Soft proxy default OFF.
+
 **Automation stance:** DeepSeek assists fill/interpret. Outputs are **AI-assisted, not authoritative**. User must verify MOSPI / RBI / NSDL / filings. Yahoo `data/snapshot.json` remains the market feed. Legacy single-page sleeve view kept as secondary tab **Legacy sleeve**.
 
 ---
