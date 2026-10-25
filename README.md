@@ -8,6 +8,16 @@ This automates scoring and consistency. It does **not** replace human judgment w
 
 AI macro fill uses **DeepSeek only** and is **best-effort**. Models can hallucinate or return stale figures. AI-filled fields are tagged `ai` — always verify against MOSPI / RBI / NSDL before acting.
 
+## Accuracy rules (v2)
+
+1. **Liquidity pack** — FII, DII, India 10Y (plus RBI stance, US10Y, DXY, INR) feed the Liquidity dial. Reflation + Contracting liquidity → sleeve **Selective cyclicals / dry powder** (not full Cyclicals-Reflation).
+2. **Inflation split** — crude/food up with core flat/falling → **Transitory** (not Rising for the quadrant).
+3. **Confirmation** — sleeve confirms only after the same call holds for **2** Save/AI evaluations.
+4. **Conviction** — Strong / Mixed / Unclear. Concrete OW/UW buy list only when **Strong and confirmed**.
+5. **Sleeve map** — Risk-On only if Growth↑ + Inflation↓ + Liquidity expanding; Selective cyclicals when Reflation + tight liquidity; Risk-Off on stagflation or hard liquidity stress.
+
+
+
 ## Open locally
 
 ```bash
