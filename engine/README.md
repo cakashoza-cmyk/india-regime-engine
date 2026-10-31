@@ -72,3 +72,9 @@ On 4xx/5xx/timeout, fetch falls back to plain HTTP (`search_adapter.plain_fetch`
 
 ## Feeding official prints
 Edit `engine/manual_inputs.json` (value, prior, as_of = reference period, source_url) after each MOSPI/RBI/PIB release and commit; the next run uses it over the older DBIE vintage.
+
+## Backtest (lower priority, shipped after MVP)
+`python backtest/run_2018_2024.py` replays 2018–2024 month-ends through `engine/logic.py` using only sourced history
+(DBIE CPI/food/IIP, FRED GDP/call-money/India 10Y, Yahoo markets) → `backtest/report_2018_2024.md`.
+Gaps not invented: core CPI, GST, credit growth, FII, breadth, OBICUS, RBI stance; repo history uses call-money as proxy.
+Because credit growth has no sourced history, the stage climb can't pass gate 2 in replay (max stage 1).
