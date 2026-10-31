@@ -1,0 +1,644 @@
+{
+  "generated_at_ist": "2026-10-31 14:04 IST",
+  "run_id": "20261031T140354-4dd4e1",
+  "snapshot_date": "2026-10-31",
+  "regime_label": "Unclear",
+  "sub_label": "transitional",
+  "stage": 0,
+  "scores": {
+    "growth": null,
+    "inflation": -1,
+    "liquidity": 0.286,
+    "vote": 0,
+    "fragility": -1
+  },
+  "tier1_flips": 0,
+  "tier2_confirmed": false,
+  "gap_description": "No macro regime call \u2014 cannot price a gap. STOP.",
+  "sizing_recommendation": "[PAPER] WAIT size 0.00 (stage 0 < 2); sleeve: STOP \u2014 no regime-driven call (live-data coverage 56% < 60%; sleeve Unclear; conviction Unclear).",
+  "invalidation_conditions": [
+    {
+      "indicator": "capacity_util",
+      "rule": "Capacity utilisation > 75%",
+      "value": null,
+      "status": "unknown"
+    },
+    {
+      "indicator": "cpi_headline",
+      "rule": "CPI > 6.0%",
+      "value": 1.33,
+      "status": "unknown (stale)"
+    },
+    {
+      "indicator": "us10y",
+      "rule": "US10Y > 5.5%",
+      "value": 4.928999900817871,
+      "status": "not triggered"
+    },
+    {
+      "indicator": "usdinr_ref",
+      "rule": "USDINR > 98",
+      "value": 95.2492,
+      "status": "not triggered"
+    }
+  ],
+  "detail": {
+    "dial_labels": {
+      "growth": "Unclear",
+      "inflation": "Unclear",
+      "liquidity": "Expanding",
+      "liquidity_hard": false
+    },
+    "rbi_stance": null,
+    "quadrant": "Unclear",
+    "sleeve": "Unclear",
+    "conviction": "Unclear",
+    "confirmation": "transitional",
+    "coverage": 0.56,
+    "change": "no change",
+    "liq_signals": {
+      "us10y": "exp",
+      "dxy": "exp",
+      "usdinr_ref": "unknown",
+      "india10y": "con",
+      "repo_rate": "unknown",
+      "fii_net": "exp"
+    },
+    "n_indicators": 13,
+    "stage_trail": [
+      {
+        "gate": 1,
+        "name": "Rate peak",
+        "passed": false
+      }
+    ],
+    "gap_type": "unknown",
+    "flips": [
+      {
+        "indicator": "repo_rate",
+        "current_value": 5.5,
+        "flip_level": 5.5,
+        "flip_direction": "above",
+        "is_flipped": false,
+        "tier": 1,
+        "stale": false
+      },
+      {
+        "indicator": "india10y",
+        "current_value": 7.412,
+        "flip_level": 7.25,
+        "flip_direction": "below",
+        "is_flipped": false,
+        "tier": 1,
+        "stale": false
+      },
+      {
+        "indicator": "cpi_headline",
+        "current_value": 1.33,
+        "flip_level": 4.0,
+        "flip_direction": "above",
+        "is_flipped": false,
+        "tier": 1,
+        "stale": true
+      },
+      {
+        "indicator": "fii_net",
+        "current_value": 3598.54,
+        "flip_level": -3000,
+        "flip_direction": "below",
+        "is_flipped": false,
+        "tier": 1,
+        "stale": false
+      },
+      {
+        "indicator": "brent",
+        "current_value": 117.63999938964844,
+        "flip_level": 100.0,
+        "flip_direction": "below",
+        "is_flipped": false,
+        "tier": 2,
+        "stale": false
+      },
+      {
+        "indicator": "india_vix",
+        "current_value": 15.300000190734863,
+        "flip_level": 20.0,
+        "flip_direction": "above",
+        "is_flipped": false,
+        "tier": 2,
+        "stale": false
+      },
+      {
+        "indicator": "usdinr_ref",
+        "current_value": 95.2492,
+        "flip_level": 95.0,
+        "flip_direction": "above",
+        "is_flipped": true,
+        "tier": 2,
+        "stale": false
+      },
+      {
+        "indicator": "us10y",
+        "current_value": 4.928999900817871,
+        "flip_level": 4.5,
+        "flip_direction": "above",
+        "is_flipped": true,
+        "tier": 2,
+        "stale": false
+      }
+    ],
+    "regime_changes": {
+      "currency": 0.0,
+      "growth": 0.0,
+      "rates": 0.5,
+      "funding_cost": 0.5,
+      "credit_growth": 0.0,
+      "asset_quality": 0.0,
+      "liquidity": 0.286,
+      "commodities": 1.0,
+      "inflation": 1.0,
+      "risk_off": 1.0
+    },
+    "driver_nulls": [
+      "growth: null -> 0",
+      "credit_growth: null -> 0",
+      "asset_quality: null -> 0"
+    ],
+    "sectors": [
+      {
+        "sector": "FMCG",
+        "marginal_driver": "risk_off",
+        "impact": 0.2,
+        "impacts": {
+          "risk_off": 0.2,
+          "inflation": -0.2
+        },
+        "verdict": "TOO CLOSE TO CALL"
+      },
+      {
+        "sector": "IT",
+        "marginal_driver": "rates",
+        "impact": 0.05,
+        "impacts": {
+          "currency": 0.0,
+          "growth": 0.0,
+          "rates": 0.05
+        },
+        "verdict": "own"
+      },
+      {
+        "sector": "PSU_BANKS",
+        "marginal_driver": "rates",
+        "impact": -0.2,
+        "impacts": {
+          "credit_growth": 0.0,
+          "asset_quality": 0.0,
+          "rates": -0.2
+        },
+        "verdict": "avoid"
+      },
+      {
+        "sector": "AUTOS",
+        "marginal_driver": "rates",
+        "impact": -0.45,
+        "impacts": {
+          "rates": -0.45,
+          "growth": 0.0,
+          "commodities": -0.3
+        },
+        "verdict": "avoid"
+      },
+      {
+        "sector": "REAL_ESTATE",
+        "marginal_driver": "rates",
+        "impact": -0.5,
+        "impacts": {
+          "rates": -0.5,
+          "liquidity": -0.2
+        },
+        "verdict": "avoid"
+      },
+      {
+        "sector": "NBFC",
+        "marginal_driver": "funding_cost",
+        "impact": -0.5,
+        "impacts": {
+          "funding_cost": -0.5,
+          "liquidity": -0.229
+        },
+        "verdict": "avoid"
+      }
+    ],
+    "position": {
+      "action": "wait",
+      "size": 0.0,
+      "reason": "stage 0 < 2",
+      "paper": true
+    },
+    "sleeve_view": {
+      "action": "STOP",
+      "text": "STOP \u2014 no regime-driven call (live-data coverage 56% < 60%; sleeve Unclear; conviction Unclear).",
+      "own": [],
+      "avoid": []
+    },
+    "paper_label": "PAPER / FOR REVIEW \u2014 not a live trade instruction (backtests showed no confirmed edge).",
+    "check_back_date": "2026-11-30",
+    "fragility_level": 1.0,
+    "gap_conviction": 0.0
+  },
+  "indicators": [
+    {
+      "indicator": "iip_yoy",
+      "dial": "growth",
+      "value": 4.15,
+      "prior_value": 5.1,
+      "direction": -1,
+      "score": -1,
+      "weight": 1,
+      "as_of": "2026-03-31",
+      "is_stale": true,
+      "stale_since": "vintage:2026-03-31",
+      "source": "dbie",
+      "source_url": "https://data-api.dbie.rbihub.in/api/tables/real_sector/inx_inds_prod_rn/rows?inds_prod_class_rn=SEC_GEN_INDX"
+    },
+    {
+      "indicator": "cpi_headline",
+      "dial": "inflation",
+      "value": 1.33,
+      "prior_value": 0.71,
+      "direction": 1,
+      "score": -1,
+      "weight": 2,
+      "as_of": "2025-12-31",
+      "is_stale": true,
+      "stale_since": "vintage:2025-12-31",
+      "source": "dbie",
+      "source_url": "https://data-api.dbie.rbihub.in/api/tables/real_sector/cpi_ruc_rn/rows?comd_item=C_GIAG&coverage_geo_rn=ALL_INDIA"
+    },
+    {
+      "indicator": "food_inflation",
+      "dial": "inflation",
+      "value": -2.71,
+      "prior_value": -3.91,
+      "direction": 1,
+      "score": -1,
+      "weight": 1,
+      "as_of": "2025-12-31",
+      "is_stale": true,
+      "stale_since": "vintage:2025-12-31",
+      "source": "dbie",
+      "source_url": "https://data-api.dbie.rbihub.in/api/tables/real_sector/cpi_ruc_rn/rows?comd_item=C_CFPI&coverage_geo_rn=ALL_INDIA"
+    },
+    {
+      "indicator": "brent",
+      "dial": "inflation",
+      "value": 117.63999938964844,
+      "prior_value": 114.87999725341797,
+      "direction": 1,
+      "score": -1,
+      "weight": 1,
+      "as_of": "2026-10-30",
+      "is_stale": false,
+      "stale_since": null,
+      "source": "yahoo",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?range=1mo&interval=1d"
+    },
+    {
+      "indicator": "repo_rate",
+      "dial": "liquidity",
+      "value": 5.5,
+      "prior_value": null,
+      "direction": 0,
+      "score": 0,
+      "weight": 2,
+      "as_of": "2026-10-31",
+      "is_stale": false,
+      "stale_since": null,
+      "source": "rbi",
+      "source_url": "https://www.rbi.org.in/"
+    },
+    {
+      "indicator": "india10y",
+      "dial": "liquidity",
+      "value": 7.412,
+      "prior_value": 7.387,
+      "direction": 1,
+      "score": -1,
+      "weight": 1,
+      "as_of": "2026-10-31",
+      "is_stale": false,
+      "stale_since": null,
+      "source": "investing",
+      "source_url": "https://www.investing.com/rates-bonds/india-10-year-bond-yield"
+    },
+    {
+      "indicator": "fii_net",
+      "dial": "liquidity",
+      "value": 3598.54,
+      "prior_value": null,
+      "direction": 0,
+      "score": 1,
+      "weight": 1,
+      "as_of": "2026-10-30",
+      "is_stale": false,
+      "stale_since": null,
+      "source": "nse",
+      "source_url": "https://www.nseindia.com/reports/fii-dii"
+    },
+    {
+      "indicator": "usdinr_ref",
+      "dial": "liquidity",
+      "value": 95.2492,
+      "prior_value": null,
+      "direction": 0,
+      "score": 0,
+      "weight": 1,
+      "as_of": "2026-10-31",
+      "is_stale": false,
+      "stale_since": null,
+      "source": "rbi",
+      "source_url": "https://www.rbi.org.in/"
+    },
+    {
+      "indicator": "us10y",
+      "dial": "liquidity",
+      "value": 4.928999900817871,
+      "prior_value": 4.988999843597412,
+      "direction": -1,
+      "score": 1,
+      "weight": 1,
+      "as_of": "2026-10-30",
+      "is_stale": false,
+      "stale_since": null,
+      "source": "yahoo",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=1mo&interval=1d"
+    },
+    {
+      "indicator": "dxy",
+      "dial": "liquidity",
+      "value": 101.87999725341797,
+      "prior_value": 102.04000091552734,
+      "direction": -1,
+      "score": 1,
+      "weight": 1,
+      "as_of": "2026-10-30",
+      "is_stale": false,
+      "stale_since": null,
+      "source": "yahoo",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=1mo&interval=1d"
+    },
+    {
+      "indicator": "nifty",
+      "dial": "vote",
+      "value": 23053.099609375,
+      "prior_value": 22936.75,
+      "direction": 1,
+      "score": 1,
+      "weight": 1,
+      "as_of": "2026-10-30",
+      "is_stale": false,
+      "stale_since": null,
+      "source": "yahoo",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=1mo&interval=1d"
+    },
+    {
+      "indicator": "nifty_bank",
+      "dial": "vote",
+      "value": 54686.94921875,
+      "prior_value": 54909.6484375,
+      "direction": -1,
+      "score": -1,
+      "weight": 1,
+      "as_of": "2026-10-30",
+      "is_stale": false,
+      "stale_since": null,
+      "source": "yahoo",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEBANK?range=1mo&interval=1d"
+    },
+    {
+      "indicator": "india_vix",
+      "dial": "fragility",
+      "value": 15.300000190734863,
+      "prior_value": 15.119999885559082,
+      "direction": 1,
+      "score": -1,
+      "weight": 1,
+      "as_of": "2026-10-30",
+      "is_stale": false,
+      "stale_since": null,
+      "source": "yahoo",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EINDIAVIX?range=1mo&interval=1d"
+    },
+    {
+      "indicator": "dii_net",
+      "dial": "fragility",
+      "value": -817.51,
+      "prior_value": null,
+      "direction": 0,
+      "score": 0,
+      "weight": 0,
+      "as_of": "2026-10-30",
+      "is_stale": false,
+      "stale_since": null,
+      "source": "nse",
+      "source_url": "https://www.nseindia.com/reports/fii-dii"
+    },
+    {
+      "indicator": "nifty_auto",
+      "dial": "stage",
+      "value": 25422.69921875,
+      "prior_value": 25645.599609375,
+      "direction": -1,
+      "score": -1,
+      "weight": 0,
+      "as_of": "2026-10-30",
+      "is_stale": false,
+      "stale_since": null,
+      "source": "yahoo",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ECNXAUTO?range=1mo&interval=1d"
+    },
+    {
+      "indicator": "nifty_metal",
+      "dial": "stage",
+      "value": 11784.900390625,
+      "prior_value": 11848.4501953125,
+      "direction": -1,
+      "score": -1,
+      "weight": 0,
+      "as_of": "2026-10-30",
+      "is_stale": false,
+      "stale_since": null,
+      "source": "yahoo",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ECNXMETAL?range=1mo&interval=1d"
+    }
+  ],
+  "source_log": [
+    {
+      "indicator": "nifty",
+      "source": "yahoo",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "nifty_bank",
+      "source": "yahoo",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "nifty_auto",
+      "source": "yahoo",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "nifty_metal",
+      "source": "yahoo",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "brent",
+      "source": "yahoo",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "us10y",
+      "source": "yahoo",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "dxy",
+      "source": "yahoo",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "india_vix",
+      "source": "yahoo",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "repo_rate",
+      "source": "rbi.org.in",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "usdinr_ref",
+      "source": "rbi.org.in",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "fii_net",
+      "source": "NSE provisional cash CM (fiidiiTradeReact) \u2014 equity only, not NSDL grand total",
+      "ok": true,
+      "error": "Moneycontrol FII/DII page fetched but cash CM numbers not parsed; trying NSE."
+    },
+    {
+      "indicator": "dii_net",
+      "source": "NSE provisional cash CM (fiidiiTradeReact) \u2014 equity only, not NSDL grand total",
+      "ok": true,
+      "error": "Moneycontrol FII/DII page fetched but cash CM numbers not parsed; trying NSE."
+    },
+    {
+      "indicator": "india10y",
+      "source": "Investing.com India 10-Year Bond Yield",
+      "ok": true,
+      "error": "CCIL tenorwise failed (HTTPError: HTTP Error 403: Forbidden).; CCIL tenorwise failed (HTTPError: HTTP Error 403: Forbidden)."
+    },
+    {
+      "indicator": "cpi_headline",
+      "source": "rbi dbie api",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "food_inflation",
+      "source": "rbi dbie api",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "iip_yoy",
+      "source": "rbi dbie api",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "gdp_yoy",
+      "source": "manual",
+      "ok": false,
+      "error": "no official print entered in engine/manual_inputs.json"
+    },
+    {
+      "indicator": "iip_yoy",
+      "source": "manual",
+      "ok": false,
+      "error": "no official print entered in engine/manual_inputs.json"
+    },
+    {
+      "indicator": "gst_yoy",
+      "source": "manual",
+      "ok": false,
+      "error": "no official print entered in engine/manual_inputs.json"
+    },
+    {
+      "indicator": "cpi_headline",
+      "source": "manual",
+      "ok": false,
+      "error": "no official print entered in engine/manual_inputs.json"
+    },
+    {
+      "indicator": "cpi_core",
+      "source": "manual",
+      "ok": false,
+      "error": "no official print entered in engine/manual_inputs.json"
+    },
+    {
+      "indicator": "food_inflation",
+      "source": "manual",
+      "ok": false,
+      "error": "no official print entered in engine/manual_inputs.json"
+    },
+    {
+      "indicator": "credit_growth",
+      "source": "manual",
+      "ok": false,
+      "error": "no official print entered in engine/manual_inputs.json"
+    },
+    {
+      "indicator": "capacity_util",
+      "source": "manual",
+      "ok": false,
+      "error": "no official print entered in engine/manual_inputs.json"
+    },
+    {
+      "indicator": "breadth_200dma",
+      "source": "stub",
+      "ok": false,
+      "error": "NSE bhavcopy breadth not wired in v1"
+    },
+    {
+      "indicator": "credit_growth",
+      "source": "stub",
+      "ok": false,
+      "error": "no current fortnightly credit series wired in v1 (DBIE scrape lags) \u2014 paste official % in manual_inputs.json"
+    },
+    {
+      "indicator": "deepseek_numbers",
+      "source": "deepseek",
+      "ok": false,
+      "error": "DEEPSEEK_API_KEY not set \u2014 skipped"
+    }
+  ],
+  "alert": {
+    "sent": [],
+    "text": null,
+    "note": "no change \u2014 nothing sent"
+  }
+}

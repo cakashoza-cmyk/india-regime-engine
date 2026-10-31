@@ -1,0 +1,48 @@
+name: Macro Regime Engine
+on:
+  workflow_dispatch:
+    inputs:
+      force_language:
+        description: "Run DeepSeek language jobs now"
+        type: boolean
+        default: false
+  schedule:
+    # IST = UTC+5:30. Mon-Fri: 10:15 (RBI), 12:45 (RBI ref rate), 16:05 (CPI/IIP + market close), 18:30 (FII/DII)
+    - cron: "45 4 * * 1-5"
+    - cron: "15 7 * * 1-5"
+    - cron: "35 10 * * 1-5"
+    - cron: "0 13 * * 1-5"
+    # 1st of month 12:00 IST (GST)
+    - cron: "30 6 1 * *"
+permissions:
+  contents: write
+concurrency:
+  group: regime-engine
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install pytest
+      - run: python -m pytest -q engine/tests
+      - name: Pipeline
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+        run: python engine/pipeline.py ${{ inputs.force_language && '--force-language' || '' }}
+      - name: Commit snapshot
+        run: |
+          git config user.name "regime-engine-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/regime_latest.json data/regime_history.json engine/regime.db
+          git diff --cached --quiet || git commit -m "engine snapshot $(date -u +%FT%TZ)"
+          git pull --rebase -X ours origin main || true
+          git push

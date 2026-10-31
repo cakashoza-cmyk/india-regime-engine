@@ -1,0 +1,52 @@
+{
+  "_help": "Paste OFFICIAL prints only (MOSPI/RBI/PIB). value + prior + as_of + source_url. Leave value null if unknown \u2014 the engine never invents. Commit the file; the next run picks it up.",
+  "gdp_yoy": {
+    "value": null,
+    "prior": null,
+    "as_of": null,
+    "source_url": null
+  },
+  "iip_yoy": {
+    "value": null,
+    "prior": null,
+    "as_of": null,
+    "source_url": null
+  },
+  "gst_yoy": {
+    "value": null,
+    "prior": null,
+    "as_of": null,
+    "source_url": null
+  },
+  "cpi_headline": {
+    "value": null,
+    "prior": null,
+    "as_of": null,
+    "source_url": null
+  },
+  "cpi_core": {
+    "value": null,
+    "prior": null,
+    "as_of": null,
+    "source_url": null
+  },
+  "food_inflation": {
+    "value": null,
+    "prior": null,
+    "as_of": null,
+    "source_url": null
+  },
+  "credit_growth": {
+    "value": null,
+    "prior": null,
+    "as_of": null,
+    "source_url": null
+  },
+  "capacity_util": {
+    "value": null,
+    "prior": null,
+    "as_of": null,
+    "source_url": null,
+    "note": "RBI OBICUS %"
+  }
+}

@@ -1,0 +1,7 @@
+# core pipeline uses only the standard library
+pytest
+# optional local extras
+fastapi
+uvicorn
+apscheduler
+psycopg[binary]

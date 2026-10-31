@@ -1,0 +1,9 @@
+{
+  "_help": "Transmission weights (Module 6 spec). Add a sector by adding a key; drivers must be one of: currency, growth, rates, credit_growth, asset_quality, commodities, liquidity, funding_cost, risk_off, inflation.",
+  "IT":          {"currency": 1.0, "growth": 0.3, "rates": 0.1},
+  "PSU_BANKS":   {"credit_growth": 0.8, "asset_quality": 0.8, "rates": -0.4},
+  "AUTOS":       {"rates": -0.9, "growth": 0.6, "commodities": -0.3},
+  "REAL_ESTATE": {"rates": -1.0, "liquidity": -0.7},
+  "NBFC":        {"funding_cost": -1.0, "liquidity": -0.8},
+  "FMCG":        {"risk_off": 0.2, "inflation": -0.2}
+}

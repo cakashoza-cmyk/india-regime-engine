@@ -1,0 +1,46 @@
+[
+  {
+    "generated_at_ist": "2026-10-31 14:03 IST",
+    "run_id": "20261031T140346-3b4f47",
+    "regime_label": "Unclear",
+    "sub_label": "transitional",
+    "stage": 0,
+    "scores": {
+      "growth": null,
+      "inflation": -1,
+      "liquidity": 0.286,
+      "vote": 0,
+      "fragility": -1
+    },
+    "position": {
+      "action": "wait",
+      "size": 0.0,
+      "reason": "stage 0 < 2",
+      "paper": true
+    },
+    "check_back_date": "2026-11-30",
+    "outcome": null
+  },
+  {
+    "generated_at_ist": "2026-10-31 14:04 IST",
+    "run_id": "20261031T140354-4dd4e1",
+    "regime_label": "Unclear",
+    "sub_label": "transitional",
+    "stage": 0,
+    "scores": {
+      "growth": null,
+      "inflation": -1,
+      "liquidity": 0.286,
+      "vote": 0,
+      "fragility": -1
+    },
+    "position": {
+      "action": "wait",
+      "size": 0.0,
+      "reason": "stage 0 < 2",
+      "paper": true
+    },
+    "check_back_date": "2026-11-30",
+    "outcome": null
+  }
+]

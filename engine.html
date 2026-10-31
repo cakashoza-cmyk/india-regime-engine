@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Macro Regime Intelligence Engine</title>
+<style>
+body{margin:0;font-family:system-ui,sans-serif;background:#0b1220;color:#e8eefc;line-height:1.45}main{max-width:1000px;margin:auto;padding:14px}
+a{color:#93c5fd}.p{background:#121a2b;border:1px solid #243049;border-radius:12px;padding:14px;margin-bottom:12px}h1{font-size:1.15rem;margin:0}h2{font-size:1rem;margin:0 0 8px}
+.m{color:#9aa8c7;font-size:.82rem}.big{font-size:1.6rem;font-weight:700}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.k{background:#0f172a;border:1px solid #243049;border-radius:10px;padding:10px}table{width:100%;border-collapse:collapse;font-size:.8rem}
+th,td{border:1px solid #243049;padding:5px 7px;text-align:left}th{background:#0f172a;color:#9aa8c7}.stop{color:#fca5a5}.go{color:#86efac}.warn{color:#fcd34d}
+.paper{background:#422006;border:1px solid #f59e0b;color:#fde68a;padding:8px 10px;border-radius:8px;font-size:.85rem;margin-bottom:12px}
+</style></head><body><main>
+<h1>Macro Regime Intelligence Engine <span class="m">· v1 · <a href="./index.html">Seven Gates wizard</a></span></h1>
+<p class="m" id="gen">Loading…</p>
+<div class="paper" id="paper"></div>
+<div class="p"><div class="grid" id="head"></div></div>
+<div class="p"><h2>Dial scores (−1…+1, +1 favourable)</h2><div class="grid" id="dials"></div></div>
+<div class="p"><h2>Decision</h2><div id="dec"></div></div>
+<div class="p"><h2>Stage climb (gates)</h2><div id="stage"></div></div>
+<div class="p"><h2>Sectors — marginal driver</h2><div id="sec"></div></div>
+<div class="p"><h2>Invalidations</h2><div id="inv"></div></div>
+<div class="p"><h2>Flip watchlist</h2><div id="flips"></div></div>
+<div class="p"><h2>Indicators & data freshness</h2><div id="ind"></div></div>
+<div class="p"><h2>Source log (this run)</h2><div id="log"></div></div>
+<div class="p"><h2>History / outcome log</h2><div id="hist"></div></div>
+</main><script>
+const f=(v,d=2)=>v==null?'—':(typeof v=='number'?v.toFixed(d):v);
+const esc=s=>String(s==null?'—':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const tbl=(cols,rows)=>'<table><tr>'+cols.map(c=>'<th>'+c+'</th>').join('')+'</tr>'+rows.map(r=>'<tr>'+r.map(x=>'<td>'+x+'</td>').join('')+'</tr>').join('')+'</table>';
+const card=(k,v,cls='')=>`<div class="k"><div class="m">${k}</div><div class="${cls}" style="font-weight:650">${v}</div></div>`;
+(async()=>{
+ const d=await (await fetch('./data/regime_latest.json',{cache:'no-store'})).json();
+ const x=d.detail;
+ document.getElementById('gen').textContent=`Snapshot ${d.generated_at_ist} · run ${d.run_id} · change: ${x.change}`;
+ document.getElementById('paper').textContent=x.paper_label+' Check-back: '+x.check_back_date;
+ document.getElementById('head').innerHTML=card('Regime',`<span class="big ${d.regime_label=='Unclear'?'stop':'go'}">${d.regime_label}</span>`)+card('Sub-label',d.sub_label)+card('Stage (0–6)',`<span class="big">${d.stage}</span>`)
+  +card('Growth / Inflation / Liquidity',`${x.dial_labels.growth} / ${x.dial_labels.inflation} / ${x.dial_labels.liquidity}`)+card('Live coverage',Math.round(x.coverage*100)+'%',x.coverage<0.6?'stop':'')+card('Tier-1 flips / Tier-2 confirmed',`${d.tier1_flips} / ${d.tier2_confirmed}`)+card('RBI stance (AI language)',x.rbi_stance||'— (no DeepSeek key / not run)');
+ document.getElementById('dials').innerHTML=Object.entries(d.scores).map(([k,v])=>card(k,f(v),v==null?'warn':v>0?'go':v<0?'stop':'')).join('');
+ const p=x.position;
+ document.getElementById('dec').innerHTML=`<p class="${p.action=='enter'?'go':'stop'}"><b>[PAPER] ${p.action.toUpperCase()}</b> size ${f(p.size)} — ${esc(p.reason)}</p><p>${esc(x.sleeve_view.text)}</p><p class="m">Gap: ${esc(d.gap_description)} (type ${x.gap_type})</p>`
+  +(x.sleeve_view.own.length?`<p class="m">Own: ${x.sleeve_view.own.join(', ')} · Avoid: ${x.sleeve_view.avoid.join(', ')}</p>`:'');
+ document.getElementById('stage').innerHTML=tbl(['Gate','Name','Passed'],x.stage_trail.map(g=>[g.gate,g.name,g.passed===true?'<span class=go>yes</span>':g.passed===false?'<span class=stop>no</span>':'<span class=warn>unknown — STOP</span>']));
+ document.getElementById('sec').innerHTML=tbl(['Sector','Verdict','Marginal driver','Impact','All impacts'],x.sectors.map(s=>[s.sector,`<span class="${s.verdict=='own'?'go':s.verdict=='avoid'?'stop':'warn'}">${s.verdict}</span>`,s.marginal_driver,f(s.impact,3),esc(JSON.stringify(s.impacts))]))+`<p class="m">Null drivers (set to 0): ${x.driver_nulls.join('; ')||'none'}</p>`;
+ document.getElementById('inv').innerHTML=tbl(['Rule','Value','Status'],d.invalidation_conditions.map(i=>[i.rule,f(i.value),`<span class="${i.status=='triggered'?'stop':i.status=='not triggered'?'go':'warn'}">${i.status}</span>`]));
+ document.getElementById('flips').innerHTML=tbl(['Indicator','Tier','Current','Flip level','Flipped'],x.flips.map(i=>[i.indicator,i.tier,f(i.current_value,3),`${i.flip_direction} ${i.flip_level}`,i.is_flipped==null?'<span class=warn>unknown</span>':i.is_flipped?'<span class=stop>YES</span>':'no']));
+ document.getElementById('ind').innerHTML=tbl(['Indicator','Dial','Value','Prior','Dir','Score','As of','Fresh','Source'],d.indicators.map(i=>[i.indicator,i.dial,f(i.value,3),f(i.prior_value,3),i.direction,i.score,i.as_of,i.is_stale?`<span class=warn>STALE ${esc(i.stale_since)}</span>`:'<span class=go>live</span>',i.source_url?`<a href="${i.source_url}" target=_blank>${i.source}</a>`:i.source]));
+ document.getElementById('log').innerHTML=tbl(['Indicator','Source','OK','Error'],d.source_log.map(l=>[l.indicator,l.source,l.ok?'<span class=go>ok</span>':'<span class=stop>fail</span>',esc(l.error)]));
+ try{const h=await (await fetch('./data/regime_history.json',{cache:'no-store'})).json();
+ document.getElementById('hist').innerHTML=tbl(['When','Regime','Sub','Stage','Position','Check back','Outcome'],h.slice(-30).reverse().map(r=>[r.generated_at_ist,r.regime_label,r.sub_label,r.stage,r.position?`${r.position.action} ${f(r.position.size)}`:'—',r.check_back_date,r.outcome??'pending']));}catch(e){}
+})().catch(e=>{document.getElementById('gen').textContent='Failed to load snapshot: '+e});
+</script></body></html>
