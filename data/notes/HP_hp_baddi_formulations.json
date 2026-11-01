@@ -1,0 +1,150 @@
+{
+ "key": "hp_baddi|formulations",
+ "state": "HP",
+ "city": "hp_baddi",
+ "ind": "formulations",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 16,
+ "nudged_by_news": false,
+ "verdict": "Avoid new pharma formulation exposure in Baddi until local demand and input-cost stress clear; lend only to contract manufacturers with pass-through pricing and verified order books.",
+ "title": "Baddi pharma formulations: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Baddi formulators buy APIs and excipients, convert them into tablets, capsules and syrups, and sell into domestic trade or export.** Cash comes from distributor collections, not from the plant. The local press says API input costs have doubled, with paracetamol quoted at 500 per kg, and owners admit they are completing old orders at a loss [2]. **So when a proposal lands, check whether the order is a fixed-price old contract or a fresh pass-through contract; if the borrower cannot show a price-revision clause, ask for the gross-margin bridge on that order.**\n\n## Where value and cash sit\n**Value sits in the product mix and in who bears the input-cost swing; cash sits in receivables from domestic distributors.** Rating work on a formulation peer flags working capital intensity at 31% in FY2022 on high collection periods from domestic distributors and export customers [8]. **So when a proposal lands, check debtor days and the distributor concentration; if one distributor is above a third of sales, ask for the credit terms and past write-offs.** Capex is plant and EU-GMP compliance, and a peer rating notes implementation and stabilisation risk on a large partially debt-funded facility [10].\n\n## What has changed now\n**The local economy is contracting faster than India.** Himachal GST collections are -22.8% Apr-to-date against India +6.1%, and electricity demand is -6.8% against India +9.5% [D]. Nationally, bank credit is +21.6% YoY while output is -2.1% [D]. **So when a proposal lands, check whether the borrower's sales growth is real volume or channel stuffing; if growth outruns the state's electricity demand, ask for stock statements and GST returns.** Local news is thin on Baddi itself; the only recent items are a student visit [1] and a unit acquisition adding 3 billion tablets a year [3].\n\n## Where the growth is\n**Pursue contract manufacturers and export-oriented formulators with firm orders and pass-through pricing.** Peer results support this: Sun Pharma's Q2 FY2027 sales grew 11.8% with 80.8% gross margin [4]; Concord Biotech's API revenue rose 30% YoY and domestic formulations 29% [7]; Aarti Pharmalabs posted record revenue of Rs 613 crore, up 47% [5]. **Avoid plain domestic-brand formulators with no pricing power and no R&D spend; a peer rating notes R&D below 1% of sales weakens new-product ability [10].**\n\n## How to grow safely and what to watch\n**Structure as working-capital lines against verified orders, with a monthly stock-and-debtor statement as a covenant.** Take GST returns monthly, electricity bills monthly, and a quarterly CMA. **Early warnings: API price spikes not passed through, debtor days stretching, and power consumption falling while sales rise.**"
+ ],
+ "watch": [
+  [
+   "GST returns (monthly)",
+   "filing gap or falling turnover -> freeze limit and ask for order book"
+  ],
+  [
+   "Electricity bills (monthly)",
+   "consumption drop vs sales growth -> ask for stock statement and plant visit"
+  ],
+  [
+   "Stock-and-debtor statement (monthly)",
+   "debtor days stretch beyond sanction -> reduce drawing power"
+  ],
+  [
+   "API purchase invoices (monthly)",
+   "input cost rise without price revision -> ask for margin bridge"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Himachal GST -22.8% and power demand -6.8% signal local contraction; API costs doubled.",
+ "articles": [
+  {
+   "title": "Pharmacy Students Gain Firsthand Industry Exposure During Visit to Baddi Pharma Units",
+   "url": "https://pressnote.in/article6112_545647.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "क्रूड ऑयल महंगा: दवाओं के कच्चे माल के दाम दोगुना, उद्योगपति बोले- घाटा उठाकर पुराने ऑर्डर कर रहे पूरे",
+   "url": "https://www.amarujala.com/himachal-pradesh/solan/baddi-pharma-industry-raw-material-price-hike-paracetamol-500-per-kg-himachal-news-2026-11-01",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Theon Group Acquires Maneesh Pharma’s Baddi Unit VI, Renames It Zoevita Lifesciences; Adds 3 Billion Tablets a Year | eHealth Magazine",
+   "url": "https://ehealth.eletsonline.com/2026/10/theon-group-acquires-maneesh-pharma-unit-vi-baddi-zoevita-lifesciences-3-billion-tablets/",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Sun Pharma beats Q2 2026 estimates as shares rise By Investing.com",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sun-pharma-beats-q2-2026-estimates-as-shares-rise-93CH-4989661",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Morepen Laboratories - Morepen Laboratories",
+   "url": "https://www.business-standard.com/amp/topic/morepen-laboratories#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Concord Biotech Ltd (NSE:CONCORDBIO) (Q2 2027) Earnings Call Highlights: 25% Revenue Surge, ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/concord-biotech-ltd-nseconcordbio-q2-2027-earnings-call-highlights-25-revenue-surge--4919334",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 16, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=117306#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Methodology - Pharmaceutical Sector",
+   "url": "https://www.careratings.com/upload/NewsFiles/GetRated/RatingMethodology-PharmaceuticalSector27June2017.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Corona Remedies Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Corona%20Remedies%20Private%20Limited-10-20-2020.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "2/5/25, 6:15 PM Rating Rationale",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Modi-Mundipharma%20Private%20Limited-RU-05-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 16 (national 27 x 0.6 + Himachal Pradesh 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Himachal Pradesh: GST collections -22.8% Apr-to-date vs India +6.1% (28.9 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Himachal Pradesh: electricity demand -6.8% Apr-to-date vs India +9.5% (16.3 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,150 @@
+{
+ "key": "br_begusarai|fertiliser",
+ "state": "BR",
+ "city": "br_begusarai",
+ "ind": "fertiliser",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 20,
+ "nudged_by_news": false,
+ "verdict": "Avoid new fertiliser exposure in Begusarai for now; the data call is Avoid and the local news flow is worse, so only existing, well-secured accounts with clean conduct should be renewed.",
+ "title": "Begusarai Fertilisers: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Begusarai fertiliser borrower is either a blending/warehousing unit or a wholesale/retail dealer, not a manufacturer.** Urea and complex fertiliser are made elsewhere and moved in by rail and road; local value-add is mixing, bagging, storage and last-mile credit to farmers. Cash comes in seasonally at Kharif and Rabi sowing, and the dealer carries stock and farmer receivables in between. **The working-capital cycle, not the plant, is where your money sits.**\n\n## What has changed now\n**The official data pack scores this sector-city pair at 20, well inside the avoid band [D].** Bihar GST collections are -0.1% Apr-to-date against India +6.1%, a 6.2 pp gap [D], and India-wide fertiliser output (NIC 20) is -0.5% YoY with -1.2% Apr-to-date [D]. Bank credit to the sector is +53.1% YoY against that -1.2% output [D] — so when a proposal lands, check whether the borrower's own sales growth matches its drawing-power growth; if the limit has grown faster than turnover, ask for the stock statement and sales register before any enhancement.\n\n## Local news versus peers\n**Local reporting is the weak spot and it is recent.** Retail vendors in Begusarai have opened a front against wholesalers over pricing [3], and a gas leak at a local fertiliser plant left a teacher unconscious for two hours, with management calling it a rumour [2]. A local piece also flags falling soil fertility from chemical fertiliser overuse [1]. Peer results are mixed and national, not local: Shree Pushkar's fertiliser revenue fell 10.6% YoY [4], while GSFC's fertiliser sales jumped 82% [5] and Deepak's margins rose from 16.8% to 21% [7]. CRISIL expects complex fertiliser capacity to rise ~25% over three fiscals on ~16 MTPA base [9]. **Sources say little about Begusarai specifically, so lean on first principles and these peers.**\n\n## Who to pursue, who to avoid\n**Pursue dealers with own godown, steady farmer relationships and sales booked against actual offtake.** The rating note on Fertis India is useful here: customised, less-regulated products sold across all four seasons reduce risk [8]. **Avoid pure price-arbitrage wholesalers** — the very group local retailers are protesting against [3] — and any unit near the plant named in the leak report until safety compliance is shown [2].\n\n## How to grow safely\n**Structure against the season, not the year.** Sanction a drawing power tied to paid stock and receivables, take monthly stock-and-receivable statements, and a quarterly GST return. Ask for the subsidy-claim position where applicable; collect from customer where the figure is missing."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Stock ageing beyond one season -> freeze limit enhancement and inspect godown"
+  ],
+  [
+   "Quarterly GST returns vs sales register",
+   "GST turnover below bank turnover -> ask for explanation and reduce drawing power"
+  ],
+  [
+   "Plant safety and local complaints (monthly)",
+   "Fresh leak or protest report -> suspend new limits at that unit until compliance shown"
+  ],
+  [
+   "Bihar GST collection trend (monthly)",
+   "Continued negative print -> tighten tenor and seek additional collateral"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local pricing protest and plant gas leak add operational and conduct risk to an already avoid-band score.",
+ "articles": [
+  {
+   "title": "Begusarai News: रासायनिक उर्वरक के प्रयोग से घट रही उर्वराशक्ति",
+   "url": "https://www.livehindustan.com/bihar/begusarai/story-the-first-consonant-of-the-devanagari-syllabary-201791379549467.html",
+   "date": "2026-10-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "बेगूसराय में खाद कारखाना से गैस का रिसाव: लोगों की आंखों में जलन की शिकायत, महिला टीचर 2 घंटे तक बेहोश रहीं; प्रबंधन ने बताया अफवाह - Begusarai News - - Hindi News",
+   "url": "https://www.bhaskar.com/local/bihar/begusarai/news/begusarai-hurl-fertilizer-plant-ammonia-gas-leak-teacher-faint-139254079.html#1",
+   "date": "2026-10-04",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Begusarai News: खुदरा उर्वरक विक्रेताओं ने थोक कारोबारियों के खिलाफ खोला मोर्चा",
+   "url": "https://www.livehindustan.com/bihar/begusarai/story-retail-fertilizer-vendors-protest-against-wholesalers-over-pricing-issues-201790341032872.html",
+   "date": "2026-09-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Shree Pushkar Chemicals & Fertilisers Ltd (BOM:539334) Q3 2026 Earnings Call Highlights: ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://au.finance.yahoo.com/news/shree-pushkar-chemicals-fertilisers-ltd-010222957.html#1",
+   "date": "2026-02-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Record fertilizer sales lift GSFC Q1 FY27 profit by 15% - Fertilizer",
+   "url": "https://www.indianchemicalnews.com/fertilizer/record-fertilizer-sales-lift-gsfc-q1-fy27-profit-by-15-31480#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Deepak Fertilisers Q1 profit doubles as margins expand on strong chemicals performance - CNBC TV18 - Deepak Fertilisers Q1 profit doubles as margins expand on strong chemicals performance",
+   "url": "https://www.cnbctv18.com/market/earnings/deepak-fertilisers-share-price-q1-result-profit-doubles-ebitda-revenue-19957805.htm#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "DEEPAK FERTILISERS AND PETROCHEMICALS CORP LTD. : Latest Quarterly Results Analysis - ICICI Direct - S",
+   "url": "https://www.icicidirect.com/research/equity/rapid-results/deepak-fertilisers-and-petrochemicals-corp-ltd#2",
+   "date": "2026-10-18",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Fertis India Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202507160746_Fertis_India_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Complex fertiliser capacity to jump ~25% in next three fiscals",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2026/02/complex-fertiliser-capacity-to-jump-25-percent-in-next-three-fiscals.html",
+   "date": "2026-02-10",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "A sound corporate governance structure attempts to make a clear the distinction of power and responsibilities between the Board ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/914~Fertilisers#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gujarat State Fertilizers and Chemicals Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510141029_Gujarat_State_Fertilizers_and_Chemicals_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 20 (national 0 x 0.6 + Bihar 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Bihar: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +53.1% YoY vs output -1.2% (gap +54.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

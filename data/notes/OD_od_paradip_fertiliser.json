@@ -1,0 +1,156 @@
+{
+ "key": "od_paradip|fertiliser",
+ "state": "OD",
+ "city": "od_paradip",
+ "ind": "fertiliser",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 0,
+ "nudged_by_news": false,
+ "verdict": "Avoid new fertiliser exposure in Paradip until local demand and subsidy-cycle visibility improve; lend only to deregulated, non-subsidy product makers with tight structure.",
+ "title": "Paradip Fertilisers: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A fertiliser unit here is a chemical converter: gas or imported ammonia, phosphoric acid and potash go in, urea, DAP and complex grades come out, and cash comes back through dealers and the subsidy chain.** Paradip's anchor is the IFFCO complex [2], with petrochemical feedstock and port linkages around it [1][3]. The money sits in two places: the subsidy receivable from the government, and dealer credit in the sowing season. **So when a proposal lands, check the split between subsidised and non-subsidised product; if subsidy receivable is more than a quarter of annual sales, ask for the claim-wise ageing and last three disbursement dates.**\n\n## What has changed now\n**The official data pack reads AVOID for this industry in this state, and the local signals are the reason.** Odisha GST collections grew +0.5% Apr-to-date against India's +6.1% [D], and Odisha electricity demand grew +5.1% against India's +9.5% [D] — both point to slower local activity. Nationally, fertiliser output (NIC 20) fell -0.5% YoY and -1.2% Apr-to-date [D]. **So treat any Paradip proposal projecting volume growth above the state's own demand as unsupported; ask for the buyer list and the offtake contract behind the projection.**\n\n## Where the growth is\n**Peer results split cleanly: chemicals and deregulated products are earning, subsidised fertiliser is not.** Shree Pushkar's chemical segment revenue grew 38.1% YoY while its fertiliser segment fell 10.6% [4]; GSFC posted its highest-ever Q1 sales at Rs. 3,581 Cr with fertiliser sales up 82% [5]; Deepak's profit doubled on ammonia and industrial chemical realisations [6]. CRISIL expects complex fertiliser capacity to rise ~25% over ~16 MTPA in three fiscals [9]. **So pursue Paradip borrowers making customised, non-subsidised grades and industrial chemicals — the CARA note on Fertis India makes the point that less-regulated products sell across all four seasons, which smooths the working-capital cycle [8]. Avoid pure subsidy-dependent urea/DAP converters and traders with no captive conversion.**\n\n## How to grow safely\n**Structure against the receivable, not the inventory.** Keep tenor inside one subsidy cycle, take the subsidy claim and dealer receivables as primary security, and insist on a monthly stock-and-receivable statement plus monthly GST returns. **Take every month: subsidy claim status, dealer ageing, gas/ammonia input price, and capacity utilisation.** Where the borrower sells deregulated products, a quarterly segment margin is enough; where subsidy dominates, monthly. **If the borrower cannot show claim disbursement within the cycle, decline rather than extend.**\n\n## Early-warning signs\n**Watch the local demand pulse first.** A second consecutive month of Odisha GST growth below India's [D] means stop new sanctions in the cluster. **Watch the subsidy receivable ageing — past two cycles unpaid means restructure or exit.** Watch dealer credit stretching beyond the season, and any shift of sales to related parties. Peer commentary flags volatile global input and pricing [5][6]; a sharp input price move with fixed selling price is a margin call, so ask for the pass-through clause before disbursal.",
+  "## Local evidence is thin\n**The local sources are topic pages, not deal-level reporting [1][2][3]; the rating reports carry no date [8][10][11], so treat them as background only.** Lean on first principles and the peer set above.",
+  "## The call\n**Avoid new fertiliser exposure in Paradip now; the data pack scores it AVOID and the Odisha demand signals are weaker than India's [D].** Lend only to deregulated-product converters with monthly receivable discipline."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns and Odisha GST growth vs India (monthly)",
+   "Odisha growth below India for two months -> stop new sanctions in the cluster"
+  ],
+  [
+   "Subsidy claim ageing and disbursement dates (monthly)",
+   "Claims unpaid past two cycles -> restructure or exit"
+  ],
+  [
+   "Dealer receivable ageing (monthly)",
+   "Ageing beyond one season -> cut limit, ask for buyer confirmations"
+  ],
+  [
+   "Input price (gas/ammonia) vs selling price (monthly)",
+   "Input up with fixed selling price -> demand pass-through clause or reduce exposure"
+  ],
+  [
+   "Capacity utilisation (monthly)",
+   "Utilisation falling two quarters running -> freeze fresh limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Odisha GST and power demand growth trail India; national fertiliser output negative.",
+ "articles": [
+  {
+   "title": "paradeep petrochemicals News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/paradeep-petrochemicals/news#1",
+   "date": "2026-10-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "IFFCO Paradip: Latest News & Videos, Photos about IFFCO Paradip | The Economic Times - Page 1 - Business News›IFFCO Paradip",
+   "url": "https://economictimes.indiatimes.com/topic/IFFCO-Paradip#1",
+   "date": "2026-09-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "paradeep petrochemicals: Latest News & Videos, Photos about paradeep petrochemicals | The Economic Times - Page 1 - Business News›paradeep petrochemicals",
+   "url": "https://economictimes.indiatimes.com/topic/paradeep-petrochemicals#1",
+   "date": "2026-09-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Shree Pushkar Chemicals & Fertilisers Ltd (BOM:539334) Q3 2026 Earnings Call Highlights: ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://au.finance.yahoo.com/news/shree-pushkar-chemicals-fertilisers-ltd-010222957.html#1",
+   "date": "2026-02-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Record fertilizer sales lift GSFC Q1 FY27 profit by 15% - Fertilizer",
+   "url": "https://www.indianchemicalnews.com/fertilizer/record-fertilizer-sales-lift-gsfc-q1-fy27-profit-by-15-31480#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Deepak Fertilisers Q1 profit doubles as margins expand on strong chemicals performance - CNBC TV18 - Deepak Fertilisers Q1 profit doubles as margins expand on strong chemicals performance",
+   "url": "https://www.cnbctv18.com/market/earnings/deepak-fertilisers-share-price-q1-result-profit-doubles-ebitda-revenue-19957805.htm#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "DEEPAK FERTILISERS AND PETROCHEMICALS CORP LTD. : Latest Quarterly Results Analysis - ICICI Direct - S",
+   "url": "https://www.icicidirect.com/research/equity/rapid-results/deepak-fertilisers-and-petrochemicals-corp-ltd#2",
+   "date": "2026-10-18",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Fertis India Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202507160746_Fertis_India_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Complex fertiliser capacity to jump ~25% in next three fiscals",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2026/02/complex-fertiliser-capacity-to-jump-25-percent-in-next-three-fiscals.html",
+   "date": "2026-02-10",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "A sound corporate governance structure attempts to make a clear the distinction of power and responsibilities between the Board ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/914~Fertilisers#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gujarat State Fertilizers and Chemicals Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510141029_Gujarat_State_Fertilizers_and_Chemicals_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 0 (national 0 x 0.6 + Odisha 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Odisha: GST collections +0.5% Apr-to-date vs India +6.1% (5.6 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Odisha: electricity demand +5.1% Apr-to-date vs India +9.5% (4.4 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

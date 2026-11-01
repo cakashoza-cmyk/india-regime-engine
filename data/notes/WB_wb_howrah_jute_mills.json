@@ -1,0 +1,150 @@
+{
+ "key": "wb_howrah|jute_mills",
+ "state": "WB",
+ "city": "wb_howrah",
+ "ind": "jute_mills",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 35,
+ "nudged_by_news": false,
+ "verdict": "Avoid new jute-mill exposure in Howrah; lend only to value-added jute product converters with proven non-MSP order books, and then only on tight structured terms.",
+ "title": "Howrah Jute Mills & Products: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA Howrah jute mill buys raw jute, spins and weaves it into sacking, hessian and yarn, and sells largely into government MSP procurement plus some export and value-added trade. **Cash is made in the spread between raw jute cost and finished goods price, and that spread is thin and cyclical.** Working capital is seasonal and swings with the market price of raw jute versus its MSP [8][10]. Capex is heavy and lumpy; the rating methodology flags weaving as fixed- and working-capital intensive with high funding needs [11]. So when a proposal lands, check the raw-jute-to-finished-goods spread and the order book mix; if the buyer list is mostly MSP, ask what share is genuinely non-MSP and priced independently. ## What has broken now\nHowrah is closing mills, not opening them. West Bengal's own signals are weak: GST collections -1.3% Apr-to-date versus India +6.1% [D], and electricity demand +5.7% versus India +9.5% [D]. India-wide exports are -13.6% Apr-to-date in USD [D]. ## Where the growth is\nPeer rating work points the other way from the mills: Crisil expects jute sales volumes up 15% with a twenty percent rise in domestic demand, helped by lower raw jute prices and value-added products [6][7]. **Pursue converters and value-added jute product makers with diversified buyers, not commodity sacking mills.** Avoid single-mill sacking spinners with MSP-dependent order books and no modernisation record [2]. Note the local project tracker shows textiles/yarn projects in Bengal [1] but says nothing specific to Howrah jute; collect from customer any city-level pipeline. ## How to grow safely\nStructure as short-tenor working capital against confirmed orders, not term debt for mill modernisation. **Take stock and book-debt statements monthly, and raw jute price versus MSP every month** [8][10]. Covenant a minimum non-MSP order share and a debt-service cover floor; if the customer cannot produce audited spread data, collect from customer before sanction. ## Early-warning signs\n- Monthly stock statement (monthly): inventory ageing beyond 90 days -> freeze fresh limits. - Monthly GST returns (monthly): filing gaps or falling turnover -> reduce exposure. - Quarterly wages/PF (quarterly): delayed statutory payments -> treat as closure risk [2]. - Monthly power bill (monthly): falling units consumed -> verify running hours before renewal."
+ ],
+ "watch": [
+  [
+   "Monthly stock and book-debt statement (monthly)",
+   "ageing beyond 90 days -> freeze fresh limits and inspect godown"
+  ],
+  [
+   "GST return filing and turnover (monthly)",
+   "filing gap or turnover fall -> cut exposure and seek collateral"
+  ],
+  [
+   "Statutory dues: PF and wages (quarterly)",
+   "delay in PF/wages -> treat as closure risk, exit at renewal [2]"
+  ],
+  [
+   "Electricity consumption (monthly)",
+   "units fall sharply -> verify running hours and order book before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Howrah mill lockouts and stoppage notices continue; Bengal GST and power demand lag India.",
+ "articles": [
+  {
+   "title": "New & Upcoming Projects in Textiles / Yarn Projects in West Bengal",
+   "url": "https://newprojectstracker.com/projects-india/textiles-yarn/west-bengal",
+   "date": "2026-09-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Howrah News: হাওড়ায় একের পর এক মিল বন্ধের বিজ্ঞপ্তি! এবার তালা ঝুলল উলুবেড়িয়ার জুট মিলে, কাজে এসে মাথায় বাজ শ্রমিকদের",
+   "url": "https://bengali.news18.com/amp/news/west-bengal/howrah-news-another-mill-closed-in-the-district-workers-are-in-trouble-l18-local18-2505507.html",
+   "date": "2026-01-19",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Jute crisis grips West Bengal: Political parties strategize amidst mill closures and farmer hardships",
+   "url": "https://keralakaumudi.com/en/news/news.php?id=1297295&u=jute-crisis-grips-west-bengal-political-parties-strategize-amidst-mill-closures-and-farmer-hardships-1297295",
+   "date": "2024-04-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "7th November, 2025",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1c1e6e02-61b9-4b89-9efd-1897fd509ad6.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "30th July, 2025",
+   "url": "https://birlacorporation.com/media/press-releases/Press-release_30062025.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "India’s jute industry set for turnaround as sales volumes seen rising 15%, margins improve: Crisil Ratings - Welcome",
+   "url": "https://m.economictimes.com/industry/cons-products/garments-/-textiles/indias-jute-industry-set-for-turnaround-as-sales-volumes-seen-rising-15-margins-improve-crisil-ratings/articleshow/134384464.cms#1",
+   "date": "2026-09-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "jute profitability and margins News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/jute-profitability-and-margins/news#1",
+   "date": "2026-10-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 9,2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/146222#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Exposure to risks related to timely completion of capex: Group has untaken to expand its production capacity by 130 ton per day,...",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Gloster%20Limited-RU-10-04-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "September 29, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=138068#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 35 (national 59 x 0.6 + West Bengal 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "West Bengal: GST collections -1.3% Apr-to-date vs India +6.1% (7.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "West Bengal: electricity demand +5.7% Apr-to-date vs India +9.5% (3.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Exports -13.6% Apr-to-date in USD (Rs 1,561 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

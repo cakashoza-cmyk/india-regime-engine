@@ -1,0 +1,150 @@
+{
+ "key": "wb_kolkata|jute_mills",
+ "state": "WB",
+ "city": "wb_kolkata",
+ "ind": "jute_mills",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 35,
+ "nudged_by_news": false,
+ "verdict": "Avoid new unsecured or single-mill exposure in Kolkata jute; lend only to mills with confirmed PCSO price realisation, low raw-jute inventory leverage and demonstrated bonus/wage cover.",
+ "title": "Kolkata jute mills & products: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA jute mill buys raw jute, spins and weaves it into sacking, hessian and B Twill bags, and sells largely to government PCSO orders plus some domestic and export buyers. **Cash is made or lost on the spread between raw jute cost and the notified bag price, not on volume.** The West Bengal Labour Minister has asked the Centre to re-notify August 2026 B Twill prices because the notified rate did not reflect mills' raw jute procurement cost, and to apply the July 2026 rate to July PCSO quantities [3]. So when a proposal lands, check which price notification the order book is billed at; if the mill is holding August-rate invoices, ask what differential it expects and whether it has written confirmation.\n\n## Where value and cash sit now\n**Working capital is seasonal and swings with raw jute price versus MSP** [8][10]. Rating reports show fund-based utilisation as low as around 7% over 15 months to May 2025 for one entity [10], and nil utilisation over 12 months for another [8] — meaning strong mills are under-borrowed while weak mills are stretched. Raw jute prices are high, and Cheviot is shifting to the domestic market and new value-added export products in response [1]. **The stress is real: mills are struggling to meet wages and puja bonus** [2][3]. Note the peer read: Crisil sees sales volumes rising 15% and a twenty percent rise in domestic demand with softer raw jute lifting margins [6][7] — that is a rating-agency view, not a Kolkata mill result, and it sits against the local wage and pricing evidence.\n\n## The growth opportunity\n**Pursue mills with a confirmed PCSO order book, a 30-day manufacturing and inspection window, and value-added product lines** — the direction Cheviot is taking [1]. The Labour Minister's proposal for a minimum 30-day window from PCSO placement is the structural fix to watch [3]. Avoid single-mill, single-buyer sacking converters with no value-added line and no bonus reserve. Kolkata-specific mill-level data is thin in these sources; lean on first principles and the peer read.\n\n## How to grow safely\n**Structure against the price notification, not the order.** Take monthly: raw jute purchase register versus MSP, PCSO inspection status, wage and bonus payment proof, and stock statement reconciled to jute price. Covenant that drawing power resets on each notification. **The macro backdrop is tight — repo at 5.5%, raised from 5.25%, RBI tightening [D] — so price working capital for a higher rate.**\n\n## Early-warning signs\n- **Bonus or wage delay past the puja date** [2][3] -> stop fresh limits, review all drawings.\n- **August-rate invoices unresolved** [3] -> ask for the differential claim in writing.\n- **West Bengal GST -1.3% Apr-to-date versus India +6.1%** [D] -> tighten local collateral cover.\n- **Exports -13.6% Apr-to-date in USD** [D] -> cap export-receivable limits."
+ ],
+ "watch": [
+  [
+   "Monthly stock and PCSO inspection statement",
+   "Stock value falls below drawing power -> freeze limit and seek fresh stock statement"
+  ],
+  [
+   "Monthly wage and bonus payment proof",
+   "Any delay past due date -> stop fresh disbursement and review account"
+  ],
+  [
+   "Quarterly GST filing of borrower",
+   "Filing gap or turnover fall -> downgrade internal rating and raise collateral"
+  ],
+  [
+   "Monthly raw jute purchase register vs MSP",
+   "Purchase price above MSP without price pass-through -> ask for revised pricing confirmation"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local GST and power demand lag India; mills face wage and bonus strain on unresolved bag pricing.",
+ "articles": [
+  {
+   "title": "Amid high raw jute prices, Cheviot Company focuses on domestic market, developing new value-added products for exports - SENSEX 73,598.67",
+   "url": "https://www.thehindubusinessline.com/companies/amid-high-raw-jute-prices-cheviot-company-focuses-on-domestic-market-developing-new-value-added-products-for-exports/article71500524.ece#1",
+   "date": "2026-09-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Bengal seeks revision of jute bag prices as mills face wage, puja bonus pressure",
+   "url": "https://psuwatch.com/states-news/bengal-seeks-revision-of-jute-bag-prices-as-mills-face-wage-puja-bonus-pressure",
+   "date": "2026-09-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Bengal Labour minister seeks Centre's intervention on jute bag pricing ahead of puja bonus - Text Size:",
+   "url": "https://theprint.in/economy/bengal-labour-minister-seeks-centres-intervention-on-jute-bag-pricing-ahead-of-puja-bonus/3041691/#1",
+   "date": "2026-09-12",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "7th November, 2025",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1c1e6e02-61b9-4b89-9efd-1897fd509ad6.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "30th July, 2025",
+   "url": "https://birlacorporation.com/media/press-releases/Press-release_30062025.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "India’s jute industry set for turnaround as sales volumes seen rising 15%, margins improve: Crisil Ratings - Welcome",
+   "url": "https://m.economictimes.com/industry/cons-products/garments-/-textiles/indias-jute-industry-set-for-turnaround-as-sales-volumes-seen-rising-15-margins-improve-crisil-ratings/articleshow/134384464.cms#1",
+   "date": "2026-09-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "jute profitability and margins News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/jute-profitability-and-margins/news#1",
+   "date": "2026-10-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 9,2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/146222#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Exposure to risks related to timely completion of capex: Group has untaken to expand its production capacity by 130 ton per day,...",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Gloster%20Limited-RU-10-04-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "September 29, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=138068#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 35 (national 59 x 0.6 + West Bengal 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "West Bengal: GST collections -1.3% Apr-to-date vs India +6.1% (7.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "West Bengal: electricity demand +5.7% Apr-to-date vs India +9.5% (3.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Exports -13.6% Apr-to-date in USD (Rs 1,561 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

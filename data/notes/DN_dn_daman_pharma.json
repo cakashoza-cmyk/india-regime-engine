@@ -1,0 +1,158 @@
+{
+ "key": "dn_daman|pharma",
+ "state": "DN",
+ "city": "dn_daman",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new pharma/API exposure in Daman until plant-level regulatory status is clean; lend only to niche, compliant API/CDMO units with tight structure.",
+ "title": "Daman Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Daman pharma unit buys solvents, intermediates and API inputs, runs them through reactors and finishing lines, and sells into formulations players or export markets.** Cash is made on yield and quality consistency, not on price — a single failed audit can freeze a customer's order book overnight. Value sits in the approved-vendor status and the regulatory file, not the building. **So when a proposal lands, check which plants hold current, valid approvals and for which market; if the customer cannot name the last audit date and outcome, ask for the certificate and the Form 483 history.**",
+  "## Where cash actually sits\n**Working capital is the business: long receivables and high inventory holding are structural, with working capital intensity running at 47-52% in the peer set [10].** Capex is heavy and lumpy, and term debt is often back-ended — one rated peer carried Rs 152 crore of term loans with repayments starting only from May 2025 [9]. Pricing power is thin for plain API and strong only for niche or CDMO work. **So size the drawing power on actual receivables ageing, not on the sales projection; if inventory days exceed the peer range, ask for the stock statement and slow-moving list.**",
+  "## What has changed now\n**The local signal is regulatory, not commercial: Alkem's Daman facility drew seven USFDA observations after a 12-day inspection from April 20 to May 1, 2026 [2][3], even though the same site had Malta GMP clearance from a December 2025 inspection, valid three years [3].** That combination tells you a site can be EU-clean and US-flagged at once — approvals are market-specific. Nationally, IIP for NIC 21 is +1.6% YoY [D] while overall output is -2.1% [D] and bank credit is +21.6% YoY [D], a +23.7 pp gap [D]: money is chasing this sector faster than output. **So treat any Daman pharma proposal with recent credit growth and flat sales as a warning, and ask why the borrowing is outrunning the topline.**",
+  "## Where to grow, and how\n**Pursue niche API and CDMO units, not commodity formulators.** Peers show the spread: Aarti Pharmalabs posted record quarterly revenue of Rs 613 crore, up 47% YoY, with EBITDA margin at 22.2% [4][6], and RPG Life Sciences targets 25% API growth with an acquisition planned within 12 months [5]. **So favour borrowers with a named molecule, a contracted customer and CDMO-style sticky orders; avoid single-customer, single-market units — one rated peer's revenue fell on weak US contract-research demand before recovering 35% in 7M FY2025 [8].** Structure with a receivables-backed drawing power, monthly stock and book-debt statements, and a covenant capping total debt to a level you set from the customer's own cash flows — collect from customer.",
+  "## Early-warning signs\n**Watch the audit calendar first: any new Form 483, import alert or repeat observation at the borrower's plant is an immediate stop.** Then watch receivable days and inventory build against the 47-52% intensity benchmark [10], and limit utilisation drifting up without sales growth. **If a borrower's export billing shifts to a single destination or a single buyer crosses a third of sales, ask for the customer contract and payment history before renewing.**"
+ ],
+ "watch": [
+  [
+   "Regulatory filings and audit outcomes (monthly)",
+   "New Form 483 or import alert at borrower plant -> freeze new limits, review existing drawing power"
+  ],
+  [
+   "Stock and book-debt statements (monthly)",
+   "Inventory days or receivable days rise beyond agreed band -> cut drawing power, seek ageing detail"
+  ],
+  [
+   "Limit utilisation vs sales (monthly)",
+   "Utilisation rises while invoiced sales are flat -> ask for order book and customer-wise billing"
+  ],
+  [
+   "Customer and market concentration (quarterly)",
+   "Single buyer crosses one-third of sales -> obtain contract and payment record before renewal"
+  ],
+  [
+   "Term debt repayment schedule (quarterly)",
+   "Back-ended repayments approaching without cash build -> restructure to tighter amortisation"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "USFDA issued seven observations at Alkem's Daman plant in May 2026, signalling local regulatory risk.",
+ "articles": [
+  {
+   "title": "Alkem Laboratories Ltd - 539523 - GMP Inspection By Malta Medicines Authority At Company'S Manufacturing Facility Located At Daman, India",
+   "url": "https://trendlyne.com/posts/5440203/alkem-laboratories-ltd-539523-gmp-inspection-by-malta-medicines-authority-at-company-s-manufacturing-facility-located-at-daman-india",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Alkem Labs gets 7 USFDA observations at Daman Plant after inspection - www.lokmattimes.com - Alkem Labs gets 7 USFDA observations at Daman Plant after inspection",
+   "url": "https://www.lokmattimes.com/health/alkem-labs-gets-7-usfda-observations-at-daman-plant-after-inspection-1/#1",
+   "date": "2026-05-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Alkem Laboratories Gets USFDA Form 483 With 7 Observations At Daman Facility",
+   "url": "https://english.bharatexpress.com/world/alkem-laboratories-gets-usfda-form-483-with-7-observations-at-daman-facility-269491/amp",
+   "date": "2026-05-02",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 27 x 0.6 + Dadra and Nagar Haveli and Daman & Diu None x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: IIP NIC 21 output +1.6% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +4.9% Apr-to-date in USD (Rs 153,525 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

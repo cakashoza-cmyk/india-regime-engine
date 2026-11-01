@@ -1,0 +1,154 @@
+{
+ "key": "ap_kakinada|fertiliser",
+ "state": "AP",
+ "city": "ap_kakinada",
+ "ind": "fertiliser",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 20,
+ "nudged_by_news": false,
+ "verdict": "Avoid new fertiliser exposure in Kakinada for now; lend only to deregulated, non-subsidy specialty/customised players with clean receivables, and decline subsidy-dependent units and traders.",
+ "title": "Kakinada Fertilisers: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Fertiliser making here is a gas-and-acid conversion business: ammonia, phosphoric acid and sulphuric acid go in, urea and complex granules come out, and cash comes back through either the market or a subsidy claim.** The value sits in two very different places: commodity urea/complex is price-controlled and subsidy-fed, while customised and specialty products are sold on agronomy and service and are far less regulated [8]. **So when a proposal lands, first ask what share of revenue is subsidy-linked versus deregulated; if subsidy is above half, ask for the last three subsidy-claim ageing statements before anything else.**\n\n## Where cash and value sit\n**Working capital is the whole game: inventory of acid and finished stock, plus a receivables tail that is either dealer credit or a government claim.** Peer results show the split clearly: Shree Pushkar's chemical segment grew 38.1% year-on-year while its fertiliser segment revenue fell 10.6% [4], and Deepak Fertilisers' margins rose from 16.8% to 21% on chemicals even as fertiliser-linked revenue receded [7]. **So check the receivables mix line by line; if more than a third is subsidy or government claim, ask for the sanction and disbursement trail on the last two claims.** Capex is lumpy and acid-storage heavy; collect from customer the project cost and debt-equity before sizing any term loan.\n\n## What has changed now\n**The local signal is negative and it is specific: the NFCL unit in Kakinada has closed, and the Ramagundam plant in Telangana is not meeting Andhra Pradesh's demand, which has intensified the urea shortage for farmers [3].** That source is dated and reads as roughly a year old, so treat it as context, not current fact. The data pack is unambiguous: Andhra Pradesh GST collections are -0.2% Apr-to-date against India +6.1% [D], and India-wide fertiliser output (NIC 20) is -0.5% YoY and -1.2% Apr-to-date [D]. **Bank credit to the sector is running +53.1% YoY against that -1.2% output [D], so when a proposal lands, check whether the loan is funding stock or funding a gap; if drawing power is being met by fresh limits, ask why.**\n\n## Where to grow, and how to grow safely\n**Pursue the deregulated end: customised and specialty fertiliser makers, water-soluble and bio-stimulant blenders, and dealers with genuine agronomy service and year-round sales across seasons [8].** The structural demand story is real: complex fertiliser capacity is set to add around 4 million tonne per annum through fiscal 2029 over a base of ~16 MTPA [9]. **Avoid subsidy-claim-dependent urea units, single-product traders, and anyone whose cash flow depends on a plant restart at Kakinada.** Structure as cash-flow-backed working capital with a drawing power tied to paid stock and clean receivables, and take monthly stock-and-receivable statements, monthly GST returns, and quarterly subsidy-claim status.\n\n## Early-warning signs\n**Watch the receivable ageing and the claim cycle, not the topline.** If dealer credit days stretch beyond the stated terms, or a subsidy claim ages past its normal cycle, cut the limit before the next season. If GST turnover for the borrower diverges from the state's -0.2% trend [D] in a way the books cannot explain, ask for the sales register. If a borrower's chemical or specialty share is shrinking toward commodity fertiliser, reprice or exit."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns and stock statement",
+   "Turnover falls two months running or stock is unsupported by invoices -> freeze fresh drawings and inspect godown"
+  ],
+  [
+   "Monthly receivable ageing",
+   "Subsidy or government claim ages beyond normal cycle -> move to cash-collateralised limit"
+  ],
+  [
+   "Quarterly subsidy-claim status",
+   "Claim rejected or held -> ask for revised cash flow and re-size limit"
+  ],
+  [
+   "Seasonal (pre-Kharif, pre-Rabi) dealer credit review",
+   "Dealer credit days exceed agreed terms -> cut limit before the season"
+  ],
+  [
+   "Monthly plant/unit status (Kakinada supply)",
+   "Any restart or new local capacity announced -> reassess borrower's pricing and volume assumptions"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "AP GST -0.2% vs India +6.1%, fertiliser output -1.2% Apr-to-date, credit up 53.1% [D].",
+ "articles": [
+  {
+   "title": "Procurement News Notice - 65849 – BidDetail - India Procurement News Notice - 65849",
+   "url": "https://biddetail.com/procurement/procurement-news/65849#1",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "phosphoric acid capacity News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/phosphoric-acid-capacity/news#1",
+   "date": "2026-10-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Asia's Premier News Agency - India News, Business & Political, National & International, Bollywood, Sports | ANI News",
+   "url": "https://aninews.in/topic/urea-criris/page/1/",
+   "date": "2026-09-26",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Shree Pushkar Chemicals & Fertilisers Ltd (BOM:539334) Q3 2026 Earnings Call Highlights: ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://au.finance.yahoo.com/news/shree-pushkar-chemicals-fertilisers-ltd-010222957.html#1",
+   "date": "2026-02-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Record fertilizer sales lift GSFC Q1 FY27 profit by 15% - Fertilizer",
+   "url": "https://www.indianchemicalnews.com/fertilizer/record-fertilizer-sales-lift-gsfc-q1-fy27-profit-by-15-31480#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Deepak Fertilisers Q1 profit doubles as margins expand on strong chemicals performance - CNBC TV18 - Deepak Fertilisers Q1 profit doubles as margins expand on strong chemicals performance",
+   "url": "https://www.cnbctv18.com/market/earnings/deepak-fertilisers-share-price-q1-result-profit-doubles-ebitda-revenue-19957805.htm#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "DEEPAK FERTILISERS AND PETROCHEMICALS CORP LTD. : Latest Quarterly Results Analysis - ICICI Direct - S",
+   "url": "https://www.icicidirect.com/research/equity/rapid-results/deepak-fertilisers-and-petrochemicals-corp-ltd#2",
+   "date": "2026-10-18",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Fertis India Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202507160746_Fertis_India_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Complex fertiliser capacity to jump ~25% in next three fiscals",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2026/02/complex-fertiliser-capacity-to-jump-25-percent-in-next-three-fiscals.html",
+   "date": "2026-02-10",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "A sound corporate governance structure attempts to make a clear the distinction of power and responsibilities between the Board ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/914~Fertilisers#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gujarat State Fertilizers and Chemicals Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510141029_Gujarat_State_Fertilizers_and_Chemicals_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 20 (national 0 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: GST collections -0.2% Apr-to-date vs India +6.1% (6.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +53.1% YoY vs output -1.2% (gap +54.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
