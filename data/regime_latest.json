@@ -1,6 +1,6 @@
 {
-  "generated_at_ist": "2026-11-01 19:13 IST",
-  "run_id": "20261101T191316-66c2d8",
+  "generated_at_ist": "2026-11-01 22:25 IST",
+  "run_id": "20261101T222431-ec6908",
   "snapshot_date": "2026-11-01",
   "regime_label": "Stagflation",
   "sub_label": "confirmed",
@@ -439,22 +439,22 @@
       "value": 113.43000030517578,
       "prior_value": 110.80000305175781,
       "direction": 1,
-      "score": null,
+      "score": -1,
       "weight": 1,
       "as_of": "2026-10-30",
       "is_stale": false,
       "stale_since": null,
       "source": "ice_contract",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
-      "status": "failed",
+      "status": "verified",
       "checks": [
-        "MISMATCH yahoo=117.64 vs 113.43000030517578 (tol ('rel', 0.02))"
+        "cross-check yahoo=113.43 within 2%"
       ],
       "note": "ICE Brent active contract (value and prior from the same contract)",
       "source_tier": "market_data",
       "data_period": "2026-10-30",
       "survey_quarter": null,
-      "diagnostics": "excluded: unverified (validation failed)",
+      "diagnostics": "scored",
       "stale_reason": null,
       "release_date": "2026-10-30"
     },
@@ -601,7 +601,7 @@
       "source_url": "https://www.rbi.org.in/",
       "status": "verified",
       "checks": [
-        "cross-check yahoo=94.95 within 1%",
+        "cross-check yahoo=94.94 within 1%",
         "official source"
       ],
       "note": "FBIL USD/INR reference rate as shown on RBI homepage (dated to its publication day)",
