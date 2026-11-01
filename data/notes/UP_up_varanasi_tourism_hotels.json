@@ -1,0 +1,150 @@
+{
+ "key": "up_varanasi|tourism_hotels",
+ "state": "UP",
+ "city": "up_varanasi",
+ "ind": "tourism_hotels",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively to small owner-run Varanasi hotels and Satvik F&B with verified cash flows; avoid new-build and unproven operators until city-level data is collected.",
+ "title": "Varanasi Tourism, Hotels & Restaurants: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Varanasi hotel sells rooms, food and darshan access, and converts them to cash daily.** The new Summit Heritage Kashinaama shows the template: 18 rooms across four categories, an all-vegetarian Satvik restaurant, and guest assistance for Kashi Vishwanath and Kaal Bhairav temple visits [3]. Cash arrives at checkout; costs are staff, power, food and OTA commission. **Pricing power sits in location and darshan access, not in room count.**\n\n## Where value and cash sit\n**Value is in the land and the licence; cash is in occupancy and F&B attach rate.** Peer results show the upside: ITC Hotels Q2 FY27 consolidated revenue Rs 1,054 crore, up 26 percent, EBITDA Rs 337 crore, up 37 percent [4]; Leela's Q2 was driven by 30 percent RevPAR growth, entirely ARR-led [6]. **Those are large-format, branded peers, not Varanasi mid-market.** For a local borrower, collect from customer: occupancy, ARR, F&B share, OTA commission, and seasonality by month.\n\n## What has changed now\n**Branded spiritual-hospitality supply is entering Varanasi.** Summit opens its 18-room Mandir Collection property on November 1, 2026, owned by Abhinav Rai, in Bhagwanpur [1][3]. That is one property, not a market shift, and the sources say little about Varanasi's wider supply, rates or arrivals, so lean on first principles. **When a proposal lands, check whether the borrower competes on darshan access or only on price; if only price, ask for the last twelve months of ADR and occupancy.**\n\n## Who to pursue, and how to grow safely\n**Pursue owner-operated 10-30 room properties near the ghats and temple corridor, and Satvik/vegetarian restaurants with steady local demand.** Avoid first-time developers of new-build hotels and operators with no trailing cash flow. Structure against receivables and seasonality: **take monthly occupancy, ADR and OTA payout statements, quarterly stock and licence statements, and annual ITR and GST returns.** Covenant a debt-service cover and a minimum occupancy floor; if occupancy falls below the floor for two months, ask for a fresh cash-flow projection before any enhancement.\n\n## Early-warning signs\n**Watch OTA dependence, licence status and seasonality.** If OTA commission share rises while ADR stays flat, the borrower is buying occupancy; ask for direct-booking share. If the property's food licence or temple-tie-up lapses, stop disbursement. **Rating reports are old and generic here [8][9][11]; treat them as method, not evidence.**"
+ ],
+ "watch": [
+  [
+   "Monthly occupancy and ADR (monthly)",
+   "Two consecutive months below covenant floor -> freeze enhancement, seek revised cash flow"
+  ],
+  [
+   "OTA payout and commission share (monthly)",
+   "Commission share rising with flat ADR -> ask for direct-booking plan"
+  ],
+  [
+   "Licence and temple-tie-up status (quarterly)",
+   "Lapse or non-renewal -> stop disbursement"
+  ],
+  [
+   "GST and ITR filings (annual)",
+   "Turnover mismatch with bank credits -> re-rate exposure"
+  ],
+  [
+   "Seasonal cash-flow statement (quarterly)",
+   "Post-season cash shortfall -> restructure repayment to seasonal schedule"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "One branded 18-room Varanasi opening; no city-wide demand or supply data.",
+ "articles": [
+  {
+   "title": "Summit Hotels to open 18-room heritage property in Varanasi under Mandir Collection",
+   "url": "https://travel.economictimes.indiatimes.com/news/hospitality/summit-hotels-to-open-18-room-heritage-property-in-varanasi-under-mandir-collection/135396471?utm_source=latest_news&utm_medium=homepage",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Summit Hotels & Resorts to open Heritage Kashinaama in Varanasi",
+   "url": "https://hospitality.economictimes.indiatimes.com/news/hotels/summit-hotels-resorts-to-open-heritage-kashinaama-in-varanasi/135386544?utm_source=category_news&utm_medium=homepage",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Summit Hotels & Resorts Expands in Varanasi with 18 Room Property",
+   "url": "https://www.franchiseindia.com/insights/en/news/summit-hotels-resorts-expands-in-varanasi-with-18-room-property.599994",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "ITC Hotels Limited registers strong performance: Continued momentum in growth and expansion for Q2 FY27",
+   "url": "https://hospitality.economictimes.indiatimes.com/news/hotels/itc-hotels-limited-registers-strong-performance-continued-momentum-in-growth-and-expansion-for-q2-fy27/135212373?utm_source=Mailer&utm_medium=&utm_campaign=&dt=2026-11-01",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ventive Hospitality reports 27 per cent revenue growth with EBITDA margin at 48 per cent in Q3 FY26 - BW Hotelier",
+   "url": "https://www.bwhotelier.com/article/ventive-hospitality-reports-27-per-cent-revenue-growth-with-ebitda-margin-at-48-per-cent-in-q3-fy26-591943",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results - Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results",
+   "url": "https://www.business-standard.com/amp/markets/news/leela-palaces-hotels-rallies-10-hits-new-high-on-healthy-q2-results-126101500218_1.html#1",
+   "date": "2026-10-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The Indian Hotels Company (BOM:500850) Q2 2027 Earnings Call Transcript & Audio",
+   "url": "https://stockanalysis.com/quote/bom/500850/transcripts/711263-q2-26-27/",
+   "date": "2026-10-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA analyses the long period past financial performance trends and estimates future financial performance to assess the financi...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/859~Hotels#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 14,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130490#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "APEEJAY SURRENDRA PARK HOTELS LIMITED",
+   "url": "https://www.theparkhotels.com/images/site-specific/corporate-site/intimation-credit-rating.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Uttar Pradesh None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
