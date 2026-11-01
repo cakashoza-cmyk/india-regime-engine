@@ -1,0 +1,154 @@
+{
+ "key": "ap_visakhapatnam|metals",
+ "state": "AP",
+ "city": "ap_visakhapatnam",
+ "ind": "metals",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 47,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to secondary re-rollers with contracted power and confirmed offtake; avoid merchant re-rollers selling into the spot market on thin margins.",
+ "title": "Visakhapatnam Iron & Steel: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA Visakhapatnam secondary steel unit buys sponge iron, scrap and billets, melts and re-rolls them into TMT bars, structurals and profiles, and sells mostly into AP and coastal construction. Cash turns on three things: power and input cost, the conversion spread per tonne, and how fast the buyer pays. **The plant is a conversion machine; the spread per tonne and the receivable days decide whether you get repaid, not the headline capacity.** RINL's Visakhapatnam Steel Plant anchors the local ecosystem and is exploring a shipping-container plant in Vizag [3]; that is a demand signal for downstream units, not a credit for RINL itself.\n\n## What has changed now\nNational steel output is up only 2.4% YoY in August and 3.4% Apr-to-date [D], yet peers are printing volume-led growth with margins squeezed by coking coal and rupee depreciation [6]. JSW Steel tripled September-quarter profit on volumes and higher prices [4], and metals are the top sectoral bet this year [5]. **Read this as a volume story with a cost problem: good units run fuller, weak units bleed on input cost.** Locally, AP GST collections are -0.2% Apr-to-date against India +6.1% [D], a real stress signal, while AP electricity demand is +18.1% against India +9.5% [D], a genuine tailwind for units with firm power. SEIL Vizag Profiles' expansion, at Rs 5,194 crore with 3,000 jobs [2], tells you downstream capacity is coming.\n\n## Where to grow\nPursue re-rollers and profile makers with captive or contracted power, a named anchor buyer, and a product mix skewed to structurals and profiles rather than commodity TMT. Pursue units feeding the SEIL expansion and the container-plant supply chain [2][3]. **Avoid merchant TMT re-rollers selling spot, single-customer units, and anyone whose power is open-market.** When a proposal lands, check the power tariff contract and the top-three buyer share; if the top buyer is above half of sales, ask for a diversion-of-sales undertaking.\n\n## How to grow safely\nStructure as a cash-flow loan against receivables and inventory, not a clean term loan. Take monthly stock-and-receivable statements, quarterly GST returns, and a half-yearly unit visit. **Covenant the conversion spread per tonne and receivable days; if spread falls below the sanctioned floor for two months, freeze limits.** Collect from customer the per-tonne power cost and the coking-coal sourcing mix before sanction.\n\n## Early warning signs\n- Monthly GST turnover falling two months running (monthly) -> cut limit, ask for buyer list.\n- Receivable days stretching beyond sanction (monthly) -> stop fresh disbursal.\n- Power bill arrears or open-market power switch (quarterly) -> reprice or exit.\n- Stock build with flat sales (monthly) -> insist on stock audit.\n\nSources are thin on Visakhapatnam-specific steel credit data; the local items are RINL and SEIL announcements [1][2][3], and the rating reports [8][9][10][11] carry no dates, so treat them as background only."
+ ],
+ "watch": [
+  [
+   "Monthly GST turnover (monthly)",
+   "Two consecutive declines -> freeze fresh limits and request buyer-wise sales"
+  ],
+  [
+   "Receivable days (monthly)",
+   "Above sanctioned level -> stop disbursal, seek diversion undertaking"
+  ],
+  [
+   "Power tariff and arrears (quarterly)",
+   "Open-market switch or arrears -> reprice or exit"
+  ],
+  [
+   "Conversion spread per tonne (monthly)",
+   "Below floor for two months -> freeze limits, review pricing"
+  ],
+  [
+   "Inventory vs sales (monthly)",
+   "Stock build with flat sales -> order stock audit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "National steel output up 2.4% YoY, peers growing on volumes; AP GST weak but power demand strong.",
+ "articles": [
+  {
+   "title": "AP: RINL reiterates commitment to transparency,… | UNI India",
+   "url": "https://www.uniindia.com/south-india/business-ap-rinl/232118",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Expansion project of SEIL, Vizag Profiles to generate 3,000 jobs",
+   "url": "https://assets.thehansindia.com/news/cities/visakhapatnam/expansion-project-of-seil-vizag-profiles-to-generate-3000-jobs-1137718",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "RINL exploring shipping container mfg plant in Vizag",
+   "url": "https://www.bizzbuzz.news/industry/logistics/rinl-exploring-shipping-container-mfg-plant-in-vizag-1413197",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "JSW Steel profit more than triples on strong demand, beats Street estimates - JSW Steel profit more than triples on strong demand, beats Street estimates",
+   "url": "https://in.tradingview.com/news/moodys:f2c70b7c5e7ff:0-jsw-steel-profit-more-than-triples-on-strong-demand-beats-street-estimates/#1",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "steel sales volume: Latest News & Videos, Photos about steel sales volume | The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/steel-sales-volume#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India: Kirloskar Ferrous posts volume-led growth in Q2 FY27 but high input costs erode margins - BigMint",
+   "url": "https://www.bigmint.co/insights/detail/india-kirloskar-ferrous-posts-volume-led-growth-in-q2-fy27-but-high-input-costs-erode-margins-804491",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "JSW Steel Earnings Call: Record Volumes, Bold CapEx - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/jsw-steel-earnings-call-record-volumes-bold-capex?utm_source=flipboard&utm_content=TipRanks%2Fmagazine%2FTipRanks+Labs#1",
+   "date": "2026-10-23",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "units",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=135559#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The liquidity of SAIL remains adequate, with free cash and cash balance of 317 crore as on March 31, 2025. Furthermore, SAIL is ...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510141050_Steel_Authority_of_India_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/CauveryIronandSteelIndiaLimited_May%2006_%202024_RR_341841.html",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The gross contribution per metric tonne of a rated entity reflects the marginal profits generated per unit of incremental sales,...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/848~Ferrous%20Metals#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 47 (national 45 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: GST collections -0.2% Apr-to-date vs India +6.1% (6.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Andhra Pradesh: electricity demand +18.1% Apr-to-date vs India +9.5% (8.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +3.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

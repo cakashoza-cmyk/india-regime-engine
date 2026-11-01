@@ -1,0 +1,146 @@
+{
+ "key": "ka_ballari|metals",
+ "state": "KA",
+ "city": "ka_ballari",
+ "ind": "metals",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 67,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Ballari iron & steel — pursue re-rollers and service units tied to the JSW and Uttama Galva build-out, structure tightly around iron-ore and power cost swings, and avoid pure ore-trading and single-customer units.",
+ "title": "Ballari iron & steel: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Ballari steel is ore-to-billet-to-roll: sponge iron and re-rolling units buy iron ore and coal, melt and roll, and sell TMT and structurals into Karnataka and neighbouring states.** Cash is made on the spread between ore-plus-power cost and finished-steel price, not on volume alone. The working-capital cycle is short on the sales side but heavy on inventory — ore and coal stock plus power security deposits sit ahead of the cash. Capex is lumpy: a re-rolling line or captive power unit is a multi-year commitment. **So when a proposal lands, check the ore and power cost per tonne against the selling price per tonne; if the spread is thin, ask what protects it.**\n\n## What has changed now\n**The district is on the edge of a large capacity build-out: Uttama Galva Ferrous has environment clearance for a 60 lakh tonne per year steel plant with an 893 MW captive power plant [1], and JSW Steel has placed a mega expansion order for Ballari [3].** Peer results confirm the demand side is real — JSW Steel's September-quarter profit more than tripled on better volumes and higher prices [4], and Kirloskar Ferrous posted record volumes but saw margins eroded by coking coal and rupee depreciation [6]. **The margin story is the warning: volume growth is not margin growth, so when a proposal lands, check the input-cost pass-through clause; if there is none, ask for the last four quarters' cost-to-price movement.**\n\n## Where the growth is\n**Pursue the second-tier suppliers and service units that will feed these plants — fabrication, handling, transport, and small re-rollers with an offtake link to JSW or Uttama Galva.** Karnataka's local demand signals support this: GST collections are up 11.1% Apr-to-date against India's 6.1% [D], and electricity demand is up 23.3% against India's 9.5% [D]. **Avoid pure iron-ore traders and units with a single customer or a single furnace; the mining regulatory risk is live — the Supreme Court-appointed committee has been urged to visit Ballari's mining-hit areas [2].**\n\n## How to grow safely\n**Structure against the input cycle, not the order book: keep tenor short, take a charge on stock and receivables, and set a covenant on the ore-plus-power cost per tonne.** Take monthly stock statements and monthly power bills — power is the second-largest cost and the earliest signal of a utilisation drop."
+ ],
+ "watch": [
+  [
+   "Monthly stock and power-bill statement",
+   "stock days rise two months running -> cut limit and ask for fresh ore contract"
+  ],
+  [
+   "Quarterly cost-to-price spread",
+   "spread narrows below the sanctioned covenant -> reprice or seek additional collateral"
+  ],
+  [
+   "Mining regulatory news (monthly)",
+   "adverse court or committee action in Ballari -> freeze new ore-trader exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Large new steel and power capacity cleared in Ballari plus strong peer volumes and local demand.",
+ "articles": [
+  {
+   "title": "ಬಳ್ಳಾರಿ: ₹36 ಸಾವಿರ ಕೋಟಿಯ ಉದ್ದಿಮೆಗೆ ಅನುಮತಿ; 64 ಸಾವಿರಕ್ಕೂ ಅಧಿಕ ಉದ್ಯೋಗ",
+   "url": "https://www.prajavani.net/district/ballari/ballari-industrial-project-uttama-galva-steel-plant-4357017",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "SC panel urged to visit mining-hit areas, submit report in court - SC panel urged to visit mining-hit areas, submit report in court",
+   "url": "https://www.thehindu.com/news/national/karnataka/sc-panel-urged-to-visit-mining-hit-areas-submit-report-in-court/article71615919.ece#1",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "L&T secures mega JSW Steel order for capacity expansion in Ballari, Paradip - Home",
+   "url": "https://www.business-standard.com/amp/companies/news/l-t-secured-largest-domestic-metals-sector-order-from-jsw-steel-126050600328_1.html#1",
+   "date": "2026-05-05",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "JSW Steel profit more than triples on strong demand, beats Street estimates - JSW Steel profit more than triples on strong demand, beats Street estimates",
+   "url": "https://in.tradingview.com/news/moodys:f2c70b7c5e7ff:0-jsw-steel-profit-more-than-triples-on-strong-demand-beats-street-estimates/#1",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "steel sales volume: Latest News & Videos, Photos about steel sales volume | The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/steel-sales-volume#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "India: Kirloskar Ferrous posts volume-led growth in Q2 FY27 but high input costs erode margins - BigMint",
+   "url": "https://www.bigmint.co/insights/detail/india-kirloskar-ferrous-posts-volume-led-growth-in-q2-fy27-but-high-input-costs-erode-margins-804491",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "JSW Steel Earnings Call: Record Volumes, Bold CapEx - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/jsw-steel-earnings-call-record-volumes-bold-capex?utm_source=flipboard&utm_content=TipRanks%2Fmagazine%2FTipRanks+Labs#1",
+   "date": "2026-10-23",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "units",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=135559#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The liquidity of SAIL remains adequate, with free cash and cash balance of 317 crore as on March 31, 2025. Furthermore, SAIL is ...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510141050_Steel_Authority_of_India_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/CauveryIronandSteelIndiaLimited_May%2006_%202024_RR_341841.html",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The gross contribution per metric tonne of a rated entity reflects the marginal profits generated per unit of incremental sales,...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/848~Ferrous%20Metals#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 67 (national 45 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Karnataka: GST collections +11.1% Apr-to-date vs India +6.1% (5.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Karnataka: electricity demand +23.3% Apr-to-date vs India +9.5% (13.8 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +3.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

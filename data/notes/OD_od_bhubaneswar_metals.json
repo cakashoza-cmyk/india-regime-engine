@@ -1,0 +1,144 @@
+{
+ "key": "od_bhubaneswar|metals",
+ "state": "OD",
+ "city": "od_bhubaneswar",
+ "ind": "metals",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new iron & steel exposure in Bhubaneswar for now; lend only to asset-backed downstream fabricators with verified order books, and decline commodity re-rollers dependent on OMC ore allocation.",
+ "title": "Bhubaneswar Iron & Steel: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A re-roller buys sponge iron, scrap and billet, heats and rolls it into TMT bars, angles and structurals, and sells into construction and infra demand.** Cash turns on the spread between input cost and finished price, not on volume alone. Capex is heavy and lumpy — a rolling mill is a multi-year asset with no second use. **So when a proposal lands, check the ore or sponge sourcing contract first; if it is a spot purchase with no annual linkage, ask for the last twelve months of purchase invoices and the supplier concentration.**",
+  "## What has broken now\n**Odisha is running behind the country on both demand signals: GST collections +0.5% Apr-to-date against India +6.1% [D], and electricity demand +5.1% against India +9.5% [D].** That is a local stress signal, not a national one — peer results are strong, with JSW Steel's September-quarter profit at Rs.5,279 crore against Rs.1,623 crore a year earlier [4], and Kirloskar Ferrous revenue up 17% y-o-y to INR 2,046.7 crore [6]. **The gap is input cost: Kirloskar's EBITDA margin fell as coking coal costs and rupee depreciation offset volume growth [6], and Brent at $113/bbl sits above the $75–100 band [D], which keeps freight and power expensive.** Locally, the ISA delegation to the Chief Minister in April 2026 asked for priority iron ore allocation and fiscal incentives for Odisha steel industries [2] — read that as evidence ore availability is tight, not as a solved problem. The AM/NS ore requirement assessment is still not done and a 92 ha block at Allaghat in Sundargarh is yet to be granted [3]. **So when a re-roller claims assured ore, ask for the allocation letter; if there is none, treat the margin as unhedged.**",
+  "## Where the growth is\n**Pursue downstream fabricators and off-site steel processors serving construction, not commodity billet makers.** Sagar Business Ventures showcased off-site fabrication at TiECon Bhubaneswar 2026, claiming project timelines cut by almost 50% [1] — that is the borrower type with pricing power, because it sells a service, not a commodity. **Avoid standalone re-rollers with no captive power, no ore linkage and single-customer concentration.** Note plainly: sources say little about Bhubaneswar city itself; most local news is state-level, so lean on first principles and the peer set.",
+  "## How to grow safely\n**Structure against stock and receivables, not against the mill.** Take monthly stock statements, monthly sales registers and quarterly GST returns reconciled to bank statements.",
+  "**If GST turnover for the borrower's own GSTIN falls two quarters running while Odisha state GST stays near +0.5% [D], pull the limit.**"
+ ],
+ "watch": [
+  [
+   "Odisha GST and CEA demand prints (monthly)",
+   "Odisha GST growth stays below India by 5 pp or more -> no new steel limits in the cluster"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Odisha GST and power demand lag India sharply; ore allocation unresolved; input costs eroding margins.",
+ "articles": [
+  {
+   "title": "Sagar Business Showcases Innovative Construction Solutions at TiECon Bhubaneswar 2026",
+   "url": "https://odishatazanews.com/?p=215454",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Indian Steel Association Delegation Meets Odisha Chief Minister, Seeks Priority Iron Ore Allocation to Odisha Steel Industries - The Tribune - Add Tribune As Your Trusted Source",
+   "url": "https://www.tribuneindia.com/news/business/indian-steel-association-delegation-meets-odisha-chief-minister-seeks-priority-iron-ore-allocation-to-odisha-steel-industries/amp/?utm=relatedarticles#1",
+   "date": "2026-04-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Assessment of iron ore requirement of AM/NS plant not done yet: Bibhuti Bhushan",
+   "url": "https://www.newindianexpress.com/cities/bhubaneswar/2026/Mar/27/assessment-of-iron-ore-requirement-of-amns-plant-not-done-yet-bibhuti-bhushan",
+   "date": "2026-03-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "JSW Steel profit more than triples on strong demand, beats Street estimates - JSW Steel profit more than triples on strong demand, beats Street estimates",
+   "url": "https://in.tradingview.com/news/moodys:f2c70b7c5e7ff:0-jsw-steel-profit-more-than-triples-on-strong-demand-beats-street-estimates/#1",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "steel sales volume: Latest News & Videos, Photos about steel sales volume | The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/steel-sales-volume#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "India: Kirloskar Ferrous posts volume-led growth in Q2 FY27 but high input costs erode margins - BigMint",
+   "url": "https://www.bigmint.co/insights/detail/india-kirloskar-ferrous-posts-volume-led-growth-in-q2-fy27-but-high-input-costs-erode-margins-804491",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "JSW Steel Earnings Call: Record Volumes, Bold CapEx - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/jsw-steel-earnings-call-record-volumes-bold-capex?utm_source=flipboard&utm_content=TipRanks%2Fmagazine%2FTipRanks+Labs#1",
+   "date": "2026-10-23",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "units",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=135559#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The liquidity of SAIL remains adequate, with free cash and cash balance of 317 crore as on March 31, 2025. Furthermore, SAIL is ...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510141050_Steel_Authority_of_India_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/CauveryIronandSteelIndiaLimited_May%2006_%202024_RR_341841.html",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The gross contribution per metric tonne of a rated entity reflects the marginal profits generated per unit of incremental sales,...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/848~Ferrous%20Metals#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + Odisha 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Odisha: GST collections +0.5% Apr-to-date vs India +6.1% (5.6 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Odisha: electricity demand +5.1% Apr-to-date vs India +9.5% (4.4 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": false,
+  "problems": [
+   "watch list must have 3-5 items"
+  ],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

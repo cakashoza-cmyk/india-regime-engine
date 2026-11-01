@@ -1,0 +1,146 @@
+{
+ "key": "od_kalinganagar|metals",
+ "state": "OD",
+ "city": "od_kalinganagar",
+ "ind": "metals",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new secondary re-rolling exposure in Kalinganagar for now; lend only to integrated, anchor-linked processors with pass-through contracts and tight monthly monitoring.",
+ "title": "Kalinganagar Iron & Steel: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Kalinganagar is an anchor-driven steel cluster: a few large integrated mills surrounded by secondary re-rollers, galvanisers and downstream processors.** The secondary unit buys hot-rolled coils or billets, rolls or galvanises them, and sells to construction, auto and white-goods buyers. Cash is made on the spread between input cost and finished price, not on volume alone. Capex is heavy and lumpy relative to turnover. **So when a proposal lands, check the coil procurement contract and the customer order book first; if the buyer list is one or two traders, ask for the end-customer names and payment history.**\n\n## What has changed now\n**The local demand signal is weak even as the anchor capex is strong.** Odisha GST collections rose only +0.5% Apr-to-date against India's +6.1%, and state electricity demand +5.1% against India's +9.5% [D] — both point to slower local activity. Nationally, IIP for NIC 24 (basic metals) grew +2.4% YoY [D], and Brent at $113/bbl [D] raises freight and power costs. **Peer results are mixed: JSW Steel's Q2 FY27 net profit rose to Rs 5,279 crore from Rs 1,623 crore [4], but Kirloskar Ferrous saw EBITDA margins erode on coking coal and rupee depreciation despite 17% revenue growth [6].** The Rs 9,067-crore Tata Steel/NINL Kalinganagar expansion [1][2][3] is real and recent, but it benefits the anchor and its contractors, not the marginal re-roller. **Net: the cluster is expanding at the top and thinning at the bottom.**\n\n## Who to pursue, who to avoid\n**Pursue processors tied to the anchor's galvanising and annealing lines [3] with firm offtake, and job-work units with assured conversion fees.** Avoid standalone re-rollers selling into a soft local construction market on thin spreads. **If a borrower's revenue depends on spot coil purchases with no pass-through clause, decline or demand a co-obligant.**\n\n## How to grow safely\n**Structure against the spread, not the balance sheet.** Take monthly stock-and-receivable statements, a charge on inventory, and a covenant that drawing power tracks coil price. **Take every month: stock statement, sales register, and top-five buyer ageing.** If receivables beyond 60 days exceed a third of sales, freeze limits."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Inventory days above 45 with falling coil price -> cut limit by 20%"
+  ],
+  [
+   "Quarterly buyer ageing",
+   "Receivables beyond 60 days exceed one-third of sales -> stop new bills, review facility"
+  ],
+  [
+   "Monthly power bill / CEA state demand",
+   "Odisha demand growth stays below India by over 4 pp [D] -> tighten new-to-bank re-roller limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Odisha GST and power demand lag India sharply; local demand soft despite anchor capex.",
+ "articles": [
+  {
+   "title": "Tata Steel, NINL unveil Rs 9,067-crore Odisha expansion, target 10,500 jobs || THEBUSINESSBYTES.com",
+   "url": "https://www.thebusinessbytes.com/post/tata-steel-ninl-unveil-rs-9067-crore-odisha-expansion-target-10500-jobs",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tata Steel Invests INR 9,067 Crore in Odisha Manufacturing Expansion - Tube & Pipe India",
+   "url": "https://tubepipeindia.com/tata-steel-invests-2/",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tata Steel commissions ₹9,067 crore facilities at Kalinganagar plants",
+   "url": "https://bsppd.business-standard.com/industry/news/tata-steel-commissions-9-067-crore-facilities-at-kalinganagar-plants-126101600007_1.html",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "JSW Steel profit more than triples on strong demand, beats Street estimates - JSW Steel profit more than triples on strong demand, beats Street estimates",
+   "url": "https://in.tradingview.com/news/moodys:f2c70b7c5e7ff:0-jsw-steel-profit-more-than-triples-on-strong-demand-beats-street-estimates/#1",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "steel sales volume: Latest News & Videos, Photos about steel sales volume | The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/steel-sales-volume#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "India: Kirloskar Ferrous posts volume-led growth in Q2 FY27 but high input costs erode margins - BigMint",
+   "url": "https://www.bigmint.co/insights/detail/india-kirloskar-ferrous-posts-volume-led-growth-in-q2-fy27-but-high-input-costs-erode-margins-804491",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "JSW Steel Earnings Call: Record Volumes, Bold CapEx - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/jsw-steel-earnings-call-record-volumes-bold-capex?utm_source=flipboard&utm_content=TipRanks%2Fmagazine%2FTipRanks+Labs#1",
+   "date": "2026-10-23",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "units",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=135559#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The liquidity of SAIL remains adequate, with free cash and cash balance of 317 crore as on March 31, 2025. Furthermore, SAIL is ...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510141050_Steel_Authority_of_India_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/CauveryIronandSteelIndiaLimited_May%2006_%202024_RR_341841.html",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The gross contribution per metric tonne of a rated entity reflects the marginal profits generated per unit of incremental sales,...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/848~Ferrous%20Metals#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + Odisha 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Odisha: GST collections +0.5% Apr-to-date vs India +6.1% (5.6 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Odisha: electricity demand +5.1% Apr-to-date vs India +9.5% (4.4 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

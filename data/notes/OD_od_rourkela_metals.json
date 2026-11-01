@@ -1,0 +1,150 @@
+{
+ "key": "od_rourkela|metals",
+ "state": "OD",
+ "city": "od_rourkela",
+ "ind": "metals",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new secondary re-rolling exposure in Rourkela for now; lend only to integrated/large anchors with pass-through pricing and tight monthly structure.",
+ "title": "Rourkela Iron & Steel: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Rourkela is an anchor-plus-satellite steel town: SAIL's RSP is the anchor, and the lending pool is the re-rollers, fabricators and service units around it.** The anchor converts ore and coal into slabs and plates; the satellites buy slab, billet or scrap, reheat and roll it into bars, structurals and plates, and sell into construction, infra and fabrication. Cash turns on the spread between input (scrap, billet, coal, power) and finished price, not on volume alone. **So when a proposal lands, check the input-to-output spread the borrower actually earns, not the topline.**\n\n## Where value and cash sit\n**Value sits in the rolling yield and the order book; cash sits in inventory and receivables, and both are long.** Inventory is heavy and price-sensitive, power and fuel are a large running cost, and receivables from builders and government contractors stretch. Capex is lumpy and slow to pay back. **So when a proposal lands, check the working-capital cycle month by month; if receivables are stretching beyond the stated credit period, ask which buyers and why.**\n\n## What has changed now\n**The local demand signal is weak even as the national steel cycle looks strong.** Odisha GST collections rose only +0.5% Apr-to-date against India's +6.1% [D], and Odisha electricity demand rose +5.1% against India's +9.5% [D] — both local stress signals. Nationally, IIP for NIC 24 rose +2.4% YoY [D], and Brent at $113/bbl sits above the $75–100 band [D], which lifts freight and power costs. Peer results are mixed: JSW Steel's Q2 FY27 net profit rose to Rs.5,279 crore from Rs.1,623 crore [4], while Kirloskar Ferrous saw revenue up 17% y-o-y to INR 2,046.7 crore but margins eroded by coking coal and rupee depreciation [6]. **The anchor itself is running well — RSP's New Plate Mill set a single-shift record of 151 slabs and 1,950 tonnes on 26 October 2026 [2] — but that is the anchor's efficiency, not the satellites' spread.** Local sources say nothing about satellite unit health; lean on first principles and peers there.\n\n## Where to grow, and how to grow safely\n**Pursue units with a confirmed offtake or job-work link to RSP or a large OEM, and fabricators with a diversified order book.** Avoid pure merchant re-rollers selling into spot with no pricing pass-through. Structure against inventory and receivables, not land. **Take stock and receivable statements every month, plus power bills and GST returns; if GST turnover diverges from bank credits, ask for the sales register.**\n\n## Early-warning signs\n**Watch for inventory days rising while sales fall, and for power dues or salary delays.** A shift from LC-backed to cash purchases of scrap, or repeated stock statements showing the same lot, means the spread has gone. **If any of these appear, stop enhancement and ask for a fresh CMA with month-wise spread.**"
+ ],
+ "watch": [
+  [
+   "GST returns vs bank credits (monthly)",
+   "divergence >10% -> ask for sales register and stop enhancement"
+  ],
+  [
+   "Inventory and receivable days (monthly)",
+   "inventory days rising while sales fall -> reprice or reduce limit"
+  ],
+  [
+   "Power and fuel bills (monthly)",
+   "arrears or part-payment -> ask for cash-flow statement and tighten"
+  ],
+  [
+   "Order book / offtake confirmation (quarterly)",
+   "loss of anchor or OEM link -> downgrade and seek collateral"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Odisha GST and power demand lag India sharply; local demand weak despite strong national steel peers.",
+ "articles": [
+  {
+   "title": "SAIL RSP Inaugurates Community Centre at Lathikata under CSR",
+   "url": "https://www.psuconnect.in/psu-news/sail-rsp-inaugurates-community-centre-at-lathikata-under-csr",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": false
+  },
+  {
+   "title": "SAIL Rourkela New Plate Mill Sets Single-Shift Record",
+   "url": "https://www.psuconnect.in/psu-news/sail-rourkela-new-plate-mill-sets-single-shift-record",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "RSP accelerates digital transformation with SAP… | UNI India",
+   "url": "https://www.uniindia.com/east-india/industry-rsp-digital-initiatives/230638",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": false
+  },
+  {
+   "title": "JSW Steel profit more than triples on strong demand, beats Street estimates - JSW Steel profit more than triples on strong demand, beats Street estimates",
+   "url": "https://in.tradingview.com/news/moodys:f2c70b7c5e7ff:0-jsw-steel-profit-more-than-triples-on-strong-demand-beats-street-estimates/#1",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "steel sales volume: Latest News & Videos, Photos about steel sales volume | The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/steel-sales-volume#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "India: Kirloskar Ferrous posts volume-led growth in Q2 FY27 but high input costs erode margins - BigMint",
+   "url": "https://www.bigmint.co/insights/detail/india-kirloskar-ferrous-posts-volume-led-growth-in-q2-fy27-but-high-input-costs-erode-margins-804491",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "JSW Steel Earnings Call: Record Volumes, Bold CapEx - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/jsw-steel-earnings-call-record-volumes-bold-capex?utm_source=flipboard&utm_content=TipRanks%2Fmagazine%2FTipRanks+Labs#1",
+   "date": "2026-10-23",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "units",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=135559#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The liquidity of SAIL remains adequate, with free cash and cash balance of 317 crore as on March 31, 2025. Furthermore, SAIL is ...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510141050_Steel_Authority_of_India_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/CauveryIronandSteelIndiaLimited_May%2006_%202024_RR_341841.html",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The gross contribution per metric tonne of a rated entity reflects the marginal profits generated per unit of incremental sales,...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/848~Ferrous%20Metals#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + Odisha 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Odisha: GST collections +0.5% Apr-to-date vs India +6.1% (5.6 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Odisha: electricity demand +5.1% Apr-to-date vs India +9.5% (4.4 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
