@@ -1,0 +1,121 @@
+{
+ "key": "cg_korba|coal_mining",
+ "state": "CG",
+ "city": "cg_korba",
+ "ind": "coal_mining",
+ "version": "v6",
+ "generated_at": "2026-11-01 22:39 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "UNKNOWN — no data-based green light; lend selectively to private washeries with EC, raw-coal tie-up and verified offtake, and avoid single-allotment or coal-trading exposures.",
+ "title": "Korba coal mining & washeries: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Coal mining in Korba is opencast, transport-heavy work; washeries turn raw coal into washed coal and rejects, and cash is made on yield and ash reduction.** The district page says coal is abundant, SECL has important mines in Korba and four thermal plants generate 3650 MW [4]. The official washery list shows KJSL Coal & Power at Dhatura, Pali, Korba with 4.10 capacity, non-coking, private [3]. The local project tracker shows 78 mining projects in Chhattisgarh worth ₹0.92 lakh crore, 28 above ₹100 Cr, 7 added in the last 30 days [1]; the Korba Manikpur opencast expansion is from 3.50 to 5.25 MTPA [1]. **Korba-specific washery financials are thin in these sources, so underwrite from first principles and peer prints; the official data pack returns UNKNOWN, with no score [D].**",
+  "## Where value and cash sit\n**The washery earns on yield and ash reduction, not on the coal price line alone.** Inputs are raw coal, transport, water and power, consumables, land and EC; cash goes out for raw coal and transport before washed coal is collected, and rejects can absorb cash if disposal is slow. Pricing power is weak on FSA/linkage coal and volatile on e-auction. Peer results and a broker/rating note show CIL Q2FY27 e-auction premium at 51% versus 57%, e-auction realisations at Rs 2,283/t, FSA at Rs 1,510/t up 4% [6]; SAIL’s imported coking coal at ₹22,930/t rose ₹1,700 QoQ and OPM compressed to 12.9% [5]. **So when a proposal lands, check raw-coal tie-up, yield, reject sale and receivable ageing before the projected price; if the yield, ash content, landed raw-coal cost or reject price is missing, write ‘collect from customer’.**",
+  "## What has changed now\n**Local project activity is real, but peer results show price and margin volatility, not a clean upward cycle.** The tracker lists new washeries in Janjgir Champa at 1440000 MT, Bilaspur at 0.99 MTPA and Rs.150 Million, plus the Manikpur expansion [1]. CIL volume is strong: Q2FY27 production 151 MT up 4% and offtake 186 MT up 12–13% [6]. SAIL cut FY27 volume guidance to 21 MT from 22 MT after the coal miss [5]. Old local press reports Balco shut its Korba rolling mill with around 1,000 jobs and later planned to resume [2]; that article is old, but it warns that Korba industrial demand can swing. **Treat the pipeline as a reason to select borrowers, not to loosen credit.**",
+  "## Who to pursue, who to avoid\n**Pursue private non-coking washeries with EC, firm raw-coal linkage and more than one offtake buyer; avoid borrowers whose cash depends on one mine allotment or coal trading.** The official list shows private washeries in the 0.90 to 5.00 capacity band [3], and the pipeline has new washeries at 0.99 MTPA and 1440000 MT [1]. Good targets are existing operators adding a unit, SECL contractors with owned equipment and work orders, and transport firms with dispatch evidence. Avoid new coal traders, single-reject-buyer washeries, borrowers without EC, and industrial exposures that rely on Balco-type demand without a contract.",
+  "## How to grow safely\n**Structure to the cash cycle: secured working capital against coal stock and receivables, escrow of sale proceeds, and covenants set from customer data.** Take every month stock and yield statements, GST returns, e-way bills, sales register, raw-coal allotment, reject sale invoices, receivable ageing and transport bills. Set covenants on yield, stock cover, receivable ageing, DSCR and promoter contribution; keep EC and lease documents on file. For capex, match tenor to washery ramp and require completion benchmarks. **Where a figure is missing, write ‘collect from customer’ and do not fill it with an estimate.**",
+  "## Early warning\n**The first sign is cash moving into stock and rejects while dispatches slow.** Watch yield reports against the sanctioned base, reject inventory without sale invoices, top-buyer ageing, linkage or e-auction expiry, and mismatch between GST sales and e-way bills. If a borrower asks for enhancement while stock rises and receivables age, ask for buyer confirmation and re-price to a lower drawing power. **A washery that cannot show monthly reject sales and buyer-wise ageing is not bankable at normal limits.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock and yield statement (monthly)",
+   "Washed coal yield falls below the sanctioned base or reject stock rises without sale invoices -> cut drawing power and ask for buyer-wise offtake proof."
+  ],
+  [
+   "GST returns and e-way bills vs sales register (monthly)",
+   "Dispatch value lags invoiced sales or e-way bills do not match -> stop enhancement and reconcile before fresh limits."
+  ],
+  [
+   "Raw-coal linkage/e-auction allotment (quarterly)",
+   "Allotment expires, is diverted or is only verbal -> freeze limit and re-rate to tolling-only exposure."
+  ],
+  [
+   "Receivable ageing by top buyer (monthly)",
+   "Top-buyer ageing crosses the sanctioned bucket -> seek buyer confirmation, re-price drawing power, and shift to escrow."
+  ],
+  [
+   "Peer e-auction premium and washed-coal price (monthly)",
+   "Premium falls below the Q2FY27 51% print or washed-coal price falls below base case -> rework covenants and reduce unsecured exposure."
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Korba project pipeline is active, but peer coal-price volatility and softer e-auction premium keep the signal mixed.",
+ "articles": [
+  {
+   "title": "New & Upcoming Projects in Mining Projects in Chhattisgarh - Page 15",
+   "url": "https://newprojectstracker.com/projects-india/mining/chhattisgarh?page=15",
+   "date": "2026-10-15",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "korba mill: Latest News & Videos, Photos about korba mill | The Economic Times - Page 1 - Business News›korba mill",
+   "url": "https://economictimes.indiatimes.com/topic/korba-mill#1",
+   "date": "2026-10-15",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Coal Washeries",
+   "url": "https://coalcontroller.gov.in/index.php/coal-washeries?page=6",
+   "date": "2026-10-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "History",
+   "url": "https://korba.gov.in/en/about-district/history/#SkipContent",
+   "date": "2026-10-07",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Coal spike blindsides margin story; capex ambition intact, but execution watch on",
+   "url": "https://www.stockwatch.live/in/reports/coal-spike-blindsides-margin-story-capex-ambition-intact-but-execution-watch-on-6eb1dd4e-034e-4457-a0c1-cd5393005e08",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "IGI Logo",
+   "url": "https://investmentguruindia.com/newsdetail/buy-coal-india-ltd-india-ltd-for-target-rs-470-by-axis-direct821981",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "3. Rather than using the domestic administered price of coal, its economic value is expressed by identifying the average product...",
+   "url": "https://documents1.worldbank.org/curated/en/782931468258265299/pdf/multi-page.pdf#18#19#18",
+   "date": "date unknown",
+   "kind": "cluster",
+   "via": "plain-http",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Chhattisgarh None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 10,
+  "fetch": 11,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
