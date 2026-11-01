@@ -236,7 +236,7 @@ def run(today=None, fetch=True):
     if data.get("rbi_sibc") and meta.get("rbi_sibc", {}).get("period"):
         hist[meta["rbi_sibc"]["period"]] = {k: v.get("yoy_pct") for k, v in data["rbi_sibc"].items() if isinstance(v, dict) and v.get("check_ok")}
     for s_ in sectors:
-        s_["plain"] = geo.plain_summary(s_)
+        s_["plain"] = geo.plain_summary(s_, cfg["thresholds"])
         s_["gnpa"] = geo.gnpa_for(cfg, gnpa_series, s_["id"])
         row = s_.get("rbi_row")
         s_["credit_trend"] = [{"period": p, "yoy_pct": h.get(row)} for p, h in sorted(hist.items()) if row and h.get(row) is not None][-13:]

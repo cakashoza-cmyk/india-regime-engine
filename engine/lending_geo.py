@@ -188,23 +188,55 @@ def highlights(cfg, sectors, states, combos):
     return uniq
 
 
-def plain_summary(s):
-    """Template only; every number is copied from a verified driver."""
-    what = s.get("plain_what") or f"{s['name']}: businesses in this line of work borrow from banks to run and grow."
-    facts = [f"{v['text']} (data to {v.get('as_of')})" for v in s["drivers"].values() if v.get("status") == "verified" and v.get("value") is not None][:3]
+_LENS = None
+
+
+def _lens(sid):
+    global _LENS
+    if _LENS is None:
+        import json, pathlib
+        _LENS = json.loads((pathlib.Path(__file__).with_name("credit_lens.json")).read_text())
+    return _LENS.get(sid) or {}
+
+
+def plain_summary(s, th=None):
+    """Deterministic. Numbers are copied from verified drivers; repayment drivers/checks come from the credit lens (analytical framing, not data)."""
+    th = th or {}
+    L = _lens(s["id"])
+    what = L.get("what") or s.get("plain_what") or f"{s['name']}."
+    dv = {k: v for k, v in s["drivers"].items() if v.get("status") == "verified" and v.get("value") is not None}
+    facts = [f"{v['text']} (data to {_mon(v.get('as_of'))})" for v in dv.values()][:3]
     if s.get("credit"):
-        facts.append(f"Bank credit outstanding Rs {s['credit']['outstanding_cr']:,.0f} Cr, {s['credit']['yoy_pct']:+.1f}% in a year (RBI, {s['credit'].get('as_of')})")
-    facts = facts[:3]
-    v = s["verdict"]
-    why = {"Lend": "Most of the official numbers are going the right way, so lending looks reasonable with normal checks.",
-           "Selective": "Some numbers are good and some are weak, so lend only to stronger borrowers.",
-           "Avoid": "Most official numbers are going the wrong way, so new lending is risky right now.",
-           UNKNOWN: "We do not have enough checked official numbers to make a call yet."}[v]
-    change = {"Lend": "If output or exports start shrinking, or bank credit races far ahead of output, we would turn cautious.",
-              "Selective": "Two good months of output and exports would make us positive; a fall would make us negative.",
-              "Avoid": "If output and exports grow again for two releases in a row, we would look again.",
-              UNKNOWN: "Once two official series are available and checked, we will give a call."}[v]
-    return {"what": what, "facts": facts, "why": why, "change_mind": change}
+        facts.append(f"Bank credit outstanding Rs {s['credit']['outstanding_cr']:,.0f} Cr, {s['credit']['yoy_pct']:+.1f}% YoY (RBI, {_mon(s['credit'].get('as_of'))})")
+    facts = facts[:4]
+    v, sc = s["verdict"], s.get("score")
+    vt = th.get("verdict", {"lend_at_or_above": 65, "avoid_below": 45})
+    neg = [x["text"] for x in dv.values() if x.get("score") == -1]
+    pos = [x["text"] for x in dv.values() if x.get("score") == 1]
+    if v == UNKNOWN:
+        why = "Fewer than two checked official series are available, so no call is made."
+    else:
+        why = (f"Score {sc} (OK to lend at {vt['lend_at_or_above']}+, Avoid below {vt['avoid_below']}). "
+               + (f"Supporting: {'; '.join(pos[:2])}. " if pos else "") + (f"Against: {'; '.join(neg[:2])}." if neg else ""))
+    flips = []
+    rule = {"iip_yoy": ("IIP output YoY", "iip_yoy"), "iip_fytd": ("output Apr-to-date", "iip_fytd"), "export_fytd_usd": ("exports Apr-to-date (USD)", "export_fytd_usd"), "activity_proxy": ("activity proxy", "activity_proxy")}
+    for k, x in dv.items():
+        if k in rule:
+            nm, tk = rule[k]
+            t = th.get(tk, {})
+            if x.get("score") == -1 and "neg_below" in t:
+                flips.append(f"{nm} back above {t['neg_below']:g}% (now {x['value']:+.1f}%)")
+            elif x.get("score") == 1 and "pos_above" in t:
+                flips.append(f"{nm} falling below {t['pos_above']:g}% (now {x['value']:+.1f}%)")
+        if k == "credit_vs_output":
+            t = th.get("credit_vs_output_gap_pp", {})
+            if x.get("score") == -1 and "neg_above" in t:
+                flips.append(f"credit-output gap narrowing below {t['neg_above']:g} pp (now {x['value']:+.1f} pp)")
+            elif "pos_below" in t:
+                flips.append(f"credit-output gap widening past {t['pos_below']:g} pp (now {x['value']:+.1f} pp)")
+    change = ("Thresholds that move the score: " + "; ".join(flips[:3]) + ".") if flips else "Once two official series are checked, a call will be made."
+    return {"what": what, "facts": facts, "why": why.strip(), "change_mind": change,
+            "watch": L.get("stress", [])[:3], "checks": L.get("checks", [])[:3], "lens_label": "Sector lens: analytical framing, not data"}
 
 
 def gnpa_for(cfg, gnpa_series, sector_id):
@@ -257,7 +289,9 @@ def attach_local(combos, news):
     for c in combos:
         it = items.get(f"{c['geo_id']}|{c['sector']}") if c["geo_type"] == "cluster" else None
         it = it or items.get(f"{c['state']}|{c['sector']}") or items.get(f"{c['state']}|*")
-        c["local_view"] = it and {k: it.get(k) for k in ("analysis", "outlook_vs_macro", "why", "sources", "scanned_ist", "geo_type", "geo_id")}
+        c["local_view"] = it and {k: it.get(k) for k in ("brief", "analysis", "outlook_vs_macro", "why", "sources", "scanned_ist", "geo_type", "geo_id", "attempts")}
+        if it and not it.get("brief") and it.get("prompt_version", 1) >= 2:
+            c["local_view"]["outlook_vs_macro"] = None  # rejected by post-check: no tag, no nudge
         c["data_call"] = c.get("call")
         if it and it.get("outlook_vs_macro") == "Worse" and c.get("call") == "ok":
             c["call"], c["label"], c["nudged_by"] = "caution", LABEL["caution"], "local_news"

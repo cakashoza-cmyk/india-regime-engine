@@ -14,23 +14,34 @@ LOCAL_TERMS = {  # regional-language search terms (payment delay / units closed 
     "GJ": "ઉદ્યોગ મંદી પેમેન્ટ", "TN": "தொழில் நெருக்கடி ஆர்டர்", "UP": "उद्योग मंदी भुगतान", "HR": "उद्योग मंदी भुगतान",
     "RJ": "उद्योग मंदी भुगतान", "MP": "उद्योग मंदी भुगतान", "BR": "उद्योग मंदी भुगतान", "HP": "उद्योग मंदी भुगतान",
     "DL": "उद्योग मंदी भुगतान", "MH": "उद्योग मंदी पेमेंट"}
-SYSTEM = ("You are a local bank credit officer briefing a credit committee. Read the supplied local news articles and write "
-          "ONE short paragraph (60-110 words, plain English): the key local issues for this sector in this place, why they matter for "
-          "borrowers' repayment capacity and working capital, and whether local conditions look better or worse than the national macro "
-          "view given. Use ONLY what the articles say. Do not invent, estimate or compute any figure; a number may appear only if it is "
-          "written in an article. No headline, no bullets, no loan advice. If the articles are few, old or off-topic, start with "
-          "'Limited local coverage.' and say only what they support. "
-          'Return JSON: {"analysis":"<paragraph>","outlook_vs_macro":"Worse|In line|Better","why":"<=20 words","sources_used":[<article indexes>]}.')
-MAX_CALLS = int(os.environ.get("LOCAL_NEWS_MAX_CALLS", "300"))
+PROMPT_VERSION = 2
+SYSTEM = ("You are a senior credit officer in the given place, briefing a credit committee on one sector. You get (1) a DATA PACK of "
+          "verified official figures, (2) a CREDIT LENS describing what usually drives repayment and stress in this sector (framing, not data), "
+          "and (3) local news extracts. Write a specific, evidence-based brief. Rules: use ONLY numbers that appear in the data pack or the "
+          "articles, copied exactly; never estimate or compute new figures; attribute news points to the news. No generic filler: never write "
+          "'monitor closely', 'macro headwinds', 'exercise caution', 'going forward', 'challenging environment' or similar. If the articles are "
+          "few, old or off-topic, local_news must start with 'Limited local coverage.' "
+          'Return JSON: {"verdict_rationale":"2-3 sentences explaining the data-based call, citing at least 3 specific figures from the data pack with their dates",'
+          '"sector_risks":["2-3 items; each names a risk from the credit lens and ties it to a pack figure or a news point"],'
+          '"local_news":"1-3 sentences on what local news adds beyond the data, or Limited local coverage.",'
+          '"borrower_checks":["exactly 3 concrete diligence items for this borrower, each with a metric and a benchmark, e.g. debtor days vs 90"],'
+          '"change_the_call":"1-2 sentences: which specific data moves would change the call, using the thresholds in the pack",'
+          '"outlook_vs_macro":"Worse|In line|Better","why":"<=20 words","sources_used":[article indexes]}.')
+MAX_CALLS = int(os.environ.get("LOCAL_NEWS_MAX_CALLS", "1000"))
 RESCAN_DAYS = 7
 WINDOW_DAYS = 60
 
 
 class Budget:
-    def __init__(self, n): self.left = n
+    def __init__(self, n):
+        import threading
+        self.left, self._l = n, threading.Lock()
+
     def take(self):
-        if self.left <= 0: raise RuntimeError("call budget exhausted")
-        self.left -= 1
+        with self._l:
+            if self.left <= 0:
+                raise RuntimeError("call budget exhausted")
+            self.left -= 1
 
 
 def _retry(fn, budget, *a):
@@ -88,31 +99,48 @@ def scan_pair(p, sa, budget, today):
     return res
 
 
-def summarise(arts, sa, budget, macro_ctx=""):
+def fetch_articles(arts, sa, budget):
     docs = []
     for a in arts:
         try:
             c = _retry(sa.fetch, budget, a["url"])
-            docs.append({**a, "content": (c.get("content") or "")[:3500]})
+            docs.append({**a, "content": (c.get("content") or "")[:3000]})
         except RuntimeError:
             raise
         except Exception:  # noqa: BLE001
             continue
-    if not docs:
-        return None
-    user = (f"Sector and place: {macro_ctx}\n\n" +
-            "\n\n".join(f"[{i}] {d['title']} ({d['date']}) {d['url']}\n{d['content']}" for i, d in enumerate(docs)))
-    j = _retry(sa.chat_json, budget, SYSTEM, user)
-    text = (j.get("analysis") or "").strip()
+    return docs
+
+
+def brief(p, docs, pack, lens, sa, budget):
+    from engine import brief_pack as bp
+    lens_text = json.dumps(lens or {}, ensure_ascii=False)
+    arts = "\n\n".join(f"[{i}] {d['title']} ({d['date']}) {d['url']}\n{d['content']}" for i, d in enumerate(docs)) or "(no local articles found in the last 60 days)"
+    user = (f"PLACE/SECTOR: {p['label']}\n\nDATA PACK (verified official figures):\n" + "\n".join(f"- {x}" for x in pack) +
+            f"\n\nCREDIT LENS (analytical framing, not data):\n{lens_text}\n\nLOCAL NEWS EXTRACTS:\n{arts}")
     corpus = " ".join(d["content"] + " " + d["title"] for d in docs)
-    if not text or not numbers_ok(text, corpus):
-        return {"analysis": None, "outlook_vs_macro": None, "why": None, "sources": [], "rejected": "empty or contained a figure not in the articles"}
-    used = [i for i in (j.get("sources_used") or []) if isinstance(i, int) and 0 <= i < len(docs)] or list(range(len(docs)))
-    tag = j.get("outlook_vs_macro") if j.get("outlook_vs_macro") in ("Worse", "In line", "Better") else None
-    if len(docs) < 2 and not text.lower().startswith("limited local coverage"):
-        text = "Limited local coverage. " + text
-    return {"analysis": text, "outlook_vs_macro": tag, "why": (j.get("why") or "")[:140] if tag else None,
-            "sources": [{"url": docs[i]["url"], "title": docs[i]["title"], "date": docs[i]["date"]} for i in used], "tier": "news_llm"}
+    probs, out = [], None
+    for attempt in range(3):  # first try + up to 2 corrective retries
+        msg = user if not probs else user + "\n\nYOUR PREVIOUS ANSWER WAS REJECTED. Fix these problems: " + "; ".join(probs)
+        out = _retry(sa.chat_json, budget, SYSTEM, msg)
+        for k in ("sector_risks", "borrower_checks"):
+            if not isinstance(out.get(k), list):
+                out[k] = []
+        probs = bp.validate(out, pack, corpus, lens_text, require_pack=3 if len(bp.nums(" ".join(pack))) >= 6 else 1)
+        if not probs:
+            break
+    if probs:
+        return {"brief": None, "rejected": probs, "attempts": attempt + 1}
+    used = [i for i in (out.get("sources_used") or []) if isinstance(i, int) and 0 <= i < len(docs)] or list(range(len(docs)))
+    tag = out.get("outlook_vs_macro") if out.get("outlook_vs_macro") in ("Worse", "In line", "Better") else None
+    ln = out["local_news"].strip()
+    if len(docs) < 2 and not ln.lower().startswith("limited local coverage"):
+        ln = "Limited local coverage. " + ln
+    return {"brief": {"verdict_rationale": out["verdict_rationale"].strip(), "sector_risks": [x.strip() for x in out["sector_risks"]],
+                      "local_news": ln, "borrower_checks": [x.strip() for x in out["borrower_checks"]], "change_the_call": out["change_the_call"].strip()},
+            "outlook_vs_macro": tag, "why": (out.get("why") or "")[:160] if tag else None, "attempts": attempt + 1,
+            "sources": [{"url": docs[i]["url"], "title": docs[i]["title"], "date": docs[i]["date"]} for i in used]}
+
 
 def main():
     from engine import lending_sources as ls
@@ -125,34 +153,56 @@ def main():
                      checked_ist=now.strftime("%Y-%m-%d %H:%M IST"))
         OUT.write_text(json.dumps(cache, indent=1, ensure_ascii=False)); print(cache["status"]); return
     from engine import search_adapter as sa
-    lat = ROOT / "data" / "lending_latest.json"
-    macro = {x["id"]: f"{x['verdict']} (score {x['score']})" for x in (json.loads(lat.read_text())["sectors"] if lat.exists() else [])}
-    budget, done, skipped, unchanged, errors = Budget(MAX_CALLS), 0, 0, 0, []
-    todo = sorted(pairs(cfg), key=lambda p: (items.get(p["key"]) or {}).get("scanned_ist", ""))  # oldest first
-    for p in todo:
+    from engine import brief_pack as bp
+    import threading
+    from concurrent.futures import ThreadPoolExecutor
+    D = json.loads((ROOT / "data" / "lending_latest.json").read_text())
+    lens_all = json.loads((ROOT / "engine" / "credit_lens.json").read_text())
+    secs = {x["id"]: x for x in D["sectors"]}
+    combos = {f"{c['geo_id']}|{c['sector']}": c for c in D["combos"]}
+    budget, lock = Budget(MAX_CALLS), threading.Lock()
+    stats = {"scanned": 0, "skipped_fresh": 0, "rejected": 0, "errors": []}
+    force = os.environ.get("LOCAL_NEWS_FORCE") == "1"
+    todo = sorted(pairs(cfg), key=lambda p: (items.get(p["key"]) or {}).get("scanned_ist", ""))
+
+    def work(p):
         old = items.get(p["key"]) or {}
-        if old.get("scanned_ist", "") > (now - timedelta(days=RESCAN_DAYS)).strftime("%Y-%m-%d %H:%M IST"):
-            skipped += 1; continue
+        fresh = old.get("scanned_ist", "") > (now - timedelta(days=RESCAN_DAYS)).strftime("%Y-%m-%d %H:%M IST")
+        if fresh and old.get("prompt_version") == PROMPT_VERSION and not force:
+            with lock: stats["skipped_fresh"] += 1
+            return
+        st = D["states"].get(p["state"])
+        sec = secs.get(p["sector"])
+        combo = combos.get(p["key"]) if p["sector"] != "*" else None
+        pack = bp.build_pack(D, combo, sec, st)
+        p["label"] = p["q"] if sec is None else f"{p['q']} ({sec['name']}), {st['name'] if st else p['state']}"
+        lens = lens_all.get(p["sector"]) if sec else {"what": "All industry in the state", "drivers": ["state demand and output", "power availability", "payment cycles"],
+                                                       "stress": ["tax collections and electricity demand lagging India", "unit closures", "delayed payments"],
+                                                       "checks": ["GST turnover vs bank credit summations", "debtor days vs 90", "electricity bills trend vs last year"]}
         try:
             arts = scan_pair(p, sa, budget, now.date())
-            sig = hashlib.sha1("|".join(a["url"] for a in arts).encode()).hexdigest()
-            if old.get("sig") == sig:
-                old["scanned_ist"] = now.strftime("%Y-%m-%d %H:%M IST"); unchanged += 1; continue
-            empty = {"analysis": "Limited local coverage. No relevant local articles in the last 60 days.", "outlook_vs_macro": None, "why": None, "sources": []}
-            s = (summarise(arts, sa, budget, f"{p['q']} | national macro view: {macro.get(p['sector'], 'n/a')}") if arts else None) or empty
-            items[p["key"]] = {**{k: p[k] for k in ("geo_type", "geo_id", "state", "sector")}, **s, "sig": sig, "queries": p["q"],
-                               "scanned_ist": now.strftime("%Y-%m-%d %H:%M IST"), "tier": "news_llm", "window_days": WINDOW_DAYS}
-            done += 1
+            docs = fetch_articles(arts, sa, budget)
+            r = brief(p, docs, pack, lens, sa, budget)
+            rec = {**{k: p[k] for k in ("geo_type", "geo_id", "state", "sector")}, **r, "queries": p["q"], "pack": pack,
+                   "scanned_ist": now.strftime("%Y-%m-%d %H:%M IST"), "tier": "news_llm", "window_days": WINDOW_DAYS, "prompt_version": PROMPT_VERSION}
+            with lock:
+                if r.get("brief") or not old.get("brief"):
+                    items[p["key"]] = rec
+                else:
+                    old["last_rejected"] = r.get("rejected")
+                stats["scanned"] += 1
+                stats["rejected"] += 0 if r.get("brief") else 1
         except RuntimeError as e:
-            if "budget" in str(e):
-                break
-            errors.append(f"{p['key']}: {e}")
+            with lock: stats["errors"].append(f"{p['key']}: {e}")
         except Exception as e:  # noqa: BLE001
-            errors.append(f"{p['key']}: {e}")
+            with lock: stats["errors"].append(f"{p['key']}: {type(e).__name__}: {e}")
+
+    with ThreadPoolExecutor(6) as ex:
+        list(ex.map(work, todo))
+    errors = stats.pop("errors")
     cache.update(active=True, status="Weekly scan via DeepSeek search (news_llm, unverified; never used in verdicts).",
                  checked_ist=now.strftime("%Y-%m-%d %H:%M IST"),
-                 last_run={"scanned": done, "skipped_fresh": skipped, "unchanged": unchanged, "calls_used": MAX_CALLS - budget.left,
-                           "call_cap": MAX_CALLS, "errors": errors[:20]})
+                 last_run={**stats, "calls_used": MAX_CALLS - budget.left, "call_cap": MAX_CALLS, "errors": errors[:20]})
     OUT.write_text(json.dumps(cache, indent=1, ensure_ascii=False))
     print(cache["last_run"])
 

@@ -23,6 +23,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -40,11 +41,6 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
         run: python engine/pipeline.py ${{ inputs.force_language && '--force-language' || '' }}
-      - name: Local credit view (weekly per pair; DeepSeek; capped calls)
-        env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          LOCAL_NEWS_MAX_CALLS: "300"
-        run: python engine/local_news.py || echo "local news scan failed (display-only, non-blocking)"
       - name: Lending radar (verdicts + accuracy gate)
         id: lending
         env:
@@ -55,6 +51,13 @@ jobs:
           rc=$?
           echo "rc=$rc" >> "$GITHUB_OUTPUT"
           if [ $rc -ne 0 ] && [ $rc -ne 2 ]; then exit $rc; fi
+      - name: Local credit view (weekly per pair; DeepSeek; capped calls; after verdicts so the data pack is current)
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          LOCAL_NEWS_MAX_CALLS: "1000"
+        run: |
+          python engine/local_news.py || echo "local news scan failed (display-only, non-blocking)"
+          python engine/lending.py --offline || echo "re-attach skipped"
       - name: Commit lending radar
         run: |
           git config user.name "regime-engine-bot"
@@ -76,10 +79,10 @@ jobs:
           new = json.load(open("data/regime_latest.json"))
           sys.exit(0 if json.dumps(strip(old), sort_keys=True, default=str) == json.dumps(strip(new), sort_keys=True, default=str) else 1)
           PY
-          then echo "no material diff - regime snapshot not committed"; git pull --rebase -X ours origin main || true; git push; exit 0; fi
+          then echo "no material diff - regime snapshot not committed"; git stash -u || true; git pull --rebase -X ours origin main || true; git push; exit 0; fi
           git add data/regime_latest.json data/regime_history.json engine/regime.db
           git diff --cached --quiet || git commit -m "engine snapshot $(date -u +%FT%TZ)"
-          git pull --rebase -X ours origin main || true
+          git stash -u || true; git pull --rebase -X ours origin main || true
           git push
       - name: Accuracy gate
         if: steps.lending.outputs.rc == '2'
