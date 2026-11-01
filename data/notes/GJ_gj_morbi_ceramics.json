@@ -1,0 +1,179 @@
+{
+ "key": "gj_morbi|ceramics",
+ "state": "GJ",
+ "city": "gj_morbi",
+ "ind": "ceramics",
+ "version": "v6",
+ "generated_at": "2026-11-01 20:36 IST (hand-built, reviewed)",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 71,
+ "nudged_by_news": true,
+ "verdict": "Caution 71: grow with the units that are winning this shake-out, and stay away from those losing it.",
+ "title": "Morbi tiles: a note to the credit manager",
+ "narrative": [
+  "## Start with what the business is",
+  "A Morbi tile unit takes clay, feldspar and glaze, presses them, and fires them in a long gas kiln. Out come square metres of tile in boxes. The product is close to a commodity, and buyers move for a few rupees, so **the unit wins on cost per sqm and on reaching dealers, not on brand.**",
+  "Fuel is the cost that swings. Energy is normally **25–30% of production cost** [6]. One broker note says it had already crept to **35%** by mid-2025 [8]. Raw material and fuel are the two big cost heads [9]. Collect the split for labour, power, packing and freight from the customer. Do not assume it.",
+  "## Where the cash goes",
+  "Cash does not sit in the plant. It sits in stock and with dealers. Units make many designs, so finished stock piles up, and dealers expect credit [10]. One rated Morbi group ran **204 gross current asset days** in FY24 [10]. Asian Granito gives dealers up to **90 days** and holds **45–60 days** of stock [11]. Rated Morbi units show working-capital limits **84–86% used** on average [9][10].",
+  "**So when a proposal lands, read the stock statement before the P&L.** If finished goods are growing faster than sales, the unit is making to stock and funding it with your CC. Ask for stock by size and design, and its age.",
+  "## What broke this year",
+  "Gas, then exports. Morbi was **shut from end-March to mid-May** on gas scarcity [21]. Gas went from **₹50 on 28 Feb to ₹91** now, per Kajaria's chairman [16]. On 22 Oct propane rose **₹7,300 a tonne**, crossing **₹100/kg** [3][4], and its discount to natural gas is down to about **5%** [15]. Units that switched to propane to save money have lost that cushion.",
+  "Exports, normally a safety valve, have closed. Cluster exports fell to **~₹2,900 cr in Q1 FY27 from ~₹4,800 cr**, with volumes **down 51%** [18]. In Oct the Ceramic Association said exports are nearly stopped, godowns are full and most units have cut output **15–20%** [3]. Kajaria's chairman puts **40–50% of Morbi's ~400–500 plants** as not working [16]. The two numbers measure different things, so ask your borrower which camp it is in, and verify it from kiln running days and its Gujarat Gas SCM consumption.",
+  "The chain to repayment is short. A higher gas bill comes first, then a price rise that may not stick, then unsold stock, then CC stuck at the limit, then pressure on instalments. **Morbi players did push 30–40% price hikes this year** [19][16]. The question is whether their buyers keep paying.",
+  "## Why there is growth here",
+  "This is a shake-out, and shake-outs create winners. The price gap between Morbi and branded tiles has narrowed from about **₹800 to ₹50–55** [21], and dealers are spreading their buying beyond Morbi [21]. Branded players are taking share. Kajaria grew volume **10%**, its tile realisation rose **11.4%** and its EBITDA margin is **19.51%** [13][15]. Somany's tile realisation is up **20.3% to ₹384/sqm** [19]. Somany also warns that about **200 more Morbi units** may shut if price hikes don't hold [17].",
+  "**The units to pursue now:**",
+  "- Units that make for, or supply, branded players. Somany buys about **32%** of its sales from outsourcing partners [19], and Kajaria cites Morbi plants and outsourced volumes [16]. A unit with a named offtaker has the most visible cash flow in the cluster.",
+  "- Domestic dealer-led units with a spread-out network and low export share, as shown in GSTR-1.",
+  "- Efficient, modern kilns with low gas per sqm. Collect SCM per sqm from the customer and compare it within your own book.",
+  "- Strong survivors buying capacity from units that have shut, at sensible valuations.",
+  "## How to grow it safely",
+  "Size working capital to dispatches, not to capacity. Take the monthly Gujarat Gas bill with every stock statement, because SCM consumed is the most honest production figure a tile unit has. If the stock statement says production is up and the gas bill says down, believe the gas bill. Stress-test DSCR at today's gas cost with no further price hike. For term loans on new lines, make sure the promoter brings real equity. Kajaria itself just raised its own project cost estimate from **₹210 cr to ₹340 cr** [15], so capex overruns are live risk.",
+  "For an export-heavy unit, ask for month-wise export vs domestic sales for Apr–Sep 2026 from GSTR-1. Treat stock made before June as slow-moving when you compute drawing power. Earlier, in the Red Sea disruption, one rated Morbi group's cash from operations fell from **₹42.20 cr to ₹14.47 cr** as stock built up on delayed export orders [10]. **Stock builds first and profit falls later. Read cash flow, not PAT.**",
+  "## Spotting trouble early",
+  "The first signs show up in the bank account before the balance sheet. Watch for CC pinned at the limit month after month, inward cheque returns, and third-party or cash credits booked as unsecured loans. On site, a cold kiln, dusty boxes with old batch dates, and a thinner labour roll tell you more than the CMA. Informal money is in the cluster: in Wankaner four men were booked for allegedly extorting **₹35 lakh on a ₹10 lakh loan** to a ceramics labour contractor [2]. Ask the promoter plainly about private borrowing, and match the answer to the bank statement.",
+  "Gas arrears or a disconnection notice means production can stop overnight. Treat it like an overdue. A stock statement that doesn't match the godown means the drawing power is fiction: stop fresh drawals until it is reconciled."
+ ],
+ "watch": [
+  [
+   "Gujarat Gas SCM consumed and bill (monthly)",
+   "Consumption falling for 2 months while sales are flat or the stock statement shows rising output → call the promoter, check stock."
+  ],
+  [
+   "Power & fuel as % of sales (quarterly)",
+   "Up 2 quarters running with flat realisation → stress-test DSCR again."
+  ],
+  [
+   "Export share in GSTR-1 (monthly)",
+   "Below the same month last year for 3 months → review limits for export-heavy units."
+  ],
+  [
+   "CC utilisation and cheque returns (monthly)",
+   "Pinned at the limit for 3 months, or any return → SMA watch and promoter meeting."
+  ],
+  [
+   "Propane vs natural gas price (fortnightly)",
+   "Propane at or above natural gas → rerun the cash-flow stress test."
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "articles": [
+  {
+   "title": "Minister Trikam Chhanga hears ceramic industry issues (Divya Bhaskar)",
+   "url": "https://www.divyabhaskar.co.in/local/gujarat/morbi/news/morbi-minister-trikam-chhanga-ceramic-industry-visit-updates-139545094.html",
+   "date": "2026-10-30"
+  },
+  {
+   "title": "Four booked for extorting ₹35L over ₹10L loan (TOI Rajkot)",
+   "url": "https://timesofindia.indiatimes.com/city/rajkot/four-booked-for-extorting-35l-from-contractor-over-10l-loan/articleshow/135327547.cms",
+   "date": "2026-10-29"
+  },
+  {
+   "title": "Exports largely halted; propane up ₹7,300/tonne (Divya Bhaskar)",
+   "url": "https://www.divyabhaskar.co.in/local/gujarat/morbi/news/exports-largely-halted-due-to-war-in-the-middle-east-dbp-139458687.html",
+   "date": "2026-10-22"
+  },
+  {
+   "title": "Propane crosses ₹100 (Morbi Mirror)",
+   "url": "https://morbimirror.com/inflation-hits-morbis-ceramic-industry-propane-gas-crosses-rs-100/",
+   "date": "2026-10-22"
+  },
+  {
+   "title": "Than sanitaryware units seek ₹5 gas price cut (Sanj Samachar)",
+   "url": "https://sanjsamachar.net/index.php/news-detail/Representation-made-seeking-a-reduction-of-Rs-5-in-gas-prices-for-the-small-scale-ceramic-sanitaryware-industry-in-Than-",
+   "date": "2026-10-21"
+  },
+  {
+   "title": "BEE / SAMEEEKSHA Morbi ceramic cluster profile",
+   "url": "https://sameeeksha.org/pdf/clusterprofile/Morbi_Ceramic_Cluster.pdf",
+   "date": "cluster study"
+  },
+  {
+   "title": "Morbi ceramic cluster profile (older edition)",
+   "url": "https://sameeeksha.org/pdf/clusterprofile/Morbi_Ceramic_Cluster-old.pdf",
+   "date": "cluster study"
+  },
+  {
+   "title": "PL Capital, Building Materials sector note",
+   "url": "https://www.plindia.com/ResReport/BuildingMaterials-14-6-25-PL.pdf",
+   "date": "2025-06-14"
+  },
+  {
+   "title": "ICRA rationale: Eros for Sanitarywares, Morbi",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=115908",
+   "date": "2022-11-21"
+  },
+  {
+   "title": "CARE rationale: Simero Vitrified (group), Morbi",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202409140905_Simero_Vitrified_Private_Limited.pdf",
+   "date": "2024-09"
+  },
+  {
+   "title": "ICRA rationale: Asian Granito India",
+   "url": "https://aglasiangranito.com/Intimations_Disclosures/ICRA_credit_rating_25_11_2022.pdf",
+   "date": "2022-11-25"
+  },
+  {
+   "title": "ICRA rationale: Admin Vitrified, Morbi",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/78741",
+   "date": "FY2019 data"
+  },
+  {
+   "title": "Kajaria Q2 FY27 investor release (NSE)",
+   "url": "https://nsearchives.nseindia.com/corporate/KAJARIACER_24102026191859_Investor_Release.pdf",
+   "date": "2026-10-24"
+  },
+  {
+   "title": "Kajaria Q2 FY27 con-call transcript",
+   "url": "https://www.kajariaceramics.com/storage/pdf/transcript-of-con-call-26-october-2026.pdf",
+   "date": "2026-10-26"
+  },
+  {
+   "title": "ICICI Direct: Kajaria Q2 FY27 note",
+   "url": "https://mailcontent.icicidirect.com/mailcontent/idirect_kajaria_q2fy27.pdf",
+   "date": "2026-10"
+  },
+  {
+   "title": "Cofacto: Kajaria Q2 FY27 call summary (chairman on Morbi)",
+   "url": "https://cofacto.ai/market-news/kajariacer-q2-fy27-earnings-call",
+   "date": "2026-10-26"
+  },
+  {
+   "title": "HDFC Securities: Somany analyst meet update",
+   "url": "https://www.hdfcsec.com/hsl.docs/Somany%20Ceramics%20%20-%20Update%20-%20Sep26%20-%20HSIE-202609151228135368638.pdf",
+   "date": "2026-09-15"
+  },
+  {
+   "title": "Somany Q1 FY27 investor presentation (BSE)",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5ca05967-ba83-4158-a1e4-b296df47db9f.pdf",
+   "date": "2026-08"
+  },
+  {
+   "title": "ICICI Direct: Somany Q1 FY27 note",
+   "url": "https://mailcontent.icicidirect.com/mailcontent/idirect_somany_q1fy27.pdf",
+   "date": "2026-08"
+  },
+  {
+   "title": "Asian Granito Q1 FY27 media release",
+   "url": "https://aglasiangranito.com/PressRelease/Media_Release_Q1_FY_2026-27.pdf",
+   "date": "2026-08-11"
+  },
+  {
+   "title": "Orient Bell Q1 FY27 call highlights (Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/orient-bell-ltd-bom-530365-010942920.html",
+   "date": "2026-08"
+  },
+  {
+   "title": "Cera Q1 FY27 earnings call (Alpha Spread)",
+   "url": "https://www.alphaspread.com/security/nse/cera/investor-relations/earnings-call/q1-2027",
+   "date": "2026-08"
+  }
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "note": "hand-built from cited sources"
+ }
+}

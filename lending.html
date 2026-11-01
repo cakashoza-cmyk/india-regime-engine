@@ -55,9 +55,9 @@ table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}td,th{te
 <script src="assets/nav.js"></script>
 <script>
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const LBL={ok:'OK to lend',caution:'Caution',avoid:'Avoid'};let D,V5={},V4={},B={},IND={},CITY={},sel={st:'',ct:'',ind:''};
+const LBL={ok:'OK to lend',caution:'Caution',avoid:'Avoid'};let D,NOTES={},FCFG=null,V4={},B={},IND={},CITY={},sel={st:'',ct:'',ind:''};
 const qp=new URLSearchParams(location.search);
-Promise.all([fetch('data/radar.json').then(r=>r.json()),fetch('data/radar_briefs.json').then(r=>r.ok?r.json():{}).catch(()=>({})),fetch('data/v4_test.json?'+Date.now()).then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,b,v])=>{D=d;B=b;V4=(v&&v.cards)||{};fetch('data/v6_morbi.json?'+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null).then(x=>{if(x)V5[x.key]=x;init()})});
+Promise.all([fetch('data/radar.json').then(r=>r.json()),fetch('data/radar_briefs.json').then(r=>r.ok?r.json():{}).catch(()=>({})),fetch('data/v4_test.json?'+Date.now()).then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,b,v])=>{D=d;B=b;V4=(v&&v.cards)||{};init()});
 function init(){D.industries.forEach(i=>IND[i.id]=i);D.cities.forEach(c=>CITY[c.id]=c);
  const sts=Object.entries(D.states).filter(([k])=>D.cities.some(c=>c.state==k)).sort((a,b)=>a[1].name.localeCompare(b[1].name));
  $('#st').innerHTML=sts.map(([k,v])=>`<option value="${k}">${esc(v.name)}</option>`).join('');
@@ -86,16 +86,31 @@ function spark(pts,key,lab){if(!pts||pts.length<2)return'';const v=pts.map(p=>p[
 
 
 
+
+function fetchBar(nk,n){return `<div class="card" style="display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:12px 16px"><span class="meta" id="fmsg">${n?'Credit note saved. Tap to refresh with the latest news and results.':'No note yet — tap Fetch latest for a full credit note on this pick.'}</span><button onclick="doFetch('${nk}')" style="font:inherit;font-weight:700;background:#2563eb;color:#fff;border:0;border-radius:999px;padding:10px 18px;cursor:pointer">⟳ Fetch latest</button></div>`}
+async function doFetch(nk){const m=$('#fmsg');if(!FCFG)FCFG=await fetch('data/fetch_config.json?'+Date.now()).then(r=>r.json()).catch(()=>({}));
+ const st=sel.st,ind=sel.ind,ct=sel.ct;const before=NOTES[nk]?.generated_at||'';
+ if(!FCFG.worker_url){const t=encodeURIComponent(`fetch:${st}|${ct}|${ind}`),b=encodeURIComponent(`Please build the credit note for ${st} / ${CITY[ct].name} / ${IND[ind].name}.\n\nJust press "Submit new issue". The note appears on the Lending Radar page in about 3-8 minutes; this issue closes itself.\n\n(Do not add customer names or account details here.)`);
+  window.open(`https://github.com/cakashoza-cmyk/india-regime-engine/issues/new?title=${t}&labels=fetch&body=${b}`,'_blank','noopener');}
+ else{m.textContent='Requesting…';
+ try{const r=await fetch(FCFG.worker_url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({state:st,city:ct,ind})});const j=await r.json().catch(()=>({}));
+  if(!r.ok){m.textContent=j.error||('Request refused ('+r.status+')');return}}catch(e){m.textContent='Could not reach the fetch service.';return}}
+ m.textContent=FCFG.worker_url?'Request sent — building the note (usually 3–8 minutes)…':'Submit the GitHub issue that just opened. The note appears here in about 3–8 minutes; this page checks automatically.';const t0=Date.now();
+ const poll=async()=>{const n=await fetch(`data/notes/${nk}.json?`+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null);
+  if(n&&n.generated_at!==before){NOTES[nk]=n;render();return}
+  if(Date.now()-t0>(FCFG.poll_max_minutes||12)*60000){m.textContent='Still running — check back in a few minutes.';return}
+  setTimeout(poll,(FCFG.poll_seconds||20)*1000)};setTimeout(poll,30000)}
 function v7html(x,ind,ct){const sup=i=>x.articles[i-1]?`<sup><a href="${esc(x.articles[i-1].url)}" target="_blank" rel="noopener">[${i}]</a></sup>`:'';
  const md=t=>esc(t).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\[(\d+)\]/g,(m,i)=>sup(+i));
  let h='',inUl=false;x.narrative.forEach(t=>{if(t.startsWith('- ')){if(!inUl){h+='<ul>';inUl=true}h+=`<li>${md(t.slice(2))}</li>`;return}if(inUl){h+='</ul>';inUl=false}h+=t.startsWith('## ')?`<h2>${md(t.slice(3))}</h2>`:`<p>${md(t)}</p>`});if(inUl)h+='</ul>';
  const m=V4[x.key]&&V4[x.key].market,f=v=>(v>0?'+':'')+v+'%';
  const mt=m?`<table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(m.nifty.r1m)}</td><td>${f(m.nifty.r3m)}</td><td>${f(m.nifty.r12m)}</td></tr>${Object.entries(m.peers).map(([k,p])=>`<tr><td>${esc(k)}</td><td>${f(p.r1m)}</td><td>${f(p.r3m)}</td><td>${f(p.r12m)}</td></tr>`).join('')}</table><p class="meta">Closing prices to ${esc(m.nifty.asof)}. ${esc(m.source)}.</p>`:'';
- return `<div class="card v5 v7"><div><span class="vp">Caution <b>${x.score}</b><small>/100</small></span><span class="tag">${esc(x.version)}</span></div>
- <div class="call">${esc(x.verdict)}</div><div class="sn">${esc(ind.name)} · ${esc(ct.name)} · Official data scores 71 (OK band 65+); local news is worse, so the call is Caution.</div>
+ const pc={ok:'#22c55e',caution:'#f59e0b',avoid:'#ef4444'}[x.call]||'#94a3b8';
+ return `<div class="card v5 v7"><div><span class="vp" style="background:${pc}">${esc(LBL[x.call]||'Not enough data')} <b>${x.score??''}</b><small>${x.score!=null?'/100':''}</small></span><span class="tag">${esc(x.version)} · Updated ${esc(x.generated_at)}</span></div>
+ <div class="call">${esc(x.verdict)}</div><div class="sn">${esc(ind.name)} · ${esc(ct.name)} · Official data scores ${x.score??'—'} (OK ≥ ${D.geo.ok_at_or_above}, Avoid < ${D.geo.avoid_below})${x.nudged_by_news?'; local news is worse than the data, so OK is cut to Caution':''}.</div>
  <div class="art"><h2 style="font-size:20px">${esc(x.title)}</h2>${h}
  <div class="wl"><h2>👁 Watch list</h2>${x.watch.map(w=>`<div><b>${esc(w[0])}</b>${esc(w[1])}</div>`).join('')}<p class="meta" style="margin-top:8px">${esc(x.watch_note)}</p></div></div>
- <details><summary>Details: sources & market</summary><ol>${x.articles.map(a=>`<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a> <span class="meta">${esc(a.date)}</span></li>`).join('')}</ol><h3>Listed peers vs Nifty</h3>${mt}<p class="meta">Rating rationales are for individual firms in past years and show the cluster's typical shape. News is unverified and can only lower a call. Decision aid, not a substitute for credit judgment.</p></details></div>`}
+ <details><summary>Details: sources & market</summary><ol>${x.articles.map(a=>`<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a> <span class="meta">${esc(a.date)}</span></li>`).join('')}</ol>${mt?'<h3>Listed peers vs Nifty</h3>'+mt:''}<p class="meta">Rating rationales are for individual firms in past years and show the cluster's typical shape. News is unverified and can only lower a call. Decision aid, not a substitute for credit judgment.</p></details></div>`}
 function v6html(x,ind,ct){const sup=a=>(a||[]).map(i=>`<sup><a href="${esc(x.articles[i-1].url)}" target="_blank" rel="noopener">[${i}]</a></sup>`).join('');
  const m=V4[x.key]&&V4[x.key].market,f=v=>(v>0?'+':'')+v+'%';
  const mt=m?`<table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(m.nifty.r1m)}</td><td>${f(m.nifty.r3m)}</td><td>${f(m.nifty.r12m)}</td></tr>${Object.entries(m.peers).map(([k,p])=>`<tr><td>${esc(k)}</td><td>${f(p.r1m)}</td><td>${f(p.r3m)}</td><td>${f(p.r12m)}</td></tr>`).join('')}</table><p class="meta">Closing prices to ${esc(m.nifty.asof)}. ${esc(m.source)}. Market mood only.</p>`:'';
@@ -105,7 +120,7 @@ function v6html(x,ind,ct){const sup=a=>(a||[]).map(i=>`<sup><a href="${esc(x.art
  <div class="nowl">📍 ${esc(x.now)} ${sup(x.now_src)}</div>
  ${x.sections.map(sec).join('')}
  <details class="sec"><summary><span>🔁</span>What would change the call</summary><div class="it"><span>${esc(x.change)}</span></div></details>
- <details class="sec"><summary><span>📚</span>Details: sources & market</summary><div class="it"><ol>${x.articles.map(a=>`<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a> <span class="meta">${esc(a.date)}</span></li>`).join('')}</ol><h3>Listed peers vs Nifty</h3>${mt}<p class="meta">Rating rationales are for individual firms in past years, so read them as the cluster's typical shape, not current figures. News is unverified and can only lower a call. Decision aid, not a substitute for credit judgment.</p></div></details></div>`}
+ <details class="sec"><summary><span>📚</span>Details: sources & market</summary><div class="it"><ol>${x.articles.map(a=>`<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a> <span class="meta">${esc(a.date)}</span></li>`).join('')}</ol>${mt?'<h3>Listed peers vs Nifty</h3>'+mt:''}<p class="meta">Rating rationales are for individual firms in past years, so read them as the cluster's typical shape, not current figures. News is unverified and can only lower a call. Decision aid, not a substitute for credit judgment.</p></div></details></div>`}
 function v5html(x,ind,ct){const sup=a=>(a||[]).map(i=>`<sup><a href="${esc(x.articles[i].url)}" target="_blank" rel="noopener">[${i+1}]</a></sup>`).join('');
  const arr={up:'▲',down:'▼',flat:'▬'},m=V4[x.key]&&V4[x.key].market,f=v=>(v>0?'+':'')+v+'%';
  const mt=m?`<table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(m.nifty.r1m)}</td><td>${f(m.nifty.r3m)}</td><td>${f(m.nifty.r12m)}</td></tr>${Object.entries(m.peers).map(([k,p])=>`<tr><td>${esc(k)}</td><td>${f(p.r1m)}</td><td>${f(p.r3m)}</td><td>${f(p.r12m)}</td></tr>`).join('')}</table><p class="meta">Closing prices to ${esc(m.nifty.asof)}. ${esc(m.source)}. Market mood only; not in the score.</p>`:'';
@@ -125,7 +140,8 @@ function v4html(v,b){const cite=t=>esc(t).replace(/\[(\d+(?:[,\s]*\d+)*)\]/g,(m,
  <p class="meta">News vs data: <b>${esc(b.news_direction||'')}</b>${b.news_direction_why?' — '+esc(b.news_direction_why):''} · written ${esc(v.generated_ist)}</p>
  <h3>Market signal: listed peers</h3><p>${esc(b.market_read||'')}</p><table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(n.r1m)}</td><td>${f(n.r3m)}</td><td>${f(n.r12m)}</td></tr>${rows}</table><p class="meta">Price change to ${esc(n.asof)} close. ${esc(m.source)}. Market mood only; not used in the score.</p>`}
 function render(){const st=D.states[sel.st],ct=CITY[sel.ct],ind=IND[sel.ind];history.replaceState(null,'',`?state=${sel.st}&city=${sel.ct}${ind?'&ind='+ind.id:''}`);
- if(ind&&V5[sel.ct+'|'+ind.id]){$('#result').innerHTML=v7html(V5[sel.ct+'|'+ind.id],ind,ct);return}
+ if(ind){const nk=`${sel.st}_${sel.ct}_${ind.id}`;if(!(nk in NOTES)){NOTES[nk]=null;fetch(`data/notes/${nk}.json?`+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null).then(n=>{NOTES[nk]=n;if(n&&`${sel.st}_${sel.ct}_${sel.ind}`==nk)render()})}
+  const n=NOTES[nk];if(n&&n.narrative&&n.narrative.length){$('#result').innerHTML=v7html(n,ind,ct)+fetchBar(nk,n);return}}
  if(!ind){$('#result').innerHTML='<div class="card empty">Choose an industry to see the stance.</div>';return}
  const sec=D.sectors[ind.parent],e=D.calls[sel.st+'|'+ind.parent]||[null],[base,score,nat,loc,ins,rs]=e;
  const cb=B[sel.ct+'|'+ind.id],sb=B[sel.st+'|*'],br=cb||sb;let call=base;const v4=V4[sel.ct+'|'+ind.id],vb=v4&&v4.brief&&v4.brief.local_story?v4.brief:null;const nudged=vb?v4.nudged_by_news:(base=='ok'&&br&&br.o=='Worse');if(nudged)call='caution';
@@ -144,7 +160,7 @@ function render(){const st=D.states[sel.st],ct=CITY[sel.ct],ind=IND[sel.ind];his
  const sig=Object.entries(st.signals).map(([k,s])=>`<tr><td>${k=='gst'?'GST collections':'Electricity demand'} Apr-to-date</td><td>${s.value>0?'+':''}${s.value}% vs India ${s.india>0?'+':''}${s.india}%</td><td>${esc(mon(s.as_of))}</td><td>${s.source_url?`<a href="${esc(s.source_url)}" target="_blank" rel="noopener">link</a>`:''}</td></tr>`).join('');
  const gn=sec.gnpa&&sec.gnpa.points&&sec.gnpa.points.length?`<h3>GNPA ratio, ${esc(sec.gnpa.fsr_category)} (RBI FSR, all banks)</h3>${spark(sec.gnpa.points,'value','GNPA')}`:'<h3>GNPA</h3><p class="meta">No matching RBI FSR category — Unknown, collect from internal MIS.</p>';
  const tr=sec.trend&&sec.trend.length>1?`<h3>Bank-credit growth trend (RBI)</h3>${spark(sec.trend.map(p=>({period:mon(p.period),yoy_pct:p.yoy_pct})),'yoy_pct','credit trend')}`:'';
- $('#result').innerHTML=`<div class="card" data-call="${cls}">
+ $('#result').innerHTML=fetchBar(`${sel.st}_${sel.ct}_${ind.id}`,null)+`<div class="card" data-call="${cls}">
  <div class="top"><span class="badge ${cls}">${esc(label)}</span>${vb?'<span class="pill" style="background:#ecfeff;color:#0e7490">v4 test</span>':''}${score!=null||nat!=null?`<span class="score">${score??nat}<small>/100</small></span>`:''}${proxy}</div>
  <div class="head">${esc(head)}</div><div class="meta">${esc(formula)}${nudged?` Local news says conditions are worse than the data, so OK to lend becomes Caution.`:''}</div>
  <h3>Why</h3>${why?`<ul>${why}</ul>`:'<p class="meta">Not enough verified figures. Unknown — collect.</p>'}

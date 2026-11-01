@@ -51,13 +51,8 @@ jobs:
           rc=$?
           echo "rc=$rc" >> "$GITHUB_OUTPUT"
           if [ $rc -ne 0 ] && [ $rc -ne 2 ]; then exit $rc; fi
-      - name: Local credit view (weekly per pair; DeepSeek; capped calls; after verdicts so the data pack is current)
-        env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          LOCAL_NEWS_MAX_CALLS: "3000"
-        run: |
-          python engine/local_news.py || echo "local news scan failed (display-only, non-blocking)"
-          python engine/lending.py --offline || echo "re-attach skipped"
+      - name: Re-attach saved briefs (no DeepSeek; local notes are on-demand via fetch-note.yml)
+        run: python engine/lending.py --offline || echo "re-attach skipped"
       - name: Commit lending radar
         run: |
           git config user.name "regime-engine-bot"

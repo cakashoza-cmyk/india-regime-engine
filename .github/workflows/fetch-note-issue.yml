@@ -1,0 +1,69 @@
+name: Fetch note via issue (owner/collaborator only)
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: fetch-note-issue-${{ github.event.issue.title }}
+  cancel-in-progress: false
+jobs:
+  note:
+    if: startsWith(github.event.issue.title, 'fetch:') && contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Parse and check freshness
+        id: p
+        env:
+          TITLE: ${{ github.event.issue.title }}
+        run: |
+          python - <<'PY'
+          import os, re, json, datetime, pathlib
+          m = re.fullmatch(r"fetch:([A-Z]{2})\|([a-z0-9_]+)\|([a-z0-9_]+)", os.environ["TITLE"].strip())
+          out = open(os.environ["GITHUB_OUTPUT"], "a")
+          if not m:
+              out.write("ok=false\nwhy=Title must look like fetch:GJ|gj_surat|mmf_textiles\n"); raise SystemExit
+          st, ct, ind = m.groups()
+          r = json.load(open("data/radar.json"))
+          if not any(c["id"] == ct and c["state"] == st for c in r["cities"]) or not any(i["id"] == ind for i in r["industries"]):
+              out.write("ok=false\nwhy=Unknown state, city or industry id\n"); raise SystemExit
+          p = pathlib.Path(f"data/notes/{st}_{ct}_{ind}.json")
+          if p.exists():
+              g = json.loads(p.read_text()).get("generated_at", "")[:16]
+              try:
+                  age = datetime.datetime.utcnow() + datetime.timedelta(hours=5, minutes=30) - datetime.datetime.strptime(g, "%Y-%m-%d %H:%M")
+                  if age < datetime.timedelta(hours=6):
+                      out.write(f"ok=false\nwhy=A note for this pick was made at {g} IST (under 6 hours ago); showing that one to save tokens.\n"); raise SystemExit
+              except ValueError:
+                  pass
+          out.write(f"ok=true\nst={st}\nct={ct}\nind={ind}\n")
+          PY
+      - name: Build note
+        if: steps.p.outputs.ok == 'true'
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python engine/note_v6.py "${{ steps.p.outputs.st }}" "${{ steps.p.outputs.ct }}" "${{ steps.p.outputs.ind }}"
+      - name: Commit
+        if: steps.p.outputs.ok == 'true'
+        run: |
+          git config user.name "regime-engine-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/notes/
+          git diff --cached --quiet || git commit -m "note ${{ steps.p.outputs.st }}/${{ steps.p.outputs.ct }}/${{ steps.p.outputs.ind }} (issue #${{ github.event.issue.number }})"
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push && break; sleep 5; done
+      - name: Reply and close
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          N: ${{ github.event.issue.number }}
+          OK: ${{ steps.p.outputs.ok }}
+          WHY: ${{ steps.p.outputs.why }}
+        run: |
+          U="https://cakashoza-cmyk.github.io/india-regime-engine/lending.html?state=${{ steps.p.outputs.st }}&city=${{ steps.p.outputs.ct }}&ind=${{ steps.p.outputs.ind }}"
+          if [ "$OK" = "true" ] && [ "${{ job.status }}" = "success" ]; then MSG="Done. Note saved: $U (live in ~1 minute)."; elif [ "$OK" = "true" ]; then MSG="Note build failed; see the Actions log."; else MSG="Not run: $WHY"; fi
+          gh issue comment "$N" -R "$GITHUB_REPOSITORY" -b "$MSG"
+          gh issue close "$N" -R "$GITHUB_REPOSITORY"
