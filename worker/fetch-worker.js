@@ -7,6 +7,7 @@ export default {
     const cors = { "Access-Control-Allow-Origin": env.ALLOW_ORIGIN, "Access-Control-Allow-Methods": "POST, OPTIONS", "Access-Control-Allow-Headers": "Content-Type" };
     const out = (code, body) => new Response(JSON.stringify(body), { status: code, headers: { ...cors, "Content-Type": "application/json" } });
     if (req.method === "OPTIONS") return new Response(null, { headers: cors });
+    if (req.headers.get("Origin") !== env.ALLOW_ORIGIN) return out(403, { error: "origin not allowed" });
     if (req.method !== "POST") return out(405, { error: "POST only" });
     let b; try { b = await req.json(); } catch { return out(400, { error: "bad JSON" }); }
     const { state, city, ind } = b || {};
