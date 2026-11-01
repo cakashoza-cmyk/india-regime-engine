@@ -1,6 +1,6 @@
 {
  "exports_qe": {
-  "checked_ist": "2026-11-01 14:17",
+  "checked_ist": "2026-11-01 14:19",
   "discovered_by": "commerce_pattern",
   "first_seen": "2026-11-01",
   "payload": {
@@ -371,7 +371,7 @@
   "url": "https://www.commerce.gov.in/files/2026-10/Quick%20Estimates%20September%202026.pdf"
  },
  "iip_nic2": {
-  "checked_ist": "2026-11-01 14:17",
+  "checked_ist": "2026-11-01 14:18",
   "discovered_by": "last_known",
   "first_seen": "2026-11-01",
   "payload": {
@@ -580,7 +580,7 @@
   "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475"
  },
  "rbi_sibc": {
-  "checked_ist": "2026-11-01 14:16",
+  "checked_ist": "2026-11-01 14:18",
   "discovered_by": "rbi_press_list",
   "first_seen": "2026-11-01",
   "payload": {

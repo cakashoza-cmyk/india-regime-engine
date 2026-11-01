@@ -1,12 +1,12 @@
 {
- "generated_at_ist": "2026-11-01 14:17 IST",
- "run_id": "20261101T141731-33b6cf",
+ "generated_at_ist": "2026-11-01 14:19 IST",
+ "run_id": "20261101T141903-9d7666",
  "fy": "FY27 (Apr 2026–Mar 2027)",
  "disclaimer": "Decision aid for credit judgment, not a replacement for it. Internal use only; not loan advice to any outside party.",
  "units": "Rs Cr; Indian FY Apr–Mar; growth % YoY unless stated",
  "regime": {
   "label": "Stagflation (confirmed) with contracting liquidity (central bank fighting)",
-  "generated": "2026-11-01 13:51 IST"
+  "generated": "2026-11-01 14:18 IST"
  },
  "macro": {
   "gdp_yoy": {
