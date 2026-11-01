@@ -1,0 +1,150 @@
+{
+ "key": "gj_surat|manmade_fibres",
+ "state": "GJ",
+ "city": "gj_surat",
+ "ind": "manmade_fibres",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 30,
+ "nudged_by_news": false,
+ "verdict": "Avoid new polyester/viscose yarn exposure in Surat for now; lend only to PLI-eligible, value-added converters with tight monthly stock-and-receivable controls.",
+ "title": "Surat man-made fibres & yarn: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Surat MMF spinner buys PSF, VSF or POY chips, converts them into polyester or viscose yarn on continuous spinning lines, and sells to powerloom weavers and fabric traders who pay on trade credit.** Cash is made on the spread between fibre cost and yarn price, minus power and conversion cost; the fibre is the single largest input and its price is set by large suppliers, so the spinner has little bargaining power [11]. Working capital sits in fibre inventory and in receivables from weavers, and ICRA notes fabric-chain working capital is driven by inventory holding plus receivables [9]. Capex is heavy and fixed-capital intensive, so debt-funded expansion is common and leverage rises fast in a downturn [10]. ## What has changed now\n**The data call is AVOID (score 30), and the news flow is worse, not better.** India-wide MMF output (NIC 20) is -0.5% YoY and -1.2% Apr-to-date [D], while bank credit to the sector is running +28.9% YoY against that falling output — a +30.1 pp gap [D]. That is lending growing into shrinking production. Brent at $113/bbl sits above the $75–100 band [D], which feeds straight into polyester chain costs. Locally, polyester and viscose yarn prices fell in Surat and Mumbai on weak demand and liquidity constraints ahead of Diwali [2]. ## Where the growth is\n**The one clear positive is the revised PLI: minimum investment cut from ₹100 crore to ₹50 crore and minimum turnover from ₹200 crore to ₹100 crore, with the scheme extended to FY 2033-34 and an 11% first-year incentive tapering to 7% by year five [1].** So when a proposal lands, check whether the borrower is a genuine Part-II PLI applicant with a credible path to the ₹50 crore investment and ₹100 crore turnover thresholds [1]; if the numbers are aspirational, ask for the sanctioned term sheet and the machinery order. Pursue integrated value-added spinners and technical-textile converters with PLI visibility, and dyed/fancy yarn players with a real product mix — peers like Filatex and RSWM show margin support from value-added mix [4][5][7]. Avoid commodity grey-yarn spinners selling into the trader market on open credit, and anyone whose growth story is capacity without an offtake. ## How to grow safely\n**Structure against the fibre-price cycle, not the borrower's optimism.** Keep tenor short and match repayment to the conversion cycle; take monthly stock and receivable statements, monthly yarn price realisation versus fibre cost, and quarterly leverage. Because raw-material prices are supplier-controlled [11], insist on a minimum promoter contribution and a covenant that caps inventory days. Take the PLI incentive assignment where available [1]. ## Early-warning signs\n- **Receivable days stretching beyond the stated credit terms** — pull the monthly ageing and stop fresh disbursement if the top-five buyer concentration rises. - **Inventory build with flat sales** — fibre bought ahead of a price fall; ask for the purchase register and hedge position. - **Power cost or conversion spread compression** — check the monthly realisation-versus-fibre-cost sheet; if the spread narrows two months running, reprice or exit. - **Any sign of circular trader billing** — verify GST e-way bills against dispatch."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement (monthly)",
+   "Receivable days rise above agreed terms -> freeze limit and seek buyer-wise ageing"
+  ],
+  [
+   "Yarn realisation vs fibre cost (monthly)",
+   "Spread compresses two months running -> reprice or reduce exposure"
+  ],
+  [
+   "PLI milestone progress (quarterly)",
+   "Investment/turnover milestones slip -> reassess term loan drawdown"
+  ],
+  [
+   "Brent and PSF/VSF price (monthly)",
+   "Brent stays above $100/bbl [D] -> tighten inventory covenant"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Output falling while sector credit grows +28.9% YoY; Surat yarn prices fell on weak demand [2][D].",
+ "articles": [
+  {
+   "title": "Surat: Major Changes in Textile PLI Scheme: Turnover Limit Reduced by 50%, Scheme Duration Extended to FY 2033-34 | Loktej Surat News",
+   "url": "https://english.loktej.com/article/34187/surat--major-changes-in-textile-pli-scheme--turnover-limit-reduced-by-50---scheme-duration-extended-to-fy-2033-34",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "PC yarn prices rise in India; polyester, viscose & cotton fall",
+   "url": "https://www.fibre2fashion.com/news/prime-content/textiles-markets/pc-yarn-prices-rise-in-india-polyester-viscose-cotton-fall-314594-newsdetails.htm",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Textile industry yet to recover from GST jolt, claim traders - Wednesday, October 21, 2026 | 10:27 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/multimedia/video-gallery/companies/textile-industry-yet-to-recover-from-gst-jolt-claim-traders-55841.htm#1",
+   "date": "2026-10-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "RSWM Reports Resilient Q1 FY27 Performance with 16.1% YoY EBITDA Growth and 2.4x PAT Despite Challenging Market Conditions",
+   "url": "https://textilefocus.com/rswm-reports-resilient-q1-fy27-performance-with-16-1-yoy-ebitda-growth-and-2-4x-pat-despite-challenging-market-conditions/#respond",
+   "date": "2026-08-07",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Filatex India posts steady Q3FY26 performance on stable margins - Indian Textile Journal",
+   "url": "https://indiantextilejournal.com/filatex-india-posts-steady-q3fy26-performance-on-stable-margins/",
+   "date": "2026-02-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sportking India: The Margin Surge Is Real - But the Cheap Valuation Hinges on Cotton",
+   "url": "https://www.ainvest.com/news/sportking-india-margin-surge-real-cheap-valuation-hinges-cotton-2611/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Filatex India Limited posts stable Q3 FY26 revenue as margins improve on product mix and efficiency gains | AlphaStreet - Filatex India Limited posts stable Q3 FY26 revenue as margins improve on product mix and efficiency gains",
+   "url": "https://alphastreet.com/india/filatex-india-limited-posts-stable-q3-fy26-revenue-as-margins-improve-on-product-mix-and-efficiency-gains/amp/#1",
+   "date": "2026-02-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 30,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=140656&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "**Profitability vulnerable to raw material price movements, due to low bargaining power, power cost and forex fluctuations** - T...",
+   "url": "http://www.reliancechemotex.com/wp-content/uploads/2020/01/credit-rating-4.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 30 (national 0 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +28.9% YoY vs output -1.2% (gap +30.1 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

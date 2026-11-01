@@ -1,0 +1,150 @@
+{
+ "key": "mh_bhiwandi|logistics_warehousing",
+ "state": "MH",
+ "city": "mh_bhiwandi",
+ "ind": "logistics_warehousing",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively to Bhiwandi contract-logistics and space-optimisation operators with occupied capacity and clean receivables; avoid pure rent-roll warehousers and stretched working-capital borrowers.",
+ "title": "Bhiwandi logistics & warehousing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Bhiwandi warehouse is a shed plus racking that earns rent and handling fees per pallet position, not per square foot.** The operator leases or owns land, builds a structure, installs racking, and sells occupied pallet positions to quick-commerce, FMCG and e-commerce tenants [1][3]. Cash comes in as monthly storage rent plus inbound/outbound handling; the cost base is land rent, racking capex, power, labour and security. **Value sits in the racking and the tenant contract, not the land.** Flomic took effective leasable area from 5,000 sq. ft. to 20,000 sq. ft. on the same footprint and now holds capacity for approximately 8,000 pallets [1][2].\n\n## Where cash and risk sit now\n**The local signal is capacity being added inside existing sheds, not new leases.** Flomic's G+3 structure was commissioned July 2026 and completed September 2026, with a quick-commerce customer occupying since September 2026 and an FMCG customer taking the new pallet positions since October 2026 [1][3]. That is demand-led, occupied capex — the good kind. **But this is one company's news, not a city-wide dataset; the data pack gives no Bhiwandi score [D], so lean on first principles and peers.** Peer results are strong: Delhivery revenue from services ₹3,066 crore in Q2 FY27, up 19.8% year-on-year, with 325 million express parcel shipments up 32.1% [4][5][6]. VRL Logistics Q1 FY27 saw 18% revenue growth and EBITDA margin of 21.8% [7]. **Peer strength tells you volumes are moving; it does not tell you your borrower is getting paid.**\n\n## Who to pursue, who to avoid\n**Pursue contract-logistics operators with occupied multi-tier racking and named quick-commerce or FMCG tenants** [1][3]. Pursue asset-light 3PLs that rent shed space and invest only in racking. **Avoid pure rent-roll warehousers with vacant sheds and no handling income**, and avoid borrowers whose receivables are stretching. Pranik Logistics shows the working cycle elongating from 39 days in FY23 to 77 days in FY24 as collection period moved from 52 days to 82 days [11] — so when a proposal lands, check receivable days against that 77-day marker; if collection period is above 82 days, ask for the tenant-wise ageing and the top-three customer share.\n\n## How to grow safely\n**Structure against the tenant contract, not the shed.** Take monthly rent rolls, tenant-wise occupancy and pallet-position utilisation every month. Take racking invoices and the lease deed for the land. **Covenant on receivables and occupancy:** if occupancy falls below the level at sanction, or receivable days cross the borrower's own trailing average, reset limits. Rating evidence shows the split: Rhenus Logistics India carried gearing of 0.22x as of March 31, 2024 with free cash and liquid funds of ₹72.08 crore [10], while Tara Chand Infralogistic ran interest coverage of 11 times and net cash accrual to adjusted debt of 0.6 times in fiscal 2025 on continuing high capex [8]. **Prefer the Rhenus profile; price the Tara Chand profile.**\n\n## Early-warning signs\n**Watch vacancy and tenant concentration first.** A quick-commerce tenant that occupies space since September 2026 [1] can renegotiate or exit fast; collect from customer the notice period and lock-in on every contract. **Watch capex funded by debt:** ICRA noted debt-funded capex of Rs. 108 crore during FY2021 to H1 FY2024 keeping DSCR near 1.0 times [9] — so if your borrower's DSCR is near 1.0 times, ask for the capex plan and promoter infusion before enhancing. **Watch the gap between peer volume growth and your borrower's billing** [4][7]; if peer volumes rise while your borrower's invoices flatten, the tenant is shifting to another shed."
+ ],
+ "watch": [
+  [
+   "Monthly rent roll and pallet-position occupancy (monthly)",
+   "Occupancy falls below sanction level -> freeze limit enhancement and inspect the shed"
+  ],
+  [
+   "Tenant-wise receivable ageing (monthly)",
+   "Collection period crosses 82 days [11] -> ask for top-three tenant ageing and reset limits"
+  ],
+  [
+   "DSCR and capex funding (quarterly)",
+   "DSCR near 1.0 times [9] -> require promoter infusion or capex deferral before any enhancement"
+  ],
+  [
+   "Tenant contract lock-in and notice period (at sanction, then annually)",
+   "Lock-in shorter than loan tenor -> shorten tenor or add co-obligant"
+  ],
+  [
+   "Billed revenue versus peer volume trend (quarterly)",
+   "Peer volumes rise while borrower billing flattens [4][7] -> verify tenant has not shifted shed"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Bhiwandi capacity added and occupied by quick-commerce and FMCG tenants; peer volumes and margins strong.",
+ "articles": [
+  {
+   "title": "Flomic Global Logistics expands storage capacity of Bhiwandi warehouse",
+   "url": "https://www.moneyworks4me.com/company/news/index/id/845186",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Flomic Global Logistics Quadruples Bhiwandi Warehouse Storage Capacity to 20,000 Sq Ft - India Seatrade News",
+   "url": "https://indiaseatradenews.com/flomic-global-logistics-quadruples-bhiwandi-warehouse-storage-capacity-to-20000-sq-ft/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Flomic Global Logistics Expands Bhiwandi Warehouse Capacity",
+   "url": "https://www.stockwatch.live/in/news/flomic-global-logistics-expands-bhiwandi-warehouse-capacity-da83180e-b9f3-4f42-a6ae-daa6b4b54793",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Delhivery Q2 FY27 slides: record revenue, margins expand despite miss By Investing.com",
+   "url": "https://www.investing.com/news/company-news/delhivery-q2-fy27-slides-record-revenue-margins-expand-despite-miss-93CH-4989656",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Delhivery Q2 Results: Revenue crosses ₹3,000 crore for first time; EBITDA nearly triples - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/stocks/delhivery-q2-share-price-results-revenue-crosses-rs-3000-crore-for-first-time-ebitda-nearly-triples-20023835.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Delhivery Q2: Logistics Major Swings To Profit; EBITDA, Margin Jumps Multifold",
+   "url": "https://www.ndtvprofit.com/markets/delhivery-q2-logistics-major-swings-to-profit-ebitda-margin-jumps-multifold-12259294",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "VRL Logistics (NSE:VRLLOG) Earnings Call Transcripts - VRL Logistics Limited (NSE:VRLLOG)",
+   "url": "https://stockanalysis.com/quote/nse/VRLLOG/transcripts/#main#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating UpdateJune 04, 2026 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Tara Chand Infralogistic Solutions Limited-RU-04-06-2026.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 18, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=124196#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rhenus Logistics India Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202502140211_Rhenus_Logistics_India_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Pranik Logistics Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202504120457_Pranik_Logistics_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Maharashtra None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

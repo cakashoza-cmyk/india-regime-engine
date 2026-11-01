@@ -1,0 +1,154 @@
+{
+ "key": "dn_silvassa|manmade_fibres",
+ "state": "DN",
+ "city": "dn_silvassa",
+ "ind": "manmade_fibres",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 0,
+ "nudged_by_news": false,
+ "verdict": "Avoid new man-made fibre and yarn exposure in Silvassa for now; lend only to niche, value-added converters with tight structures, and decline commodity PSF/VSF spinners.",
+ "title": "Silvassa man-made fibres & yarn: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Silvassa MMF unit buys polyester or viscose fibre and chips, spins them into filament or spun yarn, and sells to weavers, knitters and fabric houses.** Cash is made on the spread between fibre cost and yarn price, minus power and conversion cost; the fibre itself is the largest cost line and its price is set by large suppliers, not by our borrower [11]. **So when a proposal lands, check who sets the borrower's fibre price and whether they have any pass-through clause; if the answer is 'the supplier decides', ask for the last four quarters of gross spread per kg.**\n\n## Where value and cash sit\n**Value sits in the yarn mix, not in commodity counts.** Peers show the pattern: Filatex reported Q3FY26 revenue of ₹1,049.7 crore with margins improving on product mix and efficiency gains [7], and RSWM reported 16.1% YoY EBITDA growth and 2.4x PAT in Q1 FY27 [4]. **Working capital is the real risk: inventory of fibre plus receivables from fabric buyers.** ICRA notes working capital for fabric-making entities is driven by inventory holding and receivables [9], and for one rated firm cash flow from operations of more than Rs. 36 crore in FY2025 was expected to turn marginally negative in the current fiscal and FY2027 on higher working capital to support revenue growth [8]. **So when a proposal lands, check the receivable days against the fabric buyer list; if receivables are stretching while sales grow, ask for the ageing and stop at the top five buyers.**\n\n## What has changed now\n**National MMF output is shrinking while bank credit to the sector is not.** IIP for NIC 20 is -0.5% YoY and -1.2% Apr-to-date [D], while bank credit is +28.9% YoY against that output, a gap of +30.1 pp [D]. **Brent at $113/bbl sits above the $75–100 band [D], which raises power and freight cost for a spinning unit with little pricing power [11].** Local Silvassa coverage is thin: the local hits are a Nagpur nylon manja lookout notice [1] and a topic page with no usable Silvassa MMF content [2], so read this city on first principles and peers. **So when a proposal lands, check the power tariff and the fuel surcharge line; if the borrower cannot show a per-kg power cost trend, ask for the last twelve months of electricity bills.**\n\n## Where to grow, and how to grow safely\n**Pursue value-added converters, not commodity spinners:** technical-textile and blended-yarn units, the segment where Sanathan Textiles is expanding technical-textiles yarn capacity [3], and borrowers selling to named fabric buyers on fixed conversion charges. **Avoid plain PSF/VSF commodity spinners and any unit whose margin depends on a cotton-price swing, the exact risk flagged on Sportking [6].** Structure as a cash-flow loan against a sanctioned drawing limit, with a monthly stock-and-receivable statement, a minimum gross spread per kg covenant, and a promoter contribution before any enhancement. **Take every month: stock statement, receivable ageing, power bills, and the fibre purchase invoices.**\n\n## Early-warning signs\n**Watch receivable days crossing the buyer credit terms, inventory days rising while output falls, and gross spread per kg compressing for two straight months.** Any of these means stop enhancement and re-price."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement (monthly)",
+   "Receivable days exceed buyer credit terms for two months -> freeze limit and seek ageing by buyer"
+  ],
+  [
+   "Gross spread per kg (monthly)",
+   "Spread compresses two months running -> re-price or reduce limit"
+  ],
+  [
+   "Power cost per kg (monthly)",
+   "Power cost rises without a pass-through -> ask for tariff revision proof or cut exposure"
+  ],
+  [
+   "Fibre purchase invoices (monthly)",
+   "Supplier concentration above half of purchases -> seek alternate supplier evidence"
+  ],
+  [
+   "IIP NIC 20 output (monthly, national)",
+   "Output stays negative with credit still growing -> decline new commodity spinning proposals"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "National MMF output negative while credit grows 28.9% and Brent is above band.",
+ "articles": [
+  {
+   "title": "Lookout circular against nylon manja factory owner | Nagpur News - The Times of India",
+   "url": "https://timesofindia.indiatimes.com/city/nagpur/lookout-circular-against-nylon-manja-factory-owner/articleshow/135153769.cms",
+   "date": "2026-10-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Silvassa Plant: Latest News & Videos, Photos about Silvassa Plant | The Economic Times - Page 1 - Business News›Silvassa Plant",
+   "url": "https://economictimes.indiatimes.com/topic/Silvassa-Plant#1",
+   "date": "2026-09-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "sanathan textiles updates on its capacity expansion initiatives",
+   "url": "https://www.capitalmarket.com/markets/news/corporate-news/sanathan-textiles-updates-on-its-capacity-expansion-initiatives/1712469",
+   "date": "2026-07-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "RSWM Reports Resilient Q1 FY27 Performance with 16.1% YoY EBITDA Growth and 2.4x PAT Despite Challenging Market Conditions",
+   "url": "https://textilefocus.com/rswm-reports-resilient-q1-fy27-performance-with-16-1-yoy-ebitda-growth-and-2-4x-pat-despite-challenging-market-conditions/#respond",
+   "date": "2026-08-07",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Filatex India posts steady Q3FY26 performance on stable margins - Indian Textile Journal",
+   "url": "https://indiantextilejournal.com/filatex-india-posts-steady-q3fy26-performance-on-stable-margins/",
+   "date": "2026-02-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Sportking India: The Margin Surge Is Real - But the Cheap Valuation Hinges on Cotton",
+   "url": "https://www.ainvest.com/news/sportking-india-margin-surge-real-cheap-valuation-hinges-cotton-2611/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Filatex India Limited posts stable Q3 FY26 revenue as margins improve on product mix and efficiency gains | AlphaStreet - Filatex India Limited posts stable Q3 FY26 revenue as margins improve on product mix and efficiency gains",
+   "url": "https://alphastreet.com/india/filatex-india-limited-posts-stable-q3-fy26-revenue-as-margins-improve-on-product-mix-and-efficiency-gains/amp/#1",
+   "date": "2026-02-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 30,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=140656&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "**Profitability vulnerable to raw material price movements, due to low bargaining power, power cost and forex fluctuations** - T...",
+   "url": "http://www.reliancechemotex.com/wp-content/uploads/2020/01/credit-rating-4.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 0 (national 0 x 0.6 + Dadra and Nagar Haveli and Daman & Diu None x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +28.9% YoY vs output -1.2% (gap +30.1 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

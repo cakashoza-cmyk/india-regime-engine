@@ -1,0 +1,150 @@
+{
+ "key": "rj_bhilwara|manmade_fibres",
+ "state": "RJ",
+ "city": "rj_bhilwara",
+ "ind": "manmade_fibres",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 0,
+ "nudged_by_news": false,
+ "verdict": "Avoid new man-made fibre and yarn exposure in Bhilwara for now; the data call is Avoid and the news flow is worse, so only existing good accounts with tight structure get any fresh line.",
+ "title": "Bhilwara man-made fibres & yarn: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nBhilwara is called Rajasthan's Manchester because of its textile industry, and it is known for synthetic suiting and yarn production, with fabric exported abroad [1]. **The unit buys PSF, VSF and acrylic fibre, spins or weaves it, and sells yarn or fabric on a working-capital cycle that is longer than the order book.** Raw material prices are set by large fibre suppliers, so spinners have limited bargaining power and limited pricing flexibility [11]. That is the whole credit story: thin conversion margin, no pricing power on input, and cash tied in inventory and receivables. So when a proposal lands, check the fibre procurement contract and the customer-wise receivable ageing before you look at the P&L. ## What has changed now\n**The official data pack reads Avoid for this cluster, and the local numbers are the reason.** Rajasthan GST collections are -4.7% Apr-to-date against India +6.1%, 10.8 pp slower [D], and Rajasthan electricity demand is +4.0% Apr-to-date against India +9.5%, 5.5 pp slower [D]. Nationally, IIP NIC 20 output is -0.5% YoY and -1.2% Apr-to-date [D]. **A power-intensive spinning cluster running below the national power trend is running below its own capacity.** The local source on Bhilwara's textile identity is dated May 2026 and is descriptive, not financial [1]; the Bhilwara news we hold is about a zinc wire MoU, not textiles [2][3]. We have no Bhilwara-specific fibre numbers, so collect from customer: capacity utilisation, power cost per unit, and month-wise sales. ## Where the growth is, and who to avoid\n**Peer results are mixed, and that is the opening.** RSWM reported 16.1% YoY EBITDA growth and 2.4x PAT in Q1 FY27 [4]; Filatex reported steady Q3 FY26 revenue with improving margins on product mix [5][7]; Sportking's margin surge is attributed to cotton-blended yarn demand and is explicitly tied to the cotton cycle [6]. **Pursue value-added and blended-yarn converters with diversified customer bases, and integrated players with own power.** Avoid pure PSF/VSF commodity spinners selling to one or two buyers, and any unit whose margin depends on a single fibre price. Rating methodology flags that profitability is vulnerable to raw material prices, power cost and forex [11], and that weaving is fixed-capital and working-capital intensive [10]. ## How to grow safely\n**Structure for the cycle, not the quarter.** Keep tenor short and matched to the receivable cycle, take the receivables and inventory as primary security, and insist on a cash-flow sweep. Rating commentary notes working capital needs rise to support revenue growth and can turn cash flow marginally negative [8], so size the limit to the peak working-capital gap, not to turnover. Take monthly stock and receivable statements, monthly power bills, and quarterly GST returns; reconcile GST turnover to sales. If the buyer concentration is above half of sales, ask for the buyer's payment history and a credit insurance quote. ## Early-warning signs\n**Watch the input and the meter.** If fibre prices move against the customer and margins compress, cut the limit before the quarter closes. If monthly power consumption falls while sales are flat, the unit is running below capacity; ask why. If receivable days stretch beyond the stated credit terms, stop fresh disbursement. If GST turnover falls below the bank statement turnover, ask for the reconciliation."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs bank statements (monthly)",
+   "GST turnover below bank credits -> freeze fresh disbursement and ask for reconciliation"
+  ],
+  [
+   "Power bills and consumption (monthly)",
+   "Consumption falls while sales flat -> ask for capacity utilisation and cut limit"
+  ],
+  [
+   "Fibre price movement (monthly)",
+   "Input price rise not passed on -> reprice or exit at next renewal"
+  ],
+  [
+   "Receivable ageing (monthly)",
+   "Days beyond stated credit terms -> stop fresh disbursement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Rajasthan GST and power demand both trail India sharply; national MMF output negative.",
+ "articles": [
+  {
+   "title": "क्या आप जानते हैं मरुधरा का यह जिला है 'राजस्थान का मैनचेस्टर', विदेशों तक है इसका जलवा - क्या आप जानते हैं मरुधरा का यह जिला है 'राजस्थान का मैनचेस्टर', विदेशों तक है इसका जलवा",
+   "url": "https://zeenews.india.com/hindi/india/rajasthan/photo-gallery-do-you-know-know-why-bhilwara-is-called-manchester-of-rajasthan-hub-history/1779087227419#1",
+   "date": "2026-05-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Hindustan Zinc, Group Nirmal sign Rajasthan manufacturing MoU | The Free Press Journal - Mumbai - newspaper - Bu hikayeyi Magzter.com'da okuyun - Denemek ALTIN - Özgür",
+   "url": "https://www.magzter.com/tr/stories/newspaper/The-Free-Press-Journal-Mumbai/HINDUSTAN-ZINC-GROUP-NIRMAL-SIGN-RAJASTHAN-MANUFACTURING-MOU#1",
+   "date": "2026-05-12",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Hindustan Zinc Partners with Group Nirmal on Zinc Wire Facility | Electrical Mirror 发布的此话题相关的动态 | 领英",
+   "url": "https://www.linkedin.com/posts/electricalmirrormagazine_rajasthan-hindustanzinc-groupnirmal-activity-7459886981716783104-9Oja",
+   "date": "2026-05-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "RSWM Reports Resilient Q1 FY27 Performance with 16.1% YoY EBITDA Growth and 2.4x PAT Despite Challenging Market Conditions",
+   "url": "https://textilefocus.com/rswm-reports-resilient-q1-fy27-performance-with-16-1-yoy-ebitda-growth-and-2-4x-pat-despite-challenging-market-conditions/#respond",
+   "date": "2026-08-07",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Filatex India posts steady Q3FY26 performance on stable margins - Indian Textile Journal",
+   "url": "https://indiantextilejournal.com/filatex-india-posts-steady-q3fy26-performance-on-stable-margins/",
+   "date": "2026-02-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sportking India: The Margin Surge Is Real - But the Cheap Valuation Hinges on Cotton",
+   "url": "https://www.ainvest.com/news/sportking-india-margin-surge-real-cheap-valuation-hinges-cotton-2611/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Filatex India Limited posts stable Q3 FY26 revenue as margins improve on product mix and efficiency gains | AlphaStreet - Filatex India Limited posts stable Q3 FY26 revenue as margins improve on product mix and efficiency gains",
+   "url": "https://alphastreet.com/india/filatex-india-limited-posts-stable-q3-fy26-revenue-as-margins-improve-on-product-mix-and-efficiency-gains/amp/#1",
+   "date": "2026-02-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 30,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=140656&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "**Profitability vulnerable to raw material price movements, due to low bargaining power, power cost and forex fluctuations** - T...",
+   "url": "http://www.reliancechemotex.com/wp-content/uploads/2020/01/credit-rating-4.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 0 (national 0 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

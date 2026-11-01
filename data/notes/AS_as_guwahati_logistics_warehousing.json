@@ -1,0 +1,145 @@
+{
+ "key": "as_guwahati|logistics_warehousing",
+ "state": "AS",
+ "city": "as_guwahati",
+ "ind": "logistics_warehousing",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively in Guwahati logistics: pursue asset-backed warehousing and 3PL operators with clean receivables; avoid thin-margin trucking and receivables-heavy freight agents until collection cycles are verified.",
+ "title": "Guwahati logistics & warehousing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Logistics here is a cash-conversion business, not an asset business.** A Guwahati operator moves goods from railhead, river port and highway into godowns, then out to retail and e-commerce last mile; cash comes in per consignment or per pallet-day, and goes out in diesel, driver wages, rent and fuel advances. **The value sits in the warehouse lease and the route contract, not the truck.** So when a proposal lands, check whether the borrower owns or leases the shed, and who the anchor client is; if the client is a single e-commerce or FMCG account, ask for the contract tenure and termination clause.",
+  "## Where cash and value actually sit\n**Working capital is the whole risk in this trade.** A peer's cycle stretched from 39 days in FY23 to 77 days in FY24 as collection period moved from 52 to 82 days against creditor days of five [10] — that is the shape of trouble. **Capex is heavy and debt-funded in this sector:** one rated peer ran ₹108 crore of debt-funded capex over FY2021 to H1 FY2024 with DSCR near 1.0 times [8], while a stronger peer held gearing at 0.22x with ₹72.08 crore of liquid funds [9]. So when a proposal lands, check debtor days against creditor days; if the gap is widening, ask for the top-five debtor ageing and the billing dispute log.",
+  "## What has changed now\n**The national parcel cycle is expanding fast, and that pulls warehouse demand into Guwahati.** Delhivery's Q2 FY27 revenue from services was ₹3,066 crore, up 19.8% year-on-year, with express parcel shipments at 325 million, up 32.1% [3][4][5]; VRL reported Q1 FY27 revenue growth of 18% with EBITDA margin at 21.8% [6]. **Local sources are thin and dated:** the Guwahati supply-chain piece is from March 2024 [2] and the employment piece from November 2025 [1], so treat city-specific demand claims as indicative only and lean on first principles plus these peers.",
+  "## Early-warning signs\n**Watch debtor days crossing creditor days, single-client concentration above half of billing, and capex funded by short-term working capital.** If a borrower's collection period moves past 82 days [10], ask for the client contract and stop enhancement. If DSCR sits near 1.0 times with fresh capex announced [8], ask for the promoter infusion plan before any new limit."
+ ],
+ "watch": [
+  [
+   "Debtor days (monthly)",
+   "crosses 82 days -> freeze enhancement, seek client contract"
+  ],
+  [
+   "Top-client share of billing (quarterly)",
+   "above 50% -> require assignment of receivables or co-obligation"
+  ],
+  [
+   "DSCR (annual, from financials)",
+   "near 1.0 times with new capex -> ask promoter infusion plan"
+  ],
+  [
+   "GST returns vs billed turnover (monthly)",
+   "gap above 10% -> stop disbursement, reconcile invoices"
+  ],
+  [
+   "Shed lease/ownership proof (annual)",
+   "lease under 3 years or unregistered -> decline term loan"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "National parcel and freight peers show strong revenue and margin growth, supporting warehouse demand.",
+ "articles": [
+  {
+   "title": "City Watch: Exploring the Employment Growth in Guwahati",
+   "url": "https://indiaemployerforum.org/world-of-work/exploring-the-employment-growth-in-guwahati/#respond",
+   "date": "2025-11-05",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Unlocking the Dynamics of Guwahati's Supply Chain Ecosystem - A Trucking Odyssey - Logistics Insider Articles",
+   "url": "https://www.logisticsinsider.in/unlocking-the-dynamics-of-guwahatis-supply-chain-ecosystem-a-trucking-odyssey/#primary",
+   "date": "2024-03-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Delhivery Q2 FY27 slides: record revenue, margins expand despite miss By Investing.com",
+   "url": "https://www.investing.com/news/company-news/delhivery-q2-fy27-slides-record-revenue-margins-expand-despite-miss-93CH-4989656",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Delhivery Q2 Results: Revenue crosses ₹3,000 crore for first time; EBITDA nearly triples - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/stocks/delhivery-q2-share-price-results-revenue-crosses-rs-3000-crore-for-first-time-ebitda-nearly-triples-20023835.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Delhivery Q2: Logistics Major Swings To Profit; EBITDA, Margin Jumps Multifold",
+   "url": "https://www.ndtvprofit.com/markets/delhivery-q2-logistics-major-swings-to-profit-ebitda-margin-jumps-multifold-12259294",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "VRL Logistics (NSE:VRLLOG) Earnings Call Transcripts - VRL Logistics Limited (NSE:VRLLOG)",
+   "url": "https://stockanalysis.com/quote/nse/VRLLOG/transcripts/#main#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating UpdateJune 04, 2026 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Tara Chand Infralogistic Solutions Limited-RU-04-06-2026.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "December 18, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=124196#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rhenus Logistics India Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202502140211_Rhenus_Logistics_India_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Pranik Logistics Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202504120457_Pranik_Logistics_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Assam None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

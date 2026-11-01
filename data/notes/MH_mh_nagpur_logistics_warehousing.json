@@ -1,0 +1,150 @@
+{
+ "key": "mh_nagpur|logistics_warehousing",
+ "state": "MH",
+ "city": "mh_nagpur",
+ "ind": "logistics_warehousing",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution on Nagpur logistics & warehousing: lend only to fire-compliant, diversified 3PL operators with clean title and verified insurance; avoid single-client godown owners in encroached clusters.",
+ "title": "Nagpur Logistics & Warehousing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Nagpur godown is a shed that rents space and moves cartons; cash comes from occupancy and throughput, not from the building.** The operator takes rent per square foot plus handling charges, pays for land, construction, power, security and labour, and collects from a handful of large consignors. Value sits in location (Wardhaman Nagar, the MIDC belts) and in the tenancy book; cash sits in receivables from 3PL clients and in the stock the client stores. **Capex is heavy and lumpy, working capital is short but collection-driven, and pricing power is thin because a shed is a commodity.**\n\n## What has changed now\n**Two fires in Nagpur in the same week — seven godowns gutted with Rs 4.81 crore of goods destroyed, and a plastic packaging warehouse in Wardhaman Nagar — and firefighting was hampered by encroachments [1][2][3].** That is local news, dated 31 October 2026, and it is the single most important fact for us this month. **The loss falls first on the stored goods, then on the shed owner's rent and reputation; encroached access means insurers and fire brigades will push back.** Peer results are strong but national, not Nagpur: Delhivery crossed Rs 3,000 crore quarterly revenue with 19.8% growth [4][5][6], and VRL saw 18% revenue growth with 21.8% EBITDA margin [7]. **Do not read national parcel growth as Nagpur shed demand.**\n\n## Where the growth is\n**Pursue 3PL and e-commerce fulfilment operators with multi-client books, and industrial tenants tied to Nagpur's MIDC manufacturing.** Rating evidence shows the model works when diversified: one warehousing player runs interest coverage of 11 times with margins over 24% [8][9], another holds gearing of 0.22x with Rs 72.08 crore of liquid funds [10]. **Avoid single-consignor godowns, plastic and packaging storage in dense clusters, and sheds on encroached land [1][2].**\n\n## How to grow safely\n**Structure against the shed, not the story: mortgage the land, take rent receivables escrow, and insist on a fire-compliant, insured asset.** When a proposal lands, check the fire NOC, the insurance policy schedule and the access road width; if the shed sits in an encroached lane, ask for the municipal layout approval before sanctioning [1]. **Take monthly rent-roll, occupancy, receivables ageing and insurance-renewal proof every month.** Watch the working-capital cycle: one peer's cycle stretched from 39 days in FY23 to 77 days in FY24 as collection days moved from 52 to 82 [11], so if receivables cross that pattern, ask for the top-five debtor list and stop enhancing limits.\n\n## Early-warning signs\n**Rent arrears from anchor tenants, insurance lapse, a fire or encroachment notice, and occupancy falling below the sanctioned base are the triggers.** Collect from customer the current rent roll, occupancy percentage and insurance cover value — the sources give us none of these for Nagpur. **Where sources say little about this city, lean on first principles and the peer numbers above.**"
+ ],
+ "watch": [
+  [
+   "Monthly rent roll and occupancy (monthly)",
+   "occupancy falls below sanctioned base -> freeze limit enhancement and re-price"
+  ],
+  [
+   "Insurance renewal and fire NOC (annual, verify monthly)",
+   "lapsed policy or missing NOC -> stop disbursement until cured"
+  ],
+  [
+   "Receivables ageing and top-five debtor list (monthly)",
+   "collection days stretch past 82 -> ask for debtor list and cap exposure [11]"
+  ],
+  [
+   "Fire or encroachment notice from municipality (event-based)",
+   "notice received -> inspect site and reassess collateral [1]"
+  ],
+  [
+   "Anchor-tenant rent arrears (monthly)",
+   "arrears beyond one cycle -> move to Caution and seek escrow top-up"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Two Nagpur warehouse fires in one week, Rs 4.81 crore goods lost, encroachments hampering firefighting.",
+ "articles": [
+  {
+   "title": "Fire Guts 7 Godowns, Rs4.81 Crore Goods Destroyed; Encroachments Hamper Firefighting",
+   "url": "https://timesofindia.indiatimes.com/city/nagpur/fire-guts-7-godowns-rs4-81-crore-goods-destroyed-encroachments-hamper-firefighting/articleshow/135434295.cms",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Maharashtra: Massive Fire Engulfs Plastic Packaging Warehouse In Nagpur's Wardhaman Nagar | VIDEO",
+   "url": "https://www.freepressjournal.in/mumbai/maharashtra-massive-fire-engulfs-plastic-packaging-warehouse-in-nagpurs-wardhaman-nagar-video",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Nagpur Warehouse Fire Brought Under Control · Mumbai Alert News",
+   "url": "http://www.mumbaialertnews.com/article/12dd8654cb4da2f6f43f",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Delhivery Q2 FY27 slides: record revenue, margins expand despite miss By Investing.com",
+   "url": "https://www.investing.com/news/company-news/delhivery-q2-fy27-slides-record-revenue-margins-expand-despite-miss-93CH-4989656",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Delhivery Q2 Results: Revenue crosses ₹3,000 crore for first time; EBITDA nearly triples - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/stocks/delhivery-q2-share-price-results-revenue-crosses-rs-3000-crore-for-first-time-ebitda-nearly-triples-20023835.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Delhivery Q2: Logistics Major Swings To Profit; EBITDA, Margin Jumps Multifold",
+   "url": "https://www.ndtvprofit.com/markets/delhivery-q2-logistics-major-swings-to-profit-ebitda-margin-jumps-multifold-12259294",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "VRL Logistics (NSE:VRLLOG) Earnings Call Transcripts - VRL Logistics Limited (NSE:VRLLOG)",
+   "url": "https://stockanalysis.com/quote/nse/VRLLOG/transcripts/#main#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating UpdateJune 04, 2026 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Tara Chand Infralogistic Solutions Limited-RU-04-06-2026.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 18, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=124196#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rhenus Logistics India Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202502140211_Rhenus_Logistics_India_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Pranik Logistics Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202504120457_Pranik_Logistics_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Maharashtra None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

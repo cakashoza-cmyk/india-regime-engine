@@ -1,0 +1,154 @@
+{
+ "key": "wb_siliguri|logistics_warehousing",
+ "state": "WB",
+ "city": "wb_siliguri",
+ "ind": "logistics_warehousing",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively to asset-backed Siliguri transport and warehousing operators with clean receivables; hold off on thin-margin, high-capex warehousing builds until the ₹200 crore state plan converts into named projects and tenants.",
+ "title": "Siliguri logistics & warehousing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Siliguri logistics borrower moves goods, not promises: trucks, godowns, cold rooms and handling equipment turn diesel, rent, driver wages and loading labour into freight and storage revenue.** Cash arrives from traders, FMCG and pharma distributors, and e-commerce feeders; it leaves upfront for fuel, driver advances and rent. **The value sits in the route and the shed, not the balance sheet** — a trucker's pricing power is thin and set by the load, while a warehousing operator earns from occupancy and contract tenure. **So when a proposal lands, check whether the borrower owns the asset or merely rents capacity; if rented, ask who holds the lease and for how long.**",
+  "## What has changed now\n**Two local facts matter and both are fresh.** NFR has opened the 6.8-km Rangapani-Bagdogra siding line for regular freight, removing the reversal at Siliguri Junction and expecting at least 10 freight trains daily from ECR at Forbesganj [1]. Separately, the state budget earmarked ₹200 crore to develop Siliguri as a logistics and trade hub through integrated logistic parks, multi-modal transport, modern warehousing and cold-chain [2][3]. **These are announcements and rail operations, not yet signed tenant contracts** — treat the ₹200 crore as a pipeline signal, not collateral. **When a proposal cites the hub plan, ask for the specific park, allotment letter or anchor tenant; if none exists, underwrite on today's cash flows only.**",
+  "## Where the growth is\n**Peer results show the demand is real at the organised end.** Delhivery's Q2 FY27 service revenue was ₹3,066 crore, up 19.8% year-on-year, with express parcel shipments at 325 million, up 32.1% [4][5][6]. VRL Logistics reported Q1 FY27 revenue growth of 18% with EBITDA margin at 21.8% and full-year volume growth guided at 8% [7]. **Pursue the small operator who feeds these networks** — last-mile fleet owners with 5-25 trucks on contract, cold-chain handlers serving pharma and agri, and shed owners with a named tenant. **Avoid the speculative godown builder with no tenant and the pure-spot trucker with no contract book.**",
+  "## How to grow safely\n**Structure against the asset and the receivable, not the story.** Rating evidence shows the risk clearly: Pranik Logistics' working cycle stretched from 39 days in FY23 to 77 days in FY24 as collection period moved from 52 to 82 days [11]. **So take monthly stock and receivable statements, and set a covenant that collection days do not cross the sanctioned cycle; if they do, ask for the ageing and stop fresh limits.** For capex-heavy borrowers, note that Tara Chand carried interest coverage of 11 times and net cash accrual to adjusted debt of 0.6 times in fiscal 2025 despite continuing high capex [8], while an earlier ICRA note on the same name showed DSCR near 1.0 times over three years on debt-funded capex [9] — old, 2023, but the lesson holds. **Take every month: fuel and toll spend, fleet utilisation, tenant rent receipts, and a stock-and-receivables statement.**",
+  "## Early-warning signs\n**Watch the cash conversion, not the turnover.** A borrower whose collection period drifts past the sanctioned cycle, or who funds new sheds from working capital, is the one to exit. **If diesel and driver costs rise while freight rates stay flat, ask for the rate card and the contract tenure.** If a borrower's only answer to the hub plan is a newspaper clipping, decline. **Siliguri-specific published data is thin — the sources here are local news and national peers, so lean on first principles and the borrower's own numbers.**"
+ ],
+ "watch": [
+  [
+   "Receivable ageing (monthly)",
+   "Collection days cross the sanctioned cycle -> freeze fresh limits and seek ageing"
+  ],
+  [
+   "Fleet utilisation and fuel spend (monthly)",
+   "Utilisation falls while fuel spend holds -> ask for rate card and contract tenure"
+  ],
+  [
+   "Tenant rent receipts (monthly)",
+   "Rent receipts lapse or tenant exits -> re-underwrite on vacant-shed cash flow"
+  ],
+  [
+   "Capex vs cash accrual (quarterly)",
+   "Capex funded from working capital -> restructure to term loan or decline"
+  ],
+  [
+   "Rail freight volumes at Siliguri (quarterly)",
+   "Volumes fall below the 10-train expectation [1] -> reassess feeder-route exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "New rail freight line and ₹200 crore state hub allocation lift Siliguri logistics demand.",
+ "articles": [
+  {
+   "title": "Northeast Frontier Railway opens new line in Siliguri to ease freight operations - The Statesman",
+   "url": "https://www.thestatesman.com/cities/siliguri/northeast-frontier-railway-opens-new-line-in-siliguri-to-ease-freight-operations-1503657776.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "West Bengal Allocates ₹200 Crore to Transform Siliguri into Regional Logistics and Trade Hub",
+   "url": "https://www.cargoconnect.co.in/index.php/logistics/west-bengal-allocates-200-crore-to-transform-siliguri-into-regional-logistics-and-trade-hub",
+   "date": "2026-06-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Siliguri bags Rs 200 crore to become logistics, trade hub; fiscal bounty for city with 'unique strategic position'",
+   "url": "https://www.telegraphindia.com/west-bengal/siliguri-bags-rs-200-crore-in-bengal-budget-to-become-logistics-and-trade-hub-prnt/cid/2166774?utm_source=flipboard&utm_content=TelegraphIndia%2Fmagazine%2FThe+Telegraph+Online#1",
+   "date": "2026-06-22",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Delhivery Q2 FY27 slides: record revenue, margins expand despite miss By Investing.com",
+   "url": "https://www.investing.com/news/company-news/delhivery-q2-fy27-slides-record-revenue-margins-expand-despite-miss-93CH-4989656",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Delhivery Q2 Results: Revenue crosses ₹3,000 crore for first time; EBITDA nearly triples - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/stocks/delhivery-q2-share-price-results-revenue-crosses-rs-3000-crore-for-first-time-ebitda-nearly-triples-20023835.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Delhivery Q2: Logistics Major Swings To Profit; EBITDA, Margin Jumps Multifold",
+   "url": "https://www.ndtvprofit.com/markets/delhivery-q2-logistics-major-swings-to-profit-ebitda-margin-jumps-multifold-12259294",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "VRL Logistics (NSE:VRLLOG) Earnings Call Transcripts - VRL Logistics Limited (NSE:VRLLOG)",
+   "url": "https://stockanalysis.com/quote/nse/VRLLOG/transcripts/#main#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating UpdateJune 04, 2026 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Tara Chand Infralogistic Solutions Limited-RU-04-06-2026.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 18, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=124196#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rhenus Logistics India Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202502140211_Rhenus_Logistics_India_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Pranik Logistics Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202504120457_Pranik_Logistics_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + West Bengal None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

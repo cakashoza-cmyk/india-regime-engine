@@ -1,0 +1,154 @@
+{
+ "key": "up_aligarh|hand_tools",
+ "state": "UP",
+ "city": "up_aligarh",
+ "ind": "hand_tools",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 88,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Aligarh hand tools and cutting tools, but only to organised, domestic-sales-led units with clean receivables; avoid export-dependent and hardware-trading borrowers until their overseas payment cycle clears.",
+ "title": "Aligarh hand tools & cutting tools: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A hand tool or cutting tool unit buys steel and forgings, machines and heat-treats them, and sells through distributors or to OEMs.** Cash is locked in steel inventory and in distributor credit, not in the machine. Pricing power is thin against organised brands, so margin comes from capacity utilisation and scrap discipline. **Capex is modest and lumpy — a press, a heat-treatment furnace, a grinding line — so a proposal that is mostly working capital is the normal shape here.**\n\n## What has changed now\n**Aligarh's own local reporting is about locks and hardware, not cutting tools, so read the city signal with care.** Local press says the lock and hardware trade is under stress from costlier raw material and hit export payments [2][3]; that is local news, dated June and May 2026, and it speaks to the export-facing hardware cluster, not to every tool unit. **The official data pack is more positive: Uttar Pradesh GST collections are up 14.2% Apr-to-date against India's 6.1% [D], and IIP for NIC 25 output is up 16.9% YoY [D].** Peer results are strong — Sterling Tools standalone revenue up ~32% YoY in Q2 FY27 [4], Taparia net profit up 38% YoY on 17% revenue growth [6] — but Sterling's own call flags EBITDA margin pressure this year [5]. **So the demand is real and the margin is not; lend to volume, not to assumed margin.**\n\n## Where to grow\n**Pursue organised domestic-sales manufacturers and job-work units supplying OEMs and the domestic distribution chain.** These ride the UP GST and NIC 25 numbers [D] without carrying the export receivable risk that the local hardware reports describe [3]. **Avoid pure hardware traders and units whose sales book is majority export** until their overseas payment cycle is visible; the local report is explicit that export money is stuck [3]. When a proposal lands, check the sales mix — if export share is material, ask for the ageing of overseas receivables and the last three months' realisation.\n\n## How to grow safely\n**Structure against the working-capital cycle, not the balance sheet.** Take monthly stock-and-debtor statements, monthly GST returns, and a quarterly drawing-power statement; if debtor days stretch beyond the sanctioned cycle, ask for the buyer-wise ledger before enhancing. **Covenant on export share and on receivable ageing, and take the promoter's personal guarantee on all SME limits.** Where the unit is a Tier-2 supplier to an organised brand, seek the buyer's confirmation of payables.\n\n## Early-warning signs\n**Watch for a shift from domestic to export sales, rising steel inventory days, and discount-led billing.** If monthly GST turnover falls while stock rises, stop enhancement and re-appraise. If a borrower's main distributor delays payment twice in a quarter, move to cash-and-carry terms."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns (monthly)",
+   "Turnover falls two months running while stock rises -> freeze enhancement, re-appraise"
+  ],
+  [
+   "Debtor ageing (monthly)",
+   "Days beyond sanctioned cycle -> ask buyer-wise ledger, shift to cash-and-carry"
+  ],
+  [
+   "Export receivable realisation (monthly)",
+   "Realisation slips past agreed cycle -> cap export exposure, seek ECGC cover"
+  ],
+  [
+   "Steel inventory days (monthly)",
+   "Inventory days rise with flat sales -> reduce drawing power"
+  ],
+  [
+   "EBITDA margin from quarterly returns (quarterly)",
+   "Margin falls below sanction assumption -> reprice or reduce limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local reports show export payment stress and costlier raw material in Aligarh hardware trade.",
+ "articles": [
+  {
+   "title": "Are Uttar Pradesh’s Manufacturing Industries Declining Due to Government Negligence? - Sections",
+   "url": "https://frontline.thehindu.com/politics/uttar-pradesh-industrial-decline-brass-lock-pottery/article71499767.ece#1",
+   "date": "2026-09-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "वैश्विक तनाव से अलीगढ़ ताला उद्योग संकट में: महंगा हुआ कच्चा माल, निर्यात प्रभावित; मजदूरों की आजीविका पर असर - Kol News",
+   "url": "https://www.bhaskar.com/local/uttar-pradesh/aligarh/koil/news/aligarh-lock-industry-crisis-raw-material-export-impact-labour-138227124.html",
+   "date": "2026-06-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "अरबों का हार्डवेयर उधारी पर पहुंच गया सात समंदर पार - अरबों का हार्डवेयर उधारी पर पहुंच गया सात समंदर पार",
+   "url": "https://www.livehindustan.com/uttar-pradesh/aligarh/story-hardware-export-crisis-payment-issues-persist-amid-global-turmoil-201780080737431.html#1",
+   "date": "2026-05-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sterling Tools Ltd (BOM:530759) (Q2 2027) Earnings Call Highlights: Record Revenue Growth ...",
+   "url": "https://nz.finance.yahoo.com/news/sterling-tools-ltd-bom-530759-010542255.html",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sterling Tools Limited (STERTOOLS) Q2 2027 Earnings Call Transcript | AlphaStreet - So there may be pressure on EBITDA margin this year",
+   "url": "https://alphastreet.com/india/sterling-tools-limited-stertools-q2-2027-earnings-call-transcript/#2",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Taparia Tools Q1 Results: Net profit rises 38% YoY to ₹47.76 crore - Taparia Tools Q1 Results: Net profit rises 38% YoY to ₹47.76 crore",
+   "url": "https://scanx.trade/stock-market-news/companies/taparia-tools-q1-results-net-profit-rises-38-yoy-47-76-crore/48160508#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Taparia Tools Q1 FY27 Results: Revenue, Profit and Margins Show Strong Growth",
+   "url": "https://www.precize.in/blogs/taparia-tools-q1-fy27-results",
+   "date": "2026-08-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Cash flows",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/1018~Jewellery-Retail,%20Rating%20Methodology,%20Mar%202026.pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- Financial Risk Analysis: Under this, ICRA considers various accounting policies, debt servicing track record, cash flow positi...",
+   "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/4466/14/14_chapter%205.pdf#7#8#7",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Notes on - Credit rating agencies in India CRISIL, CARE, ICRA, Small & Medium Enterprises Rating Agency (SMERA).",
+   "url": "http://dishtavostaging.unigoa.ac.in/resource?filename=7948_Notes.pdf&module_id=7948&type=quad#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 88 (national 96 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 25 output +16.9% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +12.0% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +11.9% YoY vs output +12.0% (gap -0.1 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
