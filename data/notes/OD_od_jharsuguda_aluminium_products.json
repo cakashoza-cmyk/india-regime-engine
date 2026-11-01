@@ -1,0 +1,161 @@
+{
+ "key": "od_jharsuguda|aluminium_products",
+ "state": "OD",
+ "city": "od_jharsuguda",
+ "ind": "aluminium_products",
+ "version": "v6",
+ "generated_at": "2026-11-02 01:18 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 45,
+ "nudged_by_news": false,
+ "verdict": "Caution — lend selectively to downstream fabricators tied to the Jharsuguda aluminium park and to strong smelter-linked service units; avoid standalone traders and small converters with no anchor offtake until Odisha's demand signals improve.",
+ "title": "Jharsuguda aluminium & products: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Aluminium here is a power-and-ore conversion business: bauxite and alumina go in, electricity does the heavy lifting, and hot metal or ingots come out to be rolled, extruded or cast downstream.** Cash sits in the smelter's working-capital cycle (alumina and coal inventory, power bills, metal receivables) and, for downstream units, in the conversion spread between metal cost and finished-product price. **Pricing power is thin for small converters — they pass metal price through and earn a conversion margin — so when a proposal lands, check whether the borrower earns a fixed conversion fee or is speculating on metal price; if the latter, ask for the hedging policy.**",
+  "## What has changed now\n**The anchor is expanding: Vedanta announced a ₹1 lakh crore Odisha programme including a brownfield expansion of its one-million-tonne-per-annum Jharsuguda smelter [1][2], and a ₹500 crore aluminium park at Jharsuguda has already signed MoUs with two manufacturing units [3].** That is real downstream demand for fabricators, but it is an announcement, not yet cash flow — **so when a proposal lands citing park tenancy, check the signed allotment and offtake letter, not the press release.** Peer results are strong: Vedanta Aluminium's Q2FY27 revenue rose 41% YoY to ₹22,066 crore with EBITDA up 83% [4], and profit more than doubled on record production of 649,000 metric tons [6]. **But management guided net effective price in H2 about $50 lower than Q2 [5] — treat the margin peak as past, not as the borrower's base case.**",
+  "## The local demand signal is the caution\n**Odisha's GST collections grew 0.5% Apr-to-date against India's 6.1%, and electricity demand grew 5.1% against India's 9.5% [D] — the state is running well behind the country.** India-wide aluminium output (NIC 24) grew 2.4% YoY [D]. **So the smelter's own numbers are healthy while the surrounding state economy is soft; lend to the supply chain of the strong anchor, not to the general local market.** An ICRA note (dated August 2025, over a year old) flags margin sensitivity to international aluminium prices and logistics [10]; use it as background only.",
+  "## How to grow safely\n**Pursue downstream fabricators with a Vedanta park allotment, extruders and casters with anchor offtake, and service units (fabrication, transport, maintenance) with purchase orders from the smelter.** Avoid standalone metal traders and small converters selling into the soft Odisha market without a contracted buyer. **Structure against conversion margin, not metal price: keep drawing power on stock-and-debtor statements, take a monthly stock statement and quarterly GST returns, and covenant a minimum interest-coverage floor.** For any borrower citing the ₹1 lakh crore plan [1][2], **ask for the phased capex schedule and their own signed contract — collect from customer.**",
+  "## Early-warning signs\n**Watch for receivable days stretching past the borrower's stated terms, conversion-fee realisation falling below the sanctioned rate, and inventory building without matching orders.** Any borrower whose sales are concentrated in one anchor should report that anchor's payment behaviour monthly. **If GST turnover for the borrower's district slips for two quarters, cut limits before renewal.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-debtor statement (monthly)",
+   "Receivable days exceed stated terms by 15 days -> freeze drawing power and seek fresh offtake proof"
+  ],
+  [
+   "Anchor offtake / purchase-order book (monthly)",
+   "Order book drops or anchor payment delays -> downgrade internal rating and raise margin"
+  ],
+  [
+   "Interest coverage from borrower financials (quarterly)",
+   "Coverage falls below covenanted floor -> demand promoter support or restructure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Odisha GST and power demand growth lag India sharply, outweighing strong anchor results.",
+ "articles": [
+  {
+   "title": "Vedanta to invest Rs 1 trillion in Odisha across aluminium, mining and manufacturing",
+   "url": "https://www.telegraphindia.com/business/vedanta-odisha-investment-anil-agarwal-announces-rs-1-lakh-crore-across-key-sectors-prnt/cid/2181867",
+   "date": "2026-09-26",
+   "kind": "local",
+   "via": "deepseek",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "Vedanta plans Rs 1 lakh crore aluminium expansion in Odisha - The Statesman",
+   "url": "https://www.thestatesman.com/bhubaneswar/vedanta-plans-rs-1-lakh-crore-aluminium-expansion-in-odisha-1503643410.html",
+   "date": "2026-09-25",
+   "kind": "local",
+   "via": "plain-http",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "वेदांता वाले अनिल अग्रवाल का बड़ा दांव: इस राज्य में ₹500 करोड़ से बनेगा एल्युमिनियम पार्क, पैदा होगी बंपर नौकरियां! - विज्ञापन हटाएंसिर्फ खबर पढ़ें",
+   "url": "https://www.jagran.com/business/biz-vedanta-aluminium-park-anil-agarwals-500-cr-odisha-investment-40202399.html?utm_source=Article_detail&utm_medium=Internal_referral&utm_campaign=CRE#1",
+   "date": "2026-04-10",
+   "kind": "local",
+   "via": "plain-http",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "Vedanta Aluminium’s Q2FY27: Profit doubles to INR 6,187 Cr, EBITDA rises 83% YoY",
+   "url": "https://investor.wedbush.com/wedbush/article/bizwire-2026-10-31-vedanta-aluminiums-q2fy27-profit-doubles-to-inr-6187-cr-ebitda-rises-83-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Vedanta Aluminium posts record Q2 2026 on higher output By Investing.com - Earnings call transcript: Vedanta Aluminium posts record Q2 2026 on higher output",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-vedanta-aluminium-posts-record-q2-2026-on-higher-output-93CH-4937632#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "Vedanta Aluminium quarterly profit more than doubles on high prices, record production - The Economic Times - Today’s Paper",
+   "url": "https://m.economictimes.com/markets/stocks/earnings/vedanta-aluminium-quarterly-profit-more-than-doubles-on-high-prices-record-production/amp_articleshow/135264708.cms#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "Company Announcements - MUMBAI, India--(BUSINESS WIRE)--Aug",
+   "url": "https://markets.ft.markitdigital.com/data/announce/detail?dockey=600-202608020850BIZWIRE_USPRX____20260731_BW149639-1#1",
+   "date": "2026-08-01",
+   "kind": "peer",
+   "via": "cache",
+   "old": false,
+   "used": false
+  },
+  {
+   "title": "August 29, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=137377#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "old": false,
+   "used": false
+  },
+  {
+   "title": "- Cement",
+   "url": "https://www.crisil.com/content/dam/crisilrating/criteria-and-methodology/criteria-for-manufacturing-trading-and-corporate-services-sector.pdf#5#15#5",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "old": false,
+   "used": false
+  },
+  {
+   "title": "March 30, 2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=142029&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "Om Metallogic Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202609120901_Om_Metallogic_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "old": false,
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 45 (national 45, Odisha state adjustment capped at +/-10). OK to lend at or above 65, Avoid below 45.",
+  "Odisha: GST collections +0.5% Apr-to-date vs India +6.1% (5.6 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Odisha: electricity demand +5.1% Apr-to-date vs India +9.5% (4.4 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +3.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

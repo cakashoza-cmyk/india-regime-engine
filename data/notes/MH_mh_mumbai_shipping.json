@@ -1,0 +1,161 @@
+{
+ "key": "mh_mumbai|shipping",
+ "state": "MH",
+ "city": "mh_mumbai",
+ "ind": "shipping",
+ "version": "v6",
+ "generated_at": "2026-11-02 01:20 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution — no usable data score for Mumbai shipping; lend only to owners with contracted MR/Suezmax employment and tight monthly reporting, avoid spot-exposed single-vessel borrowers until fleet and freight data are collected.",
+ "title": "Mumbai Shipping: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA Mumbai shipping borrower owns or charters vessels and converts a fixed asset (a hull) into freight and charter-hire cash. **Cash sits in the vessel, not the balance sheet: value is the charter rate times days on hire, minus voyage costs, crew, insurance and dry-dock.** Capex is lumpy and debt-funded — CSPL relies on debt-funded capex to expand and replace old vessels [11] — so a single vessel purchase can double a small owner's debt. Pricing power is nil on spot; it exists only in term cover. So when a proposal lands, check the charter-backlog months and the rate fixed versus the market rate; if the answer is 'spot', ask for the last twelve months of realised TCE.",
+  "## What has changed now\n**The local news file is thin: two of the three Mumbai items are the same FICCI conference announcement [1][2], and the only real market signal is a Mumbai owner's MR tanker buying spree [3].** That tells us capital is being deployed into product tankers, not that earnings are safe. The peer read is mixed: Skipper posted record Q2 revenue of Rs 1,384 crores and a Rs 10,066 crores order book, yet flagged elevated shipping freight and export deferrals pushing FY27 growth 1-2% below its 15% target [4][6] — Skipper is an infrastructure/structures maker, not a like-for-like shipping peer, so read it as a freight-cost signal only. Delhivery's record Rs 3,066 crore revenue [5] and Aegis's liquid-segment revenue of INR 178 crore, up 24% [7], are logistics peers, not shipowners. Rating reports are undated: SCI's diversified six-decade track record [10] and JSWIL's ₹2,335 crore free cash with 60-day receivables [9] are healthy but not Mumbai-specific; the Bothra group's ₹197 crore service-tax claims at ~23% of net worth [8] is the cautionary case.",
+  "## Where to grow\n**Pursue Mumbai MR product-tanker owners with term charters to oil majors, and fleet managers with contracted coastal movement.** Avoid single-vessel spot traders and any group carrying large disputed tax claims — the Bothra case shows how a contingent liability can sit at 23% of net worth [8]. For every new owner, collect from customer: fleet age profile, charter-backlog months, TCE history, and vessel mortgage position.",
+  "## How to grow safely\n**Structure against the hull, not the hope: mortgage the vessel, escrow charter hire, and cap total debt at a level the fixed-hire book services.** Take monthly: charter-hire receipts, days off-hire, dry-dock spend, and a fleet position report. Covenant on minimum charter cover and a debt-service reserve.",
+  "## Early-warning signs\n- Days off-hire rising two months running (monthly) -> freeze new limits, inspect vessel.\n- Charter backlog falling below six months (quarterly) -> move to cash-collateralised structure.\n- Dry-dock cost overrun versus budget (per event) -> re-size facility.\n- Any new tax or statutory demand above 10% of net worth (quarterly) -> escalate to me."
+ ],
+ "watch": [
+  [
+   "Charter-hire receipts and days off-hire (monthly)",
+   "off-hire up two months running -> freeze limits and inspect vessel"
+  ],
+  [
+   "Charter backlog months (quarterly)",
+   "below six months -> shift to cash-collateralised structure"
+  ],
+  [
+   "Dry-dock spend versus budget (per event)",
+   "overrun -> re-size facility and re-test cover"
+  ],
+  [
+   "Statutory/tax demands (quarterly)",
+   "demand above 10% of net worth -> escalate to credit head"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Only real Mumbai signal is an MR buying spree; peer flags elevated freight and export deferrals.",
+ "articles": [
+  {
+   "title": "Nitesh Narayan Rane to address FICCI’s Maritime India Conference & Expo. - The Tribune",
+   "url": "https://www.tribuneindia.com/news/business/nitesh-narayan-rane-to-address-ficcis-maritime-india-conference-expo-2-2/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "Nitesh Narayan Rane to address FICCI’s Maritime India Conference & Expo.",
+   "url": "https://m.thewire.in/article_pdf/ptiprnews/nitesh-narayan-rane-to-address-ficcis-maritime-india-conference-expo",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "Mumbai owner’s MR splurge keeps brokers busy - Splash247",
+   "url": "https://splash247.com/mumbai-owners-mr-splurge-keeps-brokers-busy/",
+   "date": "2026-04-23",
+   "kind": "local",
+   "via": "plain-http",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "Skipper Ltd (BOM:538562) (Q2 2027) Earnings Call Highlights: Record Revenue and Rs 10,066 ...",
+   "url": "https://nz.finance.yahoo.com/news/skipper-ltd-bom-538562-q2-010734796.html",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "Delhivery Q2 FY27 slides: record revenue, margins expand despite miss By Investing.com",
+   "url": "https://www.investing.com/news/company-news/delhivery-q2-fy27-slides-record-revenue-margins-expand-despite-miss-93CH-4989656",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "old": false,
+   "used": false
+  },
+  {
+   "title": "Skipper Ltd (BOM:538562) (Q2 2027) Earnings Call Highlights: Rec",
+   "url": "https://www.gurufocus.com/news/9160535/skipper-ltd-bom538562-q2-2027-earnings-call-highlights-record-revenue-and-rs-10066-crores-order-book-but-export-headwinds-cloud-fy27-guidance?utm_source=yahoo_finance&utm_medium=syndication&utm_campaign=headlines&r=caf6fe0e0db70d936033da5461e60141",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "Aegis Logistics affiche un chiffre d’affaires record au T1 2026 Par Investing.com - Aegis Logistics affiche un chiffre d’affaires record au T1 2026",
+   "url": "https://fr.investing.com/news/transcripts/aegis-logistics-affiche-un-chiffre-daffaires-record-au-t1-2026-93CH-3558072#1",
+   "date": "2026-08-13",
+   "kind": "peer",
+   "via": "cache",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "Services tax claims on the Bothra group aggregates to 197 crore as on March 31, 2024. The value remains high at \\(\\sim 23\\%\\) of...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202503120346_Sarat_Chatterjee_&_Co_(Visakhapatnam)_Private_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "On a consolidated level, JSWIL has a strong liquidity position supported by sufficient generations of cash accruals against repa...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202511121148_JSW_Infrastructure_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.acuite.in/documents/ratings/revised/28302-RR-20241018.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "old": false,
+   "used": true
+  },
+  {
+   "title": "January 30, 2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=140680&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "old": false,
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None, Maharashtra state adjustment capped at +/-10). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
