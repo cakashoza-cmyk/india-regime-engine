@@ -1,0 +1,139 @@
+{
+ "key": "gj_ankleshwar|chemicals_dyes",
+ "state": "GJ",
+ "city": "gj_ankleshwar",
+ "ind": "chemicals_dyes",
+ "version": "v6",
+ "generated_at": "2026-11-01 22:43 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 43,
+ "nudged_by_news": false,
+ "verdict": "AVOID new Ankleshwar chemicals/dyes exposure; only exception-led working-capital facilities to compliant, integrated exporters with verified pass-through, secured on current assets and checked monthly for consent/CETP status.",
+ "title": "Ankleshwar Chemicals, Dyes & Intermediates: a note to the credit manager",
+ "narrative": [
+  "## The call",
+  "**The data pack gives AVOID 43 [D], and the local news direction is Worse, so new Ankleshwar dye/intermediate exposure is not a normal-terms yes.** National IIP for NIC 20 is -0.5% YoY and -1.2% Apr-to-date, bank credit is +20.7% YoY versus that output, a +21.9 pp gap, and Brent is $113/bbl [D]. Local costs are moving the other way: May-2026 reporting shows fuel, freight and crude-linked inputs higher, production costs 12–15%, benzene/toluene/solvents up to 20%, container transport from Mumbai to Ankleshwar from Rs 34,000–36,000 to Rs 39,000–42,000, and monthly transport up to Rs 5 lakh [3]. So when a proposal lands, check for a written pass-through clause for fuel and raw material; if absent, ask for recent price-revision letters and decline where gross margin is already compressed.",
+  "## What the business physically is",
+  "**A dye/intermediate unit is a batch converter: imported crude-derived benzene, toluene and solvents go through multi-step reactions into dyes and intermediates, then ship to textile, leather, paper and ink buyers.** Gujarat is close to 75% of dye and intermediate output, with Ankleshwar among the main centres [2]; that is an industry estimate, not current audited data. Bharuch district contributes nearly 19% of India's chemical exports and Ankleshwar GIDC is described as one of Asia's largest industrial estates [3]. Cash is not made at the reactor: it is made after compliant effluent treatment, batch approval and export receivable collection. Value sits in buyer approvals and consent to operate; cash sits in inventory and receivables, and capex sits in reactors, utilities and ETP/OCEMS. Where capacity, product mix, ETP capacity or CETP membership are not in the file, collect from customer.",
+  "## What has changed",
+  "**The local cost shock is real and recent: May-2026 reporting shows Gujarat chemical units facing higher fuel, freight and imported crude-derived input costs [3].** That local source predates today, so refresh fuel bills and freight invoices before sanction. The regulatory backdrop is older but structural: dyes and intermediates are in CPCB's 17 highly polluting categories, Red category, with OCEMS directions from 2014/2015 and closure directions reported in 2018 [1]. A unit without valid consent, OCEMS connectivity and CETP dues clearance is not a lending candidate, whatever its order book. The rating page for Kesar Petroproducts is date unknown and gives no financial detail [8]; collect from customer and do not use it as comfort.",
+  "## What peers show",
+  "**Peers are not uniformly weak: Shanghai-listed Zhejiang Longsheng reports 26Q3 dye volume and price up, with disperse dye average price 28.07 yuan/kg YoY +74% and reactive dye 37.36 yuan/kg YoY +68% [5][6].** Aarti Industries reports Q2 FY27 volume up over 30%, revenue ₹3,887 crore +73% YoY and record quarterly EBITDA ₹418 crore, helped by export demand and pass-through of raw material costs [7]. The lesson is to back units that can pass through costs and have export/qualified-customer traction, not every small dye unit in the cluster. Peer strength is not local proof; use it to choose borrower type.",
+  "## Who to pursue and how to grow safely",
+  "**Pursue integrated exporters and specialty/intermediate makers with own ETP/OCEMS, documented buyer restricted-substance compliance, and contracts that pass through fuel and raw material.** Avoid standalone commodity dye units dependent on a CETP, imported intermediates and diesel-based power, unless the promoter injects fresh equity and the bank gets cash cover. Structure as working-capital limits against pari passu charge on current assets, promoter guarantee, escrow of export receivables and LC-backed sales where available. Take every month: stock and book-debt statement, debtor ageing, GST returns against sales register, export shipment/LC evidence, power and fuel bills, OCEMS data and CETP payment receipts. Covenant on current ratio, DSCR and no dividend; if any consent notice or CETP arrears appear, freeze limits.",
+  "## Early warning",
+  "**Watch the cash conversion, not the order book: rising inventory days, stretched debtor ageing, GST-sales mismatch, unpaid power bills and CETP arrears precede default in this trade.** If freight or fuel surcharge is not being recovered in invoices, ask for customer price letters; if missing, reduce exposure. A consent notice, OCEMS gap or closure direction is an exit trigger, not a negotiation point. Where the unit cannot show buyer compliance for azo/restricted substances, collect from customer and decline until documented."
+ ],
+ "watch": [
+  [
+   "Monthly stock and book-debt statement",
+   "inventory days rise or stock ageing worsens -> cut drawing power and ask for fresh CMA"
+  ],
+  [
+   "Monthly GST returns vs sales register",
+   "reported sales exceed GST turnover -> stop further drawdown and inspect invoices"
+  ],
+  [
+   "Monthly CETP receipts and consent/OCEMS status",
+   "arrears, consent notice or OCEMS gap -> freeze limits and seek promoter top-up"
+  ],
+  [
+   "Monthly export receivables and LC/shipment evidence",
+   "buyer delay or concentration without cover -> move to escrow/LC-backed only"
+  ],
+  [
+   "Monthly power/fuel bills and price-revision letters",
+   "surcharge not passed into invoices -> reprice facility or exit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local fuel, freight and crude-linked costs rose; national chemical output fell; peer dye prices are stronger.",
+ "articles": [
+  {
+   "title": "Insight: Dye makers and India's pollution rules – OCEMS to azo bans",
+   "url": "https://chemicals.industry-report.net/2026/10/13/insight-dyes-pollution-rules-ocems-17-categories-azo-ban/#mh-comments",
+   "date": "2026-10-12",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Insight: Dyes in India – Gujarat's cluster and a $3.5 billion export trade",
+   "url": "https://chemicals.industry-report.net/2026/10/06/insight-dyes-india-gujarat-cluster-exports/",
+   "date": "2026-10-05",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Gujarat's Chemical Industry Under Pressure as West Asia Tensions Drive Up Costs - DeshGujarat",
+   "url": "https://deshgujarat.com/2026/05/27/gujarats-chemical-industry-under-pressure-as-west-asia-tensions-drive-up-costs/",
+   "date": "2026-05-26",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Gujarat's Chemical Belt: How AI is Transforming India's Industrial Corridor",
+   "url": "https://www.mnbresearch.com/blog/insights-2/gujarat-s-chemical-belt-inside-india-s-most-productive-industrial-corridor-241",
+   "date": "2026-05-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "浙江龙盛(600352)：26Q3染料量价齐升 行业格局长期确定性优化 业绩基本符合预期",
+   "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/846852720435/index.phtml",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "浙江龙盛(600352)：26Q3染料量价齐升 行业格局长期确定性优化 业绩基本符合预期",
+   "url": "http://stockfinance.sina.cn/stock/go.php/paper/reportid/846852720435/index.phtml",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Sustains Growth Momentum in Q2 FY27, Led by Higher Volumes",
+   "url": "https://m.thewire.in/article_pdf/ptiprnews/aarti-industries-sustains-growth-momentum-in-q2-fy27-led-by-higher-volumes",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Kesar Petroproducts Limited",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=29162#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "deepseek",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 43 (national 22 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +20.7% YoY vs output -1.2% (gap +21.9 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 9,
+  "fetch": 11,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
