@@ -1,0 +1,150 @@
+{
+ "key": "jh_ranchi|mining",
+ "state": "JH",
+ "city": "jh_ranchi",
+ "ind": "mining",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution — lend only to lease-holding, challan-clean sand and stone units with monthly royalty proof; the data pack gives no score, and the state's challan crackdown plus a thin 14-of-444 lease base make unverified contractors a no.",
+ "title": "Ranchi Mining & Quarrying: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Ranchi quarry or crusher turns a government lease into cash by moving sand, stone and mineral loads on challans.** The unit pays royalty and lease rent up front, runs excavators and tippers on diesel, and sells to builders and government contractors. Cash sits in the lease, the plant and the receivables from contractors, not in the stockpile. **Mining is a highly capital-intensive business [8], so the balance sheet is mostly fixed assets and the working-capital cycle is short but lumpy.**\n\n## What has changed now\n**The state has tightened the paper trail: from 27-4-2026 payment for minerals used in government work without a challan was stopped, and heavy fines now fall on contractors using unchallaned minerals [1].** That order froze contractor payments and stalled development works [1], so a borrower whose sales run through government contractors carries a real receivable risk. **Sand mining restrictions have been lifted for eight months, but only 14 of 444 ghats are leased [3], so legal supply is thin and the illegal-load temptation is high.** Jharkhand holds nearly 40 percent of the country's mineral resources [2], which is the structural pull; the local sources say nothing about Ranchi-specific borrower performance, so lean on first principles and peers. **Avoid unleased ghat operators, contractors with stopped government payments [1], and any unit whose parent is an NPA — ICRA flags exactly that constraint, with pledged shareholding and shrinking working-capital limits [9].**\n\n## How to grow safely\n**Structure against the lease and the challan, not the stockpile.** Take the lease deed, royalty receipts and challan register at sanction; if the lease is not in the borrower's name, ask who holds it and why. **Price the loan to the eight-month extraction window [3], with repayment matched to the season, not a flat EMI.** Monthly, take the challan register, royalty payment proof, diesel bills and bank statements; if challan volumes fall below billed sales, ask where the difference went. **Collect from customer the per-tonne royalty, diesel cost per load and receivable days — none of these appear in the sources.**\n\n## Early-warning signs\n**Watch for sales without matching challans, since that now attracts heavy fines [1].** A jump in contractor receivables after the 27-4-2026 payment stop [1] means cash is stuck upstream. **Falling diesel or tipper hire against flat sales suggests loads are moving off-book.** Any pledge of the borrower's shareholding to an operational creditor, as in the ICRA case [9], is a stop signal."
+ ],
+ "watch": [
+  [
+   "Challan register vs billed sales (monthly)",
+   "mismatch -> freeze further drawing and inspect the quarry"
+  ],
+  [
+   "Royalty and lease rent receipts (monthly)",
+   "missed payment -> demand cure before next disbursement"
+  ],
+  [
+   "Contractor receivable days (monthly)",
+   "rise after the 27-4-2026 payment stop [1] -> ask for the contractor's payment status"
+  ],
+  [
+   "Diesel and tipper hire bills (monthly)",
+   "fall against flat sales -> investigate off-book loads"
+  ],
+  [
+   "Lease validity and ghat allotment (quarterly)",
+   "lease lapse or unleased ghat -> exit or restructure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Challan fines and stopped contractor payments squeeze cash; only 14 of 444 ghats leased.",
+ "articles": [
+  {
+   "title": "Jharkhand News : बगैर चालान के खनिजों के इस्तेमाल पर अब ठेकेदारों पर लगेगा भारी जुर्माना",
+   "url": "https://lagatar.in/jharkhand-contractors-will-now-face-heavy-fines-for-using-minerals-without-challan",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Jharkhand Governor Inaugurates 2nd Jharkhand Mining & Construction Show-2026",
+   "url": "https://newsonair.gov.in/jharkhand-governor-inaugurates-2nd-jharkhand-mining-construction-show-2026/",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "झारखंड में बालू खनन पर लगी रोक हटी, अगले आठ माह तक होगा उठाव - jharkhand sand mining ban lifted extraction resumes for 8 months",
+   "url": "https://www.jagran.com/jharkhand/ranchi-jharkhand-sand-mining-ban-lifted-extraction-resumes-for-8-months-40405821.html",
+   "date": "2026-10-14",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Inde : Hindustan Zinc dépasse les attentes au quatrième trimestre, porté par les cours des métaux et la production - efee85f90026c46824c20dcac1049b16.H8RYcXbZiIQYAnju74W8blMoPBtVNZMKQIhHtf5O-xQ",
+   "url": "https://www.zonebourse.com/actualite-bourse/inde-hindustan-zinc-depasse-les-attentes-au-quatrieme-trimestre-porte-par-les-cours-des-metaux-et-ce7f59dfd88cf22c#1",
+   "date": "2026-04-23",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ashapura Minechem surges after Q4 PAT climbs 31% QoQ to Rs 111 cr - Ashapura Minechem surges after Q4 PAT climbs 31% QoQ to Rs 111 cr",
+   "url": "https://www.business-standard.com/amp/markets/capital-market-news/ashapura-minechem-surges-after-q4-pat-climbs-31-qoq-to-rs-111-cr-126052900739_1.html#1",
+   "date": "2026-05-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ashapura minechem surges after q4 pat climbs 31 qoq to rs 111 cr",
+   "url": "https://capitalmarket.com/markets/news/hot-pursuit-news/ashapura-minechem-surges-after-q4-pat-climbs-31-qoq-to-rs-111-cr/1701458",
+   "date": "2026-05-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Indian miner Vedanta posts quarterly profit rise on surge in base metal prices",
+   "url": "https://www.thehindubusinessline.com/companies/indian-miner-vedanta-posts-quarterly-profit-rise-on-surge-in-base-metal-prices/article71635183.ece",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Mining is a highly capital- intensive business",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/850~Mining#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "June 30, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=136112#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The various financial metrics assessed by ICRA could be divided into four categories—profitability, leverage, coverage, and liqu...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/570~Mining%20Entities#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- Financial Risk Analysis: Under this, ICRA considers various accounting policies, debt servicing track record, cash flow positi...",
+   "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/4466/14/14_chapter%205.pdf#7#8#7",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Jharkhand None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

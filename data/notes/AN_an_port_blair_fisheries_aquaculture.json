@@ -1,0 +1,154 @@
+{
+ "key": "an_port_blair|fisheries_aquaculture",
+ "state": "AN",
+ "city": "an_port_blair",
+ "ind": "fisheries_aquaculture",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Data pack scores this sector as UNKNOWN, so no lending call can be made on the pack alone; lend only to capture-verified, subsidy-backed small operators in Port Blair, and decline open-sea cage and hatchery capex until the customer supplies the missing numbers.",
+ "title": "Port Blair fisheries & aquaculture: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**This is a capture-and-distribution trade before it is a farming trade.** Boats land fish at Port Blair, and cash comes from moving that catch into local markets, the tourism trade and government-linked channels; the Administration wants fish production from the Territorial Waters raised from 37% to 75% over five years [2]. **The value sits in the landing-to-market link, not in the hull.** So when a proposal lands, check whether the borrower owns cold storage, ice or a market stall; if the plan is only a bigger boat, ask who buys the extra catch and at what landed price. **Aquaculture here is still subsidy-led.** Open-sea cage culture bids were invited with subsidy support, and government land is notified at a lease of Rs 1 per square metre per month, yet results are described as not fruitful [3]. Treat cage culture as a grant-dependent project, not a trading business, until the borrower shows a buyer.",
+  "## What has changed now\n**Policy attention is high but delivery is unproven.** The Lt Governor has directed a revival plan for M/s Andaman Fisheries Limited, a subsidiary of ANIIDCO, modern fish markets with NFDB assistance, and joint ventures on tuna canning and marketing [2]. **None of this is contracted revenue yet.** The same review asked for subsidy schemes and intermediary crafts in phases [2], so when a proposal cites a scheme, ask for the sanction letter and the disbursement date; if the borrower has only a tender reference, treat it as pipeline. **The tender flow is real but thin on detail.** The Directorate of Fisheries Port Blair listing shows 406 live notices on one page and 516 on another [1]; that is a count of notices, not of awards, so do not read it as order flow. **Local sources say little about Port Blair's own fish volumes, prices or cold-chain capacity.** Collect from customer.",
+  "## Where the growth is\n**Pursue the small operator who already lands and sells.** Target boat owners with a verified landing record, ice and cold-storage operators, and traders supplying the tourism and retail trade; the modern fish market plan [2] supports exactly this layer. **Pursue subsidy-backed cage and lease holders only with a buyer tied in.** The Rs 1 per square metre per month lease [3] keeps land cost trivial, so the risk is entirely in the stock and the sale. **Avoid the canning and tuna JV story for now.** It is a direction, not a project [2], and the peer set shows how much capital and cycle risk sits downstream: Sharat Industries grew revenue 37.89% YoY to Rs 524.72 crore for FY26 [5], while Avanti Feeds faces sticky fishmeal costs and shrimp export demand questions [7]. **Avoid disease-exposed intensive shrimp farming.** Rating commentary notes that clustering can wipe out almost 90% of a pond's shrimp population [9].",
+  "## How to grow safely\n**Structure against the catch cycle, not the boat's life.** Keep tenors short, take the landing or market-sale proceeds as the repayment source, and secure against the vessel and licence. **Take every month:** landing slips or auction receipts, ice and fuel bills, the subsidy sanction status, and the lease or licence copy. **Price for the missing data.** Because the pack gives no local margin or price series, collect from customer before sanctioning any exposure above the small-ticket limit. **Peer benchmarks are for structure, not for Port Blair pricing.** Mukka Proteins saw Q1FY27 revenue up about 187% with realisations up 93% [6]; that is a fishmeal cycle, not a local catch price, so do not use it to size a Port Blair loan.",
+  "## Early-warning signs\n**Watch the subsidy and the buyer together.** If the scheme disbursement slips or the buyer renegotiates the landed price, cut the limit and move to monthly review. **Watch stock mortality and ice supply.** A disease event in a clustered pond [9] or a cold-chain break means stop fresh disbursement and inspect the stock. **Watch the policy promises.** If the ANIIDCO revival and fish market plans stay on paper through the next review [2], treat scheme-linked cash flows as unavailable."
+ ],
+ "watch": [
+  [
+   "Landing slips and auction receipts (monthly)",
+   "Volumes fall below the borrower's stated run-rate for two months -> cut limit and re-price"
+  ],
+  [
+   "Subsidy sanction and disbursement status (monthly)",
+   "Sanction lapses or disbursement date slips -> stop fresh disbursement on that project"
+  ],
+  [
+   "Pond or cage stock health and ice supply (fortnightly)",
+   "Mortality report or cold-chain break -> inspect stock and freeze new limits"
+  ],
+  [
+   "Buyer payment cycle (monthly)",
+   "Receivables stretch beyond the agreed cycle -> move to cash-on-delivery terms"
+  ],
+  [
+   "Lease and licence validity (quarterly)",
+   "Lease or licence lapses -> suspend the facility until renewed"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Policy reviews and tender notices continue; no new local price or volume data.",
+ "articles": [
+  {
+   "title": "Directorate Of Fisheries Port Blair Tenders in Andaman Nicobar — 406 Live Notices | Tender84",
+   "url": "https://tender84.com/an/directorate-of-fisheries-port-blair/?page=13",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "LG reviews functioning of Fisheries, Animal Husbandry and Agriculture Departments",
+   "url": "https://andamansheekha.com/18978/",
+   "date": "2026-10-20",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "JVC, PBMC requests PM to lease government lands to enable youths for starting up businesses in Islands",
+   "url": "https://andamansheekha.com/78662/",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "While its core aquaculture business provides reliable cash flow, its near- to- medium- term growth is driven by three distinct p...",
+   "url": "https://www.shareindia.com/wp-content/uploads/data/uploads/Research_Files/Sea_Food_(Shrimps)_-_Thematic_Report_FMCG_-_20_08_2026_IR.pdf#6#8#6",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Sharat Industries Ltd reports financial performance for Q4, FY26",
+   "url": "https://www.equitybulls.com/category.php?page=3&id=371354",
+   "date": "2026-05-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Mukka Proteins Limited",
+   "url": "https://www.perplexity.ai/app/finance/MUKKA.NS?comparing=MUKKA.NS%2CSIMRAN.BO%2CSHINDL.BO%2CAPIS.BO%2CSANSTAR.NS%2COVOBELE.BO%2CKRISHIVAL.NS&preset=peers&symbol=HMAAGRO.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aquaculture margins under pressure — commodity headwinds and export cycles the setup",
+   "url": "https://www.stockwatch.live/in/reports/aquaculture-margins-under-pressure-commodity-headwinds-and-export-cycles-the-setup-44ad8d53-c471-49a8-849f-4b4fc0ca4aff",
+   "date": "2026-08-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The Blue Revolution, which focuses mainly on increasing fisheries production and productivity from aquaculture and fisheries res...",
+   "url": "https://www.mukkaproteins.com/images/ipo/18.%20CRISIL%20Industry%20Report.pdf#3#11#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202308120829_NAS_Fisheries_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Date: 29.09.2026",
+   "url": "https://www.bseindia.com/stockinfo/annpdfopen.aspx?pname=559345e4-cfe9-4d82-b2e0-01c9f620741a.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Andaman and Nicobar Islands None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

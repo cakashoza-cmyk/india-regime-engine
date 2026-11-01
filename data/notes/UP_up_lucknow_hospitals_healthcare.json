@@ -1,0 +1,146 @@
+{
+ "key": "up_lucknow|hospitals_healthcare",
+ "state": "UP",
+ "city": "up_lucknow",
+ "ind": "hospitals_healthcare",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively to Lucknow hospital and diagnostics operators with verified payer mix and doctor retention; the data pack gives no score, so the call rests on first principles and peer evidence, and public-sector digitalisation news is not a credit signal.",
+ "title": "Lucknow Hospitals & Diagnostics: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA hospital turns doctors, beds, OT time and diagnostic machines into billed episodes; a diagnostics lab turns collection centres, technicians and machines into tests. **Cash arrives at the point of service, but value sits in occupancy, test volumes per patient and doctor loyalty.** Peer data shows the model: 22 lakh tests and 3.8 lakh patients in a quarter, 5.8 tests per patient, average revenue per test Rs 357 and per patient Rs 2,083 [7]. So when a proposal lands, check tests per patient and revenue per patient against these peer marks; if revenue per test is falling while volumes rise, ask whether discounting or a payer-mix shift is driving it.",
+  "## Where cash and value sit\n**Hospitals carry heavy fixed cost and re-investment needs, so cash is made on occupancy and payer mix, not on list price.** ICRA notes hospitals have significant re-investment requirements for expansion and upgradation of facilities [9]. Peer Aster reported operating EBITDA of Rs 253 crore at a 21.7 percent margin, up from 19.3 percent, on volume growth and operating leverage [5]. So when a proposal lands, check the EBITDA margin and whether it comes from volume or from cost cuts; if margin expansion is claimed without volume growth, ask for department-wise occupancy and payer mix. Collect from customer: bed occupancy, ALOS, share of cash versus insurance and government schemes, and debtor days by payer.",
+  "## What has changed now\n**The local news is about public hospitals going digital, not about private demand.** RSM Hospital is fully digital with 10 online services [2], five OPD registration counters and 40 computers [3], and Civil Hospital performed a complex endoscopic brain tumour surgery [1]. These show public capacity improving, which pressures private players on routine work. Peer commentary says diagnostics demand and pricing are stable into FY27 [4][6], but one peer's average revenue per test fell 8.7 percent year on year even as tests rose 29.2 percent [7] — volume growth with price softness. Rating reports flag intense competition from organised chains and mid-sized hospitals, with doctor retention critical [10], and regulatory risk for hospital chains [11]. The ICRA merger note is dated December 2024 and is old [8].",
+  "## Where to grow, and how to grow safely\n**Pursue diagnostics-led and single-specialty operators with dense collection networks and private-pay mix; avoid greenfield multi-specialty hospitals with unproven doctor teams.** Structure term loans to capex milestones with a moratorium matched to ramp-up, and working capital against verified receivables, not projected billing. Take monthly: collection-centre-wise test volumes, payer-wise receivables ageing, doctor attrition list, and machine utilisation.",
+  "## Early-warning signs\n- **Falling revenue per test with rising volumes** [7]: check discounting and payer mix monthly; if it persists two quarters, cut exposure. - **Doctor exits or department closures** [10]: get the attrition list monthly; if a key specialist leaves, ask for the replacement contract before the next disbursement. - **Margin built on cost cuts rather than volume** [5]: review department-wise occupancy quarterly; if occupancy is flat, treat margin claims as unproven."
+ ],
+ "watch": [
+  [
+   "Doctor attrition list (monthly)",
+   "Key specialist exits -> ask for replacement contract before next drawdown"
+  ],
+  [
+   "Tests per patient and revenue per test (monthly)",
+   "Revenue per test falls two quarters -> cut exposure"
+  ],
+  [
+   "Department-wise occupancy (quarterly)",
+   "Occupancy flat while margin rises -> treat margin claims as unproven"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Local news is public-hospital digitalisation; peers show stable demand but soft test pricing.",
+ "articles": [
+  {
+   "title": "लखनऊ के सिविल अस्पताल में नाक के रास्ते ब्रेन ट्यूमर की जटिल सर्जरी, मरीज की आंखों की रोशनी में हुआ सुधार",
+   "url": "https://aapkikhabar.com/news/complex-surgery-of-brain-tumour-through-the-nose-at-the/cid19476549.htm",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Lucknow News: आरएसएम अस्पताल पूरी तरह डिजिटल, मरीजों को मिलेंगी 10 ऑनलाइन सुविधाएं",
+   "url": "https://www.amarujala.com/lucknow/rsm-hospital-goes-fully-digital-patients-to-have-access-to-10-online-services-lucknow-news-c-13-lko1070-1989973-2026-10-31",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "लखनऊ के RSM अस्पताल में OPD के 5 रजिस्ट्रेशन काउंटर: 40 कंप्यूटर लगाए, मरीजों को मिलेंगी ऑनलाइन जांच और मेडिकल रिकॉर्ड की सुविधा - Lucknow News",
+   "url": "https://www.bhaskar.com/local/uttar-pradesh/lucknow/news/lucknow-rsm-hospital-digital-services-online-checkup-records-update-139538047.html",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Robust demand, stable pricing to keep diagnostics volumes strong in FY27 - Home",
+   "url": "https://www.business-standard.com/amp/health/robust-demand-stable-pricing-to-keep-diagnostics-volumes-strong-in-fy27-126092101023_1.html#1",
+   "date": "2026-09-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aster DM Healthcare Q4 profit jumps 45% to Rs 153 crore on volume growth, margin expansion- Moneycontrol.com - 15",
+   "url": "https://www.moneycontrol.com/news/business/earnings/aster-dm-healthcare-q4-profit-jumps-45-to-rs-153-crore-on-volume-growth-margin-expansion-13904894.html?utm_campaign=flipboard-magazine#1",
+   "date": "2026-04-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Robust demand, pricing to keep volumes strong for diagnostics sector",
+   "url": "https://www.business-standard.com/markets/news/markets-news-robust-demand-pricing-to-keep-volumes-strong-for-diagnostics-126091300223_1.html",
+   "date": "2026-09-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Revenue growth during the quarter was led by both the organic business and recent acquisitions, slightly offset by a weaker fl...",
+   "url": "https://sbisecurities.in/fileserver/research/reports/SBI%20Securities%20Ltd_2QFY26%20Result%20Concall%20Capsule.pdf#43#55#43",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 10, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=131646#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "**Specialty diversification**: ICRA looks at the diversity of services offered in terms of the range of specialties and the comp...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/818~Hospitals#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 16,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=141615#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Furthermore, the group, like other hospital chains, remains exposed to regulatory risk",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Park%20Medi%20World%20Limited-RU-24-10-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Uttar Pradesh None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

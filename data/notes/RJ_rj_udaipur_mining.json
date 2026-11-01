@@ -1,0 +1,150 @@
+{
+ "key": "rj_udaipur|mining",
+ "state": "RJ",
+ "city": "rj_udaipur",
+ "ind": "mining",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Data pack gives no score for Udaipur mining, so no lend call can be made on the pack; treat as Caution and lend only to permitted, royalty-clean quarry and processing units with monthly royalty and dispatch proof, while avoiding units with pledged shareholding or parent NPA links.",
+ "title": "Udaipur Mining & Quarrying: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nMining here is rock out of the ground, crushed, screened and trucked to construction, cement and mineral buyers. **Cash is made on volume times realisation minus royalty, diesel, explosives and haulage; the mine is the asset and the permit is the licence to earn.** The local seminar coverage is about smart mining, critical minerals and safety technology, not about tonnage or prices [1][2][3], so on unit economics the sources are silent: collect from customer the royalty rate, per-tonne realisation, diesel cost share and dispatch lead time.",
+  "## Where value and cash sit\n**Value sits in the mining lease and environmental clearance, not in the crusher.** Rating commentary flags mining as highly capital-intensive [8], so capex is heavy and front-loaded while cash comes back only as dispatch happens. Working capital is short on the receivable side but heavy on stock and advance royalty; check the lease validity and any share pledge before anything else, because a rating report shows a case where the parent was an NPA and 100% shareholding was pledged to an operational creditor [9]. **So when a proposal lands, check lease tenure, clearance status and share pledge; if the lease is near renewal or shares are pledged, ask for the renewal order and a pledge release before sanction.**",
+  "## What has changed now\nPeer results are strong but they are metal-price led, not Udaipur-led. **Read this as a price cycle lifting large miners, not as proof that small Udaipur quarry units are earning; the local sources say nothing about this city's tonnage, so lean on first principles and peers.**",
+  "## Who to pursue and how to grow safely\n**Pursue permitted quarry operators and mineral processing units with clean royalty records, own haulage and a single end-use buyer under contract; avoid units with pledged promoter shares, parent NPA links or lease renewal pending.** Structure as a cash-flow loan against dispatch, with royalty payment proof as a condition. Take every month: royalty receipts, dispatch invoices, diesel bills and the mine's production return. **If royalty arrears appear, stop enhancement and ask for the mines department demand notice.**",
+  "## Early-warning signs\n- Monthly royalty receipts (monthly): two missed or part payments -> freeze limit and inspect the mine. - Dispatch invoices versus sanctioned volume (monthly): falling volume with flat costs -> ask for buyer contracts. - Diesel and explosives spend (monthly): spend rising faster than dispatch -> reprice the loan. - Lease and clearance status (quarterly): renewal or clearance pending -> hold new sanctions."
+ ],
+ "watch": [
+  [
+   "Monthly royalty receipts (monthly)",
+   "two missed or part payments -> freeze limit and inspect the mine"
+  ],
+  [
+   "Dispatch invoices versus sanctioned volume (monthly)",
+   "falling volume with flat costs -> ask for buyer contracts"
+  ],
+  [
+   "Diesel and explosives spend (monthly)",
+   "spend rising faster than dispatch -> reprice the loan"
+  ],
+  [
+   "Lease and clearance status (quarterly)",
+   "renewal or clearance pending -> hold new sanctions"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Local items are seminar coverage; peer profit rises are metal-price led, not Udaipur-specific.",
+ "articles": [
+  {
+   "title": "Smart Mining to Drive Safer and More Sustainable Mining Practices: Exp | Royal Harbinger",
+   "url": "https://www.royalharbinger.com/business/smart-mining-to-drive-safer-and-more-sustainable-mining-practices-experts-14728",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "स्मार्ट माइनिंग से सुरक्षित और टिकाऊ खनन को मिलेगा बढ़ावा - Udaipur Views",
+   "url": "https://www.udaipurviews.com/111106-2/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "उदयपुर में कल स्मार्ट माइनिंग पर जुटेंगे एक्सपर्ट्स: आधुनिक तकनीक, सुरक्षित खनन और पर्यावरण संरक्षण पर होगा मंथन, स्टूडेंट्स को मिलेगी स्कॉलरशिप - Udaipur News",
+   "url": "https://www.bhaskar.com/local/rajasthan/udaipur/news/udaipur-smart-mining-seminar-meai-technology-scholarship-event-139548508.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Inde : Hindustan Zinc dépasse les attentes au quatrième trimestre, porté par les cours des métaux et la production - efee85f90026c46824c20dcac1049b16.H8RYcXbZiIQYAnju74W8blMoPBtVNZMKQIhHtf5O-xQ",
+   "url": "https://www.zonebourse.com/actualite-bourse/inde-hindustan-zinc-depasse-les-attentes-au-quatrieme-trimestre-porte-par-les-cours-des-metaux-et-ce7f59dfd88cf22c#1",
+   "date": "2026-04-23",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ashapura Minechem surges after Q4 PAT climbs 31% QoQ to Rs 111 cr - Ashapura Minechem surges after Q4 PAT climbs 31% QoQ to Rs 111 cr",
+   "url": "https://www.business-standard.com/amp/markets/capital-market-news/ashapura-minechem-surges-after-q4-pat-climbs-31-qoq-to-rs-111-cr-126052900739_1.html#1",
+   "date": "2026-05-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ashapura minechem surges after q4 pat climbs 31 qoq to rs 111 cr",
+   "url": "https://capitalmarket.com/markets/news/hot-pursuit-news/ashapura-minechem-surges-after-q4-pat-climbs-31-qoq-to-rs-111-cr/1701458",
+   "date": "2026-05-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Indian miner Vedanta posts quarterly profit rise on surge in base metal prices",
+   "url": "https://www.thehindubusinessline.com/companies/indian-miner-vedanta-posts-quarterly-profit-rise-on-surge-in-base-metal-prices/article71635183.ece",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Mining is a highly capital- intensive business",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/850~Mining#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "June 30, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=136112#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The various financial metrics assessed by ICRA could be divided into four categories—profitability, leverage, coverage, and liqu...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/570~Mining%20Entities#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- Financial Risk Analysis: Under this, ICRA considers various accounting policies, debt servicing track record, cash flow positi...",
+   "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/4466/14/14_chapter%205.pdf#7#8#7",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Rajasthan None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,150 @@
+{
+ "key": "mh_mumbai|diamond_trading",
+ "state": "MH",
+ "city": "mh_mumbai",
+ "ind": "diamond_trading",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 32,
+ "nudged_by_news": false,
+ "verdict": "Avoid new diamond and jewellery trading exposure in Mumbai for now; lend only to proven, low-leverage, bank-funded jewellers with tight stock-and-receivable controls, and decline speculative or heavily leveraged traders.",
+ "title": "Mumbai diamond & jewellery trading: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Mumbai diamond or jewellery trader buys rough or polished stones and metal, holds them as inventory, and converts them to cash through cutting, setting and sale to retailers or exporters.** Cash sits in stock and in receivables from buyers; value sits in the spread between buy and sell plus making charges. Pricing power is thin for plain trading and better for branded or design-led jewellery. The working-capital cycle is the whole business: stock turns slowly, receivables run long, and a single price move in gold or diamonds can wipe out the margin. **So when a proposal lands, check the stock-turn and receivable days first; if stock is ageing or receivables are stretching, ask why before you look at the P&L.**",
+  "## What has changed now\n**The data pack calls this an AVOID at a score of 32, and the local signal is weak: Maharashtra electricity demand grew 6.0% Apr-to-date against India's 9.5%, 3.5 pp slower [D].** Against that, Maharashtra GST collections grew 8.6% Apr-to-date versus India's 6.1%, 2.5 pp faster [D] — so the state is collecting more tax even as power demand lags, which points to formalisation rather than broad demand. Nationally, bank credit is up 29.1% YoY against activity of 6.1%, a gap of 23.0 pp [D], and the repo is 5.5%, raised from 5.25% with a tightening stance [D]. **That combination means money is chasing this trade faster than it is growing, so leverage is the risk, not the opportunity.**",
+  "## Where the growth is\n**The local news is about infrastructure, not demand: construction has begun on India Jewellery Park Mumbai in Navi Mumbai, Phase 1 at 24.97 lakh sq. ft. with investment potential of ₹50,000 crore [1].** Separately, HRD Antwerp has opened an office in Mumbai, and gems and jewellery trade between India and Belgium reached approximately 3.5 billion dollars in 2025-26 [2]. Peer results show where the money is being made: Vaibhav Global reported gross margin up about 197 basis points to 65.5%, with lab-grown diamonds at 12% of retail revenue and retail volumes up about 2% on lower price-point items [5]; IGIL reported consolidated PAT of ₹185.8 crore, up 43% YoY [7]. **So pursue jewellers selling lower-ticket, design-led and lab-grown pieces, and the certification and grading service providers around them; avoid plain high-value stone traders whose margin depends on a price call.**",
+  "## How to grow safely\n**Structure every line as a stock-and-receivable-backed working-capital facility, not a term loan, and take the stock statement and receivable ageing every month.** Ask for the gold-metal-gold or consignment arrangement in writing; if the borrower cannot show where the stock physically sits, ask for the vault or bourse records. Take monthly GST returns and bank statements, and require a personal guarantee. **If average limit utilisation is running near the sanctioned limit, ask for the drawing-power calculation; a firm with nil utilisation of a ₹100 crore limit for twelve months to June 30, 2026 and a current ratio of 4.34x [11] is the profile you want, not the one drawing 100%.**",
+  "## Early-warning signs\n**Watch stock ageing, receivable days and limit utilisation together — any two moving the wrong way at once is your exit signal.** A trader whose top customers concentrate revenue is fragile: one rated bullion business had its top five customers at 33% and 99% of gold and silver segment revenues respectively in FY2025 [8]. Note that the rating reports here are undated or old (2024 and 2025) [8][9][10], so treat them as background, not current fact. **If a borrower's sales are flat while its bank limits are fully drawn, decline the enhancement and ask for a stock audit.**"
+ ],
+ "watch": [
+  [
+   "Quarterly GST returns",
+   "GST turnover falling while borrowings rise -> reduce limit and seek receivables detail"
+  ],
+  [
+   "Monthly receivable ageing",
+   "Top-five customer share above 50% -> require diversification plan or additional collateral"
+  ],
+  [
+   "Quarterly gold and diamond price movement",
+   "Sharp price fall with unsold stock -> revalue stock and top up margin"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local power demand lags India and credit growth far outruns activity, so leverage risk is rising.",
+ "articles": [
+  {
+   "title": "India Jewellery Park Mumbai Construction Begins in Navi Mumbai - India Jewellery Park Mumbai Construction Begins in Navi Mumbai",
+   "url": "https://svarmedia.com/news/india-jewellery-park-mumbai-construction-begins/#1",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "HRD Antwerp office in Mumbai to further strengthen diamond trade between two nations: Belgium PM",
+   "url": "https://newsonair.gov.in/hrd-antwerp-office-in-mumbai-to-further-strengthen-diamond-trade-between-two-nations-belgium-pm/",
+   "date": "2026-10-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "amr law News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/amr-law/news#1",
+   "date": "2026-10-05",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Thangamayil Jewellery banks on second-half recovery as customers defer gold purchases - CNBC TV18 - Thangamayil Jewellery banks on second-half recovery as customers defer gold purchases",
+   "url": "https://www.cnbctv18.com/market/earnings/thangamayil-jewellery-q1-results-banks-on-second-half-recovery-as-customers-defer-gold-purchases-19957666.htm#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Vaibhav Global Ltd (BOM:532156) (Q2 2027) Earnings Call Highlights: Margin Expansion and ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/vaibhav-global-ltd-bom532156-q2-2027-earnings-call-highlights-margin-expansion-and--4919704",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sky Gold and Diamonds (BOM:541967) Q2 2027 Earnings Call Transcript & Audio",
+   "url": "https://stockanalysis.com/quote/bom/541967/transcripts/725982-q2-26-27/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Q2 result impact: IGIL shares hit 10% upper circuit; PAT up 43% to ₹185 cr - Thursday, October 22, 2026 | 04:06 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/news/q2-result-impact-igil-shares-hit-10-upper-circuit-pat-up-43-to-185-cr-126102200363_1.html#1",
+   "date": "2026-10-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 06, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=136902#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 05, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=128654#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "December 24, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=131944#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Jewel One",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202610121050_Jewel_One.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 32 (national 20 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: electricity demand +6.0% Apr-to-date vs India +9.5% (3.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +29.1% YoY vs activity +6.1% (gap +23.0 pp). [RBI bank credit vs output, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
