@@ -1,0 +1,150 @@
+{
+ "key": "ap_kakinada|seafood_processing",
+ "state": "AP",
+ "city": "ap_kakinada",
+ "ind": "seafood_processing",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to integrated, well-capitalised Kakinada shrimp processors with diversified export markets; avoid thin-margin, single-buyer units and new farm-level exposure until feed and seed costs and West Asia disruption settle.",
+ "title": "Kakinada Seafood / Shrimp Processing & Export: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Kakinada shrimp processor buys raw shrimp from coastal farms, freezes and grades it, and ships to the US, Canada and other markets for dollars.** Cash turns on the harvest calendar, feed and seed costs at the farm gate, and the realisation per container abroad. The value sits in the cold chain and the buyer relationship, not the plant. **So when a proposal lands, check the buyer list and the share of the top buyer before anything else; if one buyer is above a third of sales, ask for the contract and the payment terms.**",
+  "## What has changed now\n**Local reporting says West Asia conflict has hit Kakinada aqua workers hard, with companies together employing more than 14,000 workers [1][2].** Separately, farmers threatened to halt harvest on June 30 over rising feed and seed prices [3]. **These are local news items from June 2026, so treat them as the current operating backdrop, not history.** The official data pack reads CAUTION at 60, with Andhra Pradesh GST collections at -0.2% Apr-to-date against India +6.1% [D] — a local stress signal. **So when a proposal lands, check whether the unit's own dispatches and receivables have moved with the state GST trend; if receivables are stretching while sales are flat, ask for the ageing and the buyer-wise collection.**",
+  "## Where the growth is\n**Peer results are the counterweight: Avanti Feeds grew consolidated revenue 19% year-over-year in Q2 FY26 on shrimp processing and export volumes [4], and Apex Frozen Foods lifted EBITDA margin to 12.7% from 7.1% on a 15% realisation increase and US demand [5][6].** CRISIL expects shrimp exports to cross Rs 50,000 crore this fiscal, up 13-15% on-year, with margins steady [9]; an earlier CRISIL note (May 2025, now dated) had volumes flat on US tariffs [8]. **Pursue processors with diversified destination markets and own cold storage; avoid units that are pure toll-processors for one foreign buyer.**",
+  "## How to grow safely\n**Structure against the working-capital cycle, not the plant.** Take monthly stock and receivables statements, a charge on receivables and a escrow on export proceeds. **Take every month: buyer-wise sales, receivable ageing, cold-storage stock, and the feed/seed cost sheet.** Where a rating report shows working capital utilisation near 96% with temporary overdraft [10], treat that as a warning on the limit, not a reason to add.",
+  "## Early-warning signs\n**Watch the farm gate first: a harvest halt or feed-price spike [3] reaches the processor within one cycle.** Watch the buyer mix — a single-buyer dependency, as flagged in the Sandhya Aqua rating [11], is the quiet killer. **If a unit's top buyer share rises while margins fall, ask for the contract and the realisation per kg.**"
+ ],
+ "watch": [
+  [
+   "Farm-gate feed and seed prices (monthly)",
+   "Sustained rise -> re-check processor margin and raw shrimp procurement cost"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "Top buyer above one-third of sales -> ask for contract and payment terms"
+  ],
+  [
+   "Export realisation per kg (monthly)",
+   "Falls while volumes flat -> ask for destination-wise sales and reprice risk"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local reports show West Asia conflict hitting Kakinada aqua workers and a June harvest halt over feed and seed costs.",
+ "articles": [
+  {
+   "title": "West Asia conflict leaves Kakinada’s aqua workers in distress",
+   "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Jun/29/west-asia-conflict-leaves-kakinadas-aqua-workers-in-distress#1",
+   "date": "2026-06-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "पश्चिम एशिया संघर्ष ने काकीनाडा के जल श्रमिकों को संकट में डाल दिया | West Asia conflict leaves Kakinada’s aqua workers in distress",
+   "url": "https://jantaserishta.com/amp/local/andhra-pradesh/west-asia-conflict-leaves-kakinadas-aqua-workers-in-distress-4773224",
+   "date": "2026-06-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Shrimp Farmers to Halt Harvest on June 30",
+   "url": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/shrimp-farmers-to-halt-harvest-on-june-30-1966731",
+   "date": "2026-06-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Avanti Feeds (512573) Q2 25/26 Summary | Quartr - Avanti Feeds (512573) Q2 25/26 earnings summary",
+   "url": "https://quartr.com/events/avanti-feeds-512573-q2-25-26_FR1WOMdO#1",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apex Frozen Foods Ltd (NSE:APEX) (Q1 2027) Earnings Call Highlig - 🚀 Enjoy a 7-Day Free Trial Thru Sep 27, 2026",
+   "url": "https://www.gurufocus.com/news/9044317/apex-frozen-foods-ltd-nseapex-q1-2027-earnings-call-highlights-profit-surges-138-on-strong-realizations-and-us-demand#1",
+   "date": "2026-08-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apex Frozen Foods Ltd (NSE:APEX) (Q1 2027) Earnings Call Highlights: Profit Surges 138% on ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/apex-frozen-foods-ltd-nse-010445998.html?fr=sycsrp_catchall#1",
+   "date": "2026-08-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shrimp Stocks Rally: Avanti Feeds, Apex Frozen Hit New Highs on Earnings and Export Boost - Shrimp Stocks Rally: Avanti Feeds, Apex Frozen Hit New Highs on Earnings and Export Boost",
+   "url": "https://www.angelone.in/news/stocks/shrimp-stocks-rally-avanti-feeds-apex-frozen-hit-new-highs-on-earnings-and-export-boost#1",
+   "date": "2026-04-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Shrimp export volume growth to be flattish this fiscal due to tariffs",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2025/05/shrimp-export-volume-growth-to-be-flattish-this-fiscal-due-to-tariffs.html",
+   "date": "2025-05-29",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shrimp exports to cross Rs 50,000 crore this fiscal, volume to improve",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2026/03/shrimp-exports-to-cross-rs-50000-crore-this-fiscal-volume-to-improve.html",
+   "date": "2026-03-08",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company's liquidity remains stretched but is supported by year- end balance of ₹59.57 crore compared to repayment of ₹8 cror...",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5de676ce-9e93-45b2-894a-d21aa198f72e.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sandhya Aqua Exports Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121245_Sandhya_Aqua_Exports_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 67 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: GST collections -0.2% Apr-to-date vs India +6.1% (6.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Andhra Pradesh: electricity demand +18.1% Apr-to-date vs India +9.5% (8.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +42.1% Apr-to-date in USD (Rs 37,131 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

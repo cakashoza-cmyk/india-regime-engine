@@ -1,0 +1,138 @@
+{
+ "key": "kl_alappuzha|seafood_processing",
+ "state": "KL",
+ "city": "kl_alappuzha",
+ "ind": "seafood_processing",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Alappuzha shrimp processing — back established processors with US/EU order books and cold-chain discipline; avoid single-buyer, thin-margin units and any proposal riding on the harbour upgrade alone.",
+ "title": "Alappuzha seafood / shrimp processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A shrimp processor buys raw shrimp from peeling sheds and landing centres, freezes it, and sells containers to US, EU and now non-US buyers — cash turns on the cold chain, not the plant.** Value sits in the freezer and in the buyer relationship; the plant is mostly blast freezers, IQF lines and cold storage, so capex is modest and repeatable. Pricing power is thin: the exporter is a price-taker against Ecuador and Vietnam, and margin comes from raw-material timing and realisation, not from brand. **So when a proposal lands, check the buyer list and the realisation per kg first; if one buyer is above half of sales, ask for the offtake contract and the last twelve months of shipping bills.**",
+  "## Where cash actually sits\n**Working capital is the whole business: raw shrimp is paid for in days, the container is paid for in weeks, and the freezer carries the gap.** Peer evidence shows how tight this is — one rated processor ran maximum working-capital utilisation at about 96% for the twelve months to June 30, 2025 and took a temporary overdraft from existing lenders [8]. **So size the drawing power on stock-and-debtor, not on turnover; if the customer asks for a limit above what the book supports, ask for the stock statement and the age of receivables.** Margins are moving the right way at the listed end: Apex Frozen Foods lifted EBITDA margin to 12.7% from 7.1% and PAT 138% year-on-year on a 15% rise in average realisation, with flat revenue [3][4].",
+  "## What has changed now\n**The rating view has flipped from flat to growth: CRISIL now expects India's shrimp exports to cross Rs 50,000 crore this fiscal, up 13-15% on-year after three years of stagnation, as exporters shift to markets other than the US [7].** That is a March 2026 rating report and the earlier May 2025 report had volumes flat on US tariffs [6] — treat the older one as history. Peer results are current and confirm demand: Avanti's Q2 FY26 gross income was up 18.75% year-on-year with strong shrimp processing and export volumes [2], and shrimp stocks rallied in April 2026 on easing US tariffs [5]. Locally, the only Alappuzha item is a political statement that Valiyazheekkal fishing harbour development will be completed on time, with Rs 16.67 crore of works done under the Nabard scheme [1]. **That is a landing-side convenience, not a demand signal — so do not let a harbour-linked proposal borrow against it; ask what the unit's own buyer book looks like.**",
+  "## Where to grow, and how to grow safely\n**Pursue established processors with a diversified buyer mix, own cold storage, and a peeling-shed supply chain they control; avoid traders who only aggregate and any unit whose sales depend on a single overseas importer.** The Sandhya Aqua rating shows the pattern to test: one promoter-group buyer took about 25% of that company's requirements, which is growth potential but also concentration [9]. Structure as cash credit against stock and receivables plus a term loan only for freezer capacity, with a monthly stock-and-debtor statement, a covenant capping single-buyer share, and a check that the temporary overdraft is not being rolled. **Take every month: stock statement, debtor ageing, shipping bills, and the realised price per kg — if realisation falls while volumes rise, ask why before renewing.**",
+  "## Early-warning signs\n**Watch the freezer, not the P&L: rising stock days with flat sales means the buyer has slowed and the raw material is ageing.** Watch buyer concentration and any shift of sales to a new, unrated importer. Watch drawing power utilisation sitting near the ceiling month after month, as at the rated peer [8]."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-debtor statement (monthly)",
+   "Stock days rise while sales are flat -> ask for buyer-wise sales register and hold renewal"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "Single buyer above half of sales -> require offtake contract or cap exposure"
+  ],
+  [
+   "Realisation per kg from shipping bills (monthly)",
+   "Realisation falls while volumes rise -> ask why before renewing limit"
+  ],
+  [
+   "Temporary overdraft usage (monthly)",
+   "Any fresh TOD from another lender -> treat as stress and review account"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Rating upgrade to 13-15% export growth and strong peer margins outweigh flat-volume history.",
+ "articles": [
+  {
+   "title": "വലിയഴീക്കല് ഫിഷിങ് ഹാര്ബറിന്റെ വികസനം സമയബന്ധിതമായി നടപ്പാക്കും- രമേശ് ചെന്നിത്തല",
+   "url": "https://www.madhyamam.com/kerala/local-news/alappuzha/valiyazheekkal-fishing-harbour-development-will-be-implemented-in-a-timely-manner-ramesh-chennithala-1567791",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Avanti Feeds (512573) Q2 25/26 Summary | Quartr - Avanti Feeds (512573) Q2 25/26 earnings summary",
+   "url": "https://quartr.com/events/avanti-feeds-512573-q2-25-26_FR1WOMdO#1",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apex Frozen Foods Ltd (NSE:APEX) (Q1 2027) Earnings Call Highlig - 🚀 Enjoy a 7-Day Free Trial Thru Sep 27, 2026",
+   "url": "https://www.gurufocus.com/news/9044317/apex-frozen-foods-ltd-nseapex-q1-2027-earnings-call-highlights-profit-surges-138-on-strong-realizations-and-us-demand#1",
+   "date": "2026-08-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apex Frozen Foods Ltd (NSE:APEX) (Q1 2027) Earnings Call Highlights: Profit Surges 138% on ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/apex-frozen-foods-ltd-nse-010445998.html?fr=sycsrp_catchall#1",
+   "date": "2026-08-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shrimp Stocks Rally: Avanti Feeds, Apex Frozen Hit New Highs on Earnings and Export Boost - Shrimp Stocks Rally: Avanti Feeds, Apex Frozen Hit New Highs on Earnings and Export Boost",
+   "url": "https://www.angelone.in/news/stocks/shrimp-stocks-rally-avanti-feeds-apex-frozen-hit-new-highs-on-earnings-and-export-boost#1",
+   "date": "2026-04-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shrimp export volume growth to be flattish this fiscal due to tariffs",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2025/05/shrimp-export-volume-growth-to-be-flattish-this-fiscal-due-to-tariffs.html",
+   "date": "2025-05-29",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shrimp exports to cross Rs 50,000 crore this fiscal, volume to improve",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2026/03/shrimp-exports-to-cross-rs-50000-crore-this-fiscal-volume-to-improve.html",
+   "date": "2026-03-08",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company's liquidity remains stretched but is supported by year- end balance of ₹59.57 crore compared to repayment of ₹8 cror...",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5de676ce-9e93-45b2-894a-d21aa198f72e.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sandhya Aqua Exports Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121245_Sandhya_Aqua_Exports_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 67 x 0.6 + Kerala 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Kerala: GST collections +10.3% Apr-to-date vs India +6.1% (4.2 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +42.1% Apr-to-date in USD (Rs 37,131 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

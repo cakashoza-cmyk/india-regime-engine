@@ -1,0 +1,130 @@
+{
+ "key": "tn_tuticorin|seafood_processing",
+ "state": "TN",
+ "city": "tn_tuticorin",
+ "ind": "seafood_processing",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 50,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Tuticorin shrimp processors with diversified buyer books and tight working-capital control; avoid single-buyer, thin-margin units until local signals improve.",
+ "title": "Tuticorin Seafood / Shrimp Processing & Export: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Tuticorin shrimp processor buys raw shrimp from trawler and farm-gate suppliers, freezes and grades it, and ships containers to the US, Canada and other markets.** Cash comes in on export realisation, not on processing; the plant is a conversion asset sitting on top of a long working-capital cycle. Value sits in buyer relationships and certification, not in the freezer. So when a proposal lands, check the buyer list and the certification status before you look at the plant. ## Where cash and value sit\n**Working capital is the whole business: inventory, receivables and packing credit run high, and utilisation is the tell.** One rated peer shows maximum fund-based working-capital utilisation at about 96% for the 12 months ended June 30, 2025, with a temporary overdraft taken from existing lenders [8]. That is the shape of a stressed unit. So when a proposal lands, pull 12-month drawing-power utilisation; if it is near the ceiling and a TOD has been availed, ask why and size the limit to the cycle, not to the peak. ## What has changed now\n**Local supply is in disarray while export realisations are strong — a split signal.** About 270 mechanised trawler boats stayed off the sea for a second day over unremunerative prices for fishmeal-grade kalasal catch [1]. That is a raw-material supply risk for processors. Against it, a peer reported Q1 FY27 EBITDA margin of 12.7% versus 7.1%, PAT up 138% on a 15% rise in average shrimp realisation and strong US sales [3][4]. A rating agency expects shrimp exports to cross Rs 50,000 crore this fiscal, up 13-15% on-year, aided by rupee depreciation [7]; an older 2025 note had flagged flat volumes on US tariffs [6]. Treat [6] as dated. The data pack reads Caution for this cluster [D]. ## Who to pursue, who to avoid\n**Pursue processors with two or more end-markets and a demonstrated ability to shift volumes away from the US.** A peer routes to the US through a promoter-group importer that needs to buy from others because the processor supplies only about 25% of its requirements — that is visible growth headroom [9]. Avoid units with a single buyer or single market, and units whose raw-material dependence is on the striking trawler fleet [1]. ## How to grow safely\n**Structure to the cycle: cash-flow-backed limits, monthly stock-and-debtor statements, and a covenant on drawing-power utilisation.** Take monthly stock and debtor ageing, monthly export realisation statements, and quarterly buyer-wise sales concentration. Ask for the buyer contract tenor and payment terms. ## Early-warning signs\n- Trawler strike extending beyond a few days (weekly) -> check raw-material cover and alternate sourcing; if cover is under 15 days, ask for a supply plan. - Buyer concentration above 50% in one market (quarterly) -> ask for diversification plan before enhancement. - Realisation per kg falling while volumes stay flat (monthly) -> re-price the limit and review margin."
+ ],
+ "watch": [
+  [
+   "Trawler strike duration and fish-landing volumes (weekly)",
+   "strike beyond one week -> ask for alternate sourcing plan and raw-material cover"
+  ],
+  [
+   "Buyer-wise sales concentration (quarterly)",
+   "single market above 50% -> require diversification plan before any enhancement"
+  ],
+  [
+   "Export realisation per kg and receivable days (monthly)",
+   "realisation falling with flat volumes -> re-price limit and review margin"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local trawler strike over low catch prices signals raw-material supply stress in Tuticorin.",
+ "articles": [
+  {
+   "title": "Trawler fishermen halt fishing over low fish prices",
+   "url": "https://newsit.live/news/tuticorin-trawlers-halt-fishing-over-low-prices-6ac78f0124fd218ec437252e",
+   "date": "2026-10-07",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Avanti Feeds (512573) Q2 25/26 Summary | Quartr - Avanti Feeds (512573) Q2 25/26 earnings summary",
+   "url": "https://quartr.com/events/avanti-feeds-512573-q2-25-26_FR1WOMdO#1",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Apex Frozen Foods Ltd (NSE:APEX) (Q1 2027) Earnings Call Highlig - 🚀 Enjoy a 7-Day Free Trial Thru Sep 27, 2026",
+   "url": "https://www.gurufocus.com/news/9044317/apex-frozen-foods-ltd-nseapex-q1-2027-earnings-call-highlights-profit-surges-138-on-strong-realizations-and-us-demand#1",
+   "date": "2026-08-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apex Frozen Foods Ltd (NSE:APEX) (Q1 2027) Earnings Call Highlights: Profit Surges 138% on ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/apex-frozen-foods-ltd-nse-010445998.html?fr=sycsrp_catchall#1",
+   "date": "2026-08-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shrimp Stocks Rally: Avanti Feeds, Apex Frozen Hit New Highs on Earnings and Export Boost - Shrimp Stocks Rally: Avanti Feeds, Apex Frozen Hit New Highs on Earnings and Export Boost",
+   "url": "https://www.angelone.in/news/stocks/shrimp-stocks-rally-avanti-feeds-apex-frozen-hit-new-highs-on-earnings-and-export-boost#1",
+   "date": "2026-04-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Shrimp export volume growth to be flattish this fiscal due to tariffs",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2025/05/shrimp-export-volume-growth-to-be-flattish-this-fiscal-due-to-tariffs.html",
+   "date": "2025-05-29",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shrimp exports to cross Rs 50,000 crore this fiscal, volume to improve",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2026/03/shrimp-exports-to-cross-rs-50000-crore-this-fiscal-volume-to-improve.html",
+   "date": "2026-03-08",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company's liquidity remains stretched but is supported by year- end balance of ₹59.57 crore compared to repayment of ₹8 cror...",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5de676ce-9e93-45b2-894a-d21aa198f72e.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sandhya Aqua Exports Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121245_Sandhya_Aqua_Exports_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 50 (national 67 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +42.1% Apr-to-date in USD (Rs 37,131 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

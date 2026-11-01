@@ -1,0 +1,146 @@
+{
+ "key": "ap_nellore|seafood_processing",
+ "state": "AP",
+ "city": "ap_nellore",
+ "ind": "seafood_processing",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Nellore shrimp processors with diversified buyer books and tight monthly stock-and-receivable control; avoid single-buyer, thin-margin units until AP demand and buyer data confirm.",
+ "title": "Nellore seafood / shrimp processing & export: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Nellore shrimp processor buys raw shrimp from district aqua farmers and coastal landing centres, freezes and grades it, and ships containers to the US, Canada and other buyers.** Cash leaves on day one for raw material and comes back only after the overseas buyer pays, so the unit is a working-capital machine, not a capex machine. Value sits in the cold chain, the peeling/grading line and the buyer relationship; the freezer plant is the asset, the shrimp stock is the risk. **So when a proposal lands, check the buyer list and the stock-and-debtor cycle first, not the building.**\n\n## What has changed now\n**The local news is mixed and thin on Nellore itself.** A UNIDO team visited to scope the seafood processing cluster as one with growth potential [2], which is a positive signal on the cluster's standing. But fishermen in the district reported buyers spreading word that exports had halted, forcing distress sales [3] — that is a raw-material pricing and trust problem at the farm gate. Peer results are strong: Avanti's Q2 FY26 gross income rose 18.75% year-on-year [4], and Apex's Q1 FY27 EBITDA margin expanded to 12.7% from 7.1% on a 15% rise in average realisation [5][6]. Rating views are older and softer: CRISIL saw flattish volumes for that fiscal [8], then in March 2026 projected exports crossing Rs 50,000 crore, up 13-15% [9]. **Treat [8] as stale and [9] as the current rating view.**\n\n## Where the growth is\n**Pursue processors with more than one export market and a named end-buyer.** The peer pattern — margin coming from realisation, not volume [5][6] — tells you the borrower who can price and choose buyers survives; the one who sells to a single importer does not. Sandhya Aqua's rating note shows a single related importer taking most of its US sales, with Canada rising to 7.2% of sales in FY24 from 3% in FY23 [11] — that is the diversification we want to see replicated. **Avoid units whose top buyer is a related party with no third-party sales evidence.**\n\n## How to grow safely\n**Structure against the cycle, not the balance sheet.** Fund stock and receivables, keep term loan small, and take monthly stock statements, debtor ageing by buyer and country, and the export realisation statement. - **Raw shrimp purchase price (weekly):** distress-sale pricing reported at the farm gate [3] persisting -> revalue stock and check the borrower is not buying to hold. - **AP GST collections (monthly, state data):** the state is running -0.2% Apr-to-date against India +6.1% [D] -> tighten new-to-bank entries until two quarters of own-buyer data are in hand."
+ ],
+ "watch": [
+  [
+   "Raw shrimp purchase price at farm gate (weekly)",
+   "Distress-sale pricing persists [3] -> revalue stock, stop stock-holding advances"
+  ],
+  [
+   "AP GST collections (monthly)",
+   "State stays negative vs India [D] -> slow new-to-bank until two quarters of own-buyer data"
+  ],
+  [
+   "Export realisation statement (monthly)",
+   "Realisation falls while volumes rise -> reprice limit and check buyer mix"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Nellore fishermen report distress sales on false export-halt talk [3]; AP GST lags India [D].",
+ "articles": [
+  {
+   "title": "tôm Nellore",
+   "url": "http://vasep.com.vn/tag?tag=t%c3%b4m+Nellore&utm_source=tag&utm_medium=tagcontent&utm_campaign=t%c3%b4m+Nellore",
+   "date": "2026-10-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "UNIDO Team In Nellore To Study Seafood Processing Cluster - Advertisement",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/unido-team-in-nellore-to-study-seafood-processing-cluster-1952112#1",
+   "date": "2026-04-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "West Asia war affects livelihood of fishermen in AP's Nellore district - Andhra Pradesh",
+   "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Mar/24/west-asia-war-affects-livelihood-of-fishermen-in-aps-nellore-district?utm_source=website&utm_medium=related-stories#1",
+   "date": "2026-03-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Avanti Feeds (512573) Q2 25/26 Summary | Quartr - Avanti Feeds (512573) Q2 25/26 earnings summary",
+   "url": "https://quartr.com/events/avanti-feeds-512573-q2-25-26_FR1WOMdO#1",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apex Frozen Foods Ltd (NSE:APEX) (Q1 2027) Earnings Call Highlig - 🚀 Enjoy a 7-Day Free Trial Thru Sep 27, 2026",
+   "url": "https://www.gurufocus.com/news/9044317/apex-frozen-foods-ltd-nseapex-q1-2027-earnings-call-highlights-profit-surges-138-on-strong-realizations-and-us-demand#1",
+   "date": "2026-08-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apex Frozen Foods Ltd (NSE:APEX) (Q1 2027) Earnings Call Highlights: Profit Surges 138% on ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/apex-frozen-foods-ltd-nse-010445998.html?fr=sycsrp_catchall#1",
+   "date": "2026-08-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shrimp Stocks Rally: Avanti Feeds, Apex Frozen Hit New Highs on Earnings and Export Boost - Shrimp Stocks Rally: Avanti Feeds, Apex Frozen Hit New Highs on Earnings and Export Boost",
+   "url": "https://www.angelone.in/news/stocks/shrimp-stocks-rally-avanti-feeds-apex-frozen-hit-new-highs-on-earnings-and-export-boost#1",
+   "date": "2026-04-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Shrimp export volume growth to be flattish this fiscal due to tariffs",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2025/05/shrimp-export-volume-growth-to-be-flattish-this-fiscal-due-to-tariffs.html",
+   "date": "2025-05-29",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shrimp exports to cross Rs 50,000 crore this fiscal, volume to improve",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2026/03/shrimp-exports-to-cross-rs-50000-crore-this-fiscal-volume-to-improve.html",
+   "date": "2026-03-08",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company's liquidity remains stretched but is supported by year- end balance of ₹59.57 crore compared to repayment of ₹8 cror...",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5de676ce-9e93-45b2-894a-d21aa198f72e.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sandhya Aqua Exports Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121245_Sandhya_Aqua_Exports_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 67 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: GST collections -0.2% Apr-to-date vs India +6.1% (6.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Andhra Pradesh: electricity demand +18.1% Apr-to-date vs India +9.5% (8.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +42.1% Apr-to-date in USD (Rs 37,131 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

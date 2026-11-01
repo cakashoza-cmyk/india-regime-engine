@@ -1,0 +1,150 @@
+{
+ "key": "dl_delhi|textile_trading",
+ "state": "DL",
+ "city": "dl_delhi",
+ "ind": "textile_trading",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 12,
+ "nudged_by_news": false,
+ "verdict": "Avoid new textile-trading exposure in Delhi; lend only to asset-backed, cash-and-carry traders with clean GST and no speculative yarn inventory.",
+ "title": "Delhi textile trading: a note to the credit manager",
+ "narrative": [
+  "## What this business actually is\n**A Delhi textile trader buys yarn or fabric, holds it briefly, and sells into garment units and wholesale markets; cash is made on turnover and timing, not on price.** Value sits in inventory and receivables, so the working-capital cycle is the whole credit story. ICRA's fabric methodology flags inventory holding plus receivables as the two drivers of working capital, with weaving fixed-capital and working-capital intensive and funding needs typically high [8][9]. **So when a proposal lands, check the inventory-turn and receivable-days first; if either is longer than the customer's own past year, ask why before touching the limit.**\n\n## What has changed now\n**Delhi is running behind the country: GST collections +2.7% Apr-to-date versus India +6.1%, and electricity demand +6.5% versus India +9.5% [D].** Both are local stress signals, and the data pack's own call is AVOID at score 12 [D]. Nationally, bank credit is +29.1% YoY against activity +6.1%, a +23.0 pp gap, with repo at 5.5% and a tightening stance [D] — money is chasing borrowers faster than trade is growing. **Local reporting says North India cotton yarn prices are stable but liquidity is tight in Delhi and Ludhiana, with weak demand and payment constraints [3]; treat stable prices with tight liquidity as a warning, not comfort.** A fire at a Mangolpuri garment factory [2] is a reminder that uninsured stock and premises risk sit inside this trade. Peer results are mixed and mostly not Delhi: KPR revenue +18.9% YoY with 25.7% EBITDA margin [5], Raymond Lifestyle income +5% YoY at 14.4% margin [7], Vishal Fabrics' export order story is from December 2025 and dated [6]. Vardhman's MD expects a 3-4% cotton gap for one to two years and notes New York futures moved from about $0.67-0.68 to about $0.80 [4] — that is the US market, in USD per pound. **Sources say little about Delhi specifically, so lean on first principles and these peers.**\n\n## Where to grow\n**Pursue traders who sell against confirmed garment-unit orders, carry fast-moving fabric, and show GST turnover matching bank credits.** Prefer borrowers with owned or leased godown security and a second-generation trade record. **Avoid traders holding speculative yarn stock, those with receivables beyond collect-from-customer days, and anyone whose sales are concentrated in one buyer.**\n\n## How to grow safely\n**Structure as cash credit against stock and receivables with a 25% margin, monthly stock statements, and a drawing power recalculated each month.** Take GST returns monthly, bank statements monthly, and stock-and-receivable ageing every quarter. **If drawing power utilisation stays above 90% for two months, cut the limit and ask for receivables ageing.**\n\n## Early-warning signs\n- **GST turnover falling below bank credits for two quarters (quarterly) -> freeze enhancement and inspect godown.**\n- **Receivable days stretching beyond the customer's own prior year (monthly) -> demand ageing and stop fresh bills discounting.**\n- **Inventory ageing past collect-from-customer days (monthly) -> revalue stock and reduce drawing power.**\n- **Cheque returns or delayed interest (monthly) -> move to secured, fully drawn term loan only.**"
+ ],
+ "watch": [
+  [
+   "GST returns vs bank credits (monthly)",
+   "GST turnover below credits for two quarters -> freeze limit enhancement and inspect stock"
+  ],
+  [
+   "Stock statement and drawing power (monthly)",
+   "Utilisation above 90% for two months -> cut limit and demand receivables ageing"
+  ],
+  [
+   "Receivable ageing (quarterly)",
+   "Days beyond customer's prior year -> stop bill discounting and seek collection plan"
+  ],
+  [
+   "Cheque returns and interest servicing (monthly)",
+   "Any return or delay -> convert to secured term loan, no fresh cash credit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Delhi GST and power demand lag India; yarn liquidity tight in Delhi trade.",
+ "articles": [
+  {
+   "title": "BTTF elects Chairman and Co-Chairman at 12th Board Meeting - The Textile Magazine",
+   "url": "https://www.indiantextilemagazine.in/bttf-elects-chairman-and-co-chairman-at-12th-board-meeting/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": false
+  },
+  {
+   "title": "दिल्ली के मंगोलपुरी की कपड़ा फैक्ट्री में लगी भीषण आग, छह लोगों को अचेत हालत में बचाया गया",
+   "url": "https://www.livehindustan.com/ncr/major-fire-breaks-out-at-a-garment-factory-in-mangolpuri-area-of-delhi-201793386151312.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "North India's cotton yarn market stable, liquidity remains tight | Fibre2Fashion",
+   "url": "https://www.linkedin.com/posts/fibre2fashion_north-indias-cotton-yarn-market-stable-activity-7520448812314951682-r-Bk",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Vardhman Textiles (BOM:502986) Q1 2027 Earnings Call Transcript & Audio - Vardhman Textiles Limited (BOM:502986)",
+   "url": "https://stockanalysis.com/quote/bom/502986/transcripts/655751-q1-26-27/#1",
+   "date": "2026-07-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Buy K P R Mill; target of Rs 1289: Prabhudas Lilladher",
+   "url": "https://in.tradingview.com/news/moneycontrol:63691d251094b:0-buy-k-p-r-mill-target-of-rs-1289-prabhudas-lilladher/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Vishal Fabrics Surges 9% on Rs 100 Crore Export Order and Robust Q2 FY26 Results - www.lokmattimes.com - Vishal Fabrics Surges 9% on Rs 100 Crore Export Order and Robust Q2 FY26 Results",
+   "url": "https://www.lokmattimes.com/business/vishal-fabrics-surges-9-on-rs-100-crore-export-order-and-robust-q2-fy26-results/#1",
+   "date": "2025-12-01",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "RAYMOND LIFESTYLE LTD. : Latest Quarterly Results Analysis - ICICI Direct - Skip to main content",
+   "url": "https://icicidirect.com/research/equity/rapid-results/raymond-lifestyle-ltd#1",
+   "date": "2026-01-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "|Reported profit after tax (PAT)|Rs crore|3.05|1.20|",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Balkrishna%20Textile%20Private%20Limited-RU-21-03-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 12 (national 20 x 0.6 + Delhi 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Delhi: GST collections +2.7% Apr-to-date vs India +6.1% (3.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Delhi: electricity demand +6.5% Apr-to-date vs India +9.5% (3.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +29.1% YoY vs activity +6.1% (gap +23.0 pp). [RBI bank credit vs output, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

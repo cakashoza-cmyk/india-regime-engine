@@ -1,0 +1,154 @@
+{
+ "key": "gj_surat|textile_trading",
+ "state": "GJ",
+ "city": "gj_surat",
+ "ind": "textile_trading",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 42,
+ "nudged_by_news": false,
+ "verdict": "AVOID new textile-trading exposure in Surat until the November 1 labour stir resolves and unit-level cash discipline is proven; lend only to established traders with clean stock statements and no wage arrears.",
+ "title": "Surat textile trading: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nSurat is the hub of the synthetic textiles industry, and trading here means buying grey and finished fabric from power-loom and embroidery units and moving it to garment makers and exporters [2]. Cash turns on stock and receivables, not on machines: fabric-making working capital is driven by inventory holding and receivables [8], and the weaving side is fixed- as well as working-capital intensive [9]. **So when a proposal lands, check the stock-and-receivables cycle first; if the buyer asks for a limit above what his own turnover supports, ask for the last twelve months of stock statements and debtor ageing.**\n\n## What has broken now\nLabour is the live risk, not demand. Embroidery workers across Surat units are threatening a protest march on November 1 over working hours, overtime wages and weekly offs, after an August 16 demonstration in Amroli turned violent and spread across the city [2]. Workers were fired for demanding a weekly day off, and shifts run 12 hours with three days off a year at most [1]. **So when a proposal lands, check whether the unit has wage arrears or pending overtime dues; if yes, ask for the labour settlement before sanctioning.** The November stir threatens sales in the Diwali pickup [2]. Note that source [3] on demonetisation is old and not usable for today's call.\n\n## Where the growth is\nGujarat GST collections rose 11.9% Apr-to-date against India's 6.1% [D], a genuine local tailwind. Peer results are mixed but show margin room: KPR revenue grew 18.9% YoY with EBITDA margin of 25.7% [5], and Raymond Lifestyle posted 14.4% EBITDA margin in Q3FY26 [7]. **Pursue established Surat traders with diversified buyer bases and export order books; avoid pure job-work intermediaries and units with a single buyer.** Cotton prices are expected to stay reasonably firm on a 3%-4% gap for one to two years [4], which supports fabric realisations.\n\n## How to grow safely\nStructure limits against stock and receivables, not against turnover. **Take stock statements and debtor ageing every month, and a wage-compliance declaration every quarter.** Keep tenors short; the repo is 5.5% and the stance is tightening [D], so pricing must reflect that. **If a borrower cannot produce monthly stock statements, decline.**\n\n## Early-warning signs\n- Weekly: wage-payment status -> any delay, freeze fresh limits.\n- Monthly: stock statement vs limit utilisation -> over-utilisation beyond agreed margin, ask for explanation.\n- Monthly: debtor ageing -> any single buyer above 30% of receivables, seek diversification.\n- Quarterly: GST filings vs sales declared -> mismatch, reassess."
+ ],
+ "watch": [
+  [
+   "Weekly (wage and overtime payment status)",
+   "Any wage arrears or overtime default -> stop fresh disbursement and seek labour settlement proof"
+  ],
+  [
+   "Monthly (stock statement vs drawing power)",
+   "Utilisation above drawing power -> demand stock reconciliation before next limit"
+  ],
+  [
+   "Monthly (debtor ageing)",
+   "Single buyer above 30% of receivables -> ask for buyer-wise sales and diversification plan"
+  ],
+  [
+   "Quarterly (GST returns vs declared sales)",
+   "Mismatch above tolerance -> reassess limit and seek explanation"
+  ],
+  [
+   "Event-based (labour stir news)",
+   "Fresh protest or FIR at borrower unit -> suspend new limits until operations resume"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "November 1 labour stir threatens Diwali sales; August unrest already disrupted Surat units.",
+ "articles": [
+  {
+   "title": "Migrant Workers in Surat Fight for Rest and Fair Wages",
+   "url": "https://frontline.thehindu.com/the-nation/surat-embroidery-workers-labour-rights/article71644077.ece",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "After August unrest, Surat textile units brace for fresh wave of stir",
+   "url": "https://indianexpress.com/article/cities/ahmedabad/after-august-unrest-surat-textile-units-brace-for-fresh-wave-of-stir-10942762/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Surat textile industry still suffers impact of demonitisation - Wednesday, October 21, 2026 | 10:59 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/multimedia/video-gallery/companies/surat-textile-industry-still-suffers-impact-of-demonitisation-55217.htm#1",
+   "date": "2026-10-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Vardhman Textiles (BOM:502986) Q1 2027 Earnings Call Transcript & Audio - Vardhman Textiles Limited (BOM:502986)",
+   "url": "https://stockanalysis.com/quote/bom/502986/transcripts/655751-q1-26-27/#1",
+   "date": "2026-07-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Buy K P R Mill; target of Rs 1289: Prabhudas Lilladher",
+   "url": "https://in.tradingview.com/news/moneycontrol:63691d251094b:0-buy-k-p-r-mill-target-of-rs-1289-prabhudas-lilladher/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Vishal Fabrics Surges 9% on Rs 100 Crore Export Order and Robust Q2 FY26 Results - www.lokmattimes.com - Vishal Fabrics Surges 9% on Rs 100 Crore Export Order and Robust Q2 FY26 Results",
+   "url": "https://www.lokmattimes.com/business/vishal-fabrics-surges-9-on-rs-100-crore-export-order-and-robust-q2-fy26-results/#1",
+   "date": "2025-12-01",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "RAYMOND LIFESTYLE LTD. : Latest Quarterly Results Analysis - ICICI Direct - Skip to main content",
+   "url": "https://icicidirect.com/research/equity/rapid-results/raymond-lifestyle-ltd#1",
+   "date": "2026-01-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "|Reported profit after tax (PAT)|Rs crore|3.05|1.20|",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Balkrishna%20Textile%20Private%20Limited-RU-21-03-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 42 (national 20 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: Bank credit +29.1% YoY vs activity +6.1% (gap +23.0 pp). [RBI bank credit vs output, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Gujarat: electricity demand +11.0% Apr-to-date vs India +9.5% (1.5 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
