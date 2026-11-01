@@ -90,6 +90,12 @@
 "score": 47,
 "at": "2026-11-01 23:55 IST"
 },
+"AP|ap_visakhapatnam|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 36,
+"at": "2026-11-02 00:25 IST"
+},
 "AP|ap_visakhapatnam|refining": {
 "call": "avoid",
 "base": "avoid",
@@ -276,6 +282,12 @@
 "score": 27,
 "at": "2026-11-01 23:52 IST"
 },
+"DN|dn_daman|plastics": {
+"call": "caution",
+"base": "ok",
+"score": 98,
+"at": "2026-11-02 00:32 IST"
+},
 "DN|dn_silvassa|electrical_eq": {
 "call": "ok",
 "base": "ok",
@@ -287,6 +299,12 @@
 "base": "avoid",
 "score": 0,
 "at": "2026-11-01 23:52 IST"
+},
+"DN|dn_silvassa|plastics": {
+"call": "ok",
+"base": "ok",
+"score": 98,
+"at": "2026-11-02 00:32 IST"
 },
 "GA|ga_panaji|pharma": {
 "call": "avoid",
@@ -822,6 +840,12 @@
 "score": 27,
 "at": "2026-11-01 23:55 IST"
 },
+"JK|jk_kathua|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 16,
+"at": "2026-11-02 00:25 IST"
+},
 "JK|jk_kathua|steel_rerolling": {
 "call": "avoid",
 "base": "avoid",
@@ -833,6 +857,12 @@
 "base": "avoid",
 "score": 16,
 "at": "2026-11-01 23:55 IST"
+},
+"JK|jk_samba|plastics": {
+"call": "caution",
+"base": "caution",
+"score": 59,
+"at": "2026-11-02 00:33 IST"
 },
 "JK|jk_srinagar|handicrafts": {
 "call": "avoid",
@@ -1278,6 +1308,12 @@
 "score": 31,
 "at": "2026-11-01 23:53 IST"
 },
+"MP|mp_indore|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 26,
+"at": "2026-11-02 00:31 IST"
+},
 "MP|mp_jabalpur|defence_aerospace": {
 "call": "ok",
 "base": "ok",
@@ -1295,6 +1331,12 @@
 "base": "caution",
 "score": 58,
 "at": "2026-11-01 23:54 IST"
+},
+"MP|mp_mandideep|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 26,
+"at": "2026-11-02 00:32 IST"
 },
 "MP|mp_pithampur|auto_components": {
 "call": "caution",
@@ -1505,6 +1547,12 @@
 "base": "avoid",
 "score": 0,
 "at": "2026-11-01 23:52 IST"
+},
+"RJ|rj_bhilwara|mmf_textiles": {
+"call": "caution",
+"base": "caution",
+"score": 50,
+"at": "2026-11-02 00:24 IST"
 },
 "RJ|rj_bhilwara|textile_processing": {
 "call": "caution",
