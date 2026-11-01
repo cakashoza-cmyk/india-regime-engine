@@ -137,6 +137,9 @@ async function feedback(req, env, url, out) {
     const id = `${Date.now()}-${crypto.randomUUID().slice(0, 8)}`;
     const rec = { id, ts_ist: istStr(istNow()), state: b.state, city: b.city, industry: b.industry, ai_stance: ai, ai_score: sc, rating, user_view: view, employee_id: emp, comment };
     await env.RL.put(`fb:rec:${id}`, JSON.stringify(rec)); await env.RL.put(rl, "1", { expirationTtl: 2 * 86400 });
+    const fc = (await env.RL.get("fbc", "json")) || {}, pk = `${b.state}|${b.city}|${b.industry}`;
+    fc[pk] = fc[pk] || { n: 0, agree: 0 }; fc[pk].n++; if (view === ai) fc[pk].agree++;
+    await env.RL.put("fbc", JSON.stringify(fc));
     return out(200, { ok: true, id });
   }
   const key = url.searchParams.get("key") || "";
@@ -163,6 +166,9 @@ export default {
     const url = new URL(req.url);
     if (req.method === "GET" && url.pathname === "/index") {
       return new Response((await env.RL.get("idx")) || '{"notes":{}}', { headers: { ...cors, "Content-Type": "application/json", "Cache-Control": "max-age=15" } });
+    }
+    if (req.method === "GET" && url.pathname === "/fbcounts") {  // counts only: no IDs, no comments
+      return new Response((await env.RL.get("fbc")) || "{}", { headers: { ...cors, "Content-Type": "application/json", "Cache-Control": "max-age=300" } });
     }
     if (req.method === "GET" && url.pathname === "/note") {
       const s = url.searchParams, state = s.get("state") || "", city = s.get("city") || "", ind = s.get("ind") || "";

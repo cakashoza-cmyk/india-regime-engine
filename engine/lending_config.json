@@ -3,14 +3,15 @@
   "calibration_stale_days": 180,
   "weights": {
     "_last_calibrated": "2026-11-01",
-    "_note": "Initial expert weights, not back-tested. Output momentum and export demand carry most weight; credit-vs-output flags leverage build-up; macro overlays apply only to sensitive sectors.",
-    "iip_yoy": 1.0,
-    "iip_fytd": 1.0,
+    "_note": "Output growth demoted to 0.5 each (2 Nov 2026 audit): activity is not credit quality. Bank GNPA trend (RBI FSR) carries 1.0. Not back-tested on a long history: see backtest/sector_backtest.md.",
+    "iip_yoy": 0.5,
+    "iip_fytd": 0.5,
     "export_fytd_usd": 1.0,
     "credit_vs_output": 0.75,
     "energy_overlay": 1.0,
     "rate_overlay": 1.0,
-    "activity_proxy": 0.75
+    "activity_proxy": 0.75,
+    "gnpa_trend": 1.0
   },
   "thresholds": {
     "_last_calibrated": "2026-11-01",
@@ -845,7 +846,7 @@
       "cluster": "Western UP, Kolhapur-Sangli (MH), North Karnataka",
       "south_gujarat": false,
       "rbi_row": "2.2.1",
-      "iip_nic": "10",
+      "iip_nic": null,
       "export_row": null,
       "commodities": [],
       "energy": "low",
@@ -856,7 +857,9 @@
         "Use internal MIS for GNPA/SMA history of the segment before sanction."
       ],
       "note": "Output proxy IIP NIC 10 (all food).",
-      "price_controlled": "Cane price (FRP/SAP) and sugar MSP are administered: credit growth tracks cane-arrears and inventory cycles, so the credit-vs-output gap is not used."
+      "price_controlled": "Cane price (FRP/SAP) and sugar MSP are administered: credit growth tracks cane-arrears and inventory cycles, so the credit-vs-output gap is not used.",
+      "series_misfit": "IIP NIC 10 and RBI FSR GNPA 'food' cover all food; cane price (FRP/SAP), sugar MSP, ethanol pricing and cane arrears are not modelled.",
+      "iip_nic_unfit": "10"
     },
     {
       "id": "edible_oil",

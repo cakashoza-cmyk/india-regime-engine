@@ -24,7 +24,7 @@ how to grow safely (structure, covenants, what to take every month), and early-w
 HARD RULES: (1) Use ONLY numbers that appear verbatim in the SOURCES or DATA PACK, and cite each with [n] (source number). Never compute, convert or estimate.
 (2) Where a needed figure is missing, write 'collect from customer'. (3) Separate local news from peer results from rating reports, and say when a source is old.
 (4) No generic filler; banned: monitor closely, headwinds, exercise caution, going forward, challenging environment, robust, navigate, landscape.
-(5) If sources say little about this city, say so plainly and lean on first principles plus peers. (6) Keep the note to 380-480 words, 4-5 headers. (7) Cite the official data pack as [D]. (8) Prefer Indian sources; if you use a foreign price, say which market it is and keep its unit. (9) Decide news_direction first. FINAL CALL = the data call, except OK becomes Caution when news_direction is Worse; the verdict must state the FINAL CALL, never a higher one; do not write the words 'FINAL CALL' and do not explain score bands or thresholds to the reader. Stay balanced: name who to pursue and who to avoid.
+(5) If sources say little about this city, say so plainly and lean on first principles plus peers. (6) Keep the note to 380-480 words, 4-5 headers. (7) Cite the official data pack as [D]. (8) Prefer Indian sources; if you use a foreign price, say which market it is and keep its unit. (9) Decide news_direction first. FINAL CALL = the data call, except OK becomes Caution when news_direction is Worse; the verdict must state the FINAL CALL, never a higher one; do not write the words 'FINAL CALL' and do not explain score bands or thresholds to the reader. Stay balanced: name who to pursue and who to avoid. (10) PEERS: use only listed peers that make the same product or sit in the same cluster; if a source company makes a different product (e.g. yarn maker for a weaving cluster), say 'not a like-for-like peer' or leave it out. (11) Any source marked OLD (over 12 months) must be called out as old in the sentence that uses it and must not drive the verdict. (12) The verdict must match the evidence you cite: do not give a supportive verdict while citing distress, or a negative one while citing healthy peers, without saying why.
 Return JSON: {"verdict":"one line credit-head call","title":"<city> <industry>: a note to the credit manager",
 "narrative":["paragraph strings; headers start with '## ' ; bullets start with '- '"],
 "watch":[["monitorable (frequency)","trigger -> action"] x 3-5],"news_direction":"Worse|In line|Better","news_why":"<=20 words","sources_used":[n]}"""
@@ -78,7 +78,8 @@ def industry_cache(ind, short):
         if (NOW - datetime.fromisoformat(c["fetched_at"])).days <= 30:
             return c["items"], False
     items = []
-    for kind, q in (("peer", f"{short} listed companies India latest quarter results volume margin demand"),
+    prod = ind.get("focus") or short
+    for kind, q in (("peer", f"{prod} listed companies India same product latest quarter results volume margin"),
                     ("rating", f"ICRA CARE CRISIL rating rationale {short} India working capital")):
         for r in search(q, 6)[:4]:
             if r.get("url"):
@@ -128,6 +129,34 @@ def strip_bad(note, bad):
     note["narrative"] = out
     note["watch"] = [w for w in note.get("watch", []) if not pat.search(" ".join(w).replace(",", ""))]
     return note
+
+
+OLD_DAYS = 365
+_BAND_WORDS = {"ok": ("ok to lend", "lend", "pursue"), "caution": ("caution", "selective"), "avoid": ("avoid", "do not lend", "exit")}
+
+
+def is_old(d):
+    try:
+        return (NOW.date() - datetime.fromisoformat(str(d)[:10]).date()).days > OLD_DAYS
+    except Exception:  # noqa: BLE001
+        return False
+
+
+def parse_ok(note):
+    return isinstance(note, dict) and bool(note.get("verdict")) and isinstance(note.get("narrative"), list) and len(note["narrative"]) >= 3
+
+
+def verdict_problems(note, call):
+    """Guardrail: the verdict must state the final call and never a softer one."""
+    v = (note.get("verdict") or "").lower()
+    probs = []
+    if call and not any(w in v for w in _BAND_WORDS.get(call, ())):
+        probs.append(f"verdict does not state the final call ({call})")
+    if call == "avoid" and v.startswith(("ok", "lend")):
+        probs.append("verdict is softer than Avoid")
+    if note.get("news_direction") == "Worse" and call == "ok":
+        probs.append("news Worse but call OK")
+    return probs
 
 
 def build(state, city_id, ind_id):
@@ -181,12 +210,14 @@ def build(state, city_id, ind_id):
     cached, refreshed = industry_cache(ind, short)
     for it in cached:
         docs.append({**it, "date": it["date"] or "date unknown", "via": "cache", "text": it["snip"]})
-    srcs = "\n\n".join(f"[{i+1}] ({d['kind']}; {d['date']}) {d['title']} {d['url']}\n{d['text']}" for i, d in enumerate(docs)) or "(no sources fetched)"
+    for d in docs:
+        d["old"] = is_old(d.get("date"))
+    srcs = "\n\n".join(f"[{i+1}] ({d['kind']}; {d['date']}{'; OLD >12 months' if d['old'] else ''}) {d['title']} {d['url']}\n{d['text']}" for i, d in enumerate(docs)) or "(no sources fetched)"
     corpus_nums = set(nums(" ".join(d["text"] + " " + d["title"] for d in docs) + " " + " ".join(pack)))
     user = (f"CITY: {c}, {stname}\nINDUSTRY: {ind['name']}\nTODAY: {NOW:%Y-%m-%d}\n\nDATA PACK (official, verified):\n" + "\n".join("- " + x for x in pack) +
             f"\n\nSOURCES:\n{srcs}")
     note, probs, bad, tries = {}, [], [], 0
-    for _ in range(1):
+    for _ in range(2):  # one retry only when the reply is unparseable or empty
         try:
             _take("chat")
         except Cap:
@@ -194,17 +225,25 @@ def build(state, city_id, ind_id):
         tries += 1
         note = sa.chat_json(SYSTEM, user, max_tokens=2000) if True else sa.chat_json(SYSTEM, user if not probs else user + "\n\nYOUR PREVIOUS NOTE WAS REJECTED: " + "; ".join(probs) +
                             ". Remove or replace every listed number with one that appears verbatim in a source, or write 'collect from customer'.")
+        if not parse_ok(note):
+            probs, bad, note = ["unparseable or empty JSON"], [], {}
+            continue
         probs, bad = number_problems(note, corpus_nums)
-        if not probs:
-            break
+        break
     stripped = False
     if bad:
         note = strip_bad(note, bad)
         stripped = True
         probs, bad = number_problems(note, corpus_nums)
     call = base
+    if ind.get("series_misfit") or (radar["sectors"].get(ind["parent"]) or {}).get("misfit"):
+        call, base, score = None, None, None  # official series does not fit: stays Proxy, not assessed
     if base == "ok" and note.get("news_direction") == "Worse":
         call = "caution"
+    vprobs = verdict_problems(note, call) if note else []
+    if vprobs and call:
+        note["verdict"] = {"ok": "OK to lend", "caution": "Caution", "avoid": "Avoid"}[call] + " (data call): " + (note.get("verdict") or "")
+    probs = probs + vprobs
     used = set(note.get("sources_used") or [])
     return {"key": f"{city_id}|{ind_id}", "state": state, "city": city_id, "ind": ind_id, "version": "v6",
             "generated_at": NOW.strftime("%Y-%m-%d %H:%M IST"), "call": call, "base_call": base, "score": score,
@@ -212,7 +251,7 @@ def build(state, city_id, ind_id):
             "narrative": [x for x in note.get("narrative", []) if x.strip() not in ("##", "## ", "-", "")], "watch": note.get("watch", []),
             "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
             "news_direction": note.get("news_direction"), "news_why": note.get("news_why"),
-            "articles": [{"title": d["title"] or d["url"], "url": d["url"], "date": d["date"], "kind": d["kind"], "via": d["via"], "used": (i + 1) in used}
+            "articles": [{"title": d["title"] or d["url"], "url": d["url"], "date": d["date"], "kind": d["kind"], "via": d["via"], "old": d.get("old", False), "used": (i + 1) in used}
                          for i, d in enumerate(docs)],
             "pack": pack, "trace": {"pass": not probs, "problems": probs, "synthesis_tries": tries, "sentences_stripped": stripped},
             "calls": dict(CALLS), "industry_cache_refreshed": refreshed, "version_engine": "v8-lean", "tier": "news_llm (unverified); numbers traced to fetched sources"}

@@ -119,6 +119,20 @@ def score_sector(sector, data, macro, cfg, today):
         gap = round(cr["yoy_pct"] - arec[act["field"]], 1)
         rec = {**cr, "check_ok": cr["check_ok"] and arec.get("check_ok", True), "_period": min(cr["_period"], arec["_period"])}
         add("credit_vs_output", gap, "pp", "rbi_sibc", rec, f"bank credit {cr['yoy_pct']:+.1f}% YoY vs activity {arec[act['field']]:+.1f}% (gap {gap:+.1f} pp)")
+    gp = sector.get("_gnpa_points") or []
+    if len(gp) >= 2:
+        last = gp[-1]
+        prev = next((p for p in gp[:-1] if p["period"][:3] == last["period"][:3]), gp[0])  # same half-year a year earlier
+        mon = {"Mar": "03-31", "Sep": "09-30"}.get(last["period"][:3], "03-31")
+        iso = f"20{last['period'][-2:]}-{mon}"
+        d = round(last["value"] - prev["value"], 1)
+        fresh = (today - date.fromisoformat(iso)).days <= 400
+        sc = (-1 if (d >= 0.3 or last["value"] >= 5.0) else (1 if (d <= -0.3 and last["value"] < 3.0) else 0)) if fresh else None
+        drivers["gnpa_trend"] = {"score": sc, "value": d, "unit": "pp", "as_of": iso, "source_url": last.get("source_url"), "dataset": "fsr_gnpa",
+                                 "status": "verified" if fresh else "stale", "reason": None if fresh else "stale: FSR edition older than 13 months",
+                                 "text": f"bank GNPA ratio ({sector.get('_gnpa_cat')}) {last['value']:.1f}% in {last['period']} vs {prev['value']:.1f}% in {prev['period']} ({d:+.1f} pp), RBI FSR"}
+        if not fresh:
+            excluded.append("gnpa_trend: stale")
     cv = drivers.get("credit_vs_output")
     if cv and cv["score"] is not None and cr and cr.get("yoy_pct") is not None and cr["yoy_pct"] < 0:
         cv["score"] = -1
@@ -230,7 +244,6 @@ def run(today=None, fetch=True):
             comms[k] = {**c, **r, "status": "unverified", "source_tier": "market_data", "scored": False}
     else:
         comms = (json.loads(OUT.read_text()).get("commodities") if OUT.exists() else {}) or {}
-    sectors = [score_sector(s, data, macro, cfg, today) for s in cfg["sectors"]]
     # RBI FSR GNPA (display only), parsed once per edition and cached
     fsr_cache = state.setdefault("fsr_gnpa", {})
     for rep in cfg.get("fsr_reports", []):
@@ -240,6 +253,11 @@ def run(today=None, fetch=True):
             if r:
                 fsr_cache[rep["url"]] = {**r, "edition": rep["edition"]}
     gnpa_series = sorted([{**v, "url": u} for u, v in fsr_cache.items()], key=lambda x: (int(x["period"][-2:]), x["period"][:3] == "Sep"))
+    for s0 in cfg["sectors"]:
+        g0 = geo.gnpa_for(cfg, gnpa_series, s0["id"])
+        if not s0.get("series_misfit"):
+            s0["_gnpa_points"], s0["_gnpa_cat"] = g0.get("points") or [], g0.get("fsr_category")
+    sectors = [score_sector(s, data, macro, cfg, today) for s in cfg["sectors"]]
     # monthly credit-growth history (accumulates one point per SIBC release; never back-filled)
     hist = state.setdefault("credit_history", {})
     if data.get("rbi_sibc") and meta.get("rbi_sibc", {}).get("period"):

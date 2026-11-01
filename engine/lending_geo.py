@@ -62,7 +62,7 @@ def local_score(si, g):
     return round(50 + 50 * sum(p[1] for p in parts) / len(parts)), parts
 
 
-SRC = {"iip_yoy": "IIP, MoSPI", "iip_fytd": "IIP, MoSPI", "export_fytd_usd": "Dept of Commerce", "credit_vs_output": "RBI bank credit vs output",
+SRC = {"gnpa_trend": "RBI FSR", "iip_yoy": "IIP, MoSPI", "iip_fytd": "IIP, MoSPI", "export_fytd_usd": "Dept of Commerce", "credit_vs_output": "RBI bank credit vs output",
        "activity_proxy": "official activity proxy", "energy_overlay": "Brent, macro engine", "rate_overlay": "RBI policy, macro engine"}
 
 
