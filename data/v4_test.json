@@ -1,0 +1,421 @@
+{
+ "cards": {
+  "gj_surat|mmf_textiles": {
+   "key": "gj_surat|mmf_textiles",
+   "label": "Surat - MMF / polyester weaving & processing",
+   "base_call": "ok",
+   "call": "caution",
+   "nudged_by_news": true,
+   "score": 80,
+   "pack": [
+    "Data-based call: OK score 80 (national 83 x 0.6 + Gujarat 75 x 0.4). Bands: OK to lend at or above 65, Avoid below 45, Caution in between.",
+    "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+    "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+    "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+    "India-wide: Bank credit +14.6% YoY vs output +11.9% (gap +2.7 pp). [RBI bank credit vs output, data to Aug-2026]"
+   ],
+   "market": {
+    "peers": {
+     "FILATEX": {
+      "group": "mmf",
+      "last": 89.26,
+      "asof": "2026-10-30",
+      "first": "2025-10-30",
+      "r1m": -17.2,
+      "r3m": 21.4,
+      "r12m": 42.7,
+      "src": "https://query1.finance.yahoo.com/v8/finance/chart/FILATEX.NS?range=1y&interval=1d"
+     },
+     "ALOKINDS": {
+      "group": "mmf",
+      "last": 8.08,
+      "asof": "2026-10-30",
+      "first": "2025-10-30",
+      "r1m": 14.0,
+      "r3m": -32.2,
+      "r12m": -53.9,
+      "src": "https://query1.finance.yahoo.com/v8/finance/chart/ALOKINDS.NS?range=1y&interval=1d"
+     },
+     "SUTLEJTEX": {
+      "group": "mmf",
+      "last": 33.75,
+      "asof": "2026-10-30",
+      "first": "2025-10-30",
+      "r1m": -10.0,
+      "r3m": -11.2,
+      "r12m": -4.4,
+      "src": "https://query1.finance.yahoo.com/v8/finance/chart/SUTLEJTEX.NS?range=1y&interval=1d"
+     },
+     "INDORAMA": {
+      "group": "mmf",
+      "last": 73.11,
+      "asof": "2026-10-30",
+      "first": "2025-10-30",
+      "r1m": -27.2,
+      "r3m": 30.0,
+      "r12m": 4.2,
+      "src": "https://query1.finance.yahoo.com/v8/finance/chart/INDORAMA.NS?range=1y&interval=1d"
+     }
+    },
+    "nifty": {
+     "group": "idx",
+     "last": 23053.1,
+     "asof": "2026-10-30",
+     "first": "2025-10-30",
+     "r1m": 1.9,
+     "r3m": -5.5,
+     "r12m": -10.9,
+     "src": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=1y&interval=1d"
+    },
+    "source": "Yahoo Finance public chart API (NSE prices), daily close"
+   },
+   "brief": {
+    "local_story": "FOSTTA (Federation of Surat Textile Traders Association) said on 2026-10-29 it will blacklist traders who keep payments stuck 180 days or more, publish the names on its portal and circulate them in every Surat textile market, and also complain on the GST portal [0]. Surat weaving units face yarn prices up 40-45% since June and may stop looms 15 days before Diwali, with unsold stock and delayed payments [4][6] (2026-10-13, 2026-10-15). Katargam zone sealed 52 illegal tapela dyeing units at Ved Road-Pandol under Section 268 of the G.B.P.M.C. Act 1949 [3] (2026-10-28). On 2026-10-15 police detained over 70 embroidery workers demanding wages be paid between the 1st and 7th [5]. Surat polyester and viscose yarn prices eased on weak festive demand and payment constraints [7] (2026-10-13).",
+    "repayment_impact": "Surat runs on trader credit: weavers buy yarn and sell grey fabric to traders who now face a 180-day blacklist, so receivables arrive later than instalments. Paying wages by the 7th is a fixed outflow regardless of collection, and 40-45% costlier yarn eats the buffer. Expect working-capital limits to revolve, not reduce, this season.",
+    "market_read": "Nifty fell 5.5% over 3 months and 10.9% over 12. Filatex fell 17.2% in one month but is up 42.7% over 12; Alok is down 32.2% in 3 months and 53.9% over 12; Sutlej fell 10.0% and Indorama 27.2% in one month.",
+    "borrower_checks": [
+     "Receivable ageing: share of outstanding over 90 days past due from trader buyers must stay under 20% of book, since FOSTTA's blacklist triggers at 180 days [0].",
+     "Margin cover: yarn is 40-45% costlier since June [6]; require monthly gross margin per metre not compressed more than 200 bps versus the borrower's pre-June level.",
+     "Legal status of the processing unit: valid SPMC/GPCB consent and not among the 52 units sealed in Ved Road-Pandol, TP Scheme 24 [3]; plus proof wages are credited between the 1st and 7th [5]."
+    ],
+    "change_the_call": "Falling Surat polyester yarn prices or early-shut looms restarting keeps the OK score at 65 or above; a drop below 45 — for example if FOSTTA's published blacklist names several of the borrower's own buyers — shifts the call to Avoid.",
+    "news_direction": "Worse",
+    "news_direction_why": "Payment blacklist, 40-45% costlier yarn, early loom shutdowns and sealed dyeing units squeeze Surat cash flow.",
+    "sources_used": [
+     0,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "post_check_problems": [],
+   "articles": [
+    {
+     "url": "https://www.divyabhaskar.co.in/local/gujarat/surat/news/surat-textile-market-fostta-blacklist-payment-defaulters-gst-action-139535300.html",
+     "title": "કાપડ માર્કેટમાં પેમેન્ટ ડિફોલ્ટરો સામે ફોસ્ટાનું કડક વલણ: નિયત સમયમાં નાણા નહીં ચૂકવનાર વેપારીઓ બ્લેકલિસ્ટ કરવા તૈયારી, 6 મહિના પેમેન્ટ અટકાવનાર સામે GST પોર્ટલ પર ફરિયાદ થશે - Surat News",
+     "date": "2026-10-29",
+     "via": "deepseek"
+    },
+    {
+     "url": "https://textile.economictimes.indiatimes.com/news/manufacturing-retailing/us-demand-slowdown-hits-apparel-and-diamond-exporters/135355879?utm_source=latest_news&utm_medium=agencyListing",
+     "title": "US demand slowdown hits apparel and diamond exporters",
+     "date": "2026-10-29",
+     "via": "deepseek"
+    },
+    {
+     "url": "https://retail.economictimes.indiatimes.com/news/industry/us-demand-slowdown-hits-apparel-diamond-exporters-as-factories-shut-and-orders-dry-up/135352178?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etretail_news_2026-10-31&dt=2026-10-31",
+     "title": "US demand slowdown hits apparel, diamond exporters as factories shut and orders dry up",
+     "date": "2026-10-29",
+     "via": "deepseek"
+    },
+    {
+     "url": "https://www.divyabhaskar.co.in/local/gujarat/surat/news/surat-katargam-illegal-dyeing-units-sealed-action-139530009.html",
+     "title": "કતારગામ ઝોનમાં પાલિકાની લાલ આંખ: વેડરોડ-પંડોળ વિસ્તારમાં ગેરકાયદે ધમધમતા 52 તપેલા ડાઈંગ સીલ કરાયા, આવતીકાલે પણ સીલીંગની કામગીરી ચાલુ રહેશે - Surat News",
+     "date": "2026-10-28",
+     "via": "deepseek"
+    },
+    {
+     "url": "https://textilevaluechain.in/gujarat-textile-industry-faces-possible-early-diwali-shutdown-amid-45-yarn-price-rise",
+     "title": "Gujarat Textile Industry Faces Possible Early Diwali Shutdown Amid 45% Yarn Price Rise",
+     "date": "2026-10-15",
+     "via": "deepseek"
+    },
+    {
+     "url": "https://m.dailyhunt.in/news/india/english/the+wire+english-epaper-wireng/over+70+textile+workers+activists+in+surat+detained+amid+protest+for+weekly+dayoff+timely+wage+payment-newsid-n730589916?listname=newspaperLanding&topic=latestnews&index=1&topicIndex=0&mode=pwa&action=click#1",
+     "title": "Over 70 Textile Workers, Activists in Surat Detained Amid Protest For Weekly Day-Off, Timely Wage Payment - - Light modeFollow systemDark mode",
+     "date": "2026-10-15",
+     "via": "deepseek"
+    },
+    {
+     "url": "https://www.newindianexpress.com/states/gujarat/2026/Oct/14/gujarats-textile-industry-faces-diwali-shutdown-threat-as-yarn-prices-surge-45-per-cent#1",
+     "title": "Gujarat’s textile industry faces Diwali shutdown threat as yarn prices surge 45 per cent - Gujarat",
+     "date": "2026-10-13",
+     "via": "deepseek"
+    },
+    {
+     "url": "https://www.fibre2fashion.com/news/prime-content/raw-material-price-news/india-s-polyester-viscose-yarn-face-persistent-payment-issue-314254-newsdetails.htm",
+     "title": "India's polyester, viscose yarn face persistent payment issue",
+     "date": "2026-10-13",
+     "via": "deepseek"
+    }
+   ],
+   "search_hits": 87,
+   "dated_recent_hits": 32,
+   "generated_ist": "2026-11-01 17:55 IST",
+   "tier": "news_llm (unverified)"
+  },
+  "gj_morbi|ceramics": {
+   "key": "gj_morbi|ceramics",
+   "label": "Morbi - ceramic tiles & sanitaryware",
+   "base_call": "ok",
+   "call": "caution",
+   "nudged_by_news": true,
+   "score": 71,
+   "pack": [
+    "Data-based call: OK score 71 (national 68 x 0.6 + Gujarat 75 x 0.4). Bands: OK to lend at or above 65, Avoid below 45, Caution in between.",
+    "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+    "India-wide: IIP NIC 23 output +11.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+    "India-wide: Output +10.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+    "India-wide: Bank credit +12.4% YoY vs output +10.2% (gap +2.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+   ],
+   "market": {
+    "peers": {
+     "KAJARIACER": {
+      "group": "ceramics",
+      "last": 1109.2,
+      "asof": "2026-10-30",
+      "first": "2025-10-30",
+      "r1m": -10.2,
+      "r3m": -7.4,
+      "r12m": -8.9,
+      "src": "https://query1.finance.yahoo.com/v8/finance/chart/KAJARIACER.NS?range=1y&interval=1d"
+     },
+     "SOMANYCERA": {
+      "group": "ceramics",
+      "last": 543.0,
+      "asof": "2026-10-30",
+      "first": "2025-10-30",
+      "r1m": -12.1,
+      "r3m": 11.1,
+      "r12m": 17.9,
+      "src": "https://query1.finance.yahoo.com/v8/finance/chart/SOMANYCERA.NS?range=1y&interval=1d"
+     },
+     "CERA": {
+      "group": "ceramics",
+      "last": 4406.0,
+      "asof": "2026-10-30",
+      "first": "2025-10-30",
+      "r1m": -13.4,
+      "r3m": -28.1,
+      "r12m": -28.7,
+      "src": "https://query1.finance.yahoo.com/v8/finance/chart/CERA.NS?range=1y&interval=1d"
+     },
+     "ASIANTILES": {
+      "group": "ceramics",
+      "last": 45.88,
+      "asof": "2026-10-30",
+      "first": "2025-10-30",
+      "r1m": -7.6,
+      "r3m": -16.1,
+      "r12m": -26.7,
+      "src": "https://query1.finance.yahoo.com/v8/finance/chart/ASIANTILES.NS?range=1y&interval=1d"
+     },
+     "ORIENTBELL": {
+      "group": "ceramics",
+      "last": 346.1,
+      "asof": "2026-10-30",
+      "first": "2025-10-30",
+      "r1m": -13.2,
+      "r3m": 8.4,
+      "r12m": 16.9,
+      "src": "https://query1.finance.yahoo.com/v8/finance/chart/ORIENTBELL.NS?range=1y&interval=1d"
+     }
+    },
+    "nifty": {
+     "group": "idx",
+     "last": 23053.1,
+     "asof": "2026-10-30",
+     "first": "2025-10-30",
+     "r1m": 1.9,
+     "r3m": -5.5,
+     "r12m": -10.9,
+     "src": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=1y&interval=1d"
+    },
+    "source": "Yahoo Finance public chart API (NSE prices), daily close"
+   },
+   "brief": {
+    "local_story": "Morbi's kilns are running on the most expensive fuel in years. On 22 October 2026 propane rose ₹7,300 a tonne, pushing gas past ₹100 a kg and adding about ₹6 per cubic metre to firing cost [3] (2026-10-22). The same day, Ceramic Association president Manoj Airwadiya said exports are nearly stopped by the Middle East war and container shortage, godowns are full of unsold tiles and most units have cut production 15–20% [2] (2026-10-22). Thanagadh's small sanitaryware units asked Gujarat Gas for the ₹5 per SCM relief already given to Morbi tiles, through Panchal Ceramic Association's Sompura and Maru [4] (2026-10-21). On 30 October minister Trikam Chhanga heard power, water and substation demands at a Morbi factory [0]. Wankaner police booked four men for extorting ₹35 lakh against a ₹10 lakh loan to a ceramics-unit labour contractor [1] (2026-10-29).",
+    "repayment_impact": "Tiles and sanitaryware here are made to stock and sold on credit, so the ₹6 per cubic metre jump in firing cost [3] lands before any price rise, and a godown full of tiles [2] means cash arrives only when dispatches move. With output cut 15–20% [2], monthly cash generation falls exactly as the gas bill rises — expect longer working-capital cycles and borrowing from informal lenders at rates like the 10% a month charged to a ceramics-unit contractor [1].",
+    "market_read": "All five Morbi-linked peers fell in the last month — Asian Tiles -7.6%, Kajaria -10.2%, Somany -12.1%, Orient Bell -13.2%, Cera -13.4% — while Nifty rose 1.9%. Over 12 months only Somany (+17.9%) and Orient Bell (+16.9%) are up; Cera (-28.7%) and Asian Tiles (-26.7%) are down.",
+    "borrower_checks": [
+     "Fuel cover: pull power-and-fuel as a share of sales for the last two quarters; if the ₹6 per cubic metre firing-cost increase [3] (2026-10-22) is not recovered in tile realisations, decline even though the OK score is 71.",
+     "Stock versus dispatches: match e-way bills with the stock statement; warehouses in Morbi are reported full of unsold tiles [2] (2026-10-22), so flag any unit that has taken the reported 15–20% production cut [2] yet shows dispatch value still below its own pre-cut monthly average.",
+     "Off-book lenders: reconcile the credit-bureau report against the cash book for any borrowing at the 10% per month interest seen in the Wankaner extortion FIR [1] (2026-10-29); a single such lender is an automatic decline."
+    ],
+    "change_the_call": "If Gujarat Gas extends the ₹5 per SCM parity relief to Thanagadh sanitaryware units [4] and propane slips back below ₹100 a kg, the 71 score sits firmer inside the OK-to-lend band (65 and above); if gas-driven shutdowns make the 15–20% output cut permanent, the score falls under 65 into Caution, and under 45 is Avoid.",
+    "news_direction": "Worse",
+    "news_direction_why": "Propane up ₹7,300 a tonne past ₹100 a kg while exports are halted and Morbi units cut output 15–20%.",
+    "sources_used": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "post_check_problems": [],
+   "articles": [
+    {
+     "url": "https://www.divyabhaskar.co.in/local/gujarat/morbi/news/morbi-minister-trikam-chhanga-ceramic-industry-visit-updates-139545094.html",
+     "title": "મંત્રી ત્રિકમ છાંગાએ સિરામિક ઉદ્યોગના પ્રશ્નો સાંભળ્યા: ખાનગી ફેક્ટરીની મુલાકાત દરમિયાન વીજળી, પાણી અને ઇન્ફ્રાસ્ટ્રક્ચર અંગે ચર્ચા કરી - Morbi News",
+     "date": "2026-10-30",
+     "via": "deepseek"
+    },
+    {
+     "url": "https://timesofindia.indiatimes.com/city/rajkot/four-booked-for-extorting-35l-from-contractor-over-10l-loan/articleshow/135327547.cms",
+     "title": "Four booked for extorting ₹35L from contractor over ₹10L loan",
+     "date": "2026-10-29",
+     "via": "deepseek"
+    },
+    {
+     "url": "https://www.divyabhaskar.co.in/local/gujarat/morbi/news/exports-largely-halted-due-to-war-in-the-middle-east-dbp-139458687.html",
+     "title": "મધ્યપૂર્વમાં યુદ્ધના પગલે નિકાસ મહદંશે બંધ: પ્રોપેન ગેસમાં પ્રતિ ટન રૂ. 7300નો વધારો ઝીંકાયો, મોરબીમાં સિરામિક ઉદ્યોગકારોને પડ્યા પર પાટુ - Morbi News",
+     "date": "2026-10-22",
+     "via": "deepseek"
+    },
+    {
+     "url": "https://morbimirror.com/inflation-hits-morbis-ceramic-industry-propane-gas-crosses-rs-100/#respond",
+     "title": "મોરબીના સિરામિક ઉદ્યોગ પર મોંઘવારીનો ડામ: પ્રોપેન ગેસ રૂ.૧૦૦ને પાર",
+     "date": "2026-10-22",
+     "via": "deepseek"
+    },
+    {
+     "url": "https://sanjsamachar.net/index.php/news-detail/Representation-made-seeking-a-reduction-of-Rs-5-in-gas-prices-for-the-small-scale-ceramic-sanitaryware-industry-in-Than-",
+     "title": "થાનનાં લઘુ સિરામિક સેનિટરીવેર્સ ઉદ્યોગને ગેસનાં ભાવમાં રૂા.પનો ઘટાડો આપવા રજુઆત",
+     "date": "2026-10-21",
+     "via": "deepseek"
+    },
+    {
+     "url": "https://indianexpress.com/about/morbi/#1",
+     "title": "Morbi - Wednesday, Oct 21, 2026",
+     "date": "2026-10-20",
+     "via": "deepseek"
+    },
+    {
+     "url": "https://economictimes.indiatimes.com/topic/ceramic-tiles-makers#1",
+     "title": "ceramic tiles makers: Latest News & Videos, Photos about ceramic tiles makers | The Economic Times - Page 1 - Business News›ceramic tiles makers",
+     "date": "2026-10-16",
+     "via": "deepseek"
+    },
+    {
+     "url": "https://www.business-standard.com/topic/ceramic-tiles#1",
+     "title": "Ceramic Tiles - Wednesday, October 14, 2026 | 03:51 PM ISTहिंदी में पढें",
+     "date": "2026-10-13",
+     "via": "deepseek"
+    }
+   ],
+   "search_hits": 84,
+   "dated_recent_hits": 14,
+   "generated_ist": "2026-11-01 17:55 IST",
+   "tier": "news_llm (unverified)"
+  },
+  "gj_vapi|chemicals_dyes": {
+   "key": "gj_vapi|chemicals_dyes",
+   "label": "Vapi - chemicals, dyes & intermediates",
+   "base_call": "avoid",
+   "call": "avoid",
+   "nudged_by_news": false,
+   "score": 43,
+   "pack": [
+    "Data-based call: AVOID score 43 (national 22 x 0.6 + Gujarat 75 x 0.4). Bands: OK to lend at or above 65, Avoid below 45, Caution in between.",
+    "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+    "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+    "India-wide: Bank credit +20.7% YoY vs output -1.2% (gap +21.9 pp). [RBI bank credit vs output, data to Aug-2026]",
+    "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]"
+   ],
+   "market": {
+    "peers": {
+     "AARTIIND": {
+      "group": "chem",
+      "last": 435.75,
+      "asof": "2026-10-30",
+      "first": "2025-10-30",
+      "r1m": -8.4,
+      "r3m": -10.9,
+      "r12m": 13.8,
+      "src": "https://query1.finance.yahoo.com/v8/finance/chart/AARTIIND.NS?range=1y&interval=1d"
+     },
+     "DEEPAKNTR": {
+      "group": "chem",
+      "last": 1519.4,
+      "asof": "2026-10-30",
+      "first": "2025-10-30",
+      "r1m": -0.7,
+      "r3m": -8.6,
+      "r12m": -12.7,
+      "src": "https://query1.finance.yahoo.com/v8/finance/chart/DEEPAKNTR.NS?range=1y&interval=1d"
+     },
+     "ATUL": {
+      "group": "chem",
+      "last": 5028.5,
+      "asof": "2026-10-30",
+      "first": "2025-10-30",
+      "r1m": -15.0,
+      "r3m": -25.4,
+      "r12m": -13.5,
+      "src": "https://query1.finance.yahoo.com/v8/finance/chart/ATUL.NS?range=1y&interval=1d"
+     },
+     "MOL": {
+      "group": "chem",
+      "last": 52.67,
+      "asof": "2026-10-30",
+      "first": "2025-10-30",
+      "r1m": -6.5,
+      "r3m": -2.2,
+      "r12m": -35.2,
+      "src": "https://query1.finance.yahoo.com/v8/finance/chart/MOL.NS?range=1y&interval=1d"
+     },
+     "GHCL": {
+      "group": "chem",
+      "last": 377.2,
+      "asof": "2026-10-30",
+      "first": "2025-10-30",
+      "r1m": -7.0,
+      "r3m": -13.9,
+      "r12m": -41.6,
+      "src": "https://query1.finance.yahoo.com/v8/finance/chart/GHCL.NS?range=1y&interval=1d"
+     }
+    },
+    "nifty": {
+     "group": "idx",
+     "last": 23053.1,
+     "asof": "2026-10-30",
+     "first": "2025-10-30",
+     "r1m": 1.9,
+     "r3m": -5.5,
+     "r12m": -10.9,
+     "src": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=1y&interval=1d"
+    },
+    "source": "Yahoo Finance public chart API (NSE prices), daily close"
+   },
+   "brief": {
+    "local_story": "Vapi GIDC's chemical and dye units are being shut down by the Gujarat Pollution Control Board. In the six months to 7 August 2026, GPCB closed 14 units in Vapi for breaking environment rules — half for air and water pollution, half for fire and accident cases — issued show-cause notices to 95 units and 10 further notices [0, 2026-08-07]. The report records units discharging chemical-laden water under cover of monsoon rain and polluted water escaping Vapi GIDC's drainage. Parliament was told that between 1 January 2025 and 24 February 2026 Vapi saw 1,890 inspections, 196 show-cause notices, 36 closure notices, and ₹1.81 crore of environmental penalty raised on 33 units, of which ₹1.39 crore was recovered [0, 2026-08-07].",
+    "repayment_impact": "A closure notice stops a batch-chemical or dye unit's production at once, so a plant carrying term instalments and working capital dues earns nothing for that stretch while GPCB pursues ₹1.81 crore in penalties from 33 Vapi units (₹1.39 crore already recovered) [0]. Stoppage loss and penalty outflow land in the same month as the instalment.",
+    "market_read": "Nifty 50 is up 1.9% over one month but down 5.5% over three months and 10.9% over twelve. Five of the six listed peers are weaker than the index over 12 months — GHCL -41.6%, MOL -35.2%, ATUL -13.5%, DEEPAKNTR -12.7% — with AARTIIND the exception at +13.8% and ATUL the worst over 3 months at -25.4%.",
+    "borrower_checks": [
+     "GPCB enforcement history: count show-cause and closure notices on the unit in the last six months; the benchmark is zero, set against 196 show-cause notices and 36 closure notices issued in Vapi between 1 Jan 2025 and 24 Feb 2026 [0].",
+     "Effluent route: verify where treated water is discharged; the benchmark is no discharge into Vapi GIDC drainage, since 33 Vapi units were fined ₹1.81 crore with ₹1.39 crore recovered [0].",
+     "Working-capital discipline: track limit utilisation against the unit's own output; the benchmark is flat utilisation while IIP NIC 20 output is -0.5% YoY and bank credit is +20.7% YoY."
+    ],
+    "change_the_call": "A GPCB order lifting these closures, or a fall in show-cause notices in Vapi GIDC, would move the AVOID 43 call — it has to leave 43, cross 45 into Caution and reach 65, where the band reads OK to lend.",
+    "news_direction": "Worse",
+    "news_direction_why": "14 Vapi units closed, 95 show-cause notices and ₹1.81 crore penalties in one six-month window.",
+    "sources_used": [
+     0
+    ]
+   },
+   "post_check_problems": [],
+   "articles": [
+    {
+     "url": "https://www.divyabhaskar.co.in/local/gujarat/valsad/vapi/news/14-companies-closed-in-vapi-for-violating-rules-in-six-months-dbp-138661495.html",
+     "title": "95 એકમોને શો-કોઝ નોટિશ: વાપીમાં છ માસમાં નિયમોનું ભંગ બદલ 14 કપંનીને કલોઝર - Vapi News",
+     "date": "2026-08-07",
+     "via": "deepseek"
+    }
+   ],
+   "search_hits": 82,
+   "dated_recent_hits": 3,
+   "generated_ist": "2026-11-01 17:55 IST",
+   "tier": "news_llm (unverified)"
+  }
+ },
+ "calls": {
+  "search": 27,
+  "fetch": 42,
+  "chat": 3,
+  "fetch_fallback_plain": 22
+ },
+ "cutoff": "2026-07-29"
+}
