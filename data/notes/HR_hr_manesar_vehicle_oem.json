@@ -1,0 +1,158 @@
+{
+ "key": "hr_manesar|vehicle_oem",
+ "state": "HR",
+ "city": "hr_manesar",
+ "ind": "vehicle_oem",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:02 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Manesar auto OEM supply chain — pursue tier-1/tier-2 vendors with diversified order books and clean receivables; avoid single-OEM, single-plant dependent units and labour-exposed job-work shops.",
+ "title": "Manesar Cars & Commercial Vehicles (OEM): a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nManesar is a car-assembly town: Maruti's plant builds the Dzire here, and the model has just crossed 3.5 million cumulative units in about 18 years and 9 months [2]. **The OEM is the cash engine; everyone we lend to is a feeder into it — stampings, plastics, wiring, logistics, tooling, job-work labour.** Value sits with the OEM's brand and model mix; our borrowers sit in the conversion margin between steel/commodity input cost and the per-piece price the OEM agrees. Pricing power is thin and reset at annual or model-cycle negotiations, so a vendor's margin is a function of volume per part number, not of price.",
+  "## Where cash sits and what has changed\nWorking capital is the whole game: vendors carry raw material and WIP, then wait on OEM payment terms — **collect the actual receivable days and creditor days from the customer; do not assume.** Capex is tooling and press/moulding capacity tied to a specific model, so it is stranded if the model dies. Locally, the news is mixed: Dzire output pace is quickening [1][2], but the same plant has a history of a labour stir and a temporary production suspension with over 25,000 units of loss reported [3] — that item is undated in the feed, so treat it as background risk, not current fact. Peer results (Q4FY26/Q1FY27) show strong volumes but margin pressure from commodity and freight costs, with price hikes being flagged [4][5][6][7]. **So when a proposal lands, check the share of revenue from one model and one plant; if above roughly half, ask for the second customer and the second part number.**",
+  "## The growth opportunity to pursue now\nNational auto output (IIP NIC 29) is +25.2% YoY and +19.2% Apr-to-date [D], and Haryana GST is running +10.1% Apr-to-date against India's +6.1% [D] — **the local economy is outrunning the country, so lend into the feeder chain, not the headline OEM.** Pursue tier-1 and tier-2 vendors with two or more OEM customers, export-facing suppliers (peers note export-focused OEMs hold margins better [7]), and tooling/logistics providers on annual contracts. Avoid pure labour job-work shops and any unit whose order book is one part number for one model.",
+  "## How to grow safely\nBank credit is growing +27.0% YoY against output +19.2%, a +7.8 pp gap [D] — **the system is lending faster than the factory is producing, so our discipline has to be structural, not sentiment.** Structure: cash-flow backed working capital limits sized to the drawing cycle, not to peak turnover; monthly stock-and-receivable statements; escrow of OEM receivables where the OEM pays into a designated account. Take every month: stock statement, debtor ageing by OEM, GST returns, and a plant-visit note. **If the debtor ageing shows one OEM above the agreed share, cut the limit before renewing.**",
+  "## Early-warning signs\n- Monthly stock/receivable statement (monthly): receivable days stretch beyond the agreed band -> freeze enhancement and reprice.\n- GST returns (monthly): turnover falls two months running -> ask for the order book and visit the plant.\n- OEM payment advice (monthly): payment routed outside the escrow -> treat as a red flag and seek explanation in writing.\n- Plant visit (quarterly): idle presses or reduced shifts -> reassess limit and seek a second-customer plan.\n- Labour/news watch (weekly): any strike or suspension report at the Manesar plant [3] -> pause new sanctions in single-OEM vendors."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Receivable days beyond agreed band -> freeze enhancement, reprice"
+  ],
+  [
+   "Monthly GST returns",
+   "Turnover down two months running -> demand order book, plant visit"
+  ],
+  [
+   "Monthly OEM payment advice",
+   "Payment outside escrow -> written explanation, tighten limit"
+  ],
+  [
+   "Quarterly plant visit",
+   "Idle presses or reduced shifts -> reassess limit, seek second-customer plan"
+  ],
+  [
+   "Weekly labour/news watch",
+   "Strike or suspension at Manesar plant [3] -> pause new sanctions in single-OEM vendors"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Dzire output quickening locally; peers show strong volumes but margin pressure.",
+ "articles": [
+  {
+   "title": "Maruti Dzire builds pass 3.5 million mark at Manesar…",
+   "url": "https://motorclaw.news/article/maruti-dzire-builds-pass-3-5-million-mark-at-manesar-facility-as-output-pace-quickens",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Maruti Suzuki Dzire crosses 3.5 million units of cumulative production",
+   "url": "https://www.thehindubusinessline.com/companies/maruti-suzuki-dzire-crosses-35-million-units-of-cumulative-production/article71648727.ece",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Manesar Factory | Latest & Breaking News on Manesar Factory | Photos, Videos, Breaking Stories and Articles on Manesar Factory",
+   "url": "https://www.moneycontrol.com/news/tags/manesar-factory.html/videos/",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14% - CNBC TV18 - M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14%",
+   "url": "https://www.cnbctv18.com/market/mahindra-and-mahindra-mm-q4-results-volumes-realisation-suv-tractor-guidance-share-price-19898900.htm#1",
+   "date": "2026-05-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Page 3 - Tata Motors - Sunday, October 25, 2026 | 08:00 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/topic/tata-motors/page-3#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto Q1 Earnings: Export-Focused OEMs May Weather Margin Pressure Better, Says Nirmal Bang's Yash Agrawal - Auto companies are likely to report healthy revenue growth for the June quarter on the back of robust volume growth across vehic...",
+   "url": "https://www.ndtvprofit.com/markets/auto-q1-earnings-export-focused-oems-may-weather-margin-pressure-better-says-nirmal-bangs-yash-agrawal-11800307?pfrom=mailchimp&utm_campaign=mailchimp#1",
+   "date": "2026-07-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| Industry | Key reasons for rating action in the second half of 2015-16 | Outlook for the medium term |",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/publications/ratings-roundup/RRUH2-16-formatted_v4_April4_secured_Publishing.pdf#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA assesses the ability of a manufacturer to generate healthy cash flows to reinvest in the business and meet its debt- servic...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/342~Auto%20Component%20Suppliers,%20Rating%20Methodology,%20Jun%202016%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "As this methodology highlights, while undertaking the credit assessment of entities, ICRA seeks to incorporate all the relevant ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/778~Commercial%20Vehicles#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 100 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

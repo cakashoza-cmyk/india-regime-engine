@@ -1,0 +1,150 @@
+{
+ "key": "ap_anantapur|vehicle_oem",
+ "state": "AP",
+ "city": "ap_anantapur",
+ "ind": "vehicle_oem",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Anantapur auto OEM-linked supply chain, but only to tier-1/tier-2 vendors with contracted volumes and clean receivables; avoid single-customer, low-margin job-work units.",
+ "title": "Anantapur Cars & Commercial Vehicles (OEM): a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nAnantapur is an assembly-and-supply cluster, not a market. Value sits with the OEM and its tier-1 tooling owners; the small vendor earns a conversion margin and carries the working capital.",
+  "Pricing power is thin: OEMs set piece prices and pass commodity inflation through with a lag. Peer evidence: Tata Motors CV volumes rose 26% but commodity inflation weighed on margins and prompted price increases [6]; M&M auto revenue grew 25% to ₹31,115 crore with EBIT margin at 9.5% [5]. **So when a proposal lands, check the price-escalation clause in the supply agreement; if there is none, ask how the last steel increase was absorbed.**",
+  "## What has changed now\nNational auto output is running hot: IIP NIC 29 output +25.2% YoY and +19.2% Apr-to-date [D]. **Bank credit to the sector is growing +27.0% YoY against +19.2% output — a +7.8 pp gap [D], meaning some of the growth is leverage, not demand.** Andhra Pradesh electricity demand is +18.1% Apr-to-date versus India's +9.5% [D], a genuine local activity signal. Locally, the Anantapur CII summit reported ₹4,141 crore of investment commitments [2]; commitments are not orders, so do not lend on the announcement. Peer commentary flags margin pressure from raw material and freight costs even as volumes stay strong [4][7].",
+  "## Where to grow, and how to grow safely\n**Pursue tier-1 and tier-2 vendors with two or more OEM customers, in-house tooling, and a purchase order book covering at least the loan tenor.** Avoid pure job-work units on a single customer and traders of imported parts. Structure as a cash-flow loan against assigned receivables with a 25% margin, monthly stock-and-debtor statements, and a covenant that total debt stays within a stated multiple of operating profit — rating methodology treats gearing and debt-to-operating-profit as core tests [10][11]. Take receivables ageing, order book and electricity bills every month.",
+  "- **Power consumption falls at the vendor's plant** — monthly; a sustained drop means lower output, so ask for dispatch records. - **Commodity price rise without a pass-through** — quarterly; if gross margin falls two quarters running, cut exposure."
+ ],
+ "watch": [
+  [
+   "Electricity consumption at plant (monthly)",
+   "sustained fall -> request dispatch records and reassess"
+  ],
+  [
+   "Gross margin (quarterly)",
+   "two consecutive declines -> cut exposure"
+  ],
+  [
+   "Order book vs loan tenor (quarterly)",
+   "below loan tenor -> shorten tenor or seek collateral"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Strong national output and AP power demand offset by credit growing faster than output.",
+ "articles": [
+  {
+   "title": "Kia Motors plant to generate direct employment for 4,000 people: CM Chandrababu Naidu - Sunday, October 25, 2026 | 01:07 AM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/multimedia/video-gallery/general/kia-motors-plant-to-generate-direct-employment-for-4-000-people-cm-chandrababu-naidu-60118.htm#1",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Anantapur CII Summit Attracts ₹4,141 Crore Investments, Jobs In Rayalaseema - Advertisement",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/anantapur-cii-summit-attracts-4141-crore-investments-jobs-in-rayalaseema-1998271#1",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "The New Indian Express Group The New Indian Express-Anantapur epaper dated Wed, 23 Sep 26",
+   "url": "https://epaper.newindianexpress.com/4201949/The-New-Indian-Express-Anantapur/23-09-2026#page/1/1",
+   "date": "2026-09-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14% - CNBC TV18 - M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14%",
+   "url": "https://www.cnbctv18.com/market/mahindra-and-mahindra-mm-q4-results-volumes-realisation-suv-tractor-guidance-share-price-19898900.htm#1",
+   "date": "2026-05-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Page 3 - Tata Motors - Sunday, October 25, 2026 | 08:00 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/topic/tata-motors/page-3#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto Q1 Earnings: Export-Focused OEMs May Weather Margin Pressure Better, Says Nirmal Bang's Yash Agrawal - Auto companies are likely to report healthy revenue growth for the June quarter on the back of robust volume growth across vehic...",
+   "url": "https://www.ndtvprofit.com/markets/auto-q1-earnings-export-focused-oems-may-weather-margin-pressure-better-says-nirmal-bangs-yash-agrawal-11800307?pfrom=mailchimp&utm_campaign=mailchimp#1",
+   "date": "2026-07-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "| Industry | Key reasons for rating action in the second half of 2015-16 | Outlook for the medium term |",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/publications/ratings-roundup/RRUH2-16-formatted_v4_April4_secured_Publishing.pdf#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA assesses the ability of a manufacturer to generate healthy cash flows to reinvest in the business and meet its debt- servic...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/342~Auto%20Component%20Suppliers,%20Rating%20Methodology,%20Jun%202016%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "As this methodology highlights, while undertaking the credit assessment of entities, ICRA seeks to incorporate all the relevant ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/778~Commercial%20Vehicles#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 100 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: electricity demand +18.1% Apr-to-date vs India +9.5% (8.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

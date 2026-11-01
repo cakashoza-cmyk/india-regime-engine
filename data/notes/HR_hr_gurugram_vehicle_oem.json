@@ -1,0 +1,158 @@
+{
+ "key": "hr_gurugram|vehicle_oem",
+ "state": "HR",
+ "city": "hr_gurugram",
+ "ind": "vehicle_oem",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Gurugram auto OEM/dealer chain, but only to BS-VI-compliant, non-Delhi-dependent borrowers; avoid BS-IV fleet-linked and Delhi-border transport exposures.",
+ "title": "Gurugram Cars & Commercial Vehicles (OEM): a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**An OEM/dealer chain turns steel, components and labour into vehicles, then converts them to cash through dealer inventory and retail finance.** Cash sits in finished-goods inventory and dealer receivables; capex is heavy and lumpy (tooling, paint shop, line upgrades). Pricing power is real but cyclical — peers show margin pressure from commodity and freight costs even as volumes grow [4][7]. **So when a proposal lands, check the split between OEM receivables and dealer inventory; if dealer inventory days are rising while volumes are flat, ask why.**",
+  "## What has changed now\n**Delhi's BS-VI/BS-IV restrictions have hit roughly 60,000 Gurugram commercial vehicles, with the transport association claiming about 20 per cent of the region's commercial fleet will halt [2][3].** Roads on NH-48 are choked for hours [1]. This is a local demand shock to older-fleet operators, not to new-vehicle OEMs. **So when a proposal lands, check the borrower's fleet vintage and Delhi-NCR route dependence; if more than a fifth of the fleet is pre-BS-VI, ask for a replacement plan before sanction.**",
+  "## Where the growth is\n**National output for NIC 29 is up 25.2% YoY and 19.2% Apr-to-date [D], and Haryana GST is growing 10.1% versus India's 6.1% [D] — a genuine local tailwind.** Peer results confirm volume strength: M&M auto revenue up 25% with EBIT margin at 9.5% [5]; Tata Motors CV volumes up 26% with price hikes taken [6]. **Pursue BS-VI-compliant OEM component suppliers, new-vehicle dealers and replacement-cycle financiers; avoid BS-IV fleet operators and Delhi-border transport borrowers.**",
+  "## How to grow safely\n**Bank credit is growing 27.0% against output of 19.2%, a 7.8 pp gap [D] — the system is lending ahead of production, so underwrite to cash flow, not to the cycle.** Structure against dealer receivables and OEM purchase orders, not against fleet value. **Take monthly: GST returns, e-way bills, dealer stock statements and OEM order book; if any of these diverge from the sanction premise, ask for the reconciliation.**",
+  "## Early-warning signs\n**Watch for BS-IV fleet write-downs, dealer inventory build and margin squeeze from commodity and freight costs [4][7].** Rating methodology notes leverage and cash-flow cover as the core tests [10][11]. **If a borrower's gearing rises while operating profit falls, treat it as a downgrade trigger, not a temporary dip.**"
+ ],
+ "watch": [
+  [
+   "Monthly GST and e-way bill data",
+   "Two consecutive months of falling e-way bills -> ask for order book and re-rate limit"
+  ],
+  [
+   "Dealer stock statement (monthly)",
+   "Inventory days rising with flat sales -> ask for OEM discount support and cut exposure"
+  ],
+  [
+   "Fleet vintage register (quarterly)",
+   "Pre-BS-VI share above 20% -> require replacement plan before renewal"
+  ],
+  [
+   "Commodity and freight cost tracker (monthly)",
+   "Margin compression with price hikes failing -> ask for pass-through evidence"
+  ],
+  [
+   "Bank credit vs IIP gap (monthly)",
+   "Gap widening beyond 7.8 pp -> tighten new sanctions to cash-flow-backed only"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Delhi BS-VI/BS-IV ban halts 60,000 Gurugram commercial vehicles, hitting local fleet demand.",
+ "articles": [
+  {
+   "title": "Gurugram braces for Monday amid Delhi's BS-VI ban on vehicles; roads remain choked for hours",
+   "url": "https://www.tribuneindia.com/news/gurugram/gurugram-braces-for-monday-amid-delhis-bs-vi-ban-on-vehicles-nh-48-choked-for-hours/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Delhi BS-IV Ban: 60,000 Gurugram commercial vehicles hit",
+   "url": "https://www.tribuneindia.com/news/gurugram/delhi-bs-iv-ban-60000-gurugram-commercial-vehicles-hit/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Delhi pollution curbs: BS-VI ban hits 60,000 commercial vehicles in Gurugram",
+   "url": "https://www.newindianexpress.com/delhi/2026/Nov/01/delhi-pollution-curbs-bs-vi-ban-hits-60000-commercial-vehicles-in-gurugram",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14% - CNBC TV18 - M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14%",
+   "url": "https://www.cnbctv18.com/market/mahindra-and-mahindra-mm-q4-results-volumes-realisation-suv-tractor-guidance-share-price-19898900.htm#1",
+   "date": "2026-05-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Page 3 - Tata Motors - Sunday, October 25, 2026 | 08:00 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/topic/tata-motors/page-3#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto Q1 Earnings: Export-Focused OEMs May Weather Margin Pressure Better, Says Nirmal Bang's Yash Agrawal - Auto companies are likely to report healthy revenue growth for the June quarter on the back of robust volume growth across vehic...",
+   "url": "https://www.ndtvprofit.com/markets/auto-q1-earnings-export-focused-oems-may-weather-margin-pressure-better-says-nirmal-bangs-yash-agrawal-11800307?pfrom=mailchimp&utm_campaign=mailchimp#1",
+   "date": "2026-07-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "| Industry | Key reasons for rating action in the second half of 2015-16 | Outlook for the medium term |",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/publications/ratings-roundup/RRUH2-16-formatted_v4_April4_secured_Publishing.pdf#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA assesses the ability of a manufacturer to generate healthy cash flows to reinvest in the business and meet its debt- servic...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/342~Auto%20Component%20Suppliers,%20Rating%20Methodology,%20Jun%202016%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "As this methodology highlights, while undertaking the credit assessment of entities, ICRA seeks to incorporate all the relevant ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/778~Commercial%20Vehicles#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 100 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,158 @@
+{
+ "key": "mh_pune|vehicle_oem",
+ "state": "MH",
+ "city": "mh_pune",
+ "ind": "vehicle_oem",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:03 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Pune auto OEM and its tier-1/tier-2 supply chain, but only against verified order books and with monthly stock and receivable reporting; avoid pure EV-bus startups riding subsidy and payment cycles.",
+ "title": "Pune cars & commercial vehicles (OEM): a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Pune auto OEM or tier-1 supplier turns steel, castings, electronics and labour into vehicles or sub-assemblies, and gets paid weeks after the vehicle leaves the gate.** Cash sits in raw material and work-in-progress inventory, in receivables from the OEM, and in tooling and plant capex; the OEM holds pricing power, the supplier mostly does not. **So when a proposal lands, check who the end customer is and what share of the borrower's revenue that one OEM takes; if one buyer is above roughly half of sales, ask for the supply agreement and payment terms in writing.**",
+  "## What has changed now\n**National output is running far ahead of the money lent against it.** IIP for NIC 29 is +25.2% YoY and +19.2% Apr-to-date [D], while bank credit to the sector is +27.0% YoY [D] — a +7.8 pp gap [D]. Maharashtra GST is +8.6% Apr-to-date against India +6.1% [D], so Pune's local demand is holding up. **Peer results are strong but margins are the soft spot:** M&M auto revenue +25% to ₹31,115 crore with EBIT margin 9.5% [5]; Tata Motors CV net profit ₹2,560 crore on volumes +26%, with commodity inflation prompting price hikes [6]; Q4FY26 auto EBITDA growth was seen at about 21% with commodity risk flagged [4]. **So when a proposal lands, check the borrower's gross margin trend over the last four quarters; if margins are falling while volumes rise, ask for the price-revision clause with the OEM.**",
+  "## Where the growth is\n**Pursue tier-1 and tier-2 suppliers with a confirmed purchase order from an established Pune OEM, and the used-car and service ecosystem.** Pune dealers report pre-owned bookings up 40% since last year on affordability and easy financing [2]. **So when an EV-bus proposal lands, check the PM-eBus Sewa payment-security cover and the actual registration share; if the borrower's share is small and receivables are from state transport undertakings, ask for the escrow or payment-security arrangement before sanctioning.**",
+  "## How to grow safely\n**Structure against the order book, not the balance sheet.** Take monthly stock and receivable statements, a quarterly stock audit, and a covenant that receivables from any single OEM stay below an agreed share. **Take every month: the sales register, the top-five debtor ageing, and the inventory ageing.** Where the borrower is a supplier, insist on assignment of receivables or a tripartite arrangement with the OEM. **If the borrower is a used-car dealer, check the financing tie-up and the ticket size; if subvention is withdrawn, ask how the 40% booking growth [2] holds.**",
+  "## Early-warning signs\n**Watch the receivable days and the inventory days together.** If receivable days stretch beyond the agreed limit for two months, cut the drawing power and ask for the OEM's payment confirmation. **If a supplier's order book falls while the OEM's output is rising, the borrower is losing share — ask for the latest purchase-order schedule.** On the EV side, if registrations do not track the claimed order book [1], treat the order book as unconfirmed."
+ ],
+ "watch": [
+  [
+   "Monthly receivable ageing",
+   "Receivable days exceed agreed limit for two months -> cut drawing power and seek OEM payment confirmation"
+  ],
+  [
+   "Monthly sales register vs OEM schedule",
+   "Borrower volumes fall while OEM output rises -> ask for latest purchase-order schedule and reassess share"
+  ],
+  [
+   "Quarterly EV registration share",
+   "Registrations do not track claimed order book -> treat order book as unconfirmed and hold new limits"
+  ],
+  [
+   "Monthly inventory ageing",
+   "Finished-goods inventory ages beyond agreed days -> require stock audit and reduce limit"
+  ],
+  [
+   "Quarterly gross margin",
+   "Margin falls while volumes rise -> ask for price-revision clause with OEM"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Output and GST growth support lending; credit growth outpaces output, so structure tightly.",
+ "articles": [
+  {
+   "title": "EKA Mobility expands manufacturing footprint",
+   "url": "https://yourstory.com/2026/11/eka-mobility-expands-manufacturing-footprint",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Affordability & easy financing drive pre-owned car demand in Pune this festive season; dealers say bookings rise by 40% since last year",
+   "url": "https://timesofindia.indiatimes.com/city/pune/affordability-easy-financing-drive-pre-owned-car-demand-in-pune-this-festive-season-dealers-say-bookings-rise-by-40-since-last-year/articleshow/135410995.cms",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "राज्यात 50 हजार इलेक्ट्रिक बसेस आणणार; मुख्यमंत्री देवेंद्र फडणवीस यांची घोषणा | Navarashtra",
+   "url": "https://www.navarashtra.com/maharashtra/pune/50000-electric-buses-to-be-introduced-in-maharashtra-announcement-by-cm-devendra-fadnavis-nrka-1370243.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14% - CNBC TV18 - M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14%",
+   "url": "https://www.cnbctv18.com/market/mahindra-and-mahindra-mm-q4-results-volumes-realisation-suv-tractor-guidance-share-price-19898900.htm#1",
+   "date": "2026-05-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Page 3 - Tata Motors - Sunday, October 25, 2026 | 08:00 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/topic/tata-motors/page-3#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto Q1 Earnings: Export-Focused OEMs May Weather Margin Pressure Better, Says Nirmal Bang's Yash Agrawal - Auto companies are likely to report healthy revenue growth for the June quarter on the back of robust volume growth across vehic...",
+   "url": "https://www.ndtvprofit.com/markets/auto-q1-earnings-export-focused-oems-may-weather-margin-pressure-better-says-nirmal-bangs-yash-agrawal-11800307?pfrom=mailchimp&utm_campaign=mailchimp#1",
+   "date": "2026-07-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| Industry | Key reasons for rating action in the second half of 2015-16 | Outlook for the medium term |",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/publications/ratings-roundup/RRUH2-16-formatted_v4_April4_secured_Publishing.pdf#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA assesses the ability of a manufacturer to generate healthy cash flows to reinvest in the business and meet its debt- servic...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/342~Auto%20Component%20Suppliers,%20Rating%20Methodology,%20Jun%202016%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "As this methodology highlights, while undertaking the credit assessment of entities, ICRA seeks to incorporate all the relevant ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/778~Commercial%20Vehicles#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 100 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

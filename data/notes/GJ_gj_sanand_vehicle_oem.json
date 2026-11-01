@@ -1,0 +1,154 @@
+{
+ "key": "gj_sanand|vehicle_oem",
+ "state": "GJ",
+ "city": "gj_sanand",
+ "ind": "vehicle_oem",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Sanand auto OEM and tier-1 supply chain, but only to borrowers with contracted volumes and a clean flood-contingency record; avoid single-model, single-customer units.",
+ "title": "Sanand cars & commercial vehicles (OEM): a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nSanand is an assembly town: press shops, weld and paint lines, and tier-1 feeders that turn steel, aluminium, plastics and electronics into vehicles, paid for by OEMs on negotiated schedules. **Cash sits with the OEM until the vehicle is invoiced to a dealer; the tier-1 supplier waits behind that.** Tata Motors runs the Sanand hub, building its highest-volume models — Tiago, Tigor, Nexon and Sierra [3] — and had committed to 2 lakh EVs a year at the ex-Ford Sanand plant with an additional Rs 2,000 crore of investment [2]. Treat that plant figure as a stated plan, not a verified output number.\n\n## What has changed now\n**The immediate local event is weather, not demand.** Heavy Gujarat rain and flooding halted production at Tata's Sanand plants and at several supplier units; the company told the exchange that damage assessment was under way and insurance cover existed, with recovery unclear [3]. Note the date — that report is from July 2026, so ask what has actually restarted. Demand itself is firm: Tata's Q1 FY27 net profit rose 83% to Rs 2,560 crore on volumes up 26%, with commodity inflation prompting price increases [6]. Peers echo the pattern — M&M's automotive revenue grew 25% to Rs 31,115 crore with EBIT margin at 9.5% [5], while analysts expect margin pressure from raw material and freight costs [7]. **Volume is not the risk; margin and working capital are.**\n\n## Where the growth is\n**Lend to tier-1 and tier-2 feeders with purchase orders from more than one OEM, and to logistics and warehousing serving the Sanand belt.** The data pack shows India-wide NIC 29 output up 25.2% YoY and 19.2% Apr-to-date [D], with Gujarat GST collections up 11.9% against India's 6.1% [D] — a genuine local tailwind. Bank credit to the sector is growing 27.0% against 19.2% output [D], so **part of what you will see is leverage, not demand**; when a proposal lands, check whether the loan is funding capacity or funding a receivable that is not yet due. Avoid single-model, single-OEM converters and anyone whose entire order book is one EV programme still in planning.\n\n## How to grow safely\nStructure against the receivable, not the balance sheet: **charge on receivables and inventory, monthly stock-and-book-debt statements, and a drawing power that moves with them.** Take monthly GST returns, e-way bills and OEM payment advices; quarterly, take the customer-wise sales mix. Ask every borrower for their flood and business-interruption cover and the claim status from July [3] — if cover is absent, price it in or decline. Sources say little specific about Sanand's own credit behaviour, so lean on first principles and the peer numbers above.\n\n## Early warning signs\n- **OEM schedule cuts or deferred payments** — if a tier-1's receivable days stretch beyond its own stated terms, ask for the OEM correspondence before renewing.\n- **Model concentration** — if one model is over half of sales, ask what happens to the line when that model is refreshed.\n- **Margin squeeze** — if gross margin falls while volumes rise, check whether price increases [6] are actually passing through.\n- **Insurance gaps** — if the July flood claim is still unsettled, treat it as a cash-flow item, not a footnote."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns and e-way bills (monthly)",
+   "Turnover falls below the sanctioned drawing power for two months -> cut limit and ask for OEM schedule"
+  ],
+  [
+   "Receivable ageing vs OEM payment advices (monthly)",
+   "Days beyond agreed terms widen -> seek OEM confirmation and reprice"
+  ],
+  [
+   "Flood insurance claim status (monthly until settled)",
+   "Claim unsettled past 90 days -> treat as stressed and review facility"
+  ],
+  [
+   "Customer concentration (quarterly)",
+   "Single OEM or model above half of sales -> cap exposure and require diversification plan"
+  ],
+  [
+   "Commodity cost pass-through (quarterly)",
+   "Gross margin falls while volumes rise -> ask for price-increase evidence [6]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "July 2026 floods halted Sanand production and supplier units; restart and insurance recovery unconfirmed.",
+ "articles": [
+  {
+   "title": "Exclusive: Tata Motors Readies Mid-Size SUV Kuno To Challenge MG Windsor In 2027-2028 | Autocar Professional",
+   "url": "https://www.autocarpro.in/news/exclusive-tata-motors-readies-kuno-crossover-ev-to-challenge-mg-windsor-in-2027-2028-135573",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Sanand Plant: Latest News, Photos, Videos on Sanand Plant - NDTV.COM - Advertisement",
+   "url": "https://www.ndtv.com/topic/sanand-plant#1",
+   "date": "2026-10-17",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "TATA Sanand plant: टाटाच्या ग्राहकांना धक्का! गाड्यांचे उत्पादन बंद; 'या' कारची डिलिव्हरी लांबणार?",
+   "url": "https://marathi.ndtv.com/india/tata-motors-says-production-at-sanand-plants-disrupted-due-to-heavy-rains-11836570?pfrom=home-ndtv-india_marathi",
+   "date": "2026-07-28",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14% - CNBC TV18 - M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14%",
+   "url": "https://www.cnbctv18.com/market/mahindra-and-mahindra-mm-q4-results-volumes-realisation-suv-tractor-guidance-share-price-19898900.htm#1",
+   "date": "2026-05-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Page 3 - Tata Motors - Sunday, October 25, 2026 | 08:00 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/topic/tata-motors/page-3#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto Q1 Earnings: Export-Focused OEMs May Weather Margin Pressure Better, Says Nirmal Bang's Yash Agrawal - Auto companies are likely to report healthy revenue growth for the June quarter on the back of robust volume growth across vehic...",
+   "url": "https://www.ndtvprofit.com/markets/auto-q1-earnings-export-focused-oems-may-weather-margin-pressure-better-says-nirmal-bangs-yash-agrawal-11800307?pfrom=mailchimp&utm_campaign=mailchimp#1",
+   "date": "2026-07-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "| Industry | Key reasons for rating action in the second half of 2015-16 | Outlook for the medium term |",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/publications/ratings-roundup/RRUH2-16-formatted_v4_April4_secured_Publishing.pdf#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA assesses the ability of a manufacturer to generate healthy cash flows to reinvest in the business and meet its debt- servic...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/342~Auto%20Component%20Suppliers,%20Rating%20Methodology,%20Jun%202016%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "As this methodology highlights, while undertaking the credit assessment of entities, ICRA seeks to incorporate all the relevant ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/778~Commercial%20Vehicles#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 100 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

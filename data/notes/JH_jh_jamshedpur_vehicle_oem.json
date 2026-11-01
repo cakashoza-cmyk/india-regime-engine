@@ -1,0 +1,158 @@
+{
+ "key": "jh_jamshedpur|vehicle_oem",
+ "state": "JH",
+ "city": "jh_jamshedpur",
+ "ind": "vehicle_oem",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:02 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Jamshedpur auto OEM and its dealer/supplier chain, but only against verified order books and monthly stock-and-receivable data; avoid pure luxury-dealer and single-OEM-dependent borrowers.",
+ "title": "Jamshedpur Cars & Commercial Vehicles (OEM): a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nJamshedpur is a Tata Motors CV mother-plant town, so the local economy is a chain of vehicle assembly, dealer showrooms, body-builders, transporters and component feeders. **Cash is made on throughput and turnover, not on price: OEM sets the price, the dealer and supplier absorb the swing.** The plant sold over 2 lakh heavy vehicles in six months with a 28% sales jump [2], and the company reported net profit of ₹1,300 crore with CV sales up 42% [2]. So when a proposal lands, check whether the borrower's order book traces to that plant's schedule; if it does not, ask which OEM it actually serves.",
+  "## Where value and cash sit\n**Value sits in the OEM's brand and model mix; cash sits in the dealer's floor-plan and the supplier's receivables.** Margins are thin and commodity-linked: peers flag margin pressure from raw material and freight even as volumes stay strong [4][7], and Tata Motors raised prices on commodity inflation [6]. Working capital is the real risk — inventory funded on OEM credit, receivables from a single buyer. Capex is modest for dealers, heavy for body-builders. Collect from customer the receivable days, inventory days and OEM credit period before you size any limit.",
+  "## What has changed now\n**Demand is genuinely strong locally and nationally.** India IIP for NIC 29 is +25.2% YoY and +19.2% Apr-to-date [D], and Jharkhand electricity demand is +15.2% Apr-to-date against India's +9.5% [D]. But bank credit is growing +27.0% YoY against output +19.2%, a +7.8 pp gap [D] — **lending is running ahead of the real economy, so the discipline has to come from us.** Note the local sources are October 2026 and current; the peer results are Q4FY26 and Q1FY27, and the rating methodologies are undated and old.",
+  "## Where to grow, and how to grow safely\n**Pursue CV dealers and body-builders tied to the Jamshedpur plant, component feeders with a purchase order from the OEM, and fleet operators replacing vehicles.** Avoid single-luxury-model showrooms like the Land Cruiser buyer [1] — that is one-off wealth, not a lending segment — and avoid any borrower whose entire book is one OEM with no written supply agreement. Structure against the order book: cash-flow-backed limits, monthly stock and receivable statements, and a covenant that receivables from any one buyer stay below a stated share. Take every month the OEM schedule, the stock statement and the bank statement of the operating account.",
+  "## Early-warning signs\n**Watch the gap between credit growth and output [D] and the margin squeeze peers are already reporting [4][7].** If a borrower's inventory days rise while sales hold, the OEM is pushing stock onto the dealer — cut the limit. If a supplier's receivable days stretch past the OEM's stated credit period, ask for the OEM payment advice. If commodity-driven price hikes [6] start denting retail offtake, shift new sanctions to fleet and component borrowers with multi-OEM exposure."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement (monthly)",
+   "inventory days rise while sales flat -> freeze fresh drawing and ask for OEM dispatch schedule"
+  ],
+  [
+   "OEM payment advice / receivable ageing (monthly)",
+   "receivable days exceed OEM credit period -> downgrade internal rating and seek buyer confirmation"
+  ],
+  [
+   "Jharkhand vehicle registration and sales data (monthly)",
+   "two consecutive months of falling registrations -> shift new sanctions to multi-OEM borrowers"
+  ],
+  [
+   "Bank credit vs IIP NIC 29 gap [D] (monthly)",
+   "gap widens further beyond +7.8 pp -> tighten limits on dealer floor-plan exposure"
+  ],
+  [
+   "Commodity price and OEM price-hike news (quarterly)",
+   "price hikes without volume support -> reduce exposure to single-model showrooms"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Local CV sales up 28% and 42%, September sales +7.9%, IIP NIC 29 +25.2% YoY.",
+ "articles": [
+  {
+   "title": "पोर्ट पर उतरते ही डिलीवरी : जमशेदपुर में बिकीं ढाई करोड़ की लैंड क्रूजर, जानिए Dhanteras पर कारों का ट्रेंड",
+   "url": "https://org374nextwww.jagran.com/jharkhand/jamshedpur-jamshedpur-dhanteras-luxury-car-sales-boom-evs-hybrids-trend-40424349.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "जमशेदपुर मदर प्लांट बना सफलता की धुरी: 6 महीने में बेचे 2 लाख से अधिक भारी वाहन, बिक्री में 28 का उछाल - tata motors cv sales soar 28 in h1 jamshedpur plant key",
+   "url": "https://org432akamprepod.jagran.com/jharkhand/jamshedpur-tata-motors-cv-sales-soar-28-in-h1-jamshedpur-plant-key-40417632.html",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Jamshedpur News: ऑटो बाजार ने पकड़ी रफ्तार, सितंबर में वाहन बिक्री 7.9 फीसदी बढ़ी : भालोटिया",
+   "url": "https://www.livehindustan.com/jharkhand/jamshedpur/story-significant-growth-in-jharkhand-s-auto-market-7-9-increase-in-vehicle-sales-in-september-201791352586570.html",
+   "date": "2026-10-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14% - CNBC TV18 - M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14%",
+   "url": "https://www.cnbctv18.com/market/mahindra-and-mahindra-mm-q4-results-volumes-realisation-suv-tractor-guidance-share-price-19898900.htm#1",
+   "date": "2026-05-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Page 3 - Tata Motors - Sunday, October 25, 2026 | 08:00 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/topic/tata-motors/page-3#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto Q1 Earnings: Export-Focused OEMs May Weather Margin Pressure Better, Says Nirmal Bang's Yash Agrawal - Auto companies are likely to report healthy revenue growth for the June quarter on the back of robust volume growth across vehic...",
+   "url": "https://www.ndtvprofit.com/markets/auto-q1-earnings-export-focused-oems-may-weather-margin-pressure-better-says-nirmal-bangs-yash-agrawal-11800307?pfrom=mailchimp&utm_campaign=mailchimp#1",
+   "date": "2026-07-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "| Industry | Key reasons for rating action in the second half of 2015-16 | Outlook for the medium term |",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/publications/ratings-roundup/RRUH2-16-formatted_v4_April4_secured_Publishing.pdf#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA assesses the ability of a manufacturer to generate healthy cash flows to reinvest in the business and meet its debt- servic...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/342~Auto%20Component%20Suppliers,%20Rating%20Methodology,%20Jun%202016%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "As this methodology highlights, while undertaking the credit assessment of entities, ICRA seeks to incorporate all the relevant ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/778~Commercial%20Vehicles#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 100 x 0.6 + Jharkhand 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Jharkhand: electricity demand +15.2% Apr-to-date vs India +9.5% (5.7 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
