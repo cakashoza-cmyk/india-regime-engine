@@ -1,0 +1,154 @@
+{
+ "key": "ka_bengaluru|apparel",
+ "state": "KA",
+ "city": "ka_bengaluru",
+ "ind": "apparel",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 40,
+ "nudged_by_news": false,
+ "verdict": "Avoid new readymade garment exposure in Bengaluru for now; lend only to domestic-focused, low-leverage job-work and made-ups units with tight monthly structure, and decline export-order-dependent and brand-led borrowers.",
+ "title": "Bengaluru Readymade Garments & Made-ups: a note to the credit manager",
+ "narrative": [
+  "Pricing power is thin against large buyers, so margin is made on fabric sourcing and capacity utilisation. Collect from customer: fabric cost as share of sales, receivable days, and capacity utilisation. ## What has changed now\n**National output is falling while bank credit to the sector is rising fast: IIP NIC 14 is -7.4% YoY and -5.6% Apr-to-date [D], yet bank credit is +23.3% YoY against that output fall [D].** Exports are -6.2% Apr-to-date in USD [D]. That gap means lenders are funding inventory and receivables that are not converting. Peer results split the same way: Raymond Lifestyle's garmenting order book runs to mid-Feb'27 with European traction [4], while Sangam's net profit fell to Rs.4.3 Cr in Q4 FY26 from Rs.12.8 Cr [5] and KKCL flags discretionary demand softness [6]. Local Bengaluru coverage is thin; the two local items are an online saree-sale cancellation [2] and a Rs.30 lakh fake-jeans seizure [3], so lean on first principles and peers here. ## Where to grow\n**Pursue domestic-focused job-work and made-ups units supplying Karnataka's own retail and institutional buyers, and small units with a single anchor customer and no export dependence.** Avoid pure export converters and brand-led firms carrying high raw material and freight costs [4]. When a proposal lands, check the buyer mix; if more than half of sales are export orders, ask for the confirmed order book and buyer payment history before sizing the limit. ## How to grow safely\n**Structure every limit as a cash-flow facility against verified invoices, not a clean OD, and take stock and receivable statements every month.** Set a drawing-power cap at a stated percentage of eligible receivables and inventory; collect from customer the exact percentage. Covenant a minimum current ratio and a debt-to-EBITDA ceiling, and take monthly stock statements, quarterly GST returns and buyer-wise ageing. If receivables age past the stated limit, stop further drawings until cleared. ## Early-warning signs\n**Watch inventory days rising while sales fall, and receivables stretching beyond agreed terms, because that is exactly the credit-versus-output gap showing up at the borrower.** If a unit's order book shortens or a key buyer delays payment, cut the limit and move to invoice-backed drawing only. If GST turnover diverges from bank statements, treat it as a stop signal."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Inventory days rise two months running -> freeze fresh drawings"
+  ],
+  [
+   "Quarterly GST returns vs bank turnover",
+   "Gap over 10% -> ask for buyer confirmations and re-rate limit"
+  ],
+  [
+   "Buyer-wise ageing (monthly)",
+   "Any invoice past agreed terms -> stop drawing until cleared"
+  ],
+  [
+   "Order book update (monthly)",
+   "Order book shortens below one quarter -> reduce limit"
+  ],
+  [
+   "Export order share (quarterly)",
+   "Export share crosses half of sales -> require confirmed orders before enhancement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Output -7.4% YoY and exports -6.2% while bank credit grows +23.3%, so funding outruns real sales.",
+ "articles": [
+  {
+   "title": "Garment Sector - Friday, October 09, 2026 | 06:50 AM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/topic/garment-sector#1",
+   "date": "2026-10-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "மைசூரு பட்டு சேலைகள் ஆன்லைன் விற்பனை ரத்து",
+   "url": "https://l-www.dinamalar.com/news/bengaluru/online-sale-of-mysore-silk-sarees-cancelled/4169767",
+   "date": "2026-03-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "போலி ஜீன்ஸ் தயாரிப்பு ரூ.30 லட்சம் ஆடை பறிமுதல்",
+   "url": "https://www.dinamalar.com/news/bengaluru/fake-jeans-manufacturing-clothing-worth-rs-30-lakh-seized/3968564",
+   "date": "2025-06-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Royalton Lifestyle",
+   "url": "https://investmentguruindia.com/editorial/uploads/news-pdf/0961568a_RAYMONDL-20261029-MOFSL-RU-PG012.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sangam (India) Limited",
+   "url": "https://www.perplexity.ai/app/finance/SANGAMIND.BO?preset=peers&symbol=GHCLTEXTIL.NS&comparing=GHCLTEXTIL.NS%2CWELSPUNLIV.BO%2CARVIND.NS%2CRAYMONDLSL.BO%2CPAGEIND.BO%2CKPRMILL.BO%2CTRIDENT.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Kewal Kiran Clothing Limited",
+   "url": "https://www.perplexity.ai/app/finance/KKCL.BO?comparing=KKCL.BO%2CPGIL.BO%2CRUPA.NS%2CDOLLAR.BO%2CWELSPUNLIV.BO%2CGOKEX.NS&preset=peers&symbol=LUXIND.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Growth in the readymade garment sector will be driven by the domestic market",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/views-and-commentaries/sector-round-up/2022/october/steady-ascent.pdf#5#5#5",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Growth in the readymade garment sector will be driven by the domestic market",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/views-and-commentaries/sector-round-up/2022/october/steady-ascent.pdf#5#5#5",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 40 (national 0 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 14 output -7.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -5.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -6.2% Apr-to-date in USD (Rs 69,301 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +23.3% YoY vs output -5.6% (gap +28.9 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

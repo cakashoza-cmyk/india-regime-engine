@@ -1,0 +1,150 @@
+{
+ "key": "mh_ichalkaranji|cotton_textiles",
+ "state": "MH",
+ "city": "mh_ichalkaranji",
+ "ind": "cotton_textiles",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Ichalkaranji cotton spinning and yarn, but only to spinners with captive processing or diversified buyers and tight monthly stock-and-receivable discipline; avoid pure greige weavers and single-buyer converters until the loom shutdown and the stuck-stock problem clear.",
+ "title": "Ichalkaranji cotton spinning & yarn: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A spinning unit buys cotton, converts it into yarn, and sells to weavers, knitters and traders; cash is made on the spread between cotton cost and yarn realisation, not on volume.** Ichalkaranji is India's largest greige fabric cluster at about 4,296 million metres a year [3], so the yarn demand here is derived demand from the loom floor. When the looms stop, yarn offtake stops with them. **That is exactly what has happened: about 15,000 airjet looms now run a 24-hour weekly shutdown to cut losses from the textile slowdown [1].** So when a proposal lands, check how much of the borrower's yarn goes to Ichalkaranji looms versus outside buyers; if it is mostly local loom supply, ask what share of capacity the buyer has idled. ## What the peers say\n**Large spinners are doing well on yarn realisation: Nitin Spinners reported its highest-ever quarterly revenue of Rs 875 crore, up 10.3% YoY, with EBITDA margin at 17.78%, up 376 basis points YoY [4].** Sportking's Q1FY26 revenue fell 7.6% YoY to Rs 585.8 crore but EBITDA margin improved 40 basis points to 12.0%, with exports about 58% of revenue and up about 18% YoY [5]. **The lesson is that export-linked and integrated spinners are holding margin while local greige-only players absorb the shock.** Note the Sportking result is from Q1FY26, older than the Nitin Q1FY2027 call [4][5]. Rating methodology is clear that weaving is fixed-capital and working-capital intensive, and that leverage and receivable stretch drive vulnerability in a downturn [8][9][10]. ## How to grow safely\n**Pursue spinners with captive processing or a finishing tie-up, exporters with a diversified buyer base, and units moving into MMF and blends [3].** Avoid stand-alone greige weavers and single-buyer converters exposed to the Rajasthan processing shutdown [2]. Structure working capital against stock and receivables with a monthly stock statement and a drawing-power linked to ageing; take the buyer-wise sales register every month, and a quarterly CMA. **Maharashtra GST collections are running 8.6% Apr-to-date versus India's 6.1% [D], and India-wide IIP for NIC 13 is up 13.1% YoY with bank credit up 15.2% against output up 11.9% [D] — the credit gap means discipline matters more than appetite.**\n\n## Early-warning signs\n**Watch the weekly loom shutdown extending beyond one day, receivable days crossing the borrower's own six-month average, and any shift of sales to cash-and-carry buyers.** If the borrower's yarn despatch to Ichalkaranji falls for two straight months, cut drawing power before the quarter closes."
+ ],
+ "watch": [
+  [
+   "Weekly loom operating status of key buyers",
+   "Shutdown extends beyond one day a week -> cut exposure to that buyer's yarn suppliers"
+  ],
+  [
+   "Monthly realisation per kg versus cotton cost",
+   "Spread compresses two months running -> reprice or exit at renewal"
+  ],
+  [
+   "Monthly GST returns versus bank credits",
+   "GST turnover trails bank credits -> ask for reconciliation before next disbursement"
+  ],
+  [
+   "Quarterly buyer concentration",
+   "Top buyer crosses 40% of sales -> demand a diversification plan"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "15,000 looms shut weekly and Rs 500 crore fabric stuck in Rajasthan signal local demand stress.",
+ "articles": [
+  {
+   "title": "Ichalkaranji Textile Industry: १५ हजार एअरजेट लूम आठवड्यातून एकदा २४ तास बंद; वस्त्रोद्योगातील मंदीचा जबर आर्थिक फटका कमी करण्यासाठी असोसिएशनचा निर्णय",
+   "url": "https://www.esakal.com/kokan/ichalkaranji-textile-industry-airjet-looms-15-thousand-24-hour-shutdown-textile-slowdown-asi01",
+   "date": "2026-08-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ichalkaranji textile industry | ५०० कोटी रुपयांचे उत्पादित कापड पडून",
+   "url": "https://pudhari.news/maharashtra/kolhapur/10-crore-metres-of-ichalkaranji-fabric-stuck-in-rajasthan-as-processing-houses-remain-shut-ap84",
+   "date": "2026-08-14",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ichalkaranji Textile Cluster Evolves to Value-Added Powehouse | Apparel Resources 发布的此话题相关的动态 | 领英 - Ichalkaranji Textile Cluster Evolves to Value-Added Powehouse",
+   "url": "https://www.linkedin.com/posts/apparel-resources_ichalkaranji-textilecluster-valueaddition-activity-7453053507835936769-PWWb#1",
+   "date": "2026-04-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Nitin Spinners Ltd (BOM:532698) (Q1 2027) Earnings Call Highlights: Record Revenue and Margin ... By GuruFocus - Nitin Spinners Ltd (BOM:532698) (Q1 2027) Earnings Call Highlights: Record Revenue and Margin ...",
+   "url": "https://ca.investing.com/news/company-news/nitin-spinners-ltd-bom532698-q1-2027-earnings-call-highlights-record-revenue-and-margin--4802312#1",
+   "date": "2026-08-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SPORTKING INDIA LTD. : Latest Quarterly Results Analysis - ICICI Direct - Skip to main content",
+   "url": "https://icicidirect.com/research/equity/rapid-results/sportking-india-ltd#1",
+   "date": "2026-02-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1720408&opt=RAN&secid=3&subsecid=110&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "SUTLEJ TEXTILES AND INDUSTRIES LIMITED",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6800496d-cf48-457f-b0bc-8d6de41e4853.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Criteria for the Cotton Textile Industry",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/consumer-discretionary/archive/CRISIL-Ratings-crieria-cotton-textile-industry_2007.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 83 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

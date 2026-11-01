@@ -1,0 +1,150 @@
+{
+ "key": "up_khurja|ceramics",
+ "state": "UP",
+ "city": "up_khurja",
+ "ind": "ceramics",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 71,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Khurja ceramics, but only to gas-contract-backed units with verified kiln utilisation; avoid units still running on spot LPG or with cold kilns.",
+ "title": "Khurja Ceramic Tiles, Sanitaryware & Glass: a note to the credit manager",
+ "narrative": [
+  "The kiln is the whole business; if it is cold, nothing converts. So when a proposal lands, check the gas supply contract and the last three months of kiln running days before you look at anything else. ## Where value and cash sit\n**Fuel is the swing cost, and it has broken: piped gas that hovered around Rs 49 per kg before the West Asia conflict shot to Rs 120 per kg at peak and sits near Rs 90 per kg now [1].** That is the pricing-power test. A unit that cannot pass this through is losing money on every firing. Kajaria's Q1 shows the other side: revenue up 20% on tile realisations up 11% and bathware up 16%, with margins expanding 266 basis points [5][6]. So when a proposal lands, ask for the last six months' gas bills and selling prices side by side; if realisations have not moved with gas, ask how the gap is funded. The official pack is more constructive: UP GST collections up 14.2% Apr-to-date against India's 6.1%, and IIP for NIC 23 output up 11.4% YoY [D]. Peer results confirm demand is intact but gas-constrained: Somany grew revenue 6% at an 11.4% EBITDA margin in Q4 FY26 [7]. The gap between cluster distress and national demand is exactly where selection matters. ## Where to grow, and how to grow safely\n**Pursue units with a piped-gas connection, ODOP export orders, and a product mix shifting to higher-realisation bathware and tiles; the ODOP push is opening global markets for Khurja pottery [2][3].** Avoid pure spot-LPG crockery units with no export order book and no price-pass-through. Structure as working capital against verified gas bills and order confirmations, with a covenant that kiln running days do not fall below a stated floor. Take monthly: gas consumption and per-kg rate, kiln running days, sales realisation per unit, and debtor ageing. Kajaria's own rating history shows the safe shape: negligible long-term debt, working capital lines used only for a few months, and large cash buffers [9][11]. ## Early-warning signs\n**Watch for a unit drawing term debt to fund fuel, which converts a working-capital shock into a solvency problem.** ICRA flags exactly this: debt-funded capex or a stretched working capital cycle weakening liquidity leads to rating pressure [10]. If monthly gas rate crosses the peak seen in the local report and realisations stay flat, stop fresh limits and ask for the order book. If kiln running days drop below the covenant floor, move to stock and receivable review."
+ ],
+ "watch": [
+  [
+   "Gas rate and kiln running days (monthly)",
+   "rate above the peak cited locally with flat realisations -> freeze fresh limits"
+  ],
+  [
+   "Term debt drawdown (quarterly)",
+   "any term loan raised to fund fuel -> treat as solvency signal, escalate"
+  ],
+  [
+   "ODOP export order book (quarterly)",
+   "order book falls below three months of sales -> reduce limit"
+  ],
+  [
+   "GST filings and turnover (monthly)",
+   "turnover drop against prior quarter -> recheck kiln utilisation"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local report shows cold kilns and doubled gas prices; peers confirm gas-constrained output.",
+ "articles": [
+  {
+   "title": "“The factory feels so cold. You must think that’s because of the clay, but it’s actually because the furnace isn’t running.” Standing inside his plant",
+   "url": "https://www.egltours.com/promotion/fit_banner/actualLive.html?live-news-2918468-2026-04-11-the-factory-feels-so-cold-you-must-think-that-s-because-of-the-clay-but-it-s-act",
+   "date": "2026-09-24",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Uttar Pradesh's Khurja pottery gets a new push under ODOP, reaches global markets - Uttar Pradesh's Khurja pottery gets a new push under ODOP, reaches global markets",
+   "url": "https://www.indiatoday.in/india/story/khurja-pottery-odop-scheme-global-markets-exports-up-utrith-2983508-2026-08-31?utm_source=rss#1",
+   "date": "2026-08-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "UP's Khurja Town Presents Its Trademark Ceramic Pottery In New Avatar - UP's Khurja Town Presents Its Trademark Ceramic Pottery In New Avatar",
+   "url": "https://www.etvbharat.com/en/offbeat/khurja-presents-its-trademark-ceramic-pottery-in-new-avatar-enn26072603703#1",
+   "date": "2026-07-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Kajaria Ceramics posts Q2 2026 beat on sales, profit By Investing.com - Earnings call transcript: Kajaria Ceramics posts Q2 2026 beat on sales, profit",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-kajaria-ceramics-posts-q2-2026-beat-on-sales-profit-93CH-4971440#1",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Kajaria Ceramics eyes volume recovery, steady margins on stronger demand - Though higher gas costs and supply constraints on account of the Iran war hit the entire tile industry, the impact has been grea...",
+   "url": "https://www.business-standard.com/markets/news/kajaria-ceramics-eyes-volume-recovery-steady-margins-on-stronger-demand-126093001004_1.html#1",
+   "date": "2026-09-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Kajaria Ceramics shares surge 5.3% on strong Q1 performance",
+   "url": "https://askfuzz.ai/discover/news/companies/kajaria-ceramics-posts-56-profit-jump-eyes-20-tile-growth",
+   "date": "2026-09-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Somany Ceramics Limited (531548) Earnings Call Transcripts - Latest & Archive",
+   "url": "https://earningscalls.dev/company/531548",
+   "date": "2026-08-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "As on March 31, 2023, the company had unencumbered cash and liquid investments of around \\\\~Rs",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dbcbd68d-63b0-4dd9-9832-3c6ddf4241d4.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Just one question; since we have faced a lot of problem post- COVID situation in India",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff5271bb-8207-429a-b518-cf548e502607.pdf#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 30, 2026",
+   "url": "https://www.icra.in/Rating/ShowRatingRationalReport?id=140660&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126119#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 71 (national 68 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 23 output +11.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +12.4% YoY vs output +10.2% (gap +2.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

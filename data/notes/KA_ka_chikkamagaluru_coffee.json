@@ -1,0 +1,158 @@
+{
+ "key": "ka_chikkamagaluru|coffee",
+ "state": "KA",
+ "city": "ka_chikkamagaluru",
+ "ind": "coffee",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 72,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Chikkamagaluru coffee curing and export, but only to curers with firm export orders and hedged receivables; avoid pure price-speculators holding green coffee inventory.",
+ "title": "Chikkamagaluru Coffee Curing & Export: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A curer buys green coffee from estate growers, cures it (drying, hulling, grading, sorting), and sells to exporters or roasters; cash comes back only after the shipment lands and the buyer pays.** India exports 75% of its coffee, 45% goes to the EU and Italy alone takes 16% [1]. So when a proposal lands, check the buyer list and the destination mix first; if one buyer or one country dominates, ask for the order book and past shipment documents.",
+  "## Where value and cash sit\n**Value sits in grading quality and buyer relationships, not in the drying yard; cash sits in inventory and export receivables.** Peer CCL Products shows the pattern: Q2 FY27 turnover Rs 1,215.99 crore, up 7.8%, with double-digit volume growth but lower realisations because green coffee prices fell [5]. Gross margin still expanded 339 bps to 37.9% [4][6]. So when a proposal lands, check whether growth is volume-led or price-led; if the borrower's turnover rose only because prices rose, ask for volume and realisation separately.",
+  "## What has changed now\n**Green coffee prices have fallen, so realisations are softer even where volumes are fine** [4][5][7]. The Coffee Board has launched the 'Indica Coffee' brand targeting Italy and the UK [1], and a Chikkamagaluru technical fair drew 80-plus companies in September 2026 [2]. Local sources say growers face labour shortage, weather variation and yield decline [2], and tea is spreading alongside coffee [3]. Note the local coverage is thin on curing-unit finances; lean on first principles and the CCL peer.",
+  "## Where to grow, and how to grow safely\n**Pursue curers with confirmed export orders, EU/UK buyer relationships and a domestic instant-coffee fallback; avoid traders who hold green coffee hoping for a price rebound.** Take monthly stock statements, ageing of export receivables and buyer-wise shipment data. Structure against documents-against-payment receivables, since holding period is largely shipment transit time [9]. Cap exposure where more than 80% of export revenue comes from the top two destinations, as seen in peer SNCPL [10].",
+  "## Early-warning signs\n**Watch inventory days rising while shipments fall, and receivables ageing past transit time.** If a borrower's stock grows but dispatch documents do not, ask for the godown register and buyer confirmations. If the top-buyer share crosses the peer benchmark [10], ask for a diversification plan. Currency exposure on export receivables needs a stated hedge policy [11]."
+ ],
+ "watch": [
+  [
+   "Monthly stock and dispatch statement",
+   "Inventory days rise while dispatches fall -> ask for godown register and buyer confirmations"
+  ],
+  [
+   "Monthly export receivable ageing",
+   "Receivables age past shipment transit time -> seek DP/LC confirmation and reduce limit"
+  ],
+  [
+   "Quarterly buyer-wise sales mix",
+   "Top two destinations exceed 80% of export revenue -> ask for diversification plan before enhancement"
+  ],
+  [
+   "Quarterly volume vs realisation split",
+   "Turnover growth purely price-led -> reprice limit to volume-based assessment"
+  ],
+  [
+   "Monthly FX hedge position",
+   "Unhedged export receivables rise -> require hedge cover before next disbursement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Falling green coffee prices cut realisations; peer CCL missed revenue and PAT estimates.",
+ "articles": [
+  {
+   "title": "Coffee: ಜಾಗತಿಕ ಮಾರುಕಟ್ಟೆಯನ್ನು ನಡುಗಿಸಲು ಬಂದ ಚಿಕ್ಕಮಗಳೂರು 'ಇಂಡಿಕಾ ಕಾಫಿ', ವಿಶ್ವದಾದ್ಯಂತ ಘಮಲು ಪಸರಿಸಲು ಬೃಹತ್ ಮಾಸ್ಟರ್ ಪ್ಲಾನ್!",
+   "url": "https://kannada.news18.com/news/chikkamagaluru/indica-coffee-brand-launch-indian-coffee-for-global-market-mnc-svl-local18-ws-l-2452851.html?utm_source=District+Widget&utm_medium=Desktop&utm_campaign=kannada",
+   "date": "2026-07-21",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Coffee Mela: ಕಾಫಿನಾಡಿನಲ್ಲಿ ಹೊಸ ಇತಿಹಾಸ, ಕೃಷಿಯ ಭವಿಷ್ಯ ಬದಲಿಸಲಿದೆ 80ಕ್ಕೂ ಹೆಚ್ಚು ಕಂಪನಿಗಳ ಬೃಹತ್ ಸಮಾವೇಶ! - This is an AMP page demonstrating RUM event tracking via localStorage",
+   "url": "https://kannada.news18.com/amp/news/chikkamagaluru/technical-fair-new-hope-for-chikkamagaluru-coffee-growers-mnc-svl-local18-ws-l-2432853.html#1",
+   "date": "2026-06-26",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "ಕಾಫಿನಾಡಿನಲ್ಲಿ ಕಾಫಿ ಜೊತೆ ಟೀ ಕೃಷಿಗೆ ಹೆಚ್ಚಿದ ಒಲವು: ಮಲೆನಾಡಿನ ಸೊಬಗಿಗೆ ಮತ್ತಷ್ಟು ಮೆರುಗು ತಂದ ಚಹಾ ತೋಟಗಳು - ಕಾಫಿನಾಡಿನಲ್ಲಿ ಕಾಫಿ ಜೊತೆ ಟೀ ಕೃಷಿಗೆ ಹೆಚ್ಚಿದ ಒಲವು: ಮಲೆನಾಡಿನ ಸೊಬಗಿಗೆ ಮತ್ತಷ್ಟು ಮೆರುಗು ತಂದ ಚಹಾ ತೋಟಗಳು",
+   "url": "https://www.etvbharat.com/kn/state/along-with-coffee-tea-farming-has-also-increased-in-chikkamagaluru-kas26051801015#1",
+   "date": "2026-05-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "IGI Logo - Base Effect Moderates Top-Line Growth; Guidance Intact Est",
+   "url": "https://investmentguruindia.com/newsdetail/buy-ccl-products-ltd-india-ltd-for-target-rs-1-255-by-axis-direct165641#1",
+   "date": "2026-10-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "CCL Products (India) Limited",
+   "url": "https://www.perplexity.ai/app/finance/CCL.NS/earnings?eventId=716321",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "IGI Logo",
+   "url": "https://investmentguruindia.com/newsdetail/buy-ccl-products-ltd-india-ltd-for-target-rs-1-255-by-axis-direct165641",
+   "date": "2026-10-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings-led sell-off drags multibagger CCL Products to 7-month low. Can it fall further? Axis Direct rationale | Stock Market News",
+   "url": "https://www.livemint.com/market/stock-market-news/earningsled-sell-off-drags-multibagger-ccl-products-to-7-month-low-can-it-fall-further-axis-direct-rationale-11792400046709.html",
+   "date": "2026-10-18",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 30,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=144643&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "<table><tr><td>Sr",
+   "url": "https://www.bseindia.com/downloads/ipo/Final%20Letter%20of%20Offer_280620231426.pdf#14#20#14",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 26,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=141880&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foreign currency related risksThe foreign currency risk can arise from export- related revenues and receivables that may be un- ...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=847&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 72 (national 53 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Karnataka: GST collections +11.1% Apr-to-date vs India +6.1% (5.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Karnataka: electricity demand +23.3% Apr-to-date vs India +9.5% (13.8 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

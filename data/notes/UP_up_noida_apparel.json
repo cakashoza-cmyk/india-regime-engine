@@ -1,0 +1,154 @@
+{
+ "key": "up_noida|apparel",
+ "state": "UP",
+ "city": "up_noida",
+ "ind": "apparel",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 30,
+ "nudged_by_news": false,
+ "verdict": "Avoid new export-led readymade garment exposure in Noida; lend only to domestic-focused, funded-order borrowers with tight structure.",
+ "title": "Noida Readymade Garments & Made-ups: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA Noida garment unit cuts, stitches and finishes fabric into export or domestic apparel, converting cloth into cash only when a buyer lifts and pays. **Cash sits in fabric inventory and in receivables, not in the sewing floor.** Fabric is the largest cost line and inventory holding plus receivables drive working capital [8]. So when a proposal lands, check the order book and buyer names first; if the buyer list is one or two US accounts, ask for the last six months of order confirmations.",
+  "## What has broken now\nNoida's operational apparel units fell from 2,400 to 1,800 in six months as orders dried up [2], and exporters are cutting output and delaying reopening on US demand weakness and tariff uncertainty [1]. **This is a demand-and-planning shock, not a cost shock.** Nationally, IIP for NIC 14 is -7.4% YoY and -5.6% Apr-to-date [D], and exports are -6.2% Apr-to-date in USD [D]. Bank credit to the sector is +23.3% YoY against that output fall [D], so the system is lending into a shrinking order book. Treat that gap as a warning on peer underwriting, not as comfort.",
+  "## Where growth actually is\nDomestic demand is the growth engine; export-dependent books will moderate [10]. Peer results split the same way: Raymond's garmenting order book runs to mid-Feb'27 with rising European traction [4], while Kewal Kiran's growth leans on festive domestic volume with discretionary softness flagged [6]. **Pursue domestic-brand and made-ups suppliers with confirmed purchase orders, and job-work units tied to a funded buyer.** Avoid pure US-export converters, units with idle shifts, and any borrower whose sanction rests on orders not yet confirmed. Note the sources say little on Noida-specific domestic order flow, so lean on first principles and these peers.",
+  "## How to grow safely\nStructure against the order, not the balance sheet. **Fund a percentage of confirmed receivables, keep inventory out of the drawing power, and take the buyer's payment routing where possible.** Take monthly stock-and-receivable statements, monthly order-book position, and quarterly buyer-wise sales concentration. Ask for the export realisation statement each month where any export exposure remains. The Ministry's TEXPORT capacity programme in Noida through AEPC [3] is a useful signal that compliant, scheme-linked units exist; prefer those.",
+  "## Early-warning signs\n- Unit operating below full shifts or reopening delayed after a shutdown [1][2] -> freeze fresh limits and re-assess the order book.\n- Buyer concentration above two accounts with no confirmed forward orders -> ask for order confirmations and shift to receivable-only funding.\n- Receivable days stretching month on month -> ask for buyer-wise ageing and stop inventory funding.\n- Any proposal resting on unconfirmed US orders -> decline or restructure to confirmed-order backing only."
+ ],
+ "watch": [
+  [
+   "Monthly order-book and shift-utilisation statement",
+   "Idle shifts or delayed reopening -> freeze limits and re-assess"
+  ],
+  [
+   "Monthly buyer-wise sales and receivable ageing",
+   "Concentration rising or ageing stretching -> shift to receivable-only funding"
+  ],
+  [
+   "Monthly export realisation statement (where applicable)",
+   "Realisation delays -> stop inventory funding, seek buyer routing"
+  ],
+  [
+   "Quarterly stock-and-receivable statement",
+   "Inventory build without orders -> reduce drawing power"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Noida units fell 2,400 to 1,800 in six months on US order loss.",
+ "articles": [
+  {
+   "title": "US demand slowdown hits apparel and diamond exporters",
+   "url": "https://textile.economictimes.indiatimes.com/news/manufacturing-retailing/us-demand-slowdown-hits-apparel-and-diamond-exporters/135355879?utm_source=latest_news&utm_medium=agencyListing",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "US demand slowdown hits apparel, diamond exporters as factories shut and orders dry up",
+   "url": "https://retail.economictimes.indiatimes.com/news/industry/us-demand-slowdown-hits-apparel-diamond-exporters-as-factories-shut-and-orders-dry-up/135352178?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etretail_news_2026-10-31&dt=2026-10-31",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ministry of Textiles Organises Second TEXPORT Capacity-Building Programme in Noida through AEPC",
+   "url": "https://www.apparelviews.com/ministry-of-textiles-organises-second-texport-capacity-building-programme-in-noida-through-aepc",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Royalton Lifestyle",
+   "url": "https://investmentguruindia.com/editorial/uploads/news-pdf/0961568a_RAYMONDL-20261029-MOFSL-RU-PG012.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sangam (India) Limited",
+   "url": "https://www.perplexity.ai/app/finance/SANGAMIND.BO?preset=peers&symbol=GHCLTEXTIL.NS&comparing=GHCLTEXTIL.NS%2CWELSPUNLIV.BO%2CARVIND.NS%2CRAYMONDLSL.BO%2CPAGEIND.BO%2CKPRMILL.BO%2CTRIDENT.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Kewal Kiran Clothing Limited",
+   "url": "https://www.perplexity.ai/app/finance/KKCL.BO?comparing=KKCL.BO%2CPGIL.BO%2CRUPA.NS%2CDOLLAR.BO%2CWELSPUNLIV.BO%2CGOKEX.NS&preset=peers&symbol=LUXIND.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Growth in the readymade garment sector will be driven by the domestic market",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/views-and-commentaries/sector-round-up/2022/october/steady-ascent.pdf#5#5#5",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Growth in the readymade garment sector will be driven by the domestic market",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/views-and-commentaries/sector-round-up/2022/october/steady-ascent.pdf#5#5#5",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 30 (national 0 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 14 output -7.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -5.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -6.2% Apr-to-date in USD (Rs 69,301 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +23.3% YoY vs output -5.6% (gap +28.9 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

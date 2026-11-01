@@ -1,0 +1,154 @@
+{
+ "key": "tn_tiruppur|apparel",
+ "state": "TN",
+ "city": "tn_tiruppur",
+ "ind": "apparel",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 10,
+ "nudged_by_news": false,
+ "verdict": "Avoid new garment and made-ups exposure in Tiruppur for now; only lend to organised, domestic-order, low-leverage units with tight monthly structure, and decline migrant-labour-dependent job-work units.",
+ "title": "Tiruppur Readymade Garments & Made-ups: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nTiruppur converts yarn and fabric into knitted garments and made-up sets, mostly for export buyers, and gets paid after the buyer ships and accepts. **Cash sits in fabric and finished-goods inventory and in export receivables, not in the machines.** The unit's margin is thin and set by the buyer, so pricing power is weak; the cost base is raw material plus labour, and bonus is a real annual cash call. Bonus disbursement for textile and apparel workers here is underway and expected to finish across most units by November 5 [1]. So when a proposal lands, check the bonus and wage payout calendar against the drawing power; if the unit has no headroom for the November payout, ask how it is funded.\n\n## What has changed now\n**The national demand signal is negative and Tamil Nadu is weaker than India.** IIP for NIC 14 output is -7.4% YoY [D], output is -5.6% Apr-to-date [D], and exports are -6.2% Apr-to-date in USD [D]. Tamil Nadu GST collections are -3.2% Apr-to-date against India +6.1% [D]. Local reporting says industry leaders flag a noticeable slowdown in incoming orders [1]. **Treat this as a demand-side break, not a seasonal dip.** The Christmas family-set line is drawing foreign buyers [2][3], but that is one product story, not a recovery.\n\n## Where the growth is\n**Pursue organised units with confirmed domestic and European order books and in-house processing.** Peer Raymond Lifestyle shows garmenting driving growth with an order book through mid-Feb'27 and rising European traction, though cost pressure dented 2Q [4]. Sangam shows revenue growth projected but net profit collapsing to Rs.4.3 Cr in Q4 FY26 from Rs.12.8 Cr [5]. So when a proposal lands, check the order book date and buyer concentration; if the book ends before the loan tenor, ask for the buyer-wise confirmed order list. **Avoid migrant-labour-dependent job-work units and pure export converters** — bonus opacity in non-unionised units is flagged locally [1], and export-linked sectors see moderation [10].\n\n## How to grow safely\n**Structure short: 12-month working capital, monthly drawing power against stock and receivables, no term loan for capacity.** Take stock statement, debtor ageing and GST returns every month, plus the bonus payout proof in November. **Covenant on receivables days and inventory turns, tested monthly.** Rating methodology ties working capital intensity to inventory and receivables [8], and leverage-heavy units are more vulnerable in downturns [11]. If receivables days stretch beyond the stated cycle, ask for buyer confirmation before enhancing limits.\n\n## Early-warning signs\n- **Order book shortening or buyer concentration rising** — check monthly; if the top buyer crosses half of sales, cut limit.\n- **GST turnover falling below the prior quarter** — check monthly; if two consecutive falls, freeze enhancement.\n- **Bonus or wage payment delayed past November 5** [1] — check in November; if delayed, ask for funding source and reassess.\n- **Inventory build with flat sales** — check monthly; if stock rises while billing falls, reduce drawing power."
+ ],
+ "watch": [
+  [
+   "Order book and buyer-wise confirmed orders (monthly)",
+   "Book ends before loan tenor or top buyer above half of sales -> cut limit"
+  ],
+  [
+   "GST returns vs bank turnover (monthly)",
+   "Two consecutive quarterly falls -> freeze enhancement"
+  ],
+  [
+   "Bonus and wage payout proof (November)",
+   "Delay past November 5 [1] -> ask funding source, reassess"
+  ],
+  [
+   "Stock statement and debtor ageing (monthly)",
+   "Inventory up while billing flat -> reduce drawing power"
+  ],
+  [
+   "Receivables days (monthly)",
+   "Stretch beyond stated cycle -> seek buyer confirmation before enhancement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "National garment output and exports falling; Tamil Nadu GST below India; local order slowdown flagged.",
+ "articles": [
+  {
+   "title": "Bonus payments commence for textile and engineering workers in Coimbatore and Tiruppur",
+   "url": "https://www.mirrornow.in/coimbatore-news/coimbatore-tiruppur-textile-engineering-bonus-payments-article-156448421",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "கிறிஸ்துமஸ் ‘பேமிலி செட்’ ஆடை வெளிநாடுகளை ஈர்க்கும் திருப்பூர்",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-tiruppur/christmas-family-set-dress-will-attract-foreigners-tiruppur/4364130",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "கிறிஸ்துமஸ் ‘பேமிலி செட்’ ஆடை வெளிநாடுகளை ஈர்க்கும் திருப்பூர்",
+   "url": "https://l-www.dinamalar.com/news/tamil-nadu-district-news-tiruppur/christmas-family-set-dress-will-attract-foreigners-tiruppur/4364130",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Royalton Lifestyle",
+   "url": "https://investmentguruindia.com/editorial/uploads/news-pdf/0961568a_RAYMONDL-20261029-MOFSL-RU-PG012.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sangam (India) Limited",
+   "url": "https://www.perplexity.ai/app/finance/SANGAMIND.BO?preset=peers&symbol=GHCLTEXTIL.NS&comparing=GHCLTEXTIL.NS%2CWELSPUNLIV.BO%2CARVIND.NS%2CRAYMONDLSL.BO%2CPAGEIND.BO%2CKPRMILL.BO%2CTRIDENT.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Kewal Kiran Clothing Limited",
+   "url": "https://www.perplexity.ai/app/finance/KKCL.BO?comparing=KKCL.BO%2CPGIL.BO%2CRUPA.NS%2CDOLLAR.BO%2CWELSPUNLIV.BO%2CGOKEX.NS&preset=peers&symbol=LUXIND.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Growth in the readymade garment sector will be driven by the domestic market",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/views-and-commentaries/sector-round-up/2022/october/steady-ascent.pdf#5#5#5",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Growth in the readymade garment sector will be driven by the domestic market",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/views-and-commentaries/sector-round-up/2022/october/steady-ascent.pdf#5#5#5",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 10 (national 0 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 14 output -7.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -5.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -6.2% Apr-to-date in USD (Rs 69,301 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

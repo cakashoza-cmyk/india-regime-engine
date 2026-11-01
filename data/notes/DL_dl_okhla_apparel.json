@@ -1,0 +1,154 @@
+{
+ "key": "dl_okhla|apparel",
+ "state": "DL",
+ "city": "dl_okhla",
+ "ind": "apparel",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 0,
+ "nudged_by_news": false,
+ "verdict": "Avoid new readymade-garments exposure in Okhla until Delhi demand and national garment output turn; only lend to domestic-focused, low-leverage converters with tight monthly structure.",
+ "title": "Okhla Readymade Garments & Made-ups: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nOkhla garment units cut, stitch and finish fabric into shirts, trousers and made-ups, then sell to domestic wholesalers, distributors and some exporters. Cash turns on fabric purchase, cutting, stitching, finishing and dispatch; value sits in the order book and finished-goods inventory, not in the machines. **The cost stack is fabric plus labour plus power, and pricing power is thin because buyers can shift orders.** Working capital is inventory-heavy and receivables run long, so the cycle, not the margin, decides survival.",
+  "## What has changed now\nDelhi's own demand is lagging: GST collections are +2.7% Apr-to-date against India's +6.1%, 3.4 pp slower [D], and electricity demand is +6.5% against India's +9.5%, 3.0 pp slower [D]. Nationally, garment output (NIC 14) is -7.4% YoY and -5.6% Apr-to-date [D]. **The data-based call is AVOID, and the local and national signals both point the same way.** Peer results are mixed: Raymond Lifestyle's garmenting order book runs to mid-Feb'27 but cost pressure dented 2Q [4]; Sangam's Q4 FY26 net profit fell to Rs.4.3 Cr from Rs.12.8 Cr [5]; KKCL sees festive volume growth but discretionary softness [6]. Local Okhla-specific coverage is thin; the directory listings [1][2][3] give contacts, not financials.",
+  "## Where the growth is\n**Pursue domestic-focused converters with confirmed wholesale orders and no export dependence.** The peer read is that garmenting scale-up and festive domestic demand are the live drivers [4][6], while export-linked names face end-market moderation [10]. Avoid pure export job-workers and units whose order book is verbal. When a proposal lands, check the buyer mix and the order book; if more than half is export or unconfirmed, ask for signed purchase orders and last twelve months' buyer-wise sales.",
+  "## How to grow safely\n**Structure short: cash credit against paid stock and book debts, with a drawing power recalculated monthly.** Take stock and debtor statements every month, plus GST returns and bank statements. Set a covenant that inventory days and receivable days stay within agreed limits; if either slips, ask for the ageing and the top-five buyer list. Cap total exposure per unit and keep tenor to one season.",
+  "## Early-warning signs\n- **GST turnover falling below the sanctioned drawing power (monthly):** cut limits and ask for the sales register. - **Receivable days stretching beyond the agreed cap (monthly):** ask for buyer-wise ageing and stop fresh disbursal. - **Finished-goods stock rising while sales fall (monthly):** inspect godown and revalue drawing power. - **Power or wage arrears appearing in bank statements (monthly):** treat as a cash-flow break and review the account."
+ ],
+ "watch": [
+  [
+   "GST returns vs drawing power (monthly)",
+   "turnover below limit -> cut exposure and request sales register"
+  ],
+  [
+   "Receivable ageing (monthly)",
+   "days beyond cap -> stop disbursal, request buyer-wise ageing"
+  ],
+  [
+   "Finished-goods stock (monthly)",
+   "stock up while sales down -> inspect godown, revalue drawing power"
+  ],
+  [
+   "Bank statement for wage/power arrears (monthly)",
+   "arrears appear -> treat as cash-flow break, review account"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Delhi GST and power demand lag India; national garment output down 7.4% YoY.",
+ "articles": [
+  {
+   "title": "exporters New Delhi Delhi | Gujarat Industrial Times",
+   "url": "https://gujaratindustrialtimes.com/gidc-industrial-directory/wpbdp_tag/exporters-new-delhi-delhi/",
+   "date": "2026-09-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "exporters suppliers New Delhi Delhi | Gujarat Industrial Times",
+   "url": "https://gujaratindustrialtimes.com/gidc-industrial-directory/wpbdp_tag/exporters-suppliers-new-delhi-delhi/",
+   "date": "2026-09-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "exporters distributors New Delhi | Gujarat Industrial Times",
+   "url": "https://gujaratindustrialtimes.com/gidc-industrial-directory/wpbdp_tag/exporters-distributors-new-delhi/",
+   "date": "2026-09-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Royalton Lifestyle",
+   "url": "https://investmentguruindia.com/editorial/uploads/news-pdf/0961568a_RAYMONDL-20261029-MOFSL-RU-PG012.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sangam (India) Limited",
+   "url": "https://www.perplexity.ai/app/finance/SANGAMIND.BO?preset=peers&symbol=GHCLTEXTIL.NS&comparing=GHCLTEXTIL.NS%2CWELSPUNLIV.BO%2CARVIND.NS%2CRAYMONDLSL.BO%2CPAGEIND.BO%2CKPRMILL.BO%2CTRIDENT.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Kewal Kiran Clothing Limited",
+   "url": "https://www.perplexity.ai/app/finance/KKCL.BO?comparing=KKCL.BO%2CPGIL.BO%2CRUPA.NS%2CDOLLAR.BO%2CWELSPUNLIV.BO%2CGOKEX.NS&preset=peers&symbol=LUXIND.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Growth in the readymade garment sector will be driven by the domestic market",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/views-and-commentaries/sector-round-up/2022/october/steady-ascent.pdf#5#5#5",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Growth in the readymade garment sector will be driven by the domestic market",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/views-and-commentaries/sector-round-up/2022/october/steady-ascent.pdf#5#5#5",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 0 (national 0 x 0.6 + Delhi 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Delhi: GST collections +2.7% Apr-to-date vs India +6.1% (3.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Delhi: electricity demand +6.5% Apr-to-date vs India +9.5% (3.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 14 output -7.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -5.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,147 @@
+{
+ "key": "ka_davangere|cotton_textiles",
+ "state": "KA",
+ "city": "ka_davangere",
+ "ind": "cotton_textiles",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Davangere cotton spinning at or above the 65 threshold, but only to spinners with low leverage, diversified customers and a proven cotton procurement discipline; avoid highly geared single-customer mills.",
+ "title": "Davangere cotton spinning & yarn: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A cotton spinner buys raw cotton, converts it into yarn on ring frames, and sells to weavers, knitters and fabric houses; cash is made or lost on the spread between cotton cost and yarn realisation, not on volume alone.** The plant is fixed-capital heavy and working-capital heavy at the same time, so funding needs are high in this sector [7]. Raw cotton is the single largest cost line and the most profitable mills are separated by procurement skill, not by machine age [10]. **So when a proposal lands, check the mill's cotton buying record across two seasons before you look at the looms.**\n\n## Where value and cash sit\n**Value sits in the cotton-to-yarn spread and in customer mix; cash sits in inventory and receivables.** Inventory holding and receivable levels drive working capital for fabric-making entities [8], and a concentrated customer base can stretch the whole cycle if that buyer delays [10]. Leverage decides survival through a downturn, and longer-tenure term debt covers better than short-tenure debt at the same leverage [9]. **So when a proposal lands, check the top-buyer share and the inventory days; if one buyer is above a third of sales, ask for the payment history and a receivable covenant.**\n\n## What has changed now\n**The national spinning cycle is strong: Nitin Spinners reported its highest-ever quarterly revenue of Rs. 875 crores, up 10.3% YoY, with EBITDA margin at 17.78%, up 376 basis points YoY [3].** Sportking's Q1FY26 revenue fell 7.6% YoY to Rs. 585.8 crore, but EBITDA margin still improved 40 bps to 12.0% [4]. Integrated players argue that fibre integration absorbs raw-material volatility that stand-alone yarn players cannot [6]. **The official data pack reads OK at 90, with Karnataka at 100 and GST collections in the state up 11.1% Apr-to-date against India's 6.1% [D].** Note the rating methodologies are archived and old [7][8][9][10]; treat them as principles, not current market reads.\n\n## Where to grow, and how to grow safely\n**Pursue stand-alone spinners with low leverage, a diversified buyer book and a documented cotton procurement process; avoid highly geared mills selling to one fabric house.** Davangere's own sources say almost nothing about its spinning cluster — the local material is an engineering college and a district profile [1][2] — so lean on first principles and the peer results above. **Structure term debt to match the asset life, take monthly stock-and-receivable statements, and covenant a leverage cap and a minimum EBITDA margin.**\n\n## Early-warning signs\n**Watch inventory days rising while yarn realisation falls, buyer concentration creeping up, and cotton procurement shifting to spot buying at peaks.** Any of these means the spread is being eaten; act before the quarter closes.",
+  "## What to take every month\n- Monthly stock and receivable statement (monthly) — inventory days rising two months running -> ask for the cotton purchase ledger and reprice the limit.\n- Top-five buyer sales and collection report (monthly) — any single buyer above a third of sales -> seek a receivable covenant or reduce exposure.\n- Yarn realisation versus cotton cost sheet (monthly) — spread narrowing for two quarters -> shift to tighter drawing power.\n- Leverage and EBITDA certificate (quarterly) — leverage above the sanctioned cap -> freeze fresh limits until corrected.\n- GST returns and bank statement (monthly) — turnover mismatch with declared sales -> escalate to a full review."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement (monthly)",
+   "inventory days rising two months running -> ask for cotton purchase ledger and reprice limit"
+  ],
+  [
+   "Top-five buyer sales and collection report (monthly)",
+   "single buyer above a third of sales -> seek receivable covenant or cut exposure"
+  ],
+  [
+   "Yarn realisation versus cotton cost sheet (monthly)",
+   "spread narrowing two quarters -> tighten drawing power"
+  ],
+  [
+   "Leverage and EBITDA certificate (quarterly)",
+   "leverage above sanctioned cap -> freeze fresh limits until corrected"
+  ],
+  [
+   "GST returns and bank statement (monthly)",
+   "turnover mismatch with declared sales -> escalate to full review"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Peer Nitin Spinners posted record revenue and 17.78% EBITDA margin; Karnataka GST up 11.1% [3][D].",
+ "articles": [
+  {
+   "title": "Bapuji Institute of Engineering and Technology, Davangere",
+   "url": "https://bietdvg.edu/media/campus_life/green_campus/tex_1_g9pNeXT.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "local",
+   "via": "deepseek",
+   "used": false
+  },
+  {
+   "title": "Davangere, Karnataka — Nilam",
+   "url": "https://nilam.moonproduct.tech/karnataka/davangere",
+   "date": "date unknown",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Nitin Spinners Ltd (BOM:532698) (Q1 2027) Earnings Call Highlights: Record Revenue and Margin ... By GuruFocus - Nitin Spinners Ltd (BOM:532698) (Q1 2027) Earnings Call Highlights: Record Revenue and Margin ...",
+   "url": "https://ca.investing.com/news/company-news/nitin-spinners-ltd-bom532698-q1-2027-earnings-call-highlights-record-revenue-and-margin--4802312#1",
+   "date": "2026-08-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SPORTKING INDIA LTD. : Latest Quarterly Results Analysis - ICICI Direct - Skip to main content",
+   "url": "https://icicidirect.com/research/equity/rapid-results/sportking-india-ltd#1",
+   "date": "2026-02-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1720408&opt=RAN&secid=3&subsecid=110&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "SUTLEJ TEXTILES AND INDUSTRIES LIMITED",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6800496d-cf48-457f-b0bc-8d6de41e4853.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Criteria for the Cotton Textile Industry",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/consumer-discretionary/archive/CRISIL-Ratings-crieria-cotton-textile-industry_2007.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 83 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Karnataka: GST collections +11.1% Apr-to-date vs India +6.1% (5.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Karnataka: electricity demand +23.3% Apr-to-date vs India +9.5% (13.8 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
