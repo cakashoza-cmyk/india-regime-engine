@@ -40,6 +40,7 @@ table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}td,th{te
 .v5 a{color:#7dd3fc}.v5 details{border-top:1px solid #ffffff1a}.v5 summary{color:#cbd5e1}.v5 table td,.v5 table th{border-color:#ffffff1a;color:#cbd5e1}.v5 .meta{color:#94a3b8}.v5 sup a{font-size:11px;text-decoration:none}
 .v6 details.sec{background:#ffffff0a;border:1px solid #ffffff14;border-radius:16px;padding:0;margin-top:10px}.v6 details.sec>summary{list-style:none;padding:14px 16px;font-weight:700;font-size:15.5px;color:#f8fafc;display:flex;gap:10px;align-items:center}.v6 details.sec>summary::after{content:'＋';margin-left:auto;color:#94a3b8}.v6 details.sec[open]>summary::after{content:'－'}
 .v6 .it{padding:10px 16px;border-top:1px solid #ffffff10}.v6 .it table td{font-size:13px}.v6 .it u{text-decoration:none;color:#93c5fd;font-weight:600}.v6 .it b{color:#fde68a;font-size:14px;display:block}.v6 .it span{font-size:14px;color:#cbd5e1}.v6 .nt{font-size:12px;color:#94a3b8;font-style:italic;padding:0 16px 10px}.v6 .nowl{background:#f59e0b1a;border-left:3px solid #f59e0b;padding:10px 12px;border-radius:10px;font-size:14px;margin-top:12px}
+.v7{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}.v7 .art{max-width:640px}.v7 .art h2{font-size:17px;color:#fff;margin:26px 0 8px;font-weight:700}.v7 .art p{font-size:15.5px;line-height:1.7;color:#cbd5e1;margin:0 0 12px}.v7 .art strong{color:#fde68a;font-weight:650}.v7 .art ul{margin:0 0 12px;padding-left:18px}.v7 .art li{font-size:15px;line-height:1.6;color:#cbd5e1;margin:6px 0}.v7 .wl{background:#ffffff0a;border:1px solid #ffffff1a;border-radius:16px;padding:14px 16px;margin-top:22px}.v7 .wl h2{margin-top:0}.v7 .wl div{padding:8px 0;border-top:1px solid #ffffff10;font-size:14px;color:#cbd5e1}.v7 .wl b{color:#f8fafc;display:block}
 </style></head><body>
 <main>
 <h1>Lending Radar</h1><p class="sub">Pick a place and an industry for a quick, data-backed stance. Decision aid, not a substitute for credit judgment. Internal use only.</p>
@@ -84,6 +85,17 @@ function spark(pts,key,lab){if(!pts||pts.length<2)return'';const v=pts.map(p=>p[
 
 
 
+
+function v7html(x,ind,ct){const sup=i=>x.articles[i-1]?`<sup><a href="${esc(x.articles[i-1].url)}" target="_blank" rel="noopener">[${i}]</a></sup>`:'';
+ const md=t=>esc(t).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\[(\d+)\]/g,(m,i)=>sup(+i));
+ let h='',inUl=false;x.narrative.forEach(t=>{if(t.startsWith('- ')){if(!inUl){h+='<ul>';inUl=true}h+=`<li>${md(t.slice(2))}</li>`;return}if(inUl){h+='</ul>';inUl=false}h+=t.startsWith('## ')?`<h2>${md(t.slice(3))}</h2>`:`<p>${md(t)}</p>`});if(inUl)h+='</ul>';
+ const m=V4[x.key]&&V4[x.key].market,f=v=>(v>0?'+':'')+v+'%';
+ const mt=m?`<table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(m.nifty.r1m)}</td><td>${f(m.nifty.r3m)}</td><td>${f(m.nifty.r12m)}</td></tr>${Object.entries(m.peers).map(([k,p])=>`<tr><td>${esc(k)}</td><td>${f(p.r1m)}</td><td>${f(p.r3m)}</td><td>${f(p.r12m)}</td></tr>`).join('')}</table><p class="meta">Closing prices to ${esc(m.nifty.asof)}. ${esc(m.source)}.</p>`:'';
+ return `<div class="card v5 v7"><div><span class="vp">Caution <b>${x.score}</b><small>/100</small></span><span class="tag">${esc(x.version)}</span></div>
+ <div class="call">${esc(x.verdict)}</div><div class="sn">${esc(ind.name)} · ${esc(ct.name)} · Official data scores 71 (OK band 65+); local news is worse, so the call is Caution.</div>
+ <div class="art"><h2 style="font-size:20px">${esc(x.title)}</h2>${h}
+ <div class="wl"><h2>👁 Watch list</h2>${x.watch.map(w=>`<div><b>${esc(w[0])}</b>${esc(w[1])}</div>`).join('')}<p class="meta" style="margin-top:8px">${esc(x.watch_note)}</p></div></div>
+ <details><summary>Details: sources & market</summary><ol>${x.articles.map(a=>`<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a> <span class="meta">${esc(a.date)}</span></li>`).join('')}</ol><h3>Listed peers vs Nifty</h3>${mt}<p class="meta">Rating rationales are for individual firms in past years and show the cluster's typical shape. News is unverified and can only lower a call. Decision aid, not a substitute for credit judgment.</p></details></div>`}
 function v6html(x,ind,ct){const sup=a=>(a||[]).map(i=>`<sup><a href="${esc(x.articles[i-1].url)}" target="_blank" rel="noopener">[${i}]</a></sup>`).join('');
  const m=V4[x.key]&&V4[x.key].market,f=v=>(v>0?'+':'')+v+'%';
  const mt=m?`<table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(m.nifty.r1m)}</td><td>${f(m.nifty.r3m)}</td><td>${f(m.nifty.r12m)}</td></tr>${Object.entries(m.peers).map(([k,p])=>`<tr><td>${esc(k)}</td><td>${f(p.r1m)}</td><td>${f(p.r3m)}</td><td>${f(p.r12m)}</td></tr>`).join('')}</table><p class="meta">Closing prices to ${esc(m.nifty.asof)}. ${esc(m.source)}. Market mood only.</p>`:'';
@@ -113,7 +125,7 @@ function v4html(v,b){const cite=t=>esc(t).replace(/\[(\d+(?:[,\s]*\d+)*)\]/g,(m,
  <p class="meta">News vs data: <b>${esc(b.news_direction||'')}</b>${b.news_direction_why?' — '+esc(b.news_direction_why):''} · written ${esc(v.generated_ist)}</p>
  <h3>Market signal: listed peers</h3><p>${esc(b.market_read||'')}</p><table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(n.r1m)}</td><td>${f(n.r3m)}</td><td>${f(n.r12m)}</td></tr>${rows}</table><p class="meta">Price change to ${esc(n.asof)} close. ${esc(m.source)}. Market mood only; not used in the score.</p>`}
 function render(){const st=D.states[sel.st],ct=CITY[sel.ct],ind=IND[sel.ind];history.replaceState(null,'',`?state=${sel.st}&city=${sel.ct}${ind?'&ind='+ind.id:''}`);
- if(ind&&V5[sel.ct+'|'+ind.id]){$('#result').innerHTML=v6html(V5[sel.ct+'|'+ind.id],ind,ct);return}
+ if(ind&&V5[sel.ct+'|'+ind.id]){$('#result').innerHTML=v7html(V5[sel.ct+'|'+ind.id],ind,ct);return}
  if(!ind){$('#result').innerHTML='<div class="card empty">Choose an industry to see the stance.</div>';return}
  const sec=D.sectors[ind.parent],e=D.calls[sel.st+'|'+ind.parent]||[null],[base,score,nat,loc,ins,rs]=e;
  const cb=B[sel.ct+'|'+ind.id],sb=B[sel.st+'|*'],br=cb||sb;let call=base;const v4=V4[sel.ct+'|'+ind.id],vb=v4&&v4.brief&&v4.brief.local_story?v4.brief:null;const nudged=vb?v4.nudged_by_news:(base=='ok'&&br&&br.o=='Worse');if(nudged)call='caution';
