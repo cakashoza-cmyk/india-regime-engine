@@ -1,0 +1,150 @@
+{
+ "key": "od_paradip|ports",
+ "state": "OD",
+ "city": "od_paradip",
+ "ind": "ports",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Data pack score is UNKNOWN, so no lend/avoid band applies; lend selectively to Paradip port-service and cargo-handling borrowers with contracted volumes and tight monthly reporting, and decline pure coal-linked capex plays.",
+ "title": "Paradip Ports & Port Services: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Paradip port borrower moves bulk cargo — coal, coke, ore, containers — between rail, road and vessel, and gets paid per tonne handled or per rake unloaded.** Cash comes from port users and traders; the asset base is berths, mechanised handling systems, tipplers, conveyors, barges and trucks. **Value sits in the handling contract and the berth/rail linkage, not in the steel on the ground.** Paradip's own numbers show the volume engine running: daily rake unloading up 15.34% [2] and metallurgical coke handling up 19.54% [3]. Both are local port releases dated late October 2026, so they are current.\n\n## Where cash and value sit\n**Pricing power is thin and set by the port tariff and the cargo owner; the operator's margin comes from throughput per shift and equipment uptime.** Capex is heavy and lumpy — a mechanised handling line or a barge is a multi-year commitment — so a borrower's cash is consumed before the first tonne moves. Working capital is the swing item: receivables from traders and steel/cement buyers, plus fuel and spares. **Peer rating work puts a comparable port operator's receivable period at 60 days in FY25 against 52 days in FY24 [8], and another at 57 days in FY23 from 81 days in FY22 [11]** — so when a proposal lands, check the debtor days trend; if receivables are stretching past the peer range, ask which buyer is delaying and whether that buyer is a group company.\n\n## What has changed now\n**Volumes are rising but costs are rising with them.** An Emkay note says fuel price adjustments and recovering freight support top-line growth while persistent cost inflation offsets volume expansion in Q2FY27 [7]. Peer results confirm the volume story: Adani Ports reported Q2 FY27 revenue up 23.7% to ₹11,340 crore and Ebitda up 22.6% to ₹6,806 crore at a 60% margin [6], with profit up 16.5% [5]. **That is a large-operator result, not a Paradip SME result — do not read the 60% margin across to a local handling contractor.** Rating reports flag two live risks: service-tax claims on a port group at about 23% of something material [9], and regulatory tightening on coal handling forcing extra capex [11]. Both are dated only by content, so treat them as old until the borrower confirms current status.\n\n## Who to pursue, and how to grow safely\n**Pursue mechanised cargo-handling contractors tied to coke and rake-unloading volumes [2][3], barge and lighterage operators with firm charter contracts, and equipment-rental firms serving the berths.** Avoid single-cargo coal handlers with no contract tenure and any borrower whose growth plan is pure capex into coal. Structure as a working-capital line against assigned receivables plus a term loan matched to the handling contract life; take monthly rake/tonnage statements, debtor ageing and a stock-and-equipment statement every month, and a quarterly confirmation of contract renewals. **If the borrower cannot show a contract beyond twelve months, ask for a personal guarantee and a lower drawing limit.**\n\n## Early-warning signs\n**Watch tonnage per rake and idle days first — a volume business that stops moving equipment is already in trouble.** Paradip-specific published data is thin beyond the two port releases [2][3]; the local source [1] carries no usable content, so lean on first principles and peer benchmarks. Collect from customer: current receivable days, contract tenure, and cargo mix."
+ ],
+ "watch": [
+  [
+   "Monthly rake/tonnage statement (monthly)",
+   "throughput falls below the contracted minimum for two months -> freeze further drawings and reprice"
+  ],
+  [
+   "Debtor ageing (monthly)",
+   "receivable days stretch beyond the peer 60-day level [8] -> ask which buyer and seek assignment of that receivable"
+  ],
+  [
+   "Contract renewal status (quarterly)",
+   "tenure under twelve months -> cut limit and add personal guarantee"
+  ],
+  [
+   "Equipment idle days (monthly)",
+   "idle days rise for two consecutive months -> inspect assets and reassess term-loan schedule"
+  ],
+  [
+   "Regulatory/coal-handling exposure (quarterly)",
+   "borrower confirms tightening rules requiring capex [11] -> require fresh capex plan before any enhancement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Paradip rake unloading up 15.34% and coke handling up 19.54%; peer port profits up 16.5%.",
+ "articles": [
+  {
+   "title": "Month: November 2026",
+   "url": "https://portwings.in/2026/11/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Paradip Port Records 15.34% Growth in Daily Rake Unloading - India Seatrade News",
+   "url": "https://indiaseatradenews.com/paradip-port-records-15-34-growth-in-daily-rake-unloading/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Paradip Port Records 19.54% Growth in Metallurgical Coke Handling - India Seatrade News",
+   "url": "https://indiaseatradenews.com/paradip-port-records-19-54-growth-in-metallurgical-coke-handling/#respond",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "India's Adani Ports logs higher quarterly profit on cargo volume growth - 71d9cc7c17aa",
+   "url": "https://hk.marketscreener.com/news/india-s-adani-ports-logs-higher-quarterly-profit-on-cargo-volume-growth-ce785cd2db8af12c#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Adani Ports & SEZ Q2 FY27 profit up 16.5% - SENSEX 73,384.03",
+   "url": "https://www.thehindubusinessline.com/economy/logistics/adani-ports-sez-q2-fy27-profit-up-165/article71634886.ece#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Adani Ports Q2 Results: Co Raises FY27 Guidance After Profit Rises 17%; Logistics, International Ports Drive Growth - Adani Ports and Special Economic Zone Ltd",
+   "url": "https://www.ndtvprofit.com/markets/adani-ports-q2-results-co-raises-fy27-guidance-after-profit-rises-17-logistics-international-ports-drive-growth-12247321?pfrom=home-business_topstories#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Business News | Cost Pressures to Weigh on Logistics and Ports in Q2FY27 Amid Volume Momentum: Report | LatestLY - Sunday, Oct 11, 2026 Live Breaking News:",
+   "url": "https://www.latestly.com/agency-news/business-news-cost-pressures-to-weigh-on-logistics-and-ports-in-q2fy27-amid-volume-momentum-report-7640298.html#1",
+   "date": "2026-10-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "On a consolidated level, JSWIL has a strong liquidity position supported by sufficient generations of cash accruals against repa...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202511121148_JSW_Infrastructure_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Services tax claims on the Bothra group aggregates to 197 crore as on March 31, 2024. The value remains high at \\(\\sim 23\\%\\) of...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202503120346_Sarat_Chatterjee_&_Co_(Visakhapatnam)_Private_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "May 06,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=142879#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Ports",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/13233e03-62cd-432b-b2df-27ec5785070f.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Odisha None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

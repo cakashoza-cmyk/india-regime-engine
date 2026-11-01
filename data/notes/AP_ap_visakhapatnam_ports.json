@@ -1,0 +1,146 @@
+{
+ "key": "ap_visakhapatnam|ports",
+ "state": "AP",
+ "city": "ap_visakhapatnam",
+ "ind": "ports",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively to Visakhapatnam port-linked service and logistics borrowers with contracted cargo and short receivable cycles; avoid pure coal-handling capex plays and any group with large disputed tax claims.",
+ "title": "Visakhapatnam Ports & Port Services: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nVisakhapatnam port moves bulk cargo — coal, iron ore, fertiliser, containers — and the money is made by handling it, not owning it. **The cash engine is throughput times tariff, minus fuel, labour and equipment hire.** VPA handled 91.17 MMT in 2025-26 and 46.14 MMT in April–September 2026, up 7% year-on-year, with average vessel waiting time down 37% to 0.45 hours [3]. Faster turnaround means more trips per asset, so a stevedore or handler with fixed equipment earns more on the same capital. **Ask every borrower for their tonnage handled per month and their per-tonne realisation; if realisation is falling while tonnage rises, they are buying volume with price.**\n\n## Where value and cash sit\nValue sits in the berth relationship and the equipment; cash sits in the receivable. **The working-capital cycle is the whole credit story here.** A rated peer in the group shows an operating cycle of 51 days in FY24, with debtor days elongating [9]; another port peer improved receivables from 81 days in FY22 to 57 days in FY23 [11]. So when a proposal lands, check debtor days against these benchmarks; if a Visakhapatnam borrower shows debtor days above 60, ask which customer — port authority, trader or shipping line — is holding the cash. **Capex is heavy and lumpy: tugs, cranes, barges.** Fund it with long-tenor debt matched to the asset, never with working capital limits.\n\n## What has changed now\nLocal news is positive and recent: infrastructure strengthening at Visakhapatnam port is flagged as a key priority [1], and VPA marked record throughput with modernisation and digital upgrades [3]. Peer results confirm volume momentum — Adani Ports reported Q2 FY27 profit up 16.5% to ₹3,622 crore on revenue of ₹11,340 crore, with 60% EBITDA margin [5][6]. **But a research note flags cost inflation offsetting volume growth for logistics and ports in Q2 FY27 [7].** So the sector is growing top-line while margin is squeezed; price the risk accordingly. Note the rating reports [8][9][10][11] are undated or old — treat their ratios as reference, not current.\n\n## Who to pursue, how to grow safely\n**Pursue stevedores, clearing-and-forwarding agents and equipment hirers with contracted volumes from VPA or established traders.** Avoid single-customer coal handlers and any group with large disputed service-tax claims — one peer group carries claims of ₹197 crore, about 23% of net worth [9]. Structure: cash-flow-based limits, monthly stock-and-receivable statements, escrow of port receivables where possible. **Take every month: tonnage handled, debtor ageing, and confirmation of the berth or contract.**\n\n## Early-warning signs\n- Vessel waiting time rising from 0.45 hours [3] (monthly) -> ask for berth schedules; if delays persist two months, cut limit.\n- Debtor days crossing 60 [9][11] (monthly) -> freeze fresh disbursal until collection plan is filed.\n- Tonnage flat while fuel costs rise [7] (quarterly) -> reprice or reduce exposure."
+ ],
+ "watch": [
+  [
+   "Vessel turnaround time (monthly)",
+   "Rises above 0.45 hours for two months -> ask for berth schedule and trim limit"
+  ],
+  [
+   "Debtor days (monthly)",
+   "Crosses 60 days -> freeze fresh disbursal until collection plan filed"
+  ],
+  [
+   "Tonnage handled (monthly)",
+   "Flat or falling while costs rise -> reprice or reduce exposure"
+  ],
+  [
+   "Disputed tax claims (annual)",
+   "Any claim above 20% of net worth -> decline or seek personal guarantee"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "VPA cargo up 7% and record 91.17 MMT; peer profits rising despite cost pressure.",
+ "articles": [
+  {
+   "title": "Strengthening Visakhapatnam Port Infrastructure a Key Priority",
+   "url": "https://www.constructionworld.in/amp/transport-infrastructure/ports-and-shipping/strengthening-visakhapatnam-port-infrastructure-a-key-priority/98808",
+   "date": "2026-10-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Visakhapatnam Port Authority cargo traffic rises to 91.17 MMT - Andhra Pradesh",
+   "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Oct/07/visakhapatnam-port-authority-cargo-traffic-rises-to-9117-mmt?utm_source=website&utm_medium=related-stories#1",
+   "date": "2026-10-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Visakhapatnam Port Authority marks 93rd foundation day with record cargo throughput - Visakhapatnam Port Authority marks 93rd foundation day with record cargo throughput",
+   "url": "https://www.thehindu.com/news/cities/Visakhapatnam/visakhapatnam-port-authority-marks-93rd-foundation-day-with-record-cargo-throughput/article71551474.ece#1",
+   "date": "2026-10-05",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "India's Adani Ports logs higher quarterly profit on cargo volume growth - 71d9cc7c17aa",
+   "url": "https://hk.marketscreener.com/news/india-s-adani-ports-logs-higher-quarterly-profit-on-cargo-volume-growth-ce785cd2db8af12c#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Adani Ports & SEZ Q2 FY27 profit up 16.5% - SENSEX 73,384.03",
+   "url": "https://www.thehindubusinessline.com/economy/logistics/adani-ports-sez-q2-fy27-profit-up-165/article71634886.ece#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Adani Ports Q2 Results: Co Raises FY27 Guidance After Profit Rises 17%; Logistics, International Ports Drive Growth - Adani Ports and Special Economic Zone Ltd",
+   "url": "https://www.ndtvprofit.com/markets/adani-ports-q2-results-co-raises-fy27-guidance-after-profit-rises-17-logistics-international-ports-drive-growth-12247321?pfrom=home-business_topstories#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Business News | Cost Pressures to Weigh on Logistics and Ports in Q2FY27 Amid Volume Momentum: Report | LatestLY - Sunday, Oct 11, 2026 Live Breaking News:",
+   "url": "https://www.latestly.com/agency-news/business-news-cost-pressures-to-weigh-on-logistics-and-ports-in-q2fy27-amid-volume-momentum-report-7640298.html#1",
+   "date": "2026-10-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "On a consolidated level, JSWIL has a strong liquidity position supported by sufficient generations of cash accruals against repa...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202511121148_JSW_Infrastructure_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Services tax claims on the Bothra group aggregates to 197 crore as on March 31, 2024. The value remains high at \\(\\sim 23\\%\\) of...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202503120346_Sarat_Chatterjee_&_Co_(Visakhapatnam)_Private_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "May 06,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=142879#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Ports",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/13233e03-62cd-432b-b2df-27ec5785070f.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Andhra Pradesh None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

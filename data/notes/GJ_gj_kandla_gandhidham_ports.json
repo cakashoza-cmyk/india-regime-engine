@@ -1,0 +1,122 @@
+{
+ "key": "gj_kandla_gandhidham|ports",
+ "state": "GJ",
+ "city": "gj_kandla_gandhidham",
+ "ind": "ports",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "OK to lend selectively to Kandla-Gandhidham port-linked operators with clean receivables and contracted cargo; avoid commodity-price-exposed, single-client stevedoring and CFS units until receivables and cost pass-through are verified.",
+ "title": "Kandla-Gandhidham Ports & Port Services: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A port-services borrower in Kandla-Gandhidham earns by moving cargo, not by owning the sea.** Stevedoring, CFS/warehouse handling, barge and tug operations, and logistics yards convert labour, equipment and berth time into per-tonne or per-TEU fees. Cash arrives after the cargo owner or trader settles, so the working-capital cycle is the business. **The value sits in berth access, handling contracts and receivable quality, not in the fixed assets.**\n\n## What has changed now\n**Peer results are strong: APSEZ Q2 FY27 revenue rose 23.7% to ₹11,340 crore and net profit 16.5% to ₹3,622 crore, with EBITDA margin at 60% [2][3].** But a separate Emkay note says persistent cost inflation is partly offsetting volume growth across logistics and ports in Q2 FY27 [4]. **So when a proposal lands, check whether the borrower's per-tonne realisation has kept pace with its cost inflation; if margins are flat while volumes rise, ask for the cost pass-through clause in the handling contract.**\n\n## Where the growth is\n**Pursue operators tied to contracted, diversified cargo and to the larger port ecosystem that is visibly expanding [1][2].** Target CFS and yard operators with multi-client books, barge/tug owners with fixed-hire contracts, and logistics providers serving the port's hinterland. **Avoid single-client stevedores and traders' captive CFS units where one commodity price swing moves the whole receivable book.** Rating reports show receivable periods of 57-60 days at healthy port operators [5][8]; **if a proposal shows receivables materially above that, ask for the ageing and the top-five debtor list before sanction.**\n\n## How to grow safely\n**Structure against the cycle, not the peak.** Keep tenors short, match limits to the working-capital cycle, and take monthly stock-and-receivable statements plus bank statements. **Take a charge on receivables and a promoter guarantee; if the borrower's operating cycle exceeds the peer range of 51-60 days [5][6][8], ask for a monthly receivables ageing covenant.** Note that the data pack gives no city-level score, so this call rests on first principles and peers, not local statistics [D].\n\n## Early-warning signs\n**Watch debtor days, cargo concentration and cost pass-through.** If debtor days stretch beyond the peer range [5][8], ask for the top-five debtor ageing and hold fresh limits. If one client crosses a third of billings, ask for the contract tenure. If fuel or handling cost rises without a matching tariff revision [4], ask for the revised rate card. **Rating reports flag tax claims and regulatory capex as real risks in this sector [6][8]; if a tax demand or regulatory notice appears, ask for the provision and the cash impact.**"
+ ],
+ "watch": [
+  [
+   "Monthly bank statements and receivable ageing (monthly)",
+   "Debtor days above 60 [5][8] -> hold fresh limits and ask for top-five debtor ageing"
+  ],
+  [
+   "Quarterly cargo volume and realisation (quarterly)",
+   "Volumes up but margin flat [4] -> ask for cost pass-through clause and revised rate card"
+  ],
+  [
+   "Client concentration (quarterly)",
+   "Single client above one-third of billings -> ask for contract tenure and diversify condition"
+  ],
+  [
+   "Tax/regulatory notices (event-based)",
+   "Any demand or notice [6][8] -> ask for provision and cash impact before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Peer APSEZ Q2 FY27 revenue up 23.7%, profit up 16.5%, margin 60% [2][3].",
+ "articles": [
+  {
+   "title": "India's Adani Ports logs higher quarterly profit on cargo volume growth - 71d9cc7c17aa",
+   "url": "https://hk.marketscreener.com/news/india-s-adani-ports-logs-higher-quarterly-profit-on-cargo-volume-growth-ce785cd2db8af12c#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Adani Ports & SEZ Q2 FY27 profit up 16.5% - SENSEX 73,384.03",
+   "url": "https://www.thehindubusinessline.com/economy/logistics/adani-ports-sez-q2-fy27-profit-up-165/article71634886.ece#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Adani Ports Q2 Results: Co Raises FY27 Guidance After Profit Rises 17%; Logistics, International Ports Drive Growth - Adani Ports and Special Economic Zone Ltd",
+   "url": "https://www.ndtvprofit.com/markets/adani-ports-q2-results-co-raises-fy27-guidance-after-profit-rises-17-logistics-international-ports-drive-growth-12247321?pfrom=home-business_topstories#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Business News | Cost Pressures to Weigh on Logistics and Ports in Q2FY27 Amid Volume Momentum: Report | LatestLY - Sunday, Oct 11, 2026 Live Breaking News:",
+   "url": "https://www.latestly.com/agency-news/business-news-cost-pressures-to-weigh-on-logistics-and-ports-in-q2fy27-amid-volume-momentum-report-7640298.html#1",
+   "date": "2026-10-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "On a consolidated level, JSWIL has a strong liquidity position supported by sufficient generations of cash accruals against repa...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202511121148_JSW_Infrastructure_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Services tax claims on the Bothra group aggregates to 197 crore as on March 31, 2024. The value remains high at \\(\\sim 23\\%\\) of...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202503120346_Sarat_Chatterjee_&_Co_(Visakhapatnam)_Private_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "May 06,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=142879#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Ports",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/13233e03-62cd-432b-b2df-27ec5785070f.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Gujarat None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

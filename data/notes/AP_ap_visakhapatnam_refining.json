@@ -1,0 +1,150 @@
+{
+ "key": "ap_visakhapatnam|refining",
+ "state": "AP",
+ "city": "ap_visakhapatnam",
+ "ind": "refining",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 39,
+ "nudged_by_news": false,
+ "verdict": "Avoid for now: no fresh refining or coal-products exposure in Visakhapatnam until crude settles back into the $75–100 band and local GST turns positive; only lend to downstream service and offtake borrowers with contracted cash flows.",
+ "title": "Visakhapatnam Petroleum Refining & Coal Products: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is here\nVisakhapatnam's refining story is one large anchor plant, HPCL's Visakh Refinery, whose modernisation project and 3.55 MMTPA Residue Upgradation Facility were reviewed and commended by the Union Minister of State for Petroleum and Natural Gas in May 2026 [3]. **Around that anchor sits a chain of small borrowers: tanker and product transporters, tank-farm and terminal operators, catalyst and chemical suppliers, fabrication and turnaround contractors, and LPG cylinder handlers.** They convert inputs into cash by moving or servicing product on contract; the refinery's throughput and margin decide their order book, not their own salesmanship. The local press coverage we have is thin and mostly event-based [1][2], so treat first principles plus peer results as the base and collect from customer anything plant-specific.\n\n## Where value and cash actually sit\n**Value sits with whoever holds the crude-to-product spread; cash sits with whoever gets paid on time by the refiner.** Peer results show how violently that spread moves: HPCL's GRM rose to US$32.2/bbl, up 35% QoQ and 262% YoY, on throughput of 6.2mmt, down 5% QoQ and 6% YoY [7], and BPCL described Brent near $70/bbl from mid-July before tension pushed it up [4]. **Brent at $113/bbl is above the $75–100 band [D], so working capital is inflated and inventory gains flatter reported profit.** IOC's domestic under-recovery on cylinders was INR 184 in September, INR 229 in October, projected at INR 309 in November and INR 370 in December [6] — that is a cash drain sitting upstream of your borrowers. When a proposal lands, check whether the borrower's receivable is from the refiner or from a distributor; if it is the distributor, ask for the refiner's payment record to that distributor.\n\n## What has changed now\n**The demand side is soft and the local tax signal is negative.** India-wide IIP for NIC 19 is -0.6% YoY and -0.9% Apr-to-date [D], and Andhra Pradesh GST collections are -0.2% Apr-to-date against India's +6.1%, 6.3 pp slower [D]. **The data-based call is AVOID at 39, built from national 32 and Andhra Pradesh 50 [D].** Rating reports on the sector are stable but generic — ICRA's Stable outlook rests on adequate cash generation over 12 to 18 months [8], and CPCL's fossil-fuel transition risk is described as distant [9]. Note that [11] is from 2017 and should not be used for anything current.\n\n## Where to grow, and how to grow safely\n**Pursue the contracted-service layer, not the commodity layer:** turnaround and maintenance contractors with purchase orders from the refinery, tank-truck operators on fixed per-kl rates, and industrial-gas or catalyst distributors with sole-supplier arrangements. **Avoid traders who buy and hold product on their own book, and any borrower whose repayment depends on GRM staying at [7]'s level.** Structure as short-tenor working capital against assigned receivables, with a covenant that Brent above $100/bbl [D] triggers a margin top-up, and take stock and receivable statements monthly plus the refiner's payment advice.\n\n## Early-warning signs\n- **Receivable days stretching past the refiner's stated cycle** — ask for the refiner's payment advice and stop fresh limits if two cycles slip.\n- **Order book thinning at the anchor plant** — cross-check with turnaround schedules; if the borrower cannot show the next purchase order, reduce exposure.\n- **Brent moving further above $113/bbl [D]** — call for additional collateral or margin before the next disbursement.\n- **Andhra Pradesh GST staying negative against India [D]** — tighten tenor on all new Visakhapatnam proposals."
+ ],
+ "watch": [
+  [
+   "Monthly receivable and stock statement",
+   "Receivable days rise two cycles in a row -> freeze limit and seek refiner payment advice"
+  ],
+  [
+   "Brent price (weekly)",
+   "Brent above $113/bbl [D] and rising -> demand margin top-up or extra collateral"
+  ],
+  [
+   "Andhra Pradesh GST collections (monthly)",
+   "State GST stays negative while India positive [D] -> cut tenor on new sanctions"
+  ],
+  [
+   "Refinery turnaround and order schedule (quarterly)",
+   "No confirmed next purchase order -> reduce exposure or exit at renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Brent above band, NIC 19 output negative, AP GST below India",
+ "articles": [
+  {
+   "title": "visakhapatnam refinery: Latest News & Videos, Photos about visakhapatnam refinery | The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/visakhapatnam-refinery#1",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Hindustan Petroleum Corporation Ltd - Explore Business Standard",
+   "url": "https://www.business-standard.com/amp/topic/hindustan-petroleum-corporation-ltd#1",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Suresh Gopi reviews HPCL Visakh Refinery operations - Suresh Gopi reviews HPCL Visakh Refinery operations",
+   "url": "https://www.thehindu.com/news/cities/Visakhapatnam/suresh-gopi-reviews-hpcl-visakh-refinery-operations/article71025956.ece#1",
+   "date": "2026-05-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: BPCL Q2 2026 beats on EPS as refining stays strong By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/earnings-call-transcript-bpcl-q2-2026-beats-on-eps-as-refining-stays-strong-93CH-2648544",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's HPCL Q4 profit rises on strong refining margins, steady fuel demand",
+   "url": "https://sg.finance.yahoo.com/news/indias-hpcl-q4-profit-rises-081627388.html",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Indian Oil posts Q2 2026 profit beat on inventory gains By Investing.com",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-indian-oil-posts-q2-2026-profit-beat-on-inventory-gains-93CH-4989490",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "News",
+   "url": "https://pre.sharekhan.com/news/earning/details/hpcl---2qfy27-strong-quarter/all",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 11, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144881#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 14, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145559#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Petrochemical%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 02, 2017",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=63906#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 39 (national 32 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: GST collections -0.2% Apr-to-date vs India +6.1% (6.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 19 output -0.6% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -0.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

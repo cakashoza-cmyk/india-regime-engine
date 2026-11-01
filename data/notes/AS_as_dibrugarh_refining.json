@@ -1,0 +1,158 @@
+{
+ "key": "as_dibrugarh|refining",
+ "state": "AS",
+ "city": "as_dibrugarh",
+ "ind": "refining",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 39,
+ "nudged_by_news": false,
+ "verdict": "Avoid for now — Dibrugarh refining and coal-products exposure sits below our floor; lend only to niche downstream borrowers with contracted offtake and tight structure.",
+ "title": "Dibrugarh Petroleum Refining & Coal Products: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Refining and coal-products units buy crude or coal, run it through a plant, and sell fuel, coke or tar to a small set of industrial and retail buyers.** Cash is made on the spread between feedstock cost and product price, not on volume alone, so the plant's margin is set by the crude or coal price and the local demand for the output. **The working-capital cycle is short on the sales side but heavy on inventory** — feedstock must be stocked before it is processed, so inventory and payables to suppliers are where the cash sits. Capex is lumpy and plant-specific; a single unit upgrade can absorb a year of cash flow.",
+  "## What has changed now\n**The national picture is weak: IIP for NIC 19 output is -0.6% YoY and -0.9% Apr-to-date [D].** Brent at $113/bbl is above the $75–100 band [D], which squeezes any unit that buys crude at spot and sells at administered or contracted prices. **Assam's electricity demand grew only +1.9% Apr-to-date against India's +9.5% [D]** — a local signal that industrial activity here is running well below the national pace. **The data-based call for this industry in this city is AVOID at 39 [D].** Local sources say little specific to Dibrugarh refining; the Sentinel piece is about reviving the river port for commerce [1], and the hydrocarbon coverage is generic [2][3]. So lean on first principles and peers.",
+  "## Where the growth is\n**Peer results show the margin, not the volume, is doing the work: HPCL's GRM rose to US$32.2/bbl, +35% QoQ and +262% YoY, on throughput down 6% YoY [7].** BPCL's Q2 beat came on refining strength [4], and IOC's Q2 beat came on inventory gains [6]. **Pursue the small downstream borrowers who sit between the refinery and the end user** — fuel distributors, coke and tar processors, and industrial buyers with contracted offtake — rather than upstream or standalone refining units. **Avoid pure feedstock traders and single-customer processors** whose margin depends on one refinery's dispatch schedule.",
+  "## How to grow safely\n**Structure against inventory, not against the plant.** Take a first charge on stock and receivables, and set the drawing power off audited stock statements. **When a proposal lands, check the feedstock contract price and the product sale price side by side; if the spread is under the borrower's own stated breakeven, ask for the last six months of invoices.** Take monthly stock and receivable statements, quarterly GST returns, and a monthly feedstock-versus-product price sheet. **Cap tenor to the working-capital cycle** and keep any term loan to a defined unit upgrade with a completion date.",
+  "## Early-warning signs\n**Watch the spread first.** If the borrower's product price falls while feedstock stays at Brent-linked levels [D], the margin is gone before the sales line moves. **Watch Assam's power demand as a proxy for local industrial run-rate** — a further slowdown from +1.9% [D] means fewer buyers for coke and tar. **Watch inventory days and payable days together**; stretching payables while stock builds is the classic sign of a cash squeeze. **Watch for single-customer concentration** — if one refinery or one industrial buyer is over half of sales, treat it as a structural risk, not a growth story."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Inventory days rise two months running -> cut drawing power and ask for the sales register"
+  ],
+  [
+   "Monthly feedstock vs product price sheet",
+   "Spread below borrower's stated breakeven -> freeze fresh limits and review the account"
+  ],
+  [
+   "Quarterly GST returns",
+   "Turnover falls more than 10% QoQ -> ask for the order book and customer list"
+  ],
+  [
+   "Assam power demand (CEA, monthly)",
+   "Growth stays below +1.9% [D] for two more prints -> tighten new-to-bank limits in the district"
+  ],
+  [
+   "Customer concentration (quarterly)",
+   "One buyer above half of sales -> require a second offtake contract before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "National output -0.6% YoY, Assam power demand far slower than India, Brent above band.",
+ "articles": [
+  {
+   "title": "Reclaiming the B’putra for Commerce",
+   "url": "https://www.sentinelassam.com/more-news/editorial/reclaiming-the-bputra-for-commerce",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Hydrocarbons in Brahmaputra: Latest News & Videos, Photos about Hydrocarbons in Brahmaputra | The Economic Times - Page 1 - Business News›Hydrocarbons in Brahmaputra",
+   "url": "https://economictimes.indiatimes.com/topic/Hydrocarbons-in-Brahmaputra#1",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "hydrocarbons in brahmaputra News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/hydrocarbons-in-brahmaputra/news#1",
+   "date": "2026-10-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: BPCL Q2 2026 beats on EPS as refining stays strong By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/earnings-call-transcript-bpcl-q2-2026-beats-on-eps-as-refining-stays-strong-93CH-2648544",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's HPCL Q4 profit rises on strong refining margins, steady fuel demand",
+   "url": "https://sg.finance.yahoo.com/news/indias-hpcl-q4-profit-rises-081627388.html",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Indian Oil posts Q2 2026 profit beat on inventory gains By Investing.com",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-indian-oil-posts-q2-2026-profit-beat-on-inventory-gains-93CH-4989490",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "News",
+   "url": "https://pre.sharekhan.com/news/earning/details/hpcl---2qfy27-strong-quarter/all",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 11, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144881#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "September 14, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145559#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Petrochemical%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 02, 2017",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=63906#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 39 (national 32 x 0.6 + Assam 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Assam: electricity demand +1.9% Apr-to-date vs India +9.5% (7.6 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 19 output -0.6% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -0.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

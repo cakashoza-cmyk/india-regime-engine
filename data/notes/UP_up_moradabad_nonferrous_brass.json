@@ -1,0 +1,150 @@
+{
+ "key": "up_moradabad|nonferrous_brass",
+ "state": "UP",
+ "city": "up_moradabad",
+ "ind": "nonferrous_brass",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 88,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Moradabad non-ferrous and brass fabrication, but only to exporters and organised fabricators with metal-price pass-through and hedged working capital; avoid artisan-dependent job-work units and unhedged single-buyer exporters.",
+ "title": "Moradabad Non-ferrous Metals, Brass & Fabricated Metal: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nMoradabad melts and fabricates non-ferrous metal into brassware, artware and industrial castings, then sells largely into export markets; the city's brass trade is put at ₹11,460 crore of exports [2]. **Cash is made on conversion margin, not on metal** — the metal is a pass-through input, so the borrower's real economics sit in yield, scrap recovery and finishing labour. The binding constraint is skilled labour: local reporting says the traditional craft is under stress and preparing the next generation of artisans is a challenge [1]. So when a proposal lands, check how much of the process is in-house versus outsourced to artisan job-work; if the unit depends on a handful of karigars, ask what happens to delivery if that bench thins.\n\n## Where value and cash sit\n**Working capital is the loan, not the machine.** Metal inventory plus export receivables dominate the balance sheet, and rating experience in this space shows moderately high working-capital requirements supported by bank lines [10], with fund-based limit utilisation running as high as 88% at a comparable metal borrower [9]. Pricing power is thin against global buyers, so margin comes from buying scrap and alloy well and turning stock fast. Capex is modest — furnaces, polishing and plating — and rating commentary treats modest capex as normal for such units [9]. So when a proposal lands, check stock turns and receivable days against limit utilisation; if drawing power is pegged near the limit for months, ask for the ageing of export receivables and the scrap-to-finished yield.\n\n## What has changed now\n**The demand signal is strong but the local craft base is the weak link.** India-wide output for NIC 25 is up 16.9% YoY and 12.0% Apr-to-date [D], and UP GST collections are running 14.2% Apr-to-date against India's 6.1% [D]. Bank credit is growing 11.9% against output of 12.0%, a gap of -0.1 pp [D] — funding is broadly keeping pace, not overheating. Peer results confirm volume-led growth: Gravita's Q2 FY27 revenue rose 38% with volumes of 52,199 MT up 3% [4][6], and KSH International's Q3 FY26 revenue rose 59% on volumes up 24% [5]. Against that, the local artisan shortage [1] and the push to link brass trade to e-commerce and global markets [2][3] mean the winners will be units that can scale without depending on inherited hand skills. Note the peer results are national, not Moradabad-specific; local sources say little on city-level credit data, so lean on first principles here.\n\n## Who to pursue, and how to grow safely\n**Pursue organised fabricators and exporters with diversified buyer books, in-house finishing and documented metal hedging; avoid pure job-work units and single-buyer exporters.** Structure term debt short — three to five years — and keep working capital as the core exposure, with a cash-flow cycle that matches the export receivable tenor. Take monthly stock and receivable statements, quarterly GST returns reconciled to sales, and a metal-price hedging confirmation each quarter. Where the borrower sells only to one overseas buyer, ask for the buyer contract and payment history before sanctioning.\n\n## Early-warning signs\n- **Limit utilisation above 88% for two straight months [9] -> freeze enhancements and re-cut drawing power.**\n- **Receivable days stretching while volumes hold -> ask for buyer-wise ageing and confirm the export buyer is paying.**\n- **Artisan attrition or delivery delays reported locally [1] -> re-assess execution risk and tighten stock norms.**\n- **Scrap availability or price swings compressing yield -> ask for the monthly yield report and hedge cover.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Utilisation above 88% for two months -> freeze enhancements, re-cut drawing power"
+  ],
+  [
+   "Quarterly GST returns vs sales",
+   "GST sales falling below bank-statement turnover -> ask for reconciliation and stop fresh disbursal"
+  ],
+  [
+   "Monthly metal hedge confirmation",
+   "Unhedged metal exposure above borrower's stated policy -> require hedge before next renewal"
+  ],
+  [
+   "Quarterly buyer-wise export ageing",
+   "Top buyer above half of sales or receivables past due -> seek buyer contract and payment proof"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local artisan shortage threatens execution even as national output and UP GST run strong.",
+ "articles": [
+  {
+   "title": "Moradabad News: पीतलनगरी के पारंपरिक हुनर पर संकट, कारीगरों की अगली पीढ़ी तैयार करना चुनौती",
+   "url": "https://www.amarujala.com/uttar-pradesh/moradabad/traditional-craft-of-the-brass-city-faces-a-crisis-preparing-the-next-generation-of-artisans-remains-a-challenge-moradabad-news-c-15-1-mbd1055-1028315-2026-10-31",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "मुरादाबाद के 11,460 करोड़ के निर्यात को बढ़ाने की तैयारी: पीतल कारोबार को ई-कॉमर्स और ग्लोबल मार्केट से जोड़ने पर मंथन; ‘यूपी डायलॉग्स’ में एमएसएमई, शिक्षा और महिला उद्यमिता पर चर्चा - - Hindi News",
+   "url": "https://www.bhaskar.com/up-khaas/news/moradabad-brass-export-ecommerce-msme-business-dialogue-up-news-139495534.html#1",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "मुरादाबाद की पीतल नगरी: हुनर और तकनीक से वैश्विक निर्यात को नई उड़ान - moradabad brass exports craft tech global market boost",
+   "url": "https://org374nextwww.jagran.com/uttar-pradesh/moradabad-city-moradabad-brass-exports-craft-tech-global-market-boost-40416413.html",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Gravita India Ltd (BOM:533282) (Q2 2027) Earnings Call Highlights: Revenue Jumps 38% as ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/gravita-india-ltd-bom-533282-110841255.html",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Q3FY26 Quarterly Result Announced for KSH International Ltd.",
+   "url": "https://trendlyne.com/posts/5520605/q3fy26-quarterly-result-announced-for-ksh-international-ltd",
+   "date": "2026-02-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Gravita India Ltd. (GRAVITA) — Q2 FY27 | Positive",
+   "url": "https://quartrly.in/discover/pitches/gravita-india-ltd-q2-fy27?from=board-tone",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India: Shyam Metallics reports nearly 9% rise in PAT for 9MFY'26 - BigMint - India: Shyam Metallics reports nearly 9% rise in PAT for 9MFY'26",
+   "url": "https://www.bigmint.co/insights/detail/india-shyam-metallics-reports-nearly-9-rise-in-pat-for-9mfy-26-717977#1",
+   "date": "2026-10-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Financial leverage is a measure of an entity's dependence on borrowed funds",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/1016~Non-Ferrous%20Metals,%20Rating%20Methodology,%20Mar%202026.pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202505130524_Shera_Metal_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Moderately high working capital requirements; although adequately supported by bank lines: Company has moderately high working...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/M%20S%20Metals%20And%20Steels%20Private%20Limited-RU-19-07-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cash flows",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/1018~Jewellery-Retail,%20Rating%20Methodology,%20Mar%202026.pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 88 (national 96 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 25 output +16.9% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +12.0% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +11.9% YoY vs output +12.0% (gap -0.1 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
