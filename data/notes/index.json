@@ -156,6 +156,12 @@
 "score": 70,
 "at": "2026-11-01 23:55 IST"
 },
+"BR|br_muzaffarpur|food_processing": {
+"call": "caution",
+"base": "caution",
+"score": 53,
+"at": "2026-11-02 00:23 IST"
+},
 "BR|br_muzaffarpur|fruits_veg": {
 "call": "avoid",
 "base": "avoid",
@@ -372,6 +378,12 @@
 "score": 43,
 "at": "2026-11-02 00:00 IST"
 },
+"GJ|gj_bhavnagar|diamonds": {
+"call": "caution",
+"base": "caution",
+"score": 51,
+"at": "2026-11-02 00:20 IST"
+},
 "GJ|gj_bhavnagar|shipbuilding": {
 "call": "caution",
 "base": "ok",
@@ -431,6 +443,12 @@
 "base": "caution",
 "score": 49,
 "at": "2026-11-01 23:55 IST"
+},
+"GJ|gj_kandla_gandhidham|edible_oil": {
+"call": "caution",
+"base": "caution",
+"score": 51,
+"at": "2026-11-02 00:21 IST"
 },
 "GJ|gj_kandla_gandhidham|plywood_laminates": {
 "call": "caution",
@@ -1110,6 +1128,12 @@
 "score": 44,
 "at": "2026-11-01 23:55 IST"
 },
+"MH|mh_nashik|electrical_eq": {
+"call": "caution",
+"base": "ok",
+"score": 80,
+"at": "2026-11-02 00:22 IST"
+},
 "MH|mh_nashik|engineering": {
 "call": "ok",
 "base": "ok",
@@ -1206,6 +1230,12 @@
 "score": 48,
 "at": "2026-11-01 23:51 IST"
 },
+"MP|mp_bhopal|electrical_eq": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-02 00:22 IST"
+},
 "MP|mp_bhopal|engineering": {
 "call": "caution",
 "base": "caution",
@@ -1295,6 +1325,12 @@
 "base": "avoid",
 "score": 27,
 "at": "2026-11-01 23:48 IST"
+},
+"OD|od_angul|metals": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-02 00:24 IST"
 },
 "OD|od_bhubaneswar|metals": {
 "call": "avoid",
