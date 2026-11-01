@@ -1,0 +1,154 @@
+{
+ "key": "wb_burdwan|rice_milling",
+ "state": "WB",
+ "city": "wb_burdwan",
+ "ind": "rice_milling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 32,
+ "nudged_by_news": false,
+ "verdict": "Avoid new rice-milling exposure in Burdwan for now; lend only to established, audited Gobindobhog-focused millers with clean GI-traceability and tight structure, and decline the rest.",
+ "title": "Burdwan Rice Milling & Export: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Burdwan rice mill buys paddy at harvest, dries and stores it, mills it to rice, and sells bran, husk and broken rice as by-products.** Cash is locked in paddy stock from the aman harvest through the year, so the working-capital cycle, not the mill, is the real credit. Paddy is the dominant cost; collect from customer the actual paddy-to-rice outturn and by-product realisation before you size any limit. **Milling is a spread business, not a price-setter** — the miller earns on conversion and by-product, and margin moves with paddy price and rice realisations, not with his own pricing power.\n\n## What has changed here now\n**The GI-tagged Gobindobhog trade is being damaged from inside.** Local reporting says unscrupulous millers are blending cheaper 'sonam' paddy from Bihar and North Bengal and adding chemical fragrance, so genuine growers are not getting fair prices and honest Gobindobhog millers are losing money [2]. This is a 2026-09 local report and it matters directly: **when a proposal lands, check whether the borrower buys only own-district Gobindobhog or blends; if blending is admitted, ask for the purchase register and GI documentation, and decline if it cannot be produced.** The state's own numbers are weak — West Bengal GST collections are -1.3% Apr-to-date against India +6.1% [D], and electricity demand +5.7% against India +9.5% [D]. **The data-based call on this cluster is AVOID (score 32)** [D].\n\n## Where the growth is\n**Peer results show the rice trade itself is healthy at the top end.** KRBL reported record Basmati exports up about 8% year-on-year to 6.5 million metric tons and its best-ever domestic quarter, +22% [4], and later its strongest-ever quarterly profitability with EBITDA margin 23.8% [7]. Amir Chand Jagdish Kumar's export net profit rose 94% with revenue up 55% [6]. **Pursue Burdwan millers with a genuine export or institutional buyer, own storage, and a clean Gobindobhog book; avoid traders who live on blended cheap rice and spot mandi sales.** A rice expo is being held in Burdwan on Nov 27–29, 2026 [1] — use it to meet equipment and buyer counterparties, not as a credit signal.\n\n## How to grow safely\n**Structure against the stock, not the balance sheet.** Take a monthly stock-and-receivables statement, a monthly paddy purchase register with source district, and quarterly GI/quality certificates for Gobindobhog lots. **Set the drawing power on audited stock and by-product value, and covenant that blending or inter-state paddy purchase beyond an agreed share needs prior written consent.** Collect from customer the current paddy procurement price and the mill's outturn ratio before fixing the limit.\n\n## Early-warning signs\n- **Monthly stock statement (monthly):** stock value falls below drawing power for two months -> freeze further drawing and inspect godown.\n- **Purchase register (monthly):** sonam or out-of-state paddy share rises -> treat as blending risk and re-rate the account.\n- **GST returns (monthly):** turnover falls while bank exposure is flat -> ask for sales invoices and buyer confirmations.\n- **By-product realisation (quarterly):** bran/husk realisation drops sharply -> recheck margin and reduce limit.\n- **GI/quality certificate (quarterly):** certificate missing or lapsed -> stop new disbursement until restored."
+ ],
+ "watch": [
+  [
+   "Monthly stock statement",
+   "Stock below drawing power for two months -> freeze drawing and inspect godown"
+  ],
+  [
+   "Monthly purchase register",
+   "Out-of-state or sonam paddy share rises -> re-rate account as blending risk"
+  ],
+  [
+   "Monthly GST returns",
+   "Turnover falls with flat bank exposure -> demand invoices and buyer confirmations"
+  ],
+  [
+   "Quarterly by-product realisation",
+   "Bran/husk realisation drops sharply -> recheck margin, cut limit"
+  ],
+  [
+   "Quarterly GI/quality certificate",
+   "Certificate missing or lapsed -> stop new disbursement until restored"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Gobindobhog adulteration scandal plus weak state GST and power demand signal local stress.",
+ "articles": [
+  {
+   "title": "Rice Grain Pro-Tech Expo 2026 BURDWAN - Visitexpo",
+   "url": "https://visitexpo.in/event/rice-grain-pro-tech-expo-2026-burdwan/",
+   "date": "2026-10-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Burdwan: Scents are being mixed into the GI-tagged Gobindobhog rice - Sangbad Pratidin",
+   "url": "https://m.sangbadpratidin.in/article/bengal/burdwan-scents-are-being-mixed-into-the-gi-tagged-gobindobhog-rice/1341987?utm=ampnext",
+   "date": "2026-09-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Burdwan’s defunct ₹3.5 crore Mishti Hub to become food processing centre: Minister - The Statesman",
+   "url": "https://www.thestatesman.com/bengal/burdwans-defunct-%E2%82%B93-5-crore-mishti-hub-to-become-food-processing-centre-minister-1503615473.html",
+   "date": "2026-07-10",
+   "kind": "local",
+   "via": "deepseek",
+   "used": false
+  },
+  {
+   "title": "KRBL Ltd (BOM:530813) Q4 2026 Earnings Call Highlights: Record Domestic Growth Amid Export ... By GuruFocus - KRBL Ltd (BOM:530813) Q4 2026 Earnings Call Highlights: Record Domestic Growth Amid Export ...",
+   "url": "https://ca.investing.com/news/company-news/krbl-ltd-bom530813-q4-2026-earnings-call-highlights-record-domestic-growth-amid-export--4647061#1",
+   "date": "2026-05-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: AWL Agri Business posts strong Q2 2026 growth By Investing.com - Earnings call transcript: AWL Agri Business posts strong Q2 2026 growth",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-awl-agri-business-posts-strong-q2-2026-growth-93CH-4934632#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Amir Chand Jagdish Kumar net profit surges 94% in Q1FY26 - Amir Chand Jagdish Kumar net profit surges 94% in Q1FY26",
+   "url": "https://scanx.trade/stock-market-news/companies/amir-chand-jagdish-kumar-q1-results-net-profit-jumps-94-yoy/47458152#1",
+   "date": "2026-08-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "KRBL Ltd (BOM:530813) (Q1 2027) Earnings Call Highlights: Record Profitability and Strategic ... By GuruFocus - KRBL Ltd (BOM:530813) (Q1 2027) Earnings Call Highlights: Record Profitability and Strategic ...",
+   "url": "https://ca.investing.com/news/company-news/krbl-ltd-bom530813-q1-2027-earnings-call-highlights-record-profitability-and-strategic--4804336#1",
+   "date": "2026-08-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 12,2025",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=139593&_x_output_type_b6db407c4_=embedded_pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Foreign currency related risksThe foreign currency risk can arise from export- related revenues and receivables that may be un- ...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=847&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "While we have not incurred any material penalties / fines due to any adverse rulings in the last three Fiscals, we cannot assure...",
+   "url": "https://nsearchives.nseindia.com/corporate/Registration_11092025222348_SFIL_DRHP_11092025.pdf#13#107#13",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 28,2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=118308#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 32 (national 53 x 0.6 + West Bengal 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "West Bengal: GST collections -1.3% Apr-to-date vs India +6.1% (7.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "West Bengal: electricity demand +5.7% Apr-to-date vs India +9.5% (3.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

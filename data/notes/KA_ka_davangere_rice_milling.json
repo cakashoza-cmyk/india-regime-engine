@@ -1,0 +1,154 @@
+{
+ "key": "ka_davangere|rice_milling",
+ "state": "KA",
+ "city": "ka_davangere",
+ "ind": "rice_milling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 72,
+ "nudged_by_news": true,
+ "verdict": "Caution on Davangere rice milling: lend only to mills with proven multi-district paddy sourcing and disclosed stock, against collateral and monthly stock statements; avoid single-district, single-season borrowers until Bhadra water and paddy arrivals normalise.",
+ "title": "Davangere Rice Milling & Export: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA rice mill buys paddy, dries and de-husks it, and sells rice, bran and husk. **Cash is made in the spread between paddy cost and rice price, not in milling fees.** Paddy is the dominant cost; collect from customer the exact paddy-to-rice conversion and by-product realisation for each proposal. Capex is modest (driers, sortex, boiler) but husk-based power and by-product processing are where integrated mills earn extra margin [11]. ## What has broken now\n**Paddy arrivals have plunged and mills are running short of raw material** — a national report counts 2,400 rice mills crippled by drought [1]. Locally, Davangere growers are split on Bhadra water timing across around 63,800 hectares, with only around 9,200 hectares transplanted so far, and officials expect a 20% yield decline even if water is released now [2]. So when a proposal lands, check the mill's paddy sourcing map; if it buys only from Davangere, ask where the November-to-January paddy comes from. Note the 2019 local report on mills struggling through drought is old [3] — treat it as history, not current fact. ## Where the growth is\n**Peer results show the money is in branded domestic rice and organised exports, not commodity milling.** KRBL posted its strongest-ever quarterly profitability with PAT of Rs. 261 crores and EBITDA margin of 23.8%, up from 13.9% [7]; its domestic revenue grew 22% year-on-year in Q4 FY2026 [4]. Amir Chand Jagdish Kumar's net profit rose 94% to ₹366.27 million on revenue of ₹6,646.74 million [6]. An ICRA note expects 6-8% revenue growth in FY2026 on export pick-up and tier-1/tier-2 domestic demand [8]. Karnataka's GST collections grew 11.1% Apr-to-date against India's 6.1% [D] — a real local demand tailwind. Pursue mills with a brand, a by-product line and export orders; avoid pure custom-milling units with no stock ownership. ## How to grow safely\n**Structure against stock, not against hope.** Sanction as a cash-credit limit against pledged paddy and rice stock with a drawing power recalculated monthly, plus a term loan only for sortex/drier assets. Take monthly stock statements, godown inspection reports and paddy purchase bills; take quarterly buyer-wise receivable ageing. Because export receivables carry currency risk [9], insist on hedging or a rupee-denominated book. Note India-wide bank credit grew 26.3% YoY against output of 5.1% [D] — money is chasing this sector faster than it produces, so price for that. ## Early-warning signs\n- **Paddy arrival volumes at the mill gate (weekly):** two consecutive weeks below plan -> freeze fresh disbursement and inspect stock. - **Stock statement vs godown physical (monthly):** shortfall above 10% -> stop drawing power and seek explanation in writing. - **Receivable days (monthly):** rising beyond the sanctioned cycle -> shift buyer to LC or cash. - **Bhadra release and transplant acreage (seasonal):** no release by November -> reclassify the borrower's next-season viability. - **Electricity consumption at the mill (monthly):** falling sharply -> check whether the mill has actually stopped running."
+ ],
+ "watch": [
+  [
+   "Paddy arrival volumes at mill gate (weekly)",
+   "two weeks below plan -> freeze fresh disbursement and inspect stock"
+  ],
+  [
+   "Stock statement vs physical godown check (monthly)",
+   "shortfall above 10% -> stop drawing power, seek written explanation"
+  ],
+  [
+   "Receivable ageing by buyer (monthly)",
+   "days rising beyond sanctioned cycle -> move buyer to LC or cash"
+  ],
+  [
+   "Bhadra water release and transplant acreage (seasonal)",
+   "no release by November -> reassess next-season viability"
+  ],
+  [
+   "Mill electricity consumption (monthly)",
+   "sharp fall -> verify whether milling has actually stopped"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Drought has cut paddy arrivals and Davangere transplanting is far behind, squeezing mill raw material.",
+ "articles": [
+  {
+   "title": "Drought cripples 2,400 rice mills as paddy arrivals plunge - AgriInsite",
+   "url": "https://agriinsite.com/drought-cripples-2400-rice-mills-as-paddy-arrivals-plunge/",
+   "date": "2026-10-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Paddy growers divided over Bhadra water release - Women workers busy preparing paddy seedlings near Hale Bathi in Davangere district",
+   "url": "https://www.deccanherald.com/india/karnataka/paddy-growers-divided-over-bhadra-water-release-4115966#1",
+   "date": "2026-08-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Davanagere district rice mills struggle to survive - Karnataka",
+   "url": "https://www.newindianexpress.com/states/karnataka/2019/Sep/11/davanagere-district-rice-mills-struggle-to-survive-2031976.html#1",
+   "date": "2019-09-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "KRBL Ltd (BOM:530813) Q4 2026 Earnings Call Highlights: Record Domestic Growth Amid Export ... By GuruFocus - KRBL Ltd (BOM:530813) Q4 2026 Earnings Call Highlights: Record Domestic Growth Amid Export ...",
+   "url": "https://ca.investing.com/news/company-news/krbl-ltd-bom530813-q4-2026-earnings-call-highlights-record-domestic-growth-amid-export--4647061#1",
+   "date": "2026-05-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: AWL Agri Business posts strong Q2 2026 growth By Investing.com - Earnings call transcript: AWL Agri Business posts strong Q2 2026 growth",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-awl-agri-business-posts-strong-q2-2026-growth-93CH-4934632#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Amir Chand Jagdish Kumar net profit surges 94% in Q1FY26 - Amir Chand Jagdish Kumar net profit surges 94% in Q1FY26",
+   "url": "https://scanx.trade/stock-market-news/companies/amir-chand-jagdish-kumar-q1-results-net-profit-jumps-94-yoy/47458152#1",
+   "date": "2026-08-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "KRBL Ltd (BOM:530813) (Q1 2027) Earnings Call Highlights: Record Profitability and Strategic ... By GuruFocus - KRBL Ltd (BOM:530813) (Q1 2027) Earnings Call Highlights: Record Profitability and Strategic ...",
+   "url": "https://ca.investing.com/news/company-news/krbl-ltd-bom530813-q1-2027-earnings-call-highlights-record-profitability-and-strategic--4804336#1",
+   "date": "2026-08-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 12,2025",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=139593&_x_output_type_b6db407c4_=embedded_pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foreign currency related risksThe foreign currency risk can arise from export- related revenues and receivables that may be un- ...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=847&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "While we have not incurred any material penalties / fines due to any adverse rulings in the last three Fiscals, we cannot assure...",
+   "url": "https://nsearchives.nseindia.com/corporate/Registration_11092025222348_SFIL_DRHP_11092025.pdf#13#107#13",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 28,2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=118308#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 72 (national 53 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Karnataka: GST collections +11.1% Apr-to-date vs India +6.1% (5.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Karnataka: electricity demand +23.3% Apr-to-date vs India +9.5% (13.8 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

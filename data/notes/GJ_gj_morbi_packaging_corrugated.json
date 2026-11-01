@@ -1,0 +1,149 @@
+{
+ "key": "gj_morbi|packaging_corrugated",
+ "state": "GJ",
+ "city": "gj_morbi",
+ "ind": "packaging_corrugated",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 67,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Morbi corrugated boxes and paper packaging, but only to converters with clean payment records and diversified end-customers; avoid units named in the association's non-payment list.",
+ "title": "Morbi corrugated boxes & paper packaging: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Morbi box unit buys kraft paper and liner board, runs it through a corrugator to make board, then prints, cuts and glues it into cartons for ceramic tile packers, FMCG, food and apparel. **Cash is made on conversion margin per tonne, not on paper price** — paper is a pass-through and the converter earns on yield, waste control and machine hours. Capex is modest and modular (corrugator, printer-slotter, die-cutter), so a unit can add a line in months; that also means capacity arrives fast when margins look good. Working capital is the real business: paper suppliers want short credit while tile and FMCG buyers stretch payment, so **the receivable book, not the machine, is where your money sits**.",
+  "## What has changed now\nGujarat is running ahead of the country — GST collections up 11.9% Apr-to-date against India's 6.1% [D] — so local demand for boxes is real. But India-wide, bank credit is growing 15.5% YoY against output of 8.6% [D], and IIP for NIC 17 (paper and paper products) is at -0.1% YoY [D]: **paper-sector output is flat while credit into the chain is expanding**, which is exactly how stretched receivables build up. Locally, the Morbi Packaging Association has given units a deadline to clear dues and will blacklist non-payers, with no company supplying goods to them [3]. That is the single most useful fact in this file.",
+  "## Where the growth is\nPeer results confirm demand, not distress: TCPL's Q1 FY27 consolidated total income rose 16% YoY to INR 495 crore with EBITDA up 17% to INR 88 crore [7], and its FY26 revenue was INR 1,835.56 crore with PAT of INR 97.80 crore [4][5]. UFlex reported EBITDA margin of 15.3%, the highest in 14 quarters [6]. **Pursue Morbi converters who supply tile exporters and FMCG with 3+ end-customers, hold a GST-clean record, and buy paper from mills outside the blacklist.** Avoid single-customer units tied to one tile packer, and avoid any unit appearing on the association's default list [3].",
+  "**Take stock and book-debt statements every month, plus GST returns and the paper purchase ledger** — the purchase ledger tells you real capacity use. Covenant a minimum current ratio and a cap on top-one-buyer concentration; if the top buyer crosses half of sales, ask for a diversification plan before enhancing limits. Where the unit's paper supplier credit terms are unknown, collect from customer."
+ ],
+ "watch": [
+  [
+   "Association blacklist and payment-default notices (monthly)",
+   "Borrower named -> freeze limit and issue recall"
+  ],
+  [
+   "GST returns versus Gujarat 11.9% growth [D] (monthly)",
+   "Filing lag or falling turnover -> re-rate the account"
+  ],
+  [
+   "Paper purchase ledger versus sales invoices (monthly)",
+   "Volume mismatch -> verify e-way bills before any enhancement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Morbi association threatening blacklist of non-paying units signals local receivable stress.",
+ "articles": [
+  {
+   "title": "Business News in English",
+   "url": "https://thepulpandpapertimes.com/hometrendingnews/p/3",
+   "date": "2026-10-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Morbi Paper Mills Association",
+   "url": "https://thepulpandpapertimes.com/search?SearchValue=%20Morbi%20Paper%20Mills%20Association",
+   "date": "2026-10-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "મોરબી પેકેજિંગ એસોસિએશને બાકી પેમેન્ટ ચૂકવવા માટે એકમોને મુદત આપી: સમયસર પેમેન્ટ ન કરનાર એકમો થશે બ્લેકલિસ્ટ, કોઈ કંપની માલ સપ્લાય નહીં કરે - Morbi News",
+   "url": "https://www.divyabhaskar.co.in/local/gujarat/morbi/news/morbi-packaging-association-blacklist-non-paying-companies-139088424.html",
+   "date": "2026-09-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Broad-based growth drives TCPL's strong start to FY27, says Akshay Kanoria",
+   "url": "https://www.printweek.in/article/broad-based-growth-drives-tcpl-s-strong-start-to-fy27-says-akshay-kanoria/4p720mkt2ybkq4pkztncpswt4m",
+   "date": "2026-08-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Broad-based growth drives TCPL's strong start to FY27, says Akshay Kanoria",
+   "url": "https://www.whatpackaging.co.in/article/broad-based-growth-drives-tcpl-s-strong-start-to-fy27-says-akshay-kanoria/4nd9440fdq68nzz3y23mhbvcn0",
+   "date": "2026-08-18",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "UFlex Q4 surge sets stage for next growth phase - THE PACKMAN",
+   "url": "https://thepackman.in/uflex-q4-surge-sets-stage-for-next-growth-phase/#respond",
+   "date": "2026-05-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "TCPL Packaging Sees Strong Domestic Demand, Expands Flexible Packaging Capacity; Pan Masala Impact Marginal",
+   "url": "https://thepulpandpapertimes.com/news/tcpl-packaging-sees-strong-domestic-demand-expands-flexible-packaging-capacity-pan-masala-impact-marginal-4586/",
+   "date": "2026-09-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 30, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130276#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "December 22,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=139792#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Rating Update April 08, 2025 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Perfectpac Limited-RU-08-04-2025.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "August 27,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=137263#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 67 (national 62 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +8.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.5% YoY vs output +8.6% (gap +6.9 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: IIP NIC 17 output -0.1% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

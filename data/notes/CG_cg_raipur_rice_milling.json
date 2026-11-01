@@ -1,0 +1,154 @@
+{
+ "key": "cg_raipur|rice_milling",
+ "state": "CG",
+ "city": "cg_raipur",
+ "ind": "rice_milling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 32,
+ "nudged_by_news": false,
+ "verdict": "Avoid new custom-milling exposure in Raipur; lend only to clean, non-PDS millers with verified stock and no NAN arrears, and only against stock plus receivables, not against paddy procurement.",
+ "title": "Raipur Rice Milling & Export: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Raipur rice mill buys paddy, dries and de-husks it, and sells rice, bran and husk. **Cash comes from two very different pipes: government custom milling (paddy taken from NAN/FCI, rice returned against bank guarantee) and own-account trade or export.** In custom milling the miller never owns the paddy; he earns a conversion margin and his real risk is the bank guarantee and the stock he holds. In own-account milling he owns price risk on paddy and rice, and that is where working capital sits. **So when a proposal lands, first ask which pipe the cash flow comes from; if it is custom milling, the loan is effectively against a guarantee, not a trading book.**",
+  "## Where value and cash sit\nMilling is a low-margin, high-turnover business: the miller's margin is thin per quintal, so profit is made on volume and on by-product recovery (bran, husk). Capex is plant and machinery plus storage, and it is lumpy. **The working-capital cycle is the whole credit story: paddy is bought in a short harvest window and rice is sold over months, so stock and receivables balloon before cash returns.** Collect from customer the actual conversion charge per quintal, the bran and husk realisation, and the stock-holding days; without these the margin cannot be judged.",
+  "## What has broken now\nLocal reporting is the warning. In Raipur custom milling, of 183 mills only about half a dozen returned 100% rice to NAN; 177 mills still hold 1,16,562 tonnes worth over Rs 4.66 billion, and 11 mills have deposited not a single grain [1]. The administration has issued three-day notices and threatened bank-guarantee forfeiture and sealing [1]. Earlier, 74 mills were warned with blacklisting and cause-notice [3]. Separately, an FIR was filed over Rs 5 million of rice where online records showed 1,012 quintals but only 35 quintals were found on site [2]. **This is diversion and stock-mismatch risk, not demand risk; a miller's book can look fine while the godown is empty.** The data pack flags Chhattisgarh GST growth at +2.4% versus India +6.1% and electricity demand +6.7% versus +9.5%, both local stress signals [D]. Nationally, bank credit is +26.3% YoY against output +5.1% [D], so credit is running far ahead of real activity.",
+  "## Where the growth is\nPeer results show the export and branded side is where money is being made: KRBL reported its strongest-ever quarterly profitability with PAT of Rs 261 crore and EBITDA margin of 23.8% [7], and record Indian rice exports with basmati exports up about 8% to 6.5 million metric tons [4]. Amir Chand Jagdish Kumar reported net profit up 94% to Rs 366.27 million on revenue up 55% to Rs 6,646.74 million [6]. **Pursue Raipur millers with a genuine export or branded-domestic book, own paddy sourcing, and no NAN arrears; avoid pure custom-milling units and any miller on the defaulter list [1][3].**",
+  "## How to grow safely\nStructure against verified stock and export receivables, not against paddy procurement. Take the NAN/FCI agreement and bank-guarantee status at sanction, and check the mill's name against the defaulter list before disbursal [1][3]. **If the proposal is custom milling, ask for the NAN deposit percentage and the guarantee amount; if the mill is below full deposit, decline.** Take monthly stock statements reconciled to online records, monthly NAN deposit progress, and quarterly GST returns. Note that the peer and rating sources are basmati-led and mostly national; they say little about Raipur specifically, so lean on first principles here."
+ ],
+ "watch": [
+  [
+   "Monthly stock statement vs online record (monthly)",
+   "shortfall beyond 5% -> freeze limit and inspect godown"
+  ],
+  [
+   "NAN rice deposit percentage (monthly)",
+   "below 90% or any notice -> recall or invoke guarantee"
+  ],
+  [
+   "Bank guarantee status with NAN (quarterly)",
+   "forfeiture or sealing notice -> exit the account"
+  ],
+  [
+   "GST returns and e-way bills (monthly)",
+   "turnover falling or mismatch with stock -> reduce limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Raipur custom-milling defaults, notices and sealing threats dominate local news.",
+ "articles": [
+  {
+   "title": "कस्टम मिलिंग में इस बार भी जारी है राइस मिलर्स का खेल - The Rural Press",
+   "url": "https://theruralpress.in/scam/raipur-custom-milling-rice-millers-4-66-crore-rice-pending-notice-seal-action/",
+   "date": "2026-09-20",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "रायपुर में 50 लाख के चावल की हेराफेरी: महिला समूह की अध्यक्ष समेत 3 पर FIR, ऑनलाइन रिकॉर्ड में 1012 क्विंटल स्टॉक, मौके पर मिला 35 क्विंटल - रायपुर में 50 लाख के चावल की हेराफेरी: महिला समूह की अध्यक्ष समेत 3 पर FIR, ऑनलाइन रिकॉर्ड में 1012 क्विंटल स्टॉक, मौके पर मिला ...",
+   "url": "https://bansalnews.com/chhattisgarh/raipur/raipur-mein-50-lakh-chawal-herapheri-mahila-samooh-adhyaksh-teen-par-fir-online-record-mein-stock-mauke-par-kam-chawal-mila-latest-hindi-news-zss-12241096#1",
+   "date": "2026-08-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "रायपुर में 74 राइस मिलर्स को ब्लैकलिस्ट की चेतावनी: कस्टम मिलिंग में लापरवाही पर कारण बताओ नोटिस जारी, 30 अप्रैल तक करना होगा चावल जमा - Raipur News",
+   "url": "https://www.bhaskar.com/local/chhattisgarh/raipur/news/raipur-rice-millers-show-cause-notice-blacklisting-warning-april-30-137784735.html",
+   "date": "2026-04-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "KRBL Ltd (BOM:530813) Q4 2026 Earnings Call Highlights: Record Domestic Growth Amid Export ... By GuruFocus - KRBL Ltd (BOM:530813) Q4 2026 Earnings Call Highlights: Record Domestic Growth Amid Export ...",
+   "url": "https://ca.investing.com/news/company-news/krbl-ltd-bom530813-q4-2026-earnings-call-highlights-record-domestic-growth-amid-export--4647061#1",
+   "date": "2026-05-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: AWL Agri Business posts strong Q2 2026 growth By Investing.com - Earnings call transcript: AWL Agri Business posts strong Q2 2026 growth",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-awl-agri-business-posts-strong-q2-2026-growth-93CH-4934632#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Amir Chand Jagdish Kumar net profit surges 94% in Q1FY26 - Amir Chand Jagdish Kumar net profit surges 94% in Q1FY26",
+   "url": "https://scanx.trade/stock-market-news/companies/amir-chand-jagdish-kumar-q1-results-net-profit-jumps-94-yoy/47458152#1",
+   "date": "2026-08-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "KRBL Ltd (BOM:530813) (Q1 2027) Earnings Call Highlights: Record Profitability and Strategic ... By GuruFocus - KRBL Ltd (BOM:530813) (Q1 2027) Earnings Call Highlights: Record Profitability and Strategic ...",
+   "url": "https://ca.investing.com/news/company-news/krbl-ltd-bom530813-q1-2027-earnings-call-highlights-record-profitability-and-strategic--4804336#1",
+   "date": "2026-08-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 12,2025",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=139593&_x_output_type_b6db407c4_=embedded_pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Foreign currency related risksThe foreign currency risk can arise from export- related revenues and receivables that may be un- ...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=847&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "While we have not incurred any material penalties / fines due to any adverse rulings in the last three Fiscals, we cannot assure...",
+   "url": "https://nsearchives.nseindia.com/corporate/Registration_11092025222348_SFIL_DRHP_11092025.pdf#13#107#13",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 28,2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=118308#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 32 (national 53 x 0.6 + Chhattisgarh 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Chhattisgarh: GST collections +2.4% Apr-to-date vs India +6.1% (3.7 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Chhattisgarh: electricity demand +6.7% Apr-to-date vs India +9.5% (2.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

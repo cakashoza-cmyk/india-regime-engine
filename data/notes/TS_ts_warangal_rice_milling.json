@@ -1,0 +1,150 @@
+{
+ "key": "ts_warangal|rice_milling",
+ "state": "TS",
+ "city": "ts_warangal",
+ "ind": "rice_milling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 72,
+ "nudged_by_news": true,
+ "verdict": "Lend selectively in Warangal rice milling only to non-CMR, own-account millers with clean books and verified paddy sourcing; avoid any borrower touched by the CMR diversion probe.",
+ "title": "Warangal Rice Milling & Export: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Warangal rice mill buys paddy, dries and de-husks it, and sells rice, bran and husk; cash comes back only after the rice is sold, so the mill is a working-capital machine, not an asset play.** The miller's margin is the difference between paddy cost and rice realisations plus by-product income; power, labour and drying add cost, and the mill has little pricing power because rice is a commodity. **So when a proposal lands, check the paddy procurement source and the by-product (bran, husk) offtake first; if the mill cannot show where paddy comes from and who buys bran, ask for the last six months of purchase and sale invoices.**\n\n## What has broken now\n**The local shock is legal, not commercial: the CID is arresting rice millers in the CMR (custom-milled rice) cases, with four more arrests in Mulugu and 11 absconding, and over 300 petitions filed in the High Court seeking protection [1].** The allegation is that millers sold fine-variety paddy allotted by the government in the open market and supplied cheaper coarse rice in its place [3]; 17 millers were untraceable after a message circulated [2]. **So when a proposal lands, check whether the borrower or any promoter is named in the CMR probe; if yes, decline, and if the mill does government CMR work at all, ask for the allotment and delivery records before anything else.**\n\n## Where the growth is\n**The Telangana backdrop is genuinely strong: GST collections are up 13.8% Apr-to-date against India's 6.1%, and electricity demand is up 15.7% against India's 9.5% [D].** Peer results confirm rice demand is healthy: KRBL reported Basmati exports up about 8% year-on-year to 6.5 million metric tons and a record domestic quarter up 22% [4], and its Q1 FY2027 EBITDA margin was 23.8% against 13.9% [7]; Amir Chand Jagdish Kumar's Q1FY26 net profit rose 94% with revenue up 55% [6]. **So pursue own-account millers and exporters with branded or export-linked rice, clean CMR-free books and steady bran offtake; avoid millers whose business is mainly government CMR allotment.**\n\n## How to grow safely\n**Structure against the working-capital cycle: a cash-credit or bill-discounting limit sized to the paddy-to-rice cycle, not a term loan for a new mill.** Take monthly stock and book-debt statements, monthly GST returns, and a quarterly check that paddy purchases match milling output. **If the borrower's export receivables are in foreign currency, ask for the hedging policy, because ICRA flags foreign-currency risk on export receivables [9].** Rating commentary expects 6-8% revenue growth in FY2026 on export and domestic demand [8], so size limits to that, not to the 26.3% bank credit growth against 5.1% output [D].\n\n## Early-warning signs\n**Watch for paddy purchase invoices that do not match milling volumes, sudden shifts to coarse rice supply, and any CID or High Court notice [1][3].** Also watch bran offtake stopping and stock ageing past one season. **If any of these appear, freeze the limit and ask for the CMR allotment file; if the borrower is named in the probe, exit.**"
+ ],
+ "watch": [
+  [
+   "Monthly GST returns and stock statement",
+   "paddy purchases not matching milling output -> freeze limit and ask for CMR allotment file"
+  ],
+  [
+   "Quarterly CMR/probe check (court and CID records)",
+   "borrower or promoter named in CMR case -> exit the account"
+  ],
+  [
+   "Monthly bran and husk offtake",
+   "offtake stops or stock ages past one season -> reduce limit and seek explanation"
+  ],
+  [
+   "Monthly export receivable and hedging review",
+   "unhedged foreign-currency receivables rise -> ask for hedging policy [9]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "CID arrests and absconding millers in the CMR scam hit Warangal rice millers directly.",
+ "articles": [
+  {
+   "title": "CID Four Arrests More Rice Millers In CMR Cases",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/cid-four-arrests-more-rice-millers-in-cmr-cases-2000660?utm_source=home&utm_medium=justIn",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "CID Launches Search For Absconding Millers Based On Information Obtained From Satish",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/cid-launches-search-for-absconding-millers-based-on-information-obtained-from-satish-2000402",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "CID Launches Search For Absconding Millers Based On Information Obtained From Satish",
+   "url": "https://dailyhunt.in/news/india/english/deccan+chronicle-epaper-decchron/cid+launches+search+for+absconding+millers+based+on+information+obtained+from+satish-newsid-n732206048?listname=generalizedTopics&index=0&topicIndex=0&mode=pwa&action=click",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "KRBL Ltd (BOM:530813) Q4 2026 Earnings Call Highlights: Record Domestic Growth Amid Export ... By GuruFocus - KRBL Ltd (BOM:530813) Q4 2026 Earnings Call Highlights: Record Domestic Growth Amid Export ...",
+   "url": "https://ca.investing.com/news/company-news/krbl-ltd-bom530813-q4-2026-earnings-call-highlights-record-domestic-growth-amid-export--4647061#1",
+   "date": "2026-05-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: AWL Agri Business posts strong Q2 2026 growth By Investing.com - Earnings call transcript: AWL Agri Business posts strong Q2 2026 growth",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-awl-agri-business-posts-strong-q2-2026-growth-93CH-4934632#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Amir Chand Jagdish Kumar net profit surges 94% in Q1FY26 - Amir Chand Jagdish Kumar net profit surges 94% in Q1FY26",
+   "url": "https://scanx.trade/stock-market-news/companies/amir-chand-jagdish-kumar-q1-results-net-profit-jumps-94-yoy/47458152#1",
+   "date": "2026-08-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "KRBL Ltd (BOM:530813) (Q1 2027) Earnings Call Highlights: Record Profitability and Strategic ... By GuruFocus - KRBL Ltd (BOM:530813) (Q1 2027) Earnings Call Highlights: Record Profitability and Strategic ...",
+   "url": "https://ca.investing.com/news/company-news/krbl-ltd-bom530813-q1-2027-earnings-call-highlights-record-profitability-and-strategic--4804336#1",
+   "date": "2026-08-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 12,2025",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=139593&_x_output_type_b6db407c4_=embedded_pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foreign currency related risksThe foreign currency risk can arise from export- related revenues and receivables that may be un- ...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=847&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "While we have not incurred any material penalties / fines due to any adverse rulings in the last three Fiscals, we cannot assure...",
+   "url": "https://nsearchives.nseindia.com/corporate/Registration_11092025222348_SFIL_DRHP_11092025.pdf#13#107#13",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 28,2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=118308#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 72 (national 53 x 0.6 + Telangana 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Telangana: GST collections +13.8% Apr-to-date vs India +6.1% (7.7 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Telangana: electricity demand +15.7% Apr-to-date vs India +9.5% (6.2 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

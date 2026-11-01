@@ -1,0 +1,154 @@
+{
+ "key": "kl_kottayam|rubber_tyres",
+ "state": "KL",
+ "city": "kl_kottayam",
+ "ind": "rubber_tyres",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 89,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Kottayam tyres and rubber products, but only to converters and niche makers who can pass through record rubber prices; avoid commodity tyre makers and anyone with unhedged raw-material exposure.",
+ "title": "Kottayam tyres & rubber products: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Kottayam is a rubber town before it is a tyre town: the trade here is RSS-4 sheet, and the local price has just set a record at ₹284.50 per kg, above the previous ₹284 of August 1 [3], with a local report putting it at ₹300 per kg [1].** A converter buys sheet or latex, compounds it, and sells solid tyres, industrial pneumatics, press-on bands, mats and moulded goods; cash comes in from replacement and tier-I/OEM buyers, not from the sheet trade itself. The value sits in compounding skill and the customer relationship, not in the raw material, which is priced daily and publicly. ## What has changed now\n**The input has become the story: record sheet prices driven by tyre-maker demand against a supply shortage [2][3] squeeze exactly the borrowers who cannot reprice.** Peer tyre makers are expanding capacity on near-full utilisation while margins fall, and are answering with staggered price increases and richer product mix [4][6]. So when a proposal lands, check the last four quarters of gross margin against the RSS-4 price line; if margin held while sheet rose, ask for the price-revision letters to customers. ## Where the growth is\n**Pursue converters selling into material handling, industrial and export niches, the segment where a rated peer grew TOI 19% in FY25 on volume and realisation [11].** The national demand base is real: replacement is about 70% of volumes and exports about 25% [10], and IIP for NIC 22 is up 21.4% YoY with exports up 17.1% Apr-to-date in USD [D]. Kerala's GST collections are running 4.2 pp faster than India [D]. Avoid pure commodity tyre makers and anyone whose entire output is one standard SKU sold on price; they cannot pass ₹284.50 [3] through. ## How to grow safely\n**Structure against the raw-material cycle, not the P&L: keep the working-capital limit tied to a stock-and-debtor statement, and take the sheet purchase register every month.** Take monthly: RSS-4 landed cost versus sale-price revisions, stock days, and top-five buyer concentration. Covenant a minimum gross margin and a maximum raw-material inventory days; if either breaches, freeze the non-fund-based limit first. Collect from customer the split of domestic versus export sales and the share of business on annual price contracts. ## Early-warning signs\n**Watch for margin compression arriving one quarter after a sheet spike, and for debtors stretching as buyers push back on price rises.** If receivable days cross the pre-spike average, ask for the ageing and the buyer-wise revision status. If a borrower starts buying sheet forward without matching sales contracts, treat it as speculation, not hedging. Local coverage of this city's own manufacturing base is thin; the sources are price reports, so lean on first principles and the peer set above."
+ ],
+ "watch": [
+  [
+   "Monthly: RSS-4 landed cost vs sale-price revision log",
+   "Sheet up two months with no revision -> cut limit utilisation by a step"
+  ],
+  [
+   "Monthly: gross margin against covenant",
+   "Below covenant -> freeze non-fund-based limit, reprice"
+  ],
+  [
+   "Monthly: raw-material inventory days",
+   "Rising while sales flat -> ask for forward purchase contracts"
+  ],
+  [
+   "Monthly: debtor days and top-five buyer share",
+   "Debtor days above pre-spike average -> obtain ageing and buyer-wise status"
+  ],
+  [
+   "Quarterly: capacity utilisation and order book",
+   "Utilisation falling with stock building -> shift to stock statement review"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Record ₹284.50/kg sheet squeezes converter margins while tyre peers report weakening margins.",
+ "articles": [
+  {
+   "title": "റബ്ബർ വിപണിയിൽ പുതിയ ചരിത്രം കുറിച്ച് കിലോയ്ക്ക് 300 രൂപയെന്ന നേട്ടം | thaliparambanews.in",
+   "url": "https://thaliparambanews.in/news/389714/rubber-price-hits-300-per-kg-in-kottayam",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Rubber prices in Kerala hit record high, domestic rates top global market",
+   "url": "https://www.onmanorama.com/news/business/2026/10/13/rubber-price-in-kerala-hits-record-high-domestic-rates-top-global-market.html",
+   "date": "2026-10-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Rubber prices in Kerala hit record high, domestic rates top global market",
+   "url": "https://opera.news/news/7d201f97261013en_in?news_entry_id=s5326e60d240314en_ng&post_id=P-5Qy48Oggx",
+   "date": "2026-10-12",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Tyre makers step up capacity expansion despite pressure on margins - Tyre makers step up capacity expansion despite pressure on margins",
+   "url": "https://www.business-standard.com/amp/industry/news/tyre-makers-capex-expansion-margins-natural-rubber-prices-126082400607_1.html#1",
+   "date": "2026-08-23",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Achieved its highest ever sales compared to the last six quarters- The capacity in Mexico is about 59 lakh tyres, with overall...",
+   "url": "https://sbisecurities.in/fileserver/research/reports/SBI%20Securities%20Ltd_2QFY26%20Result%20Concall%20Capsule.pdf#48#55#48",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: JK Tyre Q1 2026 revenue beats, margins weaken By Investing.com - Earnings call transcript: JK Tyre Q1 2026 revenue beats, margins weaken",
+   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-jk-tyre-q1-2026-revenue-beats-margins-weaken-93CH-4821740#1",
+   "date": "2026-08-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Advance Search | Business Standard - Showing 20 results",
+   "url": "https://www.business-standard.com/advance-search?keyword=tyre#1",
+   "date": "2026-09-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "*carved out of the sanctioned fund-based working capital limits of the company",
+   "url": "https://idbitrustee.com/wp-content/uploads/2019/07/Revision-in-Credit-Rating-SREI-Equipment-July-2019.pdf#5#10#5",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CEAT Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/CEAT%20Limited-01-06-2020.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CRISIL ViewCube on the Tyre sector",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2024/february/cruising-on-the-demand-pillion.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Emerald Tyre Manufacturers Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202509120942_Emerald_Tyre_Manufacturers_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 89 (national 98 x 0.6 + Kerala 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Kerala: GST collections +10.3% Apr-to-date vs India +6.1% (4.2 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 22 output +21.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +18.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +17.1% Apr-to-date in USD (Rs 48,628 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

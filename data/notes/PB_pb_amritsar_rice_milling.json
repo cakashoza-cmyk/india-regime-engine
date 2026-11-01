@@ -1,0 +1,150 @@
+{
+ "key": "pb_amritsar|rice_milling",
+ "state": "PB",
+ "city": "pb_amritsar",
+ "ind": "rice_milling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 62,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to integrated, export-documented Amritsar basmati millers with residue-free sourcing and tight stock-and-receivable controls; avoid single-mill, paddy-price speculators and unhedged export-only units.",
+ "title": "Amritsar Rice Milling & Export: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A rice miller buys paddy at harvest, dries and stores it, mills it into basmati, and sells either to exporters or into domestic brands.** Cash goes out at paddy procurement in one lumpy season and comes back slowly over the year as milled rice is sold and export receivables clear. Amritsar is a genuine basmati cluster: the district alone exported basmati around Rs 9,000 crore last year, and Chogawan block has 28,753 hectares under paddy across 42 pilot villages [1]. Note that source [1] is dated September 2023, so treat the export figure as old.\n\n## Where value and cash sit\n**Value sits in paddy quality and storage, not in the milling margin.** Milling charges are the miller's fee and are under pressure: sheller owners in Amritsar are publicly demanding higher milling charges and a halving of the electricity tariff [3]. So when a proposal lands, check the split between own-account trading margin and job-work milling charge; if milling charge is the main revenue line, ask what happens to debt service if the charge stays flat and power cost does not fall. Working capital is the real exposure: paddy stock plus export receivables. Collect from customer the stock-holding days, receivable days by buyer country, and the share of sales on letter of credit versus open credit.\n\n## What has changed now\n**The macro backdrop is mixed, and the local signal is organisational rather than financial.** Punjab GST collections are up 9.7% Apr-to-date versus India's 6.1% [D], a real local tailwind. But bank credit is growing 26.3% YoY against output of 5.1% [D] — money is chasing this trade faster than it is producing. Around 200 millers from five districts have just formed a new association [2], which usually precedes lobbying on charges and tariffs, not a margin windfall. Peer results are strong but are large branded players, not Amritsar mills: KRBL posted its strongest-ever quarter with PAT of Rs 261 crore and EBITDA margin 23.8% [7], and Amir Chand Jagdish Kumar saw net profit up 94% [6]. Do not read those margins into a mid-sized local mill.\n\n## Where to grow, and how to grow safely\n**Pursue integrated millers with residue-free or organic basmati sourcing and a documented export book.** The state pilot in Chogawan, with 3,600 farmers shortlisted and about 10 insecticides/fungicides banned on basmati [1], favours millers who can trace supply — that is a pricing and access advantage. Also pursue millers with captive by-product or husk power, which blunts the tariff demand in [3]. Avoid single-mill operators funding paddy stock on price speculation, and export-only units with no FX cover — ICRA flags foreign-currency risk on export receivables [9]. Structure as a cash-flow-backed working capital limit with a stock-and-receivables charge; take monthly stock statements, ageing of export receivables by buyer, and power-cost per quintal.\n\n## Early-warning signs\n**Watch paddy procurement funding versus milled sales, and receivable ageing by country.** If stock statements show paddy stock rising while milling throughput is flat, ask whether the miller is holding for price. If export receivable days stretch beyond the sanctioned cycle, ask for the buyer-wise ledger and LC copies."
+ ],
+ "watch": [
+  [
+   "Monthly stock statement (monthly)",
+   "paddy stock rising with flat milling -> freeze fresh paddy limits"
+  ],
+  [
+   "Export receivable ageing by buyer (monthly)",
+   "days stretch beyond cycle -> ask for LC copies and buyer ledger"
+  ],
+  [
+   "Power cost per quintal (quarterly)",
+   "cost rises after tariff demand [3] -> re-run debt service at flat milling charge"
+  ],
+  [
+   "Association/tariff news (quarterly)",
+   "milling charge or tariff outcome -> revise margin assumptions"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Punjab GST outpaces India, but credit growth far exceeds output; local news is organisational, not financial.",
+ "articles": [
+  {
+   "title": "Punjab govt undertakes pilot project of residue-free Basmati rice cultivation",
+   "url": "https://newsonair.gov.in/punjab-govt-undertakes-pilot-project-of-residue-free-basmati-rice-cultivation/",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "An important meeting of the mill owners of 5 Districts was held at a hotel in Amritsar, New Punjab Rice Mills Association was formed - कोशिश गोल्ड - मुक्त",
+   "url": "https://www.magzter.com/hi/stories/newspaper/Punjab-Times-English-Edition/AN-IMPORTANT-MEETING-OF-THE-MILL-OWNERS-OF-5-DISTRICTS-WAS-HELD-AT-A-HOTEL-IN-AMRITSAR-NEW-PUNJAB-RICE-MILLS-ASSOCIATION-WAS-FORMED#1",
+   "date": "2026-08-13",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "राइस शेलर मालिकों की मांग, मिलिंग चार्जेस बढ़ाएं, बिजली टैरिफ आधा करें - Amritsar News - - Hindi News",
+   "url": "https://www.bhaskar.com/local/punjab/amritsar/news/rice-sheller-owners-demand-increase-in-milling-charges-halving-of-electricity-tariff-dbp-138712234.html#1",
+   "date": "2026-08-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "KRBL Ltd (BOM:530813) Q4 2026 Earnings Call Highlights: Record Domestic Growth Amid Export ... By GuruFocus - KRBL Ltd (BOM:530813) Q4 2026 Earnings Call Highlights: Record Domestic Growth Amid Export ...",
+   "url": "https://ca.investing.com/news/company-news/krbl-ltd-bom530813-q4-2026-earnings-call-highlights-record-domestic-growth-amid-export--4647061#1",
+   "date": "2026-05-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: AWL Agri Business posts strong Q2 2026 growth By Investing.com - Earnings call transcript: AWL Agri Business posts strong Q2 2026 growth",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-awl-agri-business-posts-strong-q2-2026-growth-93CH-4934632#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Amir Chand Jagdish Kumar net profit surges 94% in Q1FY26 - Amir Chand Jagdish Kumar net profit surges 94% in Q1FY26",
+   "url": "https://scanx.trade/stock-market-news/companies/amir-chand-jagdish-kumar-q1-results-net-profit-jumps-94-yoy/47458152#1",
+   "date": "2026-08-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "KRBL Ltd (BOM:530813) (Q1 2027) Earnings Call Highlights: Record Profitability and Strategic ... By GuruFocus - KRBL Ltd (BOM:530813) (Q1 2027) Earnings Call Highlights: Record Profitability and Strategic ...",
+   "url": "https://ca.investing.com/news/company-news/krbl-ltd-bom530813-q1-2027-earnings-call-highlights-record-profitability-and-strategic--4804336#1",
+   "date": "2026-08-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 12,2025",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=139593&_x_output_type_b6db407c4_=embedded_pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Foreign currency related risksThe foreign currency risk can arise from export- related revenues and receivables that may be un- ...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=847&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "While we have not incurred any material penalties / fines due to any adverse rulings in the last three Fiscals, we cannot assure...",
+   "url": "https://nsearchives.nseindia.com/corporate/Registration_11092025222348_SFIL_DRHP_11092025.pdf#13#107#13",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 28,2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=118308#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 62 (national 53 x 0.6 + Punjab 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Punjab: GST collections +9.7% Apr-to-date vs India +6.1% (3.6 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Punjab: electricity demand +8.8% Apr-to-date vs India +9.5% (0.7 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,150 @@
+{
+ "key": "hr_karnal|rice_milling",
+ "state": "HR",
+ "city": "hr_karnal",
+ "ind": "rice_milling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 62,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Karnal rice millers with clean mandi paperwork and verified export order books; avoid any borrower tied to the MSP refund dispute or with unhedged export receivables.",
+ "title": "Karnal Rice Milling & Export: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Karnal rice miller buys paddy in the mandi, dries and mills it, and sells rice either to government agencies or into domestic and export markets. **Cash is made in the spread between paddy cost and rice price, and the spread is thin, so volume, moisture control and by-product recovery decide profit.** The working-capital cycle is brutal: paddy is bought in a short harvest window and cash is locked in stock and receivables for months. Capex is moderate (milling, sorting, husk power) but the real capital need is seasonal stock funding. So when a proposal lands, check the paddy-to-rice yield and moisture-deduction policy first; if the borrower cannot explain how moisture is priced, ask for the mandi slips.",
+  "## What has changed now\nKarnal mandis are in a dispute: farmers allege paddy was bought at Rs 100-400 per quintal below MSP on moisture pretext while full MSP was credited, and arhtiyas are now demanding the difference back [1][2][3]. **This is a paperwork and reputation risk, not a demand risk, and it sits directly on the miller's paddy source.** So when a proposal lands, check whether the borrower buys through arhtiyas named in the dispute; if yes, ask for the kachi parchis and the refund trail. Peer results are strong: KRBL reported its strongest-ever quarterly profitability with PAT of Rs 261 crores and EBITDA margin of 23.8% [7], and Amir Chand Jagdish Kumar saw net profit up 94% to Rs 366.27 million with revenue up 55% to Rs 6,646.74 million [6]. ICRA expects the basmati company it rates to grow 6-8% in FY2026 on export pick-up [8].",
+  "## Where the growth is\nHaryana GST collections rose 10.1% Apr-to-date versus India's 6.1% [D], and India's bank credit grew 26.3% YoY against output of 5.1% [D] — **credit is running far ahead of output, so the growth is in lending, not in the rice trade itself.** Pursue millers with own-brand domestic sales and confirmed export orders, the type KRBL and AWL describe [4][5]. Avoid pure arhtiya-linked procurement agents and mills with no moisture policy.",
+  "## How to grow safely\nStructure seasonal limits against verified stock, with a stock-and-receivable charge and monthly stock statements. **Take the mandi purchase register, GST returns and export remittance advices every month.** Covenant on moisture-deduction policy and on arhtiya concentration.",
+  "## Early-warning signs\nWatch for refund demands from farmers, falling paddy arrivals in Karnal mandis, and export receivable ageing. **Any borrower named in the MSP dispute should be paused until paperwork is clean.**"
+ ],
+ "watch": [
+  [
+   "Mandi purchase register (monthly)",
+   "Refund demand or below-MSP entries -> freeze limit enhancement"
+  ],
+  [
+   "Stock statement vs godown visit (monthly)",
+   "Stock shortfall >10% -> recall or re-structure"
+  ],
+  [
+   "GST returns (monthly)",
+   "Turnover drop vs last year -> review limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Karnal mandi MSP refund dispute raises paperwork and sourcing risk for local millers.",
+ "articles": [
+  {
+   "title": "MSP credited, refund demand triggers row in Karnal mandis",
+   "url": "https://www.tribuneindia.com/news/haryana/msp-credited-refund-demand-triggers-row-in-karnal-mandis/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "MSP credited, refund demand triggers row in Karnal mandis - The Tribune",
+   "url": "https://www.tribuneindia.com/news/haryana/msp-credited-refund-demand-triggers-row-in-karnal-mandis/amp/?utm=relatedarticles",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "MSP credited, refund demand triggers row in Karnal mandis",
+   "url": "http://dailyhunt.in/news/india/english/the+tribune-epaper-thetribt/msp+credited+refund+demand+triggers+row+in+karnal+mandis-newsid-n732215420?listname=newspaperLanding&topic=haryana&index=5&topicIndex=8&mode=pwa&action=click",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "KRBL Ltd (BOM:530813) Q4 2026 Earnings Call Highlights: Record Domestic Growth Amid Export ... By GuruFocus - KRBL Ltd (BOM:530813) Q4 2026 Earnings Call Highlights: Record Domestic Growth Amid Export ...",
+   "url": "https://ca.investing.com/news/company-news/krbl-ltd-bom530813-q4-2026-earnings-call-highlights-record-domestic-growth-amid-export--4647061#1",
+   "date": "2026-05-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: AWL Agri Business posts strong Q2 2026 growth By Investing.com - Earnings call transcript: AWL Agri Business posts strong Q2 2026 growth",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-awl-agri-business-posts-strong-q2-2026-growth-93CH-4934632#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Amir Chand Jagdish Kumar net profit surges 94% in Q1FY26 - Amir Chand Jagdish Kumar net profit surges 94% in Q1FY26",
+   "url": "https://scanx.trade/stock-market-news/companies/amir-chand-jagdish-kumar-q1-results-net-profit-jumps-94-yoy/47458152#1",
+   "date": "2026-08-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "KRBL Ltd (BOM:530813) (Q1 2027) Earnings Call Highlights: Record Profitability and Strategic ... By GuruFocus - KRBL Ltd (BOM:530813) (Q1 2027) Earnings Call Highlights: Record Profitability and Strategic ...",
+   "url": "https://ca.investing.com/news/company-news/krbl-ltd-bom530813-q1-2027-earnings-call-highlights-record-profitability-and-strategic--4804336#1",
+   "date": "2026-08-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 12,2025",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=139593&_x_output_type_b6db407c4_=embedded_pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foreign currency related risksThe foreign currency risk can arise from export- related revenues and receivables that may be un- ...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=847&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "While we have not incurred any material penalties / fines due to any adverse rulings in the last three Fiscals, we cannot assure...",
+   "url": "https://nsearchives.nseindia.com/corporate/Registration_11092025222348_SFIL_DRHP_11092025.pdf#13#107#13",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 28,2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=118308#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 62 (national 53 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Haryana: electricity demand +11.4% Apr-to-date vs India +9.5% (1.9 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
