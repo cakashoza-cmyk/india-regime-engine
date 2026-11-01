@@ -1,0 +1,158 @@
+{
+ "key": "hp_nalagarh|electrical_eq",
+ "state": "HP",
+ "city": "hp_nalagarh",
+ "ind": "electrical_eq",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Nalagarh electrical-equipment and pump/motor units with diversified order books and power back-up, and avoid power-intensive, single-customer units until local demand and power supply stabilise.",
+ "title": "Nalagarh Electrical Equipment, Pumps & Motors: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**These units buy steel, copper, laminations and bought-out components, wind them and machine them into motors, pumps and switchgear, and sell mostly to institutional and tender buyers.** Cash turns on the order book and on how fast the buyer pays; value sits in the winding and testing shop, not in the building. **Capex is moderate but lumpy** — a new winding line or test bench is a step cost, so utilisation decides margin. Pricing power is thin against organised peers; the lever is cost and order mix, not price.",
+  "## What has changed now\n**The local economy is contracting while the national motor/pump cycle is expanding.** Himachal GST collections are -22.8% Apr-to-date against India +6.1% [D], and state electricity demand is -6.8% Apr-to-date against India +9.5% [D]. Nationally, IIP for NIC 27 output is +30.9% YoY and +28.5% Apr-to-date [D]. **So when a proposal lands, check whether the borrower's order book is national or local; if it is local-tender dependent, ask for the last six months of dispatch and receivable ageing.** Local industry has publicly flagged an electricity crisis and sought the CM's help [2], and the Baddi-Barotiwala-Nalagarh cluster is reporting a crime spike and police manpower crunch [1] — both are operating risks, not credit events, but they hit uptime and insurance.",
+  "## Where the growth is\n**Pursue units feeding national infrastructure and replacement demand** — specialty motors, off-highway and railway applications, where a peer reports complex applications as the valuable segment [4]. **Pursue pump makers with a government or export order book**: one listed peer grew Q1 FY27 revenue 37.9% YoY to ₹859 crore [6][7], and H1 FY27 revenue rose 24.5% YoY to ₹16,047 Mn [5]. **Avoid single-customer job-work units and units with no captive power or DG back-up**; the local power signal [D][2] makes them fragile.",
+  "## How to grow safely\n**Structure term debt to the asset, not to the order**, and keep working capital as a separate, reviewed limit. **Take every month: dispatch register, receivable ageing, power outage log, and GST returns** — the state GST number [D] is the cleanest early read. **Covenant on DSCR and on receivable days; if receivable days stretch beyond the sanctioned cycle, ask for the buyer-wise ledger and stop enhancement.** Rating reports show this sector is working-capital intensive with heavy capex and equity support [8][9]; a peer with no long-term debt and ₹347 crore of fixed deposits [10] shows what a strong balance sheet looks like — most Nalagarh units will not look like that, so size limits to their own cash cycle.",
+  "## Early-warning signs\n**Watch power cost per unit and outage hours** — if the borrower cannot show DG run-hours, treat the margin as unproven. **Watch GST turnover against bank credits**; a widening gap means sales are slipping out of the account. **Watch receivable days and buyer concentration**; one buyer above half of sales is a red flag. **Watch for delayed statutory dues and salary delays** — in a cluster with a crime and manpower problem [1], staff attrition shows up in dispatch first. **If any two of these trigger in the same quarter, freeze fresh limits and re-price.**"
+ ],
+ "watch": [
+  [
+   "GST returns vs bank credits (monthly)",
+   "gap above 10% for two months -> ask for buyer-wise sales ledger and hold enhancement"
+  ],
+  [
+   "Receivable days (monthly)",
+   "stretch beyond sanctioned cycle -> stop limit increase, seek buyer confirmation"
+  ],
+  [
+   "Power outage/DG log (monthly)",
+   "repeated outages without DG -> re-price or reduce exposure"
+  ],
+  [
+   "Dispatch register (monthly)",
+   "fall for two months -> review order book and covenant test"
+  ],
+  [
+   "Statutory dues/salary delays (quarterly)",
+   "any delay -> escalate to watchlist"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Himachal GST -22.8% and power demand -6.8% Apr-to-date signal local contraction despite national IIP +30.9%.",
+ "articles": [
+  {
+   "title": "Spike in crime puts spotlight on police manpower crunch in Baddi-Barotiwala-Nalagarh cluster",
+   "url": "https://www.tribuneindia.com/news/himachal/spike-in-crime-puts-spotlight-on-police-manpower-crunch-in-baddi-barotiwala-nalagarh-cluster/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Himachal: BBN industries cry foul over electricity crisis, seek CM’s help - Subscribe To Print Edition About The Tribune Code Of Ethics Download App Careers Advertise with us Classifieds",
+   "url": "https://www.tribuneindia.com/news/himachal/himachal-bbn-industries-cry-foul-over-electricity-crisis-seek-cms-help/#1",
+   "date": "2026-10-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "sh supply and erection of, nalagarh (himachal pradesh) , deadline was 17 jul 2026",
+   "url": "https://www.tenderdocument.co.in/details/2607084187350/",
+   "date": "2026-07-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Pitti Engineering posts solid Q1 2026 growth, shares rise By Investing.com - Earnings call transcript: Pitti Engineering posts solid Q1 2026 growth, shares rise",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-pitti-engineering-posts-solid-q1-2026-growth-shares-rise-93CH-4851334#1",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shakti Pumps (India) (531431) Q2 26/27 Summary | Quartr",
+   "url": "https://quartr.com/events/shakti-pumps-india-531431-q2-26-27_FRMGdRqK",
+   "date": "2026-10-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shakti Pumps (India) Concall Summary: Key Highlights and Q1 FY27 Results",
+   "url": "https://www.sovrenn.com/knowledge/shakti-pumps-india-concall-summary-key-highlights-and-q1-fy-27-results",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shakti Pumps tanks as Q1 PAT slides 47% YoY to Rs 52 crore - Friday, October 16, 2026 | 03:19 AM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/capital-market-news/shakti-pumps-tanks-as-q1-pat-slides-47-yoy-to-rs-52-crore-126072700418_1.html#1",
+   "date": "2026-07-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 04,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=136185#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 11, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145554#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "June 13,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=128071#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Mangal Electrical Industries Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202609140944_Mangal_Electrical_Industries_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 100 x 0.6 + Himachal Pradesh 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Himachal Pradesh: GST collections -22.8% Apr-to-date vs India +6.1% (28.9 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Himachal Pradesh: electricity demand -6.8% Apr-to-date vs India +9.5% (16.3 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 27 output +30.9% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +28.5% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

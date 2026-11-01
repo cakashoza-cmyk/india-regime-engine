@@ -1,0 +1,150 @@
+{
+ "key": "rj_neemrana|electrical_eq",
+ "state": "RJ",
+ "city": "rj_neemrana",
+ "ind": "electrical_eq",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Neemrana electrical-equipment and pump/motor makers with export or rail-linked order books and tight working-capital control; avoid domestic-only, receivables-heavy units until Rajasthan demand signals improve.",
+ "title": "Neemrana Electrical Equipment, Pumps & Motors: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**These units wind copper into stators, cast and machine housings, assemble pumps and motors, and sell into irrigation, construction, railways and export OEMs.** Cash turns on copper and steel bought weeks ahead, conversion at the plant, then a receivable tail from institutional and government buyers. **Value sits in the order book and the certification (BIS, export approvals), not the machine shop** — so pricing power belongs to those with approved vendor status, and evaporates for job-work units. ## What has changed now\n**The national demand signal is strong but the local one is not.** India-wide IIP for NIC 27 electrical equipment is +30.9% YoY and +28.5% Apr-to-date [D], yet Rajasthan GST collections are -4.7% Apr-to-date against India +6.1%, and state electricity demand is +4.0% against India +9.5% [D]. **So when a proposal lands, check the customer mix first; if more than half the order book is Rajasthan state or local government, ask for the receivable ageing and the last three years' collection days.**\n\n## Where the growth is\n**Pursue export-linked and rail/infrastructure-linked component makers.** Pitti Engineering's management pointed to railways, wind power, specialty motors and off-highway equipment as the valuable complex applications [4]. The approved 191-km Delhi-Rewari-Jaipur line via Neemrana is expected to cut Delhi-Jaipur travel time by 1-1.5 hours and give Neemrana units a cheaper, faster raw-material route [2] — that is a medium-term logistics gain, not a 2026 cash event. **Avoid pure domestic irrigation-pump assemblers and single-customer job workers** until Rajasthan's GST and power-demand gap closes [D]. ## How to grow safely\n**Structure for the working-capital cycle, because this industry eats cash.** One rated peer carried net working capital intensity that ICRA flagged as high [8], and another added roughly ₹600 crore of incremental working capital over three years alongside ₹780 crore of capex [9]. **Price for copper volatility with a quarterly review clause.**\n\n## Early warning signs\n**Watch the gap between revenue growth and PAT** — that is exactly the Shakti Pumps pattern [5][7]. Neemrana-specific published data is thin; lean on these first principles and peer behaviour."
+ ],
+ "watch": [
+  [
+   "GST returns vs bank statements (monthly)",
+   "GST turnover falls below bank credits for two quarters -> re-rate the limit and seek explanation"
+  ],
+  [
+   "Copper and steel purchase invoices (monthly)",
+   "Raw-material cost rises faster than selling price for two quarters -> reprice or reduce exposure"
+  ],
+  [
+   "Order book by customer type (quarterly)",
+   "Rajasthan government share crosses half the order book -> require escrow or reduce tenor"
+  ],
+  [
+   "Rajasthan GST and power-demand data (quarterly)",
+   "State GST stays negative vs India for two more quarters -> stop new sanctions in domestic-only units"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Rajasthan GST -4.7% and power demand +4.0% lag India sharply despite strong national IIP.",
+ "articles": [
+  {
+   "title": "KRN Sees Export-Led Growth, but Margins and Execution Weigh",
+   "url": "https://blog.perivis.com/2026/10/31/krn-sees-export-led-growth-but-margins-and-execution-weigh/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Delhi-Jaipur Travel Time To Reduce By 1.5 Hours. New 191 Km Rail Route Via Neemrana Advances",
+   "url": "https://special.ndtv.com/fighting-our-killer-air-a-citizens-charter-51/news-detail/delhi-jaipur-travel-time-to-reduce-by-1-5-hours-new-191-km-rail-route-via-neemrana-advances-12252817/85",
+   "date": "2026-10-28",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Electrical Goods",
+   "url": "https://bsppd.business-standard.com/topic/electrical-goods",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Pitti Engineering posts solid Q1 2026 growth, shares rise By Investing.com - Earnings call transcript: Pitti Engineering posts solid Q1 2026 growth, shares rise",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-pitti-engineering-posts-solid-q1-2026-growth-shares-rise-93CH-4851334#1",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shakti Pumps (India) (531431) Q2 26/27 Summary | Quartr",
+   "url": "https://quartr.com/events/shakti-pumps-india-531431-q2-26-27_FRMGdRqK",
+   "date": "2026-10-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shakti Pumps (India) Concall Summary: Key Highlights and Q1 FY27 Results",
+   "url": "https://www.sovrenn.com/knowledge/shakti-pumps-india-concall-summary-key-highlights-and-q1-fy-27-results",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Shakti Pumps tanks as Q1 PAT slides 47% YoY to Rs 52 crore - Friday, October 16, 2026 | 03:19 AM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/capital-market-news/shakti-pumps-tanks-as-q1-pat-slides-47-yoy-to-rs-52-crore-126072700418_1.html#1",
+   "date": "2026-07-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 04,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=136185#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 11, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145554#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "June 13,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=128071#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Mangal Electrical Industries Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202609140944_Mangal_Electrical_Industries_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 100 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 27 output +30.9% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +28.5% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

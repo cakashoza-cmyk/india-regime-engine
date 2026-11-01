@@ -1,0 +1,126 @@
+{
+ "key": "ga_vasco_margao|iron_ore_mining",
+ "state": "GA",
+ "city": "ga_vasco_margao",
+ "ind": "iron_ore_mining",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "No data-based score exists for Goa iron ore, so lend only to permitted, cash-generative operators with verified clearances; treat the rest as avoid.",
+ "title": "Vasco-Margao iron ore mining: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Iron ore mining is a capital-heavy extraction business that converts a finite ore body into saleable tonnes, and cash arrives only when those tonnes move by rail or road to steel mills.** The value sits in the mining lease and statutory clearances, not in the plant; ICRA calls mining 'highly capital-intensive' [5] and the sector 'highly regulated' with mandatory environmental impact assessment, forest clearance and coastal provisions [8]. So when a proposal lands, check the lease, the environmental clearance and the mining plan first; if any is pending or under renewal, ask for the current sanctioned capacity and stop there.",
+  "## Where cash and value sit\n**Realisation per tonne is the swing factor, and it is falling even for good operators.** SMIORE's average realisation fell 17% y-o-y to INR 3,095/t in Q1FY'27 [4], after holding at INR 2,834/t in FY'26 [2]. Production capacity was raised to 4.45 mnt/y from 1.6 mnt/y [4], so volume growth is real but price is not. **Working capital sits in royalty and statutory dues paid upfront and in receivables from steel mills; capex sits in haulage, beneficiation and rail linkage.** NMDC's rail connectivity improvements are cited as strengthening its logistics backbone [1] — for a Goa borrower, ask who owns the evacuation route and what it costs per tonne; collect from customer.",
+  "## What has changed now\n**Peer results are strong on volume and mixed on price.** NMDC posted 20% production growth in FY'26 and targets around 60 mnt in FY'27 [1]; SMIORE's FY'26 output rose 14% to 4.35 mnt [2] and Q1FY'27 output rose 27% y-o-y [4]. SMIORE's Q1FY'27 revenue rose 27% to INR 55.4 billion with EBITDA up 8% to INR 23.7 billion [3]. **The sources say almost nothing about Vasco-Margao or Goa specifically, so lean on first principles and these peers.** The official data pack returns no score for this industry in this state [D]; treat that as an absence of evidence, not a clean bill.",
+  "## Who to pursue, who to avoid\n**Pursue permitted merchant miners with an approved capacity already at or near their maximum permitted annual output, as SMIORE reports for Q1FY'27 [3], and captive-linked miners feeding their own steel, the model ICRA describes for SMIORE and ASPL [6].** Avoid lease-holders still awaiting clearances, single-mine borrowers with no evacuation tie-up, and anyone whose realisation assumption is above INR 3,095/t [4]. **Structure on tonnage and realisation, not on projected prices.** Take monthly: production and dispatch tonnages, average realisation per tonne, royalty and statutory dues paid, and stock at pit-head and port.",
+  "## Early-warning signs\n**Watch realisation first.** If average realisation falls below the prior quarter, ask for the buyer-wise price list and re-run the debt-service cover on the lower number. If dispatch falls while production holds, ore is stuck — check stock and evacuation. If statutory dues age beyond the licence cycle, the lease itself is at risk [8]. Rating reports here are undated [5][6][7][8]; the April 2024 ICRA note [7] is old and should not anchor a 2026 decision."
+ ],
+ "watch": [
+  [
+   "Monthly production and dispatch tonnage",
+   "Dispatch falls two months running while output holds -> ask for stock statement and evacuation contract"
+  ],
+  [
+   "Average realisation per tonne (monthly)",
+   "Falls below INR 3,095/t [4] -> re-run cover on the lower price and seek promoter support"
+  ],
+  [
+   "Royalty and statutory dues ageing (monthly)",
+   "Dues unpaid beyond one licence cycle -> freeze fresh limits and review lease standing [8]"
+  ],
+  [
+   "Clearance and lease validity (quarterly)",
+   "Any clearance under renewal -> hold disbursement until renewed [8]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Peer volumes up strongly but realisations down 17% y-o-y; no Goa-specific news in sources.",
+ "articles": [
+  {
+   "title": "India: NMDC posts robust production growth in FY'26, eyes 60 mnt iron ore output in current fiscal - BigMint - India: NMDC posts robust production growth in FY'26, eyes 60 mnt iron ore output in current fiscal",
+   "url": "https://www.bigmint.co/insights/detail/india-nmdc-posts-robust-production-growth-in-fy-26-eyes-60-mnt-iron-ore-output-in-current-fiscal-755783#1",
+   "date": "2026-09-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India: SMIORE's iron ore output rises 14% in FY'26",
+   "url": "https://www.steelmint.in/india-smiores-iron-ore-output-rises-14-in-fy26-748433",
+   "date": "2026-05-07",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "印度SMIORE2027财年第一季度铁矿石产量同比增27% 产能扩至445万吨-炉料频道-钢之家钢铁网",
+   "url": "https://news.steelhome.com/2026/08/11/n4741422.html?type=old",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India: SMIORE's iron ore output rises over 25% y-o-y in Q1FY'27",
+   "url": "https://www.steelmint.in/india-smiores-iron-ore-output-rises-over-25-y-o-y-in-q1fy27-779123",
+   "date": "2026-08-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Mining is a highly capital- intensive business",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/850~Mining#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 24,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=137903#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "April 05, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126853#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Geomin Industries Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131007_Geomin_Industries_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Goa None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

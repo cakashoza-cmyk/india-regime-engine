@@ -1,0 +1,138 @@
+{
+ "key": "ch_chandigarh|it_bpo",
+ "state": "CH",
+ "city": "ch_chandigarh",
+ "ind": "it_bpo",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution on Chandigarh IT-enabled services & BPO: lend selectively to domestic mid-size BPO/KPO and captives with contracted receivables; avoid small STP-dependent exporters with client concentration.",
+ "title": "Chandigarh IT-enabled services & BPO: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**An IT-enabled services or BPO unit sells trained seats and process hours, not a product.** Cash comes in as monthly billing per seat or per transaction from a client contract; cash goes out as salaries, rent for the floor, telecom and software licences. **The asset base is thin — desktops, leased premises, and people — so the bank's real security is the receivable stream and the contract, not the fixed assets.** Pricing power is weak: a rating note on a staffing-led peer says competitive pressure limits pricing power and margin expansion [8]. So when a proposal lands, check the client contract tenure and the per-seat rate; if the rate is below the unit's own cost per seat, ask why they are bidding. ## Where cash sits and what has changed\n**Working capital is the whole game: receivables net of payables, and the cycle length decides how much funding the unit needs** [10]. Locally, the signal is weak and negative: **Software Technology Park unit count in Chandigarh has dropped from 20 to 13 in two years** [2]. That is a local news report, not a peer result, and it tells us small STP-registered units are exiting. Peer results are mixed: eClerx grew revenue 17.1% YoY to INR 1,212.6 crore in Q2 FY2026-27 [4], while Hinduja Global Solutions' EBITDA margin fell to 11.2% from 19.0% [5]. Large IT firms held margins — TCS at 24%, Infosys at 21% [6] — but that is the listed tier, not Chandigarh SMEs. The data pack gives no city score [D], so I am leaning on first principles and peers. ## Who to pursue now\n**Pursue domestic-demand BPO/KPO units and captive back-offices of Indian corporates, where billing is in rupees and contracts renew annually.** Also pursue units doing AI-assisted analytics or digital operations — eClerx's 17.1% growth [4] and the peer note on smaller, faster AI-led deal wins [3] show where the work is moving. **Avoid pure voice-only exporters with one or two overseas clients, and avoid units whose STP registration lapses or whose seat count is falling** [2]. For any new proposal, collect from customer: client-wise revenue share, contract tenure, attrition rate, and receivable days. ## How to grow safely\n**Structure as a receivables-backed working capital line, not a term loan** — capex is leased desktops and fit-outs, so fund the cycle, not the furniture. Take monthly: bank statement of the operating account, GST returns, and an ageing of receivables. Covenant on receivable days and on top-client concentration; if concentration crosses the level you set at sanction, ask for a client-wise billing statement before the next drawdown. **Performance guarantees may be needed for bid-based contracts** [10], so size the non-fund limit separately. ## Early-warning signs\n**Watch salary payment dates slipping, GST filing gaps, and receivable days stretching beyond the sanctioned cycle** [10]. A falling seat count or a lapsed STP registration [2] is an exit signal. Margin compression like HGS's fall to 11.2% [5] tells you pricing is being conceded — ask for the rate card."
+ ],
+ "watch": [
+  [
+   "Monthly bank statement and salary debit dates (monthly)",
+   "salary paid after the 7th twice in a row -> ask for client payment confirmation and freeze incremental drawdown"
+  ],
+  [
+   "GST returns and receivable ageing (monthly)",
+   "receivable days stretch beyond sanctioned cycle -> reprice or reduce limit"
+  ],
+  [
+   "Seat count and STP registration status (quarterly)",
+   "seat count falls or registration lapses -> treat as exit signal, no renewal"
+  ],
+  [
+   "Top-client revenue share (quarterly)",
+   "concentration rises above sanction level -> ask for client-wise billing before next drawdown"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Chandigarh STP units fell from 20 to 13; peer margins compressed.",
+ "articles": [
+  {
+   "title": "Chandigarh News: अब स्मार्ट प्रोडक्ट बताएगा मशीन की तंदुरुस्ती - Chandigarh News: अब स्मार्ट प्रोडक्ट बताएगा मशीन की तंदुरुस्ती",
+   "url": "https://www.amarujala.com/chandigarh/now-a-smart-product-will-indicate-the-machines-health-chandigarh-news-c-16-pkl1079-1120943-2026-09-12#1",
+   "date": "2026-09-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "2 years on, Software Technology Park unit count in Chandigarh drops from 20 to 13 - Subscribe To Print Edition About The Tribune Code Of Ethics Download App Careers Advertise with us Classifieds",
+   "url": "https://www.tribuneindia.com/news/chandigarh/2-years-on-software-technology-park-unit-count-in-chandigarh-drops-from-20-to-13/#1",
+   "date": "2026-08-14",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "AXISDIRECT",
+   "url": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/Zensar+Technologies+Ltd+-+Q2FY27+Result+Update+-+30102026_30-10-2026_10.pdf/type/fundamental#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "eClerx Reports Strong Q2 FY2026-27 Results; Revenue Stands at INR 1,212.6 Crore, up 17.1% YoY",
+   "url": "https://sg.finance.yahoo.com/news/eclerx-reports-strong-q2-fy2026-111800284.html",
+   "date": "2026-10-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Q3FY26 Quarterly Result Announced for Hinduja Global Solutions Ltd.",
+   "url": "https://trendlyne.com/posts/5524607/q3fy26-quarterly-result-announced-for-hinduja-global-solutions-ltd",
+   "date": "2026-02-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India’s IT firms hold margins as AI gains offset cost pressures",
+   "url": "https://www.newindianexpress.com/business/2026/Oct/29/indias-it-firms-hold-margins-as-ai-gains-offset-cost-pressures",
+   "date": "2026-10-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The rating exercise is primarily focused on assessing the future debt servicing capability of a company",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/858~IT%20Services,%20Rating%20Methodology,%20Jul%202023%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "**August 27, 2024**",
+   "url": "https://www.cielhr.com/wp-content/uploads/2024/11/CIEL-HR-Services-Limited_Rationale-Final-1.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Datamatics Global Services Limited: Ratings upgraded to [ICRA]A+ (Stable)/ [ICRA]A1+",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/107986~Datamatics%20Global%20Services%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Chandigarh None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

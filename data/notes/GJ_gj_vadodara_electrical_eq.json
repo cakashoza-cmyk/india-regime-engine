@@ -1,0 +1,154 @@
+{
+ "key": "gj_vadodara|electrical_eq",
+ "state": "GJ",
+ "city": "gj_vadodara",
+ "ind": "electrical_eq",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Vadodara electrical equipment, pumps and motors — pursue working-capital-led mid-size manufacturers with order visibility; avoid thin-margin pump exporters and pure tender-dependent breaker suppliers.",
+ "title": "Vadodara Electrical Equipment, Pumps & Motors: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**These units buy steel, copper, laminations, castings and bought-out components, wind them and machine them into motors, pumps, transformers and switchgear, and sell into utilities, irrigation, railways and industry.** Cash comes in on dispatch, but the buyer sets the rhythm: state utility and government tenders pay on bill certification, OEMs pay in 60-90 days, and dealers pay faster at a discount. **Value sits in the winding and testing shop, not the assembly line — so the real question is utilisation of the test bench and the winding floor, not the size of the shed.**\n\n## Where cash and risk sit now\n**Working capital is the business: inventory of copper and laminations plus receivables from slow-paying institutional buyers.** Peer evidence is blunt — Shakti Pumps reported working-capital outflows in Q2 FY27 with margins contracting on lower realisations and higher raw-material and logistics costs [5], and its Q1 FY27 PAT fell 46.72% to Rs 51.59 crore even as revenue rose 37.9% [7]. **So when a proposal lands, check receivable days by buyer type and copper inventory turns; if revenue is growing faster than collections, ask for the ageing and the top-five buyer list.** Rating reports on this sector show the same pattern: one issuer incurred around Rs 780 crore of capex over three years plus around Rs 600 crore of incremental working capital [9], and another carries high working-capital intensity [8].\n\n## The growth opportunity\n**Gujarat is pulling ahead of the country: GST collections are up 11.9% Apr-to-date against India's 6.1% [D].** National electrical equipment output is up 30.9% YoY and 28.5% Apr-to-date, with exports up 19.8% Apr-to-date in USD [D]. **Pursue mid-size Vadodara motor and pump makers supplying OEMs in railways, wind power and specialty motors — the segment peers call out as high-value [4] — and component makers feeding utility breaker and transformer tenders.** A live example of local demand: a Vadodara vacuum/SF6 breaker purchase tender worth Rs 113.9 crore [3]. **Avoid pure irrigation-pump exporters with single-customer concentration and thin PAT margins, and avoid bidders whose only order book is one state tender.**\n\n## How to grow safely\n**Structure as cash-flow lending, not balance-sheet lending: sanction against receivables and inventory with a drawing-power formula, and take monthly stock and book-debt statements.** Take the top-ten buyer list and the order book every month, plus GST returns to cross-check turnover. **Where the borrower supplies a utility, insist on assignment of proceeds or an escrow for that receivable; if the buyer is a government utility, ask for the sanction letter and payment history.** Keep tenor short and match it to the receivable cycle.\n\n## Early-warning signs\n**Watch receivable days stretching beyond the stated credit period, copper inventory building while output is flat, and PAT falling while revenue rises — the Shakti Pumps pattern [7].** Also watch for capex funded by debt without matching order book, as seen in the rating case with Rs 780 crore of capex [9]. **Local news on this city's own units is thin — one listed Vadodara engineering micro-cap is covered only in an educational overview [2] — so lean on first principles and peer results.**"
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs invoiced sales (monthly)",
+   "sales exceed GST turnover by more than 10% -> ask for the reconciliation and hold further disbursement"
+  ],
+  [
+   "Receivable ageing and top-five buyer list (monthly)",
+   "days beyond stated credit period rise two months running -> reprice or shift to receivables-only limit"
+  ],
+  [
+   "Inventory of copper and laminations (monthly)",
+   "inventory up while dispatch flat -> ask for the stock statement and cut the drawing power"
+  ],
+  [
+   "Order book and tender wins (quarterly)",
+   "order book falls below six months of sales -> reduce limit at renewal"
+  ],
+  [
+   "PAT margin vs revenue growth (quarterly)",
+   "revenue up but PAT down, as in the peer case [7] -> ask for the cost sheet and review pricing"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Gujarat GST up 11.9% vs India 6.1%; national electrical output up 30.9% YoY.",
+ "articles": [
+  {
+   "title": "Indian Oil Corporation Limited Tender 2026_REFHQ_189352_1 -",
+   "url": "https://tendersplus.com/gujarat/indian-oil-corporation-limited/td-epr-e8c6767a-0908-4a1b-bee2-0f18345fb4b2",
+   "date": "2026-10-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "JSL Industries (NSE: JSLINDL): What Investors Should Know",
+   "url": "https://www.kalkine.co.in/article/industrials/jsl-industries-nse-jslindl-on-investors-radar-what-could-change-the-story-from-here",
+   "date": "2026-09-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Purchase of Various Class Vacuum/SF6 Breaker for year 2026-27 as per specification on firm price basis against tender no. ACE(P&C)/SE(P&C)/EE(Proc)/E-3096/ Vacuum & SF6 Breaker/2026-27.",
+   "url": "https://tenderkart.in/tender/3416e619-6008-47f2-ba63-672a32cca1db",
+   "date": "2026-08-03",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Pitti Engineering posts solid Q1 2026 growth, shares rise By Investing.com - Earnings call transcript: Pitti Engineering posts solid Q1 2026 growth, shares rise",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-pitti-engineering-posts-solid-q1-2026-growth-shares-rise-93CH-4851334#1",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shakti Pumps (India) (531431) Q2 26/27 Summary | Quartr",
+   "url": "https://quartr.com/events/shakti-pumps-india-531431-q2-26-27_FRMGdRqK",
+   "date": "2026-10-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shakti Pumps (India) Concall Summary: Key Highlights and Q1 FY27 Results",
+   "url": "https://www.sovrenn.com/knowledge/shakti-pumps-india-concall-summary-key-highlights-and-q1-fy-27-results",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Shakti Pumps tanks as Q1 PAT slides 47% YoY to Rs 52 crore - Friday, October 16, 2026 | 03:19 AM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/capital-market-news/shakti-pumps-tanks-as-q1-pat-slides-47-yoy-to-rs-52-crore-126072700418_1.html#1",
+   "date": "2026-07-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 04,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=136185#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 11, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145554#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "June 13,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=128071#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Mangal Electrical Industries Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202609140944_Mangal_Electrical_Industries_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 100 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 27 output +30.9% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +28.5% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

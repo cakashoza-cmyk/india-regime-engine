@@ -1,0 +1,150 @@
+{
+ "key": "dn_silvassa|electrical_eq",
+ "state": "DN",
+ "city": "dn_silvassa",
+ "ind": "electrical_eq",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 100,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively in Silvassa electrical equipment, pumps and motors — pursue export-ready component makers with tight working-capital control, avoid leveraged domestic-only pump assemblers until margin and receivable data are verified.",
+ "title": "Silvassa Electrical Equipment, Pumps & Motors: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**These units buy steel, copper, laminations, castings and bought-out electronics, then convert them into motors, pumps, switchgear and components sold to OEMs, projects and export buyers.** Cash comes in on dispatch, but the gap between paying for metal and collecting from the buyer is where the risk sits. **Pricing power is thin in standard pumps and stronger in custom/specialty motors and railway, wind and off-highway applications** [4]. So when a proposal lands, check whether the order book is standard catalogue volume or engineered-to-order; if it is standard, ask what stops the buyer from switching on price.\n\n## Where value and cash sit now\n**The national demand signal is strong: IIP NIC 27 output is +30.9% YoY and +28.5% Apr-to-date** [D]. **Exports are +19.8% Apr-to-date in USD** [D]. But **bank credit to the space is growing +37.7% YoY against +28.5% output, a +9.2 pp gap** [D] — some of that lending is funding working capital stretch, not just growth. Peer evidence is mixed: Shakti Pumps grew Q1 FY27 revenue 37.9% YoY to Rs 858.67 crore while PAT fell 46.72% to Rs 51.59 crore [7], and H1 FY27 revenue rose 24.5% YoY to Rs 16,047 Mn with PAT down to Rs 90.10 crore from Rs 187.54 crore [5]. **Growth is real; margin and cash conversion are not keeping pace.** Rating reports on this space flag high working-capital intensity and large capex-plus-working-capital build [8][9].\n\n## The Silvassa opportunity\n**Local sources are thin — the main Silvassa item is a U.T.-level FTA outreach programme to strengthen exports** [1]; the other local hits are topic pages with no usable operating data [2][3]. So lean on first principles and peers. **Pursue component and sub-assembly makers supplying export OEMs, specialty-motor makers with engineered order books, and units adding FTA-linked export lines** [1][4]. **Avoid domestic-only pump assemblers bidding government tenders on thin margins, and any unit whose growth is funded by receivables ageing rather than cash.**\n\n## How to grow safely\n**Structure limits around the working-capital cycle, not turnover.** Take monthly stock-and-debtor statements, monthly bank statements, and quarterly GSTR-2B versus purchase reconciliation. **Ask for receivable days and inventory days by customer; if either is rising while sales grow, ask which buyer is stretching and cap exposure to that buyer.** For capex, insist on promoter equity first — peers raised Rs 290 crore in FY2025 and Rs 210 crore in May 2025 to support capex and working capital [8]. **Covenant on debt/EBITDA and current ratio, and take a monthly stock statement plus quarterly CMA data.**\n\n## Early-warning signs\n- **Receivable days rising two quarters running** -> freeze enhancement, ask for buyer-wise ageing.\n- **PAT falling while revenue rises** (as in Shakti Pumps [5][7]) -> reprice or reduce limit.\n- **Inventory build without matching orders** -> ask for order book and dispatch register.\n- **Promoter equity not infused against stated capex** -> hold disbursement."
+ ],
+ "watch": [
+  [
+   "Monthly stock and debtor statement (monthly)",
+   "Receivable days up two quarters -> freeze enhancement and seek buyer-wise ageing"
+  ],
+  [
+   "GST 2B vs purchase reconciliation (quarterly)",
+   "Input credit mismatch above 5% -> ask for explanation and cap limit"
+  ],
+  [
+   "Debt/EBITDA and current ratio (quarterly)",
+   "Debt/EBITDA above agreed covenant -> reprice or reduce limit"
+  ],
+  [
+   "Bank statement vs sales (monthly)",
+   "Cash receipts lagging dispatches -> ask which buyer is delaying and cap exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "National output and exports strong; peer margins and working capital weak; local Silvassa data thin.",
+ "articles": [
+  {
+   "title": "Silvassa industry gets a roadmap to tap India's Free Trade Agreements at U.T.-level \"Leveraging FTAs\" outreach programme to Strengthen Exports",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2330587&reg=48&lang=2",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Silvassa Plant: Latest News & Videos, Photos about Silvassa Plant | The Economic Times - Page 1 - Business News›Silvassa Plant",
+   "url": "https://economictimes.indiatimes.com/topic/Silvassa-Plant#1",
+   "date": "2026-09-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "silvassa group News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/silvassa-group/news#1",
+   "date": "2026-09-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Pitti Engineering posts solid Q1 2026 growth, shares rise By Investing.com - Earnings call transcript: Pitti Engineering posts solid Q1 2026 growth, shares rise",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-pitti-engineering-posts-solid-q1-2026-growth-shares-rise-93CH-4851334#1",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shakti Pumps (India) (531431) Q2 26/27 Summary | Quartr",
+   "url": "https://quartr.com/events/shakti-pumps-india-531431-q2-26-27_FRMGdRqK",
+   "date": "2026-10-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shakti Pumps (India) Concall Summary: Key Highlights and Q1 FY27 Results",
+   "url": "https://www.sovrenn.com/knowledge/shakti-pumps-india-concall-summary-key-highlights-and-q1-fy-27-results",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Shakti Pumps tanks as Q1 PAT slides 47% YoY to Rs 52 crore - Friday, October 16, 2026 | 03:19 AM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/capital-market-news/shakti-pumps-tanks-as-q1-pat-slides-47-yoy-to-rs-52-crore-126072700418_1.html#1",
+   "date": "2026-07-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 04,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=136185#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 11, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145554#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "June 13,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=128071#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Mangal Electrical Industries Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202609140944_Mangal_Electrical_Industries_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 100 (national 100 x 0.6 + Dadra and Nagar Haveli and Daman & Diu None x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 27 output +30.9% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +28.5% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +37.7% YoY vs output +28.5% (gap +9.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
