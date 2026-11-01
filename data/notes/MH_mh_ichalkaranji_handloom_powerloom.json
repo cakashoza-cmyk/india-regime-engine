@@ -1,0 +1,156 @@
+{
+ "key": "mh_ichalkaranji|handloom_powerloom",
+ "state": "MH",
+ "city": "mh_ichalkaranji",
+ "ind": "handloom_powerloom",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": true,
+ "verdict": "OK to lend selectively in Ichalkaranji weaving — back integrated, low-leverage borrowers with verified wage settlements only; avoid wage-dependent job-work units until the 2013-pending wage dispute is settled.",
+ "title": "Ichalkaranji handloom & powerloom: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Ichalkaranji runs roughly 1 lakh looms weaving cotton, polyester and denim, and the trade began from handloom before moving to powerloom [1].** Cash comes from converting yarn into fabric and selling to traders; the loom owner's margin is the gap between yarn cost plus wage plus power and the trader's price. **Weaving is fixed-capital and working-capital intensive, and working capital is driven by inventory holding plus receivables [8][9].** So when a proposal lands, check the receivable days against the trader concentration; if one buyer is over half of sales, ask for the ledger and the buyer's payment record. ## What has broken now\n**In May 2026 the looms were shut for eight days and the agitation turned violent, with a march on the local MLA's office [1][2].** That is a live cash-flow event, not background noise: a stopped loom earns nothing while wages, power and interest keep running. **The dispute is specifically between kharchiwala weavers, the Kolhapur District Powerloom Association and cloth traders, and was pushed to a collector-level meeting [1].** So when a job-work weaver proposes, ask whether his wage rate is settled in writing with his trader; if not, treat the account as unsecured trading exposure and size it accordingly. **Note the local sources are from March–May 2026 and predate today by about six months — collect from customer what has happened to the wage settlement since.**\n\n## Where the growth is\n**Maharashtra GST collections are running +8.6% Apr-to-date against India's +6.1% [D], and all-India fabric output (NIC 13) is +13.1% YoY with +11.9% Apr-to-date [D]** — demand is there, and the state is pulling ahead. **The state textile budget carries 10% more allocation than last year with interest subsidy and energy concessions for textile projects [3].** Pursue the borrower who owns his looms, buys yarn directly, sells finished fabric on his own invoice, and can claim that interest subsidy. **Peer evidence from a listed weaver shows the model works when raw material is booked in advance: sales rose 42.04% to ₹111.36 crore and net profit 63.01% to ₹18.55 crore in the December 2025 quarter [6], and full-year net profit rose 60.72% to ₹64.61 crore [7].** Avoid the pure wage-dependent job-work unit with no yarn position and one trader buyer. ## How to grow safely\n**Fund the yarn cycle, not the loom shed.** Structure as a cash-credit against hypothecated stock and receivables with a drawing power recalculated monthly, and keep term debt tenure long — rating methodology flags tenure as a key coverage driver [10]. **Take stock-and-receivable statements every month, GST returns every month, and power bills every month** (power is the tell on whether looms actually ran). Covenant that wage settlements be documented before any enhancement. **Keep leverage low: rating methodology ties low leverage directly to financial flexibility in a downturn [10].**\n\n## Early warning signs\n- **Loom-hours from power bills fall two months running (monthly) → freeze drawing power and visit the unit.**\n- **Any fresh strike or collector-level wage meeting reported locally (weekly) → stop fresh sanctions to job-work accounts until it resolves [1].**\n- **Receivable days stretch beyond the sanctioned cycle or one buyer crosses half of sales (monthly) → ask for the buyer's payment proof and reprice.**\n- **GST turnover dips below the stock statement's implied sales (monthly) → call the account and inspect godown stock.**"
+ ],
+ "watch": [
+  [
+   "Power-bill units consumed (monthly)",
+   "two consecutive falls -> freeze drawing power, site visit"
+  ],
+  [
+   "Local wage-dispute news (weekly)",
+   "fresh strike or collector meeting -> halt new job-work sanctions [1]"
+  ],
+  [
+   "GST returns vs stock statement (monthly)",
+   "turnover below implied sales -> inspect godown, call account"
+  ],
+  [
+   "Buyer concentration (monthly)",
+   "one buyer over half of sales -> demand payment proof, reprice"
+  ],
+  [
+   "Interest-subsidy claim status (quarterly)",
+   "subsidy not credited -> check eligibility file before renewal [3]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Eight-day loom shutdown and violent wage protest in May 2026 hit Ichalkaranji cash flow.",
+ "articles": [
+  {
+   "title": "Ichalkaranji Powerloom Strike | Shinde Orders Meeting On Wage Hike | इचलकरंजी यंत्रमाग मजुरीवाढ वाद: शिंदेंच्या आदेशानंतर सोमवारी बैठक",
+   "url": "https://www.loksatta.com/kolhapur/ichalkaranji-powerloom-strike-dy-cm-eknath-shinde-meeting-wages-hike-issue-kolhapur-ocd-94-5902792/",
+   "date": "2026-05-15",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Ichalkaranji Powerloom Protest : इचलकरंजीत यंत्रमाग बंद आंदोलनाला हिंसक वळण, आमदार राहुल आवाडेंच्या कार्यालयावर मोर्चा",
+   "url": "https://www.esakal.com/paschim-maharashtra/kolhapur/ichalkaranji-powerloom-protest-rahul-awade-office-march-srs92",
+   "date": "2026-05-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ichalkaranji Textile : वस्त्रोद्योगासाठी गतवर्षीपेक्षा १० टक्के जादा तरतूद; व्याज अनुदान, वस्त्रोद्योग प्रकल्पांना मदत",
+   "url": "https://www.esakal.com/paschim-maharashtra/kolhapur/maharashtra-textile-industry-budget-subsidy-powerloom-support-sin20?utm_source=website&utm_medium=related-stories",
+   "date": "2026-03-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Borana Weaves - knitting a stronger portfolio - Stock Opportunities / Untested - but worth a good look - ValuePickr Forum",
+   "url": "https://forum.valuepickr.com/t/borana-weaves-knitting-a-stronger-portfolio/218051/18",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The organisation works with different types of handloom traditions of India, including plain handloom weaving and extra weft Pit...",
+   "url": "https://livelihoods-india.org/wp-content/uploads/2024/05/Handloom-report-2024.pdf#18#26#18",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "News",
+   "url": "https://www.hdfcsec.com/News/Index/equity-94177%7C131",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1693361&opt=RAN&secid=7&subsecid=20&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Antik-06-26-2020.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 83 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": false,
+  "problems": [
+   "numbers not in any source: 2013"
+  ],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

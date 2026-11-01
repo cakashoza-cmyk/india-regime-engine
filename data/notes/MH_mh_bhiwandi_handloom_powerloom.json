@@ -1,0 +1,154 @@
+{
+ "key": "mh_bhiwandi|handloom_powerloom",
+ "state": "MH",
+ "city": "mh_bhiwandi",
+ "ind": "handloom_powerloom",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": true,
+ "verdict": "OK to lend selectively in Bhiwandi powerloom — pursue integrated weavers with own processing and clean receivables; avoid pure job-work units exposed to West Asia export disruption.",
+ "title": "Bhiwandi handloom & powerloom: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Bhiwandi powerloom unit buys yarn, weaves it into fabric on rented or owned looms, and sells to traders, garmenters or exporters.** Cash turns on loom utilisation and yarn-to-fabric conversion spread, not on brand. Value sits in the loom shed and the buyer relationship; cash sits in yarn inventory and receivables from traders. ICRA flags the sector as both fixed-capital and working-capital intensive, with funding needs typically high [8], and working capital driven by inventory holding plus receivables [9]. So when a proposal lands, check the receivable days against the trader mix; if one buyer is over a third of sales, ask for that buyer's payment history.",
+  "## What has changed now\n**Local reporting says West Asia tension has slowed exports and shut a large number of powerloom units in Bhiwandi, with a relief-package demand to the Maharashtra government [3] — that source is from April 2026, so treat it as dated.** A separate AP report describes decades-old weaving businesses near Mumbai struggling to survive [2]. Against that, Maharashtra GST collections are running +8.6% Apr-to-date versus India +6.1% [D], and all-India IIP for NIC 13 (textiles) is +13.1% YoY with output +11.9% Apr-to-date [D]. Read together: the state's consumption tax base is holding, but Bhiwandi's export-facing looms are the weak spot.",
+  "## Where the growth is\n**Pursue weavers with in-house processing or a direct garmenter/retail buyer, and the fabric traders who finance them.** Peer Borana Weaves shows the integrated model working: sales up 42.04% to Rs 111.36 crore in the December 2025 quarter [6], up 27.99% to Rs 100.73 crore in March 2026 [7], with a 192-machine expansion targeted at Rs 475–500 crore annual revenue and 25–30% OPM [4]. Avoid pure job-work units with no yarn ownership and single-exporter dependence — those are the ones the April report says are shutting [3].",
+  "## How to grow safely\n**Structure term loans to match loom life and keep leverage low; ICRA notes low leverage preserves flexibility in a downturn [10].** Take monthly: loom utilisation, yarn purchase invoices, and a receivables ageing by buyer. Ask for GST returns each month and reconcile to sales — Maharashtra's +8.6% GST growth [D] gives you a clean cross-check. Where TUFS-type subsidy is claimed, confirm tenure against the seven-year subsidy window [10].",
+  "## Early-warning signs\n**Watch for receivable days stretching past the buyer's stated terms, yarn inventory building without matching order book, and any shift from owned to job-work billing.** A unit that stops filing GST or shows sales falling while IIP textiles is +13.1% [D] is losing share, not riding a cycle. Note the bank credit-to-output gap of +3.3 pp [D]: system credit is outrunning output, so some of what you see is leverage, not demand."
+ ],
+ "watch": [
+  [
+   "GST returns vs invoiced sales (monthly)",
+   "sales fall below GST-declared turnover -> ask for buyer-wise ledger and hold fresh limit"
+  ],
+  [
+   "Receivable ageing by buyer (monthly)",
+   "top buyer days stretch beyond agreed terms -> seek diversification or reduce exposure"
+  ],
+  [
+   "Loom utilisation (monthly)",
+   "utilisation drops with inventory rising -> reclassify to job-work risk and tighten"
+  ],
+  [
+   "Yarn inventory days (monthly)",
+   "inventory builds without order book -> ask for pending orders and trim drawing power"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Bhiwandi export-facing powerlooms reported shut on West Asia tension, though that report is from April 2026.",
+ "articles": [
+  {
+   "title": "powerloom News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/powerloom/news#1",
+   "date": "2026-10-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Raymond James | Independent Financial Advisors, Financial Planning, Investment Banking and Asset Management - AP PHOTOS: Decades-old weaving businesses near India's financial capital struggle to survive",
+   "url": "https://raymondjames.websol.barchart.com/?module=topNews&0=NEWS&storyID=31511582&selected=news&symbol=&moreHeadlines=1&feed[]=AP&header=AP%20Headlines&region=CA#1",
+   "date": "2026-09-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "بھیونڈی: مغربی ایشیا میں کشیدگی سے ٹیکسٹائل صنعت مفلوج - - Tue, 20 October, 2026",
+   "url": "https://www.inquilab.com/news/articles/bhiwandi-textile-industry-paralyzed-by-tensions-in-west-asia-96253#1",
+   "date": "2026-04-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Borana Weaves - knitting a stronger portfolio - Stock Opportunities / Untested - but worth a good look - ValuePickr Forum",
+   "url": "https://forum.valuepickr.com/t/borana-weaves-knitting-a-stronger-portfolio/218051/18",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The organisation works with different types of handloom traditions of India, including plain handloom weaving and extra weft Pit...",
+   "url": "https://livelihoods-india.org/wp-content/uploads/2024/05/Handloom-report-2024.pdf#18#26#18",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "News",
+   "url": "https://www.hdfcsec.com/News/Index/equity-94177%7C131",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1693361&opt=RAN&secid=7&subsecid=20&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Antik-06-26-2020.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 83 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

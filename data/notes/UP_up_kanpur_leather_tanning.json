@@ -1,0 +1,150 @@
+{
+ "key": "up_kanpur|leather_tanning",
+ "state": "UP",
+ "city": "up_kanpur",
+ "ind": "leather_tanning",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 63,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Kanpur tanners with FTA-linked export orders and clean effluent compliance; avoid sub-scale job-work units with unhedged forex and thin buffers.",
+ "title": "Kanpur leather tanning: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA tannery buys raw hides and skins, soaks, lims, tans, dyes and finishes them, and sells crust or finished leather to shoe, bag and garment makers. **Cash is made in the drum, not in the showroom: yield per hide and chemical cost per square foot decide margin.** Kanpur's cluster sits in Jajmau and nearby areas, and the local units already make products to international specification [1]. The sector is fixed-capital and working-capital heavy, so debt funds both the drums and the hide inventory [11].\n\n## Where value and cash sit now\n**The single biggest cash risk is the wet-work shutdown: government regulation can close wet work for around 20-30 days, so units must hold 1-2 months of inventory to keep running [10].** That inventory is your real exposure, not the plant. Peer Super Tannery's Jun-2026 revenue was Rs 76 Cr, up 9.4% YoY, with net profit Rs 3 Cr, up 5.3% YoY [4] — modest growth, thin profit. Forex is a live leak: Super Tannery booked a Rs 0.45 crore fluctuation loss in FY24 against Rs 0.57 crore in FY23, with no formal hedging policy [8]. So when a proposal lands, check the hedging policy first; if the unhedged import portion is material, ask for the forward cover plan before sanction.\n\n## What has changed\n**The India-New Zealand FTA took effect 20 October 2026 and removed import duty of up to 10% on 181 products, including leather footwear, purses, belts, jackets and bags [1].** That is a genuine price-competitiveness gain for Kanpur exporters [1], and FIEO expects small and medium units to reach foreign buyers too [1]. The state is also promoting the cluster, with the leather fair inaugurated by minister Rakesh Sachan [3] and foreign buyers purchasing at the fair [2]. Set against this, India-wide exports are -3.0% Apr-to-date in USD [D] and bank credit is growing +11.9% YoY against output of +2.4% [D] — money is chasing slow trade. UP GST collections are +14.2% Apr-to-date versus India +6.1% [D], a local tailwind, but it is state-wide, not tannery-specific.\n\n## Who to pursue, how to grow safely\n**Pursue integrated tanners with own effluent treatment, a named New Zealand buyer or order, and a hedged import book; avoid pure job-work units and traders with no drum of their own.** Structure as a cash-flow loan against a drawing-power formula on stock and receivables, with a margin that survives a 20-30 day wet-work stop [10]. Take monthly stock-and-receivable statements, the forex exposure report, and the effluent consent status. Covenant a minimum hedging ratio on imports and a debt-service cover tested quarterly. Peer results are mixed — Bhartiya Intl net sales rose from Rs 2,800 m to Rs 3,728 m while Liberty Shoe fell from Rs 1,728 m to Rs 1,699 m [5] — so underwrite the buyer order, not the sector story.\n\n## Early-warning signs\n- **Inventory days crossing two months without matching orders** — the wet-work buffer has become dead stock [10]; freeze fresh limits and inspect godown.\n- **Unhedged import payables rising while the rupee moves** — the FY24 loss pattern repeats [8]; demand forward cover or reduce the import line.\n- **Buyer concentration in one New Zealand account** — FTA demand is new and unproven [1]; ask for the second buyer before enhancing.\n- **Effluent consent lapse or pollution notice** — a shutdown follows directly [10]; stop disbursement until consent is renewed."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-receivable statement (monthly)",
+   "Inventory days above two months with no matching order -> freeze fresh limits and inspect godown"
+  ],
+  [
+   "Forex exposure and hedging report (monthly)",
+   "Unhedged import payables rising -> demand forward cover or cut the import line"
+  ],
+  [
+   "Effluent consent and pollution notice status (quarterly)",
+   "Consent lapsed or notice received -> stop disbursement until renewed"
+  ],
+  [
+   "Buyer-wise order book, New Zealand share (quarterly)",
+   "Single-buyer concentration above half of export sales -> ask for a second buyer before any enhancement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "India-New Zealand FTA removes up to 10% duty on 181 leather products from 20 Oct 2026.",
+ "articles": [
+  {
+   "title": "भारत-न्यूजीलैंड FTA: चमका कानपुर लेदर उद्योग, 181 उत्पादों पर आयात शुल्क खत्म",
+   "url": "https://hindi.news18.com/news/uttar-pradesh/kanpur-leather-footwear-industry-india-new-zealand-fta-zero-import-duty-benefits-local18-10955129.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Kanpur News: लेदर मेले में देशी हुनर का जलवा, विदेशियों ने भी की खरीदारी",
+   "url": "https://www.amarujala.com/uttar-pradesh/kanpur/indigenous-craftsmanship-shines-at-the-leather-fair-foreigners-also-make-purchases-kanpur-news-c-12-1-knp1053-1700261-2026-11-01",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "यूपी: मंत्री राकेश सचान ने किया लेदर मेले उद्घाटन, बोले- कानपुर के चमड़ा उद्योग को और आगे बढ़ाएंगे",
+   "url": "https://www.amarujala.com/uttar-pradesh/kanpur/minister-rakesh-sachan-says-we-will-further-promote-kanpur-s-leather-industry-2026-10-30",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Super Tannery Live Share Price, Stock Analysis and Price Estimates",
+   "url": "https://trendlyne.com/equity/2983/SUPTANERY/super-tannery-ltd/",
+   "date": "2026-10-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Latest Leather Sector Quarterly Company Results - Equitymaster",
+   "url": "https://www.equitymaster.com/research-it/company-info/latest-sector-results.asp?sector=leather&utm_source=key-sector-quote&utm_medium=website&utm_campaign=sector-results&utm_content=list-of-leather",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Super Tannery | SPT IN - News",
+   "url": "https://www.smartkarma.com/entities/super-tannery-ltd/news",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Leather - Industry Analysis and Overview - Stay updated with important alerts",
+   "url": "https://www.moneyworks4me.com/comp-peer/index/index/type/industry/fid/123083#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Super Tannery Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202501130115_Super_Tannery_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SUPER TANNERY LIMITED",
+   "url": "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/09042024/b469f54a-f625-4df6-903e-edfd8507aae5.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202401120110_Super_Tannery_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 63 (national 55 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 15 output +8.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -3.0% Apr-to-date in USD (Rs 21,080 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +11.9% YoY vs output +2.4% (gap +9.5 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

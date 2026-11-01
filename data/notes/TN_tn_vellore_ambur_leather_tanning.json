@@ -1,0 +1,130 @@
+{
+ "key": "tn_vellore_ambur|leather_tanning",
+ "state": "TN",
+ "city": "tn_vellore_ambur",
+ "ind": "leather_tanning",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 43,
+ "nudged_by_news": false,
+ "verdict": "Avoid new leather-tanning exposure in Vellore-Ambur until GST collections in Tamil Nadu turn positive; existing accounts only with monthly stock and receivables discipline.",
+ "title": "Vellore-Ambur leather tanning: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA tannery buys raw hides and skins, runs them through soaking, liming, tanning and finishing, and sells wet-blue, crust or finished leather to shoe and component makers. **Cash is made in the drum and lost in the yard** — the money sits in hides inventory and in finished leather waiting for the buyer's approval, not in the machine. Peer Super Tannery, an integrated Kanpur tanner and footwear maker, did Rs 76 Cr revenue in Jun-2026, up 9.4% YoY, with Rs 3 Cr net profit, up 5.3% [1]. That is a thin margin on a working-capital-heavy business, and it is the shape to expect here.\n\n## Where value and cash sit\n**Two things break a tannery: effluent compliance and forex.** CARA notes that wet work can be shut for around 20-30 days on government regulation, so the company must hold 1-2 months of inventory to keep running [7]. So when a proposal lands, check the effluent plant's consent status and the last closure notice; if the unit has been shut in the past year, ask how many days and who bore the idle cost. On forex, Super Tannery imports lining and leather against customer specs with no formal hedging policy, and booked a Rs 0.45 crore loss in FY24 against Rs 0.57 crore in FY23 [5]. So ask every exporter for the unhedged share of payables and receivables; if it is above half, ask for a hedging plan before sanction.\n\n## What has changed now\n**The local demand signal is negative.** Tamil Nadu GST collections are -3.2% Apr-to-date against India +6.1%, 9.3 pp slower [D]. India-wide exports are -3.0% Apr-to-date in USD [D], and the repo is 5.5%, raised from 5.25%, with RBI tightening [D]. IIP for NIC 15 (leather) is +8.1% YoY [D], so output is running ahead of collections — that gap is inventory building somewhere. Peer results are mixed: Bhartiya Intl net sales rose from Rs 2,800 m to Rs 3,728 m with PAT from Rs 68 m to Rs 165 m, while Liberty Shoe fell -1.7% in sales and -79.4% in PAT [2]. Amin Tannery went from Rs 109 m to Rs 120 m sales with PAT flat at Rs 1 m [2]. Note the peer and rating material is undated or old; treat it as shape, not current fact.\n\n## Who to pursue, who to avoid\n**Pursue the finishing and component supplier, not the wet-blue converter.** Target tanners who sell cut components or finished leather to domestic shoe units, have their own effluent plant with live consent, and bill in rupees. Avoid units that are pure wet-blue exporters with unhedged dollar books, and avoid anyone whose sales are growing while GST-paid turnover is flat. Sources say little specific about Vellore-Ambur itself, so lean on first principles and these peers.\n\n## How to grow safely\n**Structure on the working-capital cycle, not on the fixed assets.** Take monthly stock and receivables statements, a monthly GST return, and a quarterly forex exposure note. Covenant a minimum hedging cover on export receivables and a cap on inventory days. Price the limit against the 20-30 day wet-work closure risk [7].\n\n## Early warning signs\n- Stock days rising while sales are flat -> ask for the age-wise finished leather report.\n- GST-paid turnover falling behind bank turnover -> ask for the sales register.\n- Any fresh closure notice or consent renewal pending -> freeze enhancement."
+ ],
+ "watch": [
+  [
+   "Monthly GST return vs bank turnover",
+   "Gap above 10% for two months -> ask for sales register and stop enhancement"
+  ],
+  [
+   "Monthly stock and receivables statement",
+   "Inventory days rising two months running -> ask for age-wise finished leather report"
+  ],
+  [
+   "Quarterly forex exposure note",
+   "Unhedged share above half of exposure -> require hedging plan before renewal"
+  ],
+  [
+   "Pollution board consent status (quarterly)",
+   "Closure notice or renewal pending -> freeze limit and review"
+  ],
+  [
+   "Repo and TN GST (monthly)",
+   "TN GST stays negative another quarter -> shift new limits to domestic-sale tanners only"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Tamil Nadu GST -3.2% vs India +6.1%, exports -3.0%, repo raised to 5.5% with tightening stance.",
+ "articles": [
+  {
+   "title": "Super Tannery Live Share Price, Stock Analysis and Price Estimates",
+   "url": "https://trendlyne.com/equity/2983/SUPTANERY/super-tannery-ltd/",
+   "date": "2026-10-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Latest Leather Sector Quarterly Company Results - Equitymaster",
+   "url": "https://www.equitymaster.com/research-it/company-info/latest-sector-results.asp?sector=leather&utm_source=key-sector-quote&utm_medium=website&utm_campaign=sector-results&utm_content=list-of-leather",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Super Tannery | SPT IN - News",
+   "url": "https://www.smartkarma.com/entities/super-tannery-ltd/news",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Leather - Industry Analysis and Overview - Stay updated with important alerts",
+   "url": "https://www.moneyworks4me.com/comp-peer/index/index/type/industry/fid/123083#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Super Tannery Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202501130115_Super_Tannery_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SUPER TANNERY LIMITED",
+   "url": "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/09042024/b469f54a-f625-4df6-903e-edfd8507aae5.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202401120110_Super_Tannery_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 43 (national 55 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Exports -3.0% Apr-to-date in USD (Rs 21,080 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 15 output +8.1% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

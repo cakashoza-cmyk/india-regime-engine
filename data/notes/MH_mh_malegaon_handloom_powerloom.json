@@ -1,0 +1,158 @@
+{
+ "key": "mh_malegaon|handloom_powerloom",
+ "state": "MH",
+ "city": "mh_malegaon",
+ "ind": "handloom_powerloom",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": true,
+ "verdict": "Caution: lend selectively to powerloom units with confirmed yarn supply and clean receivables; avoid units dependent on Rajasthan processing and handloom-only weavers.",
+ "title": "Malegaon handloom & powerloom: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nMalegaon runs on powerlooms and handlooms that buy grey yarn, weave fabric, and sell to traders or send cloth to processing units. **Cash is made on the loom, but it is collected after processing and trade margins are thin.** The working-capital cycle is the whole business: yarn must be bought before weaving, and payment comes after fabric is sold. ICRA notes the weaving business is fixed-capital and working-capital intensive, so funding needs are typically high [8], and working capital is driven by inventory holding plus receivables [9]. So when a proposal lands, check the yarn purchase-to-fabric-sale cycle and the receivable days; if receivables stretch beyond the stated trade cycle, ask which buyer and which processing unit sits in between.",
+  "## What has broken now\nLocal reporting says closed processing units in Rajasthan are hitting Malegaon powerlooms hard and forcing unit shutdowns [3], and that the supply crisis runs wider than Rajasthan [2]. **The break is upstream and downstream of the loom, not in the loom itself.** A unit with looms running but no processing outlet is a unit with unsold fabric and stuck cash. So when a proposal lands, check where the borrower's fabric is processed; if the answer is a Rajasthan unit, ask for proof it is running and for alternate processing arrangements.",
+  "## Where the growth is\nMaharashtra GST collections are running +8.6% Apr-to-date against India +6.1% [D], and India-wide IIP for NIC 13 output is +13.1% YoY with +11.9% Apr-to-date [D]. **The state is collecting faster than the country and textile output is expanding, so there is demand to lend into.** Peer results support the fabric side: Borana Weaves sales rose 42.04% to Rs 111.36 crore in the December 2025 quarter [6] and 27.99% to Rs 100.73 crore in the March 2026 quarter [7]. Pursue powerloom units with their own or tied-up processing, units selling directly to traders with short receivable cycles, and handloom units with design-led buyers — one such organisation grows 10% year-on-year organically with a client base up 30% in the past term [5]. Avoid handloom-only weavers with no buyer contract and units wholly dependent on Rajasthan processing [3].",
+  "## How to grow safely\n**Structure against the cycle, not the loom count.** ICRA notes low leverage improves financial flexibility in a downturn and keeps fixed financing costs low [10], and that aggressive debt reliance makes entities more vulnerable to cyclical downturns [8]. So when a proposal lands, size the term loan to the borrower's own equity and keep the working-capital limit tied to the actual yarn-to-fabric cycle; if leverage is already high, ask for promoter contribution before sanction. Take stock and receivable statements every month, and a processing-unit confirmation every quarter.",
+  "## Early-warning signs\n- Loom utilisation falling below the borrower's own stated norm (monthly) -> ask for the buyer order book and freeze fresh limits.\n- Receivable days stretching beyond the stated trade cycle (monthly) -> ask which buyer and which processing unit, and seek direct confirmation.\n- Yarn purchase shifting to costlier spot buying (monthly) -> ask for the supply contract and rework the drawing power.\n- Any news of further Rajasthan processing closures (ongoing) -> ask for alternate processing proof before renewing [3].\n- GST payment delays or falling turnover versus the state's +8.6% [D] (monthly) -> ask for sales register and reassess the limit."
+ ],
+ "watch": [
+  [
+   "Loom utilisation (monthly)",
+   "below borrower's stated norm -> ask for order book, freeze fresh limits"
+  ],
+  [
+   "Receivable days (monthly)",
+   "beyond stated trade cycle -> seek buyer and processing-unit confirmation"
+  ],
+  [
+   "Yarn sourcing (monthly)",
+   "shift to costlier spot buying -> ask for supply contract, rework drawing power"
+  ],
+  [
+   "Rajasthan processing status (ongoing)",
+   "further closures reported -> demand alternate processing proof before renewal [3]"
+  ],
+  [
+   "GST turnover vs state +8.6% [D] (monthly)",
+   "payment delays or falling turnover -> ask for sales register, reassess limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Rajasthan processing closures forcing Malegaon powerloom unit shutdowns [3].",
+ "articles": [
+  {
+   "title": "Power Looms",
+   "url": "https://www.business-standard.com/amp/topic/power-looms",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Malegaon Powerlooms Face a Wider Textile Supply Crisis",
+   "url": "https://urbanacres.in/malegaon-powerlooms-face-a-supply-chain-crisis-beyond-rajasthan/",
+   "date": "2026-10-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Closed processing units in Rajasthan hit Malegaon powerlooms hard, forcing unit shutdowns - - News",
+   "url": "https://timesofindia.indiatimes.com/city/nashik/closed-processing-units-in-rajasthan-hit-malegaon-powerlooms-hard-forcing-unit-shutdowns/articleshow/134900601.cms#1",
+   "date": "2026-10-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Borana Weaves - knitting a stronger portfolio - Stock Opportunities / Untested - but worth a good look - ValuePickr Forum",
+   "url": "https://forum.valuepickr.com/t/borana-weaves-knitting-a-stronger-portfolio/218051/18",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The organisation works with different types of handloom traditions of India, including plain handloom weaving and extra weft Pit...",
+   "url": "https://livelihoods-india.org/wp-content/uploads/2024/05/Handloom-report-2024.pdf#18#26#18",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "News",
+   "url": "https://www.hdfcsec.com/News/Index/equity-94177%7C131",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1693361&opt=RAN&secid=7&subsecid=20&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Antik-06-26-2020.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 83 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

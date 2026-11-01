@@ -1,0 +1,158 @@
+{
+ "key": "tn_erode|handloom_powerloom",
+ "state": "TN",
+ "city": "tn_erode",
+ "ind": "handloom_powerloom",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Erode weavers with confirmed government-order cash flows and clean receivables; avoid pure open-market fabric converters until TN GST trend turns.",
+ "title": "Erode handloom & powerloom weaving: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A weaver converts yarn into fabric on handlooms or powerlooms, and cash turns on two things: yarn bought ahead and fabric sold on credit.** The loom is the fixed asset; the real money sits in yarn inventory and in receivables from traders and master weavers. ICRA flags the sector as both fixed-capital and working-capital intensive, with working capital driven by inventory holding and receivables [8][9]. So when a proposal lands, check the yarn-to-fabric conversion cycle and receivable days first; if receivables stretch beyond the stated trade norm, ask for the buyer-wise ageing and the last three months' collections.",
+  "## Where value and cash sit\n**Pricing power is thin and fragmented, so margin comes from yarn buying and loom utilisation, not from fabric price.** CARE cites raw material price volatility and a highly competitive, fragmented industry as core weaknesses [11]. Peers show what good looks like: Borana Weaves lifted December-quarter sales 42.04% to Rs 111.36 crore with net profit up 63.01% to Rs 18.55 crore [6], and March-quarter sales rose 27.99% to Rs 100.73 crore [7]. That is a knitting peer, not Erode weaving, and the dates are old — treat it as a benchmark, not a local read. For any Erode unit, collect from customer: yarn cost per metre, loom utilisation, and buyer concentration.",
+  "## What has changed now\n**The local signal is negative even as national textile output is strong.** Tamil Nadu GST collections are -3.2% Apr-to-date against India +6.1%, 9.3 pp slower [D], while India-wide IIP NIC 13 output is +13.1% YoY and +11.9% Apr-to-date [D]. Bank credit is running +15.2% YoY against +11.9% output, a +3.3 pp gap [D] — so the system is lending faster than the sector is producing. On the ground, TN has raised wages for weavers on free dhoti and saree production, with Rs 300 crore allocated as advance [1]; the wage announcement was flagged in Erode by the Handlooms Minister [2]. Higher wage cost with a fixed government price squeezes the contractor's margin.",
+  "## Where to grow, and how to grow safely\n**Pursue weavers and master weavers with confirmed government free-dhoti/saree orders and the Rs 300 crore advance behind them [1], plus units selling through the state-subsidised handloom channel [3].** Avoid pure open-market fabric converters selling to traders on long credit until TN GST turns. Structure as working-capital limits against confirmed orders, with a 25% margin and monthly stock-and-receivable statements. Take every month: yarn purchase invoices, order copies, GST returns, and bank statements. Keep term debt tenure matched to the asset, since longer tenure improves coverage [10].",
+  "## Early-warning signs\n**Watch the order book and the wage line together.** If government order volumes slip or wage revision lands without a price reset, margin compresses immediately. If receivable days cross the trade norm or yarn inventory exceeds the order requirement, stop enhancement and ask for the buyer-wise ageing. If TN GST stays negative for another quarter [D], tighten new sanctions in the open-market segment."
+ ],
+ "watch": [
+  [
+   "GST returns (monthly)",
+   "TN GST stays negative two quarters -> freeze open-market sanctions"
+  ],
+  [
+   "Receivable ageing (monthly)",
+   "Days cross trade norm -> seek buyer-wise ageing, stop enhancement"
+  ],
+  [
+   "Yarn inventory vs order book (monthly)",
+   "Stock exceeds confirmed order requirement -> ask for explanation, reduce limit"
+  ],
+  [
+   "Government order copies (per sanction)",
+   "Order volume falls or wage rises without price reset -> reprice margin"
+  ],
+  [
+   "Bank statements (monthly)",
+   "Collections lag invoiced sales -> escalate to credit head"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "TN GST -3.2% vs India +6.1%; wage hike squeezes fixed-price government order margins.",
+ "articles": [
+  {
+   "title": "TN increases wages for weavers engaged in free dhoti, saree production - Tamil Nadu",
+   "url": "https://www.newindianexpress.com/states/tamil-nadu/2026/Oct/17/tn-increases-wages-for-weavers-engaged-in-free-dhoti-saree-production#1",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Announcement on weavers’ wage hike expected this week: Minister - Announcement on weavers’ wage hike expected this week: Minister",
+   "url": "https://www.thehindu.com/news/cities/Coimbatore/announcement-on-weavers-wage-hike-expected-this-week-minister/article71574298.ece#1",
+   "date": "2026-10-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Special handloom exhibition inaugurated in Erode - Special handloom exhibition inaugurated in Erode",
+   "url": "https://www.thehindu.com/news/cities/Coimbatore/special-handloom-exhibition-inaugurated-in-erode/article71316811.ece#1",
+   "date": "2026-08-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Borana Weaves - knitting a stronger portfolio - Stock Opportunities / Untested - but worth a good look - ValuePickr Forum",
+   "url": "https://forum.valuepickr.com/t/borana-weaves-knitting-a-stronger-portfolio/218051/18",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The organisation works with different types of handloom traditions of India, including plain handloom weaving and extra weft Pit...",
+   "url": "https://livelihoods-india.org/wp-content/uploads/2024/05/Handloom-report-2024.pdf#18#26#18",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "News",
+   "url": "https://www.hdfcsec.com/News/Index/equity-94177%7C131",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1693361&opt=RAN&secid=7&subsecid=20&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Antik-06-26-2020.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 83 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,154 @@
+{
+ "key": "tn_madurai|handloom_powerloom",
+ "state": "TN",
+ "city": "tn_madurai",
+ "ind": "handloom_powerloom",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to powerloom/job-work units with verified order books and clean receivables; avoid pure handloom wage-dependent weavers until yarn, wage and power economics are documented.",
+ "title": "Madurai handloom & powerloom weaving: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Madurai weaving is a conversion business: yarn comes in from private suppliers, cloth goes out to Delhi and Mumbai, and the weaver is paid last.** In Nilayur near Thiruparankundram, over 300 Saurashtra families still weave, down from more than 3,000 families who once worked this trade [1]. A saree takes up to two days and earns the weaver only Rs.300 to Rs.500 in wages, while the saree's market value is Rs.800 to Rs.900 [1]. Yarn is supplied by private firms and wages arrive only after the woven saree is handed over [1]. So when a proposal lands, check who supplies the yarn and who actually pays for the cloth; if the borrower cannot name the buyer and the payment date, ask for the last six months of receipts.",
+  "## Where cash and value sit\n**Value sits with the yarn supplier and the north-India buyer, not with the loom.** The local market in Tamil Nadu is described as very small, with most output sent to Delhi and Mumbai [1]. Labour is the binding constraint: young people are leaving for other work, and finding weavers is now the main difficulty [1]. Powerloom peers show what scale looks like: Borana Weaves reported sales of Rs.111.36 crore in the December 2025 quarter, up 42.04%, with net profit up 63.01% to Rs.18.55 crore [6], and March 2026 quarter sales of Rs.100.73 crore with net profit up 57.89% to Rs.17.21 crore [7]. A 192-machine expansion is projected at Rs.475-500 crore annual revenue with 25-30% OPM [4]. Treat these as peer benchmarks, not Madurai numbers.",
+  "## What has changed now\n**The local signal is weak: Tamil Nadu GST collections are -3.2% Apr-to-date against India +6.1%, 9.3 pp slower [D].** Nationally, IIP NIC 13 output is +13.1% YoY and +11.9% Apr-to-date, and bank credit is growing +15.2% against output +11.9% [D]. That gap says credit is running ahead of real output, so underwrite the borrower, not the sector. Private handloom weavers have demanded free power that has been on hold for three years [2]; this is a 2025 report and the position may have moved, so verify current tariff with the customer. The minister's inspection of southern Tamil Nadu textile mills is May 2025 and adds little on Madurai specifically [3]. Sources say little about Madurai powerloom units; lean on first principles and the Borana peer data.",
+  "## Who to pursue, who to avoid\n**Pursue powerloom and job-work units with machine-level output records, a named buyer, and own premises; avoid pure handloom households whose only income is Rs.300-500 per saree [1].** Also avoid proprietorships with thin experience and raw-material price exposure, the weaknesses CARE flagged in a fabric-unit rating [11]. Weaving is fixed-capital and working-capital intensive, so funding needs are high [8], and inventory plus receivables drive the working-capital cycle [9]. Structure term loans to match the asset life, since longer tenure improves coverage [10].",
+  "## How to grow safely\n**Take monthly stock and receivables statements, a quarterly buyer-wise sales register, and proof of power tariff paid.** Ask for the yarn purchase invoice chain every month; if yarn is bought on credit from a single supplier, cap exposure to that supplier's terms. Insist on a receivables cap and a stock-and-book-debt covenant reviewed quarterly. Where TUFS-type subsidy applies, confirm sanction tenure before pricing [10]. Collect from customer: current wage rates, yarn prices, power tariff, and buyer payment terms, none of which the sources give for Madurai."
+ ],
+ "watch": [
+  [
+   "Yarn supplier invoices and credit terms (monthly)",
+   "Single-supplier dependence with rising credit -> require diversification or cash-margin"
+  ],
+  [
+   "Power tariff and subsidy status (quarterly)",
+   "Free-power demand unresolved and tariff rises [2] -> rework unit economics before renewal"
+  ],
+  [
+   "Machine utilisation and wage payouts (monthly)",
+   "Utilisation falls or wages delayed beyond 15 days -> freeze fresh disbursement"
+  ],
+  [
+   "GST filings of the borrower (monthly)",
+   "Filing gap or falling turnover vs bank credits -> escalate to review"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Tamil Nadu GST -3.2% vs India +6.1%; Madurai weaver numbers falling, wages thin.",
+ "articles": [
+  {
+   "title": "கைத்தறி நகரின் கவலைக்குரல்... நுனியில் நிற்கும் 100 ஆண்டுகள் பழமையான சவுராஷ்டிரா நெசவுத் தொழில் - advertisement",
+   "url": "https://tamil.news18.com/tamil-nadu/madurai-handloom-weavers-fight-to-save-a-100-year-old-saurashtra-weaving-tradition-yta-pdp-local18-2165772.html?utm_source=District+Widget&utm_medium=Desktop&utm_campaign=tamil#1",
+   "date": "2026-07-17",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "India's Pvt handloom weavers demand free power that is on hold since 3 years",
+   "url": "https://textilevaluechain.in/indias-pvt-handloom-weavers-demand-free-power-that-is-on-hold-since-3-years",
+   "date": "2025-09-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Minister R. Gandhi inspects textile mills in Southern Tamil Nadu",
+   "url": "https://www.apparelviews.com/minister-r-gandhi-inspects-textile-mills-in-southern-tamil-nadu",
+   "date": "2025-05-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Borana Weaves - knitting a stronger portfolio - Stock Opportunities / Untested - but worth a good look - ValuePickr Forum",
+   "url": "https://forum.valuepickr.com/t/borana-weaves-knitting-a-stronger-portfolio/218051/18",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The organisation works with different types of handloom traditions of India, including plain handloom weaving and extra weft Pit...",
+   "url": "https://livelihoods-india.org/wp-content/uploads/2024/05/Handloom-report-2024.pdf#18#26#18",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "News",
+   "url": "https://www.hdfcsec.com/News/Index/equity-94177%7C131",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1693361&opt=RAN&secid=7&subsecid=20&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Antik-06-26-2020.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 83 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
