@@ -45,8 +45,9 @@ class Budget:
 
 
 def _retry(fn, budget, *a):
-    err = None
-    for _ in range(2):  # at most 2 attempts
+    import time
+    err, tries, limited = None, 0, 0
+    while tries < 2:  # at most 2 attempts (rate-limit waits are retried separately, max 4)
         budget.take()
         try:
             return fn(*a)
@@ -54,6 +55,11 @@ def _retry(fn, budget, *a):
             raise
         except Exception as e:  # noqa: BLE001
             err = e
+            if getattr(e, "code", None) == 429 and limited < 4:
+                limited += 1
+                time.sleep(10 * limited)
+                continue
+            tries += 1
     raise err
 
 
@@ -121,7 +127,7 @@ def brief(p, docs, pack, lens, sa, budget, bands):
     arts = "\n\n".join(f"[{i}] {d['title']} ({d['date']}) {d['url']}\n{d['content']}" for i, d in enumerate(docs)) or "(no local articles found in the last 60 days)"
     user = (f"PLACE / INDUSTRY: {p['label']}\n\nDATA PACK (verified official figures):\n" + "\n".join(f"- {x}" for x in pack) +
             f"\n\nCREDIT LENS (analytical framing, not data):\n{lens_text}\n\nLOCAL NEWS EXTRACTS:\n{arts}")
-    corpus = " ".join(d["content"] + " " + d["title"] for d in docs)
+    corpus = " ".join(d["content"] + " " + d["title"] for d in docs) + f" last {WINDOW_DAYS} days"
     need = 2 if len(bp.nums(" ".join(pack))) >= 6 else 0
     probs, out = [], None
     for attempt in range(3):  # first try + up to 2 corrective retries
@@ -209,7 +215,7 @@ def main():
         except Exception as e:  # noqa: BLE001
             with lock: stats["errors"].append(f"{p['key']}: {type(e).__name__}: {e}")
 
-    with ThreadPoolExecutor(10) as ex:
+    with ThreadPoolExecutor(5) as ex:
         list(ex.map(work, todo))
     errors = stats.pop("errors")
     cache.update(active=True, status="Weekly scan via DeepSeek search (news_llm, unverified; never used in verdicts).",
