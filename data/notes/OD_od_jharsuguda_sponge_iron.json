@@ -1,0 +1,132 @@
+{
+ "key": "od_jharsuguda|sponge_iron",
+ "state": "OD",
+ "city": "od_jharsuguda",
+ "ind": "sponge_iron",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:04 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new sponge iron and ferro alloy exposure in Jharsuguda; the data call is Avoid and the news flow does not lift it.",
+ "title": "Jharsuguda sponge iron & ferro alloys: a note to the credit manager",
+ "narrative": [
+  "## What the business is\n**A Jharsuguda sponge iron or ferro alloy unit buys iron ore and coal, burns them through a kiln or furnace, and sells a commodity priced off steel and alloy benchmarks.** Cash is made on the spread between input cost and realisation, not on brand or customer loyalty. Power is a large cost line, so a unit with waste-heat recovery or captive generation earns a wider spread than one buying grid power. **Capex is heavy and lumpy — a 1,000-TPD sponge iron plant plus a 21-MVA ferro alloy unit and captive power is the typical project shape [9] — so debt is usually term debt against a commodity cash flow.** Working capital sits in coal and ore inventory and in receivables from steel traders; collect the actual inventory days and receivable days from the customer, because the sources do not give them for this city.",
+  "## What has changed\n**Odisha is running behind the country on both demand signals: GST collections up 0.5% Apr-to-date against India's 6.1%, and electricity demand up 5.1% against India's 9.5% [D].** That is a local demand signal, not a company one, and it says the state's offtake is soft. **Brent at $113/bbl sits above the $75–100 band [D], which raises freight and coal-linked costs across the chain.** India-wide, IIP for NIC 24 (basic metals) grew only 2.4% YoY to Aug-2026 [D], so the end market is not pulling hard.",
+  "## Where the growth is\n**The peer read is mixed and instructive: Shyam Metalics grew Q4 FY26 revenue 27% YoY on 22% higher volumes [2], but its sponge iron volume fell 2.33% YoY in March 2026 even as realisation rose 1.98% to Rs 25,656/MT [3][4].** The growth is in integrated, value-added players, not in standalone sponge iron. **Ask every proposal which side of that line it sits on.**",
+  "**Price the loan for the commodity cycle, not for the best year.**",
+  "**If monthly power cost per tonne rises while realisation is flat, ask for the contract and the captive availability.** If group exposure grows faster than net worth, stop fresh limits."
+ ],
+ "watch": [
+  [
+   "Realisation per tonne vs input cost (monthly)",
+   "Spread compression two months running -> reprice or seek additional collateral"
+  ],
+  [
+   "Power cost per tonne (monthly)",
+   "Rise with flat realisation -> ask for captive or contract evidence"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Odisha GST and power demand lag India; Brent above band; sponge iron peer volumes fell.",
+ "articles": [
+  {
+   "title": "Jharsuguda stares at unemployment crisis - OrissaPOST - Jharsuguda stares at unemployment crisis",
+   "url": "https://www.orissapost.com/jharsuguda-stares-at-unemployment-crisis/#1",
+   "date": "2016-08-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Shyam Metalics Posts Strong Q4 And FY26 Results - Shyam Metalics Posts Strong Q4 And FY26 Results",
+   "url": "https://www.constructionworld.in/amp/policy-updates-and-economic-news/shyam-metalics-posts-strong-q4-and-fy26-results/91557#1",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shyam Metalics rises as stainless steel sales volume jumps 59% YoY in Mar'26 - Friday, September 11, 2026 | 01:22 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/capital-market-news/shyam-metalics-rises-as-stainless-steel-sales-volume-jumps-59-yoy-in-mar-26-126040700248_1.html#1",
+   "date": "2026-04-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hot Pursuit News Details",
+   "url": "https://balajiequities.com/Market/News/News-details/1684430",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shyam Metalics Q3 FY26 Earnings Results | AlphaStreet",
+   "url": "https://alphastreet.com/india/shyam-metalics-q3-fy26-earnings-results/amp/",
+   "date": "2026-01-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "January 16,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140248#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "March 31,2017",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=34423#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Agrawal Sponge Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Agrawal%20Sponge%20Private%20Limited-10-29-2018.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 31, 2025",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/134186#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + Odisha 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Odisha: GST collections +0.5% Apr-to-date vs India +6.1% (5.6 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Odisha: electricity demand +5.1% Apr-to-date vs India +9.5% (4.4 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": false,
+  "problems": [
+   "watch list must have 3-5 items"
+  ],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

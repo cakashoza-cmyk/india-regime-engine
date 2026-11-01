@@ -1,0 +1,150 @@
+{
+ "key": "wb_durgapur|sponge_iron",
+ "state": "WB",
+ "city": "wb_durgapur",
+ "ind": "sponge_iron",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:06 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new sponge iron and ferro alloy exposure in Durgapur; lend only to integrated, compliant operators with captive power and verified clearances, and then on tight structural terms.",
+ "title": "Durgapur sponge iron & ferro alloys: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Sponge iron is coal-and-iron-ore converted in a rotary kiln into a furnace-ready feed; ferro alloys are ore smelted in submerged-arc furnaces, both power-hungry and both sold into steel mills.** Cash turns on three things: the spread between ore/coal and sponge iron realisations, power cost per tonne, and how fast you convert inventory to mill receivables. Peer Shyam Metalics sold sponge iron at an average realisation of Rs 25,656 per MT in March 2026, with volumes down 2.33% YoY [4][5] — so price held while tonnage slipped. That is the shape of the cycle: realisation-led, not volume-led.",
+  "## What has changed in Durgapur now\n**The local signal is weak and the pressure is regulatory, not just cyclical.** West Bengal GST collections ran -1.3% Apr-to-date against India +6.1%, and state electricity demand grew 5.7% against India's 9.5% [D] — both point to slower local industrial offtake. Local reporting in July 2026 describes sponge iron plant emissions in Durgapur and public anger over inaction [1], and May 2026 reporting alleges groundwater extraction and labour grievances at sponge iron units near villages [2]. Both are local press, not audited fact, but they tell you where the pollution board and district administration will focus. **So when a proposal lands, check the consent-to-operate validity and any pending pollution-board action first; if there is an open notice, ask for the compliance reply and stop there.**",
+  "## Where the growth is — and who to avoid\n**Pursue integrated operators with captive power and ferro alloy diversification; avoid standalone kiln owners selling only to local rerollers.** Peer results show the integrated model working: Shyam Metalics Q4 FY26 revenue Rs 52.4 billion with operating EBITDA Rs 7.27 billion [3], and Q3 FY26 revenue Rs 4,421 crore at a 12.2% operating margin [6]. A 1,000-TPD sponge iron plus 21-MVA ferro alloy plus WHRB/CFBC power package is the template being built [10] — that is the borrower type to back, and only where the power is genuinely captive. **Avoid single-kiln units with no captive power, no water recycling and a history of labour disputes [2]; their cost base moves with every grid tariff and every notice.**",
+  "## How to grow safely\n**Structure for the working-capital cycle, not the asset.** Take monthly stock-and-receivable statements, a charge on current assets, and a covenant that power cost per tonne stays within the sanctioned model. **Take every month: kiln running hours, sponge iron realisation per MT, power units consumed per tonne, and pollution-board consent status.** If realisation falls below the Rs 25,656 per MT peer benchmark [4] for two months, ask for the customer-wise price list and re-rate the limit. Note that Brent at $113/bbl sits above the $75–100 band [D], which feeds coal and freight — collect from customer the actual coal landed cost before sanctioning any enhancement.",
+  "## Early-warning signs\n**Watch the local demand signal and the plant gate together.** If West Bengal GST stays negative against India [D] while the borrower's receivable days stretch, the offtake is genuinely weak, not seasonal. If electricity demand in the state keeps lagging India [D], local rerollers are running less and sponge iron orders will follow."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-receivable statement",
+   "Receivable days stretch two months running -> ask for customer-wise ageing and re-rate limit"
+  ],
+  [
+   "Monthly power cost per tonne",
+   "Cost rises above sanctioned model -> seek explanation and reset pricing covenant"
+  ],
+  [
+   "Pollution-board consent status (quarterly)",
+   "Any notice or restriction -> freeze fresh disbursement and review"
+  ],
+  [
+   "Sponge iron realisation per MT (monthly)",
+   "Falls below Rs 25,656 per MT [4] for two months -> ask for price list and re-rate"
+  ],
+  [
+   "West Bengal GST and power demand (monthly) [D]",
+   "State stays below India for two quarters -> tighten new-to-bank limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local pollution and water disputes plus weak state GST and power demand signal stress.",
+ "articles": [
+  {
+   "title": "দূষণে দমবন্ধ দুর্গাপুর, স্পঞ্জ আয়রন কারখানার কালো ধোঁয়ায় বিপন্ন জনজীবন, নীরব কেন প্রশাসন ও রাজনৈতিক নেতৃত্ব - Latest Bangla News",
+   "url": "https://coalfieldtimes.com/news/west-bengal/durgapur-pollutions/#respond",
+   "date": "2026-07-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "শিল্পের নামে দূষণের থাবা! ভূগর্ভের জল শুষে নিচ্ছে স্পঞ্জ আয়রন কারখানা, দুর্গাপুরের একাধিক গ্রামে ক্ষোভ, শ্রমিক বঞ্চনার অভিযোগ - Latest Bangla News",
+   "url": "https://coalfieldtimes.com/news/west-bengal/sponge-iron-factory-is-absorbing-groundwater-anger-in-several-villages-of-durgapur/",
+   "date": "2026-05-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Shyam Metalics Posts Strong Q4 And FY26 Results - Shyam Metalics Posts Strong Q4 And FY26 Results",
+   "url": "https://www.constructionworld.in/amp/policy-updates-and-economic-news/shyam-metalics-posts-strong-q4-and-fy26-results/91557#1",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shyam Metalics rises as stainless steel sales volume jumps 59% YoY in Mar'26 - Friday, September 11, 2026 | 01:22 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/capital-market-news/shyam-metalics-rises-as-stainless-steel-sales-volume-jumps-59-yoy-in-mar-26-126040700248_1.html#1",
+   "date": "2026-04-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hot Pursuit News Details",
+   "url": "https://balajiequities.com/Market/News/News-details/1684430",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shyam Metalics Q3 FY26 Earnings Results | AlphaStreet",
+   "url": "https://alphastreet.com/india/shyam-metalics-q3-fy26-earnings-results/amp/",
+   "date": "2026-01-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 16,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140248#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "March 31,2017",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=34423#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Agrawal Sponge Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Agrawal%20Sponge%20Private%20Limited-10-29-2018.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 31, 2025",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/134186#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + West Bengal 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "West Bengal: GST collections -1.3% Apr-to-date vs India +6.1% (7.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "West Bengal: electricity demand +5.7% Apr-to-date vs India +9.5% (3.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
