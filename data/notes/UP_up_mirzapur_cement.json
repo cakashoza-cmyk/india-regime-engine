@@ -1,0 +1,154 @@
+{
+ "key": "up_mirzapur|cement",
+ "state": "UP",
+ "city": "up_mirzapur",
+ "ind": "cement",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 87,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Mirzapur cement — but only to borrowers tied to the Dalmia Chunar rail-and-grinding chain and its logistics; avoid standalone grinding units and anything exposed to the Kajrahat mining stoppage.",
+ "title": "Mirzapur cement: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nCement here is a logistics business wearing a kiln. Clinker and gypsum come in, get ground, and move out by road or rail to Ayodhya, Ghazipur, Deoria and Chilbila [1]. **Cash is made on tonnes moved and freight saved, not on the bag price.** Dalmia's Chunar plant restarted production in June and is scaling rail dispatches from ~15,000t in August to ~26,000t per month from September, with inbound clinker and gypsum rakes [1]. So when a proposal lands, check whether the borrower sits on that rail chain; if the borrower's revenue depends on road freight to the same destinations, ask what rail does to their landed cost.\n\n## Where value and cash sit now\n**Working capital is the whole game: clinker and fuel inventory, debtor days to dealers, and rake-cycle cash.** Peer results show volumes strong but margins squeezed — JSW cement volumes up 39.5% YoY with margins under pressure [4], and Q2 FY27 expected to show strong volumes with fuel costs weighing [5]. Orient runs ~14% EBITDA margin at INR770 per tonne [6]; Ambuja volumes fell 1% YoY as it protected price over volume [7]. So when a proposal lands, check EBITDA per tonne against these, not turnover; if margin is below the peer range, ask what fuel and freight contracts they hold. Rating reports on India Cements show high cost per tonne versus peers and stretched creditors funding repayments [8][11] — old, but the lesson holds: **cost per tonne and creditor stretching are the first cracks.**\n\n## What has changed in Mirzapur\nTwo local facts matter. Dalmia's rail agreement gives it reliable logistics and pulls freight traffic onto the corridor [1] — good for borrowers serving that plant. Against that, the Kajrahat mines closure has raised employment worry among UltraTech workers [3], so **avoid any borrower whose order book or labour depends on that mine.** A local report cites a 26,000 crore investment push for the Vindhya region [2]; treat it as news, not a bankable number — collect from customer the actual sanctioned projects they supply. Sources say little else specific to Mirzapur, so lean on first principles and peers.\n\n## How to grow safely\n**Pursue: transport contractors and rake-handling vendors to the Chunar rail operation, gypsum and clinker traders with confirmed offtake, and dealers in Ayodhya-Ghazipur-Deoria belt [1].** Structure against invoices and rake receipts, monthly stock statements, and a charge on receivables. Take every month: stock statement, rake dispatch proof, debtor ageing, and fuel cost per tonne. Avoid standalone grinding units without captive clinker and borrowers with group-company loans and advances [10].\n\n## Early warning signs\n- Rake dispatches falling below the ~26,000t monthly run-rate [1] (monthly) -> ask for revised cash flow and trim limits.\n- EBITDA per tonne slipping below peer ~INR770 [6] (quarterly) -> reprice or exit.\n- Creditor days stretching while term debt rises [11] (monthly) -> stop fresh disbursal.\n- Any labour or supply disruption linked to Kajrahat [3] (monthly) -> freeze new exposure to that borrower."
+ ],
+ "watch": [
+  [
+   "Rake dispatch volumes (monthly)",
+   "below ~26,000t/month [1] -> ask for revised cash flow, trim limit"
+  ],
+  [
+   "EBITDA per tonne (quarterly)",
+   "below peer ~INR770 [6] -> reprice or exit"
+  ],
+  [
+   "Creditor days and term debt (monthly)",
+   "creditors stretching with new debt [11] -> stop fresh disbursal"
+  ],
+  [
+   "Kajrahat-linked labour/supply news (monthly)",
+   "disruption reported [3] -> freeze new exposure to that borrower"
+  ],
+  [
+   "Fuel and freight cost per tonne (monthly)",
+   "rising faster than realisation [5] -> cut limit or seek collateral"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Kajrahat mines closure and fuel-cost margin pressure offset Dalmia rail upside.",
+ "articles": [
+  {
+   "title": "Dalmia Cement begins rail shipments from Chunar",
+   "url": "https://www.cemnet.com/News/story/181840/dalmia-cement-begins-rail-shipments-from-chunar.html",
+   "date": "2026-08-11",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "26 हजार करोड़ से बदलेगा विंध्य क्षेत्र का औद्योगिक परिदृश्य, स्वरोजगार से भी जुड़ेंगे युवा - mirzapur 26000 cr investment to boost industrial growth - विज्ञापन हटाएंसिर्फ खबर पढ़ें",
+   "url": "https://www.jagran.com/uttar-pradesh/mirzapur-mirzapur-26000-cr-investment-to-boost-industrial-growth-40328166.html#1",
+   "date": "2026-08-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "कजराहट माइंस बंद होने से अल्ट्राटेक श्रमिकों में रोजगार को लेकर बढ़ी चिंता, श्रमिक संगठनों ने मिर्जापुर मंडलायुक्त को सौंपा ज्ञापन - गाँव गिराँव",
+   "url": "https://gaongiraw.in/due-to-closure-of-kajrahat-mines-concerns-regarding-employment-among-ultratech-workers-increased-labor-organizations-submitted-memorandum-to-mirzapur-divisional-commissioner/#primary",
+   "date": "2026-08-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "JSW Cement Q2 FY27 slides: volume surges 26% as margins face pressure By Investing.com - JSW Cement Q2 FY27 slides: volume surges 26% as margins face pressure",
+   "url": "https://uk.investing.com/news/stock-market-news/jsw-cement-q2-fy27-slides-volume-surges-26-as-margins-face-pressure-93CH-4936080#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cement companies to see strong volumes in Q2 but fuel costs may weigh on margins - The Economic Times - Cement companies to see strong volumes in Q2 but fuel costs may weigh on margins",
+   "url": "https://m.economictimes.com/industry/indl-goods/svs/cement/cement-companies-to-see-strong-volumes-in-q2-but-fuel-costs-may-weigh-on-margins/amp_articleshow/134991581.cms#1",
+   "date": "2026-10-15",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Orient Cement Ltd (BOM:535754) (Q2 2027) Earnings Call Highlight",
+   "url": "https://www.gurufocus.com/news/9153595/orient-cement-ltd-bom535754-q2-2027-earnings-call-highlights-debtfree-balance-sheet-and-inr14500-crores-expansion-plan-to-drive-30-mtpa-growth",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Buy Ambuja Cement; target of Rs 474: Prabhudas Lilladher",
+   "url": "https://in.tradingview.com/news/moneycontrol:2afa17edd094b:0-buy-ambuja-cement-target-of-rs-474-prabhudas-lilladher/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202402130218_The_India_Cements_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In the current fiscal as well, the players are walking on a tightrope, and they have not been able to offset the higher input co...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202304130433_Wonder%20Cement%20Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The exposure to the group companies in the form of investments and loans and advances on a standalone basis stood at 1,856 crore...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202309130936_The_India_Cements_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Furthermore, in FY22, \\(36\\%\\) of ICLs power requirement was met through CPP as against \\(60\\%\\) in FY21 and \\(66\\%\\) in FY20. I...",
+   "url": "https://nsearchives.nseindia.com/corporate/INDIACEM_09112022180736_SELetterdt09.11.2022oncreditrating.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 87 (national 95 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 23 output +11.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +18.2% YoY vs output +10.2% (gap +8.0 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

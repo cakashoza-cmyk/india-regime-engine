@@ -1,0 +1,150 @@
+{
+ "key": "pb_jalandhar|hand_tools",
+ "state": "PB",
+ "city": "pb_jalandhar",
+ "ind": "hand_tools",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 88,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Jalandhar hand tools — pursue organised exporters with verified order books and monthly stock statements; avoid small units with Gulf-linked receivables and no export credit cover.",
+ "title": "Jalandhar hand tools & cutting tools: a note to the credit manager",
+ "narrative": [
+  "Value sits in the finished-goods warehouse and in receivables, not in the machines — a forging press lasts years and capex is lumpy but modest. **So when a proposal lands, check the split between domestic and export sales first; if export is above half, ask for the buyer list and payment terms.**\n\n## What has changed now\n**The local signal is mixed and the sources are thin on Jalandhar specifically.** Punjab GST collections are running +9.7% Apr-to-date against India's +6.1% [D] — a genuine local tailwind. Nationally, IIP for NIC 25 (fabricated metal products) is +16.9% YoY and +12.0% Apr-to-date [D], with bank credit +11.9% YoY against output +12.0% [D], so the sector is not over-leveraged at the system level. **But a March 2026 local report says Jalandhar hand tool exporters were stranded in Doha and the industry took a hit from the Iran-Israel conflict [2] — that is a shipping and receivable shock, not a demand shock.** Note that source is eight months old; treat it as a warning about exposure, not current fact. ## Where the growth is\n**Peer results confirm the organised end is growing fast.** Sterling Tools posted standalone revenue up ~32% YoY in Q2 FY27, its highest ever quarter [4], and guided to roughly a 15% increase for the year [5]. Taparia Tools grew revenue 17% with net profit up 38% YoY to ₹47.76 crore [6], with EBITDA margins expanding [7]. **Pursue Jalandhar units that supply or compete with these organised players — tier-2 forging and finishing shops with a named OEM or distributor customer.** Avoid pure trading houses with no plant and units whose order book is one Gulf buyer. ## How to grow safely\n**Structure term loans against the press and plant, and working capital against stock and receivables with a drawing power you recalculate monthly.** Take stock and receivable statements every month, plus GST returns — Punjab's +9.7% collection growth [D] means the returns are a live check. **If receivables days cross the customer's stated terms, ask for the ageing and the top-five buyer list.** Insure export receivables or take ECGC cover before enhancing any export-backed limit. ## Early warning signs\n**Watch for a sudden shift from domestic to export billing, a single buyer crossing a third of sales, and stock that does not move between statements.** The Doha stranding [2] shows how fast a shipping disruption becomes a cash problem. **If a unit's GST turnover falls while its bank turnover holds, ask for the reconciliation before renewing.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Receivable days exceed stated terms -> ask for ageing and top-five buyer list"
+  ],
+  [
+   "GST returns (monthly)",
+   "GST turnover falls below bank turnover -> demand reconciliation before renewal"
+  ],
+  [
+   "Export buyer concentration (quarterly)",
+   "Single buyer above one-third of sales -> cap exposure and require ECGC cover"
+  ],
+  [
+   "Shipping and freight disruption (monthly)",
+   "Gulf route disruption reported -> freeze new export-backed limits until receivables clear"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "March 2026 report of Jalandhar tool exporters stranded in Doha and industry hit by Iran-Israel conflict.",
+ "articles": [
+  {
+   "title": "Punjab's Hidden Craft: Making Sports Gear for Global Brands",
+   "url": "https://www.brightwire.news/article/punjabs-hidden-craft-making-sports-gear-for-global-brands",
+   "date": "2026-08-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Impact of Iran-Israel war: ਦੋਹਾ ਵਿੱਚ ਫਸੇ ਜਲੰਧਰ ਦੇ ਉਦਯੋਗਪਤੀ, ਹੈਂਡ ਟੂਲ ਉਦਯੋਗ ਨੂੰ ਵੱਡਾ ਝਟਕਾ | Dainik Savera Punjab",
+   "url": "https://dainiksavera.com/impact-of-iran-israel-war/?noamp=mobile",
+   "date": "2026-03-04",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Nothing for us, rue Jalandhar exporters | Chandigarh News - Times of India - - News",
+   "url": "https://timesofindia.indiatimes.com/city/chandigarh/nothing-for-us-rue-jalandhar-exporters/articleshow/771311.cms#1",
+   "date": "2004-07-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Sterling Tools Ltd (BOM:530759) (Q2 2027) Earnings Call Highlights: Record Revenue Growth ...",
+   "url": "https://nz.finance.yahoo.com/news/sterling-tools-ltd-bom-530759-010542255.html",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sterling Tools Limited (STERTOOLS) Q2 2027 Earnings Call Transcript | AlphaStreet - So there may be pressure on EBITDA margin this year",
+   "url": "https://alphastreet.com/india/sterling-tools-limited-stertools-q2-2027-earnings-call-transcript/#2",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Taparia Tools Q1 Results: Net profit rises 38% YoY to ₹47.76 crore - Taparia Tools Q1 Results: Net profit rises 38% YoY to ₹47.76 crore",
+   "url": "https://scanx.trade/stock-market-news/companies/taparia-tools-q1-results-net-profit-rises-38-yoy-47-76-crore/48160508#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Taparia Tools Q1 FY27 Results: Revenue, Profit and Margins Show Strong Growth",
+   "url": "https://www.precize.in/blogs/taparia-tools-q1-fy27-results",
+   "date": "2026-08-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cash flows",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/1018~Jewellery-Retail,%20Rating%20Methodology,%20Mar%202026.pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- Financial Risk Analysis: Under this, ICRA considers various accounting policies, debt servicing track record, cash flow positi...",
+   "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/4466/14/14_chapter%205.pdf#7#8#7",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Notes on - Credit rating agencies in India CRISIL, CARE, ICRA, Small & Medium Enterprises Rating Agency (SMERA).",
+   "url": "http://dishtavostaging.unigoa.ac.in/resource?filename=7948_Notes.pdf&module_id=7948&type=quad#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 88 (national 96 x 0.6 + Punjab 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Punjab: GST collections +9.7% Apr-to-date vs India +6.1% (3.6 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 25 output +16.9% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +12.0% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +11.9% YoY vs output +12.0% (gap -0.1 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

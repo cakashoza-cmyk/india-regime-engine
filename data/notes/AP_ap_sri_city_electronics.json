@@ -1,0 +1,154 @@
+{
+ "key": "ap_sri_city|electronics",
+ "state": "AP",
+ "city": "ap_sri_city",
+ "ind": "electronics",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 74,
+ "nudged_by_news": false,
+ "verdict": "Lend in Sri City electronics at the data call of OK, but only to component and enclosure suppliers with real volume and short cycles; treat memory-driven revenue inflation and thin-margin assemblers as Caution.",
+ "title": "Sri City Electronics Manufacturing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**An electronics unit here buys components, chips and enclosures, runs SMT lines and assembly, and sells finished boards or boxes to an OEM on 30-90 day terms.** Cash sits in inventory (chips, imported parts) and receivables, not in the plant; the line itself is modest capex, the working-capital cycle is the loan. Pricing power is thin because the OEM sets the price, so margin comes from utilisation and component buying. **When a proposal lands, check the inventory days and the customer concentration first; if one buyer is above half of sales, ask for the purchase order and the payment history with that buyer.**",
+  "## What has changed now\n**National electronics output is up 19.3% YoY and 13.6% Apr-to-date [D], and electronics exports are up 44.0% Apr-to-date in USD [D], so volumes are genuinely moving.** Andhra Pradesh electricity demand is up 18.1% Apr-to-date against India's 9.5% [D], which tells us local plants are running. But peer results show the catch: Dixon's revenue rose 47% to Rs.21,794 crore while margins compressed and working capital rose [6][7], and part of that revenue is memory-chip price inflation, not more units [4]. **So when a proposal shows 40%-plus revenue growth, ask how much is price and how much is volume; if it is price, size the loan on units, not on the inflated turnover.**",
+  "## Where the growth is\n**Pursue the tier-2 suppliers feeding the Sri City cluster: enclosure and sheet-metal makers, PCB assembly job-workers, cable and harness units, and packaging suppliers to the anchor OEMs.** These have shorter cycles, local customers and less chip exposure. The rating file on DEAPL shows what a good electronics supplier looks like: revenue growth of 388% in FY2025 and 182% in H1 FY2026 with RoCE of 50% and above [10]. **Avoid pure assemblers whose entire margin is a conversion fee and whose buyer dictates component prices; if the buyer names the component vendor, ask who bears the inventory.**",
+  "## How to grow safely\n**Structure each limit around the working-capital cycle, not the plant: cash credit against stock and receivables with a drawing power recalculated monthly, and a term loan only for the SMT line with a moratorium matched to customer ramp.** Take stock and receivable statements every month, plus the top-five buyer ledger and the electricity bill. **If receivables days cross the stated cycle by more than the agreed buffer, cut drawing power immediately and ask for the buyer's payment confirmation.** Local project news for Sri City itself is thin in these sources [1][2], so lean on first principles and the peer numbers above.",
+  "## Early-warning signs\n**Watch inventory build against flat offtake, a single buyer stretching terms, and any shift from own-brand to pure job-work.** Dixon's margin compression alongside revenue growth [6] is the pattern to fear. **If a borrower's stock rises while dispatches fall for two months, treat it as a demand problem and re-rate the limit.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Receivable days exceed agreed cycle by buffer -> cut drawing power and seek buyer confirmation"
+  ],
+  [
+   "Monthly electricity bill and dispatch register",
+   "Dispatches fall two months while stock rises -> re-rate limit, ask for order book"
+  ],
+  [
+   "Quarterly buyer concentration",
+   "Top buyer above half of sales -> seek diversification plan or reduce exposure"
+  ],
+  [
+   "Monthly component price index for memory",
+   "Input price rise with flat units -> size loan on units, not turnover"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "National output and exports strong, but peer margins compress on memory prices; local Sri City news thin.",
+ "articles": [
+  {
+   "title": "New & Upcoming Projects in Manufacturing Projects in Andhra Pradesh - Page 2",
+   "url": "https://newprojectstracker.com/projects-india/manufacturing/andhra-pradesh?page=2",
+   "date": "2026-10-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "New & Upcoming Projects in Electronics, Semiconductors & Data Centers Projects in Andhra Pradesh",
+   "url": "https://newprojectstracker.com/projects-india/electronics-semiconductors-data-centers/andhra-pradesh",
+   "date": "2026-10-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Top Industry Insights | Subscribe Now",
+   "url": "https://electronics.economictimes.indiatimes.com/newsletter?for_date=2026-09-23&activity_id=453",
+   "date": "2026-09-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Dixon's Revenue Growth Gets A Memory Chip Boost, But Volumes Tell A Different Story",
+   "url": "https://www.ndtvprofit.com/markets/dixons-revenue-growth-gets-a-memory-chip-boost-but-volumes-tell-a-different-story-12259656?pfrom=home-ndtv_ndtvprofit",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Dixon Technologies beats Q2 2026 forecasts, shares fall By Investing.com",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-dixon-technologies-beats-q2-2026-forecasts-shares-fall-93CH-4989687",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Dixon Q2 FY27 slides: revenue surges 47%, margins compress By Investing.com",
+   "url": "https://uk.investing.com/news/stock-market-news/dixon-q2-fy27-slides-revenue-surges-47-margins-compress-93CH-4947535",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dixon, Syrma clock revenue jump while chip costs rose",
+   "url": "https://in.tradingview.com/news/moodys:463f74bd0c05e:0-dixon-syrma-clock-revenue-jump-while-chip-costs-rose/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "<table><tr><td>KTIL Consolidated</td><td>FY2024</td><td>FY2025</td><td>H1 FY2026*</td></tr><tr><td>Operating income</td><td>1,80...",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=140666#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The rating exercise is primarily focused on assessing the future debt servicing capability of a company",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/858~IT%20Services,%20Rating%20Methodology,%20Jul%202023%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 28,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=139331#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "CPs: CRISIL Ratings Limited has assigned a rating of \"CRISIL A1+\" (A one plus) aggregating to INR 1,500 crore, ICRA Ratings Limi...",
+   "url": "https://www.gichfindia.com/pdf/2025-26/BSE%20NSE%20OUTCOME%2031-10-2025.pdf#2#33#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 74 (national 90 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: electricity demand +18.1% Apr-to-date vs India +9.5% (8.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 26 output +19.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +13.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +44.0% Apr-to-date in USD (Rs 304,256 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,158 @@
+{
+ "key": "tn_hosur|electronics",
+ "state": "TN",
+ "city": "tn_hosur",
+ "ind": "electronics",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 64,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to asset-backed Hosur electronics suppliers with tight monthly discipline; avoid thin-margin assemblers riding the memory-price revenue illusion.",
+ "title": "Hosur Electronics Manufacturing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Hosur electronics is a contract-assembly and components trade: you buy chips, boards and displays, convert them into boxes, and sell to an OEM on 60-90 day terms.** Cash is consumed at the input end and released only when the OEM pays, so the working-capital cycle, not the machine, decides survival. Pricing power sits with the OEM; the supplier is a price-taker on components and a cost-taker on labour. **So when a proposal lands, check who the end customer is and what share of turnover is one OEM; if above half, ask for the purchase order and payment history.**",
+  "## What has changed now\n**The national electronics cycle is strong on paper but the local tax signal is weak.** India IIP for NIC 26 is +19.3% YoY and +13.6% Apr-to-date [D], and electronics exports are +44.0% Apr-to-date in USD [D]. Against that, Tamil Nadu GST collections are -3.2% Apr-to-date versus India +6.1% [D]. **Read this as: the order book may be national, but the cash in Hosur is not yet confirming it.** Peer results show the same split: Dixon revenue +47% to Rs.21,794 crore but profit fell and working capital rose [7], and margins compressed even as revenue surged [6]. **So when a proposal lands, check whether revenue growth is volume or price; if the borrower cannot separate the two, ask for unit volumes month on month.**",
+  "## Where the growth is\n**The growth is in the supply chain around the Hosur SIPCOT Phase IV EV corridor, a Rs.1,450 crore expansion [1] — but that is a local news report, not a verified order book.** Pursue tier-2 component makers, harness and connector units, and EMS players with a named OEM contract and a PLI-linked customer; the DEAPL rating note shows PLI-backed demand can support 50%+ RoCE and 388% FY2025 revenue growth [10]. **Avoid pure assemblers whose entire margin is a conversion fee and whose revenue is inflated by memory-chip prices rather than units [4].**",
+  "## How to grow safely\n**Structure against the cycle, not the revenue line.** Take monthly stock and debtor statements, sanction limits against a defined drawing power on receivables, and insist on a charge over current assets. **Take every month: unit volumes, top-customer ageing, and a chip-price note; if volumes are flat while revenue rises, treat it as price inflation, not growth [4].** Cap single-OEM exposure and require personal guarantee where the promoter's net worth is thin.",
+  "## Early warning signs\n**Watch the gap between revenue and cash.** If debtor days stretch while revenue grows, the borrower is funding the OEM; if GST outflow in the Hosur cluster keeps falling against the national trend [D], the local order book is thinning. **Also watch inventory days: a memory-price spike can sit as expensive stock that will not sell at cost [4].** Rating reports on this city are thin — collect from customer the local cluster data before relying on any Hosur-specific number."
+ ],
+ "watch": [
+  [
+   "Monthly unit volumes vs revenue (monthly)",
+   "volumes flat while revenue rises -> reprice limit down, ask for chip-price note"
+  ],
+  [
+   "Debtor days and top-customer ageing (monthly)",
+   "ageing beyond 90 days -> freeze fresh disbursement, seek OEM confirmation"
+  ],
+  [
+   "GST outflow trend for borrower (monthly)",
+   "two consecutive months below national trend -> shift to cash-collateralised lending"
+  ],
+  [
+   "Inventory days (quarterly)",
+   "inventory days rising with flat volumes -> demand stock audit, cut drawing power"
+  ],
+  [
+   "OEM order book / PO pipeline (quarterly)",
+   "single OEM above 50% of turnover -> cap exposure, require guarantee"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "TN GST -3.2% vs India +6.1% signals local cash stress despite strong national electronics output.",
+ "articles": [
+  {
+   "title": "Hosur SIPCOT Phase IV Expansion: ₹1,450 Cr EV Hub | VizhiTN",
+   "url": "https://www.vizhitn.in/tn-today/hosur-sipcot-phase-iv-expansion-1450-cr-ev-industrial-corridor-push",
+   "date": "2026-10-04",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Hosur | Latest & Breaking News on Hosur | Photos, Videos, Breaking Stories and Articles on Hosur - 15",
+   "url": "https://www.moneycontrol.com/news/tags/hosur.html#1",
+   "date": "2026-10-04",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Advance Search | Business Standard - Showing 20 results",
+   "url": "https://www.business-standard.com/advance-search?keyword=hosur#1",
+   "date": "2026-09-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Dixon's Revenue Growth Gets A Memory Chip Boost, But Volumes Tell A Different Story",
+   "url": "https://www.ndtvprofit.com/markets/dixons-revenue-growth-gets-a-memory-chip-boost-but-volumes-tell-a-different-story-12259656?pfrom=home-ndtv_ndtvprofit",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Dixon Technologies beats Q2 2026 forecasts, shares fall By Investing.com",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-dixon-technologies-beats-q2-2026-forecasts-shares-fall-93CH-4989687",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Dixon Q2 FY27 slides: revenue surges 47%, margins compress By Investing.com",
+   "url": "https://uk.investing.com/news/stock-market-news/dixon-q2-fy27-slides-revenue-surges-47-margins-compress-93CH-4947535",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dixon, Syrma clock revenue jump while chip costs rose",
+   "url": "https://in.tradingview.com/news/moodys:463f74bd0c05e:0-dixon-syrma-clock-revenue-jump-while-chip-costs-rose/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "<table><tr><td>KTIL Consolidated</td><td>FY2024</td><td>FY2025</td><td>H1 FY2026*</td></tr><tr><td>Operating income</td><td>1,80...",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=140666#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The rating exercise is primarily focused on assessing the future debt servicing capability of a company",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/858~IT%20Services,%20Rating%20Methodology,%20Jul%202023%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 28,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=139331#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "CPs: CRISIL Ratings Limited has assigned a rating of \"CRISIL A1+\" (A one plus) aggregating to INR 1,500 crore, ICRA Ratings Limi...",
+   "url": "https://www.gichfindia.com/pdf/2025-26/BSE%20NSE%20OUTCOME%2031-10-2025.pdf#2#33#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 64 (national 90 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 26 output +19.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +13.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +44.0% Apr-to-date in USD (Rs 304,256 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

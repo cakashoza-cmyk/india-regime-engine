@@ -1,0 +1,150 @@
+{
+ "key": "tn_chennai|electronics",
+ "state": "TN",
+ "city": "tn_chennai",
+ "ind": "electronics",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 64,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Chennai electronics component and device makers with contracted order books and tight working-capital control; avoid thin-margin assemblers riding the memory-price revenue illusion.",
+ "title": "Chennai Electronics Manufacturing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Chennai electronics is a conversion business: imported components in, assembled devices out, cash earned on the spread between component cost and selling price.** OMRON's new 24,000 sq m plant near Chennai with five production lines making blood pressure monitors is the template — imported sub-assemblies, local labour, quality control transferred from Japan and Vietnam [1]. Value sits in the customer relationship and the quality certification, not the building. **Capex is lumpy and front-loaded; working capital is the real risk.** Component inventory and receivables against a handful of large buyers decide whether a good year produces cash or just revenue.\n\n## What has changed now\n**National electronics output is running hot — IIP NIC 26 at +19.3% YoY and +13.6% Apr-to-date, exports +44.0% Apr-to-date in USD [D] — but Tamil Nadu's GST collections fell 3.2% Apr-to-date against India's +6.1% [D].** That 9.3 pp gap is a local demand and compliance signal, so when a proposal lands, check the borrower's own GST filings against the state trend; if a Chennai assembler shows flat GST turnover while claiming 30% growth, ask for the buyer-wise sales register. **Peer results show revenue growth that is partly price, not volume.** Dixon's Q2 FY27 revenue rose 47% to Rs 21,794 crore while margins compressed and working capital burden rose [6][7], and NDTV Profit reports the lift comes from memory chip prices with smartphone volumes broadly unchanged [4]. So when a proposal lands, separate price-led revenue from unit growth; if the borrower's volumes are flat, ask why it needs more working capital.\n\n## Where the growth is\n**Pursue tier-2 component and sub-assembly suppliers to the new Chennai anchor plants, and medical-device and IT-hardware makers with domestic order books.** OMRON targets about 3 million units annually by 2028 with potential for about 3.5 million on three shifts, and plans to supply Europe from Chennai [1] — that creates local sourcing demand. Dixon's INR 15,000–20,000 crore IT-hardware target for laptops, tablets and desktops [5] signals where contract demand sits. **Avoid pure assemblers with single-customer concentration and no design or tooling content**; they carry the memory-price swing and pass none of it through.\n\n## How to grow safely\n**Structure against the order book, not the P&L.** Take monthly stock-and-debtor statements, a charge on receivables from named buyers, and a covenant capping inventory days. Take every month: GST returns, buyer-wise sales, inventory ageing and a component price index note. **Where the borrower's margin depends on a component price the customer has not yet accepted, ask for the price-pass-through clause in writing.** Rating reports on this segment are undated in our file [8][9][10], so treat them as background only.\n\n## Early-warning signs\n- **GST turnover falling faster than the Tamil Nadu state trend [D] (monthly) -> freeze new limits and re-verify buyer orders.**\n- **Inventory days rising while revenue grows on price alone [4] (monthly) -> ask for the component price contract and cut limit.**\n- **Single buyer above 50% of receivables (quarterly) -> require diversification plan before renewal.**\n- **Margin compression with revenue growth, as at Dixon [6] (quarterly) -> reprice or exit at renewal.**"
+ ],
+ "watch": [
+  [
+   "GST turnover vs Tamil Nadu state trend (monthly)",
+   "borrower underperforms state by more than 5 pp -> freeze limits, re-verify orders"
+  ],
+  [
+   "Inventory days (monthly)",
+   "rises two months running -> demand component price contract, cut limit"
+  ],
+  [
+   "Buyer concentration in receivables (quarterly)",
+   "top buyer above 50% -> require diversification plan before renewal"
+  ],
+  [
+   "Revenue vs unit volume (quarterly)",
+   "revenue up, volumes flat -> treat as price-led, reprice or exit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Tamil Nadu GST -3.2% vs India +6.1% signals local demand stress despite strong national output.",
+ "articles": [
+  {
+   "title": "OMRON starts production at first India factory",
+   "url": "https://technode.global/2026/10/31/omron-india-factory-full-scale-production/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "chennai electronics manufacturing: Latest News & Videos, Photos about chennai electronics manufacturing | The Economic Times - Page 1 - Business News›chennai electronics manufacturing",
+   "url": "https://economictimes.indiatimes.com/topic/chennai-electronics-manufacturing#1",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "chennai electronics manufacturing News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/chennai-electronics-manufacturing/news#1",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Dixon's Revenue Growth Gets A Memory Chip Boost, But Volumes Tell A Different Story",
+   "url": "https://www.ndtvprofit.com/markets/dixons-revenue-growth-gets-a-memory-chip-boost-but-volumes-tell-a-different-story-12259656?pfrom=home-ndtv_ndtvprofit",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Dixon Technologies beats Q2 2026 forecasts, shares fall By Investing.com",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-dixon-technologies-beats-q2-2026-forecasts-shares-fall-93CH-4989687",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dixon Q2 FY27 slides: revenue surges 47%, margins compress By Investing.com",
+   "url": "https://uk.investing.com/news/stock-market-news/dixon-q2-fy27-slides-revenue-surges-47-margins-compress-93CH-4947535",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dixon, Syrma clock revenue jump while chip costs rose",
+   "url": "https://in.tradingview.com/news/moodys:463f74bd0c05e:0-dixon-syrma-clock-revenue-jump-while-chip-costs-rose/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "<table><tr><td>KTIL Consolidated</td><td>FY2024</td><td>FY2025</td><td>H1 FY2026*</td></tr><tr><td>Operating income</td><td>1,80...",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=140666#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The rating exercise is primarily focused on assessing the future debt servicing capability of a company",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/858~IT%20Services,%20Rating%20Methodology,%20Jul%202023%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "November 28,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=139331#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "CPs: CRISIL Ratings Limited has assigned a rating of \"CRISIL A1+\" (A one plus) aggregating to INR 1,500 crore, ICRA Ratings Limi...",
+   "url": "https://www.gichfindia.com/pdf/2025-26/BSE%20NSE%20OUTCOME%2031-10-2025.pdf#2#33#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 64 (national 90 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 26 output +19.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +13.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +44.0% Apr-to-date in USD (Rs 304,256 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

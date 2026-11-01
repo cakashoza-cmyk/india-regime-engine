@@ -1,0 +1,150 @@
+{
+ "key": "dl_delhi|electronics_retail",
+ "state": "DL",
+ "city": "dl_delhi",
+ "ind": "electronics_retail",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new unsecured electronics and mobile retail exposure in Delhi; lend only to established multi-brand chains with stock-and-receivable control and proven festive sell-through.",
+ "title": "Delhi electronics & mobile retail: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Delhi electronics/mobile retailer buys handsets, accessories and appliances from OEMs and distributors, holds them in showroom and godown stock, and converts them to cash through counter sales, EMI/finance schemes and dealer credit.** Value sits in brand mix and footfall, not in the box; cash sits in inventory and receivables, and the cycle is short but unforgiving. Rating reports confirm the model is working-capital intensive by design, with inventory stocking and dealer credit driving high receivables [10], and TOL/TNW staying elevated to fund the book [9]. So when a proposal lands, check stock turns and receivable days first; if GCA days are rising, ask why before you look at the P&L. ## What has changed now\n**Delhi is running behind the country: GST collections up 2.7% Apr-to-date against India's 6.1%, and electricity demand up 6.5% against 9.5% [D].** That is a local demand signal, not a national one, and it lands while repo sits at 5.5% with a tightening stance [D]. Peer results are strong but they are peers, not Delhi: SS Retail's Q1FY27 revenue grew 59% and PAT 61% YoY [4][6], and Electronics Mart's Q4FY26 PAT rose 49% with EBITDA up 20% [7]. Note SS Retail sells mainly in Tier II/III cities [4], so do not read its numbers as Delhi footfall. The Delhi Electronics Expo export-boom story is from March 2026 and is about exports, not local retail [2]; the DSIIDC electronics-city plan is from April 2025 and is policy intent, not demand [3]. ## Where the growth is\n**Pursue established multi-brand chains and large-format showrooms with documented festive-season sell-through, and distributors tied to a single reputed OEM.** The Optiemus rating shows the distributor model works when anchored to Samsung/HTC-type brands [8], though that report is from December 2022 and must be refreshed. Avoid single-store dealers, pure online resellers and anyone whose growth is financed by unsold stock; the rating evidence is clear that slow-moving goods get liquidated through brand bank offers and price cuts [9], which hits margin, not just turnover. ## How to grow safely\n**Structure as cash-flow lending against stock and receivables, not clean limits.** Take monthly stock statements, ageing of inventory by SKU, and receivable ageing by dealer; covenant a maximum GCA-days level and a minimum stock turn. Collect from customer the current GCA days, inventory days and receivable days, since the rating data is dated. Price for the 5.5% repo [D] and keep tenor inside one festive cycle. ## Early-warning signs\n**Watch stock ageing and dealer receivables monthly; a rise in either is the first sign of trouble.** If GCA days deteriorate the way Logica's did, from 84 to 96 days [10], cut limits and ask for brand-support confirmation. If EMI/finance rejections rise or footfall thins against the Delhi GST trend [D], treat it as demand, not collection, risk."
+ ],
+ "watch": [
+  [
+   "Monthly stock statement and SKU ageing",
+   "Inventory days rise two months running -> freeze fresh limits and inspect godown"
+  ],
+  [
+   "Quarterly GST returns vs Delhi trend [D]",
+   "Filing turnover falls below Delhi's 2.7% growth -> re-rate the account downward"
+  ],
+  [
+   "Festive-season sales register (weekly Oct-Dec)",
+   "Sell-through below plan -> shorten tenor and raise margin"
+  ],
+  [
+   "Repo and EMI scheme approvals (monthly) [D]",
+   "Repo moves up from 5.5% or finance rejection rate rises -> reprice and reduce exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Delhi GST and power demand both trail India, signalling weaker local retail demand.",
+ "articles": [
+  {
+   "title": "delhi electronics market: Latest News & Videos, Photos about delhi electronics market | The Economic Times - Page 1 - Business News›delhi electronics market",
+   "url": "https://economictimes.indiatimes.com/topic/delhi-electronics-market#1",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "India Electronics Expo 2026 begins on March 23 in Delhi amid export boom - India Electronics Expo 2026 begins on March 23 in Delhi amid export boom",
+   "url": "https://zeenews.india.com/technology/india-electronics-expo-2026-begins-from-march-23-in-delhi-amid-export-boom-3029091.html#1",
+   "date": "2026-03-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Delhi: इलेक्ट्रॉनिक्स उद्योग के लिए राजधानी बनेगी पसंदीदा स्थान, जानिए कैसे - विज्ञापन",
+   "url": "https://hindi.news24online.com/state/kejriwal-governments-decision-delhi-will-become-the-preferred-destination-for-electronics-industry2886/2886/?noamp=mobile#1",
+   "date": "2025-04-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Expect To Outpace Industry Growth This Festive Season, Says SS Retail CMD Siddharth Shah - SS Retail, the recently listed multi-brand retail chain operator, reported strong earnings growth during the first quarter of FY...",
+   "url": "https://www.ndtvprofit.com/markets/expect-to-outpace-industry-growth-this-festive-season-says-ss-retail-cmd-siddharth-shah-12182633?utm_source=flipboard&utm_content=topic%2Ftelephony#1",
+   "date": "2026-10-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SS Retail share price zooms 20% after Q1 PAT rockets 61%; adds 33 stores - Wednesday, October 14, 2026 | 02:02 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/news/ss-retail-share-price-zooms-20-after-q1-pat-rockets-61-adds-33-stores-126101400402_1.html#1",
+   "date": "2026-10-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "SS Retail share price jumps 18% after Q1FY27 net profit soars 61% YoY; aims 2x revenue by FY28 - Enable Push Notifications",
+   "url": "https://upstox.com/news/market-news/stocks/ss-retail-share-price-jumps-18-after-q1-fy-27-net-profit-soars-61-yo-y-aims-2x-revenue-by-fy-28/article-201809/#1",
+   "date": "2026-10-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Electronics Mart India posts 49% PAT jump in Q4, EBITDA climbs 20% - SENSEX 71,909.70",
+   "url": "https://www.thehindubusinessline.com/companies/electronics-mart-india-posts-49-pat-jump-in-q4-ebitda-climbs-20/article71010754.ece#1",
+   "date": "2026-05-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 30,2022",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=117101#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "April 30, 2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=134853#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Logica Infoway Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202610141035_Logica_Infoway_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 27, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=129591#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + Delhi 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Delhi: GST collections +2.7% Apr-to-date vs India +6.1% (3.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Delhi: electricity demand +6.5% Apr-to-date vs India +9.5% (3.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]",
+  "India-wide: All-India domestic GST collections Apr-to-date (proxy) +6.1%. [official activity proxy, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

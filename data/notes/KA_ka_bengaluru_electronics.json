@@ -1,0 +1,158 @@
+{
+ "key": "ka_bengaluru|electronics",
+ "state": "KA",
+ "city": "ka_bengaluru",
+ "ind": "electronics",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 94,
+ "nudged_by_news": false,
+ "verdict": "Lend in Bengaluru electronics manufacturing — the data call is OK and the news flow does not lower it; back component and instrument makers with real output, not assemblers whose revenue is memory-price inflation.",
+ "title": "Bengaluru Electronics Manufacturing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**An electronics manufacturer here buys components, boards and enclosures, runs SMT and assembly lines, and sells finished units or sub-assemblies to an OEM or brand.** Cash comes back only after the customer accepts the lot and pays, so the loan is really financing inventory plus receivables, not the machines. **Value sits in the customer relationship and the test/quality capability, not in the building** — which is why a plant with one dominant buyer is a different credit from one with five.",
+  "## Where cash and value sit\n**Pricing power is thin and margin is made on bought-out content, so a component price move passes straight through revenue without adding cash.** Dixon's revenue rose 47% to Rs.21,794 crore [7] while volumes were broadly unchanged and memory chip prices lifted selling prices [4], and margins compressed [6]. So when a proposal lands, check whether growth is units or price; if revenue is up but power consumption and headcount are flat, ask for the volume split. **Working capital is the real exposure** — Dixon carried a higher working capital burden [7] — so size the limit to the receivable cycle, not to turnover.",
+  "## What has changed now\n**The national output signal is strong: IIP NIC 26 output +19.3% YoY and +13.6% Apr-to-date [D].** Karnataka is running ahead of India on GST collections (+11.1% vs +6.1%) and electricity demand (+23.3% vs +9.5%) [D]. Locally, Fluke has started multimeter manufacturing in Bengaluru with Class-I Local Supplier status [3], and Rapidus has opened engineering centres in Bengaluru and Hubli for 2nm design work [1] — design work, not fabrication, so it brings salaries and small capex, not component demand. **Sources say little about Bengaluru's own factory-level output; lean on the state data and the peers.**",
+  "## Who to pursue, who to avoid\n**Pursue tier-2 component, instrument and test-equipment makers, and local suppliers to Make-in-India programmes like Fluke's [3]** — they sell to many buyers and hold inventory they can pledge. **Avoid pure assemblers whose order book is one brand and whose revenue jump is memory pricing [4]; their margin is the brand's to take.** A rating report on one electronics player shows operating income rising from 1,804.6 to 2,721.8 with OPBDIT/OI at 15.3% [8] — that is the shape to underwrite, and the report is undated, so treat it as indicative.",
+  "**Ask for the customer-wise sales mix and the top-buyer credit period at sanction; if one buyer crosses half of sales, ask for a buyer acknowledgement and cap the limit.**"
+ ],
+ "watch": [
+  [
+   "Monthly GSTR-1 vs GSTR-3B (monthly)",
+   "filing gap over one month or turnover fall >20% -> freeze drawing power and visit the plant"
+  ],
+  [
+   "Stock-and-receivable statement (monthly)",
+   "inventory days rise while sales flat -> ask for ageing and slow-moving list"
+  ],
+  [
+   "Electricity units and shift count (monthly)",
+   "units fall while revenue rises -> confirm price-led growth, cut limit"
+  ],
+  [
+   "Top-buyer receivable ageing (monthly)",
+   "any invoice past 90 days -> seek buyer confirmation and stop further dispatch funding"
+  ],
+  [
+   "Quarterly peer margin read (quarterly)",
+   "sector margin compression continues [6] -> reprice or reduce exposure at renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Strong IIP and Karnataka GST/power data offset by peer margin compression from chip costs.",
+ "articles": [
+  {
+   "title": "Rapidus taps India's HCLTech for 2nm logic chip design work",
+   "url": "https://eastasiabrief.com/semiconductors/rapidus-taps-india-s-hcltech-2nm-logic-chip-design-1039",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "HCL Technologies — news, capex and policy exposure",
+   "url": "https://eastasiabrief.com/company/hcl-technologies",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Fluke deepens commitment to India with new local manufacturing capabilities",
+   "url": "https://www.industrialautomationindia.in/news/fluke-deepens-commitment-to-india-local-manufacturing",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Dixon's Revenue Growth Gets A Memory Chip Boost, But Volumes Tell A Different Story",
+   "url": "https://www.ndtvprofit.com/markets/dixons-revenue-growth-gets-a-memory-chip-boost-but-volumes-tell-a-different-story-12259656?pfrom=home-ndtv_ndtvprofit",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Dixon Technologies beats Q2 2026 forecasts, shares fall By Investing.com",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-dixon-technologies-beats-q2-2026-forecasts-shares-fall-93CH-4989687",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Dixon Q2 FY27 slides: revenue surges 47%, margins compress By Investing.com",
+   "url": "https://uk.investing.com/news/stock-market-news/dixon-q2-fy27-slides-revenue-surges-47-margins-compress-93CH-4947535",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dixon, Syrma clock revenue jump while chip costs rose",
+   "url": "https://in.tradingview.com/news/moodys:463f74bd0c05e:0-dixon-syrma-clock-revenue-jump-while-chip-costs-rose/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "<table><tr><td>KTIL Consolidated</td><td>FY2024</td><td>FY2025</td><td>H1 FY2026*</td></tr><tr><td>Operating income</td><td>1,80...",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=140666#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The rating exercise is primarily focused on assessing the future debt servicing capability of a company",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/858~IT%20Services,%20Rating%20Methodology,%20Jul%202023%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 28,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=139331#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CPs: CRISIL Ratings Limited has assigned a rating of \"CRISIL A1+\" (A one plus) aggregating to INR 1,500 crore, ICRA Ratings Limi...",
+   "url": "https://www.gichfindia.com/pdf/2025-26/BSE%20NSE%20OUTCOME%2031-10-2025.pdf#2#33#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 94 (national 90 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Karnataka: GST collections +11.1% Apr-to-date vs India +6.1% (5.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Karnataka: electricity demand +23.3% Apr-to-date vs India +9.5% (13.8 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 26 output +19.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +13.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

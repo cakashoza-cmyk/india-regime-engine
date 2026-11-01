@@ -1,0 +1,158 @@
+{
+ "key": "ml_byrnihat|cement",
+ "state": "ML",
+ "city": "ml_byrnihat",
+ "ind": "cement",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 67,
+ "nudged_by_news": true,
+ "verdict": "OK to lend selectively in Byrnihat cement — favour grinding and trading units with clean air-compliance and verified receivables; avoid units dependent on a single anchor plant's dispatch or with weak pollution records.",
+ "title": "Byrnihat cement: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nByrnihat is a Ri-Bhoi industrial estate where cement moves as clinker in, grinding and blending, bagged cement out by truck to Assam and the Barak Valley. Cash is made on the spread between clinker, power and fuel cost and the bag price, and it is collected from dealers and institutional buyers. **The plant is a conversion and logistics business, not a mining business — value sits in the grinding margin and in truck dispatch, not in the kiln.** Capex is modest for a grinding unit but power and fuel are the swing cost, so a unit's margin is decided by its power source and its blending ratio.",
+  "## What has changed now\nNational demand is strong: IIP for cement-type output is +11.4% YoY and +10.2% Apr-to-date [D]. But bank credit is running +18.2% YoY against +10.2% output, a gap of +8.0 pp [D] — **the sector is being financed faster than it is producing, so pricing power is thin and working capital is being stretched.** Meghalaya GST is -14.8% Apr-to-date against India +6.1%, 20.9 pp slower [D]; that is a local cash-cycle signal, so when a proposal lands, check the borrower's own GST returns against this state trend; if the unit's filings are flat while the state is down, ask why.",
+  "## Local news versus peers\nLocal reporting is about a truck-owners' dispute with Dalmia Cement over dispatch to the Byrnihat plant versus Barak Valley, with a claimed norm of 40 trips a day [1] — that is a dispatch and freight issue, not a demand issue. Byrnihat ranked last among 130 cities in the Swachh Vayu Sarvekshan clean-air survey [2], and local press describes the estate choking the town [3]; **air-compliance is now a live operating risk for any Byrnihat unit.** Peer results are mixed: JSW Cement volumes +39.5% YoY but down 2.2% sequentially on monsoon [4]; ET expects strong Q2 volumes with fuel costs weighing on margins [5]; Orient reports ~14% EBITDA margin and INR770 EBITDA per tonne [6]; Ambuja volumes fell 1% YoY on value-over-volume [7]. Rating reports are old — India Cements 9MFY24 PBILDT margin 2.72% [8], Wonder Cement repayment of ₹246 crore to Dec-2022 [9] — treat them as history, not current.",
+  "## Where to grow, and how to grow safely\nPursue grinding and blending units with captive or contracted power, dealers with diversified buyer bases across Assam, and truck operators with written dispatch contracts. Avoid units whose entire offtake is one anchor plant's dispatch, and any unit with unresolved pollution notices. **Structure term debt to the unit's own cash flow, not the group's; take monthly GST returns, dispatch trip logs and power bills.** Covenant a minimum blending ratio and a debt-service cover; take stock and receivable statements every month.",
+  "## Early-warning signs\n- Monthly GST filings falling below the state trend [D] -> ask for dealer ledger and slow-moving stock.\n- Dispatch trips dropping below the contracted norm [1] -> recheck freight cost and offtake.\n- Any new pollution notice or survey ranking [2][3] -> freeze fresh limits until compliance proof.\n- Fuel or power cost rising without a matching bag-price pass-through [5] -> re-run the unit's margin."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns (monthly)",
+   "Filing growth below Meghalaya -14.8% [D] -> ask for dealer ledger and stock ageing"
+  ],
+  [
+   "Dispatch trip logs (monthly)",
+   "Trips below contracted norm [1] -> recheck freight cost and offtake concentration"
+  ],
+  [
+   "Power and fuel bills (monthly)",
+   "Cost rise with no bag-price pass-through [5] -> re-run margin and reset drawing power"
+  ],
+  [
+   "Pollution compliance status (quarterly)",
+   "New notice or survey ranking [2][3] -> freeze fresh limits until proof"
+  ],
+  [
+   "Receivable days (monthly)",
+   "Rising beyond agreed limit -> shift to cash-backed or LC sales"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Meghalaya GST -14.8% vs India +6.1% and Byrnihat ranked last in clean-air survey.",
+ "articles": [
+  {
+   "title": "Kynduh Ka MCTODA Ïaki Bor Pynïaid Ka Dalmia Cement Bym Ioh Bhah Kit Dewbilat Sha Thain Byrnihat",
+   "url": "https://meghalayapost.news/news/ri-bhoi/kynduh-ka-mctoda-iaki-bor-pyniaid-ka-dalmia-cement-bym-ioh-bhah-kit-dewbilat-sha-thain-byrnihat-10017071.html#respond",
+   "date": "2026-09-27",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Byrnihat Ranks Last Again in National Clean-Air Survey",
+   "url": "https://newire.in/articles/byrnihat-ranks-last-again-in-national-clean-air-survey",
+   "date": "2026-09-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Byrnihat Is Crying: When an Industrial Estate Chokes a Living Town",
+   "url": "https://highlandpost.com/byrnihat-is-crying-when-an-industrial-estate-chokes-a-living-town/",
+   "date": "2026-06-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "JSW Cement Q2 FY27 slides: volume surges 26% as margins face pressure By Investing.com - JSW Cement Q2 FY27 slides: volume surges 26% as margins face pressure",
+   "url": "https://uk.investing.com/news/stock-market-news/jsw-cement-q2-fy27-slides-volume-surges-26-as-margins-face-pressure-93CH-4936080#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cement companies to see strong volumes in Q2 but fuel costs may weigh on margins - The Economic Times - Cement companies to see strong volumes in Q2 but fuel costs may weigh on margins",
+   "url": "https://m.economictimes.com/industry/indl-goods/svs/cement/cement-companies-to-see-strong-volumes-in-q2-but-fuel-costs-may-weigh-on-margins/amp_articleshow/134991581.cms#1",
+   "date": "2026-10-15",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Orient Cement Ltd (BOM:535754) (Q2 2027) Earnings Call Highlight",
+   "url": "https://www.gurufocus.com/news/9153595/orient-cement-ltd-bom535754-q2-2027-earnings-call-highlights-debtfree-balance-sheet-and-inr14500-crores-expansion-plan-to-drive-30-mtpa-growth",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Buy Ambuja Cement; target of Rs 474: Prabhudas Lilladher",
+   "url": "https://in.tradingview.com/news/moneycontrol:2afa17edd094b:0-buy-ambuja-cement-target-of-rs-474-prabhudas-lilladher/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202402130218_The_India_Cements_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In the current fiscal as well, the players are walking on a tightrope, and they have not been able to offset the higher input co...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202304130433_Wonder%20Cement%20Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The exposure to the group companies in the form of investments and loans and advances on a standalone basis stood at 1,856 crore...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202309130936_The_India_Cements_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Furthermore, in FY22, \\(36\\%\\) of ICLs power requirement was met through CPP as against \\(60\\%\\) in FY21 and \\(66\\%\\) in FY20. I...",
+   "url": "https://nsearchives.nseindia.com/corporate/INDIACEM_09112022180736_SELetterdt09.11.2022oncreditrating.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 67 (national 95 x 0.6 + Meghalaya 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 23 output +11.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +18.2% YoY vs output +10.2% (gap +8.0 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Meghalaya: GST collections -14.8% Apr-to-date vs India +6.1% (20.9 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
