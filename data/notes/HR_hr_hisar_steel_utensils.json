@@ -1,0 +1,146 @@
+{
+ "key": "hr_hisar|steel_utensils",
+ "state": "HR",
+ "city": "hr_hisar",
+ "ind": "steel_utensils",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 88,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Hisar steel & metal utensils — back mid-size utensil makers with clean receivables and domestic retail demand; avoid exporters with stretched African/Middle East debtor books and thin-margin commodity steel converters.",
+ "title": "Hisar steel & metal utensils: a note to the credit manager",
+ "narrative": [
+  "Value sits in the press shop and polish line, not in the steel itself; pricing power is thin because a utensil is a commodity once it leaves the shelf. **Capex is modest and lumpy — a new press or polish line — so the real risk is working capital, not the plant.**\n\n## What the numbers say now\n**The data pack reads OK for Hisar: score 88, built on a national 96 and Haryana 75 [D].** Haryana GST collections are running +10.1% Apr-to-date against India's +6.1% [D] — a genuine local demand tailwind. Nationally, IIP for NIC 25 output is +16.9% YoY and +12.0% Apr-to-date [D], with bank credit +11.9% YoY against output +12.0% [D], so credit is not outrunning production. **Local news is thin: the only Hisar-specific item is a board-meeting notice for Hisar Metal Industries [1], and the ET topic pages carry no substantive story [2][3].** So lean on first principles and peers here, not on Hisar headlines. ## Where the growth is — and who to avoid\n**Pursue mid-size utensil makers supplying domestic retail and hotelware, and units adding a polish/value-add line.** Peer Sacheta Metals shows FY-2025 revenue growth of 22.06% and June 2026 quarter sales up 4.91% YoY to Rs 21.79 crore [5] — that is the shape of a healthy domestic utensil borrower. **Avoid pure commodity converters and exporters with long African or Middle East debtor cycles:** the ICRA-rated utensil peer carried working capital intensity of about 53% in FY2025 (from about 66% in FY2024), still elevated on an elongated debtor cycle tied to African customers [8]. Ratnamani's Q4 sales fell to INR893 crore from INR1,575 crore on muted demand and Middle East issues [4] — export-linked metal demand is soft. ## How to grow safely\n**Structure as a cash-flow loan against receivables and inventory, not a clean term loan.** Take monthly stock-and-debtor statements, monthly GST returns, and a quarterly drawing-power certificate. **If the promoter seeks a large term loan for a new press line, ask for the order book supporting it before sanctioning.**\n\n## Early-warning signs\n**Watch steel input cost and rupee movement: Kirloskar Ferrous grew Q2 FY27 revenue 17% YoY to INR 2,046.7 crore but EBITDA margin fell as coking coal costs and rupee depreciation offset growth [6].** If a borrower's margin compresses while sales rise, that is cost pass-through failing — ask for the price revision letter. **Watch debtor days and promoter withdrawals; CRISIL flags further working-capital stretch and unanticipated large promoter withdrawals as downward factors [9].** If either appears, cut the limit and move to secured, invoice-discounted lending."
+ ],
+ "watch": [
+  [
+   "Operating margin from quarterly financials (quarterly)",
+   "Margin falls below 6% -> reprice or reduce exposure [9]"
+  ],
+  [
+   "Steel coil purchase price and rupee rate (monthly)",
+   "Input cost rises without matching price revision -> ask for price revision letter [6]"
+  ],
+  [
+   "Promoter drawings from bank statements (monthly)",
+   "Large unanticipated withdrawals -> cut limit, move to invoice discounting [9]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Haryana GST +10.1% and IIP NIC 25 +16.9% support demand; local Hisar news is only a board-meeting notice.",
+ "articles": [
+  {
+   "title": "hisar metal industries to hold board meeting",
+   "url": "https://www.capitalmarket.com/markets/news/corporate-news/hisar-metal-industries-to-hold-board-meeting/1739291",
+   "date": "2026-10-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "hisar metal industries News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/hisar-metal-industries/news#1",
+   "date": "2026-09-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "hisar metal industries: Latest News & Videos, Photos about hisar metal industries | The Economic Times - Page 1 - Business News›hisar metal industries",
+   "url": "https://economictimes.indiatimes.com/topic/hisar-metal-industries#1",
+   "date": "2026-09-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ratnamani Metals & Tubes Limited has informed… | MarketPing",
+   "url": "https://marketping.in/alerts/ratnamani-met-tub/ratnamani-metals-tubes-limited-has-informed-the-exchange-37d3c878-6827-45c1-bc53-a21b8f00560f",
+   "date": "2026-05-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sacheta Metals Limited",
+   "url": "https://www.perplexity.ai/app/finance/SACHEMT.BO?preset=peers&symbol=PGFOILQ.BO&eventId=546026",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India: Kirloskar Ferrous posts volume-led growth in Q2 FY27 but high input costs erode margins - BigMint",
+   "url": "https://www.bigmint.co/insights/detail/india-kirloskar-ferrous-posts-volume-led-growth-in-q2-fy27-but-high-input-costs-erode-margins-804491",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shyam Metalics and Energy (SHYAMMETL) Q2 25/26 Summary | Quartr - Shyam Metalics and Energy (SHYAMMETL) Q2 25/26 earnings summary",
+   "url": "https://quartr.com/events/shyam-metalics-and-energy-limited-shyammetl-q2-25-26_F4R2n7zv#1",
+   "date": "2026-07-07",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 09,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=140808&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/A%20B%20Rolling%20Mills%20Private%20Limited-RU-24-05-2023.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ABSTRACT",
+   "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/560818/4/04_%20%20abstract.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Mili_Steels_Private_Limited_February_22_2017_RR.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 88 (national 96 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 25 output +16.9% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +12.0% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +11.9% YoY vs output +12.0% (gap -0.1 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

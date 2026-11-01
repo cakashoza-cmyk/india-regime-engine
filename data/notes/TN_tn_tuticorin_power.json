@@ -1,0 +1,146 @@
+{
+ "key": "tn_tuticorin|power",
+ "state": "TN",
+ "city": "tn_tuticorin",
+ "ind": "power",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 55,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend to Tuticorin power contractors and equipment suppliers against state utility receivables, not to the proposed 1,600 MW coal IPP on merchant assumptions.",
+ "title": "Tuticorin Power Generation & Distribution: a note to the credit manager",
+ "narrative": [
+  "**That is a construction and supply chain, not yet a generation cash flow** — so the near-term borrowers are EPC contractors, cable and switchgear suppliers, and substation civil works firms, not the plant owner. **Counterparty risk is the whole credit**: CARA flags collection periods over 400 days in FY25 (PY 351 days) at a peer exposed to weak discoms [10], so take assignment of receivables or escrow before sizing any exposure. ICRA's thermal methodology looks at cash collection trends, DSRA availability and working capital limit utilisation [8] — collect from customer the equivalent monthly data for any Tuticorin borrower. ## What has changed now\n**Demand is fine; the local economy is not.** Tamil Nadu electricity demand is up 9.8% Apr-to-date versus India's 9.5% [D], but state GST collections are down 3.2% Apr-to-date against India's +6.1% [D]. **Bank credit is running far ahead of output** — India credit +22.9% YoY against activity +9.5% [D] — so pricing discipline matters more than volume. Peer results are strong but not local: Vedanta Power posted Rs 83 crore net profit and 14.5% margins in Q2 FY27 [5], with EBITDA up 122% to Rs 421 crore on Rs 2,908 crore revenue [6]; Adani Power has 95% of 18.33 GW tied to long-term PPAs [7]. Coal India's Q2 FY27 net profit rose 57% YoY to Rs 6,547 crore yet the stock fell 3% and target prices were cut [4] — fuel volume, not fuel price, is the swing factor. Structure against milestone bills with a 10–15% retention, escrow of utility payments, and a DSRA where ICRA's framework applies [8]. - **PPA unsigned or tariff renegotiated below Rs 8.75 per unit (quarterly)** -> decline the coal IPP proposal [1]. - **GST collections in Tamil Nadu staying negative (monthly)** -> cut unsecured exposure and raise margin [D]."
+ ],
+ "watch": [
+  [
+   "PPA/tariff status of coal proposal (quarterly)",
+   "tariff below Rs 8.75/unit or no PPA -> decline the IPP exposure [1]"
+  ],
+  [
+   "Tamil Nadu GST collections (monthly)",
+   "stays negative -> cut unsecured exposure, raise margin [D]"
+  ],
+  [
+   "Work-order book and milestone billing (monthly)",
+   "book falls or billing slips -> reduce retention release"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Tamil Nadu GST down 3.2% while India up 6.1%; coal tariff Rs 8.75-10.40 vs solar Rs 5.",
+ "articles": [
+  {
+   "title": "தூத்துக்குடியில் புதிய அனல் மின் நிலையம் அமைத்தால் மின் கட்டணம் உயருமா? CRH ஆய்வில் சொல்வது என்ன?",
+   "url": "https://www.tv9tamilnews.com/tamil-nadu/proposed-thoothukudi-coal-power-plant-could-increase-electricity-costs-climate-risk-horizons-study-says-114542.html",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "tuticorin: Latest News & Videos, Photos about tuticorin | The Economic Times - Page 1 - Business News›tuticorin",
+   "url": "https://economictimes.indiatimes.com/topic/tuticorin#1",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Tamil Nadu government to set up 1,600 MW thermal power station at Tuticorin under PPP model",
+   "url": "https://newsonair.gov.in/tamil-nadu-government-to-set-up-1600-mw-thermal-power-station-at-tuticorin-under-ppp-model/#content",
+   "date": "2026-10-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Coal India shares fall 3% after Q2 results; Jefferies, Motilal Oswal, others cut target price",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/coal-india-shares-fall-3-after-q2-results-jefferies-motilal-oswal-others-cut-target-price/articleshow/135349282.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Vedanta Power Q2 Results: Record sales, 45% EBITDA jump fuel profit turnaround - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/vedanta-power-q2-results-record-sales-45-pc-ebitda-jump-fuel-profit-turnaround-20022591.htm",
+   "date": "2026-10-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Vedanta Power Reports Record Q2 FY27 Performance with 122% EBITDA Growth to INR 421 Crore",
+   "url": "https://solarquarter.com/2026/10/30/vedanta-power-reports-record-q2-fy27-performance-with-122-ebitda-growth-to-inr-421-crore/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Adani Power Q1 FY27 slides: record results fuel 45 GW expansion target By Investing.com - Adani Power Q1 FY27 slides: record results fuel 45 GW expansion target",
+   "url": "https://www.investing.com/news/company-news/adani-power-q1-fy27-slides-record-results-fuel-45-gw-expansion-target-93CH-4807881#1",
+   "date": "2026-07-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cash flow waterfall mechanism Creation of reserve funds for debt servicing Stipulation on minimum coverage ratios that must be m...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/472~Thermal%20Power%20Producers#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Glenmark’s moderate financial risk profile is marked by large incremental working capital requirements and capex, and sizable re...",
+   "url": "https://www.crisil.com/content/dam/crisil/events-tiles/india-outlook/year-of-reckoning-beckons/report/india-outlook-fiscal-2017.pdf#12#17#12",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The company remains exposed to significant counterparty credit risk due to the weak operational and financial profile of Andhra ...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510131010_Hinduja_National_Power_Corporation_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- various forms of fund-based assistance, including long-term project finance, short/medium term loan to equipment manufacturers...",
+   "url": "https://www.smccapitals.com/uploads/offerdocuments/16154.power-finance-corporation-limited---draft-shelf-prospectus---6-july-2023.pdf#30#207#30",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 55 (national 75 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: All-India electricity requirement Apr-to-date (CEA) +9.5%. [official activity proxy, data to Aug-2026]",
+  "Tamil Nadu: electricity demand +9.8% Apr-to-date vs India +9.5% (0.3 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +22.9% YoY vs activity +9.5% (gap +13.4 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,150 @@
+{
+ "key": "ap_nellore|power",
+ "state": "AP",
+ "city": "ap_nellore",
+ "ind": "power",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 65,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Nellore power — but only to generation and equipment/service borrowers with strong private or central counterparties; avoid pure AP Discom receivable exposure until collection cycles shorten.",
+ "title": "Nellore Power Generation & Distribution: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A power borrower in Nellore turns fuel or sunlight into units, and units into cash only when the offtaker pays.** The district hosts the 2,400 MW Damodaram Sanjeevaiah thermal station at Nelatur, run by APPDCL [3]. Value sits in the PPA and the plant's availability; cash sits in the receivable from the distribution company, not in the meter. Cost structure is fuel plus fixed O&M; pricing power is nil once the tariff order is fixed. So when a proposal lands, check the offtaker's payment record before the plant's PLF. ## What has changed now\n**Demand is running hot locally while the state's own tax base is shrinking.** Andhra Pradesh electricity demand is up 18.1% Apr-to-date against India's 9.5% [D], yet AP GST collections are -0.2% Apr-to-date versus India +6.1% [D]. That gap is the whole story: more units sold, less cash in the state's hands. The rating evidence is blunt — AP Discom counterparty risk is flagged as significant, with average collection period over 400 days in FY25 (prior year 351 days) and debtors at Rs 5,020 crore as of June 30, 2025 [10]. Note that source is undated on the page; treat the 400-day figure as the last reported, not current. Local news is thin: APSPDCL has set up control rooms for cyclone-related supply disruption in Nellore and Tirupati [1], and a fire at the Nelatur plant is reported, but that report is from July 2023 and old [3]. ## Where the growth is\n**Pursue borrowers whose cash comes from someone other than the state Discom.** Peer results show the money is in operational efficiency and long PPAs: Vedanta Power posted record quarterly sales with EBITDA up 45% sequentially and margins at 14.5% [5], and separately reported 122% EBITDA growth to INR 421 crore on revenue of INR 2,908 crore [6]; Adani Power runs 18.33 GW with 95% of capacity tied to long-term PPAs [7]. In Nellore that means: O&M and balance-of-plant contractors to the thermal station, coal-handling and ash-utilisation units, transmission and substation EPC, and rooftop/captive solar for industrial consumers. Avoid pure play Discom-billed generators and any trader whose sole collateral is an AP Discom receivable. ## How to grow safely\n**Structure against the receivable, not the asset.** Take assignment of the PPA and escrow of Discom payments where possible; ICRA's thermal methodology looks at cash collection trends, DSRA availability and working-capital limit utilisation [8]. Ask for the debtor ageing by offtaker and the last twelve months of actual collections — collect from customer where the current collection period is not disclosed. Monthly, take the Discom payment receipt statement, plant availability/PLF, coal or fuel stock days, and the drawing-power statement. ## Early-warning signs\n**Watch the state's cash before the plant's.** A widening AP GST decline against India [D] precedes Discom payment stretch. A jump in receivable days beyond the last reported 400 [10], any request to fund interest from a new short-term line, or a cyclone-driven outage at Nelatur [1] should trigger a review of limits and collateral before the next disbursement."
+ ],
+ "watch": [
+  [
+   "Discom collection days (monthly)",
+   "crosses the last reported 400 days [10] -> freeze new limits, seek escrow"
+  ],
+  [
+   "AP GST collections vs India (monthly)",
+   "gap widens beyond -0.2% vs +6.1% [D] -> cut tenor, raise margin"
+  ],
+  [
+   "Plant availability/PLF (monthly)",
+   "falls below PPA threshold -> ask for forced-outage log and insurance status"
+  ],
+  [
+   "Cyclone/outage events (event-based)",
+   "supply disruption in Nellore [1] -> inspect asset, confirm insurance claim filed"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "AP GST -0.2% vs India +6.1% and 400-day Discom collections outweigh strong 18.1% demand.",
+ "articles": [
+  {
+   "title": "APSPDCL Sets Up Control Rooms To Monitor Power Supply",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/apspdcl-sets-up-control-rooms-to-monitor-power-supply-2000897?utm_source=home&utm_medium=justIn",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "nellore govrnment tender",
+   "url": "https://www.tenderportal.co.in/searchresult/?st=loc&sf=nellore&sd=govrnment-tender+in+nellore",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Andhra Pradesh: Fire breaks out at Damodaram Sanjeevaiah Thermal Power Plant in Nelatur",
+   "url": "https://newsonair.gov.in/andhra-pradesh-fire-breaks-out-at-damodaram-sanjeevaiah-thermal-power-plant-in-nelatur/",
+   "date": "2026-09-14",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Coal India shares fall 3% after Q2 results; Jefferies, Motilal Oswal, others cut target price",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/coal-india-shares-fall-3-after-q2-results-jefferies-motilal-oswal-others-cut-target-price/articleshow/135349282.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Vedanta Power Q2 Results: Record sales, 45% EBITDA jump fuel profit turnaround - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/vedanta-power-q2-results-record-sales-45-pc-ebitda-jump-fuel-profit-turnaround-20022591.htm",
+   "date": "2026-10-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Vedanta Power Reports Record Q2 FY27 Performance with 122% EBITDA Growth to INR 421 Crore",
+   "url": "https://solarquarter.com/2026/10/30/vedanta-power-reports-record-q2-fy27-performance-with-122-ebitda-growth-to-inr-421-crore/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Adani Power Q1 FY27 slides: record results fuel 45 GW expansion target By Investing.com - Adani Power Q1 FY27 slides: record results fuel 45 GW expansion target",
+   "url": "https://www.investing.com/news/company-news/adani-power-q1-fy27-slides-record-results-fuel-45-gw-expansion-target-93CH-4807881#1",
+   "date": "2026-07-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cash flow waterfall mechanism Creation of reserve funds for debt servicing Stipulation on minimum coverage ratios that must be m...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/472~Thermal%20Power%20Producers#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Glenmark’s moderate financial risk profile is marked by large incremental working capital requirements and capex, and sizable re...",
+   "url": "https://www.crisil.com/content/dam/crisil/events-tiles/india-outlook/year-of-reckoning-beckons/report/india-outlook-fiscal-2017.pdf#12#17#12",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The company remains exposed to significant counterparty credit risk due to the weak operational and financial profile of Andhra ...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510131010_Hinduja_National_Power_Corporation_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- various forms of fund-based assistance, including long-term project finance, short/medium term loan to equipment manufacturers...",
+   "url": "https://www.smccapitals.com/uploads/offerdocuments/16154.power-finance-corporation-limited---draft-shelf-prospectus---6-july-2023.pdf#30#207#30",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 65 (national 75 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: electricity demand +18.1% Apr-to-date vs India +9.5% (8.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: All-India electricity requirement Apr-to-date (CEA) +9.5%. [official activity proxy, data to Aug-2026]",
+  "Andhra Pradesh: GST collections -0.2% Apr-to-date vs India +6.1% (6.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Bank credit +22.9% YoY vs activity +9.5% (gap +13.4 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

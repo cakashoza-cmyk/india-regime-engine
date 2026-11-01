@@ -1,0 +1,154 @@
+{
+ "key": "hr_yamunanagar|steel_utensils",
+ "state": "HR",
+ "city": "hr_yamunanagar",
+ "ind": "steel_utensils",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 88,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Yamunanagar steel & metal utensils — back mid-size utensil makers with tight working-capital control; avoid scrap-price speculators and long-debtor exporters.",
+ "title": "Yamunanagar steel & metal utensils: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A utensil unit buys stainless scrap and sheet, stamps and polishes it into thali, bowls and cookware, and sells through distributors and wholesale markets.** Cash comes back after the distributor sells, not when the truck leaves. Value sits in the finished-goods shelf and in receivables, not in the machine. Stainless scrap in Yamunanagar was quoted at ₹126.72/kg [3] — that is your raw-material reference, so when a proposal lands, check the unit's purchase rate against this and ask why it differs.\n\n## Where cash sits and what has changed\n**Working capital is the whole business: scrap and sheet inventory, then a debtor cycle that peers show can stretch badly.** An ICRA-rated utensil maker carried working capital intensity of about 53% in FY2025, down from about 66% in FY2024, with an elongated debtor cycle [8]. A CRISIL-rated rolling mill is flagged for downgrade if the working-capital cycle stretches further [9]. On demand, India-wide IIP for NIC 25 (metal products) is +16.9% YoY and +12.0% Apr-to-date [D], and Haryana GST collections are +10.1% Apr-to-date against India's +6.1% [D] — a real local tailwind. But peer results are mixed: Kirloskar Ferrous grew revenue 17% YoY in Q2 FY27 while high input costs eroded margins [6]; Ratnamani's Q4 sales fell to INR893 crore from INR1,575 crore on muted demand [4]. **Volume is available; margin is not automatic.**\n\n## Who to pursue now\n**Pursue mid-size utensil makers supplying domestic wholesale and institutional buyers, with own premises and a clean stock statement.** Sacheta Metals grew FY2025 revenue 22.06% and June 2026 quarter sales 4.91% YoY to Rs 21.79 crore [5] — that is the shape of a healthy borrower. Avoid pure scrap traders and units whose sales depend on one large buyer or on African export debtors, the exact risk ICRA flagged [8].\n\n## How to grow safely\n**Structure as cash-credit against stock and book debts, with a drawing power recalculated monthly.** Take stock-and-debt statements every month, GST returns every month, and a quarterly ageing of receivables. Set a covenant that operating margin does not fall below 6% — the CRISIL downward trigger for a comparable rolling mill [9]. Where the customer is export-linked, ask for the debtor-wise ageing and collect from customer the country-wise sales split.\n\n## Early-warning signs\n**Watch inventory days and debtor days together — either stretching means the unit is financing its customer.** If scrap purchase rate runs well above ₹126.72/kg [3] without a matching rise in selling price, ask for the price list. If monthly GST turnover falls two months running while stock rises, stop fresh disbursement. Local coverage of this industry in Yamunanagar is thin — source [1] is a general city profile and [2] is about pending solar net meters, not utensils — so lean on these first principles and the peer set."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-debt statement (monthly)",
+   "Stock or debtor days rise two months running -> freeze drawing power and ask for ageing"
+  ],
+  [
+   "GST returns (monthly)",
+   "Turnover falls two months while inventory rises -> stop fresh disbursement, review limit"
+  ],
+  [
+   "Scrap purchase rate vs ₹126.72/kg [3] (monthly)",
+   "Purchase rate well above reference with flat selling price -> ask for price list and margin working"
+  ],
+  [
+   "Operating margin (quarterly)",
+   "Margin falls below 6% [9] -> downgrade internal rating, seek additional collateral"
+  ],
+  [
+   "Debtor ageing (quarterly)",
+   "Single buyer or export debtor crosses agreed share -> reduce limit, seek insurance or LC"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Haryana GST and NIC 25 output growth support demand; peer margins mixed, so no upgrade.",
+ "articles": [
+  {
+   "title": "Yamuna Nagar News: 37 साल का यमुनानगर, उद्योग व कृषि में बनाई पहचान",
+   "url": "https://www.amarujala.com/haryana/yamuna-nagar/37-year-old-yamunanagar-has-carved-a-niche-for-itself-in-industry-and-agriculture-yamuna-nagar-news-c-246-1-sknl1023-165473-2026-11-01",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "'तीन महीने की तनख्वाह काट लूं मैं?', हरियाणा में 3 महीने से मीटर पेंडिंग को लेकर भड़के अनिल विज; SE को जमकर सुनाया",
+   "url": "https://org374nextwww.jagran.com/haryana/yamunanagar-anil-vij-slams-yamunanagar-se-over-pending-solar-net-meters-40421653.html",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Stainless Steel Scrap Rate Today Yamunanagar: ₹126.72/kg",
+   "url": "https://scraprates.in/yamunanagar/stainless-steel-scrap-price",
+   "date": "2026-10-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ratnamani Metals & Tubes Limited has informed… | MarketPing",
+   "url": "https://marketping.in/alerts/ratnamani-met-tub/ratnamani-metals-tubes-limited-has-informed-the-exchange-37d3c878-6827-45c1-bc53-a21b8f00560f",
+   "date": "2026-05-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sacheta Metals Limited",
+   "url": "https://www.perplexity.ai/app/finance/SACHEMT.BO?preset=peers&symbol=PGFOILQ.BO&eventId=546026",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India: Kirloskar Ferrous posts volume-led growth in Q2 FY27 but high input costs erode margins - BigMint",
+   "url": "https://www.bigmint.co/insights/detail/india-kirloskar-ferrous-posts-volume-led-growth-in-q2-fy27-but-high-input-costs-erode-margins-804491",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shyam Metalics and Energy (SHYAMMETL) Q2 25/26 Summary | Quartr - Shyam Metalics and Energy (SHYAMMETL) Q2 25/26 earnings summary",
+   "url": "https://quartr.com/events/shyam-metalics-and-energy-limited-shyammetl-q2-25-26_F4R2n7zv#1",
+   "date": "2026-07-07",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 09,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=140808&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/A%20B%20Rolling%20Mills%20Private%20Limited-RU-24-05-2023.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ABSTRACT",
+   "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/560818/4/04_%20%20abstract.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Mili_Steels_Private_Limited_February_22_2017_RR.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 88 (national 96 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 25 output +16.9% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +12.0% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +11.9% YoY vs output +12.0% (gap -0.1 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

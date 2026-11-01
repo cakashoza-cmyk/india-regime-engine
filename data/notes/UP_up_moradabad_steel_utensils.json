@@ -1,0 +1,158 @@
+{
+ "key": "up_moradabad|steel_utensils",
+ "state": "UP",
+ "city": "up_moradabad",
+ "ind": "steel_utensils",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 88,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Moradabad steel & metal utensils — back the e-commerce/export-linked units with tight monthly stock-and-receivable control; avoid the thin-margin, single-buyer job-work units.",
+ "title": "Moradabad steel & metal utensils: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Moradabad units buy steel and brass strip, stamp and polish it into utensils and ware, and sell into wholesale, export and now e-commerce channels.** Cash is tied in metal inventory and in the receivable cycle; the value sits in finishing quality and buyer relationships, not in the metal itself. The local export base is large — Moradabad's export book is reported at 11,460 crore, with a push to link the brass trade to e-commerce and global markets [1]. **So when a proposal lands, check the buyer mix and the channel split first; if a single buyer or single channel dominates, ask for the last twelve months of invoices by buyer.**",
+  "## Where cash sits and what has changed\n**Working capital is the whole game here.** A rated peer in utensil manufacturing carried working capital intensity of about 53% in FY2025, down from about 66% in FY2024, still elevated on an elongated debtor cycle and African customer risk [8]. **So when a proposal lands, check the debtor days and the export customer geography; if receivables stretch beyond the stated terms, ask for the ageing and the top-five debtor list.** Locally, a steel factory fire in June 2026 [3] and press reporting that UP manufacturing including brass is declining on state neglect [2] tell you asset protection and promoter commitment need a hard look. **Ask for the fire-safety certificate and insurance cover on plant and stock before sanction.**",
+  "## The growth opportunity\n**The data call is OK (score 88), and UP is the faster half of it.** UP GST collections rose 14.2% Apr-to-date against India's 6.1% [D], and India-wide IIP for NIC 25 output is up 16.9% YoY [D]. **Pursue the units that are adding an e-commerce or export channel on top of an existing wholesale book — that is where the local push is going [1].** Peer results support volume-led growth: Kirloskar Ferrous posted revenue up 17% y-o-y in Q2 FY27 [6], Shyam Metalics revenue up 23% with volumes up 24% [7], and Sacheta Metals revenue up 22.06% in FY-2025 [5]. **Avoid the pure job-work units with no own buyer relationship and no channel beyond one trader.**",
+  "## How to grow safely\n**Structure against the metal and the receivable, not the balance sheet.** Take a stock-and-book-debt statement every month, with a physical stock check at least quarterly. **Covenant the working capital cycle: if debtor days cross the sanctioned limit for two consecutive months, freeze further drawing power.** Peer margin pressure is real — Kirloskar's EBITDA margin fell on coking coal and rupee depreciation [6], and Ratnamani's Q4 sales fell to INR893 crore from INR1,575 crore on muted demand and Middle East issues [4]. **So price the limit to a 6% operating margin floor, the level at which a rated rolling-mill peer's rating would come under pressure [9].**",
+  "## Early-warning signs\n**Watch the receivable and the stock, monthly.** A rising debtor list with new distant buyers, stock that does not reconcile to the book, or promoter withdrawals are the first signals. **Local sources say little about Moradabad unit-level finances; lean on first principles and these peers.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-book-debt statement (monthly)",
+   "Stock shortfall vs book >10% -> freeze drawing power and inspect godown"
+  ],
+  [
+   "Debtor ageing and top-five buyer list (monthly)",
+   "Debtor days beyond sanctioned limit for 2 months -> stop fresh disbursement"
+  ],
+  [
+   "GST returns vs sales declared (monthly)",
+   "GST turnover below bank sales by >15% -> ask for reconciliation before renewal"
+  ],
+  [
+   "Insurance and fire-safety certificate (annual)",
+   "Lapsed cover or no certificate -> withhold renewal until produced"
+  ],
+  [
+   "Promoter withdrawals from the firm (quarterly)",
+   "Large unexplained withdrawals -> re-appraise and cap limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local reports flag UP brass/manufacturing decline and a steel factory fire; peer margins under input-cost pressure.",
+ "articles": [
+  {
+   "title": "मुरादाबाद के 11,460 करोड़ के निर्यात को बढ़ाने की तैयारी: पीतल कारोबार को ई-कॉमर्स और ग्लोबल मार्केट से जोड़ने पर मंथन; ‘यूपी डायलॉग्स’ में एमएसएमई, शिक्षा और महिला उद्यमिता पर चर्चा - - Hindi News",
+   "url": "https://www.bhaskar.com/up-khaas/news/moradabad-brass-export-ecommerce-msme-business-dialogue-up-news-139495534.html#1",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Are Uttar Pradesh’s Manufacturing Industries Declining Due to Government Negligence? - Sections",
+   "url": "https://frontline.thehindu.com/politics/uttar-pradesh-industrial-decline-brass-lock-pottery/article71499767.ece#1",
+   "date": "2026-09-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "मुरादाबाद की स्टील फैक्ट्री में भीषण आग: आसमान में छाया काले धुएं का गुबार, फायर बिग्रेड ने पाया काबू - Moradabad News",
+   "url": "https://www.bhaskar.com/local/uttar-pradesh/moradabad/bilari/news/moradabad-steel-factory-fire-continues-138151031.html",
+   "date": "2026-06-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ratnamani Metals & Tubes Limited has informed… | MarketPing",
+   "url": "https://marketping.in/alerts/ratnamani-met-tub/ratnamani-metals-tubes-limited-has-informed-the-exchange-37d3c878-6827-45c1-bc53-a21b8f00560f",
+   "date": "2026-05-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sacheta Metals Limited",
+   "url": "https://www.perplexity.ai/app/finance/SACHEMT.BO?preset=peers&symbol=PGFOILQ.BO&eventId=546026",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India: Kirloskar Ferrous posts volume-led growth in Q2 FY27 but high input costs erode margins - BigMint",
+   "url": "https://www.bigmint.co/insights/detail/india-kirloskar-ferrous-posts-volume-led-growth-in-q2-fy27-but-high-input-costs-erode-margins-804491",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shyam Metalics and Energy (SHYAMMETL) Q2 25/26 Summary | Quartr - Shyam Metalics and Energy (SHYAMMETL) Q2 25/26 earnings summary",
+   "url": "https://quartr.com/events/shyam-metalics-and-energy-limited-shyammetl-q2-25-26_F4R2n7zv#1",
+   "date": "2026-07-07",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "February 09,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=140808&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/A%20B%20Rolling%20Mills%20Private%20Limited-RU-24-05-2023.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ABSTRACT",
+   "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/560818/4/04_%20%20abstract.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Mili_Steels_Private_Limited_February_22_2017_RR.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 88 (national 96 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 25 output +16.9% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +12.0% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +11.9% YoY vs output +12.0% (gap -0.1 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,150 @@
+{
+ "key": "wb_haldia|petrochem",
+ "state": "WB",
+ "city": "wb_haldia",
+ "ind": "petrochem",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 0,
+ "nudged_by_news": false,
+ "verdict": "Avoid new petrochemicals exposure in Haldia for now; the Adperma phenol/acetone start-up is a real structural positive, but West Bengal demand signals and national petrochemical output are both negative, so lend only to integrated, feedstock-linked downstream units with tight structure.",
+ "title": "Haldia Petrochemicals: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Petrochemicals in Haldia is a conversion business: propylene and feedstock go in, phenol, acetone and downstream chemicals come out, and cash is made on the spread between feedstock cost and product price.** The anchor event is Adperma's new phenol and acetone plant at Haldia, with capacity of 345,000 metric tons of phenol and 215,000 mt of acetone, a 60 billion Indian rupees ($630 million) project [2]. It is feedstock-integrated with Haldia Petrochemicals' ecosystem and has road, rail, waterway and pipeline connectivity [2]. **Value sits in integration and logistics, not in the molecule itself** — the plant is positioned to cut India's reliance on imported phenol and acetone [2]. ## What has changed now\n**The local demand picture is weak even as new capacity lands.** West Bengal GST collections are -1.3% Apr-to-date against India +6.1%, 7.4 pp slower [D], and state electricity demand is +5.7% against India +9.5%, 3.8 pp slower [D]. Nationally, IIP NIC 20 output is -0.5% YoY and -1.2% Apr-to-date [D]. **So when a proposal lands, check whether the borrower's offtake is export-linked or tied to the new Adperma chain; if it is purely eastern-India domestic downstream, ask who the end customer is and what volume commitment they have given.** Adperma targets production by December 2026 [1], so commissioning risk is live right now. ## Where the growth is\n**Pursue borrowers that plug into the new phenolics chain: tanker-loading, storage, pipeline and utility service providers, and downstream converters who can show an Adperma or HPL supply or offtake link** [2]. The project inauguration was treated as a marker of renewed large industry investment in Haldia after roughly two decades [3]. **Avoid standalone traders and small converters with no feedstock linkage and no contracted offtake** — they carry price risk on both ends. Peer results are strong but not local: Reliance's oil-to-chemicals segment hit record operating profitability [5] and Gandhar Oil reported Q2 FY27 revenue of INR 1,847 crores, up ~73% YoY [6]; read these as evidence of the cycle, not of Haldia demand. ## How to grow safely\n**Structure against the conversion cycle, not the balance sheet.** Take monthly stock and book-debt statements, feedstock purchase invoices and product sale invoices, and a monthly drawing-power or offtake confirmation from the anchor buyer. **If the borrower's receivable days stretch beyond the stated credit terms, ask for the ageing and the buyer-wise breakup before any enhancement.** Rating support is mixed: ICRA upgraded HPL's long-term rating to A- [11], while another ICRA note keeps a company on watch over a proposed amalgamation and capex clarity [8]. Note that the CRISIL petrochemical criteria documents are old and generic [9][10] — use them for framework only. ## Early-warning signs\n**Watch inventory days and spread compression first.** If phenol or acetone realisations fall while feedstock cost holds, the converter's margin goes before its sales do. **If monthly GST filings show turnover falling below the sanctioned drawing power for two consecutive months, freeze enhancement and re-price.** If Adperma's December 2026 start-up slips [1], treat every borrower whose plan depends on that offtake as unproven. Sources say little specific about Haldia's own credit behaviour, so lean on these first principles and the peer read-across."
+ ],
+ "watch": [
+  [
+   "Adperma commissioning status (monthly)",
+   "Start-up slips past December 2026 [1] -> treat dependent borrowers as unproven, re-assess limits"
+  ],
+  [
+   "GST collection trend for West Bengal (monthly)",
+   "Continues negative vs India [D] -> tighten new-to-bank downstream converters"
+  ],
+  [
+   "Feedstock and product price spread (monthly)",
+   "Spread compresses for two months -> ask for buyer-wise receivables and re-price"
+  ],
+  [
+   "Electricity demand for West Bengal (monthly)",
+   "Growth stays below India [D] -> slow capex-linked lending in the cluster"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "West Bengal GST and power demand lag India; national petrochemical output negative.",
+ "articles": [
+  {
+   "title": "Adperma Set to Launch Haldia Phenol and Acetone Production by December 2026",
+   "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/adperma-set-to-launch-haldia-phenol-and-acetone-45249",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Chemical Week • October 26/November 2 • Companies",
+   "url": "https://chemweek.mydigitalpublication.com/publication/?i=873026&article_id=5232727&view=articleBrowser",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "CM Suvendu Adhikari in Haldia: হলদিয়ায় শিল্পের নতুন দিগন্ত! ‘ভাতা নয়, আত্মনির্ভর হতে হবে’, স্থানীয়দের চাকরি নিয়ে বার্তা শুভেন্দু অধিকারীর - advertisement",
+   "url": "https://bengali.news18.com/news/west-bengal/purba-medinipur-cm-suvendu-adhikari-in-haldia-petrochemicals-said-we-must-be-self-reliant-not-dependent-rc-2929447.html#1",
+   "date": "2026-10-13",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Q2 results: Reliance Industries H1FY27 profit crosses ₹50,000 crore for the first time - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/reliance-industries-q2-results-stronger-ever-quarter-revenue-surges-record-rs3-6-lakh-crore-20023655.htm",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Reliance oil-to-chemicals profitability hits an all-time high - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/reliance-industries-oil-to-chemicals-gas-business-q2-record-ebitda-ril-share-price-20023660.htm",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Gandhar Oil Refinery (India) Ltd (NSE:GANDHAR) (Q2 2027) Earnings Call Highlights: Record ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/gandhar-oil-refinery-india-ltd-230610107.html",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Gandhar Oil Refinery (India) Ltd (NSE:GANDHAR) (Q2 2027) Earning",
+   "url": "https://www.gurufocus.com/news/9160220/gandhar-oil-refinery-india-ltd-nsegandhar-q2-2027-earnings-call-highlights-record-revenue-of-inr-1847-crores-and-pat-up-368-yoy",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "July 13,2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144189#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/oil-and-gas/archive/CRISIL-Ratings-crieria-petrochemical-industry_feb2018.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Petrochemical%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Haldia Petrochemicals Limited",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/29424#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 0 (national 0 x 0.6 + West Bengal 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "West Bengal: GST collections -1.3% Apr-to-date vs India +6.1% (7.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "West Bengal: electricity demand +5.7% Apr-to-date vs India +9.5% (3.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
