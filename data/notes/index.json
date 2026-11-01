@@ -210,6 +210,12 @@
 "score": 45,
 "at": "2026-11-01 23:55 IST"
 },
+"CG|cg_raigarh|sponge_iron": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-02 00:38 IST"
+},
 "CG|cg_raipur|rice_milling": {
 "call": "avoid",
 "base": "avoid",
@@ -593,6 +599,12 @@
 "base": "avoid",
 "score": 42,
 "at": "2026-11-02 00:00 IST"
+},
+"GJ|gj_unjha|spices": {
+"call": "caution",
+"base": "caution",
+"score": 54,
+"at": "2026-11-02 00:37 IST"
 },
 "GJ|gj_vadodara|chemicals_dyes": {
 "call": "avoid",
@@ -1350,6 +1362,12 @@
 "score": 26,
 "at": "2026-11-02 00:31 IST"
 },
+"MP|mp_indore|snacks_namkeen": {
+"call": "avoid",
+"base": "avoid",
+"score": 43,
+"at": "2026-11-02 00:37 IST"
+},
 "MP|mp_jabalpur|defence_aerospace": {
 "call": "ok",
 "base": "ok",
@@ -1782,6 +1800,12 @@
 "score": 64,
 "at": "2026-11-01 23:49 IST"
 },
+"TN|tn_kanchipuram|silk_weaving": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-02 00:37 IST"
+},
 "TN|tn_karur|home_textiles": {
 "call": "caution",
 "base": "caution",
@@ -1913,6 +1937,12 @@
 "base": "caution",
 "score": 56,
 "at": "2026-11-01 23:58 IST"
+},
+"TS|ts_nizamabad|spices": {
+"call": "caution",
+"base": "caution",
+"score": 64,
+"at": "2026-11-02 00:38 IST"
 },
 "TS|ts_nizamabad|tobacco": {
 "call": "caution",
@@ -2112,6 +2142,12 @@
 "score": 59,
 "at": "2026-11-02 00:02 IST"
 },
+"UP|up_meerut|sugar": {
+"call": "caution",
+"base": "ok",
+"score": 76,
+"at": "2026-11-02 00:38 IST"
+},
 "UP|up_mirzapur|carpets": {
 "call": "ok",
 "base": "ok",
@@ -2153,6 +2189,12 @@
 "base": "caution",
 "score": 57,
 "at": "2026-11-01 23:58 IST"
+},
+"UP|up_muzaffarnagar|sugar": {
+"call": "caution",
+"base": "ok",
+"score": 76,
+"at": "2026-11-02 00:39 IST"
 },
 "UP|up_noida|apparel": {
 "call": "avoid",
