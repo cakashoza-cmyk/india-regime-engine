@@ -1,0 +1,21 @@
+{"key":"gj_morbi|ceramics","version":"v5 test","call":"caution","score":71,"base_call":"ok",
+"verdict":"Lend selectively: back units selling mainly in India with fuel costs under control; stay away from export-heavy units sitting on unsold stock.",
+"score_note":"Official data alone scores 71 (OK band is 65+). Local news this month is worse than the data, so the call is cut to Caution.",
+"drivers":[
+ {"icon":"🔥","t":"Gas cost up, margins squeezed","dir":"up","bad":true,"n":"+₹6 per m³","sub":"Propane up ₹7,300/tonne, now above ₹100/kg","src":[3],"date":"22 Oct 2026"},
+ {"icon":"🚢","t":"Exports nearly stopped, stock piling up","dir":"down","bad":true,"n":"Godowns full","sub":"Middle East war and container shortage (Ceramic Association)","src":[2],"date":"22 Oct 2026"},
+ {"icon":"🏭","t":"Production cut, less cash coming in","dir":"down","bad":true,"n":"−15 to 20%","sub":"Most units have cut output","src":[2],"date":"22 Oct 2026"}],
+"back":["Sells mostly through Indian dealers, so the export stop barely touches it","Has already raised tile prices to cover the higher gas bill","Low debt and no loans from private moneylenders"],
+"avoid":["Export-heavy, with buyers in the Gulf or Middle East","Godown stock rising month after month while dispatches fall","Signs of high-interest private borrowing (a Wankaner case alleged ₹35 lakh demanded on a ₹10 lakh loan)"],
+"avoid_src":[1],
+"framing_note":"These profiles are credit judgment built from the news above, not measured data. Set the exact limits (for example export share or months of stock) under your own credit policy.",
+"warnings":[
+ {"t":"Propane price","now":"Above ₹100/kg","watch":"Falls back below ₹100/kg: pressure eases. Keeps rising: more plants shut.","src":[3]},
+ {"t":"Gas relief","now":"₹5/SCM relief given to Morbi tiles; Than sanitaryware units are asking for the same","watch":"Relief cut or withdrawn: the margin squeeze gets worse.","src":[4]}],
+"change":"Back to OK to lend if exports restart and propane drops below ₹100/kg. Moves towards Avoid (score below 45) if the 15–20% output cut becomes permanent and dealer payments slip.",
+"articles":[
+ {"title":"Minister Trikam Chhanga hears ceramic industry issues (Divya Bhaskar)","url":"https://www.divyabhaskar.co.in/local/gujarat/morbi/news/morbi-minister-trikam-chhanga-ceramic-industry-visit-updates-139545094.html","date":"2026-10-30"},
+ {"title":"Four booked for extorting ₹35L from contractor over ₹10L loan (TOI Rajkot)","url":"https://timesofindia.indiatimes.com/city/rajkot/four-booked-for-extorting-35l-from-contractor-over-10l-loan/articleshow/135327547.cms","date":"2026-10-29"},
+ {"title":"Exports largely halted; propane up ₹7,300/tonne (Divya Bhaskar)","url":"https://www.divyabhaskar.co.in/local/gujarat/morbi/news/exports-largely-halted-due-to-war-in-the-middle-east-dbp-139458687.html","date":"2026-10-22"},
+ {"title":"Propane crosses ₹100 (Morbi Mirror)","url":"https://morbimirror.com/inflation-hits-morbis-ceramic-industry-propane-gas-crosses-rs-100/","date":"2026-10-22"},
+ {"title":"Than sanitaryware units seek ₹5 gas price cut (Sanj Samachar)","url":"https://sanjsamachar.net/index.php/news-detail/Representation-made-seeking-a-reduction-of-Rs-5-in-gas-prices-for-the-small-scale-ceramic-sanitaryware-industry-in-Than-","date":"2026-10-21"}]}

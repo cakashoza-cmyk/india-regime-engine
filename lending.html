@@ -26,6 +26,18 @@ details{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}summar
 table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}td,th{text-align:left;padding:6px 4px;border-bottom:1px solid var(--line);vertical-align:top}
 .spark{display:flex;align-items:flex-end;gap:3px;height:46px;margin:6px 0}.spark i{flex:1;background:#93c5fd;border-radius:3px 3px 0 0;position:relative}.spark i.neg{background:#fca5a5}
 .foot{color:var(--mut);font-size:12px;margin-top:18px}.empty{color:var(--mut);text-align:center;padding:30px 10px}
+.v5{background:linear-gradient(160deg,#0f172a,#1e293b);color:#e2e8f0;border:0;border-radius:22px;padding:22px 18px;box-shadow:0 12px 32px #0f172a40;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.v5 .vp{display:inline-flex;align-items:center;gap:10px;background:#f59e0b;color:#1c1203;font-weight:800;font-size:20px;padding:10px 18px;border-radius:999px}.v5 .vp b{font-size:26px}.v5 .vp small{font-weight:600;font-size:13px;opacity:.8}
+.v5 .tag{font-size:11px;color:#67e8f9;border:1px solid #155e75;border-radius:999px;padding:2px 8px;margin-left:8px;vertical-align:middle}
+.v5 .call{font-size:19px;line-height:1.4;font-weight:650;color:#fff;margin:16px 0 6px}.v5 .sn{font-size:13px;color:#94a3b8}
+.v5 h4{font-size:12px;letter-spacing:.8px;text-transform:uppercase;color:#94a3b8;margin:22px 0 10px}
+.v5 .tiles{display:grid;gap:10px;grid-template-columns:1fr}@media(min-width:640px){.v5 .tiles{grid-template-columns:repeat(3,1fr)}.v5 .cols{grid-template-columns:1fr 1fr}}
+.v5 .tile{background:#ffffff0d;border:1px solid #ffffff14;border-radius:16px;padding:14px}.v5 .ti{font-size:22px}.v5 .tn{font-size:20px;font-weight:750;color:#fca5a5;margin:4px 0}.v5 .tt{font-weight:600;color:#f1f5f9}.v5 .ts{font-size:12.5px;color:#94a3b8;margin-top:4px}
+.v5 .cols{display:grid;gap:10px}.v5 .col{border-radius:16px;padding:14px}.v5 .bk{background:#14532d55;border:1px solid #16653480}.v5 .av{background:#7f1d1d55;border:1px solid #991b1b80}
+.v5 .col h5{margin:0 0 8px;font-size:14px}.v5 .bk h5{color:#86efac}.v5 .av h5{color:#fca5a5}.v5 .col li{font-size:14px;margin:6px 0;color:#e2e8f0}
+.v5 .fn{font-size:12px;color:#94a3b8;margin-top:8px;font-style:italic}
+.v5 .ew{background:#ffffff0d;border-left:3px solid #f59e0b;border-radius:10px;padding:10px 12px;margin-bottom:8px;font-size:14px}.v5 .ew b{color:#fde68a}
+.v5 a{color:#7dd3fc}.v5 details{border-top:1px solid #ffffff1a}.v5 summary{color:#cbd5e1}.v5 table td,.v5 table th{border-color:#ffffff1a;color:#cbd5e1}.v5 .meta{color:#94a3b8}.v5 sup a{font-size:11px;text-decoration:none}
 </style></head><body>
 <main>
 <h1>Lending Radar</h1><p class="sub">Pick a place and an industry for a quick, data-backed stance. Decision aid, not a substitute for credit judgment. Internal use only.</p>
@@ -40,9 +52,9 @@ table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}td,th{te
 <script src="assets/nav.js"></script>
 <script>
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const LBL={ok:'OK to lend',caution:'Caution',avoid:'Avoid'};let D,V4={},B={},IND={},CITY={},sel={st:'',ct:'',ind:''};
+const LBL={ok:'OK to lend',caution:'Caution',avoid:'Avoid'};let D,V5={},V4={},B={},IND={},CITY={},sel={st:'',ct:'',ind:''};
 const qp=new URLSearchParams(location.search);
-Promise.all([fetch('data/radar.json').then(r=>r.json()),fetch('data/radar_briefs.json').then(r=>r.ok?r.json():{}).catch(()=>({})),fetch('data/v4_test.json?'+Date.now()).then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,b,v])=>{D=d;B=b;V4=(v&&v.cards)||{};init()});
+Promise.all([fetch('data/radar.json').then(r=>r.json()),fetch('data/radar_briefs.json').then(r=>r.ok?r.json():{}).catch(()=>({})),fetch('data/v4_test.json?'+Date.now()).then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,b,v])=>{D=d;B=b;V4=(v&&v.cards)||{};fetch('data/v5_morbi.json?'+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null).then(x=>{if(x)V5[x.key]=x;init()})});
 function init(){D.industries.forEach(i=>IND[i.id]=i);D.cities.forEach(c=>CITY[c.id]=c);
  const sts=Object.entries(D.states).filter(([k])=>D.cities.some(c=>c.state==k)).sort((a,b)=>a[1].name.localeCompare(b[1].name));
  $('#st').innerHTML=sts.map(([k,v])=>`<option value="${k}">${esc(v.name)}</option>`).join('');
@@ -68,6 +80,18 @@ function fillCities(want){const cs=D.cities.filter(c=>c.state==sel.st).sort((a,b
 const mon=iso=>{if(!iso)return'';const m=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return m[+iso.slice(5,7)-1]+'-'+iso.slice(0,4)};
 function spark(pts,key,lab){if(!pts||pts.length<2)return'';const v=pts.map(p=>p[key]),mx=Math.max(...v.map(Math.abs),1);return `<div class="spark" aria-label="${esc(lab)}">${pts.map(p=>`<i class="${p[key]<0?'neg':''}" style="height:${Math.max(6,Math.abs(p[key])/mx*100)}%" title="${esc(p.period)}: ${p[key]}%"></i>`).join('')}</div><div class="meta">${pts.map(p=>esc(p.period)+' '+p[key]+'%').join(' · ')}</div>`}
 
+
+function v5html(x,ind,ct){const sup=a=>(a||[]).map(i=>`<sup><a href="${esc(x.articles[i].url)}" target="_blank" rel="noopener">[${i+1}]</a></sup>`).join('');
+ const arr={up:'▲',down:'▼',flat:'▬'},m=V4[x.key]&&V4[x.key].market,f=v=>(v>0?'+':'')+v+'%';
+ const mt=m?`<table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(m.nifty.r1m)}</td><td>${f(m.nifty.r3m)}</td><td>${f(m.nifty.r12m)}</td></tr>${Object.entries(m.peers).map(([k,p])=>`<tr><td>${esc(k)}</td><td>${f(p.r1m)}</td><td>${f(p.r3m)}</td><td>${f(p.r12m)}</td></tr>`).join('')}</table><p class="meta">Closing prices to ${esc(m.nifty.asof)}. ${esc(m.source)}. Market mood only; not in the score.</p>`:'';
+ return `<div class="card v5"><div><span class="vp">Caution <b>${x.score}</b><small>/100</small></span><span class="tag">${esc(x.version)}</span></div>
+ <div class="call">${esc(x.verdict)}</div><div class="sn">${esc(ind.name)} · ${esc(ct.name)} · ${esc(x.score_note)}</div>
+ <h4>Three drivers</h4><div class="tiles">${x.drivers.map(d=>`<div class="tile"><div class="ti">${d.icon} <span style="color:#fca5a5">${arr[d.dir]}</span></div><div class="tn">${esc(d.n)}</div><div class="tt">${esc(d.t)}</div><div class="ts">${esc(d.sub)} · ${esc(d.date)} ${sup(d.src)}</div></div>`).join('')}</div>
+ <h4>Who to back / who to avoid</h4><div class="cols"><div class="col bk"><h5>✓ Back</h5><ul>${x.back.map(b=>`<li>${esc(b)}</li>`).join('')}</ul></div><div class="col av"><h5>✕ Avoid</h5><ul>${x.avoid.map((b,i)=>`<li>${esc(b)}${i==2?sup(x.avoid_src):''}</li>`).join('')}</ul></div></div><div class="fn">${esc(x.framing_note)}</div>
+ <h4>Early warning</h4>${x.warnings.map(w=>`<div class="ew"><b>${esc(w.t)}:</b> ${esc(w.now)} ${sup(w.src)}<div class="meta">${esc(w.watch)}</div></div>`).join('')}
+ <h4>What would change the call</h4><p style="font-size:14px">${esc(x.change)}</p>
+ <details><summary>Details: sources, market, data</summary><h3>Local sources</h3><ol>${x.articles.map(a=>`<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a> <span class="meta">${esc(a.date)}</span></li>`).join('')}</ol>
+ <h3>Listed peers vs Nifty</h3>${mt}<h3>Official data behind the 71</h3><ul>${(V4[x.key]?.pack||[]).map(p=>`<li class="meta">${esc(p.split(' [')[0])}</li>`).join('')}</ul><p class="meta">AI-assisted synthesis of local news; news is unverified and can only lower a call, never raise it. Decision aid, not a substitute for credit judgment.</p></details></div>`}
 function v4html(v,b){const cite=t=>esc(t).replace(/\[(\d+(?:[,\s]*\d+)*)\]/g,(m,g)=>'['+g.split(/[,\s]+/).filter(Boolean).map(i=>v.articles[+i]?`<a href="${esc(v.articles[+i].url)}" target="_blank" rel="noopener">${i}</a>`:i).join(',')+']');
  const f=x=>(x>0?'+':'')+x+'%',m=v.market,n=m.nifty;
  const rows=Object.entries(m.peers).map(([k,p])=>`<tr><td>${esc(k)}</td><td>${f(p.r1m)}</td><td>${f(p.r3m)}</td><td>${f(p.r12m)}</td></tr>`).join('');
@@ -76,6 +100,7 @@ function v4html(v,b){const cite=t=>esc(t).replace(/\[(\d+(?:[,\s]*\d+)*)\]/g,(m,
  <p class="meta">News vs data: <b>${esc(b.news_direction||'')}</b>${b.news_direction_why?' — '+esc(b.news_direction_why):''} · written ${esc(v.generated_ist)}</p>
  <h3>Market signal: listed peers</h3><p>${esc(b.market_read||'')}</p><table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(n.r1m)}</td><td>${f(n.r3m)}</td><td>${f(n.r12m)}</td></tr>${rows}</table><p class="meta">Price change to ${esc(n.asof)} close. ${esc(m.source)}. Market mood only; not used in the score.</p>`}
 function render(){const st=D.states[sel.st],ct=CITY[sel.ct],ind=IND[sel.ind];history.replaceState(null,'',`?state=${sel.st}&city=${sel.ct}${ind?'&ind='+ind.id:''}`);
+ if(ind&&V5[sel.ct+'|'+ind.id]){$('#result').innerHTML=v5html(V5[sel.ct+'|'+ind.id],ind,ct);return}
  if(!ind){$('#result').innerHTML='<div class="card empty">Choose an industry to see the stance.</div>';return}
  const sec=D.sectors[ind.parent],e=D.calls[sel.st+'|'+ind.parent]||[null],[base,score,nat,loc,ins,rs]=e;
  const cb=B[sel.ct+'|'+ind.id],sb=B[sel.st+'|*'],br=cb||sb;let call=base;const v4=V4[sel.ct+'|'+ind.id],vb=v4&&v4.brief&&v4.brief.local_story?v4.brief:null;const nudged=vb?v4.nudged_by_news:(base=='ok'&&br&&br.o=='Worse');if(nudged)call='caution';
