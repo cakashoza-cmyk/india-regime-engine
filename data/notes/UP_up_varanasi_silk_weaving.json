@@ -1,0 +1,154 @@
+{
+ "key": "up_varanasi|silk_weaving",
+ "state": "UP",
+ "city": "up_varanasi",
+ "ind": "silk_weaving",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": true,
+ "verdict": "Caution: lend only to organised, domestic-demand Banarasi units with verified order books and low leverage; avoid export-dependent and unbranded handloom weavers until export orders and raw-material prices stabilise.",
+ "title": "Varanasi Silk Weaving & Sarees: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Banarasi silk weaving turns imported and mill yarn into high-value sarees, and cash sits in slow-moving finished stock, not in the loom.** The weaver buys yarn and zari, weaves on handloom or powerloom, and sells to wholesalers, showrooms or exporters; value is added in design and brand, not in the weaving itself. The rating methodology flags the sector as both fixed-capital and working-capital intensive, with high funding needs [8], and working capital is driven by inventory holding plus receivables [9]. So when a proposal lands, check the inventory days and the buyer list before anything else; if finished stock exceeds a normal season's sales, ask how it will be cleared and at what discount.",
+  "## What has broken now\n**Local reporting says raw material is up 20-25% and monthly export has collapsed from about Rs 1,000 crore to Rs 100-200 crore, an 80% fall.** [2] Hundreds of handlooms in Madanpura, Lohta and Bajardiha are shut and weavers are leaving the trade [2]. A separate local report says fake 'Banarasi' sarees are taking the market while lakhs of weavers lose work [3]. Peer Sai Silks reported Q1 FY27 revenue flat at INR 375 crore with same-store growth down 7.5%-7.8% on weak demand, though gross margin held at 42% [4]. Siyaram saw festive demand pick up but footfall stayed moderate and buying was occasion-driven [7]. **Read this as a demand-and-cost squeeze on the unorganised end, not a collapse of the branded domestic trade.** Note the export figures are from a September 2026 local report and the peer results are dated; treat both as directional.",
+  "## Where the growth is\n**The lendable growth is in organised domestic retail and wholesale, not export order-book lending.** The UP GST pool grew 14.2% Apr-to-date against India's 6.1% [D], and India-wide textile output (IIP NIC 13) rose 13.1% YoY [D] — the state is pulling ahead of the country. The state government has said Varanasi, Mirzapur and Sant Ravidas Nagar will be developed as silk clusters [1], which is a medium-term positive for units near those clusters. Pursue showroom-led retailers and wholesalers with own designs, steady domestic buyers and a clean stock statement; avoid pure export-job workers and units whose sales depend on a single overseas buyer.",
+  "## How to grow safely\n**Structure against the working-capital cycle, not the loom.** Because inventory and receivables drive funding [9], size the limit to verified stock and receivables, take a stock-and-receivables statement every month, and keep leverage low — rating methodology ties low leverage to financial flexibility in a downturn [10]. Take monthly GST returns, stock statements and a buyer-wise sales register; if receivables age past the stated credit period, ask for the buyer's payment proof. Prefer units with domestic order visibility over those quoting export orders that local reports say are stuck [2].",
+  "## Early-warning signs\n**Watch stock build-up, buyer concentration and weaver attrition.** If finished-goods inventory rises while sales stay flat, ask for a discount-sale plan; if one buyer crosses a third of sales, ask for that buyer's payment record. If the unit's weavers are leaving — as reported in Lohta and Bajardiha [2] — capacity will fall, so ask for loom-utilisation numbers. If raw-material cost rises are not passed into saree prices, margin will compress; ask for the latest price list against the last purchase bill."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns (monthly)",
+   "Turnover falls below the prior quarter's run-rate -> ask for the sales register and re-size the limit"
+  ],
+  [
+   "Stock and receivables statement (monthly)",
+   "Inventory days rise beyond the normal season -> ask for a clearance plan and cut drawing power"
+  ],
+  [
+   "Buyer-wise sales register (quarterly)",
+   "Single buyer crosses a third of sales -> ask for that buyer's payment proof and set a concentration covenant"
+  ],
+  [
+   "Loom utilisation / weaver headcount (quarterly)",
+   "Weavers leaving or looms idle -> reassess capacity and freeze fresh capex limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local reports show export collapse and 20-25% raw-material inflation shutting handlooms.",
+ "articles": [
+  {
+   "title": "Sant Ravidas Nagar, Mirzapur, Varanasi to be de… | UNI India - Exclusive news and data that keep market professionals aheadWednesday, October 21, 2026",
+   "url": "https://www.uniindia.com/north-india/industry-up-silk-clusters/202587#1",
+   "date": "2026-10-03",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "बनारसी साड़ी कारोबार: कच्चा माल 25% महंगा, एक्सपोर्ट 1000 से घटकर 200 करोड़ हुआ - होमताजा खबरउत्तर प्रदेशवाराणसी",
+   "url": "https://hindi.news18.com/amp/news/uttar-pradesh/varanasi-banarasi-saree-business-crisis-raw-material-price-hike-export-slump-local18-10817889.html#1",
+   "date": "2026-09-07",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "నకిలీ 'బనారసీ' చీరల ముప్పు- కోట్ల వ్యాపారం జరుగుతున్నా ఉపాధి కోల్పోతున్న లక్షలాది నేత కార్మికులు! - నకిలీ 'బనారసీ' చీరల ముప్పు- కోట్ల వ్యాపారం జరుగుతున్నా ఉపాధి కోల్పోతున్న లక్షలాది నేత కార్మికులు!",
+   "url": "https://www.etvbharat.com/te/bharat/fake-banarasi-sarees-push-varanasi-weavers-into-crisis-thousands-leave-traditional-livelihood-ten26071203432#1",
+   "date": "2026-07-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sai Silks (Kalamandir) (NSE:KALAMANDIR) Earnings Call Transcripts - Sai Silks (Kalamandir) Limited (NSE:KALAMANDIR)",
+   "url": "https://stockanalysis.com/quote/nse/KALAMANDIR/transcripts/#1",
+   "date": "2026-07-15",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sai Silks (Kalamandir) (NSE:KALAMANDIR) Q2 2026 Earnings Call Transcript & Audio - Sai Silks (Kalamandir) Limited (NSE:KALAMANDIR)",
+   "url": "https://stockanalysis.com/quote/nse/KALAMANDIR/transcripts/531688-q2-25-26/#main#1",
+   "date": "2025-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Sai Silks (Kalamandir) Limited - Q1 26/27 - July 16, 2026",
+   "url": "https://fiscal.ai/company/XNSE_KALAMANDIR/investor-relations/Q1-2027/#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "SIYSIL Q3-2026 Earnings Call - Siyaram Silk Mills Ltd NSE:SIYSIL",
+   "url": "https://www.alphaspread.com/security/nse/siysil/investor-relations/earnings-call/q3-2026#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Advisory",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Rmkv%20Silks%20Private%20Limited-RA-11-10-2022.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 83 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

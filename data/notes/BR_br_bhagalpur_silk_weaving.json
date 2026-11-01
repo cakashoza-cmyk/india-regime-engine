@@ -1,0 +1,154 @@
+{
+ "key": "br_bhagalpur|silk_weaving",
+ "state": "BR",
+ "city": "br_bhagalpur",
+ "ind": "silk_weaving",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Bhagalpur silk weaving, but only to yarn-secured, flood-safe weavers and traders with verified order books; avoid wage-piece weavers and low-lying Champanagar units until the cocoon bank and yarn supply are proven.",
+ "title": "Bhagalpur silk weaving & sarees: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Bhagalpur silk is a power-loom and handloom weaving trade that converts bought-in silk yarn into sarees and fabric, and the district does not produce its own yarn.** Weavers depend on intermediaries for reshami thread, and those intermediaries charge heavily when yarn is scarce [2]. Most weavers work on others' orders for piece wages of about Rs 300-400 a day, so they are labour, not borrowers [3]. The real lending units are the trader-mahajans who hold the order book and the few weavers who own looms and buy yarn. ## Where cash and value sit\n**Value sits in the finished saree and the order, not in the loom.** Working capital is inventory-led: yarn must be bought ahead, fabric takes time on the power loom, and receivables follow festive and wedding orders [9]. The sector is fixed- and working-capital intensive, so funding needs are high [8]. Pricing power is weak because weavers do not get the right price for cloth [2]. So when a proposal lands, check who holds the yarn stock and who carries the unsold saree; if the borrower is only a wage weaver, ask why he needs a loan at all. The structural break is yarn: no local spinning means middlemen set the price [2]. The district administration is setting up a cocoon bank and discussing stalls so weavers can sell directly [2]; that source carries a 2024 update date, so treat it as old. Local coverage is thin on borrower-level numbers, so lean on first principles and peers. ## Where to grow\n**Bihar's electricity demand is running 14.1% Apr-to-date against India's 9.5%, a real local tailwind for power-loom capacity [D].** Pursue loom-owning weavers and trader-mahajans with confirmed festive and wedding orders, and units in high-ground locations. Avoid wage-piece weavers, Champanagar low-lying sheds, and anyone whose yarn comes only from a single middleman. Peer Sai Silks held gross margins at 42% in Q1 FY2027 even with flat revenue [4], and Siyaram saw demand spike only around key events [7] — so underwrite occasion demand, not steady demand. ## How to grow safely\n**Structure against yarn and flood, not against hope.** Take hypothecation of yarn and finished stock, and a charge on the loom. Keep tenor short and matched to the order cycle. Take every month: stock statement, order register, yarn purchase bills, and loom-running days. Ask for flood-level photos of the unit. ICRA notes that low leverage and longer-tenor term debt improve coverage in downturns [10], so size term loans to the borrower's cash flow, not to the loom's price. ## Early-warning signs\n- **Order cancellations or delayed delivery** (monthly): two cancellations in a quarter -> freeze fresh limits and inspect stock. - **Yarn price paid to middlemen** (monthly): a sharp rise without a matching saree price -> shift to cash-margin lending. - **Loom idle days** (weekly in monsoon): water in the shed -> stop disbursal and move the borrower to a safer site. - **Stock ageing** (monthly): unsold sarees past one festive season -> demand stock auction before renewing. - **Electricity connection status** (quarterly): disconnection -> treat as a stress signal and recall."
+ ],
+ "watch": [
+  [
+   "Order register and cancellations (monthly)",
+   "two cancellations in a quarter -> freeze fresh limits and inspect stock"
+  ],
+  [
+   "Yarn purchase bills and price (monthly)",
+   "sharp yarn price rise without saree price pass-through -> shift to cash-margin lending"
+  ],
+  [
+   "Loom running days and flood level (weekly in monsoon)",
+   "water in shed -> stop disbursal, relocate unit"
+  ],
+  [
+   "Finished stock ageing (monthly)",
+   "unsold sarees past one festive season -> require stock auction before renewal"
+  ],
+  [
+   "Electricity connection status (quarterly)",
+   "disconnection -> treat as stress and recall"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Flood shut looms in Champanagar and cancelled Rs 1.5-2 crore of orders [3].",
+ "articles": [
+  {
+   "title": "भागलपुर का हुनर चमकेगा; सिल्क, मंजूषा और जर्दालू आम से संबंधित उत्पादों का स्टॉल सजेगा - Bhagalpur News",
+   "url": "https://www.bhaskar.com/local/bihar/bhagalpur/news/bhagalpur39s-talent-will-shine-stalls-will-be-set-up-for-silk-manjusha-and-zardalu-mango-products-dbp-139305766.html",
+   "date": "2026-10-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Bihar: फिर से मचेगी भागलपुरी सिल्क की धूम, बुनकरों की समस्या को लेकर जिला प्रशासन की बड़ी तैयारी - विज्ञापन",
+   "url": "https://hindi.news24online.com/state/bihar/bhagalpuri-silk-will-be-in-demand-again-district-administration-is-making-big-preparations-to-address-the-problems-of-weavers/952285/#1",
+   "date": "2026-09-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "बाढ़ ने तोड़ी भागलपुर के सिल्क कारोबारियों की कमर, 2 करोड़ के ऑर्डर कैंसिल - Advertisement",
+   "url": "https://hindi.news18.com/news/bihar/bhagalpur-bhagalpur-silk-business-flood-powerloom-weavers-order-cancelled-local18-10838818.html#1",
+   "date": "2026-09-15",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Sai Silks (Kalamandir) (NSE:KALAMANDIR) Earnings Call Transcripts - Sai Silks (Kalamandir) Limited (NSE:KALAMANDIR)",
+   "url": "https://stockanalysis.com/quote/nse/KALAMANDIR/transcripts/#1",
+   "date": "2026-07-15",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sai Silks (Kalamandir) (NSE:KALAMANDIR) Q2 2026 Earnings Call Transcript & Audio - Sai Silks (Kalamandir) Limited (NSE:KALAMANDIR)",
+   "url": "https://stockanalysis.com/quote/nse/KALAMANDIR/transcripts/531688-q2-25-26/#main#1",
+   "date": "2025-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Sai Silks (Kalamandir) Limited - Q1 26/27 - July 16, 2026",
+   "url": "https://fiscal.ai/company/XNSE_KALAMANDIR/investor-relations/Q1-2027/#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "SIYSIL Q3-2026 Earnings Call - Siyaram Silk Mills Ltd NSE:SIYSIL",
+   "url": "https://www.alphaspread.com/security/nse/siysil/investor-relations/earnings-call/q3-2026#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Advisory",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Rmkv%20Silks%20Private%20Limited-RA-11-10-2022.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 83 x 0.6 + Bihar 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Bihar: electricity demand +14.1% Apr-to-date vs India +9.5% (4.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

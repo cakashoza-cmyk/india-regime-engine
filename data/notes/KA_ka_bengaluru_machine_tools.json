@@ -1,0 +1,154 @@
+{
+ "key": "ka_bengaluru|machine_tools",
+ "state": "KA",
+ "city": "ka_bengaluru",
+ "ind": "machine_tools",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 88,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Bengaluru machine tools — back established component and sub-assembly makers selling into the local OEM build-out, structure against inventory and receivable cycles, and decline thin-capitalised traders and stressed PSU-linked names.",
+ "title": "Bengaluru machine tools: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A machine-tool unit converts castings, spindles, drives and controllers into a machine that a customer uses to cut metal, and cash comes back only after the machine is built, dispatched, installed and accepted.** Build cycles are long and lumpy — peer management flags that large machines take longer to build and revenue recognition slips [4]. So when a proposal lands, check the order book's age and the acceptance/installation terms, not just the invoice pipeline.",
+  "## Where value and cash sit\n**Value sits in the controller and precision sub-assemblies; cash sits in work-in-progress and receivables, not in the shop floor.** Peers show the operating leverage is real when volumes run — Macpower posted Q2 FY27 revenue of Rs 120.33 crore, up 40.39% YoY, at a 16.56% EBITDA margin [5], while Jyoti's Q1 FY27 standalone revenue grew 37% to Rs 107 crore [7]. But a rating report on a peer flags continuing overdrawals of more than 30 days in cash credit and an elongated receivables cycle [9] — so when a proposal lands, check CC utilisation and debtor days first; if the CC account has been overdrawn beyond 30 days, ask for the receivable ageing and the top-five buyer payment record before anything else.",
+  "## What has changed now\n**Bengaluru has just become a machine-tool production city, not only a buyer city.** DN Solutions opened its first India plant here at an investment of Rs 600 crore [2], with local production of machining and turning centres [1]. Separately, Ethereal Machines raised $28.5 million Series B to build a mega factory near Bengaluru and develop a multi-axis CNC controller [3]. The demand backdrop is firm: IIP for NIC 28 output is +10.3% YoY and +10.4% Apr-to-date [D], and Karnataka's GST collections are running +11.1% Apr-to-date against India's +6.1% [D]. Note the rating reports [8][9][10][11] carry no clear date and should be read as background, not current.",
+  "## Who to pursue, who to avoid\n**Pursue tier-2 component and sub-assembly makers — castings, sheet-metal enclosures, spindles, tooling — that sell to the incoming OEM and to established machine builders, plus machining-as-a-service shops with a controller of their own.** Avoid pure traders of imported machines and thin-capitalised assemblers with no controller capability; the import-substitution room peers describe [4] accrues to firms with design depth, not to resellers.",
+  "## How to grow safely\n**Structure against the cycle: cash credit sized to a documented WIP-plus-receivable cycle, a term loan matched to the machine's build-and-acceptance timeline, and a monthly stock-and-debtor statement as a condition.** Take the order book position, CC utilisation and debtor ageing every month. If inventory has been built ahead of a ramp-up — as one peer has done for its 10,000-machine expansion [4] — ask what funds the carrying cost."
+ ],
+ "watch": [
+  [
+   "CC utilisation and debtor ageing (monthly)",
+   "overdrawn beyond 30 days or debtor days rising -> freeze enhancement, seek receivable-backed structure"
+  ],
+  [
+   "Order book and dispatch schedule (monthly)",
+   "acceptance slippage or cancellations -> re-rate the borrower's cycle and resize limits"
+  ],
+  [
+   "Inventory build vs sales (monthly)",
+   "stock rising faster than dispatches -> ask what funds the carrying cost"
+  ],
+  [
+   "Top-five buyer concentration (quarterly)",
+   "single buyer above half of sales -> cap exposure and seek diversification plan"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "New Bengaluru machine-tool plant and local funding expand the borrower base.",
+ "articles": [
+  {
+   "title": "DN Solutions Opens First India Plant in Bengaluru",
+   "url": "https://themachinemaker.com/news/dn-solutions-opens-first-india-plant-in-bengaluru/",
+   "date": "2026-08-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "South Korean machine tool company DN Solutions opens its first India plant in Bengaluru at an investment of Rs 600 crore - After inaugurating the facility, Industries Minister MB Patil said, “Karnataka is at a transition point, moving from a services-...",
+   "url": "https://www.deccanherald.com/business/companies/south-korean-machine-tool-company-dn-solutions-opens-its-first-india-plant-in-bengaluru-at-an-investment-of-rs-600-crore-4125139#1",
+   "date": "2026-08-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ethereal Machines raises $28.5 million in Series B led by Avataar Ventures to scale precision manufacturing - CNBC TV18 - Ethereal Machines raises $28.5 million in Series B led by Avataar Ventures to scale precision manufacturing",
+   "url": "https://www.cnbctv18.com/business/ethereal-machines-raises-28-5-million-dollars-in-series-b-led-by-avataar-ventures-to-scale-precision-manufacturing-ws-l-19923663.htm#1",
+   "date": "2026-06-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Jyoti CNC Automation Q1 2027 shares fall 9.3% By Investing.com - Earnings call transcript: Jyoti CNC Automation Q1 2027 shares fall 9.3%",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-jyoti-cnc-automation-q1-2027-shares-fall-93-93CH-4846634#1",
+   "date": "2026-08-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Macpower CNC Machines Ltd (NSE:MACPOWER) (Q2 2027) Earnings Call Highlights: Record Revenue, ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/macpower-cnc-machines-ltd-nse-190159148.html",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Jyoti CNC Automation Concall Summary: Key Highlights and Q4 FY26 Results",
+   "url": "https://www.sovrenn.com/knowledge/jyoti-cnc-automation-concall-summary-key-highlights-and-q4-fy-26-results",
+   "date": "2026-06-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Jyoti CNC Automation Ltd (NSE:JYOTICNC) (Q1 2027) Earnings Call Highlights: Robust Order Book ... By GuruFocus - Jyoti CNC Automation Ltd (NSE:JYOTICNC) (Q1 2027) Earnings Call Highlights: Robust Order Book ...",
+   "url": "https://ca.investing.com/news/company-news/jyoti-cnc-automation-ltd-nsejyoticnc-q1-2027-earnings-call-highlights-robust-order-book--4791037#1",
+   "date": "2026-08-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 29,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=138629#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "HMT Machine Tools Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/02032023065118_HMT_Machine_Tools_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| Vendor invests in tooling funded through advances from OEM; Tooling remains on vendor’s gross block | Vendor invests in toolin...",
+   "url": "http://www.icra.in/Files/ticker/05092011-n-Indian_Auto_%20Com..pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "**August 27, 2024**",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=129582#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 88 (national 80 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Karnataka: GST collections +11.1% Apr-to-date vs India +6.1% (5.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Karnataka: electricity demand +23.3% Apr-to-date vs India +9.5% (13.8 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

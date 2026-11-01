@@ -1,0 +1,155 @@
+{
+ "key": "ka_mysuru|silk_weaving",
+ "state": "KA",
+ "city": "ka_mysuru",
+ "ind": "silk_weaving",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Mysuru silk weaving and sarees, but only to weaver-retailers with own working capital and verified local sales; avoid units whose cash depends on KSIC's strike-hit showroom chain.",
+ "title": "Mysuru silk weaving & sarees: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Mysuru silk unit buys raw silk and zari, weaves or gets woven sarees, and sells through showrooms and local buyers; cash comes back only when the saree sells.** KSIC's own filature at T. Narsipura runs 250 kg of raw silk a day, feeding weaving units in Mysuru and Channapatna [2]. So when a proposal lands, check whether the borrower buys yarn on cash or credit and who actually holds the finished saree stock; if the stock sits in a third-party showroom, ask for the consignment agreement and the last six months of stock statements.",
+  "## Where value and cash sit\n**Value sits in the saree, not the loom, and the working-capital cycle is the whole credit story.** Rating methodology flags weaving as fixed-capital and working-capital intensive, with inventory holding and receivables driving the working-capital need [8][9]. So when a proposal lands, check inventory days and receivable days against the borrower's own prior year; if inventory days are rising while sales are flat, ask which designs are not moving and at what discount they will be cleared.",
+  "## What has broken now\n**KSIC, the anchor brand, is disrupted: all 1,052 employees of its three units stopped production and all 13 showrooms ran with empty racks [3].** Separately, the government has discussed stopping online sale of Mysuru silk sarees in favour of local sale [1]. Both items are local news from February-March 2026 and may have moved since; collect from customer the current KSIC supply position. Peer Sai Silks reported Q1 FY2027 revenue flat at INR 375 crore with same-store sales down 7.5%-7.8% [4], and Siyaram saw occasion-driven demand with moderate footfall in Q3 FY2026 [7]. So when a proposal lands, check how much of the borrower's sales went to KSIC or its showrooms; if it is a large share, ask for the replacement buyer and the credit terms.",
+  "## Where to grow\n**Karnataka is running ahead of India: GST collections up 11.1% Apr-to-date against 6.1% nationally, and electricity demand up 23.3% against 9.5% [D].** Pursue weaver-retailers with their own showroom, wedding-season order books and a second buyer channel; Sai Silks names Karnataka as the front lead in its expansion [6]. Avoid pure job-work units with one buyer and no stock of their own.",
+  "## How to grow safely\n**Structure against the inventory, not the loom.** Take monthly stock and receivable statements, a quarterly sales register by channel, and annual GST returns; covenant that inventory days and receivable days stay within the sanction note. Rating reports stress that low leverage and longer-tenure term debt protect coverage [10], and that TUFS interest subsidy runs seven years from sanction [10]. So price term loans to the subsidy tenure; if the borrower wants a longer tenor, ask for the repayment source beyond the subsidy.",
+  "## Early-warning signs\n**Watch the buyer mix and the stock, not the order book.** A rising share of sales to KSIC-linked channels, discount-led clearing of old designs, or stock statements that stop matching showroom sales are the first signals. Collect from customer the monthly sales by channel and the age-wise stock; if either slips for two months, ask for the buyer-wise ledger before renewing."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Inventory days rise two months running -> ask for age-wise stock and design-wise discount"
+  ],
+  [
+   "Monthly sales by channel",
+   "KSIC-linked share crosses the sanctioned limit -> seek replacement buyer and revise limit"
+  ],
+  [
+   "Quarterly GST returns",
+   "Turnover falls below the sanctioned projection -> reprice or reduce limit"
+  ],
+  [
+   "Annual leverage and coverage",
+   "Leverage rises above the sanction note -> require promoter infusion before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "KSIC strike emptied all 13 showrooms and halted production, hitting the anchor buyer.",
+ "articles": [
+  {
+   "title": "ಮೈಸೂರು ಸಿಲ್ಕ್ ಸೀರೆಯ ಆನ್ಲೈನ್ ಮಾರಾಟ ನಿಲ್ಲಿಸಿ, ಸ್ಥಳೀಯ ಮಾರಾಟಕ್ಕೆ ಚಿಂತನೆ: ಸಚಿವ ಕೆ.ವೆಂಕೆಟೇಶ್ - ಮೈಸೂರು ಸಿಲ್ಕ್ ಸೀರೆಯ ಆನ್ಲೈನ್ ಮಾರಾಟ ನಿಲ್ಲಿಸಿ, ಸ್ಥಳೀಯ ಮಾರಾಟಕ್ಕೆ ಚಿಂತನೆ: ಸಚಿವ ಕೆ.ವೆಂಕೆಟೇಶ್",
+   "url": "https://www.etvbharat.com:443/kn/state/mysuru-silk-saree-discussion-in-the-session-karnataka-news-kas26030902916#1",
+   "date": "2026-03-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "KSIC planning to double capacity at its filature factory in T. Narsipura - KSIC planning to double capacity at its filature factory in T. Narsipura",
+   "url": "https://www.thehindu.com/news/national/karnataka/ksic-planning-to-double-capacity-at-its-filature-factory-in-t-narsipura/article70723078.ece#1",
+   "date": "2026-03-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "KSIC employees continue stir: Mysore silk saree lovers greeted with empty racks at showrooms - KSIC Showroom closed at KSIC unit premises in Mysuru on Friday",
+   "url": "https://www.deccanherald.com/india/karnataka/ksic-employees-continue-stir-mysore-silk-saree-lovers-greeted-with-empty-racks-at-showrooms-3914637#1",
+   "date": "2026-02-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sai Silks (Kalamandir) (NSE:KALAMANDIR) Earnings Call Transcripts - Sai Silks (Kalamandir) Limited (NSE:KALAMANDIR)",
+   "url": "https://stockanalysis.com/quote/nse/KALAMANDIR/transcripts/#1",
+   "date": "2026-07-15",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sai Silks (Kalamandir) (NSE:KALAMANDIR) Q2 2026 Earnings Call Transcript & Audio - Sai Silks (Kalamandir) Limited (NSE:KALAMANDIR)",
+   "url": "https://stockanalysis.com/quote/nse/KALAMANDIR/transcripts/531688-q2-25-26/#main#1",
+   "date": "2025-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Sai Silks (Kalamandir) Limited - Q1 26/27 - July 16, 2026",
+   "url": "https://fiscal.ai/company/XNSE_KALAMANDIR/investor-relations/Q1-2027/#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SIYSIL Q3-2026 Earnings Call - Siyaram Silk Mills Ltd NSE:SIYSIL",
+   "url": "https://www.alphaspread.com/security/nse/siysil/investor-relations/earnings-call/q3-2026#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Advisory",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Rmkv%20Silks%20Private%20Limited-RA-11-10-2022.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 83 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Karnataka: GST collections +11.1% Apr-to-date vs India +6.1% (5.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Karnataka: electricity demand +23.3% Apr-to-date vs India +9.5% (13.8 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
