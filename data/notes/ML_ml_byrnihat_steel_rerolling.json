@@ -1,0 +1,154 @@
+{
+ "key": "ml_byrnihat|steel_rerolling",
+ "state": "ML",
+ "city": "ml_byrnihat",
+ "ind": "steel_rerolling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 37,
+ "nudged_by_news": false,
+ "verdict": "Avoid new steel re-rolling/TMT exposure in Byrnihat until pollution-compliance status and GST-linked demand are verified; lend only to compliant, branded, backward-integrated units with tight structure.",
+ "title": "Byrnihat steel re-rolling & TMT: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA Byrnihat re-roller buys sponge iron, scrap and billets, melts and rolls them into TMT bars, and sells to builders, dealers and government contractors. **Cash is made on the spread between input cost and TMT realisation, not on volume alone.** The town sits on the Assam-Meghalaya border and hosts a dense cluster of factories; Frontline reports unchecked expansion has poisoned air and water, and cites the IQAir 2024 report calling Byrnihat the world's most polluted metropolitan area with PM2.5 of 128.2 micrograms per cubic metre against a WHO guideline of 5 [2]. **That environmental load is now a credit fact, not a CSR issue.**\n\n## What has changed now\nIn July 2026 the Meghalaya High Court criticised the state pollution board for ignoring a March report on Byrnihat air quality and demanded urgent action [1]. **Regulatory action can stop a furnace, and a stopped furnace still services debt.** Meghalaya GST collections are down 14.8% Apr-to-date against India's +6.1% [D] — a local demand signal that sits badly with a re-roller's dependence on state construction. Brent at $113/bbl is above the $75–100 band [D], which raises power and freight cost for a rolling mill. **So when a proposal lands, check the unit's consent-to-operate validity and any pollution-board notice; if consent is expired or under challenge, ask for the compliance plan and stop.**\n\n## Where the growth is\nPeer results show the TMT market itself is not dead: Steel Exchange India clocked ~₹340 crore revenue in Q2 FY27, up ~45% YoY [6], and Rathi Steel & Power reported over ₹200 crore, up over 30% YoY with volume growth of ~28.86% [7]. JSW Steel's Q1 FY27 EBITDA margin was 20% [5]. **Pursue branded TMT makers with dealer networks and backward integration into billets; avoid pure job-work rollers with no brand and no captive power.** Rating reports flag that sudden input-price swings hit margins [10] and that working capital needs are moderately high [11] — so structure limits against inventory and receivables, not against hope.\n\n## How to grow safely\nTake monthly stock and receivable statements, GST returns, and electricity bills — power draw is the cleanest proxy for actual rolling days. **Set the drawing power on a stock-and-book-debt basis and covenant a minimum interest coverage and a cap on gearing; Kubair's gearing moved to 1.80x from 1.40x on debt-funded acquisition and higher working capital borrowings [10].** Ask for the pollution-board consent renewal date and the unit's captive power share; collect from customer where these are not on file.\n\n## Early-warning signs\n- Monthly GST filed vs stock statement mismatch (monthly) -> freeze limit and inspect godown.\n- Electricity units consumed falling while sales reported flat (monthly) -> ask for production log and re-rate.\n- Pollution-board notice or consent lapse (event-based) -> stop disbursement until clearance.\n- Receivable days stretching beyond sanctioned cycle (monthly) -> shift to cash-backed sales."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs stock statement",
+   "mismatch >10% -> freeze limit and inspect godown"
+  ],
+  [
+   "Monthly electricity consumption",
+   "fall with flat sales -> demand production log, re-rate"
+  ],
+  [
+   "Pollution-board consent status (event-based)",
+   "notice or lapse -> stop disbursement until clearance"
+  ],
+  [
+   "Receivable days (monthly)",
+   "stretch beyond cycle -> move to cash-backed sales"
+  ],
+  [
+   "Input price vs TMT realisation (weekly)",
+   "spread compression -> review drawing power"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "High Court pollution action plus 14.8% GST decline in Meghalaya outweighs peer revenue growth.",
+ "articles": [
+  {
+   "title": "Meghalaya High Court Rips Pollution Board Over Byrnihat Air Quality",
+   "url": "https://newire.in/articles/meghalaya-high-court-rips-pollution-board-over-byrnihat-air-quality",
+   "date": "2026-07-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Byrnihat and the Cost of Unregulated Industrial Growth - Sections",
+   "url": "https://frontline.thehindu.com/photo-essay/byrnihat-industrial-pollution-public-health-crisis/article70493712.ece?utm_source=relatedstories&utm_medium=article&utm_campaign=trackRelArt#1",
+   "date": "2026-01-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "maithan alloys defers closure of its byrnihat unit",
+   "url": "https://www.capitalmarket.com/markets/news/corporate-news/maithan-alloys-defers-closure-of-its-byrnihat-unit/1629574",
+   "date": "2025-08-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Date: 15.05.2026",
+   "url": "https://www.valueresearchonline.com/stories/E551027B-7079-4BD8-9EAB-1A1BBC970871/news-announcement/?_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up By Investing.com - Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up",
+   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-jsw-steel-posts-strong-q1-2026-results-as-shares-edge-up-93CH-4776425#1",
+   "date": "2026-07-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-bar Production - www.lokmattimes.com - Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-...",
+   "url": "https://www.lokmattimes.com/business/steel-exchange-india-limited-clocks-approximately-rs340-crore-revenue-in-q2-fy27-up-45-yoy-and-25-qoq-driven-by-record-re-bar-production/#1",
+   "date": "2026-10-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY - www.lokmattimes.com - Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY",
+   "url": "https://www.lokmattimes.com/business/rathi-steel-and-power-limited-q2-fy27-revenue-at-over-rs-200-cr-growth-of-over-30-yoy-sales-volume-growth-at-2886-yoy/#1",
+   "date": "2026-10-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 21,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126379#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 24, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/118079~Captain%20Steel%20India%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Kubair Steel and Power LLP",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121249_Kubair_Steel_and_Power_LLP.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Moderately high working capital requirements; although adequately supported by bank lines: Company has moderately high working...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/M%20S%20Metals%20And%20Steels%20Private%20Limited-RU-19-07-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 37 (national 45 x 0.6 + Meghalaya 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Meghalaya: GST collections -14.8% Apr-to-date vs India +6.1% (20.9 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "Meghalaya: electricity demand +10.2% Apr-to-date vs India +9.5% (0.7 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

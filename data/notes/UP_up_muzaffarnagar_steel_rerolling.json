@@ -1,0 +1,158 @@
+{
+ "key": "up_muzaffarnagar|steel_rerolling",
+ "state": "UP",
+ "city": "up_muzaffarnagar",
+ "ind": "steel_rerolling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 57,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to compliant, branded TMT re-rollers with clean pollution records and verified scrap-linked working capital; avoid slag-crushing units and operators under pollution-board action.",
+ "title": "Muzaffarnagar steel re-rolling & TMT: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA re-rolling mill buys iron scrap, melts or reheats it, and rolls TMT bars sold into local construction demand.",
+  "## Where value and cash sit\nValue sits in brand premium and conversion margin; cash sits in inventory and receivables. **Working capital is the real risk, not the furnace.** Rating reports flag sudden price fluctuations hitting margins [10] and moderately high working-capital needs supported by bank lines [11]. So structure limits against a drawing-power cycle, not peak inventory; if the borrower seeks a limit above the assessed cycle, ask for the last twelve months of stock statements and debtor ageing.",
+  "## What has broken locally\nLocal enforcement is active. Three slag-crushing units were shut down in Muzaffarnagar in late October 2026 [1], and the pollution board raided Rana Steel and Sarvottam Rolling Mill and recommended action in early October 2026 [3]. **Compliance status is now a credit variable, not a paperwork item.** When a proposal lands, check the consent-to-operate validity and any pending pollution-board action; if there is an open raid or closure recommendation, ask for the board's order copy before any limit is renewed.",
+  "## Where growth is\nState demand is the tailwind: Uttar Pradesh GST collections rose 14.2% Apr-to-date versus India's 6.1% [D], and India-wide IIP for NIC 24 (basic metals) rose 2.4% YoY to August 2026 [D]. Peer results confirm volume pull: Steel Exchange India reported ~₹340 crore Q2 FY27 revenue, up ~45% YoY [6], and Rathi Steel over ₹200 crore, up over 30% YoY [7]. **Pursue branded TMT re-rollers with own rolling capacity and clean consents; avoid slag crushers and units under closure.** Note the ICRA reports on MITC and Captain Steel are from 2024 and 2023 [8][9] and are dated; treat them as background only.",
+  "## How to grow safely\nTake monthly stock and debtor statements, quarterly GST returns, and a half-yearly pollution-consent copy. **Covenant the consent-to-operate and a minimum interest-coverage floor.** If the borrower cannot produce a current consent, ask for the renewal application and hold disbursement. Sources say little specific to Muzaffarnagar's mill-level finances, so lean on first principles and these peers."
+ ],
+ "watch": [
+  [
+   "Pollution-board consent status (quarterly)",
+   "Consent lapsed or action recommended -> freeze renewal and seek board order"
+  ],
+  [
+   "Scrap procurement rate vs local print (monthly)",
+   "Rate diverges from ₹35.77/kg [2] without invoice support -> ask for weighbridge slips"
+  ],
+  [
+   "Stock and debtor statement (monthly)",
+   "Inventory or receivables exceed assessed cycle -> cut limit and seek ageing"
+  ],
+  [
+   "GST returns (quarterly)",
+   "Turnover falls below sanctioned projection -> reassess drawing power"
+  ],
+  [
+   "Interest coverage (half-yearly)",
+   "Falls below covenant floor -> escalate to restructuring review"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local pollution raids and slag-unit shutdowns raise compliance and closure risk for Muzaffarnagar mills.",
+ "articles": [
+  {
+   "title": "Muzaffarnagar News: तीन स्लैग क्रशिंग इकाई पर कार्रवाई, संचालन कराया बंद",
+   "url": "https://www.amarujala.com/uttar-pradesh/muzaffarnagar/operations-at-the-slag-crushing-unit-have-been-shut-down-muzaffarnagar-news-c-29-1-mng1005-183909-2026-10-26",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Iron Scrap Rate Today Muzaffarnagar: ₹35.77/kg",
+   "url": "https://scraprates.in/muzaffarnagar/iron-scrap-price",
+   "date": "2026-10-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Muzaffarnagar News: राणा स्टील और सर्वोत्तम रोलिंग मिल पर प्रदूषण नियंत्रण बोर्ड का छापा",
+   "url": "https://www.livehindustan.com/uttar-pradesh/muzaffar-nagar/story-pollution-board-recommends-action-against-rana-steel-after-muzaffarnagar-raid-201791485949035.html",
+   "date": "2026-10-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Date: 15.05.2026",
+   "url": "https://www.valueresearchonline.com/stories/E551027B-7079-4BD8-9EAB-1A1BBC970871/news-announcement/?_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up By Investing.com - Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up",
+   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-jsw-steel-posts-strong-q1-2026-results-as-shares-edge-up-93CH-4776425#1",
+   "date": "2026-07-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-bar Production - www.lokmattimes.com - Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-...",
+   "url": "https://www.lokmattimes.com/business/steel-exchange-india-limited-clocks-approximately-rs340-crore-revenue-in-q2-fy27-up-45-yoy-and-25-qoq-driven-by-record-re-bar-production/#1",
+   "date": "2026-10-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY - www.lokmattimes.com - Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY",
+   "url": "https://www.lokmattimes.com/business/rathi-steel-and-power-limited-q2-fy27-revenue-at-over-rs-200-cr-growth-of-over-30-yoy-sales-volume-growth-at-2886-yoy/#1",
+   "date": "2026-10-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 21,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126379#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 24, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/118079~Captain%20Steel%20India%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Kubair Steel and Power LLP",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121249_Kubair_Steel_and_Power_LLP.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Moderately high working capital requirements; although adequately supported by bank lines: Company has moderately high working...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/M%20S%20Metals%20And%20Steels%20Private%20Limited-RU-19-07-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 57 (national 45 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Uttar Pradesh: electricity demand +8.6% Apr-to-date vs India +9.5% (0.9 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +3.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

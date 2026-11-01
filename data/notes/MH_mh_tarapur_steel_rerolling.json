@@ -1,0 +1,154 @@
+{
+ "key": "mh_tarapur|steel_rerolling",
+ "state": "MH",
+ "city": "mh_tarapur",
+ "ind": "steel_rerolling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 47,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to re-rollers with own conversion margin and tight working-capital control; avoid pure merchant billet-to-TMT converters with thin spreads and leveraged balance sheets.",
+ "title": "Tarapur steel re-rolling & TMT: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Tarapur re-roller buys billets or scrap, heats and rolls them into TMT bars, and sells to builders, dealers and infrastructure contractors. **Cash is made on the conversion spread, not on the steel price** — the mill earns a fixed rolling margin per tonne while the billet price passes through. So when a proposal lands, check the conversion margin per tonne and the billet-to-TMT spread; if the spread is thin, ask how the unit protects margin (back-to-back orders, brand premium, value-added grades). Tarapur MIDC is primarily a chemicals and pharma cluster, with steel concentrated at Wada nearby [1]; local steel-specific data is thin, so lean on first principles and peer results.",
+  "## Where value and cash sit\nValue sits in brand and dealer network, not in the furnace. Captain Steel built a premium over market through brand ambassadors and national advertising [9], and that premium is the buffer when spreads compress. **Working capital is the real risk: inventory of billets plus 30-60 day dealer receivables tie up cash**, and rating reports flag moderately high working-capital needs supported by bank lines [11] and leveraged structures where gearing rose to 1.80x from 1.40x on debt-funded expansion [10].",
+  "## What has changed now\nThe data pack reads Caution at 47 [D]. Maharashtra GST collections are running 8.6% Apr-to-date versus India's 6.1% [D] — a genuine local demand tailwind — but electricity demand is up only 6.0% versus India's 9.5% [D], a local stress signal that industrial activity in the state is lagging. India-wide IIP for NIC 24 (basic metals) is +2.4% YoY and +3.4% Apr-to-date [D]. **Peer results are strong but not local**: Steel Exchange India posted ~₹340 crore Q2 FY27 revenue, up ~45% YoY [6]; Rathi Steel revenue over ₹200 crore, up over 30% YoY with volume up ~28.86% [7]; JSW Steel Q1 FY27 EBITDA margin 20% with gearing down to 0.42 [5]. These are large, integrated players — do not read them as Tarapur re-roller health.",
+  "## Where to grow, and how to grow safely\n**Pursue re-rollers with a branded TMT line, own dealer network, and part-integration (captive rolling plus power)** — the MITC-type partly integrated model that rating agencies reward for operational synergies [8]. Structure term loans with a moratorium matched to ramp-up, and take monthly stock-and-receivable statements, drawing-power reconciliation, and a quarterly conversion-margin certificate. **Take every month: stock statement, debtor ageing, and power-consumption units per tonne rolled** — units per tonne is the cleanest proxy for whether the mill is actually running.",
+  "## Early-warning signs\n- **Electricity units per tonne falling while sales rise** — possible trading rather than rolling; ask for the rolling-mill log. - **Dealer receivables stretching beyond 60 days** — check whether sales are being pushed on credit; tighten drawing power. - **Billet purchase price rising faster than TMT realisations** — margin squeeze; ask for the latest order book and spread."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Inventory days rise above 60 or receivables beyond 60 days -> freeze drawing power enhancement and seek debtor ageing"
+  ],
+  [
+   "Monthly power-consumption units per tonne",
+   "Units per tonne fall >10% while sales rise -> inspect rolling-mill log; possible trading not rolling"
+  ],
+  [
+   "Quarterly conversion margin certificate",
+   "Spread per tonne compresses below the sanctioned threshold -> reprice or reduce limit"
+  ],
+  [
+   "Monthly GST returns vs sales",
+   "GST turnover trails bank-statement sales by >10% -> investigate unrecorded sales or circular billing"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Maharashtra power demand lags India by 3.5 pp, signalling local industrial stress despite GST strength.",
+ "articles": [
+  {
+   "title": "Palghar Industries: Tarapur MIDC, Wada Steel and Vadhavan Port",
+   "url": "https://maharashtra.industry-focus.net/districts/palghar/",
+   "date": "2026-09-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tarapur: Latest News, Photos and Videos on Tarapur | ABP Majha",
+   "url": "https://marathi.abplive.com/topic/tarapur/page-3/amp",
+   "date": "2026-06-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Tarapur Works | JSW Steel",
+   "url": "https://www.jswsteel.in/facility/tarapur-works/",
+   "date": "2026-01-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Date: 15.05.2026",
+   "url": "https://www.valueresearchonline.com/stories/E551027B-7079-4BD8-9EAB-1A1BBC970871/news-announcement/?_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up By Investing.com - Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up",
+   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-jsw-steel-posts-strong-q1-2026-results-as-shares-edge-up-93CH-4776425#1",
+   "date": "2026-07-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-bar Production - www.lokmattimes.com - Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-...",
+   "url": "https://www.lokmattimes.com/business/steel-exchange-india-limited-clocks-approximately-rs340-crore-revenue-in-q2-fy27-up-45-yoy-and-25-qoq-driven-by-record-re-bar-production/#1",
+   "date": "2026-10-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY - www.lokmattimes.com - Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY",
+   "url": "https://www.lokmattimes.com/business/rathi-steel-and-power-limited-q2-fy27-revenue-at-over-rs-200-cr-growth-of-over-30-yoy-sales-volume-growth-at-2886-yoy/#1",
+   "date": "2026-10-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 21,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126379#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "February 24, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/118079~Captain%20Steel%20India%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Kubair Steel and Power LLP",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121249_Kubair_Steel_and_Power_LLP.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Moderately high working capital requirements; although adequately supported by bank lines: Company has moderately high working...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/M%20S%20Metals%20And%20Steels%20Private%20Limited-RU-19-07-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 47 (national 45 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Maharashtra: electricity demand +6.0% Apr-to-date vs India +9.5% (3.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +3.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,154 @@
+{
+ "key": "mh_jalna|steel_rerolling",
+ "state": "MH",
+ "city": "mh_jalna",
+ "ind": "steel_rerolling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 47,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to re-rollers with own working-capital discipline and water-secured supply; avoid thin-margin, single-customer units until monthly data proves otherwise.",
+ "title": "Jalna Steel Re-rolling & TMT: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nJalna is one of Maharashtra's main steel re-rolling centres, making TMT bars for houses and roads [1]. The unit buys billets or scrap, heats and rolls them into bars, and sells into construction demand. **Cash is made on the spread between input cost and bar price, not on volume alone.** Margins are thin and move with billet prices, so pricing power sits with branded players who command a premium over market rate [9]. Working capital is the real exposure: inventory plus receivables, and rating reports flag moderately high working-capital needs even where bank lines support them [11]. ## What has changed now\nWater is the local story. **So when a proposal lands, check the unit's water connection and source; if it depends on tankers or shared lines, ask for the backup plan before sanctioning.** The data pack is mixed: Maharashtra GST is running 2.5 pp faster than India, a local tailwind, but electricity demand is 3.5 pp slower than India, a stress signal [D]. India-wide steel output (NIC 24) grew 2.4% YoY and 3.4% Apr-to-date [D]. ## Where the growth is\nPeer results show the demand is real: Steel Exchange India clocked about Rs 340 crore revenue in Q2 FY27, up about 45% YoY [6], and Rathi Steel crossed Rs 200 crore, up over 30% YoY with volume up about 28.86% [7]. **Pursue re-rollers with branded TMT, diversified builder/dealer customers, and own billet linkage; avoid single-customer converters and units with no brand pull.** Note the peer numbers are national, not Jalna-specific; local sources say little about city-level volumes, so lean on first principles here. ## How to grow safely\nStructure against the working-capital cycle, not the fixed assets. **Take monthly stock and receivable statements, quarterly GST returns, and a billet purchase-versus-sales realisation sheet every month.** Set a drawing-power cap tied to inventory and receivables, and a covenant that gearing stays below the peer benchmark of 1.80x seen at Kubair [10]. Ask for the power bill each month; a fall in units consumed is the earliest sign of a furnace idling. ## Early-warning signs\n- Monthly power consumption falling while sales are reported flat (monthly) -> ask for furnace log and visit the plant. - Receivable days stretching beyond the sanctioned cycle (monthly) -> freeze further drawing power. - Billet purchase price rising faster than bar realisation (monthly) -> reprice or reduce exposure. - Water supply cut or tanker dependence emerging (quarterly) -> reassess production continuity."
+ ],
+ "watch": [
+  [
+   "Monthly power consumption",
+   "fall >15% with flat sales -> plant visit and stock audit"
+  ],
+  [
+   "Monthly receivable days",
+   "stretch beyond cycle -> freeze drawing power"
+  ],
+  [
+   "Monthly billet vs bar realisation",
+   "input rising faster than output price -> reduce exposure"
+  ],
+  [
+   "Quarterly GST returns",
+   "filing gap or turnover drop -> escalate to credit committee"
+  ],
+  [
+   "Water supply status (quarterly)",
+   "cut or tanker shift -> reassess continuity"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "State GST faster than India but power demand slower; steel output modest at 2.4% YoY.",
+ "articles": [
+  {
+   "title": "How to Get a Green Loan for a Steel Rolling Mill in Jalna",
+   "url": "https://senseible.earth/climate-intelligence/green-loan-steel-rolling-mill-jalna",
+   "date": "2026-10-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Jalna Steel Industry: जालन्याच्या स्टील उद्योगाला ‘जायकवाडी’चा आधार;दररोज चार एमएलडी पाणी; दहा मोठ्या कंपन्यांसह ; एकूण २५७ नळकनेक्शन",
+   "url": "https://www.esakal.com/marathwada/aurangabad/jalna-steel-industry-jayakwadi-dam-water-supply-industrial-production-drought-vss03",
+   "date": "2026-10-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Marathwada Industrial Zone: AURIC, Autos, Steel, Breweries and Seeds",
+   "url": "https://maharashtra.industry-focus.net/districts/marathwada-zone/",
+   "date": "2026-09-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Date: 15.05.2026",
+   "url": "https://www.valueresearchonline.com/stories/E551027B-7079-4BD8-9EAB-1A1BBC970871/news-announcement/?_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up By Investing.com - Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up",
+   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-jsw-steel-posts-strong-q1-2026-results-as-shares-edge-up-93CH-4776425#1",
+   "date": "2026-07-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-bar Production - www.lokmattimes.com - Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-...",
+   "url": "https://www.lokmattimes.com/business/steel-exchange-india-limited-clocks-approximately-rs340-crore-revenue-in-q2-fy27-up-45-yoy-and-25-qoq-driven-by-record-re-bar-production/#1",
+   "date": "2026-10-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY - www.lokmattimes.com - Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY",
+   "url": "https://www.lokmattimes.com/business/rathi-steel-and-power-limited-q2-fy27-revenue-at-over-rs-200-cr-growth-of-over-30-yoy-sales-volume-growth-at-2886-yoy/#1",
+   "date": "2026-10-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 21,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126379#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 24, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/118079~Captain%20Steel%20India%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Kubair Steel and Power LLP",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121249_Kubair_Steel_and_Power_LLP.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Moderately high working capital requirements; although adequately supported by bank lines: Company has moderately high working...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/M%20S%20Metals%20And%20Steels%20Private%20Limited-RU-19-07-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 47 (national 45 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Maharashtra: electricity demand +6.0% Apr-to-date vs India +9.5% (3.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +3.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

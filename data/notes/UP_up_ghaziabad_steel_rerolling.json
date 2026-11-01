@@ -1,0 +1,158 @@
+{
+ "key": "up_ghaziabad|steel_rerolling",
+ "state": "UP",
+ "city": "up_ghaziabad",
+ "ind": "steel_rerolling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 57,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to re-rollers with own scrap linkage and power backup; avoid single-mill, merchant-scrap-dependent units until pollution and power costs are verified.",
+ "title": "Ghaziabad steel re-rolling & TMT: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Ghaziabad re-roller buys iron scrap, melts or heats it, rolls billets into TMT bars, and sells to local builders and stockists. **Cash is made in the spread between scrap-in and rebar-out, not in volume.** Scrap is quoted at ₹37.48/kg in Ghaziabad [1], so when a proposal lands, check the unit's scrap purchase rate against this local print; if their landed cost is materially above it, ask who their supplier is and why.",
+  "## Where value and cash sit\n**Value sits in brand premium and power cost; cash sits in inventory days and debtor quality.** Branded TMT commands a premium over market rate [9], so ask for the brand's price differential and dealer list. Working capital is the real risk: peers carry moderately high working-capital needs supported by bank lines [11], and one peer's gearing deteriorated to 1.80x from 1.40x on debt-funded acquisition and higher working-capital borrowings [10]. So when a proposal lands, check inventory days and creditor days; if debtor days exceed creditor days by a wide gap, ask for the ageing and the top five buyers.",
+  "## What has changed now\n**The local tailwind is real but thin.** UP GST collections grew 14.2% Apr-to-date versus India's 6.1% [D], yet UP electricity demand grew 8.6% versus India's 9.5% [D] — neutral for power-intensive rolling. India-wide IIP for NIC 24 rose 2.4% YoY and 3.4% Apr-to-date [D]. Peer results are strong: Steel Exchange India posted ~₹340 crore Q2 FY27 revenue, up ~45% YoY [6], and Rathi Steel crossed ₹200 crore, up over 30% YoY [7]. **But local news is thin and one item is a pollution notice to a factory near the RTO office [2]; treat that as a compliance signal, not a demand signal.** The ICRA MITC note is from March 2024 [8] and the Captain Steel note from February 2023 [9] — both old; use them for structure, not current pricing.",
+  "## Who to pursue now\n**Pursue re-rollers with captive scrap sourcing, own or contracted power, and a branded TMT line.** These capture the brand premium [9] and survive scrap swings. **Avoid merchant-scrap-only single-mill units and any unit under a pollution notice [2] until consent is restored.** For the good ones, structure as a cash-flow term loan with a working-capital limit sized to inventory plus debtor days, not to turnover.",
+  "## How to grow safely and what to watch\n**Take stock and debtor statements every month, plus GST returns and electricity bills.** If monthly GST payment falls below the trailing three-month average, ask for the sales register. If electricity units consumed drop sharply without a stated shutdown, ask for the production log. If scrap purchase rate moves more than a few percent from the ₹37.48/kg local print [1], re-check the spread. If any pollution notice [2] escalates to closure, freeze fresh disbursement."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns (monthly)",
+   "GST payment below trailing 3-month average -> ask for sales register and debtor ageing"
+  ],
+  [
+   "Electricity bills (monthly)",
+   "Units consumed drop without stated shutdown -> ask for production log and order book"
+  ],
+  [
+   "Scrap purchase rate vs ₹37.48/kg local print [1] (weekly)",
+   "Landed scrap cost materially above local print -> ask supplier name and contract terms"
+  ],
+  [
+   "Pollution board notices [2] (event-based)",
+   "Notice escalates to closure direction -> freeze fresh disbursement"
+  ],
+  [
+   "Debtor days vs creditor days (quarterly)",
+   "Debtor days exceed creditor days by wide gap -> ask for top-five buyer ageing"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "UP GST tailwind offset by neutral power demand; peers strong but local news thin.",
+ "articles": [
+  {
+   "title": "Iron Scrap Rate Today Ghaziabad: ₹37.48/kg",
+   "url": "https://scraprates.in/ghaziabad/iron-scrap-price",
+   "date": "2026-10-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ghaziabad News: फैक्टरी के हैमर से थर्राया आरटीओ दफ्तर, प्रदूषण नियंत्रण बोर्ड ने भेजा नोटिस - Ghaziabad News: फैक्टरी के हैमर से थर्राया आरटीओ दफ्तर, प्रदूषण नियंत्रण बोर्ड ने भेजा नोटिस",
+   "url": "https://www.amarujala.com/delhi-ncr/ghaziabad/rto-office-shaken-by-factory-hammer-pollution-control-board-sends-notice-ghaziabad-news-c-30-gbd1036-985700-2026-09-26#1",
+   "date": "2026-09-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "tata steel ghaziabada : टाटा स्टील गाजियाबाद में सेफ्टी कनेक्ट",
+   "url": "https://sharpbharat.com/tata-steel-ghaziabada/",
+   "date": "2026-09-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Date: 15.05.2026",
+   "url": "https://www.valueresearchonline.com/stories/E551027B-7079-4BD8-9EAB-1A1BBC970871/news-announcement/?_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up By Investing.com - Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up",
+   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-jsw-steel-posts-strong-q1-2026-results-as-shares-edge-up-93CH-4776425#1",
+   "date": "2026-07-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-bar Production - www.lokmattimes.com - Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-...",
+   "url": "https://www.lokmattimes.com/business/steel-exchange-india-limited-clocks-approximately-rs340-crore-revenue-in-q2-fy27-up-45-yoy-and-25-qoq-driven-by-record-re-bar-production/#1",
+   "date": "2026-10-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY - www.lokmattimes.com - Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY",
+   "url": "https://www.lokmattimes.com/business/rathi-steel-and-power-limited-q2-fy27-revenue-at-over-rs-200-cr-growth-of-over-30-yoy-sales-volume-growth-at-2886-yoy/#1",
+   "date": "2026-10-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 21,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126379#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 24, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/118079~Captain%20Steel%20India%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Kubair Steel and Power LLP",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121249_Kubair_Steel_and_Power_LLP.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Moderately high working capital requirements; although adequately supported by bank lines: Company has moderately high working...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/M%20S%20Metals%20And%20Steels%20Private%20Limited-RU-19-07-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 57 (national 45 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Uttar Pradesh: electricity demand +8.6% Apr-to-date vs India +9.5% (0.9 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +3.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

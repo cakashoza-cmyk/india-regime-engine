@@ -1,0 +1,138 @@
+{
+ "key": "pb_mandi_gobindgarh|steel_rerolling",
+ "state": "PB",
+ "city": "pb_mandi_gobindgarh",
+ "ind": "steel_rerolling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 57,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to GST-compliant, branded or value-added TMT re-rollers with verified turnover and monthly stock statements; avoid unbranded, thin-margin units with leveraged balance sheets and unresolved GST classification.",
+ "title": "Mandi Gobindgarh steel re-rolling & TMT: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A re-roller buys sponge iron, scrap and billets, melts or reheats them, rolls TMT bars, and sells into construction demand within a few hundred kilometres.** Cash is made on the spread between input cost and re-bar price, not on volume alone; the Punjab GST take running +9.7% Apr-to-date against India's +6.1% [D] tells you local sales are moving faster than the national average, so demand at the gate is real. **The catch is that this spread is thin and moves weekly with scrap and billet prices**, which is why rating reports flag sudden price fluctuations as a direct margin risk [8].",
+  "## Where value and cash actually sit\n**Value sits in brand and in the conversion margin; cash sits in inventory and receivables.** A branded TMT player commands a premium over market rate through promotion and brand recall [7], while an unbranded re-roller sells at parity and lives on utilisation. Working capital is the real exposure: rating notes describe moderately high working capital requirements supported by bank lines [9], and gearing at one peer deteriorated to 1.80x from 1.40x on debt-funded acquisition and higher working capital borrowings [8]. **So when a proposal lands, check the inventory days and the creditor-to-debtor gap first; if the buyer list is dominated by government contractors with 90-day payment cycles, ask for the ageing and the bill-discounting history.**",
+  "## What has changed now\n**The live issue is GST treatment of the secondary steel sector, not demand.** Local industry bodies have written to the Union Finance Minister seeking simplification after consulting Mandi Gobindgarh and Khanna units [1], which tells you classification and compliance friction is a current operating cost for these borrowers. Peer results are strong but come from other states: Steel Exchange India reported ~₹340 crore Q2 FY27 revenue, up ~45% YoY [4], and Rathi Steel crossed ₹200 crore with ~28.86% volume growth [5]; JSW Steel's consolidated Q1 FY27 revenue was ₹47,364 crore at 20% EBITDA margin [3]. **Treat these as proof the TMT cycle is healthy, not as evidence about Gobindgarh margins; the local GST note [1] is the only city-specific signal and it is about compliance, not pricing.**",
+  "## Where to grow, and how to grow safely\n**Pursue re-rollers with GST-clean books, a branded or value-added product mix, and a captive or contracted billet source.** Avoid pure conversion job-workers with no brand and no raw-material linkage. Structure term debt against a defined capex with a moratorium matched to commissioning, and working capital against a drawing-power limit set from stock and debtor statements, not from projected turnover. **Take a monthly stock-and-debtor statement, a quarterly GST return reconciliation, and a monthly sales register by customer; if stock cover exceeds the sanctioned norm for two consecutive months, freeze the limit and inspect the yard.**",
+  "## Early-warning signs\n**Watch for falling realisation per tonne alongside rising inventory, and for gearing creeping past the peer range.** A move from 1.40x to 1.80x happened at one peer in a single year [8]; if your borrower shows the same direction, ask for the debt-funded asset and its ramp-up plan. **If GST classification disputes or refund delays appear in the borrower's filings, treat it as a cash-flow event, not a tax event, and reprice or resize the limit.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock and debtor statement",
+   "Stock cover above sanctioned norm for 2 months -> freeze limit and inspect yard"
+  ],
+  [
+   "Quarterly GST return vs sales register",
+   "Turnover mismatch above 10% -> seek explanation and re-rate exposure"
+  ],
+  [
+   "Monthly realisation per tonne",
+   "Falls for 2 consecutive months with rising inventory -> reduce drawing power"
+  ],
+  [
+   "Half-yearly gearing and interest coverage",
+   "Gearing moves toward 1.80x [8] -> ask for debt-funded asset plan before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Punjab GST +9.7% vs India +6.1% [D]; local GST simplification plea [1] is compliance friction, not demand shock.",
+ "articles": [
+  {
+   "title": "Simplify Gst For The Secondary Steel Sector: Kbs Sidhu Writes To Union Finance Minister After Consulting Mandi Gobindgarh And Khanna Industry",
+   "url": "https://jagratilahar.com/english/business/139361/-gst-secondarysteelsector-mandigobindgarh-khannaindustry-kbssidhu",
+   "date": "2026-10-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Date: 15.05.2026",
+   "url": "https://www.valueresearchonline.com/stories/E551027B-7079-4BD8-9EAB-1A1BBC970871/news-announcement/?_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up By Investing.com - Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up",
+   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-jsw-steel-posts-strong-q1-2026-results-as-shares-edge-up-93CH-4776425#1",
+   "date": "2026-07-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-bar Production - www.lokmattimes.com - Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-...",
+   "url": "https://www.lokmattimes.com/business/steel-exchange-india-limited-clocks-approximately-rs340-crore-revenue-in-q2-fy27-up-45-yoy-and-25-qoq-driven-by-record-re-bar-production/#1",
+   "date": "2026-10-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY - www.lokmattimes.com - Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY",
+   "url": "https://www.lokmattimes.com/business/rathi-steel-and-power-limited-q2-fy27-revenue-at-over-rs-200-cr-growth-of-over-30-yoy-sales-volume-growth-at-2886-yoy/#1",
+   "date": "2026-10-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 21,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126379#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 24, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/118079~Captain%20Steel%20India%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Kubair Steel and Power LLP",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121249_Kubair_Steel_and_Power_LLP.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Moderately high working capital requirements; although adequately supported by bank lines: Company has moderately high working...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/M%20S%20Metals%20And%20Steels%20Private%20Limited-RU-19-07-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 57 (national 45 x 0.6 + Punjab 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Punjab: GST collections +9.7% Apr-to-date vs India +6.1% (3.6 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Punjab: electricity demand +8.8% Apr-to-date vs India +9.5% (0.7 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +3.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 1
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

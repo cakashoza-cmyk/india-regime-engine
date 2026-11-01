@@ -1,0 +1,150 @@
+{
+ "key": "tn_salem|steel_rerolling",
+ "state": "TN",
+ "city": "tn_salem",
+ "ind": "steel_rerolling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 37,
+ "nudged_by_news": false,
+ "verdict": "Avoid new steel re-rolling and TMT exposure in Salem for now; lend only to branded, integrated re-rollers with verified power and scrap linkages, and only on tight monthly structure.",
+ "title": "Salem steel re-rolling & TMT: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Salem re-roller buys sponge iron, scrap and billets, melts or reheats, rolls TMT bars, and sells to dealers and builders. **Cash is made in the spread between scrap/billet cost and TMT realisation, not in volume.** Power and fuel are the swing cost; the rolling mill is the capex. Working capital sits in inventory (billets, finished bars) and dealer credit. **So when a proposal lands, check the conversion spread and power tariff first; if the unit cannot show a spread over billet cost, ask for the last six months of invoice-level realisation.**\n\n## What has changed now\nTamil Nadu GST collections fell 3.2% Apr-to-date against India's +6.1%, a 9.3 pp gap [D] — a local demand and compliance stress signal. Brent at $113/bbl sits above the $75–100 band [D], which raises freight and power-linked costs for a gas/oil-linked re-roller. **The data call is AVOID at 37 [D], and the local news flow does not offset it.** Salem's own coverage is thin: local reports are about government contractors chasing highway arrears [1], and the SAIL Salem and Salem Steel topic pages carry no usable operating data [2][3]. **Treat Salem-specific evidence as absent and lean on first principles plus peers.**\n\n## Where the growth is\nPeer results are strong and recent: Steel Exchange India clocked ~₹340 crore revenue in Q2 FY27, up ~45% YoY [6]; Rathi Steel reported over ₹200 crore, up over 30% YoY with volume up ~28.86% [7]; JSW Steel's Q1 FY27 EBITDA margin was 20% with gearing at 0.42 [5]. **Pursue branded TMT re-rollers with own billet linkage and dealer pull, not job-work rollers.** The ICRA note on Captain Steel shows brand ambassadors and national advertising command a premium over market rate [9] — that pricing power is the borrower type to back. **Take monthly stock-and-receivable statements, monthly power bills, and quarterly GST returns; if power consumption per tonne rises without a volume reason, ask for the furnace log.** Rating reports flag sudden price fluctuations hitting margins [10] and moderately high working capital needs [11]; the MITC and Kubair notes show leverage can move fast (gearing 1.80x from 1.40x) [10][8]. **So cap total debt at a level the conversion spread can service in a bad quarter, and take a personal guarantee plus hypothecation of stock.**\n\n## Early-warning signs\n- Monthly GST returns (monthly): two consecutive months of falling turnover with flat power draw -> stop fresh disbursement and inspect stock. - Power bill per tonne (monthly): a jump without a tariff revision -> ask for the revised cost sheet and re-price the limit. - Dealer receivable ageing (monthly): beyond the agreed credit period -> shift to cash-and-carry sales. - Billet purchase invoices (monthly): a shift to costlier spot buys -> check the spread and cut exposure."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns (monthly)",
+   "Two months of falling turnover with flat power draw -> stop fresh disbursement and inspect stock"
+  ],
+  [
+   "Power bill per tonne (monthly)",
+   "Jump without tariff revision -> ask for revised cost sheet and re-price limit"
+  ],
+  [
+   "Dealer receivable ageing (monthly)",
+   "Beyond agreed credit period -> shift borrower to cash-and-carry sales"
+  ],
+  [
+   "Billet purchase invoices (monthly)",
+   "Shift to costlier spot buys -> check conversion spread and cut exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "TN GST down 3.2% vs India +6.1%; Brent $113 above band; local Salem data thin.",
+ "articles": [
+  {
+   "title": "ஆட்சி மாறினாலும் காட்சி மாறவில்லையே - குமுறும் சேலம் மாவட்ட அரசு ஒப்பந்ததாரர்கள்",
+   "url": "https://tamil.samayam.com/tamil-nadu/news/salem-contractors-questioned-govt-officials-for-highways-dept-work-arrear-amount/articleshow/134937675.cms",
+   "date": "2026-10-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "sail salem plant: Latest News & Videos, Photos about sail salem plant | The Economic Times - Page 1 - Business News›sail salem plant",
+   "url": "https://economictimes.indiatimes.com/topic/sail-salem-plant#1",
+   "date": "2026-09-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Salem Steel: Latest News & Videos, Photos about Salem Steel | The Economic Times - Page 1 - Business News›Salem Steel",
+   "url": "https://economictimes.indiatimes.com/topic/Salem-Steel#1",
+   "date": "2026-09-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Date: 15.05.2026",
+   "url": "https://www.valueresearchonline.com/stories/E551027B-7079-4BD8-9EAB-1A1BBC970871/news-announcement/?_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up By Investing.com - Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up",
+   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-jsw-steel-posts-strong-q1-2026-results-as-shares-edge-up-93CH-4776425#1",
+   "date": "2026-07-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-bar Production - www.lokmattimes.com - Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-...",
+   "url": "https://www.lokmattimes.com/business/steel-exchange-india-limited-clocks-approximately-rs340-crore-revenue-in-q2-fy27-up-45-yoy-and-25-qoq-driven-by-record-re-bar-production/#1",
+   "date": "2026-10-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY - www.lokmattimes.com - Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY",
+   "url": "https://www.lokmattimes.com/business/rathi-steel-and-power-limited-q2-fy27-revenue-at-over-rs-200-cr-growth-of-over-30-yoy-sales-volume-growth-at-2886-yoy/#1",
+   "date": "2026-10-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 21,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126379#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "February 24, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/118079~Captain%20Steel%20India%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Kubair Steel and Power LLP",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121249_Kubair_Steel_and_Power_LLP.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Moderately high working capital requirements; although adequately supported by bank lines: Company has moderately high working...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/M%20S%20Metals%20And%20Steels%20Private%20Limited-RU-19-07-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 37 (national 45 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "Tamil Nadu: electricity demand +9.8% Apr-to-date vs India +9.5% (0.3 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

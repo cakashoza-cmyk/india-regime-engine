@@ -1,0 +1,150 @@
+{
+ "key": "pb_ludhiana|steel_rerolling",
+ "state": "PB",
+ "city": "pb_ludhiana",
+ "ind": "steel_rerolling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 57,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to re-rollers with own working-capital discipline and a Tata-linked or branded TMT outlet; avoid pure conversion units dependent on one buyer and thin GST-paid inventory.",
+ "title": "Ludhiana steel re-rolling & TMT: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Ludhiana re-roller buys billets or scrap, heats and rolls them into TMT bars, and sells to builders, contractors and stockists. **Cash is made on the spread between input and finished steel, not on volume alone, so the whole credit case rests on how fast that spread converts to cash.** The cycle is short and brutal: inventory is priced daily, receivables run 30-60 days, and a 5% GST on steel is what the industry is lobbying for to free MSME working capital [1]. **So when a proposal lands, check the GST-paid purchase trail and the finished-goods holding days; if inventory days exceed the payable cycle, ask why the unit is funding steel it has already sold.**\n\n## What has changed in Ludhiana\nTata Steel commissioned a ₹3,200-cr green steel plant in Ludhiana in March 2026, with 2,500 jobs expected [2][3]. **That is a structural change: local billet supply improves, but it also pulls the best buyers and skilled labour toward a large, credit-strong anchor.** Punjab GST collections grew 9.7% Apr-to-date versus India's 6.1% [D], a genuine local tailwind, while electricity demand grew 8.8% versus India's 9.5% [D] — neutral. **So pursue units that can show they are selling into that stronger local GST base; if a borrower's sales growth is below the state GST trend, ask which customers they lost.**\n\n## Where the growth is\nPeer results are strong: Steel Exchange India clocked ~₹340 crore revenue in Q2 FY27, up ~45% YoY [6], and Rathi Steel grew over 30% YoY with ~28.86% volume growth [7]. JSW Steel reported 20% EBITDA margin and gearing of 0.42 [5]. **The growth is in branded TMT with a dealer network, not in commodity re-rolling.** Pursue re-rollers who supply the Tata plant's downstream or hold a regional TMT brand; avoid single-furnace converters selling to one stockist. **If a proposal is a conversion job for one buyer, ask for the buyer's payment history before sanctioning.**\n\n## How to grow safely\nStructure term debt against the rolling mill only, keep working capital as a separate cash-credit line, and take monthly stock and receivable statements. **Take GST returns, e-way bills and electricity bills every month — power consumption is the honest proxy for rolling days.** Rating reports flag sudden price swings hitting margins [10] and moderately high working-capital needs [11]. **So covenant a maximum inventory-to-sales ratio and a minimum interest coverage; if coverage falls below the peer gearing benchmark of 1.80x [10], ask for a stock audit before any enhancement.**\n\n## Early warning signs\nWatch for falling rolling days, rising receivable days, and a shift from branded to commodity sales. **If a borrower's e-way bills drop while GST sales stay flat, ask whether goods are moving outside the GST net.** Old rating reports (2023-24) [8][9] are dated; treat them as background only. **If a unit's power bill falls two months running, ask for the order book before renewing the limit.**"
+ ],
+ "watch": [
+  [
+   "Monthly GST returns and e-way bills",
+   "Sales fall below Punjab GST trend of 9.7% [D] -> ask for customer-wise sales and hold enhancement"
+  ],
+  [
+   "Monthly electricity bills",
+   "Rolling days drop two months running -> request stock audit and re-rate limit"
+  ],
+  [
+   "Quarterly receivables ageing",
+   "Receivable days rise above 60 -> shift to cash-backed or LC-backed sales"
+  ],
+  [
+   "Quarterly interest coverage",
+   "Coverage falls below peer gearing benchmark of 1.80x [10] -> freeze fresh disbursement and seek promoter support"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Tata plant adds local supply; Punjab GST growth of 9.7% offsets thin margins.",
+ "articles": [
+  {
+   "title": "Industry seeks 5% GST on steel to ease MSMEs’ working capital crunch",
+   "url": "https://timesofindia.indiatimes.com/city/ludhiana/industry-seeks-5-gst-on-steel-to-ease-msmes-working-capital-crunch/articleshow/135327179.cms",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Punjab CM opens ₹3,200-cr Tata Steel plant in Ludhiana; 2,500 jobs expected - Chief minister Bhagwant Mann on Friday inaugurated Tata Steel’s state-of-the-art green steel plant in Ludhiana, marking a milest...",
+   "url": "https://www.hindustantimes.com/cities/chandigarh-news/punjab-cm-opens-3-200-cr-tata-steel-plant-in-ludhiana-2-500-jobs-expected-101773997125579.html#1",
+   "date": "2026-03-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tata Steel adds EAF route to produce steel; commissions Rs 3,200-cr project in Punjab - The Economic Times - Tata Steel adds EAF route to produce steel; commissions Rs 3,200-cr project in Punjab",
+   "url": "https://m.economictimes.com/industry/indl-goods/svs/steel/tata-steel-adds-eaf-route-to-produce-steel-commissions-rs-3200-cr-project-in-punjab/amp_articleshow/129705855.cms#1",
+   "date": "2026-03-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Date: 15.05.2026",
+   "url": "https://www.valueresearchonline.com/stories/E551027B-7079-4BD8-9EAB-1A1BBC970871/news-announcement/?_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up By Investing.com - Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up",
+   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-jsw-steel-posts-strong-q1-2026-results-as-shares-edge-up-93CH-4776425#1",
+   "date": "2026-07-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-bar Production - www.lokmattimes.com - Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-...",
+   "url": "https://www.lokmattimes.com/business/steel-exchange-india-limited-clocks-approximately-rs340-crore-revenue-in-q2-fy27-up-45-yoy-and-25-qoq-driven-by-record-re-bar-production/#1",
+   "date": "2026-10-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY - www.lokmattimes.com - Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY",
+   "url": "https://www.lokmattimes.com/business/rathi-steel-and-power-limited-q2-fy27-revenue-at-over-rs-200-cr-growth-of-over-30-yoy-sales-volume-growth-at-2886-yoy/#1",
+   "date": "2026-10-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 21,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126379#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 24, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/118079~Captain%20Steel%20India%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Kubair Steel and Power LLP",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121249_Kubair_Steel_and_Power_LLP.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Moderately high working capital requirements; although adequately supported by bank lines: Company has moderately high working...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/M%20S%20Metals%20And%20Steels%20Private%20Limited-RU-19-07-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 57 (national 45 x 0.6 + Punjab 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Punjab: GST collections +9.7% Apr-to-date vs India +6.1% (3.6 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Punjab: electricity demand +8.8% Apr-to-date vs India +9.5% (0.7 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +3.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
