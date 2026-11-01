@@ -1,0 +1,161 @@
+{
+ "key": "gj_rajkot|auto_components",
+ "state": "GJ",
+ "city": "gj_rajkot",
+ "ind": "auto_components",
+ "version": "v6",
+ "version_engine": "v8-worker",
+ "generated_at": "2026-11-01 23:11 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Rajkot auto components — pursue Tier-2 precision and EV/drone-motor makers with tight covenants; avoid single-OEM, ICE-engine-dependent units.",
+ "title": "Rajkot Auto & Auto Components: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Rajkot's auto-component cluster is a machining-and-forging town: small units turning castings and bar stock into shafts, gears, brackets and sub-assemblies for OEMs.** Cash comes from converting metal into parts on a job-work or supply basis, so the cycle is short on the shop floor but long on the receivable — OEM payment terms stretch the working-capital cycle well past the production cycle. **Value sits in the tooling and the OEM approval, not the machine**, which is why a unit with a locked-in part number has pricing power and one chasing open tenders does not.",
+  "## What has changed now\n**The demand signal is strong and national: IIP for auto components (NIC 29) is +25.2% YoY and +19.2% Apr-to-date [D].** Gujarat is pulling ahead of the country on consumption — GST collections +11.9% Apr-to-date versus India +6.1% [D]. **But bank credit is running at +27.0% YoY against output of +19.2%, a gap of +7.8 pp [D]** — money is entering the chain faster than parts are leaving it, so when a proposal lands, check whether the borrower's own sales growth matches the credit it is asking for; if the ask outruns output, ask what the extra limit is actually funding. Peer results confirm volume strength but flag margin squeeze from aluminium [3] and commodity risk [5], so **price the commodity pass-through clause, not just the volume story.**",
+  "## Where the growth is\n**Pursue the precision and new-mobility suppliers: EV-component and lightweighting order wins are real at the peer level [3], and Rajkot has a genuine deep-tech edge — a local startup's indigenous drone motors were the only Gujarat manufacturing pick for Bharat Innovates 2026 in France [1].** That is a local-news signal, not audited financials, so treat it as a door-opener, not a credit case. **Avoid units concentrated on engine and engine-related parts** — rating commentary flags higher obsolescence risk as EVs spread [10]. **Rajkot-specific financial data is thin in these sources; lean on first principles and the peer read.**",
+  "## How to grow safely\n**Structure against the receivable, not the machine: gross current assets have averaged 160-170 days in this sector [9], so size the drawing power to that cycle and take the OEM purchase order as the base.** Take monthly stock-and-debtor statements, monthly GST returns, and a quarterly ageing of receivables by OEM. **Set a Debt/EBITDA ceiling of 2.5-2.75 times as the outer limit [9]** and covenant that any debt-funded capex above plan needs prior consent. For the drone/EV names, ask for the customer contract and collect from customer the current order book and receivable days before sanctioning.",
+  "## Early-warning signs\n**Watch the credit-to-output gap at the borrower level: if receivables stretch beyond the sector's 160-170 day norm [9], cut limits.** If a unit's sales flatten while its bank limit utilisation stays full, the extra money is funding someone else's delay — ask for the OEM payment confirmation. If aluminium or commodity costs rise without a pass-through clause [3][5], margin will absorb it; reprice or reduce exposure. If a borrower's part numbers are engine-linked, start the exit conversation early [10]."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs sales (monthly)",
+   "GST turnover falls below reported sales -> ask for OEM invoices and freeze enhancement"
+  ],
+  [
+   "Debtor ageing by OEM (monthly)",
+   "Receivables cross 170 days [9] -> cut drawing power and seek OEM payment confirmation"
+  ],
+  [
+   "Debt/EBITDA (quarterly)",
+   "Crosses 2.5-2.75x [9] -> stop new limits, restructure to receivable-backed only"
+  ],
+  [
+   "Commodity cost vs price clause (quarterly)",
+   "Aluminium cost rises with no pass-through [3][5] -> reprice or reduce exposure"
+  ],
+  [
+   "Product mix (annual)",
+   "Engine-linked parts dominate the order book [10] -> begin exit or demand diversification plan"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "IIP auto components +25.2% YoY and Gujarat GST +11.9% outpace India; demand strong.",
+ "articles": [
+  {
+   "title": "ચીન-અમેરિકાને ટક્કર આપશે રાજકોટની દેશી ટેકનોલોજી, ફ્રાન્સના ગ્લોબલ સ્ટેજ પર ધૂમ મચાવશે આ સ્વદેશી ડ્રોન મોટર્સ",
+   "url": "https://gujarati.news18.com/news/rajkot/rajkot-indepro-dynamics-drone-motors-selected-for-bharat-innovates-2026-france-saurashtra-university-sr-local18-ws-b-2548468.html?utm_source=District+Widget&utm_medium=Desktop&utm_campaign=gujarati",
+   "date": "2026-06-09",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Rajkot auto-comp industry eyes growth as auto giants look to Guj - Saturday, October 17, 2026 | 06:40 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/article/companies/rajkot-auto-comp-industry-eyes-growth-as-auto-giants-look-to-guj-111062100103_1.html#1",
+   "date": "2011-06-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 100 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "chat_usage": {
+  "prompt_tokens": 5176,
+  "completion_tokens": 1048,
+  "total_tokens": 6224,
+  "prompt_tokens_details": {
+   "cached_tokens": 384
+  },
+  "prompt_cache_hit_tokens": 384,
+  "prompt_cache_miss_tokens": 4792
+ },
+ "build_seconds": 24.6,
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
