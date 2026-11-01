@@ -1,5 +1,317 @@
 {
 "notes": {
+"AP|ap_anantapur|vehicle_oem": {
+"call": "ok",
+"base": "ok",
+"score": 80,
+"at": "2026-11-02 00:01 IST"
+},
+"AP|ap_bhimavaram|seafood_processing": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-01 23:56 IST"
+},
+"AP|ap_chittoor|dairy_products": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-01 23:49 IST"
+},
+"AP|ap_chittoor|fruits_veg": {
+"call": "avoid",
+"base": "avoid",
+"score": 44,
+"at": "2026-11-01 23:54 IST"
+},
+"AP|ap_guntur|cotton_ginning": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:48 IST"
+},
+"AP|ap_guntur|spices": {
+"call": "avoid",
+"base": "avoid",
+"score": 44,
+"at": "2026-11-02 00:01 IST"
+},
+"AP|ap_guntur|tobacco": {
+"call": "avoid",
+"base": "avoid",
+"score": 26,
+"at": "2026-11-02 00:00 IST"
+},
+"AP|ap_kakinada|fertiliser": {
+"call": "avoid",
+"base": "avoid",
+"score": 20,
+"at": "2026-11-01 23:50 IST"
+},
+"AP|ap_kakinada|seafood_processing": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-01 23:57 IST"
+},
+"AP|ap_nellore|power": {
+"call": "caution",
+"base": "ok",
+"score": 65,
+"at": "2026-11-01 23:54 IST"
+},
+"AP|ap_nellore|seafood_processing": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-01 23:57 IST"
+},
+"AP|ap_sri_city|electrical_eq": {
+"call": "ok",
+"base": "ok",
+"score": 80,
+"at": "2026-11-01 23:50 IST"
+},
+"AP|ap_sri_city|electronics": {
+"call": "ok",
+"base": "ok",
+"score": 74,
+"at": "2026-11-01 23:49 IST"
+},
+"AP|ap_sri_city|food_processing": {
+"call": "caution",
+"base": "caution",
+"score": 53,
+"at": "2026-11-01 23:51 IST"
+},
+"AP|ap_visakhapatnam|metals": {
+"call": "caution",
+"base": "caution",
+"score": 47,
+"at": "2026-11-01 23:55 IST"
+},
+"AP|ap_visakhapatnam|refining": {
+"call": "avoid",
+"base": "avoid",
+"score": 39,
+"at": "2026-11-01 23:54 IST"
+},
+"AS|as_dibrugarh|refining": {
+"call": "avoid",
+"base": "avoid",
+"score": 39,
+"at": "2026-11-01 23:54 IST"
+},
+"AS|as_dibrugarh|tea": {
+"call": "caution",
+"base": "caution",
+"score": 48,
+"at": "2026-11-01 23:58 IST"
+},
+"AS|as_guwahati|wholesale_trade": {
+"call": "avoid",
+"base": "avoid",
+"score": 32,
+"at": "2026-11-01 23:59 IST"
+},
+"AS|as_jorhat|tea": {
+"call": "caution",
+"base": "caution",
+"score": 48,
+"at": "2026-11-01 23:58 IST"
+},
+"AS|as_numaligarh|refining": {
+"call": "avoid",
+"base": "avoid",
+"score": 39,
+"at": "2026-11-01 23:54 IST"
+},
+"AS|as_tinsukia|plywood_laminates": {
+"call": "avoid",
+"base": "avoid",
+"score": 39,
+"at": "2026-11-01 23:58 IST"
+},
+"AS|as_tinsukia|tea": {
+"call": "caution",
+"base": "caution",
+"score": 48,
+"at": "2026-11-01 23:59 IST"
+},
+"BR|br_begusarai|fertiliser": {
+"call": "avoid",
+"base": "avoid",
+"score": 20,
+"at": "2026-11-01 23:50 IST"
+},
+"BR|br_begusarai|refining": {
+"call": "avoid",
+"base": "avoid",
+"score": 39,
+"at": "2026-11-01 23:55 IST"
+},
+"BR|br_bhagalpur|silk_weaving": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:55 IST"
+},
+"BR|br_muzaffarpur|fruits_veg": {
+"call": "avoid",
+"base": "avoid",
+"score": 44,
+"at": "2026-11-01 23:54 IST"
+},
+"BR|br_patna|wholesale_trade": {
+"call": "avoid",
+"base": "avoid",
+"score": 32,
+"at": "2026-11-01 23:59 IST"
+},
+"CG|cg_bhilai|metals": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:55 IST"
+},
+"CG|cg_korba|aluminium_products": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:48 IST"
+},
+"CG|cg_raigarh|power": {
+"call": "caution",
+"base": "caution",
+"score": 45,
+"at": "2026-11-01 23:55 IST"
+},
+"CG|cg_raipur|rice_milling": {
+"call": "avoid",
+"base": "avoid",
+"score": 32,
+"at": "2026-11-01 23:50 IST"
+},
+"CG|cg_raipur|sponge_iron": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-02 00:04 IST"
+},
+"CG|cg_raipur|steel_rerolling": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:54 IST"
+},
+"CH|ch_chandigarh|retail_trade": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-02 00:01 IST"
+},
+"DL|dl_delhi|electronics_retail": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:50 IST"
+},
+"DL|dl_delhi|professional_services": {
+"call": "avoid",
+"base": "avoid",
+"score": 30,
+"at": "2026-11-01 23:59 IST"
+},
+"DL|dl_delhi|textile_trading": {
+"call": "avoid",
+"base": "avoid",
+"score": 12,
+"at": "2026-11-01 23:59 IST"
+},
+"DL|dl_delhi|wholesale_trade": {
+"call": "avoid",
+"base": "avoid",
+"score": 12,
+"at": "2026-11-01 23:59 IST"
+},
+"DL|dl_narela_bawana|fabrication_workshops": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:53 IST"
+},
+"DL|dl_narela_bawana|footwear": {
+"call": "avoid",
+"base": "avoid",
+"score": 33,
+"at": "2026-11-01 23:52 IST"
+},
+"DL|dl_narela_bawana|plastics": {
+"call": "caution",
+"base": "caution",
+"score": 59,
+"at": "2026-11-01 23:59 IST"
+},
+"DL|dl_okhla|apparel": {
+"call": "avoid",
+"base": "avoid",
+"score": 0,
+"at": "2026-11-01 23:48 IST"
+},
+"DL|dl_okhla|printing_publishing": {
+"call": "avoid",
+"base": "avoid",
+"score": 37,
+"at": "2026-11-02 00:01 IST"
+},
+"DN|dn_daman|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:52 IST"
+},
+"DN|dn_silvassa|electrical_eq": {
+"call": "ok",
+"base": "ok",
+"score": 100,
+"at": "2026-11-01 23:50 IST"
+},
+"DN|dn_silvassa|manmade_fibres": {
+"call": "avoid",
+"base": "avoid",
+"score": 0,
+"at": "2026-11-01 23:52 IST"
+},
+"GA|ga_panaji|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 16,
+"at": "2026-11-01 23:52 IST"
+},
+"GA|ga_vasco_margao|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 16,
+"at": "2026-11-01 23:53 IST"
+},
+"GA|ga_vasco_margao|shipbuilding": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-01 23:53 IST"
+},
+"GJ|gj_ahmedabad|chemicals_dyes": {
+"call": "avoid",
+"base": "avoid",
+"score": 43,
+"at": "2026-11-01 23:49 IST"
+},
+"GJ|gj_ahmedabad|engineering": {
+"call": "ok",
+"base": "ok",
+"score": 78,
+"at": "2026-11-01 23:48 IST"
+},
 "GJ|gj_ahmedabad|pharma": {
 "call": "caution",
 "base": "caution",
@@ -12,11 +324,35 @@
 "score": 90,
 "at": "2026-11-01 23:02 IST"
 },
+"GJ|gj_anand|dairy_products": {
+"call": "ok",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:49 IST"
+},
+"GJ|gj_ankleshwar|agrochemicals": {
+"call": "avoid",
+"base": "avoid",
+"score": 43,
+"at": "2026-11-01 23:48 IST"
+},
 "GJ|gj_ankleshwar|chemicals_dyes": {
 "call": "avoid",
 "base": "avoid",
 "score": 43,
 "at": "2026-11-01 22:43 IST"
+},
+"GJ|gj_ankleshwar|pharma": {
+"call": "caution",
+"base": "caution",
+"score": 46,
+"at": "2026-11-01 23:53 IST"
+},
+"GJ|gj_bharuch|chemicals_dyes": {
+"call": "avoid",
+"base": "avoid",
+"score": 43,
+"at": "2026-11-01 23:49 IST"
 },
 "GJ|gj_bharuch|railway_wagons": {
 "call": "ok",
@@ -24,17 +360,107 @@
 "score": 90,
 "at": "2026-11-01 23:12 IST"
 },
+"GJ|gj_bharuch|specialty_chemicals": {
+"call": "avoid",
+"base": "avoid",
+"score": 43,
+"at": "2026-11-02 00:00 IST"
+},
+"GJ|gj_bhavnagar|shipbuilding": {
+"call": "caution",
+"base": "ok",
+"score": 90,
+"at": "2026-11-01 23:53 IST"
+},
+"GJ|gj_bhavnagar|steel_rerolling": {
+"call": "caution",
+"base": "caution",
+"score": 57,
+"at": "2026-11-01 23:54 IST"
+},
+"GJ|gj_dahej|petrochem": {
+"call": "avoid",
+"base": "avoid",
+"score": 30,
+"at": "2026-11-01 23:53 IST"
+},
+"GJ|gj_gondal|cotton_ginning": {
+"call": "ok",
+"base": "ok",
+"score": 80,
+"at": "2026-11-01 23:48 IST"
+},
+"GJ|gj_gondal|edible_oil": {
+"call": "caution",
+"base": "caution",
+"score": 51,
+"at": "2026-11-01 23:53 IST"
+},
+"GJ|gj_halol|auto_components": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-01 23:48 IST"
+},
+"GJ|gj_halol|two_wheelers": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-02 00:01 IST"
+},
 "GJ|gj_jamnagar|nonferrous_brass": {
 "call": "ok",
 "base": "ok",
 "score": 88,
 "at": "2026-11-01 22:59 IST"
 },
+"GJ|gj_jamnagar|refining": {
+"call": "caution",
+"base": "caution",
+"score": 49,
+"at": "2026-11-01 23:55 IST"
+},
+"GJ|gj_kandla_gandhidham|plywood_laminates": {
+"call": "caution",
+"base": "caution",
+"score": 49,
+"at": "2026-11-01 23:58 IST"
+},
+"GJ|gj_mehsana|dairy_products": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:49 IST"
+},
+"GJ|gj_mehsana|engineering": {
+"call": "ok",
+"base": "ok",
+"score": 78,
+"at": "2026-11-01 23:49 IST"
+},
 "GJ|gj_morbi|ceramics": {
 "call": "caution",
 "base": "ok",
 "score": 71,
 "at": "2026-11-01 20:36 IST"
+},
+"GJ|gj_morbi|glass": {
+"call": "caution",
+"base": "ok",
+"score": 71,
+"at": "2026-11-01 23:50 IST"
+},
+"GJ|gj_morbi|packaging_corrugated": {
+"call": "caution",
+"base": "ok",
+"score": 67,
+"at": "2026-11-01 23:50 IST"
+},
+"GJ|gj_mundra|edible_oil": {
+"call": "caution",
+"base": "caution",
+"score": 51,
+"at": "2026-11-01 23:53 IST"
 },
 "GJ|gj_rajkot|auto_components": {
 "call": "ok",
@@ -48,11 +474,35 @@
 "score": 78,
 "at": "2026-11-01 22:33 IST"
 },
+"GJ|gj_rajkot|pumps_valves": {
+"call": "ok",
+"base": "ok",
+"score": 78,
+"at": "2026-11-01 23:57 IST"
+},
+"GJ|gj_sanand|auto_components": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-01 23:48 IST"
+},
+"GJ|gj_sanand|vehicle_oem": {
+"call": "caution",
+"base": "ok",
+"score": 90,
+"at": "2026-11-02 00:01 IST"
+},
 "GJ|gj_surat|diamonds": {
 "call": "caution",
 "base": "caution",
 "score": 51,
 "at": "2026-11-01 22:47 IST"
+},
+"GJ|gj_surat|manmade_fibres": {
+"call": "avoid",
+"base": "avoid",
+"score": 30,
+"at": "2026-11-01 23:52 IST"
 },
 "GJ|gj_surat|mmf_textiles": {
 "call": "caution",
@@ -60,11 +510,1613 @@
 "score": 79,
 "at": "2026-11-01 20:45 IST"
 },
+"GJ|gj_surat|textile_processing": {
+"call": "caution",
+"base": "ok",
+"score": 80,
+"at": "2026-11-02 00:00 IST"
+},
+"GJ|gj_surat|textile_trading": {
+"call": "avoid",
+"base": "avoid",
+"score": 42,
+"at": "2026-11-02 00:00 IST"
+},
+"GJ|gj_vadodara|chemicals_dyes": {
+"call": "avoid",
+"base": "avoid",
+"score": 43,
+"at": "2026-11-01 23:49 IST"
+},
+"GJ|gj_vadodara|electrical_eq": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-01 23:51 IST"
+},
+"GJ|gj_vadodara|engineering": {
+"call": "ok",
+"base": "ok",
+"score": 78,
+"at": "2026-11-01 23:49 IST"
+},
 "GJ|gj_vapi|chemicals_dyes": {
 "call": "avoid",
 "base": "avoid",
 "score": 43,
 "at": "2026-11-01 20:45 IST"
+},
+"GJ|gj_vapi|paper": {
+"call": "caution",
+"base": "ok",
+"score": 67,
+"at": "2026-11-01 23:56 IST"
+},
+"GJ|gj_vapi|pharma": {
+"call": "caution",
+"base": "caution",
+"score": 46,
+"at": "2026-11-01 23:53 IST"
+},
+"HP|hp_baddi|fmcg_distribution": {
+"call": "avoid",
+"base": "avoid",
+"score": 12,
+"at": "2026-11-01 23:54 IST"
+},
+"HP|hp_baddi|formulations": {
+"call": "avoid",
+"base": "avoid",
+"score": 16,
+"at": "2026-11-01 23:51 IST"
+},
+"HP|hp_baddi|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 16,
+"at": "2026-11-01 23:54 IST"
+},
+"HP|hp_kala_amb|paper": {
+"call": "avoid",
+"base": "avoid",
+"score": 37,
+"at": "2026-11-01 23:56 IST"
+},
+"HP|hp_kala_amb|steel_rerolling": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:55 IST"
+},
+"HP|hp_nalagarh|electrical_eq": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-01 23:51 IST"
+},
+"HP|hp_nalagarh|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 16,
+"at": "2026-11-01 23:54 IST"
+},
+"HP|hp_parwanoo|engineering": {
+"call": "caution",
+"base": "caution",
+"score": 48,
+"at": "2026-11-01 23:49 IST"
+},
+"HP|hp_parwanoo|fruits_veg": {
+"call": "avoid",
+"base": "avoid",
+"score": 24,
+"at": "2026-11-01 23:55 IST"
+},
+"HR|hr_bahadurgarh|footwear": {
+"call": "caution",
+"base": "caution",
+"score": 63,
+"at": "2026-11-01 23:52 IST"
+},
+"HR|hr_bahadurgarh|plastics": {
+"call": "caution",
+"base": "ok",
+"score": 89,
+"at": "2026-11-02 00:00 IST"
+},
+"HR|hr_faridabad|auto_components": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-01 23:48 IST"
+},
+"HR|hr_faridabad|engineering": {
+"call": "ok",
+"base": "ok",
+"score": 78,
+"at": "2026-11-01 23:49 IST"
+},
+"HR|hr_faridabad|tractors_agri_machinery": {
+"call": "caution",
+"base": "ok",
+"score": 78,
+"at": "2026-11-01 23:58 IST"
+},
+"HR|hr_gurugram|auto_components": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-01 23:48 IST"
+},
+"HR|hr_gurugram|vehicle_oem": {
+"call": "caution",
+"base": "ok",
+"score": 90,
+"at": "2026-11-02 00:01 IST"
+},
+"HR|hr_hisar|cotton_ginning": {
+"call": "caution",
+"base": "ok",
+"score": 80,
+"at": "2026-11-01 23:48 IST"
+},
+"HR|hr_hisar|steel_utensils": {
+"call": "ok",
+"base": "ok",
+"score": 88,
+"at": "2026-11-01 23:56 IST"
+},
+"HR|hr_karnal|dairy_products": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:49 IST"
+},
+"HR|hr_karnal|rice_milling": {
+"call": "caution",
+"base": "caution",
+"score": 62,
+"at": "2026-11-01 23:51 IST"
+},
+"HR|hr_manesar|auto_components": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-01 23:48 IST"
+},
+"HR|hr_manesar|two_wheelers": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-02 00:01 IST"
+},
+"HR|hr_manesar|vehicle_oem": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-02 00:02 IST"
+},
+"HR|hr_panipat|carpets": {
+"call": "caution",
+"base": "ok",
+"score": 76,
+"at": "2026-11-01 23:48 IST"
+},
+"HR|hr_panipat|home_textiles": {
+"call": "caution",
+"base": "ok",
+"score": 80,
+"at": "2026-11-01 23:56 IST"
+},
+"HR|hr_panipat|refining": {
+"call": "caution",
+"base": "caution",
+"score": 49,
+"at": "2026-11-01 23:55 IST"
+},
+"HR|hr_sonipat|footwear": {
+"call": "caution",
+"base": "caution",
+"score": 63,
+"at": "2026-11-01 23:52 IST"
+},
+"HR|hr_sonipat|plastics": {
+"call": "caution",
+"base": "ok",
+"score": 89,
+"at": "2026-11-02 00:00 IST"
+},
+"HR|hr_yamunanagar|plywood_laminates": {
+"call": "caution",
+"base": "caution",
+"score": 49,
+"at": "2026-11-01 23:59 IST"
+},
+"HR|hr_yamunanagar|steel_utensils": {
+"call": "ok",
+"base": "ok",
+"score": 88,
+"at": "2026-11-01 23:57 IST"
+},
+"HR|hr_yamunanagar|sugar": {
+"call": "ok",
+"base": "ok",
+"score": 76,
+"at": "2026-11-01 23:55 IST"
+},
+"JH|jh_bokaro|metals": {
+"call": "caution",
+"base": "caution",
+"score": 47,
+"at": "2026-11-01 23:56 IST"
+},
+"JH|jh_jamshedpur|auto_components": {
+"call": "ok",
+"base": "ok",
+"score": 80,
+"at": "2026-11-01 23:49 IST"
+},
+"JH|jh_jamshedpur|metals": {
+"call": "caution",
+"base": "caution",
+"score": 47,
+"at": "2026-11-01 23:56 IST"
+},
+"JH|jh_jamshedpur|vehicle_oem": {
+"call": "ok",
+"base": "ok",
+"score": 80,
+"at": "2026-11-02 00:02 IST"
+},
+"JH|jh_ranchi|engineering": {
+"call": "caution",
+"base": "ok",
+"score": 68,
+"at": "2026-11-01 23:50 IST"
+},
+"JK|jk_jammu|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 16,
+"at": "2026-11-01 23:54 IST"
+},
+"JK|jk_jammu|steel_rerolling": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:55 IST"
+},
+"JK|jk_kathua|steel_rerolling": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:56 IST"
+},
+"JK|jk_samba|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 16,
+"at": "2026-11-01 23:55 IST"
+},
+"JK|jk_srinagar|handicrafts": {
+"call": "avoid",
+"base": "avoid",
+"score": 29,
+"at": "2026-11-01 23:51 IST"
+},
+"JK|jk_srinagar|woollen_textiles": {
+"call": "caution",
+"base": "caution",
+"score": 50,
+"at": "2026-11-02 00:00 IST"
+},
+"KA|ka_ballari|metals": {
+"call": "ok",
+"base": "ok",
+"score": 67,
+"at": "2026-11-01 23:56 IST"
+},
+"KA|ka_belagavi|castings_forgings": {
+"call": "ok",
+"base": "ok",
+"score": 67,
+"at": "2026-11-01 23:48 IST"
+},
+"KA|ka_belagavi|sugar": {
+"call": "caution",
+"base": "ok",
+"score": 86,
+"at": "2026-11-01 23:56 IST"
+},
+"KA|ka_bengaluru|apparel": {
+"call": "avoid",
+"base": "avoid",
+"score": 40,
+"at": "2026-11-01 23:48 IST"
+},
+"KA|ka_bengaluru|defence_aerospace": {
+"call": "ok",
+"base": "ok",
+"score": 100,
+"at": "2026-11-01 23:50 IST"
+},
+"KA|ka_bengaluru|electronics": {
+"call": "ok",
+"base": "ok",
+"score": 94,
+"at": "2026-11-01 23:49 IST"
+},
+"KA|ka_bengaluru|machine_tools": {
+"call": "ok",
+"base": "ok",
+"score": 88,
+"at": "2026-11-01 23:53 IST"
+},
+"KA|ka_chikkamagaluru|coffee": {
+"call": "caution",
+"base": "ok",
+"score": 72,
+"at": "2026-11-01 23:49 IST"
+},
+"KA|ka_davangere|cotton_textiles": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-01 23:50 IST"
+},
+"KA|ka_davangere|rice_milling": {
+"call": "caution",
+"base": "ok",
+"score": 72,
+"at": "2026-11-01 23:51 IST"
+},
+"KA|ka_hubballi_dharwad|cotton_ginning": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-01 23:48 IST"
+},
+"KA|ka_hubballi_dharwad|engineering": {
+"call": "ok",
+"base": "ok",
+"score": 88,
+"at": "2026-11-01 23:50 IST"
+},
+"KA|ka_mangaluru|cashew": {
+"call": "caution",
+"base": "caution",
+"score": 61,
+"at": "2026-11-01 23:53 IST"
+},
+"KA|ka_mangaluru|seafood_processing": {
+"call": "caution",
+"base": "ok",
+"score": 80,
+"at": "2026-11-01 23:57 IST"
+},
+"KA|ka_mysuru|auto_components": {
+"call": "ok",
+"base": "ok",
+"score": 100,
+"at": "2026-11-01 23:49 IST"
+},
+"KA|ka_mysuru|silk_weaving": {
+"call": "caution",
+"base": "ok",
+"score": 90,
+"at": "2026-11-01 23:55 IST"
+},
+"KA|ka_tumakuru|engineering": {
+"call": "ok",
+"base": "ok",
+"score": 88,
+"at": "2026-11-01 23:50 IST"
+},
+"KA|ka_tumakuru|food_processing": {
+"call": "ok",
+"base": "ok",
+"score": 73,
+"at": "2026-11-01 23:52 IST"
+},
+"KL|kl_alappuzha|coir_products": {
+"call": "caution",
+"base": "ok",
+"score": 65,
+"at": "2026-11-01 23:52 IST"
+},
+"KL|kl_alappuzha|seafood_processing": {
+"call": "ok",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:58 IST"
+},
+"KL|kl_kochi|refining": {
+"call": "caution",
+"base": "caution",
+"score": 49,
+"at": "2026-11-01 23:56 IST"
+},
+"KL|kl_kochi|seafood_processing": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:58 IST"
+},
+"KL|kl_kochi|spices": {
+"call": "caution",
+"base": "caution",
+"score": 54,
+"at": "2026-11-02 00:02 IST"
+},
+"KL|kl_kollam|cashew": {
+"call": "caution",
+"base": "caution",
+"score": 51,
+"at": "2026-11-01 23:53 IST"
+},
+"KL|kl_kollam|coir_products": {
+"call": "caution",
+"base": "ok",
+"score": 65,
+"at": "2026-11-01 23:52 IST"
+},
+"KL|kl_kottayam|rubber_tyres": {
+"call": "caution",
+"base": "ok",
+"score": 89,
+"at": "2026-11-01 23:52 IST"
+},
+"KL|kl_kozhikode|plywood_laminates": {
+"call": "caution",
+"base": "caution",
+"score": 49,
+"at": "2026-11-02 00:00 IST"
+},
+"KL|kl_kozhikode|wooden_furniture": {
+"call": "ok",
+"base": "ok",
+"score": 79,
+"at": "2026-11-02 00:00 IST"
+},
+"KL|kl_thrissur|ayush_herbal": {
+"call": "caution",
+"base": "caution",
+"score": 46,
+"at": "2026-11-01 23:48 IST"
+},
+"KL|kl_thrissur|gold_jewellery": {
+"call": "caution",
+"base": "caution",
+"score": 51,
+"at": "2026-11-01 23:54 IST"
+},
+"LA|la_leh|handicrafts": {
+"call": "caution",
+"base": "caution",
+"score": 48,
+"at": "2026-11-01 23:51 IST"
+},
+"MH|mh_aurangabad|auto_components": {
+"call": "ok",
+"base": "ok",
+"score": 80,
+"at": "2026-11-01 23:49 IST"
+},
+"MH|mh_aurangabad|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 36,
+"at": "2026-11-01 23:55 IST"
+},
+"MH|mh_aurangabad|two_wheelers": {
+"call": "ok",
+"base": "ok",
+"score": 80,
+"at": "2026-11-02 00:01 IST"
+},
+"MH|mh_bhiwandi|handloom_powerloom": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:52 IST"
+},
+"MH|mh_chakan|vehicle_oem": {
+"call": "ok",
+"base": "ok",
+"score": 80,
+"at": "2026-11-02 00:02 IST"
+},
+"MH|mh_ichalkaranji|cotton_textiles": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:50 IST"
+},
+"MH|mh_ichalkaranji|handloom_powerloom": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:53 IST"
+},
+"MH|mh_jalna|steel_rerolling": {
+"call": "caution",
+"base": "caution",
+"score": 47,
+"at": "2026-11-01 23:56 IST"
+},
+"MH|mh_kolhapur|castings_forgings": {
+"call": "caution",
+"base": "caution",
+"score": 47,
+"at": "2026-11-01 23:48 IST"
+},
+"MH|mh_kolhapur|sugar": {
+"call": "caution",
+"base": "ok",
+"score": 66,
+"at": "2026-11-01 23:56 IST"
+},
+"MH|mh_malegaon|handloom_powerloom": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:53 IST"
+},
+"MH|mh_mumbai|diamond_trading": {
+"call": "avoid",
+"base": "avoid",
+"score": 32,
+"at": "2026-11-01 23:48 IST"
+},
+"MH|mh_mumbai|wholesale_trade": {
+"call": "avoid",
+"base": "avoid",
+"score": 32,
+"at": "2026-11-01 23:59 IST"
+},
+"MH|mh_nagpur|engineering": {
+"call": "ok",
+"base": "ok",
+"score": 68,
+"at": "2026-11-01 23:51 IST"
+},
+"MH|mh_nagpur|fruits_veg": {
+"call": "avoid",
+"base": "avoid",
+"score": 44,
+"at": "2026-11-01 23:55 IST"
+},
+"MH|mh_nashik|engineering": {
+"call": "ok",
+"base": "ok",
+"score": 68,
+"at": "2026-11-01 23:51 IST"
+},
+"MH|mh_nashik|fruits_veg": {
+"call": "avoid",
+"base": "avoid",
+"score": 44,
+"at": "2026-11-01 23:55 IST"
+},
+"MH|mh_pune|auto_components": {
+"call": "ok",
+"base": "ok",
+"score": 80,
+"at": "2026-11-01 23:50 IST"
+},
+"MH|mh_pune|engineering": {
+"call": "ok",
+"base": "ok",
+"score": 68,
+"at": "2026-11-01 23:52 IST"
+},
+"MH|mh_pune|vehicle_oem": {
+"call": "ok",
+"base": "ok",
+"score": 80,
+"at": "2026-11-02 00:03 IST"
+},
+"MH|mh_sangli|spices": {
+"call": "avoid",
+"base": "avoid",
+"score": 44,
+"at": "2026-11-02 00:02 IST"
+},
+"MH|mh_sangli|sugar": {
+"call": "ok",
+"base": "ok",
+"score": 66,
+"at": "2026-11-01 23:56 IST"
+},
+"MH|mh_solapur|home_textiles": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:56 IST"
+},
+"MH|mh_solapur|sugar": {
+"call": "caution",
+"base": "ok",
+"score": 66,
+"at": "2026-11-01 23:56 IST"
+},
+"MH|mh_tarapur|chemicals_dyes": {
+"call": "avoid",
+"base": "avoid",
+"score": 33,
+"at": "2026-11-01 23:50 IST"
+},
+"MH|mh_tarapur|steel_rerolling": {
+"call": "caution",
+"base": "caution",
+"score": 47,
+"at": "2026-11-01 23:56 IST"
+},
+"MH|mh_thane_belapur|chemicals_dyes": {
+"call": "avoid",
+"base": "avoid",
+"score": 33,
+"at": "2026-11-01 23:50 IST"
+},
+"MH|mh_thane_belapur|engineering": {
+"call": "ok",
+"base": "ok",
+"score": 68,
+"at": "2026-11-01 23:52 IST"
+},
+"ML|ml_byrnihat|cement": {
+"call": "caution",
+"base": "ok",
+"score": 67,
+"at": "2026-11-01 23:48 IST"
+},
+"ML|ml_byrnihat|steel_rerolling": {
+"call": "avoid",
+"base": "avoid",
+"score": 37,
+"at": "2026-11-01 23:57 IST"
+},
+"MN|mn_imphal|handicrafts": {
+"call": "caution",
+"base": "caution",
+"score": 48,
+"at": "2026-11-01 23:51 IST"
+},
+"MP|mp_bhopal|engineering": {
+"call": "caution",
+"base": "caution",
+"score": 58,
+"at": "2026-11-01 23:53 IST"
+},
+"MP|mp_dewas|engineering": {
+"call": "caution",
+"base": "caution",
+"score": 58,
+"at": "2026-11-01 23:53 IST"
+},
+"MP|mp_dewas|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 26,
+"at": "2026-11-01 23:56 IST"
+},
+"MP|mp_gwalior|engineering": {
+"call": "caution",
+"base": "caution",
+"score": 58,
+"at": "2026-11-01 23:53 IST"
+},
+"MP|mp_gwalior|stone_granite": {
+"call": "caution",
+"base": "ok",
+"score": 67,
+"at": "2026-11-01 23:58 IST"
+},
+"MP|mp_indore|auto_components": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:50 IST"
+},
+"MP|mp_indore|edible_oil": {
+"call": "avoid",
+"base": "avoid",
+"score": 31,
+"at": "2026-11-01 23:53 IST"
+},
+"MP|mp_jabalpur|defence_aerospace": {
+"call": "ok",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:50 IST"
+},
+"MP|mp_jabalpur|stone_granite": {
+"call": "caution",
+"base": "ok",
+"score": 67,
+"at": "2026-11-01 23:58 IST"
+},
+"MP|mp_mandideep|engineering": {
+"call": "caution",
+"base": "caution",
+"score": 58,
+"at": "2026-11-01 23:54 IST"
+},
+"MP|mp_pithampur|auto_components": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:50 IST"
+},
+"MP|mp_pithampur|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 26,
+"at": "2026-11-01 23:56 IST"
+},
+"MZ|mz_aizawl|handicrafts": {
+"call": "caution",
+"base": "caution",
+"score": 48,
+"at": "2026-11-01 23:51 IST"
+},
+"NL|nl_dimapur|wholesale_trade": {
+"call": "avoid",
+"base": "avoid",
+"score": 42,
+"at": "2026-11-02 00:00 IST"
+},
+"OD|od_angul|aluminium_products": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:48 IST"
+},
+"OD|od_bhubaneswar|metals": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:57 IST"
+},
+"OD|od_jharsuguda|sponge_iron": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-02 00:04 IST"
+},
+"OD|od_kalinganagar|metals": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:57 IST"
+},
+"OD|od_paradip|fertiliser": {
+"call": "avoid",
+"base": "avoid",
+"score": 0,
+"at": "2026-11-01 23:50 IST"
+},
+"OD|od_paradip|refining": {
+"call": "avoid",
+"base": "avoid",
+"score": 19,
+"at": "2026-11-01 23:56 IST"
+},
+"OD|od_rourkela|metals": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:58 IST"
+},
+"OD|od_rourkela|sponge_iron": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-02 00:05 IST"
+},
+"PB|pb_amritsar|rice_milling": {
+"call": "caution",
+"base": "caution",
+"score": 62,
+"at": "2026-11-01 23:51 IST"
+},
+"PB|pb_amritsar|woollen_textiles": {
+"call": "caution",
+"base": "ok",
+"score": 80,
+"at": "2026-11-02 00:00 IST"
+},
+"PB|pb_batala|castings_forgings": {
+"call": "caution",
+"base": "caution",
+"score": 57,
+"at": "2026-11-01 23:48 IST"
+},
+"PB|pb_batala|machine_tools": {
+"call": "caution",
+"base": "ok",
+"score": 78,
+"at": "2026-11-01 23:53 IST"
+},
+"PB|pb_bathinda|cotton_ginning": {
+"call": "ok",
+"base": "ok",
+"score": 80,
+"at": "2026-11-01 23:49 IST"
+},
+"PB|pb_bathinda|refining": {
+"call": "caution",
+"base": "caution",
+"score": 49,
+"at": "2026-11-01 23:56 IST"
+},
+"PB|pb_jalandhar|hand_tools": {
+"call": "caution",
+"base": "ok",
+"score": 88,
+"at": "2026-11-01 23:50 IST"
+},
+"PB|pb_jalandhar|leather": {
+"call": "caution",
+"base": "caution",
+"score": 63,
+"at": "2026-11-01 23:58 IST"
+},
+"PB|pb_jalandhar|sports_goods": {
+"call": "caution",
+"base": "caution",
+"score": 59,
+"at": "2026-11-02 00:01 IST"
+},
+"PB|pb_ludhiana|bicycles": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-01 23:53 IST"
+},
+"PB|pb_ludhiana|fasteners_hardware": {
+"call": "caution",
+"base": "ok",
+"score": 88,
+"at": "2026-11-01 23:51 IST"
+},
+"PB|pb_ludhiana|hosiery_knitwear": {
+"call": "avoid",
+"base": "avoid",
+"score": 30,
+"at": "2026-11-01 23:53 IST"
+},
+"PB|pb_ludhiana|steel_rerolling": {
+"call": "caution",
+"base": "caution",
+"score": 57,
+"at": "2026-11-01 23:57 IST"
+},
+"PB|pb_mandi_gobindgarh|castings_forgings": {
+"call": "caution",
+"base": "caution",
+"score": 57,
+"at": "2026-11-01 23:49 IST"
+},
+"PB|pb_mandi_gobindgarh|steel_rerolling": {
+"call": "caution",
+"base": "caution",
+"score": 57,
+"at": "2026-11-01 23:57 IST"
+},
+"PB|pb_mohali|pharma": {
+"call": "caution",
+"base": "caution",
+"score": 46,
+"at": "2026-11-01 23:57 IST"
+},
+"PB|pb_mohali|tractors_agri_machinery": {
+"call": "ok",
+"base": "ok",
+"score": 78,
+"at": "2026-11-01 23:58 IST"
+},
+"PY|py_puducherry|electrical_eq": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-01 23:52 IST"
+},
+"PY|py_puducherry|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 16,
+"at": "2026-11-01 23:57 IST"
+},
+"RJ|rj_alwar|engineering": {
+"call": "caution",
+"base": "caution",
+"score": 48,
+"at": "2026-11-01 23:54 IST"
+},
+"RJ|rj_balotra|textile_processing": {
+"call": "caution",
+"base": "caution",
+"score": 50,
+"at": "2026-11-02 00:01 IST"
+},
+"RJ|rj_bhilwara|manmade_fibres": {
+"call": "avoid",
+"base": "avoid",
+"score": 0,
+"at": "2026-11-01 23:52 IST"
+},
+"RJ|rj_bhilwara|textile_processing": {
+"call": "caution",
+"base": "caution",
+"score": 50,
+"at": "2026-11-02 00:01 IST"
+},
+"RJ|rj_bhiwadi|auto_components": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-01 23:51 IST"
+},
+"RJ|rj_bhiwadi|engineering": {
+"call": "caution",
+"base": "caution",
+"score": 48,
+"at": "2026-11-01 23:55 IST"
+},
+"RJ|rj_bikaner|snacks_namkeen": {
+"call": "avoid",
+"base": "avoid",
+"score": 33,
+"at": "2026-11-01 23:59 IST"
+},
+"RJ|rj_bikaner|woollen_textiles": {
+"call": "caution",
+"base": "caution",
+"score": 50,
+"at": "2026-11-02 00:00 IST"
+},
+"RJ|rj_jaipur|carpets": {
+"call": "caution",
+"base": "caution",
+"score": 46,
+"at": "2026-11-01 23:48 IST"
+},
+"RJ|rj_jaipur|diamonds": {
+"call": "avoid",
+"base": "avoid",
+"score": 21,
+"at": "2026-11-01 23:50 IST"
+},
+"RJ|rj_jaipur|gold_jewellery": {
+"call": "avoid",
+"base": "avoid",
+"score": 21,
+"at": "2026-11-01 23:55 IST"
+},
+"RJ|rj_jodhpur|handicrafts": {
+"call": "avoid",
+"base": "avoid",
+"score": 29,
+"at": "2026-11-01 23:52 IST"
+},
+"RJ|rj_jodhpur|stone_granite": {
+"call": "caution",
+"base": "caution",
+"score": 57,
+"at": "2026-11-01 23:58 IST"
+},
+"RJ|rj_jodhpur|wooden_furniture": {
+"call": "caution",
+"base": "caution",
+"score": 49,
+"at": "2026-11-02 00:01 IST"
+},
+"RJ|rj_kishangarh|stone_granite": {
+"call": "caution",
+"base": "caution",
+"score": 57,
+"at": "2026-11-01 23:59 IST"
+},
+"RJ|rj_kota|chemicals_dyes": {
+"call": "avoid",
+"base": "avoid",
+"score": 13,
+"at": "2026-11-01 23:50 IST"
+},
+"RJ|rj_kota|stone_granite": {
+"call": "caution",
+"base": "caution",
+"score": 57,
+"at": "2026-11-01 23:59 IST"
+},
+"RJ|rj_neemrana|auto_components": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-01 23:52 IST"
+},
+"RJ|rj_neemrana|electrical_eq": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-01 23:52 IST"
+},
+"RJ|rj_pali|textile_processing": {
+"call": "caution",
+"base": "caution",
+"score": 50,
+"at": "2026-11-02 00:01 IST"
+},
+"RJ|rj_udaipur|stone_granite": {
+"call": "caution",
+"base": "caution",
+"score": 57,
+"at": "2026-11-01 23:59 IST"
+},
+"SK|sk_gangtok|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 16,
+"at": "2026-11-01 23:58 IST"
+},
+"TN|tn_chennai|electronics": {
+"call": "caution",
+"base": "caution",
+"score": 64,
+"at": "2026-11-01 23:49 IST"
+},
+"TN|tn_chennai|leather": {
+"call": "avoid",
+"base": "avoid",
+"score": 43,
+"at": "2026-11-01 23:58 IST"
+},
+"TN|tn_chennai|vehicle_oem": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-02 00:06 IST"
+},
+"TN|tn_coimbatore|castings_forgings": {
+"call": "avoid",
+"base": "avoid",
+"score": 37,
+"at": "2026-11-01 23:49 IST"
+},
+"TN|tn_coimbatore|pumps_valves": {
+"call": "caution",
+"base": "caution",
+"score": 58,
+"at": "2026-11-01 23:58 IST"
+},
+"TN|tn_coimbatore|textile_machinery": {
+"call": "caution",
+"base": "caution",
+"score": 58,
+"at": "2026-11-02 00:07 IST"
+},
+"TN|tn_erode|handloom_powerloom": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-01 23:53 IST"
+},
+"TN|tn_erode|spices": {
+"call": "avoid",
+"base": "avoid",
+"score": 34,
+"at": "2026-11-02 00:02 IST"
+},
+"TN|tn_erode|textile_processing": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-02 00:01 IST"
+},
+"TN|tn_hosur|electronics": {
+"call": "caution",
+"base": "caution",
+"score": 64,
+"at": "2026-11-01 23:49 IST"
+},
+"TN|tn_karur|home_textiles": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-01 23:56 IST"
+},
+"TN|tn_krishnagiri|fruits_veg": {
+"call": "avoid",
+"base": "avoid",
+"score": 34,
+"at": "2026-11-01 23:56 IST"
+},
+"TN|tn_madurai|handloom_powerloom": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-01 23:53 IST"
+},
+"TN|tn_madurai|rubber_tyres": {
+"call": "ok",
+"base": "ok",
+"score": 69,
+"at": "2026-11-01 23:52 IST"
+},
+"TN|tn_nilgiris|tea": {
+"call": "avoid",
+"base": "avoid",
+"score": 38,
+"at": "2026-11-01 23:59 IST"
+},
+"TN|tn_salem|food_processing": {
+"call": "avoid",
+"base": "avoid",
+"score": 43,
+"at": "2026-11-01 23:52 IST"
+},
+"TN|tn_salem|steel_rerolling": {
+"call": "avoid",
+"base": "avoid",
+"score": 37,
+"at": "2026-11-01 23:57 IST"
+},
+"TN|tn_sivakasi|fireworks_matches": {
+"call": "avoid",
+"base": "avoid",
+"score": 23,
+"at": "2026-11-01 23:51 IST"
+},
+"TN|tn_sivakasi|printing_publishing": {
+"call": "caution",
+"base": "caution",
+"score": 47,
+"at": "2026-11-02 00:01 IST"
+},
+"TN|tn_sriperumbudur|auto_components": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:52 IST"
+},
+"TN|tn_sriperumbudur|mobile_assembly": {
+"call": "caution",
+"base": "caution",
+"score": 64,
+"at": "2026-11-01 23:58 IST"
+},
+"TN|tn_tiruppur|apparel": {
+"call": "avoid",
+"base": "avoid",
+"score": 10,
+"at": "2026-11-01 23:48 IST"
+},
+"TN|tn_tiruppur|cotton_textiles": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-01 23:51 IST"
+},
+"TN|tn_tiruppur|hosiery_knitwear": {
+"call": "avoid",
+"base": "avoid",
+"score": 10,
+"at": "2026-11-01 23:53 IST"
+},
+"TN|tn_tuticorin|power": {
+"call": "caution",
+"base": "caution",
+"score": 55,
+"at": "2026-11-01 23:55 IST"
+},
+"TN|tn_tuticorin|seafood_processing": {
+"call": "caution",
+"base": "caution",
+"score": 50,
+"at": "2026-11-01 23:59 IST"
+},
+"TN|tn_vellore_ambur|footwear": {
+"call": "avoid",
+"base": "avoid",
+"score": 43,
+"at": "2026-11-01 23:52 IST"
+},
+"TN|tn_vellore_ambur|leather_tanning": {
+"call": "avoid",
+"base": "avoid",
+"score": 43,
+"at": "2026-11-01 23:54 IST"
+},
+"TR|tr_agartala|tea": {
+"call": "avoid",
+"base": "avoid",
+"score": 38,
+"at": "2026-11-01 23:59 IST"
+},
+"TS|ts_hyderabad|api_bulk_drugs": {
+"call": "caution",
+"base": "caution",
+"score": 56,
+"at": "2026-11-01 23:48 IST"
+},
+"TS|ts_hyderabad|defence_aerospace": {
+"call": "ok",
+"base": "ok",
+"score": 100,
+"at": "2026-11-01 23:51 IST"
+},
+"TS|ts_hyderabad|pharma": {
+"call": "caution",
+"base": "caution",
+"score": 56,
+"at": "2026-11-01 23:58 IST"
+},
+"TS|ts_nizamabad|tobacco": {
+"call": "caution",
+"base": "caution",
+"score": 46,
+"at": "2026-11-02 00:00 IST"
+},
+"TS|ts_patancheru|api_bulk_drugs": {
+"call": "caution",
+"base": "caution",
+"score": 56,
+"at": "2026-11-01 23:48 IST"
+},
+"TS|ts_patancheru|chemicals_dyes": {
+"call": "caution",
+"base": "caution",
+"score": 53,
+"at": "2026-11-01 23:51 IST"
+},
+"TS|ts_warangal|cotton_ginning": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-01 23:49 IST"
+},
+"TS|ts_warangal|rice_milling": {
+"call": "caution",
+"base": "ok",
+"score": 72,
+"at": "2026-11-01 23:51 IST"
+},
+"UK|uk_dehradun|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 16,
+"at": "2026-11-01 23:58 IST"
+},
+"UK|uk_haridwar|fmcg_distribution": {
+"call": "avoid",
+"base": "avoid",
+"score": 12,
+"at": "2026-11-01 23:54 IST"
+},
+"UK|uk_haridwar|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 16,
+"at": "2026-11-01 23:59 IST"
+},
+"UK|uk_haridwar|vehicle_oem": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-02 00:06 IST"
+},
+"UK|uk_kashipur|paper": {
+"call": "avoid",
+"base": "avoid",
+"score": 37,
+"at": "2026-11-01 23:57 IST"
+},
+"UK|uk_kashipur|sugar": {
+"call": "caution",
+"base": "caution",
+"score": 46,
+"at": "2026-11-01 23:57 IST"
+},
+"UK|uk_rudrapur|auto_components": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-01 23:53 IST"
+},
+"UK|uk_rudrapur|pharma": {
+"call": "avoid",
+"base": "avoid",
+"score": 16,
+"at": "2026-11-01 23:59 IST"
+},
+"UK|uk_rudrapur|two_wheelers": {
+"call": "caution",
+"base": "caution",
+"score": 60,
+"at": "2026-11-02 00:02 IST"
+},
+"UP|up_agra|footwear": {
+"call": "caution",
+"base": "caution",
+"score": 63,
+"at": "2026-11-01 23:53 IST"
+},
+"UP|up_agra|stone_granite": {
+"call": "ok",
+"base": "ok",
+"score": 87,
+"at": "2026-11-01 23:59 IST"
+},
+"UP|up_aligarh|fasteners_hardware": {
+"call": "ok",
+"base": "ok",
+"score": 88,
+"at": "2026-11-01 23:51 IST"
+},
+"UP|up_aligarh|hand_tools": {
+"call": "caution",
+"base": "ok",
+"score": 88,
+"at": "2026-11-01 23:50 IST"
+},
+"UP|up_bhadohi|carpets": {
+"call": "ok",
+"base": "ok",
+"score": 76,
+"at": "2026-11-01 23:48 IST"
+},
+"UP|up_firozabad|glass": {
+"call": "ok",
+"base": "ok",
+"score": 71,
+"at": "2026-11-01 23:50 IST"
+},
+"UP|up_firozabad|imitation_jewellery": {
+"call": "caution",
+"base": "caution",
+"score": 51,
+"at": "2026-11-01 23:57 IST"
+},
+"UP|up_ghaziabad|engineering": {
+"call": "ok",
+"base": "ok",
+"score": 78,
+"at": "2026-11-01 23:55 IST"
+},
+"UP|up_ghaziabad|fabrication_workshops": {
+"call": "caution",
+"base": "caution",
+"score": 57,
+"at": "2026-11-01 23:54 IST"
+},
+"UP|up_ghaziabad|steel_rerolling": {
+"call": "caution",
+"base": "caution",
+"score": 57,
+"at": "2026-11-01 23:57 IST"
+},
+"UP|up_gorakhpur|distilleries_ethanol": {
+"call": "ok",
+"base": "ok",
+"score": 72,
+"at": "2026-11-01 23:52 IST"
+},
+"UP|up_kanpur|flour_dal_mills": {
+"call": "caution",
+"base": "caution",
+"score": 63,
+"at": "2026-11-01 23:52 IST"
+},
+"UP|up_kanpur|footwear": {
+"call": "caution",
+"base": "caution",
+"score": 63,
+"at": "2026-11-01 23:53 IST"
+},
+"UP|up_kanpur|leather_goods": {
+"call": "caution",
+"base": "caution",
+"score": 63,
+"at": "2026-11-01 23:55 IST"
+},
+"UP|up_kanpur|leather_tanning": {
+"call": "caution",
+"base": "caution",
+"score": 63,
+"at": "2026-11-01 23:55 IST"
+},
+"UP|up_khurja|ceramics": {
+"call": "caution",
+"base": "ok",
+"score": 71,
+"at": "2026-11-01 23:49 IST"
+},
+"UP|up_lucknow|handicrafts": {
+"call": "caution",
+"base": "caution",
+"score": 59,
+"at": "2026-11-01 23:52 IST"
+},
+"UP|up_meerut|sports_goods": {
+"call": "caution",
+"base": "caution",
+"score": 59,
+"at": "2026-11-02 00:02 IST"
+},
+"UP|up_mirzapur|carpets": {
+"call": "ok",
+"base": "ok",
+"score": 76,
+"at": "2026-11-01 23:48 IST"
+},
+"UP|up_mirzapur|cement": {
+"call": "caution",
+"base": "ok",
+"score": 87,
+"at": "2026-11-01 23:48 IST"
+},
+"UP|up_moradabad|handicrafts": {
+"call": "caution",
+"base": "caution",
+"score": 59,
+"at": "2026-11-01 23:52 IST"
+},
+"UP|up_moradabad|nonferrous_brass": {
+"call": "caution",
+"base": "ok",
+"score": 88,
+"at": "2026-11-01 23:53 IST"
+},
+"UP|up_moradabad|steel_utensils": {
+"call": "caution",
+"base": "ok",
+"score": 88,
+"at": "2026-11-01 23:57 IST"
+},
+"UP|up_muzaffarnagar|paper": {
+"call": "caution",
+"base": "ok",
+"score": 67,
+"at": "2026-11-01 23:57 IST"
+},
+"UP|up_muzaffarnagar|steel_rerolling": {
+"call": "caution",
+"base": "caution",
+"score": 57,
+"at": "2026-11-01 23:58 IST"
+},
+"UP|up_noida|apparel": {
+"call": "avoid",
+"base": "avoid",
+"score": 30,
+"at": "2026-11-01 23:48 IST"
+},
+"UP|up_noida|electronic_components": {
+"call": "ok",
+"base": "ok",
+"score": 84,
+"at": "2026-11-01 23:50 IST"
+},
+"UP|up_noida|mobile_assembly": {
+"call": "ok",
+"base": "ok",
+"score": 84,
+"at": "2026-11-01 23:59 IST"
+},
+"UP|up_saharanpur|sugar": {
+"call": "caution",
+"base": "ok",
+"score": 76,
+"at": "2026-11-01 23:58 IST"
+},
+"UP|up_saharanpur|wooden_furniture": {
+"call": "caution",
+"base": "ok",
+"score": 79,
+"at": "2026-11-02 00:01 IST"
+},
+"UP|up_unnao|leather_tanning": {
+"call": "caution",
+"base": "caution",
+"score": 63,
+"at": "2026-11-01 23:55 IST"
+},
+"UP|up_unnao|meat_poultry_processing": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-01 23:55 IST"
+},
+"UP|up_varanasi|silk_weaving": {
+"call": "caution",
+"base": "ok",
+"score": 80,
+"at": "2026-11-01 23:55 IST"
+},
+"WB|wb_asansol|steel_rerolling": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:58 IST"
+},
+"WB|wb_burdwan|rice_milling": {
+"call": "avoid",
+"base": "avoid",
+"score": 32,
+"at": "2026-11-01 23:51 IST"
+},
+"WB|wb_durgapur|metals": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:58 IST"
+},
+"WB|wb_durgapur|sponge_iron": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-02 00:06 IST"
+},
+"WB|wb_haldia|chemicals_dyes": {
+"call": "avoid",
+"base": "avoid",
+"score": 13,
+"at": "2026-11-01 23:51 IST"
+},
+"WB|wb_haldia|petrochem": {
+"call": "avoid",
+"base": "avoid",
+"score": 0,
+"at": "2026-11-01 23:53 IST"
+},
+"WB|wb_howrah|castings_forgings": {
+"call": "avoid",
+"base": "avoid",
+"score": 27,
+"at": "2026-11-01 23:50 IST"
+},
+"WB|wb_howrah|engineering": {
+"call": "caution",
+"base": "caution",
+"score": 48,
+"at": "2026-11-01 23:55 IST"
+},
+"WB|wb_howrah|jute_mills": {
+"call": "avoid",
+"base": "avoid",
+"score": 35,
+"at": "2026-11-01 23:51 IST"
+},
+"WB|wb_kolkata|gold_jewellery": {
+"call": "avoid",
+"base": "avoid",
+"score": 21,
+"at": "2026-11-01 23:55 IST"
+},
+"WB|wb_kolkata|jute_mills": {
+"call": "avoid",
+"base": "avoid",
+"score": 35,
+"at": "2026-11-01 23:51 IST"
+},
+"WB|wb_kolkata|leather_goods": {
+"call": "avoid",
+"base": "avoid",
+"score": 33,
+"at": "2026-11-01 23:55 IST"
+},
+"WB|wb_kolkata|wholesale_trade": {
+"call": "avoid",
+"base": "avoid",
+"score": 12,
+"at": "2026-11-02 00:00 IST"
+},
+"WB|wb_siliguri|tea": {
+"call": "avoid",
+"base": "avoid",
+"score": 28,
+"at": "2026-11-02 00:00 IST"
 }
 }
 }
