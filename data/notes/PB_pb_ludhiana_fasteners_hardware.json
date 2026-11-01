@@ -1,0 +1,150 @@
+{
+ "key": "pb_ludhiana|fasteners_hardware",
+ "state": "PB",
+ "city": "pb_ludhiana",
+ "ind": "fasteners_hardware",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 88,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Ludhiana fasteners — but only to units that can pass steel cost through; avoid price-takers selling to large OEMs on fixed-price contracts.",
+ "title": "Ludhiana fasteners & hardware: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA fastener unit buys wire rod and steel, draws, cold-forges, threads, heat-treats and zinc-plates it into bolts, nuts and screws, and sells to auto OEMs, tractor makers, cycle and sewing-machine units and the hardware trade. **Cash is made on conversion spread, not on steel** — raw material is 50-55% of operating cost with steel the key input [8]. So when a proposal lands, check whether the unit has a price-reimbursement agreement with its key customers; if it sells on fixed-price annual contracts, ask who absorbs a steel spike.\n\n## What has changed now\nSteel prices have surged and industry bodies are asking for government intervention [1], and Punjab MSMEs are already feeling the squeeze on manufacturing growth [2]. Ludhiana's own industry has flagged steel prices under war strain [3]. **The cost line has moved against the borrower while selling prices lag.** Note the local sources are dated April and September 2026, so confirm current rod prices with the customer. The data pack is more encouraging: Punjab GST collections are up 9.7% Apr-to-date against India's 6.1% [D], and IIP for NIC 25 output is up 16.9% YoY [D].\n\n## Where the growth is\nPeer results show the demand is real: Sterling Tools posted standalone revenue up ~32% YoY in Q2 FY27 [4], and Sundram Fasteners grew ~30% with exports up 57% [5]. **Pursue tier-2 auto and tractor fastener makers with export order books and pass-through clauses.** Avoid single-customer units selling to one large OEM on fixed prices, and traders holding steel inventory on borrowed money.\n\n## How to grow safely\nStructure term loans against self-funded capex, not against inventory revaluation. **Take monthly stock statements, a rod-price-linked drawing power and quarterly GST returns.** If drawing power is being propped up by steel price gains rather than volume, ask for the sales register.\n\n## Early warning signs\n- Monthly stock statement (monthly): inventory days rising while sales flat -> cut drawing power.\n- GST returns (quarterly): turnover falling below the pre-spike run-rate -> ask for order book.\n- Rod price tracker (weekly): sharp move with no price revision to customers -> seek customer confirmation of pass-through.\n- Debtor ageing (monthly): OEM receivables past agreed terms -> reduce limit."
+ ],
+ "watch": [
+  [
+   "Monthly stock statement",
+   "Inventory days rising while sales flat -> cut drawing power"
+  ],
+  [
+   "Quarterly GST returns",
+   "Turnover below pre-spike run-rate -> ask for order book"
+  ],
+  [
+   "Weekly rod price tracker",
+   "Sharp move with no customer price revision -> seek pass-through confirmation"
+  ],
+  [
+   "Monthly debtor ageing",
+   "OEM receivables past agreed terms -> reduce limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Steel price surge squeezing Punjab MSME margins; local sources dated April-September 2026.",
+ "articles": [
+  {
+   "title": "Steel Price Surge Sets Off Alarm Bells For Msmes: Cicu Seeks Immediate Government Intervention",
+   "url": "https://jagratilahar.com/english/business/137853/Steel-Price-Surge-Sets-Off-Alarm-Bells-For-Msmes-Cicu-Seeks-Immediate-Government-Intervention",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Punjab Steel Costs Squeeze MSME Manufacturing Growth - Punjab Steel Costs Squeeze MSME Manufacturing Growth",
+   "url": "https://homesbuildings.com/punjab-steel-costs-squeeze-msme-manufacturing-growth/#1",
+   "date": "2026-09-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "City Inc sounds alert as steel prices feel the war strain | Ludhiana News - The Times of India - City Inc sounds alert as steel prices feel the war strain",
+   "url": "https://timesofindia.indiatimes.com/city/ludhiana/city-inc-sounds-alert-as-steel-prices-feel-the-war-strain/articleshow/130244529.cms#1",
+   "date": "2026-04-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sterling Tools Ltd (BOM:530759) (Q2 2027) Earnings Call Highlights: Record Revenue Growth ...",
+   "url": "https://nz.finance.yahoo.com/news/sterling-tools-ltd-bom-530759-010542255.html",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sundaram Fasteners Ltd (BOM:500403) (Q2 2027) Earnings Call Highlights: 30% Revenue Surge on ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/sundaram-fasteners-ltd-bom-500403-031027882.html",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sundram Fasteners Q1FY27 Report: ₹1,270 Target | Buy Rating",
+   "url": "https://www.mnclgroup.com/sundram-fasteners-ltd-q1fy27-company-update#1",
+   "date": "2026-08-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Sundaram Fasteners Ltd (BOM:500403) (Q2 2027) Earnings Call High",
+   "url": "https://www.gurufocus.com/news/9160590/sundaram-fasteners-ltd-bom500403-q2-2027-earnings-call-highlights-30-revenue-surge-on-57-export-jump-but-raw-material-inflation-weighs-on-margins?utm_source=yahoo_finance&utm_medium=syndication&utm_campaign=headlines&r=caf6fe0e0db70d936033da5461e60141",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 21, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=139118#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131049_Deepak_Fasteners_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/SundramFastenersLimited_April%2028_%202026_RR_393949.html",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 24,2024",
+   "url": "https://www.icra.in/Rating/ShowRatingRationalReport?id=130678&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 88 (national 96 x 0.6 + Punjab 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Punjab: GST collections +9.7% Apr-to-date vs India +6.1% (3.6 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 25 output +16.9% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +12.0% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +11.9% YoY vs output +12.0% (gap -0.1 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

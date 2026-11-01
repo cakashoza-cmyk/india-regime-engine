@@ -1,0 +1,154 @@
+{
+ "key": "hr_sonipat|footwear",
+ "state": "HR",
+ "city": "hr_sonipat",
+ "ind": "footwear",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 63,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Sonipat footwear component and job-work units with clean GST and tight covenants; avoid leveraged finished-goods makers selling into discount-led retail.",
+ "title": "Sonipat Footwear: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Footwear in Sonipat is a low-capex, labour-heavy assembly trade: soles, uppers and components come in, stitching and lasting happen on contract labour, and finished pairs move out to wholesalers and retail chains.** The rating agencies are blunt that the process is not capital-intensive and entry barriers are low, with a strong unorganised sector keeping competition stiff [10]. Cash sits in inventory and receivables, not in plant, so **the working-capital cycle is the credit, not the factory.**\n\n## What has changed now\n**The demand signal is mixed but the local tax base is running ahead of the country.** Haryana GST collections are up 10.1% Apr-to-date against India's 6.1% [D], and India-wide footwear output (IIP NIC 15) is up 8.1% YoY [D]. But exports are down 3.0% Apr-to-date in USD [D], so **do not underwrite export orders as a base case.** Peer results show the domestic channel recovering after the GST cut from 12% to 5% cleared distributor stock [4], with Relaxo Q4 FY26 revenue up 8.1% and EBITDA margin at 16.5% [5], and Bata Q1FY27 net profit up 23% [6]. Note the peer FY26 full-year picture is softer: Relaxo revenue down 3.1% [7].\n\n## Where the growth is\n**Pursue component and job-work suppliers to the branded chains, and units with a real distributor book.** Relaxo's distributor count rose from 550 to 630 in one quarter [4] — that is the channel to lend into. **Avoid leveraged finished-goods makers selling only into discount retail, and any unit whose sales depend on one buyer.** The Sonipat registry shows footwear units registered in Rai and Barhi industrial estates [1], but the local sources say little about footwear specifically, so lean on first principles and these peers.\n\n## How to grow safely\n**Structure against the cycle, not the order book.** Take monthly GST returns and e-way bills; if GST-paid turnover diverges from bank credits by more than a tenth, ask for the buyer ledger. Take stock statements monthly and a charge on receivables. **Cap inventory-funded limits and keep term debt near nil** — the ICRA-rated peer carries nil term debt and significant drawing-power headroom [10]. Where a proposal lands with heavy plant capex, check the debt-funded expansion plan against the low-capex nature of the trade [11].\n\n## Early-warning signs\n- **Distributor returns rising (monthly):** trigger -> ask for stock ageing and cut limit.\n- **GST-paid sales falling while bank credits hold (monthly):** trigger -> stop fresh disbursal.\n- **Receivable days stretching past the stated credit terms (monthly):** trigger -> seek buyer confirmation.\n- **Single-buyer concentration above half of sales (quarterly):** trigger -> require diversification plan."
+ ],
+ "watch": [
+  [
+   "GST returns vs bank credits (monthly)",
+   "divergence beyond a tenth -> ask for buyer ledger and hold disbursal"
+  ],
+  [
+   "Stock and receivable ageing (monthly)",
+   "receivable days past terms -> seek buyer confirmation, trim limit"
+  ],
+  [
+   "Distributor returns and stock liquidation (monthly)",
+   "returns rising -> cut limit, review stock statement"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "above half of sales -> require diversification plan"
+  ],
+  [
+   "Export order book (quarterly)",
+   "export share rising on weak export data [D] -> stress-test at lower volumes"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Haryana GST outpaces India, output up, but exports down 3.0% and peers mixed.",
+ "articles": [
+  {
+   "title": "Haryana Central Inspection System",
+   "url": "https://cisharyana.in/admin/missheet/registeredIndustries?dept_type=1&district=18&industry_name=&filter_date=&per_page=3480",
+   "date": "2026-09-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "New & Upcoming Projects in Other Manufacturing Projects in Haryana - Page 8",
+   "url": "https://newprojectstracker.com/projects-india/other-manufacturing/haryana?page=8",
+   "date": "2026-09-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "200+ Jobs in Kundli, Sonipat for April, 2026 - Direct Selection",
+   "url": "https://mistrnokriwala.com/job_location/kundli-jobs/#content",
+   "date": "2026-03-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Relaxo Footwears (BOM:530517) Q4 2026 Earnings Call Transcript & Audio - Relaxo Footwears Limited (BOM:530517)",
+   "url": "https://stockanalysis.com/quote/bom/530517/transcripts/543230-q4-25-26/#1",
+   "date": "2026-05-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Relaxo Footwears Ltd (BOM:530517) Q4 2026 Earnings Call Highlights: Strong Revenue Growth and ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://sg.finance.yahoo.com/news/relaxo-footwears-ltd-bom-530517-010229380.html#1",
+   "date": "2026-06-01",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Bata India Shares Skyrocket 8% After Q1 Profit Jumps 23% YoY; Interim Dividend Of Rs 25 Announced - Bata India shares were in demand on Wednesday, rising as much as 8.42% to Rs 758.45 apiece on the BSE after the footwear retaile...",
+   "url": "https://www.ndtvprofit.com/markets/bata-india-shares-skyrocket-8-percent-after-q1-results-net-profit-jumps-23-percent-yoy-rs-25-interim-dividend-announced-11897967#pfrom=home-business_#1",
+   "date": "2026-08-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ATTENTION INVESTORS",
+   "url": "https://www.ganpationline.co.in/market/equity/news-analysis/news_details/Hot_News/1701398",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The liquidity position is adequate marked by gross cash accruals (GCA) of ₹31.14 crore against repayment obligations of ₹4.18 cr...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202610121024_Ajanta_Shoes_(India)_Private_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "September 21, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145701#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "December 18,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=131798&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In order to grow, the Indian footwear sector would require investments in plant and machinery, expanding retail presence and set...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/599~Footwear#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 63 (national 55 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 15 output +8.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -3.0% Apr-to-date in USD (Rs 21,080 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +11.9% YoY vs output +2.4% (gap +9.5 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,150 @@
+{
+ "key": "up_aligarh|fasteners_hardware",
+ "state": "UP",
+ "city": "up_aligarh",
+ "ind": "fasteners_hardware",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 88,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Aligarh fasteners & hardware — back the organised, export-linked and OEM-supplying units with tight structure; avoid the small lock/hardware units already showing stress.",
+ "title": "Aligarh fasteners & hardware: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Aligarh is a lock-and-hardware cluster first, with fasteners riding the same metal-working base.** Units buy steel and zinc, stamp, cast, machine, plate and assemble, then sell to traders, OEMs and exporters [1]. Cash turns on the metal-to-dispatch cycle, not on brand. **Steel is the swing cost — rating work on a fastener peer puts raw material at 50–55% of operating cost [8], so when a proposal lands, check the steel procurement and pass-through clause before anything else; if there is no price-reimbursement agreement with key customers, ask how a steel spike is absorbed.**\n\n## Where value and cash sit\n**Value sits with units that have a customer price clause and a testing/quality gate; cash sits with whoever gets paid before the trader does.** The cluster's locks are tested outside Aligarh, which adds lead time and cost [1]. Peer results show the money is in OEM and export books: Sundaram Fasteners grew revenue ~30% YoY with exports up 57% [5], and Sterling Tools posted its highest-ever quarterly revenue, up ~32% [4]. **So when a proposal lands, check the export/OEM share of sales; if it is trader-only domestic, ask for the top-five buyer list and their payment terms.**\n\n## What has changed now\n**The macro is supportive but the local stress is real.** UP GST collections rose 14.2% Apr-to-date against India's 6.1% [D], and IIP for NIC 25 output is up 16.9% YoY [D]. Against that, local recovery practice flags locks & hardware among Aligarh's most stressed MSME segments [2]. Peer margins are being trimmed by steel and aluminium inflation — Sundaram's EBITDA margin came to 15.7% [7]. **So when a proposal lands, check whether the unit is a stressed lock-maker or an organised fastener supplier; if the former, ask for the OTS/recovery history before sizing.**\n\n## Where to grow, and how to grow safely\n**Pursue organised fastener units supplying OEMs and exporters, and hardware traders with a Gulf buyer base [3].** Avoid sub-scale lock units with trader-only sales and a recovery file [2]. Structure as a working-capital line against stock and receivables, with a steel price-pass-through covenant and a monthly stock-and-debtor statement. **Take the GST return, bank statement and stock statement every month; if receivable days stretch beyond the stated terms, ask for the buyer-wise ageing.**\n\n## Early-warning signs\n**Watch steel-cost absorption, export order flow and receivable ageing.** Peer export growth of 57% [5] and 40% H1 [5] shows demand exists; a unit losing export orders while steel rises is the one to exit. Rating work on a peer shows interest cover of 8.8x and debt/OPBDIT of 1.4x as the healthy benchmark [11]. **If a unit's cover slips toward half that, ask for a fresh CMA and reprice.**"
+ ],
+ "watch": [
+  [
+   "Monthly GST returns (monthly)",
+   "Filing gap or falling turnover vs stock -> ask for sales register and re-size the limit"
+  ],
+  [
+   "Steel purchase invoices (monthly)",
+   "Input cost up with no price clause -> seek customer pass-through proof or trim exposure"
+  ],
+  [
+   "Receivable ageing (monthly)",
+   "Days stretch beyond terms -> ask for buyer-wise ageing and top-five confirmation"
+  ],
+  [
+   "Export order book (quarterly)",
+   "Order book falls while peers grow -> review and consider exit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "UP GST and IIP strong, but local lock/hardware stress offsets; peer growth supports organised units.",
+ "articles": [
+  {
+   "title": "Aligarh Lock Manufacturers: An Importer Guide to the Cluster · SourcingFrom",
+   "url": "https://sourcingfrom.com/locations/aligarh-lock-cluster/",
+   "date": "2026-10-04",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "MSME one-time settlement (OTS) in Aligarh — OTS & Legal Help",
+   "url": "https://msme.help/city/aligarh/msme-ots",
+   "date": "2026-06-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Aligarh Hardware B2B Digital Marketing | Gulf Export Buyer Guide 2026",
+   "url": "https://scalifylabs.com/blog/hardware-b2b-digital-marketing-aligarh-gulf-export",
+   "date": "2026-06-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sterling Tools Ltd (BOM:530759) (Q2 2027) Earnings Call Highlights: Record Revenue Growth ...",
+   "url": "https://nz.finance.yahoo.com/news/sterling-tools-ltd-bom-530759-010542255.html",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sundaram Fasteners Ltd (BOM:500403) (Q2 2027) Earnings Call Highlights: 30% Revenue Surge on ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/sundaram-fasteners-ltd-bom-500403-031027882.html",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sundram Fasteners Q1FY27 Report: ₹1,270 Target | Buy Rating",
+   "url": "https://www.mnclgroup.com/sundram-fasteners-ltd-q1fy27-company-update#1",
+   "date": "2026-08-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Sundaram Fasteners Ltd (BOM:500403) (Q2 2027) Earnings Call High",
+   "url": "https://www.gurufocus.com/news/9160590/sundaram-fasteners-ltd-bom500403-q2-2027-earnings-call-highlights-30-revenue-surge-on-57-export-jump-but-raw-material-inflation-weighs-on-margins?utm_source=yahoo_finance&utm_medium=syndication&utm_campaign=headlines&r=caf6fe0e0db70d936033da5461e60141",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "November 21, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=139118#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131049_Deepak_Fasteners_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/SundramFastenersLimited_April%2028_%202026_RR_393949.html",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 24,2024",
+   "url": "https://www.icra.in/Rating/ShowRatingRationalReport?id=130678&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 88 (national 96 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 25 output +16.9% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +12.0% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +11.9% YoY vs output +12.0% (gap -0.1 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

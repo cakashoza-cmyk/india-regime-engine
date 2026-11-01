@@ -1,0 +1,158 @@
+{
+ "key": "up_agra|footwear",
+ "state": "UP",
+ "city": "up_agra",
+ "ind": "footwear",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 63,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Agra footwear MSMEs with clean GST and tight monthly stock reporting; avoid sub-scale job-work units with no branded or institutional buyer.",
+ "title": "Agra Footwear: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nAgra footwear is a low-capex, labour-heavy assembly trade: soles, uppers, adhesives and lining go in, finished pairs come out, and cash comes back only after the trade channel sells through. **The industry does not have a capital-intensive manufacturing process and entry barriers remain low [10], so your real risk is not the factory, it is the buyer list and the stock.** Because capex is small, a unit can scale output fast on borrowed working capital; that is exactly where over-lending happens.",
+  "## Where value and cash sit\nValue sits in design, brand and distribution, not stitching. Peers show the split: Relaxo Q4 FY26 revenue INR751 crore, EBITDA margin 16.5% [5], while a regional manufacturer-retailer runs 116 showrooms and 49 franchisees [8]. **The manufacturer with a brand keeps the margin; the job-worker keeps a conversion charge.** So when a proposal lands, check who the top five buyers are and what share they hold; if one buyer is above a third of sales, ask for that buyer's payment history and past-due record.",
+  "## What has changed now\nTwo things. First, the GST cut from 12% to 5% caused downstocking, then recovery, with distributor count rising from 550 to 630 in one quarter [4] — **so ask for the last six months of GST returns, not the last quarter, to see whether the recovery is real or a restock bounce.** Second, SIDBI and AFMEC have signed an MoU for financial and technical support to Agra footwear MSMEs [1][2][3]; that is local news, dated 29-30 October 2026, and it is a funding channel, not a credit signal. Peer results are healthy (Bata Q1FY27 net profit Rs 64 crore, up 23% [6]) but they are large branded players, not Agra units.",
+  "## Where to grow, and how to grow safely\nUP GST collections are running +14.2% Apr-to-date against India +6.1% [D], so the state demand pool is expanding faster than the country. **Pursue component makers and branded/licensed manufacturers with repeat institutional buyers; avoid pure job-work units with one buyer and no design function.** Structure as cash-flow lending against stock and receivables, not land. Take monthly GST returns, stock statements and a buyer-wise ageing every month; if stock cover exceeds 90 days of sales, cut limit and ask for the slow-moving SKU list.",
+  "## Early warning signs\nWatch three things monthly: GST turnover falling while bank turnover holds (diversion), receivable days stretching beyond the stated credit terms, and stock that does not move. **If a unit's GST-paid sales drop two months running while its limit utilisation rises, freeze fresh disbursal and inspect godown stock.** Note that the rating reports [8][9][10] are undated or old and describe other entities; treat them as sector colour only. Agra-specific published data is thin, so lean on first principles and these peers."
+ ],
+ "watch": [
+  [
+   "GST returns vs bank statements (monthly)",
+   "GST sales fall 2 months while utilisation rises -> freeze disbursal, inspect stock"
+  ],
+  [
+   "Stock statement and ageing (monthly)",
+   "Stock cover above 90 days of sales -> cut limit, demand slow-moving SKU list"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "Top buyer above one-third of sales -> seek buyer payment record, cap exposure"
+  ],
+  [
+   "Receivable days (monthly)",
+   "Days stretch beyond agreed credit terms -> move to cash/LC terms"
+  ],
+  [
+   "Limit utilisation (weekly)",
+   "Utilisation above 90% with flat sales -> no enhancement, review drawing power"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "SIDBI-AFMEC MoU is a funding channel; peer results firm but not Agra-specific.",
+ "articles": [
+  {
+   "title": "आगरा के फुटवियर कारोबार को ग्लोबल पहचान दिलाने की पहल, वित्तीय और तकनीकी सहयोग पर हुआ समझौता",
+   "url": "https://navbharatlive.com/uttar-pradesh/agra/agra-footwear-industry-sidbiafmec-partnership-provide-new-impetus-npp09?utm_source=website&utm_medium=related-stories",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "आगरा के फुटवियर एमएसएमई को मिलेगी नई उड़ान: सिडबी और एफमेक के बीच ऐतिहासिक समझौता ज्ञापन पर हस्ताक्षर - Up18 News",
+   "url": "https://up18news.com/footwear-msmes-of-agra-will-get-a-new-flight-historic-mou-signed-between-sidbi-and-fmec/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "आगरा के जूता उद्योग को मिलेगी नई उड़ान, सिडबी और एफमेक ने मिलाया हाथ",
+   "url": "https://www.aurguru.com/agras-footwear-industry-set-major-boost-sidbi-afmec-october-2026",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Relaxo Footwears (BOM:530517) Q4 2026 Earnings Call Transcript & Audio - Relaxo Footwears Limited (BOM:530517)",
+   "url": "https://stockanalysis.com/quote/bom/530517/transcripts/543230-q4-25-26/#1",
+   "date": "2026-05-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Relaxo Footwears Ltd (BOM:530517) Q4 2026 Earnings Call Highlights: Strong Revenue Growth and ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://sg.finance.yahoo.com/news/relaxo-footwears-ltd-bom-530517-010229380.html#1",
+   "date": "2026-06-01",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Bata India Shares Skyrocket 8% After Q1 Profit Jumps 23% YoY; Interim Dividend Of Rs 25 Announced - Bata India shares were in demand on Wednesday, rising as much as 8.42% to Rs 758.45 apiece on the BSE after the footwear retaile...",
+   "url": "https://www.ndtvprofit.com/markets/bata-india-shares-skyrocket-8-percent-after-q1-results-net-profit-jumps-23-percent-yoy-rs-25-interim-dividend-announced-11897967#pfrom=home-business_#1",
+   "date": "2026-08-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ATTENTION INVESTORS",
+   "url": "https://www.ganpationline.co.in/market/equity/news-analysis/news_details/Hot_News/1701398",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The liquidity position is adequate marked by gross cash accruals (GCA) of ₹31.14 crore against repayment obligations of ₹4.18 cr...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202610121024_Ajanta_Shoes_(India)_Private_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 21, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145701#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "December 18,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=131798&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In order to grow, the Indian footwear sector would require investments in plant and machinery, expanding retail presence and set...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/599~Footwear#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 63 (national 55 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 15 output +8.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -3.0% Apr-to-date in USD (Rs 21,080 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +11.9% YoY vs output +2.4% (gap +9.5 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
