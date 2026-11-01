@@ -1,1 +1,1 @@
-{"worker_url": "", "poll_seconds": 20, "poll_max_minutes": 12}
+{"worker_url": "https://lending-radar-fetch.cakashoza.workers.dev", "poll_seconds": 20, "poll_max_minutes": 12}

@@ -1,0 +1,13 @@
+name = "lending-radar-fetch"
+main = "fetch-worker.js"
+compatibility_date = "2026-10-01"
+account_id = "8294b08c3d2a86e0df3ce39e83a850fe"
+workers_dev = true
+
+[vars]
+REPO = "cakashoza-cmyk/india-regime-engine"
+ALLOW_ORIGIN = "https://cakashoza-cmyk.github.io"
+
+[[kv_namespaces]]
+binding = "RL"
+id = "489eb0ea4c5344179547da5064d1cf21"
