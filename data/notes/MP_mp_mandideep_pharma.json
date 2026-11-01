@@ -1,0 +1,151 @@
+{
+ "key": "mp_mandideep|pharma",
+ "state": "MP",
+ "city": "mp_mandideep",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:32 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 26,
+ "nudged_by_news": false,
+ "verdict": "Avoid new pharma/API exposure in Mandideep for now; lend only to profitable, low-concentration formulation-linked units with tight structure, and decline API-only or single-customer borrowers.",
+ "title": "Mandideep Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "Lupin runs a Mandideep site hiring across QC, microbiology, production, QA and warehouse roles [3], so the cluster has an anchor employer and a supplier ecosystem around it. **Value sits in regulatory approvals and customer qualification, not in capacity** — a line without a filed dossier is scrap. ## What has changed now\n**The data pack reads AVOID at 26, and the local signal is the reason: Madhya Pradesh GST collections are -0.1% Apr-to-date against India +6.1%, 6.2 pp slower [D].** India-wide output is -2.1% Apr-to-date [D], while bank credit is +21.6% YoY [D] — money is chasing a shrinking base, so weak units are being kept alive on debt. **So when a proposal lands, check whether the last two years of growth came from volumes or from a lender refinancing receivables; if the latter, ask for the customer-wise sales register and decline.** Peers are not the problem: Aarti Pharmalabs posted record quarterly revenue of Rs. 613 crore, up 47% YoY, with EBITDA margin at 22.2% [4][6], and RPG Life Sciences grew Q2 FY27 revenue 16.5% to Rs. 211.6 crore [7] while targeting 25% API growth [5]. **The gap between good and bad API units is widening, and Mandideep's small units sit on the wrong side of it.**\n\n## Where the growth is\n**Pursue formulation-linked suppliers to the Mandideep anchor plants and CDMO/contract-research units with named, repeat customers.** The API industry grew at 8.4% CAGR between CY2017 and CY2022E and is expected at ~7% [11], and China still supplies 65-70% of India's API imports [11] — import substitution is the real order book. **Avoid API-only units with one customer or one product; rating reports show customer concentration is the standard killer [8].**\n\n## How to grow safely\n**Structure as CC/OD against receivables with a stock statement, not a term loan for capacity.** Working capital intensity in this sector has run 47-52% [10], so size the limit to the cycle, not the request. **Take monthly: stock-and-receivable statement, GST returns, top-five customer ledger, and power bills.** If receivable days stretch beyond the sanctioned cycle, ask for the customer confirmation before the next enhancement. ## Early-warning signs\n**Watch GST turnover falling while bank turnover rises — that is diversion.** Also watch inventory days climbing without a new approval, and any request to fund a customer's payment terms. Rating reports flag weak contract-research demand from US clients as a real revenue hit [8]; if a borrower's export orders thin, ask for the order book before renewal.",
+  "## Local coverage is thin\n**The local sources are job listings and topic pages, not financial news [1][2][3]; treat Mandideep-specific data as absent and lean on first principles plus peer results.**"
+ ],
+ "watch": [
+  [
+   "GST returns (monthly)",
+   "Turnover falls two quarters running -> freeze enhancement, review limit"
+  ],
+  [
+   "Stock-and-receivable statement (monthly)",
+   "Receivable days exceed sanctioned cycle -> seek customer confirmation, cut limit"
+  ],
+  [
+   "Power bills (monthly)",
+   "Load drops without stated shutdown -> site visit, reassess"
+  ],
+  [
+   "Top-five customer ledger (quarterly)",
+   "Single customer above half of sales -> require diversification plan or decline"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "MP GST -0.1% vs India +6.1% and national output -2.1% signal local demand stress.",
+ "articles": [
+  {
+   "title": "mandideep News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/mandideep/news#1",
+   "date": "2026-10-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "mandideep plant: Latest News & Videos, Photos about mandideep plant | The Economic Times - Page 1 - Business News›mandideep plant",
+   "url": "https://economictimes.indiatimes.com/topic/mandideep-plant#1",
+   "date": "2026-10-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Lupin Hiring for QC, Microbiology, Production, QA, Warehouse, Engineering Store & Utility Roles at Mandideep, Bhopal - Pharma Recruiter",
+   "url": "https://pharmarecruiter.in/lupin-hiring-for-qc-microbiology-production-qa/#Executive_Warehouse_API",
+   "date": "2026-06-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 26 (national 27 x 0.6 + Madhya Pradesh 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Madhya Pradesh: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Madhya Pradesh: electricity demand +7.5% Apr-to-date vs India +9.5% (2.0 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

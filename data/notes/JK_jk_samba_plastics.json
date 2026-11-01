@@ -1,0 +1,150 @@
+{
+ "key": "jk_samba|plastics",
+ "state": "JK",
+ "city": "jk_samba",
+ "ind": "plastics",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:33 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 59,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Samba plastics and rubber units with recycling or government-linked offtake and tight monthly cash covenants; avoid commodity film and moulding units selling into a shrinking local market.",
+ "title": "Samba Plastics & Rubber Processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Samba plastics or rubber unit buys polymer or scrap, converts it through extrusion, moulding or reclaim, and sells film, moulded parts or recycled granules to traders, government programmes and industrial buyers.** Cash is made on the spread between input cost and selling price, minus power and conversion cost; value sits in the machine, the mould and the buyer relationship, not in the shed. **The working-capital cycle is the real business: inventory of resin and scrap, then receivables from traders who pay slowly.** So when a proposal lands, check the receivable days and the top-five buyer share before you look at the machine; if receivables exceed the stated credit terms, ask for the ageing and the largest debtor's payment record.",
+  "## What has changed now\n**The local demand signal is weak: Jammu and Kashmir GST collections are -10.6% Apr-to-date against India +6.1%, and electricity demand is -0.5% against India +9.5% [D].** Power is a direct input cost for extrusion, so a flat local grid with a falling collection base tells you local offtake is not pulling product through. **Against that, the all-India plastics output picture is strong: IIP NIC 22 is +21.4% YoY and +18.2% Apr-to-date [D].** The gap is the whole story: national volume is there, Samba's local market is not. **Peer results confirm the national pull: Supreme Industries H1 FY27 sales tonnage 184,455 metric tons, up 19% YoY, operating profit up 45% to ₹431 crores [5]; Apcotex Q2 FY27 revenue up 48% YoY to ₹499 crores on 7% volume growth [6].** Note the Apcotex line: revenue outran volume, so price and mix carried it, and Q2 margins took inventory losses and higher freight [6]. **GRP Ltd, the reclaim rubber peer, grew total income 26% to INR 1,573 million with EBITDA margin at 11%, up 233 basis points [3], and guides reclaim volume growth to mid-teens in FY27 on North America recovery [4].** That is the export-facing recycling model, not the local trader model.",
+  "## Where the growth is\n**Pursue the recyclers and the reclaim processors first.** Samba already has a plastic recycling facility under the Swachh Bharat Mission (Gramin) push [2], which means government-linked feedstock and programme offtake rather than pure trader demand. **Pursue units supplying industrial and infrastructure buyers outside Jammu and Kashmir, because the national +21.4% output number [D] is where the volume is.** **Avoid commodity film and generic moulding units selling only into the local market**; the -10.6% GST and -0.5% power numbers [D] are their demand curve. **Avoid any unit whose top five suppliers or buyers dominate the book**; the Manika Plastech rating shows ~84% of raw material met by top five suppliers in FY25 [10], which is a concentration you must price.",
+  "## How to grow safely\n**Structure against the cycle, not the projection: cash credit sized to the actual inventory-and-receivable cycle, term loan matched to machine life, and no balloon on working capital.** The rating methodology is explicit that a longer working-capital cycle needs more funding and a shorter one gives better liquidity [9]. **Take a Trust and Retention Account with an Agency for Specialised Monitoring where the exposure is large**, the structure Crisil describes for timely debt servicing [7]. **Take every month: stock-and-debtor statement, GST returns, power bills, and the top-five buyer and supplier list with ageing.** If the GST return shows turnover below the stock statement, ask for the sales register and the e-way bills. **Price for concentration and for the local demand gap; if the promoter will not accept a monthly TRA sweep, decline.**",
+  "## Early-warning signs\n**Watch the monthly GST return against the stock statement; a widening gap means sales are being booked elsewhere or not at all.** Watch power consumption per tonne of output; a fall without a matching sales fall means the plant is running below capacity. **Watch receivable days against stated terms; if the largest buyer stretches beyond terms twice, stop fresh disbursement and ask for the buyer's confirmation.** Watch inventory of resin against the price trend; Apcotex's Q2 inventory losses [6] show how fast a resin position turns against a converter. **Watch any request to fund a second machine before the first is at stated utilisation; that is capex appetite, not demand.**"
+ ],
+ "watch": [
+  [
+   "GST returns vs stock statement (monthly)",
+   "turnover below stock statement -> ask for sales register and e-way bills, freeze fresh limit"
+  ],
+  [
+   "Power bill units per tonne (monthly)",
+   "output per unit falls without sales fall -> site visit, reassess capacity utilisation"
+  ],
+  [
+   "Receivable ageing and top-five buyer list (monthly)",
+   "largest buyer beyond terms twice -> stop disbursement, seek buyer confirmation"
+  ],
+  [
+   "Resin and scrap inventory value (monthly)",
+   "inventory rises while sales flat -> ask for price-loss provision, review drawing power"
+  ],
+  [
+   "TRA balance and monthly sweep (monthly)",
+   "sweep missed or TRA balance short -> escalate, consider recall"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "J&K GST -10.6% and power demand -0.5% signal weak local offtake despite strong national plastics output.",
+ "articles": [
+  {
+   "title": "Samba Plastic Industries Products | Deal & Trade Jordan",
+   "url": "https://deal-trade.net/en/store/samba-plastic-industries",
+   "date": "date unknown",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Major Push for SBM-G: DG Rural Sanitation Anoo Malhotra inaugurates Plastic Recycling Facility of IPCA at Samba",
+   "url": "https://jkmonitor.org/index.php/major-push-for-sbm-g-dg-rural-sanitation-anoo-malhotra-inaugurates-plastic-recycling-facility-of-ipca-at-samba",
+   "date": "date unknown",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "GRP Ltd (BOM:509152) Q1 2027 Earnings Call Highlights: Strong Revenue Growth and Margin Expansion By GuruFocus - GRP Ltd (BOM:509152) Q1 2027 Earnings Call Highlights: Strong Revenue Growth and Margin Expansion",
+   "url": "https://ca.investing.com/news/company-news/grp-ltd-bom509152-q1-2027-earnings-call-highlights-strong-revenue-growth-and-margin-expansion-4758390#1",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "GRP Ltd Q3 FY26 Results & Concall Highlights: Revenue, Margins & Order Book",
+   "url": "https://www.arthneeti.com:443/insights/grp-q3-fy26-earnings",
+   "date": "2026-07-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Supreme Industries H1 FY27 slides: revenue up 22%, margins expand By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/supreme-industries-h1-fy27-slides-revenue-up-22-margins-expand-93CH-2649317",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apcotex Industries Ltd (BOM:523694) (Q2 2027) Earnings Call High",
+   "url": "https://www.gurufocus.com/news/9153591/apcotex-industries-ltd-bom523694-q2-2027-earnings-call-highlights-record-h1-performance-48-revenue-surge-and-capex-on-track",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Crisil Ratings also notes that there is an Agency for Specialised Monitoring (ASM) appointed by the lenders, as part of the rest...",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbb2e8f9-d70e-49c4-a295-26bdd4c78562.pdf#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Manika Plastech Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202606120607_Manika_Plastech_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 59 (national 98 x 0.6 + Jammu and Kashmir 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Jammu and Kashmir: GST collections -10.6% Apr-to-date vs India +6.1% (16.7 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Jammu and Kashmir: electricity demand -0.5% Apr-to-date vs India +9.5% (10.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 22 output +21.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +18.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,150 @@
+{
+ "key": "ap_visakhapatnam|pharma",
+ "state": "AP",
+ "city": "ap_visakhapatnam",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:25 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 36,
+ "nudged_by_news": false,
+ "verdict": "Avoid new pharma/API exposure in Visakhapatnam for now; lend only to the strongest formulation-linked units with tight structure, and decline small single-customer API and CRO borrowers.",
+ "title": "Visakhapatnam Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**An API or formulation unit here is a chemistry plant that converts solvents, intermediates and power into batches of regulated product, and gets paid only after the batch clears the buyer's quality gate.** Cash sits in inventory (raw material, in-process, finished awaiting release) and in receivables from a handful of large buyers; the plant itself is heavy capex with effluent treatment and power as fixed costs. Rating reports on peers show exactly this: working capital intensity of 52% in FY2019, 47% in FY2020 and 48% in 7MFY2021, down from 77% in FY2018, and still described as high [10]. So when a proposal lands, check the receivables-and-inventory days against these peer levels; if the borrower's working capital intensity is above the peer range, ask for the buyer-wise ageing and the batch-release calendar before sizing the limit.\n\n## What has changed now\n**The local demand signal is weak even as the national pharma peer set is printing record numbers.** Andhra Pradesh GST collections are -0.2% Apr-to-date against India +6.1%, 6.3 pp slower [D], and India-wide output is -2.1% Apr-to-date [D] while bank credit runs +21.6% YoY [D] — credit is outrunning real output. Against that, peers are strong: Aarti Pharmalabs reported record quarterly revenue of Rs. 613 crore, up 47% YoY, with EBITDA margin at 22.2% from 17.7% [4][6], and RPG Life Sciences targets 25% API growth [5]. Read this as a split market: large, diversified, export-linked players are doing well; the local small unit is not automatically carried by that.\n\n## Where the growth is\n**Pursue formulation-linked and CDMO/contract-manufacturing borrowers with more than one qualified buyer, not single-customer API shops.** The API industry grew at 8.4% CAGR between CY2017 and CY2022E and is expected at ~7% ahead, with China at 65-70% of India's API imports and global buyers diversifying supply chains [11] — that diversification is the real opportunity, and it lands with units that already hold approvals. Note the local source is thin: a directory lists 11 pharma companies in the city including Divi's, Laurus, Lupin, Gland and Hetero [1], but it gives no financials, so lean on first principles and the peer and rating evidence. Avoid small CRO-dependent units: one rated peer at Rs. 61.0 crore FY2024 revenue saw demand from US clients weaken, with high customer concentration [8].\n\n## How to grow safely\n**Structure against the working-capital cycle, not the plant.** Take monthly stock-and-receivable statements, buyer-wise sales, and power consumption; the state's electricity demand is +18.1% Apr-to-date versus India +9.5% [D], so a unit running below that trend is suspect. Covenant on working capital intensity and on customer concentration; for capex, tie drawdown to commissioning. Collect from customer the actual receivable days, inventory days and buyer concentration before any sanction.\n\n## Early-warning signs\n**Watch receivable stretch and buyer loss first.** A single large buyer delaying release, inventory days climbing past the peer 48% intensity [10], or power consumption falling while sales are reported up are all exit signals. Rating evidence is old — the ICRA and CARE reports carry no clear date and reference FY2024 and earlier [8][9][10] — so treat them as structure guides, not current numbers."
+ ],
+ "watch": [
+  [
+   "Monthly buyer-wise sales and receivable ageing (monthly)",
+   "Top buyer share rises or ageing crosses peer intensity -> freeze enhancement, seek collateral"
+  ],
+  [
+   "Power consumption vs reported production (monthly)",
+   "Consumption falls while sales rise -> ask for batch records, reduce limit"
+  ],
+  [
+   "GST payment record of borrower (monthly)",
+   "Filing gap or falling GST vs AP -0.2% trend [D] -> escalate, review account"
+  ],
+  [
+   "Inventory and stock statement (monthly)",
+   "Inventory days climb above peer 48% [10] -> reprice or trim drawing power"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "AP GST -0.2% vs India +6.1% and national output -2.1% signal local demand weakness.",
+ "articles": [
+  {
+   "title": "Pharma Companies in Visakhapatnam (2026) — 11 Companies",
+   "url": "https://eazyreach.app/lists/pharma-companies-in-visakhapatnam",
+   "date": "2026-10-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Vietnamesische Unternehmen sind eingeladen, am Partnership Summit 2026 in Indien teilzunehmen. - Vietnamesische Unternehmen sind eingeladen, am Partnership Summit 2026 in Indien teilzunehmen.",
+   "url": "https://www.vietnam.vn/de/moi-doanh-nghiep-viet-nam-tham-du-hoi-nghi-thuong-dinh-doi-tac-2026-tai-an-do#1",
+   "date": "2026-10-14",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Ramky Pharma City: Latest News & Videos, Photos about Ramky Pharma City | The Economic Times - Page 1 - Business News›Ramky Pharma City",
+   "url": "https://economictimes.indiatimes.com/topic/Ramky-Pharma-City#1",
+   "date": "2026-09-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 36 (national 27 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: GST collections -0.2% Apr-to-date vs India +6.1% (6.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Andhra Pradesh: electricity demand +18.1% Apr-to-date vs India +9.5% (8.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

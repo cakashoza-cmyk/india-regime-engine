@@ -1,0 +1,158 @@
+{
+ "key": "jk_kathua|pharma",
+ "state": "JK",
+ "city": "jk_kathua",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:25 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 16,
+ "nudged_by_news": false,
+ "verdict": "Avoid for now — Kathua pharma is a construction story, not yet a lending story; lend only to Orchid's proven vendor/contractor ecosystem on tight structure, and decline standalone API/formulation units until the local demand signals turn.",
+ "title": "Kathua Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A pharma or API unit here is a chemistry plant: it buys solvents, intermediates and imported API, runs reactors and sterile lines, and sells to formulators or exports.** Cash is made on yield and capacity utilisation, not on price — most Indian API players sell into a buyer's market where China supplies 65-70% of India's API imports [11]. **Value sits in the plant and the customer approvals, so capex is heavy and lumpy and working capital is the real risk.** Peer rating work shows working capital intensity of 47-52% of sales at an API maker [10], and a contract-research peer ran at Rs 61.0 crore revenue in FY2024 with high customer concentration [8]. So when a proposal lands, check debtor days and top-customer share first; if one buyer is above a third of sales, ask for the supply agreement and a receivables cap.",
+  "## What has changed in Kathua\n**The local news is one large project, not a cluster.** Orchid Pharma has laid the foundation for a Rs 600-700 crore antibiotic facility at village Gadadhar [2][3]; that is a single MNC anchor, and the ET topic page carries no operating-revenue detail on any Kathua unit [1]. **The district-level demand signals are negative.** J&K GST collections are -10.6% Apr-to-date against India +6.1%, and electricity demand is -0.5% against India +9.5% [D]. **Nationally, bank credit is +21.6% YoY while output is -2.1% [D] — money is chasing a shrinking pie, which is exactly when weak units borrow to survive.** Treat the Rs 600 crore project as a construction and vendor opportunity, not as proof of a working pharma cluster.",
+  "## Where the growth is\n**Pursue the ecosystem around the Orchid build, not the molecule makers.** Civil contractors with a signed work order, electrical and HVAC subcontractors, solvent and packaging traders with purchase orders from the project, and logistics operators moving into the industrial area — these turn cash in 30-90 days and are secured by the order. **Peer results show the API cycle is strong at scale:** Aarti Pharmalabs posted record quarterly revenue of Rs 613 crore, up 47% YoY, with EBITDA margin at 22.2% [4][6], and RPG Life Sciences is targeting 25% API growth with revenue up 16.5% to Rs 211.6 crore [5][7]. **Avoid standalone small API or formulation units with no approved customer, no effluent consent and no anchor contract** — they carry the 47-52% working capital drag [10] without the pricing power.",
+  "## How to grow safely\n**Structure against the order, not the balance sheet.** For vendors: invoice-discounting or LC-backed facilities against the Orchid work order, tenor matched to the payment cycle, margin 25-30%. For any pharma unit: term loan only with promoter equity already in, and a receivables trust-and-retention account. **Take every month: stock and debtor statements, GST returns, electricity bills, and the top-five customer ledger.** If GST turnover falls below the banking turnover for two quarters, ask for the sales register and stop enhancement.",
+  "## Early-warning signs\n**Watch the local demand numbers, not the press releases.** If J&K GST stays negative against India for another quarter [D], treat new-to-bank pharma proposals as unsecured until proven. **Watch the Orchid project's own pace** — a stalled Rs 600 crore build [2][3] strands every vendor we have funded. **Watch power:** a -0.5% electricity demand trend [D] in a district adding a large plant means either the plant is not drawing yet or existing units are running less; ask each borrower for monthly consumption. **And watch the credit-to-output gap [D]:** when credit grows 23.7 pp faster than output, the marginal borrower is refinancing, so check whether any new proposal is repaying an old lender."
+ ],
+ "watch": [
+  [
+   "GST returns and J&K GST trend (monthly)",
+   "Two quarters of turnover below bank credits -> freeze limits, seek sales register"
+  ],
+  [
+   "Electricity consumption per unit (monthly)",
+   "Consumption down 15% or more on prior quarter -> site visit, reassess capacity utilisation"
+  ],
+  [
+   "Orchid project progress and vendor payment cycle (monthly)",
+   "Payment cycle beyond 90 days or site work stalled -> stop new vendor limits, invoke retention account"
+  ],
+  [
+   "Receivable days and top-customer share (monthly)",
+   "Receivables above 90 days or one buyer above one-third of sales -> cap exposure, demand supply agreement"
+  ],
+  [
+   "Credit-to-output gap and peer API margins (quarterly)",
+   "Peer EBITDA margin falls below 17.7% [4] -> re-price new API exposure, tighten covenants"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "J&K GST -10.6% and power -0.5% vs India positive; only one anchor project, no operating cluster.",
+ "articles": [
+  {
+   "title": "kathua pharmaceutical facility: Latest News & Videos, Photos about kathua pharmaceutical facility | The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/kathua-pharmaceutical-facility",
+   "date": "2026-10-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Dr Jitendra lays foundation of Rs 600 cr MNC Pharma unit in Kathua - Advertisement",
+   "url": "https://www.dailyexcelsior.com/dr-jitendra-lays-foundation-of-rs-600-cr-mnc-pharma-unit-in-kathua/#1",
+   "date": "2026-03-14",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Kathua to become India’s antibiotic powerhouse with Rs 600 crore pharma facility - The Economic Times - Kathua to become India’s antibiotic powerhouse with Rs 600 crore pharma facility",
+   "url": "https://m.economictimes.com/industry/healthcare/biotech/pharmaceuticals/kathua-set-to-become-indias-antibiotic-manufacturing-hub-with-rs-600-crore-investment/amp_articleshow/129577555.cms#1",
+   "date": "2026-03-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 16 (national 27 x 0.6 + Jammu and Kashmir 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Jammu and Kashmir: GST collections -10.6% Apr-to-date vs India +6.1% (16.7 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Jammu and Kashmir: electricity demand -0.5% Apr-to-date vs India +9.5% (10.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

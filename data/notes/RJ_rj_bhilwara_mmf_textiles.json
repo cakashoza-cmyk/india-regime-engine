@@ -1,0 +1,146 @@
+{
+ "key": "rj_bhilwara|mmf_textiles",
+ "state": "RJ",
+ "city": "rj_bhilwara",
+ "ind": "mmf_textiles",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:24 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 50,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to integrated, low-leverage Bhilwara weavers/processors with verified export order books; avoid pure grey-fabric converters and leveraged capex plays until Rajasthan demand signals recover.",
+ "title": "Bhilwara MMF/Polyester Weaving & Processing: a note to the credit manager",
+ "narrative": [
+  "**The sector is fixed-capital and working-capital heavy, so funding needs are high and leverage tolerance is low** [8][9]. Yarn price swings hit inventory value before they hit the P&L, so when a proposal lands, check whether yarn inventory is hedged or backed by a firm order; if it is speculative stock, ask for the buyer PO behind it. ## What has changed now\n**Local news is mixed and partly dated.** A July 2026 report says West Asia conflict stalled Bhilwara export orders worth around Rs 800 to Rs 1,000 crore [2]; a June 2026 report says over Rs 3,000 crore of investment is still flowing in despite the global slump [3]. **The official data pack is the sobering part: Rajasthan GST collections are -4.7% Apr-to-date against India +6.1%, and state electricity demand is +4.0% versus India +9.5%** [D] — both point to weaker local activity than the national IIP print of +13.1% for NIC 13 [D]. **So treat Bhilwara demand as lagging the national textile upcycle; do not underwrite on the India IIP number alone.**\n\n## Where the growth is\n**Pursue integrated units that spin-or-buy yarn, weave, and process in-house, with a named export buyer list and low leverage.** Peer commentary points to MMF runway: India's per-capita fibre consumption is 5.5 kg against a global average of 11 kg, and MMF share is 56% versus 69% globally [7]. **Filatex's Q3FY26 read-across shows stable performance for value-added polyester yarn players** [4]. ## How to grow safely\n**Structure for the working-capital cycle, not the capex story.** Take monthly stock-and-debtor statements, yarn purchase invoices, and buyer-wise sales; covenant on total outside liabilities to tangible net worth and on drawing power against verified receivables. **Rating methodology flags that longer-tenure term debt comfortably improves coverage** [10], so match any capex loan tenure to the asset, and confirm TUFS-style subsidy timelines before sanction [10]. **Peer guidance has already been cut to about 10% growth from an earlier 20%** [6] — so build projections on 10%, not 20%; if the borrower's numbers assume more, ask for the order book that justifies it. **Crude-linked yarn price volatility remains the key monitorable for polyester players** [11]; a sharp yarn spike with flat fabric prices means margin squeeze — ask for the last three months' yarn-to-fabric spread."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-debtor statement (monthly)",
+   "Inventory days rise >20% with flat sales -> cut drawing power and ask for buyer POs"
+  ],
+  [
+   "Electricity/power cost per metre (quarterly)",
+   "Cost per metre rises with flat fabric price -> reprice limit, review margin covenant"
+  ],
+  [
+   "Rajasthan GST and CEA demand prints (monthly)",
+   "Continued negative GST or sub-India power demand -> hold new sanctions in Bhilwara"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Rajasthan GST -4.7% and power demand lagging India; export orders stalled per July 2026 report.",
+ "articles": [
+  {
+   "title": "bhilwara textile industry: Latest News & Videos, Photos about bhilwara textile industry | The Economic Times - Page 1 - Business News›bhilwara textile industry",
+   "url": "https://economictimes.indiatimes.com/topic/bhilwara-textile-industry#1",
+   "date": "2026-09-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Asia's Premier News Agency - India News, Business & Political, National & International, Bollywood, Sports | ANI News",
+   "url": "https://aninews.in/topic/rajasthan-industry/",
+   "date": "2026-07-06",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Special : वैश्विक संकट में भी Bhilwara Textile की धाक, दूसरे देशों में डिमांड, 3000 करोड़ से अधिक का हो रहा निवेश - Special : वैश्विक संकट में भी Bhilwara Textile की धाक, दूसरे देशों में डिमांड, 3000 करोड़ से अधिक का हो रहा निवेश",
+   "url": "https://www.etvbharat.com/hi/state/bhilwara-textile-makes-a-global-mark-despite-market-slumps-and-restrictions-investment-of-more-than-rs-3000-crore-is-being-made-rjs26060302490#1",
+   "date": "2026-06-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Filatex India: Strengthening Circular Leadership Amid Policy Tailwinds and Capacity Expansion - Techtextiles & Nonwovens",
+   "url": "https://worldoftechnicaltextile.com/filatex-india-strengthening-circular-leadership-amid-policy-tailwinds-and-capacity-expansion/",
+   "date": "2026-02-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India is the second largest producer of MMF textiles after China, producing all kinds of synthetic fibres, including polyester, ...",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7a35e6e9-1933-4fca-98a1-c63f08b12e53.pdf#21#28#21",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Well, I would say if you looked at our gross margin, our gross margin is slightly better",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7e9d3be7-8787-4162-b062-3c8c52ea8fb9.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Polyester is the most widely used fibre worldwide",
+   "url": "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/04112025/274b99ac-86b4-43fd-a50b-a38c9bcf9f68.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Source: ITC Trade Map; CCFGroup; Chemicals and Chemicals Manufacturers’ Association India",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/may/threads-and-wrinkles.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 50 (national 83 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

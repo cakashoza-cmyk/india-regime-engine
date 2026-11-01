@@ -1,0 +1,155 @@
+{
+ "key": "mp_indore|pharma",
+ "state": "MP",
+ "city": "mp_indore",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:31 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 26,
+ "nudged_by_news": false,
+ "verdict": "Avoid new pharma/API exposure in Indore for now — lend only to formulation-led units with clean export documentation and audited buyer books; the fake-NOC export ban on three Indore-Ujjain companies is the deciding fact.",
+ "title": "Indore Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "Rating reports on peers show the pattern: working capital intensity of 47-52% at Concord Biotech [10], and a small contract-research player at Rs. 61.0 crore FY2024 revenue with heavy US client concentration [8]. So when a proposal lands, check the buyer list and the top-customer share first; if one buyer is above a third of sales, ask for the contract term and the payment history.",
+  "## Where cash actually sits\n**Cash is trapped in receivables and inventory, and capex is lumpy and approval-linked.** Cohance's fund-based working capital limits of Rs. 420 crore ran at 40-50% utilisation in Q1FY25, down from 70-90%, with term loans of Rs. 152 crore and back-ended repayments starting May 2025 [9]. That is the shape of a healthy unit — moderate drawing power, no big capex pending.",
+  "## What has broken now\n**The local shock is documentary, not demand: three Indore-Ujjain companies were banned for a year for exporting medicines on a forged African NOC [1].** That is a local news report of 29-10-2026 and it matters more than any macro number, because an export ban stops cash at the port. The state backdrop is soft — MP GST collections -0.1% Apr-to-date against India +6.1% [D] — and India-wide output is -2.1% Apr-to-date while bank credit is +21.6% YoY [D]. Peer results are strong but not local: Aarti Pharmalabs did record revenue of Rs. 613 crore, up 47% YoY, EBITDA margin 22.2% [4][6], and RPG Life Sciences targets 25% API growth [5]. Sources say little about Indore specifically beyond the ban [1][2][3]; lean on first principles and these peers.",
+  "## Who to pursue, who to avoid\n**Pursue formulation units selling into domestic trade with audited buyer books, and API makers supplying those units; avoid pure exporters with thin documentation and any unit named in the NOC matter [1].** The growth opening is import substitution — China supplied 65-70% of India's API imports and the API industry grew 8.4% CAGR CY2017-CY2022E, expected ~7% ahead [11]. That favours units adding API capacity for domestic formulators. Rating reports here are undated [8][9][10]; treat them as old.",
+  "## How to grow safely\n**Structure as working-capital-led: cash credit against receivables, LC-backed import limits, and term debt only against approved capex.** Take monthly stock-and-debtor statements, monthly export-shipment copies with NOC, and quarterly buyer-wise sales. Covenant a minimum current ratio and a cap on top-buyer concentration.",
+  "## Early warning signs\n**Watch for a sudden export share jump without new registrations, receivable days stretching past the stated cycle, and drawing power falling while sales hold.** Any of these means stop enhancement and inspect documents."
+ ],
+ "watch": [
+  [
+   "Monthly export shipping bills and NOC copies",
+   "Any shipment without a verifiable NOC -> freeze limit and escalate"
+  ],
+  [
+   "Monthly stock-and-debtor statement",
+   "Receivable days stretch beyond stated cycle -> cut drawing power"
+  ],
+  [
+   "Quarterly buyer-wise sales",
+   "Top buyer above one-third of sales -> seek contract and payment proof"
+  ],
+  [
+   "Quarterly GST filings",
+   "Filing gaps or falling turnover vs bank credits -> reassess limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "One-year export ban on three Indore-Ujjain firms for forged NOC; MP GST flat.",
+ "articles": [
+  {
+   "title": "अफ्रीकी देश की फर्जी एनओसी से दवा की निर्यात, इंदौर-उज्जैन की तीन कंपनियों पर एक साल का प्रतिबंध",
+   "url": "https://www.naidunia.com/madhya-pradesh/indore-export-of-medicines-using-a-forged-noc-from-an-african-country-8473286",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "pharma units in indore News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/pharma-units-in-indore/news#1",
+   "date": "2026-10-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "pharma units in indore: Latest News & Videos, Photos about pharma units in indore | The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/pharma-units-in-indore#1",
+   "date": "2026-10-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 26 (national 27 x 0.6 + Madhya Pradesh 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Madhya Pradesh: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Madhya Pradesh: electricity demand +7.5% Apr-to-date vs India +9.5% (2.0 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

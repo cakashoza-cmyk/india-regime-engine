@@ -1,0 +1,158 @@
+{
+ "key": "dn_silvassa|plastics",
+ "state": "DN",
+ "city": "dn_silvassa",
+ "ind": "plastics",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:32 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 98,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Silvassa plastics and rubber processing, but only to converters and recyclers with contracted offtake, verified FTA export orders and a tight working-capital cycle; avoid commodity film and moulding units selling into open domestic markets on thin margins.",
+ "title": "Silvassa Plastics & Rubber Processing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Silvassa plastics or rubber unit buys polymer resin or scrap, converts it through extrusion, moulding or reclaiming, and sells granules, film, moulded parts or recycled chips to industrial buyers.** Cash comes in after the buyer accepts the lot, so the unit funds resin inventory and receivables between purchase and collection. Value sits in machine utilisation and in the buyer relationship, not in the resin, which is a traded commodity. Pricing power is thin: most converters quote resin cost plus a conversion charge, so a resin price swing hits inventory value before it hits the customer. Capex is lumpy and machine-specific, and a single new line can absorb a year of accruals.",
+  "## What has changed now\n**National output for NIC 22 is up 21.4% YoY and 18.2% Apr-to-date [D], and exports are up 17.1% Apr-to-date in USD [D], so demand is real and export-facing units are the ones converting it into cash.** Bank credit to the sector is growing 21.0% YoY against 18.2% output [D], a 2.8 pp gap, which tells you lenders are already leaning into this trade; that is where pricing discipline slips. Locally, the clearest signal is the U.T.-level FTA outreach programme held in Silvassa to help industry tap India's trade agreements for exports [2], and a bottle-to-bottle PET recycling line being installed at an Indian recycler [1][3]. Peer results confirm the direction: Supreme Industries reports sales tonnage up 19% YoY and operating profit up 45% YoY [6], GRP Ltd reports total income up 26% YoY with EBITDA margin at 11% [4], and Apcotex reports revenue up 44% YoY to INR 1,025 crores for H1 with Q2 margins hit by inventory losses and elevated freight [7]. Note the sources say little about Silvassa unit-level economics; treat the city read as first principles plus these peers.",
+  "## Where the growth is\n**Pursue recyclers putting up bottle-to-bottle or food-grade reclaim capacity, and converters with confirmed export orders under an FTA route [2].** These borrowers have a defined buyer, a technical barrier and a reason to be in Silvassa. Also pursue units supplying packaging and industrial parts to larger branded buyers, where the buyer audits the plant and the order book is visible. Avoid plain commodity film and generic moulding units selling into the open domestic market, and avoid any unit whose entire raw material base is a handful of traders with no written supply terms. When a proposal lands, check the top-five supplier share of raw material; Manika Plastech shows about 84% of FY25 raw material met by its top five suppliers [11], so if a Silvassa unit shows a similar concentration, ask for alternate supplier names and a written back-up arrangement before sanctioning.",
+  "## How to grow safely\n**Structure every line around the working-capital cycle, because that is where the cash actually leaks.** Take monthly stock and receivable statements, and reconcile them to the drawing power each month. Take the buyer-wise sales register monthly and match the top three buyers to the order file. Where exports are claimed, take the shipping bill and the FTA documentation each month, not once a year. Ask for the resin purchase invoices monthly to test whether conversion margins are holding. On term loans for recycling lines, tie disbursement to machine commissioning and take a charge on the specific equipment. Where cash flow is routed through a trust and retention account with an external monitoring agency, that structure gives comfort on timely debt servicing [8], so use it on larger exposures. Keep gearing inside the range the unit can service from accruals; Manika Plastech improved overall gearing to 0.66x as on March 31, 2026 from 0.86x a year earlier on profit accretion [11], which is the direction you want to see.",
+  "## Early-warning signs\n**Watch the receivable days and the inventory days together; a rise in either without a matching rise in sales is the first real signal.** If receivable days stretch beyond the stated credit terms, ask for the ageing and stop enhancing limits. If resin inventory rises while output is flat, ask whether the unit is holding stock against a price bet. If a unit's export share falls after an FTA-linked order, ask for the buyer correspondence. If the top buyer's share of sales crosses a third, ask for a diversification plan. If the unit's bank limits are utilised above the drawing power for two consecutive months, ask for the stock statement and a fresh valuation."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement (monthly)",
+   "Receivable days rise beyond stated credit terms -> freeze limit enhancement and ask for buyer ageing"
+  ],
+  [
+   "Buyer-wise sales register (monthly)",
+   "Top buyer crosses a third of sales -> ask for diversification plan and written order confirmation"
+  ],
+  [
+   "Export shipping bills and FTA documents (monthly)",
+   "Export share falls after an FTA-linked order -> ask for buyer correspondence and revised order book"
+  ],
+  [
+   "Resin purchase invoices vs sales (monthly)",
+   "Conversion margin compresses for two months -> reprice the facility or reduce exposure"
+  ],
+  [
+   "Drawing power utilisation (monthly)",
+   "Utilisation above drawing power for two consecutive months -> call for fresh stock statement and valuation"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "National plastics output up 21.4% YoY, exports up 17.1%, and Silvassa FTA export outreach plus new recycling capacity.",
+ "articles": [
+  {
+   "title": "Starlinger bottle-to-bottle recycling system for Indian plastics recycler RiBotl Solutions - CPRJAdsale Plastics Network",
+   "url": "https://www.adsalecprj.com/en/news/article_details/90732.html",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Silvassa industry gets a roadmap to tap India's Free Trade Agreements at U.T.-level \"Leveraging FTAs\" outreach programme to Strengthen Exports",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2330587&reg=48&lang=2",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Turning trash into treasure - RiBotl Solutions choses Starlinger recoSTAR PET 165 art bottle-to-bottle recycling system",
+   "url": "https://www.petnology.com/online/news-detail/turning-trash-into-treasure-ribotl-solutions-choses-starlinger-recostar-pet-165-art-bottle-to-bottle-recycling-system",
+   "date": "2026-10-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "GRP Ltd (BOM:509152) Q1 2027 Earnings Call Highlights: Strong Revenue Growth and Margin Expansion By GuruFocus - GRP Ltd (BOM:509152) Q1 2027 Earnings Call Highlights: Strong Revenue Growth and Margin Expansion",
+   "url": "https://ca.investing.com/news/company-news/grp-ltd-bom509152-q1-2027-earnings-call-highlights-strong-revenue-growth-and-margin-expansion-4758390#1",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "GRP Ltd Q3 FY26 Results & Concall Highlights: Revenue, Margins & Order Book",
+   "url": "https://www.arthneeti.com:443/insights/grp-q3-fy26-earnings",
+   "date": "2026-07-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Supreme Industries H1 FY27 slides: revenue up 22%, margins expand By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/supreme-industries-h1-fy27-slides-revenue-up-22-margins-expand-93CH-2649317",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apcotex Industries Ltd (BOM:523694) (Q2 2027) Earnings Call High",
+   "url": "https://www.gurufocus.com/news/9153591/apcotex-industries-ltd-bom523694-q2-2027-earnings-call-highlights-record-h1-performance-48-revenue-surge-and-capex-on-track",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Crisil Ratings also notes that there is an Agency for Specialised Monitoring (ASM) appointed by the lenders, as part of the rest...",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbb2e8f9-d70e-49c4-a295-26bdd4c78562.pdf#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Manika Plastech Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202606120607_Manika_Plastech_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 98 (national 98 x 0.6 + Dadra and Nagar Haveli and Daman & Diu None x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 22 output +21.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +18.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +17.1% Apr-to-date in USD (Rs 48,628 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +21.0% YoY vs output +18.2% (gap +2.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
