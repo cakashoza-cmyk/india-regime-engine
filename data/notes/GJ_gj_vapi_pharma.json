@@ -1,0 +1,150 @@
+{
+ "key": "gj_vapi|pharma",
+ "state": "GJ",
+ "city": "gj_vapi",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 46,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Vapi API/generic units with USFDA-compliant plants, diversified customers and proven working-capital discipline; avoid single-customer, single-molecule and China-import-dependent borrowers.",
+ "title": "Vapi Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Vapi pharma unit buys KSMs and intermediates, runs multi-step chemical synthesis, and sells bulk APIs or generic formulations to formulators and exporters.** Cash comes in on export/domestic formulation sales; cash goes out early on raw material, solvent and power. Vapi GIDC hosts bulk-drug plants — one local report describes Vital Labs producing hydroxychloroquine sulphate bulk drug at scale in Vapi GIDC [2], though that source is from April 2020 and should be read as background only. **Gujarat holds one-third of India's pharma output [1], so the cluster is real; but the sources say little about Vapi-specific current capacity, so lean on first principles and peer results.**",
+  "## Where value and cash sit\n**Value sits in the USFDA-approved plant and the filed dossier, not the molecule.** The US $63.7 billion of small-molecule drugs losing exclusivity in the US between 2025-29, 65% more than the previous cycle, is the demand pull [1]. **Cash, however, sits in receivables and inventory.** Peer rating work shows working-capital intensity of 47-48% at Concord Biotech even after improvement from 77% in FY2018 [9], and Cohance Lifesciences ran fund-based limits of ₹420 crore with utilisation falling from 70-90% to 40-50% in Q1FY25 [8]. **So when a proposal lands, check receivable days and inventory holding first; if inventory exceeds 90 days, ask which molecules are slow-moving and who the customer is.**",
+  "## What has changed now\n**The demand signal is strong but the macro is not.** Aarti Pharmalabs reported record quarterly revenue of ₹613 crore in Q2 FY27, up 47% YoY, with EBITDA margin at 22.2% from 17.7% [3][5]; RPG Life Sciences grew Q2 FY27 revenue 16.5% to ₹211.6 crore [6] and targets 25% API growth [4]. **Against that, India-wide output is -2.1% Apr-to-date while bank credit is +21.6% YoY [D] — a 23.7 pp gap that says money is chasing slower real activity.** Gujarat GST collections are +11.9% Apr-to-date vs India +6.1% [D], a genuine local tailwind. **So when a proposal lands, check whether growth is volume-led or credit-funded; if the borrower's sales growth outruns its power consumption and debtor days are rising, ask for the customer-wise sales register.**",
+  "## Who to pursue, who to avoid\n**Pursue mid-size API and complex-generic units with at least two USFDA-approved sites, diversified customers and a CDMO or LoE-linked order book.** Aarti's CDMO expansion and Xanthine capacity ramp-up [5] and RPG's 25% API growth target [4] show where the peer money is going. **Avoid single-customer contract-research units and China-import-dependent single-molecule plants.** ICRA flags modest scale — ₹61.0 crore FY2024 revenue — and high customer concentration as live risks [7], and China supplied 65-70% of India's API imports [10]. **So when a proposal lands, check import dependence and top-customer share; if one customer exceeds 30% of sales or China-sourced KSM exceeds half of input cost, ask for the alternate-source plan.**",
+  "## How to grow safely\n**Structure against the working-capital cycle, not the fixed asset.** Take monthly stock-and-debtor statements, quarterly CMA data, and a charge on receivables. **Take every month: stock statement, debtor ageing, power bills, and GST returns.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock and debtor statement",
+   "Debtor days rise above 90 -> ask for customer-wise ageing and hold further disbursement"
+  ],
+  [
+   "Quarterly GST returns vs sales",
+   "GST turnover falls below reported sales -> seek explanation and re-rate limit"
+  ],
+  [
+   "Monthly power bills",
+   "Power consumption falls while sales rise -> ask for production records"
+  ],
+  [
+   "Quarterly import data",
+   "China-sourced KSM share rises above half of input cost -> ask for alternate-source plan"
+  ],
+  [
+   "Annual rating report",
+   "Rating downgrade or outlook change -> review limit and covenants"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Peer results strong, but India output -2.1% and credit-output gap +23.7 pp keep the call at caution.",
+ "articles": [
+  {
+   "title": "\"Patent Cliff Opens ₹63.7 bn Gateway for Gujarat Generics\" | Amitkumar Sharma 发布的此话题相关的动态 | 领英 - 跳到主要内容",
+   "url": "https://www.linkedin.com/posts/amitsharmacrs_pharma-gidc-saykha-activity-7345334303200817152-bMDM#1",
+   "date": "2025-06-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "કોરોનાને મ્હાત આપવા જે દવાની જગત આખાને જરૂર છે તેનું મોટું કારખાનું છે ગુજરાતના આ ગામમાં | coronavirus hydroxychloroquine gujarat vapi produce pharma company - VTV / ગુજરાત / સુરતના સમાચાર / coronavirus hydroxychloroquine gujarat vapi produce pharma company",
+   "url": "https://www.vtvgujarati.com/news-details/coronavirus-hydroxychloroquine-gujarat-vapi-produce-pharma-company#1",
+   "date": "2020-04-07",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 46 (national 27 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Gujarat: electricity demand +11.0% Apr-to-date vs India +9.5% (1.5 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

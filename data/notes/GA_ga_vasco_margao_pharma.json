@@ -1,0 +1,130 @@
+{
+ "key": "ga_vasco_margao|pharma",
+ "state": "GA",
+ "city": "ga_vasco_margao",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 16,
+ "nudged_by_news": false,
+ "verdict": "Avoid new pharma/API exposure in Vasco-Margao until local demand and working-capital behaviour are proven; lend only to niche, well-collateralised units with tight monthly controls.",
+ "title": "Vasco-Margao Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**An API or pharma unit here buys solvents, intermediates and catalysts, runs multi-step synthesis or formulation, and sells to formulators or exporters on credit.** Cash is tied in inventory and receivables long before it returns; the rating record shows working-capital intensity of 77% in FY2018 easing to 48% in 7MFY2021 but still high [7]. So when a proposal lands, check the receivable days and inventory holding against these benchmarks; if receivables are stretching beyond the customer's own past cycle, ask for the ageing and the top-five buyer list.",
+  "## Where value and cash sit\n**Pricing power is thin for small units and concentrated in a few buyers.** One rated peer had FY2024 revenue of Rs. 61.0 crore with high customer concentration risk [5]. A larger peer posted record quarterly revenue of Rs. 613 crore, up 47% YoY, with EBITDA margin at 22.2% [1][3] — that is the scale end of the market, not the local SME. **Capex is heavy and back-ended:** one peer carries term loans of Rs. 152 crore with principal repayments starting May 2025 [6]. So size the loan to the borrower's own cash cycle, not to peer margins; if the unit is sub-Rs.",
+  "## What has changed now\n**The local demand signal is weak.** Goa GST collections are -1.2% Apr-to-date against India +6.1%, and Goa electricity demand is +6.7% against India +9.5% [D]. Nationally, output is -2.1% Apr-to-date while bank credit is +21.6% YoY [D] — credit is running far ahead of production. **That gap means lenders are being asked to fund working capital that the offtake may not support.** Note the peer results are national and recent (Oct 2026) [1][2][3][4]; the rating reports are older and undated [5][6][7], so treat their ratios as history, not current.",
+  "## Where to grow, and how to grow safely\n**Pursue only units with a defined niche — a single API or intermediate with an export or CDMO contract, or a formulator with a domestic brand.** A peer is targeting 25% API growth and evaluating an acquisition [2]; that tells you contract-backed API is where the money is moving. **Avoid traders and units with no own synthesis, and avoid anyone whose top buyer is over half of sales** [5].",
+  "## Early-warning signs\n**Watch the local utilities and tax data first.** If Goa GST stays negative for another quarter while the borrower's sales grow, the sales are not real [D]. If electricity demand in Goa keeps lagging India, capacity is idling [D]. **At the unit level, watch receivable days crossing the peer's 48% working-capital intensity [7], inventory build without matching orders, and any term-loan repayment rescheduling** — the peer's back-ended structure [6] means early stress shows in the first repayment year. Collect from customer the actual power connection load and monthly consumption; that is the cheapest early warning you have."
+ ],
+ "watch": [
+  [
+   "GST collections, Goa (monthly)",
+   "Two consecutive negative prints -> freeze new limits and review all pharma exposures"
+  ],
+  [
+   "Electricity demand, Goa (monthly)",
+   "Keeps lagging India by over 2 pp -> ask borrower for capacity utilisation proof"
+  ],
+  [
+   "Borrower receivable ageing (monthly)",
+   "Days stretch beyond own 12-month average -> cut limit or demand receivables charge"
+  ],
+  [
+   "Term-loan repayment schedule (annual)",
+   "First repayment year shows rescheduling request -> classify as stressed and stop fresh disbursal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Goa GST and power demand both lag India, signalling weak local offtake.",
+ "articles": [
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 16 (national 27 x 0.6 + Goa 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Goa: GST collections -1.2% Apr-to-date vs India +6.1% (7.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Goa: electricity demand +6.7% Apr-to-date vs India +9.5% (2.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 0
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

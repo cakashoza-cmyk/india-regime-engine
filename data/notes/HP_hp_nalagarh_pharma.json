@@ -1,0 +1,154 @@
+{
+ "key": "hp_nalagarh|pharma",
+ "state": "HP",
+ "city": "hp_nalagarh",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 16,
+ "nudged_by_news": false,
+ "verdict": "Avoid for now: Nalagarh pharma/API carries a 16 data score with Himachal demand and GST both contracting, so lend only to the strongest formulation-linked units with clean environmental and diversion records, and decline the rest.",
+ "title": "Nalagarh Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Nalagarh pharma unit buys imported or domestic API, runs it through reaction, fermentation or formulation lines, and sells tablets, capsules or bulk API to domestic formulators and, at the better units, to export customers.** Cash comes in after the customer's quality release and credit period, so the unit funds raw material, work-in-process and finished goods long before it collects. **The value sits in the regulatory approval and the customer relationship, not the plant; the cash sits in receivables and inventory.** Rating reports on peers show working capital intensity of 47-52% of sales at Concord Biotech [10], so treat a Nalagarh unit claiming 25% as unverified until you see the numbers. **Collect from customer** the actual inventory days, receivable days and API import share before you price anything.\n\n## What has changed now\n**Himachal's own demand is contracting while India's is not: state GST collections are -22.8% Apr-to-date against India +6.1%, and state electricity demand is -6.8% against India +9.5% [D].** That is a local stress signal, not a national one, and it matters because a Nalagarh unit's domestic customers are largely in this belt. **The local news is worse than the macro: NCB busted a drug diversion racket in Baddi-Nalagarh in September 2026 [2], and NGT has issued notice to a Palasara village unit over water-source pollution [3].** Both are recent and both hit licence-to-operate, which is the one asset a pharma unit cannot replace. **Peer results are strong but not local: Aarti Pharmalabs reported record quarterly revenue of Rs. 613 crore, up 47% YoY, with EBITDA margin at 22.2% [4][6], and RPG Life Sciences targets 25% API growth [5].** Read those as proof the API and CDMO demand exists, not as evidence about Nalagarh.\n\n## Where to grow\n**Pursue formulation units with a live domestic or export approval and a single, verifiable customer base; pursue API makers supplying those formulators.** The peer set shows the money is in CDMO and API capacity ramp-up [6], so a Nalagarh unit with a contract-manufacturing order book is the better risk. **Avoid traders, loan-licence units, and any borrower whose plant has an open NGT or state pollution board matter [3]; avoid any unit whose owners or staff appear in the diversion case [2].** When a proposal lands, check the pollution consent validity and the last inspection report; if either is missing or expired, ask for the renewal application before sanction.\n\n## How to grow safely\n**Structure against the working-capital cycle, not the plant: cash credit against paid stock and book debts with a 25% margin, and term debt only for a specific, invoiced line.** Take monthly stock and book-debt statements, monthly GST returns, and quarterly pollution-consent status. **Because working capital intensity in this industry runs near half of sales [10], set the drawing power on ageing, not on the borrower's own valuation.** If receivables beyond 90 days exceed a quarter of book debts, ask for the customer-wise ageing and the reason.\n\n## Early-warning signs\n- **Monthly GST returns (monthly):** falling turnover against the state's -22.8% [D] -> freeze enhancement and re-price.\n- **Stock statement (monthly):** inventory days rising while sales flat -> cut drawing power.\n- **Pollution consent and NGT status (quarterly):** any new notice [3] -> stop disbursement and review.\n- **Customer concentration (quarterly):** top buyer above half of sales, as rating reports flag [8] -> seek a second buyer or reduce limit."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns",
+   "Turnover falls two months running -> freeze limit enhancement and re-price"
+  ],
+  [
+   "Monthly stock and book-debt statement",
+   "Inventory days rise while sales are flat -> cut drawing power to ageing-based value"
+  ],
+  [
+   "Quarterly pollution consent and NGT status",
+   "New notice or expired consent -> stop disbursement and review the account"
+  ],
+  [
+   "Quarterly customer-wise sales",
+   "Top buyer crosses half of sales -> ask for a second buyer or trim the limit"
+  ],
+  [
+   "Monthly bank statement",
+   "Cheque returns or overdraft use above limit -> escalate to credit head"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local GST and power demand contract; NCB diversion bust and NGT notice hit Nalagarh units.",
+ "articles": [
+  {
+   "title": "immediate suspension - The Newz Radar",
+   "url": "https://thenewzradar.com/topic/immediate-suspension/",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Himachal: NCB busts drug diversion racket in Baddi-Nalagarh - A massive cache of party drugs, habit-forming tablets and opioids was recovered during a joint operation conducted by the Chandi...",
+   "url": "https://www.tribuneindia.com/news/himachal/himachal-ncb-busts-drug-diversion-racket-in-baddi-nalagarh/#1",
+   "date": "2026-09-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Nalagarh Pharma Pollution: नालागढ़ में जल स्रोतों से खिलवाड़! NGT पहुंची 'किइनवान' की शिकायत, जारी हुआ नोटिस - - Light modeFollow systemDark mode",
+   "url": "https://m.dailyhunt.in/news/india/hindi/prajasatta-epaper-prajast/nalagarh+pharma+pollution+nalagadh+me+jal+sroto+se+khilavad+ngt+pahunchi+kiinavan+ki+shikayat+jari+huaa+notis-newsid-n722067473#1",
+   "date": "2026-08-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 16 (national 27 x 0.6 + Himachal Pradesh 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Himachal Pradesh: GST collections -22.8% Apr-to-date vs India +6.1% (28.9 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Himachal Pradesh: electricity demand -6.8% Apr-to-date vs India +9.5% (16.3 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

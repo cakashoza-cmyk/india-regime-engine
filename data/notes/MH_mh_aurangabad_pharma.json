@@ -1,0 +1,150 @@
+{
+ "key": "mh_aurangabad|pharma",
+ "state": "MH",
+ "city": "mh_aurangabad",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 36,
+ "nudged_by_news": false,
+ "verdict": "Avoid for now — lend only to USFDA-clean, low-concentration API/formulation units with tight covenants; skip small CRO-dependent and single-customer borrowers.",
+ "title": "Aurangabad Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A pharma unit here converts imported and domestic raw materials into APIs and finished dosages, and the cash comes back only after a regulatory-cleared batch ships and the buyer pays.** The plant is the asset; the USFDA inspection status is the real collateral. Aurangabad (Chhatrapati Sambhajinagar) hosts large names — Lupin received an EIR for its facility after a September 1–5, 2025 pre-approval inspection [3], and Glenmark's Aurangabad unit completed a USFDA inspection [2]. Both are dated late 2025, so treat them as background, not current proof.\n\n## Where value and cash sit\n**Value sits in approved product registrations and customer contracts, not in the building; cash sits in receivables and inventory, and that is where the strain shows.** Peer rating work shows the pattern: Concord Biotech's working capital intensity was 52% in FY2019, 47% in FY2020 and 48% in 7MFY2021, down from 77% in FY2018, and still called high [10]. Cohance Lifesciences had operating cash flows of ₹200 crore in FY24 with term loans of ₹152 crore and fund-based limits of ₹420 crore, utilisation easing from 70-90% to 40-50% in Q1FY25 [9]. So when a proposal lands, check receivable days and inventory holding first; if the buyer list is short, ask for the top-customer share.\n\n## What has changed now\n**The national demand signal is weak while bank credit is running far ahead of output, so pricing power is thin and lenders are competing for the same good names.** India-wide output is -2.1% Apr-to-date against bank credit +21.6% YoY, a gap of +23.7 pp [D]. Maharashtra electricity demand grew 6.0% Apr-to-date, 3.5 pp slower than India's 9.5% [D], while state GST collections grew 8.6% against India's 6.1% [D]. The data-based call is AVOID at 36 [D]. **Read this as: the sector is not in a downturn, but the marginal borrower is.**\n\n## Where to grow, and how to grow safely\n**Pursue mid-size API and CDMO units with a clean USFDA record and diversified buyers; avoid small contract-research-dependent firms and single-customer units.** Peers show the upside: Aarti Pharmalabs posted record quarterly revenue of ₹613 crore, up 47% YoY, with EBITDA of ₹136 crore and margin at 22.2% [4][6]; RPG Life Sciences targets 25% API growth and is evaluating another acquisition within 12 months [5], though its stock fell over 10% after Q2 despite revenue rising 16.5% to ₹211.6 crore [7]. A small rated company with ₹61.0 crore FY2024 revenue was hit by weak US contract-research demand and carries high customer concentration [8]. Structure as working-capital-led facilities with a term loan only against a specific approved-product capex; take monthly stock-and-receivable statements, quarterly regulatory-status confirmation, and annual audited financials.\n\n## Early-warning signs\n**Watch the regulatory calendar and the buyer list, not the topline.** A USFDA observation or import alert at a borrower's plant is an immediate stop — Wockhardt hit a 52-week low on a UK import alert [1]. Falling limit utilisation alongside rising receivables means the buyer is stretching; rising inventory with flat sales means batch rejections."
+ ],
+ "watch": [
+  [
+   "USFDA/EIR status per borrower plant (quarterly)",
+   "observation or import alert -> freeze new limits, review existing"
+  ],
+  [
+   "Receivable days and top-customer share (monthly)",
+   "receivable days rising with flat sales -> ask for buyer-wise ageing"
+  ],
+  [
+   "Working-capital limit utilisation (monthly)",
+   "utilisation falling while receivables rise -> seek explanation, tighten drawing power"
+  ],
+  [
+   "Inventory and batch rejection data (monthly)",
+   "inventory up with flat sales -> cut limit, inspect stock statement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "National output -2.1% while credit grows 21.6%; Maharashtra power demand lags India.",
+ "articles": [
+  {
+   "title": "Solid Dosages | Latest & Breaking News on Solid Dosages | Photos, Videos, Breaking Stories and Articles on Solid Dosages",
+   "url": "https://www.moneycontrol.com/news/tags/solid-dosages.html",
+   "date": "2026-10-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "glenmarks aurangabad unit completes usfda inspection",
+   "url": "https://capitalmarket.com/markets/news/Corporate-News/glenmarks-aurangabad-unit-completes-usfda-inspection/1658696",
+   "date": "2025-11-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Lupin receives EIR from USFDA for Chhatrapati Sambhajinagar facility - Lupin has received the Establishment Inspection Report (EIR) from the United States Food and Drug Administration (USFDA) for its...",
+   "url": "https://www.moneyworks4me.com/company/news/index/id/784113?from=list_page#1",
+   "date": "2025-11-12",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 36 (national 27 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: electricity demand +6.0% Apr-to-date vs India +9.5% (3.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

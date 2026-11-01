@@ -1,0 +1,158 @@
+{
+ "key": "gj_ankleshwar|pharma",
+ "state": "GJ",
+ "city": "gj_ankleshwar",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 46,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Ankleshwar API/formulation units with contracted offtake and clean working-capital cycles; avoid small CRAMS-only and single-customer converters until receivables and inventory data are verified.",
+ "title": "Ankleshwar Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Ankleshwar units convert imported and domestic raw materials into APIs, intermediates and tablets, and cash comes back only after a long conversion-and-collection cycle.** The town's anchor plant alone produces more than 6 billion tablets annually and runs chemistry and biotech development on site [2]. So when a proposal lands, check the split between captive/intermediate supply and open-market API sales; if the buyer list is short, ask for the top-five customer share and contract tenure.",
+  "## Where value and cash sit\n**Value sits in regulatory approvals and customer qualification, not in the reactor; cash sits in receivables and inventory.** Peer rating work shows working-capital intensity of 52% in FY2019, 47% in FY2020 and 48% in 7MFY2021, still called high, driven by elongated receivables and high inventory holding [10]. A CRAMS-heavy peer with Rs. 61.0 crore FY2024 revenue was flagged for modest scale and high customer concentration [8]. So when a proposal lands, check receivable days and inventory days against these benchmarks; if receivables stretch beyond the customer's stated credit terms, ask for the ageing and the largest overdue account.",
+  "## What has changed now\n**The national data call is Caution at 46, and the local news is mixed rather than bad.** Gujarat GST collections rose 11.9% Apr-to-date against India's 6.1%, and Gujarat power demand rose 11.0% against India's 9.5% [D]. But India-wide output fell 2.1% while bank credit grew 21.6% YoY, a 23.7 pp gap [D] — so when a proposal lands, check whether the borrower's own sales growth is funded by real offtake or by borrowed working capital; if growth outruns output, ask for monthly GST returns and e-way bills. Locally, Zentiva is buying the Sanofi Ankleshwar plant, which will become its largest factory [2], and Zydus is running a mega walk-in for multiple positions [1] — both point to capacity and hiring, not contraction.",
+  "## Where to grow, and how to grow safely\n**Pursue mid-size API and formulation units with diversified customers and CDMO contracts; avoid single-customer CRAMS converters and thinly capitalised traders.** Peer results support the demand: Aarti Pharmalabs posted record quarterly revenue of Rs. 613 crore, up 47% YoY, with EBITDA margin at 22.2% from 17.7% [4][6], and RPG Life Sciences targets 25% API growth with another acquisition within 12 months [5], though its own Q2 revenue grew 16.5% to Rs. 211.6 crore and the stock fell over 10% [7]. Structure as working-capital limits against receivables with a stock-and-book-debt statement each month, and take monthly GST returns, top-ten debtor ageing and inventory ageing.",
+  "## Early-warning signs\n**Watch the cash cycle, not the order book.** A peer's working-capital utilisation fell from 70-90% to 40-50% in Q1FY25 while cash and equivalents dropped by Rs. 108 crore [9] — falling utilisation can mean lost sales, not discipline. If receivable days cross the borrower's own prior-year level, ask for the customer-wise ledger; if inventory days rise while sales are flat, ask for batch-wise stock. Note that the rating reports [8][9][10] carry no visible date and the API industry CAGR of 8.4% between CY2017 and CY2022E is from an undated ICRA summary [11] — treat both as old context, not current fact."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns and e-way bills (monthly)",
+   "Sales fall below the borrower's own prior-quarter run-rate -> ask for order book and hold fresh limits"
+  ],
+  [
+   "Debtor ageing and top-five customer share (monthly)",
+   "Receivable days exceed the borrower's prior-year level -> seek customer-wise ledger and reduce limit"
+  ],
+  [
+   "Inventory and batch-wise stock statement (monthly)",
+   "Inventory days rise while sales are flat -> ask for slow-moving stock and re-price the limit"
+  ],
+  [
+   "Working-capital limit utilisation (monthly)",
+   "Utilisation drops sharply without sales growth -> ask for cash-flow statement before renewing"
+  ],
+  [
+   "Plant capacity and hiring activity (quarterly)",
+   "Announced expansion or walk-in hiring at the unit -> reassess capex funding need and structure term loan"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Gujarat GST and power demand outpace India, but national output is negative and credit growth is stretched.",
+ "articles": [
+  {
+   "title": "Zydus Lifesciences Ltd Mega Walk-in 4th November 2026 for Multiple Positions - Pharma Job Alert",
+   "url": "https://pharmajobalert.in/zydus-lifesciences-ltd-mega-walk-in-4th-november-2026-for-multiple-positions/#respond",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Zentiva anunta achizitia unei fabrici de medicamente in Ankleshwar, India",
+   "url": "https://www.wall-street.ro/articol/Companii/244518/zentiva-anunta-achizitia-unei-fabrici-de-medicamente-in-ankleshwar-india.html",
+   "date": "2026-10-15",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "ankleshwar plant: Latest News & Videos, Photos about ankleshwar plant | The Economic Times - Page 1 - Business News›ankleshwar plant",
+   "url": "https://economictimes.indiatimes.com/topic/ankleshwar-plant#1",
+   "date": "2026-09-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 46 (national 27 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Gujarat: electricity demand +11.0% Apr-to-date vs India +9.5% (1.5 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

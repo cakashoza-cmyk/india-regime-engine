@@ -1,0 +1,158 @@
+{
+ "key": "jk_jammu|pharma",
+ "state": "JK",
+ "city": "jk_jammu",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 16,
+ "nudged_by_news": false,
+ "verdict": "Avoid for now — lend only to established, cash-generating formulation units with clean receivables; skip new API/CRAMS capex and any borrower dependent on J&K local demand.",
+ "title": "Jammu Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA pharma unit buys raw materials and intermediates, runs them through reactors and formulation lines, and sells to formulators, exporters or institutions on credit. **Cash sits in inventory and receivables, not in the plant** — rating reports show working-capital intensity of 47-52% for API players [10], so a unit's real risk is the gap between paying for inputs and collecting from buyers. Pricing power is thin for commodity APIs and strong only where the borrower holds a niche or a regulated-market approval.",
+  "## What has changed now\nJammu and Kashmir is visibly weaker than India: GST collections are -10.6% Apr-to-date against India +6.1% [D], and electricity demand is -0.5% against India +9.5% [D]. **Local demand and local activity are contracting while bank credit nationally runs at +21.6% YoY against output of -2.1% [D]** — money is chasing a shrinking base. Against that, the local pipeline is real: 29 units registered and ₹31.76 crore disbursed under a central scheme [2], and a ₹600-700 crore Orchid Pharma ACA facility is coming up in Kathua under PLI [3]. Note the Orchid project is a foundation-stone announcement, not a running plant.",
+  "## Where the growth is\nPeer results are strong and recent: Aarti Pharmalabs posted record quarterly revenue of ₹613 crore, up 47% YoY, with EBITDA margin at 22.2% [4][6]; RPG Life Sciences grew Q2 FY27 revenue 16.5% to ₹211.6 crore and targets 25% API growth [7][5]. **Pursue established formulation units with domestic branded sales, and API units with a single validated product and export orders in hand.** Avoid greenfield API/CRAMS units, units whose sales depend on J&K government or institutional orders, and any borrower whose only collateral is land in an industrial estate.",
+  "## How to grow safely\nStructure term debt short — five to seven years — and match working capital limits to the actual cycle, not to a projection. **Take stock and receivable statements every month, plus GST returns and bank statements**; if receivable days cross the borrower's own three-year average, ask for the ageing by buyer and stop enhancement. Where a customer contributes more than a third of sales, ask for the contract and a diversion-of-proceeds undertaking. For the Kathua supplier ecosystem, lend only against confirmed purchase orders from the anchor unit, not against the announcement [3].",
+  "## Early warning signs\n- **GST turnover falling faster than the J&K state trend of -10.6% [D]** — pull the limit and ask for the sales register.\n- **Inventory days rising while sales are flat** — this is the classic API trap [10]; ask for product-wise stock ageing.\n- **Electricity bill or power consumption dropping at the unit** — cross-check against reported production; a plant running below capacity is burning cash.\n- **Promoter taking unsecured loans from the unit or delaying statutory dues** — stop fresh disbursement and inspect the factory."
+ ],
+ "watch": [
+  [
+   "GST returns (monthly)",
+   "turnover down more than 10% vs same month last year -> freeze limit enhancement and seek buyer-wise sales"
+  ],
+  [
+   "Stock and receivable statement (monthly)",
+   "receivable days above borrower's three-year average -> ask for ageing and stop new disbursement"
+  ],
+  [
+   "Electricity bill / production log (monthly)",
+   "consumption down while sales reported flat -> factory inspection before next renewal"
+  ],
+  [
+   "Bank statement (monthly)",
+   "statutory dues or salary delays -> escalate to credit head and review collateral"
+  ],
+  [
+   "Order book from anchor buyers (quarterly)",
+   "confirmed orders below 50% of projected sales -> convert term loan to need-based limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "J&K GST -10.6% and power demand -0.5% signal local contraction despite national credit growth.",
+ "articles": [
+  {
+   "title": "Innova Captab Ltd (INNOVACAP) Q4 2026 Earnings Call Transcript | AlphaStreet - So you were talking about previous year Amish",
+   "url": "https://alphastreet.com/india/innova-captab-ltd-innovacap-q4-2026-earnings-call-transcript/amp/#2",
+   "date": "2026-06-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "J&K Pharma Sector Gets Boost: 29 Units Registered, ₹31.76 Crore Disbursed Under Central Scheme",
+   "url": "https://knskashmir.com/jandk-pharma-sector-gets-boost--29-units-registered--%E2%82%B931-76-crore-disbursed-under-central-scheme-202940",
+   "date": "2026-03-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Dr Jitendra lays foundation of Rs 600 cr MNC pharma unit in Kathua",
+   "url": "https://www.jammulinksnews.com/dr-jitendra-lays-foundation-of-rs-600-cr-mnc-pharma-unit-in-kathua/#respond",
+   "date": "2026-03-13",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 16 (national 27 x 0.6 + Jammu and Kashmir 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Jammu and Kashmir: GST collections -10.6% Apr-to-date vs India +6.1% (16.7 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Jammu and Kashmir: electricity demand -0.5% Apr-to-date vs India +9.5% (10.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
