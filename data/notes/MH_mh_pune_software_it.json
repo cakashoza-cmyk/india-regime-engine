@@ -1,0 +1,150 @@
+{
+ "key": "mh_pune|software_it",
+ "state": "MH",
+ "city": "mh_pune",
+ "ind": "software_it",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution on Pune IT services lending: pursue product/cyber R&D units and mid-tier exporters with 90-day-plus receivable discipline; avoid bench-heavy staffing firms and single-client captives until collections and margin proof are visible.",
+ "title": "Pune Computer Software & IT: a note to the credit manager",
+ "narrative": [
+  "Pricing power belongs to firms with product IP or sticky multi-year contracts; pure staffing competes on rate cards and loses it. So when a proposal lands, check the receivable days and the client concentration before you look at the P&L. ## What has changed now\n**The billable-hour model is being squeezed by AI, and the giants are stalling while smaller firms grow.** TCS's AI investment is described as undermining the billable hour in a US$315-billion sector [5], and InfoBeans shows 22% constant-currency growth against stalling giants but with rising 90-day receivables and profit growth of 16% trailing revenue of 30% [4]. Amazon cut 250 software roles in the same week it launched devices [1]. Locally, SonicWall opened a Pune office and plans 400 engineering roles in AI, cloud and cybersecurity [2] — that is demand for talent, not for our loans. ## Where the growth is\n**Pursue the Pune units of foreign product and cybersecurity firms and mid-tier exporters with named multi-year contracts.** SonicWall's 400-role expansion [2] and Pune's AI and data-science hiring lists [3] point to captives and product R&D as the stable payers. Sasken's 25.6% revenue growth to Rs. 321 crores with software services up 34% and EBITDA margin up 700 basis points [7] shows mid-tier can hold margin. Avoid bench-heavy staffing firms and single-client vendors; their revenue is one lost account away from zero. ## How to grow safely\n**Structure against receivables, not against hope.** Take monthly: receivable ageing by client, top-five client share, bench percentage, and monthly collections versus billing. Ask for escrow of a top client's payments where concentration is high. Where the proposal shows 90-day receivables rising faster than revenue, as at InfoBeans [4], ask for the client-wise ageing and a covenant capping receivable days. Collect from customer the exact receivable days and client concentration — the sources do not give them. ## Early-warning signs\n**Watch collections, bench and client loss, not headlines.** A single client crossing a third of billing, receivables stretching past 90 days, or bench rising without new contracts are the triggers. Rating methodology flags geographic concentration and US visa norms as structural risks for Indian software firms [9], and working-capital cycle length as the liquidity driver [11]. Note the rating sources are undated and old; treat them as principles, not current facts. Pune-specific credit data is thin in these sources, so lean on first principles and the peer numbers above."
+ ],
+ "watch": [
+  [
+   "Monthly receivable ageing (monthly)",
+   "Receivable days cross 90 -> ask for client-wise ageing and cap exposure"
+  ],
+  [
+   "Top-five client share (quarterly)",
+   "Any client above one-third of billing -> seek escrow or reduce limit"
+  ],
+  [
+   "Bench percentage (monthly)",
+   "Bench rises two months running -> freeze fresh limits"
+  ],
+  [
+   "Collections vs billing (monthly)",
+   "Collections trail billing for two months -> move to Caution"
+  ],
+  [
+   "Contract pipeline (quarterly)",
+   "No named multi-year contract renewal -> decline new exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "AI squeezes billable hours; Amazon cut 250 software roles; receivables rising at peers.",
+ "articles": [
+  {
+   "title": "Amazon cut 250 software roles, launched Alexa devices same day",
+   "url": "https://teksands.ai/news/amazon-cut-250-software-roles-and-launched-five-alexa-devices-the-same-day",
+   "date": "2026-10-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "SonicWall Opens New Office in Pune, Reinforcing India Focus",
+   "url": "https://smechannels.com/sonicwall-opens-new-office-in-pune-reinforcing-india-focus",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Pune Tech News and Stories | Built In Pune - Pune Tech",
+   "url": "https://builtinpune.in/articles#1",
+   "date": "2026-10-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "InfoBeans: Real 22% Growth While India's IT Giants Stall, at ~17x - the Margin Proof Isn't Here Yet",
+   "url": "https://www.ainvest.com/news/infobeans-real-22-growth-india-giants-stall-17x-margin-proof-isn-2610/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's TCS rises as margins steady despite AI investments",
+   "url": "https://dev.theedgemalaysia.com/node/821176",
+   "date": "2026-10-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Nifty IT surges nearly 2% after Cognizant Q3 earnings beat; Infosys, TCS, Coforge rally",
+   "url": "https://www.etnownews.com/markets/nifty-it-jumps-cognizant-q3-earnings-coforge-infosys-tcs-lead-gains-article-156433218",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Sasken Technologies Ltd (BOM:532663) (Q2 2027) Earnings Call Highlights: Revenue Surges 25. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/sasken-technologies-ltd-bom532663-q2-2027-earnings-call-highlights-revenue-surges-25--4919886",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The rating exercise is primarily focused on assessing the future debt servicing capability of a company",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/858~IT%20Services,%20Rating%20Methodology,%20Jul%202023%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Software%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Maharashtra None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

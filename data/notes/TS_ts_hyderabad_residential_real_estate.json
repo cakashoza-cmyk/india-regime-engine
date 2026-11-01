@@ -1,0 +1,150 @@
+{
+ "key": "ts_hyderabad|residential_real_estate",
+ "state": "TS",
+ "city": "ts_hyderabad",
+ "ind": "residential_real_estate",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution on Hyderabad residential developers: lend only to RERA-clean, collections-led builders with escrow discipline; avoid any sponsor with double-sale or allotment-cancellation disputes.",
+ "title": "Hyderabad residential real estate: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Hyderabad residential developer buys land, converts it into flats over 3-4 years, and gets paid mostly by homebuyers in instalments tied to construction milestones, not on handover. **Cash sits in the buyer's instalment schedule and the escrow, not in the P&L.** So when a proposal lands, check the RERA-registered project's collection schedule against the construction timeline; if collections run ahead of construction, ask where the surplus is parked. Cost is land plus construction; the minister says GST 2.0 and the new tax regime cut construction costs by an estimated 3-5% [1], but that benefit only reaches the developer's margin if pricing holds. Pricing power is local: it depends on micro-market absorption, not on the builder's brand alone.\n\n## What has changed now\nTwo things. First, policy pressure to pass GST savings to homebuyers [1] means **do not underwrite margin expansion from the 3-5% cost cut**; treat it as a buffer, not profit. Second, and more important for credit, TGRERA is actively restraining developers: nine flats in Tellapur frozen over double-sale allegations [2], and Pacifica restrained from cancelling a Bachupally allotment after a delayed-possession and additional-payment dispute [3]. **These are conduct failures, and they precede cash-flow failures.** So when a proposal lands, pull the promoter's TGRERA order history; if any restraint or double-sale order exists, ask for the escrow reconciliation and the buyer-refund liability before sanctioning.\n\n## Where the growth is\nPeer results show the demand is real: Brigade's Q2 profit rose 29% to Rs 219 crore on sales of Rs 1,827 crore, with 2.4 million sq ft launched [4], and it plans over 7 million sq ft of launches in H2 FY27 [6]. Aditya Birla Real Estate's collections rose 31% year-over-year to Rs 713 crore [7]. **Pursue Hyderabad builders with a live RERA pipeline, clean order history and collections tracking construction.** Avoid sponsors whose model depends on buyer cancellation or re-pricing sold flats [3]. Note the sources say little about Hyderabad-specific volumes; lean on first principles and these peers.\n\n## How to grow safely\nStructure against the escrow, not the balance sheet. **Take monthly: escrow bank statement, RERA quarterly progress report, collection-vs-construction certificate, and unsold inventory by tower.** Covenant that withdrawal from escrow needs our sign-off, and that any TGRERA order is notified within 7 days. Peer discipline is instructive: Brigade's debt-to-equity was 0.31 with 85% of debt backed by rental cash flow [5]; ask every borrower for the same split between sold-and-collected and rental-backed debt.\n\n## Early-warning signs\n- Monthly escrow inflows falling below construction spend for two months -> freeze further disbursement and inspect the site.\n- Any TGRERA complaint or restraint order (event-based) -> re-underwrite the project and demand buyer-refund provisioning.\n- Rising unsold inventory in one tower (monthly) -> cut exposure and re-price the sanction.\n- Collections running ahead of construction (quarterly) -> ask where the surplus sits and ring-fence it."
+ ],
+ "watch": [
+  [
+   "Monthly escrow statement",
+   "Inflows below construction spend for 2 months -> freeze disbursement, site inspection"
+  ],
+  [
+   "TGRERA order tracker (event-based)",
+   "Any restraint or double-sale order -> re-underwrite, demand refund provisioning"
+  ],
+  [
+   "Quarterly RERA progress report",
+   "Construction behind collection schedule -> ask for surplus parking, ring-fence"
+  ],
+  [
+   "Monthly unsold inventory by tower",
+   "Inventory rising in one tower -> cut exposure, re-price sanction"
+  ],
+  [
+   "Debt mix review (quarterly)",
+   "Rental-backed share falling below peer norm -> require higher equity contribution"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "TGRERA restraints on two Hyderabad developers over double-sale and allotment cancellation signal conduct risk.",
+ "articles": [
+  {
+   "title": "Ensure GST benefits reach homebuyers, Kishan Reddy to realty sector",
+   "url": "https://www.thehindu.com/news/national/telangana/kishan-reddy-urges-real-estate-sector-to-pass-gst-benefits-to-homebuyers/article71653642.ece",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "TGRERA Restrains Developer from Selling or Mortgaging Nine Flats in Tellapur Over Double-Sale Allegations",
+   "url": "https://www.therealtytimes.in/2026/11/tgrera-restrains-developer-from-selling.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "TG RERA Restrains Pacifica From Cancelling Flat Allotment In Bachupally Project",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/tg-rera-restrains-pacifica-from-cancelling-flat-allotment-in-bachupally-project-2000864",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Brigade Group Q2 Profit Rises 29% To Rs 219 Cr, Real Estate Sales At Rs 1,827 Cr",
+   "url": "https://in.tradingview.com/news/moodys:c09a5e0f6e65e:0-brigade-group-q2-profit-rises-29-to-rs-219-cr-real-estate-sales-at-rs-1-827-cr/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Brigade Enterprises (BOM:532929) Q2 2027 Earnings Call Transcript & Audio",
+   "url": "https://stockanalysis.com/quote/bom/532929/transcripts/733807-q2-26-27/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Video | Brigade Enterprises Expects Strong Pre-Sales Momentum To Sustain, Plans Over 7 Mn Sq Ft Launches In",
+   "url": "https://www.ndtvprofit.com/videos/business/brigade-enterprises-expects-strong-pre-sales-momentum-to-sustain-plans-over-7-mn-sq-ft-launches-in-h-1182877?pfrom=home-business_video-74019",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aditya Birla Real Estate (BOM:500040) Earnings Call Transcripts - Aditya Birla Real Estate Limited (BOM:500040)",
+   "url": "https://stockanalysis.com/quote/bom/500040/transcripts/#1",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 30, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=138147#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "September 30,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130290#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CFO to interest:",
+   "url": "https://integraliq.crisil.com/content/dam/crisilrating/criteria-and-methodology/criteria-for-real-estate-developers-lrd-and-cmbs.pdf#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisis",
+   "url": "https://integraliq.crisil.com/content/dam/crisilrating/criteria-and-methodology/criteria-for-real-estate-developers-lrd-and-cmbs.pdf#1#3#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Telangana None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

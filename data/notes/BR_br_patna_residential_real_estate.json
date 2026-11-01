@@ -1,0 +1,146 @@
+{
+ "key": "br_patna|residential_real_estate",
+ "state": "BR",
+ "city": "br_patna",
+ "ind": "residential_real_estate",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution on Patna residential developers: lend only to NBCC-linked or RERA-clean local builders with escrow-controlled collections; avoid small unregistered developers and land-bank plays.",
+ "title": "Patna residential real estate: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Patna developer buys land, gets RERA and municipal approvals, builds towers, and sells units on a construction-linked payment plan. **Cash comes in as booking advances and instalments, not as rent, so the lender is really financing construction against a receivables book.** The cycle is long: land cost is paid upfront, construction is paid monthly to contractors, and collections trail by the slab schedule. **So when a proposal lands, check the RERA registration number and the sanctioned plan first; if either is missing, ask why and stop.**\n\n## Where value and cash sit\nValue sits in the land bank and in sold-but-uncollected receivables; cash sits in the escrow account. **The single number that decides the loan is committed receivables divided by (pending construction cost plus debt outstanding) — collect from customer, because no Patna-specific figure exists in our sources.** Peer evidence shows what good looks like: Brigade's consolidated net debt was INR 2,765 crore against cash of INR 2,674 crore, with debt-to-equity at 0.31 [5], and ICRA noted a cash flow adequacy ratio of 98% for one large developer [8]. **If a Patna builder cannot show a similar cover, ask for the month-wise collection plan and the contractor schedule before sanctioning.**\n\n## What has changed now\nTwo local facts matter. The Bihar cabinet has cleared NBCC redevelopment of Bahadurpur Housing Colony and an 8.5-acre Sector 5 project in Patna, both self-financed through the State Housing Board [1]. **If a borrower's sales pitch rests on mixed-use or home-office demand, ask for the approval status of each unit; unapproved commercial use is a demand risk, not an asset.**\n\n## Where to grow, and how to grow safely\nPursue mid-size local builders with a delivered project, clean RERA record, and buyers who are salaried or Bihar-government employees. **Structure every line with a tripartite escrow, construction-linked disbursement, and a covenant that collections route through the escrow; take the monthly escrow statement, the RERA progress report, and the sales register every month.** Avoid first-time developers, pure land aggregators, and anyone selling before approval. **If a borrower resists escrow or asks for a land-only facility, decline.**\n\n## Early-warning signs\nWatch booking cancellations, a widening gap between sold and collected, contractor payment delays, and any municipal notice on the project. **If cancellations rise or escrow inflows fall below the construction draw for two months, freeze disbursement and re-appraise.** Note that our peer and rating sources are national and dated — the ICRA reports are from 2024 and 2025 [8][9] — and Patna-specific data is thin, so lean on first principles and these local facts [1][2][3]."
+ ],
+ "watch": [
+  [
+   "Monthly escrow statement (monthly)",
+   "Collections below construction draw for two consecutive months -> freeze disbursement and re-appraise"
+  ],
+  [
+   "RERA progress report (quarterly)",
+   "Construction behind schedule by more than one quarter -> seek revised cash flow and additional promoter support"
+  ],
+  [
+   "Sales register and cancellation list (monthly)",
+   "Cancellations above 10% of bookings -> ask for buyer profile and re-price risk"
+  ],
+  [
+   "Municipal approval status (on event)",
+   "Any notice on commercial use of residential units -> stop new sanctions on that project"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Municipal crackdown on 50,000-plus properties and new NBCC supply raise execution and demand risk for small Patna builders.",
+ "articles": [
+  {
+   "title": "Bihar cabinet clears NBCC redevelopment of Bahadurpur Housing Colony and an 8.5-acre Sector 5 project in Patna",
+   "url": "https://propertywala.com/news/residential/bihar-cabinet-clears-nbcc-redevelopment-of-bahadurpur-housing-colony-and-an-8-5-acre-sector-5-project-in-patna",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "घर से दुकान-ऑफिस चलाने वालों पर बड़ी कार्रवाई की तैयारी: पटना में 50 हजार से ज्यादा संपत्तियां निगम की रडार पर, छह अंचलों से डिटेल रिपोर्ट मांगी - Patna News - - Hindi News",
+   "url": "https://www.bhaskar.com/g/local/bihar/patna/news/patna-municipal-corporation-survey-illegal-commercial-properties-list-139288070.html#1",
+   "date": "2026-10-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "पटना में घर से दुकान-ऑफिस चला रहे हैं तो समझ लें ये नियम, 50 हजार से ज्यादा संपत्तियां नगर निगम की रडार पर",
+   "url": "https://org374nextwww.jagran.com/bihar/patna-city-patna-crackdown-50k-properties-on-radar-for-commercial-use-40397692.html",
+   "date": "2026-10-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Brigade Group Q2 Profit Rises 29% To Rs 219 Cr, Real Estate Sales At Rs 1,827 Cr",
+   "url": "https://in.tradingview.com/news/moodys:c09a5e0f6e65e:0-brigade-group-q2-profit-rises-29-to-rs-219-cr-real-estate-sales-at-rs-1-827-cr/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Brigade Enterprises (BOM:532929) Q2 2027 Earnings Call Transcript & Audio",
+   "url": "https://stockanalysis.com/quote/bom/532929/transcripts/733807-q2-26-27/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Video | Brigade Enterprises Expects Strong Pre-Sales Momentum To Sustain, Plans Over 7 Mn Sq Ft Launches In",
+   "url": "https://www.ndtvprofit.com/videos/business/brigade-enterprises-expects-strong-pre-sales-momentum-to-sustain-plans-over-7-mn-sq-ft-launches-in-h-1182877?pfrom=home-business_video-74019",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Aditya Birla Real Estate (BOM:500040) Earnings Call Transcripts - Aditya Birla Real Estate Limited (BOM:500040)",
+   "url": "https://stockanalysis.com/quote/bom/500040/transcripts/#1",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "September 30, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=138147#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 30,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130290#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "CFO to interest:",
+   "url": "https://integraliq.crisil.com/content/dam/crisilrating/criteria-and-methodology/criteria-for-real-estate-developers-lrd-and-cmbs.pdf#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisis",
+   "url": "https://integraliq.crisil.com/content/dam/crisilrating/criteria-and-methodology/criteria-for-real-estate-developers-lrd-and-cmbs.pdf#1#3#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Bihar None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

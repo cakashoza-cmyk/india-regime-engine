@@ -1,0 +1,150 @@
+{
+ "key": "hr_gurugram|software_it",
+ "state": "HR",
+ "city": "hr_gurugram",
+ "ind": "software_it",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Data pack score is UNKNOWN, so no automatic pass; lend selectively to Gurugram software services and GCC-support firms with 90-day-plus receivable cover and contracted revenue, and decline pure onsite-staffing shops with US visa dependence.",
+ "title": "Gurugram Computer Software & IT: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA Gurugram software firm sells engineering hours and managed teams from leased offices to overseas and domestic clients; cash arrives as milestone or monthly invoices, and the gap between paying salaries and collecting from clients is the whole credit story. **The asset is people, not plant, so the bank is really financing payroll ahead of receivables.** Rating methodology flags that most Indian software revenue is earned overseas, so US spending and visa norms drive collections [9].\n\n## Where value and cash sit\nMargins depend on billing rate minus salary, bench cost and lease rent; pricing power is weak in staff-augmentation and strong only where the firm owns a product or a managed-service contract. **Receivables are the riskiest line: peer InfoBeans shows rising 90-day receivables [4], so when a proposal lands, check the ageing beyond 90 days; if it is climbing, ask for the top-five client collection history.** Capex is modest — fit-outs and laptops — but lease deposits and security are real cash outflows. AI is compressing billable hours across the US$315-billion Indian services sector [5].\n\n## What has changed now\nLocal news is about offices, not software: Lodha is putting ₹1,200 crore into a 4 lakh sq ft Grade A++ project on Golf Course Road [1][2], which signals landlord confidence in Gurugram occupancy but says nothing about your borrower's cash flow. **Peer results are mixed: InfoBeans grew 22% in constant currency while profit growth trailed at 16% [4]; Sasken grew revenue 25.6% to Rs. 321 crores with EBITDA margin up 700 basis points [7]; TCS held margins despite AI spend but its stock is down 30.3% year-to-date [5].** Cognizant's Q3 beat lifted the Nifty IT index nearly 2% [6]. The rating sources are undated archived methodologies [8][9][11] — treat them as principles, not current data. Sources say little specific about Gurugram software firms, so lean on first principles and these peers.\n\n## Who to pursue, and how to grow safely\n**Pursue product-led and managed-service firms with contracted, multi-year revenue, and GCC-support vendors serving captives already leased in Gurugram's new Grade A space [1][2].** Avoid pure onsite-staffing exporters whose revenue depends on US visas [9]. Structure as a receivable-backed line with monthly stock-and-book-debt statements, a 90-day ageing covenant and a minimum billing-rate floor. Take monthly: ageing beyond 90 days, top-five client concentration, bench percentage, and salary-to-collection gap. **Where a figure is missing, collect from customer rather than assume.**\n\n## Early-warning signs\n- Monthly ageing (monthly): 90-day-plus receivables rise two months running -> freeze fresh drawdown and reprice.\n- Client concentration (quarterly): top client crosses a third of revenue -> seek assignment of that contract's receivables.\n- Bench and attrition (monthly): bench rises while billing falls -> cut limit.\n- Visa or onsite exposure (quarterly): onsite share of revenue grows -> ask for redeployment plan before renewal."
+ ],
+ "watch": [
+  [
+   "Receivable ageing beyond 90 days (monthly)",
+   "two consecutive rises -> freeze drawdowns and reprice"
+  ],
+  [
+   "Top-five client concentration (quarterly)",
+   "any client above a third of revenue -> seek receivable assignment"
+  ],
+  [
+   "Bench percentage vs billing (monthly)",
+   "bench up while billing down -> reduce limit"
+  ],
+  [
+   "Onsite/US visa-dependent revenue share (quarterly)",
+   "share rising -> demand redeployment plan before renewal"
+  ],
+  [
+   "Salary-to-collection gap (monthly)",
+   "gap widens beyond prior quarter -> shift to secured facility"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Gurugram news is office real estate; IT peers show mixed but not deteriorating results.",
+ "articles": [
+  {
+   "title": "Lodha Developers enters Delhi-NCR with Rs 1,200 crore office project on Golf Course Road- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/companies/lodha-developers-enters-delhi-ncr-with-1-200-crore-office-project-on-golf-course-road-14065424.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Lodha Developers to invest ₹1,200 cr to build prime office complex on Gurugram Golf Course Road",
+   "url": "https://www.thehindubusinessline.com/news/real-estate/lodha-developers-to-invest-1200-cr-to-build-prime-office-complex-on-gurugram-golf-course-road/article71652286.ece",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "टेक इंप्लॉई ने कंपनी को लिखा- 'हम दुनिया छोड़ रहे हैं', दे दी जान - Gurugram: पत्नी के जन्मदिन पर उजड़ा परिवार, मौत से पहले टेक्निकल कर्मचारी ने कंपनी को भेजा ईमेल- 'हम यह दुनिया छोड़ रहे हैं'",
+   "url": "https://www.prabhatkhabar.com/national/it-couple-found-dead-in-gurugram-flat-husband-sent-cryptic-email-to-company-before-death#1",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "InfoBeans: Real 22% Growth While India's IT Giants Stall, at ~17x - the Margin Proof Isn't Here Yet",
+   "url": "https://www.ainvest.com/news/infobeans-real-22-growth-india-giants-stall-17x-margin-proof-isn-2610/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's TCS rises as margins steady despite AI investments",
+   "url": "https://dev.theedgemalaysia.com/node/821176",
+   "date": "2026-10-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Nifty IT surges nearly 2% after Cognizant Q3 earnings beat; Infosys, TCS, Coforge rally",
+   "url": "https://www.etnownews.com/markets/nifty-it-jumps-cognizant-q3-earnings-coforge-infosys-tcs-lead-gains-article-156433218",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sasken Technologies Ltd (BOM:532663) (Q2 2027) Earnings Call Highlights: Revenue Surges 25. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/sasken-technologies-ltd-bom532663-q2-2027-earnings-call-highlights-revenue-surges-25--4919886",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The rating exercise is primarily focused on assessing the future debt servicing capability of a company",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/858~IT%20Services,%20Rating%20Methodology,%20Jul%202023%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Software%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Haryana None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

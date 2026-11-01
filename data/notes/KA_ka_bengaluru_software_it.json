@@ -1,0 +1,150 @@
+{
+ "key": "ka_bengaluru|software_it",
+ "state": "KA",
+ "city": "ka_bengaluru",
+ "ind": "software_it",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution — lend selectively to mid-size Bengaluru IT services and product firms with contracted, diversified revenue; avoid pure headcount-billing vendors exposed to AI-led pricing pressure and campus-hiring collapse.",
+ "title": "Bengaluru Computer Software & IT: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Bengaluru software firm sells skilled people and code, and gets paid weeks after the work is delivered.** Inputs are engineers, laptops and cloud capacity; output is billed time or a licensed product. Cash sits in receivables, not stock, so the working-capital cycle is the whole credit story — ICRA notes that a longer cycle means a larger funding requirement and a weaker liquidity profile [11]. **So when a proposal lands, check the receivable days and the top-customer share before you look at the P&L.**\n\n## What has changed now\n**The billable-hour model is being squeezed by AI, and campus hiring in Bengaluru has fallen** [1]. TCS still held margins while ramping AI investment, but its shares were down 30.3% year-to-date even after a 6.2% bounce [5]; AI is described as undermining the billable-hour model in a US$315-billion sector [5]. Against that, mid-caps are growing: Sasken revenue up 25.6% year-on-year to Rs. 321 crores with software services up 34% and EBITDA margin up 700 basis points [7], and InfoBeans grew 22% in constant currency while profit growth of 16% trailed revenue of 30%, with rising 90-day receivables [4]. **The split is real: large incumbents stall, focused mid-caps grow — but margin proof is not yet there** [4].\n\n## Where the growth is\n**Pursue mid-size firms (roughly the Sasken/InfoBeans shape) with a named product or embedded/engineering niche, not body-shop vendors.** Bengaluru Tech Summit 2026 (17–19 November) is pushing embedded systems, AI and robotics with 75+ countries participating [2][3] — that is where new order flow and partnerships will form. **Avoid vendors whose revenue is one client or one campus pipeline; the placement fall [1] hits their cost base and bench directly.**\n\n## How to grow safely\n**Structure as a receivables-backed working-capital line with a charge on book debts, not a clean term loan.** Take monthly: ageing of receivables beyond 90 days, top-five client concentration, and billed-versus-collected revenue. **If 90-day receivables rise while revenue grows, ask for the client-wise collection schedule** — that is the InfoBeans pattern [4]. Rating methodology flags US visa norms and geographic concentration as live risks for overseas-revenue firms [9]; collect from customer the US-revenue share and visa-dependent headcount.\n\n## Early-warning signs\n- **Bench strength rising while billing stays flat (monthly)** -> cut limit, ask for order book.\n- **Any single client above 30% of revenue (quarterly)** -> require diversification covenant.\n- **EBITDA margin falling while revenue grows (quarterly)** -> reprice or exit; this is the InfoBeans margin question [4].\n- **Delay in statutory dues or salary (monthly)** -> stop fresh disbursal."
+ ],
+ "watch": [
+  [
+   "Receivable days beyond 90 (monthly)",
+   "Rising two months in a row -> ask for client-wise collection schedule and cap the limit"
+  ],
+  [
+   "Top-five client concentration (quarterly)",
+   "Above 50% of revenue -> require diversification covenant before renewal"
+  ],
+  [
+   "EBITDA margin versus revenue growth (quarterly)",
+   "Margin falling while revenue grows -> reprice or exit"
+  ],
+  [
+   "Bench strength versus billed headcount (monthly)",
+   "Bench rising with flat billing -> cut limit and ask for order book"
+  ],
+  [
+   "Statutory dues and salary payment (monthly)",
+   "Any delay -> stop fresh disbursal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Bengaluru campus IT placements falling; AI squeezes billable-hour model even as mid-caps grow.",
+ "articles": [
+  {
+   "title": "Bengaluru’s youth see fewer IT jobs as campus placements fall: Industry cites skills gap, AI; Karnataka CM warns of action",
+   "url": "https://www.bhaskarenglish.in/national/news/karnataka-cm-warns-it-firms-skills-gap-ai-bengaluru-job-crisis-139544037.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Beyond AI: Bengaluru Tech Summit 2026 to spotlight new technologies, markets and opportunities",
+   "url": "https://yourstory.com/2026/10/beyond-ai-bengaluru-tech-summit-spotlight-technologies",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "ರೋಬೋಟ್ಗಳ ಹೊಸ ಲೋಕಕ್ಕೆ ಬೆಂಗಳೂರು ಸಜ್ಜು: ಪರದೆಯಿಂದ ನೈಜ ಜಗತ್ತಿಗೆ AI - Samyukta Karnataka",
+   "url": "https://samyuktakarnataka.in/news/karnataka/bengaluru-tech-summit-2026-ai-robotics-pavilion/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "InfoBeans: Real 22% Growth While India's IT Giants Stall, at ~17x - the Margin Proof Isn't Here Yet",
+   "url": "https://www.ainvest.com/news/infobeans-real-22-growth-india-giants-stall-17x-margin-proof-isn-2610/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's TCS rises as margins steady despite AI investments",
+   "url": "https://dev.theedgemalaysia.com/node/821176",
+   "date": "2026-10-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Nifty IT surges nearly 2% after Cognizant Q3 earnings beat; Infosys, TCS, Coforge rally",
+   "url": "https://www.etnownews.com/markets/nifty-it-jumps-cognizant-q3-earnings-coforge-infosys-tcs-lead-gains-article-156433218",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Sasken Technologies Ltd (BOM:532663) (Q2 2027) Earnings Call Highlights: Revenue Surges 25. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/sasken-technologies-ltd-bom532663-q2-2027-earnings-call-highlights-revenue-surges-25--4919886",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The rating exercise is primarily focused on assessing the future debt servicing capability of a company",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/858~IT%20Services,%20Rating%20Methodology,%20Jul%202023%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Software%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Karnataka None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
