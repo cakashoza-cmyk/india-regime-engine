@@ -5,3 +5,4 @@ fastapi
 uvicorn
 apscheduler
 psycopg[binary]
+openpyxl  # lending radar (RBI SIBC xlsx)

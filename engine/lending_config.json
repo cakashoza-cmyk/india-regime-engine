@@ -1,0 +1,497 @@
+{
+ "_doc": "Lending radar config. Add a sector = add an object to 'sectors'. Add a source = add to 'sources'. No code changes needed. Weights/thresholds carry last_calibrated; >180 days -> CALIBRATION_STALE warning.",
+ "calibration_stale_days": 180,
+ "weights": {
+  "_last_calibrated": "2026-11-01",
+  "_note": "Initial expert weights, not back-tested. Output momentum and export demand carry most weight; credit-vs-output flags leverage build-up; macro overlays apply only to sensitive sectors.",
+  "iip_yoy": 1.0,
+  "iip_fytd": 1.0,
+  "export_fytd_usd": 1.0,
+  "credit_vs_output": 0.75,
+  "energy_overlay": 1.0,
+  "rate_overlay": 1.0
+ },
+ "thresholds": {
+  "_last_calibrated": "2026-11-01",
+  "iip_yoy": {
+   "pos_above": 5.0,
+   "neg_below": 0.0
+  },
+  "iip_fytd": {
+   "pos_above": 5.0,
+   "neg_below": 0.0
+  },
+  "export_fytd_usd": {
+   "pos_above": 10.0,
+   "neg_below": 0.0
+  },
+  "credit_vs_output_gap_pp": {
+   "pos_below": 10.0,
+   "neg_above": 20.0
+  },
+  "brent_usd_high": 100.0,
+  "brent_usd_low": 75.0,
+  "verdict": {
+   "lend_at_or_above": 65,
+   "avoid_below": 45
+  },
+  "min_verified_drivers": 2,
+  "overlay_max_points": 5,
+  "_overlay_note": "Macro overlays (Brent, RBI rates) shift the core sector score by at most +/- overlay_max_points; they cannot decide a verdict alone."
+ },
+ "sources": {
+  "rbi_sibc": {
+   "label": "RBI Sectoral Deployment of Bank Credit (monthly, SIBC xlsx)",
+   "tier": "official_primary",
+   "release": "last working day of following month (approx.)",
+   "max_age_days": 75,
+   "chain": [
+    {
+     "id": "rbi_press_list",
+     "method": "html_link",
+     "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+     "title_regex": "Sectoral Deployment of Bank Credit",
+     "file_regex": "SIBC\\w*\\.xlsx"
+    },
+    {
+     "id": "deepseek_site_search",
+     "method": "deepseek_search",
+     "query": "site:rbi.org.in Sectoral Deployment of Bank Credit {month_year}",
+     "file_regex": "SIBC\\w*\\.xlsx"
+    },
+    {
+     "id": "last_known",
+     "method": "last_known"
+    },
+    {
+     "id": "cache",
+     "method": "cache"
+    }
+   ]
+  },
+  "iip_nic2": {
+   "label": "IIP Quick Estimates, NIC 2-digit manufacturing (PIB re-publication of MoSPI)",
+   "tier": "official_primary",
+   "release": "28th of month+1, 16:00 IST (rolled to next business day)",
+   "max_age_days": 70,
+   "chain": [
+    {
+     "id": "pib_rss",
+     "method": "rss_scan",
+     "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+     "title_regex": "Index of Industrial Production|औद्योगिक उत्पादन सूचकांक"
+    },
+    {
+     "id": "deepseek_site_search",
+     "method": "deepseek_search",
+     "query": "site:pib.gov.in Quick Estimates of Index of Industrial Production {month_year}"
+    },
+    {
+     "id": "last_known",
+     "method": "last_known"
+    },
+    {
+     "id": "seed",
+     "method": "static",
+     "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475"
+    },
+    {
+     "id": "cache",
+     "method": "cache"
+    }
+   ]
+  },
+  "exports_qe": {
+   "label": "Dept of Commerce Quick Estimates, commodity-wise exports (Rs Cr and USD mn)",
+   "tier": "official_primary",
+   "release": "~15th of month+1",
+   "max_age_days": 70,
+   "chain": [
+    {
+     "id": "commerce_pattern",
+     "method": "url_pattern",
+     "url": "https://www.commerce.gov.in/files/{rel_yyyy_mm}/Quick%20Estimates%20{month_name}%20{year}.pdf",
+     "lookback_months": 3
+    },
+    {
+     "id": "deepseek_site_search",
+     "method": "deepseek_search",
+     "query": "site:commerce.gov.in Quick Estimates {month_year} pdf",
+     "file_regex": "Quick.{1,6}Estimates.*\\.pdf"
+    },
+    {
+     "id": "last_known",
+     "method": "last_known"
+    },
+    {
+     "id": "cache",
+     "method": "cache"
+    }
+   ]
+  },
+  "commodities": {
+   "label": "Exchange futures via Yahoo chart API (display only; single source => unverified, unscored)",
+   "tier": "market_data",
+   "max_age_days": 7,
+   "chain": [
+    {
+     "id": "yahoo_chart",
+     "method": "yahoo"
+    }
+   ]
+  },
+  "macro_engine": {
+   "label": "Regime engine verified macro (data/regime_latest.json)",
+   "tier": "official_primary",
+   "max_age_days": 3,
+   "chain": [
+    {
+     "id": "regime_latest",
+     "method": "local_json",
+     "url": "data/regime_latest.json"
+    }
+   ]
+  }
+ },
+ "commodities": {
+  "cotton": {
+   "symbol": "CT=F",
+   "label": "ICE Cotton No.2 (US c/lb) - proxy for Shankar-6/Cotlook",
+   "unit": "USc/lb"
+  },
+  "brent_fut": {
+   "symbol": "BZ=F",
+   "label": "Brent front-month (PTA/MEG/propane cost proxy)",
+   "unit": "USD/bbl"
+  },
+  "lng_jkm": {
+   "symbol": "JKM=F",
+   "label": "LNG JKM futures (spot-LNG cost proxy for Gujarat PNG)",
+   "unit": "USD/MMBtu"
+  },
+  "henry_hub": {
+   "symbol": "NG=F",
+   "label": "Henry Hub natural gas",
+   "unit": "USD/MMBtu"
+  },
+  "us_hrc": {
+   "symbol": "HRC=F",
+   "label": "US HRC steel futures (global steel price proxy)",
+   "unit": "USD/st"
+  }
+ },
+ "missing_sources": [
+  {
+   "item": "Polished diamond price index",
+   "why": "Rapaport/IDEX indices are paid; no free official series. Using GJEPC/DGCIS export values instead.",
+   "action": "Unknown — collect (Rapaport subscription or GJEPC monthly)"
+  },
+  {
+   "item": "PTA / MEG / POY domestic prices (Surat MMF)",
+   "why": "Reliance/IOCL price lists and ICIS/CCFGroup are not free.",
+   "action": "Unknown — collect (dealer quotes); Brent shown as proxy"
+  },
+  {
+   "item": "Gujarat Gas industrial PNG tariff (Morbi)",
+   "why": "Tariff circulars are PDFs with no stable link; not yet automated.",
+   "action": "Unknown — collect; JKM/Henry Hub shown as proxy"
+  },
+  {
+   "item": "Domestic cotton (CCI / Shankar-6) price",
+   "why": "CCI/Cotlook pages have no stable machine-readable feed.",
+   "action": "Unknown — collect; ICE cotton shown as proxy"
+  },
+  {
+   "item": "Sector GNPA / SMA, DSCR, cash-conversion cycle",
+   "why": "Sector-level bank asset-quality and borrower financials are not published at this granularity (sample's figures were illustrative).",
+   "action": "Unknown — collect from internal MIS / CMIE Prowess"
+  },
+  {
+   "item": "China dumping index",
+   "why": "No official index exists; DGTR anti-dumping notices are qualitative.",
+   "action": "Language only (DeepSeek, unscored) once key is set"
+  }
+ ],
+ "sectors": [
+  {
+   "id": "mmf_textiles",
+   "name": "Textiles - MMF / Polyester Weaving & Processing",
+   "cluster": "Surat (Sachin, Pandesara, Kadodara), Olpad",
+   "south_gujarat": true,
+   "rbi_row": "2.4.3",
+   "iip_nic": "13",
+   "export_row": 24,
+   "commodities": [
+    "brent_fut"
+   ],
+   "energy": "medium",
+   "wc_intensity": "high",
+   "ews": "Weavers' association production holidays; yarn trader bill delays; power-loom units on sale.",
+   "guidance": [
+    "Verify GST turnover vs bank credit summations before renewal.",
+    "Cap stock holding period for grey fabric."
+   ]
+  },
+  {
+   "id": "cotton_textiles",
+   "name": "Textiles - Cotton Spinning & Yarn",
+   "cluster": "Surat, Bharuch, Saurashtra ginning belt",
+   "south_gujarat": true,
+   "rbi_row": "2.4.1",
+   "iip_nic": "13",
+   "export_row": 23,
+   "commodities": [
+    "cotton"
+   ],
+   "energy": "medium",
+   "wc_intensity": "high",
+   "ews": "Cotton price swings vs yarn realisation; mill shutdown notices.",
+   "guidance": [
+    "Watch cotton inventory valuation vs market price.",
+    "ECGC cover on export receivables."
+   ]
+  },
+  {
+   "id": "apparel",
+   "name": "Readymade Garments & Made-ups",
+   "cluster": "Surat, Ahmedabad",
+   "south_gujarat": true,
+   "rbi_row": "2.4.4",
+   "iip_nic": "14",
+   "export_row": 25,
+   "commodities": [],
+   "energy": "low",
+   "wc_intensity": "high",
+   "ews": "Buyer order cancellations; US/EU tariff changes.",
+   "guidance": [
+    "Back-to-back LC against confirmed orders."
+   ]
+  },
+  {
+   "id": "diamonds",
+   "name": "Cut & Polished Diamonds / Gems & Jewellery",
+   "cluster": "Surat (Varachha, Katargam, SDB), Navsari, Bhavnagar",
+   "south_gujarat": true,
+   "rbi_row": "2.16",
+   "iip_nic": "32",
+   "export_row": 18,
+   "commodities": [],
+   "energy": "low",
+   "wc_intensity": "very_high",
+   "ews": "Surat Diamond Bourse turnover; extended Diwali vacations; lab-grown price discounts; rough import vs polished export gap.",
+   "guidance": [
+    "Independent valuation of stock; shorter credit period.",
+    "Track PCFC/PSFC realisation within due dates."
+   ],
+   "note": "IIP NIC 32 'Other manufacturing' includes jewellery but also other goods (proxy)."
+  },
+  {
+   "id": "chemicals_dyes",
+   "name": "Chemicals, Dyes & Intermediates",
+   "cluster": "Vapi, Ankleshwar, Panoli, Sachin GIDC, Dahej",
+   "south_gujarat": true,
+   "rbi_row": "2.9.4",
+   "iip_nic": "20",
+   "export_row": 20,
+   "commodities": [
+    "brent_fut"
+   ],
+   "energy": "high",
+   "wc_intensity": "high",
+   "ews": "Chinese price cuts / DGTR anti-dumping cases; GPCB closure notices; inventory build-up.",
+   "guidance": [
+    "Mark inventory to current market price.",
+    "Monitor credit summations quarterly."
+   ]
+  },
+  {
+   "id": "petrochem",
+   "name": "Petrochemicals",
+   "cluster": "Hazira, Dahej, Vadodara",
+   "south_gujarat": true,
+   "rbi_row": "2.9.3",
+   "iip_nic": "20",
+   "export_row": null,
+   "commodities": [
+    "brent_fut"
+   ],
+   "energy": "high",
+   "wc_intensity": "medium",
+   "ews": "Polymer price announcements by RIL/IOCL; Middle-East/China capacity.",
+   "guidance": [
+    "Price-reset clauses with buyers."
+   ]
+  },
+  {
+   "id": "pharma",
+   "name": "Pharmaceuticals & APIs",
+   "cluster": "Vapi, Ankleshwar, Ahmedabad",
+   "south_gujarat": true,
+   "rbi_row": "2.9.2",
+   "iip_nic": "21",
+   "export_row": 19,
+   "commodities": [],
+   "energy": "low",
+   "wc_intensity": "medium",
+   "ews": "USFDA 483 / import alerts; API price swings from China.",
+   "guidance": [
+    "Regulatory compliance status at renewal."
+   ]
+  },
+  {
+   "id": "ceramics",
+   "name": "Ceramic Tiles, Sanitaryware & Glass",
+   "cluster": "Morbi, Thangadh, Himatnagar",
+   "south_gujarat": false,
+   "rbi_row": "2.11",
+   "iip_nic": "23",
+   "export_row": 17,
+   "commodities": [
+    "lng_jkm",
+    "henry_hub"
+   ],
+   "energy": "very_high",
+   "wc_intensity": "high",
+   "ews": "Morbi association shutdown circulars; gas connection surrenders; dealer cheque bounces.",
+   "guidance": [
+    "Exclude aged debtors from drawing power.",
+    "Check gas cost pass-through in recent invoices."
+   ],
+   "note": "RBI row is 'Glass & Glassware' and IIP NIC 23 is 'other non-metallic minerals' (incl. cement) - closest official proxies; no ceramic-only series exists."
+  },
+  {
+   "id": "plastics",
+   "name": "Plastics & Rubber Processing",
+   "cluster": "Daman, Silvassa, Umbergaon, Vapi",
+   "south_gujarat": true,
+   "rbi_row": "2.10",
+   "iip_nic": "22",
+   "export_row": 30,
+   "commodities": [
+    "brent_fut"
+   ],
+   "energy": "medium",
+   "wc_intensity": "medium",
+   "ews": "Polymer price cuts; port dumping notices.",
+   "guidance": [
+    "LC against confirmed orders for single-product units."
+   ]
+  },
+  {
+   "id": "engineering",
+   "name": "Engineering & Capital Goods",
+   "cluster": "Hazira, Surat, Navsari, Vapi, Bharuch",
+   "south_gujarat": true,
+   "rbi_row": "2.14.2",
+   "iip_nic": "28",
+   "export_row": 21,
+   "commodities": [
+    "us_hrc"
+   ],
+   "energy": "low",
+   "wc_intensity": "medium",
+   "ews": "Order cancellations; milestone billing delays from PSU buyers.",
+   "guidance": [
+    "Milestone-linked LC/BG structuring."
+   ]
+  },
+  {
+   "id": "metals",
+   "name": "Iron & Steel (incl. secondary re-rolling)",
+   "cluster": "Hazira, Bharuch, Bhavnagar ship-breaking",
+   "south_gujarat": true,
+   "rbi_row": "2.13.1",
+   "iip_nic": "24",
+   "export_row": null,
+   "commodities": [
+    "us_hrc"
+   ],
+   "energy": "high",
+   "wc_intensity": "medium",
+   "ews": "Billet price drops; power bill delays; import surges.",
+   "guidance": [
+    "Monthly stock verification of scrap/billets."
+   ]
+  },
+  {
+   "id": "electronics",
+   "name": "Electronics Manufacturing",
+   "cluster": "Sanand, Dholera (emerging)",
+   "south_gujarat": false,
+   "rbi_row": "2.14.1",
+   "iip_nic": "26",
+   "export_row": 22,
+   "commodities": [],
+   "energy": "low",
+   "wc_intensity": "low",
+   "ews": "OEM vendor switches; PLI disbursement delays.",
+   "guidance": [
+    "Anchor-client concentration caps."
+   ]
+  },
+  {
+   "id": "auto_components",
+   "name": "Auto & Auto Components",
+   "cluster": "Sanand, Halol, Becharaji",
+   "south_gujarat": false,
+   "rbi_row": "2.15",
+   "iip_nic": "29",
+   "export_row": null,
+   "commodities": [],
+   "energy": "low",
+   "wc_intensity": "medium",
+   "ews": "OEM production cuts.",
+   "guidance": [
+    "Minimum 2 OEM relationships."
+   ]
+  },
+  {
+   "id": "paper",
+   "name": "Paper & Paper Products",
+   "cluster": "Vapi, Valsad, Songadh",
+   "south_gujarat": true,
+   "rbi_row": "2.7",
+   "iip_nic": "17",
+   "export_row": null,
+   "commodities": [],
+   "energy": "medium",
+   "wc_intensity": "medium",
+   "ews": "Imported pulp / waste-paper price swings; China/Indonesia imports.",
+   "guidance": [
+    "Track raw-material cost pass-through."
+   ]
+  },
+  {
+   "id": "food_processing",
+   "name": "Food Processing",
+   "cluster": "Navsari, Valsad, Bardoli (sugar, mango, dairy)",
+   "south_gujarat": true,
+   "rbi_row": "2.2",
+   "iip_nic": "10",
+   "export_row": null,
+   "commodities": [],
+   "energy": "low",
+   "wc_intensity": "medium",
+   "ews": "Monsoon / crop output; sugar cane dues.",
+   "guidance": [
+    "Seasonal limits matched to crop cycle."
+   ]
+  },
+  {
+   "id": "commercial_real_estate",
+   "name": "Commercial Real Estate",
+   "cluster": "Surat (Dream City, Vesu), Vapi",
+   "south_gujarat": true,
+   "rbi_row": "3.8",
+   "iip_nic": null,
+   "export_row": null,
+   "commodities": [],
+   "energy": "low",
+   "wc_intensity": "very_high",
+   "ews": "Unsold inventory overhang; RERA delays.",
+   "guidance": [
+    "RERA escrow control."
+   ]
+  }
+ ]
+}

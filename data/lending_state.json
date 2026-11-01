@@ -1,0 +1,1216 @@
+{
+ "exports_qe": {
+  "checked_ist": "2026-11-01 14:17",
+  "discovered_by": "commerce_pattern",
+  "first_seen": "2026-11-01",
+  "payload": {
+   "rows": {
+    "1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 958.74,
+     "inr_cr_yago": 941.38,
+     "inr_fytd_cr": 4337.02,
+     "inr_fytd_pct": -5.05,
+     "inr_pct": 1.84,
+     "name": "Tea",
+     "usd_fytd_pct": -13.63,
+     "usd_pct": -5.78
+    },
+    "2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 1548.08,
+     "inr_cr_yago": 1300.05,
+     "inr_fytd_cr": 10331.58,
+     "inr_fytd_pct": 14.17,
+     "inr_pct": 19.08,
+     "name": "Coffee",
+     "usd_fytd_pct": 3.61,
+     "usd_pct": 10.17
+    },
+    "3": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 9199.03,
+     "inr_cr_yago": 8167.3,
+     "inr_fytd_cr": 54937.41,
+     "inr_fytd_pct": 12.85,
+     "inr_pct": 12.63,
+     "name": "Rice",
+     "usd_fytd_pct": 2.5,
+     "usd_pct": 4.21
+    },
+    "4": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 369.08,
+     "inr_cr_yago": 227.83,
+     "inr_fytd_cr": 2632.45,
+     "inr_fytd_pct": 134.67,
+     "inr_pct": 62.0,
+     "name": "Other cereals",
+     "usd_fytd_pct": 113.75,
+     "usd_pct": 49.88
+    },
+    "5": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 1587.16,
+     "inr_cr_yago": 1537.53,
+     "inr_fytd_cr": 8020.57,
+     "inr_fytd_pct": -6.63,
+     "inr_pct": 3.23,
+     "name": "Tobacco",
+     "usd_fytd_pct": -15.22,
+     "usd_pct": -4.49
+    },
+    "6": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 3124.58,
+     "inr_cr_yago": 2779.48,
+     "inr_fytd_cr": 19248.27,
+     "inr_fytd_pct": 3.85,
+     "inr_pct": 12.42,
+     "name": "Spices",
+     "usd_fytd_pct": -5.7,
+     "usd_pct": 4.01
+    },
+    "7": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 239.77,
+     "inr_cr_yago": 366.3,
+     "inr_fytd_cr": 1294.09,
+     "inr_fytd_pct": -0.9,
+     "inr_pct": -34.54,
+     "name": "Cashew",
+     "usd_fytd_pct": -9.77,
+     "usd_pct": -39.44
+    },
+    "8": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 555.57,
+     "inr_cr_yago": 979.63,
+     "inr_fytd_cr": 4113.84,
+     "inr_fytd_pct": -18.74,
+     "inr_pct": -43.29,
+     "name": "Oil Meals",
+     "usd_fytd_pct": -26.03,
+     "usd_pct": -47.53
+    },
+    "9": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 717.47,
+     "inr_cr_yago": 631.61,
+     "inr_fytd_cr": 5033.01,
+     "inr_fytd_pct": -7.77,
+     "inr_pct": 13.59,
+     "name": "Oil seeds",
+     "usd_fytd_pct": -16.24,
+     "usd_pct": 5.1
+    },
+    "10": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 2732.77,
+     "inr_cr_yago": 2696.65,
+     "inr_fytd_cr": 16043.81,
+     "inr_fytd_pct": -0.52,
+     "inr_pct": 1.34,
+     "name": "Fruits & Vegetables",
+     "usd_fytd_pct": -9.62,
+     "usd_pct": -6.24
+    },
+    "11": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 3085.89,
+     "inr_cr_yago": 2450.84,
+     "inr_fytd_cr": 16815.95,
+     "inr_fytd_pct": 18.02,
+     "inr_pct": 25.91,
+     "name": "miscellaneous processed items",
+     "usd_fytd_pct": 7.2,
+     "usd_pct": 16.49
+    },
+    "12": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 8111.17,
+     "inr_cr_yago": 6898.13,
+     "inr_fytd_cr": 42837.14,
+     "inr_fytd_pct": 24.62,
+     "inr_pct": 17.58,
+     "name": "SEPine Products",
+     "usd_fytd_pct": 13.22,
+     "usd_pct": 8.79
+    },
+    "13": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 7332.18,
+     "inr_cr_yago": 5018.38,
+     "inr_fytd_cr": 37130.71,
+     "inr_fytd_pct": 56.23,
+     "inr_pct": 46.11,
+     "name": "Meat, dairy & poultry products",
+     "usd_fytd_pct": 42.07,
+     "usd_pct": 35.18
+    },
+    "14": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 397.93,
+     "inr_cr_yago": 1262.35,
+     "inr_fytd_cr": 8265.65,
+     "inr_fytd_pct": 33.88,
+     "inr_pct": -68.48,
+     "name": "Iron Ore",
+     "usd_fytd_pct": 21.5,
+     "usd_pct": -70.84
+    },
+    "15": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 4631.99,
+     "inr_cr_yago": 3690.13,
+     "inr_fytd_cr": 27486.72,
+     "inr_fytd_pct": 18.38,
+     "inr_pct": 25.52,
+     "name": "Minerals including processed minerals",
+     "usd_fytd_pct": 7.54,
+     "usd_pct": 16.13
+    },
+    "16": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 3383.24,
+     "inr_cr_yago": 2987.2,
+     "inr_fytd_cr": 21079.63,
+     "inr_fytd_pct": 6.87,
+     "inr_pct": 13.26,
+     "name": "Leather & leather products",
+     "usd_fytd_pct": -2.98,
+     "usd_pct": 4.79
+    },
+    "17": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 2612.17,
+     "inr_cr_yago": 2863.71,
+     "inr_fytd_cr": 15613.97,
+     "inr_fytd_pct": -12.53,
+     "inr_pct": -8.78,
+     "name": "Ceramic products & glassware",
+     "usd_fytd_pct": -20.62,
+     "usd_pct": -15.61
+    },
+    "18": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 32197.78,
+     "inr_cr_yago": 25043.38,
+     "inr_fytd_cr": 145505.26,
+     "inr_fytd_pct": 18.44,
+     "inr_pct": 28.57,
+     "name": "Gems & Jewellery",
+     "usd_fytd_pct": 7.66,
+     "usd_pct": 18.95
+    },
+    "19": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 26195.84,
+     "inr_cr_yago": 23152.2,
+     "inr_fytd_cr": 153525.19,
+     "inr_fytd_pct": 15.45,
+     "inr_pct": 13.15,
+     "name": "Drugs & Pharmaceuticals",
+     "usd_fytd_pct": 4.9,
+     "usd_pct": 4.68
+    },
+    "20": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 28058.48,
+     "inr_cr_yago": 20900.47,
+     "inr_fytd_cr": 156272.15,
+     "inr_fytd_pct": 27.26,
+     "inr_pct": 34.25,
+     "name": "Organic & Inorganic Chemicals",
+     "usd_fytd_pct": 15.57,
+     "usd_pct": 24.21
+    },
+    "21": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 116172.41,
+     "inr_cr_yago": 88891.9,
+     "inr_fytd_cr": 674656.48,
+     "inr_fytd_pct": 31.9,
+     "inr_pct": 30.69,
+     "name": "Engineering Goods",
+     "usd_fytd_pct": 19.78,
+     "usd_pct": 20.91
+    },
+    "22": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 50669.45,
+     "inr_cr_yago": 27504.69,
+     "inr_fytd_cr": 304255.77,
+     "inr_fytd_pct": 58.84,
+     "inr_pct": 84.22,
+     "name": "Electronic Goods",
+     "usd_fytd_pct": 44.02,
+     "usd_pct": 70.44
+    },
+    "23": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 10728.07,
+     "inr_cr_yago": 8219.37,
+     "inr_fytd_cr": 60123.79,
+     "inr_fytd_pct": 20.01,
+     "inr_pct": 30.52,
+     "name": "ups, Handloom Products etc.",
+     "usd_fytd_pct": 8.98,
+     "usd_pct": 20.76
+    },
+    "24": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 4307.22,
+     "inr_cr_yago": 3582.8,
+     "inr_fytd_cr": 23806.94,
+     "inr_fytd_pct": 14.71,
+     "inr_pct": 20.22,
+     "name": "Man-made Yarn/Fabs./made-ups etc.",
+     "usd_fytd_pct": 4.19,
+     "usd_pct": 11.23
+    },
+    "25": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 10824.63,
+     "inr_cr_yago": 8810.04,
+     "inr_fytd_cr": 69300.59,
+     "inr_fytd_pct": 3.43,
+     "inr_pct": 22.87,
+     "name": "RMG of all Textiles",
+     "usd_fytd_pct": -6.19,
+     "usd_pct": 13.68
+    },
+    "26": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 265.42,
+     "inr_cr_yago": 260.34,
+     "inr_fytd_cr": 1561.41,
+     "inr_fytd_pct": -4.84,
+     "inr_pct": 1.95,
+     "name": "Jute Mfg. including Floor Covering",
+     "usd_fytd_pct": -13.56,
+     "usd_pct": -5.67
+    },
+    "27": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 1267.35,
+     "inr_cr_yago": 978.63,
+     "inr_fytd_cr": 7265.59,
+     "inr_fytd_pct": 14.61,
+     "inr_pct": 29.5,
+     "name": "Carpet",
+     "usd_fytd_pct": 4.05,
+     "usd_pct": 19.81
+    },
+    "28": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 2018.13,
+     "inr_cr_yago": 1304.01,
+     "inr_fytd_cr": 10743.26,
+     "inr_fytd_pct": 45.89,
+     "inr_pct": 54.76,
+     "name": "Handicrafts excl. hand made carpet",
+     "usd_fytd_pct": 32.54,
+     "usd_pct": 43.19
+    },
+    "29": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 59370.58,
+     "inr_cr_yago": 41643.57,
+     "inr_fytd_cr": 391673.99,
+     "inr_fytd_pct": 51.05,
+     "inr_pct": 42.57,
+     "name": "Petroleum Products",
+     "usd_fytd_pct": 37.11,
+     "usd_pct": 31.9
+    },
+    "30": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "inr_cr": 8302.46,
+     "inr_cr_yago": 6154.25,
+     "inr_fytd_cr": 48627.56,
+     "inr_fytd_pct": 29.04,
+     "inr_pct": 34.91,
+     "name": "Plastic & Linoleum",
+     "usd_fytd_pct": 17.15,
+     "usd_pct": 24.81
+    }
+   }
+  },
+  "period": "2026-09-30",
+  "url": "https://www.commerce.gov.in/files/2026-10/Quick%20Estimates%20September%202026.pdf"
+ },
+ "iip_nic2": {
+  "checked_ist": "2026-11-01 14:17",
+  "discovered_by": "last_known",
+  "first_seen": "2026-11-01",
+  "payload": {
+   "rows": {
+    "10": {
+     "check_ok": true,
+     "fytd_pct": 5.4,
+     "index": 105.1,
+     "index_yago": 97.5,
+     "name": "Manufacture of food products",
+     "weight": 5.679,
+     "yoy_pct": 7.8
+    },
+    "11": {
+     "check_ok": true,
+     "fytd_pct": 12.7,
+     "index": 128.8,
+     "index_yago": 92.4,
+     "name": "Manufacture of beverages",
+     "weight": 1.113,
+     "yoy_pct": 39.4
+    },
+    "12": {
+     "check_ok": true,
+     "fytd_pct": -3.3,
+     "index": 119.1,
+     "index_yago": 116.1,
+     "name": "Manufacture of tobacco products",
+     "weight": 0.774,
+     "yoy_pct": 2.6
+    },
+    "13": {
+     "check_ok": true,
+     "fytd_pct": 12.9,
+     "index": 145.2,
+     "index_yago": 123.7,
+     "name": "Manufacture of textiles",
+     "weight": 3.275,
+     "yoy_pct": 17.4
+    },
+    "14": {
+     "check_ok": true,
+     "fytd_pct": -5.6,
+     "index": 89.1,
+     "index_yago": 94.0,
+     "name": "Manufacture of wearing apparel",
+     "weight": 1.97,
+     "yoy_pct": -5.2
+    },
+    "15": {
+     "check_ok": true,
+     "fytd_pct": 2.5,
+     "index": 102.7,
+     "index_yago": 98.3,
+     "name": "Manufacture of leather and related products",
+     "weight": 0.607,
+     "yoy_pct": 4.5
+    },
+    "16": {
+     "check_ok": true,
+     "fytd_pct": -2.6,
+     "index": 104.3,
+     "index_yago": 116.6,
+     "name": "Manufacture of wood and products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+     "weight": 0.239,
+     "yoy_pct": -10.5
+    },
+    "17": {
+     "check_ok": true,
+     "fytd_pct": 7.7,
+     "index": 110.2,
+     "index_yago": 107.1,
+     "name": "Manufacture of paper and paper products",
+     "weight": 1.375,
+     "yoy_pct": 2.9
+    },
+    "19": {
+     "check_ok": true,
+     "fytd_pct": 0.4,
+     "index": 107.9,
+     "index_yago": 102.1,
+     "name": "Manufacture of coke and refined petroleum products",
+     "weight": 7.721,
+     "yoy_pct": 5.7
+    },
+    "20": {
+     "check_ok": true,
+     "fytd_pct": -1.1,
+     "index": 108.2,
+     "index_yago": 108.8,
+     "name": "Manufacture of chemicals and chemical products",
+     "weight": 7.813,
+     "yoy_pct": -0.6
+    },
+    "21": {
+     "check_ok": true,
+     "fytd_pct": -4.4,
+     "index": 112.9,
+     "index_yago": 123.9,
+     "name": "Manufacture of basic pharmaceuticals products and pharmaceutical preparations",
+     "weight": 5.833,
+     "yoy_pct": -8.9
+    },
+    "22": {
+     "check_ok": true,
+     "fytd_pct": 18.5,
+     "index": 128.1,
+     "index_yago": 106.8,
+     "name": "Manufacture of rubber and plastics products",
+     "weight": 3.384,
+     "yoy_pct": 19.9
+    },
+    "23": {
+     "check_ok": true,
+     "fytd_pct": 9.5,
+     "index": 114.9,
+     "index_yago": 107.5,
+     "name": "Manufacture of other non-metallic mineral products",
+     "weight": 3.519,
+     "yoy_pct": 6.9
+    },
+    "24": {
+     "check_ok": true,
+     "fytd_pct": 3.7,
+     "index": 133.4,
+     "index_yago": 129.4,
+     "name": "Manufacture of basic metals",
+     "weight": 9.198,
+     "yoy_pct": 3.1
+    },
+    "25": {
+     "check_ok": true,
+     "fytd_pct": 11.4,
+     "index": 141.9,
+     "index_yago": 128.8,
+     "name": "Manufacture of fabricated metal products, except machinery and equipment",
+     "weight": 2.481,
+     "yoy_pct": 10.2
+    },
+    "26": {
+     "check_ok": true,
+     "fytd_pct": 12.6,
+     "index": 175.3,
+     "index_yago": 163.3,
+     "name": "Manufacture of computer, electronic and optical products",
+     "weight": 2.085,
+     "yoy_pct": 7.3
+    },
+    "27": {
+     "check_ok": true,
+     "fytd_pct": 29.5,
+     "index": 172.7,
+     "index_yago": 129.0,
+     "name": "Manufacture of electrical equipment",
+     "weight": 3.175,
+     "yoy_pct": 33.9
+    },
+    "28": {
+     "check_ok": true,
+     "fytd_pct": 9.0,
+     "index": 144.0,
+     "index_yago": 139.7,
+     "name": "Manufacture of machinery and equipment n.e.c.",
+     "weight": 5.02,
+     "yoy_pct": 3.1
+    },
+    "29": {
+     "check_ok": true,
+     "fytd_pct": 19.2,
+     "index": 147.1,
+     "index_yago": 123.6,
+     "name": "Manufacture of motor vehicles, trailers and semi-trailers",
+     "weight": 6.417,
+     "yoy_pct": 19.0
+    },
+    "30": {
+     "check_ok": true,
+     "fytd_pct": 22.0,
+     "index": 191.2,
+     "index_yago": 160.5,
+     "name": "Manufacture of other transport equipment",
+     "weight": 2.089,
+     "yoy_pct": 19.1
+    },
+    "31": {
+     "check_ok": true,
+     "fytd_pct": 8.6,
+     "index": 139.2,
+     "index_yago": 123.4,
+     "name": "Manufacture of furniture",
+     "weight": 0.283,
+     "yoy_pct": 12.8
+    },
+    "32": {
+     "check_ok": true,
+     "fytd_pct": 1.9,
+     "index": 126.4,
+     "index_yago": 135.0,
+     "name": "Other manufacturing",
+     "weight": 1.509,
+     "yoy_pct": -6.4
+    }
+   }
+  },
+  "period": "2026-09-30",
+  "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475"
+ },
+ "rbi_sibc": {
+  "checked_ist": "2026-11-01 14:16",
+  "discovered_by": "rbi_press_list",
+  "first_seen": "2026-11-01",
+  "payload": {
+   "release_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+   "rows": {
+    "1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 6.64,
+     "name": "Agriculture and Allied Activities",
+     "outstanding_cr": 2819238,
+     "outstanding_yago_cr": 2358825,
+     "yoy_pct": 19.52
+    },
+    "2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 7.95,
+     "name": "Industry (Micro and Small, Medium and Large)",
+     "outstanding_cr": 4977182,
+     "outstanding_yago_cr": 4166495,
+     "yoy_pct": 19.46
+    },
+    "2.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 15.76,
+     "name": "Mining and Quarrying (incl. Coal)",
+     "outstanding_cr": 70987,
+     "outstanding_yago_cr": 59623,
+     "yoy_pct": 19.06
+    },
+    "2.10": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 13.23,
+     "name": "Rubber, Plastic and their Products",
+     "outstanding_cr": 127680,
+     "outstanding_yago_cr": 105516,
+     "yoy_pct": 21.01
+    },
+    "2.11": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": -4.34,
+     "name": "Glass and Glassware",
+     "outstanding_cr": 15737,
+     "outstanding_yago_cr": 13997,
+     "yoy_pct": 12.43
+    },
+    "2.12": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 10.6,
+     "name": "Cement and Cement Products",
+     "outstanding_cr": 72168,
+     "outstanding_yago_cr": 61047,
+     "yoy_pct": 18.22
+    },
+    "2.13": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 6.26,
+     "name": "Basic Metal and Metal Product",
+     "outstanding_cr": 551621,
+     "outstanding_yago_cr": 462691,
+     "yoy_pct": 19.22
+    },
+    "2.13.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 7.8,
+     "name": "Iron and Steel",
+     "outstanding_cr": 386477,
+     "outstanding_yago_cr": 315142,
+     "yoy_pct": 22.64
+    },
+    "2.13.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 2.83,
+     "name": "Other Metal and Metal Product",
+     "outstanding_cr": 165144,
+     "outstanding_yago_cr": 147550,
+     "yoy_pct": 11.92
+    },
+    "2.14": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 14.74,
+     "name": "All Engineering",
+     "outstanding_cr": 365142,
+     "outstanding_yago_cr": 268452,
+     "yoy_pct": 36.02
+    },
+    "2.14.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 37.83,
+     "name": "Electronics",
+     "outstanding_cr": 82564,
+     "outstanding_yago_cr": 63221,
+     "yoy_pct": 30.6
+    },
+    "2.14.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 9.38,
+     "name": "Others",
+     "outstanding_cr": 282578,
+     "outstanding_yago_cr": 205231,
+     "yoy_pct": 37.69
+    },
+    "2.15": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 16.67,
+     "name": "Vehicles, Vehicle Parts and Transport Equipment",
+     "outstanding_cr": 165751,
+     "outstanding_yago_cr": 130534,
+     "yoy_pct": 26.98
+    },
+    "2.16": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 10.09,
+     "name": "Gems and Jewellery",
+     "outstanding_cr": 136738,
+     "outstanding_yago_cr": 102773,
+     "yoy_pct": 33.05
+    },
+    "2.17": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 15.11,
+     "name": "Construction",
+     "outstanding_cr": 211037,
+     "outstanding_yago_cr": 162297,
+     "yoy_pct": 30.03
+    },
+    "2.18": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 5.05,
+     "name": "Infrastructure",
+     "outstanding_cr": 1575793,
+     "outstanding_yago_cr": 1409588,
+     "yoy_pct": 11.79
+    },
+    "2.18.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 6.72,
+     "name": "Power",
+     "outstanding_cr": 903489,
+     "outstanding_yago_cr": 735249,
+     "yoy_pct": 22.88
+    },
+    "2.18.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": -11.61,
+     "name": "Telecommunications",
+     "outstanding_cr": 99057,
+     "outstanding_yago_cr": 114434,
+     "yoy_pct": -13.44
+    },
+    "2.18.3": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 3.63,
+     "name": "Roads",
+     "outstanding_cr": 353142,
+     "outstanding_yago_cr": 350715,
+     "yoy_pct": 0.69
+    },
+    "2.18.4": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 31.95,
+     "name": "Airports",
+     "outstanding_cr": 9103,
+     "outstanding_yago_cr": 8071,
+     "yoy_pct": 12.79
+    },
+    "2.18.5": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 8.77,
+     "name": "Ports",
+     "outstanding_cr": 9566,
+     "outstanding_yago_cr": 7847,
+     "yoy_pct": 21.9
+    },
+    "2.18.6": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 13.91,
+     "name": "Railways (other than Indian Railways)",
+     "outstanding_cr": 7666,
+     "outstanding_yago_cr": 9894,
+     "yoy_pct": -22.52
+    },
+    "2.18.7": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 8.77,
+     "name": "Other Infrastructure",
+     "outstanding_cr": 193770,
+     "outstanding_yago_cr": 183378,
+     "yoy_pct": 5.67
+    },
+    "2.19": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 6.98,
+     "name": "Other Industries",
+     "outstanding_cr": 383194,
+     "outstanding_yago_cr": 302120,
+     "yoy_pct": 26.84
+    },
+    "2.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 4.08,
+     "name": "Food Processing",
+     "outstanding_cr": 262022,
+     "outstanding_yago_cr": 209157,
+     "yoy_pct": 25.28
+    },
+    "2.2.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": -47.31,
+     "name": "Sugar",
+     "outstanding_cr": 15671,
+     "outstanding_yago_cr": 16848,
+     "yoy_pct": -6.99
+    },
+    "2.2.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 10.72,
+     "name": "Edible Oils and Vanaspati",
+     "outstanding_cr": 29042,
+     "outstanding_yago_cr": 19956,
+     "yoy_pct": 45.52
+    },
+    "2.2.3": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 20.29,
+     "name": "Tea",
+     "outstanding_cr": 6178,
+     "outstanding_yago_cr": 5125,
+     "yoy_pct": 20.53
+    },
+    "2.2.4": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 10.75,
+     "name": "Others",
+     "outstanding_cr": 211132,
+     "outstanding_yago_cr": 167226,
+     "yoy_pct": 26.26
+    },
+    "2.3": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 0.36,
+     "name": "Beverage and Tobacco",
+     "outstanding_cr": 38856,
+     "outstanding_yago_cr": 36385,
+     "yoy_pct": 6.79
+    },
+    "2.4": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 8.32,
+     "name": "Textiles",
+     "outstanding_cr": 327121,
+     "outstanding_yago_cr": 275108,
+     "yoy_pct": 18.91
+    },
+    "2.4.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 1.6,
+     "name": "Cotton Textiles",
+     "outstanding_cr": 112056,
+     "outstanding_yago_cr": 97228,
+     "yoy_pct": 15.25
+    },
+    "2.4.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 18.63,
+     "name": "Jute Textiles",
+     "outstanding_cr": 5925,
+     "outstanding_yago_cr": 4711,
+     "yoy_pct": 25.77
+    },
+    "2.4.3": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 9.81,
+     "name": "Man-Made Textiles",
+     "outstanding_cr": 57167,
+     "outstanding_yago_cr": 49875,
+     "yoy_pct": 14.62
+    },
+    "2.4.4": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 12.86,
+     "name": "Other Textiles",
+     "outstanding_cr": 151974,
+     "outstanding_yago_cr": 123294,
+     "yoy_pct": 23.26
+    },
+    "2.5": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 6.37,
+     "name": "Leather and Leather Products",
+     "outstanding_cr": 15032,
+     "outstanding_yago_cr": 13436,
+     "yoy_pct": 11.88
+    },
+    "2.6": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 10.19,
+     "name": "Wood and Wood Products",
+     "outstanding_cr": 34215,
+     "outstanding_yago_cr": 28358,
+     "yoy_pct": 20.65
+    },
+    "2.7": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 7.27,
+     "name": "Paper and Paper Products",
+     "outstanding_cr": 63474,
+     "outstanding_yago_cr": 54939,
+     "yoy_pct": 15.53
+    },
+    "2.8": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": -0.75,
+     "name": "Petroleum, Coal Products and Nuclear Fuels",
+     "outstanding_cr": 202667,
+     "outstanding_yago_cr": 185350,
+     "yoy_pct": 9.34
+    },
+    "2.9": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 16.01,
+     "name": "Chemicals and Chemical Products",
+     "outstanding_cr": 357947,
+     "outstanding_yago_cr": 285125,
+     "yoy_pct": 25.54
+    },
+    "2.9.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 56.04,
+     "name": "Fertiliser",
+     "outstanding_cr": 47884,
+     "outstanding_yago_cr": 31273,
+     "yoy_pct": 53.12
+    },
+    "2.9.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 6.45,
+     "name": "Drugs and Pharmaceuticals",
+     "outstanding_cr": 111382,
+     "outstanding_yago_cr": 91586,
+     "yoy_pct": 21.62
+    },
+    "2.9.3": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 20.51,
+     "name": "Petro Chemicals",
+     "outstanding_cr": 44346,
+     "outstanding_yago_cr": 34397,
+     "yoy_pct": 28.92
+    },
+    "2.9.4": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 13.13,
+     "name": "Others",
+     "outstanding_cr": 154335,
+     "outstanding_yago_cr": 127869,
+     "yoy_pct": 20.7
+    },
+    "3": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 8.19,
+     "name": "Services",
+     "outstanding_cr": 6489608,
+     "outstanding_yago_cr": 5057536,
+     "yoy_pct": 28.32
+    },
+    "3.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 7.26,
+     "name": "Transport Operators",
+     "outstanding_cr": 250471,
+     "outstanding_yago_cr": 201046,
+     "yoy_pct": 24.58
+    },
+    "3.10": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 5.06,
+     "name": "Other Services3",
+     "outstanding_cr": 1319713,
+     "outstanding_yago_cr": 1122341,
+     "yoy_pct": 17.59
+    },
+    "3.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 21.04,
+     "name": "Computer Software",
+     "outstanding_cr": 55325,
+     "outstanding_yago_cr": 37945,
+     "yoy_pct": 45.8
+    },
+    "3.3": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 10.06,
+     "name": "Tourism, Hotels and Restaurants",
+     "outstanding_cr": 112875,
+     "outstanding_yago_cr": 88242,
+     "yoy_pct": 27.92
+    },
+    "3.4": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 0.74,
+     "name": "Shipping",
+     "outstanding_cr": 10468,
+     "outstanding_yago_cr": 9571,
+     "yoy_pct": 9.37
+    },
+    "3.5": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 25.5,
+     "name": "Aviation",
+     "outstanding_cr": 66126,
+     "outstanding_yago_cr": 46331,
+     "yoy_pct": 42.73
+    },
+    "3.6": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 7.57,
+     "name": "Professional Services",
+     "outstanding_cr": 235858,
+     "outstanding_yago_cr": 196493,
+     "yoy_pct": 20.03
+    },
+    "3.7": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 7.42,
+     "name": "Trade",
+     "outstanding_cr": 1486605,
+     "outstanding_yago_cr": 1199574,
+     "yoy_pct": 23.93
+    },
+    "3.7.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 6.1,
+     "name": "Wholesale Trade1",
+     "outstanding_cr": 822486,
+     "outstanding_yago_cr": 637107,
+     "yoy_pct": 29.1
+    },
+    "3.7.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 9.11,
+     "name": "Retail Trade",
+     "outstanding_cr": 664120,
+     "outstanding_yago_cr": 562467,
+     "yoy_pct": 18.07
+    },
+    "3.8": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 12.02,
+     "name": "Commercial Real Estate",
+     "outstanding_cr": 699170,
+     "outstanding_yago_cr": 566853,
+     "yoy_pct": 23.34
+    },
+    "3.9": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 8.85,
+     "name": "Non-Banking Financial Companies (NBFCs)2 of which,",
+     "outstanding_cr": 2252996,
+     "outstanding_yago_cr": 1589140,
+     "yoy_pct": 41.77
+    },
+    "3.9.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 4.19,
+     "name": "Housing Finance Companies (HFCs)",
+     "outstanding_cr": 388995,
+     "outstanding_yago_cr": 325003,
+     "yoy_pct": 19.69
+    },
+    "3.9.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 5.82,
+     "name": "Public Financial Institutions (PFIs)",
+     "outstanding_cr": 369061,
+     "outstanding_yago_cr": 205393,
+     "yoy_pct": 79.69
+    },
+    "4": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 6.45,
+     "name": "Personal Loans",
+     "outstanding_cr": 7427342,
+     "outstanding_yago_cr": 6334523,
+     "yoy_pct": 17.25
+    },
+    "4.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 5.26,
+     "name": "Consumer Durables",
+     "outstanding_cr": 23117,
+     "outstanding_yago_cr": 22110,
+     "yoy_pct": 4.55
+    },
+    "4.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 4.05,
+     "name": "Housing (Including Priority Sector Housing)",
+     "outstanding_cr": 3491702,
+     "outstanding_yago_cr": 3132883,
+     "yoy_pct": 11.45
+    },
+    "4.3": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 28.07,
+     "name": "Advances against Fixed Deposits (Including FCNR (B), NRNR Deposits etc.)",
+     "outstanding_cr": 216578,
+     "outstanding_yago_cr": 141307,
+     "yoy_pct": 53.27
+    },
+    "4.4": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 13.88,
+     "name": "Advances to Individuals against share, bonds, etc.",
+     "outstanding_cr": 12010,
+     "outstanding_yago_cr": 9831,
+     "yoy_pct": 22.16
+    },
+    "4.5": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 2.59,
+     "name": "Credit Card Outstanding",
+     "outstanding_cr": 302099,
+     "outstanding_yago_cr": 281765,
+     "yoy_pct": 7.22
+    },
+    "4.6": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 6.58,
+     "name": "Education",
+     "outstanding_cr": 166076,
+     "outstanding_yago_cr": 147175,
+     "yoy_pct": 12.84
+    },
+    "4.7": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 5.18,
+     "name": "Vehicle Loans",
+     "outstanding_cr": 812206,
+     "outstanding_yago_cr": 703216,
+     "yoy_pct": 15.5
+    },
+    "4.8": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 25.11,
+     "name": "Loans against gold jewellery4",
+     "outstanding_cr": 577193,
+     "outstanding_yago_cr": 316156,
+     "yoy_pct": 82.57
+    },
+    "4.9": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 5.2,
+     "name": "Other Personal Loans",
+     "outstanding_cr": 1826360,
+     "outstanding_yago_cr": 1580078,
+     "yoy_pct": 15.59
+    }
+   },
+   "xlsx_url": "https://rbidocs.rbi.org.in/rdocs/content/docs/SIBC30102026E.xlsx"
+  },
+  "period": "2026-09-30",
+  "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891"
+ }
+}

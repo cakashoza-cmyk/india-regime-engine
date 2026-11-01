@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Macro Credit Radar — South Gujarat Sector Lending</title>
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+body{font-family:Inter,system-ui,sans-serif}
+.b-Lend{background:#ecfdf5;color:#047857;border:1px solid #a7f3d0}.b-Selective{background:#fffbeb;color:#b45309;border:1px solid #fde68a}
+.b-Avoid{background:#fef2f2;color:#b91c1c;border:1px solid #fecaca}.b-Unknown{background:#f1f5f9;color:#475569;border:1px solid #cbd5e1}
+.v-verified{background:#dcfce7;color:#166534}.v-stale{background:#fef3c7;color:#92400e}.v-excluded,.v-unverified{background:#e2e8f0;color:#334155}
+.pill{font-size:10px;font-weight:700;padding:1px 6px;border-radius:9999px;text-transform:uppercase}
+.tab.on{background:#e0f2fe;color:#075985;border-color:#7dd3fc}
+</style></head>
+<body class="bg-slate-50 text-slate-900 min-h-screen">
+<header class="bg-slate-900 text-white sticky top-0 z-30 shadow">
+ <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+  <div><div class="flex items-center gap-2"><h1 class="text-lg font-bold">MACRO CREDIT RADAR</h1><span id="fy" class="text-xs bg-sky-950 text-sky-300 border border-sky-800 px-2 rounded"></span></div>
+   <p class="text-xs text-slate-400">South Gujarat SME / mid-corporate (Rs 10 Cr+) · sector Lend / Selective / Avoid from verified official data · <a class="underline" href="./engine.html">Regime engine</a></p></div>
+  <div id="ticker" class="flex flex-wrap gap-2 text-xs"></div>
+ </div>
+</header>
+<div class="bg-amber-50 border-b border-amber-200 text-amber-900 text-xs"><div class="max-w-7xl mx-auto px-4 py-2" id="disc"></div></div>
+<nav class="bg-white border-b sticky top-[60px] z-20"><div class="max-w-7xl mx-auto px-4 py-2 flex flex-wrap gap-2 text-xs font-semibold" id="tabs">
+ <button class="tab on border rounded px-3 py-1.5" data-v="matrix">Sector Decision Matrix</button>
+ <button class="tab border rounded px-3 py-1.5" data-v="sim">Macro Stress Simulator</button>
+ <button class="tab border rounded px-3 py-1.5" data-v="scatter">Risk Scatter</button>
+ <button class="tab border rounded px-3 py-1.5" data-v="cluster">Cluster & WC Transmission</button>
+ <button class="tab border rounded px-3 py-1.5" data-v="compare">Head-to-Head</button>
+ <button class="tab border rounded px-3 py-1.5" data-v="health">Sources & Health</button>
+ <span id="counts" class="ml-auto flex gap-2"></span>
+</div></nav>
+<main class="max-w-7xl mx-auto px-4 py-5 space-y-5">
+ <section id="v-matrix">
+  <div class="bg-white p-3 rounded-xl border mb-4 flex flex-col md:flex-row gap-2 md:items-center md:justify-between">
+   <input id="q" placeholder="Search sector or cluster (Surat, Vapi, Morbi...)" class="border rounded px-3 py-1.5 text-sm w-full md:max-w-md">
+   <div class="flex flex-wrap gap-1 text-xs" id="vf"></div>
+   <label class="text-xs flex items-center gap-1"><input type="checkbox" id="sg"> South Gujarat only</label>
+  </div>
+  <div id="grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+ </section>
+ <section id="v-sim" class="hidden space-y-4">
+  <div class="bg-gradient-to-r from-slate-900 to-indigo-950 text-white p-5 rounded-2xl">
+   <div class="flex justify-between items-start gap-3"><div><h2 class="font-bold text-lg">Macro Shock Simulator</h2>
+    <p class="text-xs text-slate-300 max-w-2xl">Shift the verified baseline and re-run the same scoring rules (weights and thresholds from config). Hypothetical only, and nothing is saved.</p></div>
+    <button id="reset" class="text-xs border border-slate-600 rounded px-3 py-1.5">Reset to baseline</button></div>
+   <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-4 text-xs" id="sliders"></div>
+  </div>
+  <div class="bg-white rounded-xl border overflow-x-auto"><table class="w-full text-xs"><thead class="bg-slate-50 uppercase text-slate-600"><tr>
+   <th class="p-2 text-left">Sector</th><th class="p-2">Baseline</th><th class="p-2">Simulated</th><th class="p-2">Δ</th><th class="p-2">Current</th><th class="p-2">Simulated</th></tr></thead><tbody id="simtb"></tbody></table></div>
+ </section>
+ <section id="v-scatter" class="hidden"><div class="bg-white p-4 rounded-xl border">
+  <h2 class="font-bold">Leverage stress vs output momentum</h2>
+  <p class="text-xs text-slate-500">X = bank-credit growth minus output growth (pp; further right means credit is running ahead of production, a stress / evergreening flag). Y = output growth Apr-to-date (IIP). Bubble = bank credit outstanding (Rs Cr, RBI SIBC).</p>
+  <div class="h-96"><canvas id="sc"></canvas></div></div></section>
+ <section id="v-cluster" class="hidden space-y-4"><div class="bg-white p-4 rounded-xl border">
+  <h2 class="font-bold">How macro shocks reach working capital</h2>
+  <div class="grid md:grid-cols-5 gap-2 bg-slate-900 text-white rounded-xl p-3 text-xs my-3">
+   <div class="bg-slate-800 p-2 rounded"><b class="text-sky-400">1 · Shock</b><br>Fuel/gas, demand, tariff or dumping shock</div>
+   <div class="bg-slate-800 p-2 rounded"><b class="text-amber-400">2 · Margin squeeze</b><br>Cost not passed on</div>
+   <div class="bg-slate-800 p-2 rounded"><b class="text-rose-400">3 · DP & debtor ageing</b><br>Stock value falls, debtors stretch</div>
+   <div class="bg-slate-800 p-2 rounded"><b class="text-rose-400">4 · CC fully drawn</b><br>Credit summations dry up</div>
+   <div class="bg-slate-800 p-2 rounded"><b class="text-red-400">5 · SMA / NPA</b><br>SMA-0 → SMA-1 → SMA-2</div></div>
+  <div class="overflow-x-auto"><table class="w-full text-xs border"><thead class="bg-slate-50 uppercase"><tr><th class="p-2 text-left">Cluster</th><th class="p-2 text-left">Sector</th><th class="p-2 text-left">Verdict</th><th class="p-2 text-left">Main driver now</th><th class="p-2 text-left">Ground early-warning signal (collect locally)</th></tr></thead><tbody id="cltb"></tbody></table></div>
+ </div></section>
+ <section id="v-compare" class="hidden"><div class="bg-white p-4 rounded-xl border">
+  <div class="grid sm:grid-cols-2 gap-3 mb-3"><select id="sa" class="border rounded p-2 text-xs"></select><select id="sb" class="border rounded p-2 text-xs"></select></div>
+  <table class="w-full text-xs border"><tbody id="cmp"></tbody></table></div></section>
+ <section id="v-health" class="hidden space-y-4">
+  <div class="bg-white p-4 rounded-xl border"><h2 class="font-bold mb-2">Datasets</h2><div id="ds"></div></div>
+  <div class="bg-white p-4 rounded-xl border"><h2 class="font-bold mb-2">Source health (this run)</h2><div id="hl"></div></div>
+  <div class="bg-white p-4 rounded-xl border"><h2 class="font-bold mb-2">Commodities (display only: single exchange source, unverified, not scored)</h2><div id="cm"></div></div>
+  <div class="bg-white p-4 rounded-xl border"><h2 class="font-bold mb-2">Not available yet: Unknown — collect</h2><div id="ms"></div></div>
+  <div class="bg-white p-4 rounded-xl border"><h2 class="font-bold mb-2">Weights & thresholds (config)</h2><pre id="cf" class="text-[11px] bg-slate-50 p-2 rounded overflow-x-auto"></pre></div>
+ </section>
+</main>
+<div id="modal" class="fixed inset-0 z-50 hidden bg-slate-900/60 flex items-center justify-center p-4"><div class="bg-white rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto">
+ <div class="p-4 border-b flex justify-between bg-slate-50"><div><h3 id="mt" class="font-bold text-lg"></h3><p id="ms2" class="text-xs text-slate-500"></p></div><button onclick="closeM()" class="text-slate-500 text-xl">×</button></div>
+ <div id="mb" class="p-5 text-xs space-y-4"></div>
+ <div class="p-3 border-t text-[11px] text-slate-500 bg-slate-50">Internal decision support only. Not a credit approval, rating or loan advice.</div></div></div>
+<footer class="text-center text-[11px] text-slate-500 py-6" id="foot"></footer>
+<script>
+let D,BASE,chart;const U='Unknown — collect';
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const vb=v=>`<span class="pill b-${v===U?'Unknown':v}">${esc(v)}</span>`;
+const st=s=>`<span class="pill v-${s||'excluded'}">${esc(s||'n/a')}</span>`;
+const cr=n=>n==null?U:'Rs '+Number(n).toLocaleString('en-IN',{maximumFractionDigits:0})+' Cr';
+const pct=n=>n==null?U:(n>0?'+':'')+Number(n).toFixed(1)+'%';
+const src=(u,t)=>u?`<a class="text-sky-700 underline" target=_blank href="${esc(u)}">${esc(t||'source')}</a>`:'';
+const NAMES={iip_yoy:'Output (IIP) YoY',iip_fytd:'Output (IIP) Apr-to-date',export_fytd_usd:'Exports Apr-to-date (USD)',credit_vs_output:'Credit vs output gap',energy_overlay:'Energy cost (Brent)',rate_overlay:'RBI rates / WC cost'};
+async function main(){
+ D=await (await fetch('./data/lending_latest.json',{cache:'no-store'})).json();
+ BASE=JSON.parse(JSON.stringify(D.sectors));
+ document.getElementById('fy').textContent=D.fy;
+ document.getElementById('disc').innerHTML=`<b>${esc(D.disclaimer)}</b> Every number links to its official source with its date and status. ${esc(D.units)}. Regime: ${esc(D.regime?.label||U)}.`;
+ const m=D.macro,tk=(l,k,f)=>{const x=m[k];return `<div class="bg-slate-800 px-2 py-1 rounded border border-slate-700"><span class="text-slate-400">${l}:</span> <b class="text-amber-300">${x&&x.value!=null?f(x.value):U}</b> ${x?`<a class="text-slate-400 underline" href="${esc(x.source_url)}" target=_blank>${esc(x.as_of)}</a> <span class="pill ${x.usable?'v-verified':'v-stale'}">${x.usable?'verified':'unverified/stale'}</span>`:''}</div>`};
+ document.getElementById('ticker').innerHTML=tk('Brent','brent',v=>'$'+v.toFixed(1))+tk('Repo','repo_rate',v=>v+'%')+tk('CPI','cpi_headline',v=>v+'%')+tk('Bank credit','credit_growth',v=>v+'% YoY')+tk('USDINR','usdinr_ref',v=>v.toFixed(2));
+ const c=D.counts;document.getElementById('counts').innerHTML=`<span class="pill b-Lend">${c.Lend} Lend</span><span class="pill b-Selective">${c.Selective} Selective</span><span class="pill b-Avoid">${c.Avoid} Avoid</span><span class="pill b-Unknown">${c[U]} Unknown</span>`;
+ document.getElementById('vf').innerHTML=['all','Lend','Selective','Avoid',U].map(v=>`<button data-f="${v}" class="vfb border rounded px-2 py-1 ${v==='all'?'bg-slate-800 text-white':''}">${v==='all'?'All':v}</button>`).join('');
+ document.querySelectorAll('.vfb').forEach(b=>b.onclick=()=>{document.querySelectorAll('.vfb').forEach(x=>x.classList.remove('bg-slate-800','text-white'));b.classList.add('bg-slate-800','text-white');F=b.dataset.f;grid()});
+ q.oninput=grid;sg.onchange=grid;grid();sim();cluster();compare();health();
+ document.getElementById('foot').textContent=`Generated ${D.generated_at_ist} · run ${D.run_id} · DeepSeek ${D.deepseek.enabled?'ON':'OFF (no key yet)'}: ${D.deepseek.use}`;
+}
+let F='all';
+function grid(){const qq=q.value.toLowerCase();
+ document.getElementById('grid').innerHTML=D.sectors.filter(s=>(F==='all'||s.verdict===F)&&(!sg.checked||s.south_gujarat)&&(s.name+s.cluster).toLowerCase().includes(qq)).map(s=>{
+  const dr=Object.entries(s.drivers).map(([k,d])=>`<div class="flex justify-between gap-2"><span>${NAMES[k]||k}</span><span>${d.value!=null?esc(typeof d.value==='number'?d.value.toFixed(1):d.value)+' '+esc(d.unit||''):''} ${d.score==null?'':'<b>'+(d.score>0?'+':'')+d.score+'</b>'} ${st(d.status)}</span></div>`).join('');
+  return `<div class="bg-white rounded-xl border p-4 hover:shadow cursor-pointer" onclick="openM('${s.id}')">
+   <div class="flex justify-between items-start gap-2"><div><h3 class="font-bold text-sm">${esc(s.name)}</h3><p class="text-[11px] text-slate-500">${esc(s.cluster)}</p></div><div class="text-right">${vb(s.verdict)}<div class="text-lg font-extrabold">${s.score??'—'}<span class="text-xs text-slate-400">/100</span></div></div></div>
+   <p class="text-xs mt-2">${esc(s.why)}</p>
+   <div class="text-[11px] text-slate-600 mt-2 space-y-0.5">${dr}</div>
+   <div class="text-[11px] mt-2 text-slate-500">Bank credit: ${s.credit?cr(s.credit.outstanding_cr)+' ('+pct(s.credit.yoy_pct)+' YoY, '+esc(s.credit.as_of)+')':U}</div></div>`}).join('')||'<p class="text-sm">No sectors match.</p>';}
+function openM(id){const s=D.sectors.find(x=>x.id===id);mt.textContent=s.name;ms2.textContent=s.cluster;
+ const rows=Object.entries(s.drivers).map(([k,d])=>`<tr class="border-t"><td class="p-1.5">${NAMES[k]||k}</td><td class="p-1.5">${d.value!=null?esc(d.value)+' '+esc(d.unit||''):U}</td><td class="p-1.5">${d.score??'—'}</td><td class="p-1.5">${st(d.status)} ${esc(d.reason||'')}</td><td class="p-1.5">${esc(d.as_of||'')}</td><td class="p-1.5">${src(d.source_url)}</td></tr>`).join('');
+ mb.innerHTML=`<div class="flex gap-3 items-center">${vb(s.verdict)}<b class="text-base">${s.score??'—'}/100</b><span class="text-slate-500">core ${s.core_score??'—'} ${s.overlay_adj>=0?'+':''}${s.overlay_adj} macro overlay · main driver: ${esc(NAMES[s.main_driver]||s.main_driver||'—')}</span></div>
+ <p class="p-3 rounded border bg-slate-50">${esc(s.why)}</p>
+ <table class="w-full border"><thead class="bg-slate-50"><tr><th class="p-1.5 text-left">Driver</th><th class="p-1.5 text-left">Value</th><th class="p-1.5">Score</th><th class="p-1.5 text-left">Status</th><th class="p-1.5 text-left">Period</th><th class="p-1.5 text-left">Source</th></tr></thead><tbody>${rows}</tbody></table>
+ <div><b>Official series used:</b> RBI SIBC row ${esc(s.rbi_row||'—')} · IIP NIC ${esc(s.iip_nic||'—')} · Commerce QE row ${esc(s.export_row||'—')}${s.note?'<br><i>'+esc(s.note)+'</i>':''}</div>
+ <div><b>Bank credit (system, RBI):</b> ${s.credit?cr(s.credit.outstanding_cr)+', '+pct(s.credit.yoy_pct)+' YoY, '+pct(s.credit.fy_pct)+' FY-to-date, as of '+esc(s.credit.as_of):U}</div>
+ <div><b>Sector GNPA / DSCR / cash-conversion cycle:</b> ${U}. Not published at sector level, so use internal MIS.</div>
+ <div><b>Structuring prompts (for your judgment):</b><ul class="list-disc pl-5">${s.guidance.map(g=>'<li>'+esc(g)+'</li>').join('')}</ul></div>
+ <div class="p-3 bg-amber-50 border border-amber-200 rounded"><b>Ground early-warning signals:</b> ${esc(s.ews)}</div>`;
+ modal.classList.remove('hidden')}
+function closeM(){modal.classList.add('hidden')}
+// ---- simulator: same rules as engine/lending.py
+const SL=[['brent','Brent (USD/bbl)',50,150,1],['rate','RBI stance (-1 tight · 0 · +1 ease)',-1,1,1],['iip','Output shock (pp on IIP)',-15,15,1],['exp','Export shock (pp on USD growth)',-30,30,1]];
+let P;function baseP(){return{brent:Math.round(D.macro.brent?.value||100),rate:D.macro.rbi_stance_score?.value??0,iip:0,exp:0}}
+function band(v,t){if(v==null)return null;if('pos_above'in t)return v>t.pos_above?1:(v<t.neg_below?-1:0);return v<t.pos_below?1:(v>t.neg_above?-1:0)}
+function rescore(s,p){const T=D.config.thresholds,W=D.config.weights;const d=JSON.parse(JSON.stringify(s.drivers));
+ for(const k of['iip_yoy','iip_fytd'])if(d[k]&&d[k].status==='verified'){d[k].value+=p.iip;d[k].score=band(d[k].value,T[k])}
+ if(d.export_fytd_usd&&d.export_fytd_usd.status==='verified'){d.export_fytd_usd.value+=p.exp;d.export_fytd_usd.score=band(d.export_fytd_usd.value,T.export_fytd_usd)}
+ if(d.credit_vs_output&&d.credit_vs_output.status==='verified'){d.credit_vs_output.value-=p.iip;d.credit_vs_output.score=band(d.credit_vs_output.value,T.credit_vs_output_gap_pp)}
+ const e={very_high:1,high:1,medium:.5}[s.energy];if(e&&d.energy_overlay&&d.energy_overlay.status==='verified')d.energy_overlay.score=(p.brent>T.brent_usd_high?-1:p.brent<T.brent_usd_low?1:0)*e;
+ const w={very_high:1,high:1}[s.wc_intensity];if(w&&d.rate_overlay&&d.rate_overlay.status==='verified')d.rate_overlay.score=(p.rate<0?-1:p.rate>0?1:0)*w;
+ const core=Object.keys(d).filter(k=>!k.endsWith('overlay')&&d[k].score!=null),ov=Object.keys(d).filter(k=>k.endsWith('overlay')&&d[k].score!=null);
+ if(core.length<T.min_verified_drivers)return{score:null,verdict:U};
+ const cs=50+50*core.reduce((a,k)=>a+W[k]*d[k].score,0)/core.reduce((a,k)=>a+W[k],0);
+ const adj=ov.length?T.overlay_max_points*ov.reduce((a,k)=>a+W[k]*d[k].score,0)/ov.reduce((a,k)=>a+W[k],0):0;
+ const sc=Math.max(0,Math.min(100,Math.round(Math.round(cs)+adj)));return{score:sc,verdict:sc>=T.verdict.lend_at_or_above?'Lend':sc<T.verdict.avoid_below?'Avoid':'Selective'}}
+function sim(){P=baseP();sliders.innerHTML=SL.map(([k,l,a,b,s])=>`<div class="bg-slate-800/60 p-3 rounded border border-slate-700"><div class="flex justify-between"><span>${l}</span><b id="sv-${k}"></b></div><input type="range" id="s-${k}" min="${a}" max="${b}" step="${s}" class="w-full"></div>`).join('');
+ SL.forEach(([k])=>{const el=document.getElementById('s-'+k);el.value=P[k];el.oninput=()=>{P[k]=+el.value;simT()}});reset.onclick=()=>{P=baseP();SL.forEach(([k])=>document.getElementById('s-'+k).value=P[k]);simT()};simT()}
+function simT(){SL.forEach(([k])=>document.getElementById('sv-'+k).textContent=P[k]);
+ simtb.innerHTML=D.sectors.map(s=>{const r=rescore(s,P),dl=r.score!=null&&s.score!=null?r.score-s.score:null;return `<tr class="border-t ${r.verdict!==s.verdict?'bg-amber-50':''} cursor-pointer" onclick="openM('${s.id}')"><td class="p-2">${esc(s.name)}</td><td class="p-2 text-center">${s.score??'—'}</td><td class="p-2 text-center">${r.score??'—'}</td><td class="p-2 text-center ${dl>0?'text-emerald-600':dl<0?'text-rose-600':''}">${dl==null?'':(dl>0?'+':'')+dl}</td><td class="p-2 text-center">${vb(s.verdict)}</td><td class="p-2 text-center">${vb(r.verdict)}</td></tr>`}).join('')}
+function scatter(){if(chart)return;const col={Lend:'#10b981',Selective:'#f59e0b',Avoid:'#ef4444'};
+ const pts=D.sectors.filter(s=>s.drivers.credit_vs_output?.value!=null&&s.drivers.iip_fytd?.value!=null).map(s=>({x:s.drivers.credit_vs_output.value,y:s.drivers.iip_fytd.value,r:Math.max(5,Math.sqrt((s.credit?.outstanding_cr||0)/1000)*1.6),n:s.name,v:s.verdict,c:s.credit?.outstanding_cr}));
+ chart=new Chart(sc,{type:'bubble',data:{datasets:[{data:pts,backgroundColor:pts.map(p=>(col[p.v]||'#94a3b8')+'aa')}]},options:{maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>`${c.raw.n}: gap ${c.raw.x} pp, output ${c.raw.y}%, credit ${cr(c.raw.c)} · ${c.raw.v}`}}},scales:{x:{title:{display:true,text:'Credit growth − output growth (pp) →  more stress'}},y:{title:{display:true,text:'Output growth Apr-to-date (%)'}}}}})}
+function cluster(){cltb.innerHTML=D.sectors.filter(s=>s.south_gujarat||/Morbi/.test(s.cluster)).map(s=>`<tr class="border-t"><td class="p-2 font-semibold">${esc(s.cluster)}</td><td class="p-2">${esc(s.name)}</td><td class="p-2">${vb(s.verdict)}</td><td class="p-2">${esc(NAMES[s.main_driver]||'—')}</td><td class="p-2">${esc(s.ews)}</td></tr>`).join('')}
+function compare(){const o=D.sectors.map(s=>`<option value="${s.id}">${esc(s.name)}</option>`).join('');sa.innerHTML=o;sb.innerHTML=o;sb.selectedIndex=3;sa.onchange=sb.onchange=cmpT;cmpT()}
+function cmpT(){const A=D.sectors.find(s=>s.id===sa.value),B=D.sectors.find(s=>s.id===sb.value);const dv=(s,k)=>{const d=s.drivers[k];return d?(d.value!=null?esc(d.value)+' '+esc(d.unit)+' '+st(d.status):U):'n/a'};
+ const R=[['Verdict',vb(A.verdict),vb(B.verdict)],['Score',A.score??'—',B.score??'—'],['Bank credit outstanding',A.credit?cr(A.credit.outstanding_cr):U,B.credit?cr(B.credit.outstanding_cr):U],['Bank credit YoY',pct(A.credit?.yoy_pct),pct(B.credit?.yoy_pct)],...Object.keys(NAMES).map(k=>[NAMES[k],dv(A,k),dv(B,k)]),['Energy sensitivity',A.energy,B.energy],['WC intensity',A.wc_intensity,B.wc_intensity],['GNPA / DSCR / CCC',U,U],['Cluster',esc(A.cluster),esc(B.cluster)],['Why',esc(A.why),esc(B.why)]];
+ cmp.innerHTML=R.map(r=>`<tr class="border-t"><td class="p-2 font-semibold w-1/4">${r[0]}</td><td class="p-2">${r[1]}</td><td class="p-2">${r[2]}</td></tr>`).join('')}
+function health(){ds.innerHTML='<table class="w-full text-xs"><tr class="bg-slate-50"><th class="p-1.5 text-left">Dataset</th><th class="p-1.5 text-left">Period</th><th class="p-1.5 text-left">Status</th><th class="p-1.5 text-left">Found via</th><th class="p-1.5 text-left">Source</th></tr>'+Object.values(D.datasets).map(d=>`<tr class="border-t"><td class="p-1.5">${esc(d.label)}</td><td class="p-1.5">${esc(d.period||U)}</td><td class="p-1.5">${d.ok?(d.fresh?st('verified'):st('stale')+' '+esc(d.stale_reason)):'<span class="pill v-stale">down</span>'}</td><td class="p-1.5">${esc(d.via||'')}</td><td class="p-1.5">${src(d.url)} ${d.file_url?src(d.file_url,'file'):''}</td></tr>`).join('')+'</table>';
+ hl.innerHTML='<table class="w-full text-xs"><tr class="bg-slate-50"><th class="p-1.5 text-left">Dataset</th><th class="p-1.5 text-left">Source</th><th class="p-1.5">OK</th><th class="p-1.5 text-left">Detail</th></tr>'+D.health.map(h=>`<tr class="border-t"><td class="p-1.5">${esc(h.dataset)}</td><td class="p-1.5">${esc(h.source)}</td><td class="p-1.5 text-center">${h.ok?'✅':h.skipped?'⏸':'❌'}</td><td class="p-1.5">${esc(h.error||h.period||'')} ${src(h.url,'link')}</td></tr>`).join('')+'</table>'+(D.warnings.length?'<p class="mt-2 text-amber-700 text-xs">'+D.warnings.map(esc).join('<br>')+'</p>':'');
+ cm.innerHTML='<table class="w-full text-xs"><tr class="bg-slate-50"><th class="p-1.5 text-left">Item</th><th class="p-1.5">Last</th><th class="p-1.5">1y ago</th><th class="p-1.5">YoY</th><th class="p-1.5">As of</th><th class="p-1.5">Status</th></tr>'+Object.values(D.commodities).map(c=>`<tr class="border-t"><td class="p-1.5">${esc(c.label)} (${esc(c.unit)})</td><td class="p-1.5 text-center">${c.value??U}</td><td class="p-1.5 text-center">${c.year_ago??''}</td><td class="p-1.5 text-center">${pct(c.yoy_pct)}</td><td class="p-1.5 text-center">${esc(c.as_of||'')}</td><td class="p-1.5 text-center">${st('unverified')} ${src(c.source_url)} ${esc(c.error||'')}</td></tr>`).join('')+'</table>';
+ ms.innerHTML='<ul class="text-xs list-disc pl-5 space-y-1">'+D.missing_sources.map(m=>`<li><b>${esc(m.item)}</b>: ${esc(m.why)} <i>${esc(m.action)}</i></li>`).join('')+'</ul>';
+ cf.textContent=JSON.stringify(D.config,null,1)}
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));b.classList.add('on');document.querySelectorAll('main>section').forEach(s=>s.classList.add('hidden'));document.getElementById('v-'+b.dataset.v).classList.remove('hidden');if(b.dataset.v==='scatter')scatter()});
+modal.onclick=e=>{if(e.target===modal)closeM()};
+main().catch(e=>{document.getElementById('grid').innerHTML='<p class="text-red-700">Could not load data/lending_latest.json: '+esc(e)+'</p>'});
+</script></body></html>

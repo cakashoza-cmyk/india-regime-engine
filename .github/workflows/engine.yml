@@ -28,7 +28,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
       - run: sudo apt-get install -y -q poppler-utils
-      - run: pip install pytest
+      - run: pip install pytest openpyxl
       - run: python -m pytest -q engine/tests
       - name: Pipeline
         env:
@@ -40,6 +40,16 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
         run: python engine/pipeline.py ${{ inputs.force_language && '--force-language' || '' }}
+      - name: Lending radar (sector Lend/Selective/Avoid)
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python engine/lending.py
+      - name: Commit lending radar
+        run: |
+          git config user.name "regime-engine-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/lending_latest.json data/lending_state.json engine/regime.db
+          git diff --cached --quiet || git commit -m "lending radar $(date -u +%FT%TZ)"
       - name: Commit snapshot
         run: |
           git config user.name "regime-engine-bot"
@@ -55,7 +65,7 @@ jobs:
           new = json.load(open("data/regime_latest.json"))
           sys.exit(0 if json.dumps(strip(old), sort_keys=True, default=str) == json.dumps(strip(new), sort_keys=True, default=str) else 1)
           PY
-          then echo "no material diff - nothing committed"; exit 0; fi
+          then echo "no material diff - regime snapshot not committed"; git pull --rebase -X ours origin main || true; git push; exit 0; fi
           git add data/regime_latest.json data/regime_history.json engine/regime.db
           git diff --cached --quiet || git commit -m "engine snapshot $(date -u +%FT%TZ)"
           git pull --rebase -X ours origin main || true

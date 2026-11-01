@@ -1,0 +1,1704 @@
+{
+ "generated_at_ist": "2026-11-01 14:17 IST",
+ "run_id": "20261101T141731-33b6cf",
+ "fy": "FY27 (Apr 2026–Mar 2027)",
+ "disclaimer": "Decision aid for credit judgment, not a replacement for it. Internal use only; not loan advice to any outside party.",
+ "units": "Rs Cr; Indian FY Apr–Mar; growth % YoY unless stated",
+ "regime": {
+  "label": "Stagflation (confirmed) with contracting liquidity (central bank fighting)",
+  "generated": "2026-11-01 13:51 IST"
+ },
+ "macro": {
+  "gdp_yoy": {
+   "value": 7.8,
+   "prior_value": 7.8,
+   "as_of": "2026-06-30",
+   "source_url": "https://www.mospi.gov.in/uploads/latestreleasesfiles/1788174301107-Press%20Note%20on%20GDP%20Estimates%20for%20Q1%202026-27.pdf",
+   "status": "verified",
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "note": "Real GDP Q1 FY27 (Apr-Jun 2026) YoY; prior = Q4 FY26 7.8% (NSO 5 Jun 2026). Next: Q2 on ~30 Nov 2026.",
+   "usable": true
+  },
+  "iip_yoy": {
+   "value": 6.7,
+   "prior_value": 7.8,
+   "as_of": "2026-09-30",
+   "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+   "status": "verified",
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "note": "IIP Sep 2026 YoY (index 124.3); prior = Aug 2026 revised.",
+   "usable": true
+  },
+  "gst_yoy": {
+   "value": 14.7,
+   "prior_value": 14.8,
+   "as_of": "2026-09-30",
+   "source_url": "https://tutorial.gst.gov.in/downloads/news/final_gst_revenue_report_for_publishing_monthly_sep_2026.pdf",
+   "status": "verified",
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "note": "Gross GST Sep 2026 Rs 2,03,521 cr YoY; prior Aug 2026 (Rs 1,99,853 cr). Oct 2026 data due ~2 Nov.",
+   "usable": true
+  },
+  "cpi_headline": {
+   "value": 5.54,
+   "prior_value": 4.83,
+   "as_of": "2026-09-30",
+   "source_url": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1791800601071_643518af-5320-4e52-b78c-75c92b83885b_Press_Release_for_the_month_of_September,_2026.pdf",
+   "status": "verified",
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "note": "MOSPI CPI press release PDF (base 2024=100), Combined",
+   "usable": true
+  },
+  "food_inflation": {
+   "value": 7.74,
+   "prior_value": 5.97,
+   "as_of": "2026-09-30",
+   "source_url": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1791800601071_643518af-5320-4e52-b78c-75c92b83885b_Press_Release_for_the_month_of_September,_2026.pdf",
+   "status": "verified",
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "note": "MOSPI CPI press release PDF (base 2024=100), Combined",
+   "usable": true
+  },
+  "brent": {
+   "value": 113.43000030517578,
+   "prior_value": 110.80000305175781,
+   "as_of": "2026-10-30",
+   "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
+   "status": "verified",
+   "is_stale": false,
+   "source_tier": "market_data",
+   "note": "ICE Brent active contract (value and prior from the same contract)",
+   "usable": true
+  },
+  "repo_rate": {
+   "value": 5.5,
+   "prior_value": 5.25,
+   "as_of": "2026-10-07",
+   "source_url": "https://www.rbi.org.in/",
+   "status": "verified",
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "note": "RBI homepage rates panel; prior/as_of from MPC decision https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+   "usable": true
+  },
+  "india10y": {
+   "value": 7.3977,
+   "prior_value": null,
+   "as_of": "2026-10-30",
+   "source_url": "https://www.ccilindia.com/tenorwise-indicative-yields",
+   "status": "verified",
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "note": "CCIL tenor-wise indicative yield, 9Y-10Y benchmark 6.94% GS 2036",
+   "usable": true
+  },
+  "credit_growth": {
+   "value": 18.23,
+   "prior_value": 19.38,
+   "as_of": "2026-10-15",
+   "source_url": "https://rbi.org.in/scripts/FS_PressRelease.aspx?prid=63887&fn=2",
+   "status": "verified",
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "note": "SCB bank credit YoY (excl. inter-bank), computed from RBI statement columns",
+   "usable": true
+  },
+  "rbi_stance_score": {
+   "value": -1,
+   "prior_value": null,
+   "as_of": "2026-10-07",
+   "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+   "status": "verified",
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "note": "RBI MPC resolution (regex, not LLM)",
+   "usable": true
+  },
+  "usdinr_ref": {
+   "value": 95.2492,
+   "prior_value": null,
+   "as_of": "2026-10-30",
+   "source_url": "https://www.rbi.org.in/",
+   "status": "verified",
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "note": "FBIL USD/INR reference rate as shown on RBI homepage (dated to its publication day)",
+   "usable": true
+  },
+  "capacity_util": {
+   "value": 74.6,
+   "prior_value": 77.4,
+   "as_of": "2026-06-30",
+   "source_url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?id=24087",
+   "status": "verified",
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "note": "RBI OBICUS capacity utilisation Q1FY27 (CU-SA 76.3)",
+   "usable": true
+  }
+ },
+ "system_credit": {
+  "2": {
+   "name": "Industry (Micro and Small, Medium and Large)",
+   "outstanding_cr": 4977182,
+   "outstanding_yago_cr": 4166495,
+   "yoy_pct": 19.46,
+   "fy_pct": 7.95,
+   "as_of": "2026-09-30",
+   "check_ok": true,
+   "_period": "2026-09-30",
+   "_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891"
+  },
+  "2.1": {
+   "name": "Mining and Quarrying (incl. Coal)",
+   "outstanding_cr": 70987,
+   "outstanding_yago_cr": 59623,
+   "yoy_pct": 19.06,
+   "fy_pct": 15.76,
+   "as_of": "2026-09-30",
+   "check_ok": true,
+   "_period": "2026-09-30",
+   "_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891"
+  },
+  "2.2": {
+   "name": "Food Processing",
+   "outstanding_cr": 262022,
+   "outstanding_yago_cr": 209157,
+   "yoy_pct": 25.28,
+   "fy_pct": 4.08,
+   "as_of": "2026-09-30",
+   "check_ok": true,
+   "_period": "2026-09-30",
+   "_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891"
+  },
+  "2.3": {
+   "name": "Beverage and Tobacco",
+   "outstanding_cr": 38856,
+   "outstanding_yago_cr": 36385,
+   "yoy_pct": 6.79,
+   "fy_pct": 0.36,
+   "as_of": "2026-09-30",
+   "check_ok": true,
+   "_period": "2026-09-30",
+   "_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891"
+  },
+  "3": {
+   "name": "Services",
+   "outstanding_cr": 6489608,
+   "outstanding_yago_cr": 5057536,
+   "yoy_pct": 28.32,
+   "fy_pct": 8.19,
+   "as_of": "2026-09-30",
+   "check_ok": true,
+   "_period": "2026-09-30",
+   "_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891"
+  }
+ },
+ "datasets": {
+  "rbi_sibc": {
+   "ok": true,
+   "label": "RBI Sectoral Deployment of Bank Credit (monthly, SIBC xlsx)",
+   "period": "2026-09-30",
+   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+   "via": "rbi_press_list",
+   "fresh": true,
+   "stale_reason": null,
+   "file_url": "https://rbidocs.rbi.org.in/rdocs/content/docs/SIBC30102026E.xlsx"
+  },
+  "iip_nic2": {
+   "ok": true,
+   "label": "IIP Quick Estimates, NIC 2-digit manufacturing (PIB re-publication of MoSPI)",
+   "period": "2026-09-30",
+   "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+   "via": "last_known",
+   "fresh": true,
+   "stale_reason": null,
+   "file_url": null
+  },
+  "exports_qe": {
+   "ok": true,
+   "label": "Dept of Commerce Quick Estimates, commodity-wise exports (Rs Cr and USD mn)",
+   "period": "2026-09-30",
+   "url": "https://www.commerce.gov.in/files/2026-10/Quick%20Estimates%20September%202026.pdf",
+   "via": "commerce_pattern",
+   "fresh": true,
+   "stale_reason": null,
+   "file_url": null
+  }
+ },
+ "sectors": [
+  {
+   "id": "mmf_textiles",
+   "name": "Textiles - MMF / Polyester Weaving & Processing",
+   "cluster": "Surat (Sachin, Pandesara, Kadodara), Olpad",
+   "south_gujarat": true,
+   "score": 83,
+   "core_score": 87,
+   "overlay_adj": -3.8,
+   "verdict": "Lend",
+   "drivers": {
+    "iip_yoy": {
+     "score": 1,
+     "value": 17.4,
+     "unit": "% YoY",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "IIP NIC 13 output +17.4% YoY"
+    },
+    "iip_fytd": {
+     "score": 1,
+     "value": 12.9,
+     "unit": "% FYTD",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "output +12.9% Apr-to-date"
+    },
+    "export_fytd_usd": {
+     "score": 0,
+     "value": 4.19,
+     "unit": "% FYTD (USD)",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.commerce.gov.in/files/2026-10/Quick%20Estimates%20September%202026.pdf",
+     "status": "verified",
+     "reason": null,
+     "text": "exports +4.2% Apr-to-date in USD (Rs 23,807 Cr FYTD)"
+    },
+    "credit_vs_output": {
+     "score": 1,
+     "value": 1.7,
+     "unit": "pp",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+     "status": "verified",
+     "reason": null,
+     "text": "bank credit +14.6% YoY vs output +12.9% (gap +1.7 pp)"
+    },
+    "energy_overlay": {
+     "score": -0.5,
+     "value": 113.4,
+     "unit": "USD/bbl",
+     "as_of": "2026-10-30",
+     "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
+     "status": "verified",
+     "text": "Brent $113/bbl above the $75–100 band"
+    },
+    "rate_overlay": {
+     "score": -1.0,
+     "value": 5.5,
+     "unit": "% repo",
+     "as_of": "2026-10-07",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+     "status": "verified",
+     "text": "Repo 5.5% (raised from 5.25%), RBI stance tightening"
+    }
+   },
+   "main_driver": "iip_yoy",
+   "excluded": [],
+   "why": "Supportive: helped by IIP NIC 13 output +17.4% YoY; output +12.9% Apr-to-date — held back by Repo 5.5% (raised from 5.25%), RBI stance tightening; Brent $113/bbl above the $75–100 band.",
+   "credit": {
+    "name": "Man-Made Textiles",
+    "outstanding_cr": 57167,
+    "yoy_pct": 14.62,
+    "fy_pct": 9.81,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "2.4.3",
+   "iip_nic": "13",
+   "export_row": 24,
+   "energy": "medium",
+   "wc_intensity": "high",
+   "ews": "Weavers' association production holidays; yarn trader bill delays; power-loom units on sale.",
+   "guidance": [
+    "Verify GST turnover vs bank credit summations before renewal.",
+    "Cap stock holding period for grey fabric."
+   ],
+   "note": null,
+   "commodities": [
+    "brent_fut"
+   ]
+  },
+  {
+   "id": "cotton_textiles",
+   "name": "Textiles - Cotton Spinning & Yarn",
+   "cluster": "Surat, Bharuch, Saurashtra ginning belt",
+   "south_gujarat": true,
+   "score": 83,
+   "core_score": 87,
+   "overlay_adj": -3.8,
+   "verdict": "Lend",
+   "drivers": {
+    "iip_yoy": {
+     "score": 1,
+     "value": 17.4,
+     "unit": "% YoY",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "IIP NIC 13 output +17.4% YoY"
+    },
+    "iip_fytd": {
+     "score": 1,
+     "value": 12.9,
+     "unit": "% FYTD",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "output +12.9% Apr-to-date"
+    },
+    "export_fytd_usd": {
+     "score": 0,
+     "value": 8.98,
+     "unit": "% FYTD (USD)",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.commerce.gov.in/files/2026-10/Quick%20Estimates%20September%202026.pdf",
+     "status": "verified",
+     "reason": null,
+     "text": "exports +9.0% Apr-to-date in USD (Rs 60,124 Cr FYTD)"
+    },
+    "credit_vs_output": {
+     "score": 1,
+     "value": 2.3,
+     "unit": "pp",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+     "status": "verified",
+     "reason": null,
+     "text": "bank credit +15.2% YoY vs output +12.9% (gap +2.3 pp)"
+    },
+    "energy_overlay": {
+     "score": -0.5,
+     "value": 113.4,
+     "unit": "USD/bbl",
+     "as_of": "2026-10-30",
+     "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
+     "status": "verified",
+     "text": "Brent $113/bbl above the $75–100 band"
+    },
+    "rate_overlay": {
+     "score": -1.0,
+     "value": 5.5,
+     "unit": "% repo",
+     "as_of": "2026-10-07",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+     "status": "verified",
+     "text": "Repo 5.5% (raised from 5.25%), RBI stance tightening"
+    }
+   },
+   "main_driver": "iip_yoy",
+   "excluded": [],
+   "why": "Supportive: helped by IIP NIC 13 output +17.4% YoY; output +12.9% Apr-to-date — held back by Repo 5.5% (raised from 5.25%), RBI stance tightening; Brent $113/bbl above the $75–100 band.",
+   "credit": {
+    "name": "Cotton Textiles",
+    "outstanding_cr": 112056,
+    "yoy_pct": 15.25,
+    "fy_pct": 1.6,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "2.4.1",
+   "iip_nic": "13",
+   "export_row": 23,
+   "energy": "medium",
+   "wc_intensity": "high",
+   "ews": "Cotton price swings vs yarn realisation; mill shutdown notices.",
+   "guidance": [
+    "Watch cotton inventory valuation vs market price.",
+    "ECGC cover on export receivables."
+   ],
+   "note": null,
+   "commodities": [
+    "cotton"
+   ]
+  },
+  {
+   "id": "apparel",
+   "name": "Readymade Garments & Made-ups",
+   "cluster": "Surat, Ahmedabad",
+   "south_gujarat": true,
+   "score": 0,
+   "core_score": 0,
+   "overlay_adj": -5.0,
+   "verdict": "Avoid",
+   "drivers": {
+    "iip_yoy": {
+     "score": -1,
+     "value": -5.2,
+     "unit": "% YoY",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "IIP NIC 14 output -5.2% YoY"
+    },
+    "iip_fytd": {
+     "score": -1,
+     "value": -5.6,
+     "unit": "% FYTD",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "output -5.6% Apr-to-date"
+    },
+    "export_fytd_usd": {
+     "score": -1,
+     "value": -6.19,
+     "unit": "% FYTD (USD)",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.commerce.gov.in/files/2026-10/Quick%20Estimates%20September%202026.pdf",
+     "status": "verified",
+     "reason": null,
+     "text": "exports -6.2% Apr-to-date in USD (Rs 69,301 Cr FYTD)"
+    },
+    "credit_vs_output": {
+     "score": -1,
+     "value": 28.9,
+     "unit": "pp",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+     "status": "verified",
+     "reason": null,
+     "text": "bank credit +23.3% YoY vs output -5.6% (gap +28.9 pp)"
+    },
+    "rate_overlay": {
+     "score": -1.0,
+     "value": 5.5,
+     "unit": "% repo",
+     "as_of": "2026-10-07",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+     "status": "verified",
+     "text": "Repo 5.5% (raised from 5.25%), RBI stance tightening"
+    }
+   },
+   "main_driver": "iip_yoy",
+   "excluded": [],
+   "why": "Weak: held back by IIP NIC 14 output -5.2% YoY; output -5.6% Apr-to-date.",
+   "credit": {
+    "name": "Other Textiles",
+    "outstanding_cr": 151974,
+    "yoy_pct": 23.26,
+    "fy_pct": 12.86,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "2.4.4",
+   "iip_nic": "14",
+   "export_row": 25,
+   "energy": "low",
+   "wc_intensity": "high",
+   "ews": "Buyer order cancellations; US/EU tariff changes.",
+   "guidance": [
+    "Back-to-back LC against confirmed orders."
+   ],
+   "note": null,
+   "commodities": []
+  },
+  {
+   "id": "diamonds",
+   "name": "Cut & Polished Diamonds / Gems & Jewellery",
+   "cluster": "Surat (Varachha, Katargam, SDB), Navsari, Bhavnagar",
+   "south_gujarat": true,
+   "score": 22,
+   "core_score": 27,
+   "overlay_adj": -5.0,
+   "verdict": "Avoid",
+   "drivers": {
+    "iip_yoy": {
+     "score": -1,
+     "value": -6.4,
+     "unit": "% YoY",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "IIP NIC 32 output -6.4% YoY"
+    },
+    "iip_fytd": {
+     "score": 0,
+     "value": 1.9,
+     "unit": "% FYTD",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "output +1.9% Apr-to-date"
+    },
+    "export_fytd_usd": {
+     "score": 0,
+     "value": 7.66,
+     "unit": "% FYTD (USD)",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.commerce.gov.in/files/2026-10/Quick%20Estimates%20September%202026.pdf",
+     "status": "verified",
+     "reason": null,
+     "text": "exports +7.7% Apr-to-date in USD (Rs 145,505 Cr FYTD)"
+    },
+    "credit_vs_output": {
+     "score": -1,
+     "value": 31.1,
+     "unit": "pp",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+     "status": "verified",
+     "reason": null,
+     "text": "bank credit +33.0% YoY vs output +1.9% (gap +31.1 pp)"
+    },
+    "rate_overlay": {
+     "score": -1.0,
+     "value": 5.5,
+     "unit": "% repo",
+     "as_of": "2026-10-07",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+     "status": "verified",
+     "text": "Repo 5.5% (raised from 5.25%), RBI stance tightening"
+    }
+   },
+   "main_driver": "iip_yoy",
+   "excluded": [],
+   "why": "Weak: held back by IIP NIC 32 output -6.4% YoY; Repo 5.5% (raised from 5.25%), RBI stance tightening.",
+   "credit": {
+    "name": "Gems and Jewellery",
+    "outstanding_cr": 136738,
+    "yoy_pct": 33.05,
+    "fy_pct": 10.09,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "2.16",
+   "iip_nic": "32",
+   "export_row": 18,
+   "energy": "low",
+   "wc_intensity": "very_high",
+   "ews": "Surat Diamond Bourse turnover; extended Diwali vacations; lab-grown price discounts; rough import vs polished export gap.",
+   "guidance": [
+    "Independent valuation of stock; shorter credit period.",
+    "Track PCFC/PSFC realisation within due dates."
+   ],
+   "note": "IIP NIC 32 'Other manufacturing' includes jewellery but also other goods (proxy).",
+   "commodities": []
+  },
+  {
+   "id": "chemicals_dyes",
+   "name": "Chemicals, Dyes & Intermediates",
+   "cluster": "Vapi, Ankleshwar, Panoli, Sachin GIDC, Dahej",
+   "south_gujarat": true,
+   "score": 22,
+   "core_score": 27,
+   "overlay_adj": -5.0,
+   "verdict": "Avoid",
+   "drivers": {
+    "iip_yoy": {
+     "score": -1,
+     "value": -0.6,
+     "unit": "% YoY",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "IIP NIC 20 output -0.6% YoY"
+    },
+    "iip_fytd": {
+     "score": -1,
+     "value": -1.1,
+     "unit": "% FYTD",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "output -1.1% Apr-to-date"
+    },
+    "export_fytd_usd": {
+     "score": 1,
+     "value": 15.57,
+     "unit": "% FYTD (USD)",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.commerce.gov.in/files/2026-10/Quick%20Estimates%20September%202026.pdf",
+     "status": "verified",
+     "reason": null,
+     "text": "exports +15.6% Apr-to-date in USD (Rs 156,272 Cr FYTD)"
+    },
+    "credit_vs_output": {
+     "score": -1,
+     "value": 21.8,
+     "unit": "pp",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+     "status": "verified",
+     "reason": null,
+     "text": "bank credit +20.7% YoY vs output -1.1% (gap +21.8 pp)"
+    },
+    "energy_overlay": {
+     "score": -1.0,
+     "value": 113.4,
+     "unit": "USD/bbl",
+     "as_of": "2026-10-30",
+     "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
+     "status": "verified",
+     "text": "Brent $113/bbl above the $75–100 band"
+    },
+    "rate_overlay": {
+     "score": -1.0,
+     "value": 5.5,
+     "unit": "% repo",
+     "as_of": "2026-10-07",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+     "status": "verified",
+     "text": "Repo 5.5% (raised from 5.25%), RBI stance tightening"
+    }
+   },
+   "main_driver": "iip_yoy",
+   "excluded": [],
+   "why": "Weak: helped by exports +15.6% Apr-to-date in USD (Rs 156,272 Cr FYTD) — held back by IIP NIC 20 output -0.6% YoY; output -1.1% Apr-to-date.",
+   "credit": {
+    "name": "Others",
+    "outstanding_cr": 154335,
+    "yoy_pct": 20.7,
+    "fy_pct": 13.13,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "2.9.4",
+   "iip_nic": "20",
+   "export_row": 20,
+   "energy": "high",
+   "wc_intensity": "high",
+   "ews": "Chinese price cuts / DGTR anti-dumping cases; GPCB closure notices; inventory build-up.",
+   "guidance": [
+    "Mark inventory to current market price.",
+    "Monitor credit summations quarterly."
+   ],
+   "note": null,
+   "commodities": [
+    "brent_fut"
+   ]
+  },
+  {
+   "id": "petrochem",
+   "name": "Petrochemicals",
+   "cluster": "Hazira, Dahej, Vadodara",
+   "south_gujarat": true,
+   "score": 0,
+   "core_score": 0,
+   "overlay_adj": -5.0,
+   "verdict": "Avoid",
+   "drivers": {
+    "iip_yoy": {
+     "score": -1,
+     "value": -0.6,
+     "unit": "% YoY",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "IIP NIC 20 output -0.6% YoY"
+    },
+    "iip_fytd": {
+     "score": -1,
+     "value": -1.1,
+     "unit": "% FYTD",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "output -1.1% Apr-to-date"
+    },
+    "credit_vs_output": {
+     "score": -1,
+     "value": 30.0,
+     "unit": "pp",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+     "status": "verified",
+     "reason": null,
+     "text": "bank credit +28.9% YoY vs output -1.1% (gap +30.0 pp)"
+    },
+    "energy_overlay": {
+     "score": -1.0,
+     "value": 113.4,
+     "unit": "USD/bbl",
+     "as_of": "2026-10-30",
+     "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
+     "status": "verified",
+     "text": "Brent $113/bbl above the $75–100 band"
+    }
+   },
+   "main_driver": "iip_yoy",
+   "excluded": [],
+   "why": "Weak: held back by IIP NIC 20 output -0.6% YoY; output -1.1% Apr-to-date.",
+   "credit": {
+    "name": "Petro Chemicals",
+    "outstanding_cr": 44346,
+    "yoy_pct": 28.92,
+    "fy_pct": 20.51,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "2.9.3",
+   "iip_nic": "20",
+   "export_row": null,
+   "energy": "high",
+   "wc_intensity": "medium",
+   "ews": "Polymer price announcements by RIL/IOCL; Middle-East/China capacity.",
+   "guidance": [
+    "Price-reset clauses with buyers."
+   ],
+   "note": null,
+   "commodities": [
+    "brent_fut"
+   ]
+  },
+  {
+   "id": "pharma",
+   "name": "Pharmaceuticals & APIs",
+   "cluster": "Vapi, Ankleshwar, Ahmedabad",
+   "south_gujarat": true,
+   "score": 13,
+   "core_score": 13,
+   "overlay_adj": 0.0,
+   "verdict": "Avoid",
+   "drivers": {
+    "iip_yoy": {
+     "score": -1,
+     "value": -8.9,
+     "unit": "% YoY",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "IIP NIC 21 output -8.9% YoY"
+    },
+    "iip_fytd": {
+     "score": -1,
+     "value": -4.4,
+     "unit": "% FYTD",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "output -4.4% Apr-to-date"
+    },
+    "export_fytd_usd": {
+     "score": 0,
+     "value": 4.9,
+     "unit": "% FYTD (USD)",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.commerce.gov.in/files/2026-10/Quick%20Estimates%20September%202026.pdf",
+     "status": "verified",
+     "reason": null,
+     "text": "exports +4.9% Apr-to-date in USD (Rs 153,525 Cr FYTD)"
+    },
+    "credit_vs_output": {
+     "score": -1,
+     "value": 26.0,
+     "unit": "pp",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+     "status": "verified",
+     "reason": null,
+     "text": "bank credit +21.6% YoY vs output -4.4% (gap +26.0 pp)"
+    }
+   },
+   "main_driver": "iip_yoy",
+   "excluded": [],
+   "why": "Weak: held back by IIP NIC 21 output -8.9% YoY; output -4.4% Apr-to-date.",
+   "credit": {
+    "name": "Drugs and Pharmaceuticals",
+    "outstanding_cr": 111382,
+    "yoy_pct": 21.62,
+    "fy_pct": 6.45,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "2.9.2",
+   "iip_nic": "21",
+   "export_row": 19,
+   "energy": "low",
+   "wc_intensity": "medium",
+   "ews": "USFDA 483 / import alerts; API price swings from China.",
+   "guidance": [
+    "Regulatory compliance status at renewal."
+   ],
+   "note": null,
+   "commodities": []
+  },
+  {
+   "id": "ceramics",
+   "name": "Ceramic Tiles, Sanitaryware & Glass",
+   "cluster": "Morbi, Thangadh, Himatnagar",
+   "south_gujarat": false,
+   "score": 68,
+   "core_score": 73,
+   "overlay_adj": -5.0,
+   "verdict": "Lend",
+   "drivers": {
+    "iip_yoy": {
+     "score": 1,
+     "value": 6.9,
+     "unit": "% YoY",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "IIP NIC 23 output +6.9% YoY"
+    },
+    "iip_fytd": {
+     "score": 1,
+     "value": 9.5,
+     "unit": "% FYTD",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "output +9.5% Apr-to-date"
+    },
+    "export_fytd_usd": {
+     "score": -1,
+     "value": -20.62,
+     "unit": "% FYTD (USD)",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.commerce.gov.in/files/2026-10/Quick%20Estimates%20September%202026.pdf",
+     "status": "verified",
+     "reason": null,
+     "text": "exports -20.6% Apr-to-date in USD (Rs 15,614 Cr FYTD)"
+    },
+    "credit_vs_output": {
+     "score": 1,
+     "value": 2.9,
+     "unit": "pp",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+     "status": "verified",
+     "reason": null,
+     "text": "bank credit +12.4% YoY vs output +9.5% (gap +2.9 pp)"
+    },
+    "energy_overlay": {
+     "score": -1.0,
+     "value": 113.4,
+     "unit": "USD/bbl",
+     "as_of": "2026-10-30",
+     "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
+     "status": "verified",
+     "text": "Brent $113/bbl above the $75–100 band"
+    },
+    "rate_overlay": {
+     "score": -1.0,
+     "value": 5.5,
+     "unit": "% repo",
+     "as_of": "2026-10-07",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+     "status": "verified",
+     "text": "Repo 5.5% (raised from 5.25%), RBI stance tightening"
+    }
+   },
+   "main_driver": "iip_yoy",
+   "excluded": [],
+   "why": "Supportive: helped by IIP NIC 23 output +6.9% YoY; output +9.5% Apr-to-date — held back by exports -20.6% Apr-to-date in USD (Rs 15,614 Cr FYTD); Brent $113/bbl above the $75–100 band.",
+   "credit": {
+    "name": "Glass and Glassware",
+    "outstanding_cr": 15737,
+    "yoy_pct": 12.43,
+    "fy_pct": -4.34,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "2.11",
+   "iip_nic": "23",
+   "export_row": 17,
+   "energy": "very_high",
+   "wc_intensity": "high",
+   "ews": "Morbi association shutdown circulars; gas connection surrenders; dealer cheque bounces.",
+   "guidance": [
+    "Exclude aged debtors from drawing power.",
+    "Check gas cost pass-through in recent invoices."
+   ],
+   "note": "RBI row is 'Glass & Glassware' and IIP NIC 23 is 'other non-metallic minerals' (incl. cement) - closest official proxies; no ceramic-only series exists.",
+   "commodities": [
+    "lng_jkm",
+    "henry_hub"
+   ]
+  },
+  {
+   "id": "plastics",
+   "name": "Plastics & Rubber Processing",
+   "cluster": "Daman, Silvassa, Umbergaon, Vapi",
+   "south_gujarat": true,
+   "score": 98,
+   "core_score": 100,
+   "overlay_adj": -2.5,
+   "verdict": "Lend",
+   "drivers": {
+    "iip_yoy": {
+     "score": 1,
+     "value": 19.9,
+     "unit": "% YoY",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "IIP NIC 22 output +19.9% YoY"
+    },
+    "iip_fytd": {
+     "score": 1,
+     "value": 18.5,
+     "unit": "% FYTD",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "output +18.5% Apr-to-date"
+    },
+    "export_fytd_usd": {
+     "score": 1,
+     "value": 17.15,
+     "unit": "% FYTD (USD)",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.commerce.gov.in/files/2026-10/Quick%20Estimates%20September%202026.pdf",
+     "status": "verified",
+     "reason": null,
+     "text": "exports +17.1% Apr-to-date in USD (Rs 48,628 Cr FYTD)"
+    },
+    "credit_vs_output": {
+     "score": 1,
+     "value": 2.5,
+     "unit": "pp",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+     "status": "verified",
+     "reason": null,
+     "text": "bank credit +21.0% YoY vs output +18.5% (gap +2.5 pp)"
+    },
+    "energy_overlay": {
+     "score": -0.5,
+     "value": 113.4,
+     "unit": "USD/bbl",
+     "as_of": "2026-10-30",
+     "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
+     "status": "verified",
+     "text": "Brent $113/bbl above the $75–100 band"
+    }
+   },
+   "main_driver": "iip_yoy",
+   "excluded": [],
+   "why": "Supportive: helped by IIP NIC 22 output +19.9% YoY; output +18.5% Apr-to-date — held back by Brent $113/bbl above the $75–100 band.",
+   "credit": {
+    "name": "Rubber, Plastic and their Products",
+    "outstanding_cr": 127680,
+    "yoy_pct": 21.01,
+    "fy_pct": 13.23,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "2.10",
+   "iip_nic": "22",
+   "export_row": 30,
+   "energy": "medium",
+   "wc_intensity": "medium",
+   "ews": "Polymer price cuts; port dumping notices.",
+   "guidance": [
+    "LC against confirmed orders for single-product units."
+   ],
+   "note": null,
+   "commodities": [
+    "brent_fut"
+   ]
+  },
+  {
+   "id": "engineering",
+   "name": "Engineering & Capital Goods",
+   "cluster": "Hazira, Surat, Navsari, Vapi, Bharuch",
+   "south_gujarat": true,
+   "score": 67,
+   "core_score": 67,
+   "overlay_adj": 0.0,
+   "verdict": "Lend",
+   "drivers": {
+    "iip_yoy": {
+     "score": 0,
+     "value": 3.1,
+     "unit": "% YoY",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "IIP NIC 28 output +3.1% YoY"
+    },
+    "iip_fytd": {
+     "score": 1,
+     "value": 9.0,
+     "unit": "% FYTD",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "output +9.0% Apr-to-date"
+    },
+    "export_fytd_usd": {
+     "score": 1,
+     "value": 19.78,
+     "unit": "% FYTD (USD)",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.commerce.gov.in/files/2026-10/Quick%20Estimates%20September%202026.pdf",
+     "status": "verified",
+     "reason": null,
+     "text": "exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD)"
+    },
+    "credit_vs_output": {
+     "score": -1,
+     "value": 28.7,
+     "unit": "pp",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+     "status": "verified",
+     "reason": null,
+     "text": "bank credit +37.7% YoY vs output +9.0% (gap +28.7 pp)"
+    }
+   },
+   "main_driver": "iip_fytd",
+   "excluded": [],
+   "why": "Supportive: helped by output +9.0% Apr-to-date; exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD) — held back by bank credit +37.7% YoY vs output +9.0% (gap +28.7 pp).",
+   "credit": {
+    "name": "Others",
+    "outstanding_cr": 282578,
+    "yoy_pct": 37.69,
+    "fy_pct": 9.38,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "2.14.2",
+   "iip_nic": "28",
+   "export_row": 21,
+   "energy": "low",
+   "wc_intensity": "medium",
+   "ews": "Order cancellations; milestone billing delays from PSU buyers.",
+   "guidance": [
+    "Milestone-linked LC/BG structuring."
+   ],
+   "note": null,
+   "commodities": [
+    "us_hrc"
+   ]
+  },
+  {
+   "id": "metals",
+   "name": "Iron & Steel (incl. secondary re-rolling)",
+   "cluster": "Hazira, Bharuch, Bhavnagar ship-breaking",
+   "south_gujarat": true,
+   "score": 45,
+   "core_score": 50,
+   "overlay_adj": -5.0,
+   "verdict": "Selective",
+   "drivers": {
+    "iip_yoy": {
+     "score": 0,
+     "value": 3.1,
+     "unit": "% YoY",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "IIP NIC 24 output +3.1% YoY"
+    },
+    "iip_fytd": {
+     "score": 0,
+     "value": 3.7,
+     "unit": "% FYTD",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "output +3.7% Apr-to-date"
+    },
+    "credit_vs_output": {
+     "score": 0,
+     "value": 18.9,
+     "unit": "pp",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+     "status": "verified",
+     "reason": null,
+     "text": "bank credit +22.6% YoY vs output +3.7% (gap +18.9 pp)"
+    },
+    "energy_overlay": {
+     "score": -1.0,
+     "value": 113.4,
+     "unit": "USD/bbl",
+     "as_of": "2026-10-30",
+     "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
+     "status": "verified",
+     "text": "Brent $113/bbl above the $75–100 band"
+    }
+   },
+   "main_driver": "energy_overlay",
+   "excluded": [],
+   "why": "Mixed: held back by Brent $113/bbl above the $75–100 band.",
+   "credit": {
+    "name": "Iron and Steel",
+    "outstanding_cr": 386477,
+    "yoy_pct": 22.64,
+    "fy_pct": 7.8,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "2.13.1",
+   "iip_nic": "24",
+   "export_row": null,
+   "energy": "high",
+   "wc_intensity": "medium",
+   "ews": "Billet price drops; power bill delays; import surges.",
+   "guidance": [
+    "Monthly stock verification of scrap/billets."
+   ],
+   "note": null,
+   "commodities": [
+    "us_hrc"
+   ]
+  },
+  {
+   "id": "electronics",
+   "name": "Electronics Manufacturing",
+   "cluster": "Sanand, Dholera (emerging)",
+   "south_gujarat": false,
+   "score": 90,
+   "core_score": 90,
+   "overlay_adj": 0.0,
+   "verdict": "Lend",
+   "drivers": {
+    "iip_yoy": {
+     "score": 1,
+     "value": 7.3,
+     "unit": "% YoY",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "IIP NIC 26 output +7.3% YoY"
+    },
+    "iip_fytd": {
+     "score": 1,
+     "value": 12.6,
+     "unit": "% FYTD",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "output +12.6% Apr-to-date"
+    },
+    "export_fytd_usd": {
+     "score": 1,
+     "value": 44.02,
+     "unit": "% FYTD (USD)",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.commerce.gov.in/files/2026-10/Quick%20Estimates%20September%202026.pdf",
+     "status": "verified",
+     "reason": null,
+     "text": "exports +44.0% Apr-to-date in USD (Rs 304,256 Cr FYTD)"
+    },
+    "credit_vs_output": {
+     "score": 0,
+     "value": 18.0,
+     "unit": "pp",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+     "status": "verified",
+     "reason": null,
+     "text": "bank credit +30.6% YoY vs output +12.6% (gap +18.0 pp)"
+    }
+   },
+   "main_driver": "iip_yoy",
+   "excluded": [],
+   "why": "Supportive: helped by IIP NIC 26 output +7.3% YoY; output +12.6% Apr-to-date.",
+   "credit": {
+    "name": "Electronics",
+    "outstanding_cr": 82564,
+    "yoy_pct": 30.6,
+    "fy_pct": 37.83,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "2.14.1",
+   "iip_nic": "26",
+   "export_row": 22,
+   "energy": "low",
+   "wc_intensity": "low",
+   "ews": "OEM vendor switches; PLI disbursement delays.",
+   "guidance": [
+    "Anchor-client concentration caps."
+   ],
+   "note": null,
+   "commodities": []
+  },
+  {
+   "id": "auto_components",
+   "name": "Auto & Auto Components",
+   "cluster": "Sanand, Halol, Becharaji",
+   "south_gujarat": false,
+   "score": 100,
+   "core_score": 100,
+   "overlay_adj": 0.0,
+   "verdict": "Lend",
+   "drivers": {
+    "iip_yoy": {
+     "score": 1,
+     "value": 19.0,
+     "unit": "% YoY",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "IIP NIC 29 output +19.0% YoY"
+    },
+    "iip_fytd": {
+     "score": 1,
+     "value": 19.2,
+     "unit": "% FYTD",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "output +19.2% Apr-to-date"
+    },
+    "credit_vs_output": {
+     "score": 1,
+     "value": 7.8,
+     "unit": "pp",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+     "status": "verified",
+     "reason": null,
+     "text": "bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp)"
+    }
+   },
+   "main_driver": "iip_yoy",
+   "excluded": [],
+   "why": "Supportive: helped by IIP NIC 29 output +19.0% YoY; output +19.2% Apr-to-date.",
+   "credit": {
+    "name": "Vehicles, Vehicle Parts and Transport Equipment",
+    "outstanding_cr": 165751,
+    "yoy_pct": 26.98,
+    "fy_pct": 16.67,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "2.15",
+   "iip_nic": "29",
+   "export_row": null,
+   "energy": "low",
+   "wc_intensity": "medium",
+   "ews": "OEM production cuts.",
+   "guidance": [
+    "Minimum 2 OEM relationships."
+   ],
+   "note": null,
+   "commodities": []
+  },
+  {
+   "id": "paper",
+   "name": "Paper & Paper Products",
+   "cluster": "Vapi, Valsad, Songadh",
+   "south_gujarat": true,
+   "score": 80,
+   "core_score": 82,
+   "overlay_adj": -2.5,
+   "verdict": "Lend",
+   "drivers": {
+    "iip_yoy": {
+     "score": 0,
+     "value": 2.9,
+     "unit": "% YoY",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "IIP NIC 17 output +2.9% YoY"
+    },
+    "iip_fytd": {
+     "score": 1,
+     "value": 7.7,
+     "unit": "% FYTD",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "output +7.7% Apr-to-date"
+    },
+    "credit_vs_output": {
+     "score": 1,
+     "value": 7.8,
+     "unit": "pp",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+     "status": "verified",
+     "reason": null,
+     "text": "bank credit +15.5% YoY vs output +7.7% (gap +7.8 pp)"
+    },
+    "energy_overlay": {
+     "score": -0.5,
+     "value": 113.4,
+     "unit": "USD/bbl",
+     "as_of": "2026-10-30",
+     "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
+     "status": "verified",
+     "text": "Brent $113/bbl above the $75–100 band"
+    }
+   },
+   "main_driver": "iip_fytd",
+   "excluded": [],
+   "why": "Supportive: helped by output +7.7% Apr-to-date; bank credit +15.5% YoY vs output +7.7% (gap +7.8 pp) — held back by Brent $113/bbl above the $75–100 band.",
+   "credit": {
+    "name": "Paper and Paper Products",
+    "outstanding_cr": 63474,
+    "yoy_pct": 15.53,
+    "fy_pct": 7.27,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "2.7",
+   "iip_nic": "17",
+   "export_row": null,
+   "energy": "medium",
+   "wc_intensity": "medium",
+   "ews": "Imported pulp / waste-paper price swings; China/Indonesia imports.",
+   "guidance": [
+    "Track raw-material cost pass-through."
+   ],
+   "note": null,
+   "commodities": []
+  },
+  {
+   "id": "food_processing",
+   "name": "Food Processing",
+   "cluster": "Navsari, Valsad, Bardoli (sugar, mango, dairy)",
+   "south_gujarat": true,
+   "score": 86,
+   "core_score": 86,
+   "overlay_adj": 0.0,
+   "verdict": "Lend",
+   "drivers": {
+    "iip_yoy": {
+     "score": 1,
+     "value": 7.8,
+     "unit": "% YoY",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "IIP NIC 10 output +7.8% YoY"
+    },
+    "iip_fytd": {
+     "score": 1,
+     "value": 5.4,
+     "unit": "% FYTD",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+     "status": "verified",
+     "reason": null,
+     "text": "output +5.4% Apr-to-date"
+    },
+    "credit_vs_output": {
+     "score": 0,
+     "value": 19.9,
+     "unit": "pp",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+     "status": "verified",
+     "reason": null,
+     "text": "bank credit +25.3% YoY vs output +5.4% (gap +19.9 pp)"
+    }
+   },
+   "main_driver": "iip_yoy",
+   "excluded": [],
+   "why": "Supportive: helped by IIP NIC 10 output +7.8% YoY; output +5.4% Apr-to-date.",
+   "credit": {
+    "name": "Food Processing",
+    "outstanding_cr": 262022,
+    "yoy_pct": 25.28,
+    "fy_pct": 4.08,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "2.2",
+   "iip_nic": "10",
+   "export_row": null,
+   "energy": "low",
+   "wc_intensity": "medium",
+   "ews": "Monsoon / crop output; sugar cane dues.",
+   "guidance": [
+    "Seasonal limits matched to crop cycle."
+   ],
+   "note": null,
+   "commodities": []
+  },
+  {
+   "id": "commercial_real_estate",
+   "name": "Commercial Real Estate",
+   "cluster": "Surat (Dream City, Vesu), Vapi",
+   "south_gujarat": true,
+   "score": null,
+   "core_score": null,
+   "overlay_adj": -5.0,
+   "verdict": "Unknown — collect",
+   "drivers": {
+    "rate_overlay": {
+     "score": -1.0,
+     "value": 5.5,
+     "unit": "% repo",
+     "as_of": "2026-10-07",
+     "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+     "status": "verified",
+     "text": "Repo 5.5% (raised from 5.25%), RBI stance tightening"
+    }
+   },
+   "main_driver": "rate_overlay",
+   "excluded": [],
+   "why": "Only one official sector series (bank credit) is mapped; no output/export series exists for it — collect sector data (e.g. unsold inventory, absorption).",
+   "credit": {
+    "name": "Commercial Real Estate",
+    "outstanding_cr": 699170,
+    "yoy_pct": 23.34,
+    "fy_pct": 12.02,
+    "as_of": "2026-09-30"
+   },
+   "rbi_row": "3.8",
+   "iip_nic": null,
+   "export_row": null,
+   "energy": "low",
+   "wc_intensity": "very_high",
+   "ews": "Unsold inventory overhang; RERA delays.",
+   "guidance": [
+    "RERA escrow control."
+   ],
+   "note": null,
+   "commodities": []
+  }
+ ],
+ "commodities": {
+  "cotton": {
+   "symbol": "CT=F",
+   "label": "ICE Cotton No.2 (US c/lb) - proxy for Shankar-6/Cotlook",
+   "unit": "USc/lb",
+   "value": 77.83,
+   "year_ago": 65.68,
+   "yoy_pct": 18.5,
+   "as_of": "2026-10-30",
+   "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CT%3DF?range=1y&interval=1d",
+   "status": "unverified",
+   "source_tier": "market_data",
+   "scored": false
+  },
+  "brent_fut": {
+   "symbol": "BZ=F",
+   "label": "Brent front-month (PTA/MEG/propane cost proxy)",
+   "unit": "USD/bbl",
+   "value": 113.43,
+   "year_ago": 64.89,
+   "yoy_pct": 74.8,
+   "as_of": "2026-10-30",
+   "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?range=1y&interval=1d",
+   "status": "unverified",
+   "source_tier": "market_data",
+   "scored": false
+  },
+  "lng_jkm": {
+   "symbol": "JKM=F",
+   "label": "LNG JKM futures (spot-LNG cost proxy for Gujarat PNG)",
+   "unit": "USD/MMBtu",
+   "value": 32.84,
+   "year_ago": 11.15,
+   "yoy_pct": 194.5,
+   "as_of": "2026-10-30",
+   "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/JKM%3DF?range=1y&interval=1d",
+   "status": "unverified",
+   "source_tier": "market_data",
+   "scored": false
+  },
+  "henry_hub": {
+   "symbol": "NG=F",
+   "label": "Henry Hub natural gas",
+   "unit": "USD/MMBtu",
+   "value": 2.898,
+   "year_ago": 4.266,
+   "yoy_pct": -32.1,
+   "as_of": "2026-10-30",
+   "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NG%3DF?range=1y&interval=1d",
+   "status": "unverified",
+   "source_tier": "market_data",
+   "scored": false
+  },
+  "us_hrc": {
+   "symbol": "HRC=F",
+   "label": "US HRC steel futures (global steel price proxy)",
+   "unit": "USD/st",
+   "value": 1398.0,
+   "year_ago": 848.0,
+   "yoy_pct": 64.9,
+   "as_of": "2026-10-30",
+   "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/HRC%3DF?range=1y&interval=1d",
+   "status": "unverified",
+   "source_tier": "market_data",
+   "scored": false
+  }
+ },
+ "counts": {
+  "Lend": 9,
+  "Selective": 1,
+  "Avoid": 5,
+  "Unknown — collect": 1
+ },
+ "config": {
+  "weights": {
+   "_last_calibrated": "2026-11-01",
+   "_note": "Initial expert weights, not back-tested. Output momentum and export demand carry most weight; credit-vs-output flags leverage build-up; macro overlays apply only to sensitive sectors.",
+   "iip_yoy": 1.0,
+   "iip_fytd": 1.0,
+   "export_fytd_usd": 1.0,
+   "credit_vs_output": 0.75,
+   "energy_overlay": 1.0,
+   "rate_overlay": 1.0
+  },
+  "thresholds": {
+   "_last_calibrated": "2026-11-01",
+   "iip_yoy": {
+    "pos_above": 5.0,
+    "neg_below": 0.0
+   },
+   "iip_fytd": {
+    "pos_above": 5.0,
+    "neg_below": 0.0
+   },
+   "export_fytd_usd": {
+    "pos_above": 10.0,
+    "neg_below": 0.0
+   },
+   "credit_vs_output_gap_pp": {
+    "pos_below": 10.0,
+    "neg_above": 20.0
+   },
+   "brent_usd_high": 100.0,
+   "brent_usd_low": 75.0,
+   "verdict": {
+    "lend_at_or_above": 65,
+    "avoid_below": 45
+   },
+   "min_verified_drivers": 2,
+   "overlay_max_points": 5,
+   "_overlay_note": "Macro overlays (Brent, RBI rates) shift the core sector score by at most +/- overlay_max_points; they cannot decide a verdict alone."
+  }
+ },
+ "missing_sources": [
+  {
+   "item": "Polished diamond price index",
+   "why": "Rapaport/IDEX indices are paid; no free official series. Using GJEPC/DGCIS export values instead.",
+   "action": "Unknown — collect (Rapaport subscription or GJEPC monthly)"
+  },
+  {
+   "item": "PTA / MEG / POY domestic prices (Surat MMF)",
+   "why": "Reliance/IOCL price lists and ICIS/CCFGroup are not free.",
+   "action": "Unknown — collect (dealer quotes); Brent shown as proxy"
+  },
+  {
+   "item": "Gujarat Gas industrial PNG tariff (Morbi)",
+   "why": "Tariff circulars are PDFs with no stable link; not yet automated.",
+   "action": "Unknown — collect; JKM/Henry Hub shown as proxy"
+  },
+  {
+   "item": "Domestic cotton (CCI / Shankar-6) price",
+   "why": "CCI/Cotlook pages have no stable machine-readable feed.",
+   "action": "Unknown — collect; ICE cotton shown as proxy"
+  },
+  {
+   "item": "Sector GNPA / SMA, DSCR, cash-conversion cycle",
+   "why": "Sector-level bank asset-quality and borrower financials are not published at this granularity (sample's figures were illustrative).",
+   "action": "Unknown — collect from internal MIS / CMIE Prowess"
+  },
+  {
+   "item": "China dumping index",
+   "why": "No official index exists; DGTR anti-dumping notices are qualitative.",
+   "action": "Language only (DeepSeek, unscored) once key is set"
+  }
+ ],
+ "deepseek": {
+  "enabled": false,
+  "use": "URL discovery and language only; never numbers"
+ },
+ "health": [
+  {
+   "dataset": "rbi_sibc",
+   "source": "rbi_press_list",
+   "ok": true,
+   "error": null,
+   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+   "period": "2026-09-30"
+  },
+  {
+   "dataset": "iip_nic2",
+   "source": "pib_rss",
+   "ok": false,
+   "error": "no candidate URL found",
+   "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
+  },
+  {
+   "dataset": "iip_nic2",
+   "source": "deepseek_site_search",
+   "ok": false,
+   "skipped": true,
+   "error": "DEEPSEEK_API_KEY not set (auto-enables when added)",
+   "url": null
+  },
+  {
+   "dataset": "iip_nic2",
+   "source": "last_known",
+   "ok": true,
+   "error": null,
+   "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+   "period": "2026-09-30"
+  },
+  {
+   "dataset": "exports_qe",
+   "source": "commerce_pattern",
+   "ok": true,
+   "error": null,
+   "url": "https://www.commerce.gov.in/files/2026-10/Quick%20Estimates%20September%202026.pdf",
+   "period": "2026-09-30"
+  },
+  {
+   "dataset": "macro_engine",
+   "source": "regime_latest",
+   "ok": true,
+   "error": null,
+   "url": "data/regime_latest.json"
+  },
+  {
+   "dataset": "commodities",
+   "source": "yahoo:CT=F",
+   "ok": true,
+   "error": null,
+   "url": "https://query1.finance.yahoo.com/v8/finance/chart/CT%3DF?range=1y&interval=1d"
+  },
+  {
+   "dataset": "commodities",
+   "source": "yahoo:BZ=F",
+   "ok": true,
+   "error": null,
+   "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?range=1y&interval=1d"
+  },
+  {
+   "dataset": "commodities",
+   "source": "yahoo:JKM=F",
+   "ok": true,
+   "error": null,
+   "url": "https://query1.finance.yahoo.com/v8/finance/chart/JKM%3DF?range=1y&interval=1d"
+  },
+  {
+   "dataset": "commodities",
+   "source": "yahoo:NG=F",
+   "ok": true,
+   "error": null,
+   "url": "https://query1.finance.yahoo.com/v8/finance/chart/NG%3DF?range=1y&interval=1d"
+  },
+  {
+   "dataset": "commodities",
+   "source": "yahoo:HRC=F",
+   "ok": true,
+   "error": null,
+   "url": "https://query1.finance.yahoo.com/v8/finance/chart/HRC%3DF?range=1y&interval=1d"
+  }
+ ],
+ "warnings": []
+}
