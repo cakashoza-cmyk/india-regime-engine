@@ -48,8 +48,18 @@ def chat_json(system, user, max_tokens=None):
         "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}
     if max_tokens:
         body["max_tokens"] = max_tokens
-    r = _post("/v1/chat/completions", body)
-    return json.loads(r["choices"][0]["message"]["content"])
+        body["thinking"] = {"type": "disabled"}
+    r = _post("/v1/chat/completions", body, timeout=120)
+    ch = r["choices"][0]
+    print("chat usage", json.dumps(r.get("usage", {})), "finish", ch.get("finish_reason"))
+    txt = ch["message"].get("content") or ""
+    if not txt.strip() and max_tokens:  # reasoning ate the budget: one wider retry
+        body["max_tokens"] = max_tokens * 2
+        r = _post("/v1/chat/completions", body, timeout=120)
+        ch = r["choices"][0]
+        print("chat usage(retry)", json.dumps(r.get("usage", {})), "finish", ch.get("finish_reason"))
+        txt = ch["message"].get("content") or ""
+    return json.loads(txt)
 
 
 # ---- Spec 4.3 mandatory prompt (data extraction, never analysis)
