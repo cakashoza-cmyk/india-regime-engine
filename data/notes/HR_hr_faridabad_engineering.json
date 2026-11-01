@@ -1,0 +1,158 @@
+{
+ "key": "hr_faridabad|engineering",
+ "state": "HR",
+ "city": "hr_faridabad",
+ "ind": "engineering",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 78,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Faridabad engineering & capital goods — pursue asset-backed OEM/auto-component and export-linked fabricators with order visibility; avoid pure EPC and thin-margin wind/transmission players until margins stabilise.",
+ "title": "Faridabad Engineering & Capital Goods: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Faridabad engineering runs on metal in, machined parts out, and cash back through receivables.** A unit buys steel and castings, converts them on CNC and press lines, and sells to auto OEMs, railways, power T&D and export buyers. Cash sits in inventory (raw plus WIP) and in receivables from large buyers; the working-capital cycle is the whole game, and CRISIL notes EPC players carry a longer cash conversion cycle than OEMs [11]. So when a proposal lands, check the receivable days against the buyer mix; if one OEM is over half of sales, ask for the purchase-order and payment terms in writing.",
+  "## What has changed now\n**The national demand signal is strong: IIP for NIC 28 output is +10.3% YoY and +10.4% Apr-to-date [D], and exports are +19.8% Apr-to-date in USD [D].** Haryana GST collections are running +10.1% Apr-to-date versus India +6.1% [D], a genuine local tailwind. But peers show margin strain even on growth: Suzlon grew revenue 26% to Rs 4,869 crore while EBITDA margin narrowed to 14.8% from 18.6% [7], and Pitti is expanding amid margin strain [4]. **Growth is real; pricing power is not automatic.** So when a proposal shows rising sales with flat EBITDA, ask for the price-escalation clause with the buyer.",
+  "## Where the growth is\n**Pursue auto-component and precision-machining suppliers to OEMs, export-linked fabricators, and firms feeding power T&D and data-centre demand.** Skipper posted its highest-ever Q2 revenue with PAT up 56% and strong export growth [6]; DEE's order book crossed Rs 1,300 crore with revenue up 77% to Rs 286.7 crore [5]; Pitti cites AI data-centre and global sourcing demand as structural [4]. Talbros is expanding in Faridabad itself [1]. **Avoid pure-play EPC and thin-margin wind/transmission subcontractors** until their margins recover.",
+  "## How to grow safely\n**Structure against the working-capital cycle, not the P&L.** Take monthly stock-and-receivable statements, sanction limits against a defined drawing power, and insist on hypothecation of current assets plus a second charge on the Faridabad property. Note that Faridabad is also an NPA and loan-settlement hub [2] — so check the promoter's prior settlement history before sanction; if any settled account appears, ask for the OTS letter and closure proof. Collect from customer: current order book value, buyer-wise receivable ageing, and EBITDA margin trend.",
+  "## Early-warning signs\n**Watch receivable days, inventory days and buyer concentration monthly.** If receivable days stretch beyond the sanctioned cycle for two months, cut drawing power and ask for the buyer's payment confirmation. If EBITDA margin falls while sales rise, reprice or reduce exposure. If a single buyer crosses half of sales, seek a second-buyer order before enhancing limits."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-receivable statement",
+   "Receivable days stretch two months running -> cut drawing power, seek buyer payment confirmation"
+  ],
+  [
+   "Quarterly EBITDA margin",
+   "Margin falls while sales rise -> reprice or trim exposure"
+  ],
+  [
+   "Monthly buyer-wise sales mix",
+   "One buyer crosses half of sales -> require second-buyer order before limit enhancement"
+  ],
+  [
+   "Promoter CIBIL and settlement history (at sanction and annually)",
+   "Any prior OTS or settled account -> obtain OTS letter and closure proof before sanction"
+  ],
+  [
+   "Order book and export order position (quarterly)",
+   "Order book falls or export orders stall -> freeze fresh capex-linked limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Strong national IIP and export data offset by peer margin strain; local Faridabad news thin.",
+ "articles": [
+  {
+   "title": "Talbros Engineering Takes Next Big Step in Faridabad",
+   "url": "https://www.projxnews.com/Industrial/talbros-engineering-takes-next-big-step-in-faridabad",
+   "date": "2026-07-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Faridabad — NPA & loan settlement hub",
+   "url": "https://npaexperts.in/districts/faridabad",
+   "date": "2026-06-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ファリダバード—デリー首都圏を支えるインド北部の産業拠点 | 株式会社SoJapan",
+   "url": "https://india-marketing.jp/business/faridabad/#index_id0",
+   "date": "2026-03-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Pitti Engineering Bets Big on Growth Amid Margin Strain - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/pitti-engineering-bets-big-on-growth-amid-margin-strain#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "DEE’s order book crosses Rs 1,300 crore as Q3 profit rebounds sharply - DEE Development Engineers Ltd",
+   "url": "https://www.financialexpress.com/business/news/dees-order-book-crosses-rs-1300-crore-as-q3-profit-rebounds-sharply/4132452/?ref=Alsoread_article#1",
+   "date": "2026-02-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SKPL/SECT/2026-27/103",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7562945-dfe3-4861-a0ac-9b5f25acd39e.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India Wind Energy Market Tests Suzlon’s Growth Model",
+   "url": "https://urbanacres.in/indias-wind-energy-boom-is-testing-suzlons-growth-model/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating rationale Anawil Wire and Engineering Ltd",
+   "url": "https://nsearchives.nseindia.com/corporate/ANAWIL_21082026125904_Final_RR__Anawil_Wire_and_Engineering_Ltd.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "| J Kumar    | ICRA A1    | ICRA A+    | Stable    | The rating favourably factors in JKIL’s strong OB position, which provides ...",
+   "url": "https://www.hdfcsec.com/hsl.docs//Industrials%20-%20N%E2%80%99HAI%E2%80%99%20Way%20-%20HSIE-202310251417508242006.pdf#11#40#11",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- **R$’000 crore**",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/may/the-march-of-capital-goods.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 78 (national 80 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,146 @@
+{
+ "key": "rj_kota|education_institutions",
+ "state": "RJ",
+ "city": "rj_kota",
+ "ind": "education_institutions",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution on Kota education and coaching lending: pursue established K-12 schools and branded coaching with audited fee books; avoid small single-branch coaching centres and new-capacity capex until enrolment and fee-collection data are verified.",
+ "title": "Kota schools, colleges & coaching: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Kota's education economy runs on fee cash collected in advance from students who live away from home, and the cash cycle is short while the capex cycle is long.** A coaching centre or school converts classrooms, hostels and teacher salaries into fees; the rating literature calls this a steady, predictable single-stream cash flow from fees with high predictability of outflow and negligible working-capital risk, but moderate-to-high capex risk [8]. So when a proposal lands, check the fee-collection calendar against the loan repayment dates; if fees are collected term-wise but repayment is monthly, ask how the trough months are funded. The local 'Kota industry slowdown' coverage [2][3] is a topic page with no figures in what we have, so treat it as a flag, not evidence. Peer results are mixed and mostly not Kota-specific: NIIT Learning expects Q4 recovery from large contract wins and keeps its FY27 outlook [5], while Navneet shows a consolidated net loss of Rs 74 crore against Rs 396 crore quarter-on-quarter [4] — note that source is undated. Say plainly: our sources say little about Kota itself, so lean on first principles and peers. ## Where the growth is\n**Pursue established K-12 schools with a track record, where the rating criteria see strong demand and steady occupancy, and branded coaching with audited fee books and owned premises.** The same criteria warn that tertiary demand depends on demographics, employment perception, brand and regulation [9][11], so treat standalone colleges and MBA/engineering institutes as the cautious end. Avoid single-branch coaching centres renting classrooms, and any borrower funding new hostel or building capex on projected enrolments — capex is the moderate-to-high risk here [8]. ## How to grow safely\n**Structure against the fee cycle, not the borrower's optimism.** Take monthly fee-collection statements and bank statements, term-wise enrolment counts, and a rent or lease schedule; collect from customer the actual fee per student, hostel occupancy and teacher salary bill, since none of these appear in our sources. Covenant on enrolment not falling below the prior term and on fee receipts routed through the lending bank. For capex, insist on own contribution and tie disbursement to completed construction, not bookings. ## Early-warning signs\n**Watch refunds and student exits first — in a fee-in-advance business, a refund wave is the earliest cash signal.** A drop in term enrolment, rising fee discounts, salary delays, or hostel vacancies are the triggers; act before the next admission season, not after."
+ ],
+ "watch": [
+  [
+   "Monthly fee-collection and bank statements (monthly)",
+   "Fee receipts fall below the prior term's run-rate -> ask for enrolment list and refund register before next disbursement"
+  ],
+  [
+   "Term enrolment count (per term)",
+   "Enrolment drops versus prior term -> freeze fresh limits and re-price the exposure"
+  ],
+  [
+   "Refund and dropout register (monthly)",
+   "Refund claims rise sharply -> inspect hostel occupancy and teacher salary payment status"
+  ],
+  [
+   "Capex progress versus sanction (quarterly)",
+   "Construction behind schedule or cost overrun -> stop further disbursement until own contribution is verified"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Diwali break shows term running normally; no fresh Kota financial data in sources.",
+ "articles": [
+  {
+   "title": "कोटा कोचिंग में 5 नवंबर से दिवाली की छुट्टियां, घर लौटने के लिए छात्रों में मची होड़, ट्रेनों में 'नो रूम' और लंबी वेटिंग",
+   "url": "https://www.etvbharat.com/hi/state/kota-coaching-students-diwali-holidays-from-nov-5-to-13-long-waiting-in-delhi-up-bihar-trains-rjs26103100710",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "kota industry slowdown: Latest News & Videos, Photos about kota industry slowdown | The Economic Times - Page 1 - Business News›kota industry slowdown",
+   "url": "https://economictimes.indiatimes.com/topic/kota-industry-slowdown#1",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "kota industry slowdown News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/kota-industry-slowdown/news#1",
+   "date": "2026-10-14",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tag: Navneet Education - -Consolidated net loss at Rs 74 crore versus loss of Rs 396 crore (QoQ)",
+   "url": "http://livecms.moneycontrol.com/tag/navneet-education/page/12#2",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "NIIT Learning expects Q4 recovery as large contract wins begin contributing to revenue - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/niit-learning-expects-q4-recovery-as-large-contract-wins-begin-contributing-to-revenue-q2-earnings-results-boardroom-20023416.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Golden Crest Education & Services Limited annuncia i risultati finanziari per il quarto trimestre e l'intero esercizio chiusi al 31 marzo 2026 - d0ece2239e639a851ef6af95870.esEJb16KwGLks3NoEB8qP3OdIeggix955diGXKFH4IE",
+   "url": "https://it.marketscreener.com/notizie/golden-crest-education-services-limited-annuncia-i-risultati-finanziari-per-il-quarto-trimestre-e-ce7f5addd881f622#1",
+   "date": "2026-05-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Q1 FY27 Earnings Results",
+   "url": "https://tapetide.com/earnings-tracker/fy27/q1?sector=Consumer+Services&sort=rev_growth&order=desc",
+   "date": "2026-06-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil Ratings assesses management in three broad areas: integrity, risk appetite, and competency",
+   "url": "https://www.crisil.com/content/dam/crisilrating/criteria-and-methodology/criteria-for-manufacturing-trading-and-corporate-services-sector.pdf#3#15#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/education-institutions/CRISILs-criteria-for-rating-Education-institutions.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "While ICRA believes that a strong business profile drives strong financial profile in the long- term, the financial profile of a...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/789~Higher%20Education#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CRISIL Ratings criteria for rating educational institutions",
+   "url": "https://www.crisilratings.com/content/dam/crisil/criteria_methodology/education-institutions/archive/CRISILs-criteria-for-rating-Education-institutions-Oct2021.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Rajasthan None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

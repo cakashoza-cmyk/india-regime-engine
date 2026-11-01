@@ -1,0 +1,158 @@
+{
+ "key": "gj_vadodara|engineering",
+ "state": "GJ",
+ "city": "gj_vadodara",
+ "ind": "engineering",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 78,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Vadodara engineering & capital goods — pursue export-linked, order-book-backed OEMs and fabricators; avoid EPC-heavy and thin-margin casting units until receivables and margin data are verified.",
+ "title": "Vadodara Engineering & Capital Goods: a note to the credit manager",
+ "narrative": [
+  "Value sits in the order book and the customer relationship, not the machine. Cash sits in receivables and work-in-progress, so **the working-capital cycle is the credit, not the plant** [9][11]. Pricing power is thin where the product is a commodity fabrication; it is real where the unit is a qualified vendor to a marquee OEM.",
+  "## What has changed now\n**The demand signal is genuinely strong: IIP for NIC 28 (machinery) is up 10.3% YoY and 10.4% Apr-to-date, and exports are up 19.8% Apr-to-date in USD** [D]. Gujarat GST collections are running +11.9% Apr-to-date against India's +6.1% [D], so the local order flow is real. But peer results show the split clearly: DEE's revenue rose 77% YoY to ₹286.7 crore with operating profit at ₹47.6 crore [5], and Skipper posted its highest-ever Q2 revenue with PAT up 56% [6] — while Suzlon grew revenue 26% to ₹4,869 crore but EBITDA stayed flat at ₹720 crore and margin fell to 14.8% from 18.6% [7]. **Volume is not margin.** Pitti is expanding a Hyderabad casting facility through FY2030 on data-centre, mining and railway order visibility [4] — good for them, but it tells you capex is being committed against order books that must actually execute.",
+  "## Where the growth is — who to pursue\n**Pursue the export-linked fabricator and the qualified-vendor OEM supplier.** Exports at +19.8% Apr-to-date [D] and the FGI EXIM Conclave in Vadodara [3] point to units with real overseas buyers. Pursue piping and fittings makers serving oil & gas, given DEE's execution rebound [5], and T&D structure makers given Skipper's record order book [6]. **Avoid the pure EPC contractor and the single-customer casting shop** until you see the cash conversion cycle — CRISIL notes EPC cash cycles run higher than OEMs because of longer execution periods [11].",
+  "## How to grow safely\n**Structure every limit against the order book, not the balance sheet.** Take assignment of receivables or a charge on the order book where the buyer is a marquee name. Set the drawing power on verified receivables ageing, not on stock. **Take every month: stock-and-receivable statement, ageing bucket beyond 90 days, order-book position with buyer names, and GST returns matched to sales.** If the receivable days exceed the sanction assumption, ask for the buyer-wise ageing and the contract payment terms before renewing. Where the unit is bidding for orders, note that performance bank guarantees consume limit — size the non-fund-based line separately [9].",
+  "## Early-warning signs\n**Watch margin before you watch revenue.** If EBITDA margin slips the way Suzlon's did — 14.8% from 18.6% [7] — while sales grow, the unit is buying volume. Watch receivable days stretching past the contract terms, inventory building against a stalled order, and any capex announced without named buyers. Vadodara-specific coverage in our sources is thin — the local items are an exhibition notice [1] and a conclave post [3], and one local source is a demo page [2] — so lean on first principles and the peer set above. Collect from customer: city-level order-book data, unit-wise receivable days, and buyer concentration."
+ ],
+ "watch": [
+  [
+   "Receivable ageing (monthly)",
+   "90+ day bucket crosses 25% of book -> freeze enhancement, ask for buyer-wise ageing"
+  ],
+  [
+   "EBITDA margin (quarterly)",
+   "Margin falls while revenue grows -> reprice or reduce limit"
+  ],
+  [
+   "Order book (monthly)",
+   "Order book falls below 6 months of revenue -> shift to receivables-backed structure"
+  ],
+  [
+   "GST returns vs sales (monthly)",
+   "Gap above 10% between GST turnover and invoiced sales -> stop disbursement, verify"
+  ],
+  [
+   "Bank guarantee utilisation (monthly)",
+   "Non-fund limit above 80% utilised -> resize line before new bid"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "IIP machinery +10.3% YoY, exports +19.8%, Gujarat GST +11.9% vs India +6.1%.",
+ "articles": [
+  {
+   "title": "પ્લાસ્ટિક ક્ષેત્રનું વિશ્વનું બીજા નંબરનું સૌથી મોટું એક્ઝિબિશન મુંબઈમાં યોજાશે: વડોદરામાં AIPMAની બેઠક યોજાઈ, 1500થી વધુ એક્ઝિબિટર્સ અને 2.5 લાખ મુલાકાતીઓ ભાગ લેશે, પર્યાવરણ અને અર્થતંત્રમાં પ્લાસ્ટિકના મહત્વ વિશે જાગૃતિ ફેલાવવાનો મુખ્ય હેતુ - Vadodara News",
+   "url": "https://www.divyabhaskar.co.in/local/gujarat/vadodara/news/vadodara-aipma-plastivision-exhibition-plastic-industry-meet-139551287.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Arjun Rao | Engineering CFO, Vadodara",
+   "url": "https://www.gladwininternational.com/executive-sites/templates/premium-copper-horizon",
+   "date": "2026-09-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "#eximconclave2026 #vadodaratotheworld #gujaratindustry #globaltrade #engineeringhub #exportpromotion #fgi #vadodara | Federation of Gujarat Industries (FGI)",
+   "url": "https://www.linkedin.com/posts/federation-of-gujarat-industries-fgi-_eximconclave2026-vadodaratotheworld-gujaratindustry-activity-7496833172052287488-F41y",
+   "date": "2026-08-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Pitti Engineering Bets Big on Growth Amid Margin Strain - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/pitti-engineering-bets-big-on-growth-amid-margin-strain#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "DEE’s order book crosses Rs 1,300 crore as Q3 profit rebounds sharply - DEE Development Engineers Ltd",
+   "url": "https://www.financialexpress.com/business/news/dees-order-book-crosses-rs-1300-crore-as-q3-profit-rebounds-sharply/4132452/?ref=Alsoread_article#1",
+   "date": "2026-02-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SKPL/SECT/2026-27/103",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7562945-dfe3-4861-a0ac-9b5f25acd39e.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India Wind Energy Market Tests Suzlon’s Growth Model",
+   "url": "https://urbanacres.in/indias-wind-energy-boom-is-testing-suzlons-growth-model/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating rationale Anawil Wire and Engineering Ltd",
+   "url": "https://nsearchives.nseindia.com/corporate/ANAWIL_21082026125904_Final_RR__Anawil_Wire_and_Engineering_Ltd.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| J Kumar    | ICRA A1    | ICRA A+    | Stable    | The rating favourably factors in JKIL’s strong OB position, which provides ...",
+   "url": "https://www.hdfcsec.com/hsl.docs//Industrials%20-%20N%E2%80%99HAI%E2%80%99%20Way%20-%20HSIE-202310251417508242006.pdf#11#40#11",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- **R$’000 crore**",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/may/the-march-of-capital-goods.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 78 (national 80 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

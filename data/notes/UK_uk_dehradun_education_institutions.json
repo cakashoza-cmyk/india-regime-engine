@@ -1,0 +1,146 @@
+{
+ "key": "uk_dehradun|education_institutions",
+ "state": "UK",
+ "city": "uk_dehradun",
+ "ind": "education_institutions",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively to established K-12 schools and fee-funded coaching centres in Dehradun with clean salary records; hold on tertiary colleges and any institution with unpaid staff wages until verified.",
+ "title": "Dehradun schools, colleges & coaching: a note to the credit manager",
+ "narrative": [
+  "## What the business actually is\n**A school or coaching centre converts a fixed asset base (building, faculty, brand) into a single stream of fee cash, collected term-wise.** CRISIL calls education cash flow 'steady and reasonably predictable' with 'negligible' working-capital risk but 'moderate-to-high' capex risk [8]. So the loan is really a bet on occupancy and fee discipline, not on inventory or receivables. **Ask for the fee-collection register and the salary register side by side** — that pair tells you more than any projection.\n\n## What has changed in Dehradun right now\n**Two local signals point to stress in the teaching payroll, which is the first place a school's cash breaks.** Non-government teachers in Dehradun are protesting unpaid salaries with a dharna at the directorate [3], and the High Court has ordered six UTU-affiliated colleges to fill teaching vacancies through regular appointments within six months [2]. Separately, SCPCR now requires schools to hire a qualified counsellor rather than a teacher for counselling [1] — a small but real addition to compliant cost. **When a proposal lands, check the salary-payment track record and PF/ESI deposit history; if there are arrears or a protest on record, ask for the month-wise salary register and the reason for the gap before you sanction.**\n\n## Where the growth is\n**Pursue established K-12 schools and fee-funded coaching centres with steady occupancy; avoid tertiary colleges carrying faculty vacancies and any institution with a payroll backlog.** CRISIL notes K-12 schools with a track record see strong demand and steady occupancy, while tertiary demand depends on brand, placements and regulation [11][9]. Peer results are mixed and mostly not Dehradun-specific: NIIT Learning expects H2 recovery from large contract wins [5], while Navneet's digital push is still shallow in schools [4]. **Treat these as sentiment, not local evidence — the sources say little about Dehradun itself, so lean on first principles and the payroll signal.**\n\n## How to grow safely\n**Structure against fee cash, not against the building.** Take monthly fee-collection statements, salary registers and bank statements; covenant a minimum occupancy and a salary-arrears ceiling. **If occupancy falls below the level you underwrote, ask for the admission register and the fee-default list.**\n\n## Early-warning signs\n- **Salary arrears or staff protests (monthly)** -> freeze fresh disbursal and inspect the fee register.\n- **Fee-collection dip versus prior term (term-wise)** -> ask for the admission and dropout list.\n- **Faculty vacancies unfilled (quarterly)** -> re-rate the borrower's demand assumption.\n- **Capex drawn ahead of enrolment (event)** -> require a phased release tied to occupancy."
+ ],
+ "watch": [
+  [
+   "Salary register and PF/ESI deposits (monthly)",
+   "arrears or protest -> freeze disbursal, inspect fee register"
+  ],
+  [
+   "Fee collection versus prior term (term-wise)",
+   "shortfall -> ask for admission and dropout list"
+  ],
+  [
+   "Occupancy and faculty vacancies (quarterly)",
+   "vacancies unfilled -> re-rate demand assumption"
+  ],
+  [
+   "Capex drawdown versus enrolment (event)",
+   "capex ahead of enrolment -> phase release to occupancy"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Dehradun teacher salary protests and court-ordered faculty filling signal payroll stress.",
+ "articles": [
+  {
+   "title": "Schools must hire qualified counsellor, not teachers, to counsel students: SCPCR",
+   "url": "https://pioneeredge.in/schools-must-hire-qualified-counsellor-not-teachers-to-counsel-students-scpcr/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Fill teaching vacancies in 6 UTU-affiliated colleges through regular appointments within 6 months: HC | Dehradun News - The Times of India",
+   "url": "https://timesofindia.indiatimes.com/city/dehradun/fill-teaching-vacancies-in-6-utu-affiliated-colleges-through-regular-appointments-within-6-months-hc/articleshow/135410209.cms",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "अशासकीय शिक्षक वेतन न मिलने पर धनतेरस को निदेशालय में देंगे धरना - uttarakhand teachers protest over unpaid salaries in dehradun",
+   "url": "https://org374nextwww.jagran.com/uttarakhand/dehradun-city-uttarakhand-teachers-protest-over-unpaid-salaries-in-dehradun-40423146.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tag: Navneet Education - -Consolidated net loss at Rs 74 crore versus loss of Rs 396 crore (QoQ)",
+   "url": "http://livecms.moneycontrol.com/tag/navneet-education/page/12#2",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "NIIT Learning expects Q4 recovery as large contract wins begin contributing to revenue - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/niit-learning-expects-q4-recovery-as-large-contract-wins-begin-contributing-to-revenue-q2-earnings-results-boardroom-20023416.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Golden Crest Education & Services Limited annuncia i risultati finanziari per il quarto trimestre e l'intero esercizio chiusi al 31 marzo 2026 - d0ece2239e639a851ef6af95870.esEJb16KwGLks3NoEB8qP3OdIeggix955diGXKFH4IE",
+   "url": "https://it.marketscreener.com/notizie/golden-crest-education-services-limited-annuncia-i-risultati-finanziari-per-il-quarto-trimestre-e-ce7f5addd881f622#1",
+   "date": "2026-05-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Q1 FY27 Earnings Results",
+   "url": "https://tapetide.com/earnings-tracker/fy27/q1?sector=Consumer+Services&sort=rev_growth&order=desc",
+   "date": "2026-06-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil Ratings assesses management in three broad areas: integrity, risk appetite, and competency",
+   "url": "https://www.crisil.com/content/dam/crisilrating/criteria-and-methodology/criteria-for-manufacturing-trading-and-corporate-services-sector.pdf#3#15#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/education-institutions/CRISILs-criteria-for-rating-Education-institutions.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "While ICRA believes that a strong business profile drives strong financial profile in the long- term, the financial profile of a...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/789~Higher%20Education#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CRISIL Ratings criteria for rating educational institutions",
+   "url": "https://www.crisilratings.com/content/dam/crisil/criteria_methodology/education-institutions/archive/CRISILs-criteria-for-rating-Education-institutions-Oct2021.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Uttarakhand None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

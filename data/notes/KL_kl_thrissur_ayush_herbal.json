@@ -1,0 +1,154 @@
+{
+ "key": "kl_thrissur|ayush_herbal",
+ "state": "KL",
+ "city": "kl_thrissur",
+ "ind": "ayush_herbal",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 46,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Thrissur ayurvedic units with tight monthly stock-and-receivable control; avoid small proprietary-brand units with no herb-supply visibility.",
+ "title": "Thrissur ayurvedic & herbal products: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Ayurvedic and herbal units turn herbs, oils and packaging into tablets, syrups, oils and pastes, and cash comes back slowly.** A peer rating describes a manufacturer running over 1500 products across these formats [9]. The same rating house flags the core cash problem: long credit to customers, partly offset by supplier credit, with inventory at 142 days in FY2023 against 77 days in FY2022 after raw-material stocking [10]. So when a proposal lands, check the receivable days and the herb-stocking logic separately; if inventory has jumped without a matching order book, ask why the stocking was done.\n\n## What has changed now\n**The national demand picture is weak while credit is still expanding fast, so the risk is a slow-moving stock book financed by debt.** India-wide output is -2.1% Apr-to-date while bank credit is +21.6% YoY, a gap of +23.7 pp [D]. Kerala is the better half: GST collections +10.3% Apr-to-date against India's +6.1% [D]. **Thrissur-specific data is thin — the local sources are an Oushadhi 85th-anniversary event [2] and a coriander-leaf mandi page [3], neither of which tells us about ayurvedic demand.** Lean on first principles and peers here.\n\n## Where the growth is\n**Peer results show the growth is in contract manufacturing and export-led herbal cosmetics, not in undifferentiated domestic brands.** Accretion Nutraveda reports revenue up 109.35% YoY and EBITDA up 88.03% for H1 FY27 [4][5]; Veerhealth Care reports 388% YoY revenue growth in Q1 FY27 on export sales and new categories [7]. Pursue Thrissur units that manufacture for other brands, hold repeat institutional orders, or export herbal cosmetics. Avoid small proprietary-brand units selling only into local retail with no order visibility.\n\n## How to grow safely\n**Structure against the working-capital cycle, because that is where this industry loses money.** Take monthly stock statements and ageing of receivables, and a quarterly herb-purchase register reconciled to sales. Price the limit off the 142-day inventory reality [10], not the borrower's optimistic cycle. Where the borrower exports, take the shipping bill and remittance trail each month. Collect from customer the actual receivable days, herb-supplier credit terms and any regulatory licence status — the rating note flags regulatory exposure as a live risk [10].\n\n## Early-warning signs\n**Watch inventory days and receivable ageing first; they move before default.** If inventory days cross the borrower's own prior-year figure without new orders, cut the limit and ask for the order book. If a large customer's payment slips one cycle, move to cash-on-delivery terms for new dispatches. If herb prices spike, check whether the borrower can pass it on — the rating methodology notes raw material is the largest cost component for such companies [11]."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement (monthly)",
+   "Inventory days rise above prior year with no new orders -> freeze fresh limits and seek order book"
+  ],
+  [
+   "Top-customer payment ageing (monthly)",
+   "Any single customer slips one full cycle -> shift new dispatches to cash or LC"
+  ],
+  [
+   "GST filings vs bank credits (monthly)",
+   "GST turnover falls below bank credit growth for two months -> ask for revised projections and reduce limit"
+  ],
+  [
+   "Herb purchase register vs sales (quarterly)",
+   "Purchase register shows stocking without matching sales -> require sell-through evidence before renewal"
+  ],
+  [
+   "Export remittance trail (monthly, export borrowers)",
+   "Shipping bills without matching remittances -> stop export packing credit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "India output -2.1% while bank credit +21.6% signals demand-credit gap; Kerala GST is the offset.",
+ "articles": [
+  {
+   "title": "Tax Revenues",
+   "url": "https://bsppd.business-standard.com/amp/topic/tax-revenues",
+   "date": "2026-10-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "തൃശൂർ കുട്ടനെല്ലൂർ ഔഷധിയുടെ 85-ാം വാർഷികം; കെ രാജൻ ഉദ്ഘാടനം ചെയ്തു",
+   "url": "https://www.manoramanews.com/business/latest/2026/03/15/oushadhi-thrissur-85th-anniversary-inauguration.html",
+   "date": "2026-03-14",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Coriander (Leaves) Market Price Today in Thrissur",
+   "url": "https://mandibhavindia.in/en/commodity/coriander-leaves/kerala/Thrissur",
+   "date": "2025-11-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Date: 31st October, 2026",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/566427bf-b2ed-4bf8-b1cc-bcaedc625dcb.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Accretion Nutraveda Ltd - Robust Performance in H1 FY27: Revenue up 109.35% YoY and EBITDA up 88.03%",
+   "url": "https://www.equitybulls.com/news/378217/accretion-nutraveda-ltd-robust-performance-in-h1-fy27-revenue-up-109-35-yoy-and",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Dabur India Limited is one of the world’s largest Ayurvedic and Natural Health Care Company with a portfolio of over 250 Herba...",
+   "url": "https://www.hdfcsec.com/hsl.docs//21%20Stocks%20for%20Medium%20Long%20Term%20SIP-202105051423055563660.pdf#3#4#3",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Veerhealth Care Limited Reports Strong Q1 FY27 Performance with 388% YoY Revenue Growth and 412.50% YoY PAT Up - PNN Digital",
+   "url": "https://pnn.digital/veerhealth-care-limited-reports-strong-q1-fy27-performance-with-388-yoy-revenue-growth-and-412-50-yoy-pat-up/",
+   "date": "2026-08-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/133749#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Maharishi Ayurveda Products Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/31032021063909_Maharishi_Ayurveda_Products_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "**August 30, 2023**",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=121987#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 46 (national 27 x 0.6 + Kerala 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Kerala: GST collections +10.3% Apr-to-date vs India +6.1% (4.2 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Kerala: electricity demand +11.1% Apr-to-date vs India +9.5% (1.6 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

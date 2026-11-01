@@ -1,0 +1,154 @@
+{
+ "key": "gj_ahmedabad|engineering",
+ "state": "GJ",
+ "city": "gj_ahmedabad",
+ "ind": "engineering",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 78,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Ahmedabad engineering & capital goods — pursue export-linked, order-book-backed OEMs and fabrication units; avoid EPC-heavy and pollution-notice units until structural safeguards are in place.",
+ "title": "Ahmedabad Engineering & Capital Goods: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Engineering and capital goods in Ahmedabad means fabrication, machining, castings, transmission structures and process equipment — units that convert steel, alloys and bought-out components into order-specific hardware.** Cash comes in on milestone-linked contracts, not retail sales, so the working-capital cycle is the business. Rating commentary is explicit that EPC players carry a longer cash conversion cycle than OEMs because execution periods stretch [11], and that a longer cycle directly raises the funding requirement [9]. **So when a proposal lands, check the receivable-and-inventory days against payables before you look at the P&L; if payables are the only thing holding the cycle down, ask how much of that is stretched supplier credit that will snap.**\n\n## What has changed now\n**The demand signal is genuinely strong: IIP for NIC 28 output is +10.3% YoY and +10.4% Apr-to-date [D], and exports are +19.8% Apr-to-date in USD [D].** Gujarat is pulling ahead of the country on collections — GST +11.9% Apr-to-date versus India +6.1% [D]. **But the local news is thin and mixed: 19 Ahmedabad industrial units received closure notices for air pollution on 31-Oct-2026 [1], and the only other local item is a skilling centre for semiconductor and green manufacturing [2][3], which is a talent pipeline, not current order flow.** Peer results show the split clearly — Skipper posted its highest-ever Q2 revenue with PAT up 56% [6], DEE's order book crossed Rs 1,300 crore with revenue up 77% to Rs 286.7 crore [5], while Suzlon grew revenue 26% to Rs 4,869 crore but EBITDA stayed flat at Rs 720 crore and margin fell to 14.8% from 18.6% [7], and Pitti is expanding into a Hyderabad greenfield through FY2030 while margins strain [4]. **Volume is not margin; price the second separately.**\n\n## Where to grow\n**Pursue OEMs and component makers feeding power transmission, data-centre power, railways and oil-and-gas piping — the order books in [5] and [6] show where the money is actually converting.** Prefer borrowers with export exposure, since the +19.8% Apr-to-date export number [D] is the strongest single data point we have. **Avoid pure EPC contractors with long execution tails and thin payables support [11], and avoid any unit sitting under a pollution closure notice [1] until the compliance status is closed out in writing.**\n\n## How to grow safely\n**Structure against the cycle, not the balance sheet: milestone-linked drawing power, receivables-backed limits, and a bank-guarantee sub-limit sized to the bid pipeline, since guarantees are a standard bidding requirement in this trade [9].** Take monthly stock-and-receivable statements, monthly order-book position with client names, and quarterly GST returns matched to sales. **If order book is growing but receivable days are rising faster, cut the limit rather than wait for the annual review.**\n\n## Early warning signs\n**Watch for margin compression on rising volume — the Suzlon pattern of 26% revenue growth with flat EBITDA [7] is the template.** Watch for capex announced ahead of confirmed orders, as with the phased Hyderabad build [4]. Watch for any pollution or compliance notice [1], and for payables stretching beyond normal trade terms [11]. **Any one of these on a monthly statement means stop fresh disbursement and re-underwrite.**"
+ ],
+ "watch": [
+  [
+   "Monthly receivable and inventory days vs payables",
+   "Receivable days rise while payables stretch -> freeze limit enhancement and re-check cash conversion"
+  ],
+  [
+   "Monthly order book with named clients",
+   "Order book grows but conversion slips past milestone dates -> ask for revised execution schedule and client confirmation"
+  ],
+  [
+   "Quarterly GST returns vs reported sales",
+   "GST turnover trails reported sales -> ask for reconciliation before next disbursement"
+  ],
+  [
+   "Monthly bank guarantee and LC outstanding",
+   "Guarantee exposure exceeds sanctioned sub-limit -> require cash margin before issuing further guarantees"
+  ],
+  [
+   "Compliance status (pollution/closure notices)",
+   "Any closure or show-cause notice -> stop fresh disbursement until written clearance"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Strong IIP and export data offset by thin local news and pollution closure notices.",
+ "articles": [
+  {
+   "title": "Ahmedabad: 19 industrial units get closure notices for polluting air | Ahmedabad News - The Times of India",
+   "url": "https://timesofindia.indiatimes.com/city/ahmedabad/ahmedabad-19-industrial-units-get-closure-notices-for-polluting-air/articleshow/135409983.cms",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Microsoft, 1M1B and MeitY Startup Hub Launches Gujarat’s First Green Skills & Applied AI Centre of Excellence in Ahmedabad | Loktej Business News",
+   "url": "https://english.loktej.com/article/34172/microsoft--1m1b-and-meity-startup-hub-launches-gujarat%E2%80%99s-first-green-skills--amp--applied-ai-centre-of-excellence-in-ahmedabad",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Gujarat Opens Its First Green Skills & Applied AI Centre of Excellence at LD College of Engineering, Aims to Skill 3 Lakh Youth",
+   "url": "https://digitallearning.eletsonline.com/2026/10/gujarat-green-skills-applied-ai-centre-of-excellence-ld-college-of-engineering-1m1b-microsoft/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Pitti Engineering Bets Big on Growth Amid Margin Strain - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/pitti-engineering-bets-big-on-growth-amid-margin-strain#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "DEE’s order book crosses Rs 1,300 crore as Q3 profit rebounds sharply - DEE Development Engineers Ltd",
+   "url": "https://www.financialexpress.com/business/news/dees-order-book-crosses-rs-1300-crore-as-q3-profit-rebounds-sharply/4132452/?ref=Alsoread_article#1",
+   "date": "2026-02-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SKPL/SECT/2026-27/103",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7562945-dfe3-4861-a0ac-9b5f25acd39e.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India Wind Energy Market Tests Suzlon’s Growth Model",
+   "url": "https://urbanacres.in/indias-wind-energy-boom-is-testing-suzlons-growth-model/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating rationale Anawil Wire and Engineering Ltd",
+   "url": "https://nsearchives.nseindia.com/corporate/ANAWIL_21082026125904_Final_RR__Anawil_Wire_and_Engineering_Ltd.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| J Kumar    | ICRA A1    | ICRA A+    | Stable    | The rating favourably factors in JKIL’s strong OB position, which provides ...",
+   "url": "https://www.hdfcsec.com/hsl.docs//Industrials%20-%20N%E2%80%99HAI%E2%80%99%20Way%20-%20HSIE-202310251417508242006.pdf#11#40#11",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- **R$’000 crore**",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/may/the-march-of-capital-goods.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 78 (national 80 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
