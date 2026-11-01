@@ -1,0 +1,150 @@
+{
+ "key": "sk_gangtok|tourism_hotels",
+ "state": "SK",
+ "city": "sk_gangtok",
+ "ind": "tourism_hotels",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "In line with the data pack: no score available, so lend selectively to Gangtok homestays and mid-market hotels with verified cash flows; avoid leveraged new capex and seasonal-only borrowers until the November fair shows real bookings.",
+ "title": "Gangtok Tourism, Hotels & Restaurants: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Gangtok hotel or homestay sells beds, food and experiences, and converts them to cash daily; the asset is the building, the cash is in the booking calendar.** Revenue arrives from room nights, F&B and packages sold through tour operators and, increasingly, homestay networks. Costs are largely fixed (staff, power, maintenance, lease or EMI) while demand is seasonal, so the working-capital cycle is short on collections but lumpy on occupancy. **Capex is the risk: a new block or renovation is paid upfront and recovered over years of room nights.**\n\n## What has changed now\n**The state is actively building the trade channel: the first Sikkim Travel and Tourism Fair runs 21-22 November 2026 at Ridge Park, Gangtok, with B2B sessions, destination presentations and confirmed participation from Yeti Airlines, Nepal, and tourism boards of Nepal and Bhutan [1][2].** Organisers have not announced expected visitor or delegate numbers, and no official guest list is out yet [2]. **That is a demand-creation event, not proof of bookings; treat it as a lead indicator only.** Peer results are strong but national, not local: ITC Hotels Q2 FY27 consolidated revenue Rs 1,054 crore, up 26 percent, EBITDA Rs 337 crore, up 37 percent [4]; Leela's Q2 growth was 30 percent RevPAR growth, entirely ARR-led [6]; Ventive's international occupancy was 71 percent for the quarter [5]. **These tell us pricing power exists in the sector, not that Gangtok rates are rising.** Rating reports are undated and generic on hotel methodology [8][9][10][11]; use them for structure, not for Gangtok numbers.\n\n## Where the growth is\n**Pursue homestay operators and small mid-market hotels that already have repeat tour-operator business and can show a booking register.** The fair's focus on homestays, rural and community tourism, wellness and emerging destinations [1][2] points to exactly these borrowers. **Avoid first-time developers, single-property owners funding greenfield capex, and restaurants with no verified footfall history.** When a proposal lands, check the last two seasons' occupancy and average room rate from the register; if the borrower cannot produce it, collect from customer.\n\n## How to grow safely\n**Structure against the season, not the year: size the EMI to the lean months, not the peak.** Take monthly occupancy, cash collection and booking-advance statements every month; if advances fall for two consecutive months, ask for the operator pipeline. **Covenant on debt-service cover and on keeping the property insured and maintained.** For homestays, insist on a personal guarantee and a lien on bookings routed through the platform.\n\n## Early-warning signs\n**Watch for falling advance bookings, rising staff attrition, delayed statutory dues and any request to fund renovation out of working capital.** If the November fair produces no signed trade contracts by January, treat the pipeline as unproven. **Local sources say little about Gangtok-specific demand, so lean on first principles and the peer pricing trend [4][5][6].**"
+ ],
+ "watch": [
+  [
+   "Monthly booking-advance statement (monthly)",
+   "two consecutive monthly falls -> ask for operator contracts and re-size limit"
+  ],
+  [
+   "Occupancy and ARR register (monthly)",
+   "occupancy below lean-season plan -> shift structure to seasonal EMI"
+  ],
+  [
+   "Statutory dues and GST filing (monthly)",
+   "any delay beyond 30 days -> stop fresh disbursement"
+  ],
+  [
+   "Insurance and property maintenance (quarterly)",
+   "lapse or deferred repairs -> require reinstatement before renewal"
+  ],
+  [
+   "Trade contracts signed after the November fair (quarterly)",
+   "no signed contracts by January -> treat pipeline as unproven"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Fair is a lead event; peer results strong but national, no Gangtok data.",
+ "articles": [
+  {
+   "title": "Sikkim Tourism Fair to Bring Travel Trade, Hoteliers and Global Buyers Together in Gangtok",
+   "url": "https://dailyhellokolkata.com/sikkim-tourism-fair-to-bring-travel-trade-hoteliers-and-global-buyers-together-in-gangtok/",
+   "date": "2026-10-06",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Sikkim to Host First Sikkim Travel and Tourism Fair in November - mice showcase",
+   "url": "https://miceshowcase.com/sikkim-to-host-first-sikkim-travel-and-tourism-fair-in-november/",
+   "date": "2026-10-04",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Sikkim to Host Inaugural Travel and Tourism Fair in Gangtok in November - Travel Span",
+   "url": "https://travelspan.in/sikkim-to-host-inaugural-travel-and-tourism-fair-in-gangtok-in-november/#respond",
+   "date": "2026-10-04",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "ITC Hotels Limited registers strong performance: Continued momentum in growth and expansion for Q2 FY27",
+   "url": "https://hospitality.economictimes.indiatimes.com/news/hotels/itc-hotels-limited-registers-strong-performance-continued-momentum-in-growth-and-expansion-for-q2-fy27/135212373?utm_source=Mailer&utm_medium=&utm_campaign=&dt=2026-11-01",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ventive Hospitality reports 27 per cent revenue growth with EBITDA margin at 48 per cent in Q3 FY26 - BW Hotelier",
+   "url": "https://www.bwhotelier.com/article/ventive-hospitality-reports-27-per-cent-revenue-growth-with-ebitda-margin-at-48-per-cent-in-q3-fy26-591943",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results - Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results",
+   "url": "https://www.business-standard.com/amp/markets/news/leela-palaces-hotels-rallies-10-hits-new-high-on-healthy-q2-results-126101500218_1.html#1",
+   "date": "2026-10-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The Indian Hotels Company (BOM:500850) Q2 2027 Earnings Call Transcript & Audio",
+   "url": "https://stockanalysis.com/quote/bom/500850/transcripts/711263-q2-26-27/",
+   "date": "2026-10-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA analyses the long period past financial performance trends and estimates future financial performance to assess the financi...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/859~Hotels#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 14,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130490#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "APEEJAY SURRENDRA PARK HOTELS LIMITED",
+   "url": "https://www.theparkhotels.com/images/site-specific/corporate-site/intimation-credit-rating.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Sikkim None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

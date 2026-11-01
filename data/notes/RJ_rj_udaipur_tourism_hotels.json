@@ -1,0 +1,150 @@
+{
+ "key": "rj_udaipur|tourism_hotels",
+ "state": "RJ",
+ "city": "rj_udaipur",
+ "ind": "tourism_hotels",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Udaipur hospitality is lendable on a selective basis — back licensed, cash-generating hotels and restaurants riding the Diwali demand surge, and decline unapproved rooftop conversions and GST-stressed budget operators.",
+ "title": "Udaipur Tourism, Hotels & Restaurants: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Udaipur hotel or restaurant sells a perishable room-night or a table, and cash arrives the same day it is sold.** Inputs are staff, power, food and beverage, and rent or EMI on the property; the working-capital cycle is short and mostly cash, so the real risk sits in capex and in the licence, not in receivables. **Pricing power is seasonal and event-led** — the local report shows 60% of hotel rooms booked for Diwali with tariffs reaching Rs 1.5 lakh [1]. That is a peak, not a base; underwrite the annual average, not the festival week.",
+  "## What has changed now\n**Demand is visibly hot in the city this season** — the Diwali booking surge and the Rs 1.5 lakh peak tariff are the freshest local signal [1]. **The trade is lobbying on tax, which tells you margins are being squeezed at the policy level**: Hotel Association Udaipur has written to the Union Finance Minister seeking 7 GST reforms, including an ITC demand and a Rs 7,500–10,000 tariff slab [3]. **Separately, the Old City has an unsafe rooftop build-out** — illegal rooftop restaurants raised with iron and wood, flagged as a fire-safety risk [2]. So when a proposal lands, check the fire NOC and municipal approval first; if the rooftop is unapproved, ask for the sanctioned plan and decline if it is absent.",
+  "## Where the growth is\n**Peer results confirm the upcycle is real, not local hype.** ITC Hotels Q2 FY27 consolidated revenue rose 26% with EBITDA up 37% [4]; Leela's Q2 was driven by 30% RevPAR growth, entirely ARR-led, on domestic travel and MICE demand [6]; Ventive posted 27% revenue growth at a 48% EBITDA margin [5]. **Pursue licensed boutique and heritage hotels with steady occupancy, MICE-capable banquet properties, and established F&B operators with owned or leased premises.** Avoid unapproved rooftop conversions [2] and thin-margin budget lodges leaning on GST relief [3]. Note the sources say little about Udaipur-specific financials — lean on first principles and these peers.",
+  "## How to grow safely\n**Structure against the season, not the peak.** Size the loan on the lean-month cash flow, take monthly stock and sales statements plus GST returns, and covenant a minimum occupancy or covers-per-day floor. **Take the fire NOC, licence and lease deed on file at sanction** [2], and require quarterly rent or EMI proof. Where a borrower claims festival-level tariffs [1], ask for the trailing twelve-month average room rate — collect from customer.",
+  "## Early-warning signs\n**Watch for tariff claims that only cite the Diwali peak [1], licence or NOC lapses [2], and any GST-slab dispute hitting billing [3].** A drop in monthly GST turnover or occupancy below the covenant floor means stop fresh disbursal and re-price."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns and occupancy (monthly)",
+   "Turnover falls below covenant floor -> freeze disbursal, re-price"
+  ],
+  [
+   "Fire NOC and municipal licence status (quarterly)",
+   "NOC lapsed or rooftop unapproved -> halt and seek sanctioned plan [2]"
+  ],
+  [
+   "Average room rate vs festival peak (quarterly)",
+   "Borrower cites only peak tariff -> ask for trailing twelve-month ARR, collect from customer [1]"
+  ],
+  [
+   "Rent/EMI payment proof (monthly)",
+   "Missed payment -> escalate and review cash flow"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Diwali bookings at 60% and Rs 1.5 lakh tariffs signal strong local demand [1].",
+ "articles": [
+  {
+   "title": "दिवाली पर लेकसिटी में पर्यटन का बूम, 60% होटल कमरे बुक, डेढ़ लाख रुपए तक पहुंचा किराया",
+   "url": "https://www.etvbharat.com/hi/state/tourists-in-udaipur-advance-booking-in-hotels-in-udaipur-for-diwali-2026-rjs26110100939",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "उदयपुर : लेकव्यू रूफटॉप बनाने की जानलेवा होड़: आगे ऊंची इमारत बनी तो लोहे-लकड़ी से ताना नया फ्लोर | Udaipur Illegal Rooftop Restaurants Old City Fire Safety Risk",
+   "url": "https://www.patrika.com/udaipur-news/udaipur-illegal-rooftop-restaurants-old-city-fire-safety-risk-21023620",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "होटल एसोसिएशन उदयपुर ने केंद्रीय वित्त मंत्री निर्मला सीतारमण को लिखा पत्र : जीएसटी में 7 बड़े सुधारों की मांग",
+   "url": "https://habibkireport.com/city-news/hotel-association-udaipur-writes-to-union-finance-minister-nirmala-sitharaman-demands-7-major-gst-reforms.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ITC Hotels Limited registers strong performance: Continued momentum in growth and expansion for Q2 FY27",
+   "url": "https://hospitality.economictimes.indiatimes.com/news/hotels/itc-hotels-limited-registers-strong-performance-continued-momentum-in-growth-and-expansion-for-q2-fy27/135212373?utm_source=Mailer&utm_medium=&utm_campaign=&dt=2026-11-01",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ventive Hospitality reports 27 per cent revenue growth with EBITDA margin at 48 per cent in Q3 FY26 - BW Hotelier",
+   "url": "https://www.bwhotelier.com/article/ventive-hospitality-reports-27-per-cent-revenue-growth-with-ebitda-margin-at-48-per-cent-in-q3-fy26-591943",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results - Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results",
+   "url": "https://www.business-standard.com/amp/markets/news/leela-palaces-hotels-rallies-10-hits-new-high-on-healthy-q2-results-126101500218_1.html#1",
+   "date": "2026-10-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The Indian Hotels Company (BOM:500850) Q2 2027 Earnings Call Transcript & Audio",
+   "url": "https://stockanalysis.com/quote/bom/500850/transcripts/711263-q2-26-27/",
+   "date": "2026-10-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA analyses the long period past financial performance trends and estimates future financial performance to assess the financi...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/859~Hotels#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 14,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130490#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "APEEJAY SURRENDRA PARK HOTELS LIMITED",
+   "url": "https://www.theparkhotels.com/images/site-specific/corporate-site/intimation-credit-rating.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Rajasthan None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

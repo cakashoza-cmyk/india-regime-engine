@@ -1,0 +1,154 @@
+{
+ "key": "py_puducherry|tourism_hotels",
+ "state": "PY",
+ "city": "py_puducherry",
+ "ind": "tourism_hotels",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Data pack score is UNKNOWN, so no lend-above-65 call can be made; lend selectively to Puducherry owner-run budget/mid-market hotels and restaurants with verified cash flows, and avoid leveraged greenfield capex until UDAN flights actually operate.",
+ "title": "Puducherry Tourism, Hotels & Restaurants: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Puducherry hotel or restaurant sells room-nights and covers, and cash arrives daily at the counter.** Inputs are staff, power, water, food and beverage purchase, OTA commission and rent or EMI; the asset is the building and its fit-out. **Value sits in location and repeat occupancy, not in the kitchen or the linen.** Pricing power is thin in the budget segment and real only where the property is on or near the Beach Promenade or the heritage quarter. **The working-capital cycle is short and favourable: guests pay at checkout, while supplier credit and staff costs run 30 days.** Capex is the risk, not receivables.",
+  "## What has changed now\n**The one hard local fact is a plan, not traffic: flights to Rajahmundry, Tirupati, Kochi and Kannur are being planned under the revised UDAN scheme, with a tripartite agreement signed in September [1].** That is a 2026-11-01 announcement and nothing yet flies. **So when a proposal lands citing airport-led demand, check whether the route is operating and ask for actual arrival numbers; if the promoter cannot show them, treat the demand as unproven.** Our local sources [2][3] are only topic pages with no usable content, so I have no Puducherry occupancy, ARR or restaurant-sales data; collect from customer.",
+  "## What peers tell us\n**Listed peers are growing strongly, but that is corporate and luxury India, not Puducherry mid-market.** ITC Hotels Q2 FY27 consolidated revenue was Rs 1,054 crore, up 26 percent, with EBITDA up 37 percent [4]; Ventive reported 27 percent revenue growth and a 48 percent EBITDA margin in Q3 FY26 [5]; Leela's Q2 was driven by 30 percent RevPAR growth, entirely ARR-led [6]. **Read this as proof that room rates, not just occupancy, can move, and ask every borrower for their own ARR and occupancy trend.** The ICRA hotel methodology [8] and the CHL rational report [9] are undated and old; use them for structure logic only.",
+  "**Take every month: GST returns, bank statements of the collection account, OTA payout statements and a power bill.** Covenant on a minimum DSCR and on debt-funded capex above a stated limit; if the borrower proposes a second property before the first services debt, decline. **Avoid greenfield resorts, leased-asset rollouts and single-restaurant borrowers with no collateral.**",
+  "## Early-warning signs\n**Watch the collection account, not the P&L.** Falling OTA payouts, rising cash withdrawals, power-bill arrears or staff-salary delays mean the daily cash engine has stalled. **If occupancy or covers drop for two consecutive months, ask for the booking register and re-rate the limit.**"
+ ],
+ "watch": [
+  [
+   "Monthly bank and OTA payout statements",
+   "Two months of falling collections -> ask for booking register and re-rate limit"
+  ],
+  [
+   "GST returns (monthly)",
+   "Falling declared turnover against bank credits -> seek explanation and stop enhancement"
+  ],
+  [
+   "Power bill and salary register (monthly)",
+   "Arrears or delayed salaries -> move to tighter monitoring and reduce exposure"
+  ],
+  [
+   "UDAN route status (quarterly)",
+   "Route still not operating -> do not credit airport-led demand in projections"
+  ],
+  [
+   "Property tax and mortgage verification (annual)",
+   "Charge or encumbrance appears -> freeze fresh limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "UDAN flights only planned, no local operating data; peer results strong but not city-specific.",
+ "articles": [
+  {
+   "title": "Flights to Rajahmundry, Tirupati, Kochi, Kannur planned under revised UDAN scheme, says Puducherry CM",
+   "url": "https://www.thehindu.com/news/cities/puducherry/flights-to-rajahmundry-tirupati-kochi-kannur-planned-under-revised-udan-scheme-says-puducherry-cm/article71652418.ece",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "puducherry restaurants News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/puducherry-restaurants/news#1",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "puducherry tourism department News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/puducherry-tourism-department/news#1",
+   "date": "2026-10-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ITC Hotels Limited registers strong performance: Continued momentum in growth and expansion for Q2 FY27",
+   "url": "https://hospitality.economictimes.indiatimes.com/news/hotels/itc-hotels-limited-registers-strong-performance-continued-momentum-in-growth-and-expansion-for-q2-fy27/135212373?utm_source=Mailer&utm_medium=&utm_campaign=&dt=2026-11-01",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ventive Hospitality reports 27 per cent revenue growth with EBITDA margin at 48 per cent in Q3 FY26 - BW Hotelier",
+   "url": "https://www.bwhotelier.com/article/ventive-hospitality-reports-27-per-cent-revenue-growth-with-ebitda-margin-at-48-per-cent-in-q3-fy26-591943",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results - Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results",
+   "url": "https://www.business-standard.com/amp/markets/news/leela-palaces-hotels-rallies-10-hits-new-high-on-healthy-q2-results-126101500218_1.html#1",
+   "date": "2026-10-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The Indian Hotels Company (BOM:500850) Q2 2027 Earnings Call Transcript & Audio",
+   "url": "https://stockanalysis.com/quote/bom/500850/transcripts/711263-q2-26-27/",
+   "date": "2026-10-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA analyses the long period past financial performance trends and estimates future financial performance to assess the financi...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/859~Hotels#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 14,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130490#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "APEEJAY SURRENDRA PARK HOTELS LIMITED",
+   "url": "https://www.theparkhotels.com/images/site-specific/corporate-site/intimation-credit-rating.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Puducherry None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

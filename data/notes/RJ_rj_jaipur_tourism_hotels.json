@@ -1,0 +1,150 @@
+{
+ "key": "rj_jaipur|tourism_hotels",
+ "state": "RJ",
+ "city": "rj_jaipur",
+ "ind": "tourism_hotels",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution on Jaipur tourism/hospitality: lend selectively to established operators with verified occupancy and cash flows; avoid new-build or single-asset leveraged proposals until city-level data is collected.",
+ "title": "Jaipur Tourism, Hotels & Restaurants: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Jaipur hotel turns rooms, F&B and banquet space into nightly cash; restaurants turn covers into daily cash. **Value sits in location, room count and the banquet/MICE mix, and cash arrives fast while capex is heavy and lumpy.** Room revenue is collected at checkout, so the working-capital cycle is short and favourable; the real risk is fixed cost and debt service when occupancy dips. So when a proposal lands, check the split between rooms, F&B and banquet, and ask for the monthly occupancy and ARR register, not just annual accounts.",
+  "## What has changed now\n**Jaipur is showing stronger occupancy gains than rate gains.** HVS reports Jaipur occupancy up 4–6 percentage points and average room rate up 14–16% year-on-year in September [2]. That is a volume-led market, which rewards operators who fill rooms rather than those who chase rate. Peer results confirm the demand: ITC Hotels consolidated revenue up 26% and EBITDA up 37% in Q2 FY27 [4]; Leela's Q2 growth was 30% RevPAR, entirely ARR-led, on domestic travel and MICE demand [6]. Note the Leela read is rate-led, so do not assume Jaipur operators can push rate the same way.",
+  "## Where the growth is\n**Pursue established operators adding banquet/MICE capacity and asset-light management contracts, not greenfield luxury.** A 216-room Signia by Hilton with a 9,700-square-foot ballroom is coming to Jaipur for early 2028 [3] — that is a branded, capital-heavy project, so treat it as a competitor to existing mid-market hotels, not a template for our borrowers. The local flyover-alignment story [1] is a reminder that Jaipur approvals and road access can shift; so when a proposal depends on a specific access road or alignment, ask for the sanctioned plan and check it against current municipal records.",
+  "## How to grow safely\n**Structure against cash flow, not collateral alone.** Take monthly occupancy, ARR and banquet booking data; covenant a minimum DSCR and a debt-service reserve. For restaurants, take daily/weekly sales summaries and a rent-to-revenue cap. Peer margins show the upside: Ventive reported a 48% EBITDA margin in Q3 FY26 [5], but that is a portfolio operator, so do not apply it to a single Jaipur property. Where city-level figures are missing, collect from customer.",
+  "## Early-warning signs\n**Watch occupancy first, then rate.** If monthly occupancy falls while ARR holds, the operator is discounting to fill rooms — ask for the booking pipeline and the banquet forward book. If F&B or banquet revenue drops faster than rooms, check the event calendar and staff attrition. Rating reports stress liquidity and promoter support as key tests [8][9]; so if undrawn limits or cash balances thin, ask for a fresh promoter support letter before any enhancement."
+ ],
+ "watch": [
+  [
+   "Monthly occupancy and ARR register (monthly)",
+   "Occupancy down while ARR flat for two months -> ask for booking pipeline and hold new limits"
+  ],
+  [
+   "Banquet/MICE forward bookings (monthly)",
+   "Forward book down versus same month last year -> reprice or reduce exposure"
+  ],
+  [
+   "Debt-service coverage and cash balances (quarterly)",
+   "DSCR below covenant or cash thinning -> seek promoter support letter and restructure"
+  ],
+  [
+   "Municipal approvals/access-road status (event-based)",
+   "Alignment or access change affecting the property -> re-verify sanctioned plan before disbursal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Jaipur occupancy up 4–6 pp and ARR up 14–16% YoY; peer results strong.",
+ "articles": [
+  {
+   "title": "क्या खासाकोठी फ्लाईओवर मामले में भी कार्रवाई करेगी सरकार, 20 साल पहले होटल व्यवसायी के लिए बदला था अलाइनमेंट",
+   "url": "https://www.khaskhabar.com/local/rajasthan/jaipur-news/news-will-the-government-take-action-in-the-khasa-kothi-flyover-case-where-the-alignment-was-changed-20-years-ago-for-a-hotelier-news-hindi-1-857806-KKN.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "New Delhi leads room rate growth with 33–35% increase, while Jaipur records stronger occupancy gains: HVS - Trav Talk",
+   "url": "https://travtalkindia.com/new-delhi-leads-room-rate-growth-with-33-35-increase-while-jaipur-records-stronger-occupancy-gains-hvs/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Project of the Week: Signia by Hilton Jaipur - THP News",
+   "url": "https://tophotel.news/project-of-the-week-signia-by-hilton-jaipur/?utm_content=kenzie-huff",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ITC Hotels Limited registers strong performance: Continued momentum in growth and expansion for Q2 FY27",
+   "url": "https://hospitality.economictimes.indiatimes.com/news/hotels/itc-hotels-limited-registers-strong-performance-continued-momentum-in-growth-and-expansion-for-q2-fy27/135212373?utm_source=Mailer&utm_medium=&utm_campaign=&dt=2026-11-01",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ventive Hospitality reports 27 per cent revenue growth with EBITDA margin at 48 per cent in Q3 FY26 - BW Hotelier",
+   "url": "https://www.bwhotelier.com/article/ventive-hospitality-reports-27-per-cent-revenue-growth-with-ebitda-margin-at-48-per-cent-in-q3-fy26-591943",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results - Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results",
+   "url": "https://www.business-standard.com/amp/markets/news/leela-palaces-hotels-rallies-10-hits-new-high-on-healthy-q2-results-126101500218_1.html#1",
+   "date": "2026-10-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The Indian Hotels Company (BOM:500850) Q2 2027 Earnings Call Transcript & Audio",
+   "url": "https://stockanalysis.com/quote/bom/500850/transcripts/711263-q2-26-27/",
+   "date": "2026-10-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA analyses the long period past financial performance trends and estimates future financial performance to assess the financi...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/859~Hotels#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 14,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130490#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "APEEJAY SURRENDRA PARK HOTELS LIMITED",
+   "url": "https://www.theparkhotels.com/images/site-specific/corporate-site/intimation-credit-rating.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Rajasthan None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

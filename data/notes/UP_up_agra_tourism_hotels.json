@@ -1,0 +1,154 @@
+{
+ "key": "up_agra|tourism_hotels",
+ "state": "UP",
+ "city": "up_agra",
+ "ind": "tourism_hotels",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Agra F&B and budget-stay operators with verified cash flows; avoid leveraged new capex and unregistered eateries until local demand and compliance data are collected.",
+ "title": "Agra Tourism, Hotels & Restaurants: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Agra hospitality is a ticket-and-thali business: rooms and plates sold daily, cash collected at the counter, costs paid monthly.** Hotels convert beds and staff into room-nights; restaurants convert kitchen gas, food and labour into covers. Value sits in location near the monuments and in repeat tour-operator tie-ups, not in the building. Pricing power is thin for budget properties and mid-market eateries; premium and MICE-led properties hold rate better, as peers show with 30% RevPAR growth entirely ARR-led [6]. **Capex is heavy and lumpy (rooms, kitchens, cold storage), so a new build is a bet on occupancy, not on the city.**",
+  "## Where cash sits and what has changed now\n**Working capital is short and mostly negative: customers pay at checkout, while gas, food and wages are paid on 15-30 day cycles.** The live shock is input cost: commercial LPG cylinder prices in Agra rose by Rs 950 while domestic cylinder prices stayed unchanged [2]. For a restaurant, that is a direct hit to gross margin with no matching menu re-pricing yet, so when a proposal lands, check the monthly commercial-cylinder bill and menu revision history; if the borrower has not re-priced, ask for the margin bridge. **Compliance cost is also rising: the civic body fined 4 eateries Rs 1.7L for poor AQI and stepped up water sprinkling [1].** Treat that as a recurring operating cost, not a one-off.",
+  "## Growth opportunity: who to pursue now\n**Pursue operators who already own the kitchen or the building and are adding covers or rooms, not greenfield entrants.** Peer results show the demand side is real: ITC Hotels consolidated revenue rose 26% with EBITDA up 37% in Q2 FY27 [4], and Ventive Hospitality reported 27% revenue growth with a 48% EBITDA margin in Q3 FY26 [5]. **In Agra, the bankable borrower is the tour-operator-linked budget hotel and the established thali/breakfast chain near the monument circuit.** Avoid leveraged new-build hotels, single-property first-time promoters, and unregistered eateries with no GST trail.",
+  "## How to grow safely\n**Structure against daily cash, not against projected occupancy.** Take monthly GST returns, POS or billing-machine summaries, and the commercial LPG bill; reconcile covers and room-nights to bank credits every month. **Set a covenant on debt-service cover and a minimum monthly deposit into the escrow account.** For capex, cap the loan at the verified cost of equipment and interiors, and take the property as collateral where title is clean. **Where the borrower cannot produce occupancy or cover data, write 'collect from customer' and hold the file.**",
+  "## Early-warning signs\n**Watch the gas bill against covers, the fine notices, and the weekday occupancy.** If the commercial LPG bill rises while covers fall, the margin is being eaten; ask for a revised menu card and a cash-flow re-projection. If civic fines repeat, treat it as a compliance failure and re-price the risk. If weekday occupancy drops for two consecutive months, cut the limit. **Agra-specific demand data is thin in these sources, so lean on first principles and peer benchmarks until the customer supplies local numbers.**"
+ ],
+ "watch": [
+  [
+   "Monthly commercial LPG bill (monthly)",
+   "Bill rises without a menu revision -> ask for margin bridge and re-price limit"
+  ],
+  [
+   "Civic fine notices (event-based)",
+   "Repeat AQI fine -> treat as recurring cost and re-assess cash flow"
+  ],
+  [
+   "Weekday occupancy and covers (monthly)",
+   "Two consecutive months of decline -> cut limit or seek additional collateral"
+  ],
+  [
+   "GST returns vs bank credits (monthly)",
+   "Mismatch above tolerance -> stop disbursement and reconcile"
+  ],
+  [
+   "Debt-service cover (quarterly)",
+   "Falls below covenant -> demand promoter support or restructure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Commercial LPG up Rs 950 and AQI fines on eateries squeeze Agra F&B margins.",
+ "articles": [
+  {
+   "title": "Poor AQI in Agra: Civic body fines 4 eateries Rs 1.7L, steps up water sprinkling",
+   "url": "https://timesofindia.indiatimes.com/city/agra/poor-aqi-in-agra-civic-body-fines-4-eateries-rs-1-7l-steps-up-water-sprinkling/articleshow/135432118.cms?utm_source=jionews&utm_medium=Referral&utm_campaign=jionews&comscorekw=jionews",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "घरेलू रसोई गैस उपभोक्ताओं को दिवाली पर राहत: कमर्शियल LPG सिलिंडर महंगा, आगरा का नया रेट",
+   "url": "https://www.jagran.com/uttar-pradesh/agra-city-commercial-cylinder-prices-increased-by-rs-950-domestic-cylinder-prices-remain-unchanged-know-agra-today-gas-rate-40423512.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "India Hotel Agreements Cover An Estimated 7,200 Rooms And Keys | EconoTimes",
+   "url": "https://econotimes.com/India-Hotel-Agreements-Cover-An-Estimated-7-200-Rooms-And-Keys-1768100",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "ITC Hotels Limited registers strong performance: Continued momentum in growth and expansion for Q2 FY27",
+   "url": "https://hospitality.economictimes.indiatimes.com/news/hotels/itc-hotels-limited-registers-strong-performance-continued-momentum-in-growth-and-expansion-for-q2-fy27/135212373?utm_source=Mailer&utm_medium=&utm_campaign=&dt=2026-11-01",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ventive Hospitality reports 27 per cent revenue growth with EBITDA margin at 48 per cent in Q3 FY26 - BW Hotelier",
+   "url": "https://www.bwhotelier.com/article/ventive-hospitality-reports-27-per-cent-revenue-growth-with-ebitda-margin-at-48-per-cent-in-q3-fy26-591943",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results - Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results",
+   "url": "https://www.business-standard.com/amp/markets/news/leela-palaces-hotels-rallies-10-hits-new-high-on-healthy-q2-results-126101500218_1.html#1",
+   "date": "2026-10-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The Indian Hotels Company (BOM:500850) Q2 2027 Earnings Call Transcript & Audio",
+   "url": "https://stockanalysis.com/quote/bom/500850/transcripts/711263-q2-26-27/",
+   "date": "2026-10-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA analyses the long period past financial performance trends and estimates future financial performance to assess the financi...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/859~Hotels#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 14,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130490#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "APEEJAY SURRENDRA PARK HOTELS LIMITED",
+   "url": "https://www.theparkhotels.com/images/site-specific/corporate-site/intimation-credit-rating.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Uttar Pradesh None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
