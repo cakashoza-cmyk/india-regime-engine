@@ -1,0 +1,149 @@
+{
+ "key": "wb_kolkata|wholesale_trade",
+ "state": "WB",
+ "city": "wb_kolkata",
+ "ind": "wholesale_trade",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 12,
+ "nudged_by_news": false,
+ "verdict": "Avoid new wholesale-trade exposure in Kolkata for now; lend only to named, cash-and-carry distributors with clean stock statements and no cash-handling exposure, and treat Barabazar-style cash/credit intermediaries as off-limits.",
+ "title": "Kolkata Wholesale Trade: a note to the credit manager",
+ "narrative": [
+  "The working-capital cycle is the whole business: inventory days plus receivable days minus payable days. Capex is light (godown, racks, a delivery vehicle), so the loan is almost always for stock and receivables, not assets. **So when a proposal lands, check the receivable days against the payable days first; if receivables stretch beyond payables, ask what the trader is funding and from where.**",
+  "## What has changed now\n**The local demand signal is negative: West Bengal GST collections are -1.3% Apr-to-date against India +6.1%, and electricity demand is +5.7% against India +9.5% [D].** That is a state-level stress read, not a Kolkata-specific one — the sources say little about the city itself, so lean on first principles and peers. Nationally, bank credit is running +29.1% YoY against activity of +6.1% [D], and the repo is 5.5% with a tightening stance [D]; **so the system is lending faster than the real economy is growing, which means weaker traders are being kept alive on fresh credit — check whether your borrower's sales growth is real or refinanced.** Locally, a cash-fraud gang has been targeting Barabazar traders with fake currency bundles [2], and the drug control department raided the wholesale medicine market at Mehta Building [3]. Commercial LPG rose by Rs 10 a cylinder ahead of Kali Puja [1] — a direct cost hit for food and hospitality wholesalers.",
+  "## Where the growth is\n**Peer results point to wholesale as a live channel: Aditya Birla Lifestyle's wholesale channel grew 18% in Q2FY27 [7], and Tata Motors' commercial-vehicle demand is strong [4].** For Kolkata, pursue organised distributors of FMCG, lifestyle and auto spares who sell to a documented retailer base and can show GST-matched invoices. **Avoid the cash-and-carry intermediaries in Barabazar and the medicine wholesale cluster until the fraud and raid issues settle [2][3].** Mishka Exim, a listed trader, shows 234.87% sales growth but gross margin of only 11.5% and ROE of 8.5% [5] — **so when a fast-growing trader applies, check the gross margin; if it is below 12%, ask how the loan is serviced from such thin spreads.**",
+  "## How to grow safely\n**Structure as a cash-credit or bill-discounting limit against GST-matched invoices, not a term loan.** Take stock and receivable statements every month, GST returns every month, and a physical godown check quarterly. Covenant on receivable days and on the share of sales to the top five buyers."
+ ],
+ "watch": [
+  [
+   "GST turnover vs bank turnover (monthly)",
+   "Divergence -> ask for sales register and reconcile"
+  ],
+  [
+   "Cash sales share vs bank deposits (monthly)",
+   "Rising gap -> ask for cash book"
+  ],
+  [
+   "Supplier payable days (quarterly)",
+   "Shortening -> ask for payable ageing"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "WB GST -1.3% vs India +6.1%; Barabazar cash fraud and Mehta Building raid hit local trade.",
+ "articles": [
+  {
+   "title": "কালীপুজোর আগেই ফের বাড়ল গ্যাসের দাম! এক ধাক্কায় ১০ টাকা বেশি, কত হল বাণিজ্যিক সিলিন্ডারের নতুন দর? - KolkataTV",
+   "url": "https://kolkatatvonline.in/kolkata/commercial-lpg-cylinder-price-hike-november-1-2026-kolkatatv-online-kolkata-news/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Kolkata Cash Fraud Gang Targeted Barabazar Traders",
+   "url": "https://urbanacres.in/kolkata-cash-fraud-gang-targeted-barabazar-traders-with-fake-bundles/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Mehta Building Raid | ওষুধের পাইকারি বাজারে হানা! মেহতা বিল্ডিংয়ে ড্রাগ কন্ট্রোলের অভিযান|BanglaNews",
+   "url": "https://bengali.news18.com/videos/mehta-building-raid-banglanews-2887136.html",
+   "date": "2026-09-08",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Tata Motors posts Q2 profit on strong commercial vehicle demand | Company Business News - Tata Motors posts Q2 profit on strong commercial vehicle demand",
+   "url": "https://www.livemint.com/companies/company-results/tata-motors-q2-results-commercial-vehicles-11792753847505.html#1",
+   "date": "2026-10-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Perplexity",
+   "url": "https://www.perplexity.ai/finance/MISHKA.BO?comparing=MISHKA.BO,NEWJAISA.NS,LLOYDSENT.BO,GANVERSE.BO,MTPL.BO,SHIVAUM.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "tata motors spurts after q1 pat jumps 83 yoy; clocks wholesales of 108 700 units",
+   "url": "https://www.capitalmarket.com/markets/news/live-news/tata-motors-spurts-after-q1-pat-jumps-83-yoy;-clocks-wholesales-of-108-700-units/1722686",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Aditya Birla Lifestyle Q2 result: Revenue; Wholesale fastest growing channel with 18% rise - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/aditya-birla-lifestyle-q2-result-profit-revenue-ebitda-store-count-retailer-fashion-brands-wholesale-retail-share-price-20024057.htm/amp",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria for rating trading companies",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Criteria%20for%20rating%20trading%20companies.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/External%20criteria%20for%20rating%20trading%20companies.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 12 (national 20 x 0.6 + West Bengal 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "West Bengal: GST collections -1.3% Apr-to-date vs India +6.1% (7.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "West Bengal: electricity demand +5.7% Apr-to-date vs India +9.5% (3.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +29.1% YoY vs activity +6.1% (gap +23.0 pp). [RBI bank credit vs output, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

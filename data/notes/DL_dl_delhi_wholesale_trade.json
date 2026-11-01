@@ -1,0 +1,155 @@
+{
+ "key": "dl_delhi|wholesale_trade",
+ "state": "DL",
+ "city": "dl_delhi",
+ "ind": "wholesale_trade",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 12,
+ "nudged_by_news": false,
+ "verdict": "Avoid new wholesale-trade exposure in Delhi for now; lend only to fast-moving, cash-and-carry distributors with tight stock-and-receivable discipline, and decline festive-dependent discretionary traders.",
+ "title": "Delhi Wholesale Trade: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Delhi wholesale is a working-capital business, not an asset business.** Traders in Chandni Chowk, Sadar Bazaar, Khari Baoli and Chawri Bazaar buy stock, hold it briefly, and sell to buyers who travel in from neighbouring cities — around three to four lakh buyers daily and nearly 5,000 goods vehicles entering the area [2]. Cash is made on turnover and margin per cycle, not on fixed assets, so the loan is really financing inventory and receivables. **CRISIL flags receivables and inventory as the two risks that decide a trader's fate** — collection efficiency and obsolescence, especially in garments and fast-moving consumer goods [9][10]. So when a proposal lands, check receivable days against the trader's own three-year history, not the industry average; if receivables are stretching while sales are flat, ask why stock is still being bought.\n\n## What has changed now\n**Delhi's local demand is running behind India.** GST collections are up 2.7% Apr-to-date against India's 6.1%, and electricity demand up 6.5% against 9.5% [D] — both local stress signals. On top of that, the 1 November INDIA bloc rally shut roughly 80% of shops in 20-22 major markets, with CTI estimating a Rs 10,000-12,000 crore business hit and noting Rs 25,000 crore of goods normally bought on Dhanteras alone [1][2][3]. **That is a festive-season cash-flow shock, and festive stock is often bought on borrowed money.** Nationally, bank credit is growing 29.1% against activity of 6.1% [D], so money is chasing traders faster than their sales — a recipe for stretched receivables. The repo at 5.5%, raised from 5.25% with a tightening stance [D], means the cost of carrying that stock is rising.\n\n## Where the growth is\n**Pursue distributors of everyday, fast-moving goods — staples, FMCG, pharmacy, hardware — where buyers reorder monthly and stock turns quickly.** Peer evidence supports wholesale as a live channel: Aditya Birla Lifestyle's wholesale channel grew 18% in Q2FY27 [7], and Mishka Exim's June 2026 net sales rose 234.87% year on year on jewellery and fabrics trading, though at an 11.5% gross margin [5]. **Avoid festive-dependent, discretionary and high-obsolescence traders** — garments, electronics, giftware — who carry the rally loss and the stock-risk CRISIL warns about [9].\n\n## How to grow safely\n**Structure every limit against the working-capital cycle, not the balance sheet.** Take monthly stock statements and receivable ageing; require receivables within the trader's own historical range [10]. Ask for cash-flow statements showing festive-season collections, and if the trader cannot produce them, collect from customer. **Price the higher repo into the limit** [D].\n\n## Early-warning signs\n**Watch for stock building while sales slow, and for buyers from outside Delhi cancelling visits** — CTI already reports out-of-town buyers cancelling [2]. If receivable days cross the trader's three-year high, cut the limit.",
+  "## What I want you to do this month\n**Pull the top ten wholesale exposures and rank them by receivable days and stock turns.** Any name where receivables have stretched beyond its own three-year high goes to me before renewal. **The data call is Avoid; treat this book as a watch-and-shrink exercise until Delhi's GST and power numbers close the gap with India** [D]."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statements (monthly)",
+   "Receivable days above the trader's three-year high -> freeze fresh limits and ask for collection plan"
+  ],
+  [
+   "GST collection trend for Delhi (monthly)",
+   "Delhi GST growth stays below India's 6.1% for two more prints -> stop new sanctions in the segment [D]"
+  ],
+  [
+   "Festive-season sales reconciliation (quarterly)",
+   "Sales below the trader's own prior-year festive figure -> re-rate limit down and seek collateral"
+  ],
+  [
+   "Buyer footfall and goods-vehicle movement in the wholesale markets (weekly)",
+   "Sustained drop in out-of-town buyers -> shift to cash-and-carry distributors only [2]"
+  ],
+  [
+   "Repo and bank credit growth (monthly)",
+   "Repo above 5.5% or credit gap widening -> reprice limits and shorten tenors [D]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Delhi GST and power growth trail India; rally shut 80% of wholesale shops in festive peak.",
+ "articles": [
+  {
+   "title": "Delhi traders fear Rs 10,000-12,000 crore business hit as INDIA bloc rally disrupts festive shopping: CTI",
+   "url": "https://www.tribuneindia.com/news/brijesh-goyal/delhi-traders-fear-rs-10000-12000-crore-business-hit-as-india-bloc-rally-disrupts-festive-shopping-cti",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Delhi traders fear Rs 10,000-12,000 crore business hit as INDIA bloc rally disrupts festive shopping: CTI",
+   "url": "https://www.aninews.in/news/business/delhi-traders-fear-rs-10000-12000-crore-business-hit-as-india-bloc-rally-disrupts-festive-shopping-cti20261101170759/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Delhi Traders Fear Rs 10,000-12,000 Crore Business Hit as INDIA Bloc Rally Disrupts Festive Shopping: CTI",
+   "url": "https://www.republicworld.com/india/delhi-traders-fear-rs-10000-12000-crore-business-hit-as-india-bloc-rally-disrupts-festive-shopping-cti-2026-11-01-140202",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tata Motors posts Q2 profit on strong commercial vehicle demand | Company Business News - Tata Motors posts Q2 profit on strong commercial vehicle demand",
+   "url": "https://www.livemint.com/companies/company-results/tata-motors-q2-results-commercial-vehicles-11792753847505.html#1",
+   "date": "2026-10-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Perplexity",
+   "url": "https://www.perplexity.ai/finance/MISHKA.BO?comparing=MISHKA.BO,NEWJAISA.NS,LLOYDSENT.BO,GANVERSE.BO,MTPL.BO,SHIVAUM.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "tata motors spurts after q1 pat jumps 83 yoy; clocks wholesales of 108 700 units",
+   "url": "https://www.capitalmarket.com/markets/news/live-news/tata-motors-spurts-after-q1-pat-jumps-83-yoy;-clocks-wholesales-of-108-700-units/1722686",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Aditya Birla Lifestyle Q2 result: Revenue; Wholesale fastest growing channel with 18% rise - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/aditya-birla-lifestyle-q2-result-profit-revenue-ebitda-store-count-retailer-fashion-brands-wholesale-retail-share-price-20024057.htm/amp",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria for rating trading companies",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Criteria%20for%20rating%20trading%20companies.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/External%20criteria%20for%20rating%20trading%20companies.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 12 (national 20 x 0.6 + Delhi 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Delhi: GST collections +2.7% Apr-to-date vs India +6.1% (3.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Delhi: electricity demand +6.5% Apr-to-date vs India +9.5% (3.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +29.1% YoY vs activity +6.1% (gap +23.0 pp). [RBI bank credit vs output, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

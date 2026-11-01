@@ -1,0 +1,154 @@
+{
+ "key": "nl_dimapur|wholesale_trade",
+ "state": "NL",
+ "city": "nl_dimapur",
+ "ind": "wholesale_trade",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 42,
+ "nudged_by_news": false,
+ "verdict": "Avoid new wholesale-trade exposure in Dimapur for now; lend only to established, GST-compliant distributors with tight stock-and-receivable controls, and decline cash-heavy, single-community-dependent traders.",
+ "title": "Dimapur Wholesale Trade: a note to the credit manager",
+ "narrative": [
+  "## What this business actually is\n**Dimapur wholesale trade is a stock-and-credit business, not a margin business.** A wholesaler buys fast-moving goods — food, garments, FMCG, building material — holds inventory in a godown, and sells on short credit to retailers across Nagaland and into Assam. Cash is made on turnover and supplier terms, not on price. **So when a proposal lands, check the stock turn and the receivable days first; if either is missing, ask for the last twelve months of purchase and sales ledgers.**\n\n## Where value and cash sit\n**Value sits in inventory and receivables, and both are the risk.** CRISIL flags obsolescence risk as high for garments and mobile phones, and treats receivables as a sizeable share of a trader's current assets [9][10]. **So take stock statements and an ageing of receivables every month; if receivables exceed the scale of operations, ask why and get the top-five debtor list.** Capex is light — godown and vehicles — so most of the loan is working capital.\n\n## What has changed now\n**The macro backdrop is tight: repo at 5.5%, raised from 5.25%, with RBI tightening [D].** Bank credit is running +29.1% YoY against activity +6.1% [D] — money is chasing trade faster than goods move. **Locally the tailwind is real: Nagaland GST collections are +13.8% Apr-to-date against India's +6.1% [D].** But the local press is thin and dated: the trade-expo story is from 2017 [1], and the pork-price story is from February 2024 [3]. **Treat local colour as stale; lean on first principles and the GST signal.**\n\n## Who to pursue, who to avoid\n**Pursue established distributors of FMCG and staples with GST-registered retail buyers and steady monthly turnover.** Peer evidence supports wholesale as a growing channel — Aditya Birla Lifestyle reported wholesale up 18% [7] — and commercial-vehicle demand is healthy [4]. **Avoid cash-sale traders, single-supplier dependents, and anyone exposed to garment or electronics obsolescence [9].** The ZCCI rejection of a business-closure directive [2] tells you local trade bodies are resisting pressure — a sign of friction, not stability.\n\n## How to grow safely\n**Structure as a cash-credit or bill-discount line against stock and receivables, not a term loan.** Take monthly stock statements, receivable ageing, and GST returns; covenant a minimum stock cover and a receivable-days ceiling. **If a borrower cannot produce GST returns matching declared turnover, decline.**"
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs declared turnover",
+   "mismatch >10% -> freeze limit and inspect godown"
+  ],
+  [
+   "Monthly receivable ageing",
+   "top-five debtors >50% of receivables -> seek diversification or reduce limit"
+  ],
+  [
+   "Quarterly stock statement",
+   "stock turn slowing -> cut drawing power"
+  ],
+  [
+   "Monthly bank statement",
+   "cash withdrawals rising against sales -> ask for explanation, tighten"
+  ],
+  [
+   "Quarterly GST collection trend for Nagaland",
+   "growth falling below India's +6.1% [D] -> review all wholesale limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Tightening repo and credit outpacing activity outweigh a local GST tailwind; local news is stale.",
+ "articles": [
+  {
+   "title": "Nagaland all geared up for International Trade Expo",
+   "url": "https://www.morungexpress.com/nagaland-all-geared-international-trade-expo",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ZCCI rejects NSCN/FRGN business closure directive",
+   "url": "https://easternmirrornagaland.com/zcci-rejects-nscnfrgn-business-closure-directive",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Pork becomes costlier in Dimapur by over 16%",
+   "url": "https://morungexpress.com/pork-becomes-costlier-in-dimapur-by-over-16",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tata Motors posts Q2 profit on strong commercial vehicle demand | Company Business News - Tata Motors posts Q2 profit on strong commercial vehicle demand",
+   "url": "https://www.livemint.com/companies/company-results/tata-motors-q2-results-commercial-vehicles-11792753847505.html#1",
+   "date": "2026-10-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Perplexity",
+   "url": "https://www.perplexity.ai/finance/MISHKA.BO?comparing=MISHKA.BO,NEWJAISA.NS,LLOYDSENT.BO,GANVERSE.BO,MTPL.BO,SHIVAUM.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "tata motors spurts after q1 pat jumps 83 yoy; clocks wholesales of 108 700 units",
+   "url": "https://www.capitalmarket.com/markets/news/live-news/tata-motors-spurts-after-q1-pat-jumps-83-yoy;-clocks-wholesales-of-108-700-units/1722686",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Aditya Birla Lifestyle Q2 result: Revenue; Wholesale fastest growing channel with 18% rise - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/aditya-birla-lifestyle-q2-result-profit-revenue-ebitda-store-count-retailer-fashion-brands-wholesale-retail-share-price-20024057.htm/amp",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria for rating trading companies",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Criteria%20for%20rating%20trading%20companies.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/External%20criteria%20for%20rating%20trading%20companies.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 42 (national 20 x 0.6 + Nagaland 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: Bank credit +29.1% YoY vs activity +6.1% (gap +23.0 pp). [RBI bank credit vs output, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]",
+  "Nagaland: GST collections +13.8% Apr-to-date vs India +6.1% (7.7 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Nagaland: electricity demand +8.3% Apr-to-date vs India +9.5% (1.2 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

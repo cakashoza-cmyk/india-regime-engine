@@ -1,0 +1,154 @@
+{
+ "key": "br_patna|wholesale_trade",
+ "state": "BR",
+ "city": "br_patna",
+ "ind": "wholesale_trade",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 32,
+ "nudged_by_news": false,
+ "verdict": "Avoid new wholesale-trade exposure in Patna for now; lend only to fast-turn staple/FMCG distributors with tight stock-and-receivable control, and decline discretionary or slow-moving goods traders.",
+ "title": "Patna Wholesale Trade: a note to the credit manager",
+ "narrative": [
+  "## What this business actually is\n**A Patna wholesaler buys stock, holds it in a godown, and sells on short credit to retailers and semi-wholesalers; cash is made on turnover and margin per cycle, not on price.** Value sits in inventory and receivables, so the whole credit case is how fast stock converts to cash and how reliably the retailer pays. CRISIL's trading-company criteria flag inventory obsolescence and receivable collection as the two core risks, especially where capital employed is small [9][10]. So when a proposal lands, check stock turns and receivable days first; if the borrower cannot show both, ask for the last twelve months of sales and collection registers.\n\n## Where the cash sits and what has changed\n**Bihar's GST collections fell 0.1% Apr-to-date against India's +6.1%, a 6.2 pp gap that says local trade volumes are flat to weak [D].** Against that, India-wide bank credit is up 29.1% YoY versus activity at +6.1% [D], and the repo is 5.5% on a tightening stance [D] — so money is available but priced to punish weak working-capital cycles. Local news is thin on wholesale specifically: a Vegfed outlet near Chidiya Ghar gate 2 selling 38 vegetable varieties direct from farmers with home delivery [1] signals organised, disintermediated retail creeping into Patna's fresh trade. Commercial LPG is costlier from Delhi to Patna ahead of Diwali [2], which raises godown and transport costs for food and hospitality-linked wholesalers. A political quote on trader sentiment [3] is noise, not credit evidence.\n\n## Where to grow\n**Pursue staple-food, FMCG and pharma distributors whose retailers reorder weekly and whose stock is not fashion- or season-dependent.** Peer results support the channel: Aditya Birla Lifestyle's wholesale channel grew 18% in Q2FY27 [7], and Mishka Exim's June 2026 net sales rose 234.87% YoY on trading volumes, though gross margin was only 11.5% [5] — thin margins mean volume discipline matters more than growth talk. Avoid garment, mobile and other short-life-cycle stock [9], and avoid traders selling into the fresh-vegetable chain that Vegfed is now entering directly [1].\n\n## How to grow safely\n**Structure every line as a stock-and-book-debt facility with monthly stock statements and receivables ageing, not a clean cash-credit limit.** Take monthly GST returns, top-ten debtor list and godown stock photos; require receivables to be insured or backed by post-dated cheques where the book is small [10]. Price for the 5.5% repo [D] and keep tenors short.\n\n## Early-warning signs\n**Watch for falling stock turns, rising receivable days and any drop in monthly GST turnover — these precede default in trading.** If a borrower's GST filings show two consecutive months of decline while bank credit grows, cut the limit. If a large retailer buyer delays payment beyond agreed terms, ask for the buyer's confirmation directly."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns (monthly)",
+   "Two consecutive months of falling turnover -> freeze fresh drawings and review limit"
+  ],
+  [
+   "Stock statement and godown photos (monthly)",
+   "Stock turns slowing or stock older than 90 days -> demand liquidation plan or reduce limit"
+  ],
+  [
+   "Receivables ageing (monthly)",
+   "Top debtor past due beyond agreed terms -> seek direct confirmation and shift to cash/advance sales"
+  ],
+  [
+   "Repo and lending rate (quarterly)",
+   "Repo moves above 5.5% -> reprice facility and shorten tenor [D]"
+  ],
+  [
+   "Local organised-retail entry (quarterly)",
+   "New direct-from-farmer outlet in borrower's category -> reassess demand and margin assumptions [1]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Bihar GST -0.1% vs India +6.1% signals weak local trade demand.",
+ "articles": [
+  {
+   "title": "पटना में खुला वेजफेड का आउटलेट, एक छत के नीचे मिलेंगी 38 तरह की ताजी सब्जियां",
+   "url": "https://hindi.news18.com/amp/news/agriculture/vegfed-opens-first-vegetable-outlet-in-patna-offering-38-varieties-of-fresh-vegetables-with-home-delivery-local18-ws-l-10956160.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "LPG Cylinder Price Hike: Commercial Gas Costlier from Delhi to Patna Ahead of Diwali - Punjabi News Punjabi News",
+   "url": "https://thefactnews.in/breaking/lpg-cylinder-price-hike-commercial-gas-costlier-from-delhi-to-patna-ahead-of-diwali/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "X 上的 IANS (@ians_india)",
+   "url": "https://x.com/ians_india/status/2116430121041297422",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tata Motors posts Q2 profit on strong commercial vehicle demand | Company Business News - Tata Motors posts Q2 profit on strong commercial vehicle demand",
+   "url": "https://www.livemint.com/companies/company-results/tata-motors-q2-results-commercial-vehicles-11792753847505.html#1",
+   "date": "2026-10-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Perplexity",
+   "url": "https://www.perplexity.ai/finance/MISHKA.BO?comparing=MISHKA.BO,NEWJAISA.NS,LLOYDSENT.BO,GANVERSE.BO,MTPL.BO,SHIVAUM.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "tata motors spurts after q1 pat jumps 83 yoy; clocks wholesales of 108 700 units",
+   "url": "https://www.capitalmarket.com/markets/news/live-news/tata-motors-spurts-after-q1-pat-jumps-83-yoy;-clocks-wholesales-of-108-700-units/1722686",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Aditya Birla Lifestyle Q2 result: Revenue; Wholesale fastest growing channel with 18% rise - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/aditya-birla-lifestyle-q2-result-profit-revenue-ebitda-store-count-retailer-fashion-brands-wholesale-retail-share-price-20024057.htm/amp",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria for rating trading companies",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Criteria%20for%20rating%20trading%20companies.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/External%20criteria%20for%20rating%20trading%20companies.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 32 (national 20 x 0.6 + Bihar 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Bihar: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Bank credit +29.1% YoY vs activity +6.1% (gap +23.0 pp). [RBI bank credit vs output, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]",
+  "Bihar: electricity demand +14.1% Apr-to-date vs India +9.5% (4.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,154 @@
+{
+ "key": "mh_mumbai|wholesale_trade",
+ "state": "MH",
+ "city": "mh_mumbai",
+ "ind": "wholesale_trade",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 32,
+ "nudged_by_news": false,
+ "verdict": "Avoid new wholesale-trade exposure in Mumbai for now; lend only to the narrow set of fast-turning, cash-and-carry distributors below, and only with monthly stock-and-receivable discipline.",
+ "title": "Mumbai Wholesale Trade: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Wholesale trade in Mumbai is a working-capital business, not an asset business: the trader buys stock, holds it briefly, and sells on short credit, so cash is trapped in inventory and receivables, not in plant.** Value sits in turnover velocity and in the spread between buy and sell price; capex is light (godown, racks, vehicles), so the loan is really financing stock and book debts. CRISIL's trading-company criteria flag exactly these two risks: obsolescence on short-life goods such as garments and mobile phones, and receivable delays that bite hard when capital employed is small [9][10]. So when a proposal lands, check inventory days and receivable days against the peer set, not against the borrower's own story; if receivables are growing faster than sales, ask for the ageing and the top-five buyer list.",
+  "## Where the cash actually sits\n**Margin is thin and pricing power is weak, so a wholesaler survives on turns and on supplier credit, not on mark-up.** Peer evidence: a listed jewellery-and-fabrics trader shows gross margin of only 11.5% and return on equity of 8.5% on June 2026 net sales of Rs 6.99 crore, up 234.87% year on year [5] — volume growth without bottom-line conversion. That is the shape of the risk here: sales can look excellent while the cash does not follow. So when a proposal lands, check whether growth is funded by the bank or by the borrower's own supplier credit; if payables days are falling while sales rise, ask why suppliers have tightened.",
+  "## What has changed now\n**The macro backdrop is the problem: bank credit is running at +29.1% year on year against activity at +6.1%, a gap of +23.0 pp, with the repo at 5.5% and the RBI stance tightening [D].** Credit is being pushed into trade faster than trade is generating cash, which is precisely how inventory and receivable bubbles form. Maharashtra electricity demand is +6.0% Apr-to-date against India's +9.5%, 3.5 pp slower, a local stress signal [D], partly offset by state GST collections at +8.6% against India's +6.1% [D]. Local reporting is thin on this city's wholesale trade specifically: a Mumbai gold-jewellery wholesalers' delegation raised GST practical difficulties with the CGST Principal Commissioner on 2026-10-30 [1], and an FDA crackdown on loose spices is pressuring small retailers and self-help groups [3]. Treat both as sentiment, not data.",
+  "## Where to grow, and how to grow safely\n**Pursue the cash-and-carry distributor of fast-moving, non-obsolescent goods — FMCG staples, spices and dry groceries, and B2B kids/infant products where a Mumbai trade fair is drawing 100+ exhibitors in November 2026 [2] — with a demonstrated sell-through and no single buyer above a quarter of sales.** Peer support: Aditya Birla Lifestyle's wholesale channel grew 18% in Q2FY27, the fastest channel, on revenue of Rs 2,266 crore [7]; that is brand-led wholesale, not open-market trading, so lend to the distributor with a written brand/principal arrangement. Avoid loose-spice and unbranded-food traders facing the FDA action [3], and avoid gold-jewellery wholesalers until the GST issues raised on 2026-10-30 [1] are settled. Structure as a cash-credit or bill-discount line against stock and receivables, not a term loan; take monthly stock statements, monthly receivable ageing, and quarterly GST returns reconciled to sales.",
+  "## Early-warning signs\n**Watch the cycle, not the sales line.** If inventory days rise two months running while sales are flat, cut the limit and ask for the slow-moving stock list. If a single buyer crosses a quarter of receivables, ask for that buyer's payment record. If the borrower's GST turnover diverges from bank-statement credits, stop fresh disbursement until reconciled. If the repo moves again from 5.5% [D], reprice and re-test the drawing power."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement (monthly)",
+   "inventory days up two months running with flat sales -> cut limit, demand slow-moving stock list"
+  ],
+  [
+   "GST returns vs bank-statement credits (quarterly)",
+   "turnover divergence -> stop fresh disbursement until reconciled"
+  ],
+  [
+   "RBI repo and stance (per policy meeting)",
+   "repo above 5.5% [D] -> reprice and re-test drawing power"
+  ],
+  [
+   "Maharashtra power demand and state GST (monthly)",
+   "power demand stays 3.5 pp below India [D] -> tighten new-to-bank trade limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Credit growing +23.0 pp faster than activity with RBI tightening; local power demand lags India.",
+ "articles": [
+  {
+   "title": "मुंबई के गोल्ड ज्वेलर्स ने जीएसटी प्रधान आयुक्त से उठाईं व्यापारियों की समस्याएं, मिला सहयोग का आश्वासन",
+   "url": "https://www.pratahkal.com/mumbai/mwgja-delegation-meets-cgst-principal-commissioner-mumbai-1647737",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "IKPE 2026 Mumbai - Visitexpo",
+   "url": "https://visitexpo.in/event/ikpe-2026-mumbai/",
+   "date": "2026-10-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "FDA Crackdown On Loose Spices Sparks Concerns Over Livelihoods Of Women's Self-Help Groups, Small Retailers - FDA Crackdown On Loose Spices Sparks Concerns Over Livelihoods Of Women's Self-Help Groups, Small Retailers",
+   "url": "https://www.freepressjournal.in/amp/business/fda-crackdown-on-loose-spices-sparks-concerns-over-livelihoods-of-womens-self-help-groups-small-retailers#1",
+   "date": "2026-10-14",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tata Motors posts Q2 profit on strong commercial vehicle demand | Company Business News - Tata Motors posts Q2 profit on strong commercial vehicle demand",
+   "url": "https://www.livemint.com/companies/company-results/tata-motors-q2-results-commercial-vehicles-11792753847505.html#1",
+   "date": "2026-10-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Perplexity",
+   "url": "https://www.perplexity.ai/finance/MISHKA.BO?comparing=MISHKA.BO,NEWJAISA.NS,LLOYDSENT.BO,GANVERSE.BO,MTPL.BO,SHIVAUM.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "tata motors spurts after q1 pat jumps 83 yoy; clocks wholesales of 108 700 units",
+   "url": "https://www.capitalmarket.com/markets/news/live-news/tata-motors-spurts-after-q1-pat-jumps-83-yoy;-clocks-wholesales-of-108-700-units/1722686",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Aditya Birla Lifestyle Q2 result: Revenue; Wholesale fastest growing channel with 18% rise - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/aditya-birla-lifestyle-q2-result-profit-revenue-ebitda-store-count-retailer-fashion-brands-wholesale-retail-share-price-20024057.htm/amp",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria for rating trading companies",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Criteria%20for%20rating%20trading%20companies.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/External%20criteria%20for%20rating%20trading%20companies.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 32 (national 20 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: electricity demand +6.0% Apr-to-date vs India +9.5% (3.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +29.1% YoY vs activity +6.1% (gap +23.0 pp). [RBI bank credit vs output, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,147 @@
+{
+ "key": "kl_kozhikode|wooden_furniture",
+ "state": "KL",
+ "city": "kl_kozhikode",
+ "ind": "wooden_furniture",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 79,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Kozhikode wooden & modular furniture — favour organised modular/contract-fitout units with clean fire compliance and tight working-capital control; avoid pure sawmill-style carpentry shops with no fire cover or documented timber sourcing.",
+ "title": "Kozhikode wooden & modular furniture: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A furniture unit here buys timber, plywood and hardware, converts them through carpentry, finishing and assembly, and sells either as retail home furniture or as modular fit-outs for homes, offices and hotels.** Cash comes in on delivery or on milestone billing for fit-outs; cash goes out upfront to timber auctions and plywood/hardware dealers. The Chaliyam depot in Kozhikode runs teak log auctions, and a record-breaking auction was reported in April 2026 [1] — so raw-material cost is set locally at auction, not by the borrower. **When a proposal lands, ask what share of timber is bought at auction versus from dealers, and get the last three purchase invoices.**\n\n## Where value and cash sit\n**Value sits in design, finishing and installation, not in the wood itself.** Peer Dhabriya Polywood says modular furniture is design- and execution-led and that the segment has many unorganised and big organised players [5]; the handicraft/furniture trade is fragmented with small-to-medium entities holding small shares [8]. **So pricing power is thin on commodity furniture and real only on design-led modular work — check the order book mix, not just turnover.** Working capital is the risk: timber and plywood are paid for early, retail and fit-out receivables come later. **Take stock statements and debtor ageing monthly; if auction purchases are funded on cash credit without matching sales, ask for the sales register against those lots.**\n\n## What has changed now\n**The local demand signal is positive: Kerala GST collections grew 10.3% Apr-to-date against India's 6.1% [D], and India-wide furniture-linked IIP (NIC 31) is up 9.4% YoY with 7.4% Apr-to-date [D].** Kerala electricity demand is up 11.1% Apr-to-date versus India's 9.5% [D] — neutral, but consistent with factories running. Against that, a fire destroyed a furniture factory at Chunkam, Feroke, with finished stock worth about one crore rupees reported [2] — a February 2025 report, so treat it as a standing local hazard, not fresh news. **Fire is the single biggest loss event in this trade; make fire compliance a condition, not a nicety.**\n\n## Who to pursue, who to avoid\n**Pursue organised modular-fitout units with design capability, repeat institutional clients and documented timber sourcing; peer Dhabriya won a Rs 25.30 crore order from the Godrej Group [3], showing organised players can win large contracts.** Greenply's Q2FY27 topline rose 16.1% YoY with EBITDA margins at 11.2% [6] — a useful benchmark for what a well-run board/furniture player earns. **Avoid pure retail carpentry shops with no fire cover, no GST trail on timber and single-customer dependence.**\n\n## How to grow safely\n**Structure term loans for machinery/finishing equipment and cash credit for timber and plywood, with a drawing power tied to paid stock.** Take fire insurance assignment to the bank, GST returns monthly, stock and debtor statements monthly, and auction/dealer invoices quarterly. **If insurance lapses or stock cover falls below drawing power for two months, freeze the limit and inspect the unit.**",
+  "## Early warnings to watch\n- **Monthly GST returns:** two consecutive months of falling turnover against stock build-up -> ask for sales register and inspect godown.\n- **Monthly stock statement:** paid stock below drawing power -> reduce limit and seek fresh invoices.\n- **Quarterly debtor ageing:** top customer above a third of receivables -> seek diversification plan or cap exposure.\n- **Annual fire inspection:** lapsed policy or no hydrant/exit compliance -> make renewal conditional on rectification.\n- **Quarterly auction invoices:** timber bought at auction but not reflected in production -> query diversion."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns",
+   "Two months of falling turnover with rising stock -> inspect godown and ask for sales register"
+  ],
+  [
+   "Monthly stock statement",
+   "Paid stock below drawing power -> cut limit, demand fresh invoices"
+  ],
+  [
+   "Quarterly debtor ageing",
+   "Single customer above one-third of receivables -> cap exposure, seek diversification"
+  ],
+  [
+   "Annual fire inspection",
+   "Lapsed policy or missing fire compliance -> make renewal conditional on rectification"
+  ],
+  [
+   "Quarterly auction/dealer invoices",
+   "Auction timber not matched to production -> query diversion of stock"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Kerala GST and IIP signals positive; local fire risk is old news, not a fresh deterioration.",
+ "articles": [
+  {
+   "title": "Record-Breaking Teak Log Auction at Chaliyam Depot Kozhikode - Kozhikode News.",
+   "url": "https://www.kozhikode.news/record-breaking-teak-log-auction-at-chaliyam-depot-kozhikode/",
+   "date": "2026-04-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ചുങ്കത്തെ ഫർണിച്ചർ ഫാക്ടറിയിൽ വൻ അഗ്നിബാധ | A huge fire broke out at the furniture factory in kozhikod chunkam | Madhyamam",
+   "url": "https://www.madhyamam.com/kerala/local-news/kozhikode/feroke/a-huge-fire-broke-out-at-the-furniture-factory-in-kozhikod-chunkam-1382012",
+   "date": "2025-02-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "News",
+   "url": "https://www.hdfcsec.com/News/Index/equity-45947%7C131",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "GREENPLY Q3-2026 Earnings Call - Greenply Industries Ltd NSE:GREENPLY",
+   "url": "https://www.alphaspread.com/security/nse/greenply/investor-relations/earnings-call/q3-2026#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Dhabriya Polywood Ltd (538715) Q4 2025 Earnings Call Transcript | AlphaStreet - This will be around maybe 20, 20% plus for each",
+   "url": "https://alphastreet.com/india/dhabriya-polywood-ltd-538715-q4-2025-earnings-call-transcript/amp/#2",
+   "date": "2026-06-01",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Greenply Industries - ICICI Direct - 29 Oct, 2026",
+   "url": "https://trendlyne.com/posts/5920239/greenply-industries",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "HNI office India Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202403130302_HNI_office_India_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Rating Sensitivities",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Krsna%20Transmission%20Hardware%20Manufacturing%20Private%20Limited-04-03-2020.pdf#112#121#112",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/OmfurnIndiaLimited_October%2001_%202025_RR_373658.html",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "31st July, 2024.",
+   "url": "https://www.omfurnindia.com/pdf/omfurn-credit-rating-2024-40-crores.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 79 (national 81 x 0.6 + Kerala 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Kerala: GST collections +10.3% Apr-to-date vs India +6.1% (4.2 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 31 output +9.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +7.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "Kerala: electricity demand +11.1% Apr-to-date vs India +9.5% (1.6 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,154 @@
+{
+ "key": "rj_jodhpur|wooden_furniture",
+ "state": "RJ",
+ "city": "rj_jodhpur",
+ "ind": "wooden_furniture",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 49,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to organised modular/interior-fitout units with verifiable order books and tight monthly monitoring; avoid pure commodity solid-wood job-work units exposed to Rajasthan's demand slowdown.",
+ "title": "Jodhpur Wooden & Modular Furniture: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Jodhpur's furniture cluster runs on solid-wood and handicraft job-work plus a growing modular/interior-fitout layer, converting timber and boards into made-to-order pieces.** Cash comes in on order confirmation and dispatch, not on production; value sits in design, finishing and installation rather than in the raw plank. The cluster is fragmented and unorganised-dominated, so individual units are price-takers on commodity lines [9]. Peer Dhabriya confirms the same split nationally: many unorganised and even big organised players in modular furniture, with differentiation only through design and execution [6].\n\n## Where cash and value sit\n**Working capital is the whole game: timber/board inventory plus a receivable tail from builders and institutional buyers.** Capex is modest for job-work shops but jumps for anyone doing panel processing or modular fitout. Pricing power exists only where the unit owns design and installation; commodity solid-wood work is bid down. So when a proposal lands, check the receivable ageing by buyer type and the inventory days on timber; if receivables are concentrated in one builder, ask for the buyer's payment track record and stage-wise billing.\n\n## What has changed now\n**Rajasthan itself is the weak spot: state GST collections are -4.7% Apr-to-date against India +6.1%, and electricity demand +4.0% versus India +9.5% [D].** That is a local demand signal, not a national one — India-wide IIP for furniture (NIC 31) is +9.4% YoY and +7.4% Apr-to-date [D]. Local news on the Jodhpur cluster is thin; the sources are directory and blog pages, not transaction data [1][2][3], so lean on first principles and peers here. Peer results are healthy — Greenply Q2FY27 topline +16.1% YoY, EBITDA margin 11.2% [7]; Dhabriya net profit +100.52% in the December 2025 quarter and a Rs 25.30 crore Godrej order [4]. Note the Dhabriya figures are undated in the source and the Greenply call is Q3-2026, so treat both as directional.\n\n## Who to pursue, and how to grow safely\n**Pursue organised modular/interior-fitout units with design capability and multi-city or institutional order books; avoid pure commodity solid-wood job-work with single-buyer dependence.** Structure as cash-flow lending against verified orders, with a charge on receivables and stock. Take monthly: GST returns, receivable ageing by buyer, order-book position, and stock statements. Covenant a debt/equity ceiling — peers run conservative, Greenply targets below 0.6x [5], Omfurn at 0.29x with 3.39x interest cover [11]. If a unit cannot show buyer-wise ageing, ask for bank statements and GST 2A/2B reconciliation before sanction.\n\n## Early-warning signs\n**Watch for GST turnover falling below bank credits, receivable days stretching past the buyer's stated terms, and inventory build in slow-moving designs.** If monthly GST falls two months running, cut limits and ask for the order book. If a single buyer crosses a third of receivables, seek diversification or buyer confirmation. If interest cover drops toward peer floor levels, reprice or exit."
+ ],
+ "watch": [
+  [
+   "GST returns (monthly)",
+   "two consecutive months of falling turnover -> cut limit, request order book"
+  ],
+  [
+   "Receivable ageing (monthly)",
+   "days stretch beyond stated terms -> seek buyer confirmation, tighten"
+  ],
+  [
+   "Inventory/stock statement (monthly)",
+   "slow-moving design build-up -> ask for discounting plan, reduce drawing power"
+  ],
+  [
+   "Order book (quarterly)",
+   "order book falls below 3 months of sales -> review facility, seek diversification"
+  ],
+  [
+   "Interest cover (quarterly)",
+   "falls toward 3x -> reprice or exit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Rajasthan GST -4.7% and power demand +4.0% lag India, signalling local demand weakness [D].",
+ "articles": [
+  {
+   "title": "jodhpur furniture News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/jodhpur-furniture/news#1",
+   "date": "2026-10-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Jodhpur Wood - Jodhpur Wood - Furniture manufacturer in Tanawara, India",
+   "url": "https://www.top-rated.online/cities/Tanawara/place/p/20329909/Jodhpur+Wood#1",
+   "date": "2026-10-04",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Jodhpur: The Furniture Manufacturing Hub of India",
+   "url": "https://jangidart.com/jodhpur-furniture-manufactuer/#respond",
+   "date": "2026-06-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "News",
+   "url": "https://www.hdfcsec.com/News/Index/equity-45947%7C131",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "GREENPLY Q3-2026 Earnings Call - Greenply Industries Ltd NSE:GREENPLY",
+   "url": "https://www.alphaspread.com/security/nse/greenply/investor-relations/earnings-call/q3-2026#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dhabriya Polywood Ltd (538715) Q4 2025 Earnings Call Transcript | AlphaStreet - This will be around maybe 20, 20% plus for each",
+   "url": "https://alphastreet.com/india/dhabriya-polywood-ltd-538715-q4-2025-earnings-call-transcript/amp/#2",
+   "date": "2026-06-01",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Greenply Industries - ICICI Direct - 29 Oct, 2026",
+   "url": "https://trendlyne.com/posts/5920239/greenply-industries",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "HNI office India Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202403130302_HNI_office_India_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Rating Sensitivities",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Krsna%20Transmission%20Hardware%20Manufacturing%20Private%20Limited-04-03-2020.pdf#112#121#112",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/OmfurnIndiaLimited_October%2001_%202025_RR_373658.html",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "31st July, 2024.",
+   "url": "https://www.omfurnindia.com/pdf/omfurn-credit-rating-2024-40-crores.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 49 (national 81 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 31 output +9.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +7.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
