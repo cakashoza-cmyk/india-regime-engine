@@ -1,0 +1,37 @@
+name: Batch notes (one-off full refresh)
+on:
+  workflow_dispatch:
+    inputs:
+      chunks: { description: "parallel chunks", default: "10" }
+permissions:
+  contents: write
+concurrency: { group: batch-notes, cancel-in-progress: false }
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      matrix: { chunk: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] }
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build chunk
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          git config user.name "regime-engine-bot"; git config user.email "actions@users.noreply.github.com"
+          python3 engine/batch_notes.py ${{ matrix.chunk }} 10
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: "summary-${{ matrix.chunk }}", path: "/tmp/summary_${{ matrix.chunk }}.json", if-no-files-found: ignore }
+  index:
+    needs: build
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          git config user.name "regime-engine-bot"; git config user.email "actions@users.noreply.github.com"
+          git pull -q origin main; python3 engine/notes_index.py; git add data/notes/index.json
+          git diff --cached --quiet || git commit -qm "notes index after batch"
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push && break; sleep 5; done

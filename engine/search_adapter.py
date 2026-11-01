@@ -11,7 +11,26 @@ QUERIES = {
 }
 
 
+OUT_OF_BALANCE = False
+
+
 def _post(path, body, timeout=60):
+    global OUT_OF_BALANCE
+    import time as _t, urllib.error as _ue
+    for attempt in range(4):
+        try:
+            return _post_once(path, body, timeout)
+        except _ue.HTTPError as e:
+            if e.code == 402:
+                OUT_OF_BALANCE = True
+                raise
+            if e.code in (429, 503) and attempt < 3:
+                _t.sleep(5 * (attempt + 1))
+                continue
+            raise
+
+
+def _post_once(path, body, timeout=60):
     key = os.environ["DEEPSEEK_API_KEY"]
     req = urllib.request.Request(BASE + path, data=json.dumps(body).encode(),
         headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"})
