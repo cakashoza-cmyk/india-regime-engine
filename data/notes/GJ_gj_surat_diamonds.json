@@ -1,0 +1,137 @@
+{
+ "key": "gj_surat|diamonds",
+ "state": "GJ",
+ "city": "gj_surat",
+ "ind": "diamonds",
+ "version": "v6",
+ "generated_at": "2026-11-01 22:47 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 51,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend to established Surat polishers with a verified order book and clean parcel-level stock records; decline job-work units, sub-₹5-crore-scale newcomers, and anything collateralised only by bourse premises.",
+ "title": "Surat Cut & Polished Diamonds: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nSurat cuts and polishes natural diamonds and, increasingly, grows and cuts lab-grown ones; what leaves the city is loose polished stones sold to dealers and manufacturers, not finished jewellery [9]. **A polishing unit is a conversion shop: rough comes in on near-cash terms, is converted at the bench in days, and goes out as graded parcels to a few known foreign buyers.** Surat's airport handled no international freight in FY2025-26, so parcels are cleared locally and flown from Mumbai [9] — transit time is real and cash sits in it. The skill base runs to lakhs of workers across the ecosystem [2].\n\n## Where value and cash sit\n**Value sits in the rough parcel and the sealed polished parcel, not in the bench or the building.** Machines are cheap and replaceable; inventory is the whole business, and it is movable, re-gradable and hard to value on recall. Pricing power sits with the overseas buyer; the polisher is a price-taker on thin per-carat margins. For yield, days of rough stock, days of finished stock and credit given to buyers: collect from customer. Retail peers show how slowly stone inventory turns — about 1.1 stock turns in stores averaging 11–12 months old against a 2.5–3 mature-store target [6] — so treat any proposal that assumes fast stock liquidation on enforcement as optimistic.\n\n## What has changed — local news first\nThe two freshest local reports contradict each other and both are worth reading. One (30 Oct) reports advance Christmas orders and a Diwali break cut to 15 days, with units running to 5 November [2]; the other (29 Oct) reports closures stretched to 25 days from 15, and about 300 small units shut in six months [4]. **One fact sits under both: work is flowing to units holding confirmed export orders, while subcontracted small units have already gone dark.** Separately, the ₹3,200-crore Surat Diamond Bourse has roughly 300 of 4,200 offices operational nearly three years after inauguration, and it was privately funded, not state-funded [1][3]. So when a proposal lands, check what the bourse premises are being offered as; if they are the collateral story, ask what the unit's own order book is.\n\n## Peer results and rating reports — different businesses, read for texture\nListed jewellery retailers are not Surat polishers, but their numbers show where stone demand lives. One peer grew Q2 revenue 17% to ₹121 crore with diamond-stone volume up 28%, and over 95% of its book is design jewellery using smaller stones against 4–5% solitaires [5]. Another reports diamond jewellery up 21% by value and 11% by volume, with stud ratio at 11.9% [6]. The certification business grew Q2 profit 43% on lab-grown volumes at 61% EBITDA margin [7]. R.Rajesh Exports carries [ICRA]BB(Stable)/[ICRA]A4 [8] — that report is undated in my folder, treat it as old and re-verify. Bank credit is running +33.0% YoY against output +3.8%, a gap of +29.2 pp [D]; that is the competition you are lending into, not a demand signal. Gujarat's GST is +11.9% Apr-to-date against India's +6.1% [D] and electricity demand +11.0% against +9.5% [D], with IIP NIC 32 at +3.2% [D]. **Local consumption is healthy and almost irrelevant here — a Surat polisher's cash is decided in the US and China** [1][4]. Note the 50% US tariff reference is from a page last updated 25 August 2025 [9]; confirm today's duty with the customer.\n\n## Where the growth is, and who to avoid\n- Pursue mid-size polishers with their own bench, confirmed December Christmas orders [2], buyer-wise export realisation on file, and part of the book in lab-grown with written CVD/HPHT method and treatment disclosure per parcel [9].\n- Pursue order-backed and receivable-backed limits; the invoice and the shipping bill are the security, not the loose stone.\n- Avoid pure job-work units for others, units under three years, anyone whose plan assumes a shift to the bourse [1][3], and single-buyer China exposure [4].\n\n## How to grow safely\n**Structure as LC-backed or bill-discount limits against confirmed orders, with a stock ceiling and a named grader.** Take every month: parcel-wise stock statement with grading, bank statements, export realisation and shipping bills, buyer-wise sales, payroll and bench attendance, electricity bill. Covenant peak stock days, a cap on unhedged rough purchased, DSCR, and a bar on related-party rough purchases. Verify stock quarterly with our own valuer, not the borrower's.\n\n## Early warnings to act on\nUse the triggers in the watchlist; the point is that in this trade the first sign is a quiet bench, not a bounced cheque.",
+  "## "
+ ],
+ "watch": [
+  [
+   "Weekly, from the unit",
+   "two weeks with no fresh rough purchase while payroll still runs -> stop fresh disbursement and physically inspect stock"
+  ],
+  [
+   "Monthly stock statement",
+   "finished-stock days rising while billing is flat -> move the account to bill-discount only and cut the limit"
+  ],
+  [
+   "Monthly export realisation",
+   "realisation days past the agreed tenor or a shipping bill unpaid -> no renewal, ask for buyer-wise order confirmations"
+  ],
+  [
+   "At Diwali reopening",
+   "factory does not reopen on the announced date [2] or extends beyond the announced break [4] -> put on watchlist, hold renewal"
+  ],
+  [
+   "Quarterly, buyer mix",
+   "one buyer crossing the share of sales you set at sanction (collect from customer the current split) -> require order confirmations per buyer and cap exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Bourse near-empty at 300 of 4,200 offices, ~300 small units shut, US and China demand soft despite one Christmas-revival report.",
+ "articles": [
+  {
+   "title": "Why Surat’s Diamond Bourse Remains Largely Empty, Nearly 3 Years After Modi’s Inauguration - Videoclip.bg",
+   "url": "https://www.videoclip.bg/watch/2345108",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Surat Diamond Industry Sees Diwali Revival, Vacation Likely to Shrink to 15 Days - The Blunt Times",
+   "url": "https://theblunttimes.in/surat-diamond-industry-sees-diwali-revival-vacation-likely-to-shrink-to-15-days/76163/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Indian Express Links PM Modi To Surat Diamond Bourse’s Struggles, Omits That It Is A Privately Funded Project - The Commune",
+   "url": "https://thecommunemag.com/indian-express-links-pm-modi-to-surat-diamond-bourses-struggles-omits-that-it-is-a-privately-funded-project/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "US demand slowdown hits apparel and diamond exporters",
+   "url": "https://textile.economictimes.indiatimes.com/news/manufacturing-retailing/us-demand-slowdown-hits-apparel-and-diamond-exporters/135355879?utm_source=latest_news&utm_medium=agencyListing",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "PNG Reva Sets Cautious 40–45% FY27 Growth Outlook",
+   "url": "https://blog.perivis.com/2026/10/31/png-reva-sets-cautious-40-45-fy27-growth-outlook/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "PNG Gadgil Growth Surges, But FY27 Revenue Outlook Softens",
+   "url": "https://blog.perivis.com/2026/10/31/png-gadgil-growth-surges-but-fy27-revenue-outlook-softens/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Can IGI’s 61% EBITDA Margins and Lab-Grown Diamond Growth Justify Its 24x P/E Valuation? - Subscribe",
+   "url": "https://tradebrains.in/indian-markets/can-igis-61-ebitda-margins-and-lab-grown-diamond-growth-justify-its-24x-pe-valuation-12741417#1",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "R.Rajesh Exports: [ICRA]BB(Stable)/[ICRA]A4 assigned",
+   "url": "https://www.icra.in/web/viewer.html?file=%2FRating%2FShowRationalReportFilePdf%2F91384&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Surat Diamond Industry: A Guide for Foreign Buyers · SourcingFrom",
+   "url": "https://sourcingfrom.com/locations/surat-diamond-cluster/",
+   "date": "2026-10-04",
+   "kind": "cluster",
+   "via": "deepseek",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 51 (national 35 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Bank credit +33.0% YoY vs output +3.8% (gap +29.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Gujarat: electricity demand +11.0% Apr-to-date vs India +9.5% (1.5 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 32 output +3.2% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 9,
+  "fetch": 11,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
