@@ -78,20 +78,9 @@ function render(){const geo=$('#geo').value,sec=$('#sector').value;history.repla
  <h4>In plain words</h4><p>${esc(s.plain.what)}</p><ul>${s.plain.facts.map(f=>`<li>${esc(f)}</li>`).join('')}</ul><p>${esc(s.plain.why)}</p><p><i>What would change our mind:</i> ${esc(s.plain.change_mind)}</p>${s.plain.watch&&s.plain.watch.length?`<p class="mut">${esc(s.plain.lens_label)}</p><p><i>Typical stress signals:</i> ${s.plain.watch.map(esc).join('; ')}</p><p><i>Diligence checks:</i> ${s.plain.checks.map(esc).join('; ')}</p>`:''}
  ${c.signals?`<h4>Early-warning signs to ask about in this cluster</h4><p>${esc(c.signals)}</p>`:''}
  </details></div>`;
- const rate=`<div class="card"><h3>Ground check: is our stance right here?</h3>
- <p class="warn">⚠️ Do not enter customer names, account numbers or any confidential information. Only an optional role and city are stored.</p>
- <form id="rf"><div class="scale">${[...Array(10)].map((_,i)=>`<label><input type="radio" name="sc" value="${i+1}" required><span>${i+1}</span></label>`).join('')}</div>
- <p class="mut">1 = our stance is correct · 10 = our stance is incorrect</p>
- <div class="row"><input name="role" maxlength="40" placeholder="Role (optional)"><input name="city" maxlength="40" placeholder="City (optional)"></div>
- <textarea name="cm" maxlength="300" rows="2" placeholder="Comment (optional, no customer details)" style="margin-top:6px"></textarea>
- <button class="b" style="margin-top:6px">Submit rating</button></form>
- <p data-testid="ratings">${a.n?`Average <b>${a.avg.toFixed(1)}</b>/10 from <b>${a.n}</b> rating(s). Distribution: ${a.dist.map((x,i)=>`${i+1}:${x}`).join(' ')}`:'No ratings yet.'} ${a.n>=D.geo_config.ratings_min_n&&a.avg>D.geo_config.ratings_disagree_above?'<span class="pill avoid">Bankers disagree with this stance</span>':''}</p>
- <p class="mut">Storage: ${RC.form_action?'shared (Google Form) + this browser':'this browser only — shared storage not yet set up'}.</p></div>`;
+ const rate='<div class="card"><p class="mut">Banker feedback is now collected on the <a href="lending.html">Lending Radar</a> note cards.</p></div>';
  box.innerHTML=`<div class="card">${head}</div>`+local+ev+rate;
- $('#rf').onsubmit=e=>{e.preventDefault();const f=new FormData(e.target);const r={sector:sec,geo,score:+f.get('sc'),role:(f.get('role')||'').slice(0,40),city:(f.get('city')||'').slice(0,40),comment:(f.get('cm')||'').slice(0,300),ts:new Date().toISOString().slice(0,10)};
-  const all=ratingsAll();all.push(r);localStorage.setItem(RKEY,JSON.stringify(all));
-  if(RC.form_action){const b=new URLSearchParams();b.set(RC.entry_sector,sec);b.set(RC.entry_geo,geo);b.set(RC.entry_score,r.score);if(RC.entry_role)b.set(RC.entry_role,r.role);if(RC.entry_city)b.set(RC.entry_city,r.city);if(RC.entry_comment)b.set(RC.entry_comment,r.comment);fetch(RC.form_action,{method:'POST',mode:'no-cors',body:b})}
-  render()}}
+ }
 
 function fillSectors(){const geo=$('#geo').value,cl=D.clusters.find(x=>x.id==geo),cur=$('#sector').value;
  const core=cl?cl.sectors.filter(x=>SEC[x]):[];const rest=D.sectors.filter(s=>!core.includes(s.id));

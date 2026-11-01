@@ -113,6 +113,47 @@ async function commit(env, path, obj) {
   }
 }
 
+
+// ---------- feedback ----------
+const FB_FIELDS = ["id","ts_ist","state","city","industry","ai_stance","ai_score","rating","user_view","employee_id","comment"];
+const csvCell = v => { v = String(v ?? ""); if (/^[=+\-@]/.test(v)) v = "'" + v; return /[",\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v; };
+async function allFeedback(env) {
+  const out = []; let cursor;
+  do { const l = await env.RL.list({ prefix: "fb:rec:", cursor }); for (const k of l.keys) { const v = await env.RL.get(k.name, "json"); if (v) out.push(v); } cursor = l.list_complete ? null : l.cursor; } while (cursor);
+  return out.sort((a, b) => a.ts_ist.localeCompare(b.ts_ist));
+}
+async function feedback(req, env, url, out) {
+  if (url.pathname === "/feedback" && req.method === "POST") {
+    let b; try { b = await req.json(); } catch { return out(400, { error: "bad JSON" }); }
+    const emp = String(b.employee_id || "").trim().toUpperCase(), rating = parseInt(b.rating, 10), view = String(b.user_view || "");
+    if (!/^[A-Z0-9]{3,12}$/.test(emp)) return out(400, { error: "Employee ID must be 3-12 letters or digits." });
+    if (!(rating >= 1 && rating <= 10)) return out(400, { error: "Pick a rating from 1 to 10." });
+    if (!["ok", "caution", "avoid"].includes(view)) return out(400, { error: "Pick your view." });
+    if (!/^[A-Z]{2}$/.test(b.state || "") || !ID.test(b.city || "") || !ID.test(b.industry || "")) return out(400, { error: "bad pick" });
+    const ai = ["ok", "caution", "avoid"].includes(b.ai_stance) ? b.ai_stance : "", sc = Number.isFinite(+b.ai_score) ? Math.round(+b.ai_score) : "";
+    const day = ymd(istNow()), rl = `fb:rl:${emp}|${b.state}|${b.city}|${b.industry}|${day}`;
+    if (await env.RL.get(rl)) return out(429, { error: "You already gave feedback on this pick today. Thank you!" });
+    const comment = String(b.comment || "").replace(/[\r\n\t]+/g, " ").replace(/[<>]/g, "").trim().slice(0, 300);
+    const id = `${Date.now()}-${crypto.randomUUID().slice(0, 8)}`;
+    const rec = { id, ts_ist: istStr(istNow()), state: b.state, city: b.city, industry: b.industry, ai_stance: ai, ai_score: sc, rating, user_view: view, employee_id: emp, comment };
+    await env.RL.put(`fb:rec:${id}`, JSON.stringify(rec)); await env.RL.put(rl, "1", { expirationTtl: 2 * 86400 });
+    return out(200, { ok: true, id });
+  }
+  const key = url.searchParams.get("key") || "";
+  if (!env.FEEDBACK_ADMIN_KEY || key.length < 20 || key !== env.FEEDBACK_ADMIN_KEY) return out(403, { error: "admin key required" });
+  if (url.pathname === "/feedback/export" && req.method === "GET") {
+    const rows = await allFeedback(env);
+    if (url.searchParams.get("format") === "json") return out(200, { rows });
+    const csv = [FB_FIELDS.join(",")].concat(rows.map(r => FB_FIELDS.map(f => csvCell(r[f])).join(","))).join("\n");
+    return new Response(csv, { headers: { "Access-Control-Allow-Origin": env.ALLOW_ORIGIN, "Content-Type": "text/csv; charset=utf-8", "Content-Disposition": "attachment; filename=lending_radar_feedback.csv" } });
+  }
+  if (url.pathname === "/feedback/delete" && req.method === "POST") {
+    const id = url.searchParams.get("id") || ""; if (!/^[0-9a-f-]{10,40}$/.test(id)) return out(400, { error: "bad id" });
+    await env.RL.delete(`fb:rec:${id}`); return out(200, { ok: true, deleted: id });
+  }
+  return out(404, { error: "not found" });
+}
+
 export default {
   async fetch(req, env, ctx) {
     const origin = req.headers.get("Origin");
@@ -130,6 +171,8 @@ export default {
       return n ? new Response(n, { headers: { ...cors, "Content-Type": "application/json" } }) : out(404, { error: "no note" });
     }
     if (origin !== env.ALLOW_ORIGIN) return out(403, { error: "origin not allowed" });
+    if (url.pathname.startsWith("/feedback")) return feedback(req, env, url, out);
+    if (env.FETCH_ENABLED !== "true") return out(403, { error: "Fetch is switched off." });
     if (req.method !== "POST") return out(405, { error: "POST only" });
     let b; try { b = await req.json(); } catch { return out(400, { error: "bad JSON" }); }
     const { state, city, ind } = b || {};

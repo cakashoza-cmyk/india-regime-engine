@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>Lending Radar — banker feedback report</title>
+<style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#f4f6fb;color:#0f172a}main{max-width:1000px;margin:auto;padding:18px}
+.card{background:#fff;border-radius:14px;padding:14px 16px;margin:12px 0;box-shadow:0 2px 10px #0f172a10}h1{font-size:22px;margin:6px 0}h2{font-size:16px;margin:0 0 8px}
+input{font:inherit;padding:9px 10px;border:1px solid #cbd5e1;border-radius:10px;width:min(420px,100%)}button{font:inherit;font-weight:700;border:0;border-radius:999px;padding:9px 16px;background:#0f172a;color:#fff;cursor:pointer;margin:4px 4px 0 0}
+.k{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}.k div{background:#f8fafc;border-radius:12px;padding:10px}.k b{display:block;font-size:24px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}th,td{border-bottom:1px solid #e2e8f0;padding:6px 8px;text-align:left}th{background:#f8fafc}.m{color:#64748b;font-size:13px}.err{color:#b91c1c}
+.wrap{overflow-x:auto}</style></head><body><main>
+<h1>Banker feedback report</h1><p class="m">Admin only. Paste the admin key (kept in this tab only, never saved). Rating: 1 = AI matches the local credit view, 10 = does not match. Agreement = banker's view equals the AI stance.</p>
+<div class="card"><input id="key" type="password" placeholder="Admin key" autocomplete="off"> <button id="go">Load report</button><button id="csv" disabled>Download CSV</button> <span id="msg" class="m"></span></div>
+<div id="out"></div></main>
+<script>
+const W='https://lending-radar-fetch.cakashoza.workers.dev',$=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const LBL={ok:'OK to lend',caution:'Caution',avoid:'Avoid','':'—'};let NAMES={st:{},ct:{},ind:{}};
+fetch('data/radar.json').then(r=>r.json()).then(d=>{Object.entries(d.states).forEach(([k,v])=>NAMES.st[k]=v.name);d.cities.forEach(c=>NAMES.ct[c.id]=c.name);d.industries.forEach(i=>NAMES.ind[i.id]=i.name.split(' (')[0])}).catch(()=>{});
+const grp=(rows,f)=>{const m={};rows.forEach(r=>{const k=f(r);(m[k]=m[k]||[]).push(r)});return Object.entries(m).map(([k,v])=>({k,n:v.length,avg:v.reduce((a,r)=>a+r.rating,0)/v.length,agree:v.filter(r=>r.user_view===r.ai_stance).length/v.length})).sort((a,b)=>b.n-a.n)};
+const tbl=(t,rs,nm)=>`<div class="card"><h2>${t}</h2><div class="wrap"><table><tr><th>${t.split(' by ')[1]||''}</th><th>Responses</th><th>Avg rating</th><th>Agreement</th></tr>${rs.map(r=>`<tr><td>${esc(nm(r.k))}</td><td>${r.n}</td><td>${r.avg.toFixed(1)}</td><td>${Math.round(r.agree*100)}%</td></tr>`).join('')}</table></div></div>`;
+$('#go').onclick=async()=>{const key=$('#key').value.trim();$('#msg').textContent='Loading…';
+ const r=await fetch(`${W}/feedback/export?format=json&key=${encodeURIComponent(key)}`).catch(()=>null);if(!r||!r.ok){$('#msg').innerHTML='<span class="err">Could not load (wrong key?)</span>';return}
+ const rows=(await r.json()).rows||[];$('#msg').textContent=rows.length+' responses';$('#csv').disabled=false;
+ if(!rows.length){$('#out').innerHTML='<div class="card">No feedback yet.</div>';return}
+ const avg=rows.reduce((a,r)=>a+r.rating,0)/rows.length,ag=rows.filter(r=>r.user_view===r.ai_stance).length/rows.length,emps=new Set(rows.map(r=>r.employee_id)).size;
+ const S=['ok','caution','avoid'],cm=S.map(a=>S.map(u=>rows.filter(r=>r.ai_stance===a&&r.user_view===u).length));
+ $('#out').innerHTML=`<div class="card k"><div><b>${rows.length}</b>responses</div><div><b>${emps}</b>employees</div><div><b>${avg.toFixed(1)}</b>avg rating (1 best)</div><div><b>${Math.round(ag*100)}%</b>agreement</div></div>
+ <div class="card"><h2>AI stance vs banker view</h2><div class="wrap"><table><tr><th>AI ↓ / Banker →</th>${S.map(u=>`<th>${LBL[u]}</th>`).join('')}<th>Total</th></tr>${S.map((a,i)=>`<tr><th>${LBL[a]}</th>${cm[i].map((v,j)=>`<td style="${i==j?'background:#dcfce7;font-weight:700':v?'background:#fef3c7':''}">${v}</td>`).join('')}<td>${cm[i].reduce((x,y)=>x+y,0)}</td></tr>`).join('')}</table></div></div>`
+ +tbl('Average rating by industry',grp(rows,r=>r.industry),k=>NAMES.ind[k]||k)+tbl('Average rating by state',grp(rows,r=>r.state),k=>NAMES.st[k]||k)
+ +`<div class="card"><h2>Latest responses</h2><div class="wrap"><table><tr><th>Time (IST)</th><th>Pick</th><th>AI</th><th>Banker</th><th>Rating</th><th>Employee</th><th>Comment</th></tr>${rows.slice(-50).reverse().map(r=>`<tr><td>${esc(r.ts_ist)}</td><td>${esc((NAMES.ct[r.city]||r.city)+' · '+(NAMES.ind[r.industry]||r.industry))}</td><td>${LBL[r.ai_stance]||'—'} ${esc(r.ai_score)}</td><td>${LBL[r.user_view]}</td><td>${r.rating}</td><td>${esc(r.employee_id)}</td><td>${esc(r.comment)}</td></tr>`).join('')}</table></div></div>`};
+$('#csv').onclick=async()=>{const r=await fetch(`${W}/feedback/export?key=${encodeURIComponent($('#key').value.trim())}`);if(!r.ok)return;const b=await r.blob(),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='lending_radar_feedback.csv';a.click()};
+</script></body></html>

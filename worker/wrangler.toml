@@ -5,6 +5,7 @@ account_id = "8294b08c3d2a86e0df3ce39e83a850fe"
 workers_dev = true
 
 [vars]
+FETCH_ENABLED = "true"
 REPO = "cakashoza-cmyk/india-regime-engine"
 ALLOW_ORIGIN = "https://cakashoza-cmyk.github.io"
 SITE = "https://cakashoza-cmyk.github.io/india-regime-engine"
