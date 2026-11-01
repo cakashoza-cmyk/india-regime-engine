@@ -272,6 +272,8 @@ def run(today=None, fetch=True):
         record_health(health, run_id)
     out["avoid_list"] = [{"i": combos.index(c), "rank": c["severity_rank"]} for c in avoid]
     OUT.write_text(json.dumps(out, separators=(",", ":"), default=str, ensure_ascii=False))
+    from engine import radar_export
+    radar_export.export(out, news)
     return out
 
 

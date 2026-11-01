@@ -1,120 +1,103 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Lending check — Macro Credit Radar</title><link rel="stylesheet" href="assets/site.css"></head><body>
+<title>Lending Radar — Macro Credit Radar</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#f4f6fa;--card:#fff;--ink:#0f172a;--mut:#64748b;--line:#e2e8f0;--ok:#15803d;--okb:#dcfce7;--ca:#b45309;--cab:#fef3c7;--av:#b91c1c;--avb:#fee2e2;--un:#475569;--unb:#e2e8f0;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:14px 14px 40px}
+h1{font-size:20px;margin:6px 0 2px}.sub{color:var(--mut);font-size:13px;margin:0 0 12px}
+.pick{display:grid;gap:10px;grid-template-columns:1fr;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px}
+@media(min-width:640px){.pick{grid-template-columns:1fr 1fr 1.4fr}}
+label{font-size:12px;color:var(--mut);display:block;margin-bottom:4px;font-weight:600;text-transform:uppercase;letter-spacing:.4px}
+select,input{width:100%;font:inherit;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);min-height:46px}
+select:focus,input:focus{outline:2px solid var(--acc);border-color:transparent}
+.cb{position:relative}.lb{position:absolute;left:0;right:0;top:100%;margin-top:4px;background:#fff;border:1px solid var(--line);border-radius:10px;max-height:320px;overflow:auto;z-index:20;box-shadow:0 12px 30px #0f172a22;display:none}
+.lb.open{display:block}.lb div{padding:9px 12px;cursor:pointer;font-size:14px}.lb div:hover,.lb div.act{background:#eff6ff}.lb .g{font-size:11px;color:var(--mut);text-transform:uppercase;font-weight:700;cursor:default;background:#f8fafc}.lb .hub::after{content:" · local hub";color:var(--acc);font-size:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-top:14px;box-shadow:0 1px 2px #0f172a0d}
+.top{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.badge{font-weight:750;font-size:15px;padding:7px 14px;border-radius:999px}.ok{background:var(--okb);color:var(--ok)}.caution{background:var(--cab);color:var(--ca)}.avoid{background:var(--avb);color:var(--av)}.unknown{background:var(--unb);color:var(--un)}
+.score{font-size:28px;font-weight:750}.score small{font-size:13px;color:var(--mut);font-weight:500}
+.head{font-size:17px;font-weight:600;margin:10px 0 4px}.meta{color:var(--mut);font-size:12.5px}
+h3{font-size:13px;text-transform:uppercase;letter-spacing:.5px;color:var(--mut);margin:18px 0 6px}
+ul,ol{margin:0;padding-left:20px}li{margin:4px 0}a{color:var(--acc)}
+.pill{display:inline-block;font-size:11.5px;padding:2px 8px;border-radius:999px;background:#eef2ff;color:#3730a3;margin-left:6px;vertical-align:middle;text-transform:none;letter-spacing:0;font-weight:600}
+.proxy{background:#fff7ed;color:#9a3412}.note{background:#f8fafc;border-left:3px solid var(--line);padding:8px 10px;border-radius:6px;font-size:13.5px;color:#334155;margin-top:8px}
+details{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}summary{cursor:pointer;font-weight:600;font-size:14px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}td,th{text-align:left;padding:6px 4px;border-bottom:1px solid var(--line);vertical-align:top}
+.spark{display:flex;align-items:flex-end;gap:3px;height:46px;margin:6px 0}.spark i{flex:1;background:#93c5fd;border-radius:3px 3px 0 0;position:relative}.spark i.neg{background:#fca5a5}
+.foot{color:var(--mut);font-size:12px;margin-top:18px}.empty{color:var(--mut);text-align:center;padding:30px 10px}
+</style></head><body>
 <main>
-<div class="disc"><b>Decision aid, not a substitute for credit judgment.</b> Internal use only; not loan advice to any outside party. Numbers are from official sources (RBI, MoSPI/PIB, Dept of Commerce, GSTN, CEA) — see <a href="audit.html">Data audit</a>. <span id="gen" class="mut"></span></div>
-<div class="tabs" id="tabs"><button data-t="check" class="on">Lending check</button><button data-t="avoid">Avoid list</button><button data-t="sectors">All sectors (India)</button><button data-t="highlights">Highlights</button><button data-t="states">States</button></div>
-
-<section id="t-check">
-<div class="card"><div class="row">
-<div><label class="mut">1. Where is the borrower? (state or cluster)</label><select id="geo"></select></div>
-<div><label class="mut">2. What does the borrower do? (sector)</label><select id="sector"></select></div>
-</div></div>
-<div id="result"></div>
-</section>
-<section id="t-avoid" hidden><div class="card"><h2>Avoid list</h2><p class="mut">Sector × geography combinations whose data-based call is <b>Avoid</b>, most severe first. Includes every cluster × sector Avoid, and state × sector Avoid where the state's own signals also show stress (local score below 50). Filter: <input id="avf" placeholder="type a state, cluster or sector" style="max-width:320px"></p><div class="tbl"><table id="avt"></table></div></div></section>
-<section id="t-sectors" hidden><div class="card"><h2>National sector view</h2><p class="mut">Click a sector for its plain-language summary. Group filter: <select id="grp" style="max-width:240px"></select></p><div id="secs"></div></div></section>
-<section id="t-highlights" hidden><div class="card"><h2>Highlights</h2><div id="hl"></div><h3>Rules used</h3><div id="hlr" class="mut"></div></div></section>
-<section id="t-states" hidden><div class="card"><h2>State signals</h2><p class="mut">Apr-to-date growth vs all-India. Annual bank credit is from the RBI Handbook (end-March).</p><div class="tbl"><table id="stt"></table></div></div></section>
+<h1>Lending Radar</h1><p class="sub">Pick a place and an industry for a quick, data-backed stance. Decision aid, not a substitute for credit judgment. Internal use only.</p>
+<div class="pick">
+ <div><label for="st">State</label><select id="st"></select></div>
+ <div><label for="ct">City</label><select id="ct"></select></div>
+ <div class="cb"><label for="ind">Industry</label><input id="ind" placeholder="Search industry…" autocomplete="off" role="combobox" aria-expanded="false"><div class="lb" id="lb" role="listbox"></div></div>
+</div>
+<div id="result"><div class="card empty">Loading…</div></div>
+<p class="foot" id="foot"></p>
 </main>
 <script src="assets/nav.js"></script>
 <script>
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const CL={ok:'ok',caution:'caution',avoid:'avoid'},LBL={ok:'OK to lend',caution:'Caution',avoid:'Avoid'};
-const NV={'Lend':'ok','Selective':'caution','Avoid':'avoid'};
-let D,RC={},SEC={},IDX={};
-const fmt=(v,d=1)=>v==null?'—':(v>0?'+':'')+Number(v).toFixed(d);
-function tab(t){document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on',b.dataset.t==t));document.querySelectorAll('main>section').forEach(s=>s.hidden=s.id!='t-'+t)}
-document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>tab(b.dataset.t));
-
-// ---------- ground-check ratings (localStorage; optional shared backend via data/ratings_config.json)
-const RKEY='mcr_ratings_v1';
-function ratingsAll(){try{return JSON.parse(localStorage.getItem(RKEY)||'[]')}catch(e){return[]}}
-let SHARED=[];
-function ratingsFor(sec,geo){return ratingsAll().concat(SHARED).filter(r=>r.sector==sec&&r.geo==geo)}
-function agg(rs){const n=rs.length,avg=n?rs.reduce((a,r)=>a+ +r.score,0)/n:null,dist=Array(10).fill(0);rs.forEach(r=>dist[r.score-1]++);return{n,avg,dist}}
-async function loadShared(){try{RC=await (await fetch('data/ratings_config.json',{cache:'no-store'})).json()}catch(e){RC={}}
- if(RC.csv_url){try{const t=await (await fetch(RC.csv_url)).text();SHARED=t.trim().split('\n').slice(1).map(l=>l.split(',')).map(c=>({sector:c[RC.col_sector],geo:c[RC.col_geo],score:+c[RC.col_score]})).filter(r=>r.score>=1&&r.score<=10)}catch(e){SHARED=[]}}}
-
-function finalCall(c,a){const g=D.geo_config;let call=c.call,why=[];
- if(c.nudged_by=='local_news')why.push('Local credit view says local conditions are <b>worse</b> than the macro view, so OK to lend becomes Caution.');
- if(a.n>=g.ratings_min_n&&a.avg>g.ratings_disagree_above&&call=='ok'){call='caution';why.push(`Bankers' ground-check: average ${a.avg.toFixed(1)}/10 from ${a.n} ratings says our stance looks wrong, so OK to lend becomes Caution.`)}
- return{call,why}}
-
-function combo(geo,sec){const k=geo+'|'+sec;if(IDX[k]!=null)return{c:D.combos[IDX[k]],note:null};
- const cl=D.clusters.find(x=>x.id==geo);if(cl){const j=IDX[cl.state+'|'+sec];if(j!=null)return{c:D.combos[j],note:`${SEC[sec].name} is not a mapped sector of ${cl.name}; showing the ${D.states[cl.state].name} state view.`}}
- return{c:null}}
-
-function spark(pts,key){if(!pts||pts.length<2)return'';const v=pts.map(p=>p[key]),mn=Math.min(...v),mx=Math.max(...v),w=160,h=40,r=(mx-mn)||1;
- return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><polyline fill="none" stroke="#334155" stroke-width="2" points="${v.map((x,i)=>`${i*(w-10)/(v.length-1)+5},${h-5-(x-mn)/r*(h-10)}`).join(' ')}"/></svg>`}
-
-function render(){const geo=$('#geo').value,sec=$('#sector').value;history.replaceState(null,'',`?geo=${geo}&sector=${sec}`);
- const {c,note}=combo(geo,sec),s=SEC[sec];const box=$('#result');
- if(!c){box.innerHTML=`<div class="card"><span class="big unknown">No data</span><p>No combination found.</p></div>`;return}
- const geoName=c.geo_type=='cluster'?c.cluster_name:c.geo, rs=ratingsFor(sec,geo), a=agg(rs);
- let head;
- if(c.insufficient=='sector'){head=`<span class="big unknown" data-testid="verdict">Not enough sector data</span><p>${esc(c.message)}</p>`}
- else{const f=finalCall(c,a);
-  head=`<span class="big ${CL[f.call]}" data-testid="verdict">${LBL[f.call]}</span>
-  <p style="font-size:17px"><b>${esc(s.name)}</b> in <b>${esc(geoName)}</b></p>
-  ${c.insufficient=='local'?`<p class="warn" data-testid="insufficient">Not enough local data for ${esc(geoName)}. National view: <b>${LBL[c.data_call||c.call]}</b> (score ${c.national_score}/100).</p>`:`<p class="mut">How we got here: national sector score ${c.national_score} × ${D.geo_config.weight_national} + local (state) score ${c.local_score} × ${D.geo_config.weight_local} = <b>${c.score}</b>. OK to lend ≥ ${D.geo_config.ok_at_or_above}; Avoid &lt; ${D.geo_config.avoid_below}; otherwise Caution.</p>`}
-  ${f.why.map(w=>`<p class="warn">${w}</p>`).join('')}
-  ${note?`<p class="mut">${esc(note)}</p>`:''}
-  <h3>Top reasons (official data)</h3><ol class="reasons">${(c.reasons||[]).map(r=>`<li>${r.sign<0?'🔻':r.sign>0?'🔺':'▪️'} ${esc(r.text)} ${r.source_url?`<a href="${esc(r.source_url)}" target="_blank" rel="noopener">source</a>`:''}</li>`).join('')||'<li>No verified drivers.</li>'}</ol>`}
- const briefHtml=b=>`<p><b>Why this call:</b> ${esc(b.verdict_rationale)}</p><p><b>Sector risks</b></p><ul>${b.sector_risks.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p><b>What local news adds:</b> ${esc(b.local_news)}</p><p><b>Check with the borrower</b></p><ol>${b.borrower_checks.map(x=>`<li>${esc(x)}</li>`).join('')}</ol><p><b>What would change the call:</b> ${esc(b.change_the_call)}</p><p class="mut">Every number above was machine-checked against the verified data pack or a cited article; the verdict itself is computed only from official data.</p>`;
- const lv=c.local_view, lns=D.local_news_status||{};
- const local=`<div class="card"><h3>Local credit view <span class="pill unknown">AI analysis of local news · unverified</span></h3>${
-  !lns.active?`<p data-testid="local-inactive">Local scan activates once the key is added.</p>`:
-  lv&&lv.brief===null&&!lv.analysis?`<p class="mut">This week's brief failed the automatic number check (a figure could not be traced to official data or a cited article), so it is not shown.</p>`:lv&&(lv.brief||lv.analysis)?`${lv.brief?briefHtml(lv.brief):`<p>${esc(lv.analysis)}</p>`}${lv.outlook_vs_macro?`<p><span class="pill ${lv.outlook_vs_macro=='Worse'?'avoid':lv.outlook_vs_macro=='Better'?'ok':'unknown'}">Local outlook vs macro: ${esc(lv.outlook_vs_macro)}</span> ${esc(lv.why||'')}</p>`:''}<details><summary>sources (${(lv.sources||[]).length}) · scanned ${esc(lv.scanned_ist)}</summary><ul>${(lv.sources||[]).map(x=>`<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title||x.url)}</a> (${esc(x.date)})</li>`).join('')}</ul></details>`:
-  `<p>Limited local coverage — not scanned yet for this place.</p>`}
-  <p class="mut">Rule: this view can only turn <i>OK to lend</i> into <i>Caution</i> when it says local conditions are worse. It never creates or removes an Avoid, and never upgrades a call. No number from news is used.</p></div>`;
- const st=D.states[c.state]||{signals:{}},sg=st.signals;
- const gn=s.gnpa||{points:[]};
- const ev=`<div class="card"><details open><summary><b>Evidence</b></summary>
- <h4>India-wide sector data</h4><table><tr><th>Driver</th><th>Value</th><th>Data to</th><th>Status</th><th>Source</th></tr>${Object.entries(s.drivers).map(([k,v])=>`<tr><td>${esc(v.text||k)}</td><td>${v.value==null?'—':fmt(v.value)} ${esc(v.unit||'')}</td><td>${esc(v.as_of||'')}</td><td><span class="pill ${v.status=='verified'?'ok':'unknown'}">${esc(v.status||'')}</span></td><td>${v.source_url?`<a href="${esc(v.source_url)}" target="_blank" rel="noopener">link</a>`:''}</td></tr>`).join('')}</table>
- <h4>${esc(st.name||'')} signals</h4><table><tr><th>Signal</th><th>State</th><th>India</th><th>Data to</th><th>Source</th></tr>${['gst','power'].map(k=>sg[k]?`<tr><td>${esc(sg[k].label)}</td><td>${fmt(sg[k].value)}%</td><td>${fmt(sg[k].india)}%</td><td>${esc(sg[k].as_of)}</td><td><a href="${esc(sg[k].source_url)}" target="_blank" rel="noopener">${esc(sg[k].source_name)}</a>${sg[k].verified?'':' <span class="pill unknown">failed cross-check, not used</span>'}</td></tr>`:`<tr><td>${k=='gst'?'GST collections':'Electricity demand'}</td><td colspan="4">Unknown — collect</td></tr>`).join('')}
- ${st.credit?`<tr><td>All bank credit in the state (annual, display only)</td><td>Rs ${Math.round(st.credit.credit_cr).toLocaleString('en-IN')} Cr, ${fmt(st.credit.credit_yoy_pct)}% YoY; C-D ratio ${st.credit.cd_ratio_pct??'—'}%</td><td></td><td>${esc(st.credit.as_of)}</td><td><a href="${esc(st.credit.source_url)}" target="_blank" rel="noopener">${esc(st.credit.source_name)}</a></td></tr>`:''}</table>
- <h4>Sector bad loans (GNPA ratio, %)</h4>${gn.points.length?`<p>${gn.points.map(p=>`${esc(p.period)}: <b>${p.value}%</b>`).join(' → ')} ${spark(gn.points,'value')}</p><p class="mut">RBI Financial Stability Report, category "${esc(gn.fsr_category)}" (${gn.points.map(p=>`<a href="${esc(p.source_url)}" target="_blank" rel="noopener">${esc(p.edition)}</a>`).join(', ')}). Display only — not used in the call.</p>`:'<p>Unknown — collect (RBI FSR does not publish this sector separately).</p>'}
- <h4>Bank credit growth trend (RBI monthly)</h4>${(s.credit_trend||[]).length?`<p>${s.credit_trend.map(p=>`${esc(p.period)}: ${fmt(p.yoy_pct)}%`).join(' · ')} ${spark(s.credit_trend,'yoy_pct')}</p>`:'<p>Unknown — collect</p>'}<p class="mut">One point per RBI release, collected since this tool started; history is never back-filled.</p>
- <h4>In plain words</h4><p>${esc(s.plain.what)}</p><ul>${s.plain.facts.map(f=>`<li>${esc(f)}</li>`).join('')}</ul><p>${esc(s.plain.why)}</p><p><i>What would change our mind:</i> ${esc(s.plain.change_mind)}</p>${s.plain.watch&&s.plain.watch.length?`<p class="mut">${esc(s.plain.lens_label)}</p><p><i>Typical stress signals:</i> ${s.plain.watch.map(esc).join('; ')}</p><p><i>Diligence checks:</i> ${s.plain.checks.map(esc).join('; ')}</p>`:''}
- ${c.signals?`<h4>Early-warning signs to ask about in this cluster</h4><p>${esc(c.signals)}</p>`:''}
- </details></div>`;
- const rate=`<div class="card"><h3>Ground check: is our stance right here?</h3>
- <p class="warn">⚠️ Do not enter customer names, account numbers or any confidential information. Only an optional role and city are stored.</p>
- <form id="rf"><div class="scale">${[...Array(10)].map((_,i)=>`<label><input type="radio" name="sc" value="${i+1}" required><span>${i+1}</span></label>`).join('')}</div>
- <p class="mut">1 = our stance is correct · 10 = our stance is incorrect</p>
- <div class="row"><input name="role" maxlength="40" placeholder="Role (optional)"><input name="city" maxlength="40" placeholder="City (optional)"></div>
- <textarea name="cm" maxlength="300" rows="2" placeholder="Comment (optional, no customer details)" style="margin-top:6px"></textarea>
- <button class="b" style="margin-top:6px">Submit rating</button></form>
- <p data-testid="ratings">${a.n?`Average <b>${a.avg.toFixed(1)}</b>/10 from <b>${a.n}</b> rating(s). Distribution: ${a.dist.map((x,i)=>`${i+1}:${x}`).join(' ')}`:'No ratings yet.'} ${a.n>=D.geo_config.ratings_min_n&&a.avg>D.geo_config.ratings_disagree_above?'<span class="pill avoid">Bankers disagree with this stance</span>':''}</p>
- <p class="mut">Storage: ${RC.form_action?'shared (Google Form) + this browser':'this browser only — shared storage not yet set up'}.</p></div>`;
- box.innerHTML=`<div class="card">${head}</div>`+local+ev+rate;
- $('#rf').onsubmit=e=>{e.preventDefault();const f=new FormData(e.target);const r={sector:sec,geo,score:+f.get('sc'),role:(f.get('role')||'').slice(0,40),city:(f.get('city')||'').slice(0,40),comment:(f.get('cm')||'').slice(0,300),ts:new Date().toISOString().slice(0,10)};
-  const all=ratingsAll();all.push(r);localStorage.setItem(RKEY,JSON.stringify(all));
-  if(RC.form_action){const b=new URLSearchParams();b.set(RC.entry_sector,sec);b.set(RC.entry_geo,geo);b.set(RC.entry_score,r.score);if(RC.entry_role)b.set(RC.entry_role,r.role);if(RC.entry_city)b.set(RC.entry_city,r.city);if(RC.entry_comment)b.set(RC.entry_comment,r.comment);fetch(RC.form_action,{method:'POST',mode:'no-cors',body:b})}
-  render()}}
-
-function fillSectors(){const geo=$('#geo').value,cl=D.clusters.find(x=>x.id==geo),cur=$('#sector').value;
- const core=cl?cl.sectors.filter(x=>SEC[x]):[];const rest=D.sectors.filter(s=>!core.includes(s.id));
- $('#sector').innerHTML=(core.length?`<optgroup label="Main sectors in ${esc(cl.name)}">${core.map(x=>`<option value="${x}">${esc(SEC[x].name)}</option>`).join('')}</optgroup>`:'')+`<optgroup label="All sectors">${rest.map(s=>`<option value="${s.id}">${esc(s.name)}</option>`).join('')}</optgroup>`;
- if([...$('#sector').options].some(o=>o.value==cur))$('#sector').value=cur}
-
-function avoidTab(){const f=($('#avf').value||'').toLowerCase();
- $('#avt').innerHTML='<tr><th>#</th><th>Geography</th><th>Sector</th><th>Score</th><th>Main reason</th></tr>'+D.avoid_list.map(x=>D.combos[x.i]).filter(c=>!f||(c.geo+' '+(c.cluster_name||'')+' '+SEC[c.sector].name).toLowerCase().includes(f)).slice(0,300).map(c=>`<tr><td>${c.severity_rank}</td><td><a href="?geo=${c.geo_id}&sector=${c.sector}">${esc(c.cluster_name||c.geo)}</a>${c.geo_type=='cluster'?' <span class="pill unknown">cluster</span>':''}</td><td>${esc(SEC[c.sector].name)}</td><td>${c.score}</td><td>${esc((c.reasons[0]||{}).text||'')}</td></tr>`).join('')}
-
-function sectorsTab(){const g=$('#grp').value;$('#secs').innerHTML=D.sectors.filter(s=>!g||s.group==g).map(s=>`<details class="card"><summary><span class="pill ${NV[s.verdict]||'unknown'}">${esc(s.verdict)}</span> <b>${esc(s.name)}</b> <span class="mut">${s.score??''}</span></summary><p>${esc(s.plain.what)}</p><ul>${s.plain.facts.map(f=>`<li>${esc(f)}</li>`).join('')}</ul><p>${esc(s.plain.why)}</p><p><i>What would change our mind:</i> ${esc(s.plain.change_mind)}</p>${s.plain.watch&&s.plain.watch.length?`<p class="mut">${esc(s.plain.lens_label)}</p><p><i>Typical stress signals:</i> ${s.plain.watch.map(esc).join('; ')}</p><p><i>Diligence checks:</i> ${s.plain.checks.map(esc).join('; ')}</p>`:''}<p class="mut">${esc(s.why)}</p></details>`).join('')}
-
-(async()=>{D=await (await fetch('data/lending_latest.json',{cache:'no-store'})).json();await loadShared();
- D.sectors.forEach(s=>SEC[s.id]=s);D.combos.forEach((c,i)=>IDX[c.geo_id+'|'+c.sector]=i);
- $('#gen').textContent='Data generated '+D.generated_at_ist+'.';
- const sts=Object.values(D.states).sort((a,b)=>a.name.localeCompare(b.name));
- $('#geo').innerHTML=`<optgroup label="Industrial clusters">${D.clusters.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(c=>`<option value="${c.id}">${esc(c.name)} (${esc(D.states[c.state]?.name||c.state)})</option>`).join('')}</optgroup><optgroup label="States / UTs">${sts.map(s=>`<option value="${s.code}">${esc(s.name)}</option>`).join('')}</optgroup>`;
- const q=new URLSearchParams(location.search);if(q.get('geo'))$('#geo').value=q.get('geo');fillSectors();if(q.get('sector'))$('#sector').value=q.get('sector');
- $('#geo').onchange=()=>{fillSectors();render()};$('#sector').onchange=render;render();
- $('#avf').oninput=avoidTab;avoidTab();
- $('#grp').innerHTML='<option value="">All</option>'+[...new Set(D.sectors.map(s=>s.group))].map(g=>`<option>${esc(g)}</option>`).join('');$('#grp').onchange=sectorsTab;sectorsTab();
- $('#hl').innerHTML=D.highlights.map(h=>`<p><span class="pill ${h.kind=='stress'?'avoid':'ok'}">${h.kind}</span> ${esc(h.text)}</p>`).join('')||'<p>None triggered.</p>';
- $('#hlr').innerHTML=D.highlight_rules.map(r=>`<p><b>${esc(r.id)}</b>: ${esc(r.text)}</p>`).join('');
- $('#stt').innerHTML='<tr><th>State</th><th>GST Apr-to-date</th><th>Power Apr-to-date</th><th>Bank credit YoY (Mar-25)</th><th>C-D ratio</th></tr>'+sts.map(s=>`<tr><td><a href="?geo=${s.code}&sector=${D.sectors[0].id}">${esc(s.name)}</a></td><td>${s.signals.gst?fmt(s.signals.gst.value)+'%':'Unknown — collect'}</td><td>${s.signals.power?fmt(s.signals.power.value)+'%':'Unknown — collect'}</td><td>${s.credit?fmt(s.credit.credit_yoy_pct)+'%':'—'}</td><td>${s.credit?.cd_ratio_pct??'—'}</td></tr>`).join('');
- if(q.get('tab'))tab(q.get('tab'));
- document.body.dataset.ready='1'})();
+const LBL={ok:'OK to lend',caution:'Caution',avoid:'Avoid'};let D,B={},IND={},CITY={},sel={st:'',ct:'',ind:''};
+const qp=new URLSearchParams(location.search);
+Promise.all([fetch('data/radar.json').then(r=>r.json()),fetch('data/radar_briefs.json').then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,b])=>{D=d;B=b;init()});
+function init(){D.industries.forEach(i=>IND[i.id]=i);D.cities.forEach(c=>CITY[c.id]=c);
+ const sts=Object.entries(D.states).filter(([k])=>D.cities.some(c=>c.state==k)).sort((a,b)=>a[1].name.localeCompare(b[1].name));
+ $('#st').innerHTML=sts.map(([k,v])=>`<option value="${k}">${esc(v.name)}</option>`).join('');
+ sel.st=qp.get('state')&&D.states[qp.get('state')]?qp.get('state'):'GJ';$('#st').value=sel.st;fillCities(qp.get('city'));
+ sel.ind=IND[qp.get('ind')]?qp.get('ind'):(CITY[sel.ct]?.hubs[0]||'');$('#ind').value=IND[sel.ind]?.name||'';
+ $('#st').onchange=()=>{sel.st=$('#st').value;fillCities();if(!CITY[sel.ct]?.hubs.includes(sel.ind)){}render()};
+ $('#ct').onchange=()=>{sel.ct=$('#ct').value;render()};
+ const inp=$('#ind'),lb=$('#lb');let act=-1;
+ const list=()=>{const q=inp.value.toLowerCase().trim(),hubs=sel.ct?CITY[sel.ct].hubs:[];const m=D.industries.filter(i=>!q||(i.name+' '+i.group+' '+(i.nic||'')).toLowerCase().includes(q)||(IND[sel.ind]&&inp.value==IND[sel.ind].name));
+  const hub=m.filter(i=>hubs.includes(i.id)),rest=m.filter(i=>!hubs.includes(i.id));let h='';
+  if(hub.length)h+=`<div class="g">Known hubs in ${esc(CITY[sel.ct].name)}</div>`+hub.map(i=>`<div data-id="${i.id}" class="hub" role="option">${esc(i.name)}</div>`).join('');
+  const gs=[...new Set(rest.map(i=>i.group))];gs.forEach(g=>{h+=`<div class="g">${esc(g)}</div>`+rest.filter(i=>i.group==g).map(i=>`<div data-id="${i.id}" role="option">${esc(i.name)}</div>`).join('')});
+  lb.innerHTML=h||'<div class="g">No match</div>';lb.classList.add('open');inp.setAttribute('aria-expanded','true');act=-1};
+ inp.onfocus=()=>{inp.select();list()};inp.oninput=list;
+ inp.onkeydown=e=>{const o=[...lb.querySelectorAll('[data-id]')];if(e.key=='ArrowDown'||e.key=='ArrowUp'){act=Math.max(0,Math.min(o.length-1,act+(e.key=='ArrowDown'?1:-1)));o.forEach((x,i)=>x.classList.toggle('act',i==act));o[act]?.scrollIntoView({block:'nearest'});e.preventDefault()}if(e.key=='Enter'&&o[Math.max(act,0)]){pick(o[Math.max(act,0)].dataset.id)}if(e.key=='Escape')close()};
+ lb.onmousedown=e=>{const t=e.target.closest('[data-id]');if(t){e.preventDefault();pick(t.dataset.id)}};
+ inp.onblur=()=>setTimeout(close,120);
+ function pick(id){sel.ind=id;inp.value=IND[id].name;close();inp.blur();render()}
+ function close(){lb.classList.remove('open');inp.setAttribute('aria-expanded','false');if(IND[sel.ind])inp.value=IND[sel.ind].name}
+ $('#foot').innerHTML=`Data refreshed ${esc(D.generated_at_ist)} · FY ${esc(D.fy)} · ${esc(D.units)} · ${D.industries.length} industries · ${D.cities.length} cities. ${esc(D.disclaimer)} Verdicts use only verified official figures; local news can only turn OK to lend into Caution. See <a href="methodology.html">methodology</a> and <a href="audit.html">data audit</a>.`;
+ render()}
+function fillCities(want){const cs=D.cities.filter(c=>c.state==sel.st).sort((a,b)=>a.name.localeCompare(b.name));$('#ct').innerHTML=cs.map(c=>`<option value="${c.id}">${esc(c.name)}</option>`).join('');sel.ct=cs.find(c=>c.id==want)?want:(cs[0]?.id||'');$('#ct').value=sel.ct}
+const mon=iso=>{if(!iso)return'';const m=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return m[+iso.slice(5,7)-1]+'-'+iso.slice(0,4)};
+function spark(pts,key,lab){if(!pts||pts.length<2)return'';const v=pts.map(p=>p[key]),mx=Math.max(...v.map(Math.abs),1);return `<div class="spark" aria-label="${esc(lab)}">${pts.map(p=>`<i class="${p[key]<0?'neg':''}" style="height:${Math.max(6,Math.abs(p[key])/mx*100)}%" title="${esc(p.period)}: ${p[key]}%"></i>`).join('')}</div><div class="meta">${pts.map(p=>esc(p.period)+' '+p[key]+'%').join(' · ')}</div>`}
+function render(){const st=D.states[sel.st],ct=CITY[sel.ct],ind=IND[sel.ind];history.replaceState(null,'',`?state=${sel.st}&city=${sel.ct}${ind?'&ind='+ind.id:''}`);
+ if(!ind){$('#result').innerHTML='<div class="card empty">Choose an industry to see the stance.</div>';return}
+ const sec=D.sectors[ind.parent],e=D.calls[sel.st+'|'+ind.parent]||[null],[base,score,nat,loc,ins,rs]=e;
+ const cb=B[sel.ct+'|'+ind.id],sb=B[sel.st+'|*'],br=cb||sb;let call=base;const nudged=base=='ok'&&br&&br.o=='Worse';if(nudged)call='caution';
+ const cls=call||'unknown',label=call?LBL[call]:'Not enough data';
+ const reasons=(rs||[]).map(i=>D.reasons[i]);
+ const al=r=>call=='avoid'?r[1]<0:call=='ok'?r[1]>0:r[1]!=0;const lead=reasons.find(r=>r[3]=='national'&&al(r))||reasons.find(al)||reasons[0];
+ const head=!call?`Not enough verified national data for ${sec.name} — Unknown, collect.`:`${label} for ${ind.name} in ${ct.name}: ${lead?lead[0].split(' [')[0].replace(/^India-wide: /,'national ').replace(/ — .*$/,''):''}`;
+ const formula=ins=='local'?`Not enough local data for ${st.name}. National view: ${LBL[base]} (score ${nat}).`:score!=null?`National ${nat} × ${D.geo.weight_national} + ${st.name} local ${loc} × ${D.geo.weight_local} = ${score}. OK to lend ≥ ${D.geo.ok_at_or_above}; Avoid < ${D.geo.avoid_below}.`:'';
+ const proxy=ind.mapping!='direct'?`<span class="pill proxy">proxy: parent sector — ${esc(sec.name)}</span>`:'';
+ const why=reasons.slice(0,4).map(r=>`<li>${esc(r[0].split(' [')[0])} <span class="meta">${esc((r[0].match(/\[(.*)\]$/)||['',''])[1])}${r[2]?` · <a href="${esc(r[2])}" target="_blank" rel="noopener">source</a>`:''}</span></li>`).join('');
+ const lt=cb?'':`<div class="note">Local brief not yet generated for ${esc(ct.name)}; state view shown.</div>`;
+ const flav=br?`<p>${esc(br.f)}</p>`:`<p class="meta">${D.local_news_status?.active===false?'Local scan activates once the key is added.':'No local brief available yet for this state.'}</p>`;
+ const checks=(cb&&cb.c)||sec.checks||[],change=(cb&&cb.x)||[call?`Score ${score??nat}: OK to lend needs ${D.geo.ok_at_or_above}+, Avoid below ${D.geo.avoid_below}.`:'',sec.change||''].join(' ');
+ const srcs=[...reasons.filter(r=>r[2]).map(r=>[r[0].split(' [')[0],r[2],'official']),...((br&&br.s)||[]).map(s=>[s.title||s.url,s.url,'local news · '+s.date])];
+ const drv=sec.drivers.map(d=>`<tr><td>${esc(d.t)}</td><td>${esc(d.st)}${d.r?` <span class="meta">${esc(d.r)}</span>`:''}</td><td>${esc(mon(d.d))}</td><td>${d.u?`<a href="${esc(d.u)}" target="_blank" rel="noopener">link</a>`:''}</td></tr>`).join('');
+ const sig=Object.entries(st.signals).map(([k,s])=>`<tr><td>${k=='gst'?'GST collections':'Electricity demand'} Apr-to-date</td><td>${s.value>0?'+':''}${s.value}% vs India ${s.india>0?'+':''}${s.india}%</td><td>${esc(mon(s.as_of))}</td><td>${s.source_url?`<a href="${esc(s.source_url)}" target="_blank" rel="noopener">link</a>`:''}</td></tr>`).join('');
+ const gn=sec.gnpa&&sec.gnpa.points&&sec.gnpa.points.length?`<h3>GNPA ratio, ${esc(sec.gnpa.fsr_category)} (RBI FSR, all banks)</h3>${spark(sec.gnpa.points,'value','GNPA')}`:'<h3>GNPA</h3><p class="meta">No matching RBI FSR category — Unknown, collect from internal MIS.</p>';
+ const tr=sec.trend&&sec.trend.length>1?`<h3>Bank-credit growth trend (RBI)</h3>${spark(sec.trend.map(p=>({period:mon(p.period),yoy_pct:p.yoy_pct})),'yoy_pct','credit trend')}`:'';
+ $('#result').innerHTML=`<div class="card" data-call="${cls}">
+ <div class="top"><span class="badge ${cls}">${esc(label)}</span>${score!=null||nat!=null?`<span class="score">${score??nat}<small>/100</small></span>`:''}${proxy}</div>
+ <div class="head">${esc(head)}</div><div class="meta">${esc(formula)}${nudged?` Local news says conditions are worse than the data, so OK to lend becomes Caution.`:''}</div>
+ <h3>Why</h3>${why?`<ul>${why}</ul>`:'<p class="meta">Not enough verified figures. Unknown — collect.</p>'}
+ <h3>Local flavour <span class="pill">AI-written from local news · unverified</span></h3>${lt}${flav}${br&&br.o?`<p class="meta">Local outlook vs data: <b>${esc(br.o)}</b>${br.w?' — '+esc(br.w):''} · scanned ${esc(br.t)}</p>`:''}
+ <h3>Check with the borrower</h3><ol>${checks.map(c=>`<li>${esc(c)}</li>`).join('')}</ol>
+ <h3>What would change the call</h3><p>${esc(change)}</p>
+ <details><summary>Sources (${srcs.length})</summary><ul>${srcs.map(s=>`<li><a href="${esc(s[1])}" target="_blank" rel="noopener">${esc(s[0])}</a> <span class="meta">${esc(s[2])}</span></li>`).join('')}</ul></details>
+ <details><summary>Expand: details and trends</summary>${sec.what?`<p class="meta">${esc(sec.what)} <i>(sector lens: analytical framing, not data)</i></p>`:''}
+ <h3>National data — ${esc(sec.name)}</h3><table><tr><th>Driver</th><th>Status</th><th>Data to</th><th></th></tr>${drv||'<tr><td colspan=4>Unknown — collect</td></tr>'}</table>
+ ${sec.credit?`<p class="meta">Bank credit outstanding Rs ${Math.round(sec.credit.outstanding_cr).toLocaleString('en-IN')} Cr, ${sec.credit.yoy_pct>0?'+':''}${sec.credit.yoy_pct}% YoY (RBI, ${esc(mon(sec.credit.as_of))}).</p>`:''}
+ <h3>${esc(st.name)} signals vs India</h3><table>${sig||'<tr><td>Unknown — collect</td></tr>'}</table>${gn}${tr}
+ ${ind.mapping!='direct'?`<p class="meta">${esc(ind.name)} (NIC ${esc(ind.nic)}) has no separate official series; the stance uses ${esc(sec.name)} as the nearest parent sector.${ind.focus?' Watch: '+esc(ind.focus)+' (framing, not data).':''}</p>`:''}
+ </details></div>`}
 </script></body></html>

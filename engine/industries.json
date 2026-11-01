@@ -1,0 +1,2461 @@
+{
+ "_doc": "Industry catalogue. 'direct' = scored on its own RBI/IIP/export series; 'proxy: parent sector' = uses the nearest parent scored sector. focus = analytical framing, not data.",
+ "industries": [
+  {
+   "id": "mmf_textiles",
+   "name": "Textiles - MMF / Polyester Weaving & Processing",
+   "group": "Manufacturing",
+   "parent": "mmf_textiles",
+   "mapping": "direct",
+   "nic": "13",
+   "series": {
+    "rbi": "2.4.3",
+    "iip": "13",
+    "exports": 24
+   }
+  },
+  {
+   "id": "cotton_textiles",
+   "name": "Textiles - Cotton Spinning & Yarn",
+   "group": "Manufacturing",
+   "parent": "cotton_textiles",
+   "mapping": "direct",
+   "nic": "13",
+   "series": {
+    "rbi": "2.4.1",
+    "iip": "13",
+    "exports": 23
+   }
+  },
+  {
+   "id": "apparel",
+   "name": "Readymade Garments & Made-ups",
+   "group": "Manufacturing",
+   "parent": "apparel",
+   "mapping": "direct",
+   "nic": "14",
+   "series": {
+    "rbi": "2.4.4",
+    "iip": "14",
+    "exports": 25
+   }
+  },
+  {
+   "id": "diamonds",
+   "name": "Cut & Polished Diamonds / Gems & Jewellery",
+   "group": "Manufacturing",
+   "parent": "diamonds",
+   "mapping": "direct",
+   "nic": "32",
+   "series": {
+    "rbi": "2.16",
+    "iip": "32",
+    "exports": 18
+   }
+  },
+  {
+   "id": "chemicals_dyes",
+   "name": "Chemicals, Dyes & Intermediates",
+   "group": "Manufacturing",
+   "parent": "chemicals_dyes",
+   "mapping": "direct",
+   "nic": "20",
+   "series": {
+    "rbi": "2.9.4",
+    "iip": "20",
+    "exports": 20
+   }
+  },
+  {
+   "id": "petrochem",
+   "name": "Petrochemicals",
+   "group": "Manufacturing",
+   "parent": "petrochem",
+   "mapping": "direct",
+   "nic": "20",
+   "series": {
+    "rbi": "2.9.3",
+    "iip": "20",
+    "exports": null
+   }
+  },
+  {
+   "id": "pharma",
+   "name": "Pharmaceuticals & APIs",
+   "group": "Manufacturing",
+   "parent": "pharma",
+   "mapping": "direct",
+   "nic": "21",
+   "series": {
+    "rbi": "2.9.2",
+    "iip": "21",
+    "exports": 19
+   }
+  },
+  {
+   "id": "ceramics",
+   "name": "Ceramic Tiles, Sanitaryware & Glass",
+   "group": "Manufacturing",
+   "parent": "ceramics",
+   "mapping": "direct",
+   "nic": "23",
+   "series": {
+    "rbi": "2.11",
+    "iip": "23",
+    "exports": 17
+   }
+  },
+  {
+   "id": "plastics",
+   "name": "Plastics & Rubber Processing",
+   "group": "Manufacturing",
+   "parent": "plastics",
+   "mapping": "direct",
+   "nic": "22",
+   "series": {
+    "rbi": "2.10",
+    "iip": "22",
+    "exports": 30
+   }
+  },
+  {
+   "id": "engineering",
+   "name": "Engineering & Capital Goods",
+   "group": "Manufacturing",
+   "parent": "engineering",
+   "mapping": "direct",
+   "nic": "28",
+   "series": {
+    "rbi": "2.14.2",
+    "iip": "28",
+    "exports": 21
+   }
+  },
+  {
+   "id": "metals",
+   "name": "Iron & Steel (incl. secondary re-rolling)",
+   "group": "Manufacturing",
+   "parent": "metals",
+   "mapping": "direct",
+   "nic": "24",
+   "series": {
+    "rbi": "2.13.1",
+    "iip": "24",
+    "exports": null
+   }
+  },
+  {
+   "id": "electronics",
+   "name": "Electronics Manufacturing",
+   "group": "Manufacturing",
+   "parent": "electronics",
+   "mapping": "direct",
+   "nic": "26",
+   "series": {
+    "rbi": "2.14.1",
+    "iip": "26",
+    "exports": 22
+   }
+  },
+  {
+   "id": "auto_components",
+   "name": "Auto & Auto Components",
+   "group": "Manufacturing",
+   "parent": "auto_components",
+   "mapping": "direct",
+   "nic": "29",
+   "series": {
+    "rbi": "2.15",
+    "iip": "29",
+    "exports": null
+   }
+  },
+  {
+   "id": "paper",
+   "name": "Paper & Paper Products",
+   "group": "Manufacturing",
+   "parent": "paper",
+   "mapping": "direct",
+   "nic": "17",
+   "series": {
+    "rbi": "2.7",
+    "iip": "17",
+    "exports": null
+   }
+  },
+  {
+   "id": "food_processing",
+   "name": "Food Processing",
+   "group": "Manufacturing",
+   "parent": "food_processing",
+   "mapping": "direct",
+   "nic": "10",
+   "series": {
+    "rbi": "2.2",
+    "iip": "10",
+    "exports": null
+   }
+  },
+  {
+   "id": "commercial_real_estate",
+   "name": "Commercial Real Estate",
+   "group": "Services",
+   "parent": "commercial_real_estate",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "3.8",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "beverages",
+   "name": "Beverages & Tobacco",
+   "group": "Manufacturing",
+   "parent": "beverages",
+   "mapping": "direct",
+   "nic": "11",
+   "series": {
+    "rbi": "2.3",
+    "iip": "11",
+    "exports": 5
+   }
+  },
+  {
+   "id": "leather",
+   "name": "Leather & Footwear",
+   "group": "Manufacturing",
+   "parent": "leather",
+   "mapping": "direct",
+   "nic": "15",
+   "series": {
+    "rbi": "2.5",
+    "iip": "15",
+    "exports": 16
+   }
+  },
+  {
+   "id": "wood_plywood",
+   "name": "Wood, Plywood & Panels",
+   "group": "Manufacturing",
+   "parent": "wood_plywood",
+   "mapping": "direct",
+   "nic": "16",
+   "series": {
+    "rbi": "2.6",
+    "iip": "16",
+    "exports": null
+   }
+  },
+  {
+   "id": "refining",
+   "name": "Petroleum Refining & Coal Products",
+   "group": "Manufacturing",
+   "parent": "refining",
+   "mapping": "direct",
+   "nic": "19",
+   "series": {
+    "rbi": "2.8",
+    "iip": "19",
+    "exports": 29
+   }
+  },
+  {
+   "id": "fertiliser",
+   "name": "Fertilisers",
+   "group": "Manufacturing",
+   "parent": "fertiliser",
+   "mapping": "direct",
+   "nic": "20",
+   "series": {
+    "rbi": "2.9.1",
+    "iip": "20",
+    "exports": null
+   }
+  },
+  {
+   "id": "cement",
+   "name": "Cement",
+   "group": "Manufacturing",
+   "parent": "cement",
+   "mapping": "direct",
+   "nic": "23",
+   "series": {
+    "rbi": "2.12",
+    "iip": "23",
+    "exports": null
+   }
+  },
+  {
+   "id": "glass",
+   "name": "Glass & Glassware",
+   "group": "Manufacturing",
+   "parent": "glass",
+   "mapping": "direct",
+   "nic": "23",
+   "series": {
+    "rbi": "2.11",
+    "iip": "23",
+    "exports": 17
+   }
+  },
+  {
+   "id": "nonferrous_brass",
+   "name": "Non-ferrous Metals, Brass & Fabricated Metal",
+   "group": "Manufacturing",
+   "parent": "nonferrous_brass",
+   "mapping": "direct",
+   "nic": "25",
+   "series": {
+    "rbi": "2.13.2",
+    "iip": "25",
+    "exports": null
+   }
+  },
+  {
+   "id": "electrical_eq",
+   "name": "Electrical Equipment, Pumps & Motors",
+   "group": "Manufacturing",
+   "parent": "electrical_eq",
+   "mapping": "direct",
+   "nic": "27",
+   "series": {
+    "rbi": "2.14.2",
+    "iip": "27",
+    "exports": 21
+   }
+  },
+  {
+   "id": "other_transport",
+   "name": "Cycles, Two-wheelers & Other Transport Equipment",
+   "group": "Manufacturing",
+   "parent": "other_transport",
+   "mapping": "direct",
+   "nic": "30",
+   "series": {
+    "rbi": "2.15",
+    "iip": "30",
+    "exports": null
+   }
+  },
+  {
+   "id": "furniture_misc",
+   "name": "Furniture, Toys, Fireworks & Misc. Manufacturing",
+   "group": "Manufacturing",
+   "parent": "furniture_misc",
+   "mapping": "direct",
+   "nic": "31",
+   "series": {
+    "rbi": "2.19",
+    "iip": "31",
+    "exports": null
+   }
+  },
+  {
+   "id": "handicrafts",
+   "name": "Handicrafts & Carpets",
+   "group": "Manufacturing",
+   "parent": "handicrafts",
+   "mapping": "direct",
+   "nic": "32",
+   "series": {
+    "rbi": "2.19",
+    "iip": "32",
+    "exports": 28
+   }
+  },
+  {
+   "id": "sugar",
+   "name": "Sugar & Ethanol",
+   "group": "Agri-processing",
+   "parent": "sugar",
+   "mapping": "direct",
+   "nic": "10",
+   "series": {
+    "rbi": "2.2.1",
+    "iip": "10",
+    "exports": null
+   }
+  },
+  {
+   "id": "edible_oil",
+   "name": "Edible Oils & Vanaspati",
+   "group": "Agri-processing",
+   "parent": "edible_oil",
+   "mapping": "direct",
+   "nic": "10",
+   "series": {
+    "rbi": "2.2.2",
+    "iip": "10",
+    "exports": 8
+   }
+  },
+  {
+   "id": "tea",
+   "name": "Tea Plantations",
+   "group": "Agri-processing",
+   "parent": "tea",
+   "mapping": "direct",
+   "nic": "10",
+   "series": {
+    "rbi": "2.2.3",
+    "iip": "10",
+    "exports": 1
+   }
+  },
+  {
+   "id": "cashew",
+   "name": "Cashew Processing",
+   "group": "Agri-processing",
+   "parent": "cashew",
+   "mapping": "direct",
+   "nic": "10",
+   "series": {
+    "rbi": "2.2.4",
+    "iip": "10",
+    "exports": 7
+   }
+  },
+  {
+   "id": "jute_coir",
+   "name": "Jute & Coir",
+   "group": "Manufacturing",
+   "parent": "jute_coir",
+   "mapping": "direct",
+   "nic": "13",
+   "series": {
+    "rbi": "2.4.2",
+    "iip": "13",
+    "exports": 26
+   }
+  },
+  {
+   "id": "mining",
+   "name": "Mining & Quarrying",
+   "group": "Infrastructure & Core",
+   "parent": "mining",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "2.1",
+    "iip": null,
+    "exports": 15
+   }
+  },
+  {
+   "id": "construction",
+   "name": "Construction & EPC",
+   "group": "Infrastructure & Core",
+   "parent": "construction",
+   "mapping": "direct",
+   "nic": "23",
+   "series": {
+    "rbi": "2.17",
+    "iip": "23",
+    "exports": null
+   }
+  },
+  {
+   "id": "power",
+   "name": "Power Generation & Distribution",
+   "group": "Infrastructure & Core",
+   "parent": "power",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "2.18.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "renewables",
+   "name": "Renewables (solar/wind)",
+   "group": "Infrastructure & Core",
+   "parent": "renewables",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": null,
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "telecom",
+   "name": "Telecommunications",
+   "group": "Infrastructure & Core",
+   "parent": "telecom",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "2.18.2",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "roads",
+   "name": "Roads & Highways",
+   "group": "Infrastructure & Core",
+   "parent": "roads",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "2.18.3",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "other_infra",
+   "name": "Ports, Airports, Railways & Other Infra",
+   "group": "Infrastructure & Core",
+   "parent": "other_infra",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "2.18.7",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "agriculture",
+   "name": "Agriculture & Allied",
+   "group": "Agriculture & Allied",
+   "parent": "agriculture",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "msme_micro_small",
+   "name": "MSME — Micro & Small (industry)",
+   "group": "MSME",
+   "parent": "msme_micro_small",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "S1:2.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "msme_medium",
+   "name": "MSME — Medium (industry)",
+   "group": "MSME",
+   "parent": "msme_medium",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "S1:2.2",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "wholesale_trade",
+   "name": "Wholesale Trade",
+   "group": "Services",
+   "parent": "wholesale_trade",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "3.7.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "retail_trade",
+   "name": "Retail Trade",
+   "group": "Services",
+   "parent": "retail_trade",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "3.7.2",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "transport_ops",
+   "name": "Transport Operators (road fleets, logistics)",
+   "group": "Services",
+   "parent": "transport_ops",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "3.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "tourism_hotels",
+   "name": "Tourism, Hotels & Restaurants",
+   "group": "Services",
+   "parent": "tourism_hotels",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "3.3",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "aviation",
+   "name": "Aviation",
+   "group": "Services",
+   "parent": "aviation",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "3.5",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "software_it",
+   "name": "Computer Software & IT",
+   "group": "Services",
+   "parent": "software_it",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "3.2",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "professional_services",
+   "name": "Professional Services",
+   "group": "Services",
+   "parent": "professional_services",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "3.6",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "nbfc",
+   "name": "NBFCs (bank exposure)",
+   "group": "Services",
+   "parent": "nbfc",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "3.9",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "tobacco",
+   "name": "Tobacco Products & Bidi",
+   "group": "Manufacturing",
+   "parent": "tobacco",
+   "mapping": "direct",
+   "nic": "12",
+   "series": {
+    "rbi": "2.3",
+    "iip": "12",
+    "exports": 5
+   }
+  },
+  {
+   "id": "coffee",
+   "name": "Coffee Curing & Export",
+   "group": "Agri-processing",
+   "parent": "coffee",
+   "mapping": "direct",
+   "nic": "10",
+   "series": {
+    "rbi": "2.2.4",
+    "iip": "10",
+    "exports": 2
+   }
+  },
+  {
+   "id": "rice_milling",
+   "name": "Rice Milling & Export",
+   "group": "Agri-processing",
+   "parent": "rice_milling",
+   "mapping": "direct",
+   "nic": "10",
+   "series": {
+    "rbi": "2.2.4",
+    "iip": "10",
+    "exports": 3
+   }
+  },
+  {
+   "id": "spices",
+   "name": "Spices Processing & Trade",
+   "group": "Agri-processing",
+   "parent": "spices",
+   "mapping": "direct",
+   "nic": "10",
+   "series": {
+    "rbi": "2.2.4",
+    "iip": "10",
+    "exports": 6
+   }
+  },
+  {
+   "id": "marine_meat_dairy",
+   "name": "Marine, Meat, Dairy & Poultry Products",
+   "group": "Agri-processing",
+   "parent": "marine_meat_dairy",
+   "mapping": "direct",
+   "nic": "10",
+   "series": {
+    "rbi": "2.2.4",
+    "iip": "10",
+    "exports": 13
+   }
+  },
+  {
+   "id": "fruits_veg",
+   "name": "Fruit & Vegetable Processing",
+   "group": "Agri-processing",
+   "parent": "fruits_veg",
+   "mapping": "direct",
+   "nic": "10",
+   "series": {
+    "rbi": "2.2.4",
+    "iip": "10",
+    "exports": 10
+   }
+  },
+  {
+   "id": "carpets",
+   "name": "Carpets & Rugs",
+   "group": "Manufacturing",
+   "parent": "carpets",
+   "mapping": "direct",
+   "nic": "13",
+   "series": {
+    "rbi": "2.4.4",
+    "iip": "13",
+    "exports": 27
+   }
+  },
+  {
+   "id": "shipping",
+   "name": "Shipping",
+   "group": "Services",
+   "parent": "shipping",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "3.4",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "ports",
+   "name": "Ports & Port Services",
+   "group": "Infrastructure & Core",
+   "parent": "ports",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "2.18.5",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "airports",
+   "name": "Airports",
+   "group": "Infrastructure & Core",
+   "parent": "airports",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "2.18.4",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "railways_infra",
+   "name": "Railways (non-Indian Railways) Infrastructure",
+   "group": "Infrastructure & Core",
+   "parent": "railways_infra",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "2.18.6",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "housing_finance",
+   "name": "Housing Finance Companies (bank exposure)",
+   "group": "Services",
+   "parent": "housing_finance",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "3.9.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "other_services",
+   "name": "Other Services (health, education, media, etc.)",
+   "group": "Services",
+   "parent": "other_services",
+   "mapping": "direct",
+   "nic": null,
+   "series": {
+    "rbi": "3.10",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "dairy_products",
+   "name": "Dairy products (milk, ghee, cheese)",
+   "group": "Agri-processing",
+   "parent": "marine_meat_dairy",
+   "mapping": "proxy: parent sector",
+   "nic": "105",
+   "focus": "milk procurement price vs realisation; cooperative competition",
+   "series": {
+    "rbi": "2.2.4",
+    "iip": "10",
+    "exports": 13
+   }
+  },
+  {
+   "id": "seafood_processing",
+   "name": "Seafood / shrimp processing & export",
+   "group": "Agri-processing",
+   "parent": "marine_meat_dairy",
+   "mapping": "proxy: parent sector",
+   "nic": "102",
+   "focus": "US shrimp duties; antibiotic rejections; farm-gate prices",
+   "series": {
+    "rbi": "2.2.4",
+    "iip": "10",
+    "exports": 13
+   }
+  },
+  {
+   "id": "meat_poultry_processing",
+   "name": "Meat & poultry processing",
+   "group": "Agri-processing",
+   "parent": "marine_meat_dairy",
+   "mapping": "proxy: parent sector",
+   "nic": "101",
+   "focus": "feed (maize/soya) cost; export licences",
+   "series": {
+    "rbi": "2.2.4",
+    "iip": "10",
+    "exports": 13
+   }
+  },
+  {
+   "id": "bakery_confectionery",
+   "name": "Bakery, biscuits & confectionery",
+   "group": "Agri-processing",
+   "parent": "food_processing",
+   "mapping": "proxy: parent sector",
+   "nic": "107",
+   "focus": "wheat/sugar/palm-oil cost; distributor credit",
+   "series": {
+    "rbi": "2.2",
+    "iip": "10",
+    "exports": null
+   }
+  },
+  {
+   "id": "flour_dal_mills",
+   "name": "Flour, dal & grain mills",
+   "group": "Agri-processing",
+   "parent": "food_processing",
+   "mapping": "proxy: parent sector",
+   "nic": "106",
+   "focus": "wheat/pulse prices; stock limits",
+   "series": {
+    "rbi": "2.2",
+    "iip": "10",
+    "exports": null
+   }
+  },
+  {
+   "id": "snacks_namkeen",
+   "name": "Snacks & namkeen",
+   "group": "Agri-processing",
+   "parent": "food_processing",
+   "mapping": "proxy: parent sector",
+   "nic": "107",
+   "focus": "edible-oil cost; branded competition",
+   "series": {
+    "rbi": "2.2",
+    "iip": "10",
+    "exports": null
+   }
+  },
+  {
+   "id": "animal_feed",
+   "name": "Animal & poultry feed",
+   "group": "Agri-processing",
+   "parent": "food_processing",
+   "mapping": "proxy: parent sector",
+   "nic": "108",
+   "focus": "maize and soymeal prices; poultry farm payments",
+   "series": {
+    "rbi": "2.2",
+    "iip": "10",
+    "exports": null
+   }
+  },
+  {
+   "id": "distilleries_ethanol",
+   "name": "Distilleries & ethanol",
+   "group": "Manufacturing",
+   "parent": "beverages",
+   "mapping": "proxy: parent sector",
+   "nic": "110",
+   "focus": "ethanol procurement price; grain/molasses cost; state excise",
+   "series": {
+    "rbi": "2.3",
+    "iip": "11",
+    "exports": 5
+   }
+  },
+  {
+   "id": "soft_drinks_water",
+   "name": "Soft drinks & packaged water",
+   "group": "Manufacturing",
+   "parent": "beverages",
+   "mapping": "proxy: parent sector",
+   "nic": "110",
+   "focus": "seasonal demand; PET and sugar cost",
+   "series": {
+    "rbi": "2.3",
+    "iip": "11",
+    "exports": 5
+   }
+  },
+  {
+   "id": "bidi_making",
+   "name": "Bidi making",
+   "group": "Manufacturing",
+   "parent": "tobacco",
+   "mapping": "proxy: parent sector",
+   "nic": "120",
+   "focus": "leaf cost; cess changes; home-worker wages",
+   "series": {
+    "rbi": "2.3",
+    "iip": "12",
+    "exports": 5
+   }
+  },
+  {
+   "id": "cotton_ginning",
+   "name": "Cotton ginning & pressing",
+   "group": "Manufacturing",
+   "parent": "cotton_textiles",
+   "mapping": "proxy: parent sector",
+   "nic": "131",
+   "focus": "kapas prices; CCI procurement; mill payments",
+   "series": {
+    "rbi": "2.4.1",
+    "iip": "13",
+    "exports": 23
+   }
+  },
+  {
+   "id": "handloom_powerloom",
+   "name": "Handloom & powerloom weaving",
+   "group": "Manufacturing",
+   "parent": "cotton_textiles",
+   "mapping": "proxy: parent sector",
+   "nic": "131",
+   "focus": "yarn prices; trader payment cycles; power tariff",
+   "series": {
+    "rbi": "2.4.1",
+    "iip": "13",
+    "exports": 23
+   }
+  },
+  {
+   "id": "silk_weaving",
+   "name": "Silk weaving & sarees",
+   "group": "Manufacturing",
+   "parent": "cotton_textiles",
+   "mapping": "proxy: parent sector",
+   "nic": "131",
+   "focus": "raw silk prices; wedding-season demand; trader credit",
+   "series": {
+    "rbi": "2.4.1",
+    "iip": "13",
+    "exports": 23
+   }
+  },
+  {
+   "id": "woollen_textiles",
+   "name": "Woollen & shawl textiles",
+   "group": "Manufacturing",
+   "parent": "cotton_textiles",
+   "mapping": "proxy: parent sector",
+   "nic": "131",
+   "focus": "imported wool prices; winter demand",
+   "series": {
+    "rbi": "2.4.1",
+    "iip": "13",
+    "exports": 23
+   }
+  },
+  {
+   "id": "textile_processing",
+   "name": "Textile dyeing & processing houses",
+   "group": "Manufacturing",
+   "parent": "mmf_textiles",
+   "mapping": "proxy: parent sector",
+   "nic": "131",
+   "focus": "coal/gas cost; effluent norms; job-work rates",
+   "series": {
+    "rbi": "2.4.3",
+    "iip": "13",
+    "exports": 24
+   }
+  },
+  {
+   "id": "technical_textiles",
+   "name": "Technical textiles & nonwovens",
+   "group": "Manufacturing",
+   "parent": "mmf_textiles",
+   "mapping": "proxy: parent sector",
+   "nic": "139",
+   "focus": "polymer prices; institutional orders",
+   "series": {
+    "rbi": "2.4.3",
+    "iip": "13",
+    "exports": 24
+   }
+  },
+  {
+   "id": "home_textiles",
+   "name": "Home textiles & made-ups (towels, bedsheets)",
+   "group": "Manufacturing",
+   "parent": "cotton_textiles",
+   "mapping": "proxy: parent sector",
+   "nic": "139",
+   "focus": "US retailer orders; cotton yarn prices",
+   "series": {
+    "rbi": "2.4.1",
+    "iip": "13",
+    "exports": 23
+   }
+  },
+  {
+   "id": "hosiery_knitwear",
+   "name": "Hosiery & knitwear",
+   "group": "Manufacturing",
+   "parent": "apparel",
+   "mapping": "proxy: parent sector",
+   "nic": "143",
+   "focus": "yarn prices; winter-season orders; dealer credit",
+   "series": {
+    "rbi": "2.4.4",
+    "iip": "14",
+    "exports": 25
+   }
+  },
+  {
+   "id": "footwear",
+   "name": "Footwear",
+   "group": "Manufacturing",
+   "parent": "leather",
+   "mapping": "proxy: parent sector",
+   "nic": "152",
+   "focus": "EU/US orders; rubber/PU cost; BIS quality rules",
+   "series": {
+    "rbi": "2.5",
+    "iip": "15",
+    "exports": 16
+   }
+  },
+  {
+   "id": "leather_tanning",
+   "name": "Leather tanning",
+   "group": "Manufacturing",
+   "parent": "leather",
+   "mapping": "proxy: parent sector",
+   "nic": "151",
+   "focus": "hide prices; effluent rules; export orders",
+   "series": {
+    "rbi": "2.5",
+    "iip": "15",
+    "exports": 16
+   }
+  },
+  {
+   "id": "leather_goods",
+   "name": "Leather goods (bags, belts, gloves)",
+   "group": "Manufacturing",
+   "parent": "leather",
+   "mapping": "proxy: parent sector",
+   "nic": "151",
+   "focus": "EU orders; finished-leather prices",
+   "series": {
+    "rbi": "2.5",
+    "iip": "15",
+    "exports": 16
+   }
+  },
+  {
+   "id": "plywood_laminates",
+   "name": "Plywood, veneer & laminates",
+   "group": "Manufacturing",
+   "parent": "wood_plywood",
+   "mapping": "proxy: parent sector",
+   "nic": "162",
+   "focus": "timber/face-veneer prices; real-estate demand",
+   "series": {
+    "rbi": "2.6",
+    "iip": "16",
+    "exports": null
+   }
+  },
+  {
+   "id": "sawmills_timber",
+   "name": "Sawmills & timber",
+   "group": "Manufacturing",
+   "parent": "wood_plywood",
+   "mapping": "proxy: parent sector",
+   "nic": "161",
+   "focus": "log imports; construction demand",
+   "series": {
+    "rbi": "2.6",
+    "iip": "16",
+    "exports": null
+   }
+  },
+  {
+   "id": "packaging_corrugated",
+   "name": "Corrugated boxes & paper packaging",
+   "group": "Manufacturing",
+   "parent": "paper",
+   "mapping": "proxy: parent sector",
+   "nic": "170",
+   "focus": "kraft paper prices; FMCG/e-commerce volumes",
+   "series": {
+    "rbi": "2.7",
+    "iip": "17",
+    "exports": null
+   }
+  },
+  {
+   "id": "printing_publishing",
+   "name": "Printing & publishing",
+   "group": "Manufacturing",
+   "parent": "paper",
+   "mapping": "proxy: parent sector",
+   "nic": "181",
+   "focus": "paper prices; label and packaging demand (NIC 18 not in IIP: proxy)",
+   "series": {
+    "rbi": "2.7",
+    "iip": "17",
+    "exports": null
+   }
+  },
+  {
+   "id": "lubricants",
+   "name": "Lubricants & petroleum products",
+   "group": "Manufacturing",
+   "parent": "refining",
+   "mapping": "proxy: parent sector",
+   "nic": "192",
+   "focus": "base-oil prices; auto aftermarket demand",
+   "series": {
+    "rbi": "2.8",
+    "iip": "19",
+    "exports": 29
+   }
+  },
+  {
+   "id": "agrochemicals",
+   "name": "Agrochemicals & pesticides",
+   "group": "Manufacturing",
+   "parent": "chemicals_dyes",
+   "mapping": "proxy: parent sector",
+   "nic": "202",
+   "focus": "monsoon; dealer credit; China technical prices",
+   "series": {
+    "rbi": "2.9.4",
+    "iip": "20",
+    "exports": 20
+   }
+  },
+  {
+   "id": "paints_coatings",
+   "name": "Paints & coatings",
+   "group": "Manufacturing",
+   "parent": "chemicals_dyes",
+   "mapping": "proxy: parent sector",
+   "nic": "202",
+   "focus": "crude-linked raw materials; housing demand",
+   "series": {
+    "rbi": "2.9.4",
+    "iip": "20",
+    "exports": 20
+   }
+  },
+  {
+   "id": "soaps_cosmetics",
+   "name": "Soaps, detergents & cosmetics",
+   "group": "Manufacturing",
+   "parent": "chemicals_dyes",
+   "mapping": "proxy: parent sector",
+   "nic": "202",
+   "focus": "palm-oil and LAB prices; distributor credit",
+   "series": {
+    "rbi": "2.9.4",
+    "iip": "20",
+    "exports": 20
+   }
+  },
+  {
+   "id": "specialty_chemicals",
+   "name": "Specialty & fine chemicals",
+   "group": "Manufacturing",
+   "parent": "chemicals_dyes",
+   "mapping": "proxy: parent sector",
+   "nic": "201",
+   "focus": "China prices; export orders; pollution closure orders",
+   "series": {
+    "rbi": "2.9.4",
+    "iip": "20",
+    "exports": 20
+   }
+  },
+  {
+   "id": "industrial_gases",
+   "name": "Industrial gases",
+   "group": "Manufacturing",
+   "parent": "chemicals_dyes",
+   "mapping": "proxy: parent sector",
+   "nic": "201",
+   "focus": "power cost; steel/health demand",
+   "series": {
+    "rbi": "2.9.4",
+    "iip": "20",
+    "exports": 20
+   }
+  },
+  {
+   "id": "fireworks_matches",
+   "name": "Fireworks & safety matches",
+   "group": "Manufacturing",
+   "parent": "chemicals_dyes",
+   "mapping": "proxy: parent sector",
+   "nic": "202",
+   "focus": "Diwali demand; Supreme Court/PESO restrictions; accidents",
+   "series": {
+    "rbi": "2.9.4",
+    "iip": "20",
+    "exports": 20
+   }
+  },
+  {
+   "id": "manmade_fibres",
+   "name": "Man-made fibres & yarn (polyester, viscose)",
+   "group": "Manufacturing",
+   "parent": "petrochem",
+   "mapping": "proxy: parent sector",
+   "nic": "203",
+   "focus": "PTA/MEG prices; China imports",
+   "series": {
+    "rbi": "2.9.3",
+    "iip": "20",
+    "exports": null
+   }
+  },
+  {
+   "id": "api_bulk_drugs",
+   "name": "API / bulk drugs",
+   "group": "Manufacturing",
+   "parent": "pharma",
+   "mapping": "proxy: parent sector",
+   "nic": "210",
+   "focus": "China KSM prices; USFDA status; PLI",
+   "series": {
+    "rbi": "2.9.2",
+    "iip": "21",
+    "exports": 19
+   }
+  },
+  {
+   "id": "formulations",
+   "name": "Pharma formulations",
+   "group": "Manufacturing",
+   "parent": "pharma",
+   "mapping": "proxy: parent sector",
+   "nic": "210",
+   "focus": "USFDA observations; US generic price erosion; NLEM caps",
+   "series": {
+    "rbi": "2.9.2",
+    "iip": "21",
+    "exports": 19
+   }
+  },
+  {
+   "id": "ayush_herbal",
+   "name": "Ayurvedic & herbal products",
+   "group": "Manufacturing",
+   "parent": "pharma",
+   "mapping": "proxy: parent sector",
+   "nic": "210",
+   "focus": "herb prices; distributor credit",
+   "series": {
+    "rbi": "2.9.2",
+    "iip": "21",
+    "exports": 19
+   }
+  },
+  {
+   "id": "medical_devices",
+   "name": "Medical devices & consumables",
+   "group": "Manufacturing",
+   "parent": "pharma",
+   "mapping": "proxy: parent sector",
+   "nic": "325",
+   "focus": "import competition; hospital payments (NIC 325: proxy)",
+   "series": {
+    "rbi": "2.9.2",
+    "iip": "21",
+    "exports": 19
+   }
+  },
+  {
+   "id": "rubber_tyres",
+   "name": "Tyres & rubber products",
+   "group": "Manufacturing",
+   "parent": "plastics",
+   "mapping": "proxy: parent sector",
+   "nic": "221",
+   "focus": "natural rubber price; OEM volumes",
+   "series": {
+    "rbi": "2.10",
+    "iip": "22",
+    "exports": 30
+   }
+  },
+  {
+   "id": "plastic_packaging",
+   "name": "Plastic packaging & films",
+   "group": "Manufacturing",
+   "parent": "plastics",
+   "mapping": "proxy: parent sector",
+   "nic": "222",
+   "focus": "polymer prices; single-use plastic bans",
+   "series": {
+    "rbi": "2.10",
+    "iip": "22",
+    "exports": 30
+   }
+  },
+  {
+   "id": "pvc_pipes",
+   "name": "PVC pipes & fittings",
+   "group": "Manufacturing",
+   "parent": "plastics",
+   "mapping": "proxy: parent sector",
+   "nic": "222",
+   "focus": "PVC resin price; housing and irrigation demand",
+   "series": {
+    "rbi": "2.10",
+    "iip": "22",
+    "exports": 30
+   }
+  },
+  {
+   "id": "bricks_kilns",
+   "name": "Brick kilns",
+   "group": "Manufacturing",
+   "parent": "cement",
+   "mapping": "proxy: parent sector",
+   "nic": "239",
+   "focus": "coal price; construction demand; kiln closure orders",
+   "series": {
+    "rbi": "2.12",
+    "iip": "23",
+    "exports": null
+   }
+  },
+  {
+   "id": "stone_granite",
+   "name": "Stone, granite & marble processing",
+   "group": "Manufacturing",
+   "parent": "cement",
+   "mapping": "proxy: parent sector",
+   "nic": "239",
+   "focus": "export demand; mining leases; real-estate demand",
+   "series": {
+    "rbi": "2.12",
+    "iip": "23",
+    "exports": null
+   }
+  },
+  {
+   "id": "refractories",
+   "name": "Refractories",
+   "group": "Manufacturing",
+   "parent": "ceramics",
+   "mapping": "proxy: parent sector",
+   "nic": "239",
+   "focus": "steel-sector demand; raw-material imports",
+   "series": {
+    "rbi": "2.11",
+    "iip": "23",
+    "exports": 17
+   }
+  },
+  {
+   "id": "steel_rerolling",
+   "name": "Steel re-rolling & TMT",
+   "group": "Manufacturing",
+   "parent": "metals",
+   "mapping": "proxy: parent sector",
+   "nic": "241",
+   "focus": "billet/scrap prices; construction demand",
+   "series": {
+    "rbi": "2.13.1",
+    "iip": "24",
+    "exports": null
+   }
+  },
+  {
+   "id": "sponge_iron",
+   "name": "Sponge iron & ferro alloys",
+   "group": "Manufacturing",
+   "parent": "metals",
+   "mapping": "proxy: parent sector",
+   "nic": "241",
+   "focus": "iron ore and coal prices; power cost",
+   "series": {
+    "rbi": "2.13.1",
+    "iip": "24",
+    "exports": null
+   }
+  },
+  {
+   "id": "aluminium_products",
+   "name": "Aluminium & aluminium products",
+   "group": "Manufacturing",
+   "parent": "metals",
+   "mapping": "proxy: parent sector",
+   "nic": "242",
+   "focus": "LME aluminium; power cost",
+   "series": {
+    "rbi": "2.13.1",
+    "iip": "24",
+    "exports": null
+   }
+  },
+  {
+   "id": "castings_forgings",
+   "name": "Castings & forgings",
+   "group": "Manufacturing",
+   "parent": "metals",
+   "mapping": "proxy: parent sector",
+   "nic": "243",
+   "focus": "pig iron/scrap prices; auto and tractor orders",
+   "series": {
+    "rbi": "2.13.1",
+    "iip": "24",
+    "exports": null
+   }
+  },
+  {
+   "id": "fasteners_hardware",
+   "name": "Fasteners & hardware",
+   "group": "Manufacturing",
+   "parent": "nonferrous_brass",
+   "mapping": "proxy: parent sector",
+   "nic": "259",
+   "focus": "steel wire-rod prices; export orders",
+   "series": {
+    "rbi": "2.13.2",
+    "iip": "25",
+    "exports": null
+   }
+  },
+  {
+   "id": "steel_utensils",
+   "name": "Steel & metal utensils",
+   "group": "Manufacturing",
+   "parent": "nonferrous_brass",
+   "mapping": "proxy: parent sector",
+   "nic": "259",
+   "focus": "stainless steel prices; dealer credit",
+   "series": {
+    "rbi": "2.13.2",
+    "iip": "25",
+    "exports": null
+   }
+  },
+  {
+   "id": "hand_tools",
+   "name": "Hand tools & cutting tools",
+   "group": "Manufacturing",
+   "parent": "nonferrous_brass",
+   "mapping": "proxy: parent sector",
+   "nic": "259",
+   "focus": "steel prices; export orders",
+   "series": {
+    "rbi": "2.13.2",
+    "iip": "25",
+    "exports": null
+   }
+  },
+  {
+   "id": "electronic_components",
+   "name": "Electronic components & PCBs",
+   "group": "Manufacturing",
+   "parent": "electronics",
+   "mapping": "proxy: parent sector",
+   "nic": "261",
+   "focus": "China imports; PLI; OEM payments",
+   "series": {
+    "rbi": "2.14.1",
+    "iip": "26",
+    "exports": 22
+   }
+  },
+  {
+   "id": "mobile_assembly",
+   "name": "Mobile & consumer-electronics assembly",
+   "group": "Manufacturing",
+   "parent": "electronics",
+   "mapping": "proxy: parent sector",
+   "nic": "264",
+   "focus": "brand orders; component imports; PLI",
+   "series": {
+    "rbi": "2.14.1",
+    "iip": "26",
+    "exports": 22
+   }
+  },
+  {
+   "id": "solar_modules",
+   "name": "Solar cells & modules",
+   "group": "Manufacturing",
+   "parent": "electronics",
+   "mapping": "proxy: parent sector",
+   "nic": "261",
+   "focus": "China cell prices; ALMM rules; developer orders",
+   "series": {
+    "rbi": "2.14.1",
+    "iip": "26",
+    "exports": 22
+   }
+  },
+  {
+   "id": "cables_wires",
+   "name": "Cables & wires",
+   "group": "Manufacturing",
+   "parent": "electrical_eq",
+   "mapping": "proxy: parent sector",
+   "nic": "273",
+   "focus": "copper/aluminium prices; utility and builder orders",
+   "series": {
+    "rbi": "2.14.2",
+    "iip": "27",
+    "exports": 21
+   }
+  },
+  {
+   "id": "transformers_switchgear",
+   "name": "Transformers & switchgear",
+   "group": "Manufacturing",
+   "parent": "electrical_eq",
+   "mapping": "proxy: parent sector",
+   "nic": "271",
+   "focus": "CRGO/copper prices; utility payment delays",
+   "series": {
+    "rbi": "2.14.2",
+    "iip": "27",
+    "exports": 21
+   }
+  },
+  {
+   "id": "lighting_led",
+   "name": "Lighting & LED products",
+   "group": "Manufacturing",
+   "parent": "electrical_eq",
+   "mapping": "proxy: parent sector",
+   "nic": "274",
+   "focus": "China imports; dealer credit",
+   "series": {
+    "rbi": "2.14.2",
+    "iip": "27",
+    "exports": 21
+   }
+  },
+  {
+   "id": "appliances_fans",
+   "name": "Home appliances & fans",
+   "group": "Manufacturing",
+   "parent": "electrical_eq",
+   "mapping": "proxy: parent sector",
+   "nic": "275",
+   "focus": "seasonal demand; copper/steel cost; BEE norms",
+   "series": {
+    "rbi": "2.14.2",
+    "iip": "27",
+    "exports": 21
+   }
+  },
+  {
+   "id": "batteries",
+   "name": "Batteries",
+   "group": "Manufacturing",
+   "parent": "electrical_eq",
+   "mapping": "proxy: parent sector",
+   "nic": "272",
+   "focus": "lead/lithium prices; auto aftermarket",
+   "series": {
+    "rbi": "2.14.2",
+    "iip": "27",
+    "exports": 21
+   }
+  },
+  {
+   "id": "pumps_valves",
+   "name": "Pumps, motors & valves",
+   "group": "Manufacturing",
+   "parent": "engineering",
+   "mapping": "proxy: parent sector",
+   "nic": "281",
+   "focus": "irrigation demand; copper cost; export orders",
+   "series": {
+    "rbi": "2.14.2",
+    "iip": "28",
+    "exports": 21
+   }
+  },
+  {
+   "id": "machine_tools",
+   "name": "Machine tools",
+   "group": "Manufacturing",
+   "parent": "engineering",
+   "mapping": "proxy: parent sector",
+   "nic": "282",
+   "focus": "capex cycle; auto orders",
+   "series": {
+    "rbi": "2.14.2",
+    "iip": "28",
+    "exports": 21
+   }
+  },
+  {
+   "id": "textile_machinery",
+   "name": "Textile machinery",
+   "group": "Manufacturing",
+   "parent": "engineering",
+   "mapping": "proxy: parent sector",
+   "nic": "282",
+   "focus": "textile capex; imported machine competition",
+   "series": {
+    "rbi": "2.14.2",
+    "iip": "28",
+    "exports": 21
+   }
+  },
+  {
+   "id": "tractors_agri_machinery",
+   "name": "Tractors & farm machinery",
+   "group": "Manufacturing",
+   "parent": "engineering",
+   "mapping": "proxy: parent sector",
+   "nic": "282",
+   "focus": "monsoon; farm incomes; dealer stocks",
+   "series": {
+    "rbi": "2.14.2",
+    "iip": "28",
+    "exports": 21
+   }
+  },
+  {
+   "id": "diesel_engines",
+   "name": "Diesel engines & gensets",
+   "group": "Manufacturing",
+   "parent": "engineering",
+   "mapping": "proxy: parent sector",
+   "nic": "281",
+   "focus": "emission norms; infra demand",
+   "series": {
+    "rbi": "2.14.2",
+    "iip": "28",
+    "exports": 21
+   }
+  },
+  {
+   "id": "vehicle_oem",
+   "name": "Cars & commercial vehicles (OEM)",
+   "group": "Manufacturing",
+   "parent": "auto_components",
+   "mapping": "proxy: parent sector",
+   "nic": "291",
+   "focus": "dealer inventory; freight demand; EV shift",
+   "series": {
+    "rbi": "2.15",
+    "iip": "29",
+    "exports": null
+   }
+  },
+  {
+   "id": "ev_components",
+   "name": "EV & EV components",
+   "group": "Manufacturing",
+   "parent": "auto_components",
+   "mapping": "proxy: parent sector",
+   "nic": "293",
+   "focus": "subsidy rules; battery prices; OEM payments",
+   "series": {
+    "rbi": "2.15",
+    "iip": "29",
+    "exports": null
+   }
+  },
+  {
+   "id": "two_wheelers",
+   "name": "Two-wheelers",
+   "group": "Manufacturing",
+   "parent": "other_transport",
+   "mapping": "proxy: parent sector",
+   "nic": "309",
+   "focus": "rural demand; dealer inventory",
+   "series": {
+    "rbi": "2.15",
+    "iip": "30",
+    "exports": null
+   }
+  },
+  {
+   "id": "bicycles",
+   "name": "Bicycles & parts",
+   "group": "Manufacturing",
+   "parent": "other_transport",
+   "mapping": "proxy: parent sector",
+   "nic": "309",
+   "focus": "steel prices; government tenders; China imports",
+   "series": {
+    "rbi": "2.15",
+    "iip": "30",
+    "exports": null
+   }
+  },
+  {
+   "id": "shipbuilding",
+   "name": "Shipbuilding & repair",
+   "group": "Manufacturing",
+   "parent": "other_transport",
+   "mapping": "proxy: parent sector",
+   "nic": "301",
+   "focus": "order book; government contracts",
+   "series": {
+    "rbi": "2.15",
+    "iip": "30",
+    "exports": null
+   }
+  },
+  {
+   "id": "railway_wagons",
+   "name": "Railway wagons & coaches",
+   "group": "Manufacturing",
+   "parent": "other_transport",
+   "mapping": "proxy: parent sector",
+   "nic": "302",
+   "focus": "Indian Railways orders; steel prices",
+   "series": {
+    "rbi": "2.15",
+    "iip": "30",
+    "exports": null
+   }
+  },
+  {
+   "id": "defence_aerospace",
+   "name": "Defence & aerospace parts",
+   "group": "Manufacturing",
+   "parent": "other_transport",
+   "mapping": "proxy: parent sector",
+   "nic": "303",
+   "focus": "defence orders; long receivables",
+   "series": {
+    "rbi": "2.15",
+    "iip": "30",
+    "exports": null
+   }
+  },
+  {
+   "id": "wooden_furniture",
+   "name": "Wooden & modular furniture",
+   "group": "Manufacturing",
+   "parent": "furniture_misc",
+   "mapping": "proxy: parent sector",
+   "nic": "310",
+   "focus": "timber prices; housing demand; export orders",
+   "series": {
+    "rbi": "2.19",
+    "iip": "31",
+    "exports": null
+   }
+  },
+  {
+   "id": "gold_jewellery",
+   "name": "Gold jewellery manufacturing",
+   "group": "Manufacturing",
+   "parent": "diamonds",
+   "mapping": "proxy: parent sector",
+   "nic": "321",
+   "focus": "gold prices; hallmarking; wedding demand",
+   "series": {
+    "rbi": "2.16",
+    "iip": "32",
+    "exports": 18
+   }
+  },
+  {
+   "id": "imitation_jewellery",
+   "name": "Imitation jewellery",
+   "group": "Manufacturing",
+   "parent": "diamonds",
+   "mapping": "proxy: parent sector",
+   "nic": "321",
+   "focus": "brass/alloy prices; festival demand",
+   "series": {
+    "rbi": "2.16",
+    "iip": "32",
+    "exports": 18
+   }
+  },
+  {
+   "id": "sports_goods",
+   "name": "Sports goods",
+   "group": "Manufacturing",
+   "parent": "handicrafts",
+   "mapping": "proxy: parent sector",
+   "nic": "323",
+   "focus": "export orders; leather/willow supply",
+   "series": {
+    "rbi": "2.19",
+    "iip": "32",
+    "exports": 28
+   }
+  },
+  {
+   "id": "toys",
+   "name": "Toys",
+   "group": "Manufacturing",
+   "parent": "handicrafts",
+   "mapping": "proxy: parent sector",
+   "nic": "324",
+   "focus": "BIS quality rules; China imports",
+   "series": {
+    "rbi": "2.19",
+    "iip": "32",
+    "exports": 28
+   }
+  },
+  {
+   "id": "coir_products",
+   "name": "Coir products",
+   "group": "Manufacturing",
+   "parent": "jute_coir",
+   "mapping": "proxy: parent sector",
+   "nic": "139",
+   "focus": "husk supply; export orders",
+   "series": {
+    "rbi": "2.4.2",
+    "iip": "13",
+    "exports": 26
+   }
+  },
+  {
+   "id": "jute_mills",
+   "name": "Jute mills & products",
+   "group": "Manufacturing",
+   "parent": "jute_coir",
+   "mapping": "proxy: parent sector",
+   "nic": "139",
+   "focus": "raw jute price; government sacking orders",
+   "series": {
+    "rbi": "2.4.2",
+    "iip": "13",
+    "exports": 26
+   }
+  },
+  {
+   "id": "dairy_farming",
+   "name": "Dairy farming",
+   "group": "Agriculture & Allied",
+   "parent": "agriculture",
+   "mapping": "proxy: parent sector",
+   "nic": "014",
+   "focus": "milk price; fodder cost; cattle disease",
+   "series": {
+    "rbi": "1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "poultry_farming",
+   "name": "Poultry farming",
+   "group": "Agriculture & Allied",
+   "parent": "agriculture",
+   "mapping": "proxy: parent sector",
+   "nic": "014",
+   "focus": "maize/soya feed cost; bird flu",
+   "series": {
+    "rbi": "1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "fisheries_aquaculture",
+   "name": "Fisheries & aquaculture",
+   "group": "Agriculture & Allied",
+   "parent": "agriculture",
+   "mapping": "proxy: parent sector",
+   "nic": "032",
+   "focus": "shrimp prices; disease; export duties",
+   "series": {
+    "rbi": "1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "horticulture",
+   "name": "Horticulture & floriculture",
+   "group": "Agriculture & Allied",
+   "parent": "agriculture",
+   "mapping": "proxy: parent sector",
+   "nic": "011",
+   "focus": "crop prices; weather; cold storage",
+   "series": {
+    "rbi": "1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "plantation_rubber",
+   "name": "Rubber & other plantations",
+   "group": "Agriculture & Allied",
+   "parent": "agriculture",
+   "mapping": "proxy: parent sector",
+   "nic": "012",
+   "focus": "natural rubber price; labour cost",
+   "series": {
+    "rbi": "1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "seeds",
+   "name": "Seeds",
+   "group": "Agriculture & Allied",
+   "parent": "agriculture",
+   "mapping": "proxy: parent sector",
+   "nic": "016",
+   "focus": "monsoon; dealer returns",
+   "series": {
+    "rbi": "1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "sericulture",
+   "name": "Sericulture",
+   "group": "Agriculture & Allied",
+   "parent": "agriculture",
+   "mapping": "proxy: parent sector",
+   "nic": "014",
+   "focus": "cocoon prices; silk demand",
+   "series": {
+    "rbi": "1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "cold_storage",
+   "name": "Cold storage & warehousing for agri",
+   "group": "Agriculture & Allied",
+   "parent": "transport_ops",
+   "mapping": "proxy: parent sector",
+   "nic": "521",
+   "focus": "potato/fruit stock levels; power cost",
+   "series": {
+    "rbi": "3.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "coal_mining",
+   "name": "Coal mining & washeries",
+   "group": "Infrastructure & Core",
+   "parent": "mining",
+   "mapping": "proxy: parent sector",
+   "nic": "051",
+   "focus": "coal prices; offtake by power plants",
+   "series": {
+    "rbi": "2.1",
+    "iip": null,
+    "exports": 15
+   }
+  },
+  {
+   "id": "quarrying_sand",
+   "name": "Stone quarrying, sand & aggregates",
+   "group": "Infrastructure & Core",
+   "parent": "mining",
+   "mapping": "proxy: parent sector",
+   "nic": "081",
+   "focus": "mining bans; construction demand",
+   "series": {
+    "rbi": "2.1",
+    "iip": null,
+    "exports": 15
+   }
+  },
+  {
+   "id": "iron_ore_mining",
+   "name": "Iron ore mining",
+   "group": "Infrastructure & Core",
+   "parent": "mining",
+   "mapping": "proxy: parent sector",
+   "nic": "071",
+   "focus": "ore prices; export duty; lease renewals",
+   "series": {
+    "rbi": "2.1",
+    "iip": null,
+    "exports": 15
+   }
+  },
+  {
+   "id": "residential_real_estate",
+   "name": "Residential real estate developers",
+   "group": "Infrastructure & Core",
+   "parent": "commercial_real_estate",
+   "mapping": "proxy: parent sector",
+   "nic": "410",
+   "focus": "unsold inventory; RERA escrow; sales velocity",
+   "series": {
+    "rbi": "3.8",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "solar_epc",
+   "name": "Solar EPC & rooftop",
+   "group": "Infrastructure & Core",
+   "parent": "renewables",
+   "mapping": "proxy: parent sector",
+   "nic": "432",
+   "focus": "module prices; DISCOM payments",
+   "series": {
+    "rbi": null,
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "water_sanitation",
+   "name": "Water & sanitation projects",
+   "group": "Infrastructure & Core",
+   "parent": "other_infra",
+   "mapping": "proxy: parent sector",
+   "nic": "360",
+   "focus": "government payment delays (Jal Jeevan)",
+   "series": {
+    "rbi": "2.18.7",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "oil_gas_pipelines",
+   "name": "Oil & gas pipelines / city gas",
+   "group": "Infrastructure & Core",
+   "parent": "other_infra",
+   "mapping": "proxy: parent sector",
+   "nic": "352",
+   "focus": "gas prices; connections; PNGRB tariffs",
+   "series": {
+    "rbi": "2.18.7",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "civil_contractors",
+   "name": "Civil & government contractors",
+   "group": "Infrastructure & Core",
+   "parent": "construction",
+   "mapping": "proxy: parent sector",
+   "nic": "421",
+   "focus": "government bill payments; cement/steel cost",
+   "series": {
+    "rbi": "2.17",
+    "iip": "23",
+    "exports": null
+   }
+  },
+  {
+   "id": "logistics_warehousing",
+   "name": "Logistics & warehousing",
+   "group": "Services",
+   "parent": "transport_ops",
+   "mapping": "proxy: parent sector",
+   "nic": "521",
+   "focus": "freight volumes; e-commerce demand; rentals",
+   "series": {
+    "rbi": "3.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "trucking_fleet",
+   "name": "Truck fleet operators",
+   "group": "Services",
+   "parent": "transport_ops",
+   "mapping": "proxy: parent sector",
+   "nic": "492",
+   "focus": "diesel price; freight rates; EMI burden",
+   "series": {
+    "rbi": "3.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "restaurants_cafes",
+   "name": "Restaurants & cafes",
+   "group": "Services",
+   "parent": "tourism_hotels",
+   "mapping": "proxy: parent sector",
+   "nic": "561",
+   "focus": "footfall; food inflation; rentals",
+   "series": {
+    "rbi": "3.3",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "it_bpo",
+   "name": "IT-enabled services & BPO",
+   "group": "Services",
+   "parent": "software_it",
+   "mapping": "proxy: parent sector",
+   "nic": "822",
+   "focus": "client billing rates; attrition",
+   "series": {
+    "rbi": "3.2",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "hospitals_healthcare",
+   "name": "Hospitals & diagnostics",
+   "group": "Services",
+   "parent": "other_services",
+   "mapping": "proxy: parent sector",
+   "nic": "861",
+   "focus": "insurer/government (PMJAY) payments; occupancy",
+   "series": {
+    "rbi": "3.10",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "education_institutions",
+   "name": "Schools, colleges & coaching",
+   "group": "Services",
+   "parent": "other_services",
+   "mapping": "proxy: parent sector",
+   "nic": "853",
+   "focus": "enrolments; fee regulation",
+   "series": {
+    "rbi": "3.10",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "media_entertainment",
+   "name": "Media, cinema & entertainment",
+   "group": "Services",
+   "parent": "other_services",
+   "mapping": "proxy: parent sector",
+   "nic": "591",
+   "focus": "ad revenue; footfall",
+   "series": {
+    "rbi": "3.10",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "microfinance",
+   "name": "Microfinance institutions (bank exposure)",
+   "group": "Services",
+   "parent": "nbfc",
+   "mapping": "proxy: parent sector",
+   "nic": "649",
+   "focus": "borrower over-indebtedness; collection efficiency",
+   "series": {
+    "rbi": "3.9",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "textile_trading",
+   "name": "Textile trading",
+   "group": "Trade",
+   "parent": "wholesale_trade",
+   "mapping": "proxy: parent sector",
+   "nic": "464",
+   "focus": "trader payment cycles; GST invoice mismatch",
+   "series": {
+    "rbi": "3.7.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "diamond_trading",
+   "name": "Diamond & jewellery trading",
+   "group": "Trade",
+   "parent": "wholesale_trade",
+   "mapping": "proxy: parent sector",
+   "nic": "464",
+   "focus": "polished price; credit to buyers abroad",
+   "series": {
+    "rbi": "3.7.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "agri_commodity_trading",
+   "name": "Agri commodity & mandi trading",
+   "group": "Trade",
+   "parent": "wholesale_trade",
+   "mapping": "proxy: parent sector",
+   "nic": "462",
+   "focus": "price swings; stock limits",
+   "series": {
+    "rbi": "3.7.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "steel_trading",
+   "name": "Steel & metal trading",
+   "group": "Trade",
+   "parent": "wholesale_trade",
+   "mapping": "proxy: parent sector",
+   "nic": "466",
+   "focus": "steel price swings; builder credit",
+   "series": {
+    "rbi": "3.7.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "pharma_distribution",
+   "name": "Pharma distribution",
+   "group": "Trade",
+   "parent": "wholesale_trade",
+   "mapping": "proxy: parent sector",
+   "nic": "464",
+   "focus": "retailer credit; trade margins",
+   "series": {
+    "rbi": "3.7.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "fmcg_distribution",
+   "name": "FMCG distribution",
+   "group": "Trade",
+   "parent": "wholesale_trade",
+   "mapping": "proxy: parent sector",
+   "nic": "463",
+   "focus": "quick-commerce disruption; brand credit terms",
+   "series": {
+    "rbi": "3.7.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "auto_dealerships",
+   "name": "Auto dealerships",
+   "group": "Trade",
+   "parent": "retail_trade",
+   "mapping": "proxy: parent sector",
+   "nic": "451",
+   "focus": "inventory days; OEM push; trade-advance",
+   "series": {
+    "rbi": "3.7.2",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "jewellery_retail",
+   "name": "Jewellery retail",
+   "group": "Trade",
+   "parent": "retail_trade",
+   "mapping": "proxy: parent sector",
+   "nic": "477",
+   "focus": "gold prices; gold metal loan; inventory",
+   "series": {
+    "rbi": "3.7.2",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "electronics_retail",
+   "name": "Electronics & mobile retail",
+   "group": "Trade",
+   "parent": "retail_trade",
+   "mapping": "proxy: parent sector",
+   "nic": "474",
+   "focus": "online competition; brand schemes",
+   "series": {
+    "rbi": "3.7.2",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "ecommerce_sellers",
+   "name": "E-commerce sellers",
+   "group": "Trade",
+   "parent": "retail_trade",
+   "mapping": "proxy: parent sector",
+   "nic": "479",
+   "focus": "marketplace fees; returns; settlement cycles",
+   "series": {
+    "rbi": "3.7.2",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "fuel_stations",
+   "name": "Fuel stations",
+   "group": "Trade",
+   "parent": "retail_trade",
+   "mapping": "proxy: parent sector",
+   "nic": "473",
+   "focus": "OMC margins; EV shift",
+   "series": {
+    "rbi": "3.7.2",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "job_work_units",
+   "name": "Job-work units (engineering/textiles)",
+   "group": "MSME",
+   "parent": "msme_micro_small",
+   "mapping": "proxy: parent sector",
+   "nic": "25",
+   "focus": "principal's payment cycle; order concentration",
+   "series": {
+    "rbi": "S1:2.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "fabrication_workshops",
+   "name": "Fabrication & machining workshops",
+   "group": "MSME",
+   "parent": "msme_micro_small",
+   "mapping": "proxy: parent sector",
+   "nic": "25",
+   "focus": "steel prices; order book from large firms",
+   "series": {
+    "rbi": "S1:2.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "tailoring_units",
+   "name": "Small tailoring & garment units",
+   "group": "MSME",
+   "parent": "msme_micro_small",
+   "mapping": "proxy: parent sector",
+   "nic": "14",
+   "focus": "trader orders; seasonal demand",
+   "series": {
+    "rbi": "S1:2.1",
+    "iip": null,
+    "exports": null
+   }
+  },
+  {
+   "id": "small_food_units",
+   "name": "Small food & bakery units (MSME)",
+   "group": "MSME",
+   "parent": "msme_micro_small",
+   "mapping": "proxy: parent sector",
+   "nic": "10",
+   "focus": "FSSAI compliance; local competition",
+   "series": {
+    "rbi": "S1:2.1",
+    "iip": null,
+    "exports": null
+   }
+  }
+ ]
+}

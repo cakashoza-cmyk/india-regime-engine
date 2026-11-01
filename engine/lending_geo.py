@@ -113,13 +113,13 @@ def geo_verdict(sector, si, g, geo_name):
     if ls_ is None:
         res.update(call=nat_call, label=LABEL[nat_call], insufficient="local", score=nat,
                    message=f"Not enough local data for {si['name']}. National view: {LABEL[nat_call]} (score {nat}).",
-                   local_score=None, reasons=reasons[:3])
+                   local_score=None, reasons=reasons[:4])
         return res
     score = round(g["weight_national"] * nat + g["weight_local"] * ls_)
     call = _band(score, g)
     res.update(call=call, label=LABEL[call], score=score, local_score=ls_, insufficient=None,
                message=f"{LABEL[call]}: national {nat} x {g['weight_national']} + local {ls_} x {g['weight_local']} = {score}.",
-               reasons=reasons[:3])
+               reasons=reasons[:4])
     return res
 
 

@@ -27,3 +27,10 @@ def test_too_few_pack_figures():
 
 def test_indian_grouping():
     assert "69301" in bp.nums("Rs 69,301 Cr") and "1125894" in bp.nums("11,25,894")
+
+
+def test_band_check():
+    assert bp.band_problems("The call moves to Avoid if the combined score falls below 65.", 65, 45)
+    assert not bp.band_problems("Below 65 the call drops to Caution; below 45 it becomes Avoid.", 65, 45)
+    assert not bp.band_problems("A rise to 65 or more would make it OK to lend.", 65, 45)
+    assert bp.band_problems("Exports must recover.", 65, 45)

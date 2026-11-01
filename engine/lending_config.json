@@ -1,1961 +1,2200 @@
 {
- "_doc": "Lending radar config. Add a sector = add an object to 'sectors'. Add a source = add to 'sources'. No code changes needed. Weights/thresholds carry last_calibrated; >180 days -> CALIBRATION_STALE warning.",
- "calibration_stale_days": 180,
- "weights": {
-  "_last_calibrated": "2026-11-01",
-  "_note": "Initial expert weights, not back-tested. Output momentum and export demand carry most weight; credit-vs-output flags leverage build-up; macro overlays apply only to sensitive sectors.",
-  "iip_yoy": 1.0,
-  "iip_fytd": 1.0,
-  "export_fytd_usd": 1.0,
-  "credit_vs_output": 0.75,
-  "energy_overlay": 1.0,
-  "rate_overlay": 1.0,
-  "activity_proxy": 0.75
- },
- "thresholds": {
-  "_last_calibrated": "2026-11-01",
-  "iip_yoy": {
-   "pos_above": 5.0,
-   "neg_below": 0.0
+  "_doc": "Lending radar config. Add a sector = add an object to 'sectors'. Add a source = add to 'sources'. No code changes needed. Weights/thresholds carry last_calibrated; >180 days -> CALIBRATION_STALE warning.",
+  "calibration_stale_days": 180,
+  "weights": {
+    "_last_calibrated": "2026-11-01",
+    "_note": "Initial expert weights, not back-tested. Output momentum and export demand carry most weight; credit-vs-output flags leverage build-up; macro overlays apply only to sensitive sectors.",
+    "iip_yoy": 1.0,
+    "iip_fytd": 1.0,
+    "export_fytd_usd": 1.0,
+    "credit_vs_output": 0.75,
+    "energy_overlay": 1.0,
+    "rate_overlay": 1.0,
+    "activity_proxy": 0.75
   },
-  "iip_fytd": {
-   "pos_above": 5.0,
-   "neg_below": 0.0
-  },
-  "export_fytd_usd": {
-   "pos_above": 10.0,
-   "neg_below": 0.0
-  },
-  "credit_vs_output_gap_pp": {
-   "pos_below": 10.0,
-   "neg_above": 20.0
-  },
-  "brent_usd_high": 100.0,
-  "brent_usd_low": 75.0,
-  "verdict": {
-   "lend_at_or_above": 65,
-   "avoid_below": 45
-  },
-  "min_verified_drivers": 2,
-  "overlay_max_points": 5,
-  "_overlay_note": "Macro overlays (Brent, RBI rates) shift the core sector score by at most +/- overlay_max_points; they cannot decide a verdict alone.",
-  "activity_proxy": {
-   "pos_above": 7,
-   "neg_below": 0
-  }
- },
- "sources": {
-  "rbi_sibc": {
-   "label": "RBI Sectoral Deployment of Bank Credit (monthly, SIBC xlsx)",
-   "tier": "official_primary",
-   "release": "last working day of following month (approx.)",
-   "max_age_days": 75,
-   "chain": [
-    {
-     "id": "rbi_press_list",
-     "method": "html_link",
-     "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
-     "title_regex": "Sectoral Deployment of Bank Credit",
-     "file_regex": "SIBC\\w*\\.xlsx"
+  "thresholds": {
+    "_last_calibrated": "2026-11-01",
+    "iip_yoy": {
+      "pos_above": 5.0,
+      "neg_below": 0.0
     },
-    {
-     "id": "deepseek_site_search",
-     "method": "deepseek_search",
-     "query": "site:rbi.org.in Sectoral Deployment of Bank Credit {month_year}",
-     "file_regex": "SIBC\\w*\\.xlsx"
+    "iip_fytd": {
+      "pos_above": 5.0,
+      "neg_below": 0.0
     },
-    {
-     "id": "last_known",
-     "method": "last_known"
+    "export_fytd_usd": {
+      "pos_above": 10.0,
+      "neg_below": 0.0
     },
-    {
-     "id": "cache",
-     "method": "cache"
+    "credit_vs_output_gap_pp": {
+      "pos_below": 10.0,
+      "neg_above": 20.0
+    },
+    "brent_usd_high": 100.0,
+    "brent_usd_low": 75.0,
+    "verdict": {
+      "lend_at_or_above": 65,
+      "avoid_below": 45
+    },
+    "min_verified_drivers": 2,
+    "overlay_max_points": 5,
+    "_overlay_note": "Macro overlays (Brent, RBI rates) shift the core sector score by at most +/- overlay_max_points; they cannot decide a verdict alone.",
+    "activity_proxy": {
+      "pos_above": 7,
+      "neg_below": 0
     }
-   ]
   },
-  "iip_nic2": {
-   "label": "IIP Quick Estimates, NIC 2-digit manufacturing (PIB re-publication of MoSPI)",
-   "tier": "official_primary",
-   "release": "28th of month+1, 16:00 IST (rolled to next business day)",
-   "max_age_days": 70,
-   "chain": [
-    {
-     "id": "pib_rss",
-     "method": "rss_scan",
-     "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
-     "title_regex": "Index of Industrial Production|औद्योगिक उत्पादन सूचकांक"
+  "sources": {
+    "rbi_sibc": {
+      "label": "RBI Sectoral Deployment of Bank Credit (monthly, SIBC xlsx)",
+      "tier": "official_primary",
+      "release": "last working day of following month (approx.)",
+      "max_age_days": 75,
+      "chain": [
+        {
+          "id": "rbi_press_list",
+          "method": "html_link",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+          "title_regex": "Sectoral Deployment of Bank Credit",
+          "file_regex": "SIBC\\w*\\.xlsx"
+        },
+        {
+          "id": "deepseek_site_search",
+          "method": "deepseek_search",
+          "query": "site:rbi.org.in Sectoral Deployment of Bank Credit {month_year}",
+          "file_regex": "SIBC\\w*\\.xlsx"
+        },
+        {
+          "id": "last_known",
+          "method": "last_known"
+        },
+        {
+          "id": "cache",
+          "method": "cache"
+        }
+      ]
     },
-    {
-     "id": "deepseek_site_search",
-     "method": "deepseek_search",
-     "query": "site:pib.gov.in Quick Estimates of Index of Industrial Production {month_year}"
+    "iip_nic2": {
+      "label": "IIP Quick Estimates, NIC 2-digit manufacturing (PIB re-publication of MoSPI)",
+      "tier": "official_primary",
+      "release": "28th of month+1, 16:00 IST (rolled to next business day)",
+      "max_age_days": 70,
+      "chain": [
+        {
+          "id": "pib_rss",
+          "method": "rss_scan",
+          "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+          "title_regex": "Index of Industrial Production|औद्योगिक उत्पादन सूचकांक"
+        },
+        {
+          "id": "deepseek_site_search",
+          "method": "deepseek_search",
+          "query": "site:pib.gov.in Quick Estimates of Index of Industrial Production {month_year}"
+        },
+        {
+          "id": "last_known",
+          "method": "last_known"
+        },
+        {
+          "id": "seed",
+          "method": "static",
+          "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475"
+        },
+        {
+          "id": "cache",
+          "method": "cache"
+        }
+      ]
     },
-    {
-     "id": "last_known",
-     "method": "last_known"
+    "exports_qe": {
+      "label": "Dept of Commerce Quick Estimates, commodity-wise exports (Rs Cr and USD mn)",
+      "tier": "official_primary",
+      "release": "~15th of month+1",
+      "max_age_days": 70,
+      "chain": [
+        {
+          "id": "commerce_pattern",
+          "method": "url_pattern",
+          "url": "https://www.commerce.gov.in/files/{rel_yyyy_mm}/Quick%20Estimates%20{month_name}%20{year}.pdf",
+          "lookback_months": 3
+        },
+        {
+          "id": "deepseek_site_search",
+          "method": "deepseek_search",
+          "query": "site:commerce.gov.in Quick Estimates {month_year} pdf",
+          "file_regex": "Quick.{1,6}Estimates.*\\.pdf"
+        },
+        {
+          "id": "last_known",
+          "method": "last_known"
+        },
+        {
+          "id": "cache",
+          "method": "cache"
+        }
+      ]
     },
-    {
-     "id": "seed",
-     "method": "static",
-     "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475"
+    "commodities": {
+      "label": "Exchange futures via Yahoo chart API (display only; single source => unverified, unscored)",
+      "tier": "market_data",
+      "max_age_days": 7,
+      "chain": [
+        {
+          "id": "yahoo_chart",
+          "method": "yahoo"
+        }
+      ]
     },
-    {
-     "id": "cache",
-     "method": "cache"
+    "macro_engine": {
+      "label": "Regime engine verified macro (data/regime_latest.json)",
+      "tier": "official_primary",
+      "max_age_days": 3,
+      "chain": [
+        {
+          "id": "regime_latest",
+          "method": "local_json",
+          "url": "data/regime_latest.json"
+        }
+      ]
+    },
+    "gst_state": {
+      "label": "GSTN monthly GST revenue report: state-wise domestic collections",
+      "tier": "official_primary",
+      "release": "1st of month+1",
+      "max_age_days": 70,
+      "chain": [
+        {
+          "id": "gstn_pattern",
+          "method": "url_pattern",
+          "url": "https://tutorial.gst.gov.in/downloads/news/final_gst_revenue_report_for_publishing_monthly_{mon3_lower}_{year}.pdf",
+          "lookback_months": 3
+        },
+        {
+          "id": "deepseek_site_search",
+          "method": "deepseek_search",
+          "query": "site:tutorial.gst.gov.in gst revenue report {month_year} pdf"
+        },
+        {
+          "id": "last_known",
+          "method": "last_known"
+        },
+        {
+          "id": "cache",
+          "method": "cache"
+        }
+      ]
+    },
+    "power_state": {
+      "label": "CEA Power Supply Position (Energy): state-wise electricity requirement",
+      "tier": "official_primary",
+      "release": "~month+1 end",
+      "max_age_days": 100,
+      "chain": [
+        {
+          "id": "cea_dashboard",
+          "method": "static",
+          "url": "https://cea.nic.in/reports/dashboardView?headingId=107&subHeadingId=1003&subSubHeadingId=10010&title=Power%20Supply%20Position%20-%20Energy&lang=en"
+        },
+        {
+          "id": "deepseek_site_search",
+          "method": "deepseek_search",
+          "query": "site:cea.nic.in Power Supply Position Energy {month_year}"
+        },
+        {
+          "id": "cache",
+          "method": "cache"
+        }
+      ]
+    },
+    "rbi_state": {
+      "label": "RBI Handbook of Statistics on Indian States: state-wise SCB credit, C-D ratio, industry credit (annual, end-March)",
+      "tier": "official_primary",
+      "release": "annual (Dec)",
+      "max_age_days": 640,
+      "chain": [
+        {
+          "id": "rbi_hsis_page",
+          "method": "static",
+          "url": "https://www.rbi.org.in/scripts/AnnualPublications.aspx?head=Handbook+of+Statistics+on+Indian+States"
+        },
+        {
+          "id": "deepseek_site_search",
+          "method": "deepseek_search",
+          "query": "site:rbi.org.in Handbook of Statistics on Indian States state-wise credit"
+        },
+        {
+          "id": "cache",
+          "method": "cache"
+        }
+      ]
     }
-   ]
-  },
-  "exports_qe": {
-   "label": "Dept of Commerce Quick Estimates, commodity-wise exports (Rs Cr and USD mn)",
-   "tier": "official_primary",
-   "release": "~15th of month+1",
-   "max_age_days": 70,
-   "chain": [
-    {
-     "id": "commerce_pattern",
-     "method": "url_pattern",
-     "url": "https://www.commerce.gov.in/files/{rel_yyyy_mm}/Quick%20Estimates%20{month_name}%20{year}.pdf",
-     "lookback_months": 3
-    },
-    {
-     "id": "deepseek_site_search",
-     "method": "deepseek_search",
-     "query": "site:commerce.gov.in Quick Estimates {month_year} pdf",
-     "file_regex": "Quick.{1,6}Estimates.*\\.pdf"
-    },
-    {
-     "id": "last_known",
-     "method": "last_known"
-    },
-    {
-     "id": "cache",
-     "method": "cache"
-    }
-   ]
   },
   "commodities": {
-   "label": "Exchange futures via Yahoo chart API (display only; single source => unverified, unscored)",
-   "tier": "market_data",
-   "max_age_days": 7,
-   "chain": [
-    {
-     "id": "yahoo_chart",
-     "method": "yahoo"
+    "cotton": {
+      "symbol": "CT=F",
+      "label": "ICE Cotton No.2 (US c/lb) - proxy for Shankar-6/Cotlook",
+      "unit": "USc/lb"
+    },
+    "brent_fut": {
+      "symbol": "BZ=F",
+      "label": "Brent front-month (PTA/MEG/propane cost proxy)",
+      "unit": "USD/bbl"
+    },
+    "lng_jkm": {
+      "symbol": "JKM=F",
+      "label": "LNG JKM futures (spot-LNG cost proxy for Gujarat PNG)",
+      "unit": "USD/MMBtu"
+    },
+    "henry_hub": {
+      "symbol": "NG=F",
+      "label": "Henry Hub natural gas",
+      "unit": "USD/MMBtu"
+    },
+    "us_hrc": {
+      "symbol": "HRC=F",
+      "label": "US HRC steel futures (global steel price proxy)",
+      "unit": "USD/st"
     }
-   ]
   },
-  "macro_engine": {
-   "label": "Regime engine verified macro (data/regime_latest.json)",
-   "tier": "official_primary",
-   "max_age_days": 3,
-   "chain": [
+  "missing_sources": [
     {
-     "id": "regime_latest",
-     "method": "local_json",
-     "url": "data/regime_latest.json"
+      "item": "Polished diamond price index",
+      "why": "Rapaport/IDEX indices are paid; no free official series. Using GJEPC/DGCIS export values instead.",
+      "action": "Unknown — collect (Rapaport subscription or GJEPC monthly)"
+    },
+    {
+      "item": "PTA / MEG / POY domestic prices (Surat MMF)",
+      "why": "Reliance/IOCL price lists and ICIS/CCFGroup are not free.",
+      "action": "Unknown — collect (dealer quotes); Brent shown as proxy"
+    },
+    {
+      "item": "Gujarat Gas industrial PNG tariff (Morbi)",
+      "why": "Tariff circulars are PDFs with no stable link; not yet automated.",
+      "action": "Unknown — collect; JKM/Henry Hub shown as proxy"
+    },
+    {
+      "item": "Domestic cotton (CCI / Shankar-6) price",
+      "why": "CCI/Cotlook pages have no stable machine-readable feed.",
+      "action": "Unknown — collect; ICE cotton shown as proxy"
+    },
+    {
+      "item": "Sector GNPA / SMA, DSCR, cash-conversion cycle",
+      "why": "Sector-level bank asset-quality and borrower financials are not published at this granularity (sample's figures were illustrative).",
+      "action": "Unknown — collect from internal MIS / CMIE Prowess"
+    },
+    {
+      "item": "China dumping index",
+      "why": "No official index exists; DGTR anti-dumping notices are qualitative.",
+      "action": "Language only (DeepSeek, unscored) once key is set"
+    },
+    {
+      "item": "State-wise quarterly bank credit (BSR-1)",
+      "why": "RBI publishes it only inside the DBIE portal (JavaScript app, no stable file link).",
+      "action": "Using the annual RBI Handbook (end-March) instead; collect quarterly from DBIE manually if needed."
+    },
+    {
+      "item": "State-wise merchandise exports (DGCI&S)",
+      "why": "DGCI&S state-of-origin data sits behind a login/paid portal; no open monthly file found.",
+      "action": "Collect from DGCI&S or state export promotion councils."
+    },
+    {
+      "item": "State unemployment (PLFS)",
+      "why": "PLFS state tables are in quarterly/annual PDF bulletins with changing layout; not yet parsed reliably.",
+      "action": "Collect from MoSPI PLFS bulletin; added to backlog."
+    },
+    {
+      "item": "Cluster-level output/prices (Morbi gas, Surat weaving days, Tiruppur orders, etc.)",
+      "why": "No official cluster series.",
+      "action": "Shown as text early-warning signals only; collect from associations/branches."
     }
-   ]
-  },
-  "gst_state": {
-   "label": "GSTN monthly GST revenue report: state-wise domestic collections",
-   "tier": "official_primary",
-   "release": "1st of month+1",
-   "max_age_days": 70,
-   "chain": [
+  ],
+  "sectors": [
     {
-     "id": "gstn_pattern",
-     "method": "url_pattern",
-     "url": "https://tutorial.gst.gov.in/downloads/news/final_gst_revenue_report_for_publishing_monthly_{mon3_lower}_{year}.pdf",
-     "lookback_months": 3
+      "id": "mmf_textiles",
+      "name": "Textiles - MMF / Polyester Weaving & Processing",
+      "cluster": "Surat (Sachin, Pandesara, Kadodara), Olpad",
+      "south_gujarat": true,
+      "rbi_row": "2.4.3",
+      "iip_nic": "13",
+      "export_row": 24,
+      "commodities": [
+        "brent_fut"
+      ],
+      "energy": "medium",
+      "wc_intensity": "high",
+      "ews": "Weavers' association production holidays; yarn trader bill delays; power-loom units on sale.",
+      "guidance": [
+        "Verify GST turnover vs bank credit summations before renewal.",
+        "Cap stock holding period for grey fabric."
+      ],
+      "group": "Manufacturing"
     },
     {
-     "id": "deepseek_site_search",
-     "method": "deepseek_search",
-     "query": "site:tutorial.gst.gov.in gst revenue report {month_year} pdf"
+      "id": "cotton_textiles",
+      "name": "Textiles - Cotton Spinning & Yarn",
+      "cluster": "Surat, Bharuch, Saurashtra ginning belt",
+      "south_gujarat": true,
+      "rbi_row": "2.4.1",
+      "iip_nic": "13",
+      "export_row": 23,
+      "commodities": [
+        "cotton"
+      ],
+      "energy": "medium",
+      "wc_intensity": "high",
+      "ews": "Cotton price swings vs yarn realisation; mill shutdown notices.",
+      "guidance": [
+        "Watch cotton inventory valuation vs market price.",
+        "ECGC cover on export receivables."
+      ],
+      "group": "Manufacturing"
     },
     {
-     "id": "last_known",
-     "method": "last_known"
+      "id": "apparel",
+      "name": "Readymade Garments & Made-ups",
+      "cluster": "Surat, Ahmedabad",
+      "south_gujarat": true,
+      "rbi_row": "2.4.4",
+      "iip_nic": "14",
+      "export_row": 25,
+      "commodities": [],
+      "energy": "low",
+      "wc_intensity": "high",
+      "ews": "Buyer order cancellations; US/EU tariff changes.",
+      "guidance": [
+        "Back-to-back LC against confirmed orders."
+      ],
+      "group": "Manufacturing"
     },
     {
-     "id": "cache",
-     "method": "cache"
+      "id": "diamonds",
+      "name": "Cut & Polished Diamonds / Gems & Jewellery",
+      "cluster": "Surat (Varachha, Katargam, SDB), Navsari, Bhavnagar",
+      "south_gujarat": true,
+      "rbi_row": "2.16",
+      "iip_nic": "32",
+      "export_row": 18,
+      "commodities": [],
+      "energy": "low",
+      "wc_intensity": "very_high",
+      "ews": "Surat Diamond Bourse turnover; extended Diwali vacations; lab-grown price discounts; rough import vs polished export gap.",
+      "guidance": [
+        "Independent valuation of stock; shorter credit period.",
+        "Track PCFC/PSFC realisation within due dates."
+      ],
+      "note": "IIP NIC 32 'Other manufacturing' includes jewellery but also other goods (proxy).",
+      "group": "Manufacturing"
+    },
+    {
+      "id": "chemicals_dyes",
+      "name": "Chemicals, Dyes & Intermediates",
+      "cluster": "Vapi, Ankleshwar, Panoli, Sachin GIDC, Dahej",
+      "south_gujarat": true,
+      "rbi_row": "2.9.4",
+      "iip_nic": "20",
+      "export_row": 20,
+      "commodities": [
+        "brent_fut"
+      ],
+      "energy": "high",
+      "wc_intensity": "high",
+      "ews": "Chinese price cuts / DGTR anti-dumping cases; GPCB closure notices; inventory build-up.",
+      "guidance": [
+        "Mark inventory to current market price.",
+        "Monitor credit summations quarterly."
+      ],
+      "group": "Manufacturing"
+    },
+    {
+      "id": "petrochem",
+      "name": "Petrochemicals",
+      "cluster": "Hazira, Dahej, Vadodara",
+      "south_gujarat": true,
+      "rbi_row": "2.9.3",
+      "iip_nic": "20",
+      "export_row": null,
+      "commodities": [
+        "brent_fut"
+      ],
+      "energy": "high",
+      "wc_intensity": "medium",
+      "ews": "Polymer price announcements by RIL/IOCL; Middle-East/China capacity.",
+      "guidance": [
+        "Price-reset clauses with buyers."
+      ],
+      "group": "Manufacturing"
+    },
+    {
+      "id": "pharma",
+      "name": "Pharmaceuticals & APIs",
+      "cluster": "Vapi, Ankleshwar, Ahmedabad",
+      "south_gujarat": true,
+      "rbi_row": "2.9.2",
+      "iip_nic": "21",
+      "export_row": 19,
+      "commodities": [],
+      "energy": "low",
+      "wc_intensity": "medium",
+      "ews": "USFDA 483 / import alerts; API price swings from China.",
+      "guidance": [
+        "Regulatory compliance status at renewal."
+      ],
+      "group": "Manufacturing"
+    },
+    {
+      "id": "ceramics",
+      "name": "Ceramic Tiles, Sanitaryware & Glass",
+      "cluster": "Morbi, Thangadh, Himatnagar",
+      "south_gujarat": false,
+      "rbi_row": "2.11",
+      "iip_nic": "23",
+      "export_row": 17,
+      "commodities": [
+        "lng_jkm",
+        "henry_hub"
+      ],
+      "energy": "very_high",
+      "wc_intensity": "high",
+      "ews": "Morbi association shutdown circulars; gas connection surrenders; dealer cheque bounces.",
+      "guidance": [
+        "Exclude aged debtors from drawing power.",
+        "Check gas cost pass-through in recent invoices."
+      ],
+      "note": "RBI row is 'Glass & Glassware' and IIP NIC 23 is 'other non-metallic minerals' (incl. cement) - closest official proxies; no ceramic-only series exists.",
+      "group": "Manufacturing"
+    },
+    {
+      "id": "plastics",
+      "name": "Plastics & Rubber Processing",
+      "cluster": "Daman, Silvassa, Umbergaon, Vapi",
+      "south_gujarat": true,
+      "rbi_row": "2.10",
+      "iip_nic": "22",
+      "export_row": 30,
+      "commodities": [
+        "brent_fut"
+      ],
+      "energy": "medium",
+      "wc_intensity": "medium",
+      "ews": "Polymer price cuts; port dumping notices.",
+      "guidance": [
+        "LC against confirmed orders for single-product units."
+      ],
+      "group": "Manufacturing"
+    },
+    {
+      "id": "engineering",
+      "name": "Engineering & Capital Goods",
+      "cluster": "Hazira, Surat, Navsari, Vapi, Bharuch",
+      "south_gujarat": true,
+      "rbi_row": "2.14.2",
+      "iip_nic": "28",
+      "export_row": 21,
+      "commodities": [
+        "us_hrc"
+      ],
+      "energy": "low",
+      "wc_intensity": "medium",
+      "ews": "Order cancellations; milestone billing delays from PSU buyers.",
+      "guidance": [
+        "Milestone-linked LC/BG structuring."
+      ],
+      "group": "Manufacturing"
+    },
+    {
+      "id": "metals",
+      "name": "Iron & Steel (incl. secondary re-rolling)",
+      "cluster": "Hazira, Bharuch, Bhavnagar ship-breaking",
+      "south_gujarat": true,
+      "rbi_row": "2.13.1",
+      "iip_nic": "24",
+      "export_row": null,
+      "commodities": [
+        "us_hrc"
+      ],
+      "energy": "high",
+      "wc_intensity": "medium",
+      "ews": "Billet price drops; power bill delays; import surges.",
+      "guidance": [
+        "Monthly stock verification of scrap/billets."
+      ],
+      "group": "Manufacturing"
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics Manufacturing",
+      "cluster": "Sanand, Dholera (emerging)",
+      "south_gujarat": false,
+      "rbi_row": "2.14.1",
+      "iip_nic": "26",
+      "export_row": 22,
+      "commodities": [],
+      "energy": "low",
+      "wc_intensity": "low",
+      "ews": "OEM vendor switches; PLI disbursement delays.",
+      "guidance": [
+        "Anchor-client concentration caps."
+      ],
+      "group": "Manufacturing"
+    },
+    {
+      "id": "auto_components",
+      "name": "Auto & Auto Components",
+      "cluster": "Sanand, Halol, Becharaji",
+      "south_gujarat": false,
+      "rbi_row": "2.15",
+      "iip_nic": "29",
+      "export_row": null,
+      "commodities": [],
+      "energy": "low",
+      "wc_intensity": "medium",
+      "ews": "OEM production cuts.",
+      "guidance": [
+        "Minimum 2 OEM relationships."
+      ],
+      "group": "Manufacturing"
+    },
+    {
+      "id": "paper",
+      "name": "Paper & Paper Products",
+      "cluster": "Vapi, Valsad, Songadh",
+      "south_gujarat": true,
+      "rbi_row": "2.7",
+      "iip_nic": "17",
+      "export_row": null,
+      "commodities": [],
+      "energy": "medium",
+      "wc_intensity": "medium",
+      "ews": "Imported pulp / waste-paper price swings; China/Indonesia imports.",
+      "guidance": [
+        "Track raw-material cost pass-through."
+      ],
+      "group": "Manufacturing"
+    },
+    {
+      "id": "food_processing",
+      "name": "Food Processing",
+      "cluster": "Navsari, Valsad, Bardoli (sugar, mango, dairy)",
+      "south_gujarat": true,
+      "rbi_row": "2.2",
+      "iip_nic": "10",
+      "export_row": null,
+      "commodities": [],
+      "energy": "low",
+      "wc_intensity": "medium",
+      "ews": "Monsoon / crop output; sugar cane dues.",
+      "guidance": [
+        "Seasonal limits matched to crop cycle."
+      ],
+      "group": "Manufacturing"
+    },
+    {
+      "id": "commercial_real_estate",
+      "name": "Commercial Real Estate",
+      "cluster": "Surat (Dream City, Vesu), Vapi",
+      "south_gujarat": true,
+      "rbi_row": "3.8",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": "low",
+      "wc_intensity": "very_high",
+      "ews": "Unsold inventory overhang; RERA delays.",
+      "guidance": [
+        "RERA escrow control."
+      ],
+      "group": "Services"
+    },
+    {
+      "id": "beverages",
+      "name": "Beverages & Tobacco",
+      "group": "Manufacturing",
+      "cluster": "Aurangabad, Goa, UP breweries/distilleries",
+      "south_gujarat": false,
+      "rbi_row": "2.3",
+      "iip_nic": "11",
+      "export_row": 5,
+      "commodities": [],
+      "energy": "medium",
+      "wc_intensity": "medium",
+      "ews": "State excise/licence changes; distributor credit days.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "leather",
+      "name": "Leather & Footwear",
+      "group": "Manufacturing",
+      "cluster": "Kanpur, Agra, Ambur-Vaniyambadi (TN), Kolkata",
+      "south_gujarat": false,
+      "rbi_row": "2.5",
+      "iip_nic": "15",
+      "export_row": 16,
+      "commodities": [],
+      "energy": "low",
+      "wc_intensity": "high",
+      "ews": "Tannery closure orders (pollution boards), EU/US buyer order cuts, rising debtor days.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "wood_plywood",
+      "name": "Wood, Plywood & Panels",
+      "group": "Manufacturing",
+      "cluster": "Yamunanagar (HR), Gandhidham (GJ), Kerala",
+      "south_gujarat": false,
+      "rbi_row": "2.6",
+      "iip_nic": "16",
+      "export_row": null,
+      "commodities": [],
+      "energy": "medium",
+      "wc_intensity": "high",
+      "ews": "Timber import price spikes; dealer stock build-up.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "refining",
+      "name": "Petroleum Refining & Coal Products",
+      "group": "Manufacturing",
+      "cluster": "Jamnagar, Vadinar (GJ), Kochi, Panipat, Paradip",
+      "south_gujarat": false,
+      "rbi_row": "2.8",
+      "iip_nic": "19",
+      "export_row": 29,
+      "commodities": [],
+      "energy": "very_high",
+      "wc_intensity": "medium",
+      "ews": "Crack spreads; large-ticket exposures — mostly PSU/large corporate.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "fertiliser",
+      "name": "Fertilisers",
+      "group": "Manufacturing",
+      "cluster": "Kandla, Hazira, Paradip, Thal",
+      "south_gujarat": false,
+      "rbi_row": "2.9.1",
+      "iip_nic": "20",
+      "export_row": null,
+      "commodities": [],
+      "energy": "very_high",
+      "wc_intensity": "very_high",
+      "ews": "Subsidy arrears from Government; gas price pass-through.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "Output proxy is IIP NIC 20 (all chemicals); subsidy receivable cycle drives WC."
+    },
+    {
+      "id": "cement",
+      "name": "Cement",
+      "group": "Manufacturing",
+      "cluster": "Rajasthan, AP/Telangana, Chhattisgarh, Gujarat (Kutch)",
+      "south_gujarat": false,
+      "rbi_row": "2.12",
+      "iip_nic": "23",
+      "export_row": null,
+      "commodities": [],
+      "energy": "high",
+      "wc_intensity": "low",
+      "ews": "Dealer price cuts; pet-coke cost.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "Output proxy IIP NIC 23 (non-metallic minerals incl. cement, glass, ceramics)."
+    },
+    {
+      "id": "glass",
+      "name": "Glass & Glassware",
+      "group": "Manufacturing",
+      "cluster": "Firozabad (UP), Kadi/Kalol (GJ)",
+      "south_gujarat": false,
+      "rbi_row": "2.11",
+      "iip_nic": "23",
+      "export_row": 17,
+      "commodities": [],
+      "energy": "very_high",
+      "wc_intensity": "high",
+      "ews": "Natural gas allocation/price for furnaces; festival-season bangle demand.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "Output IIP NIC 23 is shared with ceramics/cement."
+    },
+    {
+      "id": "nonferrous_brass",
+      "name": "Non-ferrous Metals, Brass & Fabricated Metal",
+      "group": "Manufacturing",
+      "cluster": "Moradabad, Jamnagar brass, Rajkot, Ludhiana fasteners",
+      "south_gujarat": false,
+      "rbi_row": "2.13.2",
+      "iip_nic": "25",
+      "export_row": null,
+      "commodities": [],
+      "energy": "medium",
+      "wc_intensity": "high",
+      "ews": "Copper/brass scrap price swings; job-work delays.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "electrical_eq",
+      "name": "Electrical Equipment, Pumps & Motors",
+      "group": "Manufacturing",
+      "cluster": "Coimbatore pumps, Vadodara, Pune, Nashik",
+      "south_gujarat": false,
+      "rbi_row": "2.14.2",
+      "iip_nic": "27",
+      "export_row": 21,
+      "commodities": [],
+      "energy": "low",
+      "wc_intensity": "medium",
+      "ews": "Discom/EPC payment delays; copper price.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "RBI row 2.14.2 'Other engineering' is shared with capital goods."
+    },
+    {
+      "id": "other_transport",
+      "name": "Cycles, Two-wheelers & Other Transport Equipment",
+      "group": "Manufacturing",
+      "cluster": "Ludhiana cycles, Hosur, Chennai",
+      "south_gujarat": false,
+      "rbi_row": "2.15",
+      "iip_nic": "30",
+      "export_row": null,
+      "commodities": [],
+      "energy": "low",
+      "wc_intensity": "medium",
+      "ews": "OEM schedule cuts; dealer inventory days.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "RBI row 2.15 is shared with autos."
+    },
+    {
+      "id": "furniture_misc",
+      "name": "Furniture, Toys, Fireworks & Misc. Manufacturing",
+      "group": "Manufacturing",
+      "cluster": "Sivakasi (TN), Channapatna, Jodhpur furniture",
+      "south_gujarat": false,
+      "rbi_row": "2.19",
+      "iip_nic": "31",
+      "export_row": null,
+      "commodities": [],
+      "energy": "low",
+      "wc_intensity": "high",
+      "ews": "Seasonal demand (Diwali for Sivakasi); safety/licensing bans.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "RBI row 2.19 'Other industries' is broad."
+    },
+    {
+      "id": "handicrafts",
+      "name": "Handicrafts & Carpets",
+      "group": "Manufacturing",
+      "cluster": "Bhadohi-Mirzapur carpets, Moradabad, Jaipur, Srinagar",
+      "south_gujarat": false,
+      "rbi_row": "2.19",
+      "iip_nic": "32",
+      "export_row": 28,
+      "commodities": [],
+      "energy": "low",
+      "wc_intensity": "high",
+      "ews": "Export order books; US tariff notices.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "Output IIP NIC 32 'Other manufacturing'; export row 28 handicrafts excl. carpet."
+    },
+    {
+      "id": "sugar",
+      "name": "Sugar & Ethanol",
+      "group": "Agri-processing",
+      "cluster": "Western UP, Kolhapur-Sangli (MH), North Karnataka",
+      "south_gujarat": false,
+      "rbi_row": "2.2.1",
+      "iip_nic": "10",
+      "export_row": null,
+      "commodities": [],
+      "energy": "low",
+      "wc_intensity": "very_high",
+      "ews": "Cane arrears, FRP vs realisation, ethanol offtake price.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "Output proxy IIP NIC 10 (all food)."
+    },
+    {
+      "id": "edible_oil",
+      "name": "Edible Oils & Vanaspati",
+      "group": "Agri-processing",
+      "cluster": "Rajkot/Saurashtra, Indore, Kakinada",
+      "south_gujarat": false,
+      "rbi_row": "2.2.2",
+      "iip_nic": "10",
+      "export_row": 8,
+      "commodities": [],
+      "energy": "low",
+      "wc_intensity": "very_high",
+      "ews": "Import duty changes; palm/soy price swings and stock valuation.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "Output proxy IIP NIC 10; export row oil meals."
+    },
+    {
+      "id": "tea",
+      "name": "Tea Plantations",
+      "group": "Agri-processing",
+      "cluster": "Assam, North Bengal (Dooars), Nilgiris",
+      "south_gujarat": false,
+      "rbi_row": "2.2.3",
+      "iip_nic": "10",
+      "export_row": 1,
+      "commodities": [],
+      "energy": "medium",
+      "wc_intensity": "high",
+      "ews": "Auction prices, wage revisions, labour unrest.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "Output proxy IIP NIC 10."
+    },
+    {
+      "id": "cashew",
+      "name": "Cashew Processing",
+      "group": "Agri-processing",
+      "cluster": "Kollam (Kerala), Mangaluru, Palasa (AP)",
+      "south_gujarat": false,
+      "rbi_row": "2.2.4",
+      "iip_nic": "10",
+      "export_row": 7,
+      "commodities": [],
+      "energy": "low",
+      "wc_intensity": "very_high",
+      "ews": "Raw nut import price; factory closures in Kollam.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "RBI row 2.2.4 'Other food processing'; output proxy NIC 10."
+    },
+    {
+      "id": "jute_coir",
+      "name": "Jute & Coir",
+      "group": "Manufacturing",
+      "cluster": "Kolkata-Hooghly jute mills, Alappuzha coir (Kerala)",
+      "south_gujarat": false,
+      "rbi_row": "2.4.2",
+      "iip_nic": "13",
+      "export_row": 26,
+      "commodities": [],
+      "energy": "medium",
+      "wc_intensity": "high",
+      "ews": "Govt B-twill bag orders; raw jute MSP.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "Coir has no separate official series; jute rows used."
+    },
+    {
+      "id": "mining",
+      "name": "Mining & Quarrying",
+      "group": "Infrastructure & Core",
+      "cluster": "Odisha (Keonjhar), Jharkhand, Chhattisgarh, Goa",
+      "south_gujarat": false,
+      "rbi_row": "2.1",
+      "iip_nic": null,
+      "export_row": 15,
+      "commodities": [],
+      "energy": "high",
+      "wc_intensity": "medium",
+      "ews": "Royalty/lease auctions; export duty on ore.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "construction",
+      "name": "Construction & EPC",
+      "group": "Infrastructure & Core",
+      "cluster": "Pan-India",
+      "south_gujarat": false,
+      "rbi_row": "2.17",
+      "iip_nic": "23",
+      "export_row": null,
+      "commodities": [],
+      "energy": "medium",
+      "wc_intensity": "very_high",
+      "ews": "Mobilisation advance stuck; Government payment cycle; retention money.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "Output proxy IIP NIC 23 (cement/non-metallic)."
+    },
+    {
+      "id": "power",
+      "name": "Power Generation & Distribution",
+      "group": "Infrastructure & Core",
+      "cluster": "Pan-India (renewables: Rajasthan, Gujarat, TN, Karnataka)",
+      "south_gujarat": false,
+      "rbi_row": "2.18.1",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "Discom dues (PRAAPTI), curtailment, PPA renegotiation.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "activity": {
+        "dataset": "power_state",
+        "key": "India",
+        "field": "fytd_pct",
+        "label": "All-India electricity requirement Apr-to-date (CEA)"
+      },
+      "note": "Includes renewables; RBI does not split renewables."
+    },
+    {
+      "id": "renewables",
+      "name": "Renewables (solar/wind)",
+      "group": "Infrastructure & Core",
+      "cluster": "Rajasthan, Gujarat (Khavda), TN, Karnataka",
+      "south_gujarat": false,
+      "rbi_row": null,
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "Curtailment, ALMM/module prices, transmission connectivity delays.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "No separate official credit or output series: collect from MNRE/CEA RE generation reports."
+    },
+    {
+      "id": "telecom",
+      "name": "Telecommunications",
+      "group": "Infrastructure & Core",
+      "cluster": "Pan-India",
+      "south_gujarat": false,
+      "rbi_row": "2.18.2",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "low",
+      "ews": "Tower/fibre vendor receivable delays; AGR dues.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "roads",
+      "name": "Roads & Highways",
+      "group": "Infrastructure & Core",
+      "cluster": "Pan-India (NHAI/State PWD)",
+      "south_gujarat": false,
+      "rbi_row": "2.18.3",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "Toll traffic vs projections; HAM annuity delays.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "other_infra",
+      "name": "Ports, Airports, Railways & Other Infra",
+      "group": "Infrastructure & Core",
+      "cluster": "Mundra, JNPT, Chennai",
+      "south_gujarat": false,
+      "rbi_row": "2.18.7",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "low",
+      "ews": "Cargo throughput; concession disputes.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "agriculture",
+      "name": "Agriculture & Allied",
+      "group": "Agriculture & Allied",
+      "cluster": "Pan-India",
+      "south_gujarat": false,
+      "rbi_row": "1",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "Monsoon/rabi sowing, mandi prices, KCC renewal behaviour.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "No monthly official agri output series mapped; use advance estimates when collected."
+    },
+    {
+      "id": "msme_micro_small",
+      "name": "MSME — Micro & Small (industry)",
+      "group": "MSME",
+      "cluster": "Pan-India",
+      "south_gujarat": false,
+      "rbi_row": "S1:2.1",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "high",
+      "ews": "Udyam registrations, TReDS discount spikes, GST filing gaps.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "activity": {
+        "dataset": "gst_state",
+        "key": "India",
+        "field": "fytd_pct",
+        "label": "All-India domestic GST collections Apr-to-date (proxy)"
+      },
+      "note": "Activity proxy: all-India GST collections."
+    },
+    {
+      "id": "msme_medium",
+      "name": "MSME — Medium (industry)",
+      "group": "MSME",
+      "cluster": "Pan-India",
+      "south_gujarat": false,
+      "rbi_row": "S1:2.2",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "high",
+      "ews": "Group-entity transfers, delayed financials.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "activity": {
+        "dataset": "gst_state",
+        "key": "India",
+        "field": "fytd_pct",
+        "label": "All-India domestic GST collections Apr-to-date (proxy)"
+      },
+      "note": "Activity proxy: all-India GST collections."
+    },
+    {
+      "id": "wholesale_trade",
+      "name": "Wholesale Trade",
+      "group": "Services",
+      "cluster": "Pan-India mandis and trade hubs",
+      "south_gujarat": false,
+      "rbi_row": "3.7.1",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "very_high",
+      "ews": "Stock statements vs GST outward supplies, cheque returns.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "activity": {
+        "dataset": "gst_state",
+        "key": "India",
+        "field": "fytd_pct",
+        "label": "All-India domestic GST collections Apr-to-date (proxy)"
+      },
+      "note": "Activity proxy: all-India GST collections."
+    },
+    {
+      "id": "retail_trade",
+      "name": "Retail Trade",
+      "group": "Services",
+      "cluster": "Pan-India",
+      "south_gujarat": false,
+      "rbi_row": "3.7.2",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "high",
+      "ews": "Footfall, rent defaults, e-commerce disruption.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "activity": {
+        "dataset": "gst_state",
+        "key": "India",
+        "field": "fytd_pct",
+        "label": "All-India domestic GST collections Apr-to-date (proxy)"
+      },
+      "note": "Activity proxy: all-India GST collections."
+    },
+    {
+      "id": "transport_ops",
+      "name": "Transport Operators (road fleets, logistics)",
+      "group": "Services",
+      "cluster": "Pan-India (Namakkal, Sanjay Gandhi Nagar Delhi)",
+      "south_gujarat": false,
+      "rbi_row": "3.1",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": "high",
+      "wc_intensity": "medium",
+      "ews": "Diesel price, freight rates, e-way bill volumes.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "tourism_hotels",
+      "name": "Tourism, Hotels & Restaurants",
+      "group": "Services",
+      "cluster": "Goa, Rajasthan, Kerala, metro cities",
+      "south_gujarat": false,
+      "rbi_row": "3.3",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "Occupancy/ARR (not officially published monthly), foreign tourist arrivals.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "aviation",
+      "name": "Aviation",
+      "group": "Services",
+      "cluster": "Pan-India",
+      "south_gujarat": false,
+      "rbi_row": "3.5",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": "very_high",
+      "wc_intensity": "medium",
+      "ews": "ATF price, fleet grounding.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "software_it",
+      "name": "Computer Software & IT",
+      "group": "Services",
+      "cluster": "Bengaluru, Hyderabad, Pune, Chennai, NCR",
+      "south_gujarat": false,
+      "rbi_row": "3.2",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "low",
+      "ews": "US/EU client spending, visa rules.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "professional_services",
+      "name": "Professional Services",
+      "group": "Services",
+      "cluster": "Pan-India",
+      "south_gujarat": false,
+      "rbi_row": "3.6",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "low",
+      "ews": "",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "activity": {
+        "dataset": "gst_state",
+        "key": "India",
+        "field": "fytd_pct",
+        "label": "All-India domestic GST collections Apr-to-date (proxy)"
+      },
+      "note": "Activity proxy: all-India GST collections."
+    },
+    {
+      "id": "nbfc",
+      "name": "NBFCs (bank exposure)",
+      "group": "Services",
+      "cluster": "Mumbai, Chennai, Kochi, Delhi",
+      "south_gujarat": false,
+      "rbi_row": "3.9",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "NBFC GNPA (RBI FSR), CP spreads, ALM gaps.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ],
+      "note": "Asset quality is published half-yearly in the RBI FSR — collect."
+    },
+    {
+      "id": "tobacco",
+      "name": "Tobacco Products & Bidi",
+      "group": "Manufacturing",
+      "cluster": "Guntur, Nizamabad, Murshidabad",
+      "south_gujarat": false,
+      "rbi_row": "2.3",
+      "iip_nic": "12",
+      "export_row": 5,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "Excise/GST cess changes; leaf auction prices.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee Curing & Export",
+      "group": "Agri-processing",
+      "cluster": "Chikkamagaluru, Kodagu, Wayanad",
+      "south_gujarat": false,
+      "rbi_row": "2.2.4",
+      "iip_nic": "10",
+      "export_row": 2,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "Arabica/robusta price swings; crop failures.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "rice_milling",
+      "name": "Rice Milling & Export",
+      "group": "Agri-processing",
+      "cluster": "Karnal, Kakinada, Raipur, Burdwan",
+      "south_gujarat": false,
+      "rbi_row": "2.2.4",
+      "iip_nic": "10",
+      "export_row": 3,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "Export bans/duties; paddy MSP; CMR dues from FCI.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "spices",
+      "name": "Spices Processing & Trade",
+      "group": "Agri-processing",
+      "cluster": "Unjha, Guntur, Kochi, Erode",
+      "south_gujarat": false,
+      "rbi_row": "2.2.4",
+      "iip_nic": "10",
+      "export_row": 6,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "Price volatility; pesticide-residue export rejections.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "marine_meat_dairy",
+      "name": "Marine, Meat, Dairy & Poultry Products",
+      "group": "Agri-processing",
+      "cluster": "Veraval, Bhimavaram, Kochi, Unnao",
+      "south_gujarat": false,
+      "rbi_row": "2.2.4",
+      "iip_nic": "10",
+      "export_row": 13,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "US anti-dumping on shrimp; antibiotic rejections; milk prices.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "fruits_veg",
+      "name": "Fruit & Vegetable Processing",
+      "group": "Agri-processing",
+      "cluster": "Nashik, Chittoor, Krishnagiri, Shimla",
+      "south_gujarat": false,
+      "rbi_row": "2.2.4",
+      "iip_nic": "10",
+      "export_row": 10,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "Crop gluts/shortages; export demand for pulp/onion.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "carpets",
+      "name": "Carpets & Rugs",
+      "group": "Manufacturing",
+      "cluster": "Bhadohi, Mirzapur, Panipat, Jaipur",
+      "south_gujarat": false,
+      "rbi_row": "2.4.4",
+      "iip_nic": "13",
+      "export_row": 27,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "US orders; wool/yarn prices.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "shipping",
+      "name": "Shipping",
+      "group": "Services",
+      "cluster": "Mumbai, Kandla, Chennai, Kolkata",
+      "south_gujarat": false,
+      "rbi_row": "3.4",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "Freight rates; vessel values.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "ports",
+      "name": "Ports & Port Services",
+      "group": "Infrastructure & Core",
+      "cluster": "Mundra, Kandla, JNPT, Visakhapatnam",
+      "south_gujarat": false,
+      "rbi_row": "2.18.5",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "Cargo volumes; concession terms.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "airports",
+      "name": "Airports",
+      "group": "Infrastructure & Core",
+      "cluster": "Delhi, Mumbai, Bengaluru, Hyderabad",
+      "south_gujarat": false,
+      "rbi_row": "2.18.4",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "Passenger traffic; tariff orders.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "railways_infra",
+      "name": "Railways (non-Indian Railways) Infrastructure",
+      "group": "Infrastructure & Core",
+      "cluster": "Pan-India",
+      "south_gujarat": false,
+      "rbi_row": "2.18.6",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "Freight volumes on private sidings/corridors.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "housing_finance",
+      "name": "Housing Finance Companies (bank exposure)",
+      "group": "Services",
+      "cluster": "Mumbai, Delhi, Bengaluru, Chennai",
+      "south_gujarat": false,
+      "rbi_row": "3.9.1",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "HFC asset quality; funding cost.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
+    },
+    {
+      "id": "other_services",
+      "name": "Other Services (health, education, media, etc.)",
+      "group": "Services",
+      "cluster": "Pan-India",
+      "south_gujarat": false,
+      "rbi_row": "3.10",
+      "iip_nic": null,
+      "export_row": null,
+      "commodities": [],
+      "energy": null,
+      "wc_intensity": "medium",
+      "ews": "Service-sector demand.",
+      "guidance": [
+        "Validate GST returns and bank statement summations against projected turnover.",
+        "Use internal MIS for GNPA/SMA history of the segment before sanction."
+      ]
     }
-   ]
-  },
-  "power_state": {
-   "label": "CEA Power Supply Position (Energy): state-wise electricity requirement",
-   "tier": "official_primary",
-   "release": "~month+1 end",
-   "max_age_days": 100,
-   "chain": [
+  ],
+  "states": [
     {
-     "id": "cea_dashboard",
-     "method": "static",
-     "url": "https://cea.nic.in/reports/dashboardView?headingId=107&subHeadingId=1003&subSubHeadingId=10010&title=Power%20Supply%20Position%20-%20Energy&lang=en"
+      "code": "JK",
+      "name": "Jammu and Kashmir",
+      "region": "North",
+      "aliases": [
+        "Jammu & Kashmir",
+        "UT of J&K and Ladakh"
+      ]
     },
     {
-     "id": "deepseek_site_search",
-     "method": "deepseek_search",
-     "query": "site:cea.nic.in Power Supply Position Energy {month_year}"
+      "code": "HP",
+      "name": "Himachal Pradesh",
+      "region": "North",
+      "aliases": []
     },
     {
-     "id": "cache",
-     "method": "cache"
+      "code": "PB",
+      "name": "Punjab",
+      "region": "North",
+      "aliases": []
+    },
+    {
+      "code": "CH",
+      "name": "Chandigarh",
+      "region": "North",
+      "aliases": []
+    },
+    {
+      "code": "UK",
+      "name": "Uttarakhand",
+      "region": "Central",
+      "aliases": []
+    },
+    {
+      "code": "HR",
+      "name": "Haryana",
+      "region": "North",
+      "aliases": []
+    },
+    {
+      "code": "DL",
+      "name": "Delhi",
+      "region": "North",
+      "aliases": []
+    },
+    {
+      "code": "RJ",
+      "name": "Rajasthan",
+      "region": "North",
+      "aliases": []
+    },
+    {
+      "code": "UP",
+      "name": "Uttar Pradesh",
+      "region": "Central",
+      "aliases": []
+    },
+    {
+      "code": "BR",
+      "name": "Bihar",
+      "region": "East",
+      "aliases": []
+    },
+    {
+      "code": "SK",
+      "name": "Sikkim",
+      "region": "North-East",
+      "aliases": []
+    },
+    {
+      "code": "AR",
+      "name": "Arunachal Pradesh",
+      "region": "North-East",
+      "aliases": []
+    },
+    {
+      "code": "NL",
+      "name": "Nagaland",
+      "region": "North-East",
+      "aliases": []
+    },
+    {
+      "code": "MN",
+      "name": "Manipur",
+      "region": "North-East",
+      "aliases": []
+    },
+    {
+      "code": "MZ",
+      "name": "Mizoram",
+      "region": "North-East",
+      "aliases": []
+    },
+    {
+      "code": "TR",
+      "name": "Tripura",
+      "region": "North-East",
+      "aliases": []
+    },
+    {
+      "code": "ML",
+      "name": "Meghalaya",
+      "region": "North-East",
+      "aliases": []
+    },
+    {
+      "code": "AS",
+      "name": "Assam",
+      "region": "North-East",
+      "aliases": []
+    },
+    {
+      "code": "WB",
+      "name": "West Bengal",
+      "region": "East",
+      "aliases": []
+    },
+    {
+      "code": "JH",
+      "name": "Jharkhand",
+      "region": "East",
+      "aliases": []
+    },
+    {
+      "code": "OD",
+      "name": "Odisha",
+      "region": "East",
+      "aliases": [
+        "Orissa"
+      ]
+    },
+    {
+      "code": "CG",
+      "name": "Chhattisgarh",
+      "region": "Central",
+      "aliases": [
+        "Chattisgarh"
+      ]
+    },
+    {
+      "code": "MP",
+      "name": "Madhya Pradesh",
+      "region": "Central",
+      "aliases": []
+    },
+    {
+      "code": "GJ",
+      "name": "Gujarat",
+      "region": "West",
+      "aliases": []
+    },
+    {
+      "code": "DN",
+      "name": "Dadra and Nagar Haveli and Daman & Diu",
+      "region": "West",
+      "aliases": [
+        "Dadra & Nagar Haveli*",
+        "Dadra & Nagar Haveli and Daman & Diu",
+        "Dadra and Nagar Haveli"
+      ]
+    },
+    {
+      "code": "MH",
+      "name": "Maharashtra",
+      "region": "West",
+      "aliases": [
+        "Maharastra"
+      ]
+    },
+    {
+      "code": "KA",
+      "name": "Karnataka",
+      "region": "South",
+      "aliases": []
+    },
+    {
+      "code": "GA",
+      "name": "Goa",
+      "region": "West",
+      "aliases": []
+    },
+    {
+      "code": "KL",
+      "name": "Kerala",
+      "region": "South",
+      "aliases": []
+    },
+    {
+      "code": "TN",
+      "name": "Tamil Nadu",
+      "region": "South",
+      "aliases": []
+    },
+    {
+      "code": "PY",
+      "name": "Puducherry",
+      "region": "South",
+      "aliases": []
+    },
+    {
+      "code": "TS",
+      "name": "Telangana",
+      "region": "South",
+      "aliases": []
+    },
+    {
+      "code": "AP",
+      "name": "Andhra Pradesh",
+      "region": "South",
+      "aliases": []
+    },
+    {
+      "code": "LA",
+      "name": "Ladakh",
+      "region": "North",
+      "aliases": []
+    },
+    {
+      "code": "AN",
+      "name": "Andaman and Nicobar Islands",
+      "region": "East",
+      "aliases": [
+        "Andaman & Nicobar Islands"
+      ]
     }
-   ]
-  },
-  "rbi_state": {
-   "label": "RBI Handbook of Statistics on Indian States: state-wise SCB credit, C-D ratio, industry credit (annual, end-March)",
-   "tier": "official_primary",
-   "release": "annual (Dec)",
-   "max_age_days": 640,
-   "chain": [
+  ],
+  "clusters": [
     {
-     "id": "rbi_hsis_page",
-     "method": "static",
-     "url": "https://www.rbi.org.in/scripts/AnnualPublications.aspx?head=Handbook+of+Statistics+on+Indian+States"
+      "id": "surat_textiles",
+      "name": "Surat MMF weaving & processing",
+      "state": "GJ",
+      "sectors": [
+        "mmf_textiles",
+        "cotton_textiles"
+      ],
+      "signals": "Production holidays by weavers' associations; grey-fabric trader payment delays; processing-house shutdowns."
     },
     {
-     "id": "deepseek_site_search",
-     "method": "deepseek_search",
-     "query": "site:rbi.org.in Handbook of Statistics on Indian States state-wise credit"
+      "id": "surat_diamonds",
+      "name": "Surat diamond cutting & polishing",
+      "state": "GJ",
+      "sectors": [
+        "diamonds"
+      ],
+      "signals": "Rough import vs polished export gap; unit closures/working-day cuts in Varachha/Katargam; polished price index (not public)."
     },
     {
-     "id": "cache",
-     "method": "cache"
+      "id": "morbi_ceramics",
+      "name": "Morbi ceramic tiles",
+      "state": "GJ",
+      "sectors": [
+        "ceramics"
+      ],
+      "signals": "Gas price for kilns; plant shutdown announcements by Morbi Ceramic Association; export container bookings."
+    },
+    {
+      "id": "vapi_ankleshwar_chem",
+      "name": "Vapi / Ankleshwar / Dahej / Sachin chemicals & dyes",
+      "state": "GJ",
+      "sectors": [
+        "chemicals_dyes",
+        "petrochem",
+        "pharma"
+      ],
+      "signals": "GPCB closure notices; China price dumping on intermediates; CETP capacity."
+    },
+    {
+      "id": "rajkot_engineering",
+      "name": "Rajkot engineering & auto components",
+      "state": "GJ",
+      "sectors": [
+        "engineering",
+        "auto",
+        "nonferrous_brass"
+      ],
+      "signals": "Foundry/forging order books; job-work payment cycles."
+    },
+    {
+      "id": "jamnagar",
+      "name": "Jamnagar brass parts & refining",
+      "state": "GJ",
+      "sectors": [
+        "nonferrous_brass",
+        "refining"
+      ],
+      "signals": "Brass scrap prices; refinery shutdown schedules."
+    },
+    {
+      "id": "tiruppur",
+      "name": "Tiruppur knitwear",
+      "state": "TN",
+      "sectors": [
+        "apparel",
+        "cotton_textiles"
+      ],
+      "signals": "Export order flow from EU/US buyers; yarn price; dyeing-unit closures."
+    },
+    {
+      "id": "coimbatore",
+      "name": "Coimbatore pumps, motors & textiles machinery",
+      "state": "TN",
+      "sectors": [
+        "electrical_eq",
+        "engineering"
+      ],
+      "signals": "Agri pump demand (monsoon), copper price; foundry closures."
+    },
+    {
+      "id": "chennai_auto",
+      "name": "Chennai / Hosur auto & components",
+      "state": "TN",
+      "sectors": [
+        "auto",
+        "other_transport"
+      ],
+      "signals": "OEM production schedules; EV transition orders."
+    },
+    {
+      "id": "sivakasi",
+      "name": "Sivakasi fireworks, matches & printing",
+      "state": "TN",
+      "sectors": [
+        "furniture_misc",
+        "paper"
+      ],
+      "signals": "Firecracker bans/green-cracker rules; Diwali demand; explosion-safety closures."
+    },
+    {
+      "id": "ludhiana",
+      "name": "Ludhiana cycles, hosiery & fasteners",
+      "state": "PB",
+      "sectors": [
+        "other_transport",
+        "apparel",
+        "nonferrous_brass"
+      ],
+      "signals": "Cycle export orders; woollen hosiery season; steel price."
+    },
+    {
+      "id": "panipat",
+      "name": "Panipat home textiles & recycled yarn",
+      "state": "HR",
+      "sectors": [
+        "cotton_textiles",
+        "apparel"
+      ],
+      "signals": "Export orders for home furnishings; NCR pollution-related shutdowns."
+    },
+    {
+      "id": "manesar_gurugram",
+      "name": "Manesar / Gurugram auto hub",
+      "state": "HR",
+      "sectors": [
+        "auto",
+        "other_transport"
+      ],
+      "signals": "OEM schedules; labour issues."
+    },
+    {
+      "id": "moradabad",
+      "name": "Moradabad brass & handicrafts",
+      "state": "UP",
+      "sectors": [
+        "nonferrous_brass",
+        "handicrafts"
+      ],
+      "signals": "Export orders (US/EU), metal prices."
+    },
+    {
+      "id": "kanpur_agra_leather",
+      "name": "Kanpur / Agra leather & footwear",
+      "state": "UP",
+      "sectors": [
+        "leather"
+      ],
+      "signals": "Tannery closure orders (Ganga pollution); footwear export orders."
+    },
+    {
+      "id": "firozabad",
+      "name": "Firozabad glass & bangles",
+      "state": "UP",
+      "sectors": [
+        "glass"
+      ],
+      "signals": "Gas supply/price (Taj Trapezium rules); festival bangle demand."
+    },
+    {
+      "id": "bhadohi",
+      "name": "Bhadohi-Mirzapur carpets",
+      "state": "UP",
+      "sectors": [
+        "handicrafts"
+      ],
+      "signals": "US tariff notices; export order books."
+    },
+    {
+      "id": "west_up_sugar",
+      "name": "Western UP sugar belt",
+      "state": "UP",
+      "sectors": [
+        "sugar"
+      ],
+      "signals": "Cane price arrears; ethanol procurement price."
+    },
+    {
+      "id": "noida_electronics",
+      "name": "Noida mobile & electronics",
+      "state": "UP",
+      "sectors": [
+        "electronics"
+      ],
+      "signals": "PLI disbursements; component import duty changes."
+    },
+    {
+      "id": "pune_auto",
+      "name": "Pune / Chakan auto & engineering",
+      "state": "MH",
+      "sectors": [
+        "auto",
+        "engineering",
+        "electrical_eq"
+      ],
+      "signals": "OEM production; vendor payment cycles."
+    },
+    {
+      "id": "bhiwandi",
+      "name": "Bhiwandi powerloom",
+      "state": "MH",
+      "sectors": [
+        "mmf_textiles",
+        "cotton_textiles"
+      ],
+      "signals": "Loom closures, power tariff for looms; yarn credit from traders."
+    },
+    {
+      "id": "mumbai_fin",
+      "name": "Mumbai-Thane NBFC, CRE & trade",
+      "state": "MH",
+      "sectors": [
+        "nbfc",
+        "commercial_real_estate",
+        "wholesale_trade"
+      ],
+      "signals": "Unsold inventory (MahaRERA), NBFC CP spreads."
+    },
+    {
+      "id": "kolhapur_sugar",
+      "name": "Kolhapur-Sangli sugar co-operatives",
+      "state": "MH",
+      "sectors": [
+        "sugar"
+      ],
+      "signals": "FRP payment delays; co-operative bank stress."
+    },
+    {
+      "id": "jamshedpur",
+      "name": "Jamshedpur steel & auto ancillaries",
+      "state": "JH",
+      "sectors": [
+        "metals",
+        "auto",
+        "mining"
+      ],
+      "signals": "Steel price, OEM truck demand."
+    },
+    {
+      "id": "odisha_metals",
+      "name": "Odisha steel, aluminium & mining belt",
+      "state": "OD",
+      "sectors": [
+        "metals",
+        "mining"
+      ],
+      "signals": "Iron ore prices/royalty; export duty on steel."
+    },
+    {
+      "id": "hyderabad_pharma",
+      "name": "Hyderabad pharma & bulk drugs",
+      "state": "TS",
+      "sectors": [
+        "pharma",
+        "chemicals_dyes"
+      ],
+      "signals": "USFDA warning letters; API price competition from China."
+    },
+    {
+      "id": "baddi_pharma",
+      "name": "Baddi-Barotiwala-Nalagarh pharma",
+      "state": "HP",
+      "sectors": [
+        "pharma"
+      ],
+      "signals": "Tax-holiday expiry effects; CDSCO quality alerts."
+    },
+    {
+      "id": "jaipur_gems",
+      "name": "Jaipur gems & jewellery",
+      "state": "RJ",
+      "sectors": [
+        "diamonds",
+        "handicrafts"
+      ],
+      "signals": "Coloured-stone export orders; gold price."
+    },
+    {
+      "id": "bengaluru_tech",
+      "name": "Bengaluru electronics & IT",
+      "state": "KA",
+      "sectors": [
+        "electronics",
+        "software_it"
+      ],
+      "signals": "Hiring freezes, client budgets; EMS order books."
+    },
+    {
+      "id": "kerala_cashew",
+      "name": "Kollam cashew",
+      "state": "KL",
+      "sectors": [
+        "cashew"
+      ],
+      "signals": "Raw nut import prices; factory closures."
+    },
+    {
+      "id": "kerala_coir",
+      "name": "Alappuzha coir",
+      "state": "KL",
+      "sectors": [
+        "jute_coir"
+      ],
+      "signals": "Export orders for coir mats; co-operative society dues."
+    },
+    {
+      "id": "assam_tea",
+      "name": "Assam tea gardens",
+      "state": "AS",
+      "sectors": [
+        "tea"
+      ],
+      "signals": "Auction prices, wage revision, garden closures."
+    },
+    {
+      "id": "kolkata_jute",
+      "name": "Kolkata-Hooghly jute mills",
+      "state": "WB",
+      "sectors": [
+        "jute_coir"
+      ],
+      "signals": "Govt sacking orders; mill lockouts."
+    },
+    {
+      "id": "rajasthan_re",
+      "name": "Rajasthan / Gujarat (Khavda) renewables",
+      "state": "RJ",
+      "sectors": [
+        "renewables",
+        "power"
+      ],
+      "signals": "Curtailment; transmission delays."
+    },
+    {
+      "id": "namakkal_transport",
+      "name": "Namakkal truck operators",
+      "state": "TN",
+      "sectors": [
+        "transport_ops"
+      ],
+      "signals": "Diesel price; freight rates."
     }
-   ]
+  ],
+  "highlight_rules": [
+    {
+      "id": "stress_cluster",
+      "kind": "stress",
+      "text": "Cluster whose main sector is Avoid AND its state's GST collections (Apr-to-date) are growing slower than all-India.",
+      "rule": "any sector verdict == Avoid and state.gst_fytd_pct < india.gst_fytd_pct"
+    },
+    {
+      "id": "stress_state",
+      "kind": "stress",
+      "text": "State with GST collections falling (Apr-to-date < 0%) AND electricity demand growth below 3%.",
+      "rule": "state.gst_fytd_pct < 0 and state.power_fytd_pct < 3"
+    },
+    {
+      "id": "opp_cluster",
+      "kind": "opportunity",
+      "text": "Cluster whose sectors are all Lend AND its state's GST and electricity demand (Apr-to-date) both grow faster than all-India.",
+      "rule": "all sector verdicts == Lend and state.gst_fytd_pct > india and state.power_fytd_pct > india"
+    },
+    {
+      "id": "opp_state",
+      "kind": "opportunity",
+      "text": "State with GST Apr-to-date growth ≥ 10% AND electricity demand growth ≥ 8%.",
+      "rule": "state.gst_fytd_pct >= 10 and state.power_fytd_pct >= 8"
+    },
+    {
+      "id": "credit_heat",
+      "kind": "stress",
+      "text": "Cluster sector where bank credit is growing >20 pp faster than output (possible evergreening/over-leverage).",
+      "rule": "sector.credit_vs_output > 20"
+    }
+  ],
+  "highlight_thresholds": {
+    "state_gst_neg": 0,
+    "state_power_low": 3,
+    "opp_gst": 10,
+    "opp_power": 8,
+    "credit_heat_pp": 20,
+    "_last_calibrated": "2026-11-01"
+  },
+  "fsr_reports": [
+    {
+      "edition": "FSR June 2025",
+      "url": "https://rbidocs.rbi.org.in/rdocs//PublicationReport/Pdfs/0FSRJUNE20253006258AE798B4484642AD861CC35BC2CB3D8E.PDF"
+    },
+    {
+      "edition": "FSR December 2025",
+      "url": "https://rbidocs.rbi.org.in/rdocs//PublicationReport/Pdfs/0FSRDEC25D1EB9AAEE5724BD5A3E068490996BAD5.PDF"
+    },
+    {
+      "edition": "FSR June 2026",
+      "url": "https://rbidocs.rbi.org.in/rdocs//PublicationReport/Pdfs/0FSRJUNE2026_300626A120EF6C37694C8C933181147F1379D7.PDF"
+    }
+  ],
+  "fsr_sector_map": {
+    "mmf_textiles": "textiles",
+    "cotton_textiles": "textiles",
+    "apparel": "textiles",
+    "pharma": "chemicals",
+    "plastics": "rubber_plastics",
+    "cement": "cement",
+    "nonferrous_brass": "basic_metals",
+    "engineering": "engineering",
+    "auto_components": "vehicles",
+    "other_transport": "vehicles",
+    "diamonds": "gems_jewellery",
+    "food_processing": "food",
+    "sugar": "food",
+    "edible_oil": "food",
+    "paper": "paper",
+    "refining": "refining",
+    "mining": "mining",
+    "construction": "construction",
+    "power": "power",
+    "renewables": "power",
+    "roads": "infra_ex_power",
+    "telecom": "infra_ex_power",
+    "other_infra": "infra_ex_power",
+    "chemicals_dyes": "chemicals",
+    "petrochem": "chemicals",
+    "metals": "basic_metals",
+    "marine_meat_dairy": "food",
+    "fruits_veg": "food",
+    "rice_milling": "food",
+    "spices": "food",
+    "coffee": "food"
+  },
+  "geo": {
+    "_doc": "Geography verdict = national sector score blended with local (state) stress signals; ground-check ratings can only pull a call toward Caution.",
+    "weight_national": 0.6,
+    "weight_local": 0.4,
+    "local_gap_pp": 2.0,
+    "ok_at_or_above": 65,
+    "avoid_below": 45,
+    "min_local_signals": 2,
+    "ratings_min_n": 5,
+    "ratings_disagree_above": 6
   }
- },
- "commodities": {
-  "cotton": {
-   "symbol": "CT=F",
-   "label": "ICE Cotton No.2 (US c/lb) - proxy for Shankar-6/Cotlook",
-   "unit": "USc/lb"
-  },
-  "brent_fut": {
-   "symbol": "BZ=F",
-   "label": "Brent front-month (PTA/MEG/propane cost proxy)",
-   "unit": "USD/bbl"
-  },
-  "lng_jkm": {
-   "symbol": "JKM=F",
-   "label": "LNG JKM futures (spot-LNG cost proxy for Gujarat PNG)",
-   "unit": "USD/MMBtu"
-  },
-  "henry_hub": {
-   "symbol": "NG=F",
-   "label": "Henry Hub natural gas",
-   "unit": "USD/MMBtu"
-  },
-  "us_hrc": {
-   "symbol": "HRC=F",
-   "label": "US HRC steel futures (global steel price proxy)",
-   "unit": "USD/st"
-  }
- },
- "missing_sources": [
-  {
-   "item": "Polished diamond price index",
-   "why": "Rapaport/IDEX indices are paid; no free official series. Using GJEPC/DGCIS export values instead.",
-   "action": "Unknown — collect (Rapaport subscription or GJEPC monthly)"
-  },
-  {
-   "item": "PTA / MEG / POY domestic prices (Surat MMF)",
-   "why": "Reliance/IOCL price lists and ICIS/CCFGroup are not free.",
-   "action": "Unknown — collect (dealer quotes); Brent shown as proxy"
-  },
-  {
-   "item": "Gujarat Gas industrial PNG tariff (Morbi)",
-   "why": "Tariff circulars are PDFs with no stable link; not yet automated.",
-   "action": "Unknown — collect; JKM/Henry Hub shown as proxy"
-  },
-  {
-   "item": "Domestic cotton (CCI / Shankar-6) price",
-   "why": "CCI/Cotlook pages have no stable machine-readable feed.",
-   "action": "Unknown — collect; ICE cotton shown as proxy"
-  },
-  {
-   "item": "Sector GNPA / SMA, DSCR, cash-conversion cycle",
-   "why": "Sector-level bank asset-quality and borrower financials are not published at this granularity (sample's figures were illustrative).",
-   "action": "Unknown — collect from internal MIS / CMIE Prowess"
-  },
-  {
-   "item": "China dumping index",
-   "why": "No official index exists; DGTR anti-dumping notices are qualitative.",
-   "action": "Language only (DeepSeek, unscored) once key is set"
-  },
-  {
-   "item": "State-wise quarterly bank credit (BSR-1)",
-   "why": "RBI publishes it only inside the DBIE portal (JavaScript app, no stable file link).",
-   "action": "Using the annual RBI Handbook (end-March) instead; collect quarterly from DBIE manually if needed."
-  },
-  {
-   "item": "State-wise merchandise exports (DGCI&S)",
-   "why": "DGCI&S state-of-origin data sits behind a login/paid portal; no open monthly file found.",
-   "action": "Collect from DGCI&S or state export promotion councils."
-  },
-  {
-   "item": "State unemployment (PLFS)",
-   "why": "PLFS state tables are in quarterly/annual PDF bulletins with changing layout; not yet parsed reliably.",
-   "action": "Collect from MoSPI PLFS bulletin; added to backlog."
-  },
-  {
-   "item": "Cluster-level output/prices (Morbi gas, Surat weaving days, Tiruppur orders, etc.)",
-   "why": "No official cluster series.",
-   "action": "Shown as text early-warning signals only; collect from associations/branches."
-  }
- ],
- "sectors": [
-  {
-   "id": "mmf_textiles",
-   "name": "Textiles - MMF / Polyester Weaving & Processing",
-   "cluster": "Surat (Sachin, Pandesara, Kadodara), Olpad",
-   "south_gujarat": true,
-   "rbi_row": "2.4.3",
-   "iip_nic": "13",
-   "export_row": 24,
-   "commodities": [
-    "brent_fut"
-   ],
-   "energy": "medium",
-   "wc_intensity": "high",
-   "ews": "Weavers' association production holidays; yarn trader bill delays; power-loom units on sale.",
-   "guidance": [
-    "Verify GST turnover vs bank credit summations before renewal.",
-    "Cap stock holding period for grey fabric."
-   ],
-   "group": "Manufacturing"
-  },
-  {
-   "id": "cotton_textiles",
-   "name": "Textiles - Cotton Spinning & Yarn",
-   "cluster": "Surat, Bharuch, Saurashtra ginning belt",
-   "south_gujarat": true,
-   "rbi_row": "2.4.1",
-   "iip_nic": "13",
-   "export_row": 23,
-   "commodities": [
-    "cotton"
-   ],
-   "energy": "medium",
-   "wc_intensity": "high",
-   "ews": "Cotton price swings vs yarn realisation; mill shutdown notices.",
-   "guidance": [
-    "Watch cotton inventory valuation vs market price.",
-    "ECGC cover on export receivables."
-   ],
-   "group": "Manufacturing"
-  },
-  {
-   "id": "apparel",
-   "name": "Readymade Garments & Made-ups",
-   "cluster": "Surat, Ahmedabad",
-   "south_gujarat": true,
-   "rbi_row": "2.4.4",
-   "iip_nic": "14",
-   "export_row": 25,
-   "commodities": [],
-   "energy": "low",
-   "wc_intensity": "high",
-   "ews": "Buyer order cancellations; US/EU tariff changes.",
-   "guidance": [
-    "Back-to-back LC against confirmed orders."
-   ],
-   "group": "Manufacturing"
-  },
-  {
-   "id": "diamonds",
-   "name": "Cut & Polished Diamonds / Gems & Jewellery",
-   "cluster": "Surat (Varachha, Katargam, SDB), Navsari, Bhavnagar",
-   "south_gujarat": true,
-   "rbi_row": "2.16",
-   "iip_nic": "32",
-   "export_row": 18,
-   "commodities": [],
-   "energy": "low",
-   "wc_intensity": "very_high",
-   "ews": "Surat Diamond Bourse turnover; extended Diwali vacations; lab-grown price discounts; rough import vs polished export gap.",
-   "guidance": [
-    "Independent valuation of stock; shorter credit period.",
-    "Track PCFC/PSFC realisation within due dates."
-   ],
-   "note": "IIP NIC 32 'Other manufacturing' includes jewellery but also other goods (proxy).",
-   "group": "Manufacturing"
-  },
-  {
-   "id": "chemicals_dyes",
-   "name": "Chemicals, Dyes & Intermediates",
-   "cluster": "Vapi, Ankleshwar, Panoli, Sachin GIDC, Dahej",
-   "south_gujarat": true,
-   "rbi_row": "2.9.4",
-   "iip_nic": "20",
-   "export_row": 20,
-   "commodities": [
-    "brent_fut"
-   ],
-   "energy": "high",
-   "wc_intensity": "high",
-   "ews": "Chinese price cuts / DGTR anti-dumping cases; GPCB closure notices; inventory build-up.",
-   "guidance": [
-    "Mark inventory to current market price.",
-    "Monitor credit summations quarterly."
-   ],
-   "group": "Manufacturing"
-  },
-  {
-   "id": "petrochem",
-   "name": "Petrochemicals",
-   "cluster": "Hazira, Dahej, Vadodara",
-   "south_gujarat": true,
-   "rbi_row": "2.9.3",
-   "iip_nic": "20",
-   "export_row": null,
-   "commodities": [
-    "brent_fut"
-   ],
-   "energy": "high",
-   "wc_intensity": "medium",
-   "ews": "Polymer price announcements by RIL/IOCL; Middle-East/China capacity.",
-   "guidance": [
-    "Price-reset clauses with buyers."
-   ],
-   "group": "Manufacturing"
-  },
-  {
-   "id": "pharma",
-   "name": "Pharmaceuticals & APIs",
-   "cluster": "Vapi, Ankleshwar, Ahmedabad",
-   "south_gujarat": true,
-   "rbi_row": "2.9.2",
-   "iip_nic": "21",
-   "export_row": 19,
-   "commodities": [],
-   "energy": "low",
-   "wc_intensity": "medium",
-   "ews": "USFDA 483 / import alerts; API price swings from China.",
-   "guidance": [
-    "Regulatory compliance status at renewal."
-   ],
-   "group": "Manufacturing"
-  },
-  {
-   "id": "ceramics",
-   "name": "Ceramic Tiles, Sanitaryware & Glass",
-   "cluster": "Morbi, Thangadh, Himatnagar",
-   "south_gujarat": false,
-   "rbi_row": "2.11",
-   "iip_nic": "23",
-   "export_row": 17,
-   "commodities": [
-    "lng_jkm",
-    "henry_hub"
-   ],
-   "energy": "very_high",
-   "wc_intensity": "high",
-   "ews": "Morbi association shutdown circulars; gas connection surrenders; dealer cheque bounces.",
-   "guidance": [
-    "Exclude aged debtors from drawing power.",
-    "Check gas cost pass-through in recent invoices."
-   ],
-   "note": "RBI row is 'Glass & Glassware' and IIP NIC 23 is 'other non-metallic minerals' (incl. cement) - closest official proxies; no ceramic-only series exists.",
-   "group": "Manufacturing"
-  },
-  {
-   "id": "plastics",
-   "name": "Plastics & Rubber Processing",
-   "cluster": "Daman, Silvassa, Umbergaon, Vapi",
-   "south_gujarat": true,
-   "rbi_row": "2.10",
-   "iip_nic": "22",
-   "export_row": 30,
-   "commodities": [
-    "brent_fut"
-   ],
-   "energy": "medium",
-   "wc_intensity": "medium",
-   "ews": "Polymer price cuts; port dumping notices.",
-   "guidance": [
-    "LC against confirmed orders for single-product units."
-   ],
-   "group": "Manufacturing"
-  },
-  {
-   "id": "engineering",
-   "name": "Engineering & Capital Goods",
-   "cluster": "Hazira, Surat, Navsari, Vapi, Bharuch",
-   "south_gujarat": true,
-   "rbi_row": "2.14.2",
-   "iip_nic": "28",
-   "export_row": 21,
-   "commodities": [
-    "us_hrc"
-   ],
-   "energy": "low",
-   "wc_intensity": "medium",
-   "ews": "Order cancellations; milestone billing delays from PSU buyers.",
-   "guidance": [
-    "Milestone-linked LC/BG structuring."
-   ],
-   "group": "Manufacturing"
-  },
-  {
-   "id": "metals",
-   "name": "Iron & Steel (incl. secondary re-rolling)",
-   "cluster": "Hazira, Bharuch, Bhavnagar ship-breaking",
-   "south_gujarat": true,
-   "rbi_row": "2.13.1",
-   "iip_nic": "24",
-   "export_row": null,
-   "commodities": [
-    "us_hrc"
-   ],
-   "energy": "high",
-   "wc_intensity": "medium",
-   "ews": "Billet price drops; power bill delays; import surges.",
-   "guidance": [
-    "Monthly stock verification of scrap/billets."
-   ],
-   "group": "Manufacturing"
-  },
-  {
-   "id": "electronics",
-   "name": "Electronics Manufacturing",
-   "cluster": "Sanand, Dholera (emerging)",
-   "south_gujarat": false,
-   "rbi_row": "2.14.1",
-   "iip_nic": "26",
-   "export_row": 22,
-   "commodities": [],
-   "energy": "low",
-   "wc_intensity": "low",
-   "ews": "OEM vendor switches; PLI disbursement delays.",
-   "guidance": [
-    "Anchor-client concentration caps."
-   ],
-   "group": "Manufacturing"
-  },
-  {
-   "id": "auto_components",
-   "name": "Auto & Auto Components",
-   "cluster": "Sanand, Halol, Becharaji",
-   "south_gujarat": false,
-   "rbi_row": "2.15",
-   "iip_nic": "29",
-   "export_row": null,
-   "commodities": [],
-   "energy": "low",
-   "wc_intensity": "medium",
-   "ews": "OEM production cuts.",
-   "guidance": [
-    "Minimum 2 OEM relationships."
-   ],
-   "group": "Manufacturing"
-  },
-  {
-   "id": "paper",
-   "name": "Paper & Paper Products",
-   "cluster": "Vapi, Valsad, Songadh",
-   "south_gujarat": true,
-   "rbi_row": "2.7",
-   "iip_nic": "17",
-   "export_row": null,
-   "commodities": [],
-   "energy": "medium",
-   "wc_intensity": "medium",
-   "ews": "Imported pulp / waste-paper price swings; China/Indonesia imports.",
-   "guidance": [
-    "Track raw-material cost pass-through."
-   ],
-   "group": "Manufacturing"
-  },
-  {
-   "id": "food_processing",
-   "name": "Food Processing",
-   "cluster": "Navsari, Valsad, Bardoli (sugar, mango, dairy)",
-   "south_gujarat": true,
-   "rbi_row": "2.2",
-   "iip_nic": "10",
-   "export_row": null,
-   "commodities": [],
-   "energy": "low",
-   "wc_intensity": "medium",
-   "ews": "Monsoon / crop output; sugar cane dues.",
-   "guidance": [
-    "Seasonal limits matched to crop cycle."
-   ],
-   "group": "Manufacturing"
-  },
-  {
-   "id": "commercial_real_estate",
-   "name": "Commercial Real Estate",
-   "cluster": "Surat (Dream City, Vesu), Vapi",
-   "south_gujarat": true,
-   "rbi_row": "3.8",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": "low",
-   "wc_intensity": "very_high",
-   "ews": "Unsold inventory overhang; RERA delays.",
-   "guidance": [
-    "RERA escrow control."
-   ],
-   "group": "Services"
-  },
-  {
-   "id": "beverages",
-   "name": "Beverages & Tobacco",
-   "group": "Manufacturing",
-   "cluster": "Aurangabad, Goa, UP breweries/distilleries",
-   "south_gujarat": false,
-   "rbi_row": "2.3",
-   "iip_nic": "11",
-   "export_row": 5,
-   "commodities": [],
-   "energy": "medium",
-   "wc_intensity": "medium",
-   "ews": "State excise/licence changes; distributor credit days.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ]
-  },
-  {
-   "id": "leather",
-   "name": "Leather & Footwear",
-   "group": "Manufacturing",
-   "cluster": "Kanpur, Agra, Ambur-Vaniyambadi (TN), Kolkata",
-   "south_gujarat": false,
-   "rbi_row": "2.5",
-   "iip_nic": "15",
-   "export_row": 16,
-   "commodities": [],
-   "energy": "low",
-   "wc_intensity": "high",
-   "ews": "Tannery closure orders (pollution boards), EU/US buyer order cuts, rising debtor days.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ]
-  },
-  {
-   "id": "wood_plywood",
-   "name": "Wood, Plywood & Panels",
-   "group": "Manufacturing",
-   "cluster": "Yamunanagar (HR), Gandhidham (GJ), Kerala",
-   "south_gujarat": false,
-   "rbi_row": "2.6",
-   "iip_nic": "16",
-   "export_row": null,
-   "commodities": [],
-   "energy": "medium",
-   "wc_intensity": "high",
-   "ews": "Timber import price spikes; dealer stock build-up.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ]
-  },
-  {
-   "id": "refining",
-   "name": "Petroleum Refining & Coal Products",
-   "group": "Manufacturing",
-   "cluster": "Jamnagar, Vadinar (GJ), Kochi, Panipat, Paradip",
-   "south_gujarat": false,
-   "rbi_row": "2.8",
-   "iip_nic": "19",
-   "export_row": 29,
-   "commodities": [],
-   "energy": "very_high",
-   "wc_intensity": "medium",
-   "ews": "Crack spreads; large-ticket exposures — mostly PSU/large corporate.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ]
-  },
-  {
-   "id": "fertiliser",
-   "name": "Fertilisers",
-   "group": "Manufacturing",
-   "cluster": "Kandla, Hazira, Paradip, Thal",
-   "south_gujarat": false,
-   "rbi_row": "2.9.1",
-   "iip_nic": "20",
-   "export_row": null,
-   "commodities": [],
-   "energy": "very_high",
-   "wc_intensity": "very_high",
-   "ews": "Subsidy arrears from Government; gas price pass-through.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "Output proxy is IIP NIC 20 (all chemicals); subsidy receivable cycle drives WC."
-  },
-  {
-   "id": "cement",
-   "name": "Cement",
-   "group": "Manufacturing",
-   "cluster": "Rajasthan, AP/Telangana, Chhattisgarh, Gujarat (Kutch)",
-   "south_gujarat": false,
-   "rbi_row": "2.12",
-   "iip_nic": "23",
-   "export_row": null,
-   "commodities": [],
-   "energy": "high",
-   "wc_intensity": "low",
-   "ews": "Dealer price cuts; pet-coke cost.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "Output proxy IIP NIC 23 (non-metallic minerals incl. cement, glass, ceramics)."
-  },
-  {
-   "id": "glass",
-   "name": "Glass & Glassware",
-   "group": "Manufacturing",
-   "cluster": "Firozabad (UP), Kadi/Kalol (GJ)",
-   "south_gujarat": false,
-   "rbi_row": "2.11",
-   "iip_nic": "23",
-   "export_row": 17,
-   "commodities": [],
-   "energy": "very_high",
-   "wc_intensity": "high",
-   "ews": "Natural gas allocation/price for furnaces; festival-season bangle demand.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "Output IIP NIC 23 is shared with ceramics/cement."
-  },
-  {
-   "id": "nonferrous_brass",
-   "name": "Non-ferrous Metals, Brass & Fabricated Metal",
-   "group": "Manufacturing",
-   "cluster": "Moradabad, Jamnagar brass, Rajkot, Ludhiana fasteners",
-   "south_gujarat": false,
-   "rbi_row": "2.13.2",
-   "iip_nic": "25",
-   "export_row": null,
-   "commodities": [],
-   "energy": "medium",
-   "wc_intensity": "high",
-   "ews": "Copper/brass scrap price swings; job-work delays.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ]
-  },
-  {
-   "id": "electrical_eq",
-   "name": "Electrical Equipment, Pumps & Motors",
-   "group": "Manufacturing",
-   "cluster": "Coimbatore pumps, Vadodara, Pune, Nashik",
-   "south_gujarat": false,
-   "rbi_row": "2.14.2",
-   "iip_nic": "27",
-   "export_row": 21,
-   "commodities": [],
-   "energy": "low",
-   "wc_intensity": "medium",
-   "ews": "Discom/EPC payment delays; copper price.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "RBI row 2.14.2 'Other engineering' is shared with capital goods."
-  },
-  {
-   "id": "other_transport",
-   "name": "Cycles, Two-wheelers & Other Transport Equipment",
-   "group": "Manufacturing",
-   "cluster": "Ludhiana cycles, Hosur, Chennai",
-   "south_gujarat": false,
-   "rbi_row": "2.15",
-   "iip_nic": "30",
-   "export_row": null,
-   "commodities": [],
-   "energy": "low",
-   "wc_intensity": "medium",
-   "ews": "OEM schedule cuts; dealer inventory days.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "RBI row 2.15 is shared with autos."
-  },
-  {
-   "id": "furniture_misc",
-   "name": "Furniture, Toys, Fireworks & Misc. Manufacturing",
-   "group": "Manufacturing",
-   "cluster": "Sivakasi (TN), Channapatna, Jodhpur furniture",
-   "south_gujarat": false,
-   "rbi_row": "2.19",
-   "iip_nic": "31",
-   "export_row": null,
-   "commodities": [],
-   "energy": "low",
-   "wc_intensity": "high",
-   "ews": "Seasonal demand (Diwali for Sivakasi); safety/licensing bans.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "RBI row 2.19 'Other industries' is broad."
-  },
-  {
-   "id": "handicrafts",
-   "name": "Handicrafts & Carpets",
-   "group": "Manufacturing",
-   "cluster": "Bhadohi-Mirzapur carpets, Moradabad, Jaipur, Srinagar",
-   "south_gujarat": false,
-   "rbi_row": "2.19",
-   "iip_nic": "32",
-   "export_row": 28,
-   "commodities": [],
-   "energy": "low",
-   "wc_intensity": "high",
-   "ews": "Export order books; US tariff notices.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "Output IIP NIC 32 'Other manufacturing'; export row 28 handicrafts excl. carpet."
-  },
-  {
-   "id": "sugar",
-   "name": "Sugar & Ethanol",
-   "group": "Agri-processing",
-   "cluster": "Western UP, Kolhapur-Sangli (MH), North Karnataka",
-   "south_gujarat": false,
-   "rbi_row": "2.2.1",
-   "iip_nic": "10",
-   "export_row": null,
-   "commodities": [],
-   "energy": "low",
-   "wc_intensity": "very_high",
-   "ews": "Cane arrears, FRP vs realisation, ethanol offtake price.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "Output proxy IIP NIC 10 (all food)."
-  },
-  {
-   "id": "edible_oil",
-   "name": "Edible Oils & Vanaspati",
-   "group": "Agri-processing",
-   "cluster": "Rajkot/Saurashtra, Indore, Kakinada",
-   "south_gujarat": false,
-   "rbi_row": "2.2.2",
-   "iip_nic": "10",
-   "export_row": 8,
-   "commodities": [],
-   "energy": "low",
-   "wc_intensity": "very_high",
-   "ews": "Import duty changes; palm/soy price swings and stock valuation.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "Output proxy IIP NIC 10; export row oil meals."
-  },
-  {
-   "id": "tea",
-   "name": "Tea Plantations",
-   "group": "Agri-processing",
-   "cluster": "Assam, North Bengal (Dooars), Nilgiris",
-   "south_gujarat": false,
-   "rbi_row": "2.2.3",
-   "iip_nic": "10",
-   "export_row": 1,
-   "commodities": [],
-   "energy": "medium",
-   "wc_intensity": "high",
-   "ews": "Auction prices, wage revisions, labour unrest.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "Output proxy IIP NIC 10."
-  },
-  {
-   "id": "cashew",
-   "name": "Cashew Processing",
-   "group": "Agri-processing",
-   "cluster": "Kollam (Kerala), Mangaluru, Palasa (AP)",
-   "south_gujarat": false,
-   "rbi_row": "2.2.4",
-   "iip_nic": "10",
-   "export_row": 7,
-   "commodities": [],
-   "energy": "low",
-   "wc_intensity": "very_high",
-   "ews": "Raw nut import price; factory closures in Kollam.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "RBI row 2.2.4 'Other food processing'; output proxy NIC 10."
-  },
-  {
-   "id": "jute_coir",
-   "name": "Jute & Coir",
-   "group": "Manufacturing",
-   "cluster": "Kolkata-Hooghly jute mills, Alappuzha coir (Kerala)",
-   "south_gujarat": false,
-   "rbi_row": "2.4.2",
-   "iip_nic": "13",
-   "export_row": 26,
-   "commodities": [],
-   "energy": "medium",
-   "wc_intensity": "high",
-   "ews": "Govt B-twill bag orders; raw jute MSP.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "Coir has no separate official series; jute rows used."
-  },
-  {
-   "id": "mining",
-   "name": "Mining & Quarrying",
-   "group": "Infrastructure & Core",
-   "cluster": "Odisha (Keonjhar), Jharkhand, Chhattisgarh, Goa",
-   "south_gujarat": false,
-   "rbi_row": "2.1",
-   "iip_nic": null,
-   "export_row": 15,
-   "commodities": [],
-   "energy": "high",
-   "wc_intensity": "medium",
-   "ews": "Royalty/lease auctions; export duty on ore.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ]
-  },
-  {
-   "id": "construction",
-   "name": "Construction & EPC",
-   "group": "Infrastructure & Core",
-   "cluster": "Pan-India",
-   "south_gujarat": false,
-   "rbi_row": "2.17",
-   "iip_nic": "23",
-   "export_row": null,
-   "commodities": [],
-   "energy": "medium",
-   "wc_intensity": "very_high",
-   "ews": "Mobilisation advance stuck; Government payment cycle; retention money.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "Output proxy IIP NIC 23 (cement/non-metallic)."
-  },
-  {
-   "id": "power",
-   "name": "Power Generation & Distribution",
-   "group": "Infrastructure & Core",
-   "cluster": "Pan-India (renewables: Rajasthan, Gujarat, TN, Karnataka)",
-   "south_gujarat": false,
-   "rbi_row": "2.18.1",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": null,
-   "wc_intensity": "medium",
-   "ews": "Discom dues (PRAAPTI), curtailment, PPA renegotiation.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "activity": {
-    "dataset": "power_state",
-    "key": "India",
-    "field": "fytd_pct",
-    "label": "All-India electricity requirement Apr-to-date (CEA)"
-   },
-   "note": "Includes renewables; RBI does not split renewables."
-  },
-  {
-   "id": "renewables",
-   "name": "Renewables (solar/wind)",
-   "group": "Infrastructure & Core",
-   "cluster": "Rajasthan, Gujarat (Khavda), TN, Karnataka",
-   "south_gujarat": false,
-   "rbi_row": null,
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": null,
-   "wc_intensity": "medium",
-   "ews": "Curtailment, ALMM/module prices, transmission connectivity delays.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "No separate official credit or output series: collect from MNRE/CEA RE generation reports."
-  },
-  {
-   "id": "telecom",
-   "name": "Telecommunications",
-   "group": "Infrastructure & Core",
-   "cluster": "Pan-India",
-   "south_gujarat": false,
-   "rbi_row": "2.18.2",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": null,
-   "wc_intensity": "low",
-   "ews": "Tower/fibre vendor receivable delays; AGR dues.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ]
-  },
-  {
-   "id": "roads",
-   "name": "Roads & Highways",
-   "group": "Infrastructure & Core",
-   "cluster": "Pan-India (NHAI/State PWD)",
-   "south_gujarat": false,
-   "rbi_row": "2.18.3",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": null,
-   "wc_intensity": "medium",
-   "ews": "Toll traffic vs projections; HAM annuity delays.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ]
-  },
-  {
-   "id": "other_infra",
-   "name": "Ports, Airports, Railways & Other Infra",
-   "group": "Infrastructure & Core",
-   "cluster": "Mundra, JNPT, Chennai",
-   "south_gujarat": false,
-   "rbi_row": "2.18.7",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": null,
-   "wc_intensity": "low",
-   "ews": "Cargo throughput; concession disputes.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ]
-  },
-  {
-   "id": "agriculture",
-   "name": "Agriculture & Allied",
-   "group": "Agriculture & Allied",
-   "cluster": "Pan-India",
-   "south_gujarat": false,
-   "rbi_row": "1",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": null,
-   "wc_intensity": "medium",
-   "ews": "Monsoon/rabi sowing, mandi prices, KCC renewal behaviour.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "No monthly official agri output series mapped; use advance estimates when collected."
-  },
-  {
-   "id": "msme_micro_small",
-   "name": "MSME — Micro & Small (industry)",
-   "group": "MSME",
-   "cluster": "Pan-India",
-   "south_gujarat": false,
-   "rbi_row": "S1:2.1",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": null,
-   "wc_intensity": "high",
-   "ews": "Udyam registrations, TReDS discount spikes, GST filing gaps.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "activity": {
-    "dataset": "gst_state",
-    "key": "India",
-    "field": "fytd_pct",
-    "label": "All-India domestic GST collections Apr-to-date (proxy)"
-   },
-   "note": "Activity proxy: all-India GST collections."
-  },
-  {
-   "id": "msme_medium",
-   "name": "MSME — Medium (industry)",
-   "group": "MSME",
-   "cluster": "Pan-India",
-   "south_gujarat": false,
-   "rbi_row": "S1:2.2",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": null,
-   "wc_intensity": "high",
-   "ews": "Group-entity transfers, delayed financials.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "activity": {
-    "dataset": "gst_state",
-    "key": "India",
-    "field": "fytd_pct",
-    "label": "All-India domestic GST collections Apr-to-date (proxy)"
-   },
-   "note": "Activity proxy: all-India GST collections."
-  },
-  {
-   "id": "wholesale_trade",
-   "name": "Wholesale Trade",
-   "group": "Services",
-   "cluster": "Pan-India mandis and trade hubs",
-   "south_gujarat": false,
-   "rbi_row": "3.7.1",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": null,
-   "wc_intensity": "very_high",
-   "ews": "Stock statements vs GST outward supplies, cheque returns.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "activity": {
-    "dataset": "gst_state",
-    "key": "India",
-    "field": "fytd_pct",
-    "label": "All-India domestic GST collections Apr-to-date (proxy)"
-   },
-   "note": "Activity proxy: all-India GST collections."
-  },
-  {
-   "id": "retail_trade",
-   "name": "Retail Trade",
-   "group": "Services",
-   "cluster": "Pan-India",
-   "south_gujarat": false,
-   "rbi_row": "3.7.2",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": null,
-   "wc_intensity": "high",
-   "ews": "Footfall, rent defaults, e-commerce disruption.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "activity": {
-    "dataset": "gst_state",
-    "key": "India",
-    "field": "fytd_pct",
-    "label": "All-India domestic GST collections Apr-to-date (proxy)"
-   },
-   "note": "Activity proxy: all-India GST collections."
-  },
-  {
-   "id": "transport_ops",
-   "name": "Transport Operators (road fleets, logistics)",
-   "group": "Services",
-   "cluster": "Pan-India (Namakkal, Sanjay Gandhi Nagar Delhi)",
-   "south_gujarat": false,
-   "rbi_row": "3.1",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": "high",
-   "wc_intensity": "medium",
-   "ews": "Diesel price, freight rates, e-way bill volumes.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ]
-  },
-  {
-   "id": "tourism_hotels",
-   "name": "Tourism, Hotels & Restaurants",
-   "group": "Services",
-   "cluster": "Goa, Rajasthan, Kerala, metro cities",
-   "south_gujarat": false,
-   "rbi_row": "3.3",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": null,
-   "wc_intensity": "medium",
-   "ews": "Occupancy/ARR (not officially published monthly), foreign tourist arrivals.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ]
-  },
-  {
-   "id": "aviation",
-   "name": "Aviation",
-   "group": "Services",
-   "cluster": "Pan-India",
-   "south_gujarat": false,
-   "rbi_row": "3.5",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": "very_high",
-   "wc_intensity": "medium",
-   "ews": "ATF price, fleet grounding.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ]
-  },
-  {
-   "id": "software_it",
-   "name": "Computer Software & IT",
-   "group": "Services",
-   "cluster": "Bengaluru, Hyderabad, Pune, Chennai, NCR",
-   "south_gujarat": false,
-   "rbi_row": "3.2",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": null,
-   "wc_intensity": "low",
-   "ews": "US/EU client spending, visa rules.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ]
-  },
-  {
-   "id": "professional_services",
-   "name": "Professional Services",
-   "group": "Services",
-   "cluster": "Pan-India",
-   "south_gujarat": false,
-   "rbi_row": "3.6",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": null,
-   "wc_intensity": "low",
-   "ews": "",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "activity": {
-    "dataset": "gst_state",
-    "key": "India",
-    "field": "fytd_pct",
-    "label": "All-India domestic GST collections Apr-to-date (proxy)"
-   },
-   "note": "Activity proxy: all-India GST collections."
-  },
-  {
-   "id": "nbfc",
-   "name": "NBFCs (bank exposure)",
-   "group": "Services",
-   "cluster": "Mumbai, Chennai, Kochi, Delhi",
-   "south_gujarat": false,
-   "rbi_row": "3.9",
-   "iip_nic": null,
-   "export_row": null,
-   "commodities": [],
-   "energy": null,
-   "wc_intensity": "medium",
-   "ews": "NBFC GNPA (RBI FSR), CP spreads, ALM gaps.",
-   "guidance": [
-    "Validate GST returns and bank statement summations against projected turnover.",
-    "Use internal MIS for GNPA/SMA history of the segment before sanction."
-   ],
-   "note": "Asset quality is published half-yearly in the RBI FSR — collect."
-  }
- ],
- "states": [
-  {
-   "code": "JK",
-   "name": "Jammu and Kashmir",
-   "region": "North",
-   "aliases": [
-    "Jammu & Kashmir",
-    "UT of J&K and Ladakh"
-   ]
-  },
-  {
-   "code": "HP",
-   "name": "Himachal Pradesh",
-   "region": "North",
-   "aliases": []
-  },
-  {
-   "code": "PB",
-   "name": "Punjab",
-   "region": "North",
-   "aliases": []
-  },
-  {
-   "code": "CH",
-   "name": "Chandigarh",
-   "region": "North",
-   "aliases": []
-  },
-  {
-   "code": "UK",
-   "name": "Uttarakhand",
-   "region": "Central",
-   "aliases": []
-  },
-  {
-   "code": "HR",
-   "name": "Haryana",
-   "region": "North",
-   "aliases": []
-  },
-  {
-   "code": "DL",
-   "name": "Delhi",
-   "region": "North",
-   "aliases": []
-  },
-  {
-   "code": "RJ",
-   "name": "Rajasthan",
-   "region": "North",
-   "aliases": []
-  },
-  {
-   "code": "UP",
-   "name": "Uttar Pradesh",
-   "region": "Central",
-   "aliases": []
-  },
-  {
-   "code": "BR",
-   "name": "Bihar",
-   "region": "East",
-   "aliases": []
-  },
-  {
-   "code": "SK",
-   "name": "Sikkim",
-   "region": "North-East",
-   "aliases": []
-  },
-  {
-   "code": "AR",
-   "name": "Arunachal Pradesh",
-   "region": "North-East",
-   "aliases": []
-  },
-  {
-   "code": "NL",
-   "name": "Nagaland",
-   "region": "North-East",
-   "aliases": []
-  },
-  {
-   "code": "MN",
-   "name": "Manipur",
-   "region": "North-East",
-   "aliases": []
-  },
-  {
-   "code": "MZ",
-   "name": "Mizoram",
-   "region": "North-East",
-   "aliases": []
-  },
-  {
-   "code": "TR",
-   "name": "Tripura",
-   "region": "North-East",
-   "aliases": []
-  },
-  {
-   "code": "ML",
-   "name": "Meghalaya",
-   "region": "North-East",
-   "aliases": []
-  },
-  {
-   "code": "AS",
-   "name": "Assam",
-   "region": "North-East",
-   "aliases": []
-  },
-  {
-   "code": "WB",
-   "name": "West Bengal",
-   "region": "East",
-   "aliases": []
-  },
-  {
-   "code": "JH",
-   "name": "Jharkhand",
-   "region": "East",
-   "aliases": []
-  },
-  {
-   "code": "OD",
-   "name": "Odisha",
-   "region": "East",
-   "aliases": [
-    "Orissa"
-   ]
-  },
-  {
-   "code": "CG",
-   "name": "Chhattisgarh",
-   "region": "Central",
-   "aliases": [
-    "Chattisgarh"
-   ]
-  },
-  {
-   "code": "MP",
-   "name": "Madhya Pradesh",
-   "region": "Central",
-   "aliases": []
-  },
-  {
-   "code": "GJ",
-   "name": "Gujarat",
-   "region": "West",
-   "aliases": []
-  },
-  {
-   "code": "DN",
-   "name": "Dadra and Nagar Haveli and Daman & Diu",
-   "region": "West",
-   "aliases": [
-    "Dadra & Nagar Haveli*",
-    "Dadra & Nagar Haveli and Daman & Diu",
-    "Dadra and Nagar Haveli"
-   ]
-  },
-  {
-   "code": "MH",
-   "name": "Maharashtra",
-   "region": "West",
-   "aliases": [
-    "Maharastra"
-   ]
-  },
-  {
-   "code": "KA",
-   "name": "Karnataka",
-   "region": "South",
-   "aliases": []
-  },
-  {
-   "code": "GA",
-   "name": "Goa",
-   "region": "West",
-   "aliases": []
-  },
-  {
-   "code": "KL",
-   "name": "Kerala",
-   "region": "South",
-   "aliases": []
-  },
-  {
-   "code": "TN",
-   "name": "Tamil Nadu",
-   "region": "South",
-   "aliases": []
-  },
-  {
-   "code": "PY",
-   "name": "Puducherry",
-   "region": "South",
-   "aliases": []
-  },
-  {
-   "code": "TS",
-   "name": "Telangana",
-   "region": "South",
-   "aliases": []
-  },
-  {
-   "code": "AP",
-   "name": "Andhra Pradesh",
-   "region": "South",
-   "aliases": []
-  },
-  {
-   "code": "LA",
-   "name": "Ladakh",
-   "region": "North",
-   "aliases": []
-  },
-  {
-   "code": "AN",
-   "name": "Andaman and Nicobar Islands",
-   "region": "East",
-   "aliases": [
-    "Andaman & Nicobar Islands"
-   ]
-  }
- ],
- "clusters": [
-  {
-   "id": "surat_textiles",
-   "name": "Surat MMF weaving & processing",
-   "state": "GJ",
-   "sectors": [
-    "mmf_textiles",
-    "cotton_textiles"
-   ],
-   "signals": "Production holidays by weavers' associations; grey-fabric trader payment delays; processing-house shutdowns."
-  },
-  {
-   "id": "surat_diamonds",
-   "name": "Surat diamond cutting & polishing",
-   "state": "GJ",
-   "sectors": [
-    "diamonds"
-   ],
-   "signals": "Rough import vs polished export gap; unit closures/working-day cuts in Varachha/Katargam; polished price index (not public)."
-  },
-  {
-   "id": "morbi_ceramics",
-   "name": "Morbi ceramic tiles",
-   "state": "GJ",
-   "sectors": [
-    "ceramics"
-   ],
-   "signals": "Gas price for kilns; plant shutdown announcements by Morbi Ceramic Association; export container bookings."
-  },
-  {
-   "id": "vapi_ankleshwar_chem",
-   "name": "Vapi / Ankleshwar / Dahej / Sachin chemicals & dyes",
-   "state": "GJ",
-   "sectors": [
-    "chemicals_dyes",
-    "petrochem",
-    "pharma"
-   ],
-   "signals": "GPCB closure notices; China price dumping on intermediates; CETP capacity."
-  },
-  {
-   "id": "rajkot_engineering",
-   "name": "Rajkot engineering & auto components",
-   "state": "GJ",
-   "sectors": [
-    "engineering",
-    "auto",
-    "nonferrous_brass"
-   ],
-   "signals": "Foundry/forging order books; job-work payment cycles."
-  },
-  {
-   "id": "jamnagar",
-   "name": "Jamnagar brass parts & refining",
-   "state": "GJ",
-   "sectors": [
-    "nonferrous_brass",
-    "refining"
-   ],
-   "signals": "Brass scrap prices; refinery shutdown schedules."
-  },
-  {
-   "id": "tiruppur",
-   "name": "Tiruppur knitwear",
-   "state": "TN",
-   "sectors": [
-    "apparel",
-    "cotton_textiles"
-   ],
-   "signals": "Export order flow from EU/US buyers; yarn price; dyeing-unit closures."
-  },
-  {
-   "id": "coimbatore",
-   "name": "Coimbatore pumps, motors & textiles machinery",
-   "state": "TN",
-   "sectors": [
-    "electrical_eq",
-    "engineering"
-   ],
-   "signals": "Agri pump demand (monsoon), copper price; foundry closures."
-  },
-  {
-   "id": "chennai_auto",
-   "name": "Chennai / Hosur auto & components",
-   "state": "TN",
-   "sectors": [
-    "auto",
-    "other_transport"
-   ],
-   "signals": "OEM production schedules; EV transition orders."
-  },
-  {
-   "id": "sivakasi",
-   "name": "Sivakasi fireworks, matches & printing",
-   "state": "TN",
-   "sectors": [
-    "furniture_misc",
-    "paper"
-   ],
-   "signals": "Firecracker bans/green-cracker rules; Diwali demand; explosion-safety closures."
-  },
-  {
-   "id": "ludhiana",
-   "name": "Ludhiana cycles, hosiery & fasteners",
-   "state": "PB",
-   "sectors": [
-    "other_transport",
-    "apparel",
-    "nonferrous_brass"
-   ],
-   "signals": "Cycle export orders; woollen hosiery season; steel price."
-  },
-  {
-   "id": "panipat",
-   "name": "Panipat home textiles & recycled yarn",
-   "state": "HR",
-   "sectors": [
-    "cotton_textiles",
-    "apparel"
-   ],
-   "signals": "Export orders for home furnishings; NCR pollution-related shutdowns."
-  },
-  {
-   "id": "manesar_gurugram",
-   "name": "Manesar / Gurugram auto hub",
-   "state": "HR",
-   "sectors": [
-    "auto",
-    "other_transport"
-   ],
-   "signals": "OEM schedules; labour issues."
-  },
-  {
-   "id": "moradabad",
-   "name": "Moradabad brass & handicrafts",
-   "state": "UP",
-   "sectors": [
-    "nonferrous_brass",
-    "handicrafts"
-   ],
-   "signals": "Export orders (US/EU), metal prices."
-  },
-  {
-   "id": "kanpur_agra_leather",
-   "name": "Kanpur / Agra leather & footwear",
-   "state": "UP",
-   "sectors": [
-    "leather"
-   ],
-   "signals": "Tannery closure orders (Ganga pollution); footwear export orders."
-  },
-  {
-   "id": "firozabad",
-   "name": "Firozabad glass & bangles",
-   "state": "UP",
-   "sectors": [
-    "glass"
-   ],
-   "signals": "Gas supply/price (Taj Trapezium rules); festival bangle demand."
-  },
-  {
-   "id": "bhadohi",
-   "name": "Bhadohi-Mirzapur carpets",
-   "state": "UP",
-   "sectors": [
-    "handicrafts"
-   ],
-   "signals": "US tariff notices; export order books."
-  },
-  {
-   "id": "west_up_sugar",
-   "name": "Western UP sugar belt",
-   "state": "UP",
-   "sectors": [
-    "sugar"
-   ],
-   "signals": "Cane price arrears; ethanol procurement price."
-  },
-  {
-   "id": "noida_electronics",
-   "name": "Noida mobile & electronics",
-   "state": "UP",
-   "sectors": [
-    "electronics"
-   ],
-   "signals": "PLI disbursements; component import duty changes."
-  },
-  {
-   "id": "pune_auto",
-   "name": "Pune / Chakan auto & engineering",
-   "state": "MH",
-   "sectors": [
-    "auto",
-    "engineering",
-    "electrical_eq"
-   ],
-   "signals": "OEM production; vendor payment cycles."
-  },
-  {
-   "id": "bhiwandi",
-   "name": "Bhiwandi powerloom",
-   "state": "MH",
-   "sectors": [
-    "mmf_textiles",
-    "cotton_textiles"
-   ],
-   "signals": "Loom closures, power tariff for looms; yarn credit from traders."
-  },
-  {
-   "id": "mumbai_fin",
-   "name": "Mumbai-Thane NBFC, CRE & trade",
-   "state": "MH",
-   "sectors": [
-    "nbfc",
-    "commercial_real_estate",
-    "wholesale_trade"
-   ],
-   "signals": "Unsold inventory (MahaRERA), NBFC CP spreads."
-  },
-  {
-   "id": "kolhapur_sugar",
-   "name": "Kolhapur-Sangli sugar co-operatives",
-   "state": "MH",
-   "sectors": [
-    "sugar"
-   ],
-   "signals": "FRP payment delays; co-operative bank stress."
-  },
-  {
-   "id": "jamshedpur",
-   "name": "Jamshedpur steel & auto ancillaries",
-   "state": "JH",
-   "sectors": [
-    "metals",
-    "auto",
-    "mining"
-   ],
-   "signals": "Steel price, OEM truck demand."
-  },
-  {
-   "id": "odisha_metals",
-   "name": "Odisha steel, aluminium & mining belt",
-   "state": "OD",
-   "sectors": [
-    "metals",
-    "mining"
-   ],
-   "signals": "Iron ore prices/royalty; export duty on steel."
-  },
-  {
-   "id": "hyderabad_pharma",
-   "name": "Hyderabad pharma & bulk drugs",
-   "state": "TS",
-   "sectors": [
-    "pharma",
-    "chemicals_dyes"
-   ],
-   "signals": "USFDA warning letters; API price competition from China."
-  },
-  {
-   "id": "baddi_pharma",
-   "name": "Baddi-Barotiwala-Nalagarh pharma",
-   "state": "HP",
-   "sectors": [
-    "pharma"
-   ],
-   "signals": "Tax-holiday expiry effects; CDSCO quality alerts."
-  },
-  {
-   "id": "jaipur_gems",
-   "name": "Jaipur gems & jewellery",
-   "state": "RJ",
-   "sectors": [
-    "diamonds",
-    "handicrafts"
-   ],
-   "signals": "Coloured-stone export orders; gold price."
-  },
-  {
-   "id": "bengaluru_tech",
-   "name": "Bengaluru electronics & IT",
-   "state": "KA",
-   "sectors": [
-    "electronics",
-    "software_it"
-   ],
-   "signals": "Hiring freezes, client budgets; EMS order books."
-  },
-  {
-   "id": "kerala_cashew",
-   "name": "Kollam cashew",
-   "state": "KL",
-   "sectors": [
-    "cashew"
-   ],
-   "signals": "Raw nut import prices; factory closures."
-  },
-  {
-   "id": "kerala_coir",
-   "name": "Alappuzha coir",
-   "state": "KL",
-   "sectors": [
-    "jute_coir"
-   ],
-   "signals": "Export orders for coir mats; co-operative society dues."
-  },
-  {
-   "id": "assam_tea",
-   "name": "Assam tea gardens",
-   "state": "AS",
-   "sectors": [
-    "tea"
-   ],
-   "signals": "Auction prices, wage revision, garden closures."
-  },
-  {
-   "id": "kolkata_jute",
-   "name": "Kolkata-Hooghly jute mills",
-   "state": "WB",
-   "sectors": [
-    "jute_coir"
-   ],
-   "signals": "Govt sacking orders; mill lockouts."
-  },
-  {
-   "id": "rajasthan_re",
-   "name": "Rajasthan / Gujarat (Khavda) renewables",
-   "state": "RJ",
-   "sectors": [
-    "renewables",
-    "power"
-   ],
-   "signals": "Curtailment; transmission delays."
-  },
-  {
-   "id": "namakkal_transport",
-   "name": "Namakkal truck operators",
-   "state": "TN",
-   "sectors": [
-    "transport_ops"
-   ],
-   "signals": "Diesel price; freight rates."
-  }
- ],
- "highlight_rules": [
-  {
-   "id": "stress_cluster",
-   "kind": "stress",
-   "text": "Cluster whose main sector is Avoid AND its state's GST collections (Apr-to-date) are growing slower than all-India.",
-   "rule": "any sector verdict == Avoid and state.gst_fytd_pct < india.gst_fytd_pct"
-  },
-  {
-   "id": "stress_state",
-   "kind": "stress",
-   "text": "State with GST collections falling (Apr-to-date < 0%) AND electricity demand growth below 3%.",
-   "rule": "state.gst_fytd_pct < 0 and state.power_fytd_pct < 3"
-  },
-  {
-   "id": "opp_cluster",
-   "kind": "opportunity",
-   "text": "Cluster whose sectors are all Lend AND its state's GST and electricity demand (Apr-to-date) both grow faster than all-India.",
-   "rule": "all sector verdicts == Lend and state.gst_fytd_pct > india and state.power_fytd_pct > india"
-  },
-  {
-   "id": "opp_state",
-   "kind": "opportunity",
-   "text": "State with GST Apr-to-date growth ≥ 10% AND electricity demand growth ≥ 8%.",
-   "rule": "state.gst_fytd_pct >= 10 and state.power_fytd_pct >= 8"
-  },
-  {
-   "id": "credit_heat",
-   "kind": "stress",
-   "text": "Cluster sector where bank credit is growing >20 pp faster than output (possible evergreening/over-leverage).",
-   "rule": "sector.credit_vs_output > 20"
-  }
- ],
- "highlight_thresholds": {
-  "state_gst_neg": 0,
-  "state_power_low": 3,
-  "opp_gst": 10,
-  "opp_power": 8,
-  "credit_heat_pp": 20,
-  "_last_calibrated": "2026-11-01"
- },
- "fsr_reports": [
-  {
-   "edition": "FSR June 2025",
-   "url": "https://rbidocs.rbi.org.in/rdocs//PublicationReport/Pdfs/0FSRJUNE20253006258AE798B4484642AD861CC35BC2CB3D8E.PDF"
-  },
-  {
-   "edition": "FSR December 2025",
-   "url": "https://rbidocs.rbi.org.in/rdocs//PublicationReport/Pdfs/0FSRDEC25D1EB9AAEE5724BD5A3E068490996BAD5.PDF"
-  },
-  {
-   "edition": "FSR June 2026",
-   "url": "https://rbidocs.rbi.org.in/rdocs//PublicationReport/Pdfs/0FSRJUNE2026_300626A120EF6C37694C8C933181147F1379D7.PDF"
-  }
- ],
- "fsr_sector_map": {
-  "mmf_textiles": "textiles",
-  "cotton_textiles": "textiles",
-  "apparel": "textiles",
-  "pharma": "chemicals",
-  "plastics": "rubber_plastics",
-  "cement": "cement",
-  "nonferrous_brass": "basic_metals",
-  "engineering": "engineering",
-  "auto_components": "vehicles",
-  "other_transport": "vehicles",
-  "diamonds": "gems_jewellery",
-  "food_processing": "food",
-  "sugar": "food",
-  "edible_oil": "food",
-  "paper": "paper",
-  "refining": "refining",
-  "mining": "mining",
-  "construction": "construction",
-  "power": "power",
-  "renewables": "power",
-  "roads": "infra_ex_power",
-  "telecom": "infra_ex_power",
-  "other_infra": "infra_ex_power",
-  "chemicals_dyes": "chemicals",
-  "petrochem": "chemicals",
-  "metals": "basic_metals"
- },
- "geo": {
-  "_doc": "Geography verdict = national sector score blended with local (state) stress signals; ground-check ratings can only pull a call toward Caution.",
-  "weight_national": 0.6,
-  "weight_local": 0.4,
-  "local_gap_pp": 2.0,
-  "ok_at_or_above": 65,
-  "avoid_below": 45,
-  "min_local_signals": 2,
-  "ratings_min_n": 5,
-  "ratings_disagree_above": 6
- }
 }

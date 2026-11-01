@@ -104,3 +104,52 @@ def validate(out, pack, articles_text, lens_text, require_pack=3):
         if not (out.get(k) or "").strip():
             probs.append(f"missing {k}")
     return probs
+
+
+def band_problems(text, ok, avoid):
+    """'What would change the call' must name a correct threshold and never pair a band with the wrong number."""
+    t = (text or "").lower()
+    probs = []
+    ns = nums(t)
+    if str(ok) not in ns and str(avoid) not in ns:
+        probs.append(f"change_the_call must name the threshold: OK to lend at {ok}+, Caution {avoid}-{ok - 1}, Avoid below {avoid}")
+    for m in re.finditer(r"avoid", t):
+        w = t[max(0, m.start() - 50): m.end() + 50]
+        wn = nums(w)
+        if str(ok) in wn and str(avoid) not in wn and not re.search(r"caution|ok to lend|\bok\b", w):
+            probs.append(f"wrong band: Avoid starts below {avoid}, not {ok}")
+            break
+    for m in re.finditer(r"ok to lend|\bok\b", t):
+        w = t[max(0, m.start() - 50): m.end() + 50]
+        wn = nums(w)
+        if str(avoid) in wn and str(ok) not in wn and not re.search(r"avoid|caution", w):
+            probs.append(f"wrong band: OK to lend needs {ok}+, not {avoid}")
+            break
+    return probs
+
+
+def validate_v3(out, pack, articles_text, lens_text, bands, need_pack=2):
+    probs = []
+    fl = out.get("local_flavour") or ""
+    flat = " ".join([fl, *out.get("borrower_checks", []), out.get("change_the_call", ""), out.get("why") or ""])
+    low = flat.lower()
+    for b in BANNED:
+        if b in low:
+            probs.append(f"banned generic phrase: '{b}'")
+    pack_n = nums(" ".join(pack))
+    allowed = pack_n | nums(articles_text) | nums(lens_text) | {str(i) for i in range(0, 13)} | {str(bands["ok"] - 1)}
+    bad = sorted(n for n in nums(flat) if n not in allowed)
+    if bad:
+        probs.append("numbers not found in the data pack or articles: " + ", ".join(bad[:10]))
+    cited = {n for n in nums(fl) if n in pack_n and n not in {"0", "1", "2", "3"}}
+    if len(cited) < need_pack:
+        probs.append(f"local_flavour cites {len(cited)} data-pack figures; at least {need_pack} required")
+    if not 40 <= len(fl.split()) <= 200:
+        probs.append("local_flavour must be one paragraph of 80-140 words")
+    if len(out.get("borrower_checks") or []) != 3:
+        probs.append("borrower_checks must have exactly 3 items")
+    if not (out.get("change_the_call") or "").strip():
+        probs.append("missing change_the_call")
+    else:
+        probs += band_problems(out["change_the_call"], bands["ok"], bands["avoid"])
+    return probs

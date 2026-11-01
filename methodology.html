@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Methodology — Macro Credit Radar</title><link rel="stylesheet" href="assets/site.css"></head><body><main>
 <div class="disc"><b>This is a decision aid, not a substitute for credit judgment.</b> It flags sector × place combinations to look at harder. It does not approve or reject any borrower, and it is not loan advice to anyone outside the bank.</div>
-<div class="card"><h2>What it answers</h2><p>"Should I be careful lending to a <i>sector</i> in a <i>place</i>?" You pick a state or industrial cluster and a sector, and you get one of three answers: <span class="pill ok">OK to lend</span> <span class="pill caution">Caution</span> <span class="pill avoid">Avoid</span>, then the top three reasons and the evidence behind them.</p></div>
+<div class="card"><h2>What it answers</h2><p>"Should I be careful lending to a <i>sector</i> in a <i>place</i>?" You pick a state, a city and an industry, and you get one of three answers: <span class="pill ok">OK to lend</span> <span class="pill caution">Caution</span> <span class="pill avoid">Avoid</span>, with 3–4 reasons that each cite a verified figure, a local paragraph, borrower checks and what would change the call.</p><p><b>Industries.</b> About 180 industries are listed. 64 are scored on their own RBI credit, IIP and export series where those exist (<i>direct</i>). The rest have no separate official series and use the nearest parent sector, labelled <i>proxy: parent sector</i>.</p><p><b>Local briefs.</b> Each week, GitHub Actions writes a local paragraph for every city where that city is a known hub for the industry, plus one state-level brief per state. For any other pick the page shows the state brief and says so. The AI key never reaches the browser. Every number in a brief must exist in the verified data pack or a cited article; banned generic phrases and wrong score bands are rejected and retried at most twice.</p></div>
 <div class="card"><h2>Where the numbers come from (official only)</h2><ul>
 <li><b>Bank credit by sector</b> — RBI, Sectoral Deployment of Bank Credit (monthly xlsx).</li>
 <li><b>Factory output by industry</b> — Index of Industrial Production, MoSPI (via PIB release).</li>
@@ -14,7 +14,7 @@
 <p>Commodity prices (Yahoo) and anything from news or AI are <b>display only</b> and never change a call.</p></div>
 <div class="card"><h2>How the call is made</h2><ol>
 <li><b>National sector score (0–100).</b> Each verified driver gets +1 (good), 0 (neutral) or −1 (weak) against fixed thresholds: output growth above 5% is good, below 0% weak; exports growth above 10% good, below 0% weak; credit growing more than 20 points faster than output is weak (possible over-lending). Score = 50 + 50 × weighted average. At least two verified drivers are needed, otherwise "Unknown — collect".</li>
-<li><b>Local score (0–100).</b> For the state (a cluster uses its state): GST and electricity demand growth compared with all-India. More than 2 points faster = +1, more than 2 points slower or shrinking = −1. Both signals must be verified, otherwise the page says <i>"Not enough local data. National view: …"</i>.</li>
+<li><b>Local score (0–100).</b> For the state (a city uses its state): GST and electricity demand growth compared with all-India. More than 2 points faster = +1, more than 2 points slower or shrinking = −1. Both signals must be verified, otherwise the page says <i>"Not enough local data. National view: …"</i>.</li>
 <li><b>Combined score</b> = national × 0.6 + local × 0.4. <b>OK to lend</b> at 65 or more, <b>Avoid</b> below 45, otherwise <b>Caution</b>.</li>
 <li><b>Ground check by bankers</b> (1 = our stance is correct, 10 = incorrect). If at least 5 ratings average above 6, an OK to lend becomes Caution.</li>
 <li><b>Local credit view</b> (AI reading of local news, weekly). If it says local conditions are worse than the macro view, an OK to lend becomes Caution. It never creates or removes an Avoid and never upgrades a call.</li></ol>
@@ -24,7 +24,7 @@
 <li>If a check fails, the run fails, the last good values are kept, and the Data audit page shows the failure.</li>
 <li>Data older than its normal release cycle is marked stale and stops counting.</li></ul></div>
 <div class="card"><h2>Limitations</h2><ul>
-<li>Sector data is national. The local view comes from state-wide GST and electricity data, not from the cluster itself.</li>
+<li>Sector data is national. The local view comes from state-wide GST and electricity data, not from the city itself.</li>
 <li>GST collections are affected by tax-rate changes and settlement timing, so they are compared with all-India rather than read on their own.</li>
 <li>Services, NBFC, agriculture and some infrastructure sectors lack an official monthly output series, so many of them show "Unknown — collect".</li>
 <li>Quarterly state credit (RBI BSR on DBIE), state exports (DGCI&S) and PLFS employment are not yet machine-readable here.</li>

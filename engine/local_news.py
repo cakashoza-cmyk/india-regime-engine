@@ -14,20 +14,20 @@ LOCAL_TERMS = {  # regional-language search terms (payment delay / units closed 
     "GJ": "ઉદ્યોગ મંદી પેમેન્ટ", "TN": "தொழில் நெருக்கடி ஆர்டர்", "UP": "उद्योग मंदी भुगतान", "HR": "उद्योग मंदी भुगतान",
     "RJ": "उद्योग मंदी भुगतान", "MP": "उद्योग मंदी भुगतान", "BR": "उद्योग मंदी भुगतान", "HP": "उद्योग मंदी भुगतान",
     "DL": "उद्योग मंदी भुगतान", "MH": "उद्योग मंदी पेमेंट"}
-PROMPT_VERSION = 2
-SYSTEM = ("You are a senior credit officer in the given place, briefing a credit committee on one sector. You get (1) a DATA PACK of "
-          "verified official figures, (2) a CREDIT LENS describing what usually drives repayment and stress in this sector (framing, not data), "
-          "and (3) local news extracts. Write a specific, evidence-based brief. Rules: use ONLY numbers that appear in the data pack or the "
+PROMPT_VERSION = 3
+SYSTEM = ("You are a senior credit officer in the given city, writing the local section of a one-card lending brief on one industry. "
+          "You get (1) a DATA PACK of verified official figures, including the data-based call and its score bands, (2) a CREDIT LENS for the "
+          "industry (analytical framing, not data), and (3) local news extracts. Rules: use ONLY numbers that appear in the data pack or the "
           "articles, copied exactly; never estimate or compute new figures; attribute news points to the news. No generic filler: never write "
           "'monitor closely', 'macro headwinds', 'exercise caution', 'going forward', 'challenging environment' or similar. If the articles are "
-          "few, old or off-topic, local_news must start with 'Limited local coverage.' "
-          'Return JSON: {"verdict_rationale":"2-3 sentences explaining the data-based call, citing at least 3 specific figures from the data pack with their dates",'
-          '"sector_risks":["2-3 items; each names a risk from the credit lens and ties it to a pack figure or a news point"],'
-          '"local_news":"1-3 sentences on what local news adds beyond the data, or Limited local coverage.",'
-          '"borrower_checks":["exactly 3 concrete diligence items for this borrower, each with a metric and a benchmark, e.g. debtor days vs 90"],'
-          '"change_the_call":"1-2 sentences: which specific data moves would change the call, using the score bands in the pack exactly (OK / Caution / Avoid)",'
+          "few, old or off-topic, local_flavour must start with 'Limited local coverage.' "
+          'Return JSON: {"local_flavour":"one paragraph of 80-140 words: what is happening locally in this industry and what it means for '
+          'borrowers\' cash flow and repayment, blending the news with at least 2 figures from the data pack; no headline list",'
+          '"borrower_checks":["exactly 3 concrete diligence items for a borrower here, each with a metric and a benchmark, e.g. debtor days vs 90"],'
+          '"change_the_call":"1-2 sentences: which score move would change the call. Use the bands exactly: OK to lend at or above the OK '
+          'threshold, Caution between the Avoid threshold and the OK threshold, Avoid below the Avoid threshold. Name the threshold number.",'
           '"outlook_vs_macro":"Worse|In line|Better","why":"<=20 words","sources_used":[article indexes]}.')
-MAX_CALLS = int(os.environ.get("LOCAL_NEWS_MAX_CALLS", "1000"))
+MAX_CALLS = int(os.environ.get("LOCAL_NEWS_MAX_CALLS", "3000"))
 RESCAN_DAYS = 7
 WINDOW_DAYS = 60
 
@@ -68,16 +68,19 @@ def _date(r):
 
 
 def pairs(cfg):
-    secs = {s["id"]: s for s in cfg["sectors"]}
+    """City x hub-industry pairs (engine/cities.json) plus one state-level fallback per state."""
+    inds = {i["id"]: i for i in json.loads((ROOT / "engine" / "industries.json").read_text())["industries"]}
+    cities = json.loads((ROOT / "engine" / "cities.json").read_text())["cities"]
     states = {s["code"]: s for s in cfg["states"]}
-    for cl in cfg["clusters"]:
-        place = cl["name"]
-        for sid in cl["sectors"]:
-            if sid in secs:
-                yield {"key": f"{cl['id']}|{sid}", "geo_type": "cluster", "geo_id": cl["id"], "state": cl["state"], "sector": sid,
-                       "q": f"{place} {secs[sid]['name'].split(' - ')[0].split('(')[0]}"}
-    for code, st in states.items():  # state-level fallback: one general industry scan per state
-        yield {"key": f"{code}|*", "geo_type": "state", "geo_id": code, "state": code, "sector": "*", "q": f"{st['name']} industry MSME"}
+    for c in cities:
+        for iid in c["hubs"]:
+            ind = inds[iid]
+            short = ind["name"].split(" (")[0].split(" - ")[-1].split(" & ")[0]
+            yield {"key": f"{c['id']}|{iid}", "geo_type": "city", "geo_id": c["id"], "city": c["name"], "state": c["state"], "industry": iid,
+                   "sector": ind["parent"], "mapping": ind["mapping"], "focus": ind.get("focus"), "q": f"{c['name']} {short}", "iname": ind["name"]}
+    for code, st in states.items():
+        yield {"key": f"{code}|*", "geo_type": "state", "geo_id": code, "city": None, "state": code, "industry": "*", "sector": "*",
+               "mapping": None, "focus": None, "q": f"{st['name']} industry MSME", "iname": "industry overall"}
 
 
 def numbers_ok(text, src):
@@ -112,32 +115,32 @@ def fetch_articles(arts, sa, budget):
     return docs
 
 
-def brief(p, docs, pack, lens, sa, budget):
+def brief(p, docs, pack, lens, sa, budget, bands):
     from engine import brief_pack as bp
     lens_text = json.dumps(lens or {}, ensure_ascii=False)
     arts = "\n\n".join(f"[{i}] {d['title']} ({d['date']}) {d['url']}\n{d['content']}" for i, d in enumerate(docs)) or "(no local articles found in the last 60 days)"
-    user = (f"PLACE/SECTOR: {p['label']}\n\nDATA PACK (verified official figures):\n" + "\n".join(f"- {x}" for x in pack) +
+    user = (f"PLACE / INDUSTRY: {p['label']}\n\nDATA PACK (verified official figures):\n" + "\n".join(f"- {x}" for x in pack) +
             f"\n\nCREDIT LENS (analytical framing, not data):\n{lens_text}\n\nLOCAL NEWS EXTRACTS:\n{arts}")
     corpus = " ".join(d["content"] + " " + d["title"] for d in docs)
+    need = 2 if len(bp.nums(" ".join(pack))) >= 6 else 0
     probs, out = [], None
     for attempt in range(3):  # first try + up to 2 corrective retries
-        msg = user if not probs else user + "\n\nYOUR PREVIOUS ANSWER WAS REJECTED. Fix these problems: " + "; ".join(probs) + ". Delete or replace any listed number; use only figures written in the data pack or the articles. Bands: below the OK threshold means Caution, not Avoid, unless below the Avoid threshold."
+        msg = user if not probs else (user + "\n\nYOUR PREVIOUS ANSWER WAS REJECTED. Fix these problems: " + "; ".join(probs) +
+                                      ". Delete or replace any listed number; use only figures written in the data pack or the articles.")
         out = _retry(sa.chat_json, budget, SYSTEM, msg)
-        for k in ("sector_risks", "borrower_checks"):
-            if not isinstance(out.get(k), list):
-                out[k] = []
-        probs = bp.validate(out, pack, corpus, lens_text, require_pack=3 if len(bp.nums(" ".join(pack))) >= 6 else 1)
+        if not isinstance(out.get("borrower_checks"), list):
+            out["borrower_checks"] = []
+        probs = bp.validate_v3(out, pack, corpus, lens_text, bands, need_pack=need)
         if not probs:
             break
     if probs:
         return {"brief": None, "rejected": probs, "attempts": attempt + 1}
     used = [i for i in (out.get("sources_used") or []) if isinstance(i, int) and 0 <= i < len(docs)] or list(range(len(docs)))
     tag = out.get("outlook_vs_macro") if out.get("outlook_vs_macro") in ("Worse", "In line", "Better") else None
-    ln = out["local_news"].strip()
-    if len(docs) < 2 and not ln.lower().startswith("limited local coverage"):
-        ln = "Limited local coverage. " + ln
-    return {"brief": {"verdict_rationale": out["verdict_rationale"].strip(), "sector_risks": [x.strip() for x in out["sector_risks"]],
-                      "local_news": ln, "borrower_checks": [x.strip() for x in out["borrower_checks"]], "change_the_call": out["change_the_call"].strip()},
+    fl = out["local_flavour"].strip()
+    if len(docs) < 2 and not fl.lower().startswith("limited local coverage"):
+        fl = "Limited local coverage. " + fl
+    return {"brief": {"local_flavour": fl, "borrower_checks": [x.strip() for x in out["borrower_checks"]], "change_the_call": out["change_the_call"].strip()},
             "outlook_vs_macro": tag, "why": (out.get("why") or "")[:160] if tag else None, "attempts": attempt + 1,
             "sources": [{"url": docs[i]["url"], "title": docs[i]["title"], "date": docs[i]["date"]} for i in used]}
 
@@ -159,11 +162,19 @@ def main():
     D = json.loads((ROOT / "data" / "lending_latest.json").read_text())
     lens_all = json.loads((ROOT / "engine" / "credit_lens.json").read_text())
     secs = {x["id"]: x for x in D["sectors"]}
-    combos = {f"{c['geo_id']}|{c['sector']}": c for c in D["combos"]}
+    combos = {f"{c['state']}|{c['sector']}": c for c in D["combos"] if c["geo_type"] == "state"}
+    bands = {"ok": D["geo_config"]["ok_at_or_above"], "avoid": D["geo_config"]["avoid_below"]}
     budget, lock = Budget(MAX_CALLS), threading.Lock()
     stats = {"scanned": 0, "skipped_fresh": 0, "rejected": 0, "errors": []}
     force = os.environ.get("LOCAL_NEWS_FORCE") == "1"
-    todo = sorted(pairs(cfg), key=lambda p: (items.get(p["key"]) or {}).get("scanned_ist", ""))
+    plist = list(pairs(cfg))
+    keep = {p["key"] for p in plist}
+    for k in [k for k in items if k not in keep]:
+        items.pop(k)
+    todo = sorted(plist, key=lambda p: ((items.get(p["key"]) or {}).get("prompt_version") == PROMPT_VERSION, (items.get(p["key"]) or {}).get("scanned_ist", "")))
+    STATE_LENS = {"what": "All industry in the state", "drivers": ["state demand and output", "power availability", "payment cycles"],
+                  "stress": ["tax collections and electricity demand lagging India", "unit closures", "delayed payments"],
+                  "checks": ["GST turnover vs bank credit summations", "debtor days vs 90", "electricity bills trend vs last year"]}
 
     def work(p):
         old = items.get(p["key"]) or {}
@@ -173,23 +184,24 @@ def main():
             return
         st = D["states"].get(p["state"])
         sec = secs.get(p["sector"])
-        combo = combos.get(p["key"]) if p["sector"] != "*" else None
+        combo = combos.get(f"{p['state']}|{p['sector']}") if sec else None
         pack = bp.build_pack(D, combo, sec, st)
-        p["label"] = p["q"] if sec is None else f"{p['q']} ({sec['name']}), {st['name'] if st else p['state']}"
-        lens = lens_all.get(p["sector"]) if sec else {"what": "All industry in the state", "drivers": ["state demand and output", "power availability", "payment cycles"],
-                                                       "stress": ["tax collections and electricity demand lagging India", "unit closures", "delayed payments"],
-                                                       "checks": ["GST turnover vs bank credit summations", "debtor days vs 90", "electricity bills trend vs last year"]}
+        if sec and p["mapping"] != "direct":
+            pack.insert(0, f"Industry asked: {p['iname']}. Official series are not published for it separately; figures below are for the nearest parent sector, {sec['name']} (proxy: parent sector).")
+        if not any("Bands:" in x for x in pack):
+            pack.append(f"Bands: OK to lend >= {bands['ok']}; Caution {bands['avoid']} to {bands['ok'] - 1}; Avoid < {bands['avoid']}.")
+        p["label"] = f"{p['iname']} in {p['city']}, {st['name'] if st else p['state']}" if p["city"] else f"Industry overall, {st['name'] if st else p['state']}"
+        lens = dict(lens_all.get(p["sector"]) or {}) if sec else STATE_LENS
+        if p.get("focus"):
+            lens["industry_focus"] = p["focus"]
         try:
             arts = scan_pair(p, sa, budget, now.date())
             docs = fetch_articles(arts, sa, budget)
-            r = brief(p, docs, pack, lens, sa, budget)
-            rec = {**{k: p[k] for k in ("geo_type", "geo_id", "state", "sector")}, **r, "queries": p["q"], "pack": pack,
+            r = brief(p, docs, pack, lens, sa, budget, bands)
+            rec = {**{k: p[k] for k in ("geo_type", "geo_id", "state", "sector", "industry")}, **r, "queries": p["q"], "pack": pack,
                    "scanned_ist": now.strftime("%Y-%m-%d %H:%M IST"), "tier": "news_llm", "window_days": WINDOW_DAYS, "prompt_version": PROMPT_VERSION}
             with lock:
-                if r.get("brief") or not old.get("brief"):
-                    items[p["key"]] = rec
-                else:
-                    old["last_rejected"] = r.get("rejected")
+                items[p["key"]] = rec
                 stats["scanned"] += 1
                 stats["rejected"] += 0 if r.get("brief") else 1
         except RuntimeError as e:
@@ -197,7 +209,7 @@ def main():
         except Exception as e:  # noqa: BLE001
             with lock: stats["errors"].append(f"{p['key']}: {type(e).__name__}: {e}")
 
-    with ThreadPoolExecutor(6) as ex:
+    with ThreadPoolExecutor(10) as ex:
         list(ex.map(work, todo))
     errors = stats.pop("errors")
     cache.update(active=True, status="Weekly scan via DeepSeek search (news_llm, unverified; never used in verdicts).",

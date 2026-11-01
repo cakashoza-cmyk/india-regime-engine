@@ -1,0 +1,1843 @@
+{
+ "_doc": "Major industrial cities/clusters per state; hubs = industries the city is a known hub for (local briefs are precomputed for these pairs).",
+ "cities": [
+  {
+   "id": "jk_srinagar",
+   "name": "Srinagar",
+   "state": "JK",
+   "hubs": [
+    "handicrafts",
+    "woollen_textiles",
+    "horticulture",
+    "tourism_hotels"
+   ]
+  },
+  {
+   "id": "jk_jammu",
+   "name": "Jammu",
+   "state": "JK",
+   "hubs": [
+    "tourism_hotels",
+    "pharma",
+    "steel_rerolling"
+   ]
+  },
+  {
+   "id": "jk_kathua",
+   "name": "Kathua",
+   "state": "JK",
+   "hubs": [
+    "pharma",
+    "steel_rerolling"
+   ]
+  },
+  {
+   "id": "jk_samba",
+   "name": "Samba",
+   "state": "JK",
+   "hubs": [
+    "pharma",
+    "plastics"
+   ]
+  },
+  {
+   "id": "hp_baddi",
+   "name": "Baddi",
+   "state": "HP",
+   "hubs": [
+    "pharma",
+    "formulations",
+    "fmcg_distribution"
+   ]
+  },
+  {
+   "id": "hp_nalagarh",
+   "name": "Nalagarh",
+   "state": "HP",
+   "hubs": [
+    "pharma",
+    "electrical_eq"
+   ]
+  },
+  {
+   "id": "hp_shimla",
+   "name": "Shimla",
+   "state": "HP",
+   "hubs": [
+    "horticulture",
+    "tourism_hotels"
+   ]
+  },
+  {
+   "id": "hp_kala_amb",
+   "name": "Kala Amb",
+   "state": "HP",
+   "hubs": [
+    "steel_rerolling",
+    "paper"
+   ]
+  },
+  {
+   "id": "hp_parwanoo",
+   "name": "Parwanoo",
+   "state": "HP",
+   "hubs": [
+    "engineering",
+    "fruits_veg"
+   ]
+  },
+  {
+   "id": "pb_ludhiana",
+   "name": "Ludhiana",
+   "state": "PB",
+   "hubs": [
+    "hosiery_knitwear",
+    "bicycles",
+    "fasteners_hardware",
+    "steel_rerolling"
+   ]
+  },
+  {
+   "id": "pb_jalandhar",
+   "name": "Jalandhar",
+   "state": "PB",
+   "hubs": [
+    "sports_goods",
+    "hand_tools",
+    "leather"
+   ]
+  },
+  {
+   "id": "pb_amritsar",
+   "name": "Amritsar",
+   "state": "PB",
+   "hubs": [
+    "rice_milling",
+    "woollen_textiles",
+    "tourism_hotels"
+   ]
+  },
+  {
+   "id": "pb_mandi_gobindgarh",
+   "name": "Mandi Gobindgarh",
+   "state": "PB",
+   "hubs": [
+    "steel_rerolling",
+    "castings_forgings"
+   ]
+  },
+  {
+   "id": "pb_batala",
+   "name": "Batala",
+   "state": "PB",
+   "hubs": [
+    "castings_forgings",
+    "machine_tools"
+   ]
+  },
+  {
+   "id": "pb_mohali",
+   "name": "Mohali",
+   "state": "PB",
+   "hubs": [
+    "it_bpo",
+    "tractors_agri_machinery",
+    "pharma"
+   ]
+  },
+  {
+   "id": "pb_bathinda",
+   "name": "Bathinda",
+   "state": "PB",
+   "hubs": [
+    "refining",
+    "cotton_ginning"
+   ]
+  },
+  {
+   "id": "ch_chandigarh",
+   "name": "Chandigarh",
+   "state": "CH",
+   "hubs": [
+    "it_bpo",
+    "hospitals_healthcare",
+    "retail_trade"
+   ]
+  },
+  {
+   "id": "uk_haridwar",
+   "name": "Haridwar",
+   "state": "UK",
+   "hubs": [
+    "pharma",
+    "fmcg_distribution",
+    "vehicle_oem"
+   ]
+  },
+  {
+   "id": "uk_rudrapur",
+   "name": "Rudrapur",
+   "state": "UK",
+   "hubs": [
+    "auto_components",
+    "two_wheelers",
+    "pharma"
+   ]
+  },
+  {
+   "id": "uk_dehradun",
+   "name": "Dehradun",
+   "state": "UK",
+   "hubs": [
+    "education_institutions",
+    "tourism_hotels",
+    "pharma"
+   ]
+  },
+  {
+   "id": "uk_kashipur",
+   "name": "Kashipur",
+   "state": "UK",
+   "hubs": [
+    "paper",
+    "sugar"
+   ]
+  },
+  {
+   "id": "hr_panipat",
+   "name": "Panipat",
+   "state": "HR",
+   "hubs": [
+    "home_textiles",
+    "carpets",
+    "refining",
+    "woollen_textiles"
+   ]
+  },
+  {
+   "id": "hr_gurugram",
+   "name": "Gurugram",
+   "state": "HR",
+   "hubs": [
+    "vehicle_oem",
+    "auto_components",
+    "software_it",
+    "commercial_real_estate"
+   ]
+  },
+  {
+   "id": "hr_manesar",
+   "name": "Manesar",
+   "state": "HR",
+   "hubs": [
+    "vehicle_oem",
+    "two_wheelers",
+    "auto_components"
+   ]
+  },
+  {
+   "id": "hr_faridabad",
+   "name": "Faridabad",
+   "state": "HR",
+   "hubs": [
+    "auto_components",
+    "engineering",
+    "tractors_agri_machinery"
+   ]
+  },
+  {
+   "id": "hr_sonipat",
+   "name": "Sonipat",
+   "state": "HR",
+   "hubs": [
+    "plastics",
+    "footwear"
+   ]
+  },
+  {
+   "id": "hr_karnal",
+   "name": "Karnal",
+   "state": "HR",
+   "hubs": [
+    "rice_milling",
+    "dairy_products"
+   ]
+  },
+  {
+   "id": "hr_yamunanagar",
+   "name": "Yamunanagar",
+   "state": "HR",
+   "hubs": [
+    "plywood_laminates",
+    "steel_utensils",
+    "sugar"
+   ]
+  },
+  {
+   "id": "hr_bahadurgarh",
+   "name": "Bahadurgarh",
+   "state": "HR",
+   "hubs": [
+    "footwear",
+    "plastics"
+   ]
+  },
+  {
+   "id": "hr_hisar",
+   "name": "Hisar",
+   "state": "HR",
+   "hubs": [
+    "steel_utensils",
+    "cotton_ginning"
+   ]
+  },
+  {
+   "id": "dl_delhi",
+   "name": "Delhi",
+   "state": "DL",
+   "hubs": [
+    "wholesale_trade",
+    "textile_trading",
+    "electronics_retail",
+    "hospitals_healthcare",
+    "professional_services"
+   ]
+  },
+  {
+   "id": "dl_okhla",
+   "name": "Okhla",
+   "state": "DL",
+   "hubs": [
+    "apparel",
+    "printing_publishing"
+   ]
+  },
+  {
+   "id": "dl_narela_bawana",
+   "name": "Narela-Bawana",
+   "state": "DL",
+   "hubs": [
+    "plastics",
+    "footwear",
+    "fabrication_workshops"
+   ]
+  },
+  {
+   "id": "rj_jaipur",
+   "name": "Jaipur",
+   "state": "RJ",
+   "hubs": [
+    "gold_jewellery",
+    "diamonds",
+    "handicrafts",
+    "carpets",
+    "tourism_hotels"
+   ]
+  },
+  {
+   "id": "rj_jodhpur",
+   "name": "Jodhpur",
+   "state": "RJ",
+   "hubs": [
+    "wooden_furniture",
+    "handicrafts",
+    "stone_granite"
+   ]
+  },
+  {
+   "id": "rj_bhilwara",
+   "name": "Bhilwara",
+   "state": "RJ",
+   "hubs": [
+    "manmade_fibres",
+    "textile_processing",
+    "mmf_textiles"
+   ]
+  },
+  {
+   "id": "rj_kishangarh",
+   "name": "Kishangarh",
+   "state": "RJ",
+   "hubs": [
+    "stone_granite"
+   ]
+  },
+  {
+   "id": "rj_udaipur",
+   "name": "Udaipur",
+   "state": "RJ",
+   "hubs": [
+    "stone_granite",
+    "mining",
+    "tourism_hotels"
+   ]
+  },
+  {
+   "id": "rj_kota",
+   "name": "Kota",
+   "state": "RJ",
+   "hubs": [
+    "education_institutions",
+    "stone_granite",
+    "chemicals_dyes"
+   ]
+  },
+  {
+   "id": "rj_bhiwadi",
+   "name": "Bhiwadi",
+   "state": "RJ",
+   "hubs": [
+    "auto_components",
+    "engineering"
+   ]
+  },
+  {
+   "id": "rj_neemrana",
+   "name": "Neemrana",
+   "state": "RJ",
+   "hubs": [
+    "auto_components",
+    "electrical_eq"
+   ]
+  },
+  {
+   "id": "rj_alwar",
+   "name": "Alwar",
+   "state": "RJ",
+   "hubs": [
+    "edible_oil",
+    "engineering"
+   ]
+  },
+  {
+   "id": "rj_pali",
+   "name": "Pali",
+   "state": "RJ",
+   "hubs": [
+    "textile_processing"
+   ]
+  },
+  {
+   "id": "rj_balotra",
+   "name": "Balotra",
+   "state": "RJ",
+   "hubs": [
+    "textile_processing"
+   ]
+  },
+  {
+   "id": "rj_jaisalmer",
+   "name": "Jaisalmer",
+   "state": "RJ",
+   "hubs": [
+    "renewables",
+    "solar_epc"
+   ]
+  },
+  {
+   "id": "rj_bikaner",
+   "name": "Bikaner",
+   "state": "RJ",
+   "hubs": [
+    "snacks_namkeen",
+    "woollen_textiles",
+    "coal_mining"
+   ]
+  },
+  {
+   "id": "up_kanpur",
+   "name": "Kanpur",
+   "state": "UP",
+   "hubs": [
+    "leather_tanning",
+    "leather_goods",
+    "footwear",
+    "flour_dal_mills"
+   ]
+  },
+  {
+   "id": "up_agra",
+   "name": "Agra",
+   "state": "UP",
+   "hubs": [
+    "footwear",
+    "tourism_hotels",
+    "stone_granite"
+   ]
+  },
+  {
+   "id": "up_noida",
+   "name": "Noida",
+   "state": "UP",
+   "hubs": [
+    "mobile_assembly",
+    "electronic_components",
+    "software_it",
+    "apparel"
+   ]
+  },
+  {
+   "id": "up_ghaziabad",
+   "name": "Ghaziabad",
+   "state": "UP",
+   "hubs": [
+    "engineering",
+    "steel_rerolling",
+    "fabrication_workshops"
+   ]
+  },
+  {
+   "id": "up_moradabad",
+   "name": "Moradabad",
+   "state": "UP",
+   "hubs": [
+    "nonferrous_brass",
+    "handicrafts",
+    "steel_utensils"
+   ]
+  },
+  {
+   "id": "up_firozabad",
+   "name": "Firozabad",
+   "state": "UP",
+   "hubs": [
+    "glass",
+    "imitation_jewellery"
+   ]
+  },
+  {
+   "id": "up_bhadohi",
+   "name": "Bhadohi",
+   "state": "UP",
+   "hubs": [
+    "carpets"
+   ]
+  },
+  {
+   "id": "up_mirzapur",
+   "name": "Mirzapur",
+   "state": "UP",
+   "hubs": [
+    "carpets",
+    "cement"
+   ]
+  },
+  {
+   "id": "up_varanasi",
+   "name": "Varanasi",
+   "state": "UP",
+   "hubs": [
+    "silk_weaving",
+    "tourism_hotels"
+   ]
+  },
+  {
+   "id": "up_aligarh",
+   "name": "Aligarh",
+   "state": "UP",
+   "hubs": [
+    "hand_tools",
+    "fasteners_hardware"
+   ]
+  },
+  {
+   "id": "up_meerut",
+   "name": "Meerut",
+   "state": "UP",
+   "hubs": [
+    "sports_goods",
+    "sugar"
+   ]
+  },
+  {
+   "id": "up_muzaffarnagar",
+   "name": "Muzaffarnagar",
+   "state": "UP",
+   "hubs": [
+    "sugar",
+    "paper",
+    "steel_rerolling"
+   ]
+  },
+  {
+   "id": "up_lucknow",
+   "name": "Lucknow",
+   "state": "UP",
+   "hubs": [
+    "hospitals_healthcare",
+    "handicrafts",
+    "residential_real_estate"
+   ]
+  },
+  {
+   "id": "up_gorakhpur",
+   "name": "Gorakhpur",
+   "state": "UP",
+   "hubs": [
+    "distilleries_ethanol",
+    "cement"
+   ]
+  },
+  {
+   "id": "up_saharanpur",
+   "name": "Saharanpur",
+   "state": "UP",
+   "hubs": [
+    "wooden_furniture",
+    "sugar"
+   ]
+  },
+  {
+   "id": "up_unnao",
+   "name": "Unnao",
+   "state": "UP",
+   "hubs": [
+    "meat_poultry_processing",
+    "leather_tanning"
+   ]
+  },
+  {
+   "id": "up_khurja",
+   "name": "Khurja",
+   "state": "UP",
+   "hubs": [
+    "ceramics"
+   ]
+  },
+  {
+   "id": "br_patna",
+   "name": "Patna",
+   "state": "BR",
+   "hubs": [
+    "wholesale_trade",
+    "residential_real_estate"
+   ]
+  },
+  {
+   "id": "br_muzaffarpur",
+   "name": "Muzaffarpur",
+   "state": "BR",
+   "hubs": [
+    "fruits_veg",
+    "food_processing"
+   ]
+  },
+  {
+   "id": "br_bhagalpur",
+   "name": "Bhagalpur",
+   "state": "BR",
+   "hubs": [
+    "silk_weaving"
+   ]
+  },
+  {
+   "id": "br_begusarai",
+   "name": "Begusarai",
+   "state": "BR",
+   "hubs": [
+    "refining",
+    "fertiliser"
+   ]
+  },
+  {
+   "id": "sk_gangtok",
+   "name": "Gangtok",
+   "state": "SK",
+   "hubs": [
+    "tourism_hotels",
+    "pharma"
+   ]
+  },
+  {
+   "id": "ar_itanagar",
+   "name": "Itanagar",
+   "state": "AR",
+   "hubs": [
+    "tourism_hotels",
+    "horticulture"
+   ]
+  },
+  {
+   "id": "nl_dimapur",
+   "name": "Dimapur",
+   "state": "NL",
+   "hubs": [
+    "wholesale_trade",
+    "horticulture"
+   ]
+  },
+  {
+   "id": "mn_imphal",
+   "name": "Imphal",
+   "state": "MN",
+   "hubs": [
+    "handicrafts",
+    "horticulture"
+   ]
+  },
+  {
+   "id": "mz_aizawl",
+   "name": "Aizawl",
+   "state": "MZ",
+   "hubs": [
+    "horticulture",
+    "handicrafts"
+   ]
+  },
+  {
+   "id": "tr_agartala",
+   "name": "Agartala",
+   "state": "TR",
+   "hubs": [
+    "plantation_rubber",
+    "tea"
+   ]
+  },
+  {
+   "id": "ml_byrnihat",
+   "name": "Byrnihat",
+   "state": "ML",
+   "hubs": [
+    "cement",
+    "steel_rerolling"
+   ]
+  },
+  {
+   "id": "ml_shillong",
+   "name": "Shillong",
+   "state": "ML",
+   "hubs": [
+    "tourism_hotels",
+    "horticulture"
+   ]
+  },
+  {
+   "id": "as_guwahati",
+   "name": "Guwahati",
+   "state": "AS",
+   "hubs": [
+    "wholesale_trade",
+    "residential_real_estate",
+    "logistics_warehousing"
+   ]
+  },
+  {
+   "id": "as_dibrugarh",
+   "name": "Dibrugarh",
+   "state": "AS",
+   "hubs": [
+    "tea",
+    "refining"
+   ]
+  },
+  {
+   "id": "as_jorhat",
+   "name": "Jorhat",
+   "state": "AS",
+   "hubs": [
+    "tea"
+   ]
+  },
+  {
+   "id": "as_tinsukia",
+   "name": "Tinsukia",
+   "state": "AS",
+   "hubs": [
+    "tea",
+    "plywood_laminates"
+   ]
+  },
+  {
+   "id": "as_numaligarh",
+   "name": "Numaligarh",
+   "state": "AS",
+   "hubs": [
+    "refining"
+   ]
+  },
+  {
+   "id": "wb_kolkata",
+   "name": "Kolkata",
+   "state": "WB",
+   "hubs": [
+    "jute_mills",
+    "wholesale_trade",
+    "gold_jewellery",
+    "leather_goods"
+   ]
+  },
+  {
+   "id": "wb_howrah",
+   "name": "Howrah",
+   "state": "WB",
+   "hubs": [
+    "castings_forgings",
+    "engineering",
+    "jute_mills"
+   ]
+  },
+  {
+   "id": "wb_durgapur",
+   "name": "Durgapur",
+   "state": "WB",
+   "hubs": [
+    "metals",
+    "sponge_iron"
+   ]
+  },
+  {
+   "id": "wb_asansol",
+   "name": "Asansol",
+   "state": "WB",
+   "hubs": [
+    "coal_mining",
+    "steel_rerolling"
+   ]
+  },
+  {
+   "id": "wb_haldia",
+   "name": "Haldia",
+   "state": "WB",
+   "hubs": [
+    "petrochem",
+    "ports",
+    "chemicals_dyes"
+   ]
+  },
+  {
+   "id": "wb_siliguri",
+   "name": "Siliguri",
+   "state": "WB",
+   "hubs": [
+    "tea",
+    "logistics_warehousing"
+   ]
+  },
+  {
+   "id": "wb_burdwan",
+   "name": "Burdwan",
+   "state": "WB",
+   "hubs": [
+    "rice_milling"
+   ]
+  },
+  {
+   "id": "jh_jamshedpur",
+   "name": "Jamshedpur",
+   "state": "JH",
+   "hubs": [
+    "metals",
+    "auto_components",
+    "vehicle_oem"
+   ]
+  },
+  {
+   "id": "jh_dhanbad",
+   "name": "Dhanbad",
+   "state": "JH",
+   "hubs": [
+    "coal_mining"
+   ]
+  },
+  {
+   "id": "jh_bokaro",
+   "name": "Bokaro",
+   "state": "JH",
+   "hubs": [
+    "metals"
+   ]
+  },
+  {
+   "id": "jh_ranchi",
+   "name": "Ranchi",
+   "state": "JH",
+   "hubs": [
+    "engineering",
+    "mining"
+   ]
+  },
+  {
+   "id": "od_bhubaneswar",
+   "name": "Bhubaneswar",
+   "state": "OD",
+   "hubs": [
+    "it_bpo",
+    "metals",
+    "residential_real_estate"
+   ]
+  },
+  {
+   "id": "od_angul",
+   "name": "Angul",
+   "state": "OD",
+   "hubs": [
+    "aluminium_products",
+    "metals",
+    "coal_mining"
+   ]
+  },
+  {
+   "id": "od_jharsuguda",
+   "name": "Jharsuguda",
+   "state": "OD",
+   "hubs": [
+    "aluminium_products",
+    "sponge_iron"
+   ]
+  },
+  {
+   "id": "od_rourkela",
+   "name": "Rourkela",
+   "state": "OD",
+   "hubs": [
+    "metals",
+    "sponge_iron"
+   ]
+  },
+  {
+   "id": "od_paradip",
+   "name": "Paradip",
+   "state": "OD",
+   "hubs": [
+    "ports",
+    "fertiliser",
+    "refining"
+   ]
+  },
+  {
+   "id": "od_kalinganagar",
+   "name": "Kalinganagar",
+   "state": "OD",
+   "hubs": [
+    "metals"
+   ]
+  },
+  {
+   "id": "cg_raipur",
+   "name": "Raipur",
+   "state": "CG",
+   "hubs": [
+    "steel_rerolling",
+    "sponge_iron",
+    "rice_milling"
+   ]
+  },
+  {
+   "id": "cg_bhilai",
+   "name": "Bhilai",
+   "state": "CG",
+   "hubs": [
+    "metals"
+   ]
+  },
+  {
+   "id": "cg_korba",
+   "name": "Korba",
+   "state": "CG",
+   "hubs": [
+    "power",
+    "coal_mining",
+    "aluminium_products"
+   ]
+  },
+  {
+   "id": "cg_raigarh",
+   "name": "Raigarh",
+   "state": "CG",
+   "hubs": [
+    "sponge_iron",
+    "power"
+   ]
+  },
+  {
+   "id": "mp_indore",
+   "name": "Indore",
+   "state": "MP",
+   "hubs": [
+    "pharma",
+    "edible_oil",
+    "auto_components",
+    "snacks_namkeen"
+   ]
+  },
+  {
+   "id": "mp_pithampur",
+   "name": "Pithampur",
+   "state": "MP",
+   "hubs": [
+    "vehicle_oem",
+    "auto_components",
+    "pharma"
+   ]
+  },
+  {
+   "id": "mp_bhopal",
+   "name": "Bhopal",
+   "state": "MP",
+   "hubs": [
+    "engineering",
+    "electrical_eq"
+   ]
+  },
+  {
+   "id": "mp_jabalpur",
+   "name": "Jabalpur",
+   "state": "MP",
+   "hubs": [
+    "defence_aerospace",
+    "stone_granite"
+   ]
+  },
+  {
+   "id": "mp_gwalior",
+   "name": "Gwalior",
+   "state": "MP",
+   "hubs": [
+    "engineering",
+    "stone_granite"
+   ]
+  },
+  {
+   "id": "mp_dewas",
+   "name": "Dewas",
+   "state": "MP",
+   "hubs": [
+    "pharma",
+    "engineering"
+   ]
+  },
+  {
+   "id": "mp_mandideep",
+   "name": "Mandideep",
+   "state": "MP",
+   "hubs": [
+    "engineering",
+    "pharma"
+   ]
+  },
+  {
+   "id": "gj_surat",
+   "name": "Surat",
+   "state": "GJ",
+   "hubs": [
+    "mmf_textiles",
+    "diamonds",
+    "textile_trading",
+    "textile_processing",
+    "manmade_fibres"
+   ]
+  },
+  {
+   "id": "gj_ahmedabad",
+   "name": "Ahmedabad",
+   "state": "GJ",
+   "hubs": [
+    "pharma",
+    "cotton_textiles",
+    "chemicals_dyes",
+    "engineering"
+   ]
+  },
+  {
+   "id": "gj_vadodara",
+   "name": "Vadodara",
+   "state": "GJ",
+   "hubs": [
+    "chemicals_dyes",
+    "electrical_eq",
+    "engineering"
+   ]
+  },
+  {
+   "id": "gj_rajkot",
+   "name": "Rajkot",
+   "state": "GJ",
+   "hubs": [
+    "engineering",
+    "castings_forgings",
+    "pumps_valves",
+    "auto_components"
+   ]
+  },
+  {
+   "id": "gj_morbi",
+   "name": "Morbi",
+   "state": "GJ",
+   "hubs": [
+    "ceramics",
+    "glass",
+    "packaging_corrugated"
+   ]
+  },
+  {
+   "id": "gj_jamnagar",
+   "name": "Jamnagar",
+   "state": "GJ",
+   "hubs": [
+    "nonferrous_brass",
+    "refining"
+   ]
+  },
+  {
+   "id": "gj_bharuch",
+   "name": "Bharuch",
+   "state": "GJ",
+   "hubs": [
+    "chemicals_dyes",
+    "specialty_chemicals"
+   ]
+  },
+  {
+   "id": "gj_ankleshwar",
+   "name": "Ankleshwar",
+   "state": "GJ",
+   "hubs": [
+    "chemicals_dyes",
+    "agrochemicals",
+    "pharma"
+   ]
+  },
+  {
+   "id": "gj_vapi",
+   "name": "Vapi",
+   "state": "GJ",
+   "hubs": [
+    "chemicals_dyes",
+    "paper",
+    "pharma"
+   ]
+  },
+  {
+   "id": "gj_bhavnagar",
+   "name": "Bhavnagar",
+   "state": "GJ",
+   "hubs": [
+    "shipbuilding",
+    "steel_rerolling",
+    "diamonds"
+   ]
+  },
+  {
+   "id": "gj_alang",
+   "name": "Alang",
+   "state": "GJ",
+   "hubs": [
+    "shipbuilding"
+   ]
+  },
+  {
+   "id": "gj_kandla_gandhidham",
+   "name": "Kandla-Gandhidham",
+   "state": "GJ",
+   "hubs": [
+    "ports",
+    "logistics_warehousing",
+    "edible_oil",
+    "plywood_laminates"
+   ]
+  },
+  {
+   "id": "gj_mundra",
+   "name": "Mundra",
+   "state": "GJ",
+   "hubs": [
+    "ports",
+    "power",
+    "edible_oil"
+   ]
+  },
+  {
+   "id": "gj_unjha",
+   "name": "Unjha",
+   "state": "GJ",
+   "hubs": [
+    "spices"
+   ]
+  },
+  {
+   "id": "gj_veraval",
+   "name": "Veraval",
+   "state": "GJ",
+   "hubs": [
+    "seafood_processing"
+   ]
+  },
+  {
+   "id": "gj_sanand",
+   "name": "Sanand",
+   "state": "GJ",
+   "hubs": [
+    "vehicle_oem",
+    "auto_components"
+   ]
+  },
+  {
+   "id": "gj_dahej",
+   "name": "Dahej",
+   "state": "GJ",
+   "hubs": [
+    "petrochem",
+    "chemicals_dyes"
+   ]
+  },
+  {
+   "id": "gj_halol",
+   "name": "Halol",
+   "state": "GJ",
+   "hubs": [
+    "auto_components",
+    "two_wheelers"
+   ]
+  },
+  {
+   "id": "gj_mehsana",
+   "name": "Mehsana",
+   "state": "GJ",
+   "hubs": [
+    "dairy_products",
+    "engineering"
+   ]
+  },
+  {
+   "id": "gj_anand",
+   "name": "Anand",
+   "state": "GJ",
+   "hubs": [
+    "dairy_products"
+   ]
+  },
+  {
+   "id": "gj_gondal",
+   "name": "Gondal",
+   "state": "GJ",
+   "hubs": [
+    "cotton_ginning",
+    "edible_oil"
+   ]
+  },
+  {
+   "id": "dn_silvassa",
+   "name": "Silvassa",
+   "state": "DN",
+   "hubs": [
+    "plastics",
+    "manmade_fibres",
+    "electrical_eq"
+   ]
+  },
+  {
+   "id": "dn_daman",
+   "name": "Daman",
+   "state": "DN",
+   "hubs": [
+    "plastics",
+    "pharma"
+   ]
+  },
+  {
+   "id": "mh_mumbai",
+   "name": "Mumbai",
+   "state": "MH",
+   "hubs": [
+    "wholesale_trade",
+    "diamond_trading",
+    "nbfc",
+    "commercial_real_estate",
+    "shipping"
+   ]
+  },
+  {
+   "id": "mh_pune",
+   "name": "Pune",
+   "state": "MH",
+   "hubs": [
+    "auto_components",
+    "vehicle_oem",
+    "engineering",
+    "software_it"
+   ]
+  },
+  {
+   "id": "mh_chakan",
+   "name": "Chakan",
+   "state": "MH",
+   "hubs": [
+    "vehicle_oem",
+    "auto_components"
+   ]
+  },
+  {
+   "id": "mh_nashik",
+   "name": "Nashik",
+   "state": "MH",
+   "hubs": [
+    "fruits_veg",
+    "engineering",
+    "electrical_eq"
+   ]
+  },
+  {
+   "id": "mh_aurangabad",
+   "name": "Aurangabad",
+   "state": "MH",
+   "hubs": [
+    "auto_components",
+    "pharma",
+    "two_wheelers"
+   ]
+  },
+  {
+   "id": "mh_bhiwandi",
+   "name": "Bhiwandi",
+   "state": "MH",
+   "hubs": [
+    "handloom_powerloom",
+    "logistics_warehousing"
+   ]
+  },
+  {
+   "id": "mh_malegaon",
+   "name": "Malegaon",
+   "state": "MH",
+   "hubs": [
+    "handloom_powerloom"
+   ]
+  },
+  {
+   "id": "mh_ichalkaranji",
+   "name": "Ichalkaranji",
+   "state": "MH",
+   "hubs": [
+    "handloom_powerloom",
+    "cotton_textiles"
+   ]
+  },
+  {
+   "id": "mh_solapur",
+   "name": "Solapur",
+   "state": "MH",
+   "hubs": [
+    "home_textiles",
+    "sugar"
+   ]
+  },
+  {
+   "id": "mh_kolhapur",
+   "name": "Kolhapur",
+   "state": "MH",
+   "hubs": [
+    "sugar",
+    "castings_forgings"
+   ]
+  },
+  {
+   "id": "mh_nagpur",
+   "name": "Nagpur",
+   "state": "MH",
+   "hubs": [
+    "logistics_warehousing",
+    "engineering",
+    "fruits_veg"
+   ]
+  },
+  {
+   "id": "mh_thane_belapur",
+   "name": "Thane-Belapur",
+   "state": "MH",
+   "hubs": [
+    "chemicals_dyes",
+    "engineering"
+   ]
+  },
+  {
+   "id": "mh_tarapur",
+   "name": "Tarapur",
+   "state": "MH",
+   "hubs": [
+    "chemicals_dyes",
+    "steel_rerolling"
+   ]
+  },
+  {
+   "id": "mh_jalna",
+   "name": "Jalna",
+   "state": "MH",
+   "hubs": [
+    "steel_rerolling",
+    "seeds"
+   ]
+  },
+  {
+   "id": "mh_sangli",
+   "name": "Sangli",
+   "state": "MH",
+   "hubs": [
+    "sugar",
+    "spices"
+   ]
+  },
+  {
+   "id": "ka_bengaluru",
+   "name": "Bengaluru",
+   "state": "KA",
+   "hubs": [
+    "software_it",
+    "electronics",
+    "defence_aerospace",
+    "apparel",
+    "machine_tools"
+   ]
+  },
+  {
+   "id": "ka_mysuru",
+   "name": "Mysuru",
+   "state": "KA",
+   "hubs": [
+    "silk_weaving",
+    "auto_components",
+    "tourism_hotels"
+   ]
+  },
+  {
+   "id": "ka_belagavi",
+   "name": "Belagavi",
+   "state": "KA",
+   "hubs": [
+    "castings_forgings",
+    "sugar"
+   ]
+  },
+  {
+   "id": "ka_hubballi_dharwad",
+   "name": "Hubballi-Dharwad",
+   "state": "KA",
+   "hubs": [
+    "engineering",
+    "cotton_ginning"
+   ]
+  },
+  {
+   "id": "ka_ballari",
+   "name": "Ballari",
+   "state": "KA",
+   "hubs": [
+    "metals",
+    "iron_ore_mining"
+   ]
+  },
+  {
+   "id": "ka_mangaluru",
+   "name": "Mangaluru",
+   "state": "KA",
+   "hubs": [
+    "refining",
+    "seafood_processing",
+    "cashew"
+   ]
+  },
+  {
+   "id": "ka_chikkamagaluru",
+   "name": "Chikkamagaluru",
+   "state": "KA",
+   "hubs": [
+    "coffee"
+   ]
+  },
+  {
+   "id": "ka_davangere",
+   "name": "Davangere",
+   "state": "KA",
+   "hubs": [
+    "cotton_textiles",
+    "rice_milling"
+   ]
+  },
+  {
+   "id": "ka_tumakuru",
+   "name": "Tumakuru",
+   "state": "KA",
+   "hubs": [
+    "engineering",
+    "food_processing"
+   ]
+  },
+  {
+   "id": "ga_vasco_margao",
+   "name": "Vasco-Margao",
+   "state": "GA",
+   "hubs": [
+    "iron_ore_mining",
+    "pharma",
+    "shipbuilding"
+   ]
+  },
+  {
+   "id": "ga_panaji",
+   "name": "Panaji",
+   "state": "GA",
+   "hubs": [
+    "tourism_hotels",
+    "pharma"
+   ]
+  },
+  {
+   "id": "kl_kochi",
+   "name": "Kochi",
+   "state": "KL",
+   "hubs": [
+    "seafood_processing",
+    "spices",
+    "refining",
+    "shipbuilding"
+   ]
+  },
+  {
+   "id": "kl_kollam",
+   "name": "Kollam",
+   "state": "KL",
+   "hubs": [
+    "cashew",
+    "coir_products"
+   ]
+  },
+  {
+   "id": "kl_alappuzha",
+   "name": "Alappuzha",
+   "state": "KL",
+   "hubs": [
+    "coir_products",
+    "seafood_processing"
+   ]
+  },
+  {
+   "id": "kl_thrissur",
+   "name": "Thrissur",
+   "state": "KL",
+   "hubs": [
+    "gold_jewellery",
+    "ayush_herbal"
+   ]
+  },
+  {
+   "id": "kl_kottayam",
+   "name": "Kottayam",
+   "state": "KL",
+   "hubs": [
+    "plantation_rubber",
+    "rubber_tyres"
+   ]
+  },
+  {
+   "id": "kl_thiruvananthapuram",
+   "name": "Thiruvananthapuram",
+   "state": "KL",
+   "hubs": [
+    "it_bpo",
+    "tourism_hotels"
+   ]
+  },
+  {
+   "id": "kl_kozhikode",
+   "name": "Kozhikode",
+   "state": "KL",
+   "hubs": [
+    "wooden_furniture",
+    "plywood_laminates"
+   ]
+  },
+  {
+   "id": "tn_tiruppur",
+   "name": "Tiruppur",
+   "state": "TN",
+   "hubs": [
+    "hosiery_knitwear",
+    "apparel",
+    "cotton_textiles"
+   ]
+  },
+  {
+   "id": "tn_coimbatore",
+   "name": "Coimbatore",
+   "state": "TN",
+   "hubs": [
+    "pumps_valves",
+    "textile_machinery",
+    "cotton_textiles",
+    "castings_forgings"
+   ]
+  },
+  {
+   "id": "tn_chennai",
+   "name": "Chennai",
+   "state": "TN",
+   "hubs": [
+    "vehicle_oem",
+    "auto_components",
+    "electronics",
+    "software_it",
+    "leather"
+   ]
+  },
+  {
+   "id": "tn_sriperumbudur",
+   "name": "Sriperumbudur",
+   "state": "TN",
+   "hubs": [
+    "mobile_assembly",
+    "auto_components"
+   ]
+  },
+  {
+   "id": "tn_hosur",
+   "name": "Hosur",
+   "state": "TN",
+   "hubs": [
+    "two_wheelers",
+    "auto_components",
+    "electronics"
+   ]
+  },
+  {
+   "id": "tn_sivakasi",
+   "name": "Sivakasi",
+   "state": "TN",
+   "hubs": [
+    "fireworks_matches",
+    "printing_publishing"
+   ]
+  },
+  {
+   "id": "tn_karur",
+   "name": "Karur",
+   "state": "TN",
+   "hubs": [
+    "home_textiles"
+   ]
+  },
+  {
+   "id": "tn_erode",
+   "name": "Erode",
+   "state": "TN",
+   "hubs": [
+    "textile_processing",
+    "spices",
+    "handloom_powerloom"
+   ]
+  },
+  {
+   "id": "tn_salem",
+   "name": "Salem",
+   "state": "TN",
+   "hubs": [
+    "steel_rerolling",
+    "food_processing",
+    "poultry_farming"
+   ]
+  },
+  {
+   "id": "tn_namakkal",
+   "name": "Namakkal",
+   "state": "TN",
+   "hubs": [
+    "trucking_fleet",
+    "poultry_farming"
+   ]
+  },
+  {
+   "id": "tn_madurai",
+   "name": "Madurai",
+   "state": "TN",
+   "hubs": [
+    "rubber_tyres",
+    "handloom_powerloom"
+   ]
+  },
+  {
+   "id": "tn_vellore_ambur",
+   "name": "Vellore-Ambur",
+   "state": "TN",
+   "hubs": [
+    "leather_tanning",
+    "footwear"
+   ]
+  },
+  {
+   "id": "tn_tuticorin",
+   "name": "Tuticorin",
+   "state": "TN",
+   "hubs": [
+    "ports",
+    "seafood_processing",
+    "power"
+   ]
+  },
+  {
+   "id": "tn_kanchipuram",
+   "name": "Kanchipuram",
+   "state": "TN",
+   "hubs": [
+    "silk_weaving"
+   ]
+  },
+  {
+   "id": "tn_krishnagiri",
+   "name": "Krishnagiri",
+   "state": "TN",
+   "hubs": [
+    "fruits_veg"
+   ]
+  },
+  {
+   "id": "tn_nilgiris",
+   "name": "Nilgiris",
+   "state": "TN",
+   "hubs": [
+    "tea"
+   ]
+  },
+  {
+   "id": "py_puducherry",
+   "name": "Puducherry",
+   "state": "PY",
+   "hubs": [
+    "electrical_eq",
+    "pharma",
+    "tourism_hotels"
+   ]
+  },
+  {
+   "id": "ts_hyderabad",
+   "name": "Hyderabad",
+   "state": "TS",
+   "hubs": [
+    "pharma",
+    "api_bulk_drugs",
+    "software_it",
+    "defence_aerospace",
+    "residential_real_estate"
+   ]
+  },
+  {
+   "id": "ts_patancheru",
+   "name": "Patancheru",
+   "state": "TS",
+   "hubs": [
+    "api_bulk_drugs",
+    "chemicals_dyes"
+   ]
+  },
+  {
+   "id": "ts_nizamabad",
+   "name": "Nizamabad",
+   "state": "TS",
+   "hubs": [
+    "spices",
+    "tobacco"
+   ]
+  },
+  {
+   "id": "ts_warangal",
+   "name": "Warangal",
+   "state": "TS",
+   "hubs": [
+    "cotton_ginning",
+    "rice_milling"
+   ]
+  },
+  {
+   "id": "ap_visakhapatnam",
+   "name": "Visakhapatnam",
+   "state": "AP",
+   "hubs": [
+    "metals",
+    "ports",
+    "pharma",
+    "refining"
+   ]
+  },
+  {
+   "id": "ap_kakinada",
+   "name": "Kakinada",
+   "state": "AP",
+   "hubs": [
+    "rice_milling",
+    "seafood_processing",
+    "fertiliser"
+   ]
+  },
+  {
+   "id": "ap_bhimavaram",
+   "name": "Bhimavaram",
+   "state": "AP",
+   "hubs": [
+    "seafood_processing",
+    "fisheries_aquaculture"
+   ]
+  },
+  {
+   "id": "ap_nellore",
+   "name": "Nellore",
+   "state": "AP",
+   "hubs": [
+    "seafood_processing",
+    "power"
+   ]
+  },
+  {
+   "id": "ap_guntur",
+   "name": "Guntur",
+   "state": "AP",
+   "hubs": [
+    "spices",
+    "tobacco",
+    "cotton_ginning"
+   ]
+  },
+  {
+   "id": "ap_sri_city",
+   "name": "Sri City",
+   "state": "AP",
+   "hubs": [
+    "electronics",
+    "electrical_eq",
+    "food_processing"
+   ]
+  },
+  {
+   "id": "ap_chittoor",
+   "name": "Chittoor",
+   "state": "AP",
+   "hubs": [
+    "fruits_veg",
+    "dairy_products"
+   ]
+  },
+  {
+   "id": "ap_anantapur",
+   "name": "Anantapur",
+   "state": "AP",
+   "hubs": [
+    "vehicle_oem",
+    "renewables"
+   ]
+  },
+  {
+   "id": "la_leh",
+   "name": "Leh",
+   "state": "LA",
+   "hubs": [
+    "tourism_hotels",
+    "handicrafts"
+   ]
+  },
+  {
+   "id": "an_port_blair",
+   "name": "Port Blair",
+   "state": "AN",
+   "hubs": [
+    "tourism_hotels",
+    "fisheries_aquaculture"
+   ]
+  }
+ ]
+}
