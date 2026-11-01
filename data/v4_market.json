@@ -1,0 +1,152 @@
+{
+ "KAJARIACER": {
+  "group": "ceramics",
+  "last": 1109.2,
+  "asof": "2026-10-30",
+  "first": "2025-10-30",
+  "r1m": -10.2,
+  "r3m": -7.4,
+  "r12m": -8.9,
+  "src": "https://query1.finance.yahoo.com/v8/finance/chart/KAJARIACER.NS?range=1y&interval=1d"
+ },
+ "SOMANYCERA": {
+  "group": "ceramics",
+  "last": 543.0,
+  "asof": "2026-10-30",
+  "first": "2025-10-30",
+  "r1m": -12.1,
+  "r3m": 11.1,
+  "r12m": 17.9,
+  "src": "https://query1.finance.yahoo.com/v8/finance/chart/SOMANYCERA.NS?range=1y&interval=1d"
+ },
+ "CERA": {
+  "group": "ceramics",
+  "last": 4406.0,
+  "asof": "2026-10-30",
+  "first": "2025-10-30",
+  "r1m": -13.4,
+  "r3m": -28.1,
+  "r12m": -28.7,
+  "src": "https://query1.finance.yahoo.com/v8/finance/chart/CERA.NS?range=1y&interval=1d"
+ },
+ "ASIANTILES": {
+  "group": "ceramics",
+  "last": 45.88,
+  "asof": "2026-10-30",
+  "first": "2025-10-30",
+  "r1m": -7.6,
+  "r3m": -16.1,
+  "r12m": -26.7,
+  "src": "https://query1.finance.yahoo.com/v8/finance/chart/ASIANTILES.NS?range=1y&interval=1d"
+ },
+ "ORIENTBELL": {
+  "group": "ceramics",
+  "last": 346.1,
+  "asof": "2026-10-30",
+  "first": "2025-10-30",
+  "r1m": -13.2,
+  "r3m": 8.4,
+  "r12m": 16.9,
+  "src": "https://query1.finance.yahoo.com/v8/finance/chart/ORIENTBELL.NS?range=1y&interval=1d"
+ },
+ "FILATEX": {
+  "group": "mmf",
+  "last": 89.26,
+  "asof": "2026-10-30",
+  "first": "2025-10-30",
+  "r1m": -17.2,
+  "r3m": 21.4,
+  "r12m": 42.7,
+  "src": "https://query1.finance.yahoo.com/v8/finance/chart/FILATEX.NS?range=1y&interval=1d"
+ },
+ "ALOKINDS": {
+  "group": "mmf",
+  "last": 8.08,
+  "asof": "2026-10-30",
+  "first": "2025-10-30",
+  "r1m": 14.0,
+  "r3m": -32.2,
+  "r12m": -53.9,
+  "src": "https://query1.finance.yahoo.com/v8/finance/chart/ALOKINDS.NS?range=1y&interval=1d"
+ },
+ "SUTLEJTEX": {
+  "group": "mmf",
+  "last": 33.75,
+  "asof": "2026-10-30",
+  "first": "2025-10-30",
+  "r1m": -10.0,
+  "r3m": -11.2,
+  "r12m": -4.4,
+  "src": "https://query1.finance.yahoo.com/v8/finance/chart/SUTLEJTEX.NS?range=1y&interval=1d"
+ },
+ "INDORAMA": {
+  "group": "mmf",
+  "last": 73.11,
+  "asof": "2026-10-30",
+  "first": "2025-10-30",
+  "r1m": -27.2,
+  "r3m": 30.0,
+  "r12m": 4.2,
+  "src": "https://query1.finance.yahoo.com/v8/finance/chart/INDORAMA.NS?range=1y&interval=1d"
+ },
+ "AARTIIND": {
+  "group": "chem",
+  "last": 435.75,
+  "asof": "2026-10-30",
+  "first": "2025-10-30",
+  "r1m": -8.4,
+  "r3m": -10.9,
+  "r12m": 13.8,
+  "src": "https://query1.finance.yahoo.com/v8/finance/chart/AARTIIND.NS?range=1y&interval=1d"
+ },
+ "DEEPAKNTR": {
+  "group": "chem",
+  "last": 1519.4,
+  "asof": "2026-10-30",
+  "first": "2025-10-30",
+  "r1m": -0.7,
+  "r3m": -8.6,
+  "r12m": -12.7,
+  "src": "https://query1.finance.yahoo.com/v8/finance/chart/DEEPAKNTR.NS?range=1y&interval=1d"
+ },
+ "ATUL": {
+  "group": "chem",
+  "last": 5028.5,
+  "asof": "2026-10-30",
+  "first": "2025-10-30",
+  "r1m": -15.0,
+  "r3m": -25.4,
+  "r12m": -13.5,
+  "src": "https://query1.finance.yahoo.com/v8/finance/chart/ATUL.NS?range=1y&interval=1d"
+ },
+ "MOL": {
+  "group": "chem",
+  "last": 52.67,
+  "asof": "2026-10-30",
+  "first": "2025-10-30",
+  "r1m": -6.5,
+  "r3m": -2.2,
+  "r12m": -35.2,
+  "src": "https://query1.finance.yahoo.com/v8/finance/chart/MOL.NS?range=1y&interval=1d"
+ },
+ "GHCL": {
+  "group": "chem",
+  "last": 377.2,
+  "asof": "2026-10-30",
+  "first": "2025-10-30",
+  "r1m": -7.0,
+  "r3m": -13.9,
+  "r12m": -41.6,
+  "src": "https://query1.finance.yahoo.com/v8/finance/chart/GHCL.NS?range=1y&interval=1d"
+ },
+ "^NSEI": {
+  "group": "idx",
+  "last": 23053.1,
+  "asof": "2026-10-30",
+  "first": "2025-10-30",
+  "r1m": 1.9,
+  "r3m": -5.5,
+  "r12m": -10.9,
+  "src": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=1y&interval=1d"
+ }
+}

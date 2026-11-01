@@ -1,0 +1,23 @@
+name: v4 quality test (3 cards, manual only)
+on: workflow_dispatch
+permissions:
+  contents: write
+concurrency:
+  group: regime-engine
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: v4 test (3 cards only)
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python engine/v4_test.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add data/v4_test.json && git commit -m "v4 test briefs (3 cards)" && git pull --rebase && git push || echo "nothing to commit"
