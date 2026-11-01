@@ -1,0 +1,154 @@
+{
+ "key": "br_begusarai|refining",
+ "state": "BR",
+ "city": "br_begusarai",
+ "ind": "refining",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 39,
+ "nudged_by_news": false,
+ "verdict": "Avoid new SME refining/coal-products exposure in Begusarai; the data call is Avoid and the news flow is worse, so lend only to IOC-anchored service contractors with clean receivables, and decline all standalone processing units.",
+ "title": "Begusarai Petroleum Refining & Coal Products: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is here\nBegusarai's refining economy is Barauni refinery, an IOC asset, and the SME layer around it is not refining itself but the service and processing ring: road and civil contractors, tanker and logistics operators, small coke and coal-products traders, and job-work units feeding the plant [1][2][3]. **Cash is made on throughput and contracts, not on price; the SME earns a margin on service, while the crude price risk sits with IOC.** So when a proposal lands, check whether the borrower sells to IOC or to the open market; if open market, ask who bears the inventory loss when Brent moves.\n\n## Where value and cash actually sit\nValue sits in the contract and the receivable, not the asset. **The working-capital cycle is the whole credit story: bill IOC, wait for payment, fund the gap.** Capex is modest for service contractors but heavy for any unit buying processing equipment. Brent at $113/bbl is above the $75–100 band [D], which inflates input cost for anyone holding feedstock and squeezes the small trader. IOC's own under-recovery on cylinders rose from INR 184 in September to INR 229 in October and is projected at INR 309 in November and INR 370 in December [6] — that is pressure on the anchor, and it flows to vendor payment timing. Collect from customer the receivable days and the IOC contract tenure.\n\n## What has broken now\nBihar GST collections are -0.1% Apr-to-date against India +6.1%, 6.2 pp slower [D], and NIC 19 output is -0.6% YoY with -0.9% Apr-to-date [D]. **The local demand signal is weak while the national output signal is also negative — this is not a Begusarai-only problem.** The local news is thin and old: two October 2026 reports are only about refinery road repair demands to IOC [1][2], and an August 2026 report is a flag-hoisting item [3]. Say plainly: sources tell us little about Begusarai credit conditions, so lean on first principles and peers. Peer results are strong — HPCL's GRM rose to US$32.2/bbl, +35% QoQ and +262% YoY [7], and BPCL beat on refining [4] — but that is refiner margin, not SME margin. Do not read peer GRM as a signal for a small contractor.\n\n## Who to pursue and how to grow safely\nPursue IOC-anchored civil and road contractors with written work orders, tanker operators on fixed haulage contracts, and job-work units with IOC as sole buyer. Avoid standalone coal-products traders, open-market coke dealers, and any unit whose receivable is a single private counterparty. **Structure against the receivable: assign IOC dues, keep tenor inside the contract, and take monthly GST returns, IOC payment advices, and bank statements every month.** If the borrower cannot show an IOC payment advice in the last quarter, ask for the contract copy and the last three invoices before any enhancement.\n\n## Early-warning signs\n- GST turnover vs bank credits (monthly): divergence beyond 10% -> stop disbursement and re-verify invoices.\n- IOC payment advice lag (monthly): receivable days stretching past contract terms -> reduce limit and seek assignment.\n- Brent above $100/bbl (weekly): feedstock-holding borrower margin compression -> shift to service-only exposure.\n- Bihar GST run-rate (monthly): stays negative while India positive -> cap new-to-bank SME limits."
+ ],
+ "watch": [
+  [
+   "GST turnover vs bank credits (monthly)",
+   "divergence beyond 10% -> stop disbursement and re-verify invoices"
+  ],
+  [
+   "IOC payment advice lag (monthly)",
+   "receivable days past contract terms -> reduce limit, seek assignment"
+  ],
+  [
+   "Brent price (weekly)",
+   "above $100/bbl -> shift exposure to service-only borrowers"
+  ],
+  [
+   "Bihar GST run-rate (monthly)",
+   "negative while India positive -> cap new-to-bank SME limits"
+  ],
+  [
+   "Contract/work-order validity (quarterly)",
+   "expired or unrenewed IOC order -> freeze enhancement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Bihar GST -0.1% vs India +6.1%, NIC 19 output -0.6% YoY, Brent $113 above band.",
+ "articles": [
+  {
+   "title": "बेगूसराय: रिफाइनरी रोड मरम्मत के लिए IOC को नगर परिषद का...",
+   "url": "https://www.prabhatkhabar.com/state/bihar/begusarai/bihat-refinery-road-repair-demand",
+   "date": "2026-10-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Begusarai News: रिफाइनरी रोड की मरम्मत के लिए लिखा पत्र",
+   "url": "https://www.livehindustan.com/bihar/begusarai/story-bihat-council-seeks-repair-of-damaged-barauni-refinery-road-201793282422424.html",
+   "date": "2026-10-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "बरौनी रिफाइनरी में गूंजा 'नेशन फर्स्ट': ED सत्य प्रकाश ने फहराया तिरंगा; बोले- जब देश सो रहा होता, तब भी हमारी रिफाइनरी चलती है - Begusarai News - - Hindi News",
+   "url": "https://www.bhaskar.com/local/bihar/begusarai/news/barauni-refinery-independence-day-satya-prakash-flag-hoisting-ceremony-138735280.html#1",
+   "date": "2026-08-14",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: BPCL Q2 2026 beats on EPS as refining stays strong By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/earnings-call-transcript-bpcl-q2-2026-beats-on-eps-as-refining-stays-strong-93CH-2648544",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's HPCL Q4 profit rises on strong refining margins, steady fuel demand",
+   "url": "https://sg.finance.yahoo.com/news/indias-hpcl-q4-profit-rises-081627388.html",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Indian Oil posts Q2 2026 profit beat on inventory gains By Investing.com",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-indian-oil-posts-q2-2026-profit-beat-on-inventory-gains-93CH-4989490",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "News",
+   "url": "https://pre.sharekhan.com/news/earning/details/hpcl---2qfy27-strong-quarter/all",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 11, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144881#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "September 14, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145559#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Petrochemical%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 02, 2017",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=63906#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 39 (national 32 x 0.6 + Bihar 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Bihar: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 19 output -0.6% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -0.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

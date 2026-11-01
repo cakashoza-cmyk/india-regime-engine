@@ -1,0 +1,154 @@
+{
+ "key": "pb_bathinda|refining",
+ "state": "PB",
+ "city": "pb_bathinda",
+ "ind": "refining",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 49,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend to downstream service and logistics SMEs tied to the Bathinda refinery, not to refining or coal-product units themselves; the data call is Caution and the news flow is worse, so no upgrade.",
+ "title": "Bathinda Petroleum Refining & Coal Products: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Refining is a spread business, not a demand business: crude goes in, products come out, and cash is made on the gap between the two, not on volume.** The Bathinda complex is the anchor here, and the local coverage we hold is thin — sources [1], [2] and [3] are topic pages with no usable figures, so treat this note as first principles plus peer evidence. **The value sits in the crude-to-product spread and in inventory timing, and both move against a small borrower fast.** Crude is bought in dollars at landed cost; product prices are set by the market and, for the retail side, by administered pricing. So when a proposal lands, check the borrower's actual role — trader, transporter, service contractor, or converter — before you discuss any limit.\n\n## Where cash sits and what has changed\n**Working capital is the whole game: crude and product inventory plus receivables from oil marketing companies, and the receivable clock is set by the buyer, not the borrower.** Peer results show the spread swinging hard: HPCL's GRM rose to US$32.2/bbl, up 35% QoQ and 262% YoY, on throughput of 6.2mmt, down 5% QoQ and 6% YoY [7]; BPCL's quarter turned on Brent at around $70 per barrel from mid-July [4]; IOC reported domestic under-recovery of INR 184 per cylinder in September, INR 229 in October, projected at INR 309 in November and INR 370 in December [6]. **Margin is being made on price, not on volume, and that is exactly the kind of profit that reverses.** Nationally, IIP NIC 19 output is -0.6% YoY and -0.9% Apr-to-date [D], so the physical volume base is shrinking even as spreads widen. Punjab GST collections are +9.7% Apr-to-date against India's +6.1% [D] — a real local tailwind, but it is a consumption signal, not a refining signal.\n\n## Who to pursue now, and who to avoid\n**Pursue the downstream service layer: tanker and bulk logistics operators, tank-farm and turnaround contractors, testing and inspection firms, and packaging and lubricant-blending units with diversified customers.** These earn fees, not spreads, and their cash cycle is short. **Avoid standalone refining and coal-product converters, and any borrower whose order book is one refinery or one oil marketing company.** Rating commentary is explicit that nominee-clearing ability drives liquidity in this chain [10], and ICRA's HMEL view rests on HPCL sponsor support, not on standalone strength [8]. If a proposal is a single-buyer converter, ask for the buyer's payment history and the contract term before anything else.\n\n## How to grow safely\n**Structure against the receivable, not the refinery's balance sheet: invoice discounting or a receivables line with the oil marketing company as the acknowledged payer, and keep tenor inside the payment cycle.** Take monthly: GST returns, e-way bills, the receivable ageing by buyer, and bank statements showing actual collections. **Set a covenant that concentration with any single buyer stays below a stated share, and price for the spread cycle rather than the last quarter's margin.** Where a figure is missing — throughput, contract value, buyer payment days — write 'collect from customer' and do not fill the gap with an estimate.\n\n## Early-warning signs\n**Watch for margin-led profit that does not repeat: if a borrower's best quarter coincides with a GRM spike like the one in [7], ask what the next two quarters look like at a normal spread.** A drop in throughput with rising margin is a warning, not a comfort. **If receivables from the oil marketing company stretch beyond the contract term, cut the limit before the next drawdown.** Note that the rating sources [8], [9], [10] and [11] are undated or old — [11] is from 2017 — so do not lean on them for current numbers."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns and e-way bills",
+   "Filing gap or falling e-way volume vs prior month -> freeze fresh drawdown and re-check buyer concentration"
+  ],
+  [
+   "Receivable ageing by buyer (monthly)",
+   "Any single buyer past contract term -> reduce limit and seek acknowledged assignment"
+  ],
+  [
+   "Refinery throughput and GRM (quarterly, peer disclosures)",
+   "Throughput falls while margin rises -> stress-test borrower at a normal spread before renewal"
+  ],
+  [
+   "Bank statements and collection pattern (monthly)",
+   "Collections lag invoicing by more than the stated cycle -> move to invoice discounting only"
+  ],
+  [
+   "Punjab GST vs India GST gap (monthly) [D]",
+   "Local gap narrows toward India -> slow new sanctions in the city"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Refining margin-led profit on falling throughput and shrinking national output; local coverage thin.",
+ "articles": [
+  {
+   "title": "HPCL Bathinda Refinery",
+   "url": "https://www.business-standard.com/amp/topic/hpcl-bathinda-refinery",
+   "date": "2026-10-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Bathinda refinery: Latest News & Videos, Photos about Bathinda refinery | The Economic Times - Page 1 - Business News›Bathinda refinery",
+   "url": "https://economictimes.indiatimes.com/topic/Bathinda-refinery#1",
+   "date": "2026-10-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "hpcl mittal News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/hpcl-mittal/news#1",
+   "date": "2026-10-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: BPCL Q2 2026 beats on EPS as refining stays strong By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/earnings-call-transcript-bpcl-q2-2026-beats-on-eps-as-refining-stays-strong-93CH-2648544",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's HPCL Q4 profit rises on strong refining margins, steady fuel demand",
+   "url": "https://sg.finance.yahoo.com/news/indias-hpcl-q4-profit-rises-081627388.html",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Indian Oil posts Q2 2026 profit beat on inventory gains By Investing.com",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-indian-oil-posts-q2-2026-profit-beat-on-inventory-gains-93CH-4989490",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "News",
+   "url": "https://pre.sharekhan.com/news/earning/details/hpcl---2qfy27-strong-quarter/all",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 11, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144881#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 14, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145559#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Petrochemical%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "November 02, 2017",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=63906#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 49 (national 32 x 0.6 + Punjab 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Punjab: GST collections +9.7% Apr-to-date vs India +6.1% (3.6 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 19 output -0.6% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -0.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +37.1% Apr-to-date in USD (Rs 391,674 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

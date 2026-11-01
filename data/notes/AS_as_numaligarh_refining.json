@@ -1,0 +1,158 @@
+{
+ "key": "as_numaligarh|refining",
+ "state": "AS",
+ "city": "as_numaligarh",
+ "ind": "refining",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 39,
+ "nudged_by_news": false,
+ "verdict": "Avoid new refining-linked exposure in Numaligarh; the data call is Avoid and the news flow is worse, so lend only to downstream service and logistics borrowers with contracted cash flows, and decline refinery-dependent SMEs.",
+ "title": "Numaligarh Petroleum Refining & Coal Products: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA refinery buys crude, runs it through distillation and secondary units, and sells LPG, petrol, diesel, naphtha and petrochemical feedstock. Cash comes in daily at the pump and gate; cash goes out on crude purchase terms and on power, catalyst and maintenance. **Value sits in the crude-to-product spread (GRM), not in volume, so a borrower's cash flow moves with Brent and with the product crack, not with how busy the plant looks.** Numaligarh Refinery processed over three thousand 113 Thousand Metric Tonnes of crude in FY2025-26 at 103% utilisation, beyond its rated 3 MMTPA for the second year, with LPG output up over 22% in March 2026 alone [3]. That is the anchor plant; everything else in this city is a supplier, contractor or servicer to it.",
+  "## Where cash and risk sit now\n**The macro numbers have turned against the sector.** India-wide IIP for NIC 19 output is -0.6% YoY and -0.9% Apr-to-date [D], and Brent at $113/bbl is above the $75-100 band [D]. High crude with falling output squeezes working capital: the same tonne of throughput now ties up more cash in inventory and receivables. **Assam's own demand signal is weak: electricity demand is +1.9% Apr-to-date versus India's +9.5%, 7.6 pp slower [D].** Read that as a local activity brake, so when a proposal lands, check the borrower's monthly sales to non-refinery customers; if that line is flat or falling, ask what share of revenue depends on the plant's own expansion spend.",
+  "## What peers and ratings say\nPeer results are strong but margin-led, not volume-led: HPCL's GRM rose to US$32.2/bbl (+35% QoQ, +262% YoY) on throughput down 6% YoY [7], and BPCL's Q2 beat came as Brent moved from around $70/bbl in mid-July [4]. IOC reports domestic under-recovery of INR 184 per cylinder in September, INR 229 in October, projected at INR 309 in November and INR 370 in December [6]. **That under-recovery path is the single most useful number for us: it tells you the marketing side is absorbing cost, so refinery-linked receivables will stretch before they break.** ICRA's Stable outlook on HPCL/HMEL rests on adequate cash generation over 12-18 months [8]; CPCL's rating flags fossil-fuel transition as a distant risk only [9]. Note [11] is from 2017 and should not be used.",
+  "## Who to pursue and how to grow safely\n**Pursue the plant's service tail, not its shadow: transport contractors with signed freight agreements, catalyst and chemical suppliers with purchase orders, and LPG cylinder logistics with monthly billing to the refinery.** Avoid traders who buy and resell product on price speculation, and avoid any SME whose receivable is a single refinery bill with no written terms. Structure as a cash-flow loan against assigned receivables, keep tenor inside the contract, and take a monthly stock-and-debtor statement plus bank statement. **Take the GRM and under-recovery print every month alongside the borrower's own billing, because the borrower's cash arrives after the refinery's margin is decided.**",
+  "## Early-warning signs\n- Monthly receivable days from the refinery (monthly): if days stretch beyond the contract term, stop fresh disbursement and re-price.\n- Brent above $100/bbl (weekly): if sustained, cut limits on borrowers with no pass-through clause.\n- Assam electricity demand growth (monthly, CEA): if it stays below India's rate, defer new capex-linked lending.\n- Refinery throughput and utilisation (quarterly): if utilisation drops below rated capacity, ask for revised cash-flow projections.\n- IOC under-recovery per cylinder (monthly): if it keeps rising, expect slower payments down the chain."
+ ],
+ "watch": [
+  [
+   "Monthly receivable days from refinery (monthly)",
+   "stretch beyond contract term -> stop fresh disbursement and re-price"
+  ],
+  [
+   "Brent price (weekly)",
+   "above $100/bbl sustained -> cut limits on borrowers without pass-through"
+  ],
+  [
+   "Assam electricity demand growth vs India (monthly, CEA)",
+   "stays below India rate -> defer new capex-linked lending"
+  ],
+  [
+   "Refinery throughput and utilisation (quarterly)",
+   "utilisation falls below rated capacity -> ask for revised cash-flow projections"
+  ],
+  [
+   "IOC under-recovery per cylinder (monthly)",
+   "keeps rising -> expect slower payments down the chain"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Brent at $113/bbl, IIP NIC 19 output -0.6% YoY, Assam demand 7.6 pp slower than India.",
+ "articles": [
+  {
+   "title": "India’s Diesel Exports Set to Ease Global Fuel Shortages in 2027",
+   "url": "https://www.constructionworld.in/amp/energy-infrastructure/oil-and-gas/indias-diesel-exports-set-to-ease-global-fuel-shortages-in-2027/99654",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Lebanon news - أخبار لبنان - India’s refining boom finds an opportunity in the global diesel crunch",
+   "url": "http://lebanonnewsapp.com/2/Article/2018/254486463",
+   "date": "2026-10-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Petroleum & Natural Gas Minister Hardeep Singh Puri congratulates Numaligarh Refinery Limited",
+   "url": "https://newsonair.gov.in/petroleum-natural-gas-minister-hardeep-singh-puri-congratulates-numaligarh-refinery-limited/",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: BPCL Q2 2026 beats on EPS as refining stays strong By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/earnings-call-transcript-bpcl-q2-2026-beats-on-eps-as-refining-stays-strong-93CH-2648544",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's HPCL Q4 profit rises on strong refining margins, steady fuel demand",
+   "url": "https://sg.finance.yahoo.com/news/indias-hpcl-q4-profit-rises-081627388.html",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Indian Oil posts Q2 2026 profit beat on inventory gains By Investing.com",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-indian-oil-posts-q2-2026-profit-beat-on-inventory-gains-93CH-4989490",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "News",
+   "url": "https://pre.sharekhan.com/news/earning/details/hpcl---2qfy27-strong-quarter/all",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 11, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144881#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 14, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145559#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Petrochemical%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 02, 2017",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=63906#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 39 (national 32 x 0.6 + Assam 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Assam: electricity demand +1.9% Apr-to-date vs India +9.5% (7.6 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 19 output -0.6% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -0.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

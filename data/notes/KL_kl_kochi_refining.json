@@ -1,0 +1,154 @@
+{
+ "key": "kl_kochi|refining",
+ "state": "KL",
+ "city": "kl_kochi",
+ "ind": "refining",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 49,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend to downstream service and fabrication SMEs tied to the BPCL Kochi refinery programme, not to refiners or traders; structure tightly and take monthly GRM and throughput data.",
+ "title": "Kochi Petroleum Refining & Coal Products: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nRefining buys crude, runs it through a plant, and sells products; cash is made on the spread between crude cost and product price, not on volume alone. **The whole credit story sits in that spread and in working capital, not in the plant.** Crude is bought at landed cost and product is sold at a posted price, so inventory value swings with Brent; BPCL's Q2 call notes Brent around $70 per barrel from mid-July [4]. So when a proposal lands, check the crude price assumption in the projections; if it is a single flat number, ask for a sensitivity at a higher and lower Brent.",
+  "## Where value and cash sit\n**Value sits in the refining margin; cash sits in inventory and receivables.** HPCL's 2QFY27 shows GRM at US$32.2/bbl, up 35% QoQ and 262% YoY, on throughput of 6.2mmt, down 5% QoQ and 6% YoY [7] — margin-led, not volume-led. IOC's domestic under-recovery was INR 184 per cylinder in September and INR 229 in October, projected at INR 309 in November and INR 370 in December [6]. So when a proposal lands, check whether the borrower's margin depends on a subsidy or under-recovery that is already rising; if it does, ask how the gap is funded and by when.",
+  "## What has changed now\n**National output is shrinking while Kerala's tax base is growing.** IIP for NIC 19 is -0.6% YoY and -0.9% Apr-to-date [D], yet Kerala GST collections are +10.3% Apr-to-date against India's +6.1% [D]. Exports are +37.1% Apr-to-date in USD [D]. The local sources on the BPCL Kochi refinery expansion are only headline pages with no figures [1][2][3], so treat the expansion as a pipeline, not a number. **We have no city-level output or margin data for Kochi; collect from customer.**",
+  "## Where to grow, and how to grow safely\n**Pursue fabrication, mechanical and electrical contracting, catalyst and chemical supply, tank and pipeline maintenance, and logistics SMEs serving the refinery programme.** Avoid standalone crude traders, single-client coal-product units, and any borrower whose receivable is one PSU bill with no fallback. Take monthly GRM and throughput from the refiner's disclosures, monthly GST returns, and quarterly stock statements; covenant a minimum DSCR and a receivables cap. **Rating reports on HPCL, HMEL and CPCL show stable outlooks and regulatory compliance, but CPCL's net-zero target of 2046 is a distant risk, not a current one [8][9].**",
+  "## Early-warning signs\n- **Monthly (GST and bank statements):** falling turnover or rising receivable days -> freeze limit enhancement and ask for the refiner's payment schedule.\n- **Monthly (refiner disclosures):** GRM falling sharply from the US$32.2/bbl level [7] -> reprice the facility and cut tenor.\n- **Quarterly (under-recovery):** the IOC gap widening past INR 370 per cylinder [6] -> ask how the borrower is funding the shortfall.\n- **Quarterly (IIP NIC 19):** output staying negative [D] -> shift new sanctions to service contracts, not product trading."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns and bank statements",
+   "Turnover down or receivable days up -> freeze enhancement, ask for refiner payment schedule"
+  ],
+  [
+   "Monthly refiner GRM disclosure",
+   "GRM falls sharply from US$32.2/bbl [7] -> reprice facility, cut tenor"
+  ],
+  [
+   "Quarterly under-recovery data",
+   "Gap widens past INR 370 per cylinder [6] -> ask how shortfall is funded"
+  ],
+  [
+   "Quarterly IIP NIC 19",
+   "Output stays negative [D] -> shift new sanctions to service contracts"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "National NIC 19 output is negative (-0.6% YoY, -0.9% Apr-to-date) despite Kerala GST growth.",
+ "articles": [
+  {
+   "title": "bpcl kochi refinery expansion project News and Updates from The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/bpcl-kochi-refinery-expansion-project/news#1",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "bpcl kochi refinery project: Latest News & Videos, Photos about bpcl kochi refinery project | The Economic Times - Page 1 - Business News›bpcl kochi refinery project",
+   "url": "https://economictimes.indiatimes.com/topic/bpcl-kochi-refinery-project#1",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "bpcl kochi News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/bpcl-kochi/news#1",
+   "date": "2026-10-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: BPCL Q2 2026 beats on EPS as refining stays strong By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/earnings-call-transcript-bpcl-q2-2026-beats-on-eps-as-refining-stays-strong-93CH-2648544",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's HPCL Q4 profit rises on strong refining margins, steady fuel demand",
+   "url": "https://sg.finance.yahoo.com/news/indias-hpcl-q4-profit-rises-081627388.html",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Indian Oil posts Q2 2026 profit beat on inventory gains By Investing.com",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-indian-oil-posts-q2-2026-profit-beat-on-inventory-gains-93CH-4989490",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "News",
+   "url": "https://pre.sharekhan.com/news/earning/details/hpcl---2qfy27-strong-quarter/all",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 11, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144881#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 14, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145559#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Petrochemical%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 02, 2017",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=63906#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 49 (national 32 x 0.6 + Kerala 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Kerala: GST collections +10.3% Apr-to-date vs India +6.1% (4.2 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 19 output -0.6% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -0.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +37.1% Apr-to-date in USD (Rs 391,674 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

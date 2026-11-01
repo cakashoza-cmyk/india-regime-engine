@@ -1,0 +1,146 @@
+{
+ "key": "od_paradip|refining",
+ "state": "OD",
+ "city": "od_paradip",
+ "ind": "refining",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 19,
+ "nudged_by_news": false,
+ "verdict": "Avoid fresh refining-linked exposure in Paradip; lend only to IOC-anchored service and chemical-supply contractors with tight structure, and decline anything tied to throughput or crude-price upside.",
+ "title": "Paradip Petroleum Refining & Coal Products: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is here\nParadip is a one-anchor town: IndianOil's Paradip Refinery, a 15 MMTPA complex, is the demand engine, and almost every SME we see is a satellite of it — chemical supply, cooling-tower operation, maintenance, logistics, manpower [1]. **The refinery converts crude into product and cash at a margin set by crude spreads, not by anything a local SME controls.** So when a proposal lands, check whether the borrower sells to IOC on a purchase order or sells a product whose price floats with crude; if it floats, ask what happens to their receivable and inventory value when crude moves, because the peer set shows margin swings of that size [7]. ## Where value and cash actually sit\nValue sits in the refinery's margin and in the working-capital cycle of whoever supplies it. **Our borrowers earn a fixed service or supply margin and carry the receivable — the price risk stays with IOC.** Peer results confirm the margin is real but volatile: HPCL's GRM rose to US$32.2/bbl, up 35% QoQ and 262% YoY, on lower throughput of 6.2 mmt [7]; BPCL's quarter turned on Brent moving from around $70 per barrel [4]; IOC's Q2 beat came on inventory gains [6]. None of that margin accrues to a local vendor. Capex is the refinery's, not the SME's — the visible local spend is tendered opex like cooling-water treatment chemicals and tower operation [3]. **So the credit question is receivable quality and contract tenure, not refining economics.**\n\n## What has changed now\nLocal news is thin and operational, not financial: a Level-II mock drill simulating a seal leak and fire in the Delayed Coker Unit Fractionator Reflux Pump, run under the refinery's ERDMP [1]. **That tells us the DCU is the unit under scrutiny, so any borrower whose contract touches DCU-adjacent maintenance should be asked about shutdown windows and payment timing.** The macro data is the harder signal: India-wide NIC 19 output is -0.6% YoY and -0.9% Apr-to-date [D], and Odisha's GST collections grew just +0.5% Apr-to-date against India's +6.1%, with electricity demand +5.1% versus +9.5% [D]. **The state is running 5.6 pp behind India on GST and 4.4 pp behind on power — that is a local demand and payment-discipline signal, not a refinery signal.** Note the rating reports are undated and one is from 2017 [8][9][11]; treat them as background only. ## Who to pursue, and how to grow safely\nPursue the contracted opex supplier: chemical and cooling-tower operation vendors on live IOC tenders [3], and maintenance contractors with multi-year rate contracts and IOC as direct counterparty. **Avoid traders who buy and resell petroleum product on their own account, and avoid anyone whose repayment depends on crude spreads.** Structure against the purchase order: sanction as a receivables line, not a term loan; covenant that IOC remains the counterparty and that assignment of receivables is executed; take monthly stock-and-receivable statements, monthly GST returns, and quarterly confirmation of outstanding from IOC. **If the borrower cannot produce an IOC purchase order or work order, decline — collect from customer the contract copy and last three months' payment advices.**\n\n## Early-warning signs\n- **Monthly:** receivable days against the contract's stated credit period — if days stretch beyond the agreed period, ask for the IOC payment advice and freeze further drawing. - **Monthly:** GST return filing and turnover — if Odisha-level collections stay near +0.5% [D] and the borrower's own filings fall, reduce limit. - **Event-driven:** any shutdown or incident notice at the DCU [1] — if the borrower's scope is affected, ask for the revised schedule before releasing the next tranche."
+ ],
+ "watch": [
+  [
+   "Receivable days vs contract credit period (monthly)",
+   "stretch beyond agreed period -> obtain IOC payment advice, freeze drawing power"
+  ],
+  [
+   "GST return filing and turnover (monthly)",
+   "filing lapse or turnover fall -> cut limit, seek cash collateral"
+  ],
+  [
+   "DCU or unit shutdown notices (event-driven)",
+   "borrower scope affected -> revised schedule before next tranche"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Odisha GST and power demand trail India sharply; NIC 19 output negative.",
+ "articles": [
+  {
+   "title": "Paradip refinery conducts mock drill to test emergency preparedness - The Statesman",
+   "url": "https://www.thestatesman.com/bhubaneswar/paradip-refinery-conducts-mock-drill-to-test-emergency-preparedness-1503654322.html",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "paradip refinery fire: Latest News & Videos, Photos about paradip refinery fire | The Economic Times - Page 1 - Business News›paradip refinery fire",
+   "url": "https://economictimes.indiatimes.com/topic/paradip-refinery-fire#1",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "2026_PDR_191666_1 - Tender Notice for Supply of Cooling Water Treatment Chemicals along with Treatment Monitoring and Operation of Cooling Tower 1 3 and 4 at Paradip Refinery in JAGATSINGHAPUR, ODISHA - TenderDekho",
+   "url": "https://tenderdekho.com/tender-detail/td-1Ehr651JBJ",
+   "date": "2026-10-04",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: BPCL Q2 2026 beats on EPS as refining stays strong By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/earnings-call-transcript-bpcl-q2-2026-beats-on-eps-as-refining-stays-strong-93CH-2648544",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's HPCL Q4 profit rises on strong refining margins, steady fuel demand",
+   "url": "https://sg.finance.yahoo.com/news/indias-hpcl-q4-profit-rises-081627388.html",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Indian Oil posts Q2 2026 profit beat on inventory gains By Investing.com",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-indian-oil-posts-q2-2026-profit-beat-on-inventory-gains-93CH-4989490",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "News",
+   "url": "https://pre.sharekhan.com/news/earning/details/hpcl---2qfy27-strong-quarter/all",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 11, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144881#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "September 14, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145559#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Petrochemical%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 02, 2017",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=63906#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 19 (national 32 x 0.6 + Odisha 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Odisha: GST collections +0.5% Apr-to-date vs India +6.1% (5.6 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Odisha: electricity demand +5.1% Apr-to-date vs India +9.5% (4.4 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 19 output -0.6% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -0.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

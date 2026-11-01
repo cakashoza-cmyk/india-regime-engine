@@ -1,0 +1,147 @@
+{
+ "key": "hr_panipat|refining",
+ "state": "HR",
+ "city": "hr_panipat",
+ "ind": "refining",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 49,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to downstream service and fabrication units tied to the Panipat refinery complex, and avoid unsecured exposure to small coal and coke traders until throughput and payment cycles are verified.",
+ "title": "Panipat Petroleum Refining & Coal Products: a note to the credit manager",
+ "narrative": [
+  "Cash sits with the anchor and flows down slowly. **So when a proposal lands, check who the borrower's top customer is and what share of receivables sits with that one buyer; if it is above half, ask for the buyer's payment history and the borrower's own bank statement showing actual receipt dates.**\n\n## Where value and cash sit\n**Refining margins are the anchor's prize, not the SME's — HPCL's GRM rose to US$32.2/bbl in 2QFY27 [7], and BPCL and IOC both reported strong quarters on refining and inventory gains [4][6].** The SME earns a fixed fabrication or service margin and carries the working-capital cycle. **So for any borrower with Panipat refinery exposure, check the shutdown calendar and ask how many months of fixed cost they can carry without anchor billing; if the answer is under two, structure the limit as a short tenor or reduce it.** Nationally, IIP for NIC 19 is -0.6% YoY and -0.9% Apr-to-date [D], so the sector is not growing into the gap. Haryana GST is running +10.1% Apr-to-date against India's +6.1% [D] — a genuine local tailwind, but it is a state-wide number, not a refinery number. ## Who to pursue, and how to grow safely\n**Pursue fabrication, mechanical maintenance and catalyst-handling contractors with multi-year anchor work orders, and coke/coal traders with verified end-buyers in the Haryana belt.** Avoid pure traders with no storage and no end-user contract. **If a borrower's monthly GST turnover drops two months running, freeze fresh disbursement and re-price.**",
+  "## Sources note\n**Local coverage of Panipat is thin and mostly event-based [1][2][3]; the peer and rating material is national [4]-[9], and some rating reports are undated [8][9][10].** Treat the city-level read as first-principles plus peers, not as local data."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns and e-way bills (monthly)",
+   "Two consecutive months of falling turnover -> freeze fresh disbursement and re-price the limit"
+  ],
+  [
+   "Refinery shutdown and work-order status (quarterly)",
+   "Shutdown extended or work order cancelled -> move borrower to short-tenor or reduce limit"
+  ],
+  [
+   "Bank statements showing actual receipt dates (monthly)",
+   "Receipts slipping beyond contract terms -> ask for buyer payment proof and tighten covenants"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Panipat refinery maintenance shutdown and staff bonus protest will pause contractor billing and stretch receivables.",
+ "articles": [
+  {
+   "title": "Panipat News: पानीपत रिफाइनरी में बोनस की मांग को लेकर कर्मचारियों ने किया प्रदर्शन",
+   "url": "https://www.amarujala.com/haryana/panipat/employees-at-panipat-refinery-staged-a-protest-demanding-a-bonus-panipat-news-c-244-1-pnp1001-166934-2026-11-01",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "bảo trì nhà máy lọc dầu",
+   "url": "https://kinhtexaydung.petrotimes.vn/tags/bao-tri-nha-may-loc-dau-713028.tag",
+   "date": "2026-10-20",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "panipat refinery News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/panipat-refinery/news#1",
+   "date": "2026-10-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: BPCL Q2 2026 beats on EPS as refining stays strong By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/earnings-call-transcript-bpcl-q2-2026-beats-on-eps-as-refining-stays-strong-93CH-2648544",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's HPCL Q4 profit rises on strong refining margins, steady fuel demand",
+   "url": "https://sg.finance.yahoo.com/news/indias-hpcl-q4-profit-rises-081627388.html",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Indian Oil posts Q2 2026 profit beat on inventory gains By Investing.com",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-indian-oil-posts-q2-2026-profit-beat-on-inventory-gains-93CH-4989490",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "News",
+   "url": "https://pre.sharekhan.com/news/earning/details/hpcl---2qfy27-strong-quarter/all",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 11, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144881#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 14, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145559#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Petrochemical%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "November 02, 2017",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=63906#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 49 (national 32 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 19 output -0.6% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -0.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +37.1% Apr-to-date in USD (Rs 391,674 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
