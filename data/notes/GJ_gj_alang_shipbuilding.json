@@ -1,0 +1,158 @@
+{
+ "key": "gj_alang|shipbuilding",
+ "state": "GJ",
+ "city": "gj_alang",
+ "ind": "shipbuilding",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:02 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Alang shipbreaking/ship-repair, but only to yards with EU-list or EU-ready compliance and to repair-linked cash flows; avoid sub-scale beaching-only yards with no compliance spend.",
+ "title": "Alang shipbuilding & repair: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Alang is the world's largest shipbreaking cluster, and the cash engine is dismantling steel, not building hulls.** A yard buys an end-of-life vessel, beaches it, cuts it into plate and scrap over weeks, and sells to re-rollers and mills; the ship-repair and conversion work is the higher-margin, faster-turn side. Alang is in Gujarat, the biggest demolition hub globally [1]. **Value sits in the buy price of the vessel and the speed of cutting, not in the yard's fixed assets** — land is leased, the capex is cutting equipment and compliance infrastructure, so the real asset is the plot and the licence to operate.",
+  "## Where cash sits and what has changed\n**Working capital is inventory-heavy and lumpy: one vessel is a single large cash outlay that converts to scrap sales over the cutting cycle.** So when a proposal lands, check the vessel-wise stock statement and the age of unsold inventory; if a yard is holding cut plate beyond its normal selling cycle, ask why and price the inventory at realisable scrap value, not book. **The live change is the EU vote on 4 November on adding Shree Ram Vessel Scrap and YSI Recyclers to the EU authorised list** [1] — that is the single event that re-rates a yard's access to European-flag tonnage. Note the source is a trade-press report dated 29-30 October 2026, so treat the outcome as pending. **Local reporting in August 2026 described recession clouds over Alang with 38 ships arriving in four months** [3] — that is the local demand picture, and it is softer than the national print.",
+  "## The growth opportunity\n**National shipbuilding and repair output is running hot — IIP NIC 30 up 25.3% YoY and 22.7% Apr-to-date** [D] — and Gujarat GST is growing 11.9% versus India's 6.1% [D], so the state's trade is expanding faster than the country. **Peer evidence says repair is where the margin is: Cochin Shipyard's repair segment grew 157.2% YoY at 59% of revenue with 22.6% EBITDA, while shipbuilding EBIT was 8.3%** [4]. Pursue Alang yards with a repair/conversion order book and EU-list or EU-ready compliance spend; avoid pure beaching yards with no environmental capex and no repair capability. **Peer guidance also warns margins normalise — Cochin guided FY27 EBITDA to about 14% from 24% in FY26, with repair at 22-24% and shipbuilding at 10-12%** [5][6]. So do not underwrite a yard at peak repair margins.",
+  "## How to grow safely\n**Structure against the vessel, not the balance sheet: sanction a vessel-specific facility with the scrap-sale receivables escrowed to us.** Take monthly stock-and-cut reports, vessel-wise purchase and sale invoices, and a compliance certificate on hazardous-waste handling. **Bank credit nationally is growing 27.0% against output of 22.7%, a 4.3 pp gap** [D] — so the sector is being lent to faster than it produces; insist on our own yard-level discipline rather than riding the tide.",
+  "## Early-warning signs\n**Watch the EU vote outcome and any delay past 4 November** [1] — a rejection closes European tonnage to these two yards and hits their pipeline. **Watch monthly vessel arrivals and cutting days; the August local report of 38 ships in four months** [3] is the base to beat. **Watch inventory age and scrap-price realisation** — a yard sitting on unsold plate is a yard with a cash problem."
+ ],
+ "watch": [
+  [
+   "EU Parliament environment committee vote outcome (event, 4 Nov 2026)",
+   "rejection -> reprice or decline EU-dependent yard proposals"
+  ],
+  [
+   "Monthly vessel arrivals and cutting days per yard (monthly)",
+   "arrivals below the 38-in-four-months local run-rate [3] -> tighten limits"
+  ],
+  [
+   "Inventory age and scrap realisation (monthly stock statement)",
+   "unsold cut plate ageing beyond normal cycle -> ask why, mark down collateral"
+  ],
+  [
+   "Repair vs building revenue mix and margin (quarterly)",
+   "margin drifting toward the 14% peer guide [5] -> reprice"
+  ],
+  [
+   "Gujarat GST and IIP NIC 30 prints (monthly)",
+   "GST growth slipping below India's 6.1% [D] -> slow new sanctions"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local report of recession clouds and slow ship arrivals outweighs the pending EU vote.",
+ "articles": [
+  {
+   "title": "Demolizioni navali: due cantieri indiani di Alang al voto Ue, scontro tra armatori e ambientalisti",
+   "url": "https://blueconomy.com/it/diritto-e-finanza/i-regolamenti/demolizioni-navali-due-cantieri-indiani-di-alang-al-voto-ue-scontro-tra-armatori-e-ambientalisti/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "alang News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/alang/news#1",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "અલંગમાં મંદીના વાદળો વચ્ચે આશાનું કિરણ: ચાર મહિનામાં 38 શિપ આવ્યા - Bhavnagar News",
+   "url": "https://www.divyabhaskar.co.in/local/gujarat/bhavnagar/news/a-ray-of-hope-amidst-the-clouds-of-recession-in-alang-38-ships-arrived-in-four-months-dbp-138607991.html",
+   "date": "2026-08-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Q1FY26 Result Summary",
+   "url": "https://www.icicidirect.com/mailcontent/idirect_cochinshipyard_q1fy26.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cochin Shipyard slumps as FY27 EBITDA margin guidance disappoints - Tuesday, October 06, 2026 | 03:56 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/capital-market-news/cochin-shipyard-slumps-as-fy27-ebitda-margin-guidance-disappoints-126091100745_1.html#1",
+   "date": "2026-09-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "cochin shipyard slumps as fy27 ebitda margin guidance disappoints",
+   "url": "https://www.capitalmarket.com/markets/news/market-beat-news/cochin-shipyard-slumps-as-fy27-ebitda-margin-guidance-disappoints/1732167",
+   "date": "2026-09-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cochin Shipyard Stock Slides More Than 8% After Company Forecasts Margin Decline Over Next 2 Years | 5paisa",
+   "url": "https://www.5paisa.com/blog/cochin-shipyard-stock-slides-more-than-8-after-company-forecasts-margin-decline-over-next-2",
+   "date": "2026-09-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "SSGSFL has not cooperated with Credit Analysis & Research Ltd (CARE), ICRA Ltd (ICRA) and Brickwork Ratings India Pvt Ltd (Brick...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Sar%20Senapati%20Santaji%20Ghorpade%20Sugar%20Factory%20Limited-RU-03-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "|BWR A-(CE) / CARE A-(CE) / ICRA A / CARE A+(CE) / ICRA A+ / BWR A / IND A / IND A+ / ICRA A- / CARE A+ / CRISIL A+(CE)|58.20|",
+   "url": "https://www.franklintempletonindia.com/downloadsServlet/pdf/franklin-india-multi-asset-solution-fund-scheme-information-document-it1ykmu5#4#18#4",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "| CRISIL Vs ICRA    | 2.9572    | 3.4432    | 1.6513    | 2.0016    |",
+   "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/206000/11/11_chapter%204.pdf#3#8#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 100 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 30 output +25.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +22.7% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +22.7% (gap +4.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
