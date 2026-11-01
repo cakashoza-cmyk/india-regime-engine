@@ -1,0 +1,154 @@
+{
+ "key": "up_gorakhpur|distilleries_ethanol",
+ "state": "UP",
+ "city": "up_gorakhpur",
+ "ind": "distilleries_ethanol",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 72,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Gorakhpur distilleries and ethanol, but only to grain- or cane-linked units with contracted ethanol offtake and clean working-capital discipline; avoid standalone IMFL bottlers and units without a molasses or grain tie-up.",
+ "title": "Gorakhpur distilleries & ethanol: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA distillery buys molasses or grain, ferments and distils it into rectified spirit, ENA or ethanol, and sells either to oil marketing companies under the ethanol blending programme or into IMFL and industrial alcohol. **Cash comes from two very different pipes: contracted ethanol offtake, which is steady but price-set by government, and open-market IMFL/ENA, which is priced by the buyer.** The CM's list of new units in GIDA — sugar mills, distilleries, ethanol plants — tells you the feedstock is local [1][2][3].\n\n## Where value and cash sit\nValue sits in the distillery, not the bottling line: peer BCL's distillery segment carried the margin while consolidated revenue fell to INR623 crore from INR820 crore and EBITDA margin still rose to 10.5% from 6.8% [4]. **Working capital is the real risk — molasses and grain are bought in season and paid for in cash, while ethanol dues come back on a lag.** So when a proposal lands, check the receivable days on ethanol dues and the inventory holding of molasses; if the buyer mix is one OMC, ask for the offtake letter and the last three months' payment record.\n\n## What has changed now\nNational distillery output is running hot — IIP NIC 11 output +18.3% YoY and +8.4% Apr-to-date [D] — while bank credit to industry grew only +6.8% YoY [D]. **That gap means the sector is funding growth from its own accruals, which is healthy, but it also means lenders are being asked to fund the next leg.** UP GST collections are +14.2% Apr-to-date against India's +6.1% [D], so the state's consumption base is genuinely stronger. Note the local sources are political announcements, not credit data, and say nothing about any single Gorakhpur unit's balance sheet [1][2][3].\n\n## Who to pursue, and how to grow safely\nPursue grain-based ethanol units with a firm OMC allocation, and cane-linked distilleries attached to a running sugar mill — Triveni's Q1 FY27 showed improved profitability and reduced debt on strong sugar and distillery margins [5]. **Avoid standalone IMFL bottlers and any unit whose feedstock is bought spot with no molasses or grain contract.** Structure as a term loan matched to the ethanol supply cycle plus a cash credit sized to one season's feedstock; take monthly stock and receivable statements, quarterly GST returns, and a covenant that ethanol receivable days stay within the sanctioned limit. Rating reports on this space are old — the ICRA and CRISIL notes here are 2024 and 2025 vintage [8][9][10] — so treat their gearing and coverage levels as history, not current.\n\n## Early-warning signs\n- **Ethanol receivable days stretching past the limit for two months** — stop fresh disbursement and ask for the OMC correspondence.\n- **Molasses or grain inventory build with flat sales** — check whether the unit is holding stock against a price bet.\n- **Distillery segment margin falling while revenue holds** — BCL's 10.5% is the peer marker [4]; a fall toward single digits means feedstock cost is being absorbed.\n- **Promoter share purchases or pledging activity** — BCL's promoter bought 145,000 shares [7]; read such filings alongside the borrowing unit's own cash flow."
+ ],
+ "watch": [
+  [
+   "Ethanol receivable days (monthly)",
+   "crosses sanctioned limit for 2 months -> freeze cash credit and seek OMC payment proof"
+  ],
+  [
+   "Molasses/grain inventory vs sales (monthly)",
+   "inventory up while sales flat -> ask for purchase contracts and price-bet explanation"
+  ],
+  [
+   "Distillery segment EBITDA margin (quarterly)",
+   "falls below peer 10.5% [4] -> reprice or reduce exposure"
+  ],
+  [
+   "GST returns vs bank statements (quarterly)",
+   "turnover mismatch -> escalate to credit committee"
+  ],
+  [
+   "Promoter share filings (event-based)",
+   "pledge or bulk sale -> review collateral and guarantees"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "UP GST growth and national distillery output support the sector; local news is political, not credit-specific.",
+ "articles": [
+  {
+   "title": "Uttar Pradesh CM Yogi highlights Gorakhpur’s industrial growth, 50,000 jobs created over past decade",
+   "url": "https://aninews.in/news/national/general-news/uttar-pradesh-cm-yogi-highlights-gorakhpur8217s-industrial-growth-50000-jobs-created-over-past-decade20261101220355/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Uttar Pradesh CM Yogi highlights Gorakhpurs industrial growth, 50,000 jobs created over past decade",
+   "url": "https://news.webindia123.com/news/Articles/India/20261101/4514527.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Uttar Pradesh CM Yogi highlights Gorakhpur’s industrial growth, 50,000 jobs created over past decade",
+   "url": "https://tagtv.info/uttar-pradesh-cm-yogi-highlights-gorakhpurs-industrial-growth-50000-jobs-created-over-past-decade/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "BCL Industries Ltd (BOM:524332) (Q1 2027) Earnings Call Highlights: Margin Expansion and ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://au.finance.yahoo.com/news/bcl-industries-ltd-bom-524332-130106110.html#1",
+   "date": "2026-08-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Triveni Engineering & Industries (NSE:TRIVENI) Earnings Call Transcripts - Triveni Engineering & Industries Limited (NSE:TRIVENI)",
+   "url": "https://stockanalysis.com/quote/nse/TRIVENI/transcripts/#main#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Associated Alcohols & Breweries Ltd (BOM:507526) Q4 2026 Earnings Call Highlights: Strong ... By GuruFocus - Associated Alcohols & Breweries Ltd (BOM:507526) Q4 2026 Earnings Call Highlights: Strong ...",
+   "url": "https://ca.investing.com/news/company-news/associated-alcohols--breweries-ltd-bom507526-q4-2026-earnings-call-highlights-strong--4657657#1",
+   "date": "2026-05-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "BCL Industries Share News - Latest Updates, Live News & More | ScanX - B",
+   "url": "https://scanx.trade/stock-news/bcl-industries-ltd#1",
+   "date": "2026-09-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 08,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130418#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 22, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=130589#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update September 01, 2025 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Associated Alcohols and Breweries Limited-RU-01-09-2025.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dwarikesh Sugar Industries Limited: Ratings reaffirmed; outlook revised to Positive from Stable and rated amount enhanced",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=108977#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 72 (national 70 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 11 output +18.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +8.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +6.8% YoY vs output +8.4% (gap -1.6 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

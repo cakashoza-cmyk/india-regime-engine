@@ -1,0 +1,150 @@
+{
+ "key": "rj_kota|chemicals_dyes",
+ "state": "RJ",
+ "city": "rj_kota",
+ "ind": "chemicals_dyes",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 13,
+ "nudged_by_news": false,
+ "verdict": "Avoid new dye/intermediate exposure in Kota until local demand and safety records are proven; lend only to spillover suppliers of large solvent-grade peers with clean fire-safety audits.",
+ "title": "Kota Chemicals, Dyes & Intermediates: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Kota's chemical units are small-batch converters: they buy solvents, dye intermediates and inorganic inputs, run reaction and drying lines, and sell to textile processors, dye makers and formulators.** Cash is made on conversion margin, not on the molecule; value sits in the reactor, the boiler and the effluent consent, and cash sits in inventory and receivables. **The cycle is short on the sales side but long on the input side** — most units hold feedstock against price moves, so working capital is the real exposure, not the plant. Capex is modest but continuous: reactors, scrubbers, ETP upgrades. **So when a proposal lands, check the ETP consent and the fire NOC first; if either is expired or pending, ask for the renewal order before you look at the numbers.**\n\n## What has changed now\n**The local signal is weak.** Rajasthan GST collections are -4.7% Apr-to-date against India +6.1%, 10.8 pp slower [D], and electricity demand is +4.0% against India +9.5%, 5.5 pp slower [D]. **National output for NIC 20 is -0.5% YoY and -1.2% Apr-to-date [D].** On the ground, a Kota chemical factory fire from a short circuit took two hours to control [1][2][3] — dated February 2026, so treat it as a safety-record fact, not a demand fact. **Peer results are the counterpoint:** Aarti Industries reported Q2 FY27 revenue up 75% to ₹3,668 crore and net profit up 58.5% [6], with PAT at ₹169 crore on 30% volume growth [5]. **Read this as large, export-linked specialty players doing well while small local converters face a slower state economy** — the two are not the same borrower. ## Where the growth is\n**Pursue suppliers and job-workers to the large specialty chains, not standalone dye units.** Aarti's volume-led quarter [4][7] means more outsourced intermediate conversion and more solvent and packaging demand in the belt. **Target units with a single large customer on a written supply agreement, a working ETP, and a fire audit in the last twelve months.** Avoid traders who hold stock against price and units with no captive effluent treatment. **If the borrower's top customer is a trader rather than a manufacturer, ask for the end-buyer name and the last three invoices.**\n\n## How to grow safely\n**Structure as cash-flow lending against a drawing-power limit, not a term loan for expansion.** Rating commentary flags elevated working-capital intensity in high-growth chemical operations [9], and capex funded from internal accrual with minimal external debt is the pattern that holds [8]. **Take stock and receivable statements every month, GST returns every month, and the electricity bill every month** — power is the cheapest production proxy in this belt. **Covenant on ETP consent validity and fire NOC renewal; if either lapses, freeze the limit.**\n\n## Early-warning signs\n**Watch for falling power consumption with flat sales, rising receivables days, and any repeat short-circuit or fire incident.** The February fire [1][2][3] shows how fast a small unit loses two months of output. **If the borrower's GST turnover drops two quarters running while state GST is already -4.7% [D], reduce the limit.** Sources say little about Kota specifically beyond the fire; lean on first principles and the peer read."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns",
+   "Two consecutive quarters of falling turnover -> cut limit by half"
+  ],
+  [
+   "Monthly electricity bill",
+   "Power units down >20% with flat sales -> site visit within 7 days"
+  ],
+  [
+   "Fire NOC and ETP consent register (quarterly)",
+   "Any lapse or pending renewal -> freeze disbursement"
+  ],
+  [
+   "Monthly stock and receivable statement",
+   "Receivable days up >15 days -> ask for customer-wise ageing"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Rajasthan GST and power demand lag India; NIC 20 output negative; local fire shows safety risk.",
+ "articles": [
+  {
+   "title": "Kota News: केमिकल फैक्टरी में शॉर्ट सर्किट से लगी भीषण आग, दो घंटे की मशक्कत के बाद काबू किया, बड़ा हादसा टला",
+   "url": "https://www.amarujala.com/video/rajasthan/kota/a-massive-fire-broke-out-in-a-chemical-factory-which-took-two-hours-to-control-kota-news-c-1-1-noi1391-3931670-2026-02-09",
+   "date": "2026-02-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Kota Factory Fire: शॉर्ट सर्किट से केमिकल फैक्ट्री में लगी भीषण आग, इलाके में मचा हड़कंप | Massive Fire Breaks Out In Himalaya Chemical Factory Ranpur Kota News - Kota Factory Fire: शॉर्ट सर्किट से केमिकल फैक्ट्री में लगी भीषण आग, इलाके में मचा हड़कंप",
+   "url": "https://www.patrika.com/kota-news/massive-fire-breaks-out-in-himalaya-chemical-factory-ranpur-kota-news-20334838#1",
+   "date": "2026-02-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Kota Factory Fire: Massive Blaze Erupts at Chemical Factory Due to Short Circuit, Panic Grips Area - Kota Factory Fire: Massive Blaze Erupts at Chemical Factory Due to Short Circuit, Panic Grips Area",
+   "url": "https://www.patrika.com/en/kota-news/kota-factory-fire-massive-blaze-erupts-at-chemical-factory-due-to-short-circuit-panic-grips-area-20334958?cb_rec=djRfMQ#1",
+   "date": "2026-02-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Sustains Growth Momentum in Q2 FY27, Led by Higher Volumes",
+   "url": "https://m.thewire.in/article_pdf/ptiprnews/aarti-industries-sustains-growth-momentum-in-q2-fy27-led-by-higher-volumes",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Q2 FY27 PAT soars 60% to Rs. 169 crore on 30% volume growth",
+   "url": "https://www.indianchemicalnews.com/general/aarti-industries-q2-fy27-pat-soars-60-to-rs-169-crore-on-30-volume-growth-32473",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Q2: Net profit rises 58.5%, revenue jumps 75% to ₹3,668 crore - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/aarti-industries-q2-net-profit-rises-revenue-jumps-stock-price-20023746.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Sustains Growth Momentum in Q2 FY27, Led by Higher Volumes - The Tribune",
+   "url": "https://www.tribuneindia.com/news/business/aarti-industries-sustains-growth-momentum-in-q2-fy27-led-by-higher-volumes-2-2/amp/?utm=relatedarticles",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "NCA: fair cash accrual*",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2024/september/gradual-recovery-ahead.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 30, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=138118#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA analyses the long period of past financial performance trends and estimates the future financial performance to assess the ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/919~Agrochemicals,%20Rating%20Methodology,%20Jun%202024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "January 23,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140464#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 13 (national 22 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

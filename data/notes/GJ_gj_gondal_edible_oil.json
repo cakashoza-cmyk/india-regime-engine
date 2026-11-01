@@ -1,0 +1,150 @@
+{
+ "key": "gj_gondal|edible_oil",
+ "state": "GJ",
+ "city": "gj_gondal",
+ "ind": "edible_oil",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 51,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Gondal groundnut/cottonseed millers with stock-and-receivables control; avoid vanaspati refiners and unhedged oil traders until raw-material cover and buyer concentration are verified.",
+ "title": "Gondal Edible Oils & Vanaspati: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nGondal's oil units crush groundnut and cottonseed and press cake; the Rajkot cluster also runs solvent extraction and vanaspati plants [3]. Cash comes from selling oil and cake, so the miller's real exposure is the gap between seed bought at harvest and oil sold weeks later. **The business is a spread business, not a brand business** — CARA notes PBILDT margins of 1.47% to 3.32% for a vanaspati peer on low value addition and fragmented competition [9]. When a proposal lands, check the seed-to-oil yield and the cake realisation separately; if the borrower cannot show both, ask for the crushing register. ## Where value and cash sit\nValue sits in the seed inventory and in the cake, not in the refined oil. ICRA flags raw-material price volatility as a key risk for edible oil companies [10]. **Working capital is the loan, and inventory is the collateral that moves.** So take stock statements monthly and revalue at the lower of cost or the mandi price that month; if cover falls below the sanctioned drawing power, ask for the sale invoices before releasing further limits. Capex is modest — a solvent plant or refinery is a one-time block — so treat any large capex request as a separate term-loan decision, not a working-capital top-up. ## What has changed now\nGujarat GST collections are running +11.9% Apr-to-date against India's +6.1% [D], a genuine local tailwind. But India-wide exports are -26.0% Apr-to-date in USD [D] and bank credit is +45.5% YoY against output +5.1% [D]. **Credit is growing far faster than output, so the risk is borrowed stock, not demand.** Peer AWL Agri shows revenue +22% but EBIT -13% and PAT -21% in Q2FY26 [4]; by Q4FY26 revenue rose 18% with 14% volume growth and EBITDA +40% [5][6]. Read that as: volumes are fine, margins are the swing factor. Local Gondal news is about chilli arrivals and groundnut support-price buying at Rs 1,462 per maund [1], not about oil mills — the city-specific oil evidence is thin, so lean on first principles and peers. ## Who to pursue, and how to grow safely\nPursue established groundnut and cottonseed crushers in Gondal and Rajkot with their own cake buyers and a named oil buyer [3]. Avoid pure traders and new vanaspati units with no crushing base. **Structure as a cash-credit limit against paid stock and receivables, with a 25% margin and monthly stock statements.** Take the seed purchase register, the sales ledger and GST returns every month; if receivables days stretch beyond the agreed limit, convert the excess to a demand loan. - Seed price vs oil price (weekly): if the crush spread turns negative for two weeks, ask for the hedge or forward-sale contract. - Buyer concentration (quarterly): if one buyer exceeds 40% of sales, ask for the contract and payment history. - GST filing (monthly): if returns lag two months, freeze limits until filed."
+ ],
+ "watch": [
+  [
+   "Crush spread, seed vs oil price (weekly)",
+   "negative two weeks -> ask for hedge or forward-sale contract"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "one buyer above 40% of sales -> ask for contract and payment history"
+  ],
+  [
+   "GST return filing (monthly)",
+   "two months lag -> freeze limits until filed"
+  ],
+  [
+   "Receivables days (monthly)",
+   "beyond agreed limit -> convert excess to demand loan"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Exports -26.0% and credit +45.5% vs output +5.1% outweigh Gujarat GST strength.",
+ "articles": [
+  {
+   "title": "Chilli arrival starts in Gondal marketing yard watch VIDEO",
+   "url": "https://sandesh.com/videos/news/chilli-arrival-starts-in-gondal-marketing-yard-watch-video",
+   "date": "2025-11-09",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "મસાલાની સીઝન શરૂ થાય ત્યારે ગોંડલનાં મરચાં વિશેની આ હકીકત તમે જાણો છો? - Gujarat First",
+   "url": "https://www.gujaratfirst.com/gujarat/news/did-you-know-this-fact-about-gondal-chillies-20483",
+   "date": "2023-02-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Rajkot Archives » Page 3 of 46 » Commodities India",
+   "url": "https://commoditiesindia.net/location/india/gujarat/rajkot/page/3/",
+   "date": "date unknown",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Q2FY26 Quarterly Result Announced for AWL Agri Business Ltd.",
+   "url": "https://trendlyne.com/latest-news/755501/AWL/awl-agri-business-ltd/?page=2&qstime=1763127965",
+   "date": "2025-11-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "awl agri business q4 pat jumps 54 yoy to rs 292 cr",
+   "url": "http://capitalmarket.com/markets/news/hot-pursuit-news/awl-agri-business-q4-pat-jumps-54-yoy-to-rs-292-cr/1688233",
+   "date": "2026-04-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Manubhai Mangaldas - Revenue from operations increased 18% YoY to Rs 21,465 crore during the quarter, supported by 14% volume growth, driven by stron...",
+   "url": "http://portfolio.manumangal.com/CorporateInformation/Company-News-Details/AWL-Agri-Business-Ltd/25119010132#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Agr business",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8450969a-96f3-4f56-9513-305ba1f6fe30.pdf#3",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Purti Vanaspati Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Purti%20Vanaspati%20Private%20Limited-01-05-2018.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "One of the key risks that edible oil companies face is the risk arising out of the volatility in the prices of raw materials (oi...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/809~Edible%20Oil#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 09, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=128681#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 51 (national 35 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -26.0% Apr-to-date in USD (Rs 4,114 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +45.5% YoY vs output +5.1% (gap +40.4 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 1
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

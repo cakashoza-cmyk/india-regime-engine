@@ -1,0 +1,154 @@
+{
+ "key": "kl_alappuzha|coir_products",
+ "state": "KL",
+ "city": "kl_alappuzha",
+ "ind": "coir_products",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 65,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Alappuzha coir, but only to coir pith, geotextile and organised mat units with verified raw-material cover; avoid small yarn/fibre factories squeezed by Tamil Nadu husk and yarn prices.",
+ "title": "Alappuzha coir products: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nCoir is a husk-processing trade: husk and yarn come in, fibre, pith, yarn and mats go out. **The unit is a conversion shop, not a brand — margin lives in the gap between husk/yarn cost and the price of pith, fibre or mats.** Kerala produces 60 percent of world white fibre supply [5], so Alappuzha sits on the raw-material side of the chain. Small factories here are already hit by rising prices of yarn and husk coming from Tamil Nadu [2]. So when a proposal lands, check where the husk and yarn are sourced and at what contracted price; if the answer is 'spot market, Tamil Nadu', ask for the last six months of purchase invoices before anything else.",
+  "## Where cash sits and what has changed\n**Cash is trapped in working capital, not capex — husk and yarn must be paid for before mats and pith are sold.** The rating methodology for comparable weaving businesses flags fixed and working capital intensity as the reason funding needs run high [8], and raw material is the largest cost line in such businesses [9]. Local news is mixed: the state is running a six-month door-to-door coir sales drive to 9 Feb with a 50 percent discount and a 30 crore turnover target, plus 4.56 crore capital infusion for 443 coir cooperative societies and 41 crore of dues already disbursed [3]. That is support for demand and for cooperatives, not proof of private-unit profitability. **Treat the subsidy and discount push as a demand bridge, not as margin.**",
+  "## The growth opportunity to pursue now\n**Pursue coir pith (cocopeat) and coir geotextile converters first.** A national seminar on coir geotextiles for infrastructure and environmental projects was held at Alappuzha in October 2026 [1], and the state has announced a special scheme for coco peat production [3]. These are the borrowers with a product story beyond commodity mats. Second, lend to organised mat and pith exporters with diversified buyers. **Avoid small yarn and fibre factories buying husk and yarn at spot prices from Tamil Nadu [2] — that is where the price squeeze is landing.** India-wide exports are down 13.6 percent Apr-to-date in USD [D], so any borrower whose sales ledger is export-heavy needs a buyer-concentration check; collect from customer the top-five buyer share and the currency of invoicing.",
+  "## How to grow safely\n**Structure against the working-capital cycle, not against the building.** Size the limit to verified husk and yarn purchase plus one conversion cycle; collect from customer the actual cycle days, since no local figure is published. Take monthly stock and receivables statements, monthly GST returns, and a quarterly raw-material purchase register with source state named. Kerala GST collections are running 10.3 percent Apr-to-date against India's 6.1 percent [D], which supports local demand but does not fix a single unit's margin. **Covenant on raw-material cover and on buyer concentration; if the top buyer crosses a third of sales, ask for the contract and the payment history.**",
+  "## Early-warning signs\n- **Husk and yarn purchase price rising month on month [2] (monthly) -> reprice the limit or ask for a higher margin; if the unit cannot pass it on, stop enhancement.**\n- **Receivables beyond the verified cycle (monthly) -> ask for the ageing and the buyer's payment proof; if two invoices slip, freeze further drawing.**\n- **Sales leaning on the state discount drive [3] (monthly, to 9 Feb) -> ask what replaces that volume after February; if there is no answer, treat the account as seasonal.**\n- **Export share rising while India-wide exports fall 13.6 percent Apr-to-date [D] (quarterly) -> ask for buyer-wise shipment proof.**\n\nSources on this city are thin: the local items are a seminar notice [1], a raw-material price report [2] and a government sales drive [3]; peer and rating material is undated [4][5][6][7][8][9][10]. Lean on first principles and the data pack where local evidence runs out."
+ ],
+ "watch": [
+  [
+   "Monthly raw-material purchase register (monthly)",
+   "Husk/yarn price up two months running -> reprice limit or demand higher margin"
+  ],
+  [
+   "Receivables ageing (monthly)",
+   "Any invoice past verified cycle -> freeze further drawing until paid"
+  ],
+  [
+   "GST returns vs sales ledger (monthly)",
+   "Turnover gap over 10 percent -> ask for explanation and revised limit"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "Top buyer above one-third of sales -> obtain contract and payment history"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Rising Tamil Nadu husk and yarn prices squeeze small Alappuzha coir factories' margins.",
+ "articles": [
+  {
+   "title": "National Seminar on Coir Geotextiles for Sustainable Infrastructure and Environmental Projects at Alappuzha - Special Service and Features",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2327505&reg=48&lang=2#1",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "അസംസ്കൃതവസ്തു വിലക്കയറ്റത്തിൽ കുരുങ്ങി ചെറുകിട കയർ ഫാക്ടറി ഉടമകൾ | Small coir factory owners hit by rising raw material prices | Madhyamam - Begin typing your search above and press return to search",
+   "url": "https://www.madhyamam.com/kerala/local-news/alappuzha/small-coir-factory-owners-hit-by-rising-raw-material-prices-1557359#1",
+   "date": "2026-09-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Kerala minister goes door-to-door selling coir mats to revive traditional industry - Kerala minister goes door-to-door selling coir mats to revive traditional industry",
+   "url": "https://www.onmanorama.com/news/kerala/2026/08/10/minister-ramesh-chennithala-launches-one-house-one-coir-product-scheme-in-alappuzha.html#1",
+   "date": "2026-08-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Global Coir Market 2024 by Manufacturers, Regions, Type and Application, Forecast to 2030",
+   "url": "https://pdf.marketpublishers.com/globalinfo/global-coir-market-2018-by-manufacturers-regions-type-n-application-forecast-to-2023.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Coir Board Publications<sup>17</sup> such as “Coir Quarterly Journal”, “Coir Half Yearly Journal”, “India’s production”, “Export...",
+   "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/445762/4/04_chapter%2002.pdf#2#4#2",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "A Study on Factors Influencing the Export Market of Coir and Coir Products in Coimbatore District",
+   "url": "https://ijcope.org/wp-content/uploads/2026/09/A-STUDY-ON-FACTORS-INFLUENCING-THE-EXPORT-MARKET-OF-COIR-AND-COIR-PRODUCTS-IN-COIMBATORE-DISTRICT.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Coir Brown Fiber Industry Research Report 2024",
+   "url": "https://pdf.marketpublishers.com/apo_research/coir-brown-fiber-industry-research-report-2024.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 65 (national 59 x 0.6 + Kerala 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Kerala: GST collections +10.3% Apr-to-date vs India +6.1% (4.2 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -13.6% Apr-to-date in USD (Rs 1,561 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

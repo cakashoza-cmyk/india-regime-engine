@@ -1,0 +1,158 @@
+{
+ "key": "ts_patancheru|chemicals_dyes",
+ "state": "TS",
+ "city": "ts_patancheru",
+ "ind": "chemicals_dyes",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 53,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to dye/intermediate units with compliant effluent and pass-through contracts; avoid small, single-customer, unlicensed operators in Patancheru IDA.",
+ "title": "Patancheru Chemicals, Dyes & Intermediates: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Patancheru dye or intermediate unit buys solvents, amines and acids, runs multi-step batch reactions in reactors, and sells to textile, pharma and agrochemical buyers.** Cash is made on conversion margin, not on the molecule: the spread between input cost and selling price, times reactor utilisation. **Value sits in the reactor train, the effluent treatment plant and the customer approval, not in the land.** Pricing power is thin where the product is a commodity intermediate; it is real only where the buyer has qualified your spec and cannot switch quickly. **So when a proposal lands, check whether the unit sells on a formula-linked contract or on spot; if spot, ask for the last twelve months' price realisation by product.**",
+  "## Where cash actually sits\n**Working capital is the business: raw material paid near-cash, finished goods held for order cycles, and receivables stretched by large buyers.** Ratings work on this sector flags elevated working-capital intensity that blocks capital in a high-growth scenario [9], and peers show input-cost pass-through cooling margins even as volumes rise [6]. **So when a proposal lands, check the receivable days by buyer and the inventory of slow-moving SKUs; if receivables exceed the stated credit terms, ask for the ageing and the buyer-wise ledger.** Capex is reactor capacity plus ETP; rating commentary on comparable chemical capex assumes funding from internal accrual with minimal external debt [8]. **Take the ETP capex number from the customer; it is not in our pack.**",
+  "## What has changed now\n**The national signal is soft: IIP NIC 20 output is -0.5% YoY and -1.2% Apr-to-date [D].** Telangana is running ahead of India on GST collections (+13.8% vs +6.1%) and electricity demand (+15.7% vs +9.5%) [D], which tells us local activity is holding, not that every chemical unit is. **Local news is about enforcement, not demand: police busted an illegal chemical unit in Patancheru IDA supplying precursor material [2], and a chemical blast is still in the local headlines [3].** Peer results are strong but belong to a large specialty player, not to Patancheru SMEs: Aarti Industries reported Q2 FY27 PAT up 60% to Rs. 169 crore on 30% volume growth [5], with revenue up 75% to Rs. 3,668 crore [6]. **Do not read that across to a 5-crore-turnover dye unit.**",
+  "## Who to pursue, who to avoid\n**Pursue units with a qualified buyer base, a working ETP, and formula-linked contracts; these are the ones that can hold margin when input costs move [9].** Pursue also the intermediate makers feeding pharma and agrochemical chains, where approval cycles create stickiness. **Avoid single-customer units, units with unresolved pollution-board notices, and any operator whose licence and effluent consent do not match the product being made [2].** The rating file on a dye group shows consolidation across promoter-linked entities is common [11]; **so when a proposal lands, check the group structure and whether the borrowing entity holds the assets; if it does not, ask for the consolidated picture.**",
+  "## How to grow safely\n**Structure for the working-capital cycle, not the balance sheet: cash credit sized to peak inventory plus receivables, with a clear drawing-power formula.** Take monthly stock and debtor statements, monthly GST returns, and quarterly ETP compliance certificates. **Covenant on receivable days and on the share of revenue from the top buyer; if either breaches, cut limit before the quarter closes.** Rating commentary on this sector ties comfort to efficient working-capital management and low external funding of capex [8]. **Collect from customer: current capacity utilisation, effluent consent validity, and buyer concentration.**"
+ ],
+ "watch": [
+  [
+   "Monthly GST returns (monthly)",
+   "two consecutive months of falling turnover vs same month last year -> ask for order book and hold fresh disbursement"
+  ],
+  [
+   "Stock and debtor statement (monthly)",
+   "receivable days rise beyond stated credit terms -> seek ageing and top-buyer ledger, reduce limit"
+  ],
+  [
+   "ETP and pollution-board compliance (quarterly)",
+   "notice or consent lapse -> stop enhancement and review account"
+  ],
+  [
+   "Electricity consumption vs output (monthly)",
+   "units consumed fall while sales stay flat -> check for traded goods or unrecorded activity"
+  ],
+  [
+   "Top-buyer share of revenue (quarterly)",
+   "single buyer crosses half of revenue -> seek diversification plan or reduce exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local enforcement action and a chemical blast outweigh soft national chemical output data.",
+ "articles": [
+  {
+   "title": "Telangana News",
+   "url": "https://indtoday.com/telangana-news/page/611/",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "MBVV Police Bust MD Drug Chemical Production Unit in Patancheru - MBVV Police Bust MD Drug Chemical Production Unit in Patancheru",
+   "url": "https://www.deccanchronicle.com/nation/mbvv-police-bust-md-drug-chemical-production-unit-in-telangana-1998437?utm_source=home&utm_medium=justIn#1",
+   "date": "2026-10-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sigachi chemical blast Latest News in Telugu, Sigachi chemical blast News, Sigachi chemical blast Online News Live, Sigachi chemical blast Updates | Telangana Today",
+   "url": "https://telanganatoday.com/tag/sigachi-chemical-blast",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Sustains Growth Momentum in Q2 FY27, Led by Higher Volumes",
+   "url": "https://m.thewire.in/article_pdf/ptiprnews/aarti-industries-sustains-growth-momentum-in-q2-fy27-led-by-higher-volumes",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Aarti Industries Q2 FY27 PAT soars 60% to Rs. 169 crore on 30% volume growth",
+   "url": "https://www.indianchemicalnews.com/general/aarti-industries-q2-fy27-pat-soars-60-to-rs-169-crore-on-30-volume-growth-32473",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Q2: Net profit rises 58.5%, revenue jumps 75% to ₹3,668 crore - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/aarti-industries-q2-net-profit-rises-revenue-jumps-stock-price-20023746.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Sustains Growth Momentum in Q2 FY27, Led by Higher Volumes - The Tribune",
+   "url": "https://www.tribuneindia.com/news/business/aarti-industries-sustains-growth-momentum-in-q2-fy27-led-by-higher-volumes-2-2/amp/?utm=relatedarticles",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "NCA: fair cash accrual*",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2024/september/gradual-recovery-ahead.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 30, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=138118#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA analyses the long period of past financial performance trends and estimates the future financial performance to assess the ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/919~Agrochemicals,%20Rating%20Methodology,%20Jun%202024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "January 23,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140464#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 53 (national 22 x 0.6 + Telangana 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Telangana: GST collections +13.8% Apr-to-date vs India +6.1% (7.7 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Telangana: electricity demand +15.7% Apr-to-date vs India +9.5% (6.2 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

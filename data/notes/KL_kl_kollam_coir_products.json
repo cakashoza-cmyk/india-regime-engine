@@ -1,0 +1,138 @@
+{
+ "key": "kl_kollam|coir_products",
+ "state": "KL",
+ "city": "kl_kollam",
+ "ind": "coir_products",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 65,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Kollam coir, but only to working-capital borrowers with clean stock and domestic offtake; skip anyone carrying slow-moving mat inventory or export-dependent receivables.",
+ "title": "Kollam coir products: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Coir is a husk-to-cash conversion trade: buy coconut husk, ret fibre and pith, sell into mats, yarn, cocopeat and pith blocks.** Kerala produces 60 percent of world supply of white fibre [3], so Kollam's raw-material access is a genuine local advantage. Cash sits in two places: husk and fibre stock at the yard, and finished goods waiting for a buyer. **The sector's problem is not fibre supply, it is the speed at which finished stock converts to cash.**\n\n## What has broken now\n**Kerala State Coir Corporation is holding nearly ₹30 crore of coir products unsold for years, and the state is now clearing it through local-body kiosks at discounts up to 50 percent [1].** That is a direct price signal: discounted mat stock is about to hit the same domestic buyers your borrowers sell to. Delayed payments have already disrupted fund flow to cooperatives and societies, making wage commitments hard [1]. **So when a proposal lands, check whether the borrower's own finished-goods ageing is stretching; if mats are older than a season, ask what price they expect to realise against the discounted kiosk stock [1].**\n\n## Where the growth is\n**Lend to the input side and the domestic consumable side, not to mat inventory.** Cocopeat and pith blocks move faster and are less exposed to the discount overhang; the kiosk network is also meant to support coconut-husk collection [1], which helps husk suppliers and small retters. **Pursue husk aggregators, cocopeat/pith processors and small retters selling into domestic institutional buyers; avoid borrowers whose book is long-dated mat stock or whose receivables sit with government-backed institutions already showing delayed payments [1].**\n\n## How to grow safely\n**Structure as short-tenor working capital against stock and receivables, with monthly stock-and-receivable statements as the price of the limit.** Take ageing of finished goods every month, husk purchase register every month, and quarterly GST returns to confirm turnover is real. **Kerala GST collections are running 10.3 percent Apr-to-date against India's 6.1 percent [D], so a borrower whose declared turnover lags that local trend needs explaining.** Keep term debt out unless it is for husk-yard or drying capacity with visible throughput.\n\n## Early-warning signs\n**Watch for finished-goods days rising while sales stay flat, discount-led billing, and wage delays at the unit.** If a borrower starts selling mats at deep discount to match the kiosk clearance [1], treat it as a margin event, not a sales event. **Sources say little specific about Kollam city itself; the ₹30 crore stock figure is state-level [1], so lean on the borrower's own stock and receivable data rather than the headline.**"
+ ],
+ "watch": [
+  [
+   "Finished-goods ageing statement (monthly)",
+   "Ageing crosses one season -> cut limit and ask for a clearance plan"
+  ],
+  [
+   "GST returns vs Kerala trend (quarterly)",
+   "Declared turnover grows slower than the 10.3% state trend [D] -> ask for sales register and buyer list"
+  ],
+  [
+   "Receivable days from institutional buyers (monthly)",
+   "Payment delay beyond agreed terms -> shift to cash/advance billing or reduce exposure"
+  ],
+  [
+   "Husk purchase register (monthly)",
+   "Purchase volumes fall while sales hold -> check for stock substitution or unrecorded sales"
+  ],
+  [
+   "Discounting on mat sales (monthly)",
+   "Discounts approach the 50% kiosk clearance level [1] -> reprice limit and reassess margin"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "₹30 crore unsold coir stock being cleared at up to 50% discount pressures local mat prices and cash flow [1].",
+ "articles": [
+  {
+   "title": "Kerala plans Kiosks to clear ₹30 crore Coir stock",
+   "url": "https://keralabusinessnews.com/kerala-coir-products-kiosks-30-crore-stock/#mvp-tab-col1",
+   "date": "2026-09-06",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Global Coir Market 2024 by Manufacturers, Regions, Type and Application, Forecast to 2030",
+   "url": "https://pdf.marketpublishers.com/globalinfo/global-coir-market-2018-by-manufacturers-regions-type-n-application-forecast-to-2023.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Coir Board Publications<sup>17</sup> such as “Coir Quarterly Journal”, “Coir Half Yearly Journal”, “India’s production”, “Export...",
+   "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/445762/4/04_chapter%2002.pdf#2#4#2",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "A Study on Factors Influencing the Export Market of Coir and Coir Products in Coimbatore District",
+   "url": "https://ijcope.org/wp-content/uploads/2026/09/A-STUDY-ON-FACTORS-INFLUENCING-THE-EXPORT-MARKET-OF-COIR-AND-COIR-PRODUCTS-IN-COIMBATORE-DISTRICT.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Coir Brown Fiber Industry Research Report 2024",
+   "url": "https://pdf.marketpublishers.com/apo_research/coir-brown-fiber-industry-research-report-2024.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 65 (national 59 x 0.6 + Kerala 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Kerala: GST collections +10.3% Apr-to-date vs India +6.1% (4.2 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -13.6% Apr-to-date in USD (Rs 1,561 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

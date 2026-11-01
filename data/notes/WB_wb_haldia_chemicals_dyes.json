@@ -1,0 +1,154 @@
+{
+ "key": "wb_haldia|chemicals_dyes",
+ "state": "WB",
+ "city": "wb_haldia",
+ "ind": "chemicals_dyes",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 13,
+ "nudged_by_news": false,
+ "verdict": "Avoid new chemical, dyes and intermediates exposure in Haldia for now; lend only to feedstock-linked, phenol/acetone-derivative borrowers with tight structure, and decline standalone dye and intermediate units.",
+ "title": "Haldia Chemicals, Dyes & Intermediates: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A chemical or dye unit here buys feedstock, runs it through reactors and sells to laminates, plywood, adhesives, resins, paints and pharma buyers.** Cash is made on conversion spread, not on volume alone, so the spread between feedstock and finished price is the whole business. **Phenol and acetone are the anchor inputs for the downstream cluster** — the new Adperma complex at Haldia carries 345,000 mt of phenol and 215,000 mt of acetone capacity [1][3]. **Capex is heavy and lumpy** — that project is a Rs 6,000-crore spend [3] — so most SMEs here are either downstream of it or competing with imported material. **Working capital sits in inventory and receivables**, and rating reports flag elevated working-capital intensity that blocks capital in high-growth phases [9].\n\n## What has changed now\n**The local demand signal is weak.** West Bengal GST collections ran -1.3% Apr-to-date against India +6.1% [D], and state electricity demand grew 5.7% against India's 9.5% [D]. **National chemical output is contracting** — IIP NIC 20 is -0.5% YoY and -1.2% Apr-to-date [D]. **The offset is supply-side:** Adperma starts commercial production by end-December 2026 [2][3], which should give downstream units domestic phenol and acetone instead of imports [1][3]. **Peer results are strong but not local** — Aarti Industries posted Q2 FY27 revenue of Rs 3,668 crore, up 75%, and PAT up 58.5% [6], on 30% volume growth [5]. Treat that as a specialty-chemistry read-across, not a Haldia signal. **Rating commentary is dated** — the CRISIL note on a 3-4% revenue recovery after a 9% dip cites Chinese dumping and de-stocking [8], and the ICRA dye-unit report is from January 2026 [11]; both are old.\n\n## Where to grow\n**Pursue borrowers that buy phenol or acetone from Adperma and sell into laminates, plywood, adhesives and resins** — they gain a freight and import-cost advantage the moment the plant runs [1][3]. **Also pursue converters with a written offtake or long-term supply agreement**, the model Aarti cites for its growth [6]. **Avoid standalone dye and intermediate units selling into fragmented textile buyers** — they carry the working-capital blockage [9] without feedstock integration. **When a proposal lands, check the feedstock source contract first; if it is spot-only, ask for the last twelve months of purchase invoices and the price-pass-through clause.**\n\n## How to grow safely\n**Structure against the conversion cycle, not the balance sheet.** Take monthly stock and receivable statements, and a monthly feedstock-versus-finished-price sheet. **If receivable days stretch beyond the stated credit period, ask for the buyer-wise ageing and stop enhancement.** **Covenant on debt-service cover and on inventory days**, and take the promoter's personal guarantee where the unit is single-product. **Collect from customer** the actual conversion margin, power tariff and contract terms — the sources do not give them.\n\n## Early warning signs\n**Watch for a downstream unit buying feedstock on spot while its own selling prices fall** — that is margin compression before it shows in GST. **Watch electricity consumption per unit of output**; a fall means idle reactors. **Watch for delayed statutory dues and salary payments**, the first visible sign of a cash squeeze in this cluster."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns and e-way bills (monthly)",
+   "Two consecutive months of falling outward supplies -> freeze enhancement and re-price limit"
+  ],
+  [
+   "Feedstock purchase invoices vs finished sales (monthly)",
+   "Spot-only buying with falling realisations -> ask for price-pass-through clause or reduce limit"
+  ],
+  [
+   "Receivable ageing (monthly)",
+   "Days beyond stated credit period -> stop enhancement, seek buyer confirmation"
+  ],
+  [
+   "Electricity bill and load factor (monthly)",
+   "Consumption per unit output falls -> inspect plant and confirm order book"
+  ],
+  [
+   "Adperma commissioning status (quarterly)",
+   "Slippage past December 2026 -> re-assess downstream borrowers' input cost assumption"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "West Bengal GST and power demand lag India; national chemical output contracts.",
+ "articles": [
+  {
+   "title": "Chemical Week • October 26/November 2 • Companies",
+   "url": "https://chemweek.mydigitalpublication.com/publication/?i=873026&article_id=5232727&view=articleBrowser",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Adperma Set to Launch Haldia Phenol and Acetone Production by December 2026",
+   "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/adperma-set-to-launch-haldia-phenol-and-acetone-45249",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Bengal: Adperma set to start commercial production at Haldia plant in December",
+   "url": "https://theprint.in/economy/bengal-adperma-set-to-start-commercial-production-at-haldia-plant-in-december/3083871/",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Sustains Growth Momentum in Q2 FY27, Led by Higher Volumes",
+   "url": "https://m.thewire.in/article_pdf/ptiprnews/aarti-industries-sustains-growth-momentum-in-q2-fy27-led-by-higher-volumes",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Aarti Industries Q2 FY27 PAT soars 60% to Rs. 169 crore on 30% volume growth",
+   "url": "https://www.indianchemicalnews.com/general/aarti-industries-q2-fy27-pat-soars-60-to-rs-169-crore-on-30-volume-growth-32473",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Q2: Net profit rises 58.5%, revenue jumps 75% to ₹3,668 crore - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/aarti-industries-q2-net-profit-rises-revenue-jumps-stock-price-20023746.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Sustains Growth Momentum in Q2 FY27, Led by Higher Volumes - The Tribune",
+   "url": "https://www.tribuneindia.com/news/business/aarti-industries-sustains-growth-momentum-in-q2-fy27-led-by-higher-volumes-2-2/amp/?utm=relatedarticles",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "NCA: fair cash accrual*",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2024/september/gradual-recovery-ahead.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 30, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=138118#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA analyses the long period of past financial performance trends and estimates the future financial performance to assess the ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/919~Agrochemicals,%20Rating%20Methodology,%20Jun%202024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "January 23,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140464#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 13 (national 22 x 0.6 + West Bengal 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "West Bengal: GST collections -1.3% Apr-to-date vs India +6.1% (7.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "West Bengal: electricity demand +5.7% Apr-to-date vs India +9.5% (3.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
