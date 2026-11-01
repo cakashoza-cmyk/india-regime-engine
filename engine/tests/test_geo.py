@@ -4,7 +4,7 @@ from engine import lending_sources as ls, lending_geo as geo
 from engine.local_news import numbers_ok
 
 FX = Path(__file__).parent / "fixtures"
-G = {"weight_national": 0.6, "weight_local": 0.4, "local_gap_pp": 2.0, "ok_at_or_above": 65, "avoid_below": 45,
+G = {"local_adj_max_points": 10, "local_gap_pp": 2.0, "ok_at_or_above": 65, "avoid_below": 45,
      "min_local_signals": 2, "ratings_min_n": 5, "ratings_disagree_above": 6}
 
 
@@ -26,10 +26,12 @@ def _sec(score, verdict="Selective"):
 
 
 def test_geo_blend_and_bands():
-    v = geo.geo_verdict(_sec(70), _st(12, 12), G, "X")      # local 100 -> 0.6*70+0.4*100=82
-    assert v["score"] == 82 and v["call"] == "ok" and len(v["reasons"]) <= 3
-    v = geo.geo_verdict(_sec(50), _st(-1, 1), G, "X")       # local 0 -> 30
-    assert v["call"] == "avoid"
+    v = geo.geo_verdict(_sec(70), _st(12, 12), G, "X")      # local 100 -> 70+10=80
+    assert v["score"] == 80 and v["call"] == "ok" and len(v["reasons"]) <= 4
+    v = geo.geo_verdict(_sec(50), _st(-1, 1), G, "X")       # local 0 -> 50-10=40, floored at 45: state alone never makes Avoid
+    assert v["score"] == 45 and v["call"] == "caution"
+    v = geo.geo_verdict(_sec(40, "Avoid"), _st(-1, 1), G, "X")
+    assert v["score"] == 30 and v["call"] == "avoid"
 
 
 def test_insufficient_local_falls_back_to_national():
