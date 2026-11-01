@@ -55,7 +55,7 @@ table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}td,th{te
 <h1>Lending Radar</h1><p class="sub">Pick a place and an industry for a quick, data-backed stance. Decision aid, not a substitute for credit judgment. Internal use only.</p>
 <div id="mapwrap"><div id="mapbar"><select id="mind" aria-label="Colour map by industry"><option value="">All industries (state average)</option></select><button id="mreset" type="button">India view</button></div>
 <svg id="imap" viewBox="0 0 600 640" role="img" aria-label="India lending stance map"><g id="gst"></g><g id="gct"></g></svg><div id="mtip"></div>
-<div class="mleg"><span><i style="background:#22c55e"></i>OK to lend</span><span><i style="background:#f59e0b"></i>Caution</span><span><i style="background:#ef4444"></i>Avoid</span><span><i style="background:#475569"></i>No data</span><span class="q" title="All industries: each state's colour is the simple average of its industry scores in radar.json (national 60% + state 40% blend), banded OK at or above 65, Avoid below 45. With an industry chosen, the state takes that industry's call. City dots: average of the city's hub-industry scores (or the chosen industry if it is a hub there).">How colours work ⓘ</span></div>
+<div class="mleg"><span><i style="background:#22c55e"></i>OK to lend</span><span><i style="background:#f59e0b"></i>Caution</span><span><i style="background:#ef4444"></i>Avoid</span><span><i style="background:#475569"></i>No data</span><span><i style="background:none;border:2px solid #7dd3fc;border-radius:50%"></i>News-adjusted note</span><span class="q" title="All industries: each state's colour is the simple average of its industry scores in radar.json (national 60% + state 40% blend), banded OK at or above 65, Avoid below 45. With an industry chosen, the state takes that industry's call. Fetched notes override: their news-adjusted call replaces the base call for that city and industry; for averages a downgraded pair counts at most 64 (Caution) or 44 (Avoid), and a state takes the worst of its base call and its city notes. City dots: average of the city's hub-industry scores (or the chosen industry if it is a hub there).">How colours work ⓘ</span></div>
 <div class="msrc">Boundaries: DataMeet India states (MIT licence; J&amp;K incl. Ladakh shown as one polygon, per Government of India's external boundary). City positions: GeoNames (CC BY 4.0). Tap a state, then a city.</div></div>
 <div class="pick">
  <div><label for="st">State</label><select id="st"></select></div>
@@ -98,13 +98,23 @@ const MAPNM={'Jammu & Kashmir':'JK','Himachal Pradesh':'HP','Punjab':'PB','Chand
 const MCOL={ok:'#22c55e',caution:'#f59e0b',avoid:'#ef4444',none:'#475569'};let GEO=null,CC={},MV=[0,0,600,640],mapInd='',mapAnim=null;
 const band=sc=>sc==null?'none':sc>=D.geo.ok_at_or_above?'ok':sc<D.geo.avoid_below?'avoid':'caution';
 const prj=([lo,la])=>[(lo-67.5)*Math.cos(23*Math.PI/180)*21.5+12,(37.6-la)*21.5+8];
-function stateScore(k){if(mapInd){const e=D.calls[k+'|'+IND[mapInd].parent];return e&&e[1]!=null?{sc:e[1],b:e[0]||band(e[1]),n:1}:null}
- const v=Object.entries(D.calls).filter(([kk,e])=>kk.startsWith(k+'|')&&e[1]!=null).map(([,e])=>e[1]);if(!v.length)return null;const sc=Math.round(v.reduce((a,b)=>a+b,0)/v.length);return {sc,b:band(sc),n:v.length}}
-function cityScore(c){const ids=mapInd&&c.hubs.includes(mapInd)?[mapInd]:mapInd?[]:c.hubs;const v=ids.map(i=>IND[i]&&D.calls[c.state+'|'+IND[i].parent]).filter(e=>e&&e[1]!=null).map(e=>e[1]);
- if(!v.length)return null;const sc=Math.round(v.reduce((a,b)=>a+b,0)/v.length);return {sc,b:mapInd&&v.length==1?(D.calls[c.state+'|'+IND[mapInd].parent][0]||band(sc)):band(sc)}}
+let OV={};const RK={avoid:0,caution:1,ok:2};
+function eff(call,sc){if(sc==null)return null;if(call=='caution'&&sc>=D.geo.ok_at_or_above)return D.geo.ok_at_or_above-1;if(call=='avoid'&&sc>=D.geo.avoid_below)return D.geo.avoid_below-1;return sc}
+function addOV(st,ct,ind,n){if(!n||!n.call)return;const k=`${st}|${ct}|${ind}`,o=OV[k];const at=(n.at||n.generated_at||'').slice(0,16);if(!o||at>=o.at)OV[k]={call:n.call,base:n.base??n.base_call,score:n.score,at}}
+const ovFor=(st,pred)=>Object.entries(OV).filter(([k])=>k.startsWith(st+'|')).map(([k,v])=>{const [,c,i]=k.split('|');return {c,i,...v}}).filter(pred);
+function stateScore(k){if(mapInd){const e=D.calls[k+'|'+IND[mapInd].parent],ns=ovFor(k,o=>o.i==mapInd);if(!(e&&e[1]!=null)&&!ns.length)return null;
+  let b=e&&e[1]!=null?(e[0]||band(e[1])):null,sc=e?e[1]:null;for(const o of ns){if(b==null||RK[o.call]<RK[b]){b=o.call;sc=eff(o.call,o.score??sc)}}return {sc,b,n:1,adj:ns.length}}
+ let adj=0;const v=Object.entries(D.calls).filter(([kk,e])=>kk.startsWith(k+'|')&&e[1]!=null).map(([kk,e])=>{const par=kk.split('|')[1],ns=ovFor(k,o=>IND[o.i]?.parent==par);let sc=e[1];
+  for(const o of ns){const x=eff(o.call,o.score??e[1]);if(x<sc){sc=x;}adj++}return sc});if(!v.length)return null;const sc=Math.round(v.reduce((a,b)=>a+b,0)/v.length);return {sc,b:band(sc),n:v.length,adj}}
+function cityScore(c){const ids=mapInd&&c.hubs.includes(mapInd)?[mapInd]:mapInd?[]:c.hubs;const nk=id=>OV[`${c.state}|${c.id}|${id}`];
+ if(mapInd&&nk(mapInd)&&!ids.length)ids.push(mapInd);
+ const r=ids.map(i=>{const o=nk(i),e=IND[i]&&D.calls[c.state+'|'+IND[i].parent];if(o)return {sc:eff(o.call,o.score??(e&&e[1])),b:o.call};return e&&e[1]!=null?{sc:e[1],b:e[0]||band(e[1])}:null}).filter(Boolean);
+ if(!r.length)return null;if(r.length==1)return r[0];const sc=Math.round(r.reduce((a,x)=>a+x.sc,0)/r.length);return {sc,b:band(sc)}}
+const cityNotes=c=>Object.entries(OV).filter(([k])=>k.startsWith(`${c.state}|${c.id}|`)).map(([k,v])=>({i:k.split('|')[2],...v}));
 function ringD(r){return r.map((p,i)=>(i?'L':'M')+prj(p).map(x=>x.toFixed(1)).join(',')).join('')+'Z'}
 function geomD(g){const ps=g.type=='MultiPolygon'?g.coordinates:[g.coordinates];return ps.map(p=>p.map(ringD).join('')).join('')}
-async function initMap(){try{[GEO,CC]=await Promise.all([fetch('data/india_states.geo.json').then(r=>r.json()),fetch('data/city_coords.json').then(r=>r.json()).then(j=>j.coords)])}catch(e){$('#mapwrap').style.display='none';return}
+async function initMap(){if(!FCFG)FCFG=await fetch('data/fetch_config.json?'+Date.now()).then(r=>r.json()).catch(()=>({}));
+ let IX=[];try{[GEO,CC,...IX]=await Promise.all([fetch('data/notes/index.json?'+Date.now()).then(r=>r.ok?r.json():{}).catch(()=>({})),FCFG.worker_url?fetch(FCFG.worker_url+'/index').then(r=>r.ok?r.json():{}).catch(()=>({})):{},fetch('data/india_states.geo.json').then(r=>r.json()),fetch('data/city_coords.json').then(r=>r.json()).then(j=>j.coords)]).then(a=>[a[2],a[3],a[0],a[1]]);IX.forEach(x=>Object.entries((x&&x.notes)||{}).forEach(([k,v])=>{const [a,b,c]=k.split('|');addOV(a,b,c,v)}))}catch(e){$('#mapwrap').style.display='none';return}
  const ms=$('#mind');ms.innerHTML+=[...new Set(D.industries.map(i=>i.group))].map(g=>`<optgroup label="${esc(g)}">`+D.industries.filter(i=>i.group==g).map(i=>`<option value="${i.id}">${esc(i.name)}</option>`).join('')+'</optgroup>').join('');
  ms.onchange=()=>{mapInd=ms.value;if(mapInd){sel.ind=mapInd;$('#ind').value=IND[mapInd].name;render()}else paintMap()};
  $('#mreset').onclick=()=>{zoomTo([0,0,600,640]);mapSt=null;paintMap()};
@@ -112,8 +122,8 @@ async function initMap(){try{[GEO,CC]=await Promise.all([fetch('data/india_state
  const svg=$('#imap'),tip=$('#mtip');
  const show=(ev,h)=>{tip.innerHTML=h;tip.style.opacity=1;const r=$('#mapwrap').getBoundingClientRect();let x=ev.clientX-r.left+12,y=ev.clientY-r.top+12;if(x>r.width-235)x=ev.clientX-r.left-240;tip.style.left=x+'px';tip.style.top=y+'px'};
  svg.addEventListener('pointermove',ev=>{const t=ev.target;if(t.tagName=='path'){const k=t.dataset.k,s=k&&stateScore(k),nm=k=='JK'?'Jammu & Kashmir and Ladakh':(k&&D.states[k]?.name)||t.dataset.n;
-   show(ev,`<b>${esc(nm)}</b><br>${s?`${LBL[s.b]} · score ${s.sc}${mapInd?' · '+esc(IND[mapInd].name):` · avg of ${s.n} industries`}`:'No data'}`)}
-  else if(t.tagName=='circle'){const c=CITY[t.dataset.c],s=cityScore(c);show(ev,`<b>${esc(c.name)}</b><br>${s?LBL[s.b]+' · score '+s.sc:'No data for this industry'}<br><span style="color:#94a3b8">Hubs: ${c.hubs.map(h=>esc(IND[h]?.name.split(' (')[0]||h)).join(', ')}</span>`)}
+   show(ev,`<b>${esc(nm)}</b><br>${s?`${LBL[s.b]} · score ${s.sc}${mapInd?' · '+esc(IND[mapInd].name):` · avg of ${s.n} industries`}`:'No data'}${s&&s.adj?`<br><span style="color:#7dd3fc">Includes ${s.adj} news-adjusted note${s.adj>1?'s':''}</span>`:''}`)}
+  else if(t.tagName=='circle'){const c=CITY[t.dataset.c],s=cityScore(c);show(ev,`<b>${esc(c.name)}</b><br>${s?LBL[s.b]+' · score '+s.sc:'No data for this industry'}${cityNotes(c).map(o=>`<br><span style="color:#7dd3fc">◎ ${esc(IND[o.i]?.name.split(' (')[0]||o.i)}: ${LBL[o.call]} — news-adjusted ${esc(o.at.slice(0,10))}</span>`).join('')}<br><span style="color:#94a3b8">Hubs: ${c.hubs.map(h=>esc(IND[h]?.name.split(' (')[0]||h)).join(', ')}</span>`)}
   else tip.style.opacity=0});
  svg.addEventListener('pointerleave',()=>tip.style.opacity=0);
  svg.addEventListener('click',ev=>{const t=ev.target;
@@ -124,11 +134,11 @@ let mapReady=false,mapSt=null;
 function focusState(k,instant){const ps=[...document.querySelectorAll(`#gst path[data-k="${k}"]`)];if(!ps.length)return;let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;ps.forEach(p=>{const b=p.getBBox();x0=Math.min(x0,b.x);y0=Math.min(y0,b.y);x1=Math.max(x1,b.x+b.width);y1=Math.max(y1,b.y+b.height)});
  let w=x1-x0,h=y1-y0,pad=Math.max(w,h)*.35+20;const W=Math.max(w+pad*2,h*600/640+pad*2,150),H=W*640/600;mapSt=k;zoomTo([(x0+x1)/2-W/2,(y0+y1)/2-H/2,W,H],instant);paintMap()}
 function zoomTo(v,instant){cancelAnimationFrame(mapAnim);const a=MV.slice(),t0=performance.now(),svg=$('#imap');const step=t=>{const k=instant?1:Math.min(1,(t-t0)/550),e=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;MV=a.map((x,i)=>x+(v[i]-x)*e);svg.setAttribute('viewBox',MV.join(' '));
- const s=MV[2]/600;document.querySelectorAll('#gct circle').forEach(c=>c.setAttribute('r',(c.classList.contains('on')?7:5)*Math.max(s,.18)));document.querySelectorAll('#gst path').forEach(p=>p.style.strokeWidth='');if(k<1)mapAnim=requestAnimationFrame(step)};mapAnim=requestAnimationFrame(step)}
+ const s=MV[2]/600;document.querySelectorAll('#gct circle').forEach(c=>c.setAttribute('r',(c.classList.contains('on')?7:5)*Math.max(s,.18)*(c.classList.contains('ring')?1.75:1)));document.querySelectorAll('#gst path').forEach(p=>p.style.strokeWidth='');if(k<1)mapAnim=requestAnimationFrame(step)};mapAnim=requestAnimationFrame(step)}
 function paintMap(){if(!mapReady)return;if($('#mind').value!==mapInd)$('#mind').value=mapInd;
  document.querySelectorAll('#gst path').forEach(p=>{const k=p.dataset.k,s=k&&stateScore(k);p.style.fill=MCOL[s?s.b:'none'];p.classList.toggle('on',!!mapSt&&k==sel.st);p.classList.toggle('dim',!!mapSt&&k!=sel.st)});
  const st=mapSt||null,s=MV[2]/600;const cs=D.cities.filter(c=>CC[c.id]&&(!st||c.state==st)&&(!mapInd||c.hubs.includes(mapInd)||c.state==st));
- $('#gct').innerHTML=cs.map(c=>{const p=prj(CC[c.id]),sc=cityScore(c),on=c.id==sel.ct&&c.state==sel.st;return `<circle data-c="${c.id}" cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="${((on?7:5)*Math.max(s,.18)).toFixed(2)}" class="${on?'on':''}" style="fill:${MCOL[sc?sc.b:'none']}"></circle>`}).join('')}
+ $('#gct').innerHTML=cs.map(c=>{const p=prj(CC[c.id]),sc=cityScore(c),on=c.id==sel.ct&&c.state==sel.st;return `<circle data-c="${c.id}" cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="${((on?7:5)*Math.max(s,.18)).toFixed(2)}" class="${on?'on':''}" style="fill:${MCOL[sc?sc.b:'none']}"></circle>${cityNotes(c).length?`<circle class="ring" cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="${((on?7:5)*Math.max(s,.18)*1.75).toFixed(2)}" style="fill:none;stroke:#7dd3fc;stroke-width:1.6;pointer-events:none"></circle>`:''}`}).join('')}
 function fillCities(want){const cs=D.cities.filter(c=>c.state==sel.st).sort((a,b)=>a.name.localeCompare(b.name));$('#ct').innerHTML=cs.map(c=>`<option value="${c.id}">${esc(c.name)}</option>`).join('');sel.ct=cs.find(c=>c.id==want)?want:(cs[0]?.id||'');$('#ct').value=sel.ct}
 const mon=iso=>{if(!iso)return'';const m=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return m[+iso.slice(5,7)-1]+'-'+iso.slice(0,4)};
 function spark(pts,key,lab){if(!pts||pts.length<2)return'';const v=pts.map(p=>p[key]),mx=Math.max(...v.map(Math.abs),1);return `<div class="spark" aria-label="${esc(lab)}">${pts.map(p=>`<i class="${p[key]<0?'neg':''}" style="height:${Math.max(6,Math.abs(p[key])/mx*100)}%" title="${esc(p.period)}: ${p[key]}%"></i>`).join('')}</div><div class="meta">${pts.map(p=>esc(p.period)+' '+p[key]+'%').join(' · ')}</div>`}
@@ -148,11 +158,11 @@ async function doFetch(nk){const m=$('#fmsg');if(!FCFG)FCFG=await fetch('data/fe
   window.open(`https://github.com/cakashoza-cmyk/india-regime-engine/issues/new?title=${t}&labels=fetch&body=${b}`,'_blank','noopener');}
  else{m.innerHTML='<span class="spin"></span> Researching local news… ~30–40 s <span id="fel"></span>';const t1=Date.now();const tk=setInterval(()=>{const e=$('#fel');if(!e){clearInterval(tk);return}e.textContent='('+Math.round((Date.now()-t1)/1000)+' s)'},1000);
   try{const r=await fetch(FCFG.worker_url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({state:st,city:ct,ind})});const j=await r.json().catch(()=>({}));clearInterval(tk);
-   if(r.ok&&j.note){NOTES[nk]=j.note;render();return}
+   if(r.ok&&j.note){NOTES[nk]=j.note;addOV(st,ct,ind,j.note);render();paintMap();return}
    m.textContent=j.error||('Request refused ('+r.status+')');return}catch(e){clearInterval(tk);m.textContent='Could not reach the fetch service.';return}}
  m.textContent='Submit the GitHub issue that just opened. The note appears here in about 3–8 minutes; this page checks automatically.';const t0=Date.now();
  const poll=async()=>{const n=await fetch(`data/notes/${nk}.json?`+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null);
-  if(n&&n.generated_at!==before){NOTES[nk]=n;render();return}
+  if(n&&n.generated_at!==before){NOTES[nk]=n;addOV(st,ct,ind,n);render();paintMap();return}
   if(Date.now()-t0>(FCFG.poll_max_minutes||12)*60000){m.textContent='Still running — check back in a few minutes.';return}
   setTimeout(poll,(FCFG.poll_seconds||20)*1000)};setTimeout(poll,30000)}
 function v7html(x,ind,ct){const sup=i=>x.articles[i-1]?`<sup><a href="${esc(x.articles[i-1].url)}" target="_blank" rel="noopener">[${i}]</a></sup>`:'';
@@ -195,7 +205,7 @@ function v4html(v,b){const cite=t=>esc(t).replace(/\[(\d+(?:[,\s]*\d+)*)\]/g,(m,
  <p class="meta">News vs data: <b>${esc(b.news_direction||'')}</b>${b.news_direction_why?' — '+esc(b.news_direction_why):''} · written ${esc(v.generated_ist)}</p>
  <h3>Market signal: listed peers</h3><p>${esc(b.market_read||'')}</p><table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(n.r1m)}</td><td>${f(n.r3m)}</td><td>${f(n.r12m)}</td></tr>${rows}</table><p class="meta">Price change to ${esc(n.asof)} close. ${esc(m.source)}. Market mood only; not used in the score.</p>`}
 function render(){const st=D.states[sel.st],ct=CITY[sel.ct],ind=IND[sel.ind];history.replaceState(null,'',`?state=${sel.st}&city=${sel.ct}${ind?'&ind='+ind.id:''}`);if(mapReady){if(mapInd&&sel.ind!==mapInd)mapInd=sel.ind;if(mapSt&&mapSt!==sel.st)focusState(sel.st);else paintMap()}
- if(ind){const nk=`${sel.st}_${sel.ct}_${ind.id}`;if(!(nk in NOTES)){NOTES[nk]=null;loadNote(sel.st,sel.ct,ind.id).then(n=>{NOTES[nk]=n;if(n&&`${sel.st}_${sel.ct}_${sel.ind}`==nk)render()})}
+ if(ind){const nk=`${sel.st}_${sel.ct}_${ind.id}`;if(!(nk in NOTES)){NOTES[nk]=null;loadNote(sel.st,sel.ct,ind.id).then(n=>{NOTES[nk]=n;if(n){addOV(sel.st,sel.ct,ind.id,n);paintMap()}if(n&&`${sel.st}_${sel.ct}_${sel.ind}`==nk)render()})}
   const n=NOTES[nk];if(n&&n.narrative&&n.narrative.length){$('#result').innerHTML=v7html(n,ind,ct)+fetchBar(nk,n);return}}
  if(!ind){$('#result').innerHTML='<div class="card empty">Choose an industry to see the stance.</div>';return}
  const sec=D.sectors[ind.parent],e=D.calls[sel.st+'|'+ind.parent]||[null],[base,score,nat,loc,ins,rs]=e;

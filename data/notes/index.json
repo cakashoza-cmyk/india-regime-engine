@@ -1,0 +1,70 @@
+{
+"notes": {
+"GJ|gj_ahmedabad|pharma": {
+"call": "caution",
+"base": "caution",
+"score": 46,
+"at": "2026-11-01 23:31 IST"
+},
+"GJ|gj_alang|shipbuilding": {
+"call": "caution",
+"base": "ok",
+"score": 90,
+"at": "2026-11-01 23:02 IST"
+},
+"GJ|gj_ankleshwar|chemicals_dyes": {
+"call": "avoid",
+"base": "avoid",
+"score": 43,
+"at": "2026-11-01 22:43 IST"
+},
+"GJ|gj_bharuch|railway_wagons": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-01 23:12 IST"
+},
+"GJ|gj_jamnagar|nonferrous_brass": {
+"call": "ok",
+"base": "ok",
+"score": 88,
+"at": "2026-11-01 22:59 IST"
+},
+"GJ|gj_morbi|ceramics": {
+"call": "caution",
+"base": "ok",
+"score": 71,
+"at": "2026-11-01 20:36 IST"
+},
+"GJ|gj_rajkot|auto_components": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-01 23:11 IST"
+},
+"GJ|gj_rajkot|engineering": {
+"call": "ok",
+"base": "ok",
+"score": 78,
+"at": "2026-11-01 22:33 IST"
+},
+"GJ|gj_surat|diamonds": {
+"call": "caution",
+"base": "caution",
+"score": 51,
+"at": "2026-11-01 22:47 IST"
+},
+"GJ|gj_surat|mmf_textiles": {
+"call": "caution",
+"base": "ok",
+"score": 79,
+"at": "2026-11-01 20:45 IST"
+},
+"GJ|gj_vapi|chemicals_dyes": {
+"call": "avoid",
+"base": "avoid",
+"score": 43,
+"at": "2026-11-01 20:45 IST"
+}
+}
+}

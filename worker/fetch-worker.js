@@ -120,6 +120,9 @@ export default {
     const out = (code, body) => new Response(JSON.stringify(body), { status: code, headers: { ...cors, "Content-Type": "application/json" } });
     if (req.method === "OPTIONS") return new Response(null, { headers: cors });
     const url = new URL(req.url);
+    if (req.method === "GET" && url.pathname === "/index") {
+      return new Response((await env.RL.get("idx")) || '{"notes":{}}', { headers: { ...cors, "Content-Type": "application/json", "Cache-Control": "max-age=15" } });
+    }
     if (req.method === "GET" && url.pathname === "/note") {
       const s = url.searchParams, state = s.get("state") || "", city = s.get("city") || "", ind = s.get("ind") || "";
       if (!/^[A-Z]{2}$/.test(state) || !ID.test(city) || !ID.test(ind)) return out(400, { error: "bad input" });
@@ -142,6 +145,9 @@ export default {
     catch (err) { await env.RL.delete(pair); return out(err.code || 502, { error: "Could not build the note: " + String(err.message).slice(0, 120) }); }
     const nk = `${state}_${city}_${ind}`;
     await env.RL.put(`note:${nk}`, JSON.stringify(note));
+    if (note.call) { const idx = (await env.RL.get("idx", "json")) || { notes: {} };
+      idx.notes[`${state}|${city}|${ind}`] = { call: note.call, base: note.base_call, score: note.score, at: note.generated_at };
+      await env.RL.put("idx", JSON.stringify(idx)); }
     ctx.waitUntil(commit(env, `data/notes/${nk}.json`, note).catch(() => {}));
     return out(200, { ok: true, note });
   },

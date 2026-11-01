@@ -50,7 +50,7 @@ jobs:
         if: steps.p.outputs.ok == 'true'
         run: |
           git config user.name "regime-engine-bot"; git config user.email "actions@users.noreply.github.com"
-          git add data/notes/ data/cache/
+          python3 engine/notes_index.py; git add data/notes/ data/cache/
           git diff --cached --quiet || git commit -m "note ${{ steps.p.outputs.st }}/${{ steps.p.outputs.ct }}/${{ steps.p.outputs.ind }} (issue #${{ github.event.issue.number }})"
           for i in 1 2 3 4 5; do git pull --rebase origin main && git push && break; sleep 5; done
       - name: Reply and close
