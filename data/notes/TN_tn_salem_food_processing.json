@@ -1,0 +1,154 @@
+{
+ "key": "tn_salem|food_processing",
+ "state": "TN",
+ "city": "tn_salem",
+ "ind": "food_processing",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 43,
+ "nudged_by_news": false,
+ "verdict": "Avoid new food-processing exposure in Salem for now; lend only to branded, value-added processors with clean export labelling and tight monthly stock-and-receivable reporting.",
+ "title": "Salem Food Processing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Salem food processor buys seasonal agricultural inputs, converts them into packaged spices, frozen or dairy products, and sells into retail and export channels, so cash is tied up in raw stock and receivables long before it returns.** The largest cost line is raw material, and ICRA flags that any fluctuation in key raw material prices hits the cost structure directly [8]; for processed gherkins, yield and pricing swing with agro-climatic conditions [9]. Pricing power sits with branded, value-added players, not commodity traders, and edible-oil style businesses show low, volatile profitability from competition and input swings [10]. So when a proposal lands, check the share of revenue from branded versus traded product; if trading dominates, ask for the customer-wise margin split.",
+  "## What has changed now\n**The local signal is weak: Tamil Nadu GST collections are -3.2% Apr-to-date against India +6.1%, 9.3 pp slower [D], and the data-based call for this cluster is AVOID at 43 [D].** Nationally, bank credit is running +25.3% YoY against output of +5.1%, a gap of +20.2 pp [D], which tells you leverage is building faster than real output. On the ground, a Salem-branded spice packer, Salem Foods, had two spice SKUs recalled in Canada in March 2026 for undeclared wheat and gluten, sold through Amazon [1][2][3]. That is a labelling and quality-control failure, not a demand failure, but it is exactly the kind of event that freezes an export line and a buyer relationship. Note the sources say little else specific to Salem city, so lean on first principles and peers.",
+  "## Where the growth is\n**Peer results show demand is real in value-added dairy and frozen foods: Milky Mist Q2 FY27 revenue rose 42% to Rs 1,089.4 crore with EBITDA margin at 15.17% [4][5], Dodla Q2 FY27 revenue rose 17.4% to INR1,196 crores [6], and Foods & Inns frozen food volume grew about 39% YoY in Q2 FY26 [7].** Pursue Salem borrowers who are moving from loose commodity to branded, packaged, value-added lines, and exporters with documented label compliance and a single, audited overseas buyer. Avoid pure commission traders, unbranded loose-spice repackers, and anyone whose export book depends on one recall-prone SKU.",
+  "## How to grow safely\n**Structure against the working-capital cycle, not the balance sheet: cash credit sized to stock plus receivables minus payables, with a stock-and-receivable statement every month.** Take monthly stock statements, quarterly buyer-wise sales, and a covenant that any product recall or foreign regulator notice is reported within seven days. Ask for the label-artwork approval trail before releasing export limits; if the borrower cannot show it, ask for the QA sign-off process in writing. Collect from customer the actual raw-material-to-cash cycle days, since no source gives it.",
+  "## Early-warning signs\n**Watch for receivable days stretching while sales stay flat, stock ageing past one season, and any repeat of a labelling or allergen miss.** A recall notice from any foreign regulator [1][2][3] should trigger an immediate limit freeze and a stock audit. Falling branded share toward trading [10], or margin compression from input swings [8][9], means step back to secured, invoice-backed lending only."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-receivable statement",
+   "Stock ageing beyond one season -> freeze fresh drawing power and audit godown"
+  ],
+  [
+   "Quarterly buyer-wise sales mix",
+   "Branded share falling below half of revenue -> reprice or reduce limit"
+  ],
+  [
+   "Rolling 7-day recall/regulatory notice check",
+   "Any foreign regulator notice -> freeze export limits, demand QA trail"
+  ],
+  [
+   "Monthly GST filing vs bank turnover",
+   "GST turnover trailing bank credits -> ask for reconciliation before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Salem Foods Canada recall plus Tamil Nadu GST at -3.2% versus India +6.1% [D].",
+ "articles": [
+  {
+   "title": "含未申报过敏原 加拿大召回两款香料",
+   "url": "https://news.foodmate.net/2026/03/wap_739078.html?moduleid=21",
+   "date": "2026-03-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Salem Foods香料產品需回收 未標示小麥及麩質或致過敏風險",
+   "url": "https://www.fm961.com/news_detail.php?i=149104",
+   "date": "2026-03-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Salem Foods 7 Spices and Chicken Shawarma Spices sold in Canada through Amazon recalled",
+   "url": "https://www.yorkregion.com/news/canada-product-recall-7-spices-chicken-shawarma-spices/article_62b7ab14-01cd-5f3a-bc38-ab1b89335300.html#tncms-source=article-nav-next",
+   "date": "2026-03-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Milky Mist shares in focus after Q2 PAT soars 175%; firm says festive season could create favourable demand - The Economic Times",
+   "url": "https://m.economictimes.com/markets/stocks/news/milky-mist-shares-in-focus-after-q2-pat-soars-175-firm-says-festive-season-could-create-favourable-demand/amp_articleshow/135341778.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Milky Mist shares in focus after Q2 PAT soars 175%; firm says festive season could create favourable demand",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/milky-mist-shares-in-focus-after-q2-pat-soars-175-firm-says-festive-season-could-create-favourable-demand/articleshow/135341778.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dodla Dairy Ltd (BOM:543306) (Q2 2027) Earnings Call Highlights: Revenue Jumps 17. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/dodla-dairy-ltd-bom543306-q2-2027-earnings-call-highlights-revenue-jumps-17--4917924",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ... By GuruFocus - Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ...",
+   "url": "https://ca.investing.com/news/company-news/foods--inns-ltd-bom507552-q2-2026-earnings-call-highlights-strong-frozen-food-growth--4337253#1",
+   "date": "2025-11-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 26, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=145235#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 07, 2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=132285#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 29, 2024(Revised)",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=125143#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 43 (national 55 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Bank credit +25.3% YoY vs output +5.1% (gap +20.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "Tamil Nadu: electricity demand +9.8% Apr-to-date vs India +9.5% (0.3 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

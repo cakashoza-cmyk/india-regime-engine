@@ -1,0 +1,150 @@
+{
+ "key": "pb_ludhiana|hosiery_knitwear",
+ "state": "PB",
+ "city": "pb_ludhiana",
+ "ind": "hosiery_knitwear",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 30,
+ "nudged_by_news": false,
+ "verdict": "Avoid new hosiery and knitwear exposure in Ludhiana until raw-material costs and the credit-to-output gap correct; lend only to branded, export-diversified converters with tight monthly monitoring.",
+ "title": "Ludhiana Hosiery & Knitwear: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nLudhiana spins, knits, dyes and stitches winterwear and innerwear, selling to wholesale markets across India and to exporters. **Cash turns on the dyeing and stitching cycle, not on the knitting machines** — value sits in the finished garment and in the buyer relationship, while the fixed assets are modest and largely reusable. The city is a major winterwear hub supplying markets across India [2].\n\n## What has changed now\n**Raw-material costs have risen about 40 per cent in recent months, squeezing converters who cannot pass it on** [2]. Nationally, IIP for NIC 14 (wearing apparel) is down 7.4% YoY and 5.6% Apr-to-date [D], and exports are down 6.2% Apr-to-date in USD [D]. Bank credit to the sector is up 23.3% YoY against that output fall — a 28.9 pp gap [D]. So when a proposal lands, check whether the borrower is funding a stock build with borrowed money; if inventory days are rising while sales fall, ask why the drawing power is still being renewed.\n\n## Where the growth is\n**Pursue branded and mid-premium converters with export diversification.** Peer results show the split: Lux grew revenue 13% with 17% volume growth and export revenue up 52% into GCC and Africa [5]; Rupa grew 10.4% YoY in Q1 FY27 [7]; Dollar posted 22.1% YoY growth [7]. Rupa's Q4 FY26 EBITDA margin was 12.5% on 9% volume growth, with 4-5% price increases taken [4]. **Avoid pure wholesale winterwear converters selling only into North India** — they carry the full raw-material shock with no pricing power. Note the Crisil 10-12% growth call is from December 2024 [9][11] and is now stale.\n\n## How to grow safely\n**Structure against the working-capital cycle, not the fixed assets.** Take monthly stock and debtor statements, and a monthly dyeing-job-work register to confirm throughput. Cap drawing power at a realistic inventory-and-receivables base; if the borrower cannot produce the register, ask for the job-work bills. ICRA's textile methodology flags the sector as fixed- and working-capital intensive with high funding needs [10]. Punjab received just 0.3% of the Centre's textile skilling funds [3], so do not underwrite on promised subsidies. Local dyeing units are running on paddy straw amid fuel shortages [1] — treat energy continuity as a live risk, not a footnote.\n\n## Early-warning signs\n- **Monthly stock statement (monthly):** inventory days rising while sales fall -> freeze enhancement, re-price.\n- **GST returns vs bank turnover (monthly):** gap widening -> ask for buyer-wise sales ledger.\n- **Raw-material cost pass-through (quarterly):** price hikes not sticking -> shift to secured, shorter-tenor limits.\n- **Export order book (quarterly):** GCC/Africa orders thinning -> reduce limit."
+ ],
+ "watch": [
+  [
+   "Monthly stock and debtor statement",
+   "inventory days up while sales down -> freeze enhancement and re-price"
+  ],
+  [
+   "GST returns vs bank turnover",
+   "gap widening -> demand buyer-wise sales ledger"
+  ],
+  [
+   "Quarterly price realisation",
+   "raw-material pass-through failing -> move to secured shorter-tenor limits"
+  ],
+  [
+   "Quarterly export order book",
+   "GCC/Africa orders thinning -> cut limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Raw-material costs up ~40% with national output and exports falling; credit growing far ahead of output.",
+ "articles": [
+  {
+   "title": "Paddy Straw Helps Keep Ludhiana’s Textile Dyeing Units Operational Amid Global Fuel Shortages",
+   "url": "https://textilevaluechain.in/paddy-straw-helps-keep-ludhianas-textile-dyeing-units-operational-amid-global-fuel-shortages",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "POLITICS PUNJAB TV",
+   "url": "http://politicspunjab.one/business/Ludhiana-Hosiery-Industry-Faces-Rising-Raw-Material-Costs-as-Manufacturers-Report-Financial-Pressure",
+   "date": "2026-10-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Punjab gets just 0.3% of Centre’s textile skilling funds; No special package for cotton growers: KBS Sidhu",
+   "url": "https://babushahi.com/business.php?id=228463&headline=Punjab-gets-just-0.3%-of-Centre%e2%80%99s-textile-skilling-funds;-No-special-package-for-cotton-growers:-KBS-Sidhu",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Rupa & Company Limited",
+   "url": "https://www.perplexity.ai/app/finance/RUPA.NS?comparing=RUPA.NS%2CDPABHUSHAN.NS%2CGOCOLORS.NS%2CCANTABIL.NS%2CSTYLEBAAZA.NS%2CMUFTI.NS&preset=peers&symbol=KALAMANDIR.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India hosiery industry trends",
+   "url": "https://textileinsights.in/tag/india-hosiery-industry-trends/#tredingcarousel",
+   "date": "2026-10-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dollar Industries Limited",
+   "url": "https://www.perplexity.ai/app/finance/DOLLAR.NS?comparing=LOVABLE.BO%2COKPLA.BO%2C1581.HK%2C1271.HK%2C1556.HK%2CORN%2CNWH.AX&preset=peers&symbol=MITSU.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Indian Textile Industry Trends For 2024 & Beyond",
+   "url": "https://textileinsights.in/category/financial-results/page/2/#tredingcarousel",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 1, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=139384#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Hosiery industry set for 10-12% growth driven by rural demand and exports",
+   "url": "https://www.apparelviews.com/hosiery-industry-set-for-10-12-growth-driven-by-rural-demand-and-exports",
+   "date": "2024-12-06",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hosiery makers to stitch 10-12% revenue growth this fiscal",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2024/12/hosiery-makers-to-stitch-10-12percent-revenue-growth-this-fiscal.html",
+   "date": "2024-12-04",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 30 (national 0 x 0.6 + Punjab 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 14 output -7.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -5.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -6.2% Apr-to-date in USD (Rs 69,301 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +23.3% YoY vs output -5.6% (gap +28.9 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

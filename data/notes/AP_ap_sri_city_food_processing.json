@@ -1,0 +1,154 @@
+{
+ "key": "ap_sri_city|food_processing",
+ "state": "AP",
+ "city": "ap_sri_city",
+ "ind": "food_processing",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 53,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to value-added dairy and frozen-food processors with contracted offtake and tight monthly stock-and-receivable reporting; avoid commodity edible-oil and gherkin traders whose margins ride on raw-material swings.",
+ "title": "Sri City Food Processing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Food processing here is a conversion business: buy farm output, chill or freeze it fast, and sell it before it spoils.** Cash is made on throughput and mix, not on price. Raw material is the largest cost line for FMCG firms, so any price swing hits margin directly [8]. Rating reports on gherkin and edible-oil processors show the same two levers: agro-climatic yield and government policy on agri trade [9][10]. **So when a proposal lands, check the offtake contract and the raw-material sourcing map first; if either is verbal, ask for the written agreement and the last two seasons' procurement invoices.**",
+  "## Where value and cash sit\n**Value sits in branded, value-added lines; cash sits in the working-capital cycle.** Milky Mist's Q2 FY27 revenue rose 42% to Rs 1,089.4 crore with EBITDA margin at 15.17% versus 13.95%, on value-added dairy mix [4][5]. Dodla's Q2 FY27 revenue was Rs 1,196 crore, up 17.4%, but EBITDA margin was only 5.4% and packaging material costs rose 41.6% [6]. **That gap is the whole credit story: branded mix earns margin, commodity liquid milk does not.** Foods & Inns shows frozen-food volume up about 39% year-over-year in Q2 FY26, but that source is dated 2025-11-24 and is old [7]. **So when a proposal lands, check the product mix and packaging cost line; if packaging is above a fifth of other expenses, ask for the pass-through clause.**",
+  "## What has changed now\n**The local demand signal is mixed and the data pack says Caution.** Andhra Pradesh GST collections fell 0.2% Apr-to-date against India's +6.1%, a 6.3 pp gap [D]. Electricity demand rose 18.1% Apr-to-date against India's +9.5% [D]. Nationally, bank credit grew 25.3% YoY against output of 5.1% [D]. **Credit is running far ahead of output, so pricing power is thin and lenders are competing for the same borrowers.** The Tirupati CII meet drew Rs 11,732 crore of MoUs across Tirupati, Chittoor, Annamayya, YSR Kadapa and SPSR Nellore, with 20,879 jobs expected [1][2]. **Those are proposals, not disbursements; treat them as pipeline, not proof.**",
+  "## Where to grow, and how to grow safely\n**Pursue value-added dairy, frozen vegetables and ready-to-cook processors with named buyers and cold-chain assets in Sri City.** Avoid pure commodity edible-oil and gherkin traders; ICRA flags their margin volatility and policy exposure [9][10]. **Structure term loans against cold-chain capex only, with a moratorium matched to the commissioning date.** Take monthly stock statements, ageing of receivables and a quarterly raw-material price chart.",
+  "## Early-warning signs\n**Watch the gap between revenue growth and EBITDA margin.** Milky Mist grew revenue 42% and still improved margin to 15.17% [4]; a borrower growing fast while margin slips is buying volume. **Watch packaging and power costs monthly; Dodla's 41.6% packaging jump shows how fast a cost line moves [6].** Watch GST filings against bank credits, and watch cold-storage capacity utilisation. **If utilisation falls below the level at sanction for two quarters, ask for the buyer list and reprice.**"
+ ],
+ "watch": [
+  [
+   "Quarterly EBITDA margin",
+   "Margin falls two quarters running while revenue grows -> reprice or seek promoter support"
+  ],
+  [
+   "Monthly GST returns vs bank credits",
+   "GST turnover trails bank credits by more than a tenth -> ask for the sales register"
+  ],
+  [
+   "Quarterly cold-storage utilisation",
+   "Utilisation below sanction level for two quarters -> ask for buyer list and reprice"
+  ],
+  [
+   "Monthly packaging and power cost",
+   "Packaging cost rises above the pass-through threshold -> ask for the offtake price revision"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "AP GST collections fell 0.2% Apr-to-date against India's +6.1%, a local demand stress signal.",
+ "articles": [
+  {
+   "title": "Rs 11,732 crore MoUs at Tirupati CII meet - Andhra Pradesh",
+   "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Oct/27/rs-11732-crore-mous-at-tirupati-cii-meet#1",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Andhra Pradesh Secures Rs 11,732 Crore Investment Proposals At Tirupati Regional Conference",
+   "url": "https://swarajyamag.com/news-brief/andhra-pradesh-secures-rs-11732-crore-investment-proposals-at-tirupati-regional-conference",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "New & Upcoming Projects in Food Processing Projects in Andhra Pradesh",
+   "url": "https://newprojectstracker.com/projects-india/food-processing/andhra-pradesh",
+   "date": "2026-09-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Milky Mist shares in focus after Q2 PAT soars 175%; firm says festive season could create favourable demand - The Economic Times",
+   "url": "https://m.economictimes.com/markets/stocks/news/milky-mist-shares-in-focus-after-q2-pat-soars-175-firm-says-festive-season-could-create-favourable-demand/amp_articleshow/135341778.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Milky Mist shares in focus after Q2 PAT soars 175%; firm says festive season could create favourable demand",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/milky-mist-shares-in-focus-after-q2-pat-soars-175-firm-says-festive-season-could-create-favourable-demand/articleshow/135341778.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dodla Dairy Ltd (BOM:543306) (Q2 2027) Earnings Call Highlights: Revenue Jumps 17. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/dodla-dairy-ltd-bom543306-q2-2027-earnings-call-highlights-revenue-jumps-17--4917924",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ... By GuruFocus - Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ...",
+   "url": "https://ca.investing.com/news/company-news/foods--inns-ltd-bom507552-q2-2026-earnings-call-highlights-strong-frozen-food-growth--4337253#1",
+   "date": "2025-11-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 26, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=145235#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 07, 2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=132285#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 29, 2024(Revised)",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=125143#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 53 (national 55 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: GST collections -0.2% Apr-to-date vs India +6.1% (6.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Andhra Pradesh: electricity demand +18.1% Apr-to-date vs India +9.5% (8.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +25.3% YoY vs output +5.1% (gap +20.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

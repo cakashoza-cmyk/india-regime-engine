@@ -1,0 +1,154 @@
+{
+ "key": "tn_sivakasi|fireworks_matches",
+ "state": "TN",
+ "city": "tn_sivakasi",
+ "ind": "fireworks_matches",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 23,
+ "nudged_by_news": false,
+ "verdict": "Avoid new unsecured or thinly-collateralised exposure to Sivakasi fireworks and match units; lend only to the few large, low-geared, advance-funded manufacturers with clean green-cracker approvals, and only on tight cash-flow structures.",
+ "title": "Sivakasi fireworks & safety matches: a note to the credit manager",
+ "narrative": [
+  "Cash sits in finished stock and in dealer receivables, not in the plant. **Manufacturing cost has risen 15-25 per cent this year on aluminium powder and colour salts [1], and several smaller units have already shut [1].** So when a proposal lands, check the raw-material cost pass-through clause in the order book; if pricing is fixed for the season, ask how the 15-25 per cent cost rise is absorbed. ## Where cash and value actually sit\n**The peer rating file shows collection periods of 302 days in FY21, 236 in FY22 and 182 in FY23, improving only because green-cracker orders were booked against advance [10].** That is the whole credit story: the good borrower is the one who has moved from extended dealer credit to advance. **The same file shows gearing of 0.03x and interest cover of 17.72x in FY21, supported by free cash of ₹81.68 crore [9]** — but that is a large, old, dated balance sheet, so treat it as a benchmark, not a template. For any Sivakasi proposal, collect from customer the current receivable days, advance share of order book and gearing; if receivable days exceed the FY23 peer level of 182 [10], ask for the dealer-wise ageing and the security behind it. ## What has broken now\n**This season has cost inflation, labour shortage, unseasonal rain and a delayed Supreme Court ruling on green crackers all at once [1].** Sattur recorded 143 mm of rain on 22 October [3], which hits drying and filling schedules. **Tamil Nadu GST collections are down 3.2 per cent Apr-to-date against India's +6.1 per cent [D], and IIP for NIC 20 is -0.5 per cent YoY with -1.2 per cent Apr-to-date [D].** Bank credit is running +20.7 per cent YoY against that output fall [D], so the system is lending into a shrinking output base. Note the local sources are current (31 October 2026) but the rating files [9][10] are undated and old; the peer IT articles [4][5] are irrelevant to this industry and should be ignored. ## Where to grow, and how to grow safely\n**Pursue the large, compliant manufacturers who have green-cracker approvals and are booking orders against advance [2][10].** The relaxation for joined green crackers [2] is the real growth line — lend to units investing in that line and in automation, not to traders. **Avoid the small units that have already shown they cannot absorb the 15-25 per cent cost rise [1], and avoid pure dealer-financing against festive stock.** Structure as cash-flow lending against confirmed orders, with advance receipts escrowed, a stock-and-receivables charge, and a covenant that receivable days stay at or below the FY23 peer level of 182 [10]. Take monthly stock statements, monthly advance-receipt register and quarterly GST returns; if GST turnover trails the stock statement, stop fresh disbursement. ## Early-warning signs\n**Watch the order book shifting from advance to credit, rain days in October-November, and any adverse green-cracker ruling.** If advance share of orders falls below the prior year, ask for the dealer list and reduce limit. If Sattur-type rainfall repeats [3], ask for the production-loss estimate before the season closes. If the Supreme Court ruling slips again [1], ask for the contingency plan on unsold stock."
+ ],
+ "watch": [
+  [
+   "Monthly stock and advance-receipt statement",
+   "Advance share of order book falls below prior year -> freeze fresh disbursement and seek dealer-wise ageing"
+  ],
+  [
+   "Quarterly GST returns vs stock statement",
+   "GST turnover trails stock statement by more than one month -> ask for explanation and cut limit"
+  ],
+  [
+   "Monthly receivable ageing",
+   "Receivable days cross 182 [10] -> seek additional collateral or escrow of collections"
+  ],
+  [
+   "Seasonal rainfall log (Oct-Nov)",
+   "Repeat of 143 mm Sattur-type rain [3] -> obtain production-loss estimate before season close"
+  ],
+  [
+   "Court/regulatory tracker on green crackers",
+   "Adverse or delayed ruling [1] -> ask for unsold-stock contingency plan and re-rate limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Cost up 15-25%, rain hit, court delay, TN GST -3.2% [1][3][D]",
+ "articles": [
+  {
+   "title": "Rising costs, labour crunch and court delays hit Sivakasi fireworks industry",
+   "url": "https://www.thehindubusinessline.com/news/rising-costs-labour-crunch-and-court-delays-hit-sivakasi-fireworks-industry/article71652067.ece",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sivakasi’s fireworks industry: sparkling opportunities up ahead",
+   "url": "https://www.thehindu.com/news/national/tamil-nadu/sivakasis-fireworks-industry-deepavali-sparkling-opportunities-up-ahead/article71648608.ece",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Rain affects firecracker production, Sivakasi factories under weather",
+   "url": "https://www.newindianexpress.com/states/tamil-nadu/2026/Oct/31/rain-affects-firecracker-production-sivakasi-factories-under-weather",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Fireworks missing in early bird numbers - Fireworks missing in early bird numbers",
+   "url": "https://www.financialexpress.com/market/fireworks-missing-in-early-bird-numbers-4016529/#1",
+   "date": "2025-10-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The market was not expecting fireworks from the March quarter (Q4FY23) results of Mphasis Ltd",
+   "url": "https://www.mphasis.com/content/dam/mphasis-com/global/en/new-images/coverage-report-mphasis-q4fy23-results.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Standard Fireworks (India) — Grokipedia - Standard Fireworks (India) is a leading pyrotechnics company based in Sivakasi, Tamil Nadu, recognized as India's largest firewo...",
+   "url": "https://grokipedia.com/page/Standard_Fireworks_(India)#1",
+   "date": "2026-01-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Fireworks Industry Research Report 2024",
+   "url": "https://pdf.marketpublishers.com/apo_research/fireworks-industry-research-report-2024.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/25012022065407_Standard_Fireworks_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Standard Fireworks Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202403140348_Standard_Fireworks_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 23 (national 22 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +20.7% YoY vs output -1.2% (gap +21.9 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

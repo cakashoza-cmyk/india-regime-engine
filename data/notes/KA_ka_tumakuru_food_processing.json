@@ -1,0 +1,159 @@
+{
+ "key": "ka_tumakuru|food_processing",
+ "state": "KA",
+ "city": "ka_tumakuru",
+ "ind": "food_processing",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 73,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Tumakuru food processing — Karnataka demand is running ahead of India [D], so back value-added dairy and frozen processors with tight monthly stock and receivable discipline; avoid unbranded edible-oil traders and single-crop processors with no price pass-through.",
+ "title": "Tumakuru food processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A food processor buys a perishable farm input, converts it fast, and sells into a brand or a trade channel — cash is made or lost in the gap between procurement and collection.** Milk, gherkins, oilseed and frozen vegetables all spoil, so the plant runs on chilling and quick turnover, not on inventory holding. Raw material is the largest cost line, and any price swing hits margin directly [8]. So when a proposal lands, check the procurement-to-processing cycle in days and the cold-chain capacity; if the borrower cannot state spoilage and rejection rates, ask for the last six months of plant-level yield data.",
+  "## Where value and cash sit\n**Value sits in the brand and the value-added SKU, not in the commodity tonne.** Milky Mist lifted Q2 FY27 revenue 42% to Rs 1,089.4 crore with EBITDA margin at 15.17% on value-added dairy [4][5], while Dodla ran a 5.4% EBITDA margin on Rs 1,196 crore revenue with packaging costs up 41.6% YoY [6]. That spread is the whole credit story: branded, value-added processors hold pricing power; plain milk and commodity trade do not. So when a proposal lands, check the share of revenue from value-added products; if it is under a third, ask for the customer-wise price revision history.",
+  "## What has changed now\n**Karnataka's local demand is running well ahead of the national line.** State GST collections are up 11.1% Apr-to-date against India's 6.1%, and electricity demand is up 23.3% against India's 9.5% [D]. Nationally, bank credit is up 25.3% YoY against output growth of 5.1% [D] — money is chasing this sector faster than it is producing. Peer results are strong but recent [4][5][6]; the Foods & Inns frozen-food read is from November 2025 and is now a year old [7]. Rating reports flag agro-climatic and government-policy exposure on gherkins and edible oil [9][10][11].",
+  "## Where to grow, and how to grow safely\n**Pursue value-added dairy, frozen and ready-to-cook processors, and branded spice or millet units selling into Karnataka's growing urban demand.** Karnataka plans 27 new industrial parks [1], and food-processing project announcements are active [3] — treat these as pipeline, not collateral. Structure term debt against a demonstrated cold-chain asset, keep working capital as a separate cash-credit line sized to the actual cycle, and take monthly stock-and-receivables statements, quarterly GST returns and a covenant on value-added revenue share. Avoid unbranded edible-oil traders and single-crop processors with no pass-through [10][11].",
+  "## Early-warning signs\n**Watch the procurement-to-collection gap and packaging cost first — they move before the P&L does.** A widening receivable cycle, falling value-added share, or packaging cost inflation like Dodla's 41.6% [6] means margin is being eaten. Rising rejection or spoilage, or a shift to commodity sales, signals pricing power is gone.",
+  "## On Tumakuru specifically\n**The sources say little about Tumakuru itself — lean on first principles and the Karnataka and peer data above.** Collect from customer the local plant utilisation, cold-storage capacity and district-level offtake before sizing any exposure."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-receivable statement (monthly)",
+   "Receivable days rise beyond the stated cycle -> freeze further drawdown and ask for ageing"
+  ],
+  [
+   "GST returns (quarterly)",
+   "Turnover falls below the sanctioned projection -> reprice or reduce limit"
+  ],
+  [
+   "Value-added revenue share (quarterly)",
+   "Share drops below one-third -> treat as commodity trader and cut tenor"
+  ],
+  [
+   "Packaging and raw-material cost (monthly)",
+   "Cost inflation outpaces price revisions -> ask for customer price-revision letters"
+  ],
+  [
+   "Plant yield and spoilage (monthly)",
+   "Rejection rate rises -> inspect cold chain and reassess collateral"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Karnataka GST and power demand outpace India; peer dairy and frozen results strong.",
+ "articles": [
+  {
+   "title": "Karnataka plans 27 new industrial parks to boost jobs by 2047",
+   "url": "https://www.deccanherald.com/india/karnataka/karnataka-plans-27-new-industrial-parks-to-boost-jobs-by-2047-4202784",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "New & Upcoming Projects in Karnataka - Page 27",
+   "url": "https://newprojectstracker.com/projects-india/karnataka?page=27",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "New & Upcoming Projects in Food Processing Projects in Karnataka - Page 2",
+   "url": "https://newprojectstracker.com/projects-india/food-processing/karnataka?page=2",
+   "date": "2026-09-14",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Milky Mist shares in focus after Q2 PAT soars 175%; firm says festive season could create favourable demand - The Economic Times",
+   "url": "https://m.economictimes.com/markets/stocks/news/milky-mist-shares-in-focus-after-q2-pat-soars-175-firm-says-festive-season-could-create-favourable-demand/amp_articleshow/135341778.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Milky Mist shares in focus after Q2 PAT soars 175%; firm says festive season could create favourable demand",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/milky-mist-shares-in-focus-after-q2-pat-soars-175-firm-says-festive-season-could-create-favourable-demand/articleshow/135341778.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dodla Dairy Ltd (BOM:543306) (Q2 2027) Earnings Call Highlights: Revenue Jumps 17. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/dodla-dairy-ltd-bom543306-q2-2027-earnings-call-highlights-revenue-jumps-17--4917924",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ... By GuruFocus - Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ...",
+   "url": "https://ca.investing.com/news/company-news/foods--inns-ltd-bom507552-q2-2026-earnings-call-highlights-strong-frozen-food-growth--4337253#1",
+   "date": "2025-11-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 26, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=145235#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 07, 2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=132285#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 29, 2024(Revised)",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=125143#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 73 (national 55 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Karnataka: GST collections +11.1% Apr-to-date vs India +6.1% (5.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Karnataka: electricity demand +23.3% Apr-to-date vs India +9.5% (13.8 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +25.3% YoY vs output +5.1% (gap +20.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

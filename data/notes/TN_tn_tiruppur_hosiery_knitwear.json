@@ -1,0 +1,154 @@
+{
+ "key": "tn_tiruppur|hosiery_knitwear",
+ "state": "TN",
+ "city": "tn_tiruppur",
+ "ind": "hosiery_knitwear",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 10,
+ "nudged_by_news": false,
+ "verdict": "Avoid new hosiery and knitwear exposure in Tiruppur for now; only lend to the strongest, well-structured borrowers with tight monthly monitoring.",
+ "title": "Tiruppur hosiery & knitwear: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nTiruppur knits yarn into fabric, dyes and processes it, then stitches garments for domestic brands and export buyers. **Cash is made on the conversion spread, not on the yarn price**, so the borrower's margin lives in capacity utilisation and in how fast it collects from buyers. Yarn is the biggest input and its price is set by the market, not the borrower [2][3]. **The working-capital cycle is the whole business**: yarn must be bought before the order is billed, and buyers pay weeks later. So when a proposal lands, check the receivable days and the yarn inventory days first; if receivables are stretching beyond the stated credit terms, ask which buyer and why.",
+  "## What has changed now\n**The local demand signal is weak.** Tamil Nadu GST collections are down 3.2% Apr-to-date against India up 6.1%, a 9.3 pp gap [D]. Nationally, knitwear-linked output (NIC 14) is down 7.4% YoY and exports are down 6.2% Apr-to-date in USD [D]. **Payment flow in the yarn chain is tight** — traders report a cash crunch across the textile value chain and mills facing tight payment flow before Diwali [2][3]. Local reporting confirms bonus is being paid, but union leaders say some Tiruppur apparel units have spoken of a slowdown in orders [1]. **Note the age of the peer and rating data**: the Crisil 10-12% growth call is from December 2024 [9][11], and the ICRA report is dated December 2025 [8] — both predate the current stress.",
+  "## Where the growth is\n**Pursue branded innerwear and hosiery converters with a domestic retail book**, not pure export job-workers. Peer results show the branded end is still growing: Lux revenue up 13% YoY with 17% volume growth and exports up 52% [5]; Rupa revenue up 10.4% YoY in Q1 FY27 [7]; Dollar net profit up 22% YoY in Q1 FY27 [6]. **Avoid the small dyeing and stitching job-worker** whose order book is one or two buyers and whose receivables are already stretched. If a proposal is from a converter with a single large buyer, ask for the buyer's payment history and the top-three buyer concentration.",
+  "## How to grow safely\n**Structure for the working-capital cycle, not the fixed asset.** Take monthly stock and receivable statements, and a monthly yarn purchase-versus-consumption reconciliation. **Take every month**: GST returns, bank statements for all accounts, and the top-five debtor ageing. If receivable days cross the stated credit terms by more than a fortnight, ask for the buyer correspondence before renewing the limit. Keep capex lending out unless the borrower shows a committed order book.",
+  "## Early-warning signs\n- **GST turnover falling faster than the Tamil Nadu average** (monthly) -> freeze fresh limits and review the account.\n- **Receivable days stretching beyond stated terms** (monthly) -> ask for buyer ageing and hold disbursement.\n- **Yarn inventory building while output is flat** (monthly) -> check for unsold stock and cut the limit.\n- **Bonus or wage payment delayed past the stated date** (annual, November) -> treat as a liquidity signal and re-rate the borrower."
+ ],
+ "watch": [
+  [
+   "GST turnover vs Tamil Nadu average (monthly)",
+   "falls faster than state average -> freeze fresh limits and review"
+  ],
+  [
+   "Receivable days vs stated credit terms (monthly)",
+   "stretches beyond terms -> ask for buyer ageing and hold disbursement"
+  ],
+  [
+   "Yarn inventory days (monthly)",
+   "builds while output flat -> check unsold stock and cut limit"
+  ],
+  [
+   "Bonus/wage payment date (annual, November)",
+   "delayed past stated date -> treat as liquidity signal and re-rate"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Tamil Nadu GST down 3.2%, knitwear output down 7.4%, yarn-chain cash crunch.",
+ "articles": [
+  {
+   "title": "Bonus payment under way in Coimbatore, Tiruppur districts",
+   "url": "https://www.thehindu.com/news/cities/Coimbatore/bonus-payment-under-way-in-coimbatore-tiruppur-districts/article71650346.ece",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "South India's cotton yarn prices steady amid weak demand, cash crunch | Fibre2Fashion",
+   "url": "https://www.linkedin.com/posts/fibre2fashion_south-indias-cotton-yarn-prices-steady-amid-activity-7521898442508587010-m8zs",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "South Indian cotton yarn sees mixed trend as cotton prices weaken",
+   "url": "https://www.fibre2fashion.com/news/prime-content/textiles-markets/south-indian-cotton-yarn-sees-mixed-trend-as-cotton-prices-weaken-314559-newsdetails.htm#tab3",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Rupa & Company Limited",
+   "url": "https://www.perplexity.ai/app/finance/RUPA.NS?comparing=RUPA.NS%2CDPABHUSHAN.NS%2CGOCOLORS.NS%2CCANTABIL.NS%2CSTYLEBAAZA.NS%2CMUFTI.NS&preset=peers&symbol=KALAMANDIR.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "India hosiery industry trends",
+   "url": "https://textileinsights.in/tag/india-hosiery-industry-trends/#tredingcarousel",
+   "date": "2026-10-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dollar Industries Limited",
+   "url": "https://www.perplexity.ai/app/finance/DOLLAR.NS?comparing=LOVABLE.BO%2COKPLA.BO%2C1581.HK%2C1271.HK%2C1556.HK%2CORN%2CNWH.AX&preset=peers&symbol=MITSU.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Indian Textile Industry Trends For 2024 & Beyond",
+   "url": "https://textileinsights.in/category/financial-results/page/2/#tredingcarousel",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 1, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=139384#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hosiery industry set for 10-12% growth driven by rural demand and exports",
+   "url": "https://www.apparelviews.com/hosiery-industry-set-for-10-12-growth-driven-by-rural-demand-and-exports",
+   "date": "2024-12-06",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Hosiery makers to stitch 10-12% revenue growth this fiscal",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2024/12/hosiery-makers-to-stitch-10-12percent-revenue-growth-this-fiscal.html",
+   "date": "2024-12-04",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 10 (national 0 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 14 output -7.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -5.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -6.2% Apr-to-date in USD (Rs 69,301 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

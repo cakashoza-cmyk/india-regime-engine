@@ -1,0 +1,154 @@
+{
+ "key": "gj_dahej|petrochem",
+ "state": "GJ",
+ "city": "gj_dahej",
+ "ind": "petrochem",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 30,
+ "nudged_by_news": false,
+ "verdict": "Avoid fresh unsecured petrochemical exposure in Dahej; lend only to integrated, net-cash borrowers with proven feedstock pass-through, and treat all others as watchlist.",
+ "title": "Dahej Petrochemicals: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Dahej petrochemical unit buys gas or propane, cracks it, and sells commodity polymers and chemicals into a price it does not set.** Cash is made or lost on the spread between feedstock cost and product price, not on volume alone. Fixed costs are heavy: crackers and utilities run continuously, so a shutdown is a cash event, not a pause. [9] confirms these are high-volume, low value-added products whose profitability tracks international prices.\n\n**Working capital sits in inventory and receivables, and both stretch when prices move.** Feedstock is bought forward, product is sold on credit, and the gap is funded by the bank. Capex is lumpy and long-gestation, so a single cracker expansion can absorb years of internal accruals. When you see a proposal, check the feedstock contract tenure and the product offtake mix before anything else; if either is spot-only, ask for the last eight quarters of realised spread.\n\n## What has changed now\n**National output is shrinking while bank credit to the sector is not.** IIP for NIC 20 is -0.5% YoY and -1.2% Apr-to-date [D], yet bank credit is +28.9% YoY, a gap of +30.1 pp [D]. That gap is the single most important fact in this note: money is entering the chain faster than product is leaving it. **Brent at $113/bbl sits above the $75–100 band [D], so feedstock cost is elevated and any borrower without pass-through is absorbing it.**\n\n**Local news is thin and mostly about one project.** Petronet LNG is seeking propane bids by March for a 750,000-tpy Dahej petrochemical unit [1]; the ET topic pages [2][3] carry no substantive Dahej-specific operating data. Say plainly: we do not have city-level output or spread numbers, so we lean on first principles and peers. Peer results are strong but not a Dahej read-across: RIL's oil-to-chemicals hit record operating profitability on fuel cracks and polyester margins [5], and Gandhar Oil Refinery posted Q2 FY27 revenue of INR 1,847 crores, up ~73% YoY, with gross margin of 21% [6] and consolidated borrowings down to ~INR 85 crores from INR 168 crores in March 2026 [7]. Rating reports are undated and generic [8][9][10][11]; treat them as framework, not evidence.\n\n## Where to grow, and how to grow safely\n**Pursue integrated players and net-cash borrowers first.** Gandhar's net cash position [7] and RIL's integration [5] show where resilience sits. Target Dahej units with captive feedstock tie-ups, multi-product flexibility, and a customer base spread across domestic and export. **Avoid standalone converters with spot feedstock, single-product dependence, and receivables concentrated in two buyers.**\n\n**Structure every new line with a borrowing base on inventory and receivables, a feedstock pass-through covenant, and a debt-service cover tested quarterly.** Take stock and receivable statements monthly, feedstock contract copies at renewal, and a monthly spread sheet (realised product price minus feedstock cost per tonne). If the spread falls below the borrower's own trailing average for two consecutive months, ask for the hedging book and a revised cash-flow.\n\n## Early-warning signs\n- **Credit growth outrunning output [D]:** if a borrower's drawing power rises while dispatch volumes are flat, ask why; it usually means inventory is ageing.\n- **Brent above $113/bbl [D]:** if feedstock cost rises without a matching product price revision, ask for the pass-through clause.\n- **Receivable days stretching:** if days rise beyond the borrower's own trailing average, ask for the buyer-wise ageing.\n- **Capex announced before spread is proven:** if a new cracker or expansion is proposed while spreads are compressed, ask for the funding plan and any rating letter [8][11].\n- **Rating watch status:** if a rating remains on watch for amalgamation or capex clarity [8], ask for the post-merger debt and synergy numbers."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Drawing power rises while dispatch volumes are flat -> ask for buyer-wise ageing and hold further disbursement"
+  ],
+  [
+   "Monthly realised spread sheet",
+   "Spread below trailing average for two months -> ask for hedging book and revised cash-flow"
+  ],
+  [
+   "Brent price (monthly)",
+   "Above $113/bbl with no product price revision -> ask for feedstock pass-through clause"
+  ],
+  [
+   "Quarterly rating letter",
+   "Watch status continues for amalgamation or capex -> ask for post-merger debt and synergy numbers"
+  ],
+  [
+   "Quarterly debt-service cover",
+   "Cover falls below covenant -> freeze new limits and seek promoter support"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Output falling while credit grows +28.9% and Brent at $113/bbl squeeze spreads.",
+ "articles": [
+  {
+   "title": "Petronet LNG seeking propane bids by March for 750,000-tpy Dahej petrochemical unit - NewsBreak",
+   "url": "https://www.newsbreak.com/news/4973044944011-petronet-lng-seeking-propane-bids-by-march-for-750-000-tpy-dahej-petrochemical-unit",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "dahej petrochem plant News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/dahej-petrochem-plant/news#1",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "dahej petrochem plant: Latest News & Videos, Photos about dahej petrochem plant | The Economic Times - Page 1 - Business News›dahej petrochem plant",
+   "url": "https://economictimes.indiatimes.com/topic/dahej-petrochem-plant#1",
+   "date": "2026-10-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Q2 results: Reliance Industries H1FY27 profit crosses ₹50,000 crore for the first time - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/reliance-industries-q2-results-stronger-ever-quarter-revenue-surges-record-rs3-6-lakh-crore-20023655.htm",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Reliance oil-to-chemicals profitability hits an all-time high - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/reliance-industries-oil-to-chemicals-gas-business-q2-record-ebitda-ril-share-price-20023660.htm",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Gandhar Oil Refinery (India) Ltd (NSE:GANDHAR) (Q2 2027) Earnings Call Highlights: Record ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/gandhar-oil-refinery-india-ltd-230610107.html",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Gandhar Oil Refinery (India) Ltd (NSE:GANDHAR) (Q2 2027) Earning",
+   "url": "https://www.gurufocus.com/news/9160220/gandhar-oil-refinery-india-ltd-nsegandhar-q2-2027-earnings-call-highlights-record-revenue-of-inr-1847-crores-and-pat-up-368-yoy",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 13,2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144189#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/oil-and-gas/archive/CRISIL-Ratings-crieria-petrochemical-industry_feb2018.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Petrochemical%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Haldia Petrochemicals Limited",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/29424#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 30 (national 0 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +28.9% YoY vs output -1.2% (gap +30.1 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

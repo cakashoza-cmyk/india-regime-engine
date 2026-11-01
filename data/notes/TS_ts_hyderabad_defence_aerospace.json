@@ -1,0 +1,144 @@
+{
+ "key": "ts_hyderabad|defence_aerospace",
+ "state": "TS",
+ "city": "ts_hyderabad",
+ "ind": "defence_aerospace",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 100,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Hyderabad defence & aerospace parts — pursue precision-machining and sub-assembly suppliers with firm PSU/export orders and staged billing; avoid single-client, single-programme shops and pure trading intermediaries.",
+ "title": "Hyderabad defence & aerospace parts: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**These are precision machine shops and sub-assembly units that convert alloy billets, forgings and castings into qualified parts for artillery, airframe and electronics programmes.** Cash comes from milestone billing against purchase orders, not from shelf sales, so the unit's real asset is the qualified process plus the order book. Cost is dominated by raw material pass-through and skilled labour on CNC and special-process lines; pricing power sits with whoever holds the qualification, and that is where margin lives. Peer evidence: Raymond's aerospace and defence revenue rose 72% to ₹139 crore at a 21% operating margin [4], and Goodluck's defence subsidiary grew revenue 31% with EBITDA up 46% [7]. **So when a proposal lands, check the qualification status of the specific part, not the customer's logo; if the part is still in qualification, ask who bears the tooling and trial cost.**\n\n## Where cash actually sits\n**Working capital is the whole credit story here: billing is back-ended and receivables from government buyers are slow.** ICRA notes defence billing is concentrated with more than 70% of sales in Q4, inflating working capital at year-end [11], and flags ability to alleviate working-capital intensity as the key monitorable [9]. Client concentration is real — top three clients were 71% of order book at Paras [9]. **So size the drawing power on a Q4-weighted billing calendar, not a flat twelve-month average; if the proposal assumes even monthly receipts, ask for the last three years' actual month-wise collection.**\n\n## What has changed now\n**The order flow is visibly stronger and Hyderabad is being positioned as a defence hub, but the city-specific hard numbers are thin.** Sigma Advanced Systems has won a ₹974 crore order from a NATO customer for artillery ammunition components [1] — an export order, which changes the receivable profile. Telangana has announced Aerospace and Defence Policy 2.0 [2] and state ministers are publicly pushing the cluster [3], but these are policy announcements, not contracted volumes. The data pack shows Telangana GST collections up 13.8% and electricity demand up 15.7% Apr-to-date, both faster than India [D], and India-wide IIP for NIC 30 output is up 25.3% YoY [D]. **Treat the state policy as a pipeline signal only; if a borrower's projections lean on Policy 2.0 incentives, ask for the sanction letter, not the press release.**\n\n## Who to pursue, who to avoid\n**Pursue tier-2 precision machining and sub-assembly suppliers with at least two qualified programmes, a mix of domestic PSU and export orders, and in-house special processes.** The export order at Sigma [1] and the peer growth at Raymond [4], Goodluck [7] and Apollo [5] show demand is real across the chain. **Avoid single-programme shops, units whose order book is one letter of intent, and traders who book orders and subcontract all machining — they carry the receivable risk without the qualification moat.** Rating reports on this sector are dated (Unimech's is from March 2025 [8], Paras' ICRA note references FY2021 data [9]); use them for structure, not for current numbers. ## How to grow safely\n**Structure as a cash-flow-tested working-capital limit with a term loan only for qualified-process capex, and take stock-and-receivable statements monthly.** Insist on order-book confirmation from the buyer, not the borrower's schedule. **Take every month: ageing of receivables by buyer, order-book position with delivery dates, and a certificate of goods dispatched against milestone.** Where the buyer is a PSU, seek assignment of receivables or at least a tripartite acknowledgement. **If the borrower cannot produce buyer-confirmed order status, ask for the purchase order and the inspection clearance before enhancing the limit.**"
+ ],
+ "watch": [
+  [
+   "Monthly dispatch versus milestone certificate",
+   "Dispatches lag billing by more than one month -> ask for buyer acknowledgement"
+  ],
+  [
+   "Annual rating/audited accounts",
+   "Rating downgrade or audit qualification -> review limit and covenants"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "₹974 crore export order, state Policy 2.0 and faster Telangana GST and power growth support the cluster.",
+ "articles": [
+  {
+   "title": "Sigma Advanced Systems bags ₹974 crore order from NATO customer for artillery ammunition components",
+   "url": "https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/sigma-advanced-systems-bags-974-crore-order-from-nato-customer-for-artillery-ammunition-components/135238052?utm_source=latest_news&utm_medium=homepage",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Telangana Government Announces New Aerospace and Defence Policy 2.0 - Telangana Government Announces New Aerospace and Defence Policy 2.0",
+   "url": "https://newsable.asianetnews.com/india/telangana-government-announces-new-aerospace-and-defence-policy-2-0-articleshow-94punbk#1",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Telangana transitioned as a heavyweight in aerospace, defence tech: Uttam - Telangana transitioned as a heavyweight in aerospace, defence tech: Uttam",
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-transitioned-as-a-heavyweight-in-aerospace-defence-tech-uttam/article71165500.ece#1",
+   "date": "2026-06-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Raymond’s aerospace and defence business now brings in a fifth of its income, up from 14% a year ago - Welcome",
+   "url": "https://m.economictimes.com/news/company/corporate-trends/raymonds-aerospace-and-defence-business-now-brings-in-a-fifth-of-its-income-up-from-14-a-year-ago/articleshow/135234878.cms#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Apollo Micro Systems jumps 12% after record Q2 2026 By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/earnings-call-transcript-apollo-micro-systems-jumps-12-after-record-q2-2026-93CH-2648567",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Q3 and 9MFY26 Result Summary",
+   "url": "https://www.icicidirect.com/mailcontent/idirect_midhani_q3fy26.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "We also performed procedures in accordance with the circular issued by the SEBI under Regulation 33(8) of the SEBI (Listing Obli...",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c9dc1bf8-0c0a-44bd-b60a-2037c3ed7b4f.pdf#3#3#3",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Unimech Aerospace and Manufacturing Limited",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Unimech%20Aerospace%20and%20Manufacturing%20Limited-RU-08-10-2025.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Paras Defence & Space Technologies Limited: [ICRA]A- (Stable); Assigned",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=106913#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://parasdefence.com/uploads/credit-rating/1762841040september-crisil.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "March 15,2022",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=110523#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 100 (national 100 x 0.6 + Telangana 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Telangana: GST collections +13.8% Apr-to-date vs India +6.1% (7.7 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Telangana: electricity demand +15.7% Apr-to-date vs India +9.5% (6.2 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 30 output +25.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +22.7% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": false,
+  "problems": [
+   "watch list must have 3-5 items"
+  ],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
