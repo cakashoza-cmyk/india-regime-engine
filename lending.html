@@ -42,9 +42,21 @@ table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}td,th{te
 .v6 .it{padding:10px 16px;border-top:1px solid #ffffff10}.v6 .it table td{font-size:13px}.v6 .it u{text-decoration:none;color:#93c5fd;font-weight:600}.v6 .it b{color:#fde68a;font-size:14px;display:block}.v6 .it span{font-size:14px;color:#cbd5e1}.v6 .nt{font-size:12px;color:#94a3b8;font-style:italic;padding:0 16px 10px}.v6 .nowl{background:#f59e0b1a;border-left:3px solid #f59e0b;padding:10px 12px;border-radius:10px;font-size:14px;margin-top:12px}
 .v7{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}.v7 .art{max-width:640px}.v7 .art h2{font-size:17px;color:#fff;margin:26px 0 8px;font-weight:700}.v7 .art p{font-size:15.5px;line-height:1.7;color:#cbd5e1;margin:0 0 12px}.v7 .art strong{color:#fde68a;font-weight:650}.v7 .art ul{margin:0 0 12px;padding-left:18px}.v7 .art li{font-size:15px;line-height:1.6;color:#cbd5e1;margin:6px 0}.v7 .wl{background:#ffffff0a;border:1px solid #ffffff1a;border-radius:16px;padding:14px 16px;margin-top:22px}.v7 .wl h2{margin-top:0}.v7 .wl div{padding:8px 0;border-top:1px solid #ffffff10;font-size:14px;color:#cbd5e1}.v7 .wl b{color:#f8fafc;display:block}
 .spin{display:inline-block;width:12px;height:12px;border:2px solid #f5a623;border-right-color:transparent;border-radius:50%;animation:sp 0.8s linear infinite;vertical-align:-2px}@keyframes sp{to{transform:rotate(360deg)}}
+#mapwrap{position:relative;background:linear-gradient(180deg,#0b1220,#111a2e);border-radius:18px;padding:10px 10px 6px;margin:6px 0 14px;box-shadow:0 10px 30px #0003}
+#mapbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:6px}#mapbar select{flex:1;min-width:180px;font:inherit;padding:9px 10px;border-radius:10px;border:1px solid #334155;background:#0f172a;color:#e2e8f0}
+#mapbar button{font:inherit;font-size:13px;padding:8px 12px;border-radius:999px;border:1px solid #334155;background:#1e293b;color:#e2e8f0;cursor:pointer}
+#imap{width:100%;height:auto;max-height:72vh;display:block;touch-action:manipulation}#imap path{vector-effect:non-scaling-stroke;stroke:#0b1220;stroke-width:.7;cursor:pointer;transition:fill .5s,opacity .3s}
+#imap path:hover,#imap path.on{stroke:#fff;stroke-width:1.4}#imap path.dim{opacity:.35}#imap circle{vector-effect:non-scaling-stroke;stroke:#0b1220;stroke-width:1.2;cursor:pointer;transition:fill .4s,r .3s}#imap circle.on{stroke:#fff;stroke-width:2.5}
+#mtip{position:absolute;pointer-events:none;background:#0f172aee;color:#e2e8f0;border:1px solid #334155;border-radius:10px;padding:7px 10px;font-size:13px;line-height:1.35;opacity:0;transition:opacity .15s;max-width:230px;z-index:5}
+.mleg{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:#cbd5e1;padding:4px 2px}.mleg i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.mleg .q{cursor:help;border-bottom:1px dotted #94a3b8}.msrc{font-size:10.5px;color:#64748b;padding:0 2px 2px}
 </style></head><body>
 <main>
 <h1>Lending Radar</h1><p class="sub">Pick a place and an industry for a quick, data-backed stance. Decision aid, not a substitute for credit judgment. Internal use only.</p>
+<div id="mapwrap"><div id="mapbar"><select id="mind" aria-label="Colour map by industry"><option value="">All industries (state average)</option></select><button id="mreset" type="button">India view</button></div>
+<svg id="imap" viewBox="0 0 600 640" role="img" aria-label="India lending stance map"><g id="gst"></g><g id="gct"></g></svg><div id="mtip"></div>
+<div class="mleg"><span><i style="background:#22c55e"></i>OK to lend</span><span><i style="background:#f59e0b"></i>Caution</span><span><i style="background:#ef4444"></i>Avoid</span><span><i style="background:#475569"></i>No data</span><span class="q" title="All industries: each state's colour is the simple average of its industry scores in radar.json (national 60% + state 40% blend), banded OK at or above 65, Avoid below 45. With an industry chosen, the state takes that industry's call. City dots: average of the city's hub-industry scores (or the chosen industry if it is a hub there).">How colours work ⓘ</span></div>
+<div class="msrc">Boundaries: DataMeet India states (MIT licence; J&amp;K incl. Ladakh shown as one polygon, per Government of India's external boundary). City positions: GeoNames (CC BY 4.0). Tap a state, then a city.</div></div>
 <div class="pick">
  <div><label for="st">State</label><select id="st"></select></div>
  <div><label for="ct">City</label><select id="ct"></select></div>
@@ -79,7 +91,44 @@ function init(){D.industries.forEach(i=>IND[i.id]=i);D.cities.forEach(c=>CITY[c.
  function pick(id){sel.ind=id;inp.value=IND[id].name;close();inp.blur();render()}
  function close(){lb.classList.remove('open');inp.setAttribute('aria-expanded','false');if(IND[sel.ind])inp.value=IND[sel.ind].name}
  $('#foot').innerHTML=`Data refreshed ${esc(D.generated_at_ist)} · FY ${esc(D.fy)} · ${esc(D.units)} · ${D.industries.length} industries · ${D.cities.length} cities. ${esc(D.disclaimer)} Verdicts use only verified official figures; local news can only turn OK to lend into Caution. See <a href="methodology.html">methodology</a> and <a href="audit.html">data audit</a>.`;
- render()}
+ render();initMap()}
+
+// ---------- India heat map (plain SVG, no external libs) ----------
+const MAPNM={'Jammu & Kashmir':'JK','Himachal Pradesh':'HP','Punjab':'PB','Chandigarh':'CH','Uttarakhand':'UK','Haryana':'HR','NCT of Delhi':'DL','Rajasthan':'RJ','Uttar Pradesh':'UP','Bihar':'BR','Sikkim':'SK','Arunanchal Pradesh':'AR','Nagaland':'NL','Manipur':'MN','Mizoram':'MZ','Tripura':'TR','Meghalaya':'ML','Assam':'AS','West Bengal':'WB','Jharkhand':'JH','Odisha':'OD','Chhattisgarh':'CG','Madhya Pradesh':'MP','Gujarat':'GJ','Dadara & Nagar Havelli':'DN','Daman & Diu':'DN','Maharashtra':'MH','Karnataka':'KA','Goa':'GA','Kerala':'KL','Tamil Nadu':'TN','Puducherry':'PY','Telangana':'TS','Andhra Pradesh':'AP','Andaman & Nicobar Island':'AN','Lakshadweep':null};
+const MCOL={ok:'#22c55e',caution:'#f59e0b',avoid:'#ef4444',none:'#475569'};let GEO=null,CC={},MV=[0,0,600,640],mapInd='',mapAnim=null;
+const band=sc=>sc==null?'none':sc>=D.geo.ok_at_or_above?'ok':sc<D.geo.avoid_below?'avoid':'caution';
+const prj=([lo,la])=>[(lo-67.5)*Math.cos(23*Math.PI/180)*21.5+12,(37.6-la)*21.5+8];
+function stateScore(k){if(mapInd){const e=D.calls[k+'|'+IND[mapInd].parent];return e&&e[1]!=null?{sc:e[1],b:e[0]||band(e[1]),n:1}:null}
+ const v=Object.entries(D.calls).filter(([kk,e])=>kk.startsWith(k+'|')&&e[1]!=null).map(([,e])=>e[1]);if(!v.length)return null;const sc=Math.round(v.reduce((a,b)=>a+b,0)/v.length);return {sc,b:band(sc),n:v.length}}
+function cityScore(c){const ids=mapInd&&c.hubs.includes(mapInd)?[mapInd]:mapInd?[]:c.hubs;const v=ids.map(i=>IND[i]&&D.calls[c.state+'|'+IND[i].parent]).filter(e=>e&&e[1]!=null).map(e=>e[1]);
+ if(!v.length)return null;const sc=Math.round(v.reduce((a,b)=>a+b,0)/v.length);return {sc,b:mapInd&&v.length==1?(D.calls[c.state+'|'+IND[mapInd].parent][0]||band(sc)):band(sc)}}
+function ringD(r){return r.map((p,i)=>(i?'L':'M')+prj(p).map(x=>x.toFixed(1)).join(',')).join('')+'Z'}
+function geomD(g){const ps=g.type=='MultiPolygon'?g.coordinates:[g.coordinates];return ps.map(p=>p.map(ringD).join('')).join('')}
+async function initMap(){try{[GEO,CC]=await Promise.all([fetch('data/india_states.geo.json').then(r=>r.json()),fetch('data/city_coords.json').then(r=>r.json()).then(j=>j.coords)])}catch(e){$('#mapwrap').style.display='none';return}
+ const ms=$('#mind');ms.innerHTML+=[...new Set(D.industries.map(i=>i.group))].map(g=>`<optgroup label="${esc(g)}">`+D.industries.filter(i=>i.group==g).map(i=>`<option value="${i.id}">${esc(i.name)}</option>`).join('')+'</optgroup>').join('');
+ ms.onchange=()=>{mapInd=ms.value;if(mapInd){sel.ind=mapInd;$('#ind').value=IND[mapInd].name;render()}else paintMap()};
+ $('#mreset').onclick=()=>{zoomTo([0,0,600,640]);mapSt=null;paintMap()};
+ $('#gst').innerHTML=GEO.features.map(f=>{const k=MAPNM[f.properties.ST_NM];return `<path d="${geomD(f.geometry)}" data-k="${k||''}" data-n="${esc(f.properties.ST_NM)}"></path>`}).join('');
+ const svg=$('#imap'),tip=$('#mtip');
+ const show=(ev,h)=>{tip.innerHTML=h;tip.style.opacity=1;const r=$('#mapwrap').getBoundingClientRect();let x=ev.clientX-r.left+12,y=ev.clientY-r.top+12;if(x>r.width-235)x=ev.clientX-r.left-240;tip.style.left=x+'px';tip.style.top=y+'px'};
+ svg.addEventListener('pointermove',ev=>{const t=ev.target;if(t.tagName=='path'){const k=t.dataset.k,s=k&&stateScore(k),nm=k=='JK'?'Jammu & Kashmir and Ladakh':(k&&D.states[k]?.name)||t.dataset.n;
+   show(ev,`<b>${esc(nm)}</b><br>${s?`${LBL[s.b]} · score ${s.sc}${mapInd?' · '+esc(IND[mapInd].name):` · avg of ${s.n} industries`}`:'No data'}`)}
+  else if(t.tagName=='circle'){const c=CITY[t.dataset.c],s=cityScore(c);show(ev,`<b>${esc(c.name)}</b><br>${s?LBL[s.b]+' · score '+s.sc:'No data for this industry'}<br><span style="color:#94a3b8">Hubs: ${c.hubs.map(h=>esc(IND[h]?.name.split(' (')[0]||h)).join(', ')}</span>`)}
+  else tip.style.opacity=0});
+ svg.addEventListener('pointerleave',()=>tip.style.opacity=0);
+ svg.addEventListener('click',ev=>{const t=ev.target;
+  if(t.tagName=='circle'){const c=CITY[t.dataset.c];sel.st=c.state;$('#st').value=c.state;fillCities(c.id);if(!c.hubs.includes(sel.ind)){sel.ind=mapInd&&c.hubs.includes(mapInd)?mapInd:c.hubs[0];$('#ind').value=IND[sel.ind]?.name||''}render();setTimeout(()=>$('#result').scrollIntoView({behavior:'smooth',block:'start'}),150);return}
+  if(t.tagName=='path'&&t.dataset.k&&$('#st').querySelector(`option[value="${t.dataset.k}"]`)){mapSt=t.dataset.k;sel.st=t.dataset.k;$('#st').value=sel.st;fillCities();if(!CITY[sel.ct]?.hubs.includes(sel.ind)&&!mapInd){sel.ind=CITY[sel.ct]?.hubs[0]||sel.ind;$('#ind').value=IND[sel.ind]?.name||''}render();focusState(sel.st)}});
+ mapReady=true;paintMap();if(qp.get('state'))focusState(sel.st,true)}
+let mapReady=false,mapSt=null;
+function focusState(k,instant){const ps=[...document.querySelectorAll(`#gst path[data-k="${k}"]`)];if(!ps.length)return;let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;ps.forEach(p=>{const b=p.getBBox();x0=Math.min(x0,b.x);y0=Math.min(y0,b.y);x1=Math.max(x1,b.x+b.width);y1=Math.max(y1,b.y+b.height)});
+ let w=x1-x0,h=y1-y0,pad=Math.max(w,h)*.35+20;const W=Math.max(w+pad*2,h*600/640+pad*2,150),H=W*640/600;mapSt=k;zoomTo([(x0+x1)/2-W/2,(y0+y1)/2-H/2,W,H],instant);paintMap()}
+function zoomTo(v,instant){cancelAnimationFrame(mapAnim);const a=MV.slice(),t0=performance.now(),svg=$('#imap');const step=t=>{const k=instant?1:Math.min(1,(t-t0)/550),e=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;MV=a.map((x,i)=>x+(v[i]-x)*e);svg.setAttribute('viewBox',MV.join(' '));
+ const s=MV[2]/600;document.querySelectorAll('#gct circle').forEach(c=>c.setAttribute('r',(c.classList.contains('on')?7:5)*Math.max(s,.18)));document.querySelectorAll('#gst path').forEach(p=>p.style.strokeWidth='');if(k<1)mapAnim=requestAnimationFrame(step)};mapAnim=requestAnimationFrame(step)}
+function paintMap(){if(!mapReady)return;if($('#mind').value!==mapInd)$('#mind').value=mapInd;
+ document.querySelectorAll('#gst path').forEach(p=>{const k=p.dataset.k,s=k&&stateScore(k);p.style.fill=MCOL[s?s.b:'none'];p.classList.toggle('on',!!mapSt&&k==sel.st);p.classList.toggle('dim',!!mapSt&&k!=sel.st)});
+ const st=mapSt||null,s=MV[2]/600;const cs=D.cities.filter(c=>CC[c.id]&&(!st||c.state==st)&&(!mapInd||c.hubs.includes(mapInd)||c.state==st));
+ $('#gct').innerHTML=cs.map(c=>{const p=prj(CC[c.id]),sc=cityScore(c),on=c.id==sel.ct&&c.state==sel.st;return `<circle data-c="${c.id}" cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="${((on?7:5)*Math.max(s,.18)).toFixed(2)}" class="${on?'on':''}" style="fill:${MCOL[sc?sc.b:'none']}"></circle>`}).join('')}
 function fillCities(want){const cs=D.cities.filter(c=>c.state==sel.st).sort((a,b)=>a.name.localeCompare(b.name));$('#ct').innerHTML=cs.map(c=>`<option value="${c.id}">${esc(c.name)}</option>`).join('');sel.ct=cs.find(c=>c.id==want)?want:(cs[0]?.id||'');$('#ct').value=sel.ct}
 const mon=iso=>{if(!iso)return'';const m=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return m[+iso.slice(5,7)-1]+'-'+iso.slice(0,4)};
 function spark(pts,key,lab){if(!pts||pts.length<2)return'';const v=pts.map(p=>p[key]),mx=Math.max(...v.map(Math.abs),1);return `<div class="spark" aria-label="${esc(lab)}">${pts.map(p=>`<i class="${p[key]<0?'neg':''}" style="height:${Math.max(6,Math.abs(p[key])/mx*100)}%" title="${esc(p.period)}: ${p[key]}%"></i>`).join('')}</div><div class="meta">${pts.map(p=>esc(p.period)+' '+p[key]+'%').join(' · ')}</div>`}
@@ -145,7 +194,7 @@ function v4html(v,b){const cite=t=>esc(t).replace(/\[(\d+(?:[,\s]*\d+)*)\]/g,(m,
  <h3>What it means for repayment</h3><p>${cite(b.repayment_impact||'')}</p>
  <p class="meta">News vs data: <b>${esc(b.news_direction||'')}</b>${b.news_direction_why?' — '+esc(b.news_direction_why):''} · written ${esc(v.generated_ist)}</p>
  <h3>Market signal: listed peers</h3><p>${esc(b.market_read||'')}</p><table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(n.r1m)}</td><td>${f(n.r3m)}</td><td>${f(n.r12m)}</td></tr>${rows}</table><p class="meta">Price change to ${esc(n.asof)} close. ${esc(m.source)}. Market mood only; not used in the score.</p>`}
-function render(){const st=D.states[sel.st],ct=CITY[sel.ct],ind=IND[sel.ind];history.replaceState(null,'',`?state=${sel.st}&city=${sel.ct}${ind?'&ind='+ind.id:''}`);
+function render(){const st=D.states[sel.st],ct=CITY[sel.ct],ind=IND[sel.ind];history.replaceState(null,'',`?state=${sel.st}&city=${sel.ct}${ind?'&ind='+ind.id:''}`);if(mapReady){if(mapInd&&sel.ind!==mapInd)mapInd=sel.ind;if(mapSt&&mapSt!==sel.st)focusState(sel.st);else paintMap()}
  if(ind){const nk=`${sel.st}_${sel.ct}_${ind.id}`;if(!(nk in NOTES)){NOTES[nk]=null;loadNote(sel.st,sel.ct,ind.id).then(n=>{NOTES[nk]=n;if(n&&`${sel.st}_${sel.ct}_${sel.ind}`==nk)render()})}
   const n=NOTES[nk];if(n&&n.narrative&&n.narrative.length){$('#result').innerHTML=v7html(n,ind,ct)+fetchBar(nk,n);return}}
  if(!ind){$('#result').innerHTML='<div class="card empty">Choose an industry to see the stance.</div>';return}
