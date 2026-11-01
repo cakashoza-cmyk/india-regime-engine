@@ -537,6 +537,28 @@
     "vehicles": 0.6
    },
    "period": "Mar-26"
+  },
+  "https://rbidocs.rbi.org.in/rdocs//PublicationReport/Pdfs/0FSRJUN2024_270620242B95CB128D1847A3ACAB5B5A4BEBF0DF.PDF": {
+   "period": "Mar-24",
+   "gnpa": {
+    "mining": 2.0,
+    "food": 5.5,
+    "textiles": 5.2,
+    "paper": 4.0,
+    "chemicals": 1.5,
+    "rubber_plastics": 3.3,
+    "cement": 3.9,
+    "basic_metals": 2.1,
+    "engineering": 5.0,
+    "vehicles": 2.7,
+    "gems_jewellery": 6.7,
+    "construction": 6.5,
+    "infrastructure": 2.8,
+    "power": 1.1,
+    "infra_ex_power": 4.5,
+    "refining": 1.5
+   },
+   "edition": "FSR June 2024"
   }
  },
  "gst_state": {

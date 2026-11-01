@@ -122,7 +122,7 @@ def score_sector(sector, data, macro, cfg, today):
     gp = sector.get("_gnpa_points") or []
     if len(gp) >= 2:
         last = gp[-1]
-        prev = next((p for p in gp[:-1] if p["period"][:3] == last["period"][:3]), gp[0])  # same half-year a year earlier
+        prev = next((p for p in reversed(gp[:-1]) if p["period"][:3] == last["period"][:3]), gp[0])  # same half-year a year earlier
         mon = {"Mar": "03-31", "Sep": "09-30"}.get(last["period"][:3], "03-31")
         iso = f"20{last['period'][-2:]}-{mon}"
         d = round(last["value"] - prev["value"], 1)
