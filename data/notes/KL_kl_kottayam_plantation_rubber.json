@@ -1,0 +1,150 @@
+{
+ "key": "kl_kottayam|plantation_rubber",
+ "state": "KL",
+ "city": "kl_kottayam",
+ "ind": "plantation_rubber",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively to small and mid rubber growers and processors in Kottayam at record prices, but structure tightly and avoid price-chasing expansion; the data pack gives no score, so the call rests on price and peer evidence.",
+ "title": "Kottayam rubber & other plantations: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A rubber smallholder converts latex from standing trees into sheet or scrap and sells it to processors and tyre companies; cash arrives in weekly tapping cycles, not harvest lumps.** The tree is the asset, tapping labour is the main running cost, and the grower has almost no pricing power — the Rubber Board's daily RSS-4 quote sets the day's rate. So when a proposal lands, check the holding size, tree age and whether tapping is owner or leased labour; if the labour is leased, ask for the annual replanting and wage schedule.",
+  "## Where value and cash sit now\n**Value has moved sharply in the grower's favour: RSS-4 touched Rs 271 per kg, the highest ever in the Indian market [3], and Kottayam reported Rs 300 per kg [1].** That is a local price record, not a peer result, and it is recent — treat it as current, not structural. Downstream, the processors show the margin: Tinna Rubber ran 17.1% EBITDA margins on record FY26 volumes [4], Sampann's rubber segment lifted Q1FY27 revenue 27.6% YoY [5], and Apcotex hit 22.28% EBITDA margins with inventory gains [7]. **The cash is in processing and compounding, not in raw latex.**",
+  "## What has changed\n**The price spike is pulling the whole chain up, and the state is paying attention — the Rubber Board chairman flagged sector problems ahead of a central minister's Kottayam visit [2].** Peer results are strong but they are processors, not growers, and the rating reports are undated: CARE expects better profitability on tea and rubber price increases and higher tapping from FY26-27 as plants mature [8], and sees no major debt-funded capex at Harrisons [9]. **Sources say little specific about Kottayam's own grower balance sheets, so lean on first principles and these peers.**",
+  "## Who to pursue, and how to grow safely\n**Pursue small and mid growers with mature trees and clean title, and processors with compounding or reclaimed-rubber lines.** Avoid new planting loans and anyone borrowing against the current price to expand area. Structure against the daily Rubber Board price with a margin, take monthly tapping and sales statements, and require the buyer's weighment slips. **Take the stock and receivables position every month; if sales volumes fall while price holds, ask why before renewing.**",
+  "## Early-warning signs\n**Watch for growers selling trees, skipping tapping, or diverting to unrecorded buyers.** If the daily RSS-4 quote slips below the level at sanction, re-price the drawing power. If a processor's inventory days stretch while margins stay high, that is inventory gain, not demand — ask for the order book."
+ ],
+ "watch": [
+  [
+   "Rubber Board daily RSS-4 price (daily)",
+   "falls below sanction assumption -> re-price drawing power and pause enhancements"
+  ],
+  [
+   "Monthly tapping and sales statements (monthly)",
+   "volume falls while price holds -> ask for buyer slips and inspect the holding"
+  ],
+  [
+   "Processor inventory days (quarterly)",
+   "stretches with high margins -> treat as inventory gain, seek order book"
+  ],
+  [
+   "Tree age and replanting record (annual)",
+   "trees past prime without replanting plan -> cap tenor to remaining tree life"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Record RSS-4 and Kottayam prices lift grower and processor cash flows.",
+ "articles": [
+  {
+   "title": "റബ്ബർ വിപണിയിൽ പുതിയ ചരിത്രം കുറിച്ച് കിലോയ്ക്ക് 300 രൂപയെന്ന നേട്ടം | thaliparambanews.in",
+   "url": "https://thaliparambanews.in/news/389714/rubber-price-hits-300-per-kg-in-kottayam",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "'റബര് മേഖലയിലെ പ്രശ്നങ്ങള് വിലയിരുത്തും, പീയൂഷ് ഗോയല് കോട്ടയത്തേക്ക്': എന്.ഹരി - 'റബര് മേഖലയിലെ പ്രശ്നങ്ങള് വിലയിരുത്തും, പീയൂഷ് ഗോയല് കോട്ടയത്തേക്ക്': എന്.ഹരി",
+   "url": "https://www.etvbharat.com/ml/state/rubber-board-chairman-n-hari-on-piyush-goyal-visit-to-kottayam-kls26070305774#1",
+   "date": "2026-07-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Rubber prices shoot up across Kerala; sparking resurgence in plantation sector - Kerala",
+   "url": "https://www.newindianexpress.com/states/kerala/2026/Jun/15/rubber-prices-shoot-up-across-kerala-sparking-resurgence-in-plantation-sector?utm_source=website&utm_medium=related-stories#1",
+   "date": "2026-06-14",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tinna Rubber and Infrastructure Earnings Call: Key Takeaways | TINNARUBR | 25 May 2026",
+   "url": "https://alfafinder.com/filings/tinna-rubber-and-infrastructure/2026-05-25-earnings-call-cqsfmnue/",
+   "date": "2026-05-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sampann Utpadan Q1FY27 net profit rises 12%, led by rubber segment - Sampann Utpadan Q1FY27 net profit rises 12%, led by rubber segment",
+   "url": "https://scanx.trade/stock-market-news/companies/sampann-utpadan-q1-results-net-profit-up-12-yoy-to-205-73-lakh/46857747#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Tinna Rubber Reports 63% Increase in Quarterly Net Profit | AlphaStreet - SENSEX: 72,400 ▲ 0.5% NIFTY: 21,800 ▲ 0.4% GOLD: 62,500 ▼ 0.2%",
+   "url": "https://alphastreet.com/india/tinna-rubber-reports-63-increase-in-quarterly-net-profit/#1",
+   "date": "2026-02-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Apcotex Industries posts record Q1FY27 profit of ₹789M on margin surge - Apcotex Industries posts record Q1FY27 profit of ₹789M on margin surge",
+   "url": "https://scanx.trade:443/stock-market-news/companies/apcotex-industries-q1-results-net-profit-jumps-to-790m-rupees-yoy/46860530#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202501120122_Harrisons_Malayalam_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Harrisons Malayalam Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202312121208_Harrisons_Malayalam_Limited.pdf#page=13#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "A sound corporate governance structure attempts to make a clear the distinction of power and responsibilities between the Board ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/914~Fertilisers#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Kerala None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

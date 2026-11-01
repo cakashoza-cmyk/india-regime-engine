@@ -1,0 +1,158 @@
+{
+ "key": "ka_belagavi|sugar",
+ "state": "KA",
+ "city": "ka_belagavi",
+ "ind": "sugar",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 86,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Belagavi sugar and ethanol, but only to integrated mills with distillery capacity and clean cane-payment records; avoid pure-standalone mills leaning on an MSP revision that has not been notified.",
+ "title": "Belagavi Sugar & Ethanol: a note to the credit manager",
+ "narrative": [
+  "Cost is dominated by cane price, which is politically set and paid within days; revenue is sugar and ethanol sold over months. That mismatch is the whole credit story. **So when a proposal lands, check the split between sugar and ethanol revenue and the cane payment cycle first; if cane arrears exceed one fortnight, ask why before reading anything else.**",
+  "## Where cash and value sit now\n**The local news is about price, not about demand: growers are agitating for a higher fair remunerative price and a higher sugar MSP, and the minister who owns mills says factories can pay more only if the Centre raises MSP [1][2][3].** That is a squeeze signal, not a growth signal. Peer results show the other side: Triveni reports improved profitability and reduced debt on strong sugar and distillery margins [5], and EID Parry lifted average realization to INR 51.2 per kilogram from INR 43.7 per kilogram on premium mix [6]. **So pursue mills that already earn a premium or ethanol margin; avoid those whose entire repayment case is an MSP increase that has not been notified.**",
+  "## The growth opportunity to pursue\n**Karnataka's local demand backdrop is strong: GST collections up 11.1% Apr-to-date against India's 6.1%, and electricity demand up 23.3% against 9.5% [D].** For this industry that means power and ethanol offtake, not sugar alone. Rating commentary says remunerative ethanol prices and interest subvention for debt-funded distillery capex help prevent cane arrears piling up, and that ethanol offsets cyclicality for integrated mills [10]. **So target integrated mills adding distillery capacity, and cogeneration units selling to the grid; avoid standalone sugar mills with no diversification and no captive cane base.**",
+  "## How to grow safely\n**Structure against the season, not the year: a cash-flow cycle that peaks at crushing and troughs before the next crush needs a limit sized to one season's cane bill, with repayment tied to sugar and ethanol receipts.** Take monthly: cane crushed and recovery rate, cane paid versus cane due, sugar stock and free stock, ethanol dispatch volumes, and quarterly the debt-service cover. **If cane arrears cross one fortnight, ask for the farmer payment schedule and hold new limits; if ethanol realizations fall below the level in the sanction note, reprice.** Rating reports show gearing near 1.4 times and interest cover around 2x for a rated peer [11]; use that as the outer edge, not the target.",
+  "## Early-warning signs\n**Watch the cane price negotiation, not the balance sheet: an agitation that blocks highways in Belagavi and Chikkodi [3] delays crushing and pushes arrears up before any ratio moves.** Second, watch whether MSP revision stays a demand [1][2] rather than a notification. Third, watch recovery rate and sugar stock ageing. **If crushing starts late or recovery drops, ask for a revised season cash flow before the next disbursement.** Note the rating sources carry no clear dates and some are from 2024 [9][11]; treat their ratios as directional only, and collect current gearing and cane arrears from the customer."
+ ],
+ "watch": [
+  [
+   "Cane arrears versus cane paid (monthly)",
+   "arrears beyond one fortnight -> hold new limits, get farmer payment schedule"
+  ],
+  [
+   "Crushing start date and recovery rate (weekly in season)",
+   "late start or recovery below sanction assumption -> revise season cash flow before disbursement"
+  ],
+  [
+   "Sugar MSP notification status (monthly)",
+   "revision stays a demand, not a notification -> do not credit it in repayment"
+  ],
+  [
+   "Ethanol dispatch volumes and realization (monthly)",
+   "realization below sanction note -> reprice or reduce limit"
+  ],
+  [
+   "Sugar free stock and ageing (monthly)",
+   "stock ageing beyond normal cycle -> ask for sales plan and discounting"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Cane price agitation and MSP demand squeeze mill margins; no notified price relief yet.",
+ "articles": [
+  {
+   "title": "Factories are ready to pay higher prices if sugar MSP is revised: Satish Jarkiholi",
+   "url": "https://www.thehindu.com/news/national/karnataka/factories-are-ready-to-pay-higher-prices-if-sugar-msp-is-revised-satish-jarkiholi/article71652881.ece",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Permanent solution to sugarcane farmers’ problems requires Centre to increase sugar MSP | Udayavani - Latest English News, Udayavani Newspaper",
+   "url": "https://udayavani.com/karnataka/permanent-solution-to-sugarcane-farmers-problems-requires-centre-to-increase-sugar-msp-987395?lang=en",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Farmers intensify agitation in sugarcane-growing districts of north Karnataka",
+   "url": "https://www.deccanherald.com/india/karnataka/farmers-intensify-agitation-in-sugarcane-growing-districts-of-north-karnataka-4202855",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Buy K P R Mill; target of Rs 1289: Prabhudas Lilladher",
+   "url": "https://in.tradingview.com/news/moneycontrol:63691d251094b:0-buy-k-p-r-mill-target-of-rs-1289-prabhudas-lilladher/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Triveni Engineering & Industries (NSE:TRIVENI) Earnings Call Transcripts - Triveni Engineering & Industries Limited (NSE:TRIVENI)",
+   "url": "https://stockanalysis.com/quote/nse/TRIVENI/transcripts/#main#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset By Investing.com - E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset",
+   "url": "https://www.investing.com/news/company-news/eid-parry-q1-fy27-slides-sugar-volumes-surge-amid-strategic-reset-93CH-4856707#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's EID Parry posts higher quarterly profit on strong sugar performance",
+   "url": "https://www.reuters.com/5f374b32b07b/world/india/indias-eid-parry-posts-higher-quarterly-profit-strong-sugar-performance-2026-05-26/",
+   "date": "2026-05-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "policies on exports, minimum support price (MSP), and ethanol pricing",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510121030_Zuari_Industries_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 08,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130418#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "April 06,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=142208#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 22, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=130589#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 86 (national 77 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Karnataka: GST collections +11.1% Apr-to-date vs India +6.1% (5.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Karnataka: electricity demand +23.3% Apr-to-date vs India +9.5% (13.8 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit -7.0% YoY vs output +5.1% (gap -12.1 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

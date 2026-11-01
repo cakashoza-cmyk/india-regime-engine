@@ -1,0 +1,154 @@
+{
+ "key": "kl_thiruvananthapuram|it_bpo",
+ "state": "KL",
+ "city": "kl_thiruvananthapuram",
+ "ind": "it_bpo",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution — lend selectively to domestic-focused mid-size BPO/KPO and medical-coding firms with diversified client bases and clean labour records; avoid single-client, US-concentrated vendors and any account with unresolved retrenchment disputes.",
+ "title": "Thiruvananthapuram IT-enabled services & BPO: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**These firms sell trained people and process discipline, not products.** A BPO or medical-coding unit converts seats, software licences and supervisory layers into monthly invoices to overseas clients, mostly US healthcare and financial-services payers. So when a proposal lands, check the client-concentration schedule first; if one client is above a third of revenue, ask for the contract tenure and exit clause.",
+  "## What has changed now\n**The local shock is labour, not demand.** A US-based medical-coding firm retrenched staff in Kerala and CITU has moved to raise it as an industrial dispute before the Labour Commissioner and Labour Courts [1]; reports put the cut at 850 employees across Kochi and Kozhikode [2]. Note this is a state-level labour story, not a Thiruvananthapuram-specific one — the sources say little about this city's own establishment base, so lean on first principles here. **On the demand side, peers are holding up unevenly:** eClerx grew revenue 17.1% YoY to INR 1,212.6 crore in Q2 FY2026-27 [5], while Hinduja Global Solutions grew just 1.1% YoY to Rs 1,075.4 crore with EBITDA margin down to 11.2% from 19.0% [6]. TCS held operating margin at 24% and Infosys at 21% [7] — but those are large-cap IT services, not BPO comparables. **Read the spread as: analytics-led work is growing, plain-vanilla voice/BPO is flat and margin-squeezed.**",
+  "## Where the growth is\n**Pursue domestic-demand and India-delivery BPO/KPO units, and medical-coding firms with multi-payer, multi-client books.** The YOO Hub Trivandrum project at Technopark Phase III is projected to add 5,000 jobs [3] — that is a pipeline signal for landlord-linked and staffing-linked lending, not proof of tenant credit. **Avoid single-client captives and any vendor whose revenue is one US payer.** The 850-job cut [2] shows how fast a concentrated book becomes a labour liability.",
+  "## How to grow safely\n**Structure against the receivable, not the balance sheet.** Take monthly MIS: client-wise revenue, attrition, seat utilisation, debtor days and salary-run coverage. Ask for monthly ESI/PF remittance proof — a missed remittance is the earliest sign of a cash crunch in this industry. **Covenant on client concentration and on labour compliance:** if a borrower's top client exceeds the agreed share, reprice or reduce limit. Where the figure is missing, collect from customer.",
+  "## Early-warning signs\n**Watch attrition and bench strength monthly.** Rising bench with flat billing means margin erosion before it shows in the P&L. **Watch for dispute filings and union activity** — the CITU route to the Labour Commissioner [1] is a public record you can check quarterly. **Watch debtor days and any request to fund salaries** — that is the classic pre-default pattern in this sector."
+ ],
+ "watch": [
+  [
+   "Monthly ESI/PF remittance proof (monthly)",
+   "missed or part remittance -> freeze fresh disbursement and call for cash-flow statement"
+  ],
+  [
+   "Client concentration schedule (quarterly)",
+   "top client above agreed share -> reprice limit or seek additional collateral"
+  ],
+  [
+   "Attrition and bench utilisation MIS (monthly)",
+   "bench rising with flat billing -> ask for revised margin projection and tighten drawing power"
+  ],
+  [
+   "Labour dispute / union filings (quarterly)",
+   "dispute filed before Labour Commissioner -> reassess account and seek client-contract tenure proof"
+  ],
+  [
+   "Debtor days and salary-run coverage (monthly)",
+   "debtor days stretching or salary funding request -> treat as stress signal, reduce exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "850 medical-coding layoffs in Kerala and union dispute filings outweigh modest peer revenue growth.",
+ "articles": [
+  {
+   "title": "CITU condemns layoffs at U.S.-based medical coding firm; calls for stronger labour protections - CITU condemns layoffs at U.S.-based medical coding firm; calls for stronger labour protections",
+   "url": "https://www.thehindu.com/news/cities/Thiruvananthapuram/citu-condemns-layoffs-at-us-based-medical-coding-firm-calls-for-stronger-labour-protections/article71185459.ece#1",
+   "date": "2026-07-04",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "CPI(M) slams mass layoffs by IT company in Kerala, blames Centre's labour codes - Thiruvananthapuram: Senior CPI(M) leader and former Labour Minister V Sivankutty on Sunday strongly criticised the alleged retre...",
+   "url": "https://www.deccanherald.com/india/keralam/cpim-slams-mass-layoffs-by-it-company-in-kerala-blames-centres-labour-codes-4062795#1",
+   "date": "2026-07-04",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "HiLITE Group’s YOO Hub Trivandrum drives Kerala’s IT Growth with 5,000 new jobs",
+   "url": "https://www.keralakaumudi.com/en/kerala/general/hilite-group-yoo-hub-trivandrum-1773265",
+   "date": "2026-06-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "AXISDIRECT",
+   "url": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/Zensar+Technologies+Ltd+-+Q2FY27+Result+Update+-+30102026_30-10-2026_10.pdf/type/fundamental#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "eClerx Reports Strong Q2 FY2026-27 Results; Revenue Stands at INR 1,212.6 Crore, up 17.1% YoY",
+   "url": "https://sg.finance.yahoo.com/news/eclerx-reports-strong-q2-fy2026-111800284.html",
+   "date": "2026-10-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Q3FY26 Quarterly Result Announced for Hinduja Global Solutions Ltd.",
+   "url": "https://trendlyne.com/posts/5524607/q3fy26-quarterly-result-announced-for-hinduja-global-solutions-ltd",
+   "date": "2026-02-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India’s IT firms hold margins as AI gains offset cost pressures",
+   "url": "https://www.newindianexpress.com/business/2026/Oct/29/indias-it-firms-hold-margins-as-ai-gains-offset-cost-pressures",
+   "date": "2026-10-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The rating exercise is primarily focused on assessing the future debt servicing capability of a company",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/858~IT%20Services,%20Rating%20Methodology,%20Jul%202023%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "**August 27, 2024**",
+   "url": "https://www.cielhr.com/wp-content/uploads/2024/11/CIEL-HR-Services-Limited_Rationale-Final-1.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Datamatics Global Services Limited: Ratings upgraded to [ICRA]A+ (Stable)/ [ICRA]A1+",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/107986~Datamatics%20Global%20Services%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Kerala None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

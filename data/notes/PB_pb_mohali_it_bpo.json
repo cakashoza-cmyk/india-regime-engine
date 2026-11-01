@@ -1,0 +1,150 @@
+{
+ "key": "pb_mohali|it_bpo",
+ "state": "PB",
+ "city": "pb_mohali",
+ "ind": "it_bpo",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "OK to lend selectively in Mohali IT-enabled services & BPO — pursue GCC-linked and domestic-captive mid-size operators with contracted revenue; avoid small voice-only call centres with client concentration and no written contracts.",
+ "title": "Mohali IT-enabled services & BPO: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Mohali BPO is a leased floor, a seat count, and a client contract — cash turns on seats billed per month, not on assets.** Inputs are people, rent, telecom bandwidth and software licences; output is billed seats or billed transactions. Value sits in the client relationship and the trained team, not in the balance sheet, so the lender's real collateral is the contract and the receivable. Pricing power is thin: a rating note on a staffing-led peer says competitive pressure 'continues to limit the company's pricing power and the scope for margin expansion' [9]. So when a proposal lands, check whether revenue is contracted seat-months or per-transaction; if per-transaction, ask for the last six months of billing volumes per client. ## Where cash and capex sit\n**Working capital is the whole game: receivables from overseas clients against monthly salary and rent payouts.** The rating methodology treats the working-capital cycle as the core liquidity driver — a shorter cycle means faster cash turnaround and lower incremental funding need [11]. Capex is light (fit-outs, desktops, lease deposits), so most of the ask should be working capital, not term. Collect from customer: debtor days by client, top-client share of revenue, and monthly salary outflow. If debtor days exceed the credit period you are asked to fund, ask why the gap is being financed by the bank rather than the client. ## What has changed now\n**Local news is promotional, not financial: Mohali is being marketed to GCC and IT investors, with a state consultation on a technology ecosystem [1] and an investment pitch at a 2026 summit [2].** Neither source gives a single number on Mohali's seat count, billing rates or vacancy, so treat the city-level story as sentiment only. Peer results are mixed and are the better read: eClerx grew revenue 17.1% YoY to INR 1,212.6 crore in Q2 FY2026-27 [5], while Hinduja Global Solutions grew revenue only 1.1% YoY with EBITDA margin down to 11.2% from 19.0% [6]. Large IT held margins — TCS at 24%, Infosys at 21% [7] — on AI-led productivity and cost control. Read together: analytics and digital operations are growing, plain voice BPO is not. ## Who to pursue, and how to grow safely\n**Pursue GCC-support vendors, domestic-captive back offices and analytics/automation-led mid-size operators; avoid single-client voice shops.** A local operator, SkyOS BPO, has just launched a division aimed at small and mid-sized global clients [3] — that is the segment to finance, but only with structure. Take monthly: billing register by client, bank statements of the operating account, GST returns, and a receivable-ageing. Covenant a minimum contract tenor and a cap on top-client share; collect from customer the exact cap you can support. Where the client is overseas, insist on the remittance trail, not just the invoice. ## Early-warning signs\n**Watch seat utilisation and salary timing first — they break before the balance sheet does.** If monthly billing per seat falls while headcount holds, ask for the client's contract amendment. If salary payments slip past the agreed date, treat it as a cash event and stop fresh disbursal. If a top client's share rises while total billing is flat, ask for the renewal letter. If the borrower shifts from seat-based to per-transaction billing without a volume history, ask for three months of transaction logs before enhancing limits."
+ ],
+ "watch": [
+  [
+   "Monthly billing register by client (monthly)",
+   "Billing per seat falls while headcount flat -> ask for contract amendment and hold limit"
+  ],
+  [
+   "Salary payment date vs agreed date (monthly)",
+   "Salary slips past agreed date -> treat as cash event, stop fresh disbursal"
+  ],
+  [
+   "Top-client share of revenue (quarterly)",
+   "Share rises while total billing flat -> ask for renewal letter before any enhancement"
+  ],
+  [
+   "Receivable ageing and remittance trail (monthly)",
+   "Debtor days exceed funded credit period -> ask why client is not paying, cap exposure"
+  ],
+  [
+   "Billing model change (on event)",
+   "Shift to per-transaction without volume history -> ask for three months of transaction logs"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Local news is promotional with no financials; peers show mixed growth, so no directional change.",
+ "articles": [
+  {
+   "title": "*strategic Consultation Held With Gcc Leaders To Shape Punjab's Technology Driven Ecosystem: Sanjeev Arora*",
+   "url": "https://jagratilahar.com/english/business/128256/Bhagwant-Mann-Cm-Punjab",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Mohali Showcases IT Investment Ambitions at Punjab… | Speedy Clicks",
+   "url": "https://www.speedyclicks.in/mohali-it-global-capability-centres-investor-summit-2026/",
+   "date": "2026-10-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "SkyOS BPO Launches Dedicated BPO & Call Center Services Division for Global Clients - IssueWire - SkyOS BPO Launches Dedicated BPO & Call Center Services Division for Global Clients",
+   "url": "https://www.issuewire.com/skyos-bpo-launches-dedicated-bpo-call-center-services-division-for-global-clients-1875114194554660#1",
+   "date": "2026-08-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "AXISDIRECT",
+   "url": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/Zensar+Technologies+Ltd+-+Q2FY27+Result+Update+-+30102026_30-10-2026_10.pdf/type/fundamental#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "eClerx Reports Strong Q2 FY2026-27 Results; Revenue Stands at INR 1,212.6 Crore, up 17.1% YoY",
+   "url": "https://sg.finance.yahoo.com/news/eclerx-reports-strong-q2-fy2026-111800284.html",
+   "date": "2026-10-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Q3FY26 Quarterly Result Announced for Hinduja Global Solutions Ltd.",
+   "url": "https://trendlyne.com/posts/5524607/q3fy26-quarterly-result-announced-for-hinduja-global-solutions-ltd",
+   "date": "2026-02-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India’s IT firms hold margins as AI gains offset cost pressures",
+   "url": "https://www.newindianexpress.com/business/2026/Oct/29/indias-it-firms-hold-margins-as-ai-gains-offset-cost-pressures",
+   "date": "2026-10-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The rating exercise is primarily focused on assessing the future debt servicing capability of a company",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/858~IT%20Services,%20Rating%20Methodology,%20Jul%202023%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "**August 27, 2024**",
+   "url": "https://www.cielhr.com/wp-content/uploads/2024/11/CIEL-HR-Services-Limited_Rationale-Final-1.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Datamatics Global Services Limited: Ratings upgraded to [ICRA]A+ (Stable)/ [ICRA]A1+",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/107986~Datamatics%20Global%20Services%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Punjab None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

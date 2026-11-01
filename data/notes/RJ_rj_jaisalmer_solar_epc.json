@@ -1,0 +1,154 @@
+{
+ "key": "rj_jaisalmer|solar_epc",
+ "state": "RJ",
+ "city": "rj_jaisalmer",
+ "ind": "solar_epc",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution — lend only to rooftop and small C&I EPC contractors with clean land title and proven collections; avoid utility-scale park EPC and land-dependent developers in Jaisalmer until the Oran land disputes clear.",
+ "title": "Jaisalmer solar EPC & rooftop: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA solar EPC contractor buys modules, inverters, structure and cable, moves them to site, and converts them into an installed, commissioned plant for a customer who pays on milestone. **Modules alone are around 70% of total project cost [9], so the EPC firm is really a thin-margin assembler of someone else's expensive input.** Cash does not sit in the plant; it sits in retention money held back by the customer and in unbilled work-in-progress. **Retention held with customers forces dependence on bank working capital, and utilisation ran between 78% for the twelve months to November 2023 in one rated peer [9].** So when a proposal lands, check the retention percentage and the release schedule before anything else; if retention exceeds the margin, ask what funds the gap.",
+  "## Where value and cash actually sit\nPricing power is weak because competition is intense and regulatory shifts are frequent [10], and profitability is exposed to module price swings [9]. **The peer set shows the split clearly: Waaree Renewable grew revenue 36.53% to Rs 1,057.84 crore in Q2 FY27 while PAT fell nearly 30% to Rs 81.48 crore [6].** GK Energy grew H1 FY27 revenue 38.9% to Rs 907.8 crore with EBITDA up 21.6% to Rs 160.5 crore [5], but carries 204-day receivables [7]. **Growth without collection is the pattern to underwrite against, not to reward.** Capex is light for the EPC firm itself; the heavy capital sits with the developer, where debt-equity of 70:30 or 75:25 is typical [11].",
+  "## What has changed in Jaisalmer now\nThe constraint here is land, not demand. **The Rajasthan High Court has stayed felling of trees in the Oran area for a proposed solar project at Baiya village, Jaisalmer [1], and villagers have begun a 700 km foot march from the India-Pakistan border to Jaipur to protect sacred groves and pastures [2].** Activists claim 580,000 hectares of orans are wrongly classified as wastelands in revenue records [2], and a 400 MW solar park is proposed in a catchment local residents depend on [2]. **This is local news, not peer performance, and it is recent (March-April 2026).** The practical effect: utility-scale park EPC in this district can stall on clearances mid-execution. On the rooftop side, Rajasthan subsidy and JVVNL net-metering rules are the demand driver [3], but that source is a commercial directory, not an official policy document — collect the current subsidy order from customer.",
+  "## Who to pursue and how to grow safely\n**Pursue rooftop and small commercial-and-industrial EPC contractors with a completed-project list, DISCOM approval letters in hand, and customers who pay on commissioning.** Pursue EPC firms serving pump and rooftop programmes where the order book is documented — GK Energy won a 1 lakh rooftop systems order and a 150 MW/300 MWh BESS order [5], which shows where volume is moving. **Avoid utility-scale park EPC and any borrower whose site depends on Oran or pasture land with pending revenue reclassification [2].** Structure against retention: take monthly stock and receivable statements, a project-wise retention register, and module purchase invoices.",
+  "## Early-warning signs\n- **Receivables stretching past the peer benchmark of 204 days [7] -> stop fresh disbursement and review the account.**\n- **Retention release slipping beyond the contract date [9] -> ask for the customer's payment confirmation in writing.**\n- **Module price movement compressing margin below sanction assumption [9] -> re-price or reduce exposure.**\n- **Any court stay or land objection on a project site [1][2] -> freeze that project's limit immediately.**\n- **Working capital utilisation approaching the rated peer's 78% [9] -> require a fresh cash-flow statement before renewal.**"
+ ],
+ "watch": [
+  [
+   "Monthly receivable ageing",
+   "Crosses 204 days [7] -> stop fresh disbursement, review account"
+  ],
+  [
+   "Monthly retention register",
+   "Release slips past contract date [9] -> obtain customer payment confirmation in writing"
+  ],
+  [
+   "Quarterly module purchase invoices",
+   "Input cost rise compresses margin [9] -> re-price or cap exposure"
+  ],
+  [
+   "Event-based land/court check",
+   "Stay or objection on site [1][2] -> freeze that project limit"
+  ],
+  [
+   "Monthly drawing-power utilisation",
+   "Approaches 78% [9] -> demand fresh cash-flow statement before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "High Court stay on Oran tree felling and 700 km protest march threaten Jaisalmer solar project land clearances.",
+ "articles": [
+  {
+   "title": "Rajasthan High Court Stays Felling Of Trees For Solar Energy Plant In Jaisalmer - Rajasthan High Court Stays Felling Of Trees For Solar Energy Plant In Jaisalmer",
+   "url": "https://www.etvbharat.com/en/state/high-court-imposes-interim-stay-on-felling-of-trees-in-oran-area-for-proposed-solar-energy-project-in-baiya-village-jaisalmer-enn26042603352#1",
+   "date": "2026-04-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "A 700 km-long foot march to save sacred groves from solar projects",
+   "url": "https://india.mongabay.com/2026/03/villagers-set-on-a-700-km-long-foot-march-to-save-sacred-groves-from-solar-projects-in-rajasthan/amp/",
+   "date": "2026-03-18",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Rajasthan Solar Subsidy 2026 — Solar Policy, JVVNL Net Metering Guide",
+   "url": "https://gosolarindex.in/blog/rajasthan-solar-policy-subsidy-2026",
+   "date": "2026-03-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Continuation of our coverage on Shakti Pumps (India) Ltd post Q1FY27 results announced by the company on 27th July, 2026.",
+   "url": "https://www.ajcononline.com/wp-content/uploads/research/resultupdate/2026/ShaktiPumpsLimitedQ1FY27.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "GK Energy Ltd (NSE:GKENERGY) (Q2 2027) Earnings Call Highlights: 39% H1 Revenue Surge, Rs 1,422 ...",
+   "url": "https://finance.yahoo.com/energy/articles/gk-energy-ltd-nse-gkenergy-190652530.html",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Waaree Renewable Technologies Q2 Revenue Rises 37%, Profit Falls 30% - Waaree Renewable Technologies Q2 Revenue Rises 37%, Profit Falls 30%",
+   "url": "https://in.tradingview.com/news/moodys:9093c2acc1d19:0-waaree-renewable-technologies-q2-revenue-rises-37-profit-falls-30/#1",
+   "date": "2026-10-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "GK Energy Ltd (NSE:GKENERGY) (Q2 2027) Earnings Call Highlights:",
+   "url": "https://www.gurufocus.com/news/9161223/gk-energy-ltd-nsegkenergy-q2-2027-earnings-call-highlights-39-h1-revenue-surge-rs-1422-crore-order-wins-and-a-push-into-rooftop-solar-and-bess",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 22, 2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=132546#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202401140131_U-Solar_Clean_Energy_Solutions_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "CRISIL Ratings has applied the parent notch-up framework to factor in support from the parent, Premier Energies Ltd (PEL)",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c2008406-0bb5-429f-b9f4-61d2361eb69f.pdf#3#7#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RATING METHODOLOGY FOR SOLAR POWER PRODUCERS",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/762~Solar%20Power%20Producers#1#3#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Rajasthan None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

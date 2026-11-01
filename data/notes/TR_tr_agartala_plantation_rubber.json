@@ -1,0 +1,147 @@
+{
+ "key": "tr_agartala|plantation_rubber",
+ "state": "TR",
+ "city": "tr_agartala",
+ "ind": "plantation_rubber",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Data pack scores Tripura rubber as UNKNOWN, so no automatic OK; lend selectively to mature, tapped smallholder-groups and processors with verified yield and offtake, and decline fresh planting or untapped immature estates until yield and price data are collected.",
+ "title": "Agartala rubber & plantations: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Rubber here is a tree-to-cash business: latex is tapped from standing trees, coagulated into sheets or cup lump, and sold to processors or traders.** Cash arrives only after a tree matures and is tapped; the plantation's real asset is the standing tree, not the land. **The data pack gives no Tripura yield, price or cost figures, so collect from customer before any number enters the file.**\n\n## Where value and cash sit\n**Value sits in tapping maturity and in processing, not in planting.** Rating commentary on a listed peer notes the rubber segment is generally profitable and that increased tapping is expected from FY26-27 as plants mature [8]. **So when a proposal lands, check the age profile of the trees and the tapped acreage; if the estate is mostly immature, ask for the maturity schedule and treat it as a term loan, not working capital.** Peer processors show the downstream margin: Tinna reported 17.1% EBITDA margins on product-mix optimisation [4], and Apcotex reported 22.28% EBITDA margins with ₹220 crore capex planned for NBR and latex expansions [7]. **Those are peer results, not Agartala evidence, and the Apcotex and Tinna figures are from other markets.**\n\n## What has changed now\n**The local news is promotional, not financial: Agartala hosted the CII North East Rubber Conclave on 27-28 March 2026, positioning the North East as India's next rubber growth hub and pushing value addition and downstream MSMEs [3].** A July 2026 report says Tripura is boosting natural rubber investment and expanding ASEAN market connections [1]. **Neither source gives a price, volume or borrower-level number, and the sources say little about Agartala's own plantation base, so lean on first principles and peers.**\n\n## Who to pursue, who to avoid\n**Pursue tapped smallholder groups selling to verified processors, and existing sheet and crumb processors with offtake contracts.** Sampann's reclaimed-rubber segment drove a 27.6% YoY revenue rise to ₹4,170.47 lakh in Q1FY27 [5]; that is a peer signal of downstream demand, not a Tripura fact. **Avoid fresh-planting loans and untapped immature estates until maturity is documented.**\n\n## How to grow safely and what to watch\n**Structure plantation loans with a moratorium to first tapping, and processing loans against stock and receivables.** Take monthly tapping volumes, sheet grade and sale price, and monthly stock statements. **If tapping volumes fall below the schedule in the file, ask for the reason and re-age the loan.**",
+  "## Early warnings\n- **Monthly tapping and dispatch register (monthly):** volume below plan for two months -> ask for cause and re-age.\n- **Sale price realisation per kg (monthly):** falling realisation with rising stock -> cut limit.\n- **Buyer concentration (quarterly):** one buyer above half of sales -> seek a second offtake contract.\n- **Maturity and replant status (annual):** immature share rising -> shift to term structure."
+ ],
+ "watch": [
+  [
+   "Monthly tapping and dispatch register (monthly)",
+   "volume below plan for two months -> ask for cause and re-age the loan"
+  ],
+  [
+   "Sale price realisation per kg (monthly)",
+   "falling realisation with rising stock -> cut limit"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "one buyer above half of sales -> seek a second offtake contract"
+  ],
+  [
+   "Maturity and replant status (annual)",
+   "immature share rising -> shift to term structure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Local items are promotional conclave and investment news with no price or volume data.",
+ "articles": [
+  {
+   "title": "India: Tripura boosts natural rubber investment, expands ASEAN market connections",
+   "url": "https://www.tridge.com/ko/news/india-tripura-boosts-natural-rubber-investme-jarvdkdf",
+   "date": "2026-07-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "CII NE Rubber Conclave focuses on Building a Competitive Rubber Value Chain in the North East - Tripura Net",
+   "url": "https://tripuranet.com/cii-ne-rubber-conclave.html#respond",
+   "date": "2026-03-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "#ciinortheast #rubberconclave2026 #agartala #tripura #rubberindustry #msme #northeastindia #makeinindia | CII North East Region",
+   "url": "https://www.linkedin.com/posts/cii-north-east_ciinortheast-rubberconclave2026-agartala-activity-7427619522293084160-jEBD",
+   "date": "2026-02-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tinna Rubber and Infrastructure Earnings Call: Key Takeaways | TINNARUBR | 25 May 2026",
+   "url": "https://alfafinder.com/filings/tinna-rubber-and-infrastructure/2026-05-25-earnings-call-cqsfmnue/",
+   "date": "2026-05-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sampann Utpadan Q1FY27 net profit rises 12%, led by rubber segment - Sampann Utpadan Q1FY27 net profit rises 12%, led by rubber segment",
+   "url": "https://scanx.trade/stock-market-news/companies/sampann-utpadan-q1-results-net-profit-up-12-yoy-to-205-73-lakh/46857747#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Tinna Rubber Reports 63% Increase in Quarterly Net Profit | AlphaStreet - SENSEX: 72,400 ▲ 0.5% NIFTY: 21,800 ▲ 0.4% GOLD: 62,500 ▼ 0.2%",
+   "url": "https://alphastreet.com/india/tinna-rubber-reports-63-increase-in-quarterly-net-profit/#1",
+   "date": "2026-02-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Apcotex Industries posts record Q1FY27 profit of ₹789M on margin surge - Apcotex Industries posts record Q1FY27 profit of ₹789M on margin surge",
+   "url": "https://scanx.trade:443/stock-market-news/companies/apcotex-industries-q1-results-net-profit-jumps-to-790m-rupees-yoy/46860530#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202501120122_Harrisons_Malayalam_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Harrisons Malayalam Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202312121208_Harrisons_Malayalam_Limited.pdf#page=13#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "A sound corporate governance structure attempts to make a clear the distinction of power and responsibilities between the Board ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/914~Fertilisers#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Tripura None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

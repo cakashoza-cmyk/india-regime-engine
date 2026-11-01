@@ -1,0 +1,154 @@
+{
+ "key": "hr_yamunanagar|sugar",
+ "state": "HR",
+ "city": "hr_yamunanagar",
+ "ind": "sugar",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 76,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Yamunanagar sugar & ethanol — back integrated mills with distillery capacity and digitised cane procurement; avoid pure raw-sugar mills and trader stock finance.",
+ "title": "Yamunanagar sugar & ethanol: a note to the credit manager",
+ "narrative": [
+  "The state has raised the cane rate by Rs 15 this season, with the new crop bought at Rs 450 per quintal [1] — that is the single biggest input cost line, so when a proposal lands, check the mill's cane cost against this Rs 450 figure and ask what recovery (quintals of cane per quintal of sugar) it assumes; collect from customer. ## Where value and cash sit\n**Value sits in the distillery, not the sugar bag.** ICRA notes remunerative ethanol prices and interest subvention on debt-funded distillery capex are what keep cane arrears from piling up, and that ethanol contribution offsets cyclicality for integrated mills [10]. Saraswati Sugar Mills spent about Rs 70 crore in FY2024 on refining capacity, funded from internal accruals, lifting realisations by roughly Rs 0.5-1.0/kg, with no major capex planned after [9]. So when a proposal lands, check whether the borrower has ethanol/refining capacity or is a plain raw-sugar mill; if plain, ask what happens to cane payment in a low-sugar-price year. ## What has changed now\n**Local news is thin and mostly operational, not financial.** Saraswati Sugar Mills has digitised cane indents for over 20,000 growers ahead of the season [3] — good for procurement discipline, but it tells us nothing about its balance sheet. Separately, the district administration formed eight teams and barred traders from stocking more than 4,000 quintals to curb hoarding [2]. That caps trader inventory, so when a stock-finance proposal from a trader lands, check stock against the 4,000-quintal ceiling; if above, ask for the release order. Peer results are strong but from other companies: Triveni reports improved profitability and reduced debt on sugar and distillery margins [5], and EID Parry's average realisation rose to INR 51.2 per kilogram from INR 43.7 [6]. Rating reports [9][10][11] are undated or old (2024) — treat as background, not current. ## Where to grow, and how to grow safely\n**Pursue integrated mills with distillery capacity and digitised cane procurement; avoid standalone raw-sugar mills and trader stock finance.** Haryana GST collections are running +10.1% Apr-to-date against India's +6.1% [D], a genuine local tailwind. Structure term debt against distillery cash flows with a DSRA, and working capital against sanctioned stock and receivables limits. Take monthly: cane crushed and recovery, sugar stock and realisations, ethanol volumes and prices, cane arrears outstanding, and quarterly debt service cover. Gearing reference from ICRA's FY2024 peer set was 1.4 times, expected to improve to about 1.1-1.2 times [11] — use as a benchmark, not a rule. ## Early-warning signs\n**Cane arrears rising month-on-month is the first crack** — it means the mill is funding cane from borrowings. Watch for stock build-up beyond the 4,000-quintal trader cap [2], falling recovery, and any delay in ethanol price notifications. If arrears cross two months of cane value, ask for a fresh cash-flow and consider reducing limits."
+ ],
+ "watch": [
+  [
+   "Cane arrears outstanding (monthly)",
+   "arrears exceed two months of cane value -> seek fresh cash-flow, cut limits"
+  ],
+  [
+   "Sugar stock and realisations (monthly)",
+   "stock above 4,000 quintals at a trader -> demand release order before disbursal"
+  ],
+  [
+   "Ethanol volumes and prices (monthly)",
+   "price notification delayed or volumes fall -> rework repayment schedule"
+  ],
+  [
+   "Debt service cover (quarterly)",
+   "cover below 1.3x -> restructure or exit"
+  ],
+  [
+   "Cane crushed and recovery (season)",
+   "recovery falls below proposal assumption -> ask for revised projections"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Local news is operational (digital indents, hoarding cap); no financial deterioration signalled.",
+ "articles": [
+  {
+   "title": "X 上的 IANS (@ians_india)",
+   "url": "https://x.com/ians_india/status/2116379607918415939",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "यमुनानगर: चीनी की जमाखोरी रोकने को आठ टीमें गठित, 4000 क्विंटल से ज्यादा स्टॉक नहीं कर सकेंगे व्यापारी - Hindi News › Haryana › Yamuna Nagar News › Yamunanagar Eight teams formed to curb sugar hoarding traders barred from stocking mo...",
+   "url": "https://www.amarujala.com/haryana/yamuna-nagar/yamunanagar-eight-teams-formed-to-curb-sugar-hoarding-traders-barred-from-stocking-more-than-4000-quintals-2026-08-22#1",
+   "date": "2026-08-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "No more paper slips: Yamunanagars Saraswati Sugar Mills digitises sugarcane indents - The Tribune - Grand Independence Day Sale Know More",
+   "url": "https://www.tribuneindia.com/news/haryana/no-more-paper-slips-yamunanagars-saraswati-sugar-mills-digitises-sugarcane-indents/amp/?utm=relatedarticles#1",
+   "date": "2026-08-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Buy K P R Mill; target of Rs 1289: Prabhudas Lilladher",
+   "url": "https://in.tradingview.com/news/moneycontrol:63691d251094b:0-buy-k-p-r-mill-target-of-rs-1289-prabhudas-lilladher/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Triveni Engineering & Industries (NSE:TRIVENI) Earnings Call Transcripts - Triveni Engineering & Industries Limited (NSE:TRIVENI)",
+   "url": "https://stockanalysis.com/quote/nse/TRIVENI/transcripts/#main#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset By Investing.com - E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset",
+   "url": "https://www.investing.com/news/company-news/eid-parry-q1-fy27-slides-sugar-volumes-surge-amid-strategic-reset-93CH-4856707#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's EID Parry posts higher quarterly profit on strong sugar performance",
+   "url": "https://www.reuters.com/5f374b32b07b/world/india/indias-eid-parry-posts-higher-quarterly-profit-strong-sugar-performance-2026-05-26/",
+   "date": "2026-05-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "policies on exports, minimum support price (MSP), and ethanol pricing",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510121030_Zuari_Industries_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 08,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130418#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "April 06,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=142208#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 22, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=130589#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 76 (national 77 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit -7.0% YoY vs output +5.1% (gap -12.1 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Haryana: electricity demand +11.4% Apr-to-date vs India +9.5% (1.9 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
