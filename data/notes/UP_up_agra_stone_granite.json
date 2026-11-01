@@ -1,0 +1,150 @@
+{
+ "key": "up_agra|stone_granite",
+ "state": "UP",
+ "city": "up_agra",
+ "ind": "stone_granite",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 87,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Agra stone processing — pursue inlay and finished-slab units with tight monthly stock-and-debtor discipline; avoid quarry-linked and single-buyer exporters.",
+ "title": "Agra stone, granite & marble processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Agra's stone units buy blocks and slabs, cut, polish and — the local speciality — inlay them, then sell to builders, exporters and retail.** Cash comes in on delivery to traders and on export bills; cash goes out upfront for blocks, sawing, polishing and skilled karigars. The local press coverage we pulled is thin on numbers [1][2][3], so treat this note as first principles plus peer evidence, and collect from customer the block cost, yield per block and karigar wage bill for every proposal. ## Where value and cash sit\n**Value sits in the finished, inlaid piece, not the raw block — so pricing power belongs to units with design capability and repeat buyers.** Peers show how thin the buffer is: Midwest's 1QFY27 revenue rose 35% YoY but fell 11% QoQ [5], and Aro's June 2026 quarter net sales fell 23.72% YoY to Rs 20.62 crore after a 57.04% fall in March 2026 [6]. Working capital is the real risk: one rated peer ran at around 56% average utilisation of fund-based limits through January-December 2025 [8]. **So when a proposal lands, check the stock-and-debtor cycle against drawing power; if utilisation is running near the sanctioned limit, ask for the ageing of finished stock and the top three buyers.**\n\n## What has changed now\n**The state demand signal is positive while the national stone output signal is strong, but bank credit is running well ahead of output.** Uttar Pradesh GST collections grew 14.2% Apr-to-date against India's 6.1% [D], and IIP for NIC 23 rose 11.4% YoY with output up 10.2% Apr-to-date [D]. Against that, bank credit grew 18.2% YoY versus output of 10.2% [D] — money is chasing this trade faster than it is producing. **So price the risk for a slower cycle, not the current one; if a borrower's sales growth outruns his GST turnover, ask for the reconciliation.**\n\n## Where to grow, and how to grow safely\n**Pursue inlay and finished-slab units selling to institutional builders and organised retail, and units with a second product line such as quartz.** Peer evidence supports the finished-product route: Midwest reported granite demand strong domestically and from China [7], and Aro already runs quartz alongside granite [10]. Avoid pure quarry-linked units and single-buyer exporters — one rated peer's ratings were constrained by high geographical concentration in Europe [9], and another's cash flows were flagged as vulnerable to real-estate cyclicality [11]. **If a unit's finished-stock days rise while sales stay flat, ask for the buyer-wise sales register; if two buyers exceed half of sales, seek a personal guarantee and reduce tenor.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock statement and GST return (monthly)",
+   "Stock ageing above 90 days or GST turnover below sales -> cut limit and seek fresh stock audit"
+  ],
+  [
+   "Drawing-power utilisation (monthly)",
+   "Utilisation above 90% of sanctioned limit for two months -> freeze enhancement, ask for debtor ageing"
+  ],
+  [
+   "Block cost and yield per block (quarterly)",
+   "Yield falls or block cost rises without price pass-through -> reprice or exit"
+  ],
+  [
+   "Karigar attendance and wage bill (monthly)",
+   "Attendance drop or wage bill spike -> site visit and reassess capacity"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "UP GST up 14.2% and stone output up 11.4%, but credit up 18.2% outpaces output.",
+ "articles": [
+  {
+   "title": "agra marble: Latest News & Videos, Photos about agra marble | The Economic Times - Page 1 - Business News›agra marble",
+   "url": "https://economictimes.indiatimes.com/topic/agra-marble#1",
+   "date": "2026-10-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "marble inlay industry: Latest News & Videos, Photos about marble inlay industry | The Economic Times - Page 1 - Business News›marble inlay industry",
+   "url": "https://economictimes.indiatimes.com/topic/marble-inlay-industry#1",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "marble inlay industry News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/marble-inlay-industry/news#1",
+   "date": "2026-09-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "IGI Logo - In-line earnings; Quartz ramp-up deferred for near term",
+   "url": "https://investmentguruindia.com/newsdetail/buy-midwest-ltd-for-the-target-rs-1500-by-motilal-oswal-financial-services-ltd745191#1",
+   "date": "2026-05-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "IGI Logo - High costs lead to earning miss; margins to improve ahead",
+   "url": "https://investmentguruindia.com/newsdetail/buy-midwest-ltd-for-the-target-rs-1300-by-motilal-oswal-financial-services-ltd724571#1",
+   "date": "2026-08-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aro Granite Industries Limited",
+   "url": "https://www.perplexity.ai/app/finance/AROGRANITE.BO?comparing=AROGRANITE.BO%2CMILESTONE.BO%2C603019.SS%2CSAHYADRI.NS%2C600482.SS%2CLT.BO%2C601117.SS%2C000519.SZ%2CDG.PA%2C0390.HK&preset=peers&symbol=601117.SS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Midwest Limited Q3FY26 Earnings Call Reveals Strategic Progress Across Verticals - Midwest Limited Q3FY26 Earnings Call Reveals Strategic Progress Across Verticals",
+   "url": "https://scanx.trade/stock-market-news/earnings/midwest-limited-reports-strong-q3-9mfy26-performance-with-strategic-expansion-plans/32438886#1",
+   "date": "2026-02-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "February 9, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140798#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 05,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=131588#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aro Granite Industries Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202409120905_Aro_Granite_Industries_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 28,2022",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=115456#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 87 (national 95 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 23 output +11.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +18.2% YoY vs output +10.2% (gap +8.0 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

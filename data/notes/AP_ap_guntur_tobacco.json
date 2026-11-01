@@ -1,0 +1,154 @@
+{
+ "key": "ap_guntur|tobacco",
+ "state": "AP",
+ "city": "ap_guntur",
+ "ind": "tobacco",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 26,
+ "nudged_by_news": false,
+ "verdict": "Avoid new tobacco and bidi exposure in Guntur; the data call is Avoid and the news flow is worse, so only existing, fully-secured, invoice-backed lines may be renewed.",
+ "title": "Guntur Tobacco Products & Bidi: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Guntur runs on FCV tobacco leaf, not on branded cigarettes.** The chain is farmer to auction platform to leaf trader/redryer to cigarette or bidi maker, and cash sits at the auction floor, not in the factory. The Tobacco Board sits here and farmers protest at its Guntur office over permission to sell excess and unauthorised produce [2]. **So when a proposal lands, check whether the borrower's cash actually comes from auction realisations or from a buyer contract; if neither is documented, ask for the last three auction settlement statements.**",
+  "## What has changed now\n**Leaf prices have fallen, and the Centre has had to permit sale of excess FCV tobacco while releasing relief to farmers [1][2][3].** That is a direct hit to trader and redryer margins and to farmer repayment capacity. On the demand side, peer Godfrey Phillips reported Q1FY27 net profit down 44%, revenue down 18.9% to Rs 1,205.5 crore from Rs 1,486.2 crore, on lower cigarette volumes and higher tobacco taxation [4][5][6]. **Management itself says it is phasing price increases to soften the consumer impact [7] — that means the maker absorbs the tax, and it squeezes everyone upstream.** Note the peer results are July 2026 and the rating report on a bidi manufacturer is from August 2020, so treat it as background only [10].",
+  "## The macro backdrop\n**Andhra Pradesh GST collections are -0.2% Apr-to-date against India +6.1%, a 6.3 pp gap [D].** India-wide, IIP for NIC 12 is -8.0% YoY and -4.4% Apr-to-date, and exports are -15.2% Apr-to-date in USD [D]. **Local news on Guntur is thin beyond the auction and relief stories, so lean on first principles and the peer set.**",
+  "## Who to pursue, and how to grow safely\n**Pursue only leaf redryers and threshers with owned godowns, a named buyer contract, and no auction-price speculation.** Avoid pure traders who buy at auction on hope, and avoid bidi units with no brand and no GST-clean sales. **Structure as a cash-flow line against assigned buyer receivables, with a stock-and-receivables charge and a promoter guarantee; take auction settlement statements and godown stock statements every month, and GST returns monthly.** If the borrower cannot show buyer-wise ageing, ask for the buyer's purchase order and last payment advice.",
+  "## Early-warning signs\n**Watch for auction realisations falling below the borrower's stated cost, stock ageing past one season, and GST turnover dropping faster than the state's -0.2% [D].** If a borrower asks to fund excess or unauthorised leaf purchases, decline — that is exactly the exposure the Centre had to regularise [2]. **Any request to stretch receivables beyond the buyer's stated credit terms is a signal to reduce, not renew.**"
+ ],
+ "watch": [
+  [
+   "Auction settlement realisations (per auction)",
+   "realisation below borrower's stated cost -> freeze fresh limits and re-price"
+  ],
+  [
+   "Godown stock and ageing (monthly)",
+   "stock older than one season -> demand reduction or exit"
+  ],
+  [
+   "GST returns vs state trend (monthly)",
+   "turnover falling faster than AP's -0.2% [D] -> cut limit"
+  ],
+  [
+   "Buyer receivables ageing (monthly)",
+   "ageing beyond stated credit terms -> stop renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Leaf prices fell, excess FCV sale needed clearance, peer profit down 44% on tax.",
+ "articles": [
+  {
+   "title": "NPN English News - Tobacco price fall,NPN English News",
+   "url": "https://npnenglishnews.com/article/tobacco-price-fall",
+   "date": "2026-10-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Centre permits sale of excess FCV tobacco - Andhra Pradesh",
+   "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Sep/26/centre-permits-sale-of-excess-fcv-tobacco?utm_source=website&utm_medium=related-stories#1",
+   "date": "2026-09-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Guntur: పొగాకు రైతులకు కేంద్రం భారీ ఉపశమనం | Guntur Tobacco Board Chairman Yashwanth Kumar Thanks Centre",
+   "url": "https://assets.hmtvlive.com/telugu-news/guntur/guntur-tobacco-board-chairman-yashwanth-kumar-thanks-centre-190868",
+   "date": "2026-09-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Godfrey Phillips Share Price Falls 6% After Weak Q1 Results; Profit Slumps 44%, Margins Shrink - Godfrey Phillips Share Price Falls 6% After Weak Q1 Results; Profit Slumps 44%, Margins Shrink",
+   "url": "https://www.angelone.in/news/stocks/godfrey-phillips-share-price-falls-6-after-weak-q1-results-profit-slumps-44-margins-shrink#1",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Godfrey Phillips Shares Drop 6% After Q1 Profit Slumps 44% On Tax-led Margin Pressure - BW Businessworld - Godfrey Phillips Shares Drop 6% After Q1 Profit Slumps 44% On Tax-led Margin Pressure",
+   "url": "https://www.businessworld.in/article/godfrey-phillips-shares-drop-6-after-q1-profit-slumps-44-on-tax-led-margin-pressure-616867#1",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Godfrey Phillips shares tumble over 8% after Q1 profit drops 44%; margins contract - v",
+   "url": "https://www.zeebiz.com/market-news/news-godfrey-phillips-shares-tumble-over-8-after-q1-profit-drops-44-margins-contract-399495#1",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Godfrey Phillips shares tumble 6% after weak Q1 results, margins contraction - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/godfrey-phillips-share-price-tumbles-after-weak-q1-results-margins-contraction-19955361.htm",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "August 31, 2020",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/97499~Shiv%20Biri%20Manufacturing_r_31082020.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Financial Risk Analysis: Under this, ICRA considers various accounting policies, debt servicing track record, cash flow positi...",
+   "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/4466/14/14_chapter%205.pdf#7#8#7",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 26 (national 10 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: GST collections -0.2% Apr-to-date vs India +6.1% (6.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 12 output -8.0% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -4.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -15.2% Apr-to-date in USD (Rs 8,021 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,156 @@
+{
+ "key": "rj_jodhpur|stone_granite",
+ "state": "RJ",
+ "city": "rj_jodhpur",
+ "ind": "stone_granite",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 57,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Jodhpur stone processors with own quarry linkage or verified domestic order books; avoid kiln-dependent and export-concentrated units until local demand and raw-material supply stabilise.",
+ "title": "Jodhpur stone, granite & marble processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Jodhpur stone unit buys rough blocks or limestone, cuts and polishes them into slabs and tiles, and sells into construction and export markets.** Cash is tied in block inventory and finished slabs before dispatch; value sits in polishing quality and block yield, not in the yard. Rajasthan's granite and marble cluster benefits from proximity to raw material sources, with group-owned quarries meeting around 40% of raw material needs in one rated case [11]. The state backdrop is weak: Rajasthan GST collections are -4.7% Apr-to-date against India +6.1%, and electricity demand is +4.0% against India +9.5% [D]. **So when a proposal lands, check whether the unit depends on kiln-fed limestone; if yes, ask for the import plan and its funding, because input cost is the swing factor.**\n\n## Where the growth is\n**National stone output is still expanding: IIP NIC 23 is +11.4% YoY and +10.2% Apr-to-date [D], so demand exists even as Jodhpur's local signals lag.** Peer results are mixed: Midwest revenue rose 35% YoY in 1QFY27 [5] and 9MFY26 revenue was ₹429.81 crore with EBITDA of ₹116.05 crore [7], while Aro's June 2026 quarter net sales fell 23.72% YoY to ₹20.62 crore [6]. **Pursue processors with domestic order books, own-quarry linkage and polishing capacity already running; avoid pure kiln-dependent units and exporters concentrated in one foreign region, as the European concentration risk in one rated group shows [9].**\n\n## How to grow safely\n**Structure against the working-capital cycle, not the yard.** Take monthly stock and sales statements, and a monthly block-purchase register reconciled to permits, given the 18-versus-32-tonne loading issue [2]. **Ask for monthly GST returns and electricity bills; if GST turnover falls below the sanctioned drawing power for two months, cut limits.** Peer working-capital utilisation of around 56% of sanctioned limits [8] is a useful benchmark for sizing. Keep tenors short and take a second charge on quarry or land where available. ## Early-warning signs\n**Watch input substitution and dispatch weight.** If a borrower starts importing limestone without a funded plan [1], or dispatch weights drift from permit weights [2], treat it as a cash-flow warning.",
+  "## Sources and gaps\n**Local sources say little about Jodhpur's own processing volumes, so this note leans on first principles and peer results.** Collect from customer: city-level processing capacity, average realisations per square metre, and debtor days. The data pack is cited as [D].",
+  "## The call\n**Caution, not avoidance: the national output trend supports lending, but Rajasthan's GST and power signals plus the limestone shortage cap the appetite.** Lend to quarry-linked, domestically sold processors; decline kiln-dependent and single-market exporters."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns (monthly)",
+   "Two consecutive months below drawing power -> freeze limit and seek debtor ageing"
+  ],
+  [
+   "Block purchase and transport permits (monthly)",
+   "Dispatch weight above permit weight -> stop disbursement and inspect yard"
+  ],
+  [
+   "Electricity bills (monthly)",
+   "Flat power use with falling GST sales -> ask for order book and cut limit"
+  ],
+  [
+   "Limestone import plan (quarterly)",
+   "No funded import plan for kiln-dependent unit -> decline or require collateral top-up"
+  ],
+  [
+   "Debtor ageing (quarterly)",
+   "Top-buyer concentration rising -> seek additional security"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Rajasthan GST and power lag India; local limestone shortage and permit leakage stress Jodhpur stone units.",
+ "articles": [
+  {
+   "title": "95% शुद्ध लाइमस्टोन की कमी, लाखों टन आयात की नौबत, 2 हजार भट्टों पर संकट - Jodhpur News - - Hindi News",
+   "url": "https://www.bhaskar.com/local/rajasthan/jodhpur/news/shortage-of-95-pure-limestone-millions-of-tons-required-to-be-imported-2000-kilns-in-crisis-dbp-138369593.html#1",
+   "date": "2026-07-05",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ठेकेदारों की करतूत...18 टन का परमिट लेकर ट्रकों में भर रहे 32 टन पत्थर, ठेकेदार कर रहे कालाबाजारी - Jodhpur News - - Hindi News",
+   "url": "https://www.bhaskar.com/local/rajasthan/jodhpur/news/the-act-of-contractors-loading-32-tonnes-of-stone-in-trucks-with-a-permit-for-18-tonnes-contractors-are-indulging-in-black-marketing-dbp-137873897.html#1",
+   "date": "2026-05-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Major Industries of Rajasthan – Rajasthan General Knowledge Geography of Rajasthan Notes",
+   "url": "https://mystudycoach.in/public/chapters/major-industries-of-rajasthan-geography-of-rajasthan-class-ug-geography-of-rajasthan/",
+   "date": "2026-03-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "IGI Logo - In-line earnings; Quartz ramp-up deferred for near term",
+   "url": "https://investmentguruindia.com/newsdetail/buy-midwest-ltd-for-the-target-rs-1500-by-motilal-oswal-financial-services-ltd745191#1",
+   "date": "2026-05-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "IGI Logo - High costs lead to earning miss; margins to improve ahead",
+   "url": "https://investmentguruindia.com/newsdetail/buy-midwest-ltd-for-the-target-rs-1300-by-motilal-oswal-financial-services-ltd724571#1",
+   "date": "2026-08-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aro Granite Industries Limited",
+   "url": "https://www.perplexity.ai/app/finance/AROGRANITE.BO?comparing=AROGRANITE.BO%2CMILESTONE.BO%2C603019.SS%2CSAHYADRI.NS%2C600482.SS%2CLT.BO%2C601117.SS%2C000519.SZ%2CDG.PA%2C0390.HK&preset=peers&symbol=601117.SS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Midwest Limited Q3FY26 Earnings Call Reveals Strategic Progress Across Verticals - Midwest Limited Q3FY26 Earnings Call Reveals Strategic Progress Across Verticals",
+   "url": "https://scanx.trade/stock-market-news/earnings/midwest-limited-reports-strong-q3-9mfy26-performance-with-strategic-expansion-plans/32438886#1",
+   "date": "2026-02-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "February 9, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140798#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 05,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=131588#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aro Granite Industries Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202409120905_Aro_Granite_Industries_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 28,2022",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=115456#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 57 (national 95 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 23 output +11.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

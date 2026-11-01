@@ -1,0 +1,142 @@
+{
+ "key": "ts_nizamabad|tobacco",
+ "state": "TS",
+ "city": "ts_nizamabad",
+ "ind": "tobacco",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 46,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to bidi/tobacco trade and processing units with clean GST and tight stock limits; avoid cigarette-dependent retail and any unit with tax-hit margin stress.",
+ "title": "Nizamabad Tobacco Products & Bidi: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Bidi and tobacco products in Nizamabad are a labour-and-leaf business, not a factory business.** A unit buys tendu leaf and tobacco, pays rolling hands by the thousand sticks, and sells through distributors and wholesale channels. Cash sits in finished-stock and distributor credit, not in machines. **So when a proposal lands, check the leaf-to-stick conversion cost and the distributor credit days first; if the borrower cannot show both, ask for the stock register and the last six months of GST returns.**\n\n## What has changed now\n**The national signal is negative: IIP for NIC 12 output is -8.0% YoY and -4.4% Apr-to-date [D].** Peer Godfrey Phillips reported Q1FY27 net profit down 44%, revenue down 18.9% to Rs 1,205.5 crore from Rs 1,486.2 crore, on higher tobacco taxation and lower cigarette volumes [4][5]. Management said it is phasing price increases to consumers [6]. **That is a margin-compression story, and it reaches Nizamabad through distributor credit and stock value.** Telangana itself is running hot — GST collections +13.8% Apr-to-date vs India +6.1%, electricity demand +15.7% vs India +9.5% [D] — but that is a broad state tailwind, not a tobacco-specific one. **Local sources say almost nothing about Nizamabad tobacco; the only local item is a dispute over cigarettes that ended in a self-immolation [1], which tells us enforcement and price friction are live, not that demand is growing.**\n\n## Where the growth is\n**Pursue the leaf-and-rolling units and the wholesale distributors who sell across categories, not the single-cigarette retail counter.** The migrant-labour sowing activity around Nizamabad [2] points to a working agricultural base that supports trade credit. **Take the bidi units with own rolling sheds and repeat distributor relationships; avoid pure cigarette-retail borrowers whose entire margin depends on one brand's price ladder.**\n\n## How to grow safely\n**Structure as cash-flow lending against stock and receivables, not against fixed assets.** Take monthly GST returns, stock statements and distributor ageing every month; a bidi unit's real collateral is its turnover cycle. **Set a covenant that stock days and distributor credit days cannot both rise in the same quarter; if they do, ask for the reason in writing before renewing.**\n\n## Early-warning signs\n**Watch for falling volumes with flat prices — that is the Godfrey Phillips pattern [3][5] arriving at a small unit.** Also watch brand piracy, which ICRA flagged as a volume drag on a bidi manufacturer [9]. **If a borrower's GST turnover falls two months running while stock rises, cut the limit.**"
+ ],
+ "watch": [
+  [
+   "GST returns (monthly)",
+   "two consecutive months of falling turnover with rising stock -> freeze enhancement, review limit"
+  ],
+  [
+   "Stock and distributor ageing (monthly)",
+   "stock days and credit days both up in one quarter -> ask for written reason, hold renewal"
+  ],
+  [
+   "IIP NIC 12 print (monthly)",
+   "further negative YoY print -> tighten new-to-bank tobacco exposure"
+  ],
+  [
+   "Peer results (quarterly)",
+   "another peer profit fall on tax -> reprice or reduce cigarette-linked retail lines"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "National tobacco output -8.0% YoY and peer profit down 44% on tax.",
+ "articles": [
+  {
+   "title": "Telangana tea seller’s self-immolation at police station: How dispute over cigarettes turned into tragic death | Flipboard - Telangana tea seller’s self-immolation at police station: How dispute over cigarettes turned into tragic death",
+   "url": "https://flipboard.com/topic/telangana/telangana-tea-seller-s-self-immolation-at-police-station-how-dispute-over-cigar/a-tIflRd0aRvKZG8myooDu5Q%3Aa%3A3108465186-db9cd6eefe%2Fmoneycontrol.com#1",
+   "date": "2026-10-05",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Migrant Workers Quickly Sowing Seeds To Support Farmers In Nizamabad V6 News V6newstelugu »",
+   "url": "https://telugu.videosamachar.com/play/migrant-workers-quickly-sowing-seeds-to-support-farmers-in-nizamabad-v6-news-v6newstelugu/21",
+   "date": "2025-06-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Godfrey Phillips Share Price Falls 6% After Weak Q1 Results; Profit Slumps 44%, Margins Shrink - Godfrey Phillips Share Price Falls 6% After Weak Q1 Results; Profit Slumps 44%, Margins Shrink",
+   "url": "https://www.angelone.in/news/stocks/godfrey-phillips-share-price-falls-6-after-weak-q1-results-profit-slumps-44-margins-shrink#1",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Godfrey Phillips Shares Drop 6% After Q1 Profit Slumps 44% On Tax-led Margin Pressure - BW Businessworld - Godfrey Phillips Shares Drop 6% After Q1 Profit Slumps 44% On Tax-led Margin Pressure",
+   "url": "https://www.businessworld.in/article/godfrey-phillips-shares-drop-6-after-q1-profit-slumps-44-on-tax-led-margin-pressure-616867#1",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Godfrey Phillips shares tumble over 8% after Q1 profit drops 44%; margins contract - v",
+   "url": "https://www.zeebiz.com/market-news/news-godfrey-phillips-shares-tumble-over-8-after-q1-profit-drops-44-margins-contract-399495#1",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Godfrey Phillips shares tumble 6% after weak Q1 results, margins contraction - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/godfrey-phillips-share-price-tumbles-after-weak-q1-results-margins-contraction-19955361.htm",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "August 31, 2020",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/97499~Shiv%20Biri%20Manufacturing_r_31082020.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Financial Risk Analysis: Under this, ICRA considers various accounting policies, debt servicing track record, cash flow positi...",
+   "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/4466/14/14_chapter%205.pdf#7#8#7",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 46 (national 10 x 0.6 + Telangana 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Telangana: GST collections +13.8% Apr-to-date vs India +6.1% (7.7 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Telangana: electricity demand +15.7% Apr-to-date vs India +9.5% (6.2 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 12 output -8.0% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -4.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

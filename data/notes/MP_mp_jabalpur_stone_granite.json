@@ -1,0 +1,150 @@
+{
+ "key": "mp_jabalpur|stone_granite",
+ "state": "MP",
+ "city": "mp_jabalpur",
+ "ind": "stone_granite",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 67,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Jabalpur stone processing, but only to converters with verified block supply and clean title; avoid quarry-adjacent and heritage-zone construction-linked exposures.",
+ "title": "Jabalpur stone, granite & marble processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A stone processor buys blocks, cuts and polishes them into slabs and tiles, and sells into construction and export demand.** Cash sits in blocks and finished slabs on the yard, not in the machine. Value is created at the polishing line and lost at the block yard, so the two things you underwrite are block supply and recovery yield. Jabalpur's own local coverage is thin: the only recent local reporting is about construction near the Balancing Rock heritage site [1][2], and a business-contact directory [3]. **So lean on first principles and the listed peers below, and collect from customer anything city-specific.**",
+  "## Where cash and value sit\n**Peer numbers show the cycle is real and price-led.** Midwest's 4QFY26 revenue was INR2.2b, down 6% YoY but up 68% QoQ on volume and price recovery, with blended granite ASP at INR60,792/cbm [4]; 1QFY27 revenue was INR1.9b, up 35% YoY but down 11% QoQ [5]. Aro's June 2026 quarter net sales fell 23.72% YoY to Rs 20.62 crore after a 57.04% fall in March 2026 [6]. **So when a proposal lands, check the last four quarters of realisation per cbm, not just tonnage; if ASP is falling while volumes rise, ask who is buying and on what terms.** Working capital is the whole game: ICRA noted average utilisation of fund-based limits at around 56% of sanctioned limits in Jan-Dec 2025 for one group [8], and another group held Rs 7.1 crore free cash with Rs 36.8 crore undrawn as of September 2024 [9].",
+  "## What has changed now\n**The national signal is strong but the state signal is not.** India-wide IIP for NIC 23 is +11.4% YoY and +10.2% Apr-to-date [D], yet Madhya Pradesh GST collections are -0.1% Apr-to-date against India +6.1% [D]. Bank credit is running +18.2% YoY against +10.2% output [D], so the system is lending ahead of production. **So treat a Jabalpur stone proposal as a state-stress case, not a national-boom case; if the borrower's sales are all within MP, ask for the order book and the buyer names.** Locally, construction activity near the Balancing Rock is being questioned on vibration and water drainage grounds [1][2] — that is a permitting risk for anyone building or expanding near heritage land, not a demand signal.",
+  "## Where to grow, and how to grow safely\n**Pursue converters with own or contracted block supply and a domestic builder base; avoid pure traders and anyone whose site sits near the heritage hills.** Peer evidence supports the processor model: Midwest reported granite demand from domestic buyers and China [7], and Aro runs two units with installed capacity of 7.35 lakh sq m per annum for slabs and 3.60 lakh sq m for tiles [10]. Structure as a cash-flow loan against a sanctioned limit, with a drawing-power formula on stock and receivables, and take monthly stock statements, monthly sales and GST returns, and quarterly CMA data. **If the borrower cannot show block purchase invoices matching yard stock, ask for the quarry lease or supply agreement before any enhancement.**",
+  "## Early-warning signs\n**Watch the yard, not the file.** Falling ASP with rising volume [4][5], shrinking sales quarters [6], and rising limit utilisation above the peer's ~56% [8] are the first cracks."
+ ],
+ "watch": [
+  [
+   "GST returns vs sales declared (monthly)",
+   "GST turnover trails bank credits by more than one month -> ask for buyer ledger"
+  ],
+  [
+   "Realisation per cbm (quarterly)",
+   "ASP falls two quarters running while volume rises -> reprice or exit"
+  ],
+  [
+   "Local construction/permit notices near site (event-based)",
+   "Any stop-work or heritage notice -> suspend disbursement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "MP GST -0.1% vs India +6.1%; local news is heritage-construction risk, not demand.",
+ "articles": [
+  {
+   "title": "जबलपुर की बैलेंसिंग रॉक: भूकंप भी नहीं हिला पाए जिस चट्टान को, उसके पास निर्माण से क्यों बढ़ी चिंता? - जबलपुर की बैलेंसिंग रॉक: भूकंप भी नहीं हिला पाए जिस चट्टान को, उसके पास निर्माण से क्यों बढ़ी चिंता?",
+   "url": "https://www.tv9hindi.com/state/madhya-pradesh/jabalpur-balancing-rock-threat-construction-heritage-protection-3943049.html#1",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "जबलपुर के मशहूर बैलेंसिंग रॉक के अस्तित्व पर खतरा, आसपास तेजी से चल रहा निर्माण कार्य, संरक्षण की उठी आवाज | Jabalpur Balancing Rock Tourism Heritage Conservation - जबलपुर के मशहूर बैलेंसिंग रॉक के अस्तित्व पर खतरा, आसपास तेजी से चल रहा निर्माण कार्य, संरक्षण की उठी आवाज",
+   "url": "https://www.patrika.com/jabalpur-news/jabalpur-balancing-rock-tourism-heritage-conservation-20996228#1",
+   "date": "2026-10-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Jabalpur Business Database - Verified Contacts",
+   "url": "https://www.indiabizdata.com/database/jabalpur-business-database/",
+   "date": "2026-09-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "IGI Logo - In-line earnings; Quartz ramp-up deferred for near term",
+   "url": "https://investmentguruindia.com/newsdetail/buy-midwest-ltd-for-the-target-rs-1500-by-motilal-oswal-financial-services-ltd745191#1",
+   "date": "2026-05-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "IGI Logo - High costs lead to earning miss; margins to improve ahead",
+   "url": "https://investmentguruindia.com/newsdetail/buy-midwest-ltd-for-the-target-rs-1300-by-motilal-oswal-financial-services-ltd724571#1",
+   "date": "2026-08-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aro Granite Industries Limited",
+   "url": "https://www.perplexity.ai/app/finance/AROGRANITE.BO?comparing=AROGRANITE.BO%2CMILESTONE.BO%2C603019.SS%2CSAHYADRI.NS%2C600482.SS%2CLT.BO%2C601117.SS%2C000519.SZ%2CDG.PA%2C0390.HK&preset=peers&symbol=601117.SS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Midwest Limited Q3FY26 Earnings Call Reveals Strategic Progress Across Verticals - Midwest Limited Q3FY26 Earnings Call Reveals Strategic Progress Across Verticals",
+   "url": "https://scanx.trade/stock-market-news/earnings/midwest-limited-reports-strong-q3-9mfy26-performance-with-strategic-expansion-plans/32438886#1",
+   "date": "2026-02-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "February 9, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140798#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 05,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=131588#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aro Granite Industries Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202409120905_Aro_Granite_Industries_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 28,2022",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=115456#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 67 (national 95 x 0.6 + Madhya Pradesh 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 23 output +11.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +18.2% YoY vs output +10.2% (gap +8.0 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Madhya Pradesh: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

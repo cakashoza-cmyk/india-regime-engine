@@ -1,0 +1,154 @@
+{
+ "key": "rj_kishangarh|stone_granite",
+ "state": "RJ",
+ "city": "rj_kishangarh",
+ "ind": "stone_granite",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 57,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Kishangarh processors with documented slurry disposal and clean consents; avoid disposal-led units until NGT/CPCB rules settle.",
+ "title": "Kishangarh stone, granite & marble processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Kishangarh runs on slurry: about 1,200 processing units feed a dump taking 5,500-6,000 tonnes of marble waste a day [2].** A processor buys blocks, cuts and polishes them into slabs and tiles, and sells to builders, exporters and traders; cash comes in on slab sales, but the physical residue leaves daily and must be stored or reused. **Value sits in finished, tested slabs and in proven chain of custody, not in raw cutting capacity [2].** Cost is dominated by block purchase, power and polishing consumables; pricing power is thin for commodity slabs and better for premium, tested product. Working capital is inventory-heavy (block and slab stock) plus receivables from builders; capex is in gangsaws, polishing lines and now lined slurry storage. **So when a proposal lands, check the slurry disposal plan and Consent to Operate first; if disposal is undocumented, ask where the slurry physically goes and who owns that land.**\n\n## What has changed now\n**The National Green Tribunal case and CPCB draft guidelines (lined storage, GPS-tracked transport, utilisation plans in each Consent to Operate) put direct regulatory pressure on the sector [2].** The guidelines remain draft and no monetary penalty was imposed on KMA in the judgment located [2], so this is a compliance-cost event, not yet a shutdown event. **Local stress is real: Rajasthan GST collections are -4.7% Apr-to-date against India +6.1%, and state electricity demand +4.0% against India +9.5% [D].** India-wide stone output is +11.4% YoY and +10.2% Apr-to-date [D], so the national trade is growing while this state lags. **Sources say little specific about Kishangarh's own sales or margins; lean on first principles and peers here.**\n\n## Where the growth is\n**Peer results show volume recovery and price realisation doing the work: Midwest's 4QFY26 revenue was INR2.2b, down 6% YoY but up 68% QoQ on volume and price recovery, with blended granite ASP at INR60,792/cbm [4].** Its 1QFY27 revenue was INR1.9b, up 35% YoY [5]. **Pursue processors who can show tested product, documented reuse and chain of custody [2], and units near group-owned quarries, which cut raw-material risk [11].** Avoid disposal-led processors without documented reuse [2], and treat export-concentrated units carefully: one rated peer is constrained by high geographical concentration in Europe [9]. Aro's June 2026 quarter net sales fell 23.72% YoY to Rs 20.62 crore [6] — a reminder that even established processors swing hard.\n\n## How to grow safely\n**Structure against the slurry liability, not just the slab stock: take the Consent to Operate, the disposal contract and the reuse plan as conditions precedent.** Covenant on compliant storage and GPS-tracked transport once guidelines firm up [2]. **Take monthly stock and debtor statements, power bills and GST returns; ask for the slurry-lifting log every month.** Keep fund-based limits sized to the inventory cycle, and note that a rated peer used only about 56% of its sanctioned working-capital limits in Jan-Dec 2025 [8] — utilisation tells you whether the limit is right-sized. **Price for compliance capex: lined storage is coming, so size repayment to absorb it.**\n\n## Early-warning signs\n- **Slurry dump volumes or lifting logs stop matching production (monthly) -> ask for the disposal contract and hold fresh limits.**\n- **GST turnover falls below the Rajasthan trend of -4.7% [D] (monthly) -> reprice or reduce limit.**\n- **Power bills drop without a stated shutdown (monthly) -> check whether cutting lines have stopped.**\n- **Receivables past 90 days rise or slab stock ages (monthly) -> shift to stock-and-receivable-backed limits.**\n- **Any NGT or CPCB order naming the borrower's unit (event-based) -> freeze enhancement and review consent status [2].**"
+ ],
+ "watch": [
+  [
+   "Monthly slurry-lifting log vs production",
+   "Volumes fall short of output -> ask for disposal contract, hold new limits"
+  ],
+  [
+   "Monthly GST returns",
+   "Turnover growth below Rajasthan -4.7% [D] -> reprice or trim limit"
+  ],
+  [
+   "Monthly power bills",
+   "Unexplained drop -> verify cutting lines are running"
+  ],
+  [
+   "Monthly stock and debtor ageing",
+   "Receivables past 90 days rise -> move to backed limits"
+  ],
+  [
+   "Event-based NGT/CPCB orders",
+   "Borrower named -> freeze enhancement, review consent [2]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "NGT case and draft CPCB slurry rules raise compliance cost; Rajasthan GST and power lag India [D].",
+ "articles": [
+  {
+   "title": "‘Like Kashmir’: How a toxic marble dump yard became a tourist spot in India",
+   "url": "https://www.aljazeera.com/news/2026/11/1/like-kashmir-how-a-toxic-marble-dump-yard-became-a-tourist-spot-in-india",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "#kishangarh #stoneindustry | Discovery Alert",
+   "url": "https://www.linkedin.com/posts/discovery-alert-australia_kishangarh-stoneindustry-activity-7522537656904294400-TutF",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Kishangarh marble waste dump becomes tourist destination — Al Jazeera",
+   "url": "https://ua.news/en/dovkolo-svitu/zvalishche-marmurovikh-vidkhodiv-u-kishangarkhu-stalo-turistichnoiu-lokatsiieiu-al-jazeera",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "IGI Logo - In-line earnings; Quartz ramp-up deferred for near term",
+   "url": "https://investmentguruindia.com/newsdetail/buy-midwest-ltd-for-the-target-rs-1500-by-motilal-oswal-financial-services-ltd745191#1",
+   "date": "2026-05-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "IGI Logo - High costs lead to earning miss; margins to improve ahead",
+   "url": "https://investmentguruindia.com/newsdetail/buy-midwest-ltd-for-the-target-rs-1300-by-motilal-oswal-financial-services-ltd724571#1",
+   "date": "2026-08-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aro Granite Industries Limited",
+   "url": "https://www.perplexity.ai/app/finance/AROGRANITE.BO?comparing=AROGRANITE.BO%2CMILESTONE.BO%2C603019.SS%2CSAHYADRI.NS%2C600482.SS%2CLT.BO%2C601117.SS%2C000519.SZ%2CDG.PA%2C0390.HK&preset=peers&symbol=601117.SS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Midwest Limited Q3FY26 Earnings Call Reveals Strategic Progress Across Verticals - Midwest Limited Q3FY26 Earnings Call Reveals Strategic Progress Across Verticals",
+   "url": "https://scanx.trade/stock-market-news/earnings/midwest-limited-reports-strong-q3-9mfy26-performance-with-strategic-expansion-plans/32438886#1",
+   "date": "2026-02-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 9, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140798#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 05,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=131588#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aro Granite Industries Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202409120905_Aro_Granite_Industries_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 28,2022",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=115456#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 57 (national 95 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 23 output +11.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
