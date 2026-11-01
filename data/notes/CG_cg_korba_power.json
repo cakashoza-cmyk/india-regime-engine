@@ -1,0 +1,154 @@
+{
+ "key": "cg_korba|power",
+ "state": "CG",
+ "city": "cg_korba",
+ "ind": "power",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:33 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 45,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Korba power-sector contractors and O&M/service vendors tied to NTPC Korba and Adani's expansion, structured on receivables and milestone billing; avoid merchant-power traders and any discom-dependent receivable book.",
+ "title": "Korba Power Generation & Distribution: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Korba is a coal-and-plant town: the cash engine is fuel moving into boilers and power moving out on transmission lines, not the retail meter.** A generator buys coal, burns it, sells units under a long-term PPA or in the merchant market, and collects from the offtaker; a contractor or O&M vendor sells labour, spares and shutdown services to that plant and collects against a running bill. **Value sits in the PPA and the fuel linkage; cash sits in the receivable from the offtaker.** So when a proposal lands, check who the offtaker is and what the payment history is; if the offtaker is a state discom, ask for the last twelve months of actual collection dates, not the invoice dates.\n\n## Where the cash cycle bites\n**Counterparty risk is the whole credit here, and the rating evidence is blunt: one generator's average collection period extended to over 400 days in FY25 from 351 days, with debtors at Rs. 5,020 crore as of June 30, 2025 [10].** ICRA's thermal methodology assesses liquidity on cash collections from the counterparty, DSRA availability and working-capital limit utilisation [8]. **Capex is lumpy and front-loaded; working capital is a long tail.** So for any plant-side borrower, take the receivable ageing monthly and the DSRA balance; if collections stretch beyond the sanctioned cycle, ask for the offtaker's latest payment record before renewing.\n\n## What has changed now\n**The national demand signal is strong but Korba's local signal is softer: Chhattisgarh electricity demand rose 6.7% Apr-to-date against India's 9.5%, and state GST collections grew 2.4% against India's 6.1% [D].** Meanwhile bank credit is running at +22.9% YoY against activity of +9.5%, a gap of 13.4 pp [D] — money is chasing this sector faster than the units are being sold. **Peer results are genuinely good: Vedanta Power posted record quarterly sales with EBITDA up 45% sequentially and margins at 14.5% [5], and separately reported 122% EBITDA growth to INR 421 crore on revenue of INR 2,908 crore [6].** Adani Power operates 18.33 GW across 13 assets with 95% of capacity tied to long-term PPAs and targets 45 GW by FY 2031-32 [7], and is advancing thermal, hydro and nuclear expansion [1]. Coal India's Q2 FY27 net profit rose 57% YoY to Rs 6,547 crore, though brokers cut targets on volume concerns [4]. **Read this as: the large generators are healthy, the local economy is not keeping pace, and the gap is where bad loans get made.** Note the rating sources [8], [9], [10] carry no visible date and [9] is a 2016-era CRISIL outlook — treat them as structural, not current.\n\n## Who to pursue, and how to grow safely\n**Pursue the plant's service tail, not its balance sheet: shutdown and overhaul contractors, coal-handling and ash-handling operators, spares and consumable suppliers, and transport contractors working for NTPC Korba and the Adani expansion [1][2].** These borrowers have short cycles, milestone billing and a single large counterparty whose payment behaviour is observable. **Avoid merchant-power traders, any borrower whose receivable is a discom with a 400-day collection record [10], and unsecured expansion capex.** Structure on milestone billing with a receivable-backed limit, a DSRA or escrow of collections where the borrower is project-side [8], and a covenant capping receivable days at the sanctioned cycle. **Take every month: receivable ageing by offtaker, bank statement of the collection account, work-order book, and coal or spares inventory.** If the borrower cannot produce offtaker-wise ageing, decline.\n\n## Early-warning signs\n**Watch the collection account, not the P&L.** A slip in monthly collections against the billing run, rising working-capital limit utilisation [8], or a new short-term loan to fund a receivable are the first tells. **Local demand growing 2.8 pp slower than India [D] means the town's order book will thin before the plant's does.** If a contractor's order book is concentrated in one unit and that unit announces a shutdown deferral, ask for the revised schedule before enhancing."
+ ],
+ "watch": [
+  [
+   "Monthly receivable ageing by offtaker (monthly)",
+   "days exceed the sanctioned cycle -> freeze enhancement and seek escrow of collections"
+  ],
+  [
+   "Working-capital limit utilisation (monthly)",
+   "utilisation above 90% for two months -> ask for the short-term debt purpose and reprice"
+  ],
+  [
+   "Order book by plant and unit (quarterly)",
+   "single-unit concentration above 60% -> seek a second work order or reduce limit"
+  ],
+  [
+   "Chhattisgarh demand and GST run-rate (quarterly, [D])",
+   "demand growth stays below India's by 2 pp or more -> shift new sanctions to O&M and spares only"
+  ],
+  [
+   "DSRA / escrow balance for project-side borrowers (monthly)",
+   "balance below the covenanted minimum -> stop disbursement until topped up"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Chhattisgarh demand and GST growth trail India, and credit is outpacing activity.",
+ "articles": [
+  {
+   "title": "Adani Power advances thermal, hydro and nuclear expansion plans | Power Peak Digest",
+   "url": "https://powerpeakdigest.com/adani-power-thermal-hydro-nuclear-expansion/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "chhattisgarh ntpc korba News and Updates from The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/chhattisgarh-ntpc-korba/news#1",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Thermal Power Projects - Sunday, October 18, 2026 | 12:42 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/topic/thermal-power-projects#1",
+   "date": "2026-10-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Coal India shares fall 3% after Q2 results; Jefferies, Motilal Oswal, others cut target price",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/coal-india-shares-fall-3-after-q2-results-jefferies-motilal-oswal-others-cut-target-price/articleshow/135349282.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Vedanta Power Q2 Results: Record sales, 45% EBITDA jump fuel profit turnaround - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/vedanta-power-q2-results-record-sales-45-pc-ebitda-jump-fuel-profit-turnaround-20022591.htm",
+   "date": "2026-10-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Vedanta Power Reports Record Q2 FY27 Performance with 122% EBITDA Growth to INR 421 Crore",
+   "url": "https://solarquarter.com/2026/10/30/vedanta-power-reports-record-q2-fy27-performance-with-122-ebitda-growth-to-inr-421-crore/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Adani Power Q1 FY27 slides: record results fuel 45 GW expansion target By Investing.com - Adani Power Q1 FY27 slides: record results fuel 45 GW expansion target",
+   "url": "https://www.investing.com/news/company-news/adani-power-q1-fy27-slides-record-results-fuel-45-gw-expansion-target-93CH-4807881#1",
+   "date": "2026-07-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cash flow waterfall mechanism Creation of reserve funds for debt servicing Stipulation on minimum coverage ratios that must be m...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/472~Thermal%20Power%20Producers#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Glenmark’s moderate financial risk profile is marked by large incremental working capital requirements and capex, and sizable re...",
+   "url": "https://www.crisil.com/content/dam/crisil/events-tiles/india-outlook/year-of-reckoning-beckons/report/india-outlook-fiscal-2017.pdf#12#17#12",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The company remains exposed to significant counterparty credit risk due to the weak operational and financial profile of Andhra ...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510131010_Hinduja_National_Power_Corporation_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- various forms of fund-based assistance, including long-term project finance, short/medium term loan to equipment manufacturers...",
+   "url": "https://www.smccapitals.com/uploads/offerdocuments/16154.power-finance-corporation-limited---draft-shelf-prospectus---6-july-2023.pdf#30#207#30",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 45 (national 75 x 0.6 + Chhattisgarh 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Chhattisgarh: GST collections +2.4% Apr-to-date vs India +6.1% (3.7 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Chhattisgarh: electricity demand +6.7% Apr-to-date vs India +9.5% (2.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: All-India electricity requirement Apr-to-date (CEA) +9.5%. [official activity proxy, data to Aug-2026]",
+  "India-wide: Bank credit +22.9% YoY vs activity +9.5% (gap +13.4 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

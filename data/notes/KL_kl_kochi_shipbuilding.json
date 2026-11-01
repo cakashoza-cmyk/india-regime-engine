@@ -1,0 +1,151 @@
+{
+ "key": "kl_kochi|shipbuilding",
+ "state": "KL",
+ "city": "kl_kochi",
+ "ind": "shipbuilding",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:36 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Kochi ship repair — back the mid-sized repair and marine-services borrowers riding the CSL-Drydocks World JV, structure against milestone cash flows, and stay away from pure shipbuilding subcontractors whose margins are guided down to 10%-12%.",
+ "title": "Kochi Shipbuilding & Repair: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Ship repair is a yard-and-dry-dock business: a vessel comes in, you sell dock time, steel, paint, machinery and skilled labour, and you get paid on completion or milestone.** Cash sits in work-in-progress on hulls under repair and in receivables from shipowners and managers, not in inventory. Shipbuilding is the opposite — long construction cycles, progress payments, heavy capex on docks and cranes. **Kochi's anchor is Cochin Shipyard, whose order book has crossed ₹21,900 crore, of which ship-repair orders are about ₹1,200 crore [2].** That single number tells you the repair pie is real but still small relative to build work.\n\n## What has changed now\n**The structural news is the 50:50 JV between Cochin Shipyard and Drydocks World for the International Ship Repair Facility in Kochi — the first public-private partnership of its kind in India's ship repair sector [1][3].** The ₹970 crore ISRF can handle repairs for up to 82 mid-sized vessels annually, and a new ₹1,800-crore dry dock is designed for aircraft carriers and Suezmax vessels [2]. **But the peer result is a warning: Cochin Shipyard guided FY27 EBITDA margin to around 14% versus 24% in FY26, with shipbuilding at 10%-12% and ship repair at 22%-24% [5][6].** Repair is the better-margin business — Q1FY26 repair revenue grew 157.2% YoY to ₹629.6 crore at 59% of total, with EBITDA margin at 22.6% [4]. **So when a proposal lands, check whether the borrower's revenue is repair-linked or build-linked; if it is a shipbuilding subcontractor, ask for the margin pass-through clause in the contract.**\n\n## Where the growth is\n**Pursue marine-service SMEs that feed the repair cluster: painting and blasting contractors, steel fabrication for repair, engine and machinery overhaul shops, electrical and automation retrofitters, and manning/labour contractors with documented dock access.** Also pursue suppliers to the JV's international fleet flow. **Avoid pure shipbuilding subcontractors and single-client fabrication units** — their margin is being guided down to 10%-12% [6]. **If a borrower's order book is one yard and one vessel, ask for the second customer before sanction.**\n\n## How to grow safely\n**Structure repair-linked lending as short-tenor working capital against assigned receivables or milestone bills, not term loans for yard capex.** Take monthly: repair-order pipeline with vessel names and dock slots, billed-versus-collected statement, and ageing of shipowner receivables. **Covenant a minimum repair-revenue share and a receivables-days cap; if collection days stretch past the agreed cap, convert the limit to a secured overdraft against bills.** The data pack gives no Kochi-specific repair credit numbers — collect from customer.\n\n## Early-warning signs\n**Watch for a borrower whose order book is entirely shipbuilding subcontracts, or whose receivables are concentrated in one shipowner or one yard.** Also watch dock-slot utilisation at the ISRF and any delay in the JV's ramp-up. **If a borrower reports falling repair share or rising unbilled WIP, cut the limit and ask for the vessel-wise billing schedule.**",
+  "## Local news versus peer results\n**The JV and order-book items are local Kochi news from September 2026 [1][2][3]; the margin guidance is peer company disclosure from the same month [5][6][7].** The rating sources [8]-[11] carry no shipbuilding content and are not relied on. **Kochi-specific repair credit data is thin — lean on first principles and the peer numbers above.**"
+ ],
+ "watch": [
+  [
+   "Monthly repair-order pipeline and dock-slot bookings",
+   "Pipeline falls below two vessels or slots go unfilled -> reprice limit and ask for the second customer"
+  ],
+  [
+   "Receivable ageing by shipowner (monthly)",
+   "Days stretch past the agreed cap -> convert to secured overdraft against bills"
+  ],
+  [
+   "Repair-versus-build revenue mix (quarterly)",
+   "Repair share drops below covenant -> cut limit and review margin pass-through"
+  ],
+  [
+   "ISRF and JV ramp-up news (quarterly)",
+   "Delay in JV expansion -> hold new repair-cluster sanctions"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "JV and order book are positive; peer margin guidance down to 14% offsets.",
+ "articles": [
+  {
+   "title": "BRICS Summit 2026: Ship Repair Industry in India to Get a Major Boost, CSL-Drydocks World Form Joint Venture! - 0 notificaciones",
+   "url": "https://www.linkedin.com/posts/marinetanks_brics-summit-2026-ship-repair-industry-in-activity-7504240045541904384-keGx#1",
+   "date": "2026-09-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Cochin Shipyard order book crosses ₹21,900 crore",
+   "url": "https://keralabusinessnews.com/cochin-shipyard-order-book-21900-crore/#mvp-tab-col2",
+   "date": "2026-09-10",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Cochin and Drydocks World seal Kochi repair venture - Splash247",
+   "url": "https://splash247.com/cochin-and-drydocks-world-seal-kochi-repair-venture/",
+   "date": "2026-09-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Q1FY26 Result Summary",
+   "url": "https://www.icicidirect.com/mailcontent/idirect_cochinshipyard_q1fy26.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cochin Shipyard slumps as FY27 EBITDA margin guidance disappoints - Tuesday, October 06, 2026 | 03:56 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/capital-market-news/cochin-shipyard-slumps-as-fy27-ebitda-margin-guidance-disappoints-126091100745_1.html#1",
+   "date": "2026-09-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "cochin shipyard slumps as fy27 ebitda margin guidance disappoints",
+   "url": "https://www.capitalmarket.com/markets/news/market-beat-news/cochin-shipyard-slumps-as-fy27-ebitda-margin-guidance-disappoints/1732167",
+   "date": "2026-09-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cochin Shipyard Stock Slides More Than 8% After Company Forecasts Margin Decline Over Next 2 Years | 5paisa",
+   "url": "https://www.5paisa.com/blog/cochin-shipyard-stock-slides-more-than-8-after-company-forecasts-margin-decline-over-next-2",
+   "date": "2026-09-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "SSGSFL has not cooperated with Credit Analysis & Research Ltd (CARE), ICRA Ltd (ICRA) and Brickwork Ratings India Pvt Ltd (Brick...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Sar%20Senapati%20Santaji%20Ghorpade%20Sugar%20Factory%20Limited-RU-03-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "|BWR A-(CE) / CARE A-(CE) / ICRA A / CARE A+(CE) / ICRA A+ / BWR A / IND A / IND A+ / ICRA A- / CARE A+ / CRISIL A+(CE)|58.20|",
+   "url": "https://www.franklintempletonindia.com/downloadsServlet/pdf/franklin-india-multi-asset-solution-fund-scheme-information-document-it1ykmu5#4#18#4",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "| CRISIL Vs ICRA    | 2.9572    | 3.4432    | 1.6513    | 2.0016    |",
+   "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/206000/11/11_chapter%204.pdf#3#8#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 100 x 0.6 + Kerala 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Kerala: GST collections +10.3% Apr-to-date vs India +6.1% (4.2 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 30 output +25.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +22.7% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +22.7% (gap +4.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

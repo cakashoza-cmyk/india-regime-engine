@@ -1,0 +1,150 @@
+{
+ "key": "gj_mundra|power",
+ "state": "GJ",
+ "city": "gj_mundra",
+ "ind": "power",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:34 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 75,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Mundra power — back the PPA-backed generation and its fuel/OM supply chain, not merchant or discom-receivable-heavy exposure.",
+ "title": "Mundra Power Generation & Distribution: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A power plant is a fuel-to-cash converter: coal in, units out, billed to a buyer under a PPA.** Cash sits in two places — the fuel/working-capital cycle on the way in, and the receivable from the offtaker on the way out. Mundra is India's imported-coal hub, so the plant's cost base is dollar-linked coal while its tariff is rupee and regulated; that mismatch is the whole credit story. **The single biggest risk is not generation, it is who pays and when.** Rating work on thermal producers is explicit that liquidity is judged on cash collections from the counterparty, DSRA availability and working-capital limit use [8]; a peer case shows collection periods stretching past 400 days on weak discoms [10]. So when a proposal lands, check the offtaker's payment record first; if the buyer is a weak state discom, ask for the last 24 months of actual receipt dates, not billed dates. ## What has changed now\n**The local news is a restart story, and it is positive but early.** Tata Power is nearing restart of its imported coal-based Mundra plant after Gujarat PPA approval, with a revised agreement enabling coal cost pass-through [3]. That pass-through is the credit fix — it moves fuel-price risk off the borrower's P&L. **Treat [3] as a single trade-press report, not confirmation of commissioning.** Peer results are strong: Vedanta Power posted record quarterly sales with EBITDA up 45% sequentially and margins at 14.5% [5], and separately reported 122% EBITDA growth to INR 421 crore on revenue of INR 2,908 crore [6]; Adani Power runs 18.33 GW with 95% of capacity tied to long-term PPAs [7]. Coal India's Q2 FY27 net profit rose 57% YoY to Rs 6,547 crore even as target prices were cut [4] — fuel is available and priced, not scarce. **Demand is real: Gujarat electricity demand is up 11.0% Apr-to-date versus India's 9.5% [D].**\n\n## Where to grow\n**Pursue the annuity around the plant, not the plant's merchant upside.** Target: (a) coal handling, ash utilisation and O&M contractors with assigned PPA-backed receivables; (b) transmission and distribution EPC and material suppliers to Gujarat discoms, where GST collections are running +11.9% Apr-to-date against India's +6.1% [D]; (c) captive and group-captive generators selling into Gujarat's 11.0% demand growth [D]. **Avoid pure merchant generators with no PPA and borrowers whose sole offtaker is a stretched discom** — the 400-day collection precedent [10] is the cautionary case. Note the macro gap: bank credit is +22.9% YoY against activity of +9.5% [D], so pricing is competitive; do not chase volume into weak structures. ## How to grow safely\n**Structure against the receivable, not the asset.** Take assignment of PPA cash flows or an escrow of offtaker payments; require DSRA and minimum coverage covenants in line with rating practice [8]. **Every month take: generation and PLF, billed versus collected units, receivable ageing by offtaker, coal inventory days, working-capital limit utilisation, and DSRA balance.** If collection days rise two months running, cut limits and move to cash-collateralised lending. ## Early-warning signs\n- **Receivable days stretching** (monthly): two consecutive rises -> freeze new limits, re-price. - **Coal cost pass-through delayed or disputed** (quarterly): any PPA renegotiation news -> stop disbursement until order copy seen. - **PLF falling below plan** (monthly): two quarters of shortfall -> reassess debt-service cover. - **Restart slippage at Mundra** (quarterly): commissioning date pushed again -> treat [3] as unconfirmed and hold."
+ ],
+ "watch": [
+  [
+   "Receivable days by offtaker (monthly)",
+   "two consecutive rises -> freeze new limits and re-price"
+  ],
+  [
+   "Coal cost pass-through status (quarterly)",
+   "PPA renegotiation or dispute -> stop disbursement until order copy"
+  ],
+  [
+   "PLF versus plan (monthly)",
+   "two quarters of shortfall -> reassess debt-service cover"
+  ],
+  [
+   "Mundra restart/commissioning date (quarterly)",
+   "date pushed again -> treat restart as unconfirmed, hold new sanctions"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Mundra restart nears with coal cost pass-through PPA; Gujarat demand +11.0% and GST +11.9%.",
+ "articles": [
+  {
+   "title": "Mundra Power Plant - Explore Business Standard",
+   "url": "https://www.business-standard.com/amp/topic/mundra-power-plant#1",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "mundra and special News and Updates from The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/mundra-and-special/news#1",
+   "date": "2026-10-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Tata Power Moves Closer to Restarting Mundra Plant After Gujarat PPA Approval | India Renewable Energy News",
+   "url": "https://indiarenews.in/blog/read/tata-power-moves-closer-to-restarting-mundra-plant-after-gujarat-ppa-approval",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Coal India shares fall 3% after Q2 results; Jefferies, Motilal Oswal, others cut target price",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/coal-india-shares-fall-3-after-q2-results-jefferies-motilal-oswal-others-cut-target-price/articleshow/135349282.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Vedanta Power Q2 Results: Record sales, 45% EBITDA jump fuel profit turnaround - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/vedanta-power-q2-results-record-sales-45-pc-ebitda-jump-fuel-profit-turnaround-20022591.htm",
+   "date": "2026-10-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Vedanta Power Reports Record Q2 FY27 Performance with 122% EBITDA Growth to INR 421 Crore",
+   "url": "https://solarquarter.com/2026/10/30/vedanta-power-reports-record-q2-fy27-performance-with-122-ebitda-growth-to-inr-421-crore/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Adani Power Q1 FY27 slides: record results fuel 45 GW expansion target By Investing.com - Adani Power Q1 FY27 slides: record results fuel 45 GW expansion target",
+   "url": "https://www.investing.com/news/company-news/adani-power-q1-fy27-slides-record-results-fuel-45-gw-expansion-target-93CH-4807881#1",
+   "date": "2026-07-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cash flow waterfall mechanism Creation of reserve funds for debt servicing Stipulation on minimum coverage ratios that must be m...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/472~Thermal%20Power%20Producers#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Glenmark’s moderate financial risk profile is marked by large incremental working capital requirements and capex, and sizable re...",
+   "url": "https://www.crisil.com/content/dam/crisil/events-tiles/india-outlook/year-of-reckoning-beckons/report/india-outlook-fiscal-2017.pdf#12#17#12",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The company remains exposed to significant counterparty credit risk due to the weak operational and financial profile of Andhra ...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510131010_Hinduja_National_Power_Corporation_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- various forms of fund-based assistance, including long-term project finance, short/medium term loan to equipment manufacturers...",
+   "url": "https://www.smccapitals.com/uploads/offerdocuments/16154.power-finance-corporation-limited---draft-shelf-prospectus---6-july-2023.pdf#30#207#30",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 75 (national 75 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: All-India electricity requirement Apr-to-date (CEA) +9.5%. [official activity proxy, data to Aug-2026]",
+  "Gujarat: electricity demand +11.0% Apr-to-date vs India +9.5% (1.5 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +22.9% YoY vs activity +9.5% (gap +13.4 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

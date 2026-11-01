@@ -1,0 +1,158 @@
+{
+ "key": "ka_mangaluru|refining",
+ "state": "KA",
+ "city": "ka_mangaluru",
+ "ind": "refining",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:34 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 59,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to downstream service and fabrication SMEs tied to MRPL's operations, not to refining-margin plays; the local blast and national output contraction outweigh Karnataka's GST and power tailwinds.",
+ "title": "Mangaluru Petroleum Refining & Coal Products: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Mangaluru's refining cluster is essentially one anchor plant — MRPL — plus a ring of SMEs that sell it labour, fabrication, transport, catalyst handling and maintenance.** The anchor turns crude into fuels and petrochemicals; the SMEs turn their own inputs (steel, manpower, spares, diesel) into service cash, invoiced monthly against work orders. Value sits in the anchor's margin; cash sits in the SME's receivable from the anchor. **So when a proposal lands, check who the end debtor is; if it is MRPL or a main contractor, ask for the work-order and past payment record.**",
+  "## Where cash and risk sit now\n**The anchor's numbers look strong on paper — Q3 FY26 revenue ₹29,720 crore, PBT ₹2,214 crore, PAT ₹1,445 crore, debt-equity improved to 0.63 [1] — but a late-September explosion at the Mangaluru refinery injured eight workers [1] and has since claimed a second life, with ₹1.2 crore compensation reported [2][3].** That is a local safety and shutdown risk, not a margin story. Nationally, IIP for NIC 19 output is -0.6% YoY and -0.9% Apr-to-date [D], so the sector's physical volumes are flat-to-down even as peer refiners report margin-led profit (HPCL GRM US$32.2/bbl [7]; BPCL and IOC beats [4][6]). **Separate these: peer profits are margin and inventory gains, not volume growth — do not read them as demand for your borrower's services.**",
+  "## The growth opportunity\n**Karnataka itself is running ahead of India — GST collections +11.1% Apr-to-date vs +6.1%, and electricity demand +23.3% vs +9.5% [D] — so pursue borrowers serving the plant's utilities, power, fabrication and maintenance spend rather than fuel marketing.** Target SME fabricators, mechanical and electrical maintenance contractors, catalyst and chemical handlers, and logistics tied to the refinery's offtake. **Avoid pure trading of petroleum products and any borrower whose sole collateral is refined stock — price and inventory swings are the anchor's risk, not a lender's.**",
+  "## How to grow safely\n**Structure against the work order, not the balance sheet: invoice-discounted receivables from MRPL or tier-one contractors, with a margin and a cap per debtor.** Take monthly: work-order status, billing and collection statement, GST returns, and a site-safety compliance certificate. **If the borrower's receivable days stretch beyond the contract terms, ask for the anchor's payment advice before enhancing.** Rating reports note refiners' cash generation supports debt service over 12-18 months [8], but that comfort does not pass automatically to suppliers.",
+  "## Early-warning signs\n**Watch for work-order cancellations or deferrals after the blast, delayed MRPL payments, and any borrower whose revenue depends on a single contract.** Also track monthly GST turnover against bank credits; a widening gap means diversion. **If a borrower reports a plant shutdown or safety notice, freeze enhancement and re-assess.**"
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs bank credits",
+   "Turnover gap >10% for two months -> ask for debtor ledger and hold enhancement"
+  ],
+  [
+   "MRPL payment cycle to suppliers (monthly)",
+   "Receivable days stretch beyond contract -> seek anchor payment advice before renewal"
+  ],
+  [
+   "Work-order pipeline (quarterly)",
+   "Cancellation or deferral post-blast -> reduce limit or exit"
+  ],
+  [
+   "Site safety/regulatory notices (event-based)",
+   "Any shutdown notice -> freeze fresh disbursal and re-assess"
+  ],
+  [
+   "IIP NIC 19 output (monthly)",
+   "Continued negative YoY -> tighten new-to-bank SME limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Refinery blast killed two workers; national NIC 19 output contracted 0.6% YoY.",
+ "articles": [
+  {
+   "title": "MRPL Q3 Profit Surges, Refinery Blast Hits - ‹ All Posts",
+   "url": "https://www.stockgro.club/posts/amit-malviya/mrpl-q3-profit-surges-refinery-blast-hits-a7bd4999-a238-4cdf-a58a-864e6985d95a/#1",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "മംഗളൂരു റിഫൈനറി സ്ഫോടനം; ചികിത്സയിലിരുന്നയാൾ മരിച്ചു | Tragedy at Mangaluru Refinery | Madhyamam",
+   "url": "https://www.madhyamam.com/india/tragedy-at-mangaluru-refinery-1564242",
+   "date": "2026-10-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "മംഗളൂരു റിഫൈനറിസ്ഫോടനം; മരിച്ചയാൾക്ക് 1.2 കോടി നഷ്ടപരിഹാരം | Mangaluru refinery blast claims second life, Rs 1.2 cr compensation | Madhyamam",
+   "url": "https://www.madhyamam.com/india/mangaluru-refinery-blast-claims-second-life-rs-12-cr-compensation-1564100?utm_medium=105777439461526&utm_source=Facebook&utm_campaign=pubshare",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: BPCL Q2 2026 beats on EPS as refining stays strong By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/earnings-call-transcript-bpcl-q2-2026-beats-on-eps-as-refining-stays-strong-93CH-2648544",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's HPCL Q4 profit rises on strong refining margins, steady fuel demand",
+   "url": "https://sg.finance.yahoo.com/news/indias-hpcl-q4-profit-rises-081627388.html",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Indian Oil posts Q2 2026 profit beat on inventory gains By Investing.com",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-indian-oil-posts-q2-2026-profit-beat-on-inventory-gains-93CH-4989490",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "News",
+   "url": "https://pre.sharekhan.com/news/earning/details/hpcl---2qfy27-strong-quarter/all",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 11, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144881#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 14, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145559#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Petrochemical%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 02, 2017",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=63906#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 59 (national 32 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Karnataka: GST collections +11.1% Apr-to-date vs India +6.1% (5.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Karnataka: electricity demand +23.3% Apr-to-date vs India +9.5% (13.8 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 19 output -0.6% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -0.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

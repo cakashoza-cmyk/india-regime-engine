@@ -1,0 +1,154 @@
+{
+ "key": "ap_kakinada|rice_milling",
+ "state": "AP",
+ "city": "ap_kakinada",
+ "ind": "rice_milling",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:35 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 52,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Kakinada rice millers with verified paddy tie-ups and export order books; avoid traders riding the price spike on borrowed stock.",
+ "title": "Kakinada Rice Milling & Export: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Kakinada mill buys paddy at harvest, dries and mills it, and sells parboiled or white rice either to the state procurement system or FOB Kakinada to West African and other buyers. Cash is made on the milling margin and on the spread between paddy cost and rice price, not on volume alone. **The whole cycle is a working-capital cycle: paddy must be bought in a 6-8 week window and held as rice until it ships.** Capex is modest (mill, dryer, boiler, husk power); the balance sheet risk sits in inventory and receivables, not plant. So when a proposal lands, check paddy procurement funding and stock holding period first, not the mill's book value.\n\n## What has changed now\nCyclone Arnab damaged more than 70 thsd ha of rice crops and over 10 thsd ha of horticulture in Andhra Pradesh, and local millers expect harvest delayed by at least 15 days [1]. Indian 5% broken parboiled rice was $375/t FOB Kakinada on 29 October, up $4/t week-on-week, with traders expecting more [1]. **Rising prices flatter a miller's P&L while hiding the fact that his paddy is not yet in the yard.** West African demand is described as subdued [1], so the price rise is supply-led, not demand-led. Separately, the Kakinada joint collector has warned millers against violating procurement norms [2], and port disruption at Kakinada and Vizag was reported in July [3]. AP GST collections are -0.2% Apr-to-date against India +6.1% [D] — a local stress signal — while AP electricity demand is +18.1% vs India +9.5% [D].\n\n## Where the growth is\nPeer results show the money is in branded and integrated players: KRBL posted its strongest-ever quarterly profitability with PAT of Rs. 261 crores and EBITDA margin of 23.8%, up from 13.9% [7], and Amir Chand Jagdish Kumar reported net profit up 94% to ₹366.27 million on revenue up 55% to ₹6,646.74 million [6]. **Pursue millers with their own brand, captive husk power and a repeat export buyer list; avoid pure paddy traders and mills whose only customer is a single West African buyer.** ICRA expects basmati revenue growth of 6-8% in FY2026 on export pick-up [8] — note this rating report is undated and should be treated as old.\n\n## How to grow safely\nStructure against stock, not against hope: **hypothecate paddy and rice with a stock-and-receivable statement every month, and set the drawing power on the lower of book stock and insured stock.** Take monthly stock statements, monthly export realisation statements, and quarterly GST returns. Where the borrower sells to state procurement, take the procurement order and release limit against allotment, not against mill capacity. Ask for the paddy arrival register each fortnight; if arrivals are behind the 15-day delay [1], ask whether the borrower is buying at the top of the price curve.\n\n## Early-warning signs\n- **Stock ageing beyond the normal holding period** — if rice sits unsold past the shipment cycle, cut limit and ask for the buyer contract.\n- **Receivable days stretching from a single West African buyer** — if one buyer crosses a third of sales, ask for credit insurance or LC confirmation.\n- **Procurement norm notices** [2] — any show-cause from the joint collector means stop fresh disbursement until resolved.\n- **Port disruption recurrence** [3] — if Kakinada/Vizag shipments stall, extend the drawing-power review to weekly.\n- **AP GST trend staying negative** [D] — if the borrower's own GST turnover falls two quarters running, reprice or exit."
+ ],
+ "watch": [
+  [
+   "Monthly stock statement",
+   "stock ageing beyond normal cycle -> cut limit, seek buyer contract"
+  ],
+  [
+   "Monthly export realisation statement",
+   "single buyer >1/3 of sales -> demand LC or credit insurance"
+  ],
+  [
+   "Fortnightly paddy arrival register",
+   "arrivals behind 15-day delay [1] -> verify purchase price vs current market"
+  ],
+  [
+   "Quarterly GST returns",
+   "two quarters of falling turnover -> reprice or exit"
+  ],
+  [
+   "Procurement notices from joint collector [2]",
+   "any show-cause -> stop fresh disbursement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Cyclone damage and harvest delay tighten paddy supply while West African demand stays subdued.",
+ "articles": [
+  {
+   "title": "Indian rice prices may rise as crop damage and harvest delays tighten supplies",
+   "url": "https://infoarroz.org/blog/2026/10/30/indian-rice-prices-may-rise-as-crop-damage-and-harvest-delays-tighten-supplies/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Rice Millers In Kakinada Warned Against Violating Procurement Norms",
+   "url": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/rice-millers-in-kakinada-warned-against-violating-procurement-norms-1996542",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Rice exports disrupted at Kakinada and Vizag ports",
+   "url": "https://www.worldports.org/rice-exports-disrupted-at-kakinada-and-vizag-ports/",
+   "date": "2026-07-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "KRBL Ltd (BOM:530813) Q4 2026 Earnings Call Highlights: Record Domestic Growth Amid Export ... By GuruFocus - KRBL Ltd (BOM:530813) Q4 2026 Earnings Call Highlights: Record Domestic Growth Amid Export ...",
+   "url": "https://ca.investing.com/news/company-news/krbl-ltd-bom530813-q4-2026-earnings-call-highlights-record-domestic-growth-amid-export--4647061#1",
+   "date": "2026-05-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: AWL Agri Business posts strong Q2 2026 growth By Investing.com - Earnings call transcript: AWL Agri Business posts strong Q2 2026 growth",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-awl-agri-business-posts-strong-q2-2026-growth-93CH-4934632#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Amir Chand Jagdish Kumar net profit surges 94% in Q1FY26 - Amir Chand Jagdish Kumar net profit surges 94% in Q1FY26",
+   "url": "https://scanx.trade/stock-market-news/companies/amir-chand-jagdish-kumar-q1-results-net-profit-jumps-94-yoy/47458152#1",
+   "date": "2026-08-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "KRBL Ltd (BOM:530813) (Q1 2027) Earnings Call Highlights: Record Profitability and Strategic ... By GuruFocus - KRBL Ltd (BOM:530813) (Q1 2027) Earnings Call Highlights: Record Profitability and Strategic ...",
+   "url": "https://ca.investing.com/news/company-news/krbl-ltd-bom530813-q1-2027-earnings-call-highlights-record-profitability-and-strategic--4804336#1",
+   "date": "2026-08-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 12,2025",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=139593&_x_output_type_b6db407c4_=embedded_pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foreign currency related risksThe foreign currency risk can arise from export- related revenues and receivables that may be un- ...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=847&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "While we have not incurred any material penalties / fines due to any adverse rulings in the last three Fiscals, we cannot assure...",
+   "url": "https://nsearchives.nseindia.com/corporate/Registration_11092025222348_SFIL_DRHP_11092025.pdf#13#107#13",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 28,2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=118308#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 52 (national 53 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: GST collections -0.2% Apr-to-date vs India +6.1% (6.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Andhra Pradesh: electricity demand +18.1% Apr-to-date vs India +9.5% (8.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

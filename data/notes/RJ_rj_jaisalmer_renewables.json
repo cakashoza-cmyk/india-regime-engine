@@ -1,0 +1,150 @@
+{
+ "key": "rj_jaisalmer|renewables",
+ "state": "RJ",
+ "city": "rj_jaisalmer",
+ "ind": "renewables",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:34 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution — lend only to BESS/EPC and O&M contractors with proven execution and escrowed receivables; avoid pure merchant solar/wind SPVs in Jaisalmer until PPA tenure and DSCR data are on file.",
+ "title": "Jaisalmer Renewables (solar/wind): a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Jaisalmer renewable borrower is either a generation SPV (panels or turbines on desert land, selling units under a PPA) or a contractor servicing that build-out. **Generation is capital-heavy with near-flat opex, so cash comes from units sold, not from the asset** [9]. Revenue is single-part tariff and moves with wind speed and weather, so a weak-monsoon or low-wind quarter hits cash directly [9][10]. **Contractors earn on execution milestones, so their cash sits in receivables and retention, not in plant.**\n\n## What has changed now\nLocal news is thin and mostly one project: GEON commissioned a 10 MW / 20 MWh battery system in Jaisalmer to support renewable integration and grid stability [1][2]. That tells us storage is arriving here, but it is a single commissioning, not a market. **Peer results are mixed: Suzlon revenue grew 26% to Rs 4,869 crore in Q2 FY27 while EBITDA margin narrowed to 14.8% from 18.6%** [4][5]; GK Energy's H1 FY27 revenue grew 38.9% to Rs 907.8 crore with a 150 MW/300 MWh BESS order [6]; Waaree faced lower module utilisation and softer module prices [7]. **Read this as volume growth with margin squeeze — good for contractors, tight for manufacturers.** Rating reports (undated) flag floating-rate term loans and PPA lock-in shorter than debt tenure [8][11].\n\n## Where to grow\nPursue BESS EPC and O&M contractors riding the storage build [1][2][6], and rooftop/C&I solar installers with a 1 lakh-unit order book type of visibility [6]. **Avoid merchant solar/wind SPVs with no PPA tenure on file and single-asset borrowers whose entire cash flow is one tariff stream** [9][10]. When a proposal lands, check PPA lock-in against loan tenure; if lock-in is shorter, ask for the sponsor's re-contracting track record [8][11].\n\n## How to grow safely\nStructure against DSCR, not asset value: **take a cash trap at DSCR below 1.10x, as the ReNew covenant does** [10]. Require P-90 PLF evidence post-commissioning, since sustained design PLF is the key monitorable [11]. Collect from customer: PPA tariff, PPA tenure, DSCR, PLF history, receivables ageing. **Every month take: generation/PLF report, receivable ageing, DSCR certificate, and confirmation of floating-rate reset** [8][9].\n\n## Early warning\n- PLF below design P-90 for two quarters (monthly) -> freeze further drawdown, re-run DSCR [11].\n- Receivables past 90 days from a single discom (monthly) -> shift to escrow, cut limit [10].\n- PPA lock-in expiring within loan tenor (quarterly) -> demand re-contracting evidence [8].\n- Interest reset raising instalment (quarterly) -> re-test DSCR headroom [8].\n- Margin compression at the contractor's client (quarterly) -> tighten retention release [4][7]."
+ ],
+ "watch": [
+  [
+   "PLF vs design P-90 (monthly)",
+   "below P-90 for two quarters -> freeze drawdown, re-run DSCR"
+  ],
+  [
+   "Receivable ageing (monthly)",
+   "past 90 days from one discom -> escrow, cut limit"
+  ],
+  [
+   "PPA lock-in vs loan tenure (quarterly)",
+   "lock-in ends before loan -> demand re-contracting evidence"
+  ],
+  [
+   "Interest reset (quarterly)",
+   "instalment rises -> re-test DSCR headroom"
+  ],
+  [
+   "Client margin trend (quarterly)",
+   "margin compression -> tighten retention release"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Storage commissioning is positive but single-project; peers show volume growth with margin squeeze.",
+ "articles": [
+  {
+   "title": "GEON Commissions 10 MW / 20 MWh Battery Energy Storage System in Jaisalmer, Rajasthan",
+   "url": "https://vyqon.in/geon-commissions-10-mw-20-mwh-battery-energy-storage-system-in-jaisalmer-rajasthan/",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Jaisalmer gets a 20 MWh battery system as GEON commissions the project - CNBC TV18 - Jaisalmer gets a 10 MW/20 MWh battery system as GEON commissions the project",
+   "url": "https://www.cnbctv18.com/energy/jaisalmer-gets-a-10-mw-20-mwh-battery-system-as-geon-commissions-the-project-20013639.htm#1",
+   "date": "2026-10-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "<b>Golden Horizon: How renewable energy and inclusive governance are shaping Jaisalmer's green future </b> - - Renewable",
+   "url": "https://energy.economictimes.indiatimes.com/news/renewable/golden-horizon-how-renewable-energy-and-inclusive-governance-are-shaping-jaisalmers-green-future/133025979?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etenergy_news_2026-08-08&dt=2026-08-08#1",
+   "date": "2026-08-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Suzlon faces Adani, JSW challenge as wind energy market heats up; Q2 margins take a hit",
+   "url": "https://economictimes.indiatimes.com/industry/renewables/suzlon-faces-adani-jsw-challenge-as-wind-energy-market-heats-up-q2-margins-take-a-hit/articleshow/135324194.cms",
+   "date": "2026-10-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Suzlon Energy Q2 Results: Revenue grows 26% as quarterly deliveries hit record high - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/suzlon-energy-q2-results-revenue-grows-26-pc-as-quarterly-deliveries-hit-record-high-20022536.htm",
+   "date": "2026-10-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "GK Energy Ltd (NSE:GKENERGY) (Q2 2027) Earnings Call Highlights: 39% H1 Revenue Surge, Rs 1,422 ...",
+   "url": "https://finance.yahoo.com/energy/articles/gk-energy-ltd-nse-gkenergy-190652530.html",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Q2 results review: JSW Energy rides generation growth; Waaree Energies battles utilisation woes",
+   "url": "https://energy.economictimes.indiatimes.com/news/power/q2-results-review-jsw-energy-rides-generation-growth-waaree-energies-battles-utilisation-woes/135293059?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etenergy_news_2026-10-30_versionA&dt=2026-10-30",
+   "date": "2026-10-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 30,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=141997#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Profitability: Given the single part nature of tariff, revenues for the wind power project remain sensitive to level of energy g...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?ParentId=473&id=428&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "As tariffs are one part in nature, the company may report lesser revenues in the event of non- generation of power due to variat...",
+   "url": "https://renew.com/resources/renew_akshay_urja_ltd/credit-rating/ReNew_Akshay_Urja_Limited_June 19, 2026.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 31,2025",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/134200#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Rajasthan None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

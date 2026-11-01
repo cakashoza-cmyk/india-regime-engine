@@ -1,0 +1,150 @@
+{
+ "key": "gj_veraval|seafood_processing",
+ "state": "GJ",
+ "city": "gj_veraval",
+ "ind": "seafood_processing",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:35 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Veraval shrimp processing, but only to processors with diversified buyer books and demonstrated US-tariff pass-through; avoid single-buyer, thin-margin units.",
+ "title": "Veraval seafood / shrimp processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Veraval shrimp processor buys raw shrimp from trawler owners and landing centres, freezes and grades it, and ships containers to the US, China, Japan and the EU.** Cash leaves the door on day one as raw-material advance to suppliers; it comes back only when the overseas buyer pays, so the entire credit is a bet on the gap between those two dates. Value sits in the cold store and in the buyer relationship, not in the plant. **So when a proposal lands, check the buyer-wise sales split and the receivable days by buyer before you look at the P&L.**\n\n## Where the cash actually sits\n**Working capital is the business: inventory plus receivables, funded by packing credit and post-shipment finance.** A peer rating note shows maximum fund-based working capital utilisation at about 96% for the twelve months ended June 30, 2025, with a temporary overdraft taken from existing lenders [10] — that is what a stressed cycle looks like on the drawing limit. ## What has changed now\n**The rating view has flipped from flat to growth: shrimp exports are set to exceed Rs 50,000 crore this fiscal, up 13-15% on-year after three years of stagnation, with rupee depreciation aiding realisations [9].** That is a March 2026 rating report and is the most current official view we have. The earlier May 2025 CRISIL note had volume growth flattish with margins under pressure from US tariffs [8] — treat it as history, not the current position. Peer results confirm the turn: Apex Frozen Foods reported EBITDA margin expanding to 12.7% from 7.1% and PAT up 138% year-on-year on a 15% rise in average shrimp realisation [5][6], and Avanti Feeds grew consolidated revenue 19% year-on-year on shrimp processing and export volumes [4]. **Local Veraval-specific data is thin — the local sources [1][2][3] describe Gujarat's fishing trade and US tariff pressure but give no Veraval-level numbers, so lean on first principles plus these peers.**\n\n## Who to pursue, and how to grow safely\n**Pursue mid-sized processors with at least three export destinations and a named buyer in each; the CRISIL view is that exporters shook off US tariffs by shipping to other markets [9].** Pursue units adding value-added lines (cooked, breaded) where realisation per kg is higher, and first-time buyers of cold-chain equipment with confirmed orders. **Avoid single-buyer units, traders with no processing asset, and anyone whose entire book is US-destination at a fixed price.** Structure as a cash-flow cycle: packing credit against confirmed orders, post-shipment against shipping bills, and a standby limit sized to the peak season. **Take every month: drawing-power statement, buyer-wise outstanding, shipping-bill realisation, and cold-store stock statement.**\n\n## Early-warning signs\n**Watch the rupee and US tariff line together — a sharp rupee move changes realisation faster than any order book [9].** Watch buyer concentration: if one buyer crosses 40% of sales, ask for the contract and the pricing formula. Watch the drawing limit: sustained utilisation near the peer's 96% level [10] with a TOD request is the first sign of a stretched cycle. Watch realisation per kg against the peer benchmark of a 15% rise [5]; a fall while volumes hold means margin is being given away."
+ ],
+ "watch": [
+  [
+   "Monthly buyer-wise sales and receivables",
+   "Single buyer above 40% of sales -> obtain contract and pricing formula"
+  ],
+  [
+   "Quarterly realisation per kg vs peer benchmark",
+   "Realisation falls while volumes hold -> review pricing and margin"
+  ],
+  [
+   "Monthly shipping-bill realisation",
+   "Realisation days stretch beyond agreed tenor -> shift to LC-backed terms"
+  ],
+  [
+   "Quarterly rupee and US tariff position",
+   "Sharp rupee move or new tariff -> reprice the limit and recheck buyer mix"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Rating view flipped to 13-15% export growth; peer margins and realisations expanded.",
+ "articles": [
+  {
+   "title": "Arabian Sea to Global Markets: Gujarat’s Fishing Industry Evolves - Home News Arabian Sea to Global Markets: Gujarat’s Fishing Industry Evolves",
+   "url": "https://www.worldports.org/arabian-sea-to-global-markets-gujarats-fishing-industry-evolves/#1",
+   "date": "2026-07-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Sunday Special: Gujarat’s fishing trade sails into a sea change | Ahmedabad News - The Times of India - - News",
+   "url": "https://timesofindia.indiatimes.com/city/ahmedabad/sunday-special-gujarats-fishing-trade-sails-into-a-sea-change/articleshow/130982492.cms#1",
+   "date": "2026-05-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Gujarat: US tariffs put fishing, exports in troubled waters - ICSF",
+   "url": "https://icsf.net/newss/gujarat-us-tariffs-put-fishing-exports-in-troubled-waters/",
+   "date": "date unknown",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Avanti Feeds (512573) Q2 25/26 Summary | Quartr - Avanti Feeds (512573) Q2 25/26 earnings summary",
+   "url": "https://quartr.com/events/avanti-feeds-512573-q2-25-26_FR1WOMdO#1",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apex Frozen Foods Ltd (NSE:APEX) (Q1 2027) Earnings Call Highlig - 🚀 Enjoy a 7-Day Free Trial Thru Sep 27, 2026",
+   "url": "https://www.gurufocus.com/news/9044317/apex-frozen-foods-ltd-nseapex-q1-2027-earnings-call-highlights-profit-surges-138-on-strong-realizations-and-us-demand#1",
+   "date": "2026-08-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apex Frozen Foods Ltd (NSE:APEX) (Q1 2027) Earnings Call Highlights: Profit Surges 138% on ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/apex-frozen-foods-ltd-nse-010445998.html?fr=sycsrp_catchall#1",
+   "date": "2026-08-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shrimp Stocks Rally: Avanti Feeds, Apex Frozen Hit New Highs on Earnings and Export Boost - Shrimp Stocks Rally: Avanti Feeds, Apex Frozen Hit New Highs on Earnings and Export Boost",
+   "url": "https://www.angelone.in/news/stocks/shrimp-stocks-rally-avanti-feeds-apex-frozen-hit-new-highs-on-earnings-and-export-boost#1",
+   "date": "2026-04-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Shrimp export volume growth to be flattish this fiscal due to tariffs",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2025/05/shrimp-export-volume-growth-to-be-flattish-this-fiscal-due-to-tariffs.html",
+   "date": "2025-05-29",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shrimp exports to cross Rs 50,000 crore this fiscal, volume to improve",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2026/03/shrimp-exports-to-cross-rs-50000-crore-this-fiscal-volume-to-improve.html",
+   "date": "2026-03-08",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company's liquidity remains stretched but is supported by year- end balance of ₹59.57 crore compared to repayment of ₹8 cror...",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5de676ce-9e93-45b2-894a-d21aa198f72e.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sandhya Aqua Exports Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121245_Sandhya_Aqua_Exports_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 67 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +42.1% Apr-to-date in USD (Rs 37,131 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
