@@ -41,7 +41,7 @@ GitHub cron can run 5–20 min late; that is fine for these release times. MPC d
 | Core CPI, GDP, GST, credit growth, OBICUS | `manual_inputs.json` | DeepSeek search+fetch (unverified; never scored) — CPI excluded | **manual** |
 | Breadth % > 200DMA | NSE bhavcopy | — | **stub (v2)** |
 | OIS | — | — | not wired (no free source) |
-| RBI stance / minutes tone | DeepSeek Search+Fetch + deepseek-chat (language only) | — | needs `DEEPSEEK_API_KEY` secret |
+| RBI stance / minutes tone | DeepSeek Search+Fetch + deepseek-flash (language only) | — | needs `DEEPSEEK_API_KEY` secret |
 
 nsepython/jugaad-data were not added: NSE blocks most datacenter IPs; the existing NSE fallback already works from runners.
 

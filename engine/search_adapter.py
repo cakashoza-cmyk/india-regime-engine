@@ -1,5 +1,5 @@
 """Search/fetch adapter. Default: DeepSeek POST /v1/tools/search + /v1/tools/fetch (verified to exist
-in api-docs.deepseek.com, Oct 2026). Language extraction via deepseek-chat (OpenAI-compatible).
+in api-docs.deepseek.com, Oct 2026). Language extraction via deepseek-flash (OpenAI-compatible).
 Rule: structured APIs for numbers; LLM output here is LANGUAGE ONLY (stance/tone labels + quote)."""
 from __future__ import annotations
 import json, os, urllib.request
@@ -43,7 +43,7 @@ def fetch(url):
 
 
 def chat_json(system, user):
-    r = _post("/v1/chat/completions", {"model": "deepseek-chat", "temperature": 0,
+    r = _post("/v1/chat/completions", {"model": "deepseek-flash", "temperature": 0,
         "response_format": {"type": "json_object"},
         "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]})
     return json.loads(r["choices"][0]["message"]["content"])
