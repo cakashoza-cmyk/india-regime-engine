@@ -1,0 +1,145 @@
+{
+ "key": "gj_surat|mmf_textiles",
+ "state": "GJ",
+ "city": "gj_surat",
+ "ind": "mmf_textiles",
+ "version": "v6",
+ "generated_at": "2026-11-01 20:45 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 79,
+ "nudged_by_news": true,
+ "verdict": "Lend into Surat MMF at OK 79, but only to units that have costed the eight-hour wage bill and hedged power — structure the growth capex, do not fund the yarn position.",
+ "title": "Surat MMF / polyester weaving & processing: a note to the credit manager",
+ "narrative": [
+  "## What the unit physically is",
+  "A Surat MMF unit buys polyester yarn — POY and FDY, drawn from PTA and MEG [6] — weaves it into grey fabric on powerlooms or gets it woven on job-work, then dyes, prints and finishes it and sells to dress-material traders and garment buyers. The scale is not marginal: about 65 per cent of the country's synthetic textiles are produced in Surat with an annual sales value of Rs.85,000 crore, production in value terms growing at 12 per cent per annum, and 1.5 lakh embroidery machines run across the city in two 12-hour shifts [2]. **The margin lives in processing, not in weaving — grey fabric is a commodity and the finishing step is the only part that services a loan.** So when a proposal lands, ask what share of revenue is own processed fabric versus plain job-work; if it is mostly job-work you are lending against job-work charges receivable with no pricing power, and the limit must be sized off those charges, not off turnover.",
+  "## Cost structure and where the cash sits",
+  "Two lines decide survival: yarn and power. Yarn is crude-linked, and the peer benchmark is a 10 to 15 day pass-through — Filatex states it has passed on most of the recent input-cost increase in that window and does not expect demand to weaken because of it [6], yet its own EBITDA margin narrowed to 6.8% from 8.75% in the preceding quarter on revenue of ₹1,145.3 crore, up 9.1% year-on-year [6]. **A unit that cannot reprice inside a fortnight is absorbing the polyester cycle in its own margin, and you would be lending into that gap.** On power, the same peer trims annual power payouts by ₹19 crore to ₹20 crore through a 20 MW renewable arrangement with Torrent Power [6]. So when a proposal lands, ask where the power comes from: if it is bought at full industrial tariff with no open access or captive solar, take the last four quarters' bills and re-run DSCR at a higher unit power cost before you sign — that is the one cost a weaving unit can still fix.",
+  "Cash in this trade sits in three places: yarn bought ahead of the season, grey fabric waiting at the processor, and receivables from traders. An April 2026 note records a liquidity gap across MSME units because the duty waiver on 40 critical petrochemical intermediates did not pull yarn prices down, with spinners citing a 150 per cent spike in maritime freight indices and a volatile rupee-dollar rate, and nearly 30 per cent of local weaving capacity moving to a three-day week to cut overheads [8] — that source is more than six months old, so read it as the shape of the problem, not today's level. **Whenever yarn inventory builds while loom hours fall, the promoter is long on crude and you are funding a trading position.** Get the purchase register and the stock statement together, reconcile them, and force destocking before any renewal.",
+  "## What has broken in Surat this quarter — labour is now a credit line",
+  "On 16 August a demonstration at a unit in Amroli turned violent and spread across the city over the following month; three FIRs were lodged and 26 people detained [3], and at least 200 workers say they were fired for being seen at the protests [2]. Embroidery workers are now threatening a protest march on 1 November unless demands on working hours, overtime wages and weekly offs are met [3] — straight into the Diwali selling season. The demands track a Gujarat amendment to the Factories Act 1948 passed last year: eight-hour shifts with overtime after that, a 48-hour weekly cap, overtime hours raised to 125 from 75 per quarter and double wages for overtime [3], and on 30 September the Deputy Labour Commissioner issued a circular directing the Textile Embroidery Jobwork Association Surat to follow the Code on Wages 2019 and the three 2020 codes [3]. **Labour compliance has moved out of the HR annexure and into debt service — a file that ignores it is not underwritten.** The unit owner quoted in the report puts his machinery at Rs.50 lakh-80 lakh, says 12-hour shifts have run since the start, and says an eight-hour pattern is very difficult to run [3]; a compliant roster needs more workers or more machines, and both need funded money. So when an embroidery, weaving or processing proposal lands, ask what the wage bill becomes at eight hours with double-rate overtime; if the promoter has not costed it, or answers 'we will manage', treat the loan as unassessed — raise the promoter contribution and get a written position on the 30 September circular before committee. Note also that the August unrest hit units that had just got workers back after the LPG shortage at the start of the US-Iran war in February [3], that over 20 lakh people work in this cluster and around 10 lakh with embroidery units alone [2][3], and that the 18 lakh migrant workers here reportedly get no provident fund, insurance or gratuity [2] — that is precisely the grievance that gets litigated next.",
+  "## The call and where the growth is",
+  "The data-based call for Surat is OK 79 — national 82 × 0.6 and Gujarat 75 × 0.4 — above our 65 lend line and far above the 45 avoid line. Gujarat GST collections run +11.9% Apr-to-date against India's +6.1%, 5.8 pp faster [GSTN state-wise GST collections, to Sep-2026], and India-wide IIP for NIC 13 is +13.1% YoY with output +11.9% Apr-to-date [IIP, MoSPI, to Aug-2026], while bank credit is +14.6% YoY — a +2.7 pp gap that says the sector is already funded slightly ahead of its output. **The macro supports volume; the credit call is to pick the right borrowers, not to chase share.** Three things point the same way. First, the PLI Round-4 gazette notification of 28 October 2026 cut the Part-II minimum investment from ₹100 crore to ₹50 crore and the minimum turnover from ₹200 crore to ₹100 crore and extended the scheme to FY2033-34, with an 11% incentive on notified MMF and technical textile sales in the first performance year, stepping down 1% a year to 7% in the fifth, on a 10% additional incremental turnover condition, gestation in FY2026-27 and FY2027-28, and performance years FY2028-29 to FY2032-33 [1]; the chamber's own reading is that local MSME units could not use the scheme at the old ₹200 crore threshold [1]. Second, the peer set reports yarn spreads back to ~$0.90/kg after two to three depressed years with management guidance of a 13-20% EBITDA normal, UK FTA orders live from 15 July with India's UK apparel exports expected to double over 2-3 years, the EU FTA eyed for CY2027, and a restarted capex cycle aimed overwhelmingly at downstream value-addition plus recycling and green power [5]. Third, the cluster is being pushed toward modernisation by the PM MITRA scheme for technical textiles [8] and, per an undated aggregation page, by a Rs.33,660 crore BHAVYA scheme for 100 plug-and-play industrial parks [4] — treat [4] as directional only, it carries no date. **The borrower to pursue now is the Surat unit that clears the revised PLI gate — ₹50 crore investment and ₹100 crore turnover [1] — and is putting that money into processing, technical textiles, recycling or captive power, because that is where the incentive, the order book and the collateral line up.** Concretely: a weaver adding dyeing or printing capacity; a unit putting up open-access or captive solar under a PLI claim; an embroidery or technical-textile unit buying automatic machines [1][2]; and a downstream buyer of MMF yarn with UK FTA order visibility [5]. Do not chase a plain grey-fabric job-work unit with no processing step and no power hedge. Nothing in these sources gives Surat-specific margin, receivable or NPA data — collect from customer; and source [7] carried no readable results, so lean on the peer set [5][6].",
+  "## How to grow safely",
+  "**Structure against the cycle, not against last year's turnover.** Because yarn pass-through takes 10 to 15 days at the peer level [6], keep the working-capital limit as drawing power against paid stock and book debts and write the reprice test into the review — if yarn cost has moved and selling price has not inside that window, cut drawing power that month. Because nearly 30 per cent of weaving capacity ran a three-day week in April [8], size any term loan on the cash flow of the processing asset itself, not on the weaving unit's peak turnover, and take the PLI incentive as a separate conditional repayment source rather than as base-case DSCR [1]. Take from the borrower every month: power bills, unit-wise [6]; the yarn purchase register reconciled to the stock statement; ESI and EPF challans with the wage register and actual wage payment dates [2][3]; the PLI claim acknowledgement wherever a claim is being made [1]; and quarterly, the debtor ageing split between traders and direct garment buyers — a trader-heavy book is shorter but far more fragile than a garment-buyer book. Covenants that matter here: no promoter withdrawal or dividend while the current ratio sits below the sanction level; no fresh term debt without our consent; a named key man and a tested successor for the processing unit; mandatory seven-day reporting to us of any labour dispute reaching an FIR, a Collector meeting or a Labour Department notice [3]; and hypothecation of the PLI incentive receivable wherever PLI-backed machinery is financed [1]. On security, charge the processing machinery specifically — it is the asset that earns the margin.",
+  "## What tells you first",
+  "- **Machine hours falling while power units hold** — idle capacity being hidden; ask for the shift register, and if 12-hour shifts are being run to catch up after stoppages, labour exposure is building [3].",
+  "- **Yarn inventory rising while sales are flat** — the unit is long on crude; stop fresh yarn limits and force destocking [8].",
+  "- **Wages slipping to the third or fourth week of the month** — workers cite irregular payment timing as a live grievance [2]; a wage delay precedes a strike, and a strike precedes an NPA.",
+  "- **Any FIR, Collector meeting or Labour Department notice** — three FIRs and 26 detentions followed August [3]; a file with an FIR in it needs a fresh sanction note, not a renewal.",
+  "- **Selling price not moving with yarn beyond the 10-15 day window** [6] — margin is being gifted to hold volume; cut exposure before the quarter closes.",
+  "- **Extortion pressure around the cluster** — one promoter alleges a Rs.50,000 demand against videos of a Sunday shift [3]; if a unit is being squeezed this way, cash is going somewhere other than debt service."
+ ],
+ "watch": [
+  [
+   "Power bills unit-wise and shift register (monthly)",
+   "Machine hours fall while power units hold -> site visit within seven days, freeze drawing power"
+  ],
+  [
+   "Yarn purchase register vs stock statement (monthly)",
+   "Yarn inventory builds while sales are flat -> stop fresh yarn limits, force destocking before renewal"
+  ],
+  [
+   "EPF/ESI challans and actual wage payment dates (monthly)",
+   "Wages hit the third or fourth week or challans missed -> treat as pre-strike signal, seek promoter infusion, escalate to me"
+  ],
+  [
+   "FIR, Collector or Labour Department notice involving the unit (event)",
+   "Any such notice -> no renewal without a fresh sanction note and a written position on the 30 September circular"
+  ],
+  [
+   "PLI claim acknowledgement and incentive receivable (quarterly, where applicable)",
+   "Claim not filed or receivable disputed -> re-size the term loan on own cash flow only, drop the incentive from DSCR"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Nov 1 strike call, FIRs and 200 firings raise operating risk even as PLI threshold falls",
+ "articles": [
+  {
+   "title": "Surat: Major Changes in Textile PLI Scheme: Turnover Limit Reduced by 50%, Scheme Duration Extended to FY 2033-34 | Loktej Surat News",
+   "url": "https://english.loktej.com/article/34187/surat--major-changes-in-textile-pli-scheme--turnover-limit-reduced-by-50---scheme-duration-extended-to-fy-2033-34",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Migrant Workers in Surat Fight for Rest and Fair Wages",
+   "url": "https://frontline.thehindu.com/the-nation/surat-embroidery-workers-labour-rights/article71644077.ece",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "After August unrest, Surat textile units brace for fresh wave of stir",
+   "url": "https://indianexpress.com/article/cities/ahmedabad/after-august-unrest-surat-textile-units-brace-for-fresh-wave-of-stir-10942762/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Indian Textile Industry Trends For 2024 & Beyond",
+   "url": "https://textileinsights.in/category/industry/page/15/",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Textile & Apparel Sector Q1 FY27 Earnings Review | EasiTex Private Limited 发布的此话题相关的动态 | 领英",
+   "url": "https://www.linkedin.com/posts/easitexprivatelimited_textile-apparel-sector-pulse-q1-fy27-activity-7493917532580433920-CZOa",
+   "date": "2026-08-13",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Filatex India targets ₹4,700 cr revenue, 30% profit growth in FY27",
+   "url": "https://askfuzz.ai/discover/news/companies/filatex-india-q1-profit-jumps-19-33-to-48-52-crore",
+   "date": "2026-07-30",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "IRSL: STEXCH:2026- 27: 16th October 2026",
+   "url": "https://www.business-standard.com/markets/indo-rama-synthetics-india-ltd-share-price-1220/announcements/bse-exchange-55241784#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Rising input cost threatens Surat’s synthetic fabric competitiveness",
+   "url": "https://www.textiletradebuddy.com/resources/market-news/rising-input-cost-threatens-surat-s-synthetic-fabric-competitiveness",
+   "date": "2026-04-14",
+   "kind": "cluster",
+   "via": "deepseek",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 79 (national 82 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +14.6% YoY vs output +11.9% (gap +2.7 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 9,
+  "fetch": 11,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
