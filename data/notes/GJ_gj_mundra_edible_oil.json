@@ -1,0 +1,130 @@
+{
+ "key": "gj_mundra|edible_oil",
+ "state": "GJ",
+ "city": "gj_mundra",
+ "ind": "edible_oil",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 51,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Mundra edible-oil processors with proven throughput and tight stock controls; avoid thinly capitalised vanaspati units and any borrower whose working-capital book is growing faster than volumes.",
+ "title": "Mundra Edible Oils & Vanaspati: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Crushing, refining and packing oil is a throughput business, not a margin business.** You buy seed or crude oil, crush or refine it, and sell meal, refined oil and vanaspati into a market where your price is set by the commodity, not by you. Peer evidence is blunt: AWL Agri grew revenue 22% to Rs 17,605 crore in Q2FY26 while EBIT fell 13% to Rs 502 crore [1]. **Volume and working-capital turns make the money; price does not.**\n\n## Where cash sits and what has changed\n**Cash is trapped in inventory and receivables, and the inventory is a moving price.** Raw-material cost is the largest cost line for these businesses [5], and edible-oil companies carry direct risk from raw-material price volatility [7]. Margins are thin and competition is fragmented, with PBILDT margins of 1.47% to 3.32% seen at a vanaspati peer [6]. **So when a proposal lands, check stock days and whether the drawing power is built on today's oil price or last quarter's; if the borrower values stock at the higher of the two, ask for the valuation policy in writing.**\n\n## The growth opportunity in Mundra\n**Gujarat is running ahead of India on collections, +11.9% Apr-to-date against +6.1% nationally [D], so the local trade is moving.** Peer results show where the volume is: AWL's Q4 revenue rose 18% to Rs 21,465 crore on 14% volume growth, with operational EBITDA up 40% to Rs 628 crore [2][3]. **Pursue refiners and packers with own throughput, branded or institutional offtake, and a track record of holding margin per MT through a price swing.** Avoid pure traders with no plant, and vanaspati units with no brand and no distribution. **Note the sources say nothing specific about Mundra itself; this is first principles plus peers.**\n\n## How to grow safely\n**Structure against the commodity, not the balance sheet.** Sanction working capital against a stock-and-receivables statement, with a margin that holds when oil prices fall. Take monthly stock statements, monthly sales and volume data, and quarterly CMA. **If bank credit nationally is growing +45.5% YoY against output of +5.1% [D], then a borrower whose own book grows far faster than its volumes is borrowing against price, not production; ask for the volume reconciliation.** Exports are down 26.0% Apr-to-date in USD [D], so do not underwrite a new export-led line without a confirmed buyer.\n\n## Early-warning signs\n**Watch stock days, not just overdue.** A rise in inventory days while volumes are flat means the borrower is holding a falling price. **If stock days rise two months running, cut drawing power and ask for the ageing.** Watch for interest-payment delays even of a day: a large peer had a one-day technical delay on a working-capital demand loan interest of about Rs 65 lakh [8]. **If a payment slips, treat it as a cash-flow signal and re-price or exit.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock statement (monthly)",
+   "Stock days rise two months running -> cut drawing power and seek stock ageing"
+  ],
+  [
+   "Volume vs book growth (monthly)",
+   "Book grows faster than volumes -> ask for volume reconciliation and re-size limit"
+  ],
+  [
+   "Interest and instalment payment (daily)",
+   "Any delay, even one day -> treat as cash-flow signal, re-price or exit"
+  ],
+  [
+   "Raw-material price trend (weekly)",
+   "Sharp fall in oil price -> revalue stock and test margin cushion"
+  ],
+  [
+   "Export order book (quarterly)",
+   "Export share rising without confirmed buyers -> decline new export-led limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "National exports down 26.0% and bank credit far outpacing output; peer margins compressed.",
+ "articles": [
+  {
+   "title": "Q2FY26 Quarterly Result Announced for AWL Agri Business Ltd.",
+   "url": "https://trendlyne.com/latest-news/755501/AWL/awl-agri-business-ltd/?page=2&qstime=1763127965",
+   "date": "2025-11-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "awl agri business q4 pat jumps 54 yoy to rs 292 cr",
+   "url": "http://capitalmarket.com/markets/news/hot-pursuit-news/awl-agri-business-q4-pat-jumps-54-yoy-to-rs-292-cr/1688233",
+   "date": "2026-04-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Manubhai Mangaldas - Revenue from operations increased 18% YoY to Rs 21,465 crore during the quarter, supported by 14% volume growth, driven by stron...",
+   "url": "http://portfolio.manumangal.com/CorporateInformation/Company-News-Details/AWL-Agri-Business-Ltd/25119010132#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Agr business",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8450969a-96f3-4f56-9513-305ba1f6fe30.pdf#3",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Purti Vanaspati Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Purti%20Vanaspati%20Private%20Limited-01-05-2018.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "One of the key risks that edible oil companies face is the risk arising out of the volatility in the prices of raw materials (oi...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/809~Edible%20Oil#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 09, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=128681#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 51 (national 35 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -26.0% Apr-to-date in USD (Rs 4,114 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +45.5% YoY vs output +5.1% (gap +40.4 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

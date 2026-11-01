@@ -1,0 +1,154 @@
+{
+ "key": "hp_parwanoo|fruits_veg",
+ "state": "HP",
+ "city": "hp_parwanoo",
+ "ind": "fruits_veg",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 24,
+ "nudged_by_news": false,
+ "verdict": "Avoid new fruit and vegetable processing exposure in Parwanoo until power reliability and local demand stabilise; only selective, tightly-structured lending to working-capital-light processors with confirmed offtake.",
+ "title": "Parwanoo Fruit & Vegetable Processing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Parwanoo processor buys seasonal fruit and vegetables, converts them into pulp, frozen or snack lines, and sells into domestic and export markets.** Cash is locked in the crop window: you pay growers at harvest, hold inventory through processing, then wait on buyer credit. **The value sits in the processing line and the offtake contract, not in the raw material, which is perishable and price-volatile.** ICRA flags that raw material is the largest cost and that agro-climatic variation hits both availability and pricing [8][9]. So when a proposal lands, check the crop calendar against the drawing-power cycle; if the buyer credit period runs past the next harvest, ask how the gap is funded.",
+  "## Where cash and value actually sit\n**Capex is heavy and lumpy — cold storage, freezing, retort lines — while margins are thin and set by the buyer.** The peer, Foods & Inns, shows the pattern: Q4 profit fell 16% from ₹23 crore to ₹19 crore on lower volumes even as margin improved to 6.6% from 5.8% [4]. **Realisation, not volume, is the swing factor** — the same peer saw realisations decline 25.3% [4]. So when a proposal lands, check realisation trend per unit, not just tonnage; if realisations are falling while volumes rise, ask for the buyer-wise price list.",
+  "## What has broken now\n**Parwanoo's core advantage — cheap, reliable power — is gone.** The state sold 600 MW to Kerala, and the Parwanoo Industry Association reports unscheduled load shedding, low voltage and fluctuations, with effective shortage now 20% [1]. **Continuous-process lines lose product on every trip**, and investors must add transformer, stabiliser and UPS, raising cost of production [1]. This is local news from October 2026 and it is current. The data pack confirms the stress: Himachal GST collections -22.8% Apr-to-date versus India +6.1%, and electricity demand -6.8% versus India +9.5% [D]. **The data-based call is AVOID (score 24).**",
+  "## Where to grow, and how to grow safely\n**Pursue processors with captive or contracted power, frozen and snack lines with confirmed domestic offtake, and units tied to institutional buyers.** The peer's frozen food volume grew about 39% year-over-year in Q2 FY26 [6], and snacks and pulp are showing growth with capacity expansion underway [7]. **Avoid units dependent on grid power for continuous lines, single-buyer exporters, and anyone without a power backup plan.** Structure as working-capital limits against confirmed orders, with a cash-flow sweep and monthly stock statements. Take monthly: power-backup status, order book, buyer-wise receivables ageing, and stock-and-receivables position.",
+  "## Early-warning signs\n**Watch power tripping frequency and the unit's own backup adequacy first** — that is the live risk in Parwanoo [1]. **Then watch realisation per unit and buyer concentration** — the peer's 25.3% realisation decline [4] is the template. **Finally watch the crop-to-cash gap**: if inventory days stretch past the next harvest without a matching order, the unit is funding seasonality with debt. Note that sources say little specifically about Parwanoo's processing units beyond the power story; the rest is first principles and peer evidence."
+ ],
+ "watch": [
+  [
+   "Power backup status and load-shedding log (monthly)",
+   "Any unit without full backup -> reduce limit or seek additional collateral"
+  ],
+  [
+   "Realisation per unit and buyer-wise price list (monthly)",
+   "Falling realisation with rising volumes -> ask for buyer contracts and reprice risk"
+  ],
+  [
+   "Stock and receivables ageing (monthly)",
+   "Inventory days past next harvest without matching order -> stop fresh drawdown"
+  ],
+  [
+   "Order book and buyer concentration (monthly)",
+   "Single buyer above half of sales -> seek diversification plan or guarantee"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Parwanoo power shortage at 20% and Himachal GST -22.8% signal local stress.",
+ "articles": [
+  {
+   "title": "Power sale to Kerala hits industry in Parwanoo, investors report losses - The Tribune - Add Tribune As Your Trusted Source",
+   "url": "https://www.tribuneindia.com/news/himachal/power-sale-to-kerala-hits-industry-in-parwanoo-investors-report-losses/amp/#1",
+   "date": "2026-10-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Supply of Laminate Materials for HPMC Fruit Processing Plant Parwanoo - Supply of Laminate Materials for HPMC Fruit Processing Plant Parwanoo",
+   "url": "https://www.tendershark.com/details/himachal-pradesh-tender/h-p-horticultural-produce-marketing-and-processing-corporation-limited/dfd48cca-3980-45be-a73d-fd86a06b8c29#1",
+   "date": "2026-06-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Solan News: प्रदेश की पहली फूल मंडी परवाणू में मिलेंगे ताजा फल और सब्जियां - Hindi News › Himachal Pradesh › Solan News › Fresh fruits and vegetables will be available in the state's first flower market, P...",
+   "url": "https://www.amarujala.com/himachal-pradesh/solan/fresh-fruits-and-vegetables-will-be-available-in-the-states-first-flower-market-parwanoo-solan-news-c-176-1-ssml1040-166163-2026-03-30#1",
+   "date": "2026-03-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Foods & Inns Ltd Q4 profits decline 16% on account of lower sales volumes - Hello Entrepreneurs",
+   "url": "https://helloentrepreneurs.com/business/foods-inns-ltd-q4-profits-decline-16-on-account-of-lower-sales-volumes-86606/",
+   "date": "2026-06-01",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q4 FY26 Earnings Call Analysis: Revenue, Margin, Capex Outlook | Arthneeti",
+   "url": "https://www.arthneeti.com/stocks/foods-inns/concall/q3-fy26-earnings-call-analysis",
+   "date": "2026-01-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ... By GuruFocus - Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ...",
+   "url": "https://ca.investing.com/news/company-news/foods--inns-ltd-bom507552-q2-2026-earnings-call-highlights-strong-frozen-food-growth--4337253#1",
+   "date": "2025-11-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q1 FY27 Earnings Call Summary",
+   "url": "https://www.investorstack.in/earnings-calls/foodsin",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 26, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=145235#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "May 27,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=143259&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- Growth in revenue by 15-20% along with a steady operating margin, leading to higher-than-expected cash accrual",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Nufarm%20Frozens%20Private%20Limited-RU-24-03-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 24 (national 40 x 0.6 + Himachal Pradesh 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Himachal Pradesh: GST collections -22.8% Apr-to-date vs India +6.1% (28.9 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Himachal Pradesh: electricity demand -6.8% Apr-to-date vs India +9.5% (16.3 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Exports -9.6% Apr-to-date in USD (Rs 16,044 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

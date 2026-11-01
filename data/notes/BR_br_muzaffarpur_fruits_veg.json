@@ -1,0 +1,154 @@
+{
+ "key": "br_muzaffarpur|fruits_veg",
+ "state": "BR",
+ "city": "br_muzaffarpur",
+ "ind": "fruits_veg",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 44,
+ "nudged_by_news": false,
+ "verdict": "Avoid for now — Muzaffarpur fruit & vegetable processing scores 44, below the 45 floor; lend only to a proven processor with contracted offtake and a clean working-capital record, and decline first-time capex-led proposals.",
+ "title": "Muzaffarpur fruit & vegetable processing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A fruit and vegetable processor buys seasonal produce at harvest, converts it fast, and sells pulp, frozen or snack product into a buyer's calendar.** Cash leaves the door at peak procurement and comes back months later, so the loan is really financing a stockpile, not a factory. **The value sits in the buyer relationship and the cold chain, not the machine.** Rating work on a gherkin processor makes the point plainly: yield and price move with agro-climatic conditions and hit margins directly [8]. So when a proposal lands, check the crop calendar against the drawing power; if the peak-season stock build is funded by a term loan, ask for it to be restructured as cash credit.\n\n## What has changed now\n**Bihar's own tax base is shrinking while India's grows — GST collections are -0.1% Apr-to-date against +6.1% nationally, 6.2 pp slower [D].** That is a demand signal in the borrower's home market, and it is the single strongest reason for the low score. **The peer read is mixed, not broken:** Foods & Inns' Q4 profit fell 16% on lower volumes even as margin improved to 6.6% from 5.8% [4], and realisations fell 25.3% [4]. **Exports are contracting nationally at -9.6% Apr-to-date in USD [D], so an export-led pulp plan carries price risk the borrower cannot control.** Note the peer results are dated June 2026 and the rating material is undated — treat both as directional.\n\n## Where the growth is\n**The local pipeline is real but small-ticket: a Rs 3.61 crore namkeen factory at Damodarpur [1], and nine vegetable producer unions including Tirhut receiving Rs 10 lakh each [2].** Tissue-culture plant supply to farmers for high-value fruit is also emerging locally [3]. **Pursue the processor who sells into the union and farmer network on domestic terms, and the snack unit with a local brand and repeat wholesale buyers.** Avoid the pure export pulp converter and any first-time promoter whose plan depends on realisations holding. **Bihar's electricity demand is +14.1% Apr-to-date against India's +9.5% [D] — a genuine tailwind for cold storage and processing capacity, so favour borrowers adding cold chain over borrowers adding plain grinding capacity.**\n\n## How to grow safely\n**Structure against the season, not the year: cash credit sized to peak stock, term loan only for the cold room, and a 25% margin on stock.** Take monthly stock-and-receivable statements, monthly sales register, and quarterly GST returns — the state's -0.1% collection trend [D] means a borrower's own GST filing is your earliest read. **Covenant on drawing power against paid stock, and require the buyer list with credit terms.** If receivables beyond 90 days exceed a fifth of sales, ask for the ageing and the buyer names.\n\n## Early warning signs\n**Watch for stock that does not move at the turn of the season, and for the borrower switching from domestic wholesale to export without a confirmed order.** A margin that improves while volumes fall, as at the peer [4], is a warning, not a comfort. **If GST filings show flat or falling turnover for two quarters while the state trend stays negative [D], stop enhancement and review the limit.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement (monthly)",
+   "Stock ageing beyond one season -> freeze drawing power and inspect godown"
+  ],
+  [
+   "GST returns vs sanctioned turnover (quarterly)",
+   "Two quarters flat or falling while Bihar GST stays negative [D] -> stop enhancement, review limit"
+  ],
+  [
+   "Buyer-wise sales and receivable ageing (monthly)",
+   "Receivables over 90 days above a fifth of sales -> ask for buyer names and credit terms"
+  ],
+  [
+   "Export order book, if any (monthly)",
+   "No confirmed order against a shipment plan -> decline the export-linked limit"
+  ],
+  [
+   "Electricity and cold-chain uptime (quarterly)",
+   "Cold room downtime in peak season -> treat as stock-loss risk, revalue drawing power"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Bihar GST -0.1% vs India +6.1% and exports -9.6% weaken local demand and pricing.",
+ "articles": [
+  {
+   "title": "मुजफ्फरपुर: किसानों के लिए इलेक्ट्रिक ट्रैक्टर, दामोदरपुर में 3.61 करोड़ से लगेगी नमकीन फैक्ट्री - Muzaffarpur: बरियारपुर में बनेंगे इलेक्ट्रिक हैंड ट्रैक्टर, दामोदरपुर में 3.61 करोड़ से लगेगी नमकीन फैक्ट्री",
+   "url": "https://www.prabhatkhabar.com/state/bihar/muzaffarpur/muzaffarpur-gears-up-electric-tractors-for-farmers-namkeen-factory-project#1",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Muzaffarpur News: तिरहुत सहित नौ सब्जी संघों को मिले 10-10 लाख",
+   "url": "https://www.livehindustan.com/bihar/muzaffarpur/story-bihar-s-cooperative-department-launches-vegetable-producer-unions-201790434471821.html",
+   "date": "2026-09-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "मुजफ्फरपुर के अनिल ने नौकरी छोड़ टिशू कल्चर फार्मिंग को बनाया करियर, किसानों काे महंगे फलों के पौधे कर रहे सप्लाई - मुजफ्फरपुर के अनिल ने नौकरी छोड़ टिशू कल्चर फार्मिंग को बनाया करियर, किसानों काे महंगे फलों के पौधे कर रहे सप्लाई",
+   "url": "https://www.kisantak.in/amp/kisan-kamaal-ka/story/muzaffarpur-anil-kumar-quits-job-tissue-culture-farming-supplies-high-value-fruit-plants-farmers-1450402-2026-09-14#1",
+   "date": "2026-09-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q4 profits decline 16% on account of lower sales volumes - Hello Entrepreneurs",
+   "url": "https://helloentrepreneurs.com/business/foods-inns-ltd-q4-profits-decline-16-on-account-of-lower-sales-volumes-86606/",
+   "date": "2026-06-01",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q4 FY26 Earnings Call Analysis: Revenue, Margin, Capex Outlook | Arthneeti",
+   "url": "https://www.arthneeti.com/stocks/foods-inns/concall/q3-fy26-earnings-call-analysis",
+   "date": "2026-01-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ... By GuruFocus - Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ...",
+   "url": "https://ca.investing.com/news/company-news/foods--inns-ltd-bom507552-q2-2026-earnings-call-highlights-strong-frozen-food-growth--4337253#1",
+   "date": "2025-11-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Foods & Inns Ltd Q1 FY27 Earnings Call Summary",
+   "url": "https://www.investorstack.in/earnings-calls/foodsin",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "August 26, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=145235#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "May 27,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=143259&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- Growth in revenue by 15-20% along with a steady operating margin, leading to higher-than-expected cash accrual",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Nufarm%20Frozens%20Private%20Limited-RU-24-03-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 44 (national 40 x 0.6 + Bihar 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Bihar: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Exports -9.6% Apr-to-date in USD (Rs 16,044 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Bihar: electricity demand +14.1% Apr-to-date vs India +9.5% (4.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

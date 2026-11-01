@@ -1,0 +1,154 @@
+{
+ "key": "mh_nagpur|fruits_veg",
+ "state": "MH",
+ "city": "mh_nagpur",
+ "ind": "fruits_veg",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 44,
+ "nudged_by_news": false,
+ "verdict": "Avoid new fruit & vegetable processing exposure in Nagpur for now; lend only to frozen/snack processors with contracted volumes and clean FDA records, and only with tight structure.",
+ "title": "Nagpur Fruit & Vegetable Processing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA processor buys seasonal produce at harvest, converts it into pulp, frozen vegetables, snacks or gherkins, and sells into domestic FMCG or export channels. **Cash is made in the conversion spread, not in the crop** — raw material is the largest cost line [9], so margin lives or dies on procurement price and recovery yield. Working capital is the whole game: inventory sits from harvest to dispatch, and export receivables stretch further. **So when a proposal lands, check the inventory-and-receivable cycle against the crop calendar first; if stock days exceed one season, ask what is pledged and to whom.**",
+  "## What has changed now\nTwo signals point the same way. India-wide exports are down 9.6% Apr-to-date in USD [D], and the peer read-across confirms it: Foods & Inns reported realisations down 25.3% with Middle East disruption hitting cash flows [4]. **So when a proposal lands, check the export share of sales; if above a third, ask for buyer-wise order confirmation and past-dueness on export bills.** Locally, Maharashtra electricity demand is growing 3.5 pp slower than India [D] — a soft local demand signal — while GST collections run 2.5 pp faster than India [D], which tells us formal local trade is still billing. **Treat the GST number as the honest one and the power number as the warning.**",
+  "## The local picture is thin\nNagpur-specific evidence is limited to one enforcement item: an FDA raid seizing 15 tonnes of suspected noodles and maida worth about Rs 7 lakh [1]. **That is a compliance signal, not a market signal — so when a proposal lands, check the licence, product approvals and past FDA actions; if there is any seizure history, ask for the closure order before sanction.** The one large local commitment is Mother Dairy's Rs 525 crore Nagpur dairy plant, part of a Rs 750 crore programme [3] — but that article is dated March 2024, so treat it as old news and collect current status from the customer.",
+  "## Where to grow, and how\nPursue frozen and snack processors with domestic retail contracts and diversified buyers — peer frozen volumes grew about 39% YoY in Q2 FY26 [6], and snacks and pulp are described as showing strong growth with capacity expansion underway [7]. **Avoid plain pulp exporters with single-market dependence and traders without own processing.** Structure on receivables and inventory, not on land. **Take stock and receivable statements every month, and a buyer-wise sales register every quarter; if a single buyer crosses a third of sales, ask for the contract.**",
+  "## Early warning signs\n- Monthly stock statement versus sanctioned drawing power (monthly): shortfall beyond 10% -> freeze further drawing and inspect godown. - FDA or licensing action (event-based): any seizure or show-cause -> stop enhancement and obtain closure order [1]. - Raw material price versus contracted selling price (quarterly): margin compression -> reset limits to cash cycle."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Drawing power shortfall beyond 10% -> freeze drawing, physical godown check"
+  ],
+  [
+   "Quarterly buyer-wise sales register",
+   "Single buyer above one-third of sales -> demand contract, cap exposure"
+  ],
+  [
+   "Event-based regulatory check",
+   "FDA seizure or show-cause -> stop enhancement, obtain closure order [1]"
+  ],
+  [
+   "Quarterly raw material versus selling price",
+   "Margin compression -> reset limit to cash cycle"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Export realisations down 25.3% [4], India exports -9.6% [D], local FDA seizure [1].",
+ "articles": [
+  {
+   "title": "Nagpur News : रूपम फूड्वर एफडीएचा छापा; ७ लाखांचा माल केला जप्त १५ टन संशयित नूडल्स | Navarashtra",
+   "url": "https://www.navarashtra.com/maharashtra/nagpur/nagpur-fda-raid-15-tonnes-suspected-noodles-maida-seized-wanjara-layout-cp-1369723.html",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Food Parks",
+   "url": "https://www.business-standard.com/amp/topic/food-parks",
+   "date": "2026-10-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Mother Dairy plans to invest Rs 750 Cr to set up processing plants for milk and F&V",
+   "url": "https://agrospectrumindia.com/index.php/news/58/30228/mother-dairy-plans-to-invest-rs-750-cr-to-set-up-processing-plants-for-milk-and-fv.html",
+   "date": "2026-09-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q4 profits decline 16% on account of lower sales volumes - Hello Entrepreneurs",
+   "url": "https://helloentrepreneurs.com/business/foods-inns-ltd-q4-profits-decline-16-on-account-of-lower-sales-volumes-86606/",
+   "date": "2026-06-01",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q4 FY26 Earnings Call Analysis: Revenue, Margin, Capex Outlook | Arthneeti",
+   "url": "https://www.arthneeti.com/stocks/foods-inns/concall/q3-fy26-earnings-call-analysis",
+   "date": "2026-01-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ... By GuruFocus - Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ...",
+   "url": "https://ca.investing.com/news/company-news/foods--inns-ltd-bom507552-q2-2026-earnings-call-highlights-strong-frozen-food-growth--4337253#1",
+   "date": "2025-11-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q1 FY27 Earnings Call Summary",
+   "url": "https://www.investorstack.in/earnings-calls/foodsin",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 26, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=145235#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "May 27,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=143259&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- Growth in revenue by 15-20% along with a steady operating margin, leading to higher-than-expected cash accrual",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Nufarm%20Frozens%20Private%20Limited-RU-24-03-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 44 (national 40 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: electricity demand +6.0% Apr-to-date vs India +9.5% (3.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Exports -9.6% Apr-to-date in USD (Rs 16,044 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

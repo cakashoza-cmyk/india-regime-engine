@@ -1,0 +1,158 @@
+{
+ "key": "hp_baddi|fmcg_distribution",
+ "state": "HP",
+ "city": "hp_baddi",
+ "ind": "fmcg_distribution",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 12,
+ "nudged_by_news": false,
+ "verdict": "Avoid for now — Baddi FMCG distribution carries a 12 score against a 45 floor, and Himachal's local demand signals are deteriorating; lend only to the narrow set of cash-and-carry distributors with audited stock statements and no Baddi pharma exposure.",
+ "title": "Baddi FMCG distribution: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**An FMCG distributor in Baddi buys branded stock from companies, warehouses it in godowns, and pushes it to retailers and sub-dealers across Baddi, Parwanoo and the surrounding belt on short credit.** Cash comes in from retailers in days, goes out to companies against purchase invoices, and the distributor lives on the spread between purchase rate and retail rate. The 2026 local trade write-up describes exactly this: larger product ranges, frequent retailer orders, changing purchase rates, GST documentation, batch-wise stock and limited shelf life [2]. **So when a proposal lands, check the stock turn and the batch-age report first; if the godown holds slow-moving SKUs beyond shelf life, ask for the write-off policy and the last two years' damage claims.**",
+  "## Where value and cash actually sit\n**Value sits in the brand relationship and the route-to-market, not in fixed assets — FMCG manufacturing is not capital intensive and distribution is even lighter [9].** Capex is modest (godown rent, racks, a delivery fleet, billing software); the real capital is inventory plus retailer receivables. Pricing power is thin: the distributor takes the company's margin, so a rate change or a scheme withdrawal hits him directly. **So check the margin per SKU and the scheme income separately; if the proposal's repayment depends on scheme income rather than trading margin, ask for the company sanction letter and the last four months' scheme credits.**",
+  "## What has changed now\n**Himachal Pradesh is the problem, not the FMCG sector.** State GST collections are down 22.8% Apr-to-date against India's +6.1%, and electricity demand is down 6.8% against India's +9.5% [D]. That is a local consumption and industrial-activity signal, and Baddi's distributor base sells into that same belt. Nationally the picture is different — FMCG revenue growth accelerated to around 15% Y-o-Y in Q1FY27 from 11% in Q4FY26 [5], and Q2 saw consumer demand gather momentum for Marico, Godrej Consumer and retailers [4]. **So treat the national FMCG recovery as a reason to lend elsewhere, not in Baddi; if a Baddi proposal leans on national FMCG growth, ask for the distributor's own month-wise secondary sales for the last six months.**",
+  "## Where the growth is — and who to avoid\n**Pursue the cash-and-carry and modern-trade feeder distributors who supply Baddi's own industrial and pharma workforce, and the sub-dealers riding the Hindustan Foods acquisition of the Reckitt Baddi unit [3] — that plant will need local distribution and vendor support.** Avoid the pure pharma-adjacent trader and the single-brand distributor whose only customer is one factory canteen. **If the borrower's top three retailers are all inside one industrial township, ask for a customer concentration schedule and a second route plan before sanctioning.**",
+  "**If GST turnover falls two months running while stock rises, freeze the limit and inspect the godown.**"
+ ],
+ "watch": [
+  [
+   "GST return vs stock statement (monthly)",
+   "GST turnover down 2 months while stock up -> freeze limit, inspect godown"
+  ],
+  [
+   "Batch-age report (monthly)",
+   "SKUs beyond shelf life above 5% of stock -> demand write-off, cut limit"
+  ],
+  [
+   "Retailer receivable days (monthly)",
+   "Receivable days stretch beyond the sanctioned cycle -> ask for collection plan, stop fresh drawdown"
+  ],
+  [
+   "Electricity/industrial activity in Baddi belt (quarterly)",
+   "Further decline in HP power demand -> reprice or exit the single-township borrower"
+  ],
+  [
+   "Company scheme credit (monthly)",
+   "Scheme income above trading margin -> ask for company sanction letter, rework repayment"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "HP GST -22.8% and power demand -6.8% Apr-to-date signal local demand contraction.",
+ "articles": [
+  {
+   "title": "Baddi | Latest & Breaking News on Baddi | Photos, Videos, Breaking Stories and Articles on Baddi",
+   "url": "https://www.moneycontrol.com/news/tags/baddi.html",
+   "date": "2026-09-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Best Inventory Software for FMCG Distributors in Baddi & Parwanoo – Smart Billing, GST, Stock, Batch & Distribution Management Solution",
+   "url": "https://tallyatcloud.com/articles/best-inventory-software-for-fmcg-distributors-in-baddi-parwanoo-smart-billing-gst-stock-batch-distribution-management-solution",
+   "date": "2026-09-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Hindustan Foods acquires Dettol maker's Baddi unit",
+   "url": "https://www.vccircle.com/hindustanfoods-acquires-dettol-maker-s-baddi-unit",
+   "date": "2026-08-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "FMCG, Retail Cos Log Robust Growth in Q2 - FMCG, Retail Cos Log Robust Growth in Q2",
+   "url": "https://in.tradingview.com/news/moodys:9d64194b185f2:0-fmcg-retail-cos-log-robust-growth-in-q2/#1",
+   "date": "2026-10-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "FMCG Q1FY27 review: Marico, Nestle emerge as top picks as volumes recover - Thursday, October 15, 2026 | 02:28 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/news/fmcg-q1fy27-review-marico-nestle-emerge-as-top-picks-as-volumes-recover-126081900811_1.html#1",
+   "date": "2026-08-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Tata Consumer Products shares rise 7% to all-time high on upbeat revenue forecast- Moneycontrol.com - 15",
+   "url": "https://www.moneycontrol.com/news/business/markets/tata-consumer-products-shares-rise-7-to-all-time-high-on-upbeat-revenue-forecast-13914960.html?utm_source=flipboard&utm_medium=referral&utm_campaign=flipboard-magazine#1",
+   "date": "2026-05-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Dabur Q4 Results: FMCG major beats estimates on strong rural demand; dividend declared - CNBC TV18 - Dabur Q4 Results: FMCG major beats estimates on strong rural demand; dividend declared",
+   "url": "https://www.cnbctv18.com/market/dabur-q4-results-fmcg-major-beats-estimates-on-strong-rural-demand-dividend-declared-ws-l-19901061.htm/amp#1",
+   "date": "2026-05-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CRISIL Ratings criteria for the consumer staples and discretionary sector",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Consumer%20Durable%20Industry.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ability to launch new models/upgrades with varying performance characteristics (for power and fuel efficiency) is an important c...",
+   "url": "https://www.crisil.com/content/dam/crisilrating/criteria-and-methodology/criteria-for-manufacturing-trading-and-corporate-services-sector.pdf#10#15#10",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Cotton%20Textile%20Industry.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 12 (national 20 x 0.6 + Himachal Pradesh 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Himachal Pradesh: GST collections -22.8% Apr-to-date vs India +6.1% (28.9 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Himachal Pradesh: electricity demand -6.8% Apr-to-date vs India +9.5% (16.3 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +29.1% YoY vs activity +6.1% (gap +23.0 pp). [RBI bank credit vs output, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

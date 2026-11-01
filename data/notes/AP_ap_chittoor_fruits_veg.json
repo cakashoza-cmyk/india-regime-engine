@@ -1,0 +1,146 @@
+{
+ "key": "ap_chittoor|fruits_veg",
+ "state": "AP",
+ "city": "ap_chittoor",
+ "ind": "fruits_veg",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 44,
+ "nudged_by_news": false,
+ "verdict": "Avoid for now — Chittoor fruit and vegetable processing scores 44, below the 45 avoid line, and the local news is worse; lend only to frozen and export-diversified processors with clean receivables, and decline pulp-dependent units until grower dues clear.",
+ "title": "Chittoor fruit & vegetable processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A processor buys seasonal fruit and vegetables at harvest, converts them into pulp, arils, frozen or dehydrated product, and sells into domestic FMCG and export buyers.** Cash leaves the door at peak procurement and returns months later after processing, testing and shipping. Value sits in the buyer relationship and the cold chain, not the machine. **So when a proposal lands, check the buyer list and the share of revenue from the top three buyers; if one buyer is above half, ask for the contract and payment history.**\n\n## Where cash and risk sit now\n**Chittoor's pulp chain is the weak link: growers here are awaiting about ₹300 crore in delayed pulp industry payments, with a ₹200-crore state incentive in process [3].** That is a direct read on the working-capital cycle of local pulp units — they are stretching suppliers because their own cash is late. **So check grower and supplier ageing first; if dues run past the season, ask how the unit funded the gap and decline unless it is own funds.** Peer Foods & Inns shows the same squeeze: Q4 profit fell 16% to ₹19 crore on lower volumes, with realisations down 25.3% [4]. Rating reports flag raw-material and agro-climatic swings as the core margin risk [8]. ## The growth opportunity\n**Frozen and value-added lines are where volume is moving — peer frozen food volume grew about 39% year-over-year in Q2 FY26 [6], and snacks and pulp are described as showing tremendous growth with capacity expansion underway [7].** AP has also shipped pomegranate arils to New Zealand, pointing to export demand for value-added horticulture [1]. **Pursue frozen vegetable and snack processors, aril and IQF units, and units with diversified export buyers; avoid single-product pulp units selling to one or two buyers.** Note the state's 11 food processing units, including four primary fruit and vegetable centres in Annamayya and Chittoor and a Mondelez unit at Sri City [2] — but that report is from August 2023 and is old. ## How to grow safely\n**Structure against the season, not the balance sheet: cash-flow-backed limits sized to one procurement cycle, with a receivables trust-and-retention or escrow on export proceeds.** Take stock and receivables statements monthly, buyer-wise sales and realisations monthly, and a grower-dues confirmation each season. **If the unit cannot show buyer-wise realisation, ask for shipping bills and bank credits; if realisations are falling, cut the limit.**\n\n## Early-warning signs\n**Watch grower payment delays, falling realisations, and rising inventory days.** India-wide exports are down 9.6% Apr-to-date in USD [D], and AP GST collections are -0.2% Apr-to-date against India's +6.1% [D] — a local demand signal."
+ ],
+ "watch": [
+  [
+   "Grower and supplier dues ageing (monthly)",
+   "dues past one season -> freeze limit and seek own-funds proof"
+  ],
+  [
+   "Buyer-wise realisation and export proceeds (monthly)",
+   "realisation down or proceeds outside escrow -> cut limit"
+  ],
+  [
+   "AP GST and power demand trend (monthly)",
+   "GST stays negative while power demand stays high -> reprice risk"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Chittoor pulp units owe growers about ₹300 crore; peer profits and realisations fell.",
+ "articles": [
+  {
+   "title": "AP pomegranate arils exported to New Zealand",
+   "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Oct/23/ap-pomegranate-arils-exported-to-new-zealand?utm_source=website&utm_medium=related-stories",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "AP Govt launches 11 food processing units - AP Govt launches 11 food processing units",
+   "url": "https://agrospectrumindia.com/news/8/29402/ap-govt-launches-11-food-processing-units.html#1",
+   "date": "2026-09-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Mango Growers Await Payments From Pulp Industries - Mango Growers Await Payments From Pulp Industries",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/mango-growers-await-payments-from-pulp-industries-1985550?utm_source=home&utm_medium=justIn#1",
+   "date": "2026-09-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q4 profits decline 16% on account of lower sales volumes - Hello Entrepreneurs",
+   "url": "https://helloentrepreneurs.com/business/foods-inns-ltd-q4-profits-decline-16-on-account-of-lower-sales-volumes-86606/",
+   "date": "2026-06-01",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q4 FY26 Earnings Call Analysis: Revenue, Margin, Capex Outlook | Arthneeti",
+   "url": "https://www.arthneeti.com/stocks/foods-inns/concall/q3-fy26-earnings-call-analysis",
+   "date": "2026-01-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ... By GuruFocus - Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ...",
+   "url": "https://ca.investing.com/news/company-news/foods--inns-ltd-bom507552-q2-2026-earnings-call-highlights-strong-frozen-food-growth--4337253#1",
+   "date": "2025-11-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q1 FY27 Earnings Call Summary",
+   "url": "https://www.investorstack.in/earnings-calls/foodsin",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 26, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=145235#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "May 27,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=143259&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- Growth in revenue by 15-20% along with a steady operating margin, leading to higher-than-expected cash accrual",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Nufarm%20Frozens%20Private%20Limited-RU-24-03-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 44 (national 40 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: GST collections -0.2% Apr-to-date vs India +6.1% (6.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Exports -9.6% Apr-to-date in USD (Rs 16,044 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Andhra Pradesh: electricity demand +18.1% Apr-to-date vs India +9.5% (8.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

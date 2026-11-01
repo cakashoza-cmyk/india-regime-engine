@@ -1,0 +1,154 @@
+{
+ "key": "mp_indore|edible_oil",
+ "state": "MP",
+ "city": "mp_indore",
+ "ind": "edible_oil",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 31,
+ "nudged_by_news": false,
+ "verdict": "Avoid for now: Indore edible oils scores 31 against a 45 floor, and with MP GST at -0.1% [D] and a tightening repo at 5.5% [D], lend only to branded, hedged, low-leverage processors — and only after the structure below is met.",
+ "title": "Indore Edible Oils & Vanaspati: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nCrushing and refining is a spread business, not a brand business at the small end: you buy soybean or mustard seed, crush, refine, and sell oil plus de-oiled cake. **Cash is made on the crush spread and lost on inventory timing.** Margins are thin — a rated peer ran PBILDT of 1.47% to 3.32% across FY15-FY17 on low value addition and fragmented competition [9]. So when a proposal lands, check the gross spread per tonne and the hedging policy before you look at turnover; if there is no hedge, ask who bears a price fall and get it in writing.\n\n## Where value and cash sit now\nValue sits with branded packers and with anyone who can hold stock cheaply; cash sits in working capital, because seed must be bought at harvest and oil sold through the year. **Raw material is the largest cost line and its volatility is the core credit risk** [8][10]. Local demand is shifting: soybean refined oil demand is reported surging in Indore as mustard prices retreat [1], which helps refiners' volumes but squeezes the spread. Note the source is a single local report dated 30-Oct-2026 [1].\n\n## What has changed, and what is local noise\nThree things are real. MP GST collections are -0.1% Apr-to-date against India +6.1% [D] — a genuine local demand signal. India bank credit is +45.5% YoY against output +5.1% [D], so the system is lending far ahead of production; expect over-levered borrowers in this trade. Repo is 5.5% and tightening [D], which raises the cost of carrying inventory. Against that, the Indore soy conclave pushed for a stable 10-year import policy and doubled soybean yields [3] — that is advocacy, not policy. Adulteration seizures of 341 kg in Indore [2] are an enforcement story, not a demand story, but they do flag weak quality controls at small units.\n\n## Who to pursue, who to avoid\n**Pursue branded refiners and vanaspati units with own distribution, hedged books and leverage under control.** Peer results show the model works: AWL Agri grew revenue 18% YoY to Rs 21,465 crore on 14% volume growth with EBITDA up 40% [5][6], though its Q2FY26 EBIT fell 13% on a 22% revenue rise [4] — proof that volume growth alone does not protect margin. **Avoid unbranded crushers, traders funding stock on cash credit, and anyone whose sales grew while GST in the state went negative.**\n\n## How to grow safely\nStructure as a cash-flow loan against a drawing-power limit computed on stock and receivables, not on turnover. Take monthly stock statements, hedged-position reports and spread-per-tonne; take quarterly CMA and GST returns. **If the borrower cannot show a hedge on more than half of open inventory, cut the limit.**\n\n## Early warning signs\n- Stock statements showing inventory days rising while sales are flat -> freeze the limit and inspect godowns.\n- GST returns diverging from bank turnover -> ask for the reconciliation before the next disbursement.\n- Any interest payment delay, however technical — a peer had a Rs 65 lakh delay on a working capital demand loan [11] — treat it as a signal, not an accident."
+ ],
+ "watch": [
+  [
+   "Monthly stock and book-debt statement",
+   "Inventory days up two months running -> freeze limit, inspect godown"
+  ],
+  [
+   "Monthly hedge position report",
+   "Unhedged inventory above half of stock -> cut limit, demand hedge"
+  ],
+  [
+   "Quarterly GST returns vs bank turnover",
+   "Divergence above 10% -> stop disbursement, seek reconciliation"
+  ],
+  [
+   "Monthly interest servicing",
+   "Any delay, even one day -> escalate, reprice or exit"
+  ],
+  [
+   "Quarterly state GST trend [D]",
+   "MP GST stays negative two quarters -> shift to branded-only book"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "MP GST -0.1% vs India +6.1%, repo tightening to 5.5%, credit growing far ahead of output.",
+ "articles": [
+  {
+   "title": "Soybean Refined Oil Demand Surges in Indore Market as Mustard Prices Retreat",
+   "url": "https://www.zyotwdhon.com/en/news/indore-soybean-refined-oil-demand-mustard-prices-drop-ehnt",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "इंदौर में मिलावट की आशंका में 341 किलो खाद्य सामग्री जब्त",
+   "url": "https://hindi.webdunia.com/indore/341-kg-of-food-items-seized-in-indore-over-suspicion-of-adulteration-126103000032_1.html",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "इंदौर में इंटरनेशनल सोया कॉन्क्लेव: एक्सपर्ट्स बोले- 10 साल की स्थिर आयात नीति बने; सोयाबीन की उपज दोगुनी करने पर जोर - Indore News - - Hindi News",
+   "url": "https://www.bhaskar.com/local/mp/indore/news/indore-soybean-conclave-mohan-yadav-edible-oil-import-policy-139387248.html#1",
+   "date": "2026-10-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Q2FY26 Quarterly Result Announced for AWL Agri Business Ltd.",
+   "url": "https://trendlyne.com/latest-news/755501/AWL/awl-agri-business-ltd/?page=2&qstime=1763127965",
+   "date": "2025-11-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "awl agri business q4 pat jumps 54 yoy to rs 292 cr",
+   "url": "http://capitalmarket.com/markets/news/hot-pursuit-news/awl-agri-business-q4-pat-jumps-54-yoy-to-rs-292-cr/1688233",
+   "date": "2026-04-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Manubhai Mangaldas - Revenue from operations increased 18% YoY to Rs 21,465 crore during the quarter, supported by 14% volume growth, driven by stron...",
+   "url": "http://portfolio.manumangal.com/CorporateInformation/Company-News-Details/AWL-Agri-Business-Ltd/25119010132#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Agr business",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8450969a-96f3-4f56-9513-305ba1f6fe30.pdf#3",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Purti Vanaspati Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Purti%20Vanaspati%20Private%20Limited-01-05-2018.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "One of the key risks that edible oil companies face is the risk arising out of the volatility in the prices of raw materials (oi...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/809~Edible%20Oil#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 09, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=128681#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 31 (national 35 x 0.6 + Madhya Pradesh 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Madhya Pradesh: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Exports -26.0% Apr-to-date in USD (Rs 4,114 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +45.5% YoY vs output +5.1% (gap +40.4 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

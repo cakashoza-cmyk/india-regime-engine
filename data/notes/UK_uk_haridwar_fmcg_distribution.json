@@ -1,0 +1,158 @@
+{
+ "key": "uk_haridwar|fmcg_distribution",
+ "state": "UK",
+ "city": "uk_haridwar",
+ "ind": "fmcg_distribution",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 12,
+ "nudged_by_news": false,
+ "verdict": "Avoid new FMCG-distribution exposure in Haridwar for now; the local demand signal is too weak to offset the sector's national momentum, so only lend to the strongest sub-wholesalers with tight structure, and decline the rest.",
+ "title": "Haridwar FMCG distribution: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA Haridwar FMCG distributor buys van-loads of branded staples, biscuits, soaps and beverages from company depots, warehouses them, and pushes them to kirana shops, chemists and roadside dhabas on fixed routes. **Cash turns on the route, not on the shelf: the distributor's real asset is the delivery van and the retailer relationship, not the godown.** Margin is a fixed trade discount off MRP plus company schemes; pricing power sits with the brand, not the borrower. Working capital is the whole game: stock sits 15-30 days, retailers pay in 7-15 days, and the company wants payment on depot lift. So when a proposal lands, check the scheme-credit cycle and the route-wise outstanding, not just the turnover figure.",
+  "## What has changed now\n**The local demand signal is the problem, not the sector.** Uttarakhand GST collections are down 19.1% Apr-to-date against India's +6.1%, a 25.2 pp gap [D], and state electricity demand grew 4.7% versus India's 9.5% [D]. Both point to a state economy running well below the national line. Nationally the FMCG peers are fine — Q1FY27 revenue growth accelerated to around 15% Y-o-Y from 11% in Q4FY26 [5], and Q2 saw consumer demand gather momentum for Marico, Godrej Consumer and retailers [4] — but that is a peer result, not a Haridwar fact. **Do not let a good national FMCG print talk you into a weak local balance sheet.** The local sources say little about Haridwar distribution specifically: one trader-awareness piece on food-safety standards ahead of the festive season [1] and one company-promise dispute [2]; treat both as colour, not credit evidence.",
+  "Avoid the single-brand, single-godown operator whose entire turnover depends on one company's festive push, and avoid anyone whose growth is coming from credit extended to retailers rather than from route sales. If a proposal shows receivables stretching beyond the stated retailer terms, ask for the route-wise ageing before you sanction.",
+  "## How to grow safely\n**Structure on the cash cycle: cash credit sized to 30 days of purchases, not to annual turnover, with a 25% margin.** Take monthly stock-and-receivables statements, monthly GST returns, and route-wise sales; take the van hypothecation and a personal guarantee. Because the repo is at 5.5% with a tightening stance [D], price for a rise rather than a cut. Nationally bank credit is growing 29.1% against activity of 6.1% [D], so the system is lending far ahead of the real economy — that is exactly the environment where a distributor's turnover can look healthy while its cash is stuck in retailer credit.",
+  "## Early-warning signs\n- **GST returns falling below the invoiced turnover for two months** — pull the limit and ask for the purchase register. - **Retailer outstanding crossing the stated 7-15 day terms** — stop fresh depot lifts until the route is cleaned. - **Stock days rising while sales are flat** — scheme-loading, not demand; cut the drawing power. - **Any company-promise or scheme dispute with the brand** [2] — reassess the single-brand exposure immediately."
+ ],
+ "watch": [
+  [
+   "GST returns vs invoiced sales (monthly)",
+   "two months of GST below invoiced turnover -> cut drawing power and ask for purchase register"
+  ],
+  [
+   "Route-wise retailer ageing (monthly)",
+   "outstanding beyond stated terms -> freeze fresh depot lifts until route is cleaned"
+  ],
+  [
+   "Stock days (monthly)",
+   "stock days rising with flat sales -> reduce limit, treat as scheme-loading"
+  ],
+  [
+   "Brand/scheme disputes (event-based)",
+   "any dispute with the company [2] -> reassess single-brand exposure at once"
+  ],
+  [
+   "State GST trend (monthly)",
+   "Uttarakhand GST stays below India [D] -> hold new sanctions, renew only"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Uttarakhand GST -19.1% and power +4.7% vs India +6.1% and +9.5% show local demand lagging.",
+ "articles": [
+  {
+   "title": "त्योहारी सीजन से पहले खाद्य सुरक्षा मानकों के प्रति व्यापारियों को किया जागरूक",
+   "url": "https://hariharsamachar.com/haridwar-news-2856/",
+   "date": "2026-10-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Haridwar News: कंपनी पर लगाया वादा खिलाफी का आरोप",
+   "url": "https://www.livehindustan.com/uttarakhand/haridwar/story-the-company-was-accused-of-breaking-the-promise-201789386178625.html",
+   "date": "2026-09-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Haridwar Business Database - Verified Contacts",
+   "url": "https://www.indiabizdata.com/database/haridwar-business-database/",
+   "date": "2026-09-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "FMCG, Retail Cos Log Robust Growth in Q2 - FMCG, Retail Cos Log Robust Growth in Q2",
+   "url": "https://in.tradingview.com/news/moodys:9d64194b185f2:0-fmcg-retail-cos-log-robust-growth-in-q2/#1",
+   "date": "2026-10-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "FMCG Q1FY27 review: Marico, Nestle emerge as top picks as volumes recover - Thursday, October 15, 2026 | 02:28 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/news/fmcg-q1fy27-review-marico-nestle-emerge-as-top-picks-as-volumes-recover-126081900811_1.html#1",
+   "date": "2026-08-19",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Tata Consumer Products shares rise 7% to all-time high on upbeat revenue forecast- Moneycontrol.com - 15",
+   "url": "https://www.moneycontrol.com/news/business/markets/tata-consumer-products-shares-rise-7-to-all-time-high-on-upbeat-revenue-forecast-13914960.html?utm_source=flipboard&utm_medium=referral&utm_campaign=flipboard-magazine#1",
+   "date": "2026-05-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Dabur Q4 Results: FMCG major beats estimates on strong rural demand; dividend declared - CNBC TV18 - Dabur Q4 Results: FMCG major beats estimates on strong rural demand; dividend declared",
+   "url": "https://www.cnbctv18.com/market/dabur-q4-results-fmcg-major-beats-estimates-on-strong-rural-demand-dividend-declared-ws-l-19901061.htm/amp#1",
+   "date": "2026-05-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "CRISIL Ratings criteria for the consumer staples and discretionary sector",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Consumer%20Durable%20Industry.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Ability to launch new models/upgrades with varying performance characteristics (for power and fuel efficiency) is an important c...",
+   "url": "https://www.crisil.com/content/dam/crisilrating/criteria-and-methodology/criteria-for-manufacturing-trading-and-corporate-services-sector.pdf#10#15#10",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Cotton%20Textile%20Industry.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 12 (national 20 x 0.6 + Uttarakhand 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttarakhand: GST collections -19.1% Apr-to-date vs India +6.1% (25.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Uttarakhand: electricity demand +4.7% Apr-to-date vs India +9.5% (4.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +29.1% YoY vs activity +6.1% (gap +23.0 pp). [RBI bank credit vs output, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
