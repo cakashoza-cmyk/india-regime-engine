@@ -1,0 +1,151 @@
+{
+ "key": "mp_jabalpur|defence_aerospace",
+ "state": "MP",
+ "city": "mp_jabalpur",
+ "ind": "defence_aerospace",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Jabalpur defence & aerospace parts — pursue MSME suppliers tied to the Vehicle Factory Jabalpur tank-overhaul build-out, structure against order-backed receivables, and avoid pure working-capital-only borrowers with no defence order visibility.",
+ "title": "Jabalpur defence & aerospace parts: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A defence parts maker here is a small machining and systems shop feeding a public-sector overhaul line, not a prime contractor.** The anchor is Vehicle Factory Jabalpur, a unit of Armoured Vehicles Nigam Limited, where a T-Series tank overhaul project was inaugurated at a stated cost of 450 crore rupees [1] (a second local report puts it at 472 crore [3]). The facility is designed to overhaul 80 tanks a year, against an Army need of around 230 annually and existing capacity of 150 at Heavy Vehicles Factory, Avadi [3]. **That gap is the demand signal: local sourcing of mechanical, electrical, electronic and hydraulic systems is explicitly part of the plan [3].**\n\n## Where cash and value sit\n**Value sits in the order book and the qualification, not the machine.** These firms convert steel, castings and bought-out electronics into machined parts against a PSU schedule; margin comes from precision and repeat orders, and pricing power is thin because the buyer is a single government organisation. Peer evidence shows the shape: Paras Defence's top three clients were 71% of order book as on March 31, 2021 [9], and its defence billing is concentrated with more than 70% of sales in Q4, inflating working capital at year-end [11] — that rating note is from 2022, so treat the pattern as structural, not current. **So when a proposal lands, check the order book's client mix and the Q4 billing skew; if one PSU is over half of sales, ask for the purchase order and payment terms in writing.**\n\n## What has changed now\n**The local news is genuinely positive and specific to this city.** The foundation stone was laid on 27 August 2026 [1], and a tender for tank overhaul EPC work at the factory was live in October 2026 [2]. Peer results confirm the sector is running: Raymond's aerospace and defence revenue rose 72% to 139 crore rupees at a 21% operating margin [4]; Goodluck Defence and Aerospace reported revenue up 31%, EBITDA up 46%, PAT up 67% [7]; Apollo Micro Systems called Q2 FY2027 its strongest ever [5]. **But the state signal is weak: Madhya Pradesh GST collections fell 0.1% Apr-to-date against India's +6.1% [D].** Nationally, bank credit grew 27.0% against output growth of 22.7% [D] — money is moving into this sector faster than output, so underwriting discipline, not enthusiasm, is the constraint. ## Who to pursue, and how to grow safely\n**Pursue tier-2 and tier-3 machining, hydraulics, wiring-harness and electronics-assembly MSMEs in the Mahakaushal region with a live purchase order from the Jabalpur overhaul programme or AVNL.** Avoid traders and pure job-work units with no qualification, and avoid anyone whose entire book is one verbal commitment. Structure as a receivables-backed facility against assigned PSU invoices, with a margin of collect from customer, and take monthly: order-book statement, receivable ageing by PSU, and GST returns. **Covenant on client concentration and on Q4 billing — if more than 70% of annual sales land in one quarter, ask for a larger margin or a receivables discounting structure.**\n\n## Early-warning signs\n**Watch the order pipeline, not the plant.** If the tender pipeline at Vehicle Factory Jabalpur goes quiet for two quarters, or the borrower's PSU receivable days stretch beyond the sanctioned terms, act. If GST filings show turnover falling while bank statements show drawings rising, stop enhancement. **The city-specific data is thin — one project and one tender — so lean on first principles and peer patterns for everything else.**",
+  "## Watchlist\n- Monthly: PSU receivable ageing -> if days exceed sanctioned terms by 30, convert to invoice-discounting only. - Monthly: GST returns vs bank turnover -> if GST turnover falls two months running, freeze limits. - Quarterly: tender pipeline at Vehicle Factory Jabalpur -> if no new award for two quarters, review all defence-linked limits. - Annual: Q4 sales concentration -> if above 70% of annual sales, raise margin before renewal."
+ ],
+ "watch": [
+  [
+   "Monthly: PSU receivable ageing",
+   "days exceed sanctioned terms by 30 -> convert to invoice-discounting only"
+  ],
+  [
+   "Monthly: GST returns vs bank turnover",
+   "GST turnover falls two months running -> freeze limits"
+  ],
+  [
+   "Quarterly: tender pipeline at Vehicle Factory Jabalpur",
+   "no new award for two quarters -> review all defence-linked limits"
+  ],
+  [
+   "Annual: Q4 sales concentration",
+   "above 70% of annual sales -> raise margin before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Jabalpur tank-overhaul project inaugurated and tender live; peer defence results strong.",
+ "articles": [
+  {
+   "title": "Defence Minister Rajnath Singh & Madhya Pradesh CM lay foundation stone of T-Series Tank Overhaul Project at Vehicle Factory Jabalpur",
+   "url": "https://newsonair.gov.in/defence-minister-rajnath-singh-madhya-pradesh-cm-to-lay-foundation-stone-of-t-series-tank-overhaul-project-at-vehicle-factory-jabalpur/#content",
+   "date": "2026-10-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Vehicle Factory Jabalpur Tender: Tank Overhaul EPC Work",
+   "url": "https://desimachines.com/opportunities/vehicle-factory-jabalpur-tank-overhaul-tender/#userInfoPopup",
+   "date": "2026-10-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Defence: Jabalpur’s new tank overhaul hub to sharpen India’s armoured warfare edge",
+   "url": "https://navjeevanexpress.com/defence-jabalpurs-new-tank-overhaul-hub-to-sharpen-indias-armoured-warfare-edge/",
+   "date": "2026-08-26",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Raymond’s aerospace and defence business now brings in a fifth of its income, up from 14% a year ago - Welcome",
+   "url": "https://m.economictimes.com/news/company/corporate-trends/raymonds-aerospace-and-defence-business-now-brings-in-a-fifth-of-its-income-up-from-14-a-year-ago/articleshow/135234878.cms#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Apollo Micro Systems jumps 12% after record Q2 2026 By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/earnings-call-transcript-apollo-micro-systems-jumps-12-after-record-q2-2026-93CH-2648567",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Q3 and 9MFY26 Result Summary",
+   "url": "https://www.icicidirect.com/mailcontent/idirect_midhani_q3fy26.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "We also performed procedures in accordance with the circular issued by the SEBI under Regulation 33(8) of the SEBI (Listing Obli...",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c9dc1bf8-0c0a-44bd-b60a-2037c3ed7b4f.pdf#3#3#3",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Unimech Aerospace and Manufacturing Limited",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Unimech%20Aerospace%20and%20Manufacturing%20Limited-RU-08-10-2025.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Paras Defence & Space Technologies Limited: [ICRA]A- (Stable); Assigned",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=106913#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://parasdefence.com/uploads/credit-rating/1762841040september-crisil.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "March 15,2022",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=110523#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 100 x 0.6 + Madhya Pradesh 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 30 output +25.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +22.7% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +22.7% (gap +4.3 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Madhya Pradesh: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

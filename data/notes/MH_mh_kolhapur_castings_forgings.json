@@ -1,0 +1,154 @@
+{
+ "key": "mh_kolhapur|castings_forgings",
+ "state": "MH",
+ "city": "mh_kolhapur",
+ "ind": "castings_forgings",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 47,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Kolhapur castings and forgings only where the borrower has proven power and fuel cover, a firm order book and a clean monthly stock statement; avoid the sub-scale, export-dependent foundries that the local press says are near closure.",
+ "title": "Kolhapur castings & forgings: a note to the credit manager",
+ "narrative": [
+  "## What the business is, and where the cash sits\n**A Kolhapur foundry buys scrap and alloy, melts it on gas or power, pours, machines and ships to auto and engineering buyers; cash is made on conversion, not on metal.** The melt is the cost centre: power, fuel and scrap move together, and the customer sets the price with a lag, so a spike in gas or scrap hits margin before it hits the invoice. Working capital sits in scrap inventory and in receivables from OEM buyers; capex is the furnace, the moulding line and the pollution-control kit, and it is lumpy. **So when a proposal lands, check the power and fuel line as a share of conversion cost and the receivable days by buyer; if the top buyer is over half of sales, ask for the purchase order and the payment history.**\n\n## What has changed now\n**The local press is blunt: 70% of Kolhapur district foundries were reported on the verge of closure in March 2026, on fuel shortage, transport cost and stalled exports [3], and the wider Maharashtra foundry belt was described as in unprecedented crisis on LPG shortage, raw-material price rise and tariff-hit exports [2].** Both are local newspaper reports from March 2026, so treat them as sentiment, not audited fact, and re-verify with the borrower. The official data is mixed: Maharashtra GST collections ran +8.6% Apr-to-date against India's +6.1% [D], but state electricity demand grew only +6.0% against India's +9.5% [D], which says local industrial load is not pulling. **So when a proposal lands, check the unit's own power consumption trend; if it is falling while the loan request is for capacity, ask why.**\n\n## Where the growth is\n**Peer results split cleanly: the forging side is growing and the casting side is flat.** Ramkrishna Forgings grew revenue 54.9% YoY to Rs 1,405 crore in Q2 FY27 with EBITDA margin at 18.23% and Rs 673 crore of new orders [6]; Happy Forgings carries a ~Rs 950 crore order book, ~60% export, to be executed over 2-3 years [5], and grew Q4 FY26 revenue 20.4% [7]. Against that, Nelcast's Q2 FY25 revenue fell to Rs 335 crore from Rs 362.6 crore on subdued CV demand [4] — an old result, but the direction is clear. **So pursue forging and machining units with a named order book and a domestic-plus-export mix; avoid pure castings units selling only to CV.**\n\n## How to grow safely\n**Structure for the melt, not the balance sheet: cash credit against stock, with the drawing power reset monthly on a stock-and-debt statement, and a term loan only where the capex is backed by a signed order.** Take the monthly power bill, the monthly stock statement and the quarterly GST return every month without exception. **If gearing is above 2x or interest cover below 2x, ask for a promoter infusion before enhancement; the rated peers run far cleaner — one ICRA-rated forging unit carries gearing close to nil and TOL/TNW at 0.3 times [8], and a CARA-rated forgecast improved Total Debt/GCA from 3.49x in FY22 to 1.56x in FY23 [10].** Note that Simplex Castings sits at Crisil BB/Stable [9] — that is the ceiling for a weak casting book, so price accordingly.\n\n## Early warning\n**Watch the gas bill, the scrap rate and the receivable days together; any two moving the wrong way in the same month is the signal.** A unit that shifts from LPG to cheaper fuel without telling you, or asks for a second limit within a quarter of the first, is the one to walk away from."
+ ],
+ "watch": [
+  [
+   "Monthly power and fuel bill (monthly)",
+   "Bill up more than 10% with flat sales -> ask for revised pricing and re-set drawing power"
+  ],
+  [
+   "Stock-and-debt statement (monthly)",
+   "Stock ageing beyond 60 days or DP utilisation above 90% -> freeze enhancement, inspect godown"
+  ],
+  [
+   "GST return and e-way bills (monthly)",
+   "Turnover down two months running -> seek buyer-wise order book and re-rate limit"
+  ],
+  [
+   "Receivable ageing by buyer (monthly)",
+   "Top buyer beyond 90 days -> ask for buyer confirmation and insurance cover"
+  ],
+  [
+   "Fuel source and pollution-compliance status (quarterly)",
+   "Switch of fuel or lapsed consent -> stop disbursement until documents are produced"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local reports of 70% of Kolhapur foundries near closure on fuel and export stress.",
+ "articles": [
+  {
+   "title": "IFFE Expo 2026 - Visitexpo",
+   "url": "https://visitexpo.in/event/iffe-expo-2026/#top",
+   "date": "2026-10-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Foundry Industry : राज्यातील फौंड्री उद्योग अभूतपूर्व संकटात!",
+   "url": "https://pudhari.news/maharashtra/kolhapur/maharashtra-foundry-industry-crisis-2026-lpg-shortage-raw-material-price-hike-impact-on-msme-dc95?utm_source=website&utm_medium=related-stories",
+   "date": "2026-03-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Kolhapur foundry industry crisis | कोल्हापूर जिल्ह्यातील 70 टक्के फाऊंड्री उद्योग बंद पडण्याच्या मार्गावर",
+   "url": "https://pudhari.news/maharashtra/kolhapur/70-percent-foundry-industries-in-kolhapur-on-verge-of-closure-ap84",
+   "date": "2026-03-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "NELCAST LTD. : Latest Quarterly Results Analysis - ICICI Direct - Skip to main content",
+   "url": "https://www.icicidirect.com/research/equity/rapid-results/nelcast-ltd#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Happy Forgings’ Order Book Enhances Growth Outlook as Margins Improve - By Ventura Research Team 2 min Read Sep 17, 2026",
+   "url": "https://www.venturasecurities.com/news/stocks/happy-forgings-order-book-enhances-growth-outlook-as-margins-improve/#ventura-main-content#1",
+   "date": "2026-09-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ramkrishna Forgings Ltd (BOM:532527) (Q2 2027) Earnings Call Hig",
+   "url": "https://www.gurufocus.com/news/9160545/ramkrishna-forgings-ltd-bom532527-q2-2027-earnings-call-highlights-revenue-surges-549-yoy-to-rs-1405-crore-as-margins-expand-and-new-orders-pour-in",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Happy Forgings Reports Robust Q4 And FY26 Results - Happy Forgings Limited reported audited consolidated results for the quarter and year ended 31 March 2026, recording strong volu...",
+   "url": "https://www.constructionworld.in/policy-updates-and-economic-news/happy-forgings-reports-robust-q4-and-fy26-results/92151#book-a-table#1",
+   "date": "2026-05-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "April 16, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=142396#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update June 26, 2026 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Simplex%20Castings%20Limited-RU-26-06-2026.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202305130513_Arcvac_Forgecast_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 15, 2025 (Revised)",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=139614#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 47 (national 45 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Maharashtra: electricity demand +6.0% Apr-to-date vs India +9.5% (3.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +3.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

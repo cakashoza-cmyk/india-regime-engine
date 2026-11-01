@@ -1,0 +1,146 @@
+{
+ "key": "ka_bengaluru|defence_aerospace",
+ "state": "KA",
+ "city": "ka_bengaluru",
+ "ind": "defence_aerospace",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 100,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Bengaluru defence and aerospace parts — pursue Nadcap-qualified precision machinists with real Safran/Tier-1 contracts; avoid pre-revenue startups and single-customer shops.",
+ "title": "Bengaluru defence & aerospace parts: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**These are precision machining and special-process shops — turning, milling, surface and heat treatment — that convert certified raw material into flight-approved parts for global primes and Indian defence programmes.** Cash comes from a qualified part number: once a customer approves your process, the part is sole-sourced for years and pricing holds. Value sits in the qualification (Nadcap approvals, customer audits), not in the machines. So when a proposal lands, check the Nadcap and customer-approval list first; if the shop has no approved special processes, ask what stops the next shop from taking the order. JJG Aero's third plant is INR 200 crore on 12 acres, with phase one at 325,000 sqft against roughly 100,000 sqft across two existing plants [3]. So when a proposal lands, check whether the capex is matched by a signed order book; if the borrower is building ahead of contracts, ask for the customer letter of intent. ## What has changed now\n**The cycle is genuinely strong.** India-wide IIP for NIC 30 output is +25.3% YoY and +22.7% Apr-to-date [D]. Karnataka GST collections are +11.1% Apr-to-date against India's +6.1%, and electricity demand +23.3% against +9.5% [D]. Locally, JJG Aero broke ground on its third plant on 19 October 2026 and won new Safran Landing Systems contracts, expanding from one Safran division to three [3]. Peer results agree: Raymond's aerospace revenue rose 72% to ₹139 crore at a 21% operating margin [4]; Goodluck Defence revenue +31%, EBITDA +46%, PAT +67% [7]. Note the local news is thin — one startup funding round [1][2] and one plant groundbreaking [3] — so lean on first principles and peers for the rest. ## Who to pursue, and how to grow safely\n**Pursue established Tier-2 machinists with multi-division prime relationships and in-house special processes; avoid pre-revenue startups and single-customer shops.** Venttup raised $3 million and plans a Bengaluru factory, but its case study names no customer and does not establish flight use [1] — that is equity risk, not bank risk. Client concentration is the real killer: Paras Defence's top three clients were 71% of order book and top five 63% of FY2021 revenue [9]. So structure term loans against the plant with a DSRA, and working capital against certified receivables only. ## Early-warning signs\n**Watch the gap between order book and billing, and the Q4 concentration.** Defence billing clusters with more than 70% of sales in Q4, inflating working capital at year-end [11]. If a borrower's top client crosses 50% of revenue, ask for a second qualified customer before enhancing limits."
+ ],
+ "watch": [
+  [
+   "Order book by customer (monthly)",
+   "Top client above 50% of revenue -> freeze limit enhancement until a second qualified customer is added"
+  ],
+  [
+   "Billed vs unbilled and Q4 billing share (quarterly)",
+   "Q4 share above 70% of annual sales [11] -> require higher DSRA before term-loan disbursal"
+  ],
+  [
+   "Nadcap and customer approvals (annual)",
+   "Any approval lapsed or withdrawn -> treat as a default event and review the facility"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "IIP NIC 30 +25.3% YoY, Karnataka GST and power ahead of India, local plant groundbreaking.",
+ "articles": [
+  {
+   "title": "Venttup plans Bengaluru factory after $3 million funding round",
+   "url": "https://www.spaceexploration.in/news/venttup-pre-series-a-manufacturing",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Zerodha's Rainmatter, Unicorn India Ventures invest $3 million in precision manufacturing startup Venttup",
+   "url": "https://indianstartupnews.com/funding/zerodhas-rainmatter-unicorn-india-ventures-invest-3-million-in-precision-manufacturing-startup-venttup-12765648",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "JJG Machining Group Expands Safran Partnerships with New Plant | Modern Manufacturing India 发布的此话题相关的动态 | 领英",
+   "url": "https://www.linkedin.com/posts/modern-manufacturing-india_aerospacecomponents-manufacturingfacility-activity-7517853549087772672-NPv5?trk=public_profile_relatedPosts",
+   "date": "2026-10-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Raymond’s aerospace and defence business now brings in a fifth of its income, up from 14% a year ago - Welcome",
+   "url": "https://m.economictimes.com/news/company/corporate-trends/raymonds-aerospace-and-defence-business-now-brings-in-a-fifth-of-its-income-up-from-14-a-year-ago/articleshow/135234878.cms#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Apollo Micro Systems jumps 12% after record Q2 2026 By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/earnings-call-transcript-apollo-micro-systems-jumps-12-after-record-q2-2026-93CH-2648567",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Q3 and 9MFY26 Result Summary",
+   "url": "https://www.icicidirect.com/mailcontent/idirect_midhani_q3fy26.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "We also performed procedures in accordance with the circular issued by the SEBI under Regulation 33(8) of the SEBI (Listing Obli...",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c9dc1bf8-0c0a-44bd-b60a-2037c3ed7b4f.pdf#3#3#3",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Unimech Aerospace and Manufacturing Limited",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Unimech%20Aerospace%20and%20Manufacturing%20Limited-RU-08-10-2025.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Paras Defence & Space Technologies Limited: [ICRA]A- (Stable); Assigned",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=106913#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://parasdefence.com/uploads/credit-rating/1762841040september-crisil.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "March 15,2022",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=110523#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 100 (national 100 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Karnataka: GST collections +11.1% Apr-to-date vs India +6.1% (5.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Karnataka: electricity demand +23.3% Apr-to-date vs India +9.5% (13.8 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 30 output +25.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +22.7% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

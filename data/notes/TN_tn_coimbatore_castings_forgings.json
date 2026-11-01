@@ -1,0 +1,154 @@
+{
+ "key": "tn_coimbatore|castings_forgings",
+ "state": "TN",
+ "city": "tn_coimbatore",
+ "ind": "castings_forgings",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 37,
+ "nudged_by_news": false,
+ "verdict": "Avoid new castings and forgings exposure in Coimbatore for now; the local order story is real but Tamil Nadu's demand signal is weak and energy costs are high, so only lend to machined-component, export-order-backed units with tight structure.",
+ "title": "Coimbatore castings & forgings: a note to the credit manager",
+ "narrative": [
+  "Almost 65% of castings sold out of Coimbatore are machined, so value addition is rising [2]. Cash sits in the melting-and-pouring cycle and then in the machining queue; the export share means part of the receivable book is in foreign currency and moves with shipping time.",
+  "## What has changed now\n**The local order book is genuinely strong: Coimbatore foundries saw 20% growth in the last one year on orders across auto, farm equipment and general engineering [2].** But the state-level demand signal is weak: Tamil Nadu GST collections are -3.2% Apr-to-date against India +6.1%, 9.3 pp slower [D]. Power is not the constraint, with Tamil Nadu electricity demand +9.8% Apr-to-date against India +9.5% [D]. The cost side is the problem: Brent at $113/bbl is above the $75–100 band [D], and melting is energy-intensive, so when a proposal lands, check the power-and-fuel clause in the customer contract and ask who absorbs a further rise. National casting output (IIP NIC 24) grew only +2.4% YoY [D], so the Coimbatore growth is share gain, not a rising tide.",
+  "## Where the growth is\n**Pursue the machined-component supplier with a named export or Tier-1 order, not the plain job-work pourer.** Peer results show where the money is: Ramkrishna Forgings grew revenue 54.9% YoY to ₹1,405 crore in Q2 FY27 with EBITDA margin at 18.23% and ₹673 crore of new orders [6]; Happy Forgings carries a ₹950 crore order book to be executed over 2-3 years, about 60% export [5], and posted Q4 FY26 revenue up 20.4% on 20.6% volume growth [7]. Avoid the commercial-vehicle-only supplier: Nelcast's revenue fell to ₹335 crore in Q2FY25 from ₹362.6 crore on subdued domestic and export CV demand [4]. Rating reports show the safe shape: gearing close to nil and TOL/TNW at 0.3 times [8], and margins improving to 8.4% OPM in FY2025 from 7.5% on softer raw material [11].",
+  "## How to grow safely\n**Structure against the order book, not the balance sheet.** Take assignment of export receivables or a charge on the specific order, keep the drawing power tied to machined dispatches, and insist on a promoter guarantee where gearing is above the peer norm. Every month take stock-and-receivable statements, the order-book position with customer names, power bills, and GST returns; if GST turnover trails the stock statement, ask for the dispatch register. Where the customer is a single Tier-1 buyer, cap exposure at a share of that buyer's payables. Collect from customer the split of export versus domestic sales and the currency of export billing before pricing.",
+  "## Early-warning signs\n**Watch the receivable days and the power bill together.** If receivable days stretch while power consumption per tonne rises, the unit is buying volume with working capital; stop enhancement and re-price. If export orders shift to a buyer in a new market, ask for the letter of credit before disbursing. If the promoter's other group entities draw on the same cash, treat it as a red flag. Note that the Coimbatore-specific sources are thin and partly promotional [1][3], so lean on the peer and rating evidence above."
+ ],
+ "watch": [
+  [
+   "GST returns vs stock statement (monthly)",
+   "turnover trails stock by more than a month -> freeze drawing power and ask for dispatch register"
+  ],
+  [
+   "Power bill per tonne (monthly)",
+   "cost per tonne rises with flat volumes -> re-price or reduce limit"
+  ],
+  [
+   "Receivable days and export LC status (monthly)",
+   "days stretch or LC lapses -> stop enhancement, seek promoter support"
+  ],
+  [
+   "Order book by customer (quarterly)",
+   "single buyer crosses half of order book -> cap exposure to that buyer's payables"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Coimbatore foundry orders up 20%, but Tamil Nadu GST -3.2% and Brent $113/bbl squeeze the local demand and cost base.",
+ "articles": [
+  {
+   "title": "coimbatore foundries: Latest News & Videos, Photos about coimbatore foundries | The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/coimbatore-foundries#1",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Foundries in Coimbatore register 20% growth amid rising demand - Foundries in Coimbatore register 20% growth amid rising demand",
+   "url": "https://www.thehindu.com/news/cities/Coimbatore/foundries-in-coimbatore-register-20-growth-amid-rising-demand/article71443862.ece#1",
+   "date": "2026-09-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Indiens Gießereiindustrie im Aufbruch: Inter Foundry 2026 bringt die Welt nach Coimbatore",
+   "url": "https://www.newcast.com/de/content-hub/presse/pressematerial/pressemeldungen/gmtn_2027_inter_foundry_02_de/",
+   "date": "2026-08-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "NELCAST LTD. : Latest Quarterly Results Analysis - ICICI Direct - Skip to main content",
+   "url": "https://www.icicidirect.com/research/equity/rapid-results/nelcast-ltd#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Happy Forgings’ Order Book Enhances Growth Outlook as Margins Improve - By Ventura Research Team 2 min Read Sep 17, 2026",
+   "url": "https://www.venturasecurities.com/news/stocks/happy-forgings-order-book-enhances-growth-outlook-as-margins-improve/#ventura-main-content#1",
+   "date": "2026-09-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ramkrishna Forgings Ltd (BOM:532527) (Q2 2027) Earnings Call Hig",
+   "url": "https://www.gurufocus.com/news/9160545/ramkrishna-forgings-ltd-bom532527-q2-2027-earnings-call-highlights-revenue-surges-549-yoy-to-rs-1405-crore-as-margins-expand-and-new-orders-pour-in",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Happy Forgings Reports Robust Q4 And FY26 Results - Happy Forgings Limited reported audited consolidated results for the quarter and year ended 31 March 2026, recording strong volu...",
+   "url": "https://www.constructionworld.in/policy-updates-and-economic-news/happy-forgings-reports-robust-q4-and-fy26-results/92151#book-a-table#1",
+   "date": "2026-05-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "April 16, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=142396#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update June 26, 2026 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Simplex%20Castings%20Limited-RU-26-06-2026.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202305130513_Arcvac_Forgecast_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "December 15, 2025 (Revised)",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=139614#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 37 (national 45 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "Tamil Nadu: electricity demand +9.8% Apr-to-date vs India +9.5% (0.3 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

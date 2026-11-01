@@ -1,0 +1,134 @@
+{
+ "key": "pb_mandi_gobindgarh|castings_forgings",
+ "state": "PB",
+ "city": "pb_mandi_gobindgarh",
+ "ind": "castings_forgings",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 57,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to forging and casting units with firm order books and conservative gearing; decline commodity-only rolling-mill-linked proposals until unit-level numbers are collected.",
+ "title": "Mandi Gobindgarh castings & forgings: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nMandi Gobindgarh is a secondary-steel cluster: about 200 rolling mills serving 25% of the country's secondary steel market, 48 induction furnaces feeding them, 12 forging units and 40 foundry units, plus 90 scrap-cutting units and 12 oxygen plants [1]. ## Where value and cash sit\nValue sits in the conversion margin per kg and in the customer's approval of the part, not in tonnage. Peer Nelcast targets EBITDA of ₹15 per kg and reported Q2FY25 revenue of ₹335 crore against ₹362.6 crore a year earlier on subdued CV demand [2]. **So when a proposal lands, check the EBITDA-per-kg or per-piece conversion margin and the customer concentration; if one buyer is above a third of sales, ask for the supply agreement and payment terms.** Working capital is scrap inventory plus receivable days from mills; capex is furnace, forging press and oxygen capacity, and Arcvac's ingot and forgings expansion to 35,604 MTPA and 20,000 MTPA respectively was planned at a stated cost [8]. ## What has changed now\nDemand is split. Ramkrishna Forgings grew revenue 54.9% YoY to ₹1,405 crore in Q2 FY27 with EBITDA margin at 18.23% and ₹673 crore of new orders [4]; Happy Forgings carries an order book of nearly ₹950 crore, about 60% export [3], and grew Q4 FY26 revenue 20.4% on 20.6% volume growth [5]. **The order-book-led, export-mixed forger is performing; the CV-linked, commodity caster is not.** Nelcast's muted topline on weak domestic and export CV demand [2] and a caster whose FY2025 revenue fell about 2% with OPM at 8.4% [9] show the other side. India-wide IIP for NIC 24 rose 2.4% YoY and 3.4% Apr-to-date [D]. ## Where to grow, and how to grow safely\nPunjab GST collections are up 9.7% Apr-to-date against India's 6.1% [D], a genuine local tailwind; electricity demand is up 8.8% against India's 9.5% [D], neutral. **Pursue forging units with a named order book and export or non-CV diversification; avoid pure scrap-to-billet converters selling to one rolling mill.** Structure term debt to the capex commissioning date, keep a drawing-power margin, and take monthly stock-and-debtor statements, quarterly unit-level EBITDA per kg and the order-book position. Rating evidence supports this: one forging peer runs near-nil gearing with TOL/TNW at 0.3 times [6], while a caster sits at CRISIL BB/Stable with ₹72 crore of rated facilities [7]. ## Early-warning signs\n- Monthly stock statement (monthly): inventory days rising while sales flat -> ask for scrap purchase invoices and cut limit. - Quarterly unit EBITDA per kg (quarterly): margin below the proposal assumption -> reprice or seek promoter infusion. - Order book and customer mix (quarterly): export or non-CV share falling -> shift to secured receivables finance only. - Electricity units consumed (monthly): furnace load dropping -> verify with CEA-state data and visit the plant."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-debtor statement (monthly)",
+   "Inventory days rise with flat sales -> ask for scrap invoices and reduce limit"
+  ],
+  [
+   "Unit EBITDA per kg (quarterly)",
+   "Below proposal assumption -> reprice or seek promoter infusion"
+  ],
+  [
+   "Order book and customer mix (quarterly)",
+   "Export or non-CV share falls -> move to secured receivables finance only"
+  ],
+  [
+   "Electricity units consumed (monthly)",
+   "Furnace load drops -> plant visit and cross-check with state power data"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Peer forgings grow on order books while CV-linked casters stay muted; Punjab GST leads India.",
+ "articles": [
+  {
+   "title": "Mandi Gobindgarh",
+   "url": "https://www.sikhiwiki.org/index.php/Mandi_Gobindgarh",
+   "date": "2012-08-21",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "NELCAST LTD. : Latest Quarterly Results Analysis - ICICI Direct - Skip to main content",
+   "url": "https://www.icicidirect.com/research/equity/rapid-results/nelcast-ltd#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Happy Forgings’ Order Book Enhances Growth Outlook as Margins Improve - By Ventura Research Team 2 min Read Sep 17, 2026",
+   "url": "https://www.venturasecurities.com/news/stocks/happy-forgings-order-book-enhances-growth-outlook-as-margins-improve/#ventura-main-content#1",
+   "date": "2026-09-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ramkrishna Forgings Ltd (BOM:532527) (Q2 2027) Earnings Call Hig",
+   "url": "https://www.gurufocus.com/news/9160545/ramkrishna-forgings-ltd-bom532527-q2-2027-earnings-call-highlights-revenue-surges-549-yoy-to-rs-1405-crore-as-margins-expand-and-new-orders-pour-in",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Happy Forgings Reports Robust Q4 And FY26 Results - Happy Forgings Limited reported audited consolidated results for the quarter and year ended 31 March 2026, recording strong volu...",
+   "url": "https://www.constructionworld.in/policy-updates-and-economic-news/happy-forgings-reports-robust-q4-and-fy26-results/92151#book-a-table#1",
+   "date": "2026-05-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "April 16, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=142396#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update June 26, 2026 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Simplex%20Castings%20Limited-RU-26-06-2026.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202305130513_Arcvac_Forgecast_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 15, 2025 (Revised)",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=139614#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 57 (national 45 x 0.6 + Punjab 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Punjab: GST collections +9.7% Apr-to-date vs India +6.1% (3.6 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Punjab: electricity demand +8.8% Apr-to-date vs India +9.5% (0.7 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +3.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 1
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
