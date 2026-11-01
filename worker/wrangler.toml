@@ -7,6 +7,7 @@ workers_dev = true
 [vars]
 REPO = "cakashoza-cmyk/india-regime-engine"
 ALLOW_ORIGIN = "https://cakashoza-cmyk.github.io"
+SITE = "https://cakashoza-cmyk.github.io/india-regime-engine"
 
 [[kv_namespaces]]
 binding = "RL"
