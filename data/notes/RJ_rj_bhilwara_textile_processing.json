@@ -1,0 +1,150 @@
+{
+ "key": "rj_bhilwara|textile_processing",
+ "state": "RJ",
+ "city": "rj_bhilwara",
+ "ind": "textile_processing",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 50,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Bhilwara dyeing and processing houses with captive power, verified effluent compliance and export order books; avoid job-work units with no captive power and thin receivables cover.",
+ "title": "Bhilwara textile dyeing & processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA dyeing and processing house takes grey fabric or yarn, wets it, dyes it, finishes it and returns it to a fabric maker or exporter. Cash comes in per metre processed, so the unit earns on throughput and yield, not on brand. **The two costs that decide survival are power and chemicals, and both are variable, so a unit with captive solar or a solid-fuel boiler holds margin when the grid tariff moves.** Bhilwara's cluster is investing more than Rs 3,000 crore across expansion [2], which tells you capacity is being added faster than local demand.",
+  "## Where value and cash sit now\nValue sits in the order book and in the effluent treatment plant, not in the machines. **Working capital is driven by inventory holding and receivables [8], and the sector is fixed-capital as well as working-capital intensive, so funding needs are high [9].** The local signal is weak: Rajasthan GST collections are -4.7% Apr-to-date against India +6.1% [D], and state electricity demand is +4.0% against India +9.5% [D]. Against that, India-wide IIP for NIC 13 output is +13.1% YoY [D]. Read this as a national textile pull with a Bhilwara-specific drag.",
+  "## What has changed\nTwo things. First, the 2026 waste rules require industrial units with solid-fuel boilers to divert non-recyclable textile waste into refuse-derived fuel, and garment factories and industrial parks must process wet waste on-site or buy compliance certificates [4]. **So when a proposal lands, check the boiler fuel and the waste contract; if the unit has no RDF tie-up or on-site processing, ask for the compliance certificate cost line and price it into the assessment.** Second, Bhilwara is exporting yarn and thread to Bangladesh to offset Middle East disruption [3], which widens the buyer base but adds country risk. Peer results are mixed: Arvind's Q2 FY27 net profit rose 44% to Rs 148 crore on revenue of Rs 2,919 crore, up 23% [6], while Sportking's operating margin jumped to 19% in Q1 FY27 from 12% [7] after a weak FY24-FY26. Note the Arvind and Sportking figures are peer benchmarks, not Bhilwara units.",
+  "## Where to grow, and how to grow safely\nPursue processors with captive solar or a compliant boiler, a named export buyer, and at least one year of audited throughput. **Structure as a cash-flow term loan against verified processing invoices, with a monthly stock-and-receivables statement and a power-bill covenant; take the GST return, the electricity bill and the buyer-wise sales register every month.** Where a figure is missing, collect from customer.",
+  "## Early-warning signs\n- Monthly GST return (monthly): two consecutive months of falling turnover -> freeze fresh disbursement and inspect stock. - Electricity bill (monthly): units consumed per metre rising -> ask for the boiler and solar log, reprice the limit. - Effluent and waste compliance (quarterly): lapsed consent or missing RDF certificate -> stop renewal until cured."
+ ],
+ "watch": [
+  [
+   "GST return (monthly)",
+   "two months of falling turnover -> freeze disbursement, inspect stock"
+  ],
+  [
+   "Electricity bill (monthly)",
+   "units per metre rising -> ask for boiler and solar log, reprice limit"
+  ],
+  [
+   "Effluent and waste compliance (quarterly)",
+   "lapsed consent or missing RDF certificate -> stop renewal until cured"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Rajasthan GST and power demand trail India; local cluster stress offsets national textile output growth.",
+ "articles": [
+  {
+   "title": "bhilwara textile industry: Latest News & Videos, Photos about bhilwara textile industry | The Economic Times - Page 1 - Business News›bhilwara textile industry",
+   "url": "https://economictimes.indiatimes.com/topic/bhilwara-textile-industry#1",
+   "date": "2026-09-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Special : वैश्विक संकट में भी Bhilwara Textile की धाक, दूसरे देशों में डिमांड, 3000 करोड़ से अधिक का हो रहा निवेश - Special : वैश्विक संकट में भी Bhilwara Textile की धाक, दूसरे देशों में डिमांड, 3000 करोड़ से अधिक का हो रहा निवेश",
+   "url": "https://www.etvbharat.com/hi/state/bhilwara-textile-makes-a-global-mark-despite-market-slumps-and-restrictions-investment-of-more-than-rs-3000-crore-is-being-made-rjs26060302490#1",
+   "date": "2026-06-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Bhilwara Counters Impact Of Middle East Crisis By Exporting Yarn And Thread to Bangladesh",
+   "url": "https://www.etvbharat.com/en/business/bhilwara-overcomes-challenges-emerging-from-middle-east-crisis-by-exporting-yarn-and-thread-to-bangladesh-enn26060304249#1",
+   "date": "2026-06-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "FW",
+   "url": "http://www.fashionatingworld.com/new1-2/author/691-administrator2.feed?amp;start=3250&type=rssstart=9780/%27&start=920",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "FashionatingWorld News",
+   "url": "http://www.fashionatingworld.com/new1-2?start=406",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Arvind Ltd Reports 44% Rise in Q2 Net Profit on Strong Advanced Materials Growth - Knitting Views",
+   "url": "https://knittingviews.com/arvind-ltd-reports-44-rise-in-q2-net-profit-on-strong-advanced-materials-growth/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sportking India Limited",
+   "url": "https://www.perplexity.ai/app/finance/SPORTKING.BO?comparing=SPORTKING.BO%2CWELSPUNLIV.BO%2CALOKINDS.NS%2CPASHUPATI.NS%2CAYMSYNTEX.BO%2CFILATEX.NS&preset=peers&symbol=VTL.BO&eventId=545669",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 23,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140464#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "margins remained healthy at 15.48%",
+   "url": "http://www.bhageriagroup.com/wp-content/uploads/2021/09/Credit-Rating_CARE_2021.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 50 (national 83 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

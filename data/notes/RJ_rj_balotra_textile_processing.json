@@ -1,0 +1,154 @@
+{
+ "key": "rj_balotra|textile_processing",
+ "state": "RJ",
+ "city": "rj_balotra",
+ "ind": "textile_processing",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 50,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Balotra dyeing and processing units with verified effluent compliance and steady order books; avoid units still shut or restarting without confirmed water and power supply.",
+ "title": "Balotra textile dyeing & processing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA dyeing and processing house takes grey fabric, water, dye chemicals and power, and returns finished dyed fabric to weavers, traders and garment makers. **Cash is made on conversion margin per metre, not on fabric price, so the two things that decide survival are water and power availability and the realisation per metre.** The working-capital cycle is inventory-heavy plus receivables, and ICRA's fabric methodology flags the sector as both fixed-capital and working-capital intensive [8][9]. So when a proposal lands, check the water source and the effluent route first; if the unit cannot show a running effluent treatment plant, ask for the consent-to-operate renewal before anything else.",
+  "## What has changed now\nLocal reporting says processing units in Pali, Balotra and Jodhpur are shut, and the same report links the disruption to dyed fabric supply beyond Rajasthan [1][2]. A local Hindi report from August 2026 quotes a former MLA saying industries have not started and threatens agitation [3]. **The local signal is weak: Rajasthan GST collections are -4.7% Apr-to-date against India +6.1%, and electricity demand is +4.0% against India +9.5% [D].** Against that, India-wide IIP for NIC 13 output is +13.1% YoY and +11.9% Apr-to-date [D]. Read this as a local shutdown problem inside a nationally growing textile output — the demand is there, the Balotra capacity is not running.",
+  "## Where the growth is\nPeer results show the money is in units that kept running and moved up the value chain: Arvind's Q2 FY27 net profit rose 44% to Rs 148 crore on revenue up 23% to Rs 2,919 crore, led by advanced materials and better realisations [6]. Sportking's operating margin jumped to 19% in Q1 FY27 from 12%, with PAT up about 132% [7]. **Pursue Balotra processors with confirmed effluent consent, captive or contracted power, and a customer mix of traders and garment exporters rather than single-buyer dependence.** Avoid units that are still shut, units restarting on borrowed working capital with no confirmed order book, and any proposal where the promoter cannot state monthly metres processed and realisation per metre.",
+  "## How to grow safely\nStructure as a cash-flow loan against a drawing-power limit set on verified monthly sales, not on projected capacity. **Take every month: GST returns, electricity bills, effluent consent status, and a stock-and-receivables statement — these four tell you whether the unit is actually running.** Covenant on debt-service coverage and on promoter contribution before any capex. Note that the peer margin recovery at Sportking followed a weak stretch of 6-10% operating margins through much of FY24-FY26 [7], so do not underwrite today's margin as permanent.",
+  "## Early-warning signs\n- Electricity bill units falling month-on-month (monthly) -> ask for the production register; if metres processed have fallen with it, freeze the limit.\n- GST returns showing falling outward supplies (monthly) -> ask for the order book and top-five buyer list.\n- Effluent consent lapse or notice (as reported) -> stop fresh disbursement until renewal is produced.\n- Receivable days stretching beyond the stated cycle (monthly) -> ask for ageing and cheque return history."
+ ],
+ "watch": [
+  [
+   "Electricity bill units (monthly)",
+   "falling units -> ask for production register, freeze limit if metres fall too"
+  ],
+  [
+   "GST outward supplies (monthly)",
+   "declining supplies -> ask for order book and top-five buyer list"
+  ],
+  [
+   "Effluent consent status (quarterly)",
+   "lapse or notice -> stop fresh disbursement until renewal produced"
+  ],
+  [
+   "Receivable ageing and cheque returns (monthly)",
+   "days stretching -> ask for ageing, review limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Balotra, Pali and Jodhpur processing units reported shut; Rajasthan GST and power demand lag India.",
+ "articles": [
+  {
+   "title": "Processing Units in Pali, Balotra and Jodhpur Are Shut. What It Means for Dyed Fabric Supply",
+   "url": "https://www.bennycotts.com/blog/rajasthan-processing-closures-pali-balotra-jodhpur-2026",
+   "date": "2026-10-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Malegaon Powerlooms Face a Wider Textile Supply Crisis",
+   "url": "https://urbanacres.in/malegaon-powerlooms-face-a-supply-chain-crisis-beyond-rajasthan/",
+   "date": "2026-10-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "पूर्व विधायक प्रजापत: जनप्रतिनिधि मौन, उद्योग शुरू नहीं हुए तो करेंगे बड़ा आंदोलन - Balotra News - - Hindi News",
+   "url": "https://www.bhaskar.com/local/rajasthan/balotra/news/former-mla-prajapat-people39s-representatives-are-silent-if-industries-are-not-started-then-there-will-be-a-big-movement-dbp-138615647.html#1",
+   "date": "2026-08-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "FW",
+   "url": "http://www.fashionatingworld.com/new1-2/author/691-administrator2.feed?amp;start=3250&type=rssstart=9780/%27&start=920",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "FashionatingWorld News",
+   "url": "http://www.fashionatingworld.com/new1-2?start=406",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Arvind Ltd Reports 44% Rise in Q2 Net Profit on Strong Advanced Materials Growth - Knitting Views",
+   "url": "https://knittingviews.com/arvind-ltd-reports-44-rise-in-q2-net-profit-on-strong-advanced-materials-growth/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sportking India Limited",
+   "url": "https://www.perplexity.ai/app/finance/SPORTKING.BO?comparing=SPORTKING.BO%2CWELSPUNLIV.BO%2CALOKINDS.NS%2CPASHUPATI.NS%2CAYMSYNTEX.BO%2CFILATEX.NS&preset=peers&symbol=VTL.BO&eventId=545669",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 23,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140464#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "margins remained healthy at 15.48%",
+   "url": "http://www.bhageriagroup.com/wp-content/uploads/2021/09/Credit-Rating_CARE_2021.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 50 (national 83 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

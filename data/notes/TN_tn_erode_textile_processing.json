@@ -1,0 +1,154 @@
+{
+ "key": "tn_erode|textile_processing",
+ "state": "TN",
+ "city": "tn_erode",
+ "ind": "textile_processing",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Erode dyeing/processing units with captive effluent treatment and diversified buyer books; avoid job-work-only units with single-buyer dependence and no ZLD compliance.",
+ "title": "Erode textile dyeing & processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA dyeing or processing house takes grey fabric or yarn, runs it through wet processes — scouring, bleaching, dyeing, finishing — and sells finished fabric or job-work services. Cash comes in per metre processed or per kg dyed, so the unit is a conversion machine: throughput times realisation minus dye, chemical, power, water and labour cost. So when a proposal lands, check the split between own-fabric sale and job-work — job-work earns a fixed conversion charge with no pricing power, and that is where margin vanishes first.",
+  "## What has changed now\nTamil Nadu GST collections are running -3.2% Apr-to-date against India +6.1%, a 9.3 pp gap and a genuine local demand signal [D]. Nationally IIP for textiles (NIC 13) is +13.1% YoY and +11.9% Apr-to-date, with bank credit +14.6% — so the national picture is fine and the state picture is not [D]. **The gap is the story: Erode's order book is softer than the all-India textile print suggests.** Locally, a state-wide dyeing mills strike was called for October 5, halting processing across the belt including Perundurai SIPCOT [3]; a weavers' wage-hike announcement is pending in Erode [2]. Both are cost and continuity events, not demand events. Peer results are mixed: Arvind's Q2 FY27 net profit rose 44% to Rs 148 crore on revenue of Rs 2,919 crore, up 23% [6], while Sportking's operating margin jumped to 19% in Q1 FY27 from 12% after a weak FY24-FY26 stretch at 6-10% [7]. **Read peers as proof that scale and integration earn margin; small standalone processors do not.**",
+  "## Where the growth is\nPursue processors who have moved up from job-work to own-fabric supply for exporters, and units with in-house ZLD and captive power — the 2026 waste rules pushing non-recyclable textile waste into RDF raise compliance cost for everyone and favour those already compliant [4]. **The borrower to back is the one whose buyer list has three or more named exporters and whose ETP is running, not the one with the cheapest rate.** Avoid pure job-work units with one buyer above half of turnover, and any unit whose effluent consent is under renewal.",
+  "## How to grow safely\nStructure against the conversion cycle, not the balance sheet. Take monthly: GST returns, power bills (units consumed, not rupees), ETP running logs, and a buyer-wise sales statement. Collect from customer: current capacity utilisation, water sourcing cost, and effluent consent validity.",
+  "## Early warning signs\nWatch power consumption per metre — a fall without a sales fall means the machines are idle. Watch GST turnover against bank credits; a widening gap means sales are being routed elsewhere. **If a unit misses a wage payment in the week the weavers' wage hike is announced [2], treat it as a liquidity event and re-price.** Strike or shutdown news in the Perundurai belt [3] is a direct cash-flow interruption — check the buffer before it happens, not after."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs bank credits",
+   "Turnover-to-credit gap widens two months running -> ask for buyer-wise sales and hold enhancement"
+  ],
+  [
+   "Monthly power bill units consumed",
+   "Units fall while sales hold -> inspect plant, check for idle capacity or diversion"
+  ],
+  [
+   "Effluent consent and ETP logs (quarterly)",
+   "Consent under renewal or ETP log gap -> freeze new limits until compliance is produced"
+  ],
+  [
+   "Wage payment record (monthly)",
+   "Missed wage cycle -> treat as liquidity event, re-price and reduce exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Tamil Nadu GST -3.2% vs India +6.1%, plus dyeing strike and pending wage hike in Erode.",
+ "articles": [
+  {
+   "title": "veerappanchatram: Latest News & Videos, Photos about veerappanchatram | The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/veerappanchatram",
+   "date": "2026-10-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Announcement on weavers’ wage hike expected this week: Minister - Announcement on weavers’ wage hike expected this week: Minister",
+   "url": "https://www.thehindu.com/news/cities/Coimbatore/announcement-on-weavers-wage-hike-expected-this-week-minister/article71574298.ece#1",
+   "date": "2026-10-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Textile Dyeing Mills Strike Set for Tamil Nadu on October 5",
+   "url": "https://urbanacres.in/textile-dyeing-mills-strike-to-halt-processing-across-tamil-nadu-belt/",
+   "date": "2026-10-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "FW",
+   "url": "http://www.fashionatingworld.com/new1-2/author/691-administrator2.feed?amp;start=3250&type=rssstart=9780/%27&start=920",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "FashionatingWorld News",
+   "url": "http://www.fashionatingworld.com/new1-2?start=406",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Arvind Ltd Reports 44% Rise in Q2 Net Profit on Strong Advanced Materials Growth - Knitting Views",
+   "url": "https://knittingviews.com/arvind-ltd-reports-44-rise-in-q2-net-profit-on-strong-advanced-materials-growth/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sportking India Limited",
+   "url": "https://www.perplexity.ai/app/finance/SPORTKING.BO?comparing=SPORTKING.BO%2CWELSPUNLIV.BO%2CALOKINDS.NS%2CPASHUPATI.NS%2CAYMSYNTEX.BO%2CFILATEX.NS&preset=peers&symbol=VTL.BO&eventId=545669",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "January 23,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140464#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "margins remained healthy at 15.48%",
+   "url": "http://www.bhageriagroup.com/wp-content/uploads/2021/09/Credit-Rating_CARE_2021.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 83 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +14.6% YoY vs output +11.9% (gap +2.7 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
