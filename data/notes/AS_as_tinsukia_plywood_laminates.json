@@ -1,0 +1,150 @@
+{
+ "key": "as_tinsukia|plywood_laminates",
+ "state": "AS",
+ "city": "as_tinsukia",
+ "ind": "plywood_laminates",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 39,
+ "nudged_by_news": false,
+ "verdict": "Avoid new plywood, veneer and laminate exposure in Tinsukia; lend only to established, timber-linked units with tight monthly stock and receivable control.",
+ "title": "Tinsukia plywood, veneer & laminates: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A plywood or veneer unit buys face veneer, core timber and chemicals, peels and presses them into boards, and sells through dealers into housing and interior demand.** Cash is locked in the timber and veneer yard and in dealer credit, not in the press. Ratings flag input price volatility and import dependence in select timber as the core risk [8], and Greenply's own rating stresses that plants sit near the raw material source for competitive cost [10]. So when a proposal lands, check where the log and veneer yard is relative to the unit; if timber is trucked in from another state, ask for the landed cost per unit and the supplier list.\n\n## What has changed now\n**The local demand signal is weak: Assam electricity demand is up only 1.9% Apr-to-date against India's 9.5%, 7.6 pp slower [D].** India-wide output is down 0.8% Apr-to-date while bank credit is up 20.6% YoY, a 21.4 pp gap [D], and the repo is 5.5% with a tightening stance [D]. That combination means borrowed money is chasing flat output. The Tinsukia news is thin: a ₹55-crore AAC block plant was inaugurated and ₹3 lakh crore of Assam commitments are at implementation stage [1], but nothing there is plywood-specific. A local post claims illegal sand dumping will make 'polokh' maati pricier [2] — treat it as unverified chatter, not a cost line.\n\n## Where the growth is\n**Peer results show the split clearly: plywood and veneer are growing while commodity laminates lag.** Greenlam's plywood segment grew 90.7% YoY in Q4FY25 [4] and 22.2% YoY in Q2FY26 [6], while laminates volume fell 7% YoY in Q1FY27 [5]. Pursue established veneer and plywood units with own or tied timber supply, and branded laminate players with dealer pull. Avoid traders who buy and resell boards, and new laminate capacity in the commoditised grade [8].\n\n## How to grow safely\n**Structure against the working-capital cycle, not the balance sheet.** Take monthly stock statements and a charge on the timber and veneer yard; set the drawing power on paid stock, not book debt. Ask for monthly sales and receivable-age data — collect from customer where the current cycle length is not on file. Peer margin pressure came from chemicals and resin costs [7], so covenant that any chemical cost pass-through is evidenced in invoices.\n\n## Early-warning signs\n**Watch the yard, not the P&L.** Falling veneer stock against flat sales means the unit is selling raw material to fund losses. Rising dealer receivables beyond the agreed cycle, or a shift to cash sales at a discount, signals pricing stress."
+ ],
+ "watch": [
+  [
+   "Monthly stock statement (monthly)",
+   "Yard stock falls while sales are flat -> stop drawing power and inspect the yard"
+  ],
+  [
+   "Electricity demand, Assam (monthly, CEA)",
+   "Stays below India's growth for two more prints -> cut new limits in the cluster"
+  ],
+  [
+   "Dealer receivable age (monthly)",
+   "Crosses the agreed cycle -> ask for cash-sale proof and reprice"
+  ],
+  [
+   "Chemical and resin invoice cost (monthly)",
+   "Cost rise not passed into selling price -> reduce limit or seek margin support"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Assam power demand lags India by 7.6 pp; national output negative while credit grows 20.6%.",
+ "articles": [
+  {
+   "title": "Advantage Assam: Projects Worth ₹3 Lakh Crore at Implementation Stage, Says CM",
+   "url": "https://opera.news/news/33b6d1f7261030en_in?news_entry_id=s5326e60d240314en_ng&post_id=P-5Qy48Oggx",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "X 上的 Rational (@d_subhasish)",
+   "url": "https://x.com/d_subhasish/status/2115531898579767318",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tinsukia Business Database - Verified Contacts",
+   "url": "https://www.indiabizdata.com/database/tinsukia-business-database/",
+   "date": "2026-09-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "GREENLAM INDUSTRIES LTD?UTM_SOURCE=CHATGPTCOM. : Latest Quarterly Results Analysis - ICICI Direct - Saurabh Mittal, Managing Director & Chief Executive Officer, Greenlam Industries, said: “We are pleased to share that the second...",
+   "url": "https://www.icicidirect.com/research/equity/rapid-results/greenlam-industries-ltd?utm_source=chatgpt.com#2",
+   "date": "2026-10-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Weak volumes offset by margin expansion",
+   "url": "https://barodaetrade.com/Reports/GreenlamIndustries-Q1FY27ResultReview10Aug26-Research.pdf?csrt=5365357110039431149#1#3#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "<table><tr><td>Segment Performance</td><td>Q2FY26</td><td>Q2FY25</td><td>YoY(%)</td><td>Q1FY26</td><td>QoQ(%)</td><td>H1FY26</td...",
+   "url": "https://barodaetrade.com/Reports/GreenlamIndustries-Q2FY26ResultReview10Nov25-Research.pdf#2#4#2",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Greenlam Growth Strong, Margins Face Cost Pressure - - Offerings",
+   "url": "https://hdfcsky.com/news/greenlam-industries-demand-steady-cost-inflation-passed-on-maintain-reduce#1",
+   "date": "2026-05-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Industry Risk Score",
+   "url": "https://acuite.in/Upload/Acuite/0001/Plywood_Boards-Laminates.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Summary of rated instruments",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=62953#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Greenply Industries Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202607140707_Greenply_Industries_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 30,2021",
+   "url": "https://www.icra.in/web/viewer.html?file=%2FRating%2FShowRationalReportFilePdf%2F109020&_x_output_type_b6db407c4_=embedded_pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 39 (national 32 x 0.6 + Assam 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Assam: electricity demand +1.9% Apr-to-date vs India +9.5% (7.6 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output -0.8% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +20.6% YoY vs output -0.8% (gap +21.4 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

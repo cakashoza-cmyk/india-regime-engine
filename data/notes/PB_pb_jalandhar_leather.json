@@ -1,0 +1,154 @@
+{
+ "key": "pb_jalandhar|leather",
+ "state": "PB",
+ "city": "pb_jalandhar",
+ "ind": "leather",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 63,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Jalandhar footwear component and sports-leather makers with tight monthly stock and receivable controls; avoid small tanneries and export-only units with weak effluent compliance.",
+ "title": "Jalandhar Leather & Footwear: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Jalandhar's leather and footwear cluster runs on small units converting hides and synthetic uppers into shoes, sports goods and components, and cash turns on the working-capital cycle, not on fixed assets.** Value sits in the cutting, stitching and finishing stages; the tanner upstream carries the effluent and chemical cost, the assembler downstream carries the brand and retail margin. **So when a proposal lands, check where the borrower sits in that chain before you look at turnover.**\n\n## What has changed now\n**The local support system is weak: Punjab's only government leather and footwear institute in the city has two regular teachers against 19 sanctioned posts and 25 students against 120 seats [1].** That is a skills pipeline problem, not a demand problem, and it is a September 2026 report. Against it, the state signed an MoU to boost the Jalandhar sports and leather industry [2] and a Rs 10 crore R&D centre was announced in January 2026 [3] — both are announcements, not yet cash flows. **Punjab GST collections are running +9.7% Apr-to-date against India's +6.1% [D], so local demand is holding; but India-wide exports are -3.0% Apr-to-date in USD [D], so the export leg is the weak one.**\n\n## Where the growth is\n**Pursue the domestic-facing component and sports-leather supplier who sells to branded footwear and sports-goods assemblers, and the unit that can show a purchase order from a brand.** Peer data shows sector quarterly sales up 13.68% YoY with net margin 6.65% and D/E 0.16 [5], and Bata's volume-led growth [6] tells you volumes are moving through organised retail. **Avoid the pure export converter with no domestic order book, and avoid any tanning unit whose effluent consent you cannot see — ICRA flags pollution-limit lapses as a direct credit risk [10].**\n\n## How to grow safely\n**Structure against the cycle: cash credit sized to stock and receivables, not to turnover, with a stock-and-receivables statement every month.** Take monthly GST returns, monthly stock statement, and quarterly debtor ageing; ask for the effluent consent renewal date at sanction. **If gearing crosses the peer norm of 0.16 [5], ask for the debt schedule and the promoter contribution before enhancing limits.** Rating evidence shows a footwear maker's PBILDT falling from Rs 28.13 crore to Rs 18.69 crore year-on-year with gearing still at 0.09 [9] — margin can compress even when the balance sheet looks clean, so price the limit for that.\n\n## Early warning signs\n**Watch for a shift from domestic orders to export-only billing, a fall in monthly GST turnover, and rising receivable days.** If the borrower's export share rises while India-wide exports stay at -3.0% [D], ask for the buyer-wise order book. If monthly stock statements stop matching GST turnover, freeze the drawing power. **Collect from customer: actual effluent consent status, buyer concentration, and receivable days — the sources do not give city-level figures for these.**"
+ ],
+ "watch": [
+  [
+   "Monthly GST returns (monthly)",
+   "Turnover falls two months running -> cut drawing power and ask for order book"
+  ],
+  [
+   "Stock and receivable statement (monthly)",
+   "Stock-to-GST-turnover mismatch -> freeze limit enhancement"
+  ],
+  [
+   "Effluent consent renewal (annual)",
+   "Consent lapsed or under notice -> stop fresh disbursement"
+  ],
+  [
+   "Export share of billing (quarterly)",
+   "Export share rises while India exports stay -3.0% [D] -> ask for buyer-wise orders"
+  ],
+  [
+   "Debtor ageing (quarterly)",
+   "Receivable days stretch beyond sanction norm -> seek promoter infusion"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local skills institute collapsing [1]; India exports -3.0% [D] offsets Punjab GST strength.",
+ "articles": [
+  {
+   "title": "As Jalandhar eyes global markets, its sole govt leather institute struggles for survival - The Tribune - Add Tribune As Your Trusted Source",
+   "url": "https://www.tribuneindia.com/news/punjab/as-jalandhar-eyes-global-markets-its-sole-govt-leather-institute-struggles-for-survival/amp/#1",
+   "date": "2026-09-05",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Punjab Govt Signs MOU to Boost Jalandhar Sports and Leather Industry - Leather News",
+   "url": "https://leathernews.org/punjab-govt-signs-mou-to-boost-jalandhar-sports-and-leather-industry/",
+   "date": "2026-01-05",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "INR 10 Crore R&amp;D Centre to Boost Jalandhar Sports, Leather Exports Globally",
+   "url": "https://www.rozanaspokesman.com/amp/news/business/060126/inr-10-crore-rd-centre-to-boost-jalandhar-sports-leather-exports-glo.html",
+   "date": "2026-01-05",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sreeleathers Limited",
+   "url": "https://www.perplexity.ai/app/finance/SREEL.BO?comparing=SREEL.BO%2CMETROBRAND.NS%2CBATAINDIA.BO%2CBATAINDIA.NS%2CBIL.NS%2CCAMPUS.BO%2CLIBERTSHOE.BO%2CDECK&preset=peers&symbol=RELAXO.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Leather Sector Stocks & Shares - Leather Stocks Listings in India | The Economic Times - Leather",
+   "url": "https://m.economictimes.com/stocks/sectors/leather?frmapp=yes#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Bata India Sees Volume-led Revenue Growth, Profit Up At Rs 58.6 Cr In Q3 - BW Businessworld - Bata India Sees Volume-led Revenue Growth, Profit Up At Rs 58.6 Cr In Q3",
+   "url": "https://www.businessworld.in/article/bata-india-sees-volume-led-revenue-growth-profit-up-at-rs-586-cr-in-q3-547621#1",
+   "date": "2025-02-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Good Q2 - Volume-led revenue growth; higher margins led to strong 97% PAT growth",
+   "url": "https://www.sharekhan.com/MediaGalary/StockIdea/Relaxo-3R-Nov03_2023.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "In order to grow, the Indian footwear sector would require investments in plant and machinery, expanding retail presence and set...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/599~Footwear#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Leiner Shoes Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202609130913_Leiner_Shoes_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apart from the capital structure, ICRA pays attention to the debt coverage indicators, including interest coverage, debt service...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=890#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RATING METHODOLOGY - FOOTWEAR",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=890#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 63 (national 55 x 0.6 + Punjab 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Punjab: GST collections +9.7% Apr-to-date vs India +6.1% (3.6 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 15 output +8.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -3.0% Apr-to-date in USD (Rs 21,080 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +11.9% YoY vs output +2.4% (gap +9.5 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

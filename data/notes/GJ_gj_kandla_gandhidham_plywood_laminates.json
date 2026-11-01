@@ -1,0 +1,134 @@
+{
+ "key": "gj_kandla_gandhidham|plywood_laminates",
+ "state": "GJ",
+ "city": "gj_kandla_gandhidham",
+ "ind": "plywood_laminates",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 49,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to branded, fire-compliant plywood and laminate units with verified timber sourcing; avoid unbranded commodity plywood and any unit with unresolved fire-safety or stock-insurance gaps.",
+ "title": "Kandla-Gandhidham plywood, veneer & laminates: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Plywood is timber converted into glued boards; cash turns on veneer availability, drying, pressing and working-capital discipline.** Face veneer, core timber and chemicals are the key inputs, and plants located near raw material do better on cost [8]. Kandla matters because it is a port-led cluster: CPIL runs a Kandla unit alongside Joka, Guwahati, Chennai, Karnal and Roorkee [7]. **The cluster's edge is import-linked timber and export access, which also means FX exposure** — rating commentary flags sizeable raw-material imports and product exports, partly hedged [9]. ## Where value and cash sit\n**Value sits in branded, value-added grades; commodity plywood is fragmented and price-competed** [6]. Peer results show the split: Greenlam's plywood segment grew 90.7% YoY with gross margin at 55.0% but EBITDA margin at 10.6% [2], and later plywood-incl-veneer revenue rose 22.2% YoY [4]. **So when a proposal lands, check the product mix — branded laminate and value-added board versus plain commercial plywood; if the mix is commodity, ask for the price-realisation trend and customer concentration.**\n\n## What has changed now\n**A fire at a Kabrau plywood company gutted machinery and stock, drawing firefighters from Bhachau, Kandla and Gandhidham** [1]. **So on every site visit, check fire NOC, hydrant and stock-insurance cover; if machinery or stock is uninsured or the NOC is expired, ask for remediation before sanction.** Nationally, IIP for NIC 16 is +8.6% YoY but -0.8% Apr-to-date, while bank credit is +20.6% YoY [D] — **so when a proposal lands, check whether growth is funded by real output or by borrowing; if credit drawdown outpaces sales, ask why.** Gujarat GST is +11.9% Apr-to-date versus India +6.1% [D], a genuine local tailwind. ## Who to pursue, and how to grow safely\n**Pursue branded laminate and value-added plywood makers with own or contracted timber linkage, and units supplying formal builders and export buyers.** Peer guidance of 18-20% FY27 revenue growth with chemical and resin cost inflation passed on [5] supports this. **Structure as cash-flow-backed working-capital lines with stock and book-debt hypothecation; take monthly stock statements, insurance endorsements and GST returns.** Avoid unbranded commodity plywood units with thin margins and no fire cover [6]. ## Early-warning signs\n**Watch veneer and chemical cost pass-through, export volume and FX.** Greenlam's laminate volume fell 7% YoY on weak exports even as revenue grew 18% [3] — **so if a borrower's volumes fall while revenue rises, ask whether price or mix is carrying it.** Chemical cost is flagged as a key margin risk [3][5]."
+ ],
+ "watch": [
+  [
+   "Monthly stock and insurance statements (monthly)",
+   "Stock cover below drawing power or lapsed policy -> freeze further drawdown"
+  ],
+  [
+   "GST returns vs sales (monthly)",
+   "GST turnover trails bank credits by a widening gap -> ask for reconciliation"
+  ],
+  [
+   "Fire NOC and hydrant status (quarterly)",
+   "Expired NOC or no hydrant -> require remediation before renewal"
+  ],
+  [
+   "Veneer/chemical cost and export volume (quarterly)",
+   "Volume fall with revenue rise, or chemical cost spike not passed on -> reprice or trim limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local plywood-unit fire destroyed machinery and stock; cluster fire-safety and insurance risk elevated.",
+ "articles": [
+  {
+   "title": "ભચાઉ, કંડલા, ગાંધીધામ સહિતના 5 ફાયર ફાઈટરો કામે લાગ્યા: કબરાઉની પ્લાયવુડ કંપનીમાં ભીષણ આગ: મશીનરી-માલ બળીને ખાખ - Bhachau News",
+   "url": "https://www.divyabhaskar.co.in/local/gujarat/kutch/bhachau/news/5-firefighters-including-bhachau-kandla-gandhidham-got-to-work-dbp-139479966.html",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "GREENLAM INDUSTRIES LTD?UTM_SOURCE=CHATGPTCOM. : Latest Quarterly Results Analysis - ICICI Direct - Saurabh Mittal, Managing Director & Chief Executive Officer, Greenlam Industries, said: “We are pleased to share that the second...",
+   "url": "https://www.icicidirect.com/research/equity/rapid-results/greenlam-industries-ltd?utm_source=chatgpt.com#2",
+   "date": "2026-10-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Weak volumes offset by margin expansion",
+   "url": "https://barodaetrade.com/Reports/GreenlamIndustries-Q1FY27ResultReview10Aug26-Research.pdf?csrt=5365357110039431149#1#3#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "<table><tr><td>Segment Performance</td><td>Q2FY26</td><td>Q2FY25</td><td>YoY(%)</td><td>Q1FY26</td><td>QoQ(%)</td><td>H1FY26</td...",
+   "url": "https://barodaetrade.com/Reports/GreenlamIndustries-Q2FY26ResultReview10Nov25-Research.pdf#2#4#2",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Greenlam Growth Strong, Margins Face Cost Pressure - - Offerings",
+   "url": "https://hdfcsky.com/news/greenlam-industries-demand-steady-cost-inflation-passed-on-maintain-reduce#1",
+   "date": "2026-05-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Industry Risk Score",
+   "url": "https://acuite.in/Upload/Acuite/0001/Plywood_Boards-Laminates.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Summary of rated instruments",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=62953#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Greenply Industries Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202607140707_Greenply_Industries_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 30,2021",
+   "url": "https://www.icra.in/web/viewer.html?file=%2FRating%2FShowRationalReportFilePdf%2F109020&_x_output_type_b6db407c4_=embedded_pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 49 (national 32 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 16 output +8.6% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -0.8% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +20.6% YoY vs output -0.8% (gap +21.4 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

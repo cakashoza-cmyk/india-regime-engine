@@ -1,0 +1,150 @@
+{
+ "key": "up_firozabad|imitation_jewellery",
+ "state": "UP",
+ "city": "up_firozabad",
+ "ind": "imitation_jewellery",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 51,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Firozabad's working-capital-light, fast-turnover imitation jewellery traders and job-work units with clean GST and tight stock control; avoid bridal-set inventory financiers and any borrower whose sales depend on one festival season.",
+ "title": "Firozabad imitation jewellery: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nFirozabad's Katra market sells gold-look rings and full bridal sets at retail price points from ₹25 up to ₹3,000, with rings at ₹100-500 [1][3]. **This is a copy-the-design, low-ticket, high-velocity trade, not a bullion business** — the shopkeeper's edge is design freshness and finish that does not fade, not metal value [1][3]. Cash comes in daily at the counter; value sits in finished stock and in the design pipeline, not in the raw material. So when a proposal lands, check the stock-to-sales ratio and the age of the oldest design lot; if stock is older than one season, ask what discount is being carried to clear it. ## Where the cash actually sits\nDemand is explicitly seasonal — Diwali and the wedding season drive the pull, and gold and silver getting dearer pushes buyers toward the imitation alternative [1][2]. **A trader's year is a few strong weeks and many flat ones, so peak stock must be bought before the cash arrives.** That is the working-capital cycle to underwrite: short, repeatable, and self-liquidating within a season. Capex is light — this is trading and assembly, not a plant. Collect from customer the actual inventory days and the share of sales in the peak season; do not assume them. ## What has changed now\nLocal reporting is the only city-level evidence we have, and it is recent (October 2026) [1][2]. **The pull is real but it is a price-substitution story, not a volume boom** — buyers come because gold is unaffordable, and they will leave the same way. Rating commentary on jewellery flags intense competition from unorganised players limiting pricing flexibility and seasonality in demand [8]. The data pack shows India-wide bank credit +33.0% YoY against output +3.8% [D] — **system credit is running far ahead of real output, so our guardrail is structure, not optimism.**\n\n## Who to pursue, who to avoid\nPursue the ring and daily-wear trader turning stock weekly, the job-work unit doing finishing for several shops, and the exporter with repeat Australia/Pakistan enquiries [3]. Take monthly GST returns, stock statements and counter-sales summaries; covenant a peak-season inventory cap and a minimum stock-turn. If a proposal shows receivables beyond 45 days, ask who the buyer is and why a counter-cash business is lending. ## Early warning signs\n- Monthly GST turnover falling two months running (monthly) -> freeze fresh limits and inspect stock. - Stock statement showing design lots older than one season (monthly) -> demand a clearance plan before renewal. - Gold price softening and imitation demand thinning (quarterly) -> reprice the season's limit. - Cheque returns or delayed statutory dues (weekly) -> stop disbursement and review."
+ ],
+ "watch": [
+  [
+   "GST turnover (monthly)",
+   "two consecutive monthly declines -> freeze fresh limits and inspect stock"
+  ],
+  [
+   "Stock statement and design age (monthly)",
+   "lots older than one season -> demand clearance plan before renewal"
+  ],
+  [
+   "Gold price trend vs imitation demand (quarterly)",
+   "gold softening and demand thinning -> reprice season limit"
+  ],
+  [
+   "Cheque returns and statutory dues (weekly)",
+   "any return or delay -> stop disbursement and review"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Local reports show steady festival demand; no city-level break, only price substitution.",
+ "articles": [
+  {
+   "title": "दिवाली हो या शादी-पार्टी, 100 रुपये की ये गोल्डन रिंग देंगी आपको रिच लुक",
+   "url": "https://hindi.news18.com/amp/news/uttar-pradesh/firozabad-firozabad-market-artificial-gold-rings-starting-at-just-rs-100-local18-10951676.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Firozabad News: सोना चांदी महंगा होने से आर्टिफिशियल ज्वेलरी की बढ़ी डिमांड - Firozabad News: सोना चांदी महंगा होने से आर्टिफिशियल ज्वेलरी की बढ़ी डिमांड",
+   "url": "https://www.livehindustan.com/uttar-pradesh/firozabad/story-gold-and-silver-price-rise-boosts-artificial-jewellery-demand-ahead-of-karwa-chauth-201792780570965.html#1",
+   "date": "2026-10-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "₹25 से 3000 तक कीमत! फिरोजाबाद की इस मार्केट में मिलती है सोने जैसी सस्ती ज्वेलरी - Advertisement",
+   "url": "https://hindi.news18.com/news/uttar-pradesh/firozabad-famous-artificial-jewellery-market-firozabad-bridal-gold-like-jewelry-at-low-price-know-location-local18-10431299.html#1",
+   "date": "2026-05-02",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Banaras Beads Limited",
+   "url": "https://www.perplexity.ai/app/finance/BANARBEADS.NS?preset=peers&symbol=BIL.BO&eventId=540680",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "R.K. Fashion Accessories Ltd share price | About R.K. Fashion Accessories | Key Insights",
+   "url": "https://www.screener.in/company/RKFAL/",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Advit Jewels Limited publie ses résultats pour le deuxième trimestre et le semestre clos le 30 septembre 2026",
+   "url": "https://ch.zonebourse.com/actualite-bourse/advit-jewels-limited-publie-ses-resultats-pour-le-deuxieme-trimestre-et-le-semestre-clos-le-30-septe-ce785fd8db8bf226",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Y 2011 Earnings Call - Shree Ganesh Jewellery",
+   "url": "http://aceanalyser.com/Conference%20Call/219433_20110530.pdf#1#4#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "December 18,2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=139709#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In the jewellery retail industry, entities are vulnerable to competitive pricing pressures and shifts in buying patterns of end ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/799~Gold%20Jewellery%20Retail#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Comfortable capital structure and debt coverage indicators:DPAL's capital structure remained comfortable marked by below unity o...",
+   "url": "https://nsearchives.nseindia.com/corporate/DPABHUSHAN_02012024184310_creditrating.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "July 11, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=136298#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 51 (national 35 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Bank credit +33.0% YoY vs output +3.8% (gap +29.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Uttar Pradesh: electricity demand +8.6% Apr-to-date vs India +9.5% (0.9 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 32 output +3.2% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

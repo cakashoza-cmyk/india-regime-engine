@@ -1,0 +1,150 @@
+{
+ "key": "hr_yamunanagar|plywood_laminates",
+ "state": "HR",
+ "city": "hr_yamunanagar",
+ "ind": "plywood_laminates",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 49,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to branded, compliant plywood and laminate units with verified timber sourcing and clean banking; avoid traders and units with unhedged import exposure or diversion risk.",
+ "title": "Yamunanagar Plywood, Veneer & Laminates: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Plywood is a timber-conversion business: face veneer, core timber and chemicals go in, and cash comes out only after seasoning, pressing, grading and dispatch.** Value sits in the veneer and core timber stock and in the brand on the finished sheet; cash sits in the working-capital cycle between timber purchase and dealer realisation. Rating commentary flags input price volatility and import dependence in select timber as the core risk [8], and Greenply's ratings note that adequate raw-material availability near the plant is a key driver [10]. So when a proposal lands, check where the unit buys veneer and core timber and at what distance; if sourcing is spot-market and distant, ask for the last twelve months of purchase invoices by supplier. Peer results are mixed: Greenlam's plywood segment grew 90.7% YoY in one quarter [4] and 22.2% YoY in Q2FY26 [6], while laminates volume fell 7% YoY in another quarter [5]. The data pack shows India-wide IIP for NIC 16 at +8.6% YoY but -0.8% Apr-to-date [D], and bank credit +20.6% YoY against that output [D]. **Credit is running far ahead of output, so the risk is lending into inventory, not into demand.**\n\n## Where the growth is\n**Haryana GST collections are running +10.1% Apr-to-date against India's +6.1% [D], so the local trade channel is absorbing stock faster than the national average.** Pursue branded laminate and value-added board makers selling to dealers and interior projects, and plywood units with own veneer peeling and a compliance paper trail. Avoid pure traders, units with no own seasoning or pressing capacity, and anyone whose pitch is cheap imported timber. The rating view is that formalisation and brand-led share gains favour premium laminates and compliant boards [8]. ## How to grow safely\n**Structure against the timber cycle, not the balance sheet.** Keep tenor short and matched to the stock-and-receivable cycle, take stock and receivable statements monthly, and take GST returns monthly against bank statements. Ask for a hedging policy where imports exist, since rating commentary flags exchange-rate exposure on imported raw material [11]. Where the customer cannot give a timber sourcing map, collect from customer. ## Early-warning signs\n- **Cheap-raw-material offers or sudden supplier changes** -> stop disbursement and inspect godown stock. - **GST turnover falling below bank credits for two months** -> freeze limit enhancement. - **Receivable days stretching beyond the stated cycle** -> ask for dealer-wise ageing. - **Unhedged import payables rising** -> seek cover or reduce exposure."
+ ],
+ "watch": [
+  [
+   "GST returns vs bank statements (monthly)",
+   "GST turnover below bank credits for two months -> freeze enhancement and inspect stock"
+  ],
+  [
+   "Stock and receivable statement (monthly)",
+   "Receivable days stretch beyond stated cycle -> ask for dealer-wise ageing and re-rate limit"
+  ],
+  [
+   "Timber purchase invoices by supplier (quarterly)",
+   "Shift to spot or distant suppliers -> require sourcing map and re-price risk"
+  ],
+  [
+   "Import payable and hedge position (monthly)",
+   "Unhedged payables rise -> seek cover or cut exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local reports of Iran-US tension impact and a Rs 1.02 crore plywood trader fraud outweigh peer growth.",
+ "articles": [
+  {
+   "title": "Yamuna Nagar News: 37 साल का यमुनानगर, उद्योग व कृषि में बनाई पहचान",
+   "url": "https://www.amarujala.com/haryana/yamuna-nagar/37-year-old-yamunanagar-has-carved-a-niche-for-itself-in-industry-and-agriculture-yamuna-nagar-news-c-246-1-sknl1023-165473-2026-11-01",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "यमुनानगर में प्लाईवुड कारोबारी से 1.02 करोड़ हड़पे: सस्ते कच्चे माल का झासा; घर पर गोलियां चलवाने की दी धमकी - Yamunanagar News - - Hindi News",
+   "url": "https://www.bhaskar.com/local/haryana/yamunanagar/news/yamunanagar-plywood-businessman-fraud-threat-case-latest-update-138517811.html#1",
+   "date": "2026-07-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Iran-US tensions hit Yamunanagar’s plywood industry - Subscribe To Print Edition About The Tribune Code Of Ethics Download App Careers Advertise with us Classifieds",
+   "url": "https://www.tribuneindia.com/news/haryana/iran-us-tensions-hit-yamunanagars-plywood-industry/#1",
+   "date": "2026-04-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "GREENLAM INDUSTRIES LTD?UTM_SOURCE=CHATGPTCOM. : Latest Quarterly Results Analysis - ICICI Direct - Saurabh Mittal, Managing Director & Chief Executive Officer, Greenlam Industries, said: “We are pleased to share that the second...",
+   "url": "https://www.icicidirect.com/research/equity/rapid-results/greenlam-industries-ltd?utm_source=chatgpt.com#2",
+   "date": "2026-10-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Weak volumes offset by margin expansion",
+   "url": "https://barodaetrade.com/Reports/GreenlamIndustries-Q1FY27ResultReview10Aug26-Research.pdf?csrt=5365357110039431149#1#3#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "<table><tr><td>Segment Performance</td><td>Q2FY26</td><td>Q2FY25</td><td>YoY(%)</td><td>Q1FY26</td><td>QoQ(%)</td><td>H1FY26</td...",
+   "url": "https://barodaetrade.com/Reports/GreenlamIndustries-Q2FY26ResultReview10Nov25-Research.pdf#2#4#2",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Greenlam Growth Strong, Margins Face Cost Pressure - - Offerings",
+   "url": "https://hdfcsky.com/news/greenlam-industries-demand-steady-cost-inflation-passed-on-maintain-reduce#1",
+   "date": "2026-05-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Industry Risk Score",
+   "url": "https://acuite.in/Upload/Acuite/0001/Plywood_Boards-Laminates.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Summary of rated instruments",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=62953#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Greenply Industries Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202607140707_Greenply_Industries_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 30,2021",
+   "url": "https://www.icra.in/web/viewer.html?file=%2FRating%2FShowRationalReportFilePdf%2F109020&_x_output_type_b6db407c4_=embedded_pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 49 (national 32 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 16 output +8.6% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -0.8% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +20.6% YoY vs output -0.8% (gap +21.4 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

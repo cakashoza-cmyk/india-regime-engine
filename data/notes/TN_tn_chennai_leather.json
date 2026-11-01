@@ -1,0 +1,150 @@
+{
+ "key": "tn_chennai|leather",
+ "state": "TN",
+ "city": "tn_chennai",
+ "ind": "leather",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 43,
+ "nudged_by_news": false,
+ "verdict": "Avoid new leather and footwear exposure in Chennai for now; the data call is Avoid and the news flow does not lift it.",
+ "title": "Chennai Leather & Footwear: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Chennai's leather and footwear units tan hides, cut and stitch uppers, and assemble shoes, turning hides, chemicals and components into finished goods sold to exporters and domestic brands.** Tamil Nadu and Kerala together contribute around 38 per cent of India's total output and over 45 per cent of its exports [1], so this city sits inside the country's densest leather cluster. Cash arrives from two very different buyers: export orders priced in dollars and domestic brand orders on credit. **The export leg is the fragile one right now** — India's footwear, leather and leather products exports were around 4.83 billion US dollars last year [1], and India-wide exports are down 3.0 per cent Apr-to-date in USD [D].\n\n## Where value and cash sit\n**Value sits in the tanning and finishing stage, not in stitching**, because effluent treatment and chemical costs are fixed while cutting and stitching can be outsourced [11]. Rating work flags that effluent and pollution compliance carries real additional cost [10], so a tannery's licence is an asset and a liability at once. Working capital is hide inventory plus export receivables; capex is plant, machinery and retail reach [8]. **Peer numbers show the margin squeeze**: the listed leather basket runs a net profit margin of 6.65 per cent with quarterly profit down 4.79 per cent YoY [5], and Leiner Shoes saw operating income fall from 261.27 crore to 221.35 crore and PBILDT from 28.13 crore to 18.69 crore between March 2025 and March 2026 [9].\n\n## What has changed now\n**The local demand signal is weak.** Tamil Nadu GST collections are down 3.2 per cent Apr-to-date against India's plus 6.1 per cent, 9.3 percentage points slower [D], and repo has moved to 5.5 per cent with a tightening stance [D]. Against that, IIP for leather-linked output is plus 8.1 per cent YoY [D] — production is running ahead of collections, which usually means inventory is building somewhere in the chain. **The positive is structural, not immediate**: the India-EU free trade agreement is expected to cut tariffs on leather goods [1], and a CSIR-CLRI design studio has opened for the sector [2]. A June 2026 Chennai consultation on sector growth [3] confirms policy attention but gives no numbers. Note the fair report [1] is dated February 2026 and the peer pieces [4][6][7] are old or undated — treat them as background, not current trading.\n\n## Who to pursue, and how to grow safely\n**Pursue tier-2 suppliers to organised brands and export houses with own effluent treatment, low gearing and domestic order books** — Leiner's overall gearing of 0.09x [9] shows what a clean balance sheet looks like in this trade. Avoid pure export converters with no forward cover, and avoid units whose pollution consent is pending. When a proposal lands, check the effluent consent validity and the buyer-wise order book first; if export receivables exceed domestic, ask for the forward cover and the buyer's payment history. Structure as a cash-flow loan against receivables with a drawing power linked to realised export proceeds, not to invoices raised. Take monthly stock-and-receivable statements, quarterly GST returns matched to sales, and the pollution board consent renewal date every year.\n\n## Early-warning signs\n**Watch inventory days and receivable days together** — if both stretch while GST filings stay flat, the unit is funding unsold stock. If a borrower's Tamil Nadu GST payment falls for two straight months while sales invoices rise, ask for the purchase register. If export realisations slip below the invoiced dollar value, check the forward book before renewing the limit."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs sales invoices (monthly)",
+   "two months of falling GST against rising invoices -> freeze enhancement, ask for purchase register"
+  ],
+  [
+   "Export receivable days and forward cover (monthly)",
+   "receivable days stretch beyond agreed limit -> shift drawing power to realised proceeds only"
+  ],
+  [
+   "Pollution consent and effluent cost (annual)",
+   "consent renewal pending or effluent cost jump -> hold renewal until compliance proof"
+  ],
+  [
+   "Inventory days from stock statement (monthly)",
+   "inventory days rise with flat sales -> cut limit, seek stock audit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Tamil Nadu GST down 3.2% and India exports down 3.0% outweigh the fair and FTA news.",
+ "articles": [
+  {
+   "title": "39th India International Leather Fair Begins in Chennai, Showcases Global Innovations",
+   "url": "https://newsonair.gov.in/39th-india-international-leather-fair-begins-in-chennai-showcases-global-innovations/#content",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "CSIR-CLRI Launches CoE Design Studio For Footwear And Leather Sector - Sahyadri Startups - Skip to content",
+   "url": "https://sahyadristartups.com/news/csir-clri-launches-coe-design-studio-for-footwear-and-leather-sector/#1",
+   "date": "2026-10-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "தோல், காலணி தொழில்துறை வளர்ச்சி குறித்த கலந்துரையாடல் கூட்டம் சென்னையில் நடைபெற்றது - சிறப்பு சேவைகள் மற்றும் கட்டுரைகள்",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2271782&reg=48&lang=2#1",
+   "date": "2026-06-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sreeleathers Limited",
+   "url": "https://www.perplexity.ai/app/finance/SREEL.BO?comparing=SREEL.BO%2CMETROBRAND.NS%2CBATAINDIA.BO%2CBATAINDIA.NS%2CBIL.NS%2CCAMPUS.BO%2CLIBERTSHOE.BO%2CDECK&preset=peers&symbol=RELAXO.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Leather Sector Stocks & Shares - Leather Stocks Listings in India | The Economic Times - Leather",
+   "url": "https://m.economictimes.com/stocks/sectors/leather?frmapp=yes#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Bata India Sees Volume-led Revenue Growth, Profit Up At Rs 58.6 Cr In Q3 - BW Businessworld - Bata India Sees Volume-led Revenue Growth, Profit Up At Rs 58.6 Cr In Q3",
+   "url": "https://www.businessworld.in/article/bata-india-sees-volume-led-revenue-growth-profit-up-at-rs-586-cr-in-q3-547621#1",
+   "date": "2025-02-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Good Q2 - Volume-led revenue growth; higher margins led to strong 97% PAT growth",
+   "url": "https://www.sharekhan.com/MediaGalary/StockIdea/Relaxo-3R-Nov03_2023.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "In order to grow, the Indian footwear sector would require investments in plant and machinery, expanding retail presence and set...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/599~Footwear#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Leiner Shoes Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202609130913_Leiner_Shoes_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apart from the capital structure, ICRA pays attention to the debt coverage indicators, including interest coverage, debt service...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=890#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RATING METHODOLOGY - FOOTWEAR",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=890#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 43 (national 55 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Exports -3.0% Apr-to-date in USD (Rs 21,080 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 15 output +8.1% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

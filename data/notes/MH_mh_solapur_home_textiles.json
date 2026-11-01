@@ -1,0 +1,154 @@
+{
+ "key": "mh_solapur|home_textiles",
+ "state": "MH",
+ "city": "mh_solapur",
+ "ind": "home_textiles",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": true,
+ "verdict": "OK to lend selectively in Solapur home textiles — favour converters with domestic order books and clean receivables; avoid export-only towel and bedsheet mills carrying raw-material and shipment-cost stress.",
+ "title": "Solapur home textiles & made-ups: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nSolapur spins, weaves and converts cotton into towels, bedsheets and chaddars, selling to wholesalers, domestic brands and exporters. Capex is loom-and-processing heavy and largely fixed once installed, so a demand dip hits utilisation fast. **So when a proposal lands, check the yarn-to-receivable cycle first; if the cycle is longer than the stated credit terms, ask why inventory is being held.**",
+  "## What has changed in Solapur now\nLocal reporting is blunt: raw material has become expensive and orders have stopped, with the industry described as in crisis [2]. A March 2026 report puts the hit at ₹500 crore, with raw material costlier and exports disrupted, and shipment costs moving from about a thousand dollars to five thousand [3]. **This is a cost-and-order shock, not a demand collapse in the end market** — and it lands hardest on units that sell only export. Note both local reports are from 2026 and pre-date today by several months; refresh with the customer.",
+  "## The growth opportunity\nPeer results point the other way. Welspun Living's Q2 FY27 revenue rose 16.9% to ₹2,870 crore, with home textile exports up 18.3% and domestic business up 28.2% [6]; its Q1 FY27 global B2B other products grew 32% [4]. Indo Count posted record Q1 FY27 revenue of ₹1,224 crore at 13.1% EBITDA margin [7], and Iris Clothings grew total income 40.3% YoY in Q2 FY27 [5]. **Pursue the domestic-brand and organised-retail supplier, and the converter with a mixed domestic-export book; avoid the pure export towel mill with no domestic fallback.** Maharashtra GST collections grew 8.6% Apr-to-date against India's 6.1% [D], a genuine local tailwind.",
+  "## How to grow safely\nStructure as cash credit against a drawing power built on paid stock and book debts, with a term loan only for proven capacity. **Take monthly stock-and-debt statements, monthly sales register, and quarterly GST returns reconciled to turnover** — the GST gap of +3.3 pp between bank credit (+15.2%) and output (+11.9%) [D] means some of this lending is running ahead of real output, so verify output, not just sales. Rating discipline: Golden Texo Fabs carries CRISIL A-/Stable on an ₹80.25 crore cash credit [9]; ICRA notes working capital is driven by inventory and receivables [10]. **If gearing or TOL/TNW drifts past the rated peer's 0.6x and 0.9x [8], ask for a fresh CMA and reduce limit.**",
+  "- GST return vs sales register (monthly): divergence above 5% -> stop fresh disbursal until reconciled. - Order book and export shipment cost (monthly): shipment cost still near the elevated level [3] -> shift exposure to domestic-order borrowers. - Receivable days (monthly): beyond stated credit terms -> ask for debtor ageing and top-five buyer confirmation. - Yarn price movement (fortnightly): sharp rise without price pass-through [2] -> review margin and drawing power."
+ ],
+ "watch": [
+  [
+   "Monthly GST return vs sales register",
+   "Divergence above 5% -> stop fresh disbursal until reconciled"
+  ],
+  [
+   "Monthly order book and shipment cost",
+   "Shipment cost still elevated [3] -> shift exposure to domestic-order borrowers"
+  ],
+  [
+   "Monthly receivable days",
+   "Beyond stated credit terms -> obtain debtor ageing and top-five buyer confirmation"
+  ],
+  [
+   "Fortnightly yarn price",
+   "Sharp rise without price pass-through [2] -> review margin and drawing power"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Solapur reports raw material costlier, orders stopped and exports disrupted [2][3].",
+ "articles": [
+  {
+   "title": "Veda Lolge Returns to Solapur to Build The Prisma Global and Launch OVI Makers",
+   "url": "https://hindustanmetro.com/veda-lolge-returns-to-solapur-to-build-the-prisma-global-and-launch-ovi-makers",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Solapur Textile Industry : कच्चा माल महाग, ऑर्डर ठप्प; सोलापूर वस्त्रोद्योग संकटात",
+   "url": "https://pudhari.news/maharashtra/solapur/solapur-news-textile-industry-in-crisis-expensive-raw-material-no-orders-chaddar-towel-crisis-dc95",
+   "date": "2026-07-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Solapur Textile Industry: सोलापूरच्या कापड उद्योगास ५०० कोटींचा फटका; कच्चा माल महागला अन् निर्यात विस्कळित; हजार डॉलरचे शिपमेंट ५ हजारांवर! - सोलापूर",
+   "url": "https://www.esakal.com/paschim-maharashtra/solapur/solapur-textile-industry-hit-hard-500-crore-loss-amid-rising-costs-and-export-disruptions-sdj87#1",
+   "date": "2026-03-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Welspun Living Q1 FY27 slides: revenue surges 24%, margins expand By Investing.com - Welspun Living Q1 FY27 slides: revenue surges 24%, margins expand",
+   "url": "https://www.investing.com/news/company-news/welspun-living-q1-fy27-slides-revenue-surges-24-margins-expand-93CH-4857940#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Iris Clothings Ltd (NSE:IRISDOREME) (Q2 2027) Earnings Call Highlights: 40% Revenue Surge, ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/iris-clothings-ltd-nse-irisdoreme-110513986.html",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Welspun Living Q2 revenue rises 16.9 pc to Rs 2,870 crore, achieves net-cash position",
+   "url": "https://retail.economictimes.indiatimes.com/news/apparel-fashion/apparel/welspun-living-q2-revenue-rises-16-9-pc-to-rs-2870-crore-achieves-net-cash-position/135355113?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etretail_news_2026-10-31&dt=2026-10-31",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Indo Count Delivers Record Q1 Revenue Of Rs 1,224 Crore - Textile Insights",
+   "url": "https://textileinsights.in/indo-count-delivers-record-q1-revenue-of-rs-1224-crore/#respond",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 12,2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/146256#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "• Comfortable financial risk profile: The financial risk profile should remain supported by controlled reliance on external debt...",
+   "url": "https://integraliq.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Golden%20Texo%20Fabs%20Private%20Limited-RU-05-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 83 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

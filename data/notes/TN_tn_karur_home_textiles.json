@@ -1,0 +1,158 @@
+{
+ "key": "tn_karur|home_textiles",
+ "state": "TN",
+ "city": "tn_karur",
+ "ind": "home_textiles",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Karur home-textile converters with verified export order books and tight working-capital control; avoid leveraged capacity-adders and pure domestic traders until GST collections in Tamil Nadu turn.",
+ "title": "Karur home textiles & made-ups: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nKarur runs on cotton yarn in, terry towels and bedsheets out, sold largely to export buyers and some domestic branded programmes. Cash is made in conversion margin — yarn cost plus weaving, dyeing, stitching, power and labour — and the spread is thin, so the whole game is utilisation and yarn buying. So when a proposal lands, check the receivable ageing by buyer and the yarn inventory days first; if receivables are stretching beyond the stated credit terms, ask which buyer and why before you look at anything else.",
+  "## What has changed now\nLocal reporting says Karur exports have stalled while production costs surge amid supply-chain disruption [3], and a second local piece describes the hub facing rising production costs [2]. Both are local trade press, not audited data, and the March and June 2026 dates mean they are several months old. **The official data pack is the harder signal: Tamil Nadu GST collections are -3.2% Apr-to-date against India +6.1% [D].** That is a state-level stress marker, and it is why the data-based call is Caution at 60 [D]. Note the split: national IIP for NIC 13 is +13.1% YoY and +11.9% Apr-to-date [D], so the all-India textile output picture is fine while the Tamil Nadu tax base is not. Treat Karur as a local soft spot inside a firm national market.",
+  "## Where the growth is\nPeer results show the money is in organised, branded and export-linked players: Welspun Living Q2 FY27 revenue rose 16.9% to Rs 2,870 crore with home textile exports up 18.3% and domestic up 28.2% [6], and its Q1 FY27 global B2B innovation products grew 16% to Rs 638 crore [4]. Indo Count posted record Q1 FY27 revenue of Rs 1,224 crore at 13.1% EBITDA margin [7]. **Pursue Karur converters who supply these organised buyers or hold their own export accounts with repeat orders.** Avoid pure domestic traders with no buyer concentration data and any unit adding looms on debt while its own sales are flat.",
+  "## How to grow safely\nStructure as cash credit against receivables and inventory with a drawing power you recompute monthly, plus a term loan only where the capex is already backed by a named buyer order. **Take the stock-and-receivable statement every month, and the export realisation statement every month** — in this cycle the bank's safety is in the realisation, not the invoice. Ask for the buyer-wise sales register quarterly and the GST return monthly; if GST turnover falls below the bank statement turnover, ask for the reconciliation before renewing.",
+  "## Early-warning signs\n- **Receivable days rising while sales are flat** — ask for the buyer-wise ageing and stop enhancing limits. - **Yarn inventory building without matching orders** — ask for the order book and cut drawing power. - **Export realisations lagging invoice dates** — ask which buyer and whether the shipping bill is discounted elsewhere. - **GST turnover trailing bank credits** — ask for the reconciliation and hold renewal."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-receivable statement",
+   "Receivable days stretch beyond stated terms -> freeze limit enhancement and seek buyer-wise ageing"
+  ],
+  [
+   "Monthly GST return vs bank statement",
+   "GST turnover below bank credits -> ask for reconciliation before renewal"
+  ],
+  [
+   "Monthly export realisation statement",
+   "Realisation lagging invoice date -> ask which buyer and check for bill discounting elsewhere"
+  ],
+  [
+   "Quarterly buyer-wise sales register",
+   "Top-buyer concentration rising above comfort -> ask for the buyer's payment record and reduce exposure"
+  ],
+  [
+   "Monthly yarn inventory days",
+   "Inventory building without matching order book -> cut drawing power"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Karur export stall and cost surge locally, with Tamil Nadu GST at -3.2% versus India +6.1%.",
+ "articles": [
+  {
+   "title": "ATLAS EXPORT ENTERPRISES的动态",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7477680973875249153",
+   "date": "2026-06-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Karur textile hub faces global headwinds and rising production costs",
+   "url": "https://www.textiletradebuddy.com/resources/market-news/karur-textile-hub-faces-global-headwinds-and-rising-production-costs",
+   "date": "2026-06-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "India: Karur home textile exports stall, as costs surge amid ongoing supply chain disruption - Business and Human Rights Centre",
+   "url": "https://www.business-humanrights.org/en/latest-news/india-karur-home-textile-exports-stall-as-costs-surge-amid-ongoing-supply-chain-disruption/",
+   "date": "2026-03-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Welspun Living Q1 FY27 slides: revenue surges 24%, margins expand By Investing.com - Welspun Living Q1 FY27 slides: revenue surges 24%, margins expand",
+   "url": "https://www.investing.com/news/company-news/welspun-living-q1-fy27-slides-revenue-surges-24-margins-expand-93CH-4857940#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Iris Clothings Ltd (NSE:IRISDOREME) (Q2 2027) Earnings Call Highlights: 40% Revenue Surge, ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/iris-clothings-ltd-nse-irisdoreme-110513986.html",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Welspun Living Q2 revenue rises 16.9 pc to Rs 2,870 crore, achieves net-cash position",
+   "url": "https://retail.economictimes.indiatimes.com/news/apparel-fashion/apparel/welspun-living-q2-revenue-rises-16-9-pc-to-rs-2870-crore-achieves-net-cash-position/135355113?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etretail_news_2026-10-31&dt=2026-10-31",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Indo Count Delivers Record Q1 Revenue Of Rs 1,224 Crore - Textile Insights",
+   "url": "https://textileinsights.in/indo-count-delivers-record-q1-revenue-of-rs-1224-crore/#respond",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 12,2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/146256#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "• Comfortable financial risk profile: The financial risk profile should remain supported by controlled reliance on external debt...",
+   "url": "https://integraliq.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Golden%20Texo%20Fabs%20Private%20Limited-RU-05-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 83 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
