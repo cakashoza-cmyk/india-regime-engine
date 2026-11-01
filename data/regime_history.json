@@ -174,5 +174,27 @@
     },
     "check_back_date": "2026-12-01",
     "outcome": null
+  },
+  {
+    "generated_at_ist": "2026-11-01 13:03 IST",
+    "run_id": "20261101T130252-a0633e",
+    "regime_label": "Stagflation",
+    "sub_label": "transitional",
+    "stage": 0,
+    "scores": {
+      "growth": -0.5,
+      "inflation": -1,
+      "liquidity": -0.2,
+      "vote": 0,
+      "fragility": -1
+    },
+    "position": {
+      "action": "wait",
+      "size": 0.0,
+      "reason": "invalidation triggered",
+      "paper": true
+    },
+    "check_back_date": "2026-12-01",
+    "outcome": null
   }
 ]

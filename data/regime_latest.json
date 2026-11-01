@@ -1,21 +1,21 @@
 {
-  "generated_at_ist": "2026-11-01 13:02 IST",
-  "run_id": "20261101T125933-2667df",
+  "generated_at_ist": "2026-11-01 13:03 IST",
+  "run_id": "20261101T130252-a0633e",
   "snapshot_date": "2026-11-01",
   "regime_label": "Stagflation",
-  "sub_label": "confirmed",
+  "sub_label": "transitional",
   "stage": 0,
   "scores": {
     "growth": -0.5,
     "inflation": -1,
-    "liquidity": -0.3,
+    "liquidity": -0.2,
     "vote": 0,
     "fragility": -1
   },
   "tier1_flips": 1,
   "tier2_confirmed": false,
   "gap_description": "Macro Stagflation and market vote (+0.00) agree \u2014 no gap left to harvest.",
-  "sizing_recommendation": "[PAPER] WAIT size 0.00 (invalidation triggered); sleeve: Risk-Off (Mixed, confirmed, fragility rising).",
+  "sizing_recommendation": "[PAPER] WAIT size 0.00 (invalidation triggered); sleeve: Risk-Off (Strong, transitional, fragility rising).",
   "invalidation_conditions": [
     {
       "indicator": "capacity_util",
@@ -46,14 +46,14 @@
     "dial_labels": {
       "growth": "Falling",
       "inflation": "Rising",
-      "liquidity": "Unclear",
+      "liquidity": "Expanding",
       "liquidity_hard": false
     },
     "rbi_stance": "tightening",
     "quadrant": "Stagflation",
     "sleeve": "Risk-Off",
-    "conviction": "Mixed",
-    "confirmation": "confirmed",
+    "conviction": "Strong",
+    "confirmation": "transitional",
     "coverage": 0.95,
     "change": "no change",
     "liq_signals": {
@@ -61,41 +61,41 @@
       "us10y": "exp",
       "dxy": "exp",
       "usdinr_ref": "unknown",
-      "india10y": "con",
+      "india10y": "unknown",
       "repo_rate": "con",
       "fii_net": "exp"
     },
     "n_indicators": 18,
     "classify_regime": {
       "regime": "Stagflation",
-      "sub_label": "confirmed",
-      "confidence": "high",
-      "liquidity_modifier": "contracting",
-      "liquidity_state": "contracting (fighting)",
-      "full_label": "Stagflation (confirmed) with contracting liquidity (central bank fighting)",
-      "action": "full playbook",
+      "sub_label": "transitional",
+      "confidence": "medium_high",
+      "liquidity_modifier": "neutral_behind_curve",
+      "liquidity_state": "neutral, central bank behind the curve",
+      "full_label": "Stagflation (transitional) with neutral liquidity (central bank behind curve)",
+      "action": "preserve capital, watch for confirmation",
       "diagnostics": {
-        "dials_pointing": 3,
+        "dials_pointing": 2,
         "max_strength": 1.0,
         "margins": {
           "growth": 0.2,
           "inflation": 0.7,
-          "liquidity": 0.0
+          "liquidity": -0.1
         },
         "checks": {
           "growth_pointing": true,
           "inflation_pointing": true,
-          "liquidity_pointing": true
+          "liquidity_pointing": false
         },
-        "all_checks_passed": true,
+        "all_checks_passed": false,
         "rbi_driver_inflation": true,
-        "rates_biting_signals": 4
+        "rates_biting_signals": 3
       }
     },
-    "full_label": "Stagflation (confirmed) with contracting liquidity (central bank fighting)",
-    "liquidity_state": "contracting (fighting)",
-    "confidence": "high",
-    "action_text": "full playbook",
+    "full_label": "Stagflation (transitional) with neutral liquidity (central bank behind curve)",
+    "liquidity_state": "neutral, central bank behind the curve",
+    "confidence": "medium_high",
+    "action_text": "preserve capital, watch for confirmation",
     "stage_trail": [
       {
         "gate": 1,
@@ -116,7 +116,7 @@
       },
       {
         "indicator": "india10y",
-        "current_value": 7.412,
+        "current_value": 7.3977,
         "flip_level": 7.25,
         "flip_direction": "below",
         "is_flipped": false,
@@ -181,13 +181,13 @@
     "regime_changes": {
       "currency": 0.0,
       "growth": -0.5,
-      "rates": 1.0,
-      "funding_cost": 1.0,
+      "rates": 0.5,
+      "funding_cost": 0.5,
       "credit_growth": -1.0,
       "credit_level": 1.0,
       "credit_direction": -1.0,
       "asset_quality": 0.0,
-      "liquidity": -0.3,
+      "liquidity": -0.2,
       "commodities": 1.0,
       "inflation": 1.0,
       "risk_off": 1.0
@@ -203,7 +203,7 @@
         "impacts": {
           "credit_level": 0.8,
           "asset_quality": 0.0,
-          "rates": -0.4
+          "rates": -0.2
         },
         "verdict": "own",
         "why": "Credit growth level is the biggest mover and it helps this sector (+0.80).",
@@ -230,7 +230,7 @@
         "impacts": {
           "currency": 0.0,
           "growth": -0.15,
-          "rates": 0.1
+          "rates": 0.05
         },
         "verdict": "avoid",
         "why": "Growth is the biggest mover and it hurts this sector (-0.15)."
@@ -238,36 +238,36 @@
       {
         "sector": "AUTOS",
         "marginal_driver": "rates",
-        "impact": -0.9,
+        "impact": -0.45,
         "impacts": {
-          "rates": -0.9,
+          "rates": -0.45,
           "growth": -0.3,
           "commodities": -0.3
         },
         "verdict": "avoid",
-        "why": "Rates (repo + 10y) is the biggest mover and it hurts this sector (-0.90)."
+        "why": "Rates (repo + 10Y) is the biggest mover and it hurts this sector (-0.45)."
       },
       {
         "sector": "REAL_ESTATE",
         "marginal_driver": "rates",
-        "impact": -1.0,
+        "impact": -0.5,
         "impacts": {
-          "rates": -1.0,
-          "liquidity": 0.21
+          "rates": -0.5,
+          "liquidity": 0.14
         },
         "verdict": "avoid",
-        "why": "Rates (repo + 10y) is the biggest mover and it hurts this sector (-1.00)."
+        "why": "Rates (repo + 10Y) is the biggest mover and it hurts this sector (-0.50)."
       },
       {
         "sector": "NBFC",
         "marginal_driver": "funding_cost",
-        "impact": -1.0,
+        "impact": -0.5,
         "impacts": {
-          "funding_cost": -1.0,
-          "liquidity": 0.24
+          "funding_cost": -0.5,
+          "liquidity": 0.16
         },
         "verdict": "avoid",
-        "why": "Funding cost is the biggest mover and it hurts this sector (-1.00)."
+        "why": "Funding cost is the biggest mover and it hurts this sector (-0.50)."
       }
     ],
     "position": {
@@ -278,7 +278,7 @@
     },
     "sleeve_view": {
       "action": "PROCEED",
-      "text": "Risk-Off (Mixed, confirmed, fragility rising).",
+      "text": "Risk-Off (Strong, transitional, fragility rising).",
       "own": [
         "Cash/short-duration",
         "Gold",
@@ -293,7 +293,7 @@
     "paper_label": "PAPER / FOR REVIEW \u2014 not a live trade instruction (backtests showed no confirmed edge).",
     "check_back_date": "2026-12-01",
     "fragility_level": 1.0,
-    "gap_conviction": 0.6
+    "gap_conviction": 1.0
   },
   "indicators": [
     {
@@ -435,21 +435,22 @@
     {
       "indicator": "india10y",
       "dial": "liquidity",
-      "value": 7.412,
-      "prior_value": 7.387,
-      "direction": 1,
-      "score": -1,
+      "value": 7.3977,
+      "prior_value": null,
+      "direction": 0,
+      "score": 0,
       "weight": 1,
       "as_of": "2026-10-30",
       "is_stale": false,
       "stale_since": null,
-      "source": "investing",
-      "source_url": "https://www.investing.com/rates-bonds/india-10-year-bond-yield",
+      "source": "ccil",
+      "source_url": "https://www.ccilindia.com/tenorwise-indicative-yields",
       "status": "verified",
       "checks": [
-        "cross-check tradingeconomics=7.4 within 0.05"
+        "cross-check investing=7.412 within 0.05",
+        "official source"
       ],
-      "note": null
+      "note": "CCIL tenor-wise indicative yield, 9Y-10Y benchmark 6.94% GS 2036"
     },
     {
       "indicator": "fii_net",
@@ -916,8 +917,8 @@
     {
       "indicator": "india10y",
       "source": "ccil headless",
-      "ok": false,
-      "error": "ccil: Command '['google-chrome', '--headless=new', '--no-sandbox', '--disable-gpu', '--virtual-time-budget=20000', '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36', '--dump-dom', 'https://www.ccilindia.com/tenorwise-indicative-yields']' timed out after 120 seconds"
+      "ok": true,
+      "error": null
     },
     {
       "indicator": "rbi_stance",
@@ -1000,7 +1001,7 @@
   ],
   "alert": {
     "sent": [],
-    "text": "Macro Regime Engine\nInvalidation triggered: Capacity utilisation > 75%\nSource failures (stale carried): india10y\n[PAPER] WAIT size 0.00 (invalidation triggered); sleeve: Risk-Off (Mixed, confirmed, fragility rising).",
+    "text": "Macro Regime Engine\nInvalidation triggered: Capacity utilisation > 75%\n[PAPER] WAIT size 0.00 (invalidation triggered); sleeve: Risk-Off (Strong, transitional, fragility rising).",
     "note": "skipped: no TELEGRAM_*/SMTP_* secrets"
   }
 }
