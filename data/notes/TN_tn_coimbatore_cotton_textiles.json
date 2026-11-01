@@ -1,0 +1,154 @@
+{
+ "key": "tn_coimbatore|cotton_textiles",
+ "state": "TN",
+ "city": "tn_coimbatore",
+ "ind": "cotton_textiles",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:20 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to integrated, low-leverage Coimbatore spinners with firm order books; avoid stand-alone mills with thin buffers and opaque labour.",
+ "title": "Coimbatore Cotton Spinning & Yarn: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Coimbatore spinning mill buys cotton, converts it into yarn, and sells to weavers, knitters and traders; cash is made or lost on the spread between cotton cost and yarn realisation.** Cotton is the dominant input, so the import duty exemption on cotton extended to Dec 31 [3] directly changes the landed cost of the raw material and therefore the mill's margin. The business is fixed-capital and working-capital intensive, and funding requirements are typically high [8]. So when a proposal lands, check the cotton procurement strategy first; if the mill buys largely on spot without a stated hedge or inventory policy, ask how it protects the spread when cotton moves.\n\n## Where value and cash sit\n**Value sits in procurement and in the customer mix, not in the spindle count.** Efficient cotton procurement distinguishes the profitable mills [11], and a diversified customer base limits counterparty risk because one slow payer stretches the whole working-capital cycle [11]. Leverage and debt tenure decide who survives a downturn: low leverage keeps fixed financing costs down and longer-tenure term debt covers better [10]. So when a proposal lands, check the top-customer share and the receivables ageing; if one buyer is a large share of revenue and paying late, ask for the buyer's payment record and re-size the drawing power.\n\n## What has changed now\n**The local signal is weaker than the national one: Tamil Nadu GST collections are -3.2% Apr-to-date against India +6.1%, 9.3 pp slower [D].** Nationally, IIP NIC 13 output is +13.1% YoY and +11.9% Apr-to-date, while bank credit is +15.2% YoY, a gap of +3.3 pp over output [D]. Peer results are mixed: Nitin Spinners reported record quarterly revenue of Rs. 875 crores, up 10.3% YoY, with EBITDA margin at 17.78% [4][6], while Sportking India's Q1FY26 revenue was Rs. 585.8 crore, down 7.6% YoY, with EBITDA margin at 12.0% [5]. Locally, bonus payment is under way in Coimbatore and Tiruppur and is likely to be over by November 5 [1][2], and Tiruppur industry leaders have spoken of a slowdown in orders [1][2]. Note the rating sources [8][9][10][11] are old methodology papers, not current issuer views.\n\n## Who to pursue, and how to grow safely\n**Pursue integrated mills that spin and convert, because integration absorbs raw-material volatility that stand-alone yarn players cannot [7].** Avoid stand-alone spinners with high leverage and a single large buyer. Structure term debt to match the asset life, since tenure drives coverage [10], and take monthly stock-and-receivables statements, monthly sales registers, and quarterly GST returns. If monthly GST turnover falls below the prior quarter's run-rate, ask for the order book and hold fresh limits.\n\n## Early-warning signs\n**Watch the local GST trend, the cotton cost after Dec 31, and bonus-related cash outflow.** If Tamil Nadu GST stays negative versus India [D], tighten. If the cotton duty exemption lapses after Dec 31 [3], re-test margins. If bonus payment slips past November 5 [1][2], ask about labour cash stress. Collect from customer: current order book, cotton inventory days, and buyer-wise receivables."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns (monthly)",
+   "Turnover below prior-quarter run-rate -> hold fresh limits and seek order book"
+  ],
+  [
+   "Cotton landed cost (monthly)",
+   "Cost rises after Dec 31 duty deadline -> re-run margin and re-price limits"
+  ],
+  [
+   "Receivables ageing (monthly)",
+   "Top buyer past due beyond agreed terms -> cut drawing power"
+  ],
+  [
+   "Bonus disbursement (weekly to Nov 5)",
+   "Payment slips past Nov 5 -> ask about labour cash stress"
+  ],
+  [
+   "IIP NIC 13 and TN GST (monthly)",
+   "TN GST stays negative vs India -> tighten new sanctions"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "TN GST -3.2% vs India +6.1%; Tiruppur order slowdown flagged.",
+ "articles": [
+  {
+   "title": "Bonus payment under way in Coimbatore, Tiruppur districts",
+   "url": "https://www.thehindu.com/news/cities/Coimbatore/bonus-payment-under-way-in-coimbatore-tiruppur-districts/article71650346.ece",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Bonus payments commence for textile and engineering workers in Coimbatore and Tiruppur",
+   "url": "https://www.mirrornow.in/coimbatore-news/coimbatore-tiruppur-textile-engineering-bonus-payments-article-156448421",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "SIMA hails extension of cotton import duty exemption till Dec 31",
+   "url": "https://timesofindia.indiatimes.com/city/coimbatore/sima-hails-extension-of-cotton-import-duty-exemption-till-dec-31/articleshow/135402923.cms",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Nitin Spinners Ltd (BOM:532698) (Q1 2027) Earnings Call Highlights: Record Revenue and Margin ... By GuruFocus - Nitin Spinners Ltd (BOM:532698) (Q1 2027) Earnings Call Highlights: Record Revenue and Margin ...",
+   "url": "https://ca.investing.com/news/company-news/nitin-spinners-ltd-bom532698-q1-2027-earnings-call-highlights-record-revenue-and-margin--4802312#1",
+   "date": "2026-08-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SPORTKING INDIA LTD. : Latest Quarterly Results Analysis - ICICI Direct - Skip to main content",
+   "url": "https://icicidirect.com/research/equity/rapid-results/sportking-india-ltd#1",
+   "date": "2026-02-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1720408&opt=RAN&secid=3&subsecid=110&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SUTLEJ TEXTILES AND INDUSTRIES LIMITED",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6800496d-cf48-457f-b0bc-8d6de41e4853.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Criteria for the Cotton Textile Industry",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/consumer-discretionary/archive/CRISIL-Ratings-crieria-cotton-textile-industry_2007.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 83 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,158 @@
+{
+ "key": "tn_hosur|auto_components",
+ "state": "TN",
+ "city": "tn_hosur",
+ "ind": "auto_components",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:18 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Hosur auto components, but only to tier-1/tier-2 suppliers with pass-through pricing and tight monthly monitoring; avoid small single-OEM, EV-transition-exposed job workers.",
+ "title": "Hosur Auto & Auto Components: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nHosur is a tier-1/tier-2 auto-component cluster feeding OEMs; the business converts metal, aluminium and plastics into parts on job-work and supply contracts, and cash turns on OEM schedules and payment cycles. **Value sits in design complexity and OEM approval, not in the machine.** ICRA notes that complex parts like diesel fuel injection systems carry high design complexity that strengthens pricing power [11], while engine-linked parts face obsolescence risk as EVs spread [11]. So when a proposal lands, check what part they make and whether it is powertrain-agnostic; if it is engine-specific, ask for the EV transition plan and customer diversification.",
+  "## Where cash and value sit\n**Working capital is the real risk, not the P&L.** Gross current assets averaged 160-170 days in recent years for a Coimbatore auto-component peer [10], and rating discipline flags Debt/EBITDA above 2.5-2.75 times as a stress point [10]. Margins are being squeezed by input costs: ASK Automotive reported record revenue but aluminium squeezed margins [5], and Elara expects Q4FY26 auto EBITDA growth of about 21% with rising commodity risks [6]. So when a proposal lands, check the commodity pass-through clause in the OEM contract; if there is none, ask for the last four quarters' gross margin trend.",
+  "## What has changed now\n**National demand is strong but credit is running ahead of output.** IIP for NIC 29 is +25.2% YoY and +19.2% Apr-to-date [D], while bank credit is +27.0% YoY against output of +19.2%, a gap of +7.8 pp [D]. Tamil Nadu GST collections are -3.2% Apr-to-date against India's +6.1%, 9.3 pp slower [D] — a local stress signal. Peer results are healthy: Motherson Sumi Q2 net profit rose 35% to Rs 223 crore on revenue growth of 46.7% to Rs 4,054 crore [4], and Lumax Auto beat Q2 2026 estimates and lifted its outlook [7]. **The cluster is growing, but the state's tax collections say the local base is uneven.**",
+  "## Where to grow, and how to grow safely\n**Pursue tier-1 and tier-2 suppliers with multi-OEM order books and EV-component wins.** ASK Automotive's order wins include EV components across braking and aluminium lightweighting [5], and Pavna Industries has completed a new Hosur plant with assembly shifting from Aligarh by end-2026 [3] — that is real local capex to finance. Avoid single-customer job workers and engine-only part makers [11]. Structure with monthly stock and debtor statements, a commodity pass-through covenant, and a Debt/EBITDA cap of 2.5-2.75 times [10]. Take monthly GST returns, OEM payment advices and a 160-170 day gross current asset benchmark [10].",
+  "## Early-warning signs\n- **Debtor days stretching beyond the 160-170 day gross current asset norm [10] (monthly) -> ask for OEM payment advices and reprice or reduce limit.**\n- **GST collections in Tamil Nadu staying negative against India [D] (monthly) -> tighten new-to-bank exposure in the cluster.**\n- **Aluminium or steel input cost spike without a pass-through clause [5][6] (quarterly) -> seek margin support or additional collateral.**\n- **Customer concentration above half of revenue in one OEM [11] (annual) -> require diversification plan before enhancement.**"
+ ],
+ "watch": [
+  [
+   "Monthly GST returns and debtor ageing",
+   "Debtor days beyond 160-170 days [10] -> ask for OEM payment advices, reprice or cut limit"
+  ],
+  [
+   "Monthly Tamil Nadu GST collection trend",
+   "State GST stays negative vs India [D] -> slow new-to-bank sanctions in the cluster"
+  ],
+  [
+   "Quarterly gross margin and input cost",
+   "Aluminium/steel cost rise without pass-through [5][6] -> seek margin support or collateral"
+  ],
+  [
+   "Annual customer concentration",
+   "One OEM above half of revenue [11] -> require diversification plan before enhancement"
+  ],
+  [
+   "Monthly stock statement",
+   "Inventory build beyond 160-170 day gross current asset norm [10] -> inspect stock, reduce drawing power"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Tamil Nadu GST -3.2% vs India +6.1% signals local demand stress despite strong national output.",
+ "articles": [
+  {
+   "title": "New & Upcoming Projects in Automotive Industries Projects in India - Page 119",
+   "url": "https://newprojectstracker.com/projects-india/automotive-industries?page=119",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Cheque Bounce (Section 138) and Recovery Courts in Hosur",
+   "url": "https://www.fundraksha.com/reference/section-138-courts-hosur",
+   "date": "2026-10-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Pavna Industries Completes New Hosur Manufacturing Plant",
+   "url": "https://www.globalautoinsight.com/news/pavna-industries-hosur-manufacturing-plant-assembly-shift",
+   "date": "2026-09-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 100 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

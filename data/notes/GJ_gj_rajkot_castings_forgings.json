@@ -1,0 +1,158 @@
+{
+ "key": "gj_rajkot|castings_forgings",
+ "state": "GJ",
+ "city": "gj_rajkot",
+ "ind": "castings_forgings",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:19 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 57,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Rajkot castings and forgings units with export order books and conservative gearing; avoid single-customer CV-dependent units with weak balance sheets.",
+ "title": "Rajkot Castings & Forgings: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Rajkot foundry melts scrap and ingots, pours them into moulds, machines the casting or forging, and sells to auto, CV, tractor and industrial buyers.** Cash comes in only after the buyer accepts the lot, so the unit funds scrap inventory, furnace power, wages and machining before a rupee returns. **Power and scrap are the two big cost lines and neither is priced by the borrower** — so when a proposal lands, check the power tariff contract and the scrap sourcing arrangement before anything else.",
+  "## Where value and cash actually sit\n**Value sits in the machining and finishing step, not in raw pouring** — a unit that only pours competes on price and earns thin margins. Peer evidence: Nelcast reported revenue of Rs 335 crore in Q2FY25 against Rs 362.6 crore in Q2FY24, with topline muted on subdued domestic and export CV demand [4]. **Margins improve when raw material softens, not when volumes rise** — one peer's OPM rose to 8.4% in FY2025 from 7.5% in FY2024 on softening raw material prices even as revenue fell about 2% [11]. So when a proposal lands, check whether the margin story is volume-led or input-price-led; if it is input-led, ask what happens when scrap turns.",
+  "## What has changed now\n**The national picture is soft but not broken: IIP for NIC 24 output is +2.4% YoY and +3.4% Apr-to-date [D].** Gujarat is running ahead of India on collections — GST +11.9% Apr-to-date versus India +6.1% [D] — and electricity demand +11.0% versus India +9.5% [D], which tells us local activity is holding. **The peer set is split, and that split is the credit story.** Ramkrishna Forgings grew revenue 54.9% YoY to Rs 1,405 crore in Q2 FY27 with EBITDA margin at 18.23% and Rs 673 crore of new orders [6]; Happy Forgings carries an order book of nearly Rs 950 crore to be executed over the next 2-3 years, about 60% export [5]. Against that, Nelcast's CV-linked topline stayed muted [4]. **The local sources say little about Rajkot's own order books** — the Castings & Foundries Expo India is scheduled at NSIC Ground, Rajkot, from Nov 25-28, 2026 [1], and that is essentially all we have; treat first principles and peers as the base. Note also that a Rajkot-focused NPA and loan-settlement advisory page exists [2] — a reminder that stressed units in this cluster are already being worked out.",
+  "## Who to pursue now, and how to grow safely\n**Pursue the export-order and non-CV industrial borrower, and the machining-integrated unit.** Ask for the order book split between export and domestic CV; if export is the majority, ask for the buyer-wise ageing and the forex cover. **Structure to the working-capital cycle, not to the furnace capacity** — cash credit against stock and book debts, with a clear drawing-power formula on accepted receivables. **Take every month: stock-and-debt statement, power bill, and the top-five buyer sales register.** Covenant on gearing and interest coverage; a peer with gearing close to nil and TOL/TNW at 0.3 times shows what a strong balance sheet in this trade looks like [8]. **Avoid the single-customer CV-dependent unit and the borrower whose only edge is price** — Nelcast's muted CV topline [4] is the warning. Where a rating exists, read it: Simplex Castings carries Crisil BB/Stable with Rs 72 crore of rated bank facilities [9], and Arcvac Forgecast's Total Debt/GCA improved from 3.49x in FY22 to 1.56x in FY23 with no planned debt-funded capex near term [10] — that is the shape of a lendable file.",
+  "## Early-warning signs\n**Watch receivable days against the buyer mix, monthly.** If export receivables stretch while domestic CV orders fall, cut drawing power before the quarter closes. **Watch power cost per tonne and furnace running hours** — a unit running fewer hours than stated capacity is losing orders, not saving cost. **Watch for a shift from machined to raw casting sales** — that is margin walking out of the door. **Watch any request to fund capacity expansion while the existing order book is flat** — the Arcvac file shows expansion is fine when debt is not funding it [10]."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-debt statement",
+   "Receivable days rise beyond the sanctioned cycle -> reduce drawing power and ask for buyer-wise ageing"
+  ],
+  [
+   "Monthly power bill and running hours",
+   "Furnace hours fall below stated capacity for two months -> ask for order book and visit the unit"
+  ],
+  [
+   "Quarterly sales mix",
+   "Machined share falls and raw casting share rises -> reprice the limit and tighten margin covenant"
+  ],
+  [
+   "Monthly top-five buyer register",
+   "Single buyer crosses a concentration threshold -> seek additional collateral or a buyer diversification plan"
+  ],
+  [
+   "Quarterly gearing and interest coverage",
+   "Gearing rises or coverage falls below covenant -> freeze fresh limits and restructure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Gujarat GST and power demand ahead of India; peer results split between export-led growth and muted CV demand.",
+ "articles": [
+  {
+   "title": "Castings & Foundries Expo India - Visitexpo",
+   "url": "https://visitexpo.in/event/castings-foundries-expo-india/#event_comments",
+   "date": "2026-10-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Rajkot — NPA & loan settlement hub",
+   "url": "https://npaexperts.in/districts/rajkot",
+   "date": "2026-07-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Trade shows in Rajkot 2026-2027",
+   "url": "https://exposale.net/en/exhibitions/all/all/1211",
+   "date": "2026-07-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "NELCAST LTD. : Latest Quarterly Results Analysis - ICICI Direct - Skip to main content",
+   "url": "https://www.icicidirect.com/research/equity/rapid-results/nelcast-ltd#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Happy Forgings’ Order Book Enhances Growth Outlook as Margins Improve - By Ventura Research Team 2 min Read Sep 17, 2026",
+   "url": "https://www.venturasecurities.com/news/stocks/happy-forgings-order-book-enhances-growth-outlook-as-margins-improve/#ventura-main-content#1",
+   "date": "2026-09-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ramkrishna Forgings Ltd (BOM:532527) (Q2 2027) Earnings Call Hig",
+   "url": "https://www.gurufocus.com/news/9160545/ramkrishna-forgings-ltd-bom532527-q2-2027-earnings-call-highlights-revenue-surges-549-yoy-to-rs-1405-crore-as-margins-expand-and-new-orders-pour-in",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Happy Forgings Reports Robust Q4 And FY26 Results - Happy Forgings Limited reported audited consolidated results for the quarter and year ended 31 March 2026, recording strong volu...",
+   "url": "https://www.constructionworld.in/policy-updates-and-economic-news/happy-forgings-reports-robust-q4-and-fy26-results/92151#book-a-table#1",
+   "date": "2026-05-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "April 16, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=142396#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update June 26, 2026 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Simplex%20Castings%20Limited-RU-26-06-2026.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202305130513_Arcvac_Forgecast_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 15, 2025 (Revised)",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=139614#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 57 (national 45 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Gujarat: electricity demand +11.0% Apr-to-date vs India +9.5% (1.5 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +3.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

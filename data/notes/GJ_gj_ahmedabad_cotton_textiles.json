@@ -1,0 +1,150 @@
+{
+ "key": "gj_ahmedabad|cotton_textiles",
+ "state": "GJ",
+ "city": "gj_ahmedabad",
+ "ind": "cotton_textiles",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:20 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Ahmedabad cotton spinning, but only to spinners with export order books and low leverage; avoid weaving and processing units running at 50% capacity.",
+ "title": "Ahmedabad Cotton Spinning & Yarn: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A spinning mill buys cotton and cotton yarn, runs it through spindles, and sells yarn to weavers, processors and exporters; cash comes back only after the yarn is sold and the buyer pays.** The value sits in the spread between cotton cost and yarn realisation, and in how much working capital is tied up in cotton and yarn inventory plus receivables [9]. Capex is heavy and fixed, so leverage and term-debt tenure decide who survives a downturn [8][10]. **So when a proposal lands, check the cotton-to-yarn spread and the inventory-plus-receivable days first; if the spread is thin and inventory days are long, ask how the unit funds the cotton peak.**\n\n## What has broken in Ahmedabad now\n**Local reporting is blunt: Ahmedabad weaving and processing units are running at around 50% capacity, some closing one or two days a week, with processing charges raised only about 5% to 7% against sharply higher cotton, yarn, coal and chemical costs [2].** Traders are restricting purchases for fear of holding high-cost inventory, and cotton yarn is short because spinning units have higher export commitments [2]. Ahmedabad and surrounding areas have around 200 weaving units [2]. **So when a weaving or processing proposal lands, check capacity utilisation and weekly closure days; if the unit is at 50% or shutting days, ask for the order book and decline unless there is a strong export buyer.** Note these local reports are from June 2026, five months old.\n\n## Where the growth is\n**The data pack is positive on the macro: Gujarat GST collections are up 11.9% Apr-to-date against India's 6.1%, and IIP NIC 13 output is up 13.1% YoY [D].** Peer results confirm the split: Nitin Spinners posted record quarterly revenue of Rs. 875 crores, up 10.3% YoY, with EBITDA margin at 17.78% [4][6], while Sportking's revenue fell 7.6% YoY though exports rose about 18% and EBITDA margin held at 12.0% [5]. **So pursue integrated spinners with export order books and diversified customers [11]; avoid stand-alone weaving and processing units dependent on local grey-fabric demand.**\n\n## How to grow safely\n**Structure term debt to match the spindle's cash cycle, keep leverage low, and take monthly stock and receivable statements plus GST returns.** Rating methodology is clear that low leverage and longer term-debt tenure protect coverage in a downturn [8][10], and that customer concentration stretches working capital when a big buyer delays [11]. **So when a proposal lands, check top-buyer share; if one buyer is above a third of sales, ask for the receivable ageing and set a covenant on it.**\n\n## Early-warning signs\n**Watch capacity utilisation, weekly closure days, cotton inventory days and buyer concentration.** If utilisation drops below 50% or closure days rise, ask for the order book and reduce exposure [2]. If inventory days stretch while cotton prices rise, ask how the position is hedged."
+ ],
+ "watch": [
+  [
+   "Capacity utilisation (monthly)",
+   "Below 50% -> ask for order book and stop fresh limits [2]"
+  ],
+  [
+   "Inventory days (monthly)",
+   "Rising with cotton prices -> ask for hedge and reduce drawing power [9]"
+  ],
+  [
+   "Top-buyer share of sales (quarterly)",
+   "Above one-third -> covenant on receivable ageing [11]"
+  ],
+  [
+   "GST returns vs stock statement (monthly)",
+   "Mismatch -> freeze limit and inspect godown [D]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Ahmedabad weaving and processing units at 50% capacity, costs up, demand weak [2].",
+ "articles": [
+  {
+   "title": "Ahmedabad Textile Slowdown Deepens Amid Cost Pressures",
+   "url": "https://urbanacres.in/ahmedabad-textile-slowdown-deepens-amid-cost-pressures/",
+   "date": "2026-06-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Ahmedabad Textile Units at 50% Capacity Amid Rising Raw Material Costs | Manufacturing News India",
+   "url": "https://apparelresources.com/business-news/manufacturing/ahmedabad-textile-units-50-capacity-amid-rising-raw-material-costs/#respond",
+   "date": "2026-06-01",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Ahmedabad Textile Production Slows Amid Cost Pressures - Ahmedabad Textile Production Slows Amid Cost Pressures",
+   "url": "https://homesbuildings.com/ahmedabad-textile-production-slows-amid-cost-pressures/#1",
+   "date": "2026-06-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Nitin Spinners Ltd (BOM:532698) (Q1 2027) Earnings Call Highlights: Record Revenue and Margin ... By GuruFocus - Nitin Spinners Ltd (BOM:532698) (Q1 2027) Earnings Call Highlights: Record Revenue and Margin ...",
+   "url": "https://ca.investing.com/news/company-news/nitin-spinners-ltd-bom532698-q1-2027-earnings-call-highlights-record-revenue-and-margin--4802312#1",
+   "date": "2026-08-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SPORTKING INDIA LTD. : Latest Quarterly Results Analysis - ICICI Direct - Skip to main content",
+   "url": "https://icicidirect.com/research/equity/rapid-results/sportking-india-ltd#1",
+   "date": "2026-02-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1720408&opt=RAN&secid=3&subsecid=110&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SUTLEJ TEXTILES AND INDUSTRIES LIMITED",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6800496d-cf48-457f-b0bc-8d6de41e4853.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Criteria for the Cotton Textile Industry",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/consumer-discretionary/archive/CRISIL-Ratings-crieria-cotton-textile-industry_2007.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 83 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

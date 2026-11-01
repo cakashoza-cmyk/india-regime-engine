@@ -1,0 +1,150 @@
+{
+ "key": "tn_chennai|auto_components",
+ "state": "TN",
+ "city": "tn_chennai",
+ "ind": "auto_components",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:18 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": true,
+ "verdict": "Lend selectively to Chennai auto-component makers with export or non-ICE diversification; avoid single-OEM, ICE-concentrated and ride-hailing-dependent auto borrowers — OK at portfolio level, but Tamil Nadu's GST stress means structure each deal tightly.",
+ "title": "Chennai Auto & Auto Components: a note to the credit manager",
+ "narrative": [
+  "**Pricing power sits with whoever holds design complexity** — ICRA notes diesel fuel-injection makers enjoy strong pricing power from design complexity, while engine-part suppliers face higher obsolescence risk as EVs spread [11]. So when a proposal lands, check the product's design content and the OEM's dependence on it; if the part is a commodity bracket, ask what stops the OEM from re-sourcing.",
+  "## What has changed now\n**National output is running hot: IIP NIC 29 is +25.2% YoY and +19.2% Apr-to-date [D].** Chennai peers confirm it — Wheels India's Q2 FY27 revenue rose 36% to Rs 1,598 crore and net profit nearly doubled to Rs 53 crore, with exports up 30% to Rs 388 crore and US sales up about 50% [1]; Motherson Sumi Wiring profit rose 35% to Rs 223 crore on revenue up 46.7% to Rs 4,054 crore [4]. **But bank credit is growing +27.0% against output of +19.2%, a +7.8 pp gap [D]** — part of the lending is funding working capital stretch, not just volume. And **Tamil Nadu GST is -3.2% Apr-to-date against India's +6.1%, 9.3 pp slower [D]** — a genuine local stress signal. Note the local press here is thin on components; the auto-driver stories [2][3] are about ride-hailing, not manufacturing, so lean on first principles and peers.",
+  "## Where to grow\n**Pursue exporters and diversifiers.** Wheels India's US construction-equipment and data-centre demand [1] and ASK Automotive's EV component order wins and export push [5] show where the growth is. Target Chennai tier-2 suppliers with (a) export or non-ICE revenue, (b) more than one OEM customer, (c) EV-agnostic product design. **Avoid single-OEM, ICE-engine-part-concentrated units and anything tied to ride-hailing auto loans** — Chennai drivers report trips halved and fares unchanged since 2013 [2].",
+  "## How to grow safely\n**Structure against the working-capital cycle, not the P&L.** Rating work shows gross current assets averaging 160-170 days [10] and flags Debt/EBITDA above 2.5-2.75x as a red line [10]. So set the drawing power on a 160-170 day cycle, cap Debt/EBITDA at 2.5x as a covenant, and take monthly stock-and-debtor statements, monthly GST returns, and quarterly hedging confirmations — ICRA's analytical focus is on hedging policy and exposure relative to profits [8].",
+  "## Early-warning signs\n**Watch the gap between credit growth and output [D] and the state GST trend [D].** If a borrower's GST turnover falls two quarters running while its bank debt rises, cut limits. If Debt/EBITDA crosses 2.5x [10], stop fresh disbursal."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns",
+   "Two consecutive quarters of falling turnover -> freeze limit enhancement and review drawing power"
+  ],
+  [
+   "Quarterly financials",
+   "Debt/EBITDA above 2.5x [10] -> stop fresh disbursal, restructure"
+  ],
+  [
+   "Monthly bank statement",
+   "Credit growth outpacing sales for two quarters -> investigate working-capital stretch"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "TN GST -3.2% vs India +6.1% and credit-output gap +7.8 pp signal local stress despite strong output.",
+ "articles": [
+  {
+   "title": "Wheels India Projects Sustained Growth Driven by Exports and Domestic Demand",
+   "url": "https://www.mirrornow.in/chennai-news/wheels-india-growth-outlook-q2-fy27-results-article-156432376",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "\"Difficult\": Chennai Auto Drivers On Chief Minister Vijay's Free Bus Scheme - For an hour, ten auto-rickshaw drivers waiting at a stand in Chennai's Ashok Pillar area did not get a single passenger",
+   "url": "https://www.ndtv.com/india-news/chennai-auto-drivers-face-difficulty-on-chief-minister-vijays-free-bus-scheme-12187735#1",
+   "date": "2026-10-14",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "chennai autos: Latest News & Videos, Photos about chennai autos | The Economic Times - Page 1 - Business News›chennai autos",
+   "url": "https://economictimes.indiatimes.com/topic/chennai-autos#1",
+   "date": "2026-10-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 100 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

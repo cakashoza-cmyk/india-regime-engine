@@ -1,0 +1,150 @@
+{
+ "key": "up_gorakhpur|cement",
+ "state": "UP",
+ "city": "up_gorakhpur",
+ "ind": "cement",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:19 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 87,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Gorakhpur cement — back the grinding and trading units tied to GIDA and eastern-UP construction demand, structure tightly around fuel-cost pass-through and receivable discipline, and decline pure commodity clinker plays with stretched creditors.",
+ "title": "Gorakhpur Cement: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Cement here is a grinding-and-blending business that turns clinker, gypsum and fly ash into bags sold through dealers into local construction.** Cash comes in from dealer sales, often on 30-60 day terms, while fuel (pet coke, imported coal) and power are paid faster — so the working-capital cycle is a permanent cash sink. Pricing power is thin: peers show blended NSR flat QoQ as premium share offset weak cement pricing [7]. **So when a proposal lands, check the split between trade (dealer) and institutional sales; if institutional share is rising, ask why — peers are curtailing low-margin institutional volumes [7].**\n\n## What has changed now\n**Volumes are strong but margins are squeezed.** JSW Cement's Q2 FY27 cement volumes rose 39.5% YoY to 2.29 million metric tons, with North utilisation up from 55% to 75% [4]; the trade press expects strong Q2 volumes but fuel costs weighing on margins [5]. Orient Cement ran ~14% EBITDA margin at INR770 per tonne [6]. **So when a proposal lands, check the fuel-cost pass-through clause in dealer contracts; if absent, ask how the unit absorbed the last pet-coke spike.**\n\n## The Gorakhpur read\n**Local sources are political, not financial.** The CM cites GIDA as an investment hub with ~50,000 jobs over a decade and names cement factories among new industries [1][2][3] — but no plant-level output, price or capacity data for Gorakhpur exists in these sources. **Lean on first principles plus peers: treat GIDA-linked grinding units and dealer networks as the real opportunity, and collect from customer all plant-level tonnage, fuel mix and receivable days.**\n\n## How to grow safely\n**Pursue grinding units and established dealer-finance borrowers serving eastern-UP construction; avoid pure clinker traders and units with stretched creditors.** Rating reports show stressed players meeting repayments by stretching creditors and adding debt [11], and group-company exposure draining cash [10]. **Take monthly: fuel invoices, dealer ageing, and a stock-and-receivable statement; covenant a maximum institutional-sales share and a fuel-cost pass-through clause.**\n\n## Early-warning signs\n- **Dealer receivable days rising month-on-month (monthly) -> freeze fresh limits and inspect dealer stock.**\n- **Fuel cost per tonne climbing without a price revision (monthly) -> ask for the pass-through evidence or trim exposure.**\n- **Creditor days stretching beyond terms (quarterly) -> treat as a liquidity signal, per peer precedent [11].**\n- **Institutional sales share breaching covenant (monthly) -> reprice or exit.**"
+ ],
+ "watch": [
+  [
+   "Fuel cost per tonne vs price revision (monthly)",
+   "cost up, price flat -> demand pass-through proof or trim"
+  ],
+  [
+   "Creditor days (quarterly)",
+   "stretch beyond terms -> liquidity flag, reduce exposure"
+  ],
+  [
+   "Institutional sales share (monthly)",
+   "breach covenant -> reprice or exit"
+  ],
+  [
+   "Utilisation and dispatches (monthly)",
+   "fall >10% -> reassess working-capital limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Local news is political; peer volumes strong but margins under fuel-cost pressure.",
+ "articles": [
+  {
+   "title": "Uttar Pradesh CM Yogi highlights Gorakhpur’s industrial growth, 50,000 jobs created over past decade",
+   "url": "https://aninews.in/news/national/general-news/uttar-pradesh-cm-yogi-highlights-gorakhpur8217s-industrial-growth-50000-jobs-created-over-past-decade20261101220355/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Uttar Pradesh CM Yogi highlights Gorakhpur’s industrial growth, 50,000 jobs created over past decade",
+   "url": "https://tagtv.info/uttar-pradesh-cm-yogi-highlights-gorakhpurs-industrial-growth-50000-jobs-created-over-past-decade/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Yogi Adityanath cites Gorakhpur growth, 50,000 jobs over decade",
+   "url": "https://thenewsmill.com/2026/11/yogi-adityanath-cites-gorakhpurs-industrial-growth-and-50000-jobs-over-decade/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "JSW Cement Q2 FY27 slides: volume surges 26% as margins face pressure By Investing.com - JSW Cement Q2 FY27 slides: volume surges 26% as margins face pressure",
+   "url": "https://uk.investing.com/news/stock-market-news/jsw-cement-q2-fy27-slides-volume-surges-26-as-margins-face-pressure-93CH-4936080#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cement companies to see strong volumes in Q2 but fuel costs may weigh on margins - The Economic Times - Cement companies to see strong volumes in Q2 but fuel costs may weigh on margins",
+   "url": "https://m.economictimes.com/industry/indl-goods/svs/cement/cement-companies-to-see-strong-volumes-in-q2-but-fuel-costs-may-weigh-on-margins/amp_articleshow/134991581.cms#1",
+   "date": "2026-10-15",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Orient Cement Ltd (BOM:535754) (Q2 2027) Earnings Call Highlight",
+   "url": "https://www.gurufocus.com/news/9153595/orient-cement-ltd-bom535754-q2-2027-earnings-call-highlights-debtfree-balance-sheet-and-inr14500-crores-expansion-plan-to-drive-30-mtpa-growth",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Buy Ambuja Cement; target of Rs 474: Prabhudas Lilladher",
+   "url": "https://in.tradingview.com/news/moneycontrol:2afa17edd094b:0-buy-ambuja-cement-target-of-rs-474-prabhudas-lilladher/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202402130218_The_India_Cements_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "In the current fiscal as well, the players are walking on a tightrope, and they have not been able to offset the higher input co...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202304130433_Wonder%20Cement%20Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The exposure to the group companies in the form of investments and loans and advances on a standalone basis stood at 1,856 crore...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202309130936_The_India_Cements_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Furthermore, in FY22, \\(36\\%\\) of ICLs power requirement was met through CPP as against \\(60\\%\\) in FY21 and \\(66\\%\\) in FY20. I...",
+   "url": "https://nsearchives.nseindia.com/corporate/INDIACEM_09112022180736_SELetterdt09.11.2022oncreditrating.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 87 (national 95 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 23 output +11.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +18.2% YoY vs output +10.2% (gap +8.0 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
