@@ -1,6 +1,6 @@
 {
-  "generated_at_ist": "2026-11-01 13:51 IST",
-  "run_id": "20261101T134939-b6e8ae",
+  "generated_at_ist": "2026-11-01 19:13 IST",
+  "run_id": "20261101T191316-66c2d8",
   "snapshot_date": "2026-11-01",
   "regime_label": "Stagflation",
   "sub_label": "confirmed",
@@ -439,22 +439,22 @@
       "value": 113.43000030517578,
       "prior_value": 110.80000305175781,
       "direction": 1,
-      "score": -1,
+      "score": null,
       "weight": 1,
       "as_of": "2026-10-30",
       "is_stale": false,
       "stale_since": null,
       "source": "ice_contract",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
-      "status": "verified",
+      "status": "failed",
       "checks": [
-        "cross-check yahoo=113.43 within 2%"
+        "MISMATCH yahoo=117.64 vs 113.43000030517578 (tol ('rel', 0.02))"
       ],
       "note": "ICE Brent active contract (value and prior from the same contract)",
       "source_tier": "market_data",
       "data_period": "2026-10-30",
       "survey_quarter": null,
-      "diagnostics": "scored",
+      "diagnostics": "excluded: unverified (validation failed)",
       "stale_reason": null,
       "release_date": "2026-10-30"
     },
