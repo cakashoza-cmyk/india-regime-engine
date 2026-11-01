@@ -1,0 +1,158 @@
+{
+ "key": "up_meerut|sports_goods",
+ "state": "UP",
+ "city": "up_meerut",
+ "ind": "sports_goods",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:02 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 59,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to genuine, GST-compliant Meerut sports-goods makers with clean brand/IP records and tight monthly stock-and-receivable controls; avoid unbranded sticker/label assemblers and thin-margin plastic-bat units.",
+ "title": "Meerut Sports Goods: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Meerut sports goods is a cluster of small units that buy plastic, rubber, wood, leather and packaging, mould or stitch them into bats, balls and gear, and sell through dealers and distributors.** Cash turns when a dealer lifts stock and pays; value sits in finished-goods inventory and dealer receivables, not in the machines. The rating file on a comparable sports-goods maker shows inventory held ~85 days and collection period ~89 days as on March 31, 2024 [8] — so when a proposal lands, check the unit's own inventory and receivable days against these; if receivables run past 90 days, ask which dealers are stretching and why.",
+  "## Where cash and pricing power sit\n**Pricing power is thin for unbranded units and real only for those owning a brand or a licensed label.** The same rating file shows a 15-90 day credit period extended to dealers [8], and a peer's margins improved only after cost rationalisation, not price [9]. So ask for the customer-wise price list and dealer terms; if the unit cannot show a brand, licence or repeat institutional buyer, treat it as a job-worker and size the limit to inventory, not to sales.",
+  "Against it, Meerut and Jalandhar are slated to get about Rs 150 crore extra under Mission Olympics for sports goods [3] — a genuine demand tailwind, but confirm the unit's actual order linkage, not the headline. Peer results are healthy but from footwear and innerwear, not Meerut: Campus grew revenue 12.2% and volume 11.7% in Q1 FY27 [6], Page grew revenue 7.9% with net working capital days improved from 75 to 54 [5]. The rating reports are undated and old — treat them as structure benchmarks only.",
+  "## Who to pursue, and how to grow safely\n**Pursue units with own brand or licence, GST-registered sales, and Mission-Olympics or institutional order visibility [3]; avoid sticker/label assemblers and pure plastic-bat job-workers [1].** Structure limits against inventory plus receivables, take monthly stock statements, GST returns and dealer ageing, and a quarterly brand-authorisation letter. Take the unit's own inventory and collection days each month and compare to the 85 and 89 day benchmarks [8]; if either crosses 100 days, cut the drawing power.",
+  "## Early-warning signs\n**Watch for seizure or police notices on fake labelling [1], sudden dealer concentration, and receivables ageing past 90 days [8].** If a unit cannot produce brand authorisation, stop fresh disbursement. If GST sales fall while stock rises, ask for the godown list. If the promoter resists monthly stock statements, treat the limit as unsecured."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns and sales register",
+   "Sales fall while inventory rises -> freeze drawing power and inspect godown"
+  ],
+  [
+   "Monthly stock statement and inventory days",
+   "Inventory days cross 100 (vs ~85 benchmark [8]) -> reduce limit"
+  ],
+  [
+   "Monthly dealer ageing",
+   "Receivables cross 90 days (vs ~89 benchmark [8]) -> ask dealer-wise reasons, shift to cash-and-carry"
+  ],
+  [
+   "Quarterly brand/licence authorisation",
+   "No authorisation or fake-label notice [1] -> stop fresh disbursement"
+  ],
+  [
+   "Order book vs Mission Olympics linkage [3]",
+   "Orders not traceable to named buyers -> reclassify as job-worker limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Fake-sticker bat factory busted in Meerut [1] raises integrity and seizure risk for local units.",
+ "articles": [
+  {
+   "title": "फर्जी स्टीकर लगाकर बैट बनाने की फैक्ट्री का भंडाफोड़, 316 प्लास्टिक बैट और 455 पीस स्टीकर बरामद",
+   "url": "https://www.etvbharat.com/hi/state/factory-making-bats-with-fake-stickers-busted-in-meerut-ups26103106241",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ERP for Meerut Sports Goods Manufacturers — Complete Guide 2026 | ERP Group",
+   "url": "https://www.erpgroup.in/blog/erp-for-meerut-sports-goods-manufacturers",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "मिशन ओलिंपिक के लिए मेरठ व जालंधर को अतिरिक्त मिलेंगे लगभग 150 करोड़ - meerut jalandhar get 150 cr boost for olympic sports goods",
+   "url": "https://www.jagran.com/uttar-pradesh/meerut-city-meerut-jalandhar-get-150-cr-boost-for-olympic-sports-goods-40421286.html",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Campus Activewear posts strong Q1 FY27 with double-digit growth - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/campus-activewear-posts-strong-q1-fy27-with-double-digit-growth?utm_source=flipboard&utm_content=TipRanks%2Fmagazine%2FTipRanks+Labs#1",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Page Industries Q1 FY27 slides: revenue up 7.9%, margins compress By Investing.com - Page Industries Q1 FY27 slides: revenue up 7.9%, margins compress",
+   "url": "https://www.investing.com/news/company-news/page-industries-q1-fy27-slides-revenue-up-79-margins-compress-93CH-4857607#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Campus Activewear (NSE:CAMPUS) Earnings Call Transcripts - 197.00",
+   "url": "https://stockanalysis.com/quote/nse/CAMPUS/transcripts/#main#1",
+   "date": "2026-08-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Campus Activewear rises after Q4 PAT climbs 26% YoY to Rs 44 cr",
+   "url": "https://www.business-standard.com/amp/markets/capital-market-news/campus-activewear-rises-after-q4-pat-climbs-26-yoy-to-rs-44-cr-126052600459_1.html",
+   "date": "2026-05-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202411131134_Freewill_Sports_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Nivia Synthetics Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/04012021041050_Nivia_Synthetics_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "3rd October, 2025",
+   "url": "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/03102025/cceabbcc-ca2a-4a84-8f4e-f28b200fc386.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "SSGSFL has not cooperated with Credit Analysis & Research Ltd (CARE), ICRA Ltd (ICRA) and Brickwork Ratings India Pvt Ltd (Brick...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Sar%20Senapati%20Santaji%20Ghorpade%20Sugar%20Factory%20Limited-RU-03-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 59 (national 48 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Exports +32.5% Apr-to-date in USD (Rs 10,743 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.8% YoY vs output +3.8% (gap +23.0 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Uttar Pradesh: electricity demand +8.6% Apr-to-date vs India +9.5% (0.9 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
