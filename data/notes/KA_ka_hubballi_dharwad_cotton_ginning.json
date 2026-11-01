@@ -1,0 +1,126 @@
+{
+ "key": "ka_hubballi_dharwad|cotton_ginning",
+ "state": "KA",
+ "city": "ka_hubballi_dharwad",
+ "ind": "cotton_ginning",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Hubballi-Dharwad cotton ginning and pressing, but only to ginners with owned/leased pressing capacity, verified stock records and a tested buyer book; avoid pure job-work ginners and traders with thin net worth.",
+ "title": "Hubballi-Dharwad cotton ginning & pressing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA ginning and pressing unit buys seed cotton (kapas) at the mandi, separates lint from seed, bales and presses the lint, and sells to spinning mills; seed and cotton oil cake are by-products. **Cash is made on the spread between kapas cost and lint sale price, not on volume alone.** The ginning step adds little value, so the industry is fragmented with low entry barriers and competition is stiff [6]. Profitability is exposed to agro-climatic risk and to how much working capital is borrowed [8].\n\n## Where value and cash sit now\nPeer results show the split clearly: AB Cotspin's Q1 FY27 revenue rose 52.94% to Rs 102.01 crore while operating margin fell to 12.90% from 22.29% in the September 2025 quarter, so higher volume is earning thinner spreads [1][2]. Sportking India nearly doubled EBITDA margin to 19.8% in Q2 FY27 from 10.4% in Q2 FY26 on better realisations [4]. **The lesson for us: margin, not turnover, is the credit story.** Proximity to cotton-growing areas helps control logistics cost and supports margin [7].\n\n## The local picture and the growth opening\nOur sources say almost nothing about Hubballi-Dharwad itself, so lean on first principles and peers. The official data pack gives Karnataka GST collections +11.1% Apr-to-date against India +6.1%, and electricity demand +23.3% against India +9.5% [D]; India-wide cotton-linked output (NIC 13) is +13.1% YoY [D]. **Pursue ginners with captive pressing, a named mill buyer list and by-product income; avoid pure job-work units and traders.** When a proposal lands, check the buyer list and whether seed/cake sales are contracted; if the unit sells only to one or two mills, ask for the last twelve months of invoices.\n\n## How to grow safely\nStructure against stock, not against hope. Take monthly stock statements and insurance on kapas and lint, and set the drawing power on audited stock. **Take every month: stock and book-debt statements, a ginning yield report, and the sales register by buyer.** Where the unit is close to cotton areas, ask for the logistics cost line [7]. If the promoter's net worth is small and working capital is fully borrowed, size the limit to the by-product cash flow [8].\n\n## Early-warning signs\nWatch margin compression first: a fall like AB Cotspin's 22.29% to 12.90% means volume is being bought with price [1][2]. **Trigger: two quarters of falling margin with rising turnover -> cut limit and ask for buyer contracts.** Also watch stretched capital structure and high reliance on external borrowings [8], and any single-buyer concentration above the stated book [7]. Collect from customer the local kapas arrival and price data; we do not have it."
+ ],
+ "watch": [
+  [
+   "Monthly stock and book-debt statement",
+   "Stock cover falls below drawing power for two months -> freeze further drawing and inspect godown"
+  ],
+  [
+   "Quarterly margin (sales vs purchase)",
+   "Operating margin falls two quarters running -> reduce limit and seek buyer contracts"
+  ],
+  [
+   "Buyer concentration (monthly sales register)",
+   "Top buyer exceeds half of sales -> ask for diversification plan and additional collateral"
+  ],
+  [
+   "By-product realisation (monthly)",
+   "Seed/cake realisation drops sharply -> rework drawing power on revised cash flow"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Karnataka GST and power demand run ahead of India; peer margins mixed, so no clear turn.",
+ "articles": [
+  {
+   "title": "AB Cotspin India Ltd.",
+   "url": "https://www.perplexity.ai/app/finance/ABCOTS.NS?preset=peers&symbol=DONEAR.NS&comparing=BANSWRAS.BO%2CWELSPUNLIV.NS%2CARVIND.NS%2CKPRMILL.BO%2CSANGAMIND.BO%2CGHCLTEXTIL.NS%2CWELSPUNLIV.BO%2CRAYMONDLSL.BO%2CTRIDENT.BO%2CPAGEIND.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Perplexity",
+   "url": "https://www.perplexity.ai/finance/ABCOTS.NS?comparing=ABCOTS.NS,VEEKAYEM.NS,BSL.BO,CELEBRITY.BO,KGDENIM.BO,UNITEDPOLY.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1720408&opt=RAN&secid=3&subsecid=110&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Sportking India Ltd (BOM:539221) (Q2 2027) Earnings Call Highlig",
+   "url": "https://www.gurufocus.com/news/9161221/sportking-india-ltd-bom539221-q2-2027-earnings-call-highlights-margin-surge-odisha-expansion-and-fy28-revenue-outlook?utm_source=yahoo_finance&utm_medium=syndication&utm_campaign=headlines&r=caf6fe0e0db70d936033da5461e60141",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "May 4, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=142841#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "S.S. Cotton Industries Private Limited",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/36796~S.S.%20Cotton%20Industries%20-R-20062017.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shreeji Ginning & Pressing Factory",
+   "url": "https://www.infomerics.com/admin/uploads/PR-SGPFL-03-02-22.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Harekrushna Cottex",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=36558&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 83 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Karnataka: GST collections +11.1% Apr-to-date vs India +6.1% (5.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Karnataka: electricity demand +23.3% Apr-to-date vs India +9.5% (13.8 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

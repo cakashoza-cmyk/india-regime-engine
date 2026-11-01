@@ -1,0 +1,150 @@
+{
+ "key": "rj_jaipur|diamonds",
+ "state": "RJ",
+ "city": "rj_jaipur",
+ "ind": "diamonds",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 21,
+ "nudged_by_news": false,
+ "verdict": "Avoid new cut-and-polished diamond exposure in Jaipur; lend only to organised, domestic-retail-linked jewellers with tight stock-and-receivable controls, and decline export-oriented CPD processors until US tariff and Rajasthan demand signals clear.",
+ "title": "Jaipur Cut & Polished Diamonds / Gems & Jewellery: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Jaipur CPD unit buys rough, gets it cut and polished (largely by job-work karigars), and sells polished stones to wholesalers and exporters — so cash is tied in rough stock and receivables, not in plant.** Value sits in grading, assortment and buyer relationships, not in the cutting itself; the industry is 'highly fragmented and low value addition in nature leading to stiff competition' with 'modest profitability' [9]. Almost all revenue is export-linked — one rated peer shows 'almost 90% of total revenues from export earnings' [9] — so the rupee and the buyer's market drive the P&L, not local demand. Capex is light; a rated peer runs with 'no major capital expenditure (capex) plans' and controlled working capital [8]. So when a proposal lands, check the rough-inventory days and receivable days first; if either is rising faster than sales, ask why before touching the limit. ## What has changed now\n**The export engine is the risk: 'more than 75% of CPD players expect volumes to be impacted due to US tariffs' and their 'ability to pass on the additional costs will remain a key monitorable' [4].** That ICRA survey is dated June 2025 — treat it as old but directionally live, since the US is the largest market [5]. Broader gems & jewellery exports were 'falling' at the start of FY26 [6]. Locally, Rajasthan GST collections are -4.7% Apr-to-date versus India +6.1% and electricity demand +4.0% versus India +9.5% [D] — two independent local stress signals. Nationally, bank credit is +33.0% YoY against output +3.8% [D], so money is chasing this trade faster than it is earning. The one bright spot is domestic retail: a lab-grown brand has just opened a Jaipur store targeting 100 outlets in five years [2], and organised retail expansion is cited as a demand driver [6]. ## Where to grow, and where not to\n**Pursue domestic-retail-linked jewellers and organised showroom formats with real sell-through; avoid pure export CPD processors and job-work-dependent units.** The Jaipur-specific news flow is thin — one store opening [2] and a real-estate/JDA story [1] that says nothing about diamonds — so lean on first principles and peers here. For retail jewellers, ask for GST-wise monthly sales, gold/diamond metal-loan position and stock-turn; for any CPD processor still seeking limits, require the US-buyer split and tariff pass-through evidence [4]. Decline borrowers whose top three customers exceed 61% of revenue — that is the concentration a rated peer carries [8] — unless you are comfortable with single-buyer risk. ## How to grow safely\n**Structure short: cash credit against stock with a drawing-power formula, receivables-backed limits, and no clean export packing credit beyond one cycle.** Take monthly stock and debtor statements, quarterly GST returns, and a certificate of rough-plus-polished inventory valued at cost. Covenant on margin: a drop in operating margin below 3% or a revenue decline is an explicit rating trigger in the sector [10], so write it in. For retail, take monthly sales and stock-turn; for processors, take monthly export-realisation and buyer-wise outstanding. Keep tenors under 12 months and insist on promoter personal guarantee. ## Early-warning signs\n**Watch receivable days, rough-stock build and buyer concentration — these move before default.** If debtor days stretch beyond the sanctioned cycle, cut drawing power immediately. If inventory rises while sales fall, ask for a physical stock audit. If a single US buyer crosses half of revenue, reduce exposure. If the promoter seeks fresh capex funding, decline — the sector runs on light capex [8] and debt-funded expansion is a stated rating risk [10]."
+ ],
+ "watch": [
+  [
+   "Monthly stock and debtor statement (monthly)",
+   "Receivable days exceed sanctioned cycle -> freeze drawing power and seek buyer-wise ageing"
+  ],
+  [
+   "GST returns vs sales declared (quarterly)",
+   "GST turnover falls below bank-statement sales -> ask for reconciliation and re-rate limit"
+  ],
+  [
+   "Operating margin (quarterly)",
+   "Margin below 3% or revenue decline -> invoke covenant review per rating trigger [10]"
+  ],
+  [
+   "Rajasthan GST and power demand (monthly)",
+   "Continued negative GST growth vs India [D] -> pause new CPD limits in Jaipur"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "US tariff hit to CPD volumes plus Rajasthan GST and power demand lagging India.",
+ "articles": [
+  {
+   "title": "Jaipur JDA Faces Questions After Shikhar Agrawal Resort Case",
+   "url": "https://firstindianews.com/news/jaipur-jda-under-scrutiny-industrialist-influence-allegations-shikhar-agrawal-ananta-resort-case-1793464088",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Zen Diamond Opens Jaipur Store, Targets 100 Outlets Across India in Five Years",
+   "url": "https://www.diamondworld.net/news/zen-diamond-opens-jaipur-store-targets-100-outlets-across-india-in-five-years",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "jaipur gems News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/jaipur-gems/news#1",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "INDIAN CUT AND POLISHED DIAMOND (CPD) INDUSTRY",
+   "url": "https://www.icra.in/Rating/DownloadResearchSpecialCommentReport?id=6387#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Gems & Jewellery stocks: Goldiam, Kalyan, Senco, Thangamayil zoom up to 18% - Gems & Jewellery stocks: Goldiam, Kalyan, Senco, Thangamayil zoom up to 18%",
+   "url": "https://www.business-standard.com/amp/markets/news/gems-jewellery-stocks-goldiam-kalyan-senco-thangamayil-zoom-up-to-18-126020900309_1.html#1",
+   "date": "2026-02-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The cut & polished diamond segment is an export- oriented segment in India",
+   "url": "https://www.bseindia.com/corporates/download/367919/IPO%20Prior/DRHP_20260930134918.pdf#41#108#41",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "International Gemmological Institute (India) (IGIL) Investor Relations, Earnings Summary & Outlook - International Gemmological Institute (India) (IGIL) investor relations material",
+   "url": "https://quartr.com/companies/international-gemmological-institute-india-ltd_21174#1",
+   "date": "2026-07-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 08, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130414#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Kiran Gems Private Limited",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/65008#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update August 22, 2025 | Mumbai",
+   "url": "http://integraliq.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Narola%20Diamonds%20Private%20Limited-RU-22-08-2025.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sparkle Diam Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202610121043_Sparkle_Diam_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 21 (national 35 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +33.0% YoY vs output +3.8% (gap +29.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,156 @@
+{
+ "key": "gj_gondal|cotton_ginning",
+ "state": "GJ",
+ "city": "gj_gondal",
+ "ind": "cotton_ginning",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Gondal cotton ginning and pressing, but only to ginners with owned/controlled kapas sourcing, hedged or back-to-back lint sales and a tight 60-90 day cash cycle; avoid traders and job-work pressers with no gin of their own.",
+ "title": "Gondal cotton ginning & pressing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA ginning and pressing unit buys seed cotton (kapas) at the Gondal APMC yard, separates lint from seed, bales and presses the lint, and sells to spinning mills; seed goes to oil mills. **Cash is made on the spread between kapas bought and lint sold, not on volume.** Gondal taluka has the highest cotton cultivation in Rajkot district and Gujarat ranks first in cotton production [1] — that is the local raw-material base, and it is the only city-specific fact we have. Sources say little else about Gondal itself, so the rest of this note is first principles plus peers. ## Where value and cash sit\nGinning is low value-adding and highly fragmented with low entry barriers [9][11]. **The whole year's working capital is consumed in the 3-4 month harvest window, and the risk is inventory, not the plant.** Capex is modest — a gin and press line — so most of our exposure will be stock and receivables. Peer AB Cotspin shows the trap: Q1 FY27 revenue up 52.94% to Rs 102.01 crore while operating margin fell to 12.90% from 22.29% [4][5]. **So when a proposal lands, check whether growth is coming from thinner spreads; if margins are falling while volumes rise, ask for the lot-wise purchase and sale register.**\n\n## What has changed now\nGujarat GST collections are up 11.9% Apr-to-date against India's 6.1% [D], and IIP for NIC 13 (textiles) is up 13.1% YoY with output up 11.9% Apr-to-date [D]. **Bank credit is growing 15.2% against output of 11.9% [D] — money is chasing this trade faster than it is producing, so pricing discipline at the borrower level matters more than demand.** Downstream is healthy: Sportking nearly doubled EBITDA margin to 19.8% in Q2 FY27 from 10.4% [7], and Nitin Spinners expects its capex to add Rs 200-300 crore of revenue in FY2027 [6]. **Pursue ginners with direct supply relationships to such mills; avoid pure commission pressers and traders with no stock title.**\n\n## How to grow safely\nStructure as a cash credit against pledged stock with a drawing power computed on lint at the lower of cost or APMC-derived value, plus a bill-discounting sub-limit for mill receivables. **Take the stock statement and lot-wise kapas purchase register every month, and the APMC arrival and price sheet weekly during the harvest season.** Covenant a minimum margin of collect from customer and a maximum inventory holding period; if holding crosses the season, ask why the lot is unsold. Insist on a charge on the gin and press assets even where the ask is working capital only. ## Early-warning signs\n- **Stock ageing beyond the season (monthly):** any lot held past the harvest window -> freeze fresh drawing and inspect the godown. - **Margin compression with volume growth (quarterly):** operating margin falling while revenue rises, as in the peer [4] -> reprice or reduce limit. - **Receivable days from spinning mills (monthly):** rising beyond agreed terms -> shift sales to bill-discounting against accepted bills only. - **Reliance on external borrowings for working capital (quarterly):** stretched capital structure [11] -> cap total bank exposure and demand promoter infusion. - **Client concentration (annual):** dependence on one or two mills -> require diversification before enhancement."
+ ],
+ "watch": [
+  [
+   "Stock and lot-ageing statement (monthly)",
+   "Lot held past the harvest season -> freeze drawing power and inspect godown"
+  ],
+  [
+   "Operating margin vs revenue growth (quarterly)",
+   "Margin falls while revenue rises -> reprice limit or reduce exposure"
+  ],
+  [
+   "Receivable days from spinning mills (monthly)",
+   "Days stretch beyond agreed terms -> move to bill-discounting on accepted bills only"
+  ],
+  [
+   "Total bank borrowings vs net worth (quarterly)",
+   "Leverage rises on working capital -> cap exposure and seek promoter funds"
+  ],
+  [
+   "APMC kapas arrival and price sheet (weekly in season)",
+   "Price fall with unsold stock -> demand hedge proof or margin top-up"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Gujarat GST and textile output growth support demand; credit growth outpacing output keeps pricing discipline the key risk.",
+ "articles": [
+  {
+   "title": "વાવેતર: કપાસના ઉત્પાદનમાં ગુજરાત પ્રથમ ક્રમે, રાજકોટ જિલ્લામાં ગોંડલ તાલુકામાં સૌથી વધુ વાવેતર - Rajkot News",
+   "url": "https://www.divyabhaskar.co.in/local/gujarat/rajkot/news/gujarat-ranks-first-in-cotton-production-highest-cultivation-in-gondal-taluka-in-rajkot-district-136108157.html",
+   "date": "2025-10-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Gondal Market Yard Bhav Today 14 August 2025 | ગોંડલ માર્કેટ યાર્ડ ના ભાવ| ગોંડલ માર્કેટિંગ યાર્ડ આજના બજાર ભાવ | Gondal APMC Price Today | Gondal APMC Rate Today",
+   "url": "https://www.gujaratijagran.com/gujarat/rajkot/gondal-apmc-aaj-na-bajar-bhav-14-august-2025-cotton-price-today-in-gondal-585074",
+   "date": "2025-08-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Kala Cotton’s Quiet Fashion Revolution - Vibes Of India",
+   "url": "https://www.vibesofindia.com/kala-cotton-gujarat-mamdani/#respond",
+   "date": "2025-08-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "AB Cotspin India Ltd.",
+   "url": "https://www.perplexity.ai/app/finance/ABCOTS.NS?preset=peers&symbol=DONEAR.NS&comparing=BANSWRAS.BO%2CWELSPUNLIV.NS%2CARVIND.NS%2CKPRMILL.BO%2CSANGAMIND.BO%2CGHCLTEXTIL.NS%2CWELSPUNLIV.BO%2CRAYMONDLSL.BO%2CTRIDENT.BO%2CPAGEIND.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Perplexity",
+   "url": "https://www.perplexity.ai/finance/ABCOTS.NS?comparing=ABCOTS.NS,VEEKAYEM.NS,BSL.BO,CELEBRITY.BO,KGDENIM.BO,UNITEDPOLY.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1720408&opt=RAN&secid=3&subsecid=110&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sportking India Ltd (BOM:539221) (Q2 2027) Earnings Call Highlig",
+   "url": "https://www.gurufocus.com/news/9161221/sportking-india-ltd-bom539221-q2-2027-earnings-call-highlights-margin-surge-odisha-expansion-and-fy28-revenue-outlook?utm_source=yahoo_finance&utm_medium=syndication&utm_campaign=headlines&r=caf6fe0e0db70d936033da5461e60141",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "May 4, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=142841#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "S.S. Cotton Industries Private Limited",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/36796~S.S.%20Cotton%20Industries%20-R-20062017.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shreeji Ginning & Pressing Factory",
+   "url": "https://www.infomerics.com/admin/uploads/PR-SGPFL-03-02-22.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Harekrushna Cottex",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=36558&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 83 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": false,
+  "problems": [
+   "numbers not in any source: 90"
+  ],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

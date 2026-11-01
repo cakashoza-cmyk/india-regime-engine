@@ -1,0 +1,154 @@
+{
+ "key": "ap_guntur|cotton_ginning",
+ "state": "AP",
+ "city": "ap_guntur",
+ "ind": "cotton_ginning",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Guntur ginning, but only to integrated, well-collateralised units with tight monthly stock-and-receivables control; avoid pure trading ginners with thin net worth.",
+ "title": "Guntur cotton ginning & pressing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA ginning and pressing unit buys kapas (seed cotton) at the mandi, separates lint from seed, presses lint into bales and sells to spinning mills; seed and oil go to crushers. **Cash is made on the spread between kapas cost and bale price, not on volume.** The cycle is brutally short and seasonal: peak buying at harvest, cash locked in stock and mill receivables, so working capital is the whole business. Capex is modest (gins, press, shed) but ginning adds little value, so pricing power is weak and margins thin [9][11].\n\n## What has broken now\nLocal reporting says AP kapas fell from over ₹12,000 per quintal in 2023-24 to ₹6,000, against cultivation cost of ₹10,000 and an MSP of ₹8,100, with CCI procurement disrupted by the Cotton Kisan app and rain damage to stock [3]. That report is from October 2025, so treat the price level as dated and re-verify. **Falling kapas helps a ginner's input cost but squeezes the spread and raises default risk among the farmer-suppliers and trader-counterparties you lend against.** A local report also flags an attack on a cotton merchant in Guntur [1] — a reminder that counterparty and physical-security risk is real here.\n\n## Where the growth is\nAP electricity demand is running +18.1% Apr-to-date versus India +9.5% [D], and all-India cotton-linked output (NIC 13) is +13.1% YoY [D] — the demand pull is genuine. Peer results show the split: AB Cotspin grew revenue 52.94% but operating margin fell to 12.90% from 22.29% [4][5], while Sportking lifted EBITDA margin to 19.8% from 10.4% [7]. **Pursue integrated ginners with captive spinning or oil extraction, like the Guntur-adjacent TCAPPL model [8], and ginners with reputed, geographically spread mill clients [10]. Avoid pure trading ginners and thin-net-worth firms reliant on external borrowing for working capital [11].**\n\n## How to grow safely\nStructure as a cash-flow lending limit against pledged stock, with a drawing-power formula and monthly stock-and-receivable statements. **Take the bale-wise stock statement, godown inspection report and debtor ageing every month; if receivables age past the stated cycle, ask for the mill's payment confirmation.** Cap exposure to any single mill buyer. Because ginning is low value-adding and fragmented [9][11], price the limit for spread compression, not volume growth.\n\n## Early-warning signs\n- **Kapas price versus bale price spread (weekly):** if the spread narrows below the unit's stated margin, freeze fresh drawings and re-price.\n- **Stock turnover and godown variance (monthly):** if pledged stock falls short of the statement, call the loan and inspect.\n- **Receivable days by mill (monthly):** if ageing stretches beyond the agreed cycle, ask for direct mill confirmation.\n- **Power and running hours (monthly):** if utilisation drops sharply, ask why before renewing.\n- **Promoter and counterparty disputes (event-based):** any local dispute involving the borrower or its buyers [1] triggers a fresh KYC and collateral review."
+ ],
+ "watch": [
+  [
+   "Kapas-to-bale spread (weekly)",
+   "spread below stated margin -> freeze fresh drawings and re-price"
+  ],
+  [
+   "Pledged stock vs godown report (monthly)",
+   "shortfall -> call loan and physical inspection"
+  ],
+  [
+   "Receivable days by mill buyer (monthly)",
+   "ageing beyond agreed cycle -> seek direct mill confirmation"
+  ],
+  [
+   "Plant running hours (monthly)",
+   "sharp fall -> ask why before renewal"
+  ],
+  [
+   "Counterparty disputes (event-based)",
+   "any local dispute [1] -> fresh KYC and collateral review"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "AP kapas price collapse and CCI procurement disruption squeeze ginner spreads and supplier credit.",
+ "articles": [
+  {
+   "title": "Explore Trending Topics | Stay Updated with the Latest Discussions",
+   "url": "https://www.etvbharat.com/te/andhra-pradesh/_attack-on-cotton-merchant-in-guntur",
+   "date": "2026-10-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "The Cotton Corporation of India Limited Tender",
+   "url": "https://tendersplus.com/andhra-pradesh/the-cotton-corporation-of-india-limited/td-epr-d7374bfc-8e0b-4c2b-9cfb-7d5a80bb053e",
+   "date": "2026-06-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Farmers in Andhra Pradesh are in trouble due to falling cotton prices",
+   "url": "https://smartinfoindia.com/news-details-hindi/farmers-in-andhra-pradesh-are-trouble-due-to-falling-cotton-prices",
+   "date": "2025-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "AB Cotspin India Ltd.",
+   "url": "https://www.perplexity.ai/app/finance/ABCOTS.NS?preset=peers&symbol=DONEAR.NS&comparing=BANSWRAS.BO%2CWELSPUNLIV.NS%2CARVIND.NS%2CKPRMILL.BO%2CSANGAMIND.BO%2CGHCLTEXTIL.NS%2CWELSPUNLIV.BO%2CRAYMONDLSL.BO%2CTRIDENT.BO%2CPAGEIND.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Perplexity",
+   "url": "https://www.perplexity.ai/finance/ABCOTS.NS?comparing=ABCOTS.NS,VEEKAYEM.NS,BSL.BO,CELEBRITY.BO,KGDENIM.BO,UNITEDPOLY.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1720408&opt=RAN&secid=3&subsecid=110&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Sportking India Ltd (BOM:539221) (Q2 2027) Earnings Call Highlig",
+   "url": "https://www.gurufocus.com/news/9161221/sportking-india-ltd-bom539221-q2-2027-earnings-call-highlights-margin-surge-odisha-expansion-and-fy28-revenue-outlook?utm_source=yahoo_finance&utm_medium=syndication&utm_campaign=headlines&r=caf6fe0e0db70d936033da5461e60141",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "May 4, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=142841#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "S.S. Cotton Industries Private Limited",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/36796~S.S.%20Cotton%20Industries%20-R-20062017.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shreeji Ginning & Pressing Factory",
+   "url": "https://www.infomerics.com/admin/uploads/PR-SGPFL-03-02-22.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Harekrushna Cottex",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=36558&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 83 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: electricity demand +18.1% Apr-to-date vs India +9.5% (8.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

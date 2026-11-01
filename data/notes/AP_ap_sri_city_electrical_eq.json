@@ -1,0 +1,148 @@
+{
+ "key": "ap_sri_city|electrical_eq",
+ "state": "AP",
+ "city": "ap_sri_city",
+ "ind": "electrical_eq",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Sri City electrical equipment, pumps and motors — back established component and pump makers selling into AP's grid and motor demand, structure tightly around working capital, and decline thin-margin assemblers with no order book.",
+ "title": "Sri City Electrical Equipment, Pumps & Motors: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**These units wind copper, stamp laminations, cast housings and assemble pumps, motors and switchgear, then sell into power utilities, irrigation, construction and OEM supply chains.** Cash comes in on dispatch, but the money is made or lost in copper and steel buying, labour hours per unit and how long receivables sit with utility and OEM buyers. **Value sits in design, testing and after-sales service, not in assembly; pricing power is thin because buyers tender on price.** So when a proposal lands, check the share of revenue from repeat OEM or utility orders versus one-off tenders; if it is mostly one-off tenders, ask for the last three years' order pipeline and win rate.",
+  "## What has changed now\n**The demand signal is strong: AP electricity demand is up 18.1% Apr-to-date against India's 9.5%, and NIC 27 output is up 30.9% YoY nationally [D].** Exports of the wider engineering basket are up 19.8% Apr-to-date in USD [D]. **So when a proposal lands, check whether growth is coming with falling margins; if PAT is falling while revenue rises, ask for the raw-material pass-through clause and the customer-wise price revision history.**",
+  "## Where the growth is\n**Pursue tier-2 component makers and pump assemblers with a named utility or OEM customer, and units adding a testing or service line that lifts realisations.** The AP demand number [D] supports irrigation pumps and distribution equipment; the export number [D] supports exporters with dollar receivables. **If the borrower is a Japanese subsidiary in the park, ask for the parent guarantee; if the parent will not guarantee, treat it as a standalone SME.**",
+  "**If the borrower asks for a term loan for a new line, ask for the confirmed order that justifies it; if there is none, decline the term loan and keep the limit working-capital only.**",
+  "## Early-warning signs\n**Watch debtor days stretching, inventory of finished pumps building, and power-cost or wage lines rising faster than sales.** Shakti's margin contraction [5][7] is the template."
+ ],
+ "watch": [
+  [
+   "Monthly stock statement",
+   "Finished-goods stock rises two months running -> ask for dispatch proof and re-size the limit"
+  ],
+  [
+   "Quarterly GST returns",
+   "Turnover falls below the sanctioned projection by 20% -> re-rate the account and review pricing pass-through"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "AP power demand and NIC 27 output strong, but peer margins and PAT are falling.",
+ "articles": [
+  {
+   "title": "スリ・シティ工業団地の日系企業、ビジネス環境改善へ建議（インド、日本）｜Infoseekニュース",
+   "url": "https://news.infoseek.co.jp/article/jetro_6f70f11f14a9478b/",
+   "date": "2026-09-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "shirdi sai electricals: Latest News & Videos, Photos about shirdi sai electricals | The Economic Times - Page 1 - Business News›shirdi sai electricals",
+   "url": "https://economictimes.indiatimes.com/topic/shirdi-sai-electricals#1",
+   "date": "2026-09-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Air Conditioner Tenders And Split Tender For Air Conditioner",
+   "url": "https://www.airconditionertenders.com/Tenderdetailbrief.aspx?SrNo=99887236&tenders=Sub+Station+tenders+Air+Conditioners+tenders+Diversified+Electrical+Spares+And+Stores+tenders+Transmission+Line+tenders",
+   "date": "2026-06-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Pitti Engineering posts solid Q1 2026 growth, shares rise By Investing.com - Earnings call transcript: Pitti Engineering posts solid Q1 2026 growth, shares rise",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-pitti-engineering-posts-solid-q1-2026-growth-shares-rise-93CH-4851334#1",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shakti Pumps (India) (531431) Q2 26/27 Summary | Quartr",
+   "url": "https://quartr.com/events/shakti-pumps-india-531431-q2-26-27_FRMGdRqK",
+   "date": "2026-10-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shakti Pumps (India) Concall Summary: Key Highlights and Q1 FY27 Results",
+   "url": "https://www.sovrenn.com/knowledge/shakti-pumps-india-concall-summary-key-highlights-and-q1-fy-27-results",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Shakti Pumps tanks as Q1 PAT slides 47% YoY to Rs 52 crore - Friday, October 16, 2026 | 03:19 AM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/capital-market-news/shakti-pumps-tanks-as-q1-pat-slides-47-yoy-to-rs-52-crore-126072700418_1.html#1",
+   "date": "2026-07-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 04,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=136185#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 11, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145554#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "June 13,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=128071#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Mangal Electrical Industries Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202609140944_Mangal_Electrical_Industries_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 100 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: electricity demand +18.1% Apr-to-date vs India +9.5% (8.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 27 output +30.9% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +28.5% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": false,
+  "problems": [
+   "watch list must have 3-5 items"
+  ],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

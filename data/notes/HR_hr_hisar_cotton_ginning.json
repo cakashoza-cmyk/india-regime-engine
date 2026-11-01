@@ -1,0 +1,150 @@
+{
+ "key": "hr_hisar|cotton_ginning",
+ "state": "HR",
+ "city": "hr_hisar",
+ "ind": "cotton_ginning",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Hisar cotton ginning and pressing, but only to ginners with owned or contracted seed-cotton supply, verified fire cover and tight monthly stock reporting; avoid traders running on open-market lint price bets.",
+ "title": "Hisar cotton ginning & pressing: a note to the credit manager",
+ "narrative": [
+  "## What the business actually is\nA ginning and pressing unit buys seed-cotton (kapas) from farmers and mandis, separates lint from seed, bales the lint and sells to spinning mills; seed goes to oil extraction. **Cash is made on the spread between kapas cost and lint plus seed realisation, not on volume alone.** The cycle is brutally seasonal: heavy kapas buying in a short window, then months of bale sales, so working capital peaks fast and stock is the real collateral. Ginning adds little value, entry barriers are low and the industry is fragmented and competitive [9], so pricing power sits with the spinner, not the ginner. Rating reports show location near cotton-growing belts trims logistics cost and helps margins [10], and that ginners lean heavily on external borrowings to fund working capital [11].\n\n## What has changed now\nLocal reporting says cotton prices in Hisar rose on supply concerns in September 2026 [1]. **Rising kapas prices mean the same bale volume needs more funding, and a ginner who bought late or light is squeezed.** A fire at a Hisar ginning mill, blamed on short circuit, caused a claimed Rs 25 lakh loss [3] — so when a proposal lands, check the fire policy sum insured against peak stock value; if cover is below peak, ask for it to be raised before disbursal. Peer results show the margin trap: AB Cotspin's Q1 FY27 revenue rose 52.94% to Rs 102.01 crore while operating margin fell to 12.90% from 22.29% [4][5]. **Volume growth with thinner spreads is the pattern to underwrite against.** Sportking's EBITDA margin nearly doubled to 19.8% in Q2 FY27 from 10.4% [7], but that is a spinning peer, not a ginner. Haryana GST collections grew 10.1% Apr-to-date versus India's 6.1% [D], a genuine local tailwind. Sources say little specific about Hisar ginning beyond the price and fire items, so lean on first principles and these peers.\n\n## Where to grow\n**Pursue ginners with captive or contracted kapas, own seed-oil linkage, and a named mill buyer list** — the Shreeji template of reputed clientele like Vardhman with moderate concentration [10]. Pursue pressing-only units with steady job-work fees. Avoid pure lint traders and units whose book is a price bet.\n\n## How to grow safely\nStructure as a seasonal cash-credit or bill-discounting limit sized to peak stock, not a term loan. **Take monthly stock and ageing statements, monthly sales register, and quarterly GST returns**; reconcile bales pledged to the godown register. Covenant a drawing-power cap against insured stock and a minimum cover ratio.\n\n## Early warning signs\n- Monthly stock statement (monthly): bales pledged exceed insured stock -> freeze drawing power and inspect godown.\n- Quarterly GST returns (quarterly): turnover falls while limit utilisation rises -> ask for sales register and buyer confirmations.\n- Weekly lint price vs purchase price (weekly): spread compresses toward zero -> reduce limit and seek cash margin.\n- Insurance renewal (annual): policy lapses or sum insured cut -> stop disbursal until reinstated."
+ ],
+ "watch": [
+  [
+   "Monthly stock and godown register (monthly)",
+   "Pledged bales exceed insured stock -> freeze drawing power, physical inspection"
+  ],
+  [
+   "GST returns vs sales register (quarterly)",
+   "Turnover falls while utilisation rises -> demand buyer confirmations, trim limit"
+  ],
+  [
+   "Lint price vs kapas cost (weekly)",
+   "Spread near zero -> cut limit, take cash margin"
+  ],
+  [
+   "Fire insurance cover (annual)",
+   "Policy lapsed or sum insured below peak stock -> halt disbursal until reinstated"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Hisar cotton prices rose on supply concerns and a local ginning mill fire caused a claimed Rs 25 lakh loss.",
+ "articles": [
+  {
+   "title": "Cotton Prices Rise in Hisar on Supply Concerns",
+   "url": "https://adalytica.com/news/cotton-prices-hisar-supply-concerns-30e97c26",
+   "date": "2026-09-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Hisar Business Database - Verified Contacts",
+   "url": "https://www.indiabizdata.com/database/hisar-business-database/",
+   "date": "2026-09-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Hisar News: कॉटन जिनिंग मिल में लगी आग, अंदर फंसे मजदूर को सुरक्षित निकाला, शॉर्ट सर्किट से हादसा, 25 लाख रुपये के नुकसान का दावा",
+   "url": "https://www.amarujala.com/haryana/hisar/fire-broke-out-in-a-cotton-ginning-mill-worker-trapped-inside-rescued-safely-accident-caused-by-short-circuit-claim-of-25-lakh-rupees-in-damages-hisar-news-c-21-hsr1020-943462-2026-09-03",
+   "date": "2026-09-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "AB Cotspin India Ltd.",
+   "url": "https://www.perplexity.ai/app/finance/ABCOTS.NS?preset=peers&symbol=DONEAR.NS&comparing=BANSWRAS.BO%2CWELSPUNLIV.NS%2CARVIND.NS%2CKPRMILL.BO%2CSANGAMIND.BO%2CGHCLTEXTIL.NS%2CWELSPUNLIV.BO%2CRAYMONDLSL.BO%2CTRIDENT.BO%2CPAGEIND.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Perplexity",
+   "url": "https://www.perplexity.ai/finance/ABCOTS.NS?comparing=ABCOTS.NS,VEEKAYEM.NS,BSL.BO,CELEBRITY.BO,KGDENIM.BO,UNITEDPOLY.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1720408&opt=RAN&secid=3&subsecid=110&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Sportking India Ltd (BOM:539221) (Q2 2027) Earnings Call Highlig",
+   "url": "https://www.gurufocus.com/news/9161221/sportking-india-ltd-bom539221-q2-2027-earnings-call-highlights-margin-surge-odisha-expansion-and-fy28-revenue-outlook?utm_source=yahoo_finance&utm_medium=syndication&utm_campaign=headlines&r=caf6fe0e0db70d936033da5461e60141",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "May 4, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=142841#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "S.S. Cotton Industries Private Limited",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/36796~S.S.%20Cotton%20Industries%20-R-20062017.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shreeji Ginning & Pressing Factory",
+   "url": "https://www.infomerics.com/admin/uploads/PR-SGPFL-03-02-22.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Harekrushna Cottex",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=36558&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 83 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,150 @@
+{
+ "key": "ts_warangal|cotton_ginning",
+ "state": "TS",
+ "city": "ts_warangal",
+ "ind": "cotton_ginning",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Warangal ginning and pressing, but only to empanelled modern factories with clean stock-and-book discipline; avoid traders running single-season gins on borrowed working capital.",
+ "title": "Warangal cotton ginning & pressing: a note to the credit manager",
+ "narrative": [
+  "**Cash is made on the spread between kapas purchase price and lint sale price, not on volume alone.** The cycle is brutally seasonal: heavy kapas buying in a few weeks, bales sold over months, so working capital peaks fast and the bank funds the peak. **Ginning adds little value, so the margin is thin and the game is speed and recovery, not price.** [9][11]\n\n## What has changed now\nWarangal is running a formal empanelment of modern ginning and pressing factories for cotton season 2026-27, with EMD of Rs 50,000 and a 365-day empanelment period [1]. **That is a filter you can use: empanelled, modern-press units are the ones with a reason to keep quality and records straight.** CCI is also tendering in Telangana [2], which tells you government procurement is active in the belt. Telangana GST collections are up 13.8% Apr-to-date against India's 6.1%, and electricity demand up 15.7% against 9.5% [D] — the local economy is moving faster than the national one. **So when a proposal lands, check the empanelment certificate and the press type first; if the unit is not empanelled, ask why and price for it.**\n\n## Where the growth is\nPeer results show the split clearly. AB Cotspin's Q1 FY27 revenue rose 52.94% to Rs 102.01 crore but operating margin fell to 12.90% from 22.29% [4][5] — volume without spread. Sportking nearly doubled EBITDA margin to 19.8% in Q2 FY27 from 10.4% [7], and Nitin Spinners is adding Rs 200-300 crore of incremental revenue in FY2027 [6]. **Pursue ginners who sell to such mills on contract and who own their press; avoid pure kapas traders who gin on job work.** Rating reports stress that proximity to cotton-growing areas cuts logistics cost [10] and that vertically integrated ginners with captive ginning and power do better [8]. **Warangal sits in the belt, so favour units within the growing area with their own press and some seed-oil linkage.**\n\n## How to grow safely\nStructure as a cash-credit or CC limit against hypothecation of stock and book debts, with a separate season limit that steps down after the buying peak. **Take stock-and-book statements every month, and bale-wise sale register every fortnight during the season.** Covenant on drawing power computed on paid stock, not on godown value. **If the unit cannot show the sale register, ask for the mill-wise ledger and the GST returns together.** [D] gives you the macro tailwind; the discipline has to come from the file. ## Early warning signs\n- Monthly stock statement (monthly): stock ageing beyond one season -> stop fresh kapas limits and inspect godown. - Bale sale register (fortnightly): lint sold below the season's average recovery price -> ask for mill contract copies and reprice the limit. - GST returns vs sales (monthly): turnover mismatch -> freeze enhancement and seek reconciliation. - Empanelment status (annual): lapse or non-renewal for the season -> treat as a downgrade trigger. [1]\n\nSources say little specific about Warangal city itself beyond the empanelment tender [1]; the rest is first principles plus peers. Some rating reports cited are old — S.S. Cotton is a 2017 rating [9] — so use them for structure, not for current numbers."
+ ],
+ "watch": [
+  [
+   "Monthly stock and book-debt statement",
+   "stock ageing past one season -> stop fresh kapas limit and inspect godown"
+  ],
+  [
+   "Fortnightly bale sale register",
+   "lint sold below season average recovery -> ask for mill contracts and reprice limit"
+  ],
+  [
+   "Monthly GST returns vs sales",
+   "turnover mismatch -> freeze enhancement, seek reconciliation"
+  ],
+  [
+   "Annual empanelment status",
+   "lapse or non-renewal for season -> treat as downgrade trigger"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Telangana GST and power demand growing faster than India; season 2026-27 empanelment tender active in Warangal.",
+ "articles": [
+  {
+   "title": "EXPRESSION OF INTEREST EoI FOR REGISTRATION OF MODERN GINNING AND PRESSING FACTORIES FOR EMPANELMENT IN COTTON SEASON 2026 27",
+   "url": "https://tenderkart.in/tender/78f8910e-1720-400a-ae74-75ad6643954d",
+   "date": "2026-07-15",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "The Cotton Corporation of India Limited Tender",
+   "url": "https://tendersplus.com/telangana/the-cotton-corporation-of-india-limited/td-epr-0015bda1-fa85-4afb-a934-d24892e7c06a",
+   "date": "2026-07-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "PM Modi to Inaugurate Operational KMTP Tomorrow, Nearly Eight Years After 2017 Launch - Advertisement",
+   "url": "https://www.republicworld.com/business/pm-modi-to-inaugurate-operational-kmtp-tomorrow-nearly-eight-years-after-2017-launch-2026-05-09-123587#1",
+   "date": "2026-05-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "AB Cotspin India Ltd.",
+   "url": "https://www.perplexity.ai/app/finance/ABCOTS.NS?preset=peers&symbol=DONEAR.NS&comparing=BANSWRAS.BO%2CWELSPUNLIV.NS%2CARVIND.NS%2CKPRMILL.BO%2CSANGAMIND.BO%2CGHCLTEXTIL.NS%2CWELSPUNLIV.BO%2CRAYMONDLSL.BO%2CTRIDENT.BO%2CPAGEIND.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Perplexity",
+   "url": "https://www.perplexity.ai/finance/ABCOTS.NS?comparing=ABCOTS.NS,VEEKAYEM.NS,BSL.BO,CELEBRITY.BO,KGDENIM.BO,UNITEDPOLY.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1720408&opt=RAN&secid=3&subsecid=110&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sportking India Ltd (BOM:539221) (Q2 2027) Earnings Call Highlig",
+   "url": "https://www.gurufocus.com/news/9161221/sportking-india-ltd-bom539221-q2-2027-earnings-call-highlights-margin-surge-odisha-expansion-and-fy28-revenue-outlook?utm_source=yahoo_finance&utm_medium=syndication&utm_campaign=headlines&r=caf6fe0e0db70d936033da5461e60141",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "May 4, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=142841#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "S.S. Cotton Industries Private Limited",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/36796~S.S.%20Cotton%20Industries%20-R-20062017.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shreeji Ginning & Pressing Factory",
+   "url": "https://www.infomerics.com/admin/uploads/PR-SGPFL-03-02-22.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Harekrushna Cottex",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=36558&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 83 x 0.6 + Telangana 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Telangana: GST collections +13.8% Apr-to-date vs India +6.1% (7.7 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Telangana: electricity demand +15.7% Apr-to-date vs India +9.5% (6.2 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
