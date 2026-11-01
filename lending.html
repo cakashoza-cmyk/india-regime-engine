@@ -73,8 +73,8 @@ function render(){const st=D.states[sel.st],ct=CITY[sel.ct],ind=IND[sel.ind];his
  const cb=B[sel.ct+'|'+ind.id],sb=B[sel.st+'|*'],br=cb||sb;let call=base;const nudged=base=='ok'&&br&&br.o=='Worse';if(nudged)call='caution';
  const cls=call||'unknown',label=call?LBL[call]:'Not enough data';
  const reasons=(rs||[]).map(i=>D.reasons[i]);
- const al=r=>call=='ok'?r[1]>0:r[1]<0,ov=r=>/Brent|Repo /.test(r[0]);const lead=reasons.find(r=>r[3]=='national'&&al(r)&&!ov(r))||reasons.find(r=>al(r)&&!ov(r))||reasons.find(al)||reasons[0];
- const head=!call?`Not enough verified national data for ${sec.name} — Unknown, collect.`:`${label} for ${ind.name} in ${ct.name}${nudged?' (local news)':''}: ${lead?lead[0].split(' [')[0].replace(/^India-wide: (.)/,(m,c)=>'national '+c.toLowerCase()).replace(/ — .*$/,''):''}`;
+ const al=r=>(call=='ok'||nudged)?r[1]>0:r[1]<0,ov=r=>/Brent|Repo /.test(r[0]);const lead=reasons.find(r=>r[3]=='national'&&al(r)&&!ov(r))||reasons.find(r=>al(r)&&!ov(r))||reasons.find(al)||reasons[0];
+ const head=!call?`Not enough verified national data for ${sec.name} — Unknown, collect.`:`${label} for ${ind.name} in ${ct.name}${nudged?' (local news)':''}: ${lead?lead[0].split(' [')[0].replace(/^India-wide: (.)/,(m,c,i,t)=>'national '+(/^[A-Z][a-z]/.test(t.slice(i+12))?c.toLowerCase():c)).replace(/ — .*$/,''):''}`;
  const formula=ins=='local'?`Not enough local data for ${st.name}. National view: ${LBL[base]} (score ${nat}).`:score!=null?`National ${nat} × ${D.geo.weight_national} + ${st.name} local ${loc} × ${D.geo.weight_local} = ${score}. OK to lend ≥ ${D.geo.ok_at_or_above}; Avoid < ${D.geo.avoid_below}.`:'';
  const proxy=ind.mapping!='direct'?`<span class="pill proxy">proxy: parent sector — ${esc(sec.name)}</span>`:'';
  const why=reasons.slice(0,4).map(r=>`<li>${esc(r[0].split(' [')[0])} <span class="meta">${esc((r[0].match(/\[(.*)\]$/)||['',''])[1])}${r[2]?` · <a href="${esc(r[2])}" target="_blank" rel="noopener">source</a>`:''}</span></li>`).join('');
