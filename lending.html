@@ -38,6 +38,8 @@ table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}td,th{te
 .v5 .fn{font-size:12px;color:#94a3b8;margin-top:8px;font-style:italic}
 .v5 .ew{background:#ffffff0d;border-left:3px solid #f59e0b;border-radius:10px;padding:10px 12px;margin-bottom:8px;font-size:14px}.v5 .ew b{color:#fde68a}
 .v5 a{color:#7dd3fc}.v5 details{border-top:1px solid #ffffff1a}.v5 summary{color:#cbd5e1}.v5 table td,.v5 table th{border-color:#ffffff1a;color:#cbd5e1}.v5 .meta{color:#94a3b8}.v5 sup a{font-size:11px;text-decoration:none}
+.v6 details.sec{background:#ffffff0a;border:1px solid #ffffff14;border-radius:16px;padding:0;margin-top:10px}.v6 details.sec>summary{list-style:none;padding:14px 16px;font-weight:700;font-size:15.5px;color:#f8fafc;display:flex;gap:10px;align-items:center}.v6 details.sec>summary::after{content:'＋';margin-left:auto;color:#94a3b8}.v6 details.sec[open]>summary::after{content:'－'}
+.v6 .it{padding:10px 16px;border-top:1px solid #ffffff10}.v6 .it b{color:#fde68a;font-size:14px;display:block}.v6 .it span{font-size:14px;color:#cbd5e1}.v6 .nt{font-size:12px;color:#94a3b8;font-style:italic;padding:0 16px 10px}.v6 .nowl{background:#f59e0b1a;border-left:3px solid #f59e0b;padding:10px 12px;border-radius:10px;font-size:14px;margin-top:12px}
 </style></head><body>
 <main>
 <h1>Lending Radar</h1><p class="sub">Pick a place and an industry for a quick, data-backed stance. Decision aid, not a substitute for credit judgment. Internal use only.</p>
@@ -54,7 +56,7 @@ table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}td,th{te
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const LBL={ok:'OK to lend',caution:'Caution',avoid:'Avoid'};let D,V5={},V4={},B={},IND={},CITY={},sel={st:'',ct:'',ind:''};
 const qp=new URLSearchParams(location.search);
-Promise.all([fetch('data/radar.json').then(r=>r.json()),fetch('data/radar_briefs.json').then(r=>r.ok?r.json():{}).catch(()=>({})),fetch('data/v4_test.json?'+Date.now()).then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,b,v])=>{D=d;B=b;V4=(v&&v.cards)||{};fetch('data/v5_morbi.json?'+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null).then(x=>{if(x)V5[x.key]=x;init()})});
+Promise.all([fetch('data/radar.json').then(r=>r.json()),fetch('data/radar_briefs.json').then(r=>r.ok?r.json():{}).catch(()=>({})),fetch('data/v4_test.json?'+Date.now()).then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,b,v])=>{D=d;B=b;V4=(v&&v.cards)||{};fetch('data/v6_morbi.json?'+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null).then(x=>{if(x)V5[x.key]=x;init()})});
 function init(){D.industries.forEach(i=>IND[i.id]=i);D.cities.forEach(c=>CITY[c.id]=c);
  const sts=Object.entries(D.states).filter(([k])=>D.cities.some(c=>c.state==k)).sort((a,b)=>a[1].name.localeCompare(b[1].name));
  $('#st').innerHTML=sts.map(([k,v])=>`<option value="${k}">${esc(v.name)}</option>`).join('');
@@ -81,6 +83,17 @@ const mon=iso=>{if(!iso)return'';const m=['Jan','Feb','Mar','Apr','May','Jun','J
 function spark(pts,key,lab){if(!pts||pts.length<2)return'';const v=pts.map(p=>p[key]),mx=Math.max(...v.map(Math.abs),1);return `<div class="spark" aria-label="${esc(lab)}">${pts.map(p=>`<i class="${p[key]<0?'neg':''}" style="height:${Math.max(6,Math.abs(p[key])/mx*100)}%" title="${esc(p.period)}: ${p[key]}%"></i>`).join('')}</div><div class="meta">${pts.map(p=>esc(p.period)+' '+p[key]+'%').join(' · ')}</div>`}
 
 
+
+function v6html(x,ind,ct){const sup=a=>(a||[]).map(i=>`<sup><a href="${esc(x.articles[i-1].url)}" target="_blank" rel="noopener">[${i}]</a></sup>`).join('');
+ const m=V4[x.key]&&V4[x.key].market,f=v=>(v>0?'+':'')+v+'%';
+ const mt=m?`<table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(m.nifty.r1m)}</td><td>${f(m.nifty.r3m)}</td><td>${f(m.nifty.r12m)}</td></tr>${Object.entries(m.peers).map(([k,p])=>`<tr><td>${esc(k)}</td><td>${f(p.r1m)}</td><td>${f(p.r3m)}</td><td>${f(p.r12m)}</td></tr>`).join('')}</table><p class="meta">Closing prices to ${esc(m.nifty.asof)}. ${esc(m.source)}. Market mood only.</p>`:'';
+ const sec=(s,i)=>`<details class="sec"${i==1?' open':''}><summary><span>${s.icon}</span>${esc(s.t)}</summary>${s.note?`<div class="nt">${esc(s.note)}</div>`:''}${s.items.map(t=>`<div class="it"><b>${esc(t.h)}</b><span>${esc(t.b)} ${sup(t.src)}</span></div>`).join('')}</details>`;
+ return `<div class="card v5 v6"><div><span class="vp">Caution <b>${x.score}</b><small>/100</small></span><span class="tag">${esc(x.version)}</span></div>
+ <div class="call">${esc(x.verdict)}</div><div class="sn">${esc(ind.name)} · ${esc(ct.name)} · Official data scores 71 (OK band 65+); local news this month is worse, so the call is Caution.</div>
+ <div class="nowl">📍 ${esc(x.now)} ${sup(x.now_src)}</div>
+ ${x.sections.map(sec).join('')}
+ <details class="sec"><summary><span>🔁</span>What would change the call</summary><div class="it"><span>${esc(x.change)}</span></div></details>
+ <details class="sec"><summary><span>📚</span>Details: sources & market</summary><div class="it"><ol>${x.articles.map(a=>`<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a> <span class="meta">${esc(a.date)}</span></li>`).join('')}</ol><h3>Listed peers vs Nifty</h3>${mt}<p class="meta">Rating rationales are for individual firms in past years, so read them as the cluster's typical shape, not current figures. News is unverified and can only lower a call. Decision aid, not a substitute for credit judgment.</p></div></details></div>`}
 function v5html(x,ind,ct){const sup=a=>(a||[]).map(i=>`<sup><a href="${esc(x.articles[i].url)}" target="_blank" rel="noopener">[${i+1}]</a></sup>`).join('');
  const arr={up:'▲',down:'▼',flat:'▬'},m=V4[x.key]&&V4[x.key].market,f=v=>(v>0?'+':'')+v+'%';
  const mt=m?`<table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(m.nifty.r1m)}</td><td>${f(m.nifty.r3m)}</td><td>${f(m.nifty.r12m)}</td></tr>${Object.entries(m.peers).map(([k,p])=>`<tr><td>${esc(k)}</td><td>${f(p.r1m)}</td><td>${f(p.r3m)}</td><td>${f(p.r12m)}</td></tr>`).join('')}</table><p class="meta">Closing prices to ${esc(m.nifty.asof)}. ${esc(m.source)}. Market mood only; not in the score.</p>`:'';
@@ -100,7 +113,7 @@ function v4html(v,b){const cite=t=>esc(t).replace(/\[(\d+(?:[,\s]*\d+)*)\]/g,(m,
  <p class="meta">News vs data: <b>${esc(b.news_direction||'')}</b>${b.news_direction_why?' — '+esc(b.news_direction_why):''} · written ${esc(v.generated_ist)}</p>
  <h3>Market signal: listed peers</h3><p>${esc(b.market_read||'')}</p><table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(n.r1m)}</td><td>${f(n.r3m)}</td><td>${f(n.r12m)}</td></tr>${rows}</table><p class="meta">Price change to ${esc(n.asof)} close. ${esc(m.source)}. Market mood only; not used in the score.</p>`}
 function render(){const st=D.states[sel.st],ct=CITY[sel.ct],ind=IND[sel.ind];history.replaceState(null,'',`?state=${sel.st}&city=${sel.ct}${ind?'&ind='+ind.id:''}`);
- if(ind&&V5[sel.ct+'|'+ind.id]){$('#result').innerHTML=v5html(V5[sel.ct+'|'+ind.id],ind,ct);return}
+ if(ind&&V5[sel.ct+'|'+ind.id]){$('#result').innerHTML=v6html(V5[sel.ct+'|'+ind.id],ind,ct);return}
  if(!ind){$('#result').innerHTML='<div class="card empty">Choose an industry to see the stance.</div>';return}
  const sec=D.sectors[ind.parent],e=D.calls[sel.st+'|'+ind.parent]||[null],[base,score,nat,loc,ins,rs]=e;
  const cb=B[sel.ct+'|'+ind.id],sb=B[sel.st+'|*'],br=cb||sb;let call=base;const v4=V4[sel.ct+'|'+ind.id],vb=v4&&v4.brief&&v4.brief.local_story?v4.brief:null;const nudged=vb?v4.nudged_by_news:(base=='ok'&&br&&br.o=='Worse');if(nudged)call='caution';
