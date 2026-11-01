@@ -1,0 +1,154 @@
+{
+ "key": "an_port_blair|tourism_hotels",
+ "state": "AN",
+ "city": "an_port_blair",
+ "ind": "tourism_hotels",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution — lend selectively to small owner-run room and F&B units with verified cash flows; avoid large new capex and single-asset bets until room supply and CRZ rules are clear.",
+ "title": "Port Blair tourism, hotels & restaurants: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Port Blair hotel or restaurant sells nights and meals to a visitor flow it does not control, and its cash sits in a short, seasonal cycle.** Rooms are the asset; food and beverage is the margin filler. Tourism employs nearly 75% of the population directly or indirectly [2], so the whole local economy leans on arrivals. The binding constraint is physical: of 572 islands only a few are open, land is limited, and existing hotels cannot add rooms under current CRZ rules [2]. **So when a proposal lands, check the unit's own occupancy and average room rate history, not the island's arrival story; if the borrower cannot show month-by-month occupancy, ask for the last two years of GST returns and bank statements.**",
+  "## Where value and cash sit\n**Value sits in the licence, the location and the room count; cash sits in the peak season and leaks in the monsoon.** November is rated a strong travel window, 23–30°C with 50–80mm rainfall and a Diwali rush [3], so the cash year starts now. Peer results show the upside is real but concentrated in branded, well-run assets: ITC Hotels posted consolidated revenue of Rs 1,054 crore, up 26 percent, with EBITDA up 37 percent [4]; Leela's Q2 growth came from 30% RevPAR growth, entirely ARR-led [6]; Ventive reported 27 per cent revenue growth with EBITDA margin at 48 per cent [5]. **These are national peers, not Port Blair comparables — use them only to see what good looks like; collect from customer the local occupancy, ARR and F&B split.**",
+  "## What has changed now\n**The local trade body says the sector is in its worst growth phase, and the constraint is supply, not demand.** AATO told the Home Minister that tourist inflow has risen many-fold against available rooms, that CRZ rules block both expansion and new builds, and that e-visa at the seaport and airport is still awaited [2]. Yacht arrivals from Thailand, Singapore and Malaysia are held back by three-month visa processing [2]. Separately, the Tourism Department is leasing its own Waves Restaurant and Hornbill Guest House to ANIIDCO after spending lakhs on repairs, and past private lessees delayed vacating and damaged the buildings [1]. **That tells you state-run assets here have a poor collection and handover record, so do not lend against a government lease or a tourism-department concession without a clean, assignable agreement in hand.**",
+  "## Where to grow, and how to grow safely\n**Pursue small owner-run guest houses and restaurants with a proven peak season, and asset-light operators who run someone else's property on contract.** The peer model that works is leased and managed hotels with limited capital outlay [11]. Structure term loans against the building, not against hoped-for new rooms, and keep tenor inside the CRZ approval horizon. **Take every month: GST returns, bank statements, occupancy and ARR by room type, and a season-to-season cash sweep; if receivables from OTAs or tour operators cross 45 days, ask for the ageing and hold further disbursal.** Avoid first-time developers waiting on CRZ relaxation and single-asset borrowers with no F&B or off-season income.",
+  "## Early-warning signs\n**Watch the booking book, not the news.** If advance bookings for the coming peak fall below the prior year, cut limits. If a borrower's OTA receivables stretch or a lease renewal is unsigned, stop fresh disbursal. If visa or e-visa policy stays unchanged through the season [2], treat foreign-arrival-dependent borrowers as weaker. Local coverage of this city's hotel finances is thin — the sources here are trade-body statements and one departmental report [1][2] — so lean on first principles and the peer benchmarks above."
+ ],
+ "watch": [
+  [
+   "Monthly GST and bank statements (monthly)",
+   "Falling turnover vs prior peak season -> freeze fresh limits and review drawing power"
+  ],
+  [
+   "Occupancy and ARR by room type (monthly)",
+   "Occupancy down two months running -> ask for booking book and re-rate the account"
+  ],
+  [
+   "OTA and tour-operator receivables ageing (monthly)",
+   "Ageing beyond 45 days -> hold disbursal until collected"
+  ],
+  [
+   "Lease or concession agreement status (quarterly)",
+   "Renewal unsigned or handover dispute -> treat as unsecured and stop new exposure"
+  ],
+  [
+   "Advance peak-season bookings (quarterly)",
+   "Bookings below prior year -> cut limit before the season starts"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Trade body reports worst growth phase; CRZ caps room supply and e-visa still pending.",
+ "articles": [
+  {
+   "title": "Simple Mantra of Tourism Department; Lease out profit yielding units to private parties",
+   "url": "https://andamansheekha.com/23329/",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Andaman Tourism facing worst phase of its growth: AATO to HM",
+   "url": "https://andamansheekha.com/51266/",
+   "date": "2026-10-19",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "नवंबर में पोर्ट ब्लेयर (श्री विजय पुरम) — यात्रा का बढ़िया समय | NakshIQ",
+   "url": "https://www.nakshiq.com/hi/destination/port-blair/november",
+   "date": "2026-10-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ITC Hotels Limited registers strong performance: Continued momentum in growth and expansion for Q2 FY27",
+   "url": "https://hospitality.economictimes.indiatimes.com/news/hotels/itc-hotels-limited-registers-strong-performance-continued-momentum-in-growth-and-expansion-for-q2-fy27/135212373?utm_source=Mailer&utm_medium=&utm_campaign=&dt=2026-11-01",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ventive Hospitality reports 27 per cent revenue growth with EBITDA margin at 48 per cent in Q3 FY26 - BW Hotelier",
+   "url": "https://www.bwhotelier.com/article/ventive-hospitality-reports-27-per-cent-revenue-growth-with-ebitda-margin-at-48-per-cent-in-q3-fy26-591943",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results - Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results",
+   "url": "https://www.business-standard.com/amp/markets/news/leela-palaces-hotels-rallies-10-hits-new-high-on-healthy-q2-results-126101500218_1.html#1",
+   "date": "2026-10-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The Indian Hotels Company (BOM:500850) Q2 2027 Earnings Call Transcript & Audio",
+   "url": "https://stockanalysis.com/quote/bom/500850/transcripts/711263-q2-26-27/",
+   "date": "2026-10-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA analyses the long period past financial performance trends and estimates future financial performance to assess the financi...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/859~Hotels#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 14,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130490#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "APEEJAY SURRENDRA PARK HOTELS LIMITED",
+   "url": "https://www.theparkhotels.com/images/site-specific/corporate-site/intimation-credit-rating.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Andaman and Nicobar Islands None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 1
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

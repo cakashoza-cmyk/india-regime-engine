@@ -1,0 +1,150 @@
+{
+ "key": "jk_srinagar|tourism_hotels",
+ "state": "JK",
+ "city": "jk_srinagar",
+ "ind": "tourism_hotels",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution on Srinagar tourism/hospitality lending: fund only cash-collateralised, working-capital lines to operators with verified footfall; avoid fresh capex and houseboat exposure until arrivals recover.",
+ "title": "Srinagar Tourism, Hotels & Restaurants: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Srinagar hotel or houseboat converts room-nights into cash, and the cash arrives only when tourists physically arrive.** The asset is fixed (rooms, boats, kitchen, staff) and the cost base is largely fixed too, so a fall in arrivals hits EBITDA faster than it hits revenue. Houseboat owners on Dal Lake are the most exposed: they report being unable to meet ends for two years and some are selling boats to support families [1]. ## What has changed now\n**The current signal is weak and local, not national.** Tourism bodies said the sector has been in a difficult phase since April 25 and that thousands dependent on it are under financial stress [3]. Ahead of winter, the Hoteliers Club is asking for better infrastructure, reliable essential services and aggressive promotion [2]. Peer hotel chains are posting strong growth — ITC Hotels revenue up 26 percent and EBITDA up 37 percent [4], Leela with 30% RevPAR growth [6] — but that is metro and leisure-chain demand, not Srinagar. **Do not read peer results across to a Dal Lake houseboat.**\n\n## Where to grow\n**Pursue operators with domestic, off-season and MICE-linked demand, and asset-light managers.** The Leela result was ARR-led with strong MICE demand [6]; Ventive ran 71 percent occupancy in its international leisure portfolio [5]. In Srinagar, that points to city hotels with wedding/conference and winter-event bookings, and to management-contract operators with limited capital outlay [11]. **Avoid fresh capex lending to houseboat owners and single-property seasonal hotels** until arrivals data turns; collect from customer the current occupancy, ARR and arrival numbers, since the pack gives none for Srinagar. ## How to grow safely\n**Structure against cash flow, not against the building.** Take monthly occupancy and ARR certificates, monthly bank statements, and GST returns; if occupancy falls below the level you set at sanction, ask for a fresh cash-flow projection and top-up collateral. Keep tenors short and match repayment to the season. For houseboats, insist on the boat as primary collateral with a clear valuation and a personal guarantee; if the borrower cannot show two consecutive seasons of debt-service cover, decline. ## Early-warning signs\n**Watch arrivals, not sentiment.** If a borrower reports falling footfall for two straight months, cut limits and move to cash-collateralised lending. If staff salaries are delayed or utility bills are unpaid, treat it as a liquidity event and inspect the property. If the borrower starts discounting room rates to fill rooms, margin is eroding — ask for the revised rate card and re-run the numbers."
+ ],
+ "watch": [
+  [
+   "Monthly occupancy and ARR certificate (monthly)",
+   "Two consecutive months of falling occupancy -> freeze fresh limits and seek cash collateral"
+  ],
+  [
+   "Bank statements (monthly)",
+   "Salary or utility payment delays -> inspect property and re-run cash flow"
+  ],
+  [
+   "GST returns (monthly)",
+   "Turnover drop beyond agreed band -> ask for revised projections and top-up collateral"
+  ],
+  [
+   "Seasonal arrivals data (quarterly)",
+   "Arrivals below prior season -> decline fresh capex proposals"
+  ],
+  [
+   "Collateral valuation for houseboats (annual)",
+   "Valuation fall or boat sale enquiry -> revalue and tighten guarantee"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local tourism bodies report distress since April 25 and weak arrivals at Dal Lake.",
+ "articles": [
+  {
+   "title": "Low influx of tourists hit Dal Lake's houseboat owners - Monday, October 26, 2026 | 04:18 AM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/multimedia/video-gallery/general/low-influx-of-tourists-hit-dal-lake-s-houseboat-owners-55900.htm#1",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Hoteliers Club seeks better infrastructure, aggressive promotion for winter tourism",
+   "url": "https://opera.news/news/1392ffb7261020en_in?news_entry_id=s5326e60d240314en_ng&post_id=P-5Qy48Oggx",
+   "date": "2026-10-19",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Tourism bodies urge Govt to intensify promotion, say Kashmir sector in distress - Advertisement",
+   "url": "https://www.dailyexcelsior.com/tourism-bodies-urge-govt-to-intensify-promotion-say-kashmir-sector-in-distress/#1",
+   "date": "2026-08-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ITC Hotels Limited registers strong performance: Continued momentum in growth and expansion for Q2 FY27",
+   "url": "https://hospitality.economictimes.indiatimes.com/news/hotels/itc-hotels-limited-registers-strong-performance-continued-momentum-in-growth-and-expansion-for-q2-fy27/135212373?utm_source=Mailer&utm_medium=&utm_campaign=&dt=2026-11-01",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ventive Hospitality reports 27 per cent revenue growth with EBITDA margin at 48 per cent in Q3 FY26 - BW Hotelier",
+   "url": "https://www.bwhotelier.com/article/ventive-hospitality-reports-27-per-cent-revenue-growth-with-ebitda-margin-at-48-per-cent-in-q3-fy26-591943",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results - Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results",
+   "url": "https://www.business-standard.com/amp/markets/news/leela-palaces-hotels-rallies-10-hits-new-high-on-healthy-q2-results-126101500218_1.html#1",
+   "date": "2026-10-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The Indian Hotels Company (BOM:500850) Q2 2027 Earnings Call Transcript & Audio",
+   "url": "https://stockanalysis.com/quote/bom/500850/transcripts/711263-q2-26-27/",
+   "date": "2026-10-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA analyses the long period past financial performance trends and estimates future financial performance to assess the financi...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/859~Hotels#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 14,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130490#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "APEEJAY SURRENDRA PARK HOTELS LIMITED",
+   "url": "https://www.theparkhotels.com/images/site-specific/corporate-site/intimation-credit-rating.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Jammu and Kashmir None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

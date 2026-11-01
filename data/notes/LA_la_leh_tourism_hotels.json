@@ -1,0 +1,150 @@
+{
+ "key": "la_leh|tourism_hotels",
+ "state": "LA",
+ "city": "la_leh",
+ "ind": "tourism_hotels",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively to Leh's small owner-run guest houses and restaurants with proven season cash flow and clean title; avoid new large capex and outside-investor-backed projects until local-ownership rules settle.",
+ "title": "Leh Tourism, Hotels & Restaurants: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Leh hotel or restaurant is a short-season cash machine bolted to a long, cold, closed winter.** Rooms and kitchens earn in the summer trekking and wedding months, then the property sits largely idle; cash must be banked in season to carry fixed costs through winter. **So when a proposal lands, check the season-to-winter cash split first; if the borrower cannot show winter months covered from summer surplus, ask how the gap is funded.**",
+  "## Where value and cash sit\n**Value sits in the land and building, not the furniture; cash sits in advance bookings and the season's collections.** Pricing power is real in peak season but thin in shoulder months, and the working-capital cycle is advance-heavy, which is good for us. **Take the booking register and last two seasons' bank statements; if advances are not visible in the account, ask where deposits are held.**",
+  "## What has changed now\n**Local trade bodies are pushing back on outside investment and on how the official tourism portal was launched [2][3].** That is local news, not a demand signal, and it means ownership and licensing questions around new projects are unsettled. **So for any proposal with an outside investor or a new portal-linked booking arrangement, check the local-ownership position and permits before sanction; if ownership is layered, ask for the full chain.** Peer results are strong but national, not Leh: ITC Hotels Q2 FY27 revenue up 26 percent [4], Ventive Q3 FY26 revenue up 27 percent with 48 percent EBITDA margin [5], Leela Q2 driven by 30 percent RevPAR growth [6]. **Treat these as proof the Indian hotel cycle is healthy, not as Leh numbers; collect Leh occupancy and ARR from customer.**",
+  "## Where to grow safely\n**Pursue small owner-run guest houses and restaurants with clean title, proven season collections and a local promoter.** Structure as a season-linked working-capital line plus a modest term loan, with covenants on advance-bookings cover and no fresh unapproved capex. **Take the booking register, bank statements and occupancy sheet every month; if advances fall below the agreed cover, ask for the reason and reprice.** Avoid large greenfield capex and outside-investor-backed projects until the local-ownership resolution [3] settles.",
+  "## Early-warning signs\n**Watch winter cash burn, falling advance bookings and any sign of outside capital entering quietly.** If a borrower starts funding winter from fresh borrowing rather than season surplus, ask for a revised cash plan before renewing. **The data pack gives no Leh score [D], so lean on first principles and these peer results; collect local occupancy, ARR and season length from customer.**"
+ ],
+ "watch": [
+  [
+   "Booking register and advance collections (monthly)",
+   "Advances fall below agreed cover -> ask for reason and reprice or reduce line"
+  ],
+  [
+   "Bank statements and season cash surplus (monthly)",
+   "Winter funding shifts to fresh borrowing -> ask for revised cash plan before renewal"
+  ],
+  [
+   "Occupancy and ARR sheet (monthly in season)",
+   "Occupancy drops sharply versus prior season -> ask for cause and reassess limit"
+  ],
+  [
+   "Title and ownership chain (annual)",
+   "Outside investor or layered ownership appears -> ask for full chain and permits before any enhancement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local trade bodies challenge outside investment and portal launch, unsettling ownership rules.",
+ "articles": [
+  {
+   "title": "admin, Author at Hospitality Biz India: Latest News & Analysis - Page 5 of 28",
+   "url": "https://hospitalitybizindia.com/author/admin/page/5/",
+   "date": "2026-10-15",
+   "kind": "local",
+   "via": "deepseek",
+   "used": false
+  },
+  {
+   "title": "ALTTA unhappy with Ladakh Tourism portal launch, alleges no consultation",
+   "url": "https://www.dailyexcelsior.com/altta-unhappy-with-ladakh-tourism-portal-launch-alleges-no-consultation/",
+   "date": "2026-04-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ladakh stakeholders pass resolution, seek regulated outside investment in tourism sector - The Tribune - Add Tribune As Your Trusted Source",
+   "url": "https://www.tribuneindia.com/news/j-k/ladakh-stakeholders-pass-resolution-seek-regulated-outside-investment-in-tourism-sector/amp/?utm=relatedarticles#1",
+   "date": "2026-04-05",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ITC Hotels Limited registers strong performance: Continued momentum in growth and expansion for Q2 FY27",
+   "url": "https://hospitality.economictimes.indiatimes.com/news/hotels/itc-hotels-limited-registers-strong-performance-continued-momentum-in-growth-and-expansion-for-q2-fy27/135212373?utm_source=Mailer&utm_medium=&utm_campaign=&dt=2026-11-01",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ventive Hospitality reports 27 per cent revenue growth with EBITDA margin at 48 per cent in Q3 FY26 - BW Hotelier",
+   "url": "https://www.bwhotelier.com/article/ventive-hospitality-reports-27-per-cent-revenue-growth-with-ebitda-margin-at-48-per-cent-in-q3-fy26-591943",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results - Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results",
+   "url": "https://www.business-standard.com/amp/markets/news/leela-palaces-hotels-rallies-10-hits-new-high-on-healthy-q2-results-126101500218_1.html#1",
+   "date": "2026-10-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The Indian Hotels Company (BOM:500850) Q2 2027 Earnings Call Transcript & Audio",
+   "url": "https://stockanalysis.com/quote/bom/500850/transcripts/711263-q2-26-27/",
+   "date": "2026-10-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA analyses the long period past financial performance trends and estimates future financial performance to assess the financi...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/859~Hotels#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 14,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130490#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "APEEJAY SURRENDRA PARK HOTELS LIMITED",
+   "url": "https://www.theparkhotels.com/images/site-specific/corporate-site/intimation-credit-rating.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Ladakh None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

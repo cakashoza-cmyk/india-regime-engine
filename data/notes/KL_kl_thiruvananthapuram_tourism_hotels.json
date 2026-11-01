@@ -1,0 +1,150 @@
+{
+ "key": "kl_thiruvananthapuram|tourism_hotels",
+ "state": "KL",
+ "city": "kl_thiruvananthapuram",
+ "ind": "tourism_hotels",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to branded, cash-generating hotels and restaurants with LPG-cost pass-through; avoid thin-margin budget eateries and subsidy-dependent operators.",
+ "title": "Thiruvananthapuram Tourism, Hotels & Restaurants: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA hotel or restaurant in Thiruvananthapuram buys gas, food, power and staff, and sells rooms and plates at a price the local market will bear. **Cash arrives daily at the counter; the cost base is largely fixed and energy-heavy.** Commercial LPG is a direct kitchen input, and a fresh hike of Rs 12.50 per cylinder has landed on the industry [1]. So when a proposal lands, check the kitchen's monthly cylinder count and its menu-price revision history; if the operator cannot show a pass-through in the last two quarters, ask how the margin gap is funded.",
+  "## Where value and cash sit\n**Value sits in location, brand and repeat corporate/MICE demand, not in the building.** Peer results show the money is in pricing power: Leela's Q2 growth was 30% RevPAR growth, entirely ARR-led, on domestic travel and strong MICE demand [6]; ITC Hotels posted consolidated revenue of Rs 1,054 crore, up 26 percent, with EBITDA at Rs 337 crore, up 37 percent [4]. Ventive ran 71 percent occupancy in its international hospitality business [5]. These are peers, not Thiruvananthapuram numbers, so treat them as a benchmark for what a well-run asset can earn, not as local proof.",
+  "## What has broken now\n**The local signal is cost shock plus thin-margin failure.** Commercial LPG rose again [1], and in March 2026 about 200 hotels in Thiruvananthapuram were reported on the verge of shutdown amid an LPG shortage [3]. In September 2026 the city's first Kudumbashree budget hotel, Ananthapuri Cafe, ceased operations due to mounting debts, with delayed government payouts and a KSEB power disconnection cited [2]. That is a subsidy-and-cashflow failure, not a demand failure. So when a budget-eatery proposal lands, check dependence on government or subsidy receivables; if receivables exceed a month of operating cost, ask for the sanction letter and payment date.",
+  "## Where to grow, and how to grow safely\n**Pursue branded mid-market hotels with corporate and MICE mix, and restaurants with proven menu pricing power.** Avoid subsidy-linked community kitchens and single-outlet budget eateries with no gas-cost pass-through [2][3]. Structure term debt against the property with a clear DSCR, and take monthly stock-and-cash statements, cylinder purchase bills, GST returns and bank statements. **The monthly cylinder bill is your best early read on kitchen economics** [1]. Collect from customer the local ADR, occupancy and F&B margin; the sources give no Thiruvananthapuram-specific figures.",
+  "## Early-warning signs\n- **Gas bill rising without menu revision** [1]: if two consecutive months show this, reprice the limit or ask for promoter infusion.\n- **Power or utility disconnection notices** [2]: any notice means stop fresh disbursement and inspect cash.\n- **Subsidy or government receivable ageing** [2]: beyond 30 days, ask for the sanction and expected date.\n- **Occupancy or covers slipping while staff cost holds**: ask for the daily sales register."
+ ],
+ "watch": [
+  [
+   "Monthly LPG cylinder purchase bill (monthly)",
+   "Bill up with no menu revision -> reprice limit or seek promoter infusion"
+  ],
+  [
+   "Utility/power payment status (monthly)",
+   "Disconnection notice -> halt disbursement, inspect cash"
+  ],
+  [
+   "Government/subsidy receivable ageing (monthly)",
+   "Beyond 30 days -> demand sanction letter and payment date"
+  ],
+  [
+   "Daily sales register and covers (weekly)",
+   "Covers falling with flat staff cost -> review limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Repeated LPG hikes, 200 hotels near shutdown, and a budget hotel closure signal margin stress.",
+ "articles": [
+  {
+   "title": "Commercial LPG cylinder price hiked again; fresh blow for hotel industry",
+   "url": "https://www.keralakaumudi.com/en/india/general/commercial-lpg-cylinder-price-hiked-again-1821355",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Curtains down for TVM's first Kudumbashree budget hotel Ananthapuri Cafe - Curtains down for TVM's first Kudumbashree budget hotel Ananthapuri Cafe",
+   "url": "https://www.onmanorama.com/news/kerala/2026/09/02/ananthapuri-cafe-closure.html#1",
+   "date": "2026-09-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "LPG shortage: 200 hotels on verge of shutdown in Thiruvananthapuram - LPG shortage: 200 hotels on verge of shutdown in Thiruvananthapuram",
+   "url": "https://english.mathrubhumi.com/multimedia/videos/lpg-shortage-hotels-verge-of-shutdown-west-asia-conflict-pud6s892#1",
+   "date": "2026-03-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ITC Hotels Limited registers strong performance: Continued momentum in growth and expansion for Q2 FY27",
+   "url": "https://hospitality.economictimes.indiatimes.com/news/hotels/itc-hotels-limited-registers-strong-performance-continued-momentum-in-growth-and-expansion-for-q2-fy27/135212373?utm_source=Mailer&utm_medium=&utm_campaign=&dt=2026-11-01",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ventive Hospitality reports 27 per cent revenue growth with EBITDA margin at 48 per cent in Q3 FY26 - BW Hotelier",
+   "url": "https://www.bwhotelier.com/article/ventive-hospitality-reports-27-per-cent-revenue-growth-with-ebitda-margin-at-48-per-cent-in-q3-fy26-591943",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results - Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results",
+   "url": "https://www.business-standard.com/amp/markets/news/leela-palaces-hotels-rallies-10-hits-new-high-on-healthy-q2-results-126101500218_1.html#1",
+   "date": "2026-10-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The Indian Hotels Company (BOM:500850) Q2 2027 Earnings Call Transcript & Audio",
+   "url": "https://stockanalysis.com/quote/bom/500850/transcripts/711263-q2-26-27/",
+   "date": "2026-10-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA analyses the long period past financial performance trends and estimates future financial performance to assess the financi...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/859~Hotels#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 14,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130490#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "APEEJAY SURRENDRA PARK HOTELS LIMITED",
+   "url": "https://www.theparkhotels.com/images/site-specific/corporate-site/intimation-credit-rating.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Kerala None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

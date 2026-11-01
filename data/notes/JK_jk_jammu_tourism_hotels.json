@@ -1,0 +1,154 @@
+{
+ "key": "jk_jammu|tourism_hotels",
+ "state": "JK",
+ "city": "jk_jammu",
+ "ind": "tourism_hotels",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution — lend selectively to Jammu hoteliers and restaurant operators with demonstrated peak-season cash flows and clean bureau; the data pack score is unavailable, so underwrite on first principles and peer benchmarks, not on the awards coverage.",
+ "title": "Jammu Tourism, Hotels & Restaurants: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Jammu hotel or restaurant converts room-nights and covers into cash, and the cash arrives in lumps.** The asset is beds, kitchen equipment and a lease or owned plot; the cost base is staff, power, food and liquor input, and interest on the property loan. Pricing power is thin outside the peak yatra and holiday windows, so the operator's margin is made or lost on occupancy in a handful of weeks. **Ask for the month-wise occupancy and average room rate for the last two years before you look at anything else; if the file has only annual totals, send it back.**",
+  "## Where the cash actually sits\n**Working capital is short and self-funding in a good hotel — receivables are mostly OTA and corporate, payables are food and staff — but the capex is heavy and lumpy.** Renovation, a banquet hall or a new kitchen block is where the money goes, and it is spent before the season that repays it. So when a proposal lands for a property upgrade, check whether the spend is timed to be ready before the peak window; if the drawdown is scheduled after the season, ask why. **The rating literature on this sector is thin and dated — the ICRA hotel methodology [8] and the CHL rational [9] carry no date, so treat them as background, not as current evidence.**",
+  "**The sources say almost nothing specific about Jammu city itself — the coverage is Srinagar- and UT-level — so lean on first principles and on the listed peers.** Those peers are strong: ITC Hotels Q2 FY27 revenue Rs 1,054 crore, up 26 percent, EBITDA Rs 337 crore up 37 percent [4]; Leela's Q2 was driven by 30 percent RevPAR growth, entirely ARR-led, with strong MICE demand [6]; Ventive's international occupancy was 71 percent [5]. **Read that as proof that Indian hospitality pricing is holding — not as proof that a Jammu mid-market property is earning it.**",
+  "## Who to pursue, who to avoid\n**Pursue owner-operated mid-market hotels and banquet-led restaurants with three or more years of season-on-season occupancy, and adventure or experiential operators now that the UT is being marketed on that plank [2].** Avoid single-property first-timers, operators whose repayment depends on one festival month, and anyone whose file cannot show OTA settlement statements. **Take the OTA and corporate contracts, the GST returns and the power bills every month; if occupancy in the shoulder months falls below the prior year for two consecutive months, stop fresh disbursement and re-price the limit.**",
+  "## Structure and early warning\n**Structure as a term loan matched to the renovation cycle plus a cash-credit sized to one month of operating cost, with a DSRA of one quarter's instalment.** Covenant on a minimum monthly OTA realisation and on promoter equity staying in. **Watch the seasonality: if the peak-month collection is late by more than fifteen days against the prior year, ask for the booking register; if banquet advance bookings are down, cut the limit before the season, not after.**"
+ ],
+ "watch": [
+  [
+   "Monthly OTA settlement and GST filing (monthly)",
+   "Two months of falling OTA realisation -> freeze limit and call for booking register"
+  ],
+  [
+   "Peak-season occupancy vs prior year (seasonal, monthly in season)",
+   "Shoulder-month occupancy below prior year twice -> stop fresh disbursement, re-price"
+  ],
+  [
+   "Banquet and advance booking register (monthly)",
+   "Advance bookings down year-on-year -> reduce cash-credit before the season"
+  ],
+  [
+   "Power and staff cost bills (monthly)",
+   "Cost per occupied room rising while ARR flat -> ask for revised cash-flow and margin covenant"
+  ],
+  [
+   "Promoter equity and DSRA balance (quarterly)",
+   "DSRA drawn or equity diluted -> escalate to credit committee"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Two tourism awards and strong listed-peer results, but no Jammu-specific financial data.",
+ "articles": [
+  {
+   "title": "Srinagar News: जम्मू-कश्मीर पर्यटन को दो अवॉर्ड, बेस्ट एडवेंचर व बेस्ट एक्सपीरिएंशल टूरिज्म डेस्टिनेशन का खिताब",
+   "url": "https://www.amarujala.com/jammu-and-kashmir/srinagar/srinagar-jammu-kashmir-tourism-got-two-award-srinagar-news-c-264-1-udh1007-117871-2026-11-01",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "J&K Tourism Wins Two IITM Awards",
+   "url": "https://onlykashmir.in/33825/jk-tourism-wins-two-iitm-awards/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "domestic tourism in jammu: Latest News & Videos, Photos about domestic tourism in jammu | The Economic Times - Page 1 - Business News›domestic tourism in jammu",
+   "url": "https://economictimes.indiatimes.com/topic/domestic-tourism-in-jammu#1",
+   "date": "2026-10-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "ITC Hotels Limited registers strong performance: Continued momentum in growth and expansion for Q2 FY27",
+   "url": "https://hospitality.economictimes.indiatimes.com/news/hotels/itc-hotels-limited-registers-strong-performance-continued-momentum-in-growth-and-expansion-for-q2-fy27/135212373?utm_source=Mailer&utm_medium=&utm_campaign=&dt=2026-11-01",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ventive Hospitality reports 27 per cent revenue growth with EBITDA margin at 48 per cent in Q3 FY26 - BW Hotelier",
+   "url": "https://www.bwhotelier.com/article/ventive-hospitality-reports-27-per-cent-revenue-growth-with-ebitda-margin-at-48-per-cent-in-q3-fy26-591943",
+   "date": "2026-02-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results - Leela Palaces Hotels rallies 10%, hits new high on healthy Q2 results",
+   "url": "https://www.business-standard.com/amp/markets/news/leela-palaces-hotels-rallies-10-hits-new-high-on-healthy-q2-results-126101500218_1.html#1",
+   "date": "2026-10-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The Indian Hotels Company (BOM:500850) Q2 2027 Earnings Call Transcript & Audio",
+   "url": "https://stockanalysis.com/quote/bom/500850/transcripts/711263-q2-26-27/",
+   "date": "2026-10-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA analyses the long period past financial performance trends and estimates future financial performance to assess the financi...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/859~Hotels#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 14,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130490#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "APEEJAY SURRENDRA PARK HOTELS LIMITED",
+   "url": "https://www.theparkhotels.com/images/site-specific/corporate-site/intimation-credit-rating.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Jammu and Kashmir None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
