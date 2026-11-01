@@ -1,0 +1,154 @@
+{
+ "key": "ch_chandigarh|retail_trade",
+ "state": "CH",
+ "city": "ch_chandigarh",
+ "ind": "retail_trade",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new retail-trade exposure in Chandigarh until stall-permit enforcement and local demand signals clear; lend only to documented, multi-outlet retailers with verifiable GST turnover.",
+ "title": "Chandigarh Retail Trade: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Retail trade here is small-format shopkeeping and stall vending — buy stock, hold it, sell it off a counter, and convert inventory back to cash within days to weeks.** Value sits in the shelf and the location, not in plant; capex is fit-out and deposits, so the real risk is inventory and receivables, not machinery. Pricing power is thin because the customer can walk to the next stall, so margin comes from turnover and stock discipline. Cash cycle is short but fragile: a slow week leaves stock and rent unpaid together.",
+  "## What has changed now\n**The local signal is negative: Chandigarh GST collections are up 3.4% Apr-to-date against India's 6.1%, and electricity demand is up 3.9% against India's 9.5% [D].** Both point to a city trading slower than the country, and the repo at 5.5%, raised from 5.25% with a tightening stance, makes working-capital limits costlier [D]. Separately, the municipal corporation has ordered checking of stalls in city markets after fake stall-permit receipts surfaced [1], and vendors report business hit with fake receipts and empty pockets [2]. Treat the permit story as a local enforcement event, not a demand story — but it hits exactly the informal end of this trade.",
+  "## Where the growth is\n**Pursue organised, multi-outlet retailers and franchise-format stores with GST-filed turnover and clean title to premises; avoid single-stall vendors and anyone whose right to trade rests on a receipt the corporation is now checking [1][2].** The CII fair at Parade Ground bringing exhibitors together [3] shows organised retail and MSME display activity still running in the city, so the demand is there for documented players. Peer results are mixed and mostly national, not Chandigarh: Iris Clothings grew total income 40.3% YoY in Q2 FY27 [4], while Godrej Consumer saw gross margin contract 300 bps YoY on 8% volume growth [7] — read these as sector colour, not city evidence.",
+  "## How to grow safely\n**Structure against inventory, not against hope: stock-and-receivables statement every month, stock audit quarterly, and a covenant that permit or licence copies are on file before any enhancement.** Take GST returns monthly and match them to bank credits; if the two diverge, ask for the purchase invoices behind the gap. Where the borrower is a stall holder, collect from customer the permit number and corporation receipt before sanction. Rating experience says working-capital limits get drawn only in the festive season and stay near nil otherwise [8], so size the limit to the peak, not the average.",
+  "## Early-warning signs\n**Watch for stock build without sales growth, rent or permit arrears, and GST turnover falling below the city's 3.4% trend [D].** If a borrower's monthly GST falls two months running while stock rises, cut the limit and ask for the closing stock statement. If a permit dispute appears in the market, freeze enhancements until the corporation's check is done [1]. Old rating material (2024) on trader obsolescence and receivables risk still applies to garment and mobile stock [10][11]."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs bank credits (monthly)",
+   "Gap over one month -> ask for purchase invoices and hold enhancement"
+  ],
+  [
+   "Stock statement and stock audit (monthly/quarterly)",
+   "Stock up while sales flat -> cut limit, seek closing stock"
+  ],
+  [
+   "Stall permit and corporation receipt status (quarterly)",
+   "Permit disputed or unreceipted -> freeze limit until resolved"
+  ],
+  [
+   "City GST and power demand vs India (monthly)",
+   "Chandigarh gap widens beyond 2.7 pp [D] -> shift to documented multi-outlet only"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local GST and power growth trail India; fake stall-permit enforcement hits vendors.",
+ "articles": [
+  {
+   "title": "चंडीगढ़ की मार्केट्स में स्टाॅल की होगी चेकिंग, फर्जी पर्चियों का मामला सामने आने के बाद निगम का फैसला",
+   "url": "https://org432akamprepod.jagran.com/punjab/chandigarh-chandigarh-markets-fake-stall-permits-lead-to-enforcement-checks-40424200.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Chandigarh News: पर्चियां फर्जी, जेबें खाली... वेंडरों का धंधा चौपट",
+   "url": "https://www.amarujala.com/chandigarh/fake-receipts-empty-pockets-vendors-business-ruined-chandigarh-news-c-16-pkl1079-1164512-2026-11-01",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "CII fair to bring together over exhibitors at Chandigarh's Parade Ground",
+   "url": "https://www.tribuneindia.com/news/chandigarh/cii-fair-to-bring-together-over-exhibitors-at-chandigarhs-parade-ground/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Iris Clothings Ltd (NSE:IRISDOREME) (Q2 2027) Earnings Call Highlights: 40% Revenue Surge, ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/iris-clothings-ltd-nseirisdoreme-q2-2027-earnings-call-highlights-40-revenue-surge--4919819",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "30 October 2026 | HSIE Results Daily",
+   "url": "https://www.hdfcsec.com/hsl.docs//HSIE%20Results%20Daily%20-%2030%20Oct%2026%20-%20HSIE-202610300654362056881.pdf?t=301020260737123712#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "30 October 2026 | Q2FY27 Results Review",
+   "url": "https://www.hdfcsec.com/hsl.docs//Godrej%20Consumer%20-%20Q2FY27%20-%20HSIE-202610300729031859519.pdf?t=30102026085205525#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Godrej Consumer Shares Fall Nearly 4% After Q2 Results As Margins Come Under Pressure",
+   "url": "https://www.ndtvprofit.com/markets/godrej-consumer-shares-fall-nearly-4-after-q2-results-as-margins-come-under-pressure-12256991",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 04, 2026",
+   "url": "https://www.icra.in/Rating/ShowRatingRationalReport?id=145447#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "March 26, 2024(Revised)",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=126576#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria for rating trading companies",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Criteria%20for%20rating%20trading%20companies.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + Chandigarh 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Chandigarh: GST collections +3.4% Apr-to-date vs India +6.1% (2.7 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Chandigarh: electricity demand +3.9% Apr-to-date vs India +9.5% (5.6 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]",
+  "India-wide: All-India domestic GST collections Apr-to-date (proxy) +6.1%. [official activity proxy, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

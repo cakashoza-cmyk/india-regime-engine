@@ -1,0 +1,151 @@
+{
+ "key": "up_noida|mobile_assembly",
+ "state": "UP",
+ "city": "up_noida",
+ "ind": "mobile_assembly",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 84,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Noida mobile/consumer-electronics assembly — back component and tooling suppliers to the EMS majors, not thin-margin assemblers; structure tightly on receivables and take monthly stock-and-debtor data.",
+ "title": "Noida mobile & consumer-electronics assembly: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Noida-Greater Noida is a high-tech manufacturing hub, and UP now makes about 65% of India's mobiles and holds 55% of electronics-component manufacturing [3].** The unit buys components, runs SMT lines and assembly, and sells finished devices to a brand or OEM. Cash is made on conversion, not on the device: value sits in the brand and the component, while the assembler earns a thin conversion margin. So when a proposal lands, check what share of revenue is pure assembly versus component or tooling work; if it is all assembly, ask what stops the brand from shifting the line.\n\n## Where cash and value sit\n**Working capital is the whole game: inventory of components plus receivables from one or two brands.** Capex is line-and-building heavy and funded upfront, while the brand pays on its own terms. Collect from customer the receivable days, inventory days and the single-buyer share before you price anything. If one buyer is above half of sales, ask for the purchase order and the payment history with that buyer.\n\n## What has changed now\n**The national demand signal is strong — IIP for NIC 26 output is +19.3% YoY and +13.6% Apr-to-date [D], and electronics exports are +44.0% Apr-to-date in USD [D].** UP GST collections are +14.2% Apr-to-date against India's +6.1% [D], a genuine local tailwind. But peer results show the margin side is tightening: Dixon beat on topline while operating performance was sub-par, with the end of production-linked incentives, higher input costs and delayed Vivo JV production weighing on margins [5]. Amber and Bhagwati bets show the sector still stuck in low-value assembly with razor-thin margins [6]. The Singapore City plan near Noida International Airport (500 acres, semiconductor, logistics, data centres) is a proposal, not built capacity [1].\n\n## Who to pursue, who to avoid\n**Pursue component, tooling and packaging suppliers feeding the EMS majors, and assemblers with a signed brand contract and component localisation.** Dixon is deepening into camera modules and laptop production and has approval for the Vivo JV [7]; its Q Tech camera capacity has risen from 80 million to 120 million units a year [4]. Those supply chains are where a mid-sized Noida borrower can sit. Avoid pure assembly units with one buyer, no localisation and no component work — that is the Amber/Bhagwati thin-margin trap [6].\n\n## How to grow safely, and early warnings\n**Structure against receivables, not hope: charge on stock and book debts, monthly stock-and-debtor statements, and a covenant capping single-buyer concentration.** Take GST returns monthly and match them to sales. Watch for: receivable days stretching beyond the stated terms; a buyer cutting orders or delaying payment; inventory building without matching sales; and any sign the unit is chasing volume at negative conversion margin. If a borrower's margin falls while sales rise, ask whether incentives have ended — that is exactly the Dixon pattern [5].",
+  "## Early-warning dashboard\n- Monthly GST return vs sales (monthly): gap above 10% -> ask for explanation and hold further drawdown\n- Top-buyer receivable days (monthly): stretch beyond agreed terms -> seek buyer confirmation and reprice\n- Inventory days (monthly): rise without sales growth -> inspect stock and cut limit\n- Component localisation share (quarterly): falling -> treat as pure-assembly risk and reduce exposure"
+ ],
+ "watch": [
+  [
+   "GST return vs sales (monthly)",
+   "gap above 10% -> ask for explanation and hold drawdown"
+  ],
+  [
+   "Top-buyer receivable days (monthly)",
+   "stretch beyond agreed terms -> seek buyer confirmation and reprice"
+  ],
+  [
+   "Inventory days (monthly)",
+   "rise without sales growth -> inspect stock and cut limit"
+  ],
+  [
+   "Component localisation share (quarterly)",
+   "falling -> treat as pure-assembly risk and reduce exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Strong national output and UP GST tailwind offset by peer margin pressure from ended incentives.",
+ "articles": [
+  {
+   "title": "Uttar Pradesh Plans 'Singapore City' Near Noida International Airport",
+   "url": "https://www.mirrornow.in/noida-news/uttar-pradesh-plans-singapore-city-near-noida-airport-article-156438365",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Procurement News Notice - 49841 – BidDetail",
+   "url": "https://www.biddetail.com/procurement/procurement-news/49841",
+   "date": "2026-10-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "देश के 65% मोबाइल अब यूपी में बन रहे: योगी: इलेक्ट्रॉनिक्स कंपोनेंट्स में भी 55% हिस्सेदारी; नोएडा-ग्रेटर नोएडा बने हाई-टेक मैन्युफैक्चरिंग हब - - Hindi News",
+   "url": "https://www.bhaskar.com/up-khaas/news/noida-greater-noida-electronics-hub-yogi-adityanath-mobile-making-138527438.html#1",
+   "date": "2026-07-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Dixon Technologies beats Q2 2026 forecasts, shares fall By Investing.com",
+   "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-dixon-technologies-beats-q2-2026-forecasts-shares-fall-93CH-5670025",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dixon Technologies faces near-term margin headwinds as input costs rise",
+   "url": "https://www.business-standard.com/amp/markets/news/dixon-technologies-faces-near-term-margin-headwinds-as-input-costs-rise-126110100636_1.html",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Amber-enterprises: Latest Amber-enterprises News, Photos, Videos and Podcasts | Mint - Amber Enterprises",
+   "url": "https://www.livemint.com/topic/amber-enterprises#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dixon Technologies (India) - Dixon Technologies (India)",
+   "url": "https://www.business-standard.com/amp/topic/dixon-technologies-india#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 28,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=139330#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Industry Risk Score",
+   "url": "https://acuite.in/Upload/Acuite/0001/Consumer_Electronics.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "August 26, 2022",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=114095#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 84 (national 90 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 26 output +19.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +13.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +44.0% Apr-to-date in USD (Rs 304,256 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

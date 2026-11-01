@@ -1,0 +1,142 @@
+{
+ "key": "dl_narela_bawana|plastics",
+ "state": "DL",
+ "city": "dl_narela_bawana",
+ "ind": "plastics",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 59,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to converters with pass-through pricing and tight working-capital control; avoid commodity moulders exposed to Delhi's slower GST and power demand.",
+ "title": "Narela-Bawana Plastics & Rubber Processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A plastics or rubber unit here buys resin or scrap, runs it through moulding, extrusion or reclaim lines, and sells parts or granules to nearby OEMs and traders.** Cash is made on conversion margin, not on the polymer: the resin is a pass-through, so the spread between input cost and selling price per kg is the whole business. **Value sits in the machine hours and the customer approval, not in the shed.** So when a proposal lands, ask for the per-kg conversion margin and the top five customers' share; if one buyer is above a third of sales, ask for the supply agreement and payment history.",
+  "## Where cash sits and what has changed\n**Working capital is the real loan: inventory of resin and finished parts plus receivables, net of supplier credit.** Rating commentary on a peer converter shows raw material concentration is normal, with about 84% of FY25 requirements from the top five suppliers [9], so supplier terms drive the cycle. **Delhi is running slower than India: GST collections +2.7% Apr-to-date against India's +6.1%, and electricity demand +6.5% against +9.5% [D].** That is a local demand signal, not a national one. Nationally the industry is strong: IIP for rubber and plastics output is +21.4% YoY and +18.2% Apr-to-date [D]. **Read this as a national upcycle with a soft local market, so lend to units selling outside Delhi.**",
+  "## What peers tell us\n**Peer results are healthy and recent.** Supreme Industries grew sales tonnage 19% YoY with operating profit up 45% [4]; Apcotex posted record H1 with revenue up 44% [5]; GRP's total income rose 26% with EBITDA margin at 11% [2]. GRP's earlier call guided reclaim volume growth of about 5% for FY26, accelerating to mid-teens in FY27 [3]. **The margin expansion is in specialised and reclaim grades, not plain commodity moulding.** Note the sources say nothing specific about Narela-Bawana itself; the landfill news [1] is undated and carries no lending signal, so lean on first principles and these peers.",
+  "## Who to pursue now, and how to grow safely\n**Pursue reclaim-rubber and recycled-compound makers, and converters with approved-vendor status at auto or appliance OEMs.** Avoid plain commodity moulders selling to local traders on open credit. **Structure as a cash-flow loan against a drawing-power limit, not a term loan for sheds.** Take monthly stock-and-debtor statements, quarterly GST returns, and a charge on receivables; covenant that conversion margin per kg does not fall below the sanctioned base. **Ask for the power bill every month: electricity consumption is the honest production proxy.**",
+  "## Early-warning signs\n**Watch debtor days stretching beyond the sanctioned cycle, inventory of slow-moving grades building, and power consumption falling while sales are reported flat.** If GST turnover trails bank credits, stop enhancement and ask for the reason in writing. If a single customer crosses a third of sales, seek a tripartite arrangement or reduce exposure."
+ ],
+ "watch": [
+  [
+   "GST returns vs bank credits (monthly)",
+   "turnover below credits for two months -> freeze limit enhancement and seek explanation"
+  ],
+  [
+   "Electricity bill units (monthly)",
+   "units fall while sales flat -> inspect stock and cut drawing power"
+  ],
+  [
+   "Debtor days (monthly)",
+   "beyond sanctioned cycle -> move to cash-and-carry on new dispatches"
+  ],
+  [
+   "Top-customer share (quarterly)",
+   "above one-third of sales -> seek supply agreement or reduce exposure"
+  ],
+  [
+   "Conversion margin per kg (quarterly)",
+   "below sanctioned base -> reprice or exit at renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Delhi GST and power demand both trail India, signalling weak local offtake.",
+ "articles": [
+  {
+   "title": "Narela Bawana Landfill Site News | Latest News on Narela Bawana Landfill Site - Times of India",
+   "url": "https://timesofindia.indiatimes.com/topic/narela-bawana-landfill-site/news",
+   "date": "date unknown",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "GRP Ltd (BOM:509152) Q1 2027 Earnings Call Highlights: Strong Revenue Growth and Margin Expansion By GuruFocus - GRP Ltd (BOM:509152) Q1 2027 Earnings Call Highlights: Strong Revenue Growth and Margin Expansion",
+   "url": "https://ca.investing.com/news/company-news/grp-ltd-bom509152-q1-2027-earnings-call-highlights-strong-revenue-growth-and-margin-expansion-4758390#1",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "GRP Ltd Q3 FY26 Results & Concall Highlights: Revenue, Margins & Order Book",
+   "url": "https://www.arthneeti.com:443/insights/grp-q3-fy26-earnings",
+   "date": "2026-07-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Supreme Industries H1 FY27 slides: revenue up 22%, margins expand By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/supreme-industries-h1-fy27-slides-revenue-up-22-margins-expand-93CH-2649317",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apcotex Industries Ltd (BOM:523694) (Q2 2027) Earnings Call High",
+   "url": "https://www.gurufocus.com/news/9153591/apcotex-industries-ltd-bom523694-q2-2027-earnings-call-highlights-record-h1-performance-48-revenue-surge-and-capex-on-track",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Crisil Ratings also notes that there is an Agency for Specialised Monitoring (ASM) appointed by the lenders, as part of the rest...",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbb2e8f9-d70e-49c4-a295-26bdd4c78562.pdf#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Manika Plastech Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202606120607_Manika_Plastech_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 59 (national 98 x 0.6 + Delhi 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Delhi: GST collections +2.7% Apr-to-date vs India +6.1% (3.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Delhi: electricity demand +6.5% Apr-to-date vs India +9.5% (3.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 22 output +21.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +18.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

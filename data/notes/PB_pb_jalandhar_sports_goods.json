@@ -1,0 +1,154 @@
+{
+ "key": "pb_jalandhar|sports_goods",
+ "state": "PB",
+ "city": "pb_jalandhar",
+ "ind": "sports_goods",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 59,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Jalandhar sports-goods exporters with clean dealer receivables and scheme-backed capex; avoid pure domestic-seasonal units with stretched inventory.",
+ "title": "Jalandhar sports goods: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Jalandhar's sports goods units convert rubber, leather, synthetic and wood inputs into bats, balls, shoes and gym equipment, and cash comes back through dealer and export channels, not at the factory gate.** The working-capital cycle is the whole credit story: a rated peer held inventory of ~85 days and collected from dealers in ~89 days as on March 31, 2024 [8], so when a proposal lands, check the inventory-plus-receivable days against these two numbers; if receivables run past 90 days, ask which dealers are being carried and why. Pricing power is thin — a rated peer showed limited ability to pass on costs in a sluggish market [9] — so margin is made on cost control, not price.",
+  "## What has changed now\n**The local news is about intent and money, not yet about orders.** A sitting MP has publicly called for revival of the Jalandhar sports goods industry [1], and Jalandhar plus Meerut are reported to get about Rs 150 crore extra under Mission Olympic for sports goods [2]. Separately, a Centre scheme of Rs 1,857 crore is reported to boost the Jalandhar and Ludhiana industry [3]. Treat all three as local press, dated late October 2026, and unverified against sanction letters — so when a borrower cites scheme money, ask for the sanction order, not the newspaper. The data pack gives Punjab GST collections +9.7% Apr-to-date versus India +6.1% [D], a real local tailwind, but India-wide bank credit is +26.8% YoY against output +3.8% [D], meaning much of the lending is not yet backed by production.",
+  "## Where to grow\n**Pursue exporters and scheme-linked capex borrowers, not festive-season domestic fillers.** India-wide exports are +32.5% Apr-to-date in USD [D], and the peer set shows demand holding: Campus Activewear grew revenue 12.2% with volume 11.7% in Q1 FY27 [6], and Page Industries improved net working capital days from 75 to 54 [5]. So when a proposal lands, favour units with export order books and a capex plan tied to the Mission Olympic or Centre scheme [2][3]; if the borrower is purely domestic and sells into one festive season, ask for the last three years' monthly sales pattern before sanctioning.",
+  "## How to grow safely\n**Structure against the cycle, not the story.** Take monthly stock-and-receivable statements, and set a drawing-power limit at 75% of eligible receivables under 90 days, consistent with the peer collection norm [8]. Ask for the scheme sanction letter and disbursement schedule before releasing capex tranches [2][3]. Peer margins are compressing — Page revenue rose 7.9% with margins down [5] — so price the limit for a margin squeeze, not for the FY26 peak.",
+  "## Early-warning signs\n**Watch the cash conversion, not the order book.** If inventory days cross 85 [8] or receivables cross 90 [8], cut the limit and ask for dealer-wise ageing. If scheme money is cited but no sanction letter appears within 60 days [2][3], treat the capex as unfunded. If monthly GST on the borrower's own filings lags the Punjab +9.7% trend [D], the unit is losing share."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-receivable statement (monthly)",
+   "inventory above 85 days or receivables above 90 days -> cut limit, seek dealer-wise ageing"
+  ],
+  [
+   "Scheme sanction letter and disbursement proof (quarterly)",
+   "no sanction letter within 60 days of claim -> treat capex as unfunded, hold tranche"
+  ],
+  [
+   "Borrower GST filings vs Punjab +9.7% trend (monthly)",
+   "borrower growth below state trend for two quarters -> reprice or exit"
+  ],
+  [
+   "Export order book and shipment data (quarterly)",
+   "order book falls two quarters running -> shift to secured, shorter-tenor limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "State GST outpaces India and scheme money is reported for Jalandhar sports goods.",
+ "articles": [
+  {
+   "title": "Vikramjit Singh Sahney Calls for Revival of Jalandhar’s Sports Goods Industry",
+   "url": "https://punjaboutlook.com/vikramjit-singh-sahney-calls-for-revival-of-jalandhars-sports-goods-industry/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "मिशन ओलिंपिक के लिए मेरठ व जालंधर को अतिरिक्त मिलेंगे लगभग 150 करोड़ - meerut jalandhar get 150 cr boost for olympic sports goods",
+   "url": "https://org374nextwww.jagran.com/uttar-pradesh/meerut-city-meerut-jalandhar-get-150-cr-boost-for-olympic-sports-goods-40421286.html",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Centre’s Rs. 1,857-crore Sports Goods Scheme to boost Jalandhar, Ludhiana Industry: Kulwant Gulati",
+   "url": "https://www.babushahi.com/full-news.php?id=229043",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Campus Activewear posts strong Q1 FY27 with double-digit growth - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/campus-activewear-posts-strong-q1-fy27-with-double-digit-growth?utm_source=flipboard&utm_content=TipRanks%2Fmagazine%2FTipRanks+Labs#1",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Page Industries Q1 FY27 slides: revenue up 7.9%, margins compress By Investing.com - Page Industries Q1 FY27 slides: revenue up 7.9%, margins compress",
+   "url": "https://www.investing.com/news/company-news/page-industries-q1-fy27-slides-revenue-up-79-margins-compress-93CH-4857607#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Campus Activewear (NSE:CAMPUS) Earnings Call Transcripts - 197.00",
+   "url": "https://stockanalysis.com/quote/nse/CAMPUS/transcripts/#main#1",
+   "date": "2026-08-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Campus Activewear rises after Q4 PAT climbs 26% YoY to Rs 44 cr",
+   "url": "https://www.business-standard.com/amp/markets/capital-market-news/campus-activewear-rises-after-q4-pat-climbs-26-yoy-to-rs-44-cr-126052600459_1.html",
+   "date": "2026-05-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202411131134_Freewill_Sports_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Nivia Synthetics Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/04012021041050_Nivia_Synthetics_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "3rd October, 2025",
+   "url": "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/03102025/cceabbcc-ca2a-4a84-8f4e-f28b200fc386.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "SSGSFL has not cooperated with Credit Analysis & Research Ltd (CARE), ICRA Ltd (ICRA) and Brickwork Ratings India Pvt Ltd (Brick...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Sar%20Senapati%20Santaji%20Ghorpade%20Sugar%20Factory%20Limited-RU-03-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 59 (national 48 x 0.6 + Punjab 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Punjab: GST collections +9.7% Apr-to-date vs India +6.1% (3.6 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Exports +32.5% Apr-to-date in USD (Rs 10,743 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.8% YoY vs output +3.8% (gap +23.0 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Punjab: electricity demand +8.8% Apr-to-date vs India +9.5% (0.7 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

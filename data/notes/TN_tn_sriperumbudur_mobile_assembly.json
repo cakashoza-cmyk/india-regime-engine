@@ -1,0 +1,154 @@
+{
+ "key": "tn_sriperumbudur|mobile_assembly",
+ "state": "TN",
+ "city": "tn_sriperumbudur",
+ "ind": "mobile_assembly",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 64,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to component and tooling suppliers tied to anchor OEMs, with tight monthly discipline; avoid thin-margin pure assembly units and any borrower whose GST filings lag the state trend.",
+ "title": "Sriperumbudur mobile & consumer-electronics assembly: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**This is a screwdriver-and-test-line business: imported kits, boards and displays go in, finished handsets come out, and the cash is made on throughput, not on price.** The assembler earns a conversion fee per unit from the brand owner; the brand owns the design, the bill of materials and the pricing. So when a proposal lands, check who the customer is and whether the contract is a fixed conversion rate or a cost-plus arrangement; if it is cost-plus, ask what happens to the rate when the PLI-linked incentive ends [5].\n\n**Value sits with the brand and the component maker, not the assembler.** Peer commentary is blunt that Indian electronics makers remain stuck in assembly mode with razor-thin margins [6], and Dixon's Q2FY27 topline beat came with sub-par operating performance as input costs rose and PLI support ended [5]. So when a proposal lands, check the gross-margin trend over four quarters; if margins are flat while revenue doubles, ask where the working-capital funding is coming from.\n\n## Where the cash actually sits\n**Cash is trapped in inventory and receivables, and the cycle is set by the brand, not the borrower.** Components are imported on LC or advance, while the brand pays 45-90 days after dispatch. So when a proposal lands, check the inventory days and receivable days separately; if receivable days exceed the brand's stated credit terms, ask for the ageing and the debit notes. Capex is modest per line but recurring, because each new model needs new jigs and testers; collect from customer the per-line capex and the model-change frequency.\n\n## What has changed now\n**The national picture is strong and the state picture is not.** India-wide electronics output (IIP NIC 26) is up 19.3% YoY and 13.6% Apr-to-date, and exports are up 44.0% Apr-to-date in USD [D]. But Tamil Nadu GST collections are down 3.2% Apr-to-date against India's +6.1%, a 9.3 pp gap [D]. **That gap is the single most important number in this note.** So when a proposal lands, pull the borrower's own GST returns; if its filings are shrinking faster than the state, ask why before sanctioning.\n\n**Local reporting on Sriperumbudur itself is thin.** The local coverage is topic-page aggregation rather than plant-level news [1][3], and the China+1 piece is a policy essay, not a Sriperumbudur datapoint [2]. Treat first principles and peer results as the base, and verify plant-level facts on the ground.\n\n## Who to pursue, and how to grow safely\n**Pursue the second tier: tooling and jig makers, precision plastics, packaging, SMT job-workers and logistics/warehouse operators serving the anchor plants.** These have diversified customers, shorter receivable cycles and real asset backing. Avoid pure assembly units with a single brand customer and no component capability. Structure term loans against machinery with a 25-30% margin, working capital as CC/OD against stock and book debts with a drawing power reset monthly, and take a monthly stock statement, monthly GST return, and quarterly customer-wise sales. Covenant a maximum single-customer share and a minimum current ratio; if the single-customer share crosses the covenant, ask for a customer diversification plan before enhancing limits.\n\n## Early-warning signs\n- **GST filings falling faster than the state's -3.2% [D] (monthly)** -> freeze enhancement and inspect stock.\n- **Receivable days stretching beyond the brand's stated terms (monthly)** -> ask for the brand's payment confirmation in writing.\n- **Inventory days rising while dispatches fall (monthly)** -> check for obsolete model stock and revalue drawing power.\n- **Conversion rate cut or model discontinued (event-driven)** -> reassess the line's utilisation and the loan tenor.\n- **Power or labour disruption at the anchor plant (weekly)** -> confirm the borrower's order book is not single-plant dependent."
+ ],
+ "watch": [
+  [
+   "GST return vs state trend (monthly)",
+   "borrower filings shrink faster than -3.2% [D] -> freeze limits and inspect stock"
+  ],
+  [
+   "Receivable days (monthly)",
+   "stretch beyond brand terms -> obtain written payment confirmation from brand"
+  ],
+  [
+   "Inventory days (monthly)",
+   "rise while dispatches fall -> revalue drawing power, flag obsolete stock"
+  ],
+  [
+   "Single-customer share (quarterly)",
+   "crosses covenant -> demand diversification plan before any enhancement"
+  ],
+  [
+   "Anchor plant utilisation (weekly)",
+   "disruption or model change -> reassess line utilisation and tenor"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Tamil Nadu GST down 3.2% vs India +6.1% [D]; peer margins squeezed as PLI ends [5].",
+ "articles": [
+  {
+   "title": "sriperumbudur plant chennai: Latest News & Videos, Photos about sriperumbudur plant chennai | The Economic Times - Page 1 - Business News›sriperumbudur plant chennai",
+   "url": "https://economictimes.indiatimes.com/topic/sriperumbudur-plant-chennai#1",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "India’s China+1 Lessons Lie Within Its Own States - ¯",
+   "url": "https://vajiramias.com/article/indias-china1-lessons-lie-within-its-own-states/6ad717c019bf451a9db968d3/#1",
+   "date": "2026-10-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "samsung job creation News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/samsung-job-creation/news#1",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Dixon Technologies beats Q2 2026 forecasts, shares fall By Investing.com",
+   "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-dixon-technologies-beats-q2-2026-forecasts-shares-fall-93CH-5670025",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dixon Technologies faces near-term margin headwinds as input costs rise",
+   "url": "https://www.business-standard.com/amp/markets/news/dixon-technologies-faces-near-term-margin-headwinds-as-input-costs-rise-126110100636_1.html",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Amber-enterprises: Latest Amber-enterprises News, Photos, Videos and Podcasts | Mint - Amber Enterprises",
+   "url": "https://www.livemint.com/topic/amber-enterprises#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Dixon Technologies (India) - Dixon Technologies (India)",
+   "url": "https://www.business-standard.com/amp/topic/dixon-technologies-india#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 28,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=139330#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Industry Risk Score",
+   "url": "https://acuite.in/Upload/Acuite/0001/Consumer_Electronics.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 26, 2022",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=114095#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 64 (national 90 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 26 output +19.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +13.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +44.0% Apr-to-date in USD (Rs 304,256 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

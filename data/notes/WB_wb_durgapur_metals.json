@@ -1,0 +1,155 @@
+{
+ "key": "wb_durgapur|metals",
+ "state": "WB",
+ "city": "wb_durgapur",
+ "ind": "metals",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new iron & steel exposure in Durgapur for now; the data call is Avoid and the news flow does not lift it — lend only to the strongest downstream converters with clean structure, and only after the SAIL ASP order flow is visible.",
+ "title": "Durgapur Iron & Steel: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Durgapur re-roller buys sponge iron, scrap, billet and ingot, melts and rolls them into TMT bars, structurals and, at the better units, alloy and special steels, and sells into construction, railways, defence and auto.** Cash is made on the spread between input cost and finished price, not on volume alone, so the melting yield, the power and fuel bill and the days of inventory held decide whether a unit earns or bleeds. **Capex is heavy and lumpy — a furnace or mill rebuild is a multi-year spend — while working capital is short and brutal: scrap and sponge iron are paid for near-cash, and TMT is sold to dealers and contractors on credit.** That mismatch is where most SME steel failures begin.\n\n## What has changed now\n**The one real positive is local and specific: SAIL has approved a Rs 1,714-crore expansion and modernisation of its Alloy Steels Plant in Durgapur, with a core project cost of Rs 1,601.94 crore including a foreign exchange component of Rs 138.24 crore, to be completed within 30 months of Stage-II clearance [1][2][3].** That plant had run at a maximum of 38 per cent capacity utilisation in 2016-17 and survived only by integrating with DSP [3]. **But the state backdrop is weak: West Bengal GST collections are -1.3% Apr-to-date against India +6.1%, and electricity demand is +5.7% against India +9.5% [D].** Nationally, IIP for NIC 24 is +2.4% YoY [D], and Brent at $113/bbl sits above the $75–100 band [D], which feeds freight and power costs. **Peers show the split clearly: JSW Steel's Q2 FY27 net profit rose to Rs 5,279 crore from Rs 1,623 crore [4], while Kirloskar Ferrous grew revenue 17% to INR 2,046.7 crore but saw EBITDA margin fall as coking coal costs and rupee depreciation offset growth [6].** Volume is not the problem; margin is.\n\n## Where to grow, and who to avoid\n**Pursue the downstream converters and service centres that will feed the ASP modernisation — fabrication, bearing-grade and auto-grade component makers, and units with a defence or railway order book — because that is where the Rs 1,714-crore spend converts into local demand [1][3].** Also pursue re-rollers with their own power arrangement and a product mix above commodity TMT. **Avoid pure commodity TMT re-rollers selling to government contractors on retention-heavy terms, and any unit whose entire thesis is 'SAIL is expanding' — Stage-II clearance is still pending and the 30-month clock has not started [2][3].**\n\n## How to grow safely\n**Structure every new line as a working-capital facility against a defined order or inventory, not as a term loan for capacity.** Take monthly stock and book-debt statements, monthly power bills, and quarterly GSTR-2B versus purchase register. **When a proposal lands, check the input-cost pass-through clause in the sales contract; if the customer cannot pass coking coal or scrap price moves within one quarter, ask for the last four quarters' gross contribution per tonne.** Collect from customer the current gross contribution per tonne, the melting yield, and the days of raw material inventory — none of these are in our sources.\n\n## Early warning signs\n**Watch the electricity bill against production first: a re-roller cutting shifts shows up in the power bill before it shows in the balance sheet.** Second, watch GST filing gaps and e-way bill volumes. Third, watch for stretched dealer credit beyond the stated terms. **If any two of these move together, stop fresh disbursement and review the limit.**",
+  "## What to take every month\n- Monthly stock and book-debt statement, reconciled to the drawing power (monthly)\n- Power bill and production log (monthly)\n- GSTR-1 and GSTR-3B versus purchase register (monthly)\n- Order book position from SAIL ASP-linked customers (quarterly)"
+ ],
+ "watch": [
+  [
+   "Monthly power bill vs production log",
+   "A fall of two consecutive months with flat sales -> freeze fresh disbursement and inspect stock"
+  ],
+  [
+   "GST returns and e-way bills (monthly)",
+   "Filing gap or e-way volume drop -> ask for the sales register and dealer confirmations"
+  ],
+  [
+   "Debtor days against sanctioned terms (monthly)",
+   "Debtor days stretch beyond terms -> cut limit and move to cash-backed sales"
+  ],
+  [
+   "SAIL ASP project milestone news (quarterly)",
+   "Stage-II clearance delayed beyond a year -> treat ASP-linked order book as unconfirmed and reprice"
+  ],
+  [
+   "Input cost vs realisable price (monthly)",
+   "Spread compression for two quarters -> ask for revised pricing contracts before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "State GST and power demand lag India; Brent at $113/bbl squeezes re-roller margins despite SAIL's Durgapur approval.",
+ "articles": [
+  {
+   "title": "দুর্গাপুরের স্টিল প্ল্যান্টে ১,৭১৪ কোটির বিনিয়োগ SAIL-র, খুলবে কর্মসংস্থানের দরজা",
+   "url": "https://indiahood.in/news/west-bengal/sail-durgapur-alloy-steels-plant-1714-crore-project-update-ppd-26-10/434605/",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Bengal: SAIL clears Rs 1,714-crore modernisatio… | UNI India - Exclusive news and data that keep market professionals aheadTuesday, October 27, 2026",
+   "url": "https://www.uniindia.com/business-economy/steel-wb-sail-durgapur/224939#1",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "SAIL approves Rs 1,714-crore modernisation plan for Alloy Steels Plant - The Statesman - SAIL approves Rs 1,714-crore modernisation plan for Alloy Steels Plant",
+   "url": "https://www.thestatesman.com/cities/kolkata/sail-approves-rs-1714-crore-modernisation-plan-for-alloy-steels-plant-1503654890.html/amp#1",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "JSW Steel profit more than triples on strong demand, beats Street estimates - JSW Steel profit more than triples on strong demand, beats Street estimates",
+   "url": "https://in.tradingview.com/news/moodys:f2c70b7c5e7ff:0-jsw-steel-profit-more-than-triples-on-strong-demand-beats-street-estimates/#1",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "steel sales volume: Latest News & Videos, Photos about steel sales volume | The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/steel-sales-volume#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "India: Kirloskar Ferrous posts volume-led growth in Q2 FY27 but high input costs erode margins - BigMint",
+   "url": "https://www.bigmint.co/insights/detail/india-kirloskar-ferrous-posts-volume-led-growth-in-q2-fy27-but-high-input-costs-erode-margins-804491",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "JSW Steel Earnings Call: Record Volumes, Bold CapEx - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/jsw-steel-earnings-call-record-volumes-bold-capex?utm_source=flipboard&utm_content=TipRanks%2Fmagazine%2FTipRanks+Labs#1",
+   "date": "2026-10-23",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "units",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=135559#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The liquidity of SAIL remains adequate, with free cash and cash balance of 317 crore as on March 31, 2025. Furthermore, SAIL is ...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510141050_Steel_Authority_of_India_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/CauveryIronandSteelIndiaLimited_May%2006_%202024_RR_341841.html",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The gross contribution per metric tonne of a rated entity reflects the marginal profits generated per unit of incremental sales,...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/848~Ferrous%20Metals#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + West Bengal 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "West Bengal: GST collections -1.3% Apr-to-date vs India +6.1% (7.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "West Bengal: electricity demand +5.7% Apr-to-date vs India +9.5% (3.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 1
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

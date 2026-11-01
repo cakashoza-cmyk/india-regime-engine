@@ -1,0 +1,150 @@
+{
+ "key": "hr_sonipat|plastics",
+ "state": "HR",
+ "city": "hr_sonipat",
+ "ind": "plastics",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 89,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Sonipat plastics and rubber processing, but only to converters with verified fire safety and a clean receivables book; avoid small reprocessing units with no fire compliance.",
+ "title": "Sonipat Plastics & Rubber Processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Sonipat plastics or rubber unit buys polymer resin or scrap, runs it through moulding, extrusion or reclaim lines, and sells drums, moulded parts or reclaimed rubber to nearby OEMs and traders.** Cash is made on conversion margin per kg, not on resin price, so the spread between input cost and selling price is the whole game. Resin is the largest cost line and is usually bought against order; power and labour are the next two. **Pricing power is thin in commodity moulding and better in custom parts and reclaim rubber.** Collect from customer: resin-to-sales ratio, conversion margin per kg, and power cost per kg. ## Where cash sits and what has changed\n**Working capital sits in resin inventory and in receivables from OEMs and traders, and the cycle is short only if you sell against confirmed orders.** Rating commentary is explicit that a shorter cycle means lower incremental working capital need [10], so ask for the receivable days and inventory days before you size the limit. The local news is all fire: a plastic drum factory fire needing 10 fire tenders [3], four factories in Kundli with one still burning after 16 hours [2], and earlier factory fires in Sonipat [1]. **That is the real change here, not demand.** Fire risk is now a credit risk because a single event wipes out stock, moulds and the borrower's ability to service. ## Demand and the growth opportunity\n**Haryana GST collections rose 10.1% Apr-to-date against India's 6.1% [D], and India-wide plastics output (NIC 22) is up 21.4% YoY [D], so the order book in this belt is real.** Peer results confirm the pull: Supreme Industries sales tonnage up 19% YoY with operating profit up 45% [6], Apcotex revenue up 44% YoY in H1 [7], and GRP's rubber recycling revenue up 34% [4]. **Pursue converters tied to OEM supply chains, drum and crate makers with repeat industrial buyers, and reclaim rubber units with a diversified buyer base.** Avoid traders who only aggregate scrap, and units whose entire raw material comes from one supplier; CARA notes one borrower sourcing ~84% from its top five suppliers [11], which is concentration you must price. ## How to grow safely\n**Structure term loans against moulds and machinery, not against land, and keep working capital as a separate cash-credit limit drawn only against stock and receivables statements.** Take a monthly stock and receivables statement, monthly GST returns, and a quarterly insurance schedule naming the bank as loss payee for fire. **Make fire compliance a condition precedent, not a covenant:** current fire NOC, hydrant and sprinkler proof, and a physical walk-through before first disbursement. Where cash flow is routed through a trust and retention account, that structure has supported timely debt servicing in restructured cases [8], so use it for any borrower above your normal limit. Ask for gearing each year; the Manika Plastech rating shows gearing improving to 0.66x from 0.86x on profit accretion [11], which is the trend you want to see. ## Early-warning signs\n**Watch for stock statements that stop matching insurance cover, and for receivable days stretching while sales stay flat.** A fire claim pending, a lapsed NOC, or a shift of sales to a single buyer are all triggers to freeze fresh drawing power. If resin prices spike and the borrower starts buying inventory ahead of orders, ask for the order book before releasing the next limit."
+ ],
+ "watch": [
+  [
+   "Fire NOC and insurance status (quarterly)",
+   "lapsed NOC or insurance not naming bank -> freeze drawing power until renewed"
+  ],
+  [
+   "Stock and receivable statement (monthly)",
+   "receivable days rising while sales flat -> ask for buyer-wise ageing and cap limit"
+  ],
+  [
+   "GST returns vs sales declared (monthly)",
+   "GST turnover below declared sales -> investigate unrecorded sales or diversion"
+  ],
+  [
+   "Resin inventory vs order book (monthly)",
+   "inventory build without matching orders -> hold fresh disbursement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Repeated factory fires in Sonipat and Kundli raise physical and credit risk despite strong demand.",
+ "articles": [
+  {
+   "title": "Sonipat News: सोनीपत में पहले फैक्टरियों में लगी आग - Sonipat News: सोनीपत में पहले फैक्टरियों में लगी आग",
+   "url": "https://www.amarujala.com/haryana/sonipat/fire-broke-out-in-factories-in-sonipat-earlier-sonipat-news-c-197-1-snp1001-162455-2026-10-16#1",
+   "date": "2026-10-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sonipat News: कुंडली में चार फैक्टरियों में लगी आग, एक में 16 घंटे बाद भी नहीं हुई शांत - Sonipat News: कुंडली में चार फैक्टरियों में लगी आग, एक में 16 घंटे बाद भी नहीं हुई शांत",
+   "url": "https://www.amarujala.com/haryana/sonipat/four-factories-in-kundli-caught-fire-one-still-raging-after-16-hours-sonipat-news-c-197-1-snp1015-151868-2026-04-04#1",
+   "date": "2026-04-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Explore Trending Topics | Stay Updated with the Latest Discussions",
+   "url": "https://www.etvbharat.com/hi/haryana/_plastic-drum-factory-in-sonipat",
+   "date": "2026-04-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "GRP Ltd (BOM:509152) Q1 2027 Earnings Call Highlights: Strong Revenue Growth and Margin Expansion By GuruFocus - GRP Ltd (BOM:509152) Q1 2027 Earnings Call Highlights: Strong Revenue Growth and Margin Expansion",
+   "url": "https://ca.investing.com/news/company-news/grp-ltd-bom509152-q1-2027-earnings-call-highlights-strong-revenue-growth-and-margin-expansion-4758390#1",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "GRP Ltd Q3 FY26 Results & Concall Highlights: Revenue, Margins & Order Book",
+   "url": "https://www.arthneeti.com:443/insights/grp-q3-fy26-earnings",
+   "date": "2026-07-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Supreme Industries H1 FY27 slides: revenue up 22%, margins expand By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/supreme-industries-h1-fy27-slides-revenue-up-22-margins-expand-93CH-2649317",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apcotex Industries Ltd (BOM:523694) (Q2 2027) Earnings Call High",
+   "url": "https://www.gurufocus.com/news/9153591/apcotex-industries-ltd-bom523694-q2-2027-earnings-call-highlights-record-h1-performance-48-revenue-surge-and-capex-on-track",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Crisil Ratings also notes that there is an Agency for Specialised Monitoring (ASM) appointed by the lenders, as part of the rest...",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbb2e8f9-d70e-49c4-a295-26bdd4c78562.pdf#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Manika Plastech Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202606120607_Manika_Plastech_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 89 (national 98 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 22 output +21.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +18.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +17.1% Apr-to-date in USD (Rs 48,628 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

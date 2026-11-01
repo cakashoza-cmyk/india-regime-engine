@@ -1,0 +1,158 @@
+{
+ "key": "hr_bahadurgarh|plastics",
+ "state": "HR",
+ "city": "hr_bahadurgarh",
+ "ind": "plastics",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 89,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Bahadurgarh plastics and rubber, but only to converters with verified fire compliance and clean waste handling; avoid polybag and pouch units and any borrower burning scrap on site.",
+ "title": "Bahadurgarh Plastics & Rubber Processing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Bahadurgarh plastics unit buys polymer granules or scrap, runs it through extruders, moulders or film lines, and sells film, pouches, moulded parts or reprocessed granules to nearby packers, traders and OEMs.** Cash turns on the spread between resin cost and conversion price, so the real levers are machine utilisation, power and burner fuel, and how fast the buyer pays. Rubber reprocessing works the same way, with reclaim volumes and export buyers setting the pace. **Ask for the unit's monthly resin purchase register and power bill before anything else; if the two do not move together, stop and ask why.**",
+  "## Where value and cash actually sit\n**Value sits in the conversion margin, not the resin, and that margin is thin and easily eaten by fuel and freight.** The working-capital cycle is short but unforgiving: granules are bought on advance or short credit while film and pouch buyers pay late, so the gap is funded by the bank. Capex is modest per line but continuous, and a single fire can wipe out a year of profit. **So when a proposal lands, check the fire NOC and the insurance cover on stock and plant; if either is missing or lapsed, ask for it before sanction.**",
+  "## What has changed now\n**The local picture is mixed and the local sources are thin, so lean on first principles and peers.** Polybag and pouch production in the Jhajjar-Bahadurgarh belt has fallen 50%, forcing owners to fit diesel burners [2] — that is a cost and compliance problem at the same time. The Tribune reports burning of plastic waste and metal drums continuing in the Bahadurgarh industrial belt despite round-the-clock surveillance [1], and four factories in Modern Industrial Area were gutted in a fire in December 2025 [3]. Against that, Haryana GST collections are up 10.1% Apr-to-date versus India's 6.1% [D], and all-India plastics output (NIC 22) is up 21.4% YoY [D]. **Treat the state GST number as a demand signal, not a licence to lend to every unit in the belt.**",
+  "## Where to grow, and how to grow safely\n**Pursue rigid moulders, pipe and profile makers, and reprocessors selling to industrial buyers, and avoid polybag and pouch units until their output recovers.** Peer results support the industrial side: Supreme Industries grew sales tonnage 19% YoY with operating profit up 45% [6], Apcotex posted revenue up 44% YoY in H1 [7], and GRP's rubber recycling revenue rose 34% [4]. **Take monthly stock and book-debt statements plus power bills; if stock cover falls below the sanctioned limit for two months running, cut the limit.**",
+  "## Early-warning signs\n**Watch for diesel burner fuel bills rising while output stays flat, which means the unit is buying compliance instead of selling product.** Watch for scrap burning on site or waste leaving without manifests — a booking under [1] shuts a unit fast. Watch for insurance lapses and any repeat fire incident [3]. **If a borrower's GST turnover drops for two consecutive quarters while its bank limit stays drawn, freeze fresh disbursement and inspect the godown.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock and book-debt statement (monthly)",
+   "Stock cover below limit for two months -> cut limit and inspect godown"
+  ],
+  [
+   "GST return vs bank turnover (quarterly)",
+   "GST turnover falls two quarters while limit fully drawn -> freeze disbursement"
+  ],
+  [
+   "Fire NOC and insurance status (annual, plus on renewal)",
+   "NOC or policy lapsed -> hold renewal until restored"
+  ],
+  [
+   "Power and diesel burner bills (monthly)",
+   "Fuel cost rises with flat output -> ask for order book and reprice risk"
+  ],
+  [
+   "Waste disposal records and site inspection (quarterly)",
+   "Burning or unmanifested scrap found -> stop fresh lending to that unit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local polybag output halved, waste burning persists, four factories burnt in Dec 2025.",
+ "articles": [
+  {
+   "title": "Three booked for burning plastic waste, metal drums in Bahadurgarh",
+   "url": "http://dailyhunt.in/news/india/english/the+tribune-epaper-thetribt/three+booked+for+burning+plastic+waste+metal+drums+in+bahadurgarh-newsid-n732093509?listname=newspaperLanding&topic=haryana&index=6&topicIndex=8&mode=pwa&action=click",
+   "date": "2026-10-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Jhajjar-Bahadurgarh News: पोलीबैग व पाऊच उद्योग का 50 प्रतिशत गिरा उत्पादन, डीजल बर्नर लगाने को मजबूर उद्यमी - Hindi News › Haryana › Jhajjar/Bahadurgarh News › Polybag and pouch industries have seen a 50% drop in production, forcing entre...",
+   "url": "https://www.amarujala.com/haryana/jhajjar-bahadurgarh/polybag-and-pouch-industries-have-seen-a-50-drop-in-production-forcing-entrepreneurs-to-install-diesel-burners-jhajjar-bahadurgarh-news-c-200-1-bgh1005-122268-2026-03-28#1",
+   "date": "2026-03-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Massive fire breaks out in 4 factories in Bahadurgarh, goods gutted",
+   "url": "https://thesaveratimes.com/massive-fire-breaks-out-four-factories-bahadurgarh-goods-gutted/",
+   "date": "2025-12-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "GRP Ltd (BOM:509152) Q1 2027 Earnings Call Highlights: Strong Revenue Growth and Margin Expansion By GuruFocus - GRP Ltd (BOM:509152) Q1 2027 Earnings Call Highlights: Strong Revenue Growth and Margin Expansion",
+   "url": "https://ca.investing.com/news/company-news/grp-ltd-bom509152-q1-2027-earnings-call-highlights-strong-revenue-growth-and-margin-expansion-4758390#1",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "GRP Ltd Q3 FY26 Results & Concall Highlights: Revenue, Margins & Order Book",
+   "url": "https://www.arthneeti.com:443/insights/grp-q3-fy26-earnings",
+   "date": "2026-07-14",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Supreme Industries H1 FY27 slides: revenue up 22%, margins expand By Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/supreme-industries-h1-fy27-slides-revenue-up-22-margins-expand-93CH-2649317",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apcotex Industries Ltd (BOM:523694) (Q2 2027) Earnings Call High",
+   "url": "https://www.gurufocus.com/news/9153591/apcotex-industries-ltd-bom523694-q2-2027-earnings-call-highlights-record-h1-performance-48-revenue-surge-and-capex-on-track",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Crisil Ratings also notes that there is an Agency for Specialised Monitoring (ASM) appointed by the lenders, as part of the rest...",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbb2e8f9-d70e-49c4-a295-26bdd4c78562.pdf#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Manika Plastech Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202606120607_Manika_Plastech_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 89 (national 98 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 22 output +21.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +18.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +17.1% Apr-to-date in USD (Rs 48,628 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
