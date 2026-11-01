@@ -1,0 +1,148 @@
+{
+ "key": "od_angul|coal_mining",
+ "state": "OD",
+ "city": "od_angul",
+ "ind": "coal_mining",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution on Angul coal mining and washeries: lend only to contracted, cash-backed operators; the data pack gives no score, so treat this as a hold-and-select call, not a green light.",
+ "title": "Angul coal mining & washeries: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Coal mining and washing is a tonnage business: you dig, you crush and wash, you move tonnes by road and rail, and you get paid per tonne by a buyer who is usually a power plant or a sponge-iron unit.** Cash is made on the spread between extraction or purchase cost and the washed-coal sale price, minus the freight to the railway siding. In Angul the physical bottleneck is the road-to-rail link: SCCL has deposited Rs. 350 mn for the Chandipara-Jarapada bypass road meant to connect Naini block coal to the Jarapada railway junction [2]. **So when a proposal lands, check which siding the borrower actually evacuates through; if the answer is a road still under construction, ask for the completion date and the fallback route.**\n\n## Where value and cash sit\n**Value sits in washed, higher-grade coal, not raw pithead output.** BCCL's own plan is to raise sale of beneficiated coal by renovating ageing washeries and commissioning new ones with a combined capacity of 7.00 million tonnes per year [10]. The working-capital cycle is the killer: one rated coal trader pays suppliers in advance and recovers from customers in around 45-60 days, funding the gap with working-capital bank borrowings [8]. **So on every proposal, map the advance-to-collection gap; if the borrower is paying advance to a linked supplier, ask for the supplier's name and the last six months of payments.**\n\n## What has changed now\n**The local news is about a new pithead power plant and land, not about coal demand.** SCCL has asked the Angul district administration for land near the Naini mine for a pithead thermal plant, plus land for a resettlement colony for 40 displaced families [2]. Peer results are better: Coal India's Q2FY27 production was 151 MT, up 4% YoY, and October 2026 output recovered [6][7]. BCCL's October update shows production up 7% and offtake up 11%, but cumulative fiscal-year production is still negative [4]. **So treat the peer numbers as a sign that volumes are returning, not as proof that Angul washeries are full; ask each borrower for their own monthly washed-tonne dispatch.**\n\n## Where to grow, and how to grow safely\n**Pursue washery operators with a written offtake contract to a named power or steel buyer, and transporters with a railway-siding linkage.** Avoid pure traders with no washing asset and no contract, and avoid anyone whose evacuation depends on the two bypass roads still being built [2]. Structure against receivables: **take monthly washed-tonne dispatch, railway rakes loaded, and the receivables-ageing every month; if receivables past 60 days cross a fifth of sales, stop fresh limits.** The data pack gives no score for this city or state [D], so the call rests on first principles and peers. ## Early-warning signs\n**Watch the road, the rake and the buyer.** If the Jarapada link slips, stock piles up and cash stops. If the buyer is a single state power plant, payment delays hit fast. If the borrower's own fiscal-year output is negative like BCCL's cumulative figure [4], the monthly growth is noise.",
+  "## What I want in the file\n**A one-page cash map per borrower: advance paid, days to collect, tonnes washed, rakes loaded, and the buyer's name.** No file leaves your desk without it. The Angul-specific public record is thin, so lean on the borrower's own numbers and the peer benchmarks above.",
+  "## The call\n**Caution, not avoid.** The sector's volumes are improving [4][6][7] and a new pithead plant is being discussed [2], but the data pack has no score [D] and the local news is about land, not cash. Lend to contracted washers and siding-linked transporters; decline unhedged traders."
+ ],
+ "watch": [
+  [
+   "Monthly washed-tonne dispatch and rakes loaded (monthly)",
+   "dispatch falls below the prior quarter's average -> freeze fresh limits and ask for the buyer's payment schedule"
+  ],
+  [
+   "Receivables ageing (monthly)",
+   "past-60-day receivables exceed a fifth of sales -> stop fresh limits and seek escrow of buyer payments"
+  ],
+  [
+   "Jarapada and Majhika bypass road progress (quarterly)",
+   "road completion slips past the stated date -> re-rate evacuation risk and cut tenor"
+  ],
+  [
+   "Borrower's own fiscal-year output versus monthly growth (quarterly)",
+   "cumulative output negative while monthly is positive -> treat growth as noise and ask for the annual plan"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Local news is a land and power-plant proposal; peer volumes improved but fiscal-year output is still negative.",
+ "articles": [
+  {
+   "title": "Singareni Seeks Odisha Support for Pithead Power Plant",
+   "url": "https://www.constructionworld.in/amp/energy-infrastructure/power-and-renewable-energy/singareni-seeks-odisha-support-for-pithead-power-plant/99647",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Singareni Seeks Odisha Support for Pithead Power Plant",
+   "url": "https://www.constructionworld.in/energy-infrastructure/power-and-renewable-energy/singareni-seeks-odisha-support-for-pithead-power-plant/99647",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Odisha Mines - Thursday, October 22, 2026 | 06:45 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/topic/odisha-mines#1",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Bharat Coking Coal October Business Update: Production up 7%, offtake grows 11% - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/stocks/bharat-coking-coal-share-price-october-business-update-production-up-7-offtake-grows-11-20024264.htm",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hot Pursuit News Details",
+   "url": "http://balajiequities.com/Market/News/News-details/1687909",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "IGI Logo",
+   "url": "https://investmentguruindia.com/newsdetail/buy-coal-india-ltd-india-ltd-for-target-rs-470-by-axis-direct821981",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India: Coal India Q2 profit rises 57%; Oct'26 production recovery supports stronger Q3 supplies - BigMint",
+   "url": "https://www.bigmint.co/insights/detail/india-coal-india-q2-profit-rises-57-oct-26-production-recovery-supports-stronger-q3-supplies-804094",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- The account was regular with State Bank of India",
+   "url": "https://nsearchives.nseindia.com/emerge/corporates/content/Maheshwari_FDD.pdf#7#7#7",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Rama%20Coal%20Washeries%20Private%20Limited-RU-20-02-2025.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Additionally, as part of our strategic shift, we are in the process to increase our coal production by reorganization of coal bl...",
+   "url": "https://www.icicisecurities.com/Upload/ArticleAttachments/Bharat%20Coking%20Coal%20Limited%20-%20RHP.pdf#62#152#62",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update March 17, 2025 | Mumbai",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Alps%20Mining%20Services%20Private%20Limited-RU-17-03-2025.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Odisha None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,150 @@
+{
+ "key": "wb_asansol|coal_mining",
+ "state": "WB",
+ "city": "wb_asansol",
+ "ind": "coal_mining",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution on new coal-mining and washery exposure in Asansol until ECL's rain-hit output and the mine-lift incident are quantified; lend only to washery and mining-services borrowers with contracted offtake and tight monthly stock-and-receivable controls.",
+ "title": "Asansol coal mining & washeries: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Coal here is a volume-and-logistics business: rock is dug or washed, moved by road and rail, and paid for by offtake, not by the digging.** In Asansol the anchor is Eastern Coalfields' (ECL) mines and open-cast patches around Kenda, Kunustoria and Satgram, with private washeries and mining-services contractors feeding off that chain [2]. Cash is made on tonnes washed and dispatched; value sits in the washery yield and the transport leg, not in the seam itself.\n\n## What has changed now\n**Cyclonic rain has stopped production across several ECL areas, with losses feared in crores and no official tonnage estimate yet** [2]. Separately, miners were reported trapped in a Bengal mine lift on 26 October [3] — that is a safety and stoppage event, not a demand event. Peer results are strong: Bharat Coking Coal's October production rose 7% and offtake 11% [4], Coal India's Q2 profit rose 57% to INR 6,547 crore on revenue of INR 44,179 crore [7], and Q2FY27 production was 151 MT against a 158 MT target [6]. **Read this as: national offtake is healthy, local supply is disrupted — so the risk is at the borrower's mine gate, not at the customer's boiler.**\n\n## Where the growth is\n**Pursue washery operators and mining-services contractors with written offtake, not pure traders.** Washery capacity is being rebuilt across the sector — BCCL is commissioning washeries of 7.00 million tonnes per year and renovating Moonidih at 1.60 million tonnes per year [10] — and rated peers in washing and transport carry CRISIL BBB+/Stable [9][11]. Avoid single-mine contractors with no contract and no stock visibility; their cash stops the day the pit floods [2].\n\n## How to grow safely\n**Structure against the working-capital cycle, which is the real risk here: one rated peer pays suppliers in advance and recovers from customers in 45-60 days, funding the gap with bank borrowings** [8]. So when a proposal lands, check the receivable days against that 45-60 day band; if receivables stretch past it, ask for the customer-wise ageing and the offtake contract. Take monthly stock-and-yield statements, monthly dispatch and e-way bill data, and quarterly receivables ageing. Price the advance-payment leg into the limit, not the term loan.\n\n## Early-warning signs\n- **Rain or cyclone warnings for the Asansol belt (weekly, monsoon)** -> ask for pit dewatering status and expected restart date before any disbursement [2].\n- **Any mine-safety or lift incident in the borrower's area (event-driven)** -> freeze fresh limits until the mine reopens [3].\n- **Receivable days beyond 60 (monthly)** -> shift the borrower to cash-backed limits [8].\n- **Washery yield or dispatch falling month-on-month (monthly)** -> cut the limit and ask for the offtake contract [10].\n\n**Sources say little specific to Asansol borrowers themselves; the local items are ECL-level events, and the peer and rating data are national or other-company.** Collect from customer: borrower-wise production, washery yield, receivable ageing and contract terms."
+ ],
+ "watch": [
+  [
+   "Pit/weather status (weekly, monsoon)",
+   "Cyclone or heavy-rain warning in the Asansol belt -> hold disbursement and get restart date [2]"
+  ],
+  [
+   "Mine-safety incidents (event-driven)",
+   "Any lift or trapping incident in borrower's area -> freeze fresh limits until reopening [3]"
+  ],
+  [
+   "Receivable days (monthly)",
+   "Beyond 60 days -> move borrower to cash-backed limits [8]"
+  ],
+  [
+   "Dispatch and washery yield (monthly)",
+   "Two consecutive months of decline -> cut limit, demand offtake contract [10]"
+  ],
+  [
+   "Offtake vs production (monthly)",
+   "Offtake falling below production -> check inventory build and price realisation [4][7]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Cyclonic rain halted ECL output and a mine-lift trapped miners; local supply disrupted.",
+ "articles": [
+  {
+   "title": "X 上的 ANI (@ANI)",
+   "url": "https://x.com/ANI/status/2116222109760520570",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "चक्रवाती बारिश से ईसीएल के कई क्षेत्रों में कोयला उत्पादन ठप, करोड़ों के नुकसान की आशंका",
+   "url": "https://sanmarg.in/asansol/news-47",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Several miners trapped in Bengal coal mine lift - Sxcoal",
+   "url": "https://en.sxcoal.com/news/detail/2114885905583456257",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Bharat Coking Coal October Business Update: Production up 7%, offtake grows 11% - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/stocks/bharat-coking-coal-share-price-october-business-update-production-up-7-offtake-grows-11-20024264.htm",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hot Pursuit News Details",
+   "url": "http://balajiequities.com/Market/News/News-details/1687909",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "IGI Logo",
+   "url": "https://investmentguruindia.com/newsdetail/buy-coal-india-ltd-india-ltd-for-target-rs-470-by-axis-direct821981",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India: Coal India Q2 profit rises 57%; Oct'26 production recovery supports stronger Q3 supplies - BigMint",
+   "url": "https://www.bigmint.co/insights/detail/india-coal-india-q2-profit-rises-57-oct-26-production-recovery-supports-stronger-q3-supplies-804094",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- The account was regular with State Bank of India",
+   "url": "https://nsearchives.nseindia.com/emerge/corporates/content/Maheshwari_FDD.pdf#7#7#7",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Rama%20Coal%20Washeries%20Private%20Limited-RU-20-02-2025.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Additionally, as part of our strategic shift, we are in the process to increase our coal production by reorganization of coal bl...",
+   "url": "https://www.icicisecurities.com/Upload/ArticleAttachments/Bharat%20Coking%20Coal%20Limited%20-%20RHP.pdf#62#152#62",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update March 17, 2025 | Mumbai",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Alps%20Mining%20Services%20Private%20Limited-RU-17-03-2025.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + West Bengal None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

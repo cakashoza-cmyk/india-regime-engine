@@ -1,0 +1,150 @@
+{
+ "key": "ts_hyderabad|api_bulk_drugs",
+ "state": "TS",
+ "city": "ts_hyderabad",
+ "ind": "api_bulk_drugs",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 56,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Hyderabad API units with clean USFDA records and contracted offtake; avoid single-customer, high-leverage capex borrowers until unit-level cash flow is verified.",
+ "title": "Hyderabad API / bulk drugs: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**An API unit converts solvents, intermediates and imported starting materials into regulated-market bulk drugs, and cash comes back only after a customer audit, a stability batch and a repeat order.** Value sits in the DMF/CEP file and the USFDA-clean plant, not in the reactor. Pricing power is thin on commodity molecules and real only where you are the qualified second source. The working-capital cycle is long: a CARErating report on an API maker put the cycle at around 185 days, driven by raw-material inventory holding [9]. So when a proposal lands, check the inventory and receivables days against that 185-day marker; if receivables stretch past it, ask which customer and which molecule. ## What has changed now\n**The local demand signal is strong but the national production signal is negative, and that gap is where bad loans hide.** Telangana GST collections ran +13.8% Apr-to-date against India +6.1%, and state electricity demand +15.7% against India +9.5% [D]. Yet India-wide pharma output is -2.1% Apr-to-date while bank credit is +21.6% YoY, a gap of +23.7 pp [D]. **Credit is running far ahead of output, so the risk is a borrower funding inventory that is not moving.** On the ground, Granules India's Gagillapur finished-dosage site closed a USFDA inspection on 30 October 2026 with a Form FDA 483 carrying eleven observations, none on data integrity or cross-contamination [1]. That is a site-level quality signal, not a sector verdict, but it tells you audits are live and remediation spend is real. 613 crore, up 47% YoY, with EBITDA margin at 22.2% [4][5], and RPG Life Sciences is targeting 25% API growth [7]. **Avoid the single-customer, single-molecule converter and any borrower whose only collateral story is a plant under a warning letter.** Hyderabad's partnering summit on 2-3 November 2026 [2][3] is a useful place to meet contract-manufacturing buyers, but a conference badge is not an order book. ## How to grow safely\n**Structure against the audit cycle, not the sales projection.** Take monthly stock and debtor statements, quarterly GMP/audit status, and a covenant that any new USFDA observation above a stated count triggers a review. Ask for the customer-wise order book and the DMF/CEP list at sanction; collect from customer where the file status is unclear. **Cap exposure to greenfield reactor capex; fund only debottlenecking backed by a signed offtake.**\n\n## Early-warning signs\n**Watch inventory days crossing the 185-day marker [9], a gearing push above 2 times on a large capex [8], and any revenue decline near 10% [8].** A warning letter or repeat 483 at the borrower's own site is an immediate stop-and-review."
+ ],
+ "watch": [
+  [
+   "Monthly stock and debtor statement (monthly)",
+   "Inventory days above 185 [9] -> ask for molecule-wise ageing and freeze fresh limits"
+  ],
+  [
+   "USFDA/regulatory status (quarterly)",
+   "New 483 or warning letter at borrower site -> stop disbursement, review remediation cost"
+  ],
+  [
+   "Gearing and capex (quarterly)",
+   "Gearing above 2 times with large capex [8] -> reprice or seek promoter infusion"
+  ],
+  [
+   "Revenue trend (quarterly)",
+   "Decline near 10% [8] -> shift to cash-flow-based limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "National pharma output -2.1% while bank credit +21.6%; credit outpacing production.",
+ "articles": [
+  {
+   "title": "USFDA completes CGMP inspection at Granules India’s Gagillapur facility",
+   "url": "https://www.moneyworks4me.com/company/news/index/id/845119",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Global Pharma Partnering Summit 2026 to be held in Hyderabad on Nov 2 & 3 - Global Pharma Partnering Summit 2026 to be held in Hyderabad on Nov 2 & 3",
+   "url": "https://pharmabiz.com/PrintArticle.aspx?aid=191545&sid=2#1",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Global Pharma Partnering Summit 2026 - Visitexpo",
+   "url": "https://visitexpo.in/event/global-pharma-partnering-summit-2026/#schedule",
+   "date": "2026-10-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Akums Drugs and Pharmaceuticals (NSE:AKUMS) Earnings Call Transcripts - Akums Drugs and Pharmaceuticals Limited (NSE:AKUMS)",
+   "url": "https://stockanalysis.com/quote/nse/AKUMS/transcripts/#main#1",
+   "date": "2026-08-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update November 07, 2025 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Mangalam Drugs and Organics Limited-RU-07-11-2025.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ARCH PHARMALABS LIMITED",
+   "url": "https://www.careratings.com:443/upload/CompanyFiles/RR/ARCH%20PHARMALABS%20LIMITED%20-12192012.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 30, 2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=132778#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Rating Methodology - Pharmaceutical Sector",
+   "url": "https://www.careratings.com/upload/NewsFiles/GetRated/RatingMethodology-PharmaceuticalSector27June2017.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 56 (national 27 x 0.6 + Telangana 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Telangana: GST collections +13.8% Apr-to-date vs India +6.1% (7.7 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Telangana: electricity demand +15.7% Apr-to-date vs India +9.5% (6.2 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

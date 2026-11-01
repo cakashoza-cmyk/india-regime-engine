@@ -1,0 +1,150 @@
+{
+ "key": "gj_ankleshwar|agrochemicals",
+ "state": "GJ",
+ "city": "gj_ankleshwar",
+ "ind": "agrochemicals",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 43,
+ "nudged_by_news": false,
+ "verdict": "Avoid for now — Ankleshwar agrochemicals scores 43, below the 45 floor; lend only to export-diversified, low-leverage formulators with clean receivables, and decline commodity technicals and new-capex greenfield proposals.",
+ "title": "Ankleshwar Agrochemicals & Pesticides: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Ankleshwar units take chemical intermediates, run multi-step synthesis or formulation blending, and sell technicals or branded formulations into domestic agri-distribution and export channels.** Cash comes back through the kharif and rabi selling windows, so the working-capital cycle is seasonal and long: inventory sits as raw material, then in-process, then finished goods awaiting the season, and receivables sit with distributors and export buyers. **Value sits in registration and brand, not in the reactor** — a formulator with its own registrations earns the margin; a job-work converter earns a conversion fee and carries the price risk of whoever owns the molecule.",
+  "## Where the cash actually sits\n**Pricing power is weak right now: peers report continued pricing pressure in global crop protection [3][6], and CARA expects pricing pressures to persist amid global oversupply even as FY27 volumes recover 6-8% [5].** So when a proposal lands, check whether the borrower sells technicals on spot price or formulations on registration — if it is spot technicals, ask for the last four quarters' realised price per kg and treat any volume-led growth story as margin-negative. **Capex is heavy and lumpy** (reactors, effluent treatment, registration dossiers), and rating commentary flags environmental penalties as a live risk [7]; so ask for the consent-to-operate validity and any pending notice before sanctioning expansion.",
+  "## What has changed now\n**The macro backdrop is against the cycle: IIP for NIC 20 output is -0.5% YoY and -1.2% Apr-to-date [D], while bank credit is running +20.7% YoY against that -1.2% output [D] — a 21.9 pp gap that says money is chasing a flat-producing sector.** Brent at $113/bbl [D] sits above the $75-100 band, which hits solvent, power and freight costs for every unit here. **Peer results are mixed, not uniformly bad:** Sharda Cropchem revenue rose 13% to ₹2,065 crore from ₹1,829 crore [3][6], and it guides 10-15% FY27 revenue growth with Europe as the driver [4]; UPL closed FY26 on broad-based growth despite pricing pressure [3][6].",
+  "## Who to pursue, and how to grow safely\n**Pursue export-diversified formulators with own registrations, multi-crop and multi-geography sales, and modest leverage** — ICRA notes a wide spread across 25+ states and 120+ countries cushions monsoon and crop-infection shocks [10]. **Avoid single-molecule technical producers, job-work converters with one buyer, and greenfield capex proposals** in a year when output is flat [D] and prices are soft [5]. Structure as a working-capital limit with a cash-flow cycle, not a term loan; take monthly stock-and-receivable statements, quarterly registration-wise sales, and the sanction letter's condition that EHS consents stay valid.",
+  "## Early-warning signs\n**Watch receivable days stretching past the season and inventory building outside the selling window** — that is the first sign a formulator is pushing stock into the channel. **Watch for a shift from formulations to spot technicals in the sales mix**, which signals margin erosion before it shows in the P&L. **Watch any regulatory action on widely used molecules [3][6] and any EHS penalty [7]** — either can stop a line overnight."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-receivable statement (monthly)",
+   "Receivable days stretch beyond the season -> freeze fresh disbursement and ask for buyer-wise ageing"
+  ],
+  [
+   "Registration-wise sales mix (quarterly)",
+   "Shift from formulations to spot technicals -> reprice limit and ask for realised price per kg"
+  ],
+  [
+   "EHS consent and notice status (quarterly)",
+   "Any pending notice or lapsed consent -> stop expansion limits until cleared"
+  ],
+  [
+   "Realised price per kg by molecule (quarterly)",
+   "Price falls while volumes rise -> treat growth as margin-negative and cut limit"
+  ],
+  [
+   "Brent and solvent/power cost pass-through (monthly)",
+   "Brent stays above $75-100 band [D] with no pass-through -> ask for cost-pass-through clause evidence"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Output -1.2% Apr-to-date with credit +20.7% and Brent $113; pricing pressure persists.",
+ "articles": [
+  {
+   "title": "New & Upcoming Projects in Agrochemicals / Pesticides Projects in Gujarat - Page 3",
+   "url": "https://newprojectstracker.com/projects-india/agrochemicals-pesticides/gujarat?page=3",
+   "date": "2026-09-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Hope floats – Outlook Business - Hope Floats",
+   "url": "https://www.outlookbusiness.com/magazine/story/hope-floats-3391#1",
+   "date": "2017-03-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Agrochemical Companies - Agrochemical Companies",
+   "url": "https://www.business-standard.com/amp/topic/agrochemical-companies/2#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sharda Cropchem expects Europe recovery to drive FY27 growth - CNBC TV18 - Sharda Cropchem expects Europe recovery to drive FY27 growth",
+   "url": "https://www.cnbctv18.com/market/earnings/sharda-cropchem-europe-demand-recovery-fy27-growth-agrochemical-volumes-19957938.htm/amp#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Indian Agrochemicals Industry: Slow Recovery With 6-8% Growth in FY27",
+   "url": "https://www.careratings.com/uploads/newsfiles/1776751348_Indian Agrochemicals Industry Slow Recovery With 6-8 Pct Growth in FY27.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Agrochemical Companies - Explore Business Standard",
+   "url": "https://www.business-standard.com/amp/topic/agrochemical-companies#top#1",
+   "date": "2026-10-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA analyses the long period of past financial performance trends and estimates the future financial performance to assess the ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/919~Agrochemicals,%20Rating%20Methodology,%20Jun%202024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "A sound corporate governance structure attempts to make a clear the distinction of power and responsibilities between the Board ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/914~Fertilisers#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Agrochemicals sector to see 7-9% growth amid modest exports",
+   "url": "https://www.crisilratings.com/en/home/newsroom/press-releases/2024/12/agrochemicals-sector-to-see-7-9percent-growth-amid-modest-exports.html",
+   "date": "2024-12-12",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 17, 2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=132462#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 43 (national 22 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +20.7% YoY vs output -1.2% (gap +21.9 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

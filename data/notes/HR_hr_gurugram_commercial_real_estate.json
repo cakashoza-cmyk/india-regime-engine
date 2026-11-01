@@ -1,0 +1,150 @@
+{
+ "key": "hr_gurugram|commercial_real_estate",
+ "state": "HR",
+ "city": "hr_gurugram",
+ "ind": "commercial_real_estate",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively to income-producing Gurugram office assets with signed leases and conservative LTV; decline pure pre-leasing construction exposure until the data pack score is available.",
+ "title": "Gurugram Commercial Real Estate: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nCommercial real estate here means Grade A office floors built on Golf Course Road and similar corridors, then leased or sold to corporates. **Cash comes from rent or sale proceeds, not from the building itself.** Lodha's new Golf Course Road project is 4 lakh sq ft of saleable area on 1.2 acres, with investment of Rs 1,100-1,200 crore [1][3]. So when a proposal lands, check whether the borrower is selling floors or holding them for rent; the two have completely different repayment logic.",
+  "## Where value and cash sit\n**Value sits in the lease or sale contract, and cash sits in the tenant's payment cycle.** Peers show the pattern: Brigade's average realisation rose 29% year-on-year to Rs 13,841 per square foot [5], while Phoenix Mills' office income rose 64% on higher occupancy [7]. Brigade's Q3 net profit fell 21% to Rs 186.5 crore even as revenue rose, because margin contracted [4]. So ask for the rent roll and the tenant mix; if occupancy is rising but margin is slipping, ask why.",
+  "## What has changed now\n**A large Mumbai developer has just entered Gurugram with a Rs 1,200 crore office project [1][2][3], which tells you capital is chasing this corridor.** That is good for exit values and bad for weaker landlords who will face newer, better buildings. The data pack gives no score for this industry or state [D], so I cannot give you a numeric cut-off. **Treat the missing score as a reason to underwrite the asset, not the market story.**",
+  "## Who to pursue and how to grow safely\n**Pursue owners of operational, leased office assets with named tenants and a track record of collections; avoid pure land aggregators and first-time developers pre-leasing.** Structure against rent receivables, keep LTV conservative, and take a covenant on occupancy and on tenant concentration. Every month take the rent roll, the bank statement of the rental account, and the list of tenants with dues. If a single tenant is above a third of income, ask for a lease-copy review before disbursal.",
+  "## Early-warning signs\n**Watch for rent discounts, rising vacancy, and refinancing of construction loans into rental-backed debt.** Rating material flags refinancing risk where debt is in commercial paper and NCDs with bullet maturities [9][11], and notes that operational assets typically refinance construction loans against expected rentals [10]. If a borrower asks to refinance a construction loan before occupancy stabilises, ask for the signed leases first. If monthly rent collections fall below the prior quarter, stop fresh disbursal and review the account."
+ ],
+ "watch": [
+  [
+   "Monthly rent collection statement (monthly)",
+   "Collections fall below prior quarter -> freeze fresh disbursal and review tenant dues"
+  ],
+  [
+   "Occupancy and tenant concentration (quarterly)",
+   "Single tenant above one-third of income -> seek lease copies and reprice risk"
+  ],
+  [
+   "Lease pipeline vs construction spend (quarterly)",
+   "Pre-leasing below plan at refinance request -> decline refinance until leases are signed"
+  ],
+  [
+   "Interest coverage from rental income (quarterly)",
+   "Coverage falls below the level at sanction -> seek promoter support or additional security"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Large new Gurugram office investment signals capital interest; no adverse local data reported.",
+ "articles": [
+  {
+   "title": "Lodha Developers enters Delhi-NCR with Rs 1,200 crore office project on Golf Course Road- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/companies/lodha-developers-enters-delhi-ncr-with-1-200-crore-office-project-on-golf-course-road-14065424.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Lodha Developers to invest Rs 1,200 crore in first Delhi-NCR project on Gurugram's Golf Course Road - The Economic Times",
+   "url": "https://m.economictimes.com/industry/services/property-/-cstruction/lodha-developers-to-invest-rs-1200-crore-in-first-delhi-ncr-project-on-gurugrams-golf-course-road/amp_articleshow/135419681.cms",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Lodha Developers to invest ₹1,200 cr to build prime office complex on Gurugram Golf Course Road",
+   "url": "https://www.thehindubusinessline.com/news/real-estate/lodha-developers-to-invest-1200-cr-to-build-prime-office-complex-on-gurugram-golf-course-road/article71652286.ece",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Brigade Enterprises Q3 Results: Revenue up as leasing, hospitality stay firm; margin slips - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/brigade-enterprises-q3-results-revenue-up-as-leasing-hospitality-stay-firm-margin-slips-ws-l-19837048.htm/amp",
+   "date": "2026-01-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Brigade Enterprises Ltd (BOM:532929) (Q2 2027) Earnings Call Highlights: Margins Surge as ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/brigade-enterprises-ltd-bom532929-q2-2027-earnings-call-highlights-margins-surge-as--4919331",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Brigade Enterprises (BOM:532929) Q2 2027 Earnings Call Transcript & Audio",
+   "url": "https://stockanalysis.com/quote/bom/532929/transcripts/733807-q2-26-27/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Phoenix Mills Q2: Profit up 7%, office income surges 64% on higher occupancy - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/phoenix-mills-q2-profit-up-7pc-office-income-surges-64pc-on-higher-occupancy-20023739.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Comfortable leverage - Recently Mindspace REIT has announced acquisition of Commerzone Pallikaranai, Chennai ( \\(100\\%\\) stake) ...",
+   "url": "https://www.mindspacereit.com/wp-content/uploads/2026/09/MREIT-CP-Disclosure-Document-CP-15.pdf#15#16#15",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Recently Mindspace REIT has announced acquisition of Commerzone Pallikaranai, Chennai ( \\(100\\%\\) stake) in March 2026 and Inter...",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbe8cfe9-4cf8-4055-839c-bb0017dccb20.pdf#18#19#18",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "CFO to interest:",
+   "url": "https://integraliq.crisil.com/content/dam/crisilrating/criteria-and-methodology/criteria-for-real-estate-developers-lrd-and-cmbs.pdf#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Exposure to refinancing risk - Part of Mindspace REIT's debt, at the consolidated level, is in the form of CPs and NCDs with bul...",
+   "url": "https://www.mindspacereit.com/wp-content/uploads/2025/08/Key-Information-Document-for-INR-600-cr-CP-10.pdf#9#13#9",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Haryana None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

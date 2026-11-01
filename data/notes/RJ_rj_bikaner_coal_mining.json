@@ -1,0 +1,150 @@
+{
+ "key": "rj_bikaner|coal_mining",
+ "state": "RJ",
+ "city": "rj_bikaner",
+ "ind": "coal_mining",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution: no verified data score for Bikaner coal and washeries, and the only local signal is an NGT closure notice to 21 Khara factories [1]; lend only to screened, compliant washery and mining-service borrowers, and avoid the rest.",
+ "title": "Bikaner coal mining & washeries: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Coal washing takes raw coal, crushes and beneficiates it, and sells washed coal to power, cement and sponge-iron buyers; mining services move overburden and coal for mine owners.** Cash comes in on offtake and grade realisation, not on tonnes dug. The rating file on a coal washery shows the cash trap: suppliers are paid in advance while customers take around 45-60 days to pay, so working capital bank lines carry the cycle [8]. **So when a proposal lands, check the advance-to-supplier policy against receivable days; if receivables stretch past the stated 45-60 days [8], ask for the buyer-wise ageing and the largest buyer's payment record.**\n\n## Where value and cash sit\n**Value sits in washed-grade realisation and in the washery's yield, not in raw tonnes.** Peers show the operating leverage: Coal India's Q4 FY26 EBITDA on revenue from operations improved to 39% from 36% [5], and Q2 FY27 revenue rose 20.8% to INR 44,179 crore with net profit up 57% to INR 6,547 crore [7]. **Capex is heavy and lumpy - washery capacity is built in million-tonne-per-year blocks, and BCCL is commissioning new washeries with a combined capacity of 7.00 million tonnes per year [10].** So size the loan to the contract, not the plant: if the borrower's offtake agreement is shorter than the loan tenor, ask for the renewal history and the buyer's linkage. **On the peer side, BCCL's October update shows production up 7% and offtake up 11%, but cumulative fiscal-year production is still negative [4]; Coal India's October output recovery drew on inventories, with a late-month slowdown flagged [7].** Rating reports on washeries and mining-services firms are undated in our file [9][11] - old, so use them for structure, not for current numbers. **The data pack gives no score for this industry in this city [D], so the call rests on first principles and peers.**\n\n## Who to pursue, and how to grow safely\n**Pursue washery operators with a written offtake from a named buyer, mining-services contractors paid per tonne moved, and transporters tied to a specific mine.** Avoid traders with no washing asset, units inside the Khara closure list [1], and any borrower whose supplier advances are funded by us without a matching buyer contract. **Structure: cash-flow-backed limits, monthly stock-and-receivable statements, and a charge on the offtake contract.** Take every month the buyer-wise sales register, the coal stock statement, and the advance-payment ledger. **If the borrower cannot show the buyer's grade-wise acceptance, ask for the weighbridge slips.**\n\n## Early-warning signs\n**Watch receivable days against the 45-60 day norm [8], stock build-up without offtake, and any pollution notice in the borrower's area [1].** If a buyer delays beyond the stated cycle, cut the drawing power before the next limit review."
+ ],
+ "watch": [
+  [
+   "Monthly receivable ageing",
+   "days cross 60 -> freeze drawing power and seek buyer confirmation"
+  ],
+  [
+   "Monthly coal stock statement",
+   "stock rises while offtake flat -> ask for weighbridge slips and buyer acceptance"
+  ],
+  [
+   "Quarterly pollution/NGT notice check",
+   "any notice in borrower's area [1] -> stop fresh disbursement until compliance proof"
+  ],
+  [
+   "Monthly advance-payment ledger",
+   "supplier advances exceed contract terms -> reduce limit"
+  ],
+  [
+   "Quarterly offtake vs contract",
+   "offtake falls below contracted volume -> reprice or exit at review"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "NGT closure notices to 21 Khara factories signal local compliance risk; no data score available.",
+ "articles": [
+  {
+   "title": "बीकानेर के खारा औद्योगिक क्षेत्र में प्रदूषण पर NGT सख्त, 21 फैक्ट्रियों को बंद करने के नोटिस | स्वतंत्र समय - Hindi News Paper from Madhya Pradesh",
+   "url": "https://swatantrasamay.com/ngt-takes-a-strict-stance-on-pollution-in-bikaners-khara-industrial-area-issues-closure-notices-to-21-factories/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Vidyut Joshi: Latest News & Videos, Photos about Vidyut Joshi | The Economic Times - Page 1 - Business News›Vidyut Joshi",
+   "url": "https://economictimes.indiatimes.com/topic/Vidyut-Joshi#1",
+   "date": "2026-10-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Bithnok Lignite Mine",
+   "url": "https://www.gem.wiki/Bithnok_Lignite_Mine",
+   "date": "2026-05-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Bharat Coking Coal October Business Update: Production up 7%, offtake grows 11% - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/stocks/bharat-coking-coal-share-price-october-business-update-production-up-7-offtake-grows-11-20024264.htm",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hot Pursuit News Details",
+   "url": "http://balajiequities.com/Market/News/News-details/1687909",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "IGI Logo",
+   "url": "https://investmentguruindia.com/newsdetail/buy-coal-india-ltd-india-ltd-for-target-rs-470-by-axis-direct821981",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "India: Coal India Q2 profit rises 57%; Oct'26 production recovery supports stronger Q3 supplies - BigMint",
+   "url": "https://www.bigmint.co/insights/detail/india-coal-india-q2-profit-rises-57-oct-26-production-recovery-supports-stronger-q3-supplies-804094",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- The account was regular with State Bank of India",
+   "url": "https://nsearchives.nseindia.com/emerge/corporates/content/Maheshwari_FDD.pdf#7#7#7",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Rama%20Coal%20Washeries%20Private%20Limited-RU-20-02-2025.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Additionally, as part of our strategic shift, we are in the process to increase our coal production by reorganization of coal bl...",
+   "url": "https://www.icicisecurities.com/Upload/ArticleAttachments/Bharat%20Coking%20Coal%20Limited%20-%20RHP.pdf#62#152#62",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update March 17, 2025 | Mumbai",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Alps%20Mining%20Services%20Private%20Limited-RU-17-03-2025.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Rajasthan None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
