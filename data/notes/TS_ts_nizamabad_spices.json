@@ -1,0 +1,149 @@
+{
+ "key": "ts_nizamabad|spices",
+ "state": "TS",
+ "city": "ts_nizamabad",
+ "ind": "spices",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:38 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 64,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to turmeric processors and commission agents with clean e-NAM records and stock-and-receivable discipline; avoid pure price-speculating traders until the e-NAM 2.0 disruption settles.",
+ "title": "Nizamabad Spices Processing & Trade: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Nizamabad's spice economy is turmeric first — the mandi is the physical cash engine, and processing is the margin layer on top.** Turmeric arrives from farmers into the APMC yard, commission agents (arhatdars) settle farmer payments and sell lots onward, and processors clean, boil, polish and grind into powder for domestic brands and exporters. Cash turns on the mandi cycle, not on a factory clock. The Centre has named Nizamabad turmeric among products with global promise [1], so export-linked processors are the natural growth pocket — but the same source is a policy intent, not an order book. ## Where value and cash sit\n**Value sits in the stock, and the stock is seasonal — that is the whole credit story.** Raw material arrives in a tight window and must be bought then; ICRA notes seasonal availability February to June forces higher stock, with net working capital at around 45% of operating income as on March 31, 2025, improved from 51% in FY2024 [9]. Utilisation then peaks July to November, i.e. now, into Diwali [10]. So when a proposal lands, check the stock statement against the actual godown and the season; if the borrower claims peak-season sales but stock is flat, ask where the turmeric went. Pricing power is thin at the trader end and real only for branded processors — Orkla's chilli and coriander inflation of 78% and 40% forced calibrated price rises [6], which tells you input spikes pass through slowly. Nationally, exports are down 5.7% Apr-to-date in USD [D], which caps the export processor's upside. Telangana itself is running ahead — GST +13.8% versus India +6.1%, power demand +15.7% versus +9.5% [D] — so the state is spending even as the trade channel is messy. ## Who to pursue, and how to grow safely\n**Pursue processors with branded or export offtake and commission agents with audited yard records; avoid pure positional traders.** Peer evidence supports the processed end: Orkla's spice volumes grew over 10% with EBITDA up 17.7% [4], and its international business is about 21% of revenue across 45 countries [5]. Ask every trader for the actual per-quintal rate realised this fortnight — collect from customer — and compare with the invoice book. ## Early-warning signs\n**Watch the yard, not the balance sheet.** Falling lot arrivals with rising receivables means the trader is holding stock on hope. Any repeat of the software-driven rate dispute [3] should trigger a freeze on fresh limits to that party."
+ ],
+ "watch": [
+  [
+   "Weekly: mandi arrival and per-quintal rate -> if realised rate falls sharply against invoice book, cut limit and ask for stock re-pledge"
+  ],
+  [
+   "Monthly: stock statement vs godown physical -> mismatch above 10% means stop fresh disbursal"
+  ],
+  [
+   "Monthly: receivable days -> stretch beyond the borrower's own six-month average means move to cash-backed limits"
+  ],
+  [
+   "Quarterly: e-NAM/APMC settlement records -> any unresolved rate dispute freezes new limits"
+  ],
+  [
+   "Monthly: export order book in USD -> a second down month means reprice the export processor's limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Mandi software failure caused a rate dispute and farmer protest in Nizamabad.",
+ "articles": [
+  {
+   "title": "Formulate action plan to boost exports; identify 50 high-potential products: Centre to Telangana",
+   "url": "https://newsmeter.in/business/formulate-action-plan-to-boost-exports-identify-50-high-potential-products-centre-to-telangana-778348",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Nizamabad Turmeric Market: India's Spice Capital — Complete Trader's Guide 2026",
+   "url": "https://www.mandigrow.com/blog/nizamabad-turmeric-capital-2026",
+   "date": "2026-07-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "నిజామాబాద్ లో పసుపు రైతుల ఆందోళన",
+   "url": "https://www.v6velugu.com/turmeric-farmers-protest-in-nizamabad-over-e-nam-issues",
+   "date": "2026-04-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Orkla India Q3 PAT rises 3.8% to ₹68 crore; EBITDA jumps 18% on volume-led growth",
+   "url": "https://retail.economictimes.indiatimes.com/news/food-entertainment/personal-care-pet-supplies-liquor/orkla-india-q3-pat-rises-3-8-to-68-crore-ebitda-jumps-18-on-volume-led-growth/128245690?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etretail_news_2026-02-13&dt=2026-02-13",
+   "date": "2026-02-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In conversation with Sanjay Sharma, Managing Director and CEO, Orkla India Ltd - enquiry@dsij",
+   "url": "https://insights.dsij.in/mr/dsijarticledetail/in-conversation-with-sanjay-sharma-managing-director-and-ceo-orkla-india-ltd#1",
+   "date": "2026-08-03",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Orkla India Returns To Double-Digit Growth Amid Spice Inflation Surges In Q1 - BW Businessworld - Orkla India Returns To Double-Digit Growth Amid Spice Inflation Surges In Q1",
+   "url": "https://www.businessworld.in/article/orkla-india-returns-to-double-digit-growth-amid-spice-inflation-surges-in-q1-618096#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Orkla India Q4 profit more than doubles despite slow revenue growth - CNBC TV18 - Orkla India Q4 profit more than doubles despite slow revenue growth",
+   "url": "https://www.cnbctv18.com/business/companies/orkla-india-q4-net-profit-jumps-107pc-to-rs73-crore-ws-l-19909327.htm#1",
+   "date": "2026-05-18",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "<table><tr><td>Particulars</td><td>Justification for Holding Levels</td></tr><tr><td>Raw Material</td><td>Our company is engaged...",
+   "url": "https://www.capitalmarket.com/pub/dp/dp80203.pdf#33#105#33",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "September 01, 2025",
+   "url": "https://www.icra.in/Rating/ShowRatingRationalReport?id=137401&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 18,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=141665&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 64 (national 40 x 0.6 + Telangana 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Telangana: GST collections +13.8% Apr-to-date vs India +6.1% (7.7 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Telangana: electricity demand +15.7% Apr-to-date vs India +9.5% (6.2 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -5.7% Apr-to-date in USD (Rs 19,248 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,154 @@
+{
+ "key": "up_meerut|sugar",
+ "state": "UP",
+ "city": "up_meerut",
+ "ind": "sugar",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:38 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 76,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Meerut sugar & ethanol, but only to integrated mills and cane-supply-linked borrowers with distillery backing; hold off on standalone mills with delayed crushing and no ethanol arm.",
+ "title": "Meerut Sugar & Ethanol: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Meerut mill buys cane from farmers within its command area, crushes it into sugar, molasses and bagasse, and increasingly diverts juice/B-heavy molasses into ethanol. **Cash turns on the crushing calendar, not the loan calendar** — the season start date decides when cane payments, sugar stock and ethanol dispatches begin. Two local reports this week show the calendar slipping: Nanglamal mill's crushing is delayed by rain and farmers have been asked to hold cane cutting [1], while Daurala mill is set to start only on 6 November [3]. So when a proposal lands, check the mill's actual season start date against its stated plan; if crushing has slipped, ask how much cane is standing unsupplied and who bears the holding cost.\n\n## Where value and cash sit\nValue sits in recovery rate, sugar realisation and the ethanol diversion, not in cane volume. Peer EID Parry lifted average realisation to INR 51.2 per kg from INR 43.7 per kg on a premium mix [6], and Triveni reported improved profitability and reduced debt on strong sugar and distillery margins despite lower cane yields [5]. **The distillery is what stabilises a mill's cash** — ICRA notes remunerative ethanol prices and interest subvention on debt-funded distillery capex help prevent cane arrears piling up [10]. Working capital is the risk: cane must be paid in days while sugar and ethanol sell over months. So when a proposal lands, check the split between sugar and ethanol revenue; if ethanol is under a third of revenue, ask for the distillery utilisation and offtake contract.\n\n## What has changed now\nMeerut-specific data is thin — the sources say little about this city beyond the two crushing-start reports [1][3]. Lean on first principles and peers. The official data pack reads OK at 76 (UP 75, national 77) [D], and UP GST collections are running +14.2% Apr-to-date versus India +6.1% [D] — a genuine local tailwind. But India-wide bank credit is -7.0% YoY against output +5.1% [D], so the system is not chasing this sector. **The local news is the caution**: a delayed season [1] and a Meerut contractor's deal with a Goa factory drawing farmer concern [2] both point to cane-supply friction. Rating reports flag cyclicality and agro-climatic risk as the core vulnerability [10], and one ICRA note is from October 2024 [11] — treat it as dated.\n\n## Who to pursue, who to avoid\nPursue integrated mills with a working distillery, steady command-area cane, and a season already underway or firmly dated [3][5][10]. Pursue cane-supply contractors and transporters tied to a running mill. **Avoid standalone mills with no ethanol arm and an unsupplied cane pile** [1], and avoid borrowers whose only collateral is sugar stock in a delayed season. Take monthly: cane payment status, sugar stock and free-sale release quota, ethanol dispatch volumes, and the mill's own recovery rate. Structure term debt to the crushing cycle, keep a stock-and-receivables charge, and covenant on cane arrears.\n\n## Early-warning signs\n- Cane arrears rising month-on-month (monthly) -> stop fresh disbursal and ask for the mill's payment plan.\n- Season start slipping again past the announced date (weekly during Oct-Dec) -> reprice or hold the limit.\n- Ethanol dispatch below contracted volume (monthly) -> ask for the offtake letter and distillery run-rate.\n- Sugar realisation falling below the mill's stated breakeven (monthly) -> review the account."
+ ],
+ "watch": [
+  [
+   "Cane arrears position (monthly)",
+   "arrears rise two months running -> freeze limit and seek payment plan"
+  ],
+  [
+   "Season start vs announced date (weekly, Oct-Dec)",
+   "further delay past 6 Nov [3] -> hold disbursal, recheck cane supply"
+  ],
+  [
+   "Ethanol dispatch vs contract (monthly)",
+   "shortfall -> demand offtake letter and distillery utilisation"
+  ],
+  [
+   "Sugar stock and release quota (monthly)",
+   "stock builds without quota -> ask for free-sale release evidence"
+  ],
+  [
+   "GST/UP collection trend (monthly) [D]",
+   "UP growth slips toward India +6.1% [D] -> tighten new-to-bank intake"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Meerut crushing delayed by rain; farmers told to hold cane, season start slipping.",
+ "articles": [
+  {
+   "title": "बारिश के कारण नंगलामल मिल का पेराई सत्र टला: मेरठ में किसानों से अगली सूचना तक गन्ने की कटाई रोकने की अपील - Meerut News",
+   "url": "https://www.bhaskar.com/local/uttar-pradesh/meerut/news/meerut-naglamal-sugar-mill-crushing-season-delayed-farmers-alert-139546014.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Goa Sugarcane Farmers Concerned Over Dharbandora Factory Deal with Meerut Contractor",
+   "url": "https://www.heraldgoa.in/goa/goa-sugarcane-farmers-concerned-over-dharbandora-factory-deal-with-meerut-contractor/493986/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Meerut News: छह नवंबर से शुरू होगी दौराला चीनी मिल",
+   "url": "https://www.amarujala.com/uttar-pradesh/meerut/daurala-sugar-mill-will-begin-operations-on-november-6-meerut-news-c-42-1-smrt1030-106659-2026-10-30",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Buy K P R Mill; target of Rs 1289: Prabhudas Lilladher",
+   "url": "https://in.tradingview.com/news/moneycontrol:63691d251094b:0-buy-k-p-r-mill-target-of-rs-1289-prabhudas-lilladher/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Triveni Engineering & Industries (NSE:TRIVENI) Earnings Call Transcripts - Triveni Engineering & Industries Limited (NSE:TRIVENI)",
+   "url": "https://stockanalysis.com/quote/nse/TRIVENI/transcripts/#main#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset By Investing.com - E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset",
+   "url": "https://www.investing.com/news/company-news/eid-parry-q1-fy27-slides-sugar-volumes-surge-amid-strategic-reset-93CH-4856707#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's EID Parry posts higher quarterly profit on strong sugar performance",
+   "url": "https://www.reuters.com/5f374b32b07b/world/india/indias-eid-parry-posts-higher-quarterly-profit-strong-sugar-performance-2026-05-26/",
+   "date": "2026-05-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "policies on exports, minimum support price (MSP), and ethanol pricing",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510121030_Zuari_Industries_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 08,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130418#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "April 06,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=142208#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 22, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=130589#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 76 (national 77 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit -7.0% YoY vs output +5.1% (gap -12.1 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Uttar Pradesh: electricity demand +8.6% Apr-to-date vs India +9.5% (0.9 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

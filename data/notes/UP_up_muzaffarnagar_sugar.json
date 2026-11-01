@@ -1,0 +1,158 @@
+{
+ "key": "up_muzaffarnagar|sugar",
+ "state": "UP",
+ "city": "up_muzaffarnagar",
+ "ind": "sugar",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:39 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 76,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Muzaffarnagar sugar & ethanol, but only to integrated mills with distillery capacity and clean cane-payment records; avoid pure-standalone mills and any account with cane arrears or mill-area disputes.",
+ "title": "Muzaffarnagar Sugar & Ethanol: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA mill buys cane from a fixed command area, crushes it into sugar, molasses and bagasse, and now increasingly diverts juice/grain to ethanol. **Cash comes from three taps: sugar sales, ethanol supplies, and power/co-gen** — and the ethanol tap is the steadiest because pricing is administered [10]. Cane is paid within a statutory window, so the mill carries a heavy seasonal working-capital peak from November crushing to sugar sales through the year. **The single biggest cash risk is cane arrears** — a mill that falls behind loses its farmers and its command area.",
+  "## Where value and cash sit now\nRealisation is the swing factor: EID Parry lifted average realisation to INR 51.2 per kilogram from INR 43.7 per kilogram on a premium mix [6], and Triveni reported improved profitability and reduced debt on strong sugar and distillery margins [5]. **Integrated mills with distillery capacity are earning through the cycle; standalone mills are not.** Locally, farmers protested a change in the mill area [1] and staged a novel protest selling sugar at 45 rupees a kilo against higher prices [2] — read this as farmer and price sensitivity in the belt, not as a demand collapse. **Local sources say little about mill-level financials in Muzaffarnagar, so lean on first principles plus these peers.**",
+  "## What has changed\nUP GST collections ran +14.2% Apr-to-date against India +6.1% [D] — a genuine local tailwind for consumption and trade. But India-wide bank credit is -7.0% YoY against output +5.1% [D], so **credit is scarce and your pricing should reflect that**. Rating commentary flags that remunerative ethanol prices and interest subvention on distillery capex help prevent cane arrears [10]; that support is the reason to stay with integrated borrowers.",
+  "## Who to pursue, and how to grow safely\nPursue integrated mills with operating distilleries, co-gen, and a clean cane-payment record; pursue ethanol-logistics and molasses-handling units tied to them. Avoid standalone mills with no ethanol diversion, and any borrower whose command area is under dispute [1]. **Structure against the crush cycle**: cash credit sized to the November-April peak, a term loan only where distillery capex is backed by subvention [10], and a cane-arrears covenant tested monthly. Take every month: cane payment status, sugar stock and sales register, ethanol dispatch and payment advices, and quarterly stock statements. When a proposal lands, check the mill-area notification and cane arrears first; if arrears exceed one fortnight, ask for the payment plan before sanction.",
+  "## Early-warning signs\n- Cane arrears crossing the statutory window -> freeze fresh limits and inspect the command area.\n- Farmer protests or mill-area changes [1] -> re-check cane supply assumptions.\n- Sugar realisation slipping below peer levels [6] -> stress-test the ethanol share.\n- Distillery downtime or ethanol payment delays [10] -> ask for dispatch records.\n- Stock statement ageing beyond normal -> verify with a godown visit."
+ ],
+ "watch": [
+  [
+   "Cane arrears position (monthly)",
+   "arrears beyond statutory window -> freeze limit, seek payment plan"
+  ],
+  [
+   "Sugar stock and sales register (monthly)",
+   "stock ageing beyond normal -> godown visit, revalue drawing power"
+  ],
+  [
+   "Ethanol dispatch and payment advices (monthly)",
+   "dispatch delay or payment slip -> ask for OMC correspondence"
+  ],
+  [
+   "Farmer/mill-area news (monthly)",
+   "protest or area change [1] -> re-check cane supply and re-rate"
+  ],
+  [
+   "GST/credit environment (quarterly)",
+   "UP GST growth turning negative [D] -> tighten new sanctions"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local farmer protests over mill area and sugar pricing signal belt-level stress.",
+ "articles": [
+  {
+   "title": "Muzaffarnagar News: शुगर मिल क्षेत्र बदलने से नाराज किसानों का प्रदर्शन",
+   "url": "https://www.livehindustan.com/uttar-pradesh/muzaffar-nagar/story-farmers-protest-against-change-of-sugar-mill-area-201791053238724.html",
+   "date": "2026-10-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "मुजफ्फरनगर में चीनी के बढ़े दाम के खिलाफ अनोखा प्रदर्शन, 45 रुपये किलो में बेची गई 5 क्विंटल चीनी - ब्रेकिंग न्यूज़",
+   "url": "https://navbharatlive.com/uttar-pradesh/muzaffarnagar-sugar-price-protest-farmers-sell-sugar-sns03?utm_source=website&utm_medium=related-stories#1",
+   "date": "2026-09-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Muzaffarnagar News: मिठास की जरूरत बढ़ते ही चीनी ने बढ़ाई खटास - Muzaffarnagar News: मिठास की जरूरत बढ़ते ही चीनी ने बढ़ाई खटास",
+   "url": "https://www.amarujala.com/uttar-pradesh/muzaffarnagar/as-the-need-for-sweetness-grew-sugar-created-bitterness-muzaffarnagar-news-c-14-1-mrt1062-1280858-2026-08-23#1",
+   "date": "2026-08-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Buy K P R Mill; target of Rs 1289: Prabhudas Lilladher",
+   "url": "https://in.tradingview.com/news/moneycontrol:63691d251094b:0-buy-k-p-r-mill-target-of-rs-1289-prabhudas-lilladher/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Triveni Engineering & Industries (NSE:TRIVENI) Earnings Call Transcripts - Triveni Engineering & Industries Limited (NSE:TRIVENI)",
+   "url": "https://stockanalysis.com/quote/nse/TRIVENI/transcripts/#main#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset By Investing.com - E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset",
+   "url": "https://www.investing.com/news/company-news/eid-parry-q1-fy27-slides-sugar-volumes-surge-amid-strategic-reset-93CH-4856707#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's EID Parry posts higher quarterly profit on strong sugar performance",
+   "url": "https://www.reuters.com/5f374b32b07b/world/india/indias-eid-parry-posts-higher-quarterly-profit-strong-sugar-performance-2026-05-26/",
+   "date": "2026-05-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "policies on exports, minimum support price (MSP), and ethanol pricing",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510121030_Zuari_Industries_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 08,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130418#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "April 06,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=142208#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 22, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=130589#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 76 (national 77 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit -7.0% YoY vs output +5.1% (gap -12.1 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Uttar Pradesh: electricity demand +8.6% Apr-to-date vs India +9.5% (0.9 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

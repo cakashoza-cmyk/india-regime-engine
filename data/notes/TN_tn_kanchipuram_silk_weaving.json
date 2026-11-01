@@ -1,0 +1,150 @@
+{
+ "key": "tn_kanchipuram|silk_weaving",
+ "state": "TN",
+ "city": "tn_kanchipuram",
+ "ind": "silk_weaving",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:37 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Kanchipuram silk weavers and retailers with verified order books and clean receivables; avoid leveraged inventory-holders until TN GST collections turn positive.",
+ "title": "Kanchipuram silk weaving & sarees: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Kanchipuram silk unit buys raw silk and zari, weaves on handlooms or powerlooms, and converts yarn into a high-value saree that sells on occasion demand, not everyday demand.** Cash sits in inventory (yarn, grey fabric, finished sarees) and in receivables from retailers and agents; the ICRA methodology flags the weaving business as both fixed-capital and working-capital intensive, with working capital driven by inventory holding and receivables [8][9]. Pricing power is real only for pure-zari, handloom-marked sarees; powerloom and blended output is price-taken. So when a proposal lands, check the saree mix and the zari purity claim first; if the borrower cannot show the silk mark or test certificate, ask for the purchase invoices of raw silk and zari.",
+  "## What has changed now\n**The local demand signal is weak even as the national production signal is strong.** Tamil Nadu GST collections are -3.2% Apr-to-date against India +6.1%, a 9.3 pp gap [D]. India-wide IIP NIC 13 output is +13.1% YoY and +11.9% Apr-to-date, and bank credit is growing +15.2% YoY against output +11.9% [D]. Read plainly: credit is running ahead of output nationally, so the risk is a borrower funded on hope rather than orders. The peer read confirms softness: Sai Silks reported Q1 FY2027 revenue flat at INR 375 crore with SSSG declining 7.5%-7.8% on weak demand, gross margin held at 42% [4]; Siyaram saw festive demand stay occasion-driven with moderate footfall [7].",
+  "## Where the growth is\n**Pursue the design-led and export-linked borrower, not the plain volume weaver.** Chennai designers are reworking the Kanjeevaram into lighter fabrics and versatile designs [1], and a Rs 2-crore silk export centre is coming up in Kanchipuram with a Rs 2.55-crore exhibition programme [2][3]. Target: (a) weavers tied to designer or export orders with written purchase orders, (b) retail showrooms with a wedding-season book, (c) units near the new export centre with godown and testing capability. Avoid: pure powerloom converters, traders holding sarees as speculative stock, and any unit whose sales are to a single agent.",
+  "## How to grow safely\n**Structure against the inventory cycle, not the balance sheet.** ICRA notes low leverage improves flexibility in a downturn and that term-debt tenure drives coverage [10]; the same methodology warns that aggressive debt-funded policy is more vulnerable in cyclical downturns [8]. So sanction working capital against a drawing-power limit built on stock-and-receivables statements, keep term loans short and matched to loom life, and take a charge on stock and receivables. Take every month: stock statement, sales register, GST returns, and a receivables ageing.",
+  "## Early-warning signs\n**Watch the cash, not the order book.** A CRISIL note on an organised silk saree retailer shows the segment can carry rated bank lines (Rs 23 crore, BBB+/Stable) [11], so quality exists; the risk is at the small-unit end. On any two together, freeze enhancement and re-price."
+ ],
+ "watch": [
+  [
+   "GST returns (monthly)",
+   "TN GST run-rate stays negative for two quarters -> cut drawing power and re-price"
+  ],
+  [
+   "Stock and receivables statement (monthly)",
+   "Inventory days rise while sales are flat -> freeze enhancement, inspect godown"
+  ],
+  [
+   "Order book / purchase orders (quarterly)",
+   "Export or designer orders cancelled -> shift to cash-backed retail lending only"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "TN GST -3.2% vs India +6.1%; peer SSSG down 7.5%-7.8% on weak demand.",
+ "articles": [
+  {
+   "title": "Indulge Chennai 19th Anniversary Special: How Chennai is giving the iconic Kanjeevaram sari a contemporary makeover",
+   "url": "https://www.indulgexpress.com/culture/2026/Oct/30/indulge-chennai-19th-anniversary-special-how-chennai-is-giving-the-iconic-kanjeevaram-sari-a-contemporary-makeover",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Rs 2-crore silk export centre to come up in Kanchipuram",
+   "url": "https://www.newindianexpress.com/states/tamil-nadu/2026/Sep/02/rs-2-crore-silk-export-centre-to-come-up-in-kanchipuram",
+   "date": "2026-09-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "காஞ்சிபுரம் பட்டு சர்வதேச ரேஞ்சுக்கு போகப்போகுது! அமைச்சர் வெளியிட்ட மாஸ் அப்டேட்!",
+   "url": "https://tamil.abplive.com/news/tamil-nadu/kanchipuram-silk-export-center-2-cr-project-announced-by-minister-vijay-balaji-tnn-273215/amp",
+   "date": "2026-08-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sai Silks (Kalamandir) (NSE:KALAMANDIR) Earnings Call Transcripts - Sai Silks (Kalamandir) Limited (NSE:KALAMANDIR)",
+   "url": "https://stockanalysis.com/quote/nse/KALAMANDIR/transcripts/#1",
+   "date": "2026-07-15",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sai Silks (Kalamandir) (NSE:KALAMANDIR) Q2 2026 Earnings Call Transcript & Audio - Sai Silks (Kalamandir) Limited (NSE:KALAMANDIR)",
+   "url": "https://stockanalysis.com/quote/nse/KALAMANDIR/transcripts/531688-q2-25-26/#main#1",
+   "date": "2025-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sai Silks (Kalamandir) Limited - Q1 26/27 - July 16, 2026",
+   "url": "https://fiscal.ai/company/XNSE_KALAMANDIR/investor-relations/Q1-2027/#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "SIYSIL Q3-2026 Earnings Call - Siyaram Silk Mills Ltd NSE:SIYSIL",
+   "url": "https://www.alphaspread.com/security/nse/siysil/investor-relations/earnings-call/q3-2026#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Advisory",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Rmkv%20Silks%20Private%20Limited-RA-11-10-2022.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 83 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

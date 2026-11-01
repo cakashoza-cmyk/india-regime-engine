@@ -1,0 +1,126 @@
+{
+ "key": "cg_raigarh|sponge_iron",
+ "state": "CG",
+ "city": "cg_raigarh",
+ "ind": "sponge_iron",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:38 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new sponge iron and ferro alloy exposure in Raigarh; lend only to integrated, cash-generating units with verified power and working-capital discipline.",
+ "title": "Raigarh sponge iron & ferro alloys: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Sponge iron and ferro alloys are power- and coal-hungry conversion businesses: you buy iron ore and coal, burn them through a kiln or furnace, and sell a commodity priced off scrap and steel.** Cash is made on the spread between input cost and realisation, not on brand or customer loyalty. Shyam Metalics' March 2026 sponge iron realisation was Rs 25,656 per MT, up 1.98% YoY, while volume fell 2.33% to 81,083 MT [2][3]. **So when a proposal lands, check the realisation assumption against that Rs 25,656/MT benchmark; if the borrower projects materially above it, ask for the customer contracts behind it.**\n\n## Where value and cash sit\n**Value sits in integration — captive power, pellets, and ferro alloy mix — not in standalone kilns.** Shyam Metalics runs pellets, sponge iron, TMT, ferro alloys and power together [4]. Its Q3 FY26 revenue was Rs 4,421 crore, +17.7% YoY, but EBITDA margin was 12.2% and PAT was flat at +0.1% YoY [4]. **So when a proposal lands, check whether power is captive or purchased; if purchased, ask for the power tariff and its share of conversion cost.** Working capital is the other trap: Agrawal Sponge ran average working-capital utilisation at ~91% for the twelve months to Sep 2018 [7] — old data, but the pattern holds. IIP for NIC 24 (basic metals) grew only 2.4% YoY [D]. **So when a proposal lands, check whether the borrower is mid-project; if so, ask for the project cost, funding mix and completion date.**\n\n## Who to pursue, who to avoid\n**Pursue integrated units with captive power, pellet linkage and ferro alloy diversification, and existing borrowers with demonstrated cash accruals.** Avoid standalone sponge iron converters, borrowers with high group-entity exposure (Agrawal Sponge had INR 13.83 cr, 15.6% of net worth, in 2018 [7]), and any debt-funded greenfield expansion in this price cycle. **So when a proposal lands, check group exposure as a share of net worth; if above 10%, ask for the repayment source outside the group.**\n\n## How to grow safely and what to watch\n**Structure new limits as working-capital lines with monthly stock and debtor reporting, and term debt only against commissioned assets.** Take every month: stock statement, debtor ageing, power cost per unit, and realisation per MT."
+ ],
+ "watch": [
+  [
+   "Realisation per MT vs Rs 25,656/MT [2] (monthly)",
+   "Falls below benchmark -> ask for customer contracts and reprice limit"
+  ],
+  [
+   "Power and fuel cost per unit (monthly)",
+   "Rises faster than realisation -> ask for monthly cost sheet and margin bridge"
+  ],
+  [
+   "Chhattisgarh GST and electricity demand vs India [D] (monthly)",
+   "Gap widens -> reduce new sanctions in the cluster"
+  ],
+  [
+   "Project completion status for mid-project borrowers [8] (quarterly)",
+   "Delay or cost overrun -> ask for revised funding plan and promoter infusion"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Chhattisgarh GST and power demand lag India; Brent above band; peer strength is national, not local.",
+ "articles": [
+  {
+   "title": "Shyam Metalics Posts Strong Q4 And FY26 Results - Shyam Metalics Posts Strong Q4 And FY26 Results",
+   "url": "https://www.constructionworld.in/amp/policy-updates-and-economic-news/shyam-metalics-posts-strong-q4-and-fy26-results/91557#1",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Shyam Metalics rises as stainless steel sales volume jumps 59% YoY in Mar'26 - Friday, September 11, 2026 | 01:22 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/capital-market-news/shyam-metalics-rises-as-stainless-steel-sales-volume-jumps-59-yoy-in-mar-26-126040700248_1.html#1",
+   "date": "2026-04-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hot Pursuit News Details",
+   "url": "https://balajiequities.com/Market/News/News-details/1684430",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shyam Metalics Q3 FY26 Earnings Results | AlphaStreet",
+   "url": "https://alphastreet.com/india/shyam-metalics-q3-fy26-earnings-results/amp/",
+   "date": "2026-01-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 16,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140248#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "March 31,2017",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=34423#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Agrawal Sponge Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Agrawal%20Sponge%20Private%20Limited-10-29-2018.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 31, 2025",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/134186#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + Chhattisgarh 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Chhattisgarh: GST collections +2.4% Apr-to-date vs India +6.1% (3.7 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Chhattisgarh: electricity demand +6.7% Apr-to-date vs India +9.5% (2.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

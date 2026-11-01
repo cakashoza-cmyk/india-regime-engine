@@ -1,0 +1,154 @@
+{
+ "key": "mp_indore|snacks_namkeen",
+ "state": "MP",
+ "city": "mp_indore",
+ "ind": "snacks_namkeen",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:37 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 43,
+ "nudged_by_news": false,
+ "verdict": "Avoid new unsecured namkeen exposure in Indore; lend only to established, compliant units with assessed raw-material pass-through and tight monthly stock-and-GST discipline.",
+ "title": "Indore snacks & namkeen: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Namkeen and sweets is a daily-conversion business: buy besan, potato, milk, sugar, edible oil and dry fruit, fry and pack, sell through own counters and distributors, collect cash.** Value sits in the brand and the counter location, not the plant; cash sits in finished stock and festive receivables. Indore pricing shows the cost pass-through problem plainly: namkeen moved to ₹300-350 per kg from ₹240-260, kaju katli to ₹1,100-1,200 per kg from ₹900, khoya sweets to ₹600-650 per kg from ₹500, and a sweet box now costs ₹18 against ₹12 [3]. So when a proposal lands, check whether the unit actually re-priced its SKUs this season; if it absorbed costs silently, ask for the gross-margin trend by month.\n\n## What has changed now\n**The local signal is weak: Madhya Pradesh GST collections are -0.1% Apr-to-date against India +6.1%, 6.2 pp slower [D].** Nationally, bank credit is running +25.3% YoY against output +5.1%, a 20.2 pp gap [D] — money is chasing this trade faster than demand is growing. Locally, food safety inspectors covered 15 shops and drew 54 samples in Indore [1]; treat that as a compliance-cost and licence-risk item, not noise. Peer results are mixed: Prataap grew revenue 20% YoY to INR5b in 1QFY27 with namkeen leading on double-digit volume growth [5], while Gopal Snacks grew revenue only 1.8% YoY to ₹400.8 crore in Q3 FY26 though EBITDA nearly doubled to ₹30.4 crore at 7.6% margin [6]. Rating commentary flags the core risk: passing on raw-material increases is hard amid intense competition where brand presence is moderate and packs are small [10].\n\n## Where to grow\n**Pursue Indore units with own retail counters plus a distributor base, clean FSSAI paperwork, and a demonstrated festive re-pricing.** Gopal targets ₹1,800-1,900 crore FY27 revenue at 8-9% EBITDA margin [7] — that is the scale benchmark for organised players, not for your borrower. Avoid unbranded job-work fryers selling loose namkeen to wholesale, and avoid anyone whose entire festive season is funded by us. Sources say little specific about Indore's unit economics; lean on first principles and these peers.\n\n## How to grow safely\n**Structure as cash-flow lending, not balance-sheet lending: stock statement plus receivables ageing monthly, GST returns every month, and a drawing power capped on paid stock.** Take monthly stock-and-book-debt statements, quarterly FSSAI licence and inspection status, and a covenant that any SKU price change is reported. Rating work notes working capital is inherently low because food is perishable and restaurant sales are cash [9] — so if your borrower's inventory days are high, ask why. For forays into new geographies, ICRA flags execution and taste-acceptability risk [8]; keep expansion funding out of the core limit.\n\n## Early-warning signs\n**Watch stock build-up ahead of Diwali, discount-led sales, and any gap between GST turnover and bank credits.** If namkeen realisations fall back toward ₹240-260 per kg [3] while input costs stay high, the unit is buying volume — cut limits. If a sample failure or licence notice appears [1], freeze fresh disbursal until resolved."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs bank statements (monthly)",
+   "turnover-to-credit gap >15% -> ask for sales register and reduce drawing power"
+  ],
+  [
+   "Stock and receivables statement (monthly)",
+   "inventory days rising two months running -> shift to invoice-backed limits"
+  ],
+  [
+   "SKU price list and gross margin (quarterly)",
+   "realisation falling while input costs flat -> stop fresh disbursal"
+  ],
+  [
+   "FSSAI licence and inspection status (quarterly)",
+   "sample failure or notice -> freeze limit until clearance"
+  ],
+  [
+   "Festive sales vs prior year (seasonal)",
+   "festive volume down with stock up -> recall excess limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "MP GST -0.1% vs India +6.1% and credit growing far ahead of output.",
+ "articles": [
+  {
+   "title": "Indore Food Safety Inspections Collect 54 Samples",
+   "url": "https://urbanacres.in/indore-food-safety-inspections-cover-15-shops-54-samples-collected/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Diwali 2026 Sweets And Namkeen Prices Rise 10-15% In Indore, Kaju Katli Touches ₹1,200 Per Kg As Raw Material Costs Surge - Diwali 2026 Sweets And Namkeen Prices Rise 10-15% In Indore, Kaju Katli Touches ₹1,200 Per Kg As Raw Material Costs Surge",
+   "url": "https://www.freepressjournal.in/indore/diwali-2026-sweets-and-namkeen-prices-rise-10-15-in-indore-kaju-katli-touches-1200-per-kg-as-raw-material-costs-surge#1",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Diwali Sweets Prices Rise 10-15% in Indore · Mumbai Alert News",
+   "url": "http://www.mumbaialertnews.com/article/9c33f2dae3002d41228b",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Bikaji Foods’ FY27 Growth Outlook: Western Snacks Lead the Way Amid Margin Pressures - PhonePe Invest",
+   "url": "https://www.phonepeinvest.com/buzz/news/bikaji-foods/",
+   "date": "2026-09-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Prataap Snacks Ltd. share price target",
+   "url": "https://trendlyne.com/research-reports/stock/60394/DIAMONDYD/prataap-snacks-ltd/",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hot Pursuit",
+   "url": "https://spfl.co.in/company-news/1667898",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Gopal Snacks eyes ₹1,800–1,900 crore revenue in FY27, aims for higher capacity utilisation - CNBC TV18 - Gopal Snacks eyes ₹1,800–1,900 crore revenue in FY27, aims for higher capacity utilisation",
+   "url": "https://www.cnbctv18.com/market/earnings/gopal-snacks-q4-results-eyes-1800-1900-crore-revenue-in-fy27-aims-for-higher-capacity-utilisation-19904854.htm/amp#1",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=133508#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 24, 2025",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/133836#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "June 6, 2025",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/135612#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Guilftree Industries Limited January 09, 2025",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202501120149_Guiltfree_Industries_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 43 (national 55 x 0.6 + Madhya Pradesh 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Madhya Pradesh: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Bank credit +25.3% YoY vs output +5.1% (gap +20.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "Madhya Pradesh: electricity demand +7.5% Apr-to-date vs India +9.5% (2.0 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,154 @@
+{
+ "key": "gj_unjha|spices",
+ "state": "GJ",
+ "city": "gj_unjha",
+ "ind": "spices",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:37 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 54,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to cumin processors and exporters with hedged stock and clean receivables; avoid pure mandi traders and unhedged stock financiers until price and export signals settle.",
+ "title": "Unjha Spices Processing & Trade: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nUnjha is Asia's largest cumin market, so the town's cash engine is jeera: arrival, grading, cleaning, grinding and export [3]. **The borrower buys raw jeera at harvest, holds stock, processes and sells into domestic and export channels.** Value sits in grading and cleaning quality and in the export relationship, not in the raw seed itself. Cost is dominated by raw material; ICRA notes raw material is the largest cost component for FMCG players [11]. Working capital is heavy: ICRA flags NWC/OI of around 45% as on March 31, 2025 for a peer, improved from 51% in FY2024, with seasonal raw material availability February to June forcing higher stock [9]. So when a proposal lands, check the stock-and-receivable cycle against the February-June buying window; if stock is held past the selling season without a buyer contract, ask for the offtake evidence.",
+  "## What has changed now\nLocal news is firm: Unjha mandi strengthened with steady exports [1], and a Gujarati report cites a single-session jump of ₹1,200 in jeera on El Niño fear [2]. **That is a price-led rally, not a volume story, and price rallies flatter trader turnover while hiding stock risk.** Peer results show the same pattern: Orkla India's Q1 revenue rose 10.4% with pricing contributing 11.4%, while chilli and coriander inflation climbed 78% and 40% [6]. Nationally, exports are down 5.7% Apr-to-date in USD [D], so export-dependent Unjha buyers face softer overseas pull even as local prices firm. Gujarat GST collections are up 11.9% Apr-to-date versus India's 6.1% [D], a genuine local tailwind. Note the local sources are recent (Oct 2026) but thin on Unjha-specific credit data; the rating reports are undated, so treat them as structural, not current.",
+  "## Where to grow\n**Pursue processors and exporters with branded or contracted offtake, and second-stage units adding grinding and packing capacity.** Peer evidence supports demand: Orkla India's spices volumes surged over 10% [4], and its international business is around 21% of revenues across 45 countries [5]. Pursue borrowers with a UAE or Gulf channel, since Eastern is the No. 1 Indian spice brand in the UAE by household reach [5]. Avoid pure mandi traders who finance stock on price expectation, and avoid anyone whose repayment depends on the ₹1,200 rally holding [2].",
+  "## How to grow safely\nStructure against the stock, not the story. **Take monthly stock statements, ageing of receivables and a margined drawing power tied to realisable jeera value, not the peak mandi print.** Ask for export order copies and shipping bills where export is claimed, given the 5.7% national export decline [D]. ICRA notes utilisation is typically higher July-November, till Diwali [10], so size limits to the peak season and require deleveraging after it. Collect from customer: actual stock turnover days, export share of sales, and hedging policy.",
+  "## Early-warning signs\n- Weekly mandi price versus borrower's booked stock value: a fall of the kind that reversed the ₹1,200 spike [2] -> revalue drawing power and call for margin.\n- Monthly export order book and shipping bills: two months of falling orders against the 5.7% national export decline [D] -> freeze fresh limits.\n- Monthly stock statement: stock ageing beyond the February-June procurement norm [9] -> demand sale or additional collateral.\n- Quarterly GST filings: divergence from Gujarat's 11.9% growth [D] -> investigate sales suppression."
+ ],
+ "watch": [
+  [
+   "Weekly mandi price (weekly)",
+   "price falls back through the ₹1,200 spike [2] -> revalue stock and raise margin"
+  ],
+  [
+   "Monthly stock statement (monthly)",
+   "stock held past the Feb-June buying window [9] -> demand liquidation or collateral"
+  ],
+  [
+   "Monthly export orders and shipping bills (monthly)",
+   "two months of falling orders against -5.7% national exports [D] -> freeze new limits"
+  ],
+  [
+   "Quarterly GST returns (quarterly)",
+   "growth trails Gujarat's 11.9% [D] -> investigate suppressed sales"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Firm local jeera prices mask a 5.7% national export fall and price-led, not volume-led, peer growth.",
+ "articles": [
+  {
+   "title": "Firm Indian cumin prices as Unjha mandi strengthens and exports stay steady — CMB News",
+   "url": "https://commodity-board.com/indian-cumin-prices-firm-as-unjha-mandi-strengthens-exporters-test-higher-levels",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Unjha: 'અલ નીનો'ના ડરે જીરુંના ભાવમાં તેજી, એક જ ઝાટકે ₹1,200નો ઉછાળો",
+   "url": "https://sandesh.com/gujarat/maru-saher-maru-gaam/news/unjha/apmc-jeera-cumin-price-rise-gujarat-farmers-el-nino-relief",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Unjha Market: Asia's Largest Cumin Market Explained",
+   "url": "https://elysiumagrico.com/blog/unjha/",
+   "date": "2026-09-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Orkla India Q3 PAT rises 3.8% to ₹68 crore; EBITDA jumps 18% on volume-led growth",
+   "url": "https://retail.economictimes.indiatimes.com/news/food-entertainment/personal-care-pet-supplies-liquor/orkla-india-q3-pat-rises-3-8-to-68-crore-ebitda-jumps-18-on-volume-led-growth/128245690?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etretail_news_2026-02-13&dt=2026-02-13",
+   "date": "2026-02-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In conversation with Sanjay Sharma, Managing Director and CEO, Orkla India Ltd - enquiry@dsij",
+   "url": "https://insights.dsij.in/mr/dsijarticledetail/in-conversation-with-sanjay-sharma-managing-director-and-ceo-orkla-india-ltd#1",
+   "date": "2026-08-03",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Orkla India Returns To Double-Digit Growth Amid Spice Inflation Surges In Q1 - BW Businessworld - Orkla India Returns To Double-Digit Growth Amid Spice Inflation Surges In Q1",
+   "url": "https://www.businessworld.in/article/orkla-india-returns-to-double-digit-growth-amid-spice-inflation-surges-in-q1-618096#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Orkla India Q4 profit more than doubles despite slow revenue growth - CNBC TV18 - Orkla India Q4 profit more than doubles despite slow revenue growth",
+   "url": "https://www.cnbctv18.com/business/companies/orkla-india-q4-net-profit-jumps-107pc-to-rs73-crore-ws-l-19909327.htm#1",
+   "date": "2026-05-18",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "<table><tr><td>Particulars</td><td>Justification for Holding Levels</td></tr><tr><td>Raw Material</td><td>Our company is engaged...",
+   "url": "https://www.capitalmarket.com/pub/dp/dp80203.pdf#33#105#33",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "September 01, 2025",
+   "url": "https://www.icra.in/Rating/ShowRatingRationalReport?id=137401&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 18,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=141665&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 54 (national 40 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -5.7% Apr-to-date in USD (Rs 19,248 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
