@@ -1,0 +1,150 @@
+{
+ "key": "pb_amritsar|woollen_textiles",
+ "state": "PB",
+ "city": "pb_amritsar",
+ "ind": "woollen_textiles",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Amritsar woollens and shawls, but only to working-capital-led, low-leverage units with verified order books; avoid capex-heavy or leveraged mills.",
+ "title": "Amritsar woollen & shawl textiles: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A shawl unit buys wool and yarn, gets it spun, dyed and woven or embroidered, and sells finished pieces into winter and export demand.** Cash sits in yarn and finished-goods inventory and in receivables from traders and exporters, not in the machines. Rating methodology flags the weaving business as both fixed-capital and working-capital intensive, with working capital driven by inventory holding and receivables [8][10]. So when a proposal lands, check the inventory and receivable days first; if finished-goods stock is more than one season old, ask for the ageing and the discount at which it is being cleared.\n\n## What has changed now\n**Input and freight costs have risen sharply, and the rupee fall and West Asia conflict are named as the cause in Amritsar manufacturing [2].** That is local news from March 2026, so treat it as the current cost picture until the customer shows otherwise. Peer results split cleanly: Prakash Woollen's Q1FY27 revenue rose 45% but operating costs rose 50%, leaving an operating loss of ₹218.11 lakh, with profit coming only from a ₹648.05 lakh NHAI land compensation [4][5]. Iris Clothings, by contrast, posted Q2FY27 total income of ₹62.22 crores, up 40.3%, at a 15.2% EBITDA margin [6]. **The lesson: volume growth is not margin growth in this trade.**\n\n## Where the growth is\n**Punjab GST collections grew 9.7% Apr-to-date against India's 6.1% [D], and India-wide IIP for NIC 13 output is up 13.1% YoY [D].** Pursue units with confirmed buyer orders, own embroidery or design capability, and a domestic-plus-export mix. Avoid pure job-work units with one buyer and no design margin, and avoid anyone funding a new shed or loom line on borrowed money while costs are moving like this. Amritsar-specific data is thin; the local sources are a cost report [2] and a 2025 piece on the industry re-establishing itself [3], so lean on first principles and the peers above.\n\n## How to grow safely\n**Structure as cash credit against inventory and receivables, with a term loan only where the machine has a named buyer contract.** Take monthly stock and receivable statements, quarterly GST returns, and a yearly unit-level margin sheet. Covenant a minimum EBITDA margin and a maximum total debt to EBITDA; rating methodology ties low leverage directly to financial flexibility in a downturn [11]. Where TUFS subsidy applies, match tenure to the subsidy window rather than stretching it [11].\n\n## Early warning signs\n**Watch for inventory days stretching, receivable days crossing the customer's own past average, and margin falling while sales rise.** If a unit's operating cost grows faster than revenue for two quarters, as at Prakash Woollen [4], stop enhancement and ask for the buyer-wise order book. If GST turnover diverges from bank credits, ask for the sales register."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Inventory days rise two months running -> freeze limit enhancement and inspect godown"
+  ],
+  [
+   "Quarterly GST returns vs bank credits",
+   "GST turnover falls below bank credits -> ask for sales register and buyer confirmations"
+  ],
+  [
+   "Quarterly unit margin sheet",
+   "Operating cost grows faster than revenue for two quarters -> move to collateral-backed exposure only"
+  ],
+  [
+   "Yearly total debt to EBITDA",
+   "Leverage rises above covenant -> seek promoter infusion or reduce limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local cost surge from rupee fall and West Asia conflict; peer margins compressed despite revenue growth.",
+ "articles": [
+  {
+   "title": "Amritsar — NPA & loan settlement hub",
+   "url": "https://npaexperts.in/districts/amritsar",
+   "date": "2026-07-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Amritsar manufacturing sector hit by cost surge amid rupee fall, West Asia conflict - Subscribe To Print Edition About The Tribune Code Of Ethics Download App Careers Advertise with us Classifieds",
+   "url": "https://www.tribuneindia.com/news/amritsar/manufacturing-sector-hit-by-cost-surge-amid-rupee-fall-west-asia-conflict#1",
+   "date": "2026-03-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Amritsar's textile industry is attempting to re-establish itself",
+   "url": "https://textilevaluechain.in/amritsars-textile-industry-is-attempting-to-re-establish-itself",
+   "date": "2025-09-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Prakash Woollen Q1FY27 profit turns positive on land compensation - Prakash Woollen Q1FY27 profit turns positive on land compensation",
+   "url": "https://scanx.trade/stock-market-news/companies/prakash-woollen-synthetic-mills-q1-results-net-profit-jumps-on-land-compensation/47985953#1",
+   "date": "2026-08-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Prakash Woollen & Synthetic Mills Ltd Reports Flat Quarterly Performance Amid Margin Pressures - Get Started in 30 Seconds",
+   "url": "https://www.marketsmojo.com/news/stocks-in-action/prakash-woollen-synthetic-mills-ltd-reports-flat-quarterly-performance-amid-margin-pressures-4148982#1",
+   "date": "2026-08-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Iris Clothings Ltd (NSE:IRISDOREME) (Q2 2027) Earnings Call Highlights: 40% Revenue Surge, ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/iris-clothings-ltd-nseirisdoreme-q2-2027-earnings-call-highlights-40-revenue-surge--4919819",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Arvind Ltd Reports 44% Rise in Q2 Net Profit on Strong Advanced Materials Growth - Knitting Views",
+   "url": "https://knittingviews.com/arvind-ltd-reports-44-rise-in-q2-net-profit-on-strong-advanced-materials-growth/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "• Comfortable financial risk profile: The financial risk profile should remain supported by controlled reliance on external debt...",
+   "url": "https://integraliq.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Golden%20Texo%20Fabs%20Private%20Limited-RU-05-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 83 x 0.6 + Punjab 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Punjab: GST collections +9.7% Apr-to-date vs India +6.1% (3.6 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,158 @@
+{
+ "key": "jk_srinagar|woollen_textiles",
+ "state": "JK",
+ "city": "jk_srinagar",
+ "ind": "woollen_textiles",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 50,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to GI-certified, export-linked Pashmina/Kani/Sozni units with clean certification and verified buyer orders; avoid undifferentiated grey-market shawl traders and power-intensive units until J&K demand signals recover.",
+ "title": "Srinagar Woollen & Shawl Textiles: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Srinagar shawl unit buys raw Pashmina/wool, converts it through spinning, weaving and Sozni/Kani hand embroidery, and sells to wholesalers, exporters and tourists.** Cash comes in on delivery to bulk buyers and export houses, but the embroidery stage is slow and hand-driven, so work-in-progress sits on the floor for weeks. **The value is in the GI tag and the craft, not the yarn** — which is why the PTQCC at CDI Srinagar nearly doubling GI testing capacity for Kashmir Pashmina, Kani and Sozni matters [1]. **Capex is light (looms, embroidery frames); working capital is the real exposure** — ICRA notes fabric-making working capital is driven by inventory holding and receivables [10]. So when a proposal lands, check the inventory-and-receivable days first; if receivables stretch beyond the stated buyer credit terms, ask for the buyer-wise ageing and the export order copies.",
+  "## What has changed now\n**The local demand signal is weak even as the national textile print is strong.** J&K GST collections are -10.6% Apr-to-date against India +6.1%, and electricity demand is -0.5% against India +9.5% [D]. **National woollen output is expanding — IIP NIC 13 is +13.1% YoY and +11.9% Apr-to-date [D] — but that is an India number, not a Srinagar number.** On the ground, exports of Kashmiri handicrafts have crossed Rs 1,100 crore with a Rs 2,000-crore target [3][2]; treat the target as aspiration, not a booked order. **Peer results are mixed and mostly not Kashmir-specific:** Prakash Woollen's Q1FY27 profit came only from a Rs 648.05 lakh NHAI land compensation, with an operating loss of Rs 218.11 lakh [4][5]; Iris Clothings grew total income 40.3% YoY to Rs 62.22 crore at a 15.2% EBITDA margin [6]; Arvind's Q2 net profit rose 44% to Rs 148 crore [7]. **Sources say little about Srinagar city itself, so lean on first principles plus these peers.**",
+  "## Where the growth is\n**Pursue the GI-certified, export-linked borrower:** units that can show PTQCC test certificates [1], a named export buyer, and a design-led product mix. **Pursue the small artisan aggregator** who supplies organised exporters and can show repeat buyer orders. **Avoid the undifferentiated grey-market shawl trader** with no certification, no named buyer and inventory that cannot be aged. **Avoid power-intensive processing units** until the J&K electricity-demand signal turns [D].",
+  "## How to grow safely\n**Structure as cash credit against a drawing power built on certified stock and verified receivables, with a term loan only for loom/frame capex.** Take monthly stock-and-receivable statements, monthly GST returns, and quarterly buyer-wise sales. **Covenant on receivable days and inventory turns; if either slips beyond the sanctioned limit, freeze the drawing power.** Rating methodology flags that weaving is fixed- and working-capital intensive and that low leverage protects through downturns [8][11] — so cap total debt at a level the unit can service from operating cash, not from one-off items like land compensation [4].",
+  "## Early-warning signs\n- **GST turnover falling month-on-month while stock rises** — ask for the buyer-wise sales register and re-assess drawing power.\n- **Receivable days stretching past the stated buyer terms** — ask for export order copies and buyer confirmation.\n- **GI certificate lapses or testing rejections at PTQCC** — suspend fresh disbursement until re-certification [1].\n- **Electricity bill arrears or load reduction** — check the latest bill and meter reading; J&K demand is already -0.5% [D].\n- **Reliance on non-operating income to show profit** — strip it out and test operating cash flow [4]."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns (monthly)",
+   "Turnover falls two months running -> freeze drawing power and ask for buyer-wise sales register"
+  ],
+  [
+   "Stock-and-receivable statement (monthly)",
+   "Receivable days exceed stated buyer terms -> ask for export order copies and buyer confirmation"
+  ],
+  [
+   "PTQCC GI certificate status (quarterly)",
+   "Certificate lapses or test rejected -> suspend fresh disbursement until re-certified [1]"
+  ],
+  [
+   "Electricity bill and meter reading (monthly)",
+   "Arrears or load reduction -> reassess unit viability against J&K demand trend [D]"
+  ],
+  [
+   "Operating cash flow vs reported profit (quarterly)",
+   "Profit driven by non-operating income -> strip it out and re-test debt service [4]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "J&K GST -10.6% and power demand -0.5% signal local stress despite national textile growth.",
+ "articles": [
+  {
+   "title": "PTQCC Nearly Doubles GI Testing Capacity For Kashmir Pashmina, Kani & Sozni Products - Wednesday, October 28, 2026",
+   "url": "https://www.dailyexcelsior.com/ptqcc-nearly-doubles-gi-testing-capacity-for-kashmir-pashmina-kani-sozni-products/#1",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Kashmir crafts eye ₹2,000-Crore export boom",
+   "url": "https://brighterkashmir.com/kashmir-crafts-eye-2000-crore-export-boom",
+   "date": "2026-10-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Kashmiri handicrafts on path to revival as exports cross Rs 1,100 crore: Report - www.lokmattimes.com - Kashmiri handicrafts on path to revival as exports cross Rs 1,100 crore: Report",
+   "url": "https://www.lokmattimes.com/national/kashmiri-handicrafts-on-path-to-revival-as-exports-cross-rs-1100-crore-report/#1",
+   "date": "2026-10-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Prakash Woollen Q1FY27 profit turns positive on land compensation - Prakash Woollen Q1FY27 profit turns positive on land compensation",
+   "url": "https://scanx.trade/stock-market-news/companies/prakash-woollen-synthetic-mills-q1-results-net-profit-jumps-on-land-compensation/47985953#1",
+   "date": "2026-08-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Prakash Woollen & Synthetic Mills Ltd Reports Flat Quarterly Performance Amid Margin Pressures - Get Started in 30 Seconds",
+   "url": "https://www.marketsmojo.com/news/stocks-in-action/prakash-woollen-synthetic-mills-ltd-reports-flat-quarterly-performance-amid-margin-pressures-4148982#1",
+   "date": "2026-08-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Iris Clothings Ltd (NSE:IRISDOREME) (Q2 2027) Earnings Call Highlights: 40% Revenue Surge, ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/iris-clothings-ltd-nseirisdoreme-q2-2027-earnings-call-highlights-40-revenue-surge--4919819",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Arvind Ltd Reports 44% Rise in Q2 Net Profit on Strong Advanced Materials Growth - Knitting Views",
+   "url": "https://knittingviews.com/arvind-ltd-reports-44-rise-in-q2-net-profit-on-strong-advanced-materials-growth/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "• Comfortable financial risk profile: The financial risk profile should remain supported by controlled reliance on external debt...",
+   "url": "https://integraliq.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Golden%20Texo%20Fabs%20Private%20Limited-RU-05-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 50 (national 83 x 0.6 + Jammu and Kashmir 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Jammu and Kashmir: GST collections -10.6% Apr-to-date vs India +6.1% (16.7 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Jammu and Kashmir: electricity demand -0.5% Apr-to-date vs India +9.5% (10.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

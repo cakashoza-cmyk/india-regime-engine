@@ -1,0 +1,154 @@
+{
+ "key": "rj_bikaner|snacks_namkeen",
+ "state": "RJ",
+ "city": "rj_bikaner",
+ "ind": "snacks_namkeen",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 33,
+ "nudged_by_news": false,
+ "verdict": "Avoid for now: Bikaner namkeen is a genuine festive-demand story but Rajasthan's own collections and power data are running well behind India, so lend only to established, cash-and-carry Bikaner units with tight structure — no greenfield capacity.",
+ "title": "Bikaner snacks & namkeen: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Bikaner namkeen is a perishable, impulse-led food business: buy besan, oil, spices and potato, fry and pack, sell fast through own counters, distributors and festive gift packs.** Cash comes in at the counter and from distributors; the constraint is shelf life, not the machine. Local reporting shows bhujia and rasgulla demand rising into Diwali, with gift packing a distinct channel [1]. Rating commentary on this segment says inventory is kept low because food is perishable and counter sales are largely cash, so receivables stay small [9]. **So the working-capital cycle should be short — if a proposal shows long inventory or heavy distributor credit, that is a different, weaker business than the one described here.**",
+  "## Where value and cash sit\n**Value sits in brand and counter footfall, not in the plant; margins sit in the pack size and the price you can hold.** Peer evidence: Gopal Snacks ran a 7.6% EBITDA margin in Q3 FY26 against 3.9% a year earlier, on revenue up 1.8% to Rs 400.8 crore [6], and guides to 8–9% for FY27 [7]. Prataap's revenue grew 20% YoY to INR5b in 1QFY27 with namkeen leading volume growth [5]. **The lesson for Bikaner: volume can grow fast while margin stays thin, and a small brand in small packs cannot pass on raw-material increases under intense competition [10].** So when a proposal lands, check the pack mix and the last two price revisions; if the borrower sells mostly small packs and has not raised price in a year, ask how the besan and oil increase was absorbed.",
+  "## What has changed now\n**The local economy is the problem, not the product.** Rajasthan GST collections are -4.7% Apr-to-date against India +6.1%, and state electricity demand is +4.0% against India +9.5% [D]. Nationally, bank credit is +25.3% YoY against output +5.1% [D] — money is chasing this sector faster than it is producing. **That combination is exactly where over-leveraged capacity gets built.** Note the local sources are thin on Bikaner-specific numbers; the demand piece is festive and recent [1], the rest is peer and rating material, some undated [8][9][10]. Collect from customer: Bikaner-unit sales, margin and festive-vs-normal split.",
+  "## Who to pursue, and how to grow safely\n**Pursue established Bikaner units with own counters, a gift-pack line and clean cash sales; avoid new entrants adding frying capacity on borrowed money, and avoid anyone whose sales are mostly distributor credit.** Structure as a cash-flow loan sized to counter throughput, not to plant capacity. Take monthly: counter and distributor sales register, stock statement, and GST returns — the state number is the early warning here [D]. Covenant on total outside liabilities to tangible net worth and on inventory days; if inventory days cross the agreed level, ask for the ageing and stop further drawing power.",
+  "## Early-warning signs\n- **GST filings falling below the state's already-negative trend (monthly):** two consecutive months of decline -> freeze enhancement and re-price.\n- **Inventory days rising while sales are flat (monthly):** perishable stock ageing -> ask for stock statement and cut drawing power.\n- **Distributor receivables appearing where sales were cash (quarterly):** shift to cash-and-carry terms or reduce limit.\n- **Margin slipping below the peer band of 7.6% [6] (quarterly):** ask for the price-revision plan before renewing."
+ ],
+ "watch": [
+  [
+   "GST returns vs state trend (monthly)",
+   "two months of decline -> freeze enhancement, re-price"
+  ],
+  [
+   "Inventory days (monthly)",
+   "above agreed level -> demand ageing, cut drawing power"
+  ],
+  [
+   "Distributor receivables (quarterly)",
+   "receivables appear -> shift to cash terms or trim limit"
+  ],
+  [
+   "EBITDA margin vs 7.6% peer [6] (quarterly)",
+   "below band -> ask price-revision plan before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Rajasthan GST -4.7% and power +4.0% trail India sharply [D]; local demand news is festive-only [1].",
+ "articles": [
+  {
+   "title": "दिवाली पर बीकानेरी स्वाद की बढ़ती मांग, गिफ्ट पैकिंग में भी भुजिया-रसगुल्लों की है खास जगह",
+   "url": "https://www.etvbharat.com/hi/state/bikaner-special-bhujia-and-rasgulla-demand-increased-as-of-diwali-2026-know-what-is-special-rjs26103000912",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Food Export - Explore Business Standard",
+   "url": "https://www.business-standard.com/amp/topic/food-export#1",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "bikaner bhujia: Latest News & Videos, Photos about bikaner bhujia | The Economic Times - Page 1 - Business News›bikaner bhujia",
+   "url": "https://economictimes.indiatimes.com/topic/bikaner-bhujia#1",
+   "date": "2026-10-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Bikaji Foods’ FY27 Growth Outlook: Western Snacks Lead the Way Amid Margin Pressures - PhonePe Invest",
+   "url": "https://www.phonepeinvest.com/buzz/news/bikaji-foods/",
+   "date": "2026-09-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Prataap Snacks Ltd. share price target",
+   "url": "https://trendlyne.com/research-reports/stock/60394/DIAMONDYD/prataap-snacks-ltd/",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hot Pursuit",
+   "url": "https://spfl.co.in/company-news/1667898",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Gopal Snacks eyes ₹1,800–1,900 crore revenue in FY27, aims for higher capacity utilisation - CNBC TV18 - Gopal Snacks eyes ₹1,800–1,900 crore revenue in FY27, aims for higher capacity utilisation",
+   "url": "https://www.cnbctv18.com/market/earnings/gopal-snacks-q4-results-eyes-1800-1900-crore-revenue-in-fy27-aims-for-higher-capacity-utilisation-19904854.htm/amp#1",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=133508#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "March 24, 2025",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/133836#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "June 6, 2025",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/135612#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Guilftree Industries Limited January 09, 2025",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202501120149_Guiltfree_Industries_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 33 (national 55 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +25.3% YoY vs output +5.1% (gap +20.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

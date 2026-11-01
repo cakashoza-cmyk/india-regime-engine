@@ -1,0 +1,154 @@
+{
+ "key": "dl_delhi|professional_services",
+ "state": "DL",
+ "city": "dl_delhi",
+ "ind": "professional_services",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 30,
+ "nudged_by_news": false,
+ "verdict": "Avoid new unsecured exposure in Delhi professional services; lend only to cash-generative, retainer-backed firms with tight monthly monitoring.",
+ "title": "Delhi Professional Services: a note to the credit manager",
+ "narrative": [
+  "## What this business actually is\nProfessional services here means people selling time and advice — IT/BPO delivery, staffing, consulting, accounting, design. Cash comes from contracts and retainers, not inventory; the balance sheet is receivables plus payroll. **The whole credit is a bet on collections and client concentration, not on assets.** Peer staffing shows the model's cash engine: 116 new contracts and highest-ever quarterly cash collection of ~₹4.3k Cr [4]. So when a proposal lands, check DSO and top-client share first; if one client is over a third of billings, ask for the contract term and renewal date.\n\n## Where value and cash sit\nMargin is set by billing rate minus salary, and pricing power is thin where work is commoditised. Firstsource grew revenue 22.2% YoY but EPS fell to ₹1.74 from ₹2.33 and margin to 4.9% from 7.6% on higher expenses [5][6]. **Growth without margin is the trap in this sector.** Working capital is the swing factor — ICRA notes longer cycles raise funding needs and shorter cycles improve liquidity [9]. So take receivables ageing every month; if DSO stretches beyond the contract's credit terms, ask which client and why.\n\n## What has changed now\nDelhi's local demand is running behind India: GST +2.7% Apr-to-date vs +6.1% national, and electricity demand +6.5% vs +9.5% [D]. **That is a local stress signal, and it is why the data call is AVOID (score 30) [D].** Nationally, bank credit is +20.0% YoY against activity of +6.1% [D] — money is chasing borrowers faster than business is growing. Separately, compulsory work-from-home in Delhi from Nov 5 to Nov 20 due to pollution [1] will thin office-based billing and shift costs to connectivity and home set-ups; ask how November utilisation is tracking.\n\n## Where to grow, and how to grow safely\nPursue staffing and BPO firms with multi-year contracts and demonstrated collections [4], and IT firms holding margins through AI spend [7]. Avoid pure body-shop consultants with single-client dependence and thin margins [5]. **Structure on receivables, not hope:** charge on collections, keep tenor inside contract life, and take monthly DSO, billing-vs-collection and top-five client concentration. Rating work flags partnership structures as vulnerable to partner withdrawals [10]; if the borrower is an LLP, ask for partner capital withdrawal history.\n\n## Early-warning signs\n- DSO rising two months running (monthly) -> ask for client-wise ageing and hold new limits.\n- Billing minus collection gap widening (monthly) -> shift to collection-linked drawing power.\n- Margin falling while revenue rises, as at Firstsource [5] (quarterly) -> reprice or reduce exposure.\n- Client contract non-renewal or WFH-driven utilisation drop [1] (monthly) -> reassess limit.\n\nSources are thin on Delhi-specific professional-services data; the local read rests on the GST and power signals [D] plus peers. Rating methodology notes are undated and should be read as background, not current."
+ ],
+ "watch": [
+  [
+   "Monthly DSO and ageing",
+   "DSO beyond contract terms for two months -> hold new limits, seek client-wise ageing"
+  ],
+  [
+   "Monthly billing vs collection",
+   "Collection gap widening -> move to collection-linked drawing power"
+  ],
+  [
+   "Quarterly margin and revenue",
+   "Revenue up but margin down (as peer [5]) -> reprice or trim exposure"
+  ],
+  [
+   "Monthly top-five client concentration",
+   "Any client above one-third of billings -> demand contract term and renewal date"
+  ],
+  [
+   "November utilisation (WFH period [1])",
+   "Utilisation drop -> reassess limit and ask for cost pass-through"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Delhi GST and power demand lag India; compulsory WFH from Nov 5 hits billing.",
+ "articles": [
+  {
+   "title": "Compulsory Work From Home In Delhi From Nov 5 to Nov 20 Due To Pollution - Trak.in - Indian Business of Tech, Mobile & Startups",
+   "url": "https://trak.in/stories/compulsory-work-from-home-in-delhi-from-nov-5-to-nov-20-due-to-pollution/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "દિલ્હીમાં જૂતા ફેક્ટરીમાં આગ, 4ના મોત: 2ની હાલત ગંભીર; તમામ 6 લોકોને બેભાન હાલતમાં હોસ્પિટલ લઈ જવાયા હતા",
+   "url": "https://www.divyabhaskar.co.in/national/news/delhi-shoe-factory-fire-accident-mangolpuri-139541937.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Four Die in Massive Shoe Factory Fire at Mangolpuri Industrial Area",
+   "url": "https://newsable.asianetnews.com/india/four-die-in-massive-shoe-factory-fire-at-mangolpuri-industrial-area-articleshow-tn4tggx",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "| Professional Staffing | 27 | ▼ 2% | ▼ 4% |",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4a21eecc-7245-471f-a1f0-018133920ed2.pdf#3",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Third quarter 2026 earnings: EPS misses analyst expectations - Firstsource Solutions - Simply Wall St",
+   "url": "https://simplywall.st/stocks/in/commercial-services/nse-fsl/firstsource-solutions-shares/updates/brief/2193735306",
+   "date": "2026-02-03",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Firstsource Lifts FY27 Growth Floor After Revenue Climbs 22.2% | EconoTimes",
+   "url": "https://econotimes.com/Firstsource-Lifts-FY27-Growth-Floor-After-Revenue-Climbs-22-2-1766733",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's TCS rises as margins steady despite AI investments",
+   "url": "https://dev.theedgemalaysia.com/node/821176",
+   "date": "2026-10-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The rating exercise is primarily focused on assessing the future debt servicing capability of a company",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/858~IT%20Services,%20Rating%20Methodology,%20Jul%202023%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 30, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=129703#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 30 (national 50 x 0.6 + Delhi 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Delhi: GST collections +2.7% Apr-to-date vs India +6.1% (3.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Delhi: electricity demand +6.5% Apr-to-date vs India +9.5% (3.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: All-India domestic GST collections Apr-to-date (proxy) +6.1%. [official activity proxy, data to Sep-2026]",
+  "India-wide: Bank credit +20.0% YoY vs activity +6.1% (gap +13.9 pp). [RBI bank credit vs output, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

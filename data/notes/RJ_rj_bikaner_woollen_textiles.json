@@ -1,0 +1,150 @@
+{
+ "key": "rj_bikaner|woollen_textiles",
+ "state": "RJ",
+ "city": "rj_bikaner",
+ "ind": "woollen_textiles",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 50,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Bikaner woollen units with domestic wool sourcing and clean receivables; avoid Iran-dependent carpet-yarn traders and shawl units selling into US-tariff-exposed channels.",
+ "title": "Bikaner woollen & shawl textiles: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nBikaner converts raw wool into carpet yarn and shawls. The city once ran Asia's largest wool market and has exported wool and blankets since the 18th century; the first yarn factory came up in the 1950s [3]. Roughly 300-350 units are active on an annual turnover of over ₹2,000 crore [3]. **The cash engine is conversion margin, not the wool itself** — you buy greasy wool, pay for scouring, carding and spinning, and sell yarn or finished shawl to a buyer who pays on terms. So when a proposal lands, check the conversion spread per kg and the buyer list before you look at the balance sheet.\n\n## Where value and cash actually sit\nLocal sheep rearing is shrinking as the next generation stays away, so the industry now depends on imported wool [3]. Iran supplied about three lakh kg a day and roughly 25 containers a month, processed here and sent back for Persian carpets [3]. **The working-capital cycle is the whole credit story**: inventory of raw wool and yarn sits for months, receivables stretch, and the weaving/fabric model is described as fixed-capital and working-capital intensive with high funding needs [8][10]. Ask for the stock-and-debtor statement every month; if raw-wool days cross the customer's own stated norm, ask what is unsold and why.\n\n## What has broken now\nIran imports have been shut for about four months, with no contact possible, and traders see no normalisation for two to three months [3]. Sourcing from Europe adds ₹40-50 per kg, which makes export pricing uncompetitive [3]. New Zealand wool prices have fallen and US tariffs have slowed the carpet trade [1]. **This is a margin and inventory problem, not a demand collapse** — India-wide woollen output (NIC 13) is up 13.1% YoY and 11.9% Apr-to-date [D], so the national fibre chain is running. Locally it is not: Rajasthan GST collections are -4.7% Apr-to-date against India +6.1%, and power demand +4.0% against India +9.5% [D]. Peer results are mixed — Prakash Woollen's Q1FY27 profit came only from a ₹648.05 lakh NHAI land compensation, with an operating loss of ₹218.11 lakh [4][5]; Iris Clothings grew total income 40.3% YoY to ₹62.22 crore [6]; Arvind's net profit rose 44% to ₹148 crore [7]. The rating methodology notes are undated and old — treat them as principle, not current fact [8][9][10][11].\n\n## Where to grow, and how to grow safely\n**Pursue units that have already re-based sourcing away from Iran** — those buying from Italy, Syria, Saudi Arabia, Belgium or Ireland [3] — and units with domestic wool linkages or a shawl line selling into Indian retail. Avoid pure Iran-to-Iran carpet-yarn converters and traders with no alternate supplier. Structure as cash credit against stock and book debts with a drawing power recalculated monthly, and take the stock statement, debtor ageing and GST returns every month. If the customer cannot name a second-country supplier, ask for the purchase contract before sanction.\n\n## Early-warning signs\n- Monthly stock statement (monthly): raw-wool days rise two months running -> cut drawing power and ask for the ageing.\n- GST returns (monthly): local sales fall while the unit reports flat turnover -> reconcile and re-rate the limit.\n- Iran news and supplier contact (weekly): no resumption of containers -> freeze new limits for Iran-dependent units.\n- Power and production logs (monthly): lower running hours without a stated reason -> inspect the plant."
+ ],
+ "watch": [
+  [
+   "Monthly stock and debtor statement",
+   "raw-wool days up two months running -> cut drawing power, ask for ageing"
+  ],
+  [
+   "Monthly GST returns",
+   "reported turnover flat while GST sales fall -> reconcile and re-rate limit"
+  ],
+  [
+   "Weekly Iran trade and supplier contact",
+   "no container resumption -> freeze new limits for Iran-dependent units"
+  ],
+  [
+   "Monthly power and production log",
+   "running hours fall without reason -> physical inspection before next disbursal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Iran wool imports shut four months; Europe sourcing adds ₹40-50/kg; US tariffs hit carpet demand.",
+ "articles": [
+  {
+   "title": "बीकानेर के वूलन उद्योग पर वैश्विक संकट, न्यूजीलैंड में ऊन के दाम गिरे, अमेरिकी टैरिफ से भदोही तक थमी रफ्तार - बीकानेर के वूलन उद्योग पर वैश्विक संकट, न्यूजीलैंड में ऊन के दाम गिरे, अमेरिकी टैरिफ से भदोही तक थमी रफ्तार",
+   "url": "https://www.etvbharat.com/hi/state/bikaner-wool-industry-on-edge-slumping-new-zealand-wool-prices-and-us-tariff-woes-rattle-carpet-trade-rjs26100803020#1",
+   "date": "2026-10-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ईरान की वजह से बीकानेर पर आया बड़ा संकट, ऐसे लगा 2 हजार करोड़ का फटका - mobile",
+   "url": "https://m.rajasthan.punjabkesari.in/bikaner/news/political-crisis-in-iran-impacted-bikaner-wool-industry-2282729",
+   "date": "2026-01-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "बीकानेर में 2 हजार करोड़ रुपए की ऊन मंडी पर संकट, ईरान में अस्थिरता के चलते 4 महीने से व्यापार ठप",
+   "url": "https://rajasthan.ndtv.in/rajasthan-news/bikaner-wool-market-in-crisis-trade-halted-for-4-months-due-to-instability-in-iran-10882184",
+   "date": "2026-01-24",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Prakash Woollen Q1FY27 profit turns positive on land compensation - Prakash Woollen Q1FY27 profit turns positive on land compensation",
+   "url": "https://scanx.trade/stock-market-news/companies/prakash-woollen-synthetic-mills-q1-results-net-profit-jumps-on-land-compensation/47985953#1",
+   "date": "2026-08-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Prakash Woollen & Synthetic Mills Ltd Reports Flat Quarterly Performance Amid Margin Pressures - Get Started in 30 Seconds",
+   "url": "https://www.marketsmojo.com/news/stocks-in-action/prakash-woollen-synthetic-mills-ltd-reports-flat-quarterly-performance-amid-margin-pressures-4148982#1",
+   "date": "2026-08-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Iris Clothings Ltd (NSE:IRISDOREME) (Q2 2027) Earnings Call Highlights: 40% Revenue Surge, ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/iris-clothings-ltd-nseirisdoreme-q2-2027-earnings-call-highlights-40-revenue-surge--4919819",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Arvind Ltd Reports 44% Rise in Q2 Net Profit on Strong Advanced Materials Growth - Knitting Views",
+   "url": "https://knittingviews.com/arvind-ltd-reports-44-rise-in-q2-net-profit-on-strong-advanced-materials-growth/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "• Comfortable financial risk profile: The financial risk profile should remain supported by controlled reliance on external debt...",
+   "url": "https://integraliq.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Golden%20Texo%20Fabs%20Private%20Limited-RU-05-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 50 (national 83 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
