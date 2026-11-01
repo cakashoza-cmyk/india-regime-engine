@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 from engine import db
 from engine.config import INDICATORS, TIER1, PREFERRED_SOURCES, tier_for
 from engine import validate
+from engine.freshness import compute_is_stale
 
 
 def direction(value, prior, kind="generic", eps=0.0015):
@@ -53,7 +54,7 @@ def gate_score(key, score, tier, status, is_stale):
 def _latest(conn, key, display=False):
     # display-only indicators may show unverified values (they never score)
     gate = "" if display else "AND (is_verified OR NOT ok)"
-    rows = db.q(conn, f"SELECT id, payload, fetched_at, ok, source, is_verified, source_tier FROM raw_ingest WHERE indicator=? {gate} ORDER BY id DESC LIMIT 50", (key,))
+    rows = db.q(conn, f"SELECT id, payload, fetched_at, ok, source, is_verified, source_tier, release_date FROM raw_ingest WHERE indicator=? {gate} ORDER BY id DESC LIMIT 50", (key,))
     if not rows:
         return None, None, None
     oks_all = [r for r in rows if r["ok"]]
@@ -118,6 +119,7 @@ def run(conn, run_id: str) -> list[dict]:
         kind = "rate" if meta["type"] == "rate" else "generic"
         d = direction(value, prior, kind)
         s = score_indicator(value, prior, meta["type"])
+        fs = None
         if stale_since and not str(stale_since).startswith("vintage"):
             # a failed pull is not staleness if another verified source re-confirmed the same print since then
             for r in rows:
@@ -125,32 +127,39 @@ def run(conn, run_id: str) -> list[dict]:
                 if (r["ok"] and r["is_verified"] and r["source"] != good["source"] and r["fetched_at"] >= stale_since
                         and q.get("as_of") == p.get("as_of") and q.get("value") == value):
                     stale_since = None; break
-        aged = too_old(key, p.get("as_of"))
-        if aged and stale_since is None:
+        aged = too_old(key, p.get("as_of")) if fs is None else fs
+        if fs is None and aged and stale_since is None:
             stale_since = "vintage:" + str(p.get("as_of"))
-        if key == "capacity_util" and p.get("survey_quarter"):
-            from datetime import date
-            from engine.official import expected_obicus_quarter
-            exp = expected_obicus_quarter(date.today())
-            stale_since = None if p["survey_quarter"] == exp else f"survey_quarter {p['survey_quarter']} != expected {exp}"
+        stale_reason = None
+        fs, fr, _exp = compute_is_stale(key, {**p, "release_date": good.get("release_date")})
+        if fs is not None:  # Module 2 freshness gate supersedes the age rule for covered indicators
+            aged = fs
+            stale_since, stale_reason = (fr, fr) if fs else (None, None)
+            if not fs and rows[0]["ok"] is False:
+                stale_since = None  # last-known-good is still the latest period -> fresh
         tier = good.get("source_tier") or tier_for(good["source"], p)
         rec = dict(run_id=run_id, indicator=key, dial=meta["dial"], value=value, prior_value=prior,
                    direction=d, score=s, weight=meta["weight"], as_of=p.get("as_of") or now[:10],
                    is_stale=stale_since is not None, stale_since=stale_since, source_raw_id=good["id"],
                    source=good["source"], source_url=p.get("source_url"), unverified=not good.get("is_verified"),
                    note=p.get("note"), source_tier=tier, data_period=p.get("survey_quarter") or p.get("as_of"),
-                   survey_quarter=p.get("survey_quarter"))
+                   survey_quarter=p.get("survey_quarter"), release_date=good.get("release_date"))
         v = validate.check(conn, rec)
         rec.update(v)
         if v["status"] == "failed":
             s = rec["score"] = 0  # never let a failed value vote
         if meta["weight"]:
             s, diag = gate_score(key, s, tier, v["status"], rec["is_stale"])
+            if rec["is_stale"] and stale_reason:
+                diag = stale_reason
         else:
             diag = "display only"
-        rec["score"], rec["diagnostics"] = s, diag
-        db.q(conn, "INSERT INTO indicators (run_id, indicator, dial, value, prior_value, direction, score, weight, as_of, is_stale, stale_since, source_raw_id) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
-             (run_id, key, rec["dial"], value, prior, d, s, rec["weight"], rec["as_of"], rec["is_stale"], stale_since, good["id"]))
+        if rec["is_stale"] and stale_reason and not meta["weight"]:
+            diag = "display only; " + stale_reason
+        rec["score"], rec["diagnostics"], rec["stale_reason"] = s, diag, stale_reason or (stale_since and f"stale since {stale_since}")
+        db.q(conn, "INSERT INTO indicators (run_id, indicator, dial, value, prior_value, direction, score, weight, as_of, is_stale, stale_since, source_raw_id, data_period, release_date, stale_reason) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+             (run_id, key, rec["dial"], value, prior, d, s, rec["weight"], rec["as_of"], rec["is_stale"],
+              None if stale_reason else stale_since, good["id"], str(rec["data_period"] or "")[:20], rec["release_date"], rec["stale_reason"]))
         out.append(rec)
     conn.commit()
     return out

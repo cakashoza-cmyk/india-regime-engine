@@ -156,18 +156,28 @@ def ingest_auto(conn, log):
     # OBICUS (RBI publication page), probe forward from the last found publication id
     last = db.q(conn, "SELECT payload FROM raw_ingest WHERE source='rbi_obicus' AND ok ORDER BY id DESC LIMIT 1", one=True)
     sid = (db.jload(last["payload"]).get("publication_id") if last else None) or official.OBICUS_SEED_ID
-    recent = last and db.q(conn, "SELECT id FROM raw_ingest WHERE source='rbi_obicus' AND ok AND fetched_at > ? LIMIT 1",
-                           ((datetime.now(timezone.utc) - timedelta(hours=20)).isoformat(),), one=True)
-    try:
-        r = official.rbi_obicus(sid, 1) if recent else official.rbi_obicus(sid, 40)  # full forward probe once a day
-    except Exception as e:  # noqa: BLE001
-        r = {"error": f"obicus: {e}"}
-    ok = r.get("value") is not None and not r.get("error")
-    if ok:
+    polled = db.q(conn, "SELECT id FROM raw_ingest WHERE source='rbi_obicus' AND fetched_at > ? LIMIT 1",
+                  ((datetime.now(timezone.utc) - timedelta(days=7)).isoformat(),), one=True)
+    if last and polled:  # weekly poll (spec 5)
+        r = {"skip": "OBICUS polled within 7 days"}
+    else:
+        try:
+            r = official.rbi_obicus(sid, 40)
+        except Exception as e:  # noqa: BLE001
+            r = {"error": f"obicus: {e}"}
+    if "skip" in r or (last and r.get("publication_id") == db.jload(last["payload"]).get("publication_id")
+                       and r.get("value") is not None and polled):
+        log.append(("capacity_util", "rbi obicus", True, r.get("skip") or "no new release"))
+        r = None
+    ok = bool(r) and r.get("value") is not None and not r.get("error")
+    if r is None:
+        pass
+    elif ok:
         r["expected_quarter"] = official.expected_obicus_quarter(datetime.now(IST).date())
         r["role"] = "primary"
-    _store(conn, "rbi_obicus", "capacity_util", r, ok, r.get("as_of"), ok)
-    log.append(("capacity_util", "rbi obicus", ok, r.get("error")))
+    if r is not None:
+        _store(conn, "rbi_obicus", "capacity_util", r, ok, r.get("as_of"), ok)
+        log.append(("capacity_util", "rbi obicus", ok, r.get("error")))
     try:
         r = auto_macro.ccil_10y()
     except Exception as e:  # noqa: BLE001
@@ -184,6 +194,37 @@ def ingest_auto(conn, log):
     except Exception as e:  # noqa: BLE001
         _store(conn, "rbi_mpc", "rbi_stance_score", {"error": str(e)}, False)
         log.append(("rbi_stance", "rbi mpc resolution", False, str(e)))
+
+
+NULL_BY_DESIGN = {"cpi_core", "capacity_util", "credit_growth"}  # manual rows intentionally null (auto source exists / no data)
+
+
+def ingest_with_fallback_failures(conn, log):
+    """Spec 5: indicators where EVERY source failed this run. Nothing null/0 is written to indicators (scoring keeps
+    the last-known-good value flagged stale); failures are already logged in raw_ingest (ok=false).
+    Sends Telegram INGEST_FAILED:<ind> once per day per indicator (skipped if no secret)."""
+    by = {}
+    for k, src, ok, err in log:
+        if src.startswith("manual") and k in NULL_BY_DESIGN:
+            continue
+        by.setdefault(k, []).append(ok)
+    failed = sorted(k for k, oks in by.items() if not any(oks))
+    sent = []
+    tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
+    for k in failed:
+        if db.q(conn, "SELECT id FROM raw_ingest WHERE source='alert' AND indicator=? AND fetched_at > ? LIMIT 1",
+                (f"INGEST_FAILED:{k}", (datetime.now(timezone.utc) - timedelta(hours=20)).isoformat()), one=True):
+            continue
+        if tok and chat:
+            try:
+                import urllib.parse, urllib.request
+                urllib.request.urlopen(f"https://api.telegram.org/bot{tok}/sendMessage",
+                                       data=urllib.parse.urlencode({"chat_id": chat, "text": f"INGEST_FAILED:{k}"}).encode(), timeout=30)
+                sent.append(k)
+                _store(conn, "alert", f"INGEST_FAILED:{k}", {"sent": "telegram"}, True)
+            except Exception as e:  # noqa: BLE001
+                log.append((k, "alert", False, f"telegram: {e}"))
+    return {"failed": failed, "telegram_sent": sent, "note": None if tok and chat else "telegram skipped: no secret"}
 
 
 def ingest_flows_10y(conn, log):

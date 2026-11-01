@@ -88,7 +88,7 @@ def test_marginal_driver_and_close_call():
 def test_invalidations():
     ind = {"cpi_headline": {"value": 6.5, "is_stale": False}, "us10y": {"value": 4.0, "is_stale": True}}
     st = {x["indicator"]: x["status"] for x in logic.invalidations(ind)}
-    assert st["cpi_headline"] == "triggered" and st["us10y"] == "stale" and st["capacity_util"] == "unknown"
+    assert st["cpi_headline"] == "triggered" and st["us10y"] == "pending_data" and st["capacity_util"] == "unknown"
 
 
 def test_brent_active_contract_rolls_on_expiry_day():
@@ -214,7 +214,7 @@ def test_obicus_parse_and_freshness():
     assert expected_obicus_quarter(date(2026, 11, 1)) == "Q1FY27"
     assert expected_obicus_quarter(date(2027, 1, 20)) == "Q2FY27"
     stale = {"capacity_util": {"value": 77.4, "is_stale": True}}
-    assert logic.invalidations(stale)[0]["status"] == "stale"
+    assert logic.invalidations(stale)[0]["status"] == "pending_data"
 
 
 def test_llm_keyword_verbatim_and_consensus():
@@ -236,3 +236,40 @@ def test_tier_mapping():
     assert tier_for("tradingeconomics") == "official_secondary"
     assert tier_for("manual", {"source_url": "https://economictimes.com/x"}) == "news_llm"
     assert tier_for("manual", {"source_url": "https://www.mospi.gov.in/x"}) == "official_primary"
+
+
+# ---------------- Module 2 freshness gate ----------------
+def test_m2_sep_cpi_fresh_1nov_stale_13nov():
+    from engine.freshness import compute_is_stale
+    p = {"as_of": "2026-09-30"}
+    assert compute_is_stale("cpi_headline", p, "2026-11-01T10:00+05:30")[0] is False
+    st, why, exp = compute_is_stale("cpi_headline", p, "2026-11-13T10:00+05:30")
+    assert st is True and "excluded: stale (period=2026-09, expected=2026-10)" in why
+    assert compute_is_stale("cpi_headline", p, "2026-11-12T15:59+05:30")[0] is False
+
+
+def test_m2_stale_obicus_pending_data():
+    from engine.freshness import compute_is_stale
+    st, why, exp = compute_is_stale("capacity_util", {"survey_quarter": "Q4FY26"}, "2026-11-01T10:00+05:30")
+    assert st and exp == "Q1FY27" and "period=Q4FY26" in why
+    ind = {"capacity_util": {"value": 77.4, "is_stale": True, "data_period": "Q4FY26"},
+           "cpi_headline": {"value": 5.54, "is_stale": False}, "us10y": {"value": 4.9, "is_stale": False},
+           "usdinr_ref": {"value": 95, "is_stale": False}}
+    inv = logic.invalidations(ind)
+    assert inv[0]["status"] == "pending_data" and inv[0]["note"] == "Pending confirmation after Q4FY26 release"
+    assert logic.invalidation_status(inv) == "pending_data"
+    from engine.config import FLIP_LEVELS
+    assert not logic.active_flips(logic.flips({"cpi_headline": {"value": 9.0, "is_stale": True}}, FLIP_LEVELS))
+
+
+def test_m2_daily_needs_last_trading_day():
+    from engine.freshness import compute_is_stale
+    assert compute_is_stale("india10y", {"as_of": "2026-10-30"}, "2026-11-01T10:00+05:30")[0] is False
+    assert compute_is_stale("fii_net", {"as_of": "2026-10-29"}, "2026-11-01T10:00+05:30")[0] is True
+
+
+def test_m5_release_day_decided_in_code():
+    from engine.release_calendar import is_release_day, MPC_DATES
+    from datetime import date
+    assert "cpi" in is_release_day(date(2026, 11, 12)) and "cpi" not in is_release_day(date(2026, 12, 12))
+    assert "rbi_mpc" in is_release_day(date(2026, 12, 4)) and "2026-08-05" in MPC_DATES

@@ -34,7 +34,8 @@ def init(conn) -> None:
     else:
         conn.executescript(_sqlite_schema(sql))
     for tbl, col, typ in (("raw_ingest", "source_tier", "VARCHAR(20)"), ("flip_levels", "last_calibrated", "DATE"),
-                          ("flip_levels", "calibration_note", "TEXT")):
+                          ("flip_levels", "calibration_note", "TEXT"),
+                          ("indicators", "data_period", "VARCHAR(20)"), ("indicators", "release_date", "DATE"), ("indicators", "stale_reason", "TEXT")):
         try:  # migrate existing DBs
             conn.cursor().execute(f"ALTER TABLE {tbl} ADD COLUMN {col} {typ}")
         except Exception:  # noqa: BLE001  column exists

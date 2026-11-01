@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from engine import db, ingest, score, classify, stage_gap, decide, alert  # noqa: E402
 from engine.common import snapshot  # noqa: E402
+from engine import release_calendar as cal  # noqa: E402
 
 IST = timezone(timedelta(hours=5, minutes=30))
 OUT = ROOT / "data"
@@ -41,7 +42,7 @@ def flip_level_warnings(today=None):
     return out
 
 
-def export(conn, snap, ind_rows, log, alert_res):
+def export(conn, snap, ind_rows, log, alert_res, ingest_failed=None, mpc_check=None):
     latest = {
         "generated_at_ist": datetime.now(IST).strftime("%Y-%m-%d %H:%M IST"),
         "run_id": snap["run_id"], "snapshot_date": snap["snapshot_date"],
@@ -51,9 +52,10 @@ def export(conn, snap, ind_rows, log, alert_res):
         "gap_description": snap["gap_description"], "sizing_recommendation": snap["sizing_recommendation"],
         "invalidation_conditions": snap["invalidation_conditions"], "detail": snap["detail"],
         "indicators": [{k: r.get(k) for k in ("indicator", "dial", "value", "prior_value", "direction", "score", "weight",
-                        "as_of", "is_stale", "stale_since", "source", "source_url", "status", "checks", "note", "source_tier", "data_period", "survey_quarter", "diagnostics")} for r in ind_rows],
+                        "as_of", "is_stale", "stale_since", "source", "source_url", "status", "checks", "note", "source_tier", "data_period", "survey_quarter", "diagnostics", "stale_reason", "release_date")} for r in ind_rows],
         "missing": _missing(ind_rows, log),
-        "warnings": flip_level_warnings(),
+        "warnings": flip_level_warnings() + [f"INGEST_FAILED:{k}" for k in (ingest_failed or {}).get("failed", [])],
+        "release_calendar": {"mpc_dates_check": mpc_check, "today_due": cal.is_release_day(datetime.now(IST).date()), **cal.RELEASE_CALENDAR},
         "source_log": [{"indicator": k, "source": s, "ok": ok, "error": e} for k, s, ok, e in log],
         "alert": alert_res,
     }
@@ -61,7 +63,9 @@ def export(conn, snap, ind_rows, log, alert_res):
     (OUT / "regime_latest.json").write_text(json.dumps(latest, indent=2, default=str))
     hist_p = OUT / "regime_history.json"
     hist = json.loads(hist_p.read_text()) if hist_p.exists() else []
-    hist.append({k: latest[k] for k in ("generated_at_ist", "run_id", "regime_label", "sub_label", "stage", "scores")}
+    key = lambda h: (h.get("regime_label"), h.get("sub_label"), h.get("stage"), json.dumps(h.get("scores"), sort_keys=True))  # noqa: E731
+    if not hist or key(hist[-1]) != key(latest):
+      hist.append({k: latest[k] for k in ("generated_at_ist", "run_id", "regime_label", "sub_label", "stage", "scores")}
                 | {"position": snap["detail"].get("position"), "check_back_date": snap["detail"].get("check_back_date"),
                    "outcome": None})
     hist_p.write_text(json.dumps(hist[-500:], indent=2, default=str))
@@ -72,7 +76,10 @@ def run(force_language=False, skip_ingest=False):
     conn = db.connect(); db.init(conn)
     flip_level_warnings()  # startup check (spec 3.3)
     run_id = datetime.now(IST).strftime("%Y%m%dT%H%M%S") + "-" + uuid.uuid4().hex[:6]
+    scraped = [] if skip_ingest else cal.scrape_mpc_dates()
+    mpc_check = ("verified vs rbi.org.in" if set(cal.MPC_DATES) <= set(scraped) else f"MPC_DATES_UNVERIFIED: scraped {scraped}")
     log = [] if skip_ingest else ingest.run(conn, force_language)
+    ingest_failed = ingest.ingest_with_fallback_failures(conn, log) if log else {"failed": []}
     ind_rows = score.run(conn, run_id)
     classify.run(conn, run_id)
     stage_gap.run(conn, run_id)
@@ -80,7 +87,7 @@ def run(force_language=False, skip_ingest=False):
     snap = snapshot(conn, run_id)
     failures = sorted({k for k, s, ok, e in log if not ok and s not in ("manual", "stub") and "not set" not in str(e)})
     alert_res = alert.run(snap, failures)
-    return export(conn, snap, ind_rows, log, alert_res)
+    return export(conn, snap, ind_rows, log, alert_res, ingest_failed, mpc_check)
 
 
 if __name__ == "__main__":

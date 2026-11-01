@@ -167,7 +167,7 @@ def invalidation_status(inv):
     sts = [i["status"] for i in inv]
     if "triggered" in sts:
         return "triggered"
-    return "pending_data" if any(s.startswith("unknown") or s == "stale" for s in sts) else "none"
+    return "pending_data" if any(s.startswith("unknown") or s == "pending_data" for s in sts) else "none"
 
 
 def gap(regime, vote):
@@ -214,8 +214,11 @@ def invalidations(ind):
     for k, dirn, lvl, label in INVALIDATIONS:
         r = ind.get(k)
         v = r.get("value") if r else None
-        st = "unknown" if v is None else "stale" if r.get("is_stale") else ("triggered" if (v > lvl if dirn == "above" else v < lvl) else "not triggered")
-        out.append({"indicator": k, "rule": label, "value": v, "status": st})
+        # fires only if: not stale AND threshold crossed AND release inside the latest cycle (= not stale by Module 2)
+        st = "unknown" if v is None else "pending_data" if r.get("is_stale") else ("triggered" if (v > lvl if dirn == "above" else v < lvl) else "not triggered")
+        per = (r or {}).get("data_period") or (r or {}).get("as_of")
+        out.append({"indicator": k, "rule": label, "value": v, "status": st,
+                    "note": f"Pending confirmation after {per} release" if st == "pending_data" else None})
     return out
 
 

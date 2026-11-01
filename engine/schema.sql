@@ -23,7 +23,10 @@ CREATE TABLE IF NOT EXISTS indicators (
     as_of DATE NOT NULL,
     is_stale BOOLEAN DEFAULT FALSE,      -- added: last good value carried forward
     stale_since TIMESTAMPTZ,
-    source_raw_id BIGINT REFERENCES raw_ingest(id)
+    source_raw_id BIGINT REFERENCES raw_ingest(id),
+    data_period VARCHAR(20),
+    release_date DATE,
+    stale_reason TEXT
 );
 CREATE TABLE IF NOT EXISTS regime_snapshots (
     id BIGSERIAL PRIMARY KEY,
