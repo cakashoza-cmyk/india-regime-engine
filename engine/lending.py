@@ -106,7 +106,12 @@ def score_sector(sector, data, macro, cfg, today):
     if act and arec and arec.get(act["field"]) is not None:
         arec2 = {**arec, "check_ok": arec.get("check_ok", True) and arec.get("fytd_check_ok", True)}
         add("activity_proxy", arec[act["field"]], "% FYTD", act["dataset"], arec2, f"{act['label']} {arec[act['field']]:+.1f}%")
-    if cr and iip:
+    pc = sector.get("price_controlled")
+    if pc:
+        excluded.append("credit_vs_output: not used (price-controlled/subsidised sector)")
+    if pc:
+        pass
+    elif cr and iip:
         gap = round(cr["yoy_pct"] - iip["fytd_pct"], 1)
         rec = {**cr, "check_ok": cr["check_ok"] and iip["check_ok"], "_period": min(cr["_period"], iip["_period"])}
         add("credit_vs_output", gap, "pp", "rbi_sibc", rec, f"bank credit {cr['yoy_pct']:+.1f}% YoY vs output {iip['fytd_pct']:+.1f}% (gap {gap:+.1f} pp)")
@@ -114,6 +119,10 @@ def score_sector(sector, data, macro, cfg, today):
         gap = round(cr["yoy_pct"] - arec[act["field"]], 1)
         rec = {**cr, "check_ok": cr["check_ok"] and arec.get("check_ok", True), "_period": min(cr["_period"], arec["_period"])}
         add("credit_vs_output", gap, "pp", "rbi_sibc", rec, f"bank credit {cr['yoy_pct']:+.1f}% YoY vs activity {arec[act['field']]:+.1f}% (gap {gap:+.1f} pp)")
+    cv = drivers.get("credit_vs_output")
+    if cv and cv["score"] is not None and cr and cr.get("yoy_pct") is not None and cr["yoy_pct"] < 0:
+        cv["score"] = -1
+        cv["text"] += " — bank credit is shrinking: a warning (banks may be exiting), not a positive"
     core = [k for k, v in drivers.items() if v["score"] is not None]
     drivers.update(overlays(sector, macro, th))
     num = sum(wt[k] * drivers[k]["score"] for k in core)
@@ -134,7 +143,7 @@ def score_sector(sector, data, macro, cfg, today):
             "why": why_line(verdict, drivers, wt), "credit": cr and {k: cr[k] for k in ("name", "outstanding_cr", "yoy_pct", "fy_pct", "as_of")},
             "rbi_row": sector.get("rbi_row"), "iip_nic": sector.get("iip_nic"), "export_row": sector.get("export_row"),
             "energy": sector.get("energy"), "wc_intensity": sector.get("wc_intensity"), "ews": sector.get("ews"),
-            "group": sector.get("group"), "guidance": sector.get("guidance", []), "note": sector.get("note"), "commodities": sector.get("commodities", [])}
+            "group": sector.get("group"), "series_misfit": sector.get("series_misfit"), "price_controlled": sector.get("price_controlled"), "guidance": sector.get("guidance", []), "note": sector.get("note"), "commodities": sector.get("commodities", [])}
 
 
 def why_line(verdict, drivers, wt):

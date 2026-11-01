@@ -311,7 +311,8 @@
     "rbi": "2.13.2",
     "iip": "25",
     "exports": null
-   }
+   },
+   "series_misfit": "IIP NIC 25 is fabricated metal products; brass ware and art-metal exports are not tracked by it."
   },
   {
    "id": "electrical_eq",
@@ -1769,7 +1770,8 @@
     "rbi": "2.15",
     "iip": "30",
     "exports": null
-   }
+   },
+   "series_misfit": "Parent series IIP NIC 30 is driven by ships, rail and aircraft and two-wheelers; it does not track bicycles."
   },
   {
    "id": "shipbuilding",
@@ -1783,7 +1785,8 @@
     "rbi": "2.15",
     "iip": "30",
     "exports": null
-   }
+   },
+   "series_misfit": "Alang/Bhavnagar is ship-recycling (shipbreaking); IIP NIC 30 (ship, rail, aircraft building) has no link to it."
   },
   {
    "id": "railway_wagons",

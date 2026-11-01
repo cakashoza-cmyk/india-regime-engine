@@ -100,14 +100,19 @@ def geo_verdict(sector, si, g, geo_name):
     for k, v in sector["drivers"].items():
         if v.get("score") is None:
             continue
-        w = (0.2 if k.endswith("overlay") else 1.0) * g["weight_national"]
+        w = (0.2 if k.endswith("overlay") else 1.0) * 0.6
         reasons.append({"weight": w * (1 if v["score"] else 0.3), "sign": v["score"], "kind": "national", "source_url": v.get("source_url"),
                         "text": f"India-wide: {v['text'][0].upper() + v['text'][1:]}. [{SRC.get(k, k)}, data to {_mon(v.get('as_of'))}]"})
     for k, sc, d, s in parts:
-        reasons.append({"weight": g["weight_local"] * 1.5 * (1 if sc else 0.3), "sign": sc, "text": _local_text(k, sc, d, s, si["name"]),
+        reasons.append({"weight": 0.4 * 1.5 * (1 if sc else 0.3), "sign": sc, "text": _local_text(k, sc, d, s, si["name"]),
                         "kind": "local", "source_url": s.get("source_url")})
-    ls_score = ls_
-    final = nat_call if ls_score is None else _band(round(g["weight_national"] * nat + g["weight_local"] * ls_score), g)
+    def capped(nat_, ls__):
+        adj_ = round((ls__ - 50) / 50 * g["local_adj_max_points"])
+        sc_ = max(0, min(100, nat_ + adj_))
+        if nat_ >= g["avoid_below"] and sc_ < g["avoid_below"]:
+            sc_ = g["avoid_below"]  # the state adjustment alone can never push a sector into Avoid
+        return sc_, sc_ - nat_
+    final = nat_call if ls_ is None else _band(capped(nat, ls_)[0], g)
     pref = {"ok": 1, "avoid": -1}.get(final)
     reasons.sort(key=lambda r: (-(pref is not None and r["sign"] == pref), -r["weight"]))
     if ls_ is None:
@@ -115,10 +120,10 @@ def geo_verdict(sector, si, g, geo_name):
                    message=f"Not enough local data for {si['name']}. National view: {LABEL[nat_call]} (score {nat}).",
                    local_score=None, reasons=reasons[:4])
         return res
-    score = round(g["weight_national"] * nat + g["weight_local"] * ls_)
+    score, adj = capped(nat, ls_)
     call = _band(score, g)
-    res.update(call=call, label=LABEL[call], score=score, local_score=ls_, insufficient=None,
-               message=f"{LABEL[call]}: national {nat} x {g['weight_national']} + local {ls_} x {g['weight_local']} = {score}.",
+    res.update(call=call, label=LABEL[call], score=score, local_score=ls_, local_adj=adj, insufficient=None,
+               message=f"{LABEL[call]}: national {nat} {adj:+d} state adjustment (capped at +/-{g['local_adj_max_points']}) = {score}.",
                reasons=reasons[:4])
     return res
 

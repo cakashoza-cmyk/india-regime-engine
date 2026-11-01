@@ -34,7 +34,8 @@ def export(out, news):
                             "credit": s.get("credit"), "gnpa": s.get("gnpa"), "trend": s.get("credit_trend"),
                             "drivers": [{"t": v["text"], "s": v.get("score"), "st": v.get("status"), "d": v.get("as_of"), "u": v.get("source_url"), "r": v.get("reason")} for v in s["drivers"].values()],
                             "checks": (lens.get(s["id"]) or {}).get("checks", []), "change": (s.get("plain") or {}).get("change_mind"),
-                            "what": (lens.get(s["id"]) or {}).get("what")}
+                            "what": (lens.get(s["id"]) or {}).get("what"),
+                            "misfit": s.get("series_misfit"), "pc": s.get("price_controlled")}
     states = {k: {"name": v["name"], "signals": {sk: {f: sv.get(f) for f in ("value", "india", "month_yoy_pct", "as_of", "source_url", "source_name", "verified")}
                                                      for sk, sv in (v.get("signals") or {}).items() if sv}} for k, v in out["states"].items()}
     briefs = {}
@@ -46,7 +47,7 @@ def export(out, news):
                      "w": it.get("why"), "s": it.get("sources") or [], "t": it.get("scanned_ist")}
     radar = {"generated_at_ist": out["generated_at_ist"], "fy": out["fy"], "disclaimer": out["disclaimer"], "units": out["units"],
              "geo": out["geo_config"], "reasons": R, "calls": calls, "sectors": sectors, "states": states, "cities": cities,
-             "industries": [{k: i.get(k) for k in ("id", "name", "group", "parent", "mapping", "nic", "focus")} for i in inds],
+             "industries": [{k: i.get(k) for k in ("id", "name", "group", "parent", "mapping", "nic", "focus", "series_misfit")} for i in inds],
              "local_news_status": out.get("local_news_status"), "gnpa_editions": out.get("gnpa_editions")}
     (ROOT / "data" / "radar.json").write_text(json.dumps(radar, separators=(",", ":"), ensure_ascii=False, default=str))
     (ROOT / "data" / "radar_briefs.json").write_text(json.dumps(briefs, separators=(",", ":"), ensure_ascii=False))

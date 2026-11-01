@@ -42,7 +42,8 @@
     "activity_proxy": {
       "pos_above": 7,
       "neg_below": 0
-    }
+    },
+    "shrinking_credit_note": "A negative YoY bank-credit growth scores -1 (warning: banks may be exiting), regardless of the gap."
   },
   "sources": {
     "rbi_sibc": {
@@ -411,7 +412,7 @@
       "cluster": "Hazira, Dahej, Vadodara",
       "south_gujarat": true,
       "rbi_row": "2.9.3",
-      "iip_nic": "20",
+      "iip_nic": null,
       "export_row": null,
       "commodities": [
         "brent_fut"
@@ -422,7 +423,9 @@
       "guidance": [
         "Price-reset clauses with buyers."
       ],
-      "group": "Manufacturing"
+      "group": "Manufacturing",
+      "series_misfit": "IIP NIC 20 is shared with all chemicals and fertiliser; no petrochemical-specific output series.",
+      "iip_nic_unfit": "20"
     },
     {
       "id": "pharma",
@@ -447,7 +450,7 @@
       "cluster": "Morbi, Thangadh, Himatnagar",
       "south_gujarat": false,
       "rbi_row": "2.11",
-      "iip_nic": "23",
+      "iip_nic": null,
       "export_row": 17,
       "commodities": [
         "lng_jkm",
@@ -461,7 +464,9 @@
         "Check gas cost pass-through in recent invoices."
       ],
       "note": "RBI row is 'Glass & Glassware' and IIP NIC 23 is 'other non-metallic minerals' (incl. cement) - closest official proxies; no ceramic-only series exists.",
-      "group": "Manufacturing"
+      "group": "Manufacturing",
+      "series_misfit": "IIP NIC 23 is dominated by cement; it does not track tiles, sanitaryware or glass.",
+      "iip_nic_unfit": "23"
     },
     {
       "id": "plastics",
@@ -684,7 +689,7 @@
       "cluster": "Kandla, Hazira, Paradip, Thal",
       "south_gujarat": false,
       "rbi_row": "2.9.1",
-      "iip_nic": "20",
+      "iip_nic": null,
       "export_row": null,
       "commodities": [],
       "energy": "very_high",
@@ -694,7 +699,10 @@
         "Validate GST returns and bank statement summations against projected turnover.",
         "Use internal MIS for GNPA/SMA history of the segment before sanction."
       ],
-      "note": "Output proxy is IIP NIC 20 (all chemicals); subsidy receivable cycle drives WC."
+      "note": "Output proxy is IIP NIC 20 (all chemicals); subsidy receivable cycle drives WC.",
+      "series_misfit": "IIP NIC 20 is shared with all chemicals; fertiliser is subsidy-backed and price-controlled.",
+      "iip_nic_unfit": "20",
+      "price_controlled": "Subsidy-backed, MRP controlled: credit growth mostly funds subsidy receivables, so the credit-vs-output gap is not used."
     },
     {
       "id": "cement",
@@ -722,7 +730,7 @@
       "cluster": "Firozabad (UP), Kadi/Kalol (GJ)",
       "south_gujarat": false,
       "rbi_row": "2.11",
-      "iip_nic": "23",
+      "iip_nic": null,
       "export_row": 17,
       "commodities": [],
       "energy": "very_high",
@@ -732,7 +740,9 @@
         "Validate GST returns and bank statement summations against projected turnover.",
         "Use internal MIS for GNPA/SMA history of the segment before sanction."
       ],
-      "note": "Output IIP NIC 23 is shared with ceramics/cement."
+      "note": "Output IIP NIC 23 is shared with ceramics/cement.",
+      "series_misfit": "IIP NIC 23 is dominated by cement; it does not track glass.",
+      "iip_nic_unfit": "23"
     },
     {
       "id": "nonferrous_brass",
@@ -845,7 +855,8 @@
         "Validate GST returns and bank statement summations against projected turnover.",
         "Use internal MIS for GNPA/SMA history of the segment before sanction."
       ],
-      "note": "Output proxy IIP NIC 10 (all food)."
+      "note": "Output proxy IIP NIC 10 (all food).",
+      "price_controlled": "Cane price (FRP/SAP) and sugar MSP are administered: credit growth tracks cane-arrears and inventory cycles, so the credit-vs-output gap is not used."
     },
     {
       "id": "edible_oil",
@@ -948,7 +959,7 @@
       "cluster": "Pan-India",
       "south_gujarat": false,
       "rbi_row": "2.17",
-      "iip_nic": "23",
+      "iip_nic": null,
       "export_row": null,
       "commodities": [],
       "energy": "medium",
@@ -958,7 +969,9 @@
         "Validate GST returns and bank statement summations against projected turnover.",
         "Use internal MIS for GNPA/SMA history of the segment before sanction."
       ],
-      "note": "Output proxy IIP NIC 23 (cement/non-metallic)."
+      "note": "Output proxy IIP NIC 23 (cement/non-metallic).",
+      "series_misfit": "IIP NIC 23 (cement output) is not a measure of contractor or EPC health.",
+      "iip_nic_unfit": "23"
     },
     {
       "id": "power",
@@ -2187,14 +2200,13 @@
     "coffee": "food"
   },
   "geo": {
-    "_doc": "Geography verdict = national sector score blended with local (state) stress signals; ground-check ratings can only pull a call toward Caution.",
-    "weight_national": 0.6,
-    "weight_local": 0.4,
+    "_doc": "Geography verdict = national sector score plus a capped state adjustment: (state local score - 50)/50 x local_adj_max_points, so at most +/-10 points. The state adjustment alone can never push a sector that is not Avoid nationally into Avoid. Ground-check ratings can only pull a call toward Caution.",
     "local_gap_pp": 2.0,
     "ok_at_or_above": 65,
     "avoid_below": 45,
     "min_local_signals": 2,
     "ratings_min_n": 5,
-    "ratings_disagree_above": 6
+    "ratings_disagree_above": 6,
+    "local_adj_max_points": 10
   }
 }

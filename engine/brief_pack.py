@@ -45,8 +45,8 @@ def build_pack(d, combo, sector, state):
     if combo:
         combo = {**combo, "label": {"ok": "OK to lend", "caution": "Caution", "avoid": "Avoid"}.get(combo.get("data_call") or combo.get("call"), combo.get("label"))}
         if combo.get("score") is not None and combo.get("local_score") is not None:
-            P.append(f"Call (data-based): {combo['label']}; combined score {combo['score']} = national sector score {combo['national_score']} x {g['weight_national']} "
-                     f"+ {state['name']} local score {combo['local_score']} x {g['weight_local']}. Bands: OK to lend >= {g['ok_at_or_above']}; Caution {g['avoid_below']} to {g['ok_at_or_above']-1}; Avoid < {g['avoid_below']}.")
+            P.append(f"Call (data-based): {combo['label']}; combined score {combo['score']} = national sector score {combo['national_score']} "
+                     f"{combo.get('local_adj') or 0:+d} {state['name']} state adjustment (capped +/-{g.get('local_adj_max_points',10)}). Bands: OK to lend >= {g['ok_at_or_above']}; Caution {g['avoid_below']} to {g['ok_at_or_above']-1}; Avoid < {g['avoid_below']}.")
         elif combo.get("national_score") is not None:
             P.append(f"Call (data-based): {combo['label']} on national sector score {combo['national_score']} only; not enough verified local data.")
         else:

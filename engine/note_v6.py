@@ -138,7 +138,7 @@ def build(state, city_id, ind_id):
     e = radar["calls"].get(f"{state}|{ind['parent']}") or [None, None, None, None, None, []]
     base, score, nat, loc = e[0], e[1], e[2], e[3]
     geo = radar["geo"]
-    pack = [f"Data-based call: {(base or 'unknown').upper()} score {score} (national {nat} x {geo['weight_national']} + {stname} {loc} x {geo['weight_local']}). "
+    pack = [f"Data-based call: {(base or 'unknown').upper()} score {score} (national {nat}, {stname} state adjustment capped at +/-{geo.get('local_adj_max_points',10)}). "
             f"OK to lend at or above {geo['ok_at_or_above']}, Avoid below {geo['avoid_below']}."] + [radar["reasons"][i][0] for i in e[5]]
     short = ind["name"].split(" (")[0].replace(" - ", " ").replace("&", "and")
     c = city["name"]
