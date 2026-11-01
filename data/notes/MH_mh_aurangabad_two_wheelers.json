@@ -1,0 +1,154 @@
+{
+ "key": "mh_aurangabad|two_wheelers",
+ "state": "MH",
+ "city": "mh_aurangabad",
+ "ind": "two_wheelers",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Aurangabad two-wheelers, but only to suppliers and dealers tied to the Ather Aurangabad plant ramp and to established ICE dealers; avoid pure EV-retail bets and single-OEM component shops until the plant's ramp is visible.",
+ "title": "Aurangabad two-wheelers: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Aurangabad's two-wheeler story is now a plant story, not a showroom story.** The city hosts Ather Energy's new factory, scheduled to go live by end-December 2026, with Phase 1 adding five lakh units of annual capacity and a ramp to 40,000-42,000 scooters a month over about two quarters [1]. Around it sit component feeders, logistics, dealer floors and charging/after-sales. Cash is made on throughput and inventory turns, not on price: OEMs hold pricing power, suppliers and dealers absorb cost swings. **So when a proposal lands, check whether the borrower's cash comes from Ather's ramp or from retail walk-ins; if it is the latter, ask for the last six months of unit sales.**\n\n## What has changed now\n**Demand is running ahead of supply, which is a good problem for the plant and a bad one for dealers.** Ather's waiting periods crossed four months, dealers in several states paused fresh orders, and 1.5 lakh paid preorders (Rs 2,500 deposit) came in the April-June quarter against roughly 90,000 retail registrations [1]. The company itself says the gap is wider than its usual 20% preorder drop-off [1]. Peer results confirm the cycle: industry sales grew 27 percent in Q2, with Bajaj, TVS and Hero posting strong revenue and profit [4], and Hero's market share climbed to 7.3% on scooters and VIDA EVs [6]. **The risk is not demand; it is execution timing of the Aurangabad ramp and input-cost inflation, which Hero flagged even as volumes grew [7].**\n\n## Where to grow\n**Pursue the plant's supplier and service ecosystem first.** Component and sub-assembly vendors selling to the Aurangabad OEM line have short working-capital cycles because OEMs pay promptly under just-in-time procurement [10]; that is the cleanest lending in this city. Second, established multi-brand dealers with ICE plus EV mix and audited stock statements. Third, logistics and warehousing tied to Phase 1 volumes [1]. **Avoid single-customer EV-only retail showrooms and anyone whose business case is the Phase 2 line, since investment there has not begun [1].**\n\n## How to grow safely\n**Structure against the ramp, not the press release.** For supplier loans, take monthly dispatch volumes to the Aurangabad plant, OEM purchase orders and receivables ageing; for dealers, monthly stock and sales statements and floor-plan inventory counts. Covenant on debt-service cover and limit utilisation, since efficient working-capital management and lower bank-limit utilisation are explicit rating upgrade factors [11]. **Take every month: GST returns, bank statements, unit-wise sales, and OEM order book.** Note the data pack shows bank credit growing 27.0% against output of 22.7% [D] — credit is running ahead of production, so ask what the extra borrowing is funding.\n\n## Early-warning signs\n**Watch the ramp, not the headlines.** If Ather's Aurangabad go-live slips past December 2026 or monthly output stays below the 40,000-42,000 target beyond two quarters [1], freeze new supplier limits. If a dealer's bookings pause extends or preorder cancellations exceed the usual 20% [1], cut floor-plan exposure. If input-cost pressure compresses a borrower's margin the way it did Hero's [7], reprice or ask for hedging policy, which ICRA treats as central to 2W analysis [8]. **Local Aurangabad-specific sales data is thin in these sources; lean on the plant timeline and peer results until you collect city-level registration data from the customer.**"
+ ],
+ "watch": [
+  [
+   "Monthly dispatch/registration data (monthly)",
+   "Ather Aurangabad output below 40,000-42,000/month beyond two quarters [1] -> freeze new supplier limits"
+  ],
+  [
+   "Dealer booking and cancellation data (monthly)",
+   "Preorder drop-off above the usual 20% [1] -> cut floor-plan exposure"
+  ],
+  [
+   "GST returns and bank statements (monthly)",
+   "GST turnover falling while borrowing rises -> ask for funding use, tighten limit"
+  ],
+  [
+   "OEM purchase orders and receivables ageing (monthly)",
+   "Receivables ageing beyond agreed terms -> demand escrow or reduce limit"
+  ],
+  [
+   "Input-cost and margin data (quarterly)",
+   "Margin compression like Hero's [7] -> reprice or require hedging policy [8]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Ather Aurangabad plant go-live and 27% industry sales growth support local demand.",
+ "articles": [
+  {
+   "title": "Ather scooter waits hit 4 months as capacity crunch deepens",
+   "url": "https://auto.economictimes.indiatimes.com/news/two-wheelers/ather-scooter-waits-hit-4-months-as-capacity-crunch-deepens/133640015?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etauto_news_2026-08-31&dt=2026-08-31",
+   "date": "2026-08-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Ather Energy Q1 FY27 Earnings: Capacity Expansion and",
+   "url": "https://watcher.news/news/ather-energy-ev-capacity-expansion-q1-results/#main",
+   "date": "2026-08-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Ather’s Phase 2 expansion could happen sooner if EV demand persists: Tarun Mehta | Autocar India - Ather’s Phase 2 expansion could happen sooner if EV demand persists: Tarun Mehta",
+   "url": "https://www.autocarindia.com/bike-news/athers-phase-2-expansion-could-happen-sooner-if-ev-demand-persists-tarun-mehta-440386#1",
+   "date": "2026-08-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Bajaj, TVS, Hero post strong Q2 profit; industry sales grow 27 percent",
+   "url": "https://www.forbesindia.com/article/business/automobile/bajaj-tvs-hero-post-strong-q2-profit-industry-sales-grow-27-percent/3000028/1",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Bajaj Auto posts record Q2 2026 as shares rise 3.17% By Investing.com - Earnings call transcript: Bajaj Auto posts record Q2 2026 as shares rise 3.17%",
+   "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-bajaj-auto-posts-record-q2-2026-as-shares-rise-317-93CH-5657711#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Hero MotoCorp faces margin pressure despite strong Q2 growth - The Economic Times",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hero-motocorp-faces-margin-pressure-despite-strong-q2-growth/printarticle/135337599.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hero Moto to Keep Momentum Going with Premium, EV Focus",
+   "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/30/et-mkts/hero-moto-to-keep-momentum-going-with-premium-ev-focus/articleshow/135333560.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/archive/CRISIL-Ratings-crieria-two-wheeler-industry_2007.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update December 24, 2024 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Wardwizard Innovations & Mobility Limited-RU-24-12-2024.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 100 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 30 output +25.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +22.7% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +22.7% (gap +4.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

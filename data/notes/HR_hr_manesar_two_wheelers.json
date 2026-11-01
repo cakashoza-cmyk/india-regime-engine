@@ -1,0 +1,151 @@
+{
+ "key": "hr_manesar|two_wheelers",
+ "state": "HR",
+ "city": "hr_manesar",
+ "ind": "two_wheelers",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Manesar two-wheelers — pursue Tier-2 OEM-linked component and EV-scooter suppliers with tight covenants; avoid single-OEM-dependent and thin-margin EV assemblers.",
+ "title": "Manesar two-wheelers: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A two-wheeler is a steel frame, an engine or motor, and a few hundred bought-in parts, assembled and pushed through dealers.** In Manesar the lendable layer is the component and sub-assembly supplier feeding OEM plants, plus dealers and service outlets. Cash turns when the OEM schedules, receives, and pays; the supplier funds raw material and wages in between. **Value sits with whoever holds the OEM schedule, not with whoever owns the biggest shed.**\n\n## Where cash and value actually sit\n**OEM-linked suppliers run short working-capital cycles because OEMs buy just-in-time and pay promptly; aftermarket and export sellers carry longer cycles** [10]. So when a proposal lands, check the sales split between OEM, aftermarket and export; if aftermarket or export is above half, ask for the receivable-days trend and size the limit to the longer cycle. **Capex is lumpy and tooling-heavy, and pricing power is thin** — ICRA notes high competitive intensity forces high operational efficiency [8]. If the borrower cannot show a pass-through clause on steel and motor prices, ask how a margin dip is absorbed.\n\n## What has changed now\n**National output is running hot: IIP NIC 30 is +25.3% YoY and +22.7% Apr-to-date** [D], and Haryana GST is +10.1% Apr-to-date against India's +6.1% [D]. Peer results confirm the volume: Bajaj, TVS and Hero posted strong Q2 with industry sales up 27 percent [4], and Bajaj called its EV business margin-accretive domestically, though still PLI-supported [5]. **The caution is margin, not volume** — Hero's stock fell 3.6% on input-cost inflation and competitive pressure [7]. Bank credit is +27.0% YoY against output +22.7%, a +4.3 pp gap [D], so some of the growth is leverage, not demand. Note the local sources are thin on Manesar specifically; lean on first principles and peers.\n\n## Who to pursue, who to avoid\n**Pursue Tier-2 component makers with two or more OEM customers, and EV-scooter suppliers with a named OEM order.** Avoid single-OEM-dependent units and thin-margin EV assemblers — Moody's notes EV motorcycle capacity still far exceeds demand [3]. Structure against a sanctioned limit tied to drawing power, monthly stock-and-debt statements, and a covenant that promoter contribution stays in. Take stock statements and OEM payment records every month.\n\n## Early warning signs\n**Watch receivable days against the OEM's stated payment terms, and inventory days against schedule.** A supplier whose OEM schedule slips but who keeps building stock is the first to crack.",
+  "- Monthly stock-and-debt statement plus drawing-power reconciliation (monthly): utilisation above limit for two consecutive months -> freeze further drawdown and re-size.\n- OEM payment record and receivable-days trend (monthly): receivable days stretching beyond agreed terms -> ask for the OEM schedule and confirm order book.\n- GST returns versus bank turnover (monthly): a widening gap -> call for sales register and query unrecorded sales.\n- Input-cost pass-through evidence on steel and motor prices (quarterly): margin dip without a pass-through clause -> reprice or seek promoter support."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-debt statement plus drawing-power reconciliation (monthly)",
+   "utilisation above limit for two consecutive months -> freeze further drawdown and re-size"
+  ],
+  [
+   "OEM payment record and receivable-days trend (monthly)",
+   "receivable days stretching beyond agreed terms -> ask for the OEM schedule and confirm order book"
+  ],
+  [
+   "GST returns versus bank turnover (monthly)",
+   "a widening gap -> call for sales register and query unrecorded sales"
+  ],
+  [
+   "Input-cost pass-through evidence on steel and motor prices (quarterly)",
+   "margin dip without a pass-through clause -> reprice or seek promoter support"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Output +25.3% YoY and Haryana GST +10.1% outpace India; peer Q2 volumes strong.",
+ "articles": [
+  {
+   "title": "Honda Motorcycle And Scooter India - Explore Business Standard",
+   "url": "https://www.business-standard.com/amp/topic/honda-motorcycle-and-scooter-india#1",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Page 2 - Auto Component Production",
+   "url": "https://bsppd.business-standard.com/topic/auto-component-production/page-2",
+   "date": "2026-10-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Electric motorcycle sales gain traction, but capacity still far ahead of demand - Electric motorcycle sales gain traction, but capacity still far ahead of demand",
+   "url": "https://in.tradingview.com/news/moodys:59d9ceb13286c:0-electric-motorcycle-sales-gain-traction-but-capacity-still-far-ahead-of-demand/#1",
+   "date": "2026-10-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Bajaj, TVS, Hero post strong Q2 profit; industry sales grow 27 percent",
+   "url": "https://www.forbesindia.com/article/business/automobile/bajaj-tvs-hero-post-strong-q2-profit-industry-sales-grow-27-percent/3000028/1",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Bajaj Auto posts record Q2 2026 as shares rise 3.17% By Investing.com - Earnings call transcript: Bajaj Auto posts record Q2 2026 as shares rise 3.17%",
+   "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-bajaj-auto-posts-record-q2-2026-as-shares-rise-317-93CH-5657711#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hero MotoCorp faces margin pressure despite strong Q2 growth - The Economic Times",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hero-motocorp-faces-margin-pressure-despite-strong-q2-growth/printarticle/135337599.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Hero Moto to Keep Momentum Going with Premium, EV Focus",
+   "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/30/et-mkts/hero-moto-to-keep-momentum-going-with-premium-ev-focus/articleshow/135333560.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/archive/CRISIL-Ratings-crieria-two-wheeler-industry_2007.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update December 24, 2024 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Wardwizard Innovations & Mobility Limited-RU-24-12-2024.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 100 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 30 output +25.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +22.7% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +22.7% (gap +4.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

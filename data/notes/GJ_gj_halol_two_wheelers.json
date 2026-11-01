@@ -1,0 +1,158 @@
+{
+ "key": "gj_halol|two_wheelers",
+ "state": "GJ",
+ "city": "gj_halol",
+ "ind": "two_wheelers",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Halol two-wheelers — pursue Tier-1/Tier-2 OEM-linked component and EV-conversion suppliers with tight monthly discipline; avoid single-OEM-dependent assemblers and thin-margin dealers.",
+ "title": "Halol two-wheelers: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nHalol is a vehicle-assembly town, and the two-wheeler money here sits in the component and sub-assembly shops feeding assembly lines, not in the brand owners. **A parts maker buys steel, aluminium, plastics and electronics, converts them on presses and moulds, and sells just-in-time to an OEM.** Cash comes back fast when the buyer is a large OEM and slow when it is the aftermarket or export channel [10]. So when a proposal lands, check who the top buyer is and what share of revenue it carries; if one OEM is above roughly half, ask for the supply agreement and payment terms in writing.",
+  "## Where value and cash sit\n**Value sits in tooling, process yield and the OEM relationship; cash sits in receivables and inventory.** OEM-linked suppliers run smaller working-capital needs because OEMs pay promptly on just-in-time terms, while aftermarket and export sellers carry longer cycles [10]. Pricing power is thin — ICRA notes high competitive intensity forces high operational discipline [8]. So when a proposal lands, check receivable days against the stated OEM terms; if receivables are stretching beyond terms, ask whether the buyer mix has shifted to aftermarket.",
+  "## What has changed now\n**Demand is strong and credit is running ahead of output.** India-wide two-wheeler output rose 25.3% YoY and 22.7% Apr-to-date [D], while bank credit to the sector grew 27.0% against that 22.7% output — a 4.3 pp gap [D]. Gujarat GST collections are up 11.9% Apr-to-date versus India's 6.1% [D], a genuine local tailwind. Peer results confirm the volume: Bajaj, TVS and Hero all posted strong Q2 with industry sales up 27% [4], and Bajaj called Q2 a record with its EV business now margin-accretive domestically [5]. But Hero shows the other side — margin pressure despite strong growth, with input-cost inflation and competitive pressure cited [6][7]. **Volume is not the risk; margin and the credit-output gap are.**",
+  "## Where to grow, and how to grow safely\n**Pursue Tier-1 and Tier-2 component suppliers with diversified OEM books, and EV-conversion and scooter-part makers riding the premium/EV shift [7].** Avoid assemblers or dealers whose entire order book is one OEM, and avoid aftermarket-only sellers with long receivable cycles [10]. Structure against the working-capital cycle: cash-flow-based limits, receivables-backed drawing power, and a covenant that margin stays above the level at which cash accrual holds [11]. Take monthly stock-and-receivables statements, quarterly GST returns, and a monthly buyer-mix report. Note the rating sources [8][9][10][11] are undated methodology papers — treat them as principles, not current numbers.",
+  "## Early-warning signs\n**Watch receivable days, buyer concentration and margin together, not separately.** A fall in operating margin that cuts cash accrual by 30% is an explicit downgrade trigger in rating criteria [11]. If receivables stretch while the top-buyer share rises, ask for the OEM's payment confirmation. If monthly GST turnover drops below the trailing quarter average, reprice or reduce the limit. Halol-specific local reporting is thin — sources [1][2][3] carry little usable financial detail — so lean on first principles and the peer set above."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs trailing quarter average (monthly)",
+   "Turnover falls below trailing-quarter average -> ask for order book and reprice limit"
+  ],
+  [
+   "Receivable days vs stated OEM terms (monthly)",
+   "Receivables stretch beyond terms -> ask for buyer-mix shift and OEM payment confirmation"
+  ],
+  [
+   "Top-buyer share of revenue (quarterly)",
+   "Single OEM above half of revenue -> require supply agreement and cap exposure"
+  ],
+  [
+   "Operating margin and cash accrual (quarterly)",
+   "Cash accrual falls 30% -> downgrade internal grade and reduce limit [11]"
+  ],
+  [
+   "Bank credit vs output gap (quarterly)",
+   "Credit growth stays above output growth -> tighten new sanctions to diversified buyers [D]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Strong output and peer Q2 growth offset by margin pressure and credit running ahead of output.",
+ "articles": [
+  {
+   "title": "New & Upcoming Projects in Vehicle Assembly Projects in India",
+   "url": "https://newprojectstracker.com/projects-india/vehicle-assembly",
+   "date": "2026-10-14",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Halol — Grokipedia - Halol",
+   "url": "https://grokipedia.com/page/Halol#1",
+   "date": "2026-01-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "ઉતરાયણ પર્વ પર હાલોલ પોલીસનું અભિયાન: ટુ-વ્હીલર પર નિઃશુલ્ક સેફગાર્ડ લગાવ્યા, નાગરિકોને જાગૃત કર્યા - Halol News",
+   "url": "https://www.divyabhaskar.co.in/local/gujarat/panchmahal/halol/news/halol-police-free-two-wheeler-safeguard-campaign-uttrayan-136894728.html",
+   "date": "2026-01-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Bajaj, TVS, Hero post strong Q2 profit; industry sales grow 27 percent",
+   "url": "https://www.forbesindia.com/article/business/automobile/bajaj-tvs-hero-post-strong-q2-profit-industry-sales-grow-27-percent/3000028/1",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Bajaj Auto posts record Q2 2026 as shares rise 3.17% By Investing.com - Earnings call transcript: Bajaj Auto posts record Q2 2026 as shares rise 3.17%",
+   "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-bajaj-auto-posts-record-q2-2026-as-shares-rise-317-93CH-5657711#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hero MotoCorp faces margin pressure despite strong Q2 growth - The Economic Times",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hero-motocorp-faces-margin-pressure-despite-strong-q2-growth/printarticle/135337599.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hero Moto to Keep Momentum Going with Premium, EV Focus",
+   "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/30/et-mkts/hero-moto-to-keep-momentum-going-with-premium-ev-focus/articleshow/135333560.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/archive/CRISIL-Ratings-crieria-two-wheeler-industry_2007.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update December 24, 2024 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Wardwizard Innovations & Mobility Limited-RU-24-12-2024.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 100 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 30 output +25.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +22.7% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +22.7% (gap +4.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

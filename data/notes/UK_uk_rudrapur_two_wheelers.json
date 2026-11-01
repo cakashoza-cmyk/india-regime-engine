@@ -1,0 +1,150 @@
+{
+ "key": "uk_rudrapur|two_wheelers",
+ "state": "UK",
+ "city": "uk_rudrapur",
+ "ind": "two_wheelers",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:02 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Rudrapur two-wheeler dealers and aftermarket parts sellers with clean stock-and-cash discipline; avoid sub-dealers and EV-only showrooms until local demand signals improve.",
+ "title": "Rudrapur two-wheelers: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA Rudrapur two-wheeler borrower is either a dealer/showroom moving OEM stock, or an aftermarket spare-parts and service shop. **Cash turns on footfall and finance penetration, not on the machine itself.** The dealer buys stock from the OEM, funds a working-capital cycle of vehicle inventory plus registration and finance paperwork, and earns a thin margin per unit plus service and accessory income. The aftermarket shop buys parts, holds shelf stock, and collects cash daily. [9][10] say component and dealer channels carry working capital that must be matched by limits; so when a proposal lands, check the inventory days and the OEM credit period before you size the limit.\n\n## Where value and cash sit\n**Value sits in the OEM franchise and in the service bay, not in the metal.** Pricing power is weak because the OEM sets the price and the dealer competes on discount and finance schemes; the aftermarket shop has more pricing room but smaller tickets. Capex is modest for a showroom and low for a parts shop. [10] notes that suppliers tied to OEMs get prompt payment while aftermarket sellers carry longer cycles; so if the borrower is an aftermarket shop, ask for the receivables ageing and the actual collection period, collect from customer.\n\n## What has changed now\n**The national picture is strong but the local picture is not.** India-wide two-wheeler industry sales grew 27 percent in Q2 [4], and IIP for NIC 30 output rose 25.3% YoY to Aug-2026 [D]. Against that, Uttarakhand GST collections fell 19.1% Apr-to-date versus India +6.1% [D], and state electricity demand grew only 4.7% versus India +9.5% [D]. **Treat Rudrapur demand as softer than the national headline.** Local news is thin on this industry: [2] is a police drive against modified silencers, not a demand signal, and [3] is an e-rickshaw safety protest. So lean on first principles and the peer results.\n\n## Who to pursue, and how to grow safely\n**Pursue established multi-brand dealers with service income and aftermarket parts shops with steady cash sales.** Avoid new EV-only showrooms and sub-dealers dependent on one financier. Structure as a cash-flow limit against stock and receivables, with a stock statement and monthly cash-flow statement as conditions. Take every month: stock and ageing, OEM scheme and discount details, and bank statements. [8] flags hedging and competitive intensity; so if the borrower has unhedged forex or heavy discounting, ask for the scheme letter.\n\n## Early-warning signs\n- **Stock days rising while sales flat** -> cut limit and ask for ageing.\n- **Registration or finance rejection rates climbing** -> reassess borrower.\n- **GST turnover falling two quarters running** -> shift to secured lending only.\n- **OEM scheme withdrawal or margin cut** -> reprice or exit."
+ ],
+ "watch": [
+  [
+   "Monthly stock and ageing statement",
+   "stock days up two months running -> cut limit by 20%"
+  ],
+  [
+   "Monthly bank statement",
+   "cash sales falling while purchases steady -> ask for scheme letter"
+  ],
+  [
+   "Quarterly GST turnover",
+   "two quarters of decline -> move to secured only"
+  ],
+  [
+   "Monthly registration/finance rejection data",
+   "rejection rate rising -> reassess borrower"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Uttarakhand GST -19.1% and power +4.7% lag India sharply, local demand soft.",
+ "articles": [
+  {
+   "title": "Rudrapur News: लंबित भुगतान न मिलने पर कच्चे आढ़तियों से धान नहीं खरीदेंगे राइस मिलर",
+   "url": "https://www.livehindustan.com/uttarakhand/rudrapur/story-rice-millers-protest-over-pending-rs-500-crore-payments-in-uttarakhand-201788783856282.html",
+   "date": "2026-09-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "दिनेशपुर बाजार में दो बुलेट मोटरसाइकिल सीज: मॉडिफाइड साइलेंसर से तेज आवाज करने पर पुलिस की कार्रवाई, अभियान जारी - Udham Singh Nagar (Rudrapur) News",
+   "url": "https://www.bhaskar.com/local/uttarakhand/udham-singh-nagar-rudrapur/news/dineshpur-police-seize-bullet-motorcycles-modified-silencers-138794295.html",
+   "date": "2026-08-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Rudrapur News: टुक-टुक चालकों ने सुरक्षा व्यवस्था मजबूत करने की मांग उठाई",
+   "url": "https://www.livehindustan.com/uttarakhand/rudrapur/story-e-rickshaw-drivers-demand-safety-measures-amid-security-concerns-in-gadaripur-201783079563287.html",
+   "date": "2026-07-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Bajaj, TVS, Hero post strong Q2 profit; industry sales grow 27 percent",
+   "url": "https://www.forbesindia.com/article/business/automobile/bajaj-tvs-hero-post-strong-q2-profit-industry-sales-grow-27-percent/3000028/1",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Bajaj Auto posts record Q2 2026 as shares rise 3.17% By Investing.com - Earnings call transcript: Bajaj Auto posts record Q2 2026 as shares rise 3.17%",
+   "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-bajaj-auto-posts-record-q2-2026-as-shares-rise-317-93CH-5657711#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Hero MotoCorp faces margin pressure despite strong Q2 growth - The Economic Times",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hero-motocorp-faces-margin-pressure-despite-strong-q2-growth/printarticle/135337599.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Hero Moto to Keep Momentum Going with Premium, EV Focus",
+   "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/30/et-mkts/hero-moto-to-keep-momentum-going-with-premium-ev-focus/articleshow/135333560.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/archive/CRISIL-Ratings-crieria-two-wheeler-industry_2007.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update December 24, 2024 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Wardwizard Innovations & Mobility Limited-RU-24-12-2024.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 100 x 0.6 + Uttarakhand 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttarakhand: GST collections -19.1% Apr-to-date vs India +6.1% (25.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Uttarakhand: electricity demand +4.7% Apr-to-date vs India +9.5% (4.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 30 output +25.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +22.7% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

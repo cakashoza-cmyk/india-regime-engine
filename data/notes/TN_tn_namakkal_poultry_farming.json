@@ -1,0 +1,146 @@
+{
+ "key": "tn_namakkal|poultry_farming",
+ "state": "TN",
+ "city": "tn_namakkal",
+ "ind": "poultry_farming",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively to Namakkal layer farms with owned sheds, NECC-linked offtake and tight feed cover; avoid thin-net-worth partnership units and broiler-only exposures until feed and price data are verified.",
+ "title": "Namakkal Poultry Farming: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nNamakkal is a layer cluster: about 1,100 farms and roughly 4 crore layer birds producing near 3 crore eggs a day [1], with industry estimates of 5–6 crore eggs a day rising to about 8 crore in peak season [3]. **The unit of credit is the shed-and-bird cycle, not the farm gate.** Birds eat maize and soya meal trucked in from other states [3]; eggs move out daily to Kerala, Karnataka and Gulf export markets [3]. Cash comes in daily, cost sits in feed bought weekly, and the spread is set by the NECC Namakkal benchmark price [3].\n\n## Where value and cash sit now\nProcurement price was fixed at Rs.6.20, up from Rs.6.10 the previous day [1]. **A one-day move of this size tells you the farmer has almost no pricing power — the benchmark passes feed and demand swings straight through** [3]. Feed is the swing cost: Q2 FY27 at SKM Egg saw EBITDA fall to Rs.28 crore from Rs.38 crore on higher feed raw material cost [7], while Venky's Q3 FY26 profit more than doubled on cheaper feed [5][6]. So when a proposal lands, check the feed purchase ledger and the last six NECC price prints together; if feed cost rose while the NECC price fell, ask for the margin per egg and the number of birds in lay.\n\n## The growth opportunity\n**Pursue layer farms that own their sheds and have added feed milling, tray supply or transport** — the cluster has built these around the farms [3], and integrated players carry a competitive edge over unorganised units [10]. Also pursue table-egg exporters with Gulf offtake [3]. Avoid broiler-only units: Q4 FY26 broiler realisation peaked at INR 102.67/kg, April FY27 at INR 97–100/kg, and DOC prices fell from about INR 55 to INR 21–22 in parts of North India by mid-May [4] — that is a falling market, not a lending case. Avoid thin partnership firms: Sree Renuka Poultry had net worth of Rs.12.25 crore as of March 31, 2024, with capital withdrawal and dissolution risk [11].\n\n## How to grow safely\nStructure against the daily cash cycle: **charge the egg sale proceeds account, take weekly stock-and-mortality statements, and take the NECC price sheet every month.** Watch liquidity, not just profit — Srinivasa Farms ran a current ratio of 1.08x but a quick ratio of 0.45x as on March 31, 2026, with cash flow from operations negative at Rs.28 crore and bank limits of Rs.25 crore utilised around 89% [8]. So if a borrower's quick ratio sits near 0.45x, ask for the feed creditor ageing and promoter infusion record before enhancing limits.\n\n## Early-warning signs\n- Weekly: laying percentage or bird mortality moves beyond the borrower's own trailing norm -> ask for the vet report and biosecurity spend; bird flu would hit exports [3].\n- Monthly: NECC Namakkal price falls while maize cost rises [1][3] -> cut drawing power and ask for the margin per egg.\n- Monthly: egg sale proceeds routed away from the charged account -> treat as diversion and freeze enhancement.\n- Quarterly: bank limit utilisation crosses 89% with negative cash flow from operations [8] -> move to stock statement plus receivables review.\n\nNamakkal-specific published data is thin beyond the price and bird counts [1][3]; the rating reports [8][11] are undated and the peer results are national, so lean on first principles and collect from customer the district-level feed cost, laying rate and shed capex."
+ ],
+ "watch": [
+  [
+   "Weekly (bird stock and mortality)",
+   "Mortality above borrower's trailing norm -> obtain vet report and biosecurity spend before next disbursement"
+  ],
+  [
+   "Monthly (NECC Namakkal price)",
+   "Price falls while feed cost rises [1][3] -> reduce drawing power, ask for margin per egg"
+  ],
+  [
+   "Monthly (charged account inflows)",
+   "Egg sale proceeds not routed to charged account -> treat as diversion, freeze limit enhancement"
+  ],
+  [
+   "Quarterly (limit utilisation and cash flow)",
+   "Utilisation near 89% with negative cash flow from operations [8] -> shift to stock statement plus receivables review"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Egg procurement price moved only Rs.6.10 to Rs.6.20 while broiler and DOC prices fell sharply [1][4].",
+ "articles": [
+  {
+   "title": "நாமக்கல் மாவட்டத்தில் முட்டை கொள்முதல் விலை ரூ.6.20 ஆக நிர்ணயம்",
+   "url": "https://www.dinakaran.com/news/namakkal-egg-procurement-price-fixed/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "நாமக்கல் முட்டை விலை நிலவரம்",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-chennai/namakkal-egg-price-situation/4364609",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Insight: Namakkal – the Tamil Nadu town that runs on eggs",
+   "url": "https://food.industry-report.net/2026/11/01/insight-namakkal-egg-cluster-tamil-nadu-layer-farms-necc/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Company: Venky's (India) Concall Summary: Key Highlights and FY26 Results",
+   "url": "https://www.sovrenn.com/knowledge/company-venky-s-india-concall-summary-key-highlights-and-fy-26-results",
+   "date": "2026-05-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Venky's India ziet kwartaalwinst verdubbelen dankzij goedkopere voederkosten en herstel pluimveesector - 03ba75f679d2106450374680.V7n-JbJhDd475pgJ1vuZq1l4K7jTW3Ti5nubCQXepWs",
+   "url": "https://nl.marketscreener.com/beursnieuws/venky-s-india-ziet-kwartaalwinst-verdubbelen-dankzij-goedkopere-voederkosten-en-herstel-pluimveesect-ce7e5adedc8ef623#1",
+   "date": "2026-02-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Le bénéfice trimestriel de Venky's India s'envole grâce à la baisse du coût de l'alimentation et au rebond de la volaille - f59ae3.5T7Qsf9fiwwNeNb5RHkViNHTkFE5mkJlWmPJcHS9TMo.1EqS6bYS3EU8KO6zPDZRz4aH5hJh6hpIdzX-MkPkNYG_XaP8kwvfRHoIsQ",
+   "url": "https://www.zonebourse.com/actualite-bourse/le-benefice-trimestriel-de-venky-s-india-s-envole-grace-a-la-baisse-du-cout-de-l-alimentation-et-au-ce7e5adedc8ef623?utm_campaign=share#1",
+   "date": "2026-02-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SKM Egg Products Export (India) Ltd (BOM:532143) (Q2 2027) Earnings Call Highlights: Stable H1 ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://nz.finance.yahoo.com/news/skm-egg-products-export-india-150110306.html#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Srinivasa Farms Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202610141054_Srinivasa_Farms_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 08,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=146210#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "December 23,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=139841#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202409120921_Sree_Renuka_Poultry_Farm.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Tamil Nadu None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
