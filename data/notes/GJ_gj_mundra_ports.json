@@ -1,0 +1,155 @@
+{
+ "key": "gj_mundra|ports",
+ "state": "GJ",
+ "city": "gj_mundra",
+ "ind": "ports",
+ "version": "v6",
+ "version_engine": "v8-worker",
+ "generated_at": "2026-11-01 23:29 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively to port-linked service providers with contracted cash flows; avoid pure commodity cargo intermediaries.",
+ "title": "Mundra Ports & Port Services: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is",
+  "Mundra is a cargo gateway: container, bulk, and liquid terminals plus the ecosystem around them — CFS/ICD operators, transport contractors, ship agents, bunkering, and equipment lessors. **Cash is earned per TEU or per tonne handled, so volume and turnaround time drive revenue.** Costs are largely fixed (land, equipment, labour), so incremental volume drops through to EBITDA. **Pricing power belongs to the terminal, not the intermediary.**",
+  "## What has changed now",
+  "Wan Hai's CI8 service, scheduled for late November 2026, adds a direct Vietnam/South China call at Mundra [1]. **This is real volume growth, but it is transhipment-led and therefore footloose.** Adani Ports raised FY27 guidance after a 16.5% rise in Q2 net profit [7]; peer Gujarat Pipavav reported Q1 FY27 revenue up 33% and net profit up 46% [4]. **The cycle is with you, but the data pack gives no Mundra-specific credit score, so underwrite borrower cash flow, not the headline.**",
+  "## Where to grow",
+  "Pursue CFS/ICD operators with multi-year contracts from two or more shipping lines; transport and equipment-lease companies with invoices assigned to the terminal; and ship agents with recurring liner mandates.",
+  "## How to grow safely",
+  "## Early-warning signs",
+  "Watch for a liner withdrawing a service (CI8 launch is announced, not yet sailing [1]), transhipment volumes stalling, or receivable days stretching beyond the 57–60 day range seen at peers [8][11]. **If a borrower's largest customer cuts calls or shifts to Nhava Sheva, reduce exposure immediately.**"
+ ],
+ "watch": [
+  [
+   "Liner service announcements at Mundra (monthly)",
+   "CI8 or other service cancelled/delayed -> reassess transhipment-linked borrowers"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Transhipment volumes rising and new liner service announced for Mundra.",
+ "articles": [
+  {
+   "title": "Wan Hai CI8 Service to Connect Vietnam and South China with West India | Maritime Gateway",
+   "url": "https://www.maritimegateway.com/wan-hai-ci8-service-to-connect-vietnam-and-south-china-with-west-india/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "India, boom dei trasbordi verso il Medio Oriente: Msc e Cma Cgm puntano sui porti indiani - Shipmag",
+   "url": "https://www.shipmag.it/india-boom-dei-trasbordi-verso-il-medio-oriente-msc-e-cma-cgm-puntano-sui-porti-indiani/",
+   "date": "2026-10-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Top Industry Insights | Subscribe Now",
+   "url": "https://supplychain.economictimes.indiatimes.com/newsletter/powered_by_ai?for_date=2026-09-07&activity_id=330",
+   "date": "2026-09-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Gujarat Pipavav Port (GPPL) Investor Relations, Earnings Summary & Outlook - Gujarat Pipavav Port (GPPL) investor relations material",
+   "url": "https://quartr.com/companies/gujarat-pipavav-port-ltd_21108#1",
+   "date": "2026-09-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Adani Ports & SEZ - ICICI Direct - 03 May, 2026",
+   "url": "https://trendlyne.com/posts/5623327/adani-ports-sez",
+   "date": "2026-10-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "India's Adani Ports logs higher quarterly profit on cargo volume growth - 71d9cc7c17aa",
+   "url": "https://hk.marketscreener.com/news/india-s-adani-ports-logs-higher-quarterly-profit-on-cargo-volume-growth-ce785cd2db8af12c#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Adani Ports Q2 Results: Co Raises FY27 Guidance After Profit Rises 17%; Logistics, International Ports Drive Growth - Adani Ports and Special Economic Zone Ltd",
+   "url": "https://www.ndtvprofit.com/markets/adani-ports-q2-results-co-raises-fy27-guidance-after-profit-rises-17-logistics-international-ports-drive-growth-12247321?pfrom=home-business_topstories#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "On a consolidated level, JSWIL has a strong liquidity position supported by sufficient generations of cash accruals against repa...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202511121148_JSW_Infrastructure_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "May 06,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=142879#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "**June 13, 2023(Revised)**",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/120388~Chennai%20International%20Terminals%20Private%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Ports",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/13233e03-62cd-432b-b2df-27ec5785070f.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score null (national null x 0.6 + Gujarat null x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": false,
+  "problems": [
+   "watch list must have 3-5 items"
+  ],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "chat_usage": {
+  "prompt_tokens": 4119,
+  "completion_tokens": 866,
+  "total_tokens": 4985,
+  "prompt_tokens_details": {
+   "cached_tokens": 384
+  },
+  "prompt_cache_hit_tokens": 384,
+  "prompt_cache_miss_tokens": 3735
+ },
+ "build_seconds": 24.3,
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
