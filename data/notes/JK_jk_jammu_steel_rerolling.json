@@ -1,0 +1,158 @@
+{
+ "key": "jk_jammu|steel_rerolling",
+ "state": "JK",
+ "city": "jk_jammu",
+ "ind": "steel_rerolling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new steel re-rolling/TMT exposure in Jammu until local demand signals turn; lend only to branded, integrated re-rollers with verified order books and tight monthly controls.",
+ "title": "Jammu steel re-rolling & TMT: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA re-rolling mill buys billets or scrap, heats and rolls them into TMT bars, and sells into construction demand — government works, municipal contracts, private builders. **Cash is made on the spread between input cost and per-tonne realisation, not on volume alone.** Margins are thin and swing with scrap and billet prices; rating reports flag that sudden price fluctuations can hit margins [10]. Working capital sits in inventory and receivables, and peers carry moderately high working-capital needs supported by bank lines [11]. So when a proposal lands, check the conversion spread and receivable days first; if the buyer mix is mostly government contractors, ask for the payment history on those bills.",
+  "## What has changed in Jammu now\n**The local demand engine has stalled.** Jammu and Kashmir GST collections are down 10.6% Apr-to-date against India's +6.1% [D], and electricity demand is -0.5% against India's +9.5% [D] — both local stress signals. On top of that, development works are stalled amid a contractors-government standoff [2], and JMC contractors are protesting anti-contractor policies, payment delays and revised EMD norms [3]. **TMT demand in this city runs through exactly those stalled public works.** Nationally the picture is steadier — IIP for NIC 24 output is +2.4% YoY [D] — but that does not reach Jammu's site-level demand. Note the local sources are from July 2026 and the data pack runs to Sep-2026; treat them as recent but confirm current status with the customer.",
+  "## Where the growth is — and who to avoid\n**Pursue branded TMT re-rollers with a dealer network and private-builder sales, not pure government-order mills.** Peer results show the branded, integrated model working: Steel Exchange India clocked ~₹340 crore revenue in Q2 FY27, up ~45% YoY [6], and Rathi Steel posted over ₹200 crore with ~28.86% volume growth [7]. Branding commands a premium — Captain Steel's brand ambassador spend helped it price above market [9]. **Avoid mills whose order book is dominated by JMC or state public works** until the contractor standoff clears [2][3]; their receivables will stretch. Also avoid thinly capitalised standalone re-rollers with no scrap sourcing tie-up — collect from customer on scrap sourcing and billet contracts.",
+  "## How to grow safely\n**Structure for the working-capital cycle, not the asset.** Keep tenor short, match limits to the inventory-plus-receivable cycle, and take monthly stock and book-debt statements. Rating reports show gearing can move fast — Kubair's gearing deteriorated to 1.80x from 1.40x in one year on debt-funded acquisition and higher working-capital borrowings [10]. So when a proposal lands, check gearing trend over two years; if it has risen more than the peer range, ask for the debt-funded capex plan and repayment source. Take monthly: stock statement, sales register, top-five debtor ageing, and electricity consumption as a proxy for running hours.",
+  "## Early-warning signs\n**Watch the local demand and payment chain, not just the borrower's books.** If JMC/state payment delays persist [3], contractor receivables will age — trigger a limit review. If GST collections in J&K stay negative [D], site demand is not recovering. If the borrower's electricity consumption falls while sales stay flat, suspect stock build-up. If scrap or billet prices swing sharply, margins compress [10] — ask for the pass-through clause in sales contracts. Collect from customer on any figure not in this note."
+ ],
+ "watch": [
+  [
+   "Monthly stock and debtor statement",
+   "Receivable days rise above the borrower's own 12-month average -> cut limit and ask for top-five debtor ageing"
+  ],
+  [
+   "J&K GST collections (monthly, GSTN)",
+   "Two more negative prints [D] -> pause new sanctions in the cluster"
+  ],
+  [
+   "JMC/state contractor payment news (monthly)",
+   "Standoff continues past Q3 [2][3] -> review all government-order-dependent exposures"
+  ],
+  [
+   "Electricity consumption vs sales (monthly)",
+   "Consumption falls while sales flat -> suspect stock build-up, seek physical verification"
+  ],
+  [
+   "Scrap/billet price (weekly)",
+   "Sharp swing with no pass-through clause [10] -> reprice or reduce exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "J&K GST -10.6% and power demand -0.5% vs India positive; local public works stalled.",
+ "articles": [
+  {
+   "title": "Tin Scrap Rate Today Jammu: ₹18.57/kg",
+   "url": "https://scraprates.in/jammu/tin-scrap-price",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Development Works Stalled In Jammu Kashmir Amid Contractors-Government Standoff - Development Works Stalled In Jammu Kashmir Amid Contractors-Government Standoff",
+   "url": "https://www.etvbharat.com/en/state/development-works-stalled-in-jammu-kashmir-amid-contractors-government-standoff-enn26070804743#1",
+   "date": "2026-07-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "JMC Contractors sound alarm over ‘anti-contractor’ policies",
+   "url": "http://arisingstate.in/jmc-contractors-sound-alarm-over-anti-contractor-policies/",
+   "date": "2026-07-07",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Date: 15.05.2026",
+   "url": "https://www.valueresearchonline.com/stories/E551027B-7079-4BD8-9EAB-1A1BBC970871/news-announcement/?_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up By Investing.com - Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up",
+   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-jsw-steel-posts-strong-q1-2026-results-as-shares-edge-up-93CH-4776425#1",
+   "date": "2026-07-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-bar Production - www.lokmattimes.com - Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-...",
+   "url": "https://www.lokmattimes.com/business/steel-exchange-india-limited-clocks-approximately-rs340-crore-revenue-in-q2-fy27-up-45-yoy-and-25-qoq-driven-by-record-re-bar-production/#1",
+   "date": "2026-10-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY - www.lokmattimes.com - Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY",
+   "url": "https://www.lokmattimes.com/business/rathi-steel-and-power-limited-q2-fy27-revenue-at-over-rs-200-cr-growth-of-over-30-yoy-sales-volume-growth-at-2886-yoy/#1",
+   "date": "2026-10-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 21,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126379#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 24, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/118079~Captain%20Steel%20India%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Kubair Steel and Power LLP",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121249_Kubair_Steel_and_Power_LLP.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Moderately high working capital requirements; although adequately supported by bank lines: Company has moderately high working...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/M%20S%20Metals%20And%20Steels%20Private%20Limited-RU-19-07-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + Jammu and Kashmir 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Jammu and Kashmir: GST collections -10.6% Apr-to-date vs India +6.1% (16.7 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Jammu and Kashmir: electricity demand -0.5% Apr-to-date vs India +9.5% (10.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

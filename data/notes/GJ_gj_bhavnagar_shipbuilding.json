@@ -1,0 +1,155 @@
+{
+ "key": "gj_bhavnagar|shipbuilding",
+ "state": "GJ",
+ "city": "gj_bhavnagar",
+ "ind": "shipbuilding",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Bhavnagar shipbuilding and repair, but only to repair-led, order-backed units with tight monthly monitoring; avoid pure newbuild and park-dependent borrowers.",
+ "title": "Bhavnagar shipbuilding & repair: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Shipbuilding and repair converts steel, plate, paint and skilled labour into vessels or into a working hull returned to its owner.** Repair is short-cycle: the vessel docks, the yard bills for steel, mechanical consumables and labour, and cash comes in on completion or stage milestones. Newbuild is long-cycle: progress payments from the owner fund the hull over months, so the yard's cash sits in work-in-progress and receivables, not in the yard. **The value sits in the dock slot and the skilled crew, not in the land.**\n\n## Where cash and value sit\n**Repair earns the margin; newbuild earns the revenue.** Peer evidence is clear: Cochin Shipyard's ship-repair segment grew 157.2% YoY to Rs 629.6 crore and carried the quarter, while shipbuilding revenue fell 16.7% to Rs 439 crore [4]. The same peer guides shipbuilding margins at 10%-12% and ship-repair at 22%-24% [6]. Locally, the Bhavnagar marine shipbuilding park has been shifted on paper to Kuchdi in Porbandar [3], so do not lend against a Bhavnagar park plot or a promised park-linked order. **Gujarat GST collections are +11.9% Apr-to-date against India's +6.1% [D], a genuine local tailwind, but it is a state number, not a Bhavnagar yard number.**\n\n## Who to pursue, and how to grow safely\n**Pursue repair-led yards with a dock, a repeat owner list and consumable suppliers already billing them** — the Bhavnagar mechanical consumables tender at Rs 1.30 lakhs [1] shows small, steady local procurement, not a yard order book. **Avoid pure newbuild yards and anyone whose order book depends on the relocated park [3].** Take every month: repair bill register, dock occupancy, consumable purchase invoices, and GST returns matched to sales. ## Early-warning signs\n**Watch the repair-to-newbuild mix drift and the receivable days.** Cochin Shipyard's FY27 EBITDA margin guidance of around 14% against 24% in FY26 [5][6] tells you the sector's margin cushion is thinning even for the best yard. If a borrower's repair share falls below a third, cut the limit. If dock occupancy drops for two months, stop fresh disbursement.",
+  "## Local evidence is thin\n**Bhavnagar-specific shipbuilding data is scarce; the local sources are a consumables tender [1] and road tenders [2], neither of which speaks to yard economics.** Lean on first principles and the Cochin peer set, and collect from customer the yard's own dock capacity, order book and repair mix before sanctioning."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs invoiced repair bills",
+   "sales mismatch above 10% for two months -> freeze limit and inspect dock"
+  ],
+  [
+   "Monthly dock occupancy and repair bill register",
+   "occupancy down two consecutive months -> stop fresh disbursement"
+  ],
+  [
+   "Quarterly revenue mix (repair vs newbuild)",
+   "repair below one-third of turnover -> reprice limit to repair book only"
+  ],
+  [
+   "Monthly receivable days on assigned bills",
+   "crosses 90 days -> demand fresh assignment or reduce limit"
+  ],
+  [
+   "Quarterly peer margin read (Cochin Shipyard guidance)",
+   "sector EBITDA guidance falls further -> tighten margin requirement on renewals"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Bhavnagar shipbuilding park shifted to Porbandar; local anchor lost despite strong national output.",
+ "articles": [
+  {
+   "title": "Department Of Employment And Training",
+   "url": "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58284009/606c9dd967d3186b55c9a15cd1ccadfe",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Government Tenders Published on 3 August 2026",
+   "url": "https://tenderkart.in/latest/2026-08-03",
+   "date": "2026-08-02",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "અણઆવડતની હદ: ભાવનગરનો ‘મરીન શિપ બિલ્ડિંગ પાર્ક' કાગળ પર દબાઈ ગયો, હવે પોરબંદરના કુછડીમાં આકાર લેશે - Bhavnagar News",
+   "url": "https://www.divyabhaskar.co.in/local/gujarat/bhavnagar/news/bhavnagar39s-39marine-ship-building-park39-has-been-put-on-paper-now-it-will-take-shape-in-porbandar39s-kuchdi-dbp-138455437.html",
+   "date": "2026-07-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Q1FY26 Result Summary",
+   "url": "https://www.icicidirect.com/mailcontent/idirect_cochinshipyard_q1fy26.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cochin Shipyard slumps as FY27 EBITDA margin guidance disappoints - Tuesday, October 06, 2026 | 03:56 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/capital-market-news/cochin-shipyard-slumps-as-fy27-ebitda-margin-guidance-disappoints-126091100745_1.html#1",
+   "date": "2026-09-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "cochin shipyard slumps as fy27 ebitda margin guidance disappoints",
+   "url": "https://www.capitalmarket.com/markets/news/market-beat-news/cochin-shipyard-slumps-as-fy27-ebitda-margin-guidance-disappoints/1732167",
+   "date": "2026-09-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cochin Shipyard Stock Slides More Than 8% After Company Forecasts Margin Decline Over Next 2 Years | 5paisa",
+   "url": "https://www.5paisa.com/blog/cochin-shipyard-stock-slides-more-than-8-after-company-forecasts-margin-decline-over-next-2",
+   "date": "2026-09-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "SSGSFL has not cooperated with Credit Analysis & Research Ltd (CARE), ICRA Ltd (ICRA) and Brickwork Ratings India Pvt Ltd (Brick...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Sar%20Senapati%20Santaji%20Ghorpade%20Sugar%20Factory%20Limited-RU-03-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "|BWR A-(CE) / CARE A-(CE) / ICRA A / CARE A+(CE) / ICRA A+ / BWR A / IND A / IND A+ / ICRA A- / CARE A+ / CRISIL A+(CE)|58.20|",
+   "url": "https://www.franklintempletonindia.com/downloadsServlet/pdf/franklin-india-multi-asset-solution-fund-scheme-information-document-it1ykmu5#4#18#4",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "| CRISIL Vs ICRA    | 2.9572    | 3.4432    | 1.6513    | 2.0016    |",
+   "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/206000/11/11_chapter%204.pdf#3#8#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 100 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 30 output +25.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +22.7% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +22.7% (gap +4.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

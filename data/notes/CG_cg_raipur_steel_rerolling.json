@@ -1,0 +1,158 @@
+{
+ "key": "cg_raipur|steel_rerolling",
+ "state": "CG",
+ "city": "cg_raipur",
+ "ind": "steel_rerolling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new steel re-rolling/TMT exposure in Raipur for now; the data call is Avoid and the local news is worse, so only existing good accounts with tight structure, and no fresh limits to marginal mills.",
+ "title": "Raipur steel re-rolling & TMT: a note to the credit manager",
+ "narrative": [
+  "## What the business is, and where the cash sits\n**A re-roller buys billet or scrap, heats it, rolls TMT bars, and sells into construction demand; the margin is a thin conversion spread, not a product premium.** Cash is trapped in inventory and receivables, and the spread moves with billet and scrap prices, which the local trade press reports falling on weak demand [2]. So when a proposal lands, check the conversion spread and inventory days first; if the spread is thin and inventory is building, ask why before you look at the plant.",
+  "## What has changed now\n**Chhattisgarh is running slower than India on both demand and power: GST collections +2.4% Apr-to-date against India's +6.1% [D], and electricity demand +6.7% against +9.5% [D].** Local mills are also reporting production disruption from power shortages and rising costs [3]. Nationally, IIP for NIC 24 is only +2.4% YoY [D] and Brent at $113/bbl sits above the $75–100 band [D], which lifts freight and power-linked costs. So when a proposal lands, check the unit's own power tie-up and tariff; if it buys from the grid at spot, ask for the last six months' power bills.",
+  "## Where the growth is\n**The peers that are growing are branded, integrated TMT players, not standalone re-rollers: Steel Exchange India reports ~₹340 crore revenue in Q2 FY27, up ~45% YoY [6], and Rathi Steel reports over ₹200 crore, up over 30% YoY [7].** JSW Steel's Q1 FY27 EBITDA margin was 20% with gearing at 0.42 [5], and Scan Steels points to value-added TMT and margin expansion [4]. Pursue Raipur borrowers with own billet/ingot linkage, a brand with dealer pull, and a captive or contracted power source; avoid pure conversion job-workers and units selling unbranded bar on price alone.",
+  "## How to grow safely\n**Structure for the working-capital cycle, not the plant: cash-flow-based limits against inventory and receivables, with a charge on stock and book debts.** Take monthly stock-and-debtor statements, quarterly GST returns, and monthly power bills; covenant a minimum conversion spread and a maximum inventory days. If gearing is already stretched, note that peer rating reports show gearing at 1.80x [10] and moderately high working-capital needs [11]; ask for the debt repayment schedule and promoter support before enhancing.",
+  "## Early-warning signs\n**Watch the local demand and power signals monthly: if GST growth in the state stays below India's, or power disruption reports continue [3], tighten.** If billet-scrap spreads compress further [2], cut limits on the weakest accounts. If a borrower's inventory days rise while sales fall, stop fresh disbursement and ask for the sales register. Rating reports are old (2023–24) [8][9][10][11], so treat them as background, not current."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs state GST growth (monthly)",
+   "State GST growth stays below India's +6.1% [D] -> freeze new limits in Raipur"
+  ],
+  [
+   "Monthly power bills and outage log (monthly)",
+   "Repeat outages or tariff jump [3] -> ask for captive power proof or reduce limit"
+  ],
+  [
+   "Billet/scrap price and conversion spread (weekly)",
+   "Spread compresses further [2] -> cut limits on thin-margin accounts"
+  ],
+  [
+   "Inventory and debtor days (monthly)",
+   "Inventory days rise while sales fall -> stop disbursement, seek sales register"
+  ],
+  [
+   "Gearing and interest coverage (quarterly)",
+   "Gearing above peer 1.80x [10] -> require promoter infusion before enhancement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local GST and power demand trail India, and mills report power disruption and falling prices.",
+ "articles": [
+  {
+   "title": "New & Upcoming Projects in Chhattisgarh - Page 19",
+   "url": "https://newprojectstracker.com/projects-india/Chhattisgarh?page=19",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "India Steel Price Update: Scrap and Billet Rates Fall",
+   "url": "https://steelbazaar.com/news/industry/india-steel-and-scrap-prices-decline-amid-weak-demand-raising-concerns-for-manufacturers-and-traders",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Chhattisgarh Steel Industry Hit by Power Crisis, Mills Face Rising Costs",
+   "url": "https://steelbazaar.com/news/industry/chhattisgarh-steel-mills-face-production-disruptions-amid-severe-power-shortages",
+   "date": "2026-10-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Date: 15.05.2026",
+   "url": "https://www.valueresearchonline.com/stories/E551027B-7079-4BD8-9EAB-1A1BBC970871/news-announcement/?_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up By Investing.com - Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up",
+   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-jsw-steel-posts-strong-q1-2026-results-as-shares-edge-up-93CH-4776425#1",
+   "date": "2026-07-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-bar Production - www.lokmattimes.com - Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-...",
+   "url": "https://www.lokmattimes.com/business/steel-exchange-india-limited-clocks-approximately-rs340-crore-revenue-in-q2-fy27-up-45-yoy-and-25-qoq-driven-by-record-re-bar-production/#1",
+   "date": "2026-10-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY - www.lokmattimes.com - Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY",
+   "url": "https://www.lokmattimes.com/business/rathi-steel-and-power-limited-q2-fy27-revenue-at-over-rs-200-cr-growth-of-over-30-yoy-sales-volume-growth-at-2886-yoy/#1",
+   "date": "2026-10-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 21,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126379#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 24, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/118079~Captain%20Steel%20India%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Kubair Steel and Power LLP",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121249_Kubair_Steel_and_Power_LLP.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Moderately high working capital requirements; although adequately supported by bank lines: Company has moderately high working...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/M%20S%20Metals%20And%20Steels%20Private%20Limited-RU-19-07-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + Chhattisgarh 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Chhattisgarh: GST collections +2.4% Apr-to-date vs India +6.1% (3.7 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Chhattisgarh: electricity demand +6.7% Apr-to-date vs India +9.5% (2.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

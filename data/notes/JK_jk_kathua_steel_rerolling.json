@@ -1,0 +1,142 @@
+{
+ "key": "jk_kathua|steel_rerolling",
+ "state": "JK",
+ "city": "jk_kathua",
+ "ind": "steel_rerolling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid for now: the data call is Avoid (27) and the local news is worse, so no new TMT/re-rolling exposure in Kathua until GST and power signals turn; only exception is a fully-backed, invoice-discounted supplier line to a Tier-1 anchor already operating there.",
+ "title": "Kathua steel re-rolling & TMT: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Kathua re-roller buys sponge iron, scrap and billet, melts and rolls it into TMT bars, and sells into J&K and Punjab Himachal construction demand. Cash is made on the spread between scrap/billet cost and rebar price, minus power and fuel. **The plant is a conversion machine: margin lives in the input-output spread and in how fast you turn inventory, not in the rolling mill itself.** Power is the second-largest cost after metal, so a unit with a captive furnace or a fixed-tariff PPA is a different credit from one buying grid power at spot.",
+  "Peer results show the sector can grow fast — Steel Exchange India at ~₹340 crore Q2 FY27 revenue, up ~45% YoY [5], and Rathi Steel above ₹200 crore, up over 30% YoY [6] — but those are South and North India players, not Kathua evidence.",
+  "## What has broken locally\nThe local data is the problem, not the sector. **J&K GST collections are -10.6% Apr-to-date against India +6.1%, and electricity demand is -0.5% against India +9.5% [D] — both point to weak local activity and weak local offtake.** Brent at $113/bbl [D] raises freight and power-linked costs for a unit already squeezed. The one positive is Hi-Tech Pipes starting commercial output at its Kathua plant in January 2026 [2], which confirms Kathua as a steel location but also adds a strong competitor for local rebar demand. The project-tracker listing [1] is a directory page, not confirmed capex — treat it as a lead, not a fact.",
+  "## Who to pursue, and how to grow safely\n**Pursue the supplier, not the re-roller: dealers and fabricators selling into the Hi-Tech Pipes Kathua ecosystem [2], and job-work converters with a single anchor buyer.** Structure as invoice-discounted receivables from the anchor, with a 20-25% margin and monthly stock statements. Take every month: GST returns, power bills, stock-and-debtor statement, and a plant visit photo log.",
+  "## Early-warning signs\n- GST filing gaps or falling e-way bills (monthly) -> stop fresh disbursement and inspect stock. - Power bill units down more than 20% month-on-month (monthly) -> ask for order book and shift pattern. - Rebar inventory days rising while sales flat (monthly) -> cut limit and demand debtor ageing. - Any rating downgrade or gearing above 1.80x, the level seen at Kubair Steel [9] (quarterly) -> review and seek additional collateral."
+ ],
+ "watch": [
+  [
+   "GST returns and e-way bills (monthly)",
+   "two missed filings or e-way bill value down 25% -> freeze limit and inspect stock"
+  ],
+  [
+   "Power consumption from bills (monthly)",
+   "units down more than 20% month-on-month -> ask for order book and shift pattern"
+  ],
+  [
+   "Rating action and gearing (quarterly)",
+   "downgrade or gearing above 1.80x [9] -> review and seek collateral"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "J&K GST -10.6% and power demand -0.5% versus India positive; local demand weak.",
+ "articles": [
+  {
+   "title": "New & Upcoming Projects in Steel Projects in Jammu and Kashmir",
+   "url": "https://newprojectstracker.com/projects-india/steel/jammu-and-kashmir",
+   "date": "2026-01-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Hi-Tech Pipes Starts Commercial Output at Kathua Plant",
+   "url": "https://www.constructionworld.in/amp/steel-news/hi-tech-pipes-starts-commercial-output-at-kathua-plant/84236",
+   "date": "2026-01-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Date: 15.05.2026",
+   "url": "https://www.valueresearchonline.com/stories/E551027B-7079-4BD8-9EAB-1A1BBC970871/news-announcement/?_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up By Investing.com - Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up",
+   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-jsw-steel-posts-strong-q1-2026-results-as-shares-edge-up-93CH-4776425#1",
+   "date": "2026-07-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-bar Production - www.lokmattimes.com - Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-...",
+   "url": "https://www.lokmattimes.com/business/steel-exchange-india-limited-clocks-approximately-rs340-crore-revenue-in-q2-fy27-up-45-yoy-and-25-qoq-driven-by-record-re-bar-production/#1",
+   "date": "2026-10-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY - www.lokmattimes.com - Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY",
+   "url": "https://www.lokmattimes.com/business/rathi-steel-and-power-limited-q2-fy27-revenue-at-over-rs-200-cr-growth-of-over-30-yoy-sales-volume-growth-at-2886-yoy/#1",
+   "date": "2026-10-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 21,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126379#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 24, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/118079~Captain%20Steel%20India%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Kubair Steel and Power LLP",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121249_Kubair_Steel_and_Power_LLP.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Moderately high working capital requirements; although adequately supported by bank lines: Company has moderately high working...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/M%20S%20Metals%20And%20Steels%20Private%20Limited-RU-19-07-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + Jammu and Kashmir 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Jammu and Kashmir: GST collections -10.6% Apr-to-date vs India +6.1% (16.7 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Jammu and Kashmir: electricity demand -0.5% Apr-to-date vs India +9.5% (10.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

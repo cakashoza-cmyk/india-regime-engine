@@ -1,0 +1,149 @@
+{
+ "key": "hp_kala_amb|steel_rerolling",
+ "state": "HP",
+ "city": "hp_kala_amb",
+ "ind": "steel_rerolling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new steel re-rolling/TMT exposure in Kala Amb; the local demand signal is too weak to offset sector-level margin pressure.",
+ "title": "Kala Amb steel re-rolling & TMT: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA Kala Amb re-roller melts scrap or sponge iron in an induction furnace, casts billets, and rolls them into TMT bars sold mostly to local construction and dealer networks. **Cash is made on the spread between scrap cost and TMT realisation, not on volume alone.** The furnace is the single point of failure: a 2026 furnace explosion injured four workers [1] and a 2025 accident at a Kala Amb sariya unit killed one worker [2]. So when a proposal lands, check the furnace age, refractory maintenance log and safety record before anything else; if the unit has had a fatality or explosion in the last 24 months, ask for the factory inspector's closure/restart order and treat it as a hard gate.",
+  "**A re-roller's balance sheet is mostly inventory and receivables, so the borrowing base moves with steel prices.** Rating reports on peers flag moderately high working capital needs supported by bank lines [11] and sudden price fluctuations hitting margins [10]. So structure limits against a drawing-power statement on stock and book debts, not a flat term loan; if the customer asks for a clean limit, ask for the last 12 months' stock statements and insist on monthly stock-and-receivable returns.",
+  "## What has changed now\nHimachal Pradesh GST collections are down 22.8% Apr-to-date against India's +6.1% [D], and state electricity demand is down 6.8% against India's +9.5% [D]. **That is a local demand and activity signal, and it is the reason this call is Avoid.** Nationally, IIP for NIC 24 is only +2.4% YoY [D] and Brent at $113/bbl sits above the $75-100 band [D], so power and freight costs are against the unit. A steel plant expansion at Kala Amb has already triggered pollution objections [3], which means consent-to-operate risk is live. Note the local sources are 2025-26 and the rating reports are older (2023-24) [8][9][10][11]; treat them as background, not current.",
+  "## Where the growth is, and who to avoid\nPeer results are strong but they are not Kala Amb: Steel Exchange India reported ~Rs 340 crore Q2 FY27 revenue, up ~45% YoY [6], Rathi Steel over Rs 200 crore, up over 30% [7], and JSW Steel posted 20% EBITDA margin with gearing at 0.42 [5]. **Pursue only integrated or partly integrated units with own billet, branded TMT and a clean safety record; avoid pure conversion job-workers and units dependent on one dealer.** If a proposal is a standalone re-roller with no captive billet and no brand, decline; if it is a branded TMT unit with a national or regional brand premium [9], consider a small working-capital line with a stock audit.",
+  "## How to grow safely and what to watch\nTake monthly stock statements, quarterly GST returns, electricity bills and furnace production logs. **Covenant the account on drawing power and on safety compliance, not just turnover.** Collect from customer the current order book, dealer-wise receivables ageing and power tariff, since the data pack has no Kala Amb-specific figures.",
+  "- Monthly: electricity bill vs prior year -> a fall beyond the state's -6.8% [D] means the furnace is idling; ask why. - Event: any furnace accident or pollution notice [1][2][3] -> stop disbursement and inspect."
+ ],
+ "watch": [
+  [
+   "Monthly electricity bill",
+   "Fall steeper than state -6.8% [D] -> ask for furnace log and confirm operating days"
+  ],
+  [
+   "Event-based safety/pollution notice",
+   "Any furnace accident or pollution notice [1][2][3] -> stop disbursement and inspect"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "HP GST -22.8% and power demand -6.8% signal weak local activity [D].",
+ "articles": [
+  {
+   "title": "Furnace explosion in Kala Amb leaves 4 labourers injured",
+   "url": "https://www.hindustantimes.com/cities/chandigarh-news/furnace-explosion-in-kala-amb-leaves-4-labourers-injured-101775589955706.html",
+   "date": "2026-04-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sirmour: कालाअंब के सरिया उद्योग में हादसा, एक मजदूर की मौत, एक घायल",
+   "url": "https://www.amarujala.com/video/himachal-pradesh/sirmour/video-sirmour-accident-in-the-steel-bar-industry-of-kala-amb-one-worker-died-one-injured-2025-08-21",
+   "date": "2025-08-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Steel plant expansion at Kala Amb triggers pollution fears - Subscribe To Print Edition About The Tribune Code Of Ethics Download App Careers Advertise with us Classifieds",
+   "url": "https://www.tribuneindia.com/news/steel-plant-expansion-at-kala-amb-triggers-pollution-fears/#1",
+   "date": "2025-06-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Date: 15.05.2026",
+   "url": "https://www.valueresearchonline.com/stories/E551027B-7079-4BD8-9EAB-1A1BBC970871/news-announcement/?_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up By Investing.com - Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up",
+   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-jsw-steel-posts-strong-q1-2026-results-as-shares-edge-up-93CH-4776425#1",
+   "date": "2026-07-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-bar Production - www.lokmattimes.com - Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-...",
+   "url": "https://www.lokmattimes.com/business/steel-exchange-india-limited-clocks-approximately-rs340-crore-revenue-in-q2-fy27-up-45-yoy-and-25-qoq-driven-by-record-re-bar-production/#1",
+   "date": "2026-10-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY - www.lokmattimes.com - Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY",
+   "url": "https://www.lokmattimes.com/business/rathi-steel-and-power-limited-q2-fy27-revenue-at-over-rs-200-cr-growth-of-over-30-yoy-sales-volume-growth-at-2886-yoy/#1",
+   "date": "2026-10-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 21,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126379#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 24, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/118079~Captain%20Steel%20India%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Kubair Steel and Power LLP",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121249_Kubair_Steel_and_Power_LLP.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Moderately high working capital requirements; although adequately supported by bank lines: Company has moderately high working...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/M%20S%20Metals%20And%20Steels%20Private%20Limited-RU-19-07-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + Himachal Pradesh 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Himachal Pradesh: GST collections -22.8% Apr-to-date vs India +6.1% (28.9 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Himachal Pradesh: electricity demand -6.8% Apr-to-date vs India +9.5% (16.3 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": false,
+  "problems": [
+   "watch list must have 3-5 items"
+  ],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

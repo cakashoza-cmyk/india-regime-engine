@@ -1,0 +1,130 @@
+{
+ "key": "ga_vasco_margao|shipbuilding",
+ "state": "GA",
+ "city": "ga_vasco_margao",
+ "ind": "shipbuilding",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to ship-repair and small-vessel fabricators with tight covenants; avoid large shipbuilding order-book bets in Vasco-Margao until local demand data is collected.",
+ "title": "Vasco-Margao Shipbuilding & Repair: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Shipbuilding and repair converts steel, labour and dry-dock time into cash, but the two halves behave like different businesses.** Repair is short-cycle: a vessel arrives, is docked, worked on and released within weeks, so cash comes back fast and margins are set by dock availability and urgency. Newbuild is the opposite: steel and labour go out for years before a hull is delivered and paid. **So when a proposal lands, first ask what share of revenue is repair versus newbuild; if newbuild dominates, ask for the delivery schedule and milestone billing terms.**",
+  "## Where value and cash sit\n**Peer results show repair is the better-margin business.** Cochin Shipyard's Q1FY26 ship-repair revenue grew 157.2% YoY to Rs 629.6 crore while shipbuilding fell 16.7% to Rs 439 crore, and EBITDA margin held at 22.6% on the richer repair mix [1]. The same peer now guides FY27 EBITDA margin to around 14% from 24% in FY26, with shipbuilding at 10%-12% and repair at 22%-24% [2][3]. **So when a proposal lands, check the segment mix; if the borrower is mostly newbuild, ask what protects margin when the cycle turns.**",
+  "## What has changed now\n**National output is strong but the local signal is weak.** India-wide IIP for NIC 30 is +25.3% YoY and +22.7% Apr-to-date [D], yet Goa GST collections are -1.2% Apr-to-date against India +6.1% and electricity demand +6.7% against India +9.5% [D]. **So when a proposal lands, check whether the borrower's order book is Goa-based or outside; if Goa-based, ask for the last six months of billing to confirm activity.** The sources say little about Vasco-Margao specifically, so lean on first principles and the Cochin peer.",
+  "## Where to grow safely\n**Pursue repair yards and small-vessel fabricators with visible dock utilisation and milestone billing.** Structure limits against work-in-progress, take monthly stock and receivable statements, and covenant a minimum repair-revenue share. **Avoid pure newbuild borrowers with long gestation and no milestone cash.**",
+  "## Early-warning signs\n**Watch for repair-revenue share falling below the covenant, WIP ageing beyond the delivery schedule, and GST billing trailing the order book.** Any of these means stop and re-price."
+ ],
+ "watch": [
+  [
+   "Monthly GST billing vs order book (monthly)",
+   "billing trails order book by more than one quarter -> ask for revised delivery schedule and re-price"
+  ],
+  [
+   "Repair-revenue share (quarterly)",
+   "falls below covenant -> reduce limit and seek additional collateral"
+  ],
+  [
+   "WIP ageing (monthly)",
+   "WIP older than delivery schedule -> stop fresh disbursement"
+  ],
+  [
+   "Dock utilisation (monthly)",
+   "utilisation drops -> ask for customer list and confirm bookings"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Goa GST and power demand trail India, signalling local stress despite strong national IIP.",
+ "articles": [
+  {
+   "title": "Q1FY26 Result Summary",
+   "url": "https://www.icicidirect.com/mailcontent/idirect_cochinshipyard_q1fy26.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cochin Shipyard slumps as FY27 EBITDA margin guidance disappoints - Tuesday, October 06, 2026 | 03:56 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/capital-market-news/cochin-shipyard-slumps-as-fy27-ebitda-margin-guidance-disappoints-126091100745_1.html#1",
+   "date": "2026-09-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "cochin shipyard slumps as fy27 ebitda margin guidance disappoints",
+   "url": "https://www.capitalmarket.com/markets/news/market-beat-news/cochin-shipyard-slumps-as-fy27-ebitda-margin-guidance-disappoints/1732167",
+   "date": "2026-09-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cochin Shipyard Stock Slides More Than 8% After Company Forecasts Margin Decline Over Next 2 Years | 5paisa",
+   "url": "https://www.5paisa.com/blog/cochin-shipyard-stock-slides-more-than-8-after-company-forecasts-margin-decline-over-next-2",
+   "date": "2026-09-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "SSGSFL has not cooperated with Credit Analysis & Research Ltd (CARE), ICRA Ltd (ICRA) and Brickwork Ratings India Pvt Ltd (Brick...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Sar%20Senapati%20Santaji%20Ghorpade%20Sugar%20Factory%20Limited-RU-03-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "|BWR A-(CE) / CARE A-(CE) / ICRA A / CARE A+(CE) / ICRA A+ / BWR A / IND A / IND A+ / ICRA A- / CARE A+ / CRISIL A+(CE)|58.20|",
+   "url": "https://www.franklintempletonindia.com/downloadsServlet/pdf/franklin-india-multi-asset-solution-fund-scheme-information-document-it1ykmu5#4#18#4",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "| CRISIL Vs ICRA    | 2.9572    | 3.4432    | 1.6513    | 2.0016    |",
+   "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/206000/11/11_chapter%204.pdf#3#8#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 100 x 0.6 + Goa 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Goa: GST collections -1.2% Apr-to-date vs India +6.1% (7.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Goa: electricity demand +6.7% Apr-to-date vs India +9.5% (2.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 30 output +25.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +22.7% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

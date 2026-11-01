@@ -1,0 +1,142 @@
+{
+ "key": "gj_bhavnagar|steel_rerolling",
+ "state": "GJ",
+ "city": "gj_bhavnagar",
+ "ind": "steel_rerolling",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 57,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Bhavnagar re-rollers with own scrap linkages and branded TMT offtake; avoid traders and single-mill converters until scrap supply and realisation are verified.",
+ "title": "Bhavnagar steel re-rolling & TMT: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Bhavnagar re-roller buys scrap, melts or heats it, rolls billets into TMT bars and sells to builders, dealers and government contractors. **Cash is made on the spread between scrap cost and TMT realisation, not on volume alone.** The local signal is stark: scrap prices are rising while ship-breaking supply at Alang is at the bottom [1]. Alang is the town's scrap artery, so when ship arrivals fall, the mill pays more for input and margins compress before sales even slow. **So when a proposal lands, check the mill's scrap sourcing mix; if it depends mainly on Alang ship scrap, ask what alternate billet or sponge supply it has tied up.**",
+  "## Where value and cash sit\nValue sits in brand and dealer network, not in the furnace. Captain Steel built a TMT brand with celebrity endorsement and commands a premium over market rates [7] — that is the model to back. Working capital is the real risk: peers carry moderately high working-capital needs supported by bank lines [9], and gearing at one peer deteriorated to 1.80x as on March 31, 2024 from 1.40x a year earlier on debt-funded acquisition and higher working-capital borrowings [8]. **So size the limit to the operating cycle, not to the fixed asset; if drawing power is routinely fully used, ask for the month-wise stock-and-debtor statement before renewal.**",
+  "## What has changed now\nNational steel demand is holding: IIP for NIC 24 output rose 2.4% YoY and 3.4% Apr-to-date [D]. Gujarat is running ahead of India on GST collections, +11.9% versus +6.1% [D], and electricity demand +11.0% versus +9.5% [D] — a real local tailwind. Peer results confirm volume pull: Steel Exchange India clocked ~₹340 crore revenue in Q2 FY27, up ~45% YoY [4], and Rathi Steel crossed ₹200 crore with ~28.86% volume growth [5]. **But the Alang scrap squeeze [1] is the offsetting fact; treat rising input cost against firm demand as a margin test, not a growth signal.** Note the rating reports are old — ICRA March 2024 [6] and February 2023 [7] — so use them for structure, not current numbers.",
+  "## Where to grow, and how to grow safely\nPursue integrated or partly integrated re-rollers with own billet or sponge capacity, branded TMT with dealer pull, and mills selling into Gujarat government and housing demand. Avoid pure scrap traders, single-furnace converters with no brand, and borrowers whose sales are to one or two dealers. **Structure: cash-flow-backed limits, monthly stock-and-debtor statements, and a covenant that gearing stays below the level at sanction.** Take every month: scrap purchase invoices, TMT sales register, electricity bills (a proxy for running hours), and GST returns. **If GST turnover trails bank credits, ask for the sales register and dealer confirmations.**",
+  "## Early-warning signs\n- Alang ship arrivals and local scrap price (weekly): if scrap rises while TMT realisation is flat, cut limit utilisation and re-price.\n- Electricity consumption versus rated capacity (monthly): a fall below normal running hours means the mill is idling — ask why before renewal.\n- Debtor days and dealer concentration (monthly): if top-two dealers cross half of sales, seek diversification or reduce exposure.\n- Gearing and interest coverage (quarterly): if gearing crosses the sanction level, freeze fresh disbursement.\n- GST return versus bank statement (monthly): a persistent gap means off-book sales or diversion — escalate."
+ ],
+ "watch": [
+  [
+   "Alang ship arrivals and scrap price (weekly)",
+   "scrap up with flat TMT realisation -> cut utilisation, re-price limit"
+  ],
+  [
+   "Electricity units vs rated capacity (monthly)",
+   "running hours fall below normal -> ask for order book before renewal"
+  ],
+  [
+   "Debtor days and dealer concentration (monthly)",
+   "top-two dealers above half of sales -> seek diversification or trim exposure"
+  ],
+  [
+   "Gearing and interest coverage (quarterly)",
+   "gearing crosses sanction level -> freeze fresh disbursement"
+  ],
+  [
+   "GST returns vs bank credits (monthly)",
+   "persistent gap -> escalate and seek sales register"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Alang ship-scrap supply at bottom while scrap prices rise, squeezing local re-roller margins.",
+ "articles": [
+  {
+   "title": "સન્ડે બિગ સ્ટોરી: વિરોધાભાસ : સ્ક્રેપનાં ભાવ ઊંચકાયા પણ અલંગમાં શિપનો પુરવઠો તળિયે - Bhavnagar News",
+   "url": "https://www.divyabhaskar.co.in/local/gujarat/bhavnagar/news/paradox-scrap-prices-rise-but-ship-supply-in-alang-falls-dbp-139240509.html",
+   "date": "2026-10-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Date: 15.05.2026",
+   "url": "https://www.valueresearchonline.com/stories/E551027B-7079-4BD8-9EAB-1A1BBC970871/news-announcement/?_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up By Investing.com - Earnings call transcript: JSW Steel posts strong Q1 2026 results as shares edge up",
+   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-jsw-steel-posts-strong-q1-2026-results-as-shares-edge-up-93CH-4776425#1",
+   "date": "2026-07-16",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-bar Production - www.lokmattimes.com - Steel Exchange India Limited Clocks Approximately ~₹340 Crore Revenue in Q2 FY27, up ~45% YoY and ~25% QoQ, Driven by Record Re-...",
+   "url": "https://www.lokmattimes.com/business/steel-exchange-india-limited-clocks-approximately-rs340-crore-revenue-in-q2-fy27-up-45-yoy-and-25-qoq-driven-by-record-re-bar-production/#1",
+   "date": "2026-10-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY - www.lokmattimes.com - Rathi Steel And Power Limited Q2 FY27 Revenue at Over Rs 200 Cr, Growth of Over 30% YoY; Sales Volume Growth at ~28.86% YoY",
+   "url": "https://www.lokmattimes.com/business/rathi-steel-and-power-limited-q2-fy27-revenue-at-over-rs-200-cr-growth-of-over-30-yoy-sales-volume-growth-at-2886-yoy/#1",
+   "date": "2026-10-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 21,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126379#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "February 24, 2023",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf/118079~Captain%20Steel%20India%20Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Kubair Steel and Power LLP",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202412121249_Kubair_Steel_and_Power_LLP.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Moderately high working capital requirements; although adequately supported by bank lines: Company has moderately high working...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/M%20S%20Metals%20And%20Steels%20Private%20Limited-RU-19-07-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 57 (national 45 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Gujarat: electricity demand +11.0% Apr-to-date vs India +9.5% (1.5 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +3.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 1
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

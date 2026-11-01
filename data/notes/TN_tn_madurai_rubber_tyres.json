@@ -1,0 +1,158 @@
+{
+ "key": "tn_madurai|rubber_tyres",
+ "state": "TN",
+ "city": "tn_madurai",
+ "ind": "rubber_tyres",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 69,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Madurai tyres and rubber, but only to borrowers tied to the TVS Srichakra supply chain or to replacement/off-highway niches, structured on receivables and inventory with monthly stock statements; avoid small OEM-only compounders and job-workers with no pricing power.",
+ "title": "Madurai Tyres & Rubber: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nMadurai's tyre cluster is anchored by TVS Srichakra's Vellaripatti plants, which run two-wheeler capacity of 210-235 lakh tyres a year at 80-85% utilisation and off-highway capacity of 75-85 metric tons a year at 75-80% utilisation [2][3]. Around that anchor sit compounders, tread-rubber and retread units, moulders and industrial rubber parts makers. **Cash is made on conversion margin and machine hours, not on brand; the anchor sets price and the small unit absorbs the swing.** Natural rubber and other inputs squeeze margins even as volumes hold [4], so a supplier's margin is a pass-through negotiation, not a pricing decision.",
+  "## Where value and cash sit\nValue sits in the anchor's order book and in the replacement market, which is roughly 70% of overall volumes nationally [10]. Working capital sits in rubber inventory and in receivables from the anchor and tier-I buyers; capex is press-and-mould heavy with a long payback. **So when a proposal lands, check the receivable days against the anchor's payment cycle and the inventory days against rubber price movement; if inventory days are rising while sales are flat, ask whether the borrower is holding rubber as a price bet.** Peer evidence shows the strain: JK Tyre's interest cost rose 12% y-o-y with working capital facilities almost fully utilised and interest cover at 2.19x [8] - old FY19 data, but the pattern of full utilisation is what you underwrite against.",
+  "## What has changed now\nNational output for NIC 22 is up 21.4% y-o-y and 18.2% April-to-date [D], and bank credit is growing 21.0% against that 18.2% output, a gap of 2.8 pp [D] - **credit is running ahead of output, so some of the growth you will see in proposals is borrowed demand, not real demand.** Locally, TVS Srichakra has approved up to Rs 220 crore of capex, split Rs 110 crore each for two-wheeler and off-highway, with the off-highway 25% addition due in H1 FY28 and the two-wheeler 5% addition in H1 FY29 [2][3]. Peer results confirm the pattern of expansion into soft margins: JK Tyre is taking staggered price increases and expects double-digit revenue growth [6], and Himadri is pushing Birla Tyres toward OTR and OHT with exports [7]. **The growth is real but it is in off-highway and export-linked niches, not in plain two-wheeler volume.**",
+  "## Who to pursue and how to grow safely\nPursue suppliers and job-workers with a confirmed purchase order from the Vellaripatti expansion, off-highway and OTR component makers, and replacement-market distributors with diversified buyers [2][3][7]. Avoid single-buyer compounders, units with no order backing for new presses, and borrowers whose only collateral is a second-hand press. **Structure against the order: sanction against the PO, release in tranches on commissioning evidence, and take monthly stock and receivable statements plus the anchor's payment advice.** Covenant a debt-service cover and a receivable-days ceiling, and take the anchor's confirmation of dues every quarter.",
+  "## Early-warning signs\n- Monthly stock statement (monthly): inventory days rising two months running -> freeze further drawing power and inspect godown.\n- Receivable ageing from anchor (monthly): top-buyer dues past agreed cycle -> ask for the anchor's payment advice and reprice.\n- Utilisation certificate (quarterly): capacity use falling below the plant's stated band [2][3] -> shift to need-based limits.\n- Rubber price and margin note (quarterly): margin compression without a price pass-through [4][6] -> cut tenor and seek additional collateral.\n- Credit growth vs output gap [D] (quarterly): gap widening -> tighten new-to-bank SME limits in the cluster."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Inventory days up two months running -> freeze drawing power and inspect godown"
+  ],
+  [
+   "Anchor payment advice (monthly)",
+   "Top-buyer dues past agreed cycle -> reprice and seek confirmation of dues"
+  ],
+  [
+   "Quarterly utilisation certificate",
+   "Utilisation below the plant's stated band [2][3] -> convert to need-based limits"
+  ],
+  [
+   "Quarterly rubber price and margin note",
+   "Margin compression with no price pass-through [4][6] -> cut tenor, add collateral"
+  ],
+  [
+   "Quarterly credit-versus-output gap [D]",
+   "Gap widening beyond 2.8 pp -> tighten new-to-bank limits in the cluster"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Madurai anchor capex of Rs 220 crore and national output up 21.4% y-o-y support cluster demand.",
+ "articles": [
+  {
+   "title": "New & Upcoming Projects in Tyres / Rubber Projects in Tamil Nadu",
+   "url": "https://newprojectstracker.com/projects-india/tyres-rubber/tamil-nadu",
+   "date": "2026-06-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "TVS Srichakra Rs 220 Crore Expansion Madurai Tyre Plant Growth - TVS Srichakra approves Rs 220 crore expansion for Madurai tyre plant",
+   "url": "https://www.carbike360.com/news/tvs-srichakra-approves-rs-220-crore-expansion-for-madurai-tyre-plant#1",
+   "date": "2026-05-28",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "TVS Srichakra announces ₹220-crore capex to expand Madurai tyre plants - SENSEX 78,094.64",
+   "url": "https://www.thehindubusinessline.com/news/tvs-srichakra-ltd-announces-220-crore-capex-to-expand-madurai-tyre-plants/article71029774.ece#1",
+   "date": "2026-05-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tyre makers step up capacity expansion despite pressure on margins - Tyre makers step up capacity expansion despite pressure on margins",
+   "url": "https://www.business-standard.com/amp/industry/news/tyre-makers-capex-expansion-margins-natural-rubber-prices-126082400607_1.html#1",
+   "date": "2026-08-23",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Achieved its highest ever sales compared to the last six quarters- The capacity in Mexico is about 59 lakh tyres, with overall...",
+   "url": "https://sbisecurities.in/fileserver/research/reports/SBI%20Securities%20Ltd_2QFY26%20Result%20Concall%20Capsule.pdf#48#55#48",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: JK Tyre Q1 2026 revenue beats, margins weaken By Investing.com - Earnings call transcript: JK Tyre Q1 2026 revenue beats, margins weaken",
+   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-jk-tyre-q1-2026-revenue-beats-margins-weaken-93CH-4821740#1",
+   "date": "2026-08-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Advance Search | Business Standard - Showing 20 results",
+   "url": "https://www.business-standard.com/advance-search?keyword=tyre#1",
+   "date": "2026-09-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "*carved out of the sanctioned fund-based working capital limits of the company",
+   "url": "https://idbitrustee.com/wp-content/uploads/2019/07/Revision-in-Credit-Rating-SREI-Equipment-July-2019.pdf#5#10#5",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "CEAT Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/CEAT%20Limited-01-06-2020.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CRISIL ViewCube on the Tyre sector",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2024/february/cruising-on-the-demand-pillion.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Emerald Tyre Manufacturers Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202509120942_Emerald_Tyre_Manufacturers_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 69 (national 98 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 22 output +21.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +18.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +17.1% Apr-to-date in USD (Rs 48,628 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +21.0% YoY vs output +18.2% (gap +2.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
