@@ -1,0 +1,158 @@
+{
+ "key": "ka_tumakuru|engineering",
+ "state": "KA",
+ "city": "ka_tumakuru",
+ "ind": "engineering",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 88,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Tumakuru engineering & capital goods — pursue asset-backed component and machining SMEs feeding the new Tumakuru clusters; avoid pure EPC and thin-margin fabrication.",
+ "title": "Tumakuru Engineering & Capital Goods: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**An engineering unit in Tumakuru buys steel, castings and bought-out components, machines them, and sells to OEMs, railways, power T&D and data-centre supply chains.** Cash is made on the shop floor: machine hours, scrap control and order repeatability decide margin, not price lists. Value sits in the order book and the customer approval (vendor code), not in the fixed assets. **So when a proposal lands, check the customer concentration and whether the vendor code is approved and current; if one buyer is above half of sales, ask for the purchase order history and the approval letter.**",
+  "## Where cash sits and what has changed\n**Working capital is the whole game: receivables and inventory net of payables, and EPC-style execution stretches the cash conversion cycle well beyond OEM work [9][11].** Rating commentary notes payables have funded part of this cycle, which reverses the day a large customer slows payment [11]. Peer results show demand is real but margins are not automatic: Pitti is expanding through FY 2030 on data-centre, mining and railway orders while margins strain [4]; Suzlon grew revenue 26% to Rs 4,869 crore in Q2 FY27 but EBITDA stayed near Rs 720 crore and margin fell to 14.8% from 18.6% [7]. **So when a proposal lands, check whether volume growth is being bought with price; if EBITDA margin is below the prior year, ask for the customer-wise price revision.**",
+  "## The local growth opportunity\n**Tumakuru itself is the story: gazette orders of 23 September 2026 cover 15 projects within 50 proposals envisaging Rs 2,152.13 crore of investment and about 8,944 jobs at CBIC TITL Vasanthanarasapura Phase-A [3].** Statewide, 27 new industrial parks are planned and roughly 1.25 lakh acres of KIADB land still needs fresh acquisition by 2047 [1]. Karnataka GST collections are up 11.1% Apr-to-date against India's 6.1%, and electricity demand up 23.3% against 9.5% [D]. **Pursue tier-2 machining, fabrication and component SMEs with a named OEM or park anchor as customer; avoid pure EPC bidders whose order book is unexecuted and whose bank guarantees are the real exposure [9].**",
+  "## How to grow safely\n**Structure against the cycle, not the order book: cash-flow-based limits, receivables-backed drawing power, and a bank guarantee sub-limit sized to live bids [9].** Take monthly stock and receivable statements, monthly bank statements, and quarterly GST returns reconciled to sales. **If receivables days cross the sanctioned cycle, cut drawing power immediately rather than renewing.** Peer DEE's Q3 FY26 revenue of Rs 286.7 crore and operating profit of Rs 47.6 crore show the upside when execution and piping demand align [5]; Skipper's record Q2 revenue and 56% PAT rise show export-led T&D strength [6]. **Prefer borrowers with export or T&D order visibility and a demonstrated payables cycle; avoid those funding capex from working capital.**",
+  "## Early-warning signs\n**Watch the gap between sales growth and cash: if GST turnover rises while bank credits stay flat, the money is sitting in receivables.** Watch inventory days on raw steel, cheque returns, and any request to convert a BG limit into a fund limit. **If a borrower asks for a second bank for the same order, stop and re-check the order book.**"
+ ],
+ "watch": [
+  [
+   "Monthly bank statements and GST returns (monthly)",
+   "Credits flat while GST sales rise -> cut drawing power and ask for receivables ageing"
+  ],
+  [
+   "Receivable days vs sanctioned cycle (monthly)",
+   "Days exceed cycle by more than a fortnight -> freeze enhancement, seek customer confirmation of dues"
+  ],
+  [
+   "Order book and BG outstanding (quarterly)",
+   "Un-executed order book falls or BGs concentrate on one bid -> reduce non-fund limit"
+  ],
+  [
+   "EBITDA margin vs prior year (quarterly)",
+   "Margin falls with revenue growth -> ask for customer-wise price revision before renewal"
+  ],
+  [
+   "Inventory days on steel (monthly)",
+   "Inventory days rise -> require stock statement and physical verification"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Tumakuru gazette approvals of Rs 2,152.13 crore and faster Karnataka GST and power demand support local engineering demand.",
+ "articles": [
+  {
+   "title": "Karnataka plans 27 new industrial parks to boost jobs by 2047",
+   "url": "https://www.deccanherald.com/india/karnataka/karnataka-plans-27-new-industrial-parks-to-boost-jobs-by-2047-4202784",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "mb engineering financials News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/mb-engineering-financials/news#1",
+   "date": "2026-10-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Tumakuru industrial proposals envisage Rs 2,152.13 crore investment",
+   "url": "https://nammaward.in/wardpulse/tumakuru-industrial-proposals-envisage-rs-2-152-13-crore-investment",
+   "date": "2026-10-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Pitti Engineering Bets Big on Growth Amid Margin Strain - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/pitti-engineering-bets-big-on-growth-amid-margin-strain#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "DEE’s order book crosses Rs 1,300 crore as Q3 profit rebounds sharply - DEE Development Engineers Ltd",
+   "url": "https://www.financialexpress.com/business/news/dees-order-book-crosses-rs-1300-crore-as-q3-profit-rebounds-sharply/4132452/?ref=Alsoread_article#1",
+   "date": "2026-02-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SKPL/SECT/2026-27/103",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7562945-dfe3-4861-a0ac-9b5f25acd39e.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India Wind Energy Market Tests Suzlon’s Growth Model",
+   "url": "https://urbanacres.in/indias-wind-energy-boom-is-testing-suzlons-growth-model/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating rationale Anawil Wire and Engineering Ltd",
+   "url": "https://nsearchives.nseindia.com/corporate/ANAWIL_21082026125904_Final_RR__Anawil_Wire_and_Engineering_Ltd.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| J Kumar    | ICRA A1    | ICRA A+    | Stable    | The rating favourably factors in JKIL’s strong OB position, which provides ...",
+   "url": "https://www.hdfcsec.com/hsl.docs//Industrials%20-%20N%E2%80%99HAI%E2%80%99%20Way%20-%20HSIE-202310251417508242006.pdf#11#40#11",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- **R$’000 crore**",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/may/the-march-of-capital-goods.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 88 (national 80 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Karnataka: GST collections +11.1% Apr-to-date vs India +6.1% (5.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Karnataka: electricity demand +23.3% Apr-to-date vs India +9.5% (13.8 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

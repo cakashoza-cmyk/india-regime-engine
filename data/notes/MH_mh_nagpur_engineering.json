@@ -1,0 +1,158 @@
+{
+ "key": "mh_nagpur|engineering",
+ "state": "MH",
+ "city": "mh_nagpur",
+ "ind": "engineering",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 68,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively in Nagpur engineering and capital goods: OK for OEM and component makers with order visibility and stable power, avoid EPC and power-intensive units until receivables and supply quality are proven.",
+ "title": "Nagpur Engineering & Capital Goods: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Engineering and capital goods in Nagpur means metal cutting, fabrication, castings, machining and small assemblies sold to OEMs, railways, power and infra buyers.** Cash comes in on dispatch, but the buyer sets the payment clock; the unit funds raw material and wages in between. **Value sits in the order book and the customer relationship, not the machine on the floor** [5][6]. Pricing power is thin for job-work units and better for proprietary component makers; capex is lumpy and funded ahead of revenue [4][11].",
+  "## What has changed now\n**The national demand signal is strong: IIP NIC 28 output is +10.3% YoY and +10.4% Apr-to-date, with exports +19.8% Apr-to-date in USD** [D]. Maharashtra GST collections are +8.6% Apr-to-date against India's +6.1%, so the local tax base is growing faster than the country [D]. **The local constraint is power quality, not demand:** MIDC Industries Association has asked MSEDCL for more transformer capacity and new substations, citing dips and fluctuations that damage CNC machines and motors [3]. So when a proposal lands, check the unit's feeder and backup; if it runs sensitive CNC without stabilisation, ask for the downtime log and the insurance cover.",
+  "## Where the growth is\n**Pursue component and sub-assembly makers feeding data centres, mining, off-highway, railways and transmission** — peers report record order books and export growth in exactly these lines [4][6]. **Pursue exporters and Tier-2 suppliers to large OEMs**, since export momentum is running at +19.8% Apr-to-date [D]. **Avoid pure EPC and long-execution contractors** unless receivables are clean: peers show revenue growth without margin — Suzlon's EBITDA margin narrowed to 14.8% from 18.6% [7], and EPC cash conversion cycles run longer than OEMs [11]. Local news on Nagpur MSMEs is thin [1][2], so lean on first principles and these peers.",
+  "## How to grow safely\n**Structure against the working-capital cycle, not the balance sheet.** Take monthly stock and receivable statements, and a monthly power-outage log for CNC-heavy units [3]. **Ask for the order book with buyer names and delivery dates** — DEE's order book crossed Rs 1,300 crore with revenue up 77% YoY to Rs 286.7 crore [5]; that is the visibility we want to see replicated. **Price for the guarantee burden:** bank guarantees for bidding tie up limits [9], so size non-fund limits separately and review utilisation monthly.",
+  "## Early-warning signs\n**Watch receivable days stretching past the stated credit terms, inventory building without matching orders, and repeated power-related production losses** [3][9]. **Watch margin compression despite volume growth** — the Suzlon pattern of 26% revenue growth with flat EBITDA at Rs 720 crore [7] is the signal to reprice or exit. **Watch order book concentration:** if one buyer is over half the book, ask for the contract and payment history before renewal."
+ ],
+ "watch": [
+  [
+   "Monthly receivable and stock statement",
+   "Receivable days exceed stated terms for two months -> freeze enhancement, ask for buyer confirmations"
+  ],
+  [
+   "Monthly power-outage and downtime log",
+   "More than routine dips damaging machines -> require stabiliser or backup before renewal [3]"
+  ],
+  [
+   "Quarterly order book and buyer concentration",
+   "Single buyer above half the book -> seek contract copy and diversify or reduce limit"
+  ],
+  [
+   "Monthly BG and non-fund utilisation",
+   "Utilisation near limit with slow billing -> resize limits, review pricing [9]"
+  ],
+  [
+   "Quarterly EBITDA margin",
+   "Margin falls while revenue rises -> reprice or exit, per peer pattern [7]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "National output and exports strong, Maharashtra GST ahead of India; local power gaps are the offset.",
+ "articles": [
+  {
+   "title": "msmes nagpur: Latest News & Videos, Photos about msmes nagpur | The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/msmes-nagpur",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Mohan Agrawal to Receive Lifetime Achievement Award in Nagpur",
+   "url": "https://www.nagpurtoday.in/mohan-agrawal-to-receive-lifetime-achievement-award-in-nagpur/",
+   "date": "2026-10-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Entrepreneurs seek power infrastructure overhaul to support industrial growth",
+   "url": "https://www.thehitavada.com/Encyc/2026/10/5/entrepreneurs-seek-power-infrastructure-overhaul-to-support-industrial-growth.html",
+   "date": "2026-10-04",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Pitti Engineering Bets Big on Growth Amid Margin Strain - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/pitti-engineering-bets-big-on-growth-amid-margin-strain#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "DEE’s order book crosses Rs 1,300 crore as Q3 profit rebounds sharply - DEE Development Engineers Ltd",
+   "url": "https://www.financialexpress.com/business/news/dees-order-book-crosses-rs-1300-crore-as-q3-profit-rebounds-sharply/4132452/?ref=Alsoread_article#1",
+   "date": "2026-02-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SKPL/SECT/2026-27/103",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7562945-dfe3-4861-a0ac-9b5f25acd39e.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India Wind Energy Market Tests Suzlon’s Growth Model",
+   "url": "https://urbanacres.in/indias-wind-energy-boom-is-testing-suzlons-growth-model/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating rationale Anawil Wire and Engineering Ltd",
+   "url": "https://nsearchives.nseindia.com/corporate/ANAWIL_21082026125904_Final_RR__Anawil_Wire_and_Engineering_Ltd.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| J Kumar    | ICRA A1    | ICRA A+    | Stable    | The rating favourably factors in JKIL’s strong OB position, which provides ...",
+   "url": "https://www.hdfcsec.com/hsl.docs//Industrials%20-%20N%E2%80%99HAI%E2%80%99%20Way%20-%20HSIE-202310251417508242006.pdf#11#40#11",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- **R$’000 crore**",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/may/the-march-of-capital-goods.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 68 (national 80 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

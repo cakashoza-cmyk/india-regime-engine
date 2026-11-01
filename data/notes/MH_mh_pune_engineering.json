@@ -1,0 +1,154 @@
+{
+ "key": "mh_pune|engineering",
+ "state": "MH",
+ "city": "mh_pune",
+ "ind": "engineering",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 68,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Pune engineering & capital goods — pursue export-linked component makers and asset-light subcontractors with order visibility; avoid leveraged greenfield casters and EPC bidders living on bank guarantees.",
+ "title": "Pune Engineering & Capital Goods: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Pune engineering is a conversion business: steel, castings and forgings go in, machined components and sub-assemblies come out, and cash comes back only after the OEM or export buyer accepts the part.** The city's cluster sits around Pimpri-Chinchwad, where the auto cluster exhibition halls host both Subcontract India 2026 (17–19 December, EEPC India, ~5,000 business visitors and 100 overseas buyers advertised) [1] and MOTOTECH 2026, whose opening focused on EV readiness and MSME use of cluster prototyping facilities [3]. Those are organiser-advertised figures, not confirmed attendance [1].\n\n## Where value and cash sit\n**Value sits in the machining tolerance and the approved-vendor status, not in the metal; cash sits in receivables and in the bank guarantee.** Peer results show the split: DEE Development Engineers grew revenue 77% YoY to ₹286.7 crore in Q3FY26 with operating profit up more than sevenfold to ₹47.6 crore, largely oil-and-gas piping [5]; Skipper posted its highest-ever Q2 revenue with PAT up 56% [6]; Suzlon grew revenue 26% to ₹4,869 crore but EBITDA stayed near ₹720 crore and margin fell to 14.8% from 18.6% [7]. **Volume growth without margin is the pattern to underwrite against.** Rating commentary flags that EPC cash conversion cycles run longer than OEMs, and that bank guarantees are required for bidding [9][11]. So when a proposal lands, check the receivable days and the non-fund-based limit separately; if the BG line is larger than the term loan, ask what happens to liquidity if one tender is lost.\n\n## What has changed now\n**The demand signal is real and national; the Pune-specific read is thin.** India IIP for NIC 28 is +10.3% YoY and +10.4% Apr-to-date, and exports are +19.8% Apr-to-date in USD [D]. Maharashtra GST collections are +8.6% Apr-to-date against India's +6.1% [D]. Local sources are event notices, not order data [1][3] — **treat Pune as first principles plus peers.** Pitti Engineering is commissioning a Hyderabad casting and machining plant in phases through FY2030 on data-centre, mining and railway order visibility [4]; that is where capex risk is building.\n\n## Who to pursue, and how to grow safely\n**Pursue tier-2 machining and sub-assembly suppliers with a named OEM or export buyer, and asset-light subcontractors feeding the December Subcontract India buyer meets [1].** Avoid greenfield casting capex and EPC bidders whose order book is unexecuted [4][9]. Structure as a cash-flow loan against assigned receivables, keep BG and LC limits ring-fenced, and covenant a minimum EBITDA margin and receivable days. Take monthly stock-and-receivable statements, quarterly GST returns, and the order-book position every month.\n\n## Early-warning signs\n**Watch receivable days stretching past the peer norm, margin slipping while revenue rises (the Suzlon pattern [7]), and BG utilisation climbing without fresh orders.** If a borrower's top buyer share crosses half of revenue, ask for the buyer's payment history before renewal."
+ ],
+ "watch": [
+  [
+   "Monthly receivable statement",
+   "Receivable days rise two months running -> cut limit and ask for buyer-wise ageing"
+  ],
+  [
+   "Quarterly GST returns",
+   "GST turnover falls below bank statement credits -> reprice or exit at renewal"
+  ],
+  [
+   "Monthly order book",
+   "Order book falls while BG outstanding rises -> freeze new non-fund limits"
+  ],
+  [
+   "Quarterly EBITDA margin",
+   "Margin falls while revenue grows -> shift to receivable-backed structure"
+  ],
+  [
+   "Annual rating report",
+   "Rating downgrade or outlook change -> reassess collateral cover"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "National IIP and export data strong; Pune sources are event notices, not order data.",
+ "articles": [
+  {
+   "title": "Subcontract India 2026 to Connect Indian Engineering Manufacturers with Global Buyers in Pune",
+   "url": "https://www.exhibitionshowcase.com/subcontract-india-2026-to-connect-indian-engineering-manufacturers-with-global-buyers-in-pune/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "भारताचे Manufacturing Hub बनण्याचे स्वप्न आणखी मजबूत! Seco India च्या पुण्यातील कारभाराला 30 वर्षे पूर्ण; काय आहे नवा प्लॅन? | Navarashtra",
+   "url": "https://www.navarashtra.com/business/seco-india-completes-30-years-pune-plant-expansion-marathi-ak-1369899.html",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "MOTOTECH 2026 Pune inaugurated; industry collaboration and EV readiness take centre stage | OEM Update",
+   "url": "https://www.oemupdate.com/event/mototech-2026-pune-inaugurated-industry-collaboration-and-ev-readiness-take-centre-stage/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Pitti Engineering Bets Big on Growth Amid Margin Strain - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/pitti-engineering-bets-big-on-growth-amid-margin-strain#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "DEE’s order book crosses Rs 1,300 crore as Q3 profit rebounds sharply - DEE Development Engineers Ltd",
+   "url": "https://www.financialexpress.com/business/news/dees-order-book-crosses-rs-1300-crore-as-q3-profit-rebounds-sharply/4132452/?ref=Alsoread_article#1",
+   "date": "2026-02-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SKPL/SECT/2026-27/103",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7562945-dfe3-4861-a0ac-9b5f25acd39e.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India Wind Energy Market Tests Suzlon’s Growth Model",
+   "url": "https://urbanacres.in/indias-wind-energy-boom-is-testing-suzlons-growth-model/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating rationale Anawil Wire and Engineering Ltd",
+   "url": "https://nsearchives.nseindia.com/corporate/ANAWIL_21082026125904_Final_RR__Anawil_Wire_and_Engineering_Ltd.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| J Kumar    | ICRA A1    | ICRA A+    | Stable    | The rating favourably factors in JKIL’s strong OB position, which provides ...",
+   "url": "https://www.hdfcsec.com/hsl.docs//Industrials%20-%20N%E2%80%99HAI%E2%80%99%20Way%20-%20HSIE-202310251417508242006.pdf#11#40#11",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- **R$’000 crore**",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/may/the-march-of-capital-goods.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 68 (national 80 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,158 @@
+{
+ "key": "jh_ranchi|engineering",
+ "state": "JH",
+ "city": "jh_ranchi",
+ "ind": "engineering",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 68,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Ranchi engineering & capital goods at or above the 65 threshold, but only to OEM/fabrication units with order visibility and clean safety records; avoid EPC contractors with thin margins and HEC-dependent ancillaries.",
+ "title": "Ranchi Engineering & Capital Goods: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Ranchi's engineering base is fabrication, castings, transmission structures and EPC work, converting steel and bought-out components into order-bound output.** Cash turns on order execution, not on shelf sales: value sits in the order book and in work-in-progress, and is released only when the client certifies and pays. The city's anchor institutions — HEC, CMPDI and MECON — built this skill pool [2], so the borrower universe is technically strong but institution-dependent. **The data pack gives us no Ranchi-specific output or order-book figure, so collect from customer before you size any exposure.**",
+  "## Where cash and value sit\n**Working capital is the whole game: receivables and inventory net of payables decide whether growth funds itself or eats the bank [9].** EPC players carry a longer cash conversion cycle than OEMs because execution periods run long [11], and bid and performance bank guarantees tie up limits before a single rupee of revenue arrives [9]. **So when a proposal lands, check the receivable days against the order's payment terms; if retention and milestone billing stretch beyond the stated cycle, ask for the client-wise ageing and the guarantee exposure.** Pricing power is thin — peers show volume growth without margin: Suzlon grew revenue 26% to Rs 4,869 crore in Q2 FY27 while EBITDA stayed near flat at Rs 720 crore and margin narrowed to 14.8% from 18.6% [7].",
+  "## What has changed now\n**The demand signal is genuinely local: Jharkhand electricity demand is up 15.2% Apr-to-date against India's 9.5%, 5.7 pp faster [D].** Nationally, capital goods output (NIC 28) is up 10.3% YoY and 10.4% Apr-to-date, with exports up 19.8% Apr-to-date in USD [D]. Peer results confirm order flow — DEE's order book crossed Rs 1,300 crore with Q3 revenue up 77% to Rs 286.7 crore [5], and Skipper posted its highest-ever Q2 revenue with PAT up 56% [6]. **But the local news is a safety failure: a worker died at a KDH Projects site in Ranchi when a safety belt snapped at 30 metres [1], and HEC runs at only 20% capacity with 14 engineers leaving this year [3].** Treat both as credit facts, not colour.",
+  "## Who to pursue, and how to grow safely\n**Pursue OEM and fabrication units supplying power transmission, railway and data-centre demand, and exporters riding the 19.8% export run-rate [D].** Pitti's expansion is backed by order visibility across data centres, mining, off-highway and railways [4] — that is the borrower profile to chase. **Avoid pure EPC contractors with no retention cushion and any unit whose order book leans on HEC.** Structure against the cycle: cash-flow-based limits, monthly stock and receivable statements, and a guarantee sub-limit inside the sanctioned line [9]. Take the order book and client-wise ageing every month, and the safety incident log every quarter.",
+  "## Early-warning signs\n**Watch receivable days crossing the sanctioned cycle, guarantee utilisation above the sub-limit, and order-book concentration in one client.** A site fatality or safety notice — as at KDH [1] — should trigger a site visit and a hold on fresh disbursal until the contractor's safety compliance is documented. Falling capacity utilisation at an anchor unit, as at HEC's 20% [3], means its vendors' order flow is at risk; ask for their order pipeline before renewing."
+ ],
+ "watch": [
+  [
+   "Monthly receivable and ageing statement",
+   "Receivable days exceed the order's payment terms -> ask for client-wise ageing and hold fresh disbursal"
+  ],
+  [
+   "Monthly bank guarantee utilisation",
+   "Utilisation crosses the sanctioned sub-limit -> seek cash margin or reduce the limit"
+  ],
+  [
+   "Quarterly order book and client concentration",
+   "Single client above a third of order book -> seek diversification plan or cap exposure"
+  ],
+  [
+   "Site safety incident log (quarterly)",
+   "Fatality or safety notice at a borrower site -> site visit and pause disbursal until compliance is documented"
+  ],
+  [
+   "Monthly capacity utilisation at anchor units",
+   "HEC-type utilisation stays at 20% [3] -> review vendor order pipeline before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Ranchi site fatality and HEC running at 20% capacity offset strong state power demand.",
+ "articles": [
+  {
+   "title": "रांची में केडीएच परियोजना के शैलो प्रोजेक्ट में बड़ा हादसा, 30 मीटर की ऊंचाई पर टूटा सेफ्टी बेल्ट, मजदूर की मौत | Live Dainik-Latest & Live News in Hindi",
+   "url": "https://livedainik.com/accident-at-the-kdh-projects-shallow-site-in-ranchi-safety-belt-snaps-at-height-of-30-meters-worker-dies/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "विश्वकर्मा पूजा : रांची की इंजीनियरिंग क्षमता ने देश को दी औद्योगिक ताकत - विश्वकर्मा पूजा : रांची की इंजीनियरिंग क्षमता ने देश को दी औद्योगिक ताकत",
+   "url": "https://www.livehindustan.com/national/story-engineering-excellence-in-ranchi-hec-cmpdi-and-mecon-s-contributions-to-national-development-201789589259899.html#1",
+   "date": "2026-09-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "एचईसी में क्षमता का मात्र 20% काम, इस साल 14 इंजीनियरों ने छोड़ी नौकरी - Ranchi News - - Hindi News",
+   "url": "https://www.bhaskar.com/local/jharkhand/ranchi/news/hec-operates-at-just-20-capacity-with-14-engineers-leaving-their-jobs-this-year-dbp-138053580.html#1",
+   "date": "2026-05-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Pitti Engineering Bets Big on Growth Amid Margin Strain - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/pitti-engineering-bets-big-on-growth-amid-margin-strain#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "DEE’s order book crosses Rs 1,300 crore as Q3 profit rebounds sharply - DEE Development Engineers Ltd",
+   "url": "https://www.financialexpress.com/business/news/dees-order-book-crosses-rs-1300-crore-as-q3-profit-rebounds-sharply/4132452/?ref=Alsoread_article#1",
+   "date": "2026-02-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SKPL/SECT/2026-27/103",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7562945-dfe3-4861-a0ac-9b5f25acd39e.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India Wind Energy Market Tests Suzlon’s Growth Model",
+   "url": "https://urbanacres.in/indias-wind-energy-boom-is-testing-suzlons-growth-model/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating rationale Anawil Wire and Engineering Ltd",
+   "url": "https://nsearchives.nseindia.com/corporate/ANAWIL_21082026125904_Final_RR__Anawil_Wire_and_Engineering_Ltd.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| J Kumar    | ICRA A1    | ICRA A+    | Stable    | The rating favourably factors in JKIL’s strong OB position, which provides ...",
+   "url": "https://www.hdfcsec.com/hsl.docs//Industrials%20-%20N%E2%80%99HAI%E2%80%99%20Way%20-%20HSIE-202310251417508242006.pdf#11#40#11",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- **R$’000 crore**",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/may/the-march-of-capital-goods.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 68 (national 80 x 0.6 + Jharkhand 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Jharkhand: electricity demand +15.2% Apr-to-date vs India +9.5% (5.7 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
