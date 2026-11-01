@@ -1,0 +1,150 @@
+{
+ "key": "rj_neemrana|auto_components",
+ "state": "RJ",
+ "city": "rj_neemrana",
+ "ind": "auto_components",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively in Neemrana auto components to tier-1/tier-2 suppliers with OEM-backed order books and tight covenants; avoid single-OEM, EV-powertrain-exposed and thin-margin job-work units until local demand signals improve.",
+ "title": "Neemrana Auto & Auto Components: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**An auto-component plant in Neemrana takes steel, aluminium, plastic and electronics, stamps or moulds them into parts, and sells them to OEMs on annual price-down contracts.** Cash is made on volume and tooling, not price: OEMs demand a yearly cost reduction, so margin comes from utilisation and yield. Working capital sits in receivables from OEMs and in inventory of metals; capex is press/mould lines and tooling. **So when a proposal lands, check the OEM contract tenure and the annual price-down clause first; if the buyer is a single OEM, ask for the second customer pipeline.**",
+  "## What has changed now\n**The national picture is strong but the local one is not.** India-wide auto-component output (NIC 29) is up 25.2% YoY and 19.2% Apr-to-date [D], and peers confirm demand: Motherson Sumi Wiring profit up 35% to Rs 223 crore with revenue up 46.7% to Rs 4,054 crore [4], Lumax lifted its growth outlook [7]. **But Rajasthan GST collections are -4.7% Apr-to-date against India +6.1%, and electricity demand +4.0% against India +9.5% [D] — the state is running 10.8 pp and 5.5 pp behind the country.** Treat that as a local demand and cash-cycle warning, not a national one.",
+  "## Where the growth is\n**Neemrana has real anchor investment: Toyoda Gosei's airbag plant [2] and Tokai Rika Minda's smart keys, shift levers and seat belts plant at 384,022 units per month [3].** Both are 2024 news, so verify current utilisation with the customer. **Pursue tier-2 suppliers feeding these anchors — wiring, plastics, stamping, seat-belt and airbag sub-assemblies — with purchase orders from more than one tier-1.** Avoid pure job-work units and engine/diesel-part makers: rating commentary flags higher obsolescence risk for engine-related parts as EVs spread [11].",
+  "## How to grow safely\n**Structure against the working-capital cycle, not the P&L.** Rating commentary notes gross current assets averaging 160-170 days [10], so size the drawing power on that cycle and take monthly stock and debtor statements. **Covenant Debt/EBITDA below 2.5-2.75 times [10] and a minimum 1.2x current ratio; if the proposal breaches either, ask for promoter infusion before sanction.** Take monthly GST returns, quarterly OEM order books and a half-yearly stock audit.",
+  "## Early-warning signs\n**Watch the local signals, not the national headline.** If Rajasthan GST stays negative for another quarter [D], tighten new sanctions. If a borrower's electricity bill or power-factor reading falls, that is falling utilisation — ask for the production log. **If a borrower's OEM price-down exceeds the metal-cost pass-through, margin is being squeezed; ask for the revised costing sheet.** Rating reports here are undated, so treat them as methodology, not current fact."
+ ],
+ "watch": [
+  [
+   "GST returns (monthly)",
+   "Two consecutive months of falling turnover -> freeze limit enhancement and ask for debtor ageing"
+  ],
+  [
+   "Electricity bill / production log (monthly)",
+   "Power consumption down >10% QoQ -> site visit and stock verification"
+  ],
+  [
+   "Debt/EBITDA (quarterly)",
+   "Above 2.75 times -> covenant breach notice and promoter infusion demand"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Rajasthan GST and power demand trail India sharply despite strong national auto output.",
+ "articles": [
+  {
+   "title": "New & Upcoming Projects in Auto Components / Ancillaries Projects in Rajasthan - Page 3",
+   "url": "https://newprojectstracker.com/projects-india/auto-components-ancillaries/rajasthan?page=3",
+   "date": "2026-07-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Toyoda Gosei starts operations at airbag plant in Northern India | Automotive World",
+   "url": "https://www.automotiveworld.com/news-releases/toyoda-gosei-starts-operations-at-airbag-plant-in-northern-india/",
+   "date": "2024-10-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Uno Minda’s JV opens new manufacturing plant in Rajasthan",
+   "url": "https://www.moneyworks4me.com/company/news/index/id/683724",
+   "date": "2024-08-23",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 100 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

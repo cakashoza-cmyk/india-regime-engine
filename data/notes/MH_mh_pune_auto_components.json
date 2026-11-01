@@ -1,0 +1,153 @@
+{
+ "key": "mh_pune|auto_components",
+ "state": "MH",
+ "city": "mh_pune",
+ "ind": "auto_components",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Pune auto components — pursue tier-2/3 ICE-and-EV-agnostic suppliers and pre-owned vehicle financiers; avoid single-OEM, engine-part-concentrated, thin-margin borrowers.",
+ "title": "Pune Auto & Auto Components: a note to the credit manager",
+ "narrative": [
+  "## Where value and cash actually sit\n**Pricing power sits with whoever owns the design; pure job-work shops have none.** CRISIL notes that complex parts like diesel fuel injection systems carry real pricing power, while engine-and-related-part suppliers face higher obsolescence risk as EVs spread [11]. So when a proposal lands, check the product mix; if more than half of revenue is engine/transmission parts for one ICE platform, ask what the EV transition plan is and who funds the tooling. Margin is squeezed from the commodity side too — ASK Automotive reported record revenue but aluminium squeezing margins [5].",
+  "## What has changed now\n**Demand is strong but credit is running ahead of output.** India-wide auto-parts output (NIC 29) is up 25.2% YoY and 19.2% Apr-to-date [D], while bank credit to the sector is up 27.0% YoY — a gap of 7.8 pp [D]. That gap is where over-lending hides. Maharashtra GST collections are growing 8.6% Apr-to-date versus India's 6.1% [D], so the local pull is real. Peer results confirm the volume: Motherson Sumi Wiring profit up 35% to Rs 223 crore on revenue up 46.7% to Rs 4,054 crore [4], and Lumax beat Q2 2026 estimates and lifted its outlook [7]. Note the CNBC TV18 piece is from April 2026 and flags margin pressure from commodity risk [6] — treat it as dated context, not current.",
+  "## Where to grow, and how to grow safely\n**Pursue tier-2/3 suppliers with two or more OEM customers, EV-agnostic tooling, and a genuine aftermarket leg.** The Pune pre-owned car market is booming — dealers report bookings up 40% since last year on affordability and easy financing [1] — so used-vehicle dealer and NBFC-partner lending is a live adjacent opportunity. MOTOTECH 2026 in Chinchwad put EV readiness and MSME collaboration centre stage [2], and the components and aftermarket show runs in Pune this November [3]; use these to source borrowers, not to justify them. Structure against receivables with a charge on current assets, keep Debt/EBITDA inside 2.5-2.75x [10], and take stock statements plus OEM payment advices every month.",
+  "## Early-warning signs\n**Watch receivable days drifting past the 160-170 day band [10], a single OEM crossing half of revenue, and aluminium or steel input spikes not passed through [5].** If any of these appear, cut limits and ask for the customer's hedging policy — ICRA's methodology treats hedging policy and exposure relative to profits as a core analytical focus [8]. Pune-specific data is thin: the sources tell us about events and used-car demand, not about component-maker balance sheets in the city, so lean on first principles and the peer numbers above."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Receivable days cross 170 -> freeze fresh limits and seek OEM payment advices"
+  ],
+  [
+   "Quarterly GST returns vs bank turnover",
+   "GST turnover falls below 80% of banking turnover -> ask for the sales register and re-rate"
+  ],
+  [
+   "Quarterly commodity cost pass-through",
+   "Aluminium/steel cost rise not recovered in price -> ask for hedging policy and margin bridge"
+  ],
+  [
+   "Annual customer concentration",
+   "Single OEM above 50% of revenue -> require diversification plan before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Pune used-car bookings up 40%, Maharashtra GST outpacing India, peer profits rising.",
+ "articles": [
+  {
+   "title": "Affordability & easy financing drive pre-owned car demand in Pune this festive season; dealers say bookings rise by 40% since last year",
+   "url": "https://timesofindia.indiatimes.com/city/pune/affordability-easy-financing-drive-pre-owned-car-demand-in-pune-this-festive-season-dealers-say-bookings-rise-by-40-since-last-year/articleshow/135410995.cms",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "MOTOTECH 2026 Pune inaugurated; industry collab… | UNI India",
+   "url": "https://www.uniindia.com/west-india/event-mototech-pune/232229",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Pune hosting Auto Components & Aftermarket Show this November",
+   "url": "https://hindustanmetro.com/pune-hosting-auto-components-aftermarket-show-this-november",
+   "date": "2026-10-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 100 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

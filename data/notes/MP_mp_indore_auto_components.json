@@ -1,0 +1,158 @@
+{
+ "key": "mp_indore|auto_components",
+ "state": "MP",
+ "city": "mp_indore",
+ "ind": "auto_components",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Indore auto & components, but only to tier-1/tier-2 suppliers with diversified OEM order books and tight monthly monitoring; avoid single-OEM, EV-powertrain-exposed and thin-margin job-work units.",
+ "title": "Indore Auto & Auto Components: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Indore's auto cluster is component fabrication and sub-assembly feeding OEMs, plus a strong local vehicle-retail pull.** Inputs are steel, aluminium and bought-out castings; cash comes back only after the OEM approves the part, runs it through its line and pays on its cycle. **Value sits in the tooling and the approved-part relationship, not in the machine.** So when a proposal lands, check whether the borrower owns its dies and has a written schedule agreement; if the part is made to a single customer's drawing with no tooling ownership, ask who pays for the die and what happens on model change.",
+  "## Where cash and margin actually sit\n**Pricing power is thin and passed through, so margin is made on operating efficiency, not price.** Peer results show the split: Motherson Sumi Wiring lifted net profit 35% to Rs 223 crore on revenue up 46.7% to Rs 4,054 crore [4], while ASK Automotive hit record revenue but aluminium squeezed margins [5]. **Working capital is the real loan.** Rating commentary puts gross current assets at 160-170 days [10], and flags Debt/EBITDA above 2.5-2.75 times as the stress line [10]. So when a proposal lands, check the receivable days against the named OEM's actual payment record; if receivables run past the stated OEM cycle, ask for the bank statement showing receipts, not the ledger.",
+  "## What has changed now\n**National output is strong but credit is running ahead of it.** IIP for NIC 29 is +25.2% YoY and +19.2% Apr-to-date [D], yet bank credit is +27.0% YoY against that +19.2% output, a gap of +7.8 pp [D].",
+  "## Who to pursue, who to avoid\n**Pursue tier-1 and tier-2 component makers with two or more OEM customers, owned tooling and EV-agnostic parts.** Lumax Auto raised its growth guidance on a strong first half [7], and ASK is winning EV components across braking and lightweighting [5] - that is the borrower profile to back. **Avoid single-OEM job-work units, engine-and-fuel-system specialists facing obsolescence [11], and anyone whose growth is funded by credit rather than orders.** If a proposal's sales growth outruns the OEM's own volume growth, ask for the purchase order book before sanction.",
+  "## How to grow safely\n**Structure short, secure the receivables, and take numbers every month.** Keep tenor inside the OEM payment cycle, take hypothecation of receivables and a charge on tooling, and cap Debt/EBITDA at 2.5 times in covenant [10]. **Every month take the sales register, the top-customer receivable ageing and the GST return.** If receivable days stretch beyond the agreed OEM cycle for two months, cut the drawing power; if Debt/EBITDA crosses 2.5 times, stop fresh limits and review."
+ ],
+ "watch": [
+  [
+   "Monthly GST return vs sales register",
+   "GST turnover falls below book sales for two months -> ask for the purchase order book and re-rate the limit"
+  ],
+  [
+   "Top-customer receivable ageing (monthly)",
+   "Days past the agreed OEM cycle widen for two months -> cut drawing power"
+  ],
+  [
+   "Debt/EBITDA from monthly stock statement (monthly)",
+   "Crosses 2.5 times [10] -> freeze fresh limits and review"
+  ],
+  [
+   "Aluminium/steel input cost vs pass-through (quarterly)",
+   "Margin squeeze persists two quarters as in ASK [5] -> rework pricing covenant"
+  ],
+  [
+   "MP GST collection trend (monthly)",
+   "Stays negative against India's +6.1% [D] -> slow new-to-bank sanctions in the cluster"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "MP GST -0.1% vs India +6.1% and credit outpacing output by 7.8 pp signal local stress.",
+ "articles": [
+  {
+   "title": "ऑटोमोबाइल: 10 दिन में 9 हजार से ज्यादा वाहनों की बुकिंग - Indore News",
+   "url": "https://www.bhaskar.com/g/local/mp/indore/news/over-9000-vehicles-booked-in-10-days-dbp-139555470.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ऑटोमोबाइल: 10 दिन में 9 हजार से ज्यादा वाहनों की बुकिंग - Indore News",
+   "url": "https://www.bhaskar.com/local/mp/indore/news/over-9000-vehicles-booked-in-10-days-dbp-139555470.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Pune vs Indore: Which Industry Provides Better ROI For Aspirants ? Check Detailed Comparison Here - Pune vs Indore: Which Industry Provides Better ROI For Aspirants ? Check Detailed Comparison Here",
+   "url": "https://www.jagranjosh.com/articles/pune-vs-indore-which-industry-provides-better-roi-for-aspirants-check-detailed-comparison-here-1800017131-1#1",
+   "date": "2026-09-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 100 x 0.6 + Madhya Pradesh 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Madhya Pradesh: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

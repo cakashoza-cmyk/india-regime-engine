@@ -1,0 +1,158 @@
+{
+ "key": "rj_bhiwadi|auto_components",
+ "state": "RJ",
+ "city": "rj_bhiwadi",
+ "ind": "auto_components",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively in Bhiwadi auto components only to gas-secured, OEM-diversified tier-2 units with tight monthly monitoring; avoid single-customer, gas-dependent plants.",
+ "title": "Bhiwadi Auto & Auto Components: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Bhiwadi's auto-component units are press-shop and machining jobbers that convert steel, aluminium and gas-fired heat into parts for OEMs, and cash sits in the OEM's payment cycle, not in the plant.** Inputs are metal and energy; output is billed to a handful of large vehicle makers who set price and payment terms. Value sits in tooling and design complexity, not in commodity stamping, so pricing power is thin for job-work units and thick only where the part is design-critical [11]. Working capital is the real risk: gross current assets have averaged 160-170 days in recent years [10], so when a proposal lands, check the receivable days against that band; if debtors run past it, ask which OEM and what credit terms.",
+  "## What has broken now\n**The local shock is energy, not demand: 400 factories are reported on the brink of closure with production halved and 25,000 jobs at risk [1].** That report is from April 2026 and describes a gas crisis forcing single-shift running [1], so when a proposal lands, check the unit's gas supply contract and shift pattern first; if it is running one shift on spot gas, ask for the landed energy cost per part. The state backdrop is weak: Rajasthan GST collections are -4.7% Apr-to-date against India +6.1%, and electricity demand +4.0% against India +9.5% [D]. **Treat Bhiwadi as a stressed cluster inside a strong national cycle, not as a growth market.**",
+  "## Where the growth is\n**National auto-component demand is running hard: IIP NIC 29 output is +25.2% YoY and +19.2% Apr-to-date [D], and peers confirm it.** Motherson Sumi Wiring grew revenue 46.7% to Rs 4,054 crore with net profit up 35% to Rs 223 crore [4]; Lumax beat Q2 2026 estimates and lifted its growth target [7]. **Pursue tier-2 suppliers feeding these diversified, EV-exposed chains, and avoid single-OEM stamping units exposed to engine and related parts, where obsolescence risk is rising as EVs spread [11].** Note the peer caution: margins may come under pressure even as volumes stay strong [6], and aluminium is squeezing margins at ASK [5].",
+  "## How to grow safely\n**Structure for the energy shock: shorter tenor, tighter drawing power, and a covenant on shift utilisation.** Take monthly gas bills, electricity bills and OEM payment advices; if receivables stretch beyond the 160-170 day band [10], cut limits. Ask for the customer-wise sales mix; if one OEM is above half, ask for a diversification plan before enhancing. **Avoid units with debt-funded capex and Debt/EBITDA above 2.5-2.75 times [10].**",
+  "## Early-warning signs\n**Watch the gas bill and the shift register before the balance sheet.** A move to single-shift running, a missed OEM payment advice, or a sudden drop in electricity draw are the first signals; act on them the same month."
+ ],
+ "watch": [
+  [
+   "Gas bill and shift register (monthly)",
+   "single-shift running or spot-gas buying -> freeze enhancement, ask for energy cost per part"
+  ],
+  [
+   "OEM payment advices and debtor days (monthly)",
+   "receivables past 160-170 days [10] -> cut drawing power"
+  ],
+  [
+   "Customer concentration (quarterly)",
+   "one OEM above half of sales -> require diversification plan before any limit increase"
+  ],
+  [
+   "Debt/EBITDA and capex funding (quarterly)",
+   "above 2.5-2.75 times [10] or debt-funded capex -> decline or restructure"
+  ],
+  [
+   "Rajasthan GST and power demand (monthly)",
+   "continued underperformance vs India [D] -> tighten cluster limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Bhiwadi gas crisis halved output at 400 factories; Rajasthan GST and power lag India.",
+ "articles": [
+  {
+   "title": "25,000 could lose jobs in Rajasthan amid energy crisis: 400 factories on the brink of closure with production halved - Rajasthan News - - English News",
+   "url": "https://www.bhaskarenglish.in:443/local/rajasthan/news/bhiwadi-factories-one-shift-gas-crisis-production-cut-400-factories-closure-risk-137692628.html?_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT81Lz8ksztBLykgszk4s0kvOz9X3qDA1NS3LMssySrKvK0pNSy0qysxLj08qyi8vTi2ydc4oys9NBQDXyjU3QQAAAA%3d%3d&utm_campaign=137692628#1",
+   "date": "2026-04-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "अब ऑर्डर का इंतजार: भिवाड़ी की 400 कंपनियों में उत्पादन शुरू - Bhiwadi News - अब ऑर्डर का इंतजार:भिवाड़ी की 400 कंपनियों में उत्पादन शुरू",
+   "url": "https://www.bhaskar.com/local/rajasthan/alwar/bhiwadi/news/bhiwadi-400-companies-start-production-127289977.html#1",
+   "date": "2020-05-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "BHIWADI AUTO COMPONENTS PRIVATE LIMITED - U74900DL1994PTC058471",
+   "url": "https://www.instafinancials.com/company/bhiwadi-auto-components-private-limited-U74900DL1994PTC058471",
+   "date": "2016-04-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 100 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

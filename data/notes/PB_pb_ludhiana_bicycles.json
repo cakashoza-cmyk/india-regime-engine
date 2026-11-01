@@ -1,0 +1,154 @@
+{
+ "key": "pb_ludhiana|bicycles",
+ "state": "PB",
+ "city": "pb_ludhiana",
+ "ind": "bicycles",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Ludhiana bicycles & parts — back assemblers and component makers with GST-paid turnover and a funded working-capital cycle; skip loss-making, export-dependent names.",
+ "title": "Ludhiana Bicycles & Parts: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Ludhiana's bicycle cluster turns steel tube, strip and bought-out components into frames, forks, rims and complete cycles, and cash comes back only after the dealer or OEM pays.** The value sits in the assembly line and the brand, not in the steel — so the borrower's real asset is its order book and its dealer network, not its shed. Cost is dominated by steel and components; pricing power is thin because a cycle is a commodity and the buyer compares three quotes. Working capital is the whole game: steel must be bought and paid for before a cycle is sold, so the cycle is long and the bank funds it. Capex is modest — a paint line or a welding jig — so a proposal asking for large term debt for 'expansion' deserves a hard look at what is actually being bought.\n\n## What has changed now\n**The local signal is a working-capital squeeze, not a demand collapse.** Ludhiana industry has asked for GST on steel to be cut to 5% specifically to ease the MSME working-capital crunch [2], and CICU has taken time-bound GST refunds and manufacturing-friendly reform to the CBIC Chairman [1]. Read that plainly: **refunds are slow and input credit is stuck, so the borrower's cash is parked with the government, not with us.** The demand side is better — the Khelo India sports goods manufacturing scheme has been approved and bicycle-industry stakeholders in Ludhiana have welcomed it [3]. On the national read, IIP for NIC 30 is +25.3% YoY and +22.7% Apr-to-date, while bank credit is +27.0% YoY, a gap of +4.3 pp [D] — **credit is running ahead of output, so some of what we are being asked to fund is inventory build, not sales.** Punjab GST is +9.7% Apr-to-date against India's +6.1% [D], a genuine local tailwind. Peer read: Tube Investments' bicycle segment revenue rose to 194 crores from 168 crores, with total revenue +11.5% [4][5] — but that is a 2025 call and is old; treat it as direction, not current fact. Atlas Cycles is reported loss-making with declining revenue [7].\n\n## Where to grow\n**Pursue component and frame makers selling to organised OEMs, and assemblers with a domestic dealer network and GST-paid turnover.** The Khelo India scheme approval [3] points to sports-goods adjacencies — cycle pumps, helmets, fitness equipment — and those borrowers are worth a call now. **Avoid pure export assemblers and anyone whose numbers only work at a steel price they do not control**; Atlas's loss-making, revenue-declining profile [7] is the shape of that borrower. When a proposal lands, check the GST return against the sales figure; if the gap is more than a month's sales, ask where the difference sits.\n\n## How to grow safely\n**Structure as a cash-flow loan against a drawing power built on paid GST invoices, not on stock statements alone.** Take the steel purchase register and the dealer ledger every month, plus GST 2A/2B reconciliation — that is where the refund delay [1][2] will show up first. Covenant on total debt to operating profit and on gearing, per the rating methodology [10]. If the borrower cannot show a funded cycle shorter than its stated credit period, ask for the debtor ageing before sanction.\n\n## Early warning signs\n**Watch the GST refund receivable and the steel creditor days together — when refunds slow and creditors shorten, the borrower is funding the government and the mill at once.** A dealer who moves from advance to credit, or a shift from OEM supply to unbranded local sale, is the next signal. If monthly GST payment falls while sales hold, ask for the e-way bill data."
+ ],
+ "watch": [
+  [
+   "GST 2A/2B reconciliation (monthly)",
+   "input credit gap widens two months running -> cut drawing power"
+  ],
+  [
+   "Steel creditor days (monthly)",
+   "creditors shorten while stock holds -> ask for cash-flow statement"
+  ],
+  [
+   "Debtor ageing (monthly)",
+   "dealer credit period lengthens -> reprice or reduce limit"
+  ],
+  [
+   "GST payment vs sales (monthly)",
+   "payment falls while sales hold -> stop fresh disbursal"
+  ],
+  [
+   "Order book from OEMs (quarterly)",
+   "OEM orders drop two quarters -> review limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Local GST refund and steel-cost squeeze offset by scheme approval and faster Punjab GST growth.",
+ "articles": [
+  {
+   "title": "CICU Strongly Raises Key Industrial and MSME Concerns Before CBIC Chairman; Seeks Time-Bound GST Refunds and Manufacturing-Friendly Reforms",
+   "url": "https://www.cityairnews.com/content/cicu-strongly-raises-key-industrial-and-msme-concerns-before-cbic-chairman-seeks-time-bound-gst-refunds-and-manufacturing-friendly-reforms",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Industry seeks 5% GST on steel to ease MSMEs’ working capital crunch",
+   "url": "https://timesofindia.indiatimes.com/city/ludhiana/industry-seeks-5-gst-on-steel-to-ease-msmes-working-capital-crunch/articleshow/135327179.cms",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "खेलो इंडिया स्पोर्ट्स गुड्स मैन्युफैक्चरिंग स्कीम को मंजूरी मिलने पर लुधियाना के साइकिल इंडस्ट्री से जुड़े कारोबारी खुश, पीएम मोदी से की खास अपील",
+   "url": "https://www.khaskhabar.com/local/punjab/ludhiana-news/news-ludhianas-bicycle-industry-stakeholders-welcome-approval-of-khelo-india-sports-goods-manufacturing-scheme-make-a-special-appeal-to-pm-modi-news-hindi-1-857280-KKN.html",
+   "date": "2026-10-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tube Investments of India Ltd (NSE:TIINDIA) Q2 2026 Earnings Call Highlights: Strong Revenue ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://sg.finance.yahoo.com/news/tube-investments-india-ltd-nse-130035949.html#1",
+   "date": "2025-11-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Tube Investments of India Ltd (NSE:TIINDIA) Q2 2026 Earnings Call Highlights: Strong Revenue ... By GuruFocus - Tube Investments of India Ltd (NSE:TIINDIA) Q2 2026 Earnings Call Highlights: Strong Revenue ...",
+   "url": "https://ca.investing.com/news/company-news/tube-investments-of-india-ltd-nsetiindia-q2-2026-earnings-call-highlights-strong-revenue--4296133#1",
+   "date": "2025-11-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Tube Investments of India Ltd Q3 FY26 Results & Concall Highlights: Revenue, Margins & Order Book",
+   "url": "https://www.arthneeti.com/insights/tube-investments-of-india-ltd-q3-fy26-earnings",
+   "date": "2026-06-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Atlas Cycles (Haryana) Limited",
+   "url": "https://www.perplexity.ai/app/finance/ATLASCYCLE.NS?comparing=OKPLA.BO%2CNWH.AX%2C1271.HK%2CDOW.AX%2C1581.HK%2C1556.HK%2CORN&preset=peers&symbol=0896.HK",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "While evaluating E&S risks, ICRA's objective is only to assess the direct and indirect risks that an entity faces and how it alr...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA assesses the ability of a manufacturer to generate healthy cash flows to reinvest in the business and meet its debt- servic...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/342~Auto%20Component%20Suppliers,%20Rating%20Methodology,%20Jun%202016%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The complexity in manufacturing the component and its criticality determine the importance of the component supplier in the supp...",
+   "url": "https://www.crisil.com/content/dam/crisilrating/criteria-and-methodology/criteria-for-manufacturing-trading-and-corporate-services-sector.pdf#9#15#9",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 100 x 0.6 + Punjab 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Punjab: GST collections +9.7% Apr-to-date vs India +6.1% (3.6 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 30 output +25.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +22.7% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +22.7% (gap +4.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

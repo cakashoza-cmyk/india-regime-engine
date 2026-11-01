@@ -1,0 +1,154 @@
+{
+ "key": "uk_rudrapur|auto_components",
+ "state": "UK",
+ "city": "uk_rudrapur",
+ "ind": "auto_components",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to tier-2 component makers with diversified OEM books and tight monthly monitoring; avoid single-OEM, EV-exposed engine-part units and any proposal without verified GST and power data.",
+ "title": "Rudrapur Auto & Auto Components: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Rudrapur's auto cluster sits inside SIDCUL, and local reporting says the auto and electronics sectors there have picked up momentum [1].** A component unit here takes steel, aluminium and polymer, stamps or moulds or machines it to an OEM's drawing, and ships on a schedule to an assembly line. Cash turns on the OEM's payment cycle, not on the unit's own sales effort. **The value sits in the tooling and the approved-vendor status, not in the machines** — which is why a supplier with a live part number and a two-year-old relationship is a different credit from one chasing its first order.\n\n## Where cash and risk sit now\n**The national demand picture is strong: IIP for NIC 29 output is +25.2% YoY and +19.2% Apr-to-date [D].** Peer results agree — Motherson Sumi Wiring's Q2 revenue grew 46.7% to Rs 4,054 crore with profit up 35% to Rs 223 crore [4], and Lumax lifted its growth target after a strong first half [7]. **But the local economy is not keeping pace: Uttarakhand GST collections are -19.1% Apr-to-date against India's +6.1%, and state electricity demand is +4.7% against India's +9.5% [D].** So when a proposal lands, check the unit's own GST turnover trend against the state number; if the unit's filings are flat while the state is down 19.1%, ask what is holding it up — a genuine new part number, or receivables being stretched.\n\n**Margin is the second pressure point.** ASK Automotive posted record revenue but aluminium squeezed margins [5], and Elara expects Q4FY26 auto EBITDA growth of about 21% with commodity risk rising [6]. **Component makers rarely pass metal cost through immediately, so a unit with no price-escalation clause absorbs the squeeze.** Ask for the clause; if there is none, size the facility to absorb one quarter of metal inflation.\n\n## Who to pursue, who to avoid\n**Pursue tier-2 suppliers with two or more OEM customers, a mix of ICE and non-engine parts, and job-work or tooling revenue alongside production.** ICRA notes that engine and engine-related parts carry higher obsolescence risk as EVs spread, while complex fuel-injection work carries real pricing power [11]. **Avoid single-OEM units, pure engine-part specialists, and anyone whose entire order book is one platform.** Also avoid units with large debt-funded capex: rating criteria flag Debt/EBITDA above 2.5-2.75 times as a red line [10].\n\n## How to grow safely\n**Structure as a cash-flow loan against verified receivables, not a clean term loan.** Take monthly GST returns, e-way bills, and the OEM's payment statement. **Take stock and debtor statements every month, and a quarterly CMA.** Note that gross current assets in this sector have averaged 160-170 days [10] — so if a unit claims a 90-day cycle, ask for the debtor ageing to prove it.\n\n## Early warning signs\n**Watch for GST turnover falling faster than the state's -19.1% [D], electricity bill arrears, and a shift from OEM billing to job-work billing.** A factory accident, like the July fatality reported at a Rudrapur auto factory [3], can halt a line and delay dispatches — check safety records. **If the OEM's own volumes soften, the tier-2 supplier feels it within one quarter.**"
+ ],
+ "watch": [
+  [
+   "GST returns (monthly)",
+   "unit turnover falls more than 19.1% YoY -> freeze fresh limits, ask for debtor ageing"
+  ],
+  [
+   "Electricity bill (monthly)",
+   "arrears or disconnection notice -> stop disbursement, inspect plant"
+  ],
+  [
+   "OEM payment statement (monthly)",
+   "receivable days stretch beyond 90 -> reprice or reduce limit"
+  ],
+  [
+   "Stock statement (monthly)",
+   "inventory days rise above 60 -> ask for slow-moving stock list"
+  ],
+  [
+   "Debt/EBITDA (quarterly)",
+   "crosses 2.5x -> move to watchlist, seek promoter infusion"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Uttarakhand GST -19.1% and power demand +4.7% lag India sharply despite strong national auto output.",
+ "articles": [
+  {
+   "title": "Udham Singh Nagar News: सिडकुल के ऑटो और इलेक्ट्रॉनिक्स सेक्टरों ने पकड़ी रफ्तार - Udham Singh Nagar News: सिडकुल के ऑटो और इलेक्ट्रॉनिक्स सेक्टरों ने पकड़ी रफ्तार",
+   "url": "https://www.amarujala.com/uttarakhand/udham-singh-nagar/sidculs-auto-and-electronics-sectors-gain-momentum-rudrapur-news-c-242-1-rdp1022-147723-2026-09-29#1",
+   "date": "2026-09-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Rudrapur News: रैपिडो के निजी वाहनों से सवारी ढोने का आरोप, टेम्पो यूनियन का प्रदर्शन - Rudrapur News: रैपिडो के निजी वाहनों से सवारी ढोने का आरोप, टेम्पो यूनियन का प्रदर्शन",
+   "url": "https://www.livehindustan.com/uttarakhand/rudrapur/story-rudrapur-drivers-protest-against-private-vehicle-transportation-by-rapido-201789386720757.html#1",
+   "date": "2026-09-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "रुद्रपुर की ऑटो फैक्टरी में दर्दनाक हादसा, कर्मचारी की मौत, पुलिस ने शुरू की जांच - Udham Singh Nagar",
+   "url": "https://janmanchtv.com/rudrapur-news-worker-killed-in-factory-accident/?amp=1#1",
+   "date": "2026-07-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 100 x 0.6 + Uttarakhand 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttarakhand: GST collections -19.1% Apr-to-date vs India +6.1% (25.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Uttarakhand: electricity demand +4.7% Apr-to-date vs India +9.5% (4.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

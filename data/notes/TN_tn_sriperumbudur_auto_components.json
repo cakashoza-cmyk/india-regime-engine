@@ -1,0 +1,155 @@
+{
+ "key": "tn_sriperumbudur|auto_components",
+ "state": "TN",
+ "city": "tn_sriperumbudur",
+ "ind": "auto_components",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Sriperumbudur auto components, but only to tier-1/tier-2 suppliers with EV-agnostic product lines and tight monthly monitoring; avoid single-OEM, engine-part-dependent units.",
+ "title": "Sriperumbudur Auto & Auto Components: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Sriperumbudur is a component-supply cluster feeding the Chennai OEM belt, so the borrower's cash comes from converting steel, aluminium and plastics into parts on a schedule set by one or two OEMs.** Value sits in the tooling and the OEM approval, not the metal; pricing power is thin because the OEM sets the price and the supplier absorbs commodity swings. The working-capital cycle is the whole game: raw material paid upfront, parts delivered on credit, OEM pays late. **So when a proposal lands, check the receivable days against the OEM's payment record, not the borrower's claim; if receivables exceed the peer gross-current-asset norm of 160-170 days [10], ask for the OEM purchase-order and payment-advice trail.**\n\n## What has changed now\n**National auto-component output is running hot: IIP NIC 29 is +25.2% YoY and +19.2% Apr-to-date [D], and bank credit to the sector is growing +27.0% against that output [D].** That credit-output gap of +7.8 pp [D] means money is entering faster than goods are leaving, which is exactly where over-trading hides. **The local counter-signal is real: Tamil Nadu GST is -3.2% Apr-to-date against India +6.1% [D], a 9.3 pp gap, so the state's own tax base is shrinking while the national auto print is strong.** Peer results confirm demand is genuine but margins are squeezed by aluminium [5] and commodity risk [6]; Motherson Sumi Wiring grew revenue 46.7% to Rs 4,054 crore with profit up 35% to Rs 223 crore [4]. **Treat the national print as the tailwind and the state GST as the warning; if a borrower's own GST turnover is falling while it asks for higher limits, ask why the cluster is outgrowing its own tax base.**\n\n## Where the growth is\n**Pursue tier-2 moulders, aluminium-lightweighting and braking-component makers, and any supplier already shipping EV-agnostic parts, because the OEM shift to EVs is the live demand driver [1][5].** Eicher's 3.92 lakh sq ft lease at Casagrand Industrial Park, Sriperumbudur [2], signals fresh capacity landing in the cluster, so new supplier relationships will form. **Avoid engine-and-drivetrain-only job workers: rating methodology flags engine-part concentration as the highest obsolescence risk as EVs spread [11].** Also avoid single-OEM units with no second approval.\n\n## How to grow safely\n**Structure term loans to the tooling and capex, and keep working capital on a separate cash-credit line sized to the OEM receivable cycle, not to the borrower's sales pitch.** Take monthly: OEM payment advices, GST returns, and a stock-and-debtor statement. **Covenant debt/EBITDA at 2.5-2.75x [10]; if a proposal breaches it on projected numbers, ask for the current-year actuals before sanction.**\n\n## Early-warning signs\n**Watch receivable days stretching past the peer 160-170 day norm [10], a single OEM crossing half of sales, and GST turnover falling against the state's -3.2% [D].** If any two appear together, freeze enhancement and re-price.",
+  "- **Monthly:** OEM payment advices and receivable ageing (monthly) -> if receivable days cross 170 [10], cut limit and ask for OEM confirmation.\n- **Monthly:** borrower GST turnover vs Tamil Nadu -3.2% [D] (monthly) -> if borrower falls faster than the state, freeze enhancement.\n- **Quarterly:** debt/EBITDA from actuals (quarterly) -> if above 2.75x [10], move to secured-only lending.\n- **Quarterly:** OEM concentration (quarterly) -> if one OEM crosses half of sales, ask for a second approval letter.\n- **Monthly:** commodity pass-through clauses in OEM contracts (monthly) -> if absent, reprice for aluminium risk [5]."
+ ],
+ "watch": [
+  [
+   "OEM payment advices and receivable ageing (monthly)",
+   "receivable days cross 170 [10] -> cut limit, seek OEM confirmation"
+  ],
+  [
+   "Borrower GST turnover vs Tamil Nadu -3.2% [D] (monthly)",
+   "borrower falls faster than state -> freeze enhancement"
+  ],
+  [
+   "Debt/EBITDA from actuals (quarterly)",
+   "above 2.75x [10] -> secured-only lending"
+  ],
+  [
+   "OEM concentration (quarterly)",
+   "one OEM crosses half of sales -> demand second approval letter"
+  ],
+  [
+   "Commodity pass-through clauses (monthly)",
+   "absent -> reprice for aluminium risk [5]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "National auto output strong but Tamil Nadu GST -3.2% signals local demand stress.",
+ "articles": [
+  {
+   "title": "Hyundai Ioniq P: India’s Upcoming Affordable Electric SUV | EVINDIA",
+   "url": "https://evindia.online/news/hyundai-ioniq-p-compact-ev-india-launch",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Eicher Motors Leases 3.92 Lakh Sq Ft in Sriperumbudur as Chennai Industrial Leasing Hits Record",
+   "url": "https://propertywala.com/news/commercial/eicher-motors-leases-3-92-lakh-sq-ft-in-sriperumbudur-as-chennai-industrial-leasing-hits-record",
+   "date": "2026-10-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "sriperumbudur plant News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/sriperumbudur-plant/news#1",
+   "date": "2026-09-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 100 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
