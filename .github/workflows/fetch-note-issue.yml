@@ -20,7 +20,7 @@ jobs:
         env:
           TITLE: ${{ github.event.issue.title }}
         run: |
-          python - <<'PY'
+          python3 - <<'PY'
           import os, re, json, datetime, pathlib
           m = re.fullmatch(r"fetch:([A-Z]{2})\|([a-z0-9_]+)\|([a-z0-9_]+)", os.environ["TITLE"].strip())
           out = open(os.environ["GITHUB_OUTPUT"], "a")
