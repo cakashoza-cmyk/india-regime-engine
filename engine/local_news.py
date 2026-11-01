@@ -25,7 +25,7 @@ SYSTEM = ("You are a senior credit officer in the given place, briefing a credit
           '"sector_risks":["2-3 items; each names a risk from the credit lens and ties it to a pack figure or a news point"],'
           '"local_news":"1-3 sentences on what local news adds beyond the data, or Limited local coverage.",'
           '"borrower_checks":["exactly 3 concrete diligence items for this borrower, each with a metric and a benchmark, e.g. debtor days vs 90"],'
-          '"change_the_call":"1-2 sentences: which specific data moves would change the call, using the thresholds in the pack",'
+          '"change_the_call":"1-2 sentences: which specific data moves would change the call, using the score bands in the pack exactly (OK / Caution / Avoid)",'
           '"outlook_vs_macro":"Worse|In line|Better","why":"<=20 words","sources_used":[article indexes]}.')
 MAX_CALLS = int(os.environ.get("LOCAL_NEWS_MAX_CALLS", "1000"))
 RESCAN_DAYS = 7
@@ -121,7 +121,7 @@ def brief(p, docs, pack, lens, sa, budget):
     corpus = " ".join(d["content"] + " " + d["title"] for d in docs)
     probs, out = [], None
     for attempt in range(3):  # first try + up to 2 corrective retries
-        msg = user if not probs else user + "\n\nYOUR PREVIOUS ANSWER WAS REJECTED. Fix these problems: " + "; ".join(probs)
+        msg = user if not probs else user + "\n\nYOUR PREVIOUS ANSWER WAS REJECTED. Fix these problems: " + "; ".join(probs) + ". Delete or replace any listed number; use only figures written in the data pack or the articles. Bands: below the OK threshold means Caution, not Avoid, unless below the Avoid threshold."
         out = _retry(sa.chat_json, budget, SYSTEM, msg)
         for k in ("sector_risks", "borrower_checks"):
             if not isinstance(out.get(k), list):
@@ -168,7 +168,7 @@ def main():
     def work(p):
         old = items.get(p["key"]) or {}
         fresh = old.get("scanned_ist", "") > (now - timedelta(days=RESCAN_DAYS)).strftime("%Y-%m-%d %H:%M IST")
-        if fresh and old.get("prompt_version") == PROMPT_VERSION and not force:
+        if fresh and old.get("prompt_version") == PROMPT_VERSION and old.get("brief") and not force:
             with lock: stats["skipped_fresh"] += 1
             return
         st = D["states"].get(p["state"])

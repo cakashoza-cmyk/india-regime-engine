@@ -46,7 +46,7 @@ def build_pack(d, combo, sector, state):
         combo = {**combo, "label": {"ok": "OK to lend", "caution": "Caution", "avoid": "Avoid"}.get(combo.get("data_call") or combo.get("call"), combo.get("label"))}
         if combo.get("score") is not None and combo.get("local_score") is not None:
             P.append(f"Call (data-based): {combo['label']}; combined score {combo['score']} = national sector score {combo['national_score']} x {g['weight_national']} "
-                     f"+ {state['name']} local score {combo['local_score']} x {g['weight_local']}. Thresholds: OK to lend >= {g['ok_at_or_above']}, Avoid < {g['avoid_below']}.")
+                     f"+ {state['name']} local score {combo['local_score']} x {g['weight_local']}. Bands: OK to lend >= {g['ok_at_or_above']}; Caution {g['avoid_below']} to {g['ok_at_or_above']-1}; Avoid < {g['avoid_below']}.")
         elif combo.get("national_score") is not None:
             P.append(f"Call (data-based): {combo['label']} on national sector score {combo['national_score']} only; not enough verified local data.")
         else:
