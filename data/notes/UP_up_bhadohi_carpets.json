@@ -1,0 +1,146 @@
+{
+ "key": "up_bhadohi|carpets",
+ "state": "UP",
+ "city": "up_bhadohi",
+ "ind": "carpets",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 76,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Bhadohi carpets — back the hand-made exporter with order proof and tight monthly stock-and-receivable discipline; skip the leveraged trader with no order book.",
+ "title": "Bhadohi Carpets & Rugs: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Bhadohi hand-makes carpets and rugs, and the local trade says the district makes India's largest share of hand-made carpet [1].** The unit buys yarn and dyes, pays weavers per knot or per square foot, and sells finished rugs to exporters and overseas buyers. Cash sits in loom-stage work-in-progress and in finished stock waiting for a container, not in the building. **So when a proposal lands, check the weaver payment cycle and the finished-goods holding days first; if stock days exceed the order-to-shipment window, ask why.**\n\n## Where value and cash sit\n**Pricing power is thin at the loom and thick at the buyer's brand, so margin lives in design, colourways and repeat orders.** The working-capital cycle is the whole credit: yarn and wages go out early, export receivables come back late. **Take the export receivable ageing and the buyer-wise order book every month; if one buyer crosses a third of sales, ask for the buyer's payment history.** Capex is modest — looms, dyeing, maybe a finishing line — so term debt should stay small and short. ## What has changed now\n**The official data pack reads OK at 76, with Uttar Pradesh GST collections up 14.2% Apr-to-date against India's 6.1% [D] — a real local tailwind.** India-wide carpet-relevant output (NIC 13) is up 13.1% YoY [D]. **But the local sources are thin: the Bhadohi coverage we have is a general trade piece [1] and topic pages [2][3], so lean on first principles and peers for the rest.** Peer results are mixed — Faze Three grew revenue 32.92% to ₹932.76 crore in FY26 while operating profit fell 20.15% [5]; Welspun Living targets double-digit UK growth and low double-digit flooring margins [6]. **So when a proposal lands, check whether volume growth is reaching the bottom line; if sales are up but margin is flat, ask for the price list and the yarn cost sheet.**\n\n## Who to pursue, who to avoid\n**Pursue the hand-made exporter with repeat overseas buyers, own dyeing, and a clean receivable record; pursue the small weaver-cooperative aggregator with verified order confirmations.** **Avoid the pure trader with no loom base and high working-capital utilisation — a peer rating showed limits around 80% utilised for twelve months with cash of 0.22 crore [10].** Rating reports flag inventory management as the key sensitivity [8] and note weaving is fixed- and working-capital intensive [11]. ## How to grow safely\n**Structure as a cash-flow loan against confirmed export orders, with a stock-and-receivables charge and a monthly stock statement.** Covenant on buyer concentration and receivable days. **Take monthly: stock statement, export invoice register, weaver wage payout proof, and GST returns.**\n\n## Early warning signs\n**Watch stretched limit utilisation, rising finished-stock days, and a single buyer delaying payment.** Any of these means stop enhancement and re-price."
+ ],
+ "watch": [
+  [
+   "Monthly stock statement (monthly)",
+   "finished-stock days rise beyond the order-to-shipment window -> ask for the buyer order and hold fresh limits"
+  ],
+  [
+   "GST returns (monthly)",
+   "turnover falls while limits stay drawn -> freeze enhancement and review the drawing power"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "one buyer crosses a third of sales -> ask for that buyer's payment history and diversify covenant"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "UP GST up 14.2% and NIC 13 output up 13.1% support demand; local Bhadohi coverage is thin.",
+ "articles": [
+  {
+   "title": "'पूरी दुनिया का 60 फीसदी कालीन भारत में बनता है': व्यापारी बोले- इंडिया का सबसे ज्यादा हैंड मेड कारपेट भदोही जिले में तैयार होता है",
+   "url": "https://www.bhaskar.com/up-khaas/news/bhadohi-carpet-industry-hand-made-rugs-production-india-video-139453615.html",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "bhadohi rugs News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/bhadohi-rugs/news#1",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "bhadohi rugs: Latest News & Videos, Photos about bhadohi rugs | The Economic Times - Page 1 - Business News›bhadohi rugs",
+   "url": "https://economictimes.indiatimes.com/topic/bhadohi-rugs#1",
+   "date": "2026-10-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Oriental Weavers Carpet 9M 2024 Results",
+   "url": "https://orientalweavers.com/wp-content/uploads/2024/11/9M24-Investor-Presentation.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Faze Three Limited",
+   "url": "https://www.perplexity.ai/app/finance/FAZE3Q.NS?comparing=FAZE3Q.NS%2CKPRMILL.NS%2CJINDWORLD.NS%2CAYMSYNTEX.NS%2CTRIDENT.BO%2CWELSPUNLIV.BO%2CHIMATSEIDE.BO%2CKPRMILL.BO%2CVTL.NS&preset=peers&symbol=GARFIBRES.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Informist Media - Analyst Concall: Welspun Living eyes UK, US push; H2 capex to be INR 3.5 billion",
+   "url": "https://www.informistmedia.com/EquityWire/63595/Analyst-Concall-Welspun-Living-eyes-UK-US-push-H2-capex-to-be-INR-3-5-billion",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Welspun Living Limited",
+   "url": "https://www.perplexity.ai/app/finance/WELSPUNLIV.BO?comparing=WELSPUNLIV.BO%2CAYMSYNTEX.BO%2CALOKINDS.NS%2CPASHUPATI.NS%2CARVIND.NS%2CKPRMILL.NS&preset=peers&symbol=VTL.BO&eventId=545669",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Cottage Industries Exposition Limited (Revised)",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410121017_Cottage_Industries_Exposition_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "• Comfortable financial risk profile: The financial risk profile should remain supported by controlled reliance on external debt...",
+   "url": "https://integraliq.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Golden%20Texo%20Fabs%20Private%20Limited-RU-05-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Marwar Carpets International",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/06032023091903_Marwar_Carpets_International.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 76 (national 77 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "Uttar Pradesh: electricity demand +8.6% Apr-to-date vs India +9.5% (0.9 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

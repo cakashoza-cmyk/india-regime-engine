@@ -1,0 +1,150 @@
+{
+ "key": "hr_panipat|carpets",
+ "state": "HR",
+ "city": "hr_panipat",
+ "ind": "carpets",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 76,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Panipat carpets and rugs, but only to fire-compliant, powerloom-backed units with verified export order books; avoid units with uninsured plant, water-dependent processing and stretched working capital.",
+ "title": "Panipat Carpets & Rugs: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nPanipat turns yarn into rugs and blankets on powerlooms, then finishes, packs and ships to export buyers and domestic wholesale. **Cash is made in the finishing and order-book stage, not at the loom** — the loom is cheap, the dyeing, washing and packing line is where money sits. The working-capital cycle is long: yarn and cotton inventory must be carried ahead of the season, and export receivables run well past the shipment date. **So when a proposal lands, check the inventory days and receivable days separately; if receivables exceed the buyer credit period you have been shown, ask for the buyer-wise ageing.**",
+  "## What has changed now\nTwo local facts matter. A blanket factory in Balana village caught fire and a wall collapsed, with workers escaping narrowly [1] — **fire safety and insurance are now a live credit issue, not a compliance box**. Separately, the handloom industry is openly looking at shifting to Uttar Pradesh amid water shortage and NCR-related pressure [2][3]. **So when a proposal lands, check the fire NOC, the insurer's reinstatement value and the water source; if the unit depends on purchased tanker water, ask for the last twelve months of water cost and treat it as a margin risk.** Peer results are mixed: Faze Three grew revenue 32.92% to ₹932.76 crore in FY26 but operating profit fell 20.15% to ₹42.04 crore [5]; Welspun Living reported Q4 FY26 EBITDA margin of 10.8% [7] and is targeting UK and US demand with H2 capex of INR 3.5 billion [6]. **Read this as volume growth without pricing power — so do not lend against a margin story, lend against the order book.**",
+  "## Where the growth is\nHaryana GST collections rose 10.1% Apr-to-date against India's 6.1% [D], and India-wide IIP for NIC 13 output rose 13.1% YoY [D]. **Pursue the mid-sized powerloom unit with a real export buyer list and its own finishing line; avoid the pure job-work loom with one buyer and no finishing.** The Oriental Weavers 9M 2024 presentation shows total revenue up 34% with a 16.6% EBITDA margin [4] — that is an Egyptian market number, not Indian, and it is old; use it only as a shape, not a benchmark.",
+  "## How to grow safely\nStructure term loans against the finishing line, not against land. **Take monthly stock statements, monthly buyer-wise sales and the insurance premium receipt every quarter; if stock cover falls below the drawing power you have sanctioned, freeze further disbursement.** For export-backed units, insist on ECGC cover or a confirmed letter of credit. Marwar Carpets ran working capital limits around 80% utilised for twelve months with cash of 0.22 crore as on March 31, 2022 [10] — **that is the profile to decline, not to price higher.**",
+  "## Early warning signs\nWatch for a shift of looms to Uttar Pradesh [2][3], rising water purchase cost, and any factory without a current fire NOC [1]. **If a borrower's power bill falls while sales stay flat, ask where the looms went.** Collect from customer: current water cost per unit, fire insurance reinstatement value, and buyer-wise receivable ageing."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement (monthly)",
+   "Stock cover below sanctioned drawing power for two months -> freeze disbursement and re-assess"
+  ],
+  [
+   "Fire NOC and insurance premium receipt (quarterly)",
+   "Lapsed NOC or premium unpaid -> stop renewal, seek reinstatement cover"
+  ],
+  [
+   "Electricity bill vs reported sales (monthly)",
+   "Power consumption falls while sales flat -> ask where looms moved, inspect site"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Panipat fire and handloom shift to Uttar Pradesh outweigh steady GST and IIP growth.",
+ "articles": [
+  {
+   "title": "पानीपत की कंबल फैक्ट्री में भीषण आग, भरभरा कर गिर गई दीवार, बाल-बाल बचे मजदूर",
+   "url": "https://www.etvbharat.com/hi/state/fire-in-blanket-factory-at-panipat-balana-village-fire-safety-equipment-hrs26103104044",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Panipat handloom industry eyes Uttar Pradesh amid growing woes - Subscribe To Print Edition About The Tribune Code Of Ethics Download App Careers Advertise with us Classifieds",
+   "url": "https://www.tribuneindia.com/news/haryana/panipat-handloom-industry-eyes-uttar-pradesh-amid-growing-woes/#1",
+   "date": "2026-09-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Panipat Handloom Industry Considers Shift to Uttar Pradesh Amid Growing Challenges",
+   "url": "https://textilevaluechain.in/panipat-handloom-industry-considers-shift-to-uttar-pradesh-amid-growing-challenges",
+   "date": "2026-09-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Oriental Weavers Carpet 9M 2024 Results",
+   "url": "https://orientalweavers.com/wp-content/uploads/2024/11/9M24-Investor-Presentation.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Faze Three Limited",
+   "url": "https://www.perplexity.ai/app/finance/FAZE3Q.NS?comparing=FAZE3Q.NS%2CKPRMILL.NS%2CJINDWORLD.NS%2CAYMSYNTEX.NS%2CTRIDENT.BO%2CWELSPUNLIV.BO%2CHIMATSEIDE.BO%2CKPRMILL.BO%2CVTL.NS&preset=peers&symbol=GARFIBRES.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Informist Media - Analyst Concall: Welspun Living eyes UK, US push; H2 capex to be INR 3.5 billion",
+   "url": "https://www.informistmedia.com/EquityWire/63595/Analyst-Concall-Welspun-Living-eyes-UK-US-push-H2-capex-to-be-INR-3-5-billion",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Welspun Living Limited",
+   "url": "https://www.perplexity.ai/app/finance/WELSPUNLIV.BO?comparing=WELSPUNLIV.BO%2CAYMSYNTEX.BO%2CALOKINDS.NS%2CPASHUPATI.NS%2CARVIND.NS%2CKPRMILL.NS&preset=peers&symbol=VTL.BO&eventId=545669",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cottage Industries Exposition Limited (Revised)",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410121017_Cottage_Industries_Exposition_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "• Comfortable financial risk profile: The financial risk profile should remain supported by controlled reliance on external debt...",
+   "url": "https://integraliq.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Golden%20Texo%20Fabs%20Private%20Limited-RU-05-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Marwar Carpets International",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/06032023091903_Marwar_Carpets_International.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 76 (national 77 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "Haryana: electricity demand +11.4% Apr-to-date vs India +9.5% (1.9 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

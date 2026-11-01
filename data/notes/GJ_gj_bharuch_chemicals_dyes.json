@@ -1,0 +1,154 @@
+{
+ "key": "gj_bharuch|chemicals_dyes",
+ "state": "GJ",
+ "city": "gj_bharuch",
+ "ind": "chemicals_dyes",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 43,
+ "nudged_by_news": false,
+ "verdict": "Avoid new chemical, dye and intermediate exposure in Bharuch until unit-level safety and working-capital data are verified; lend only to established, compliant units with strong parentage and tight covenants.",
+ "title": "Bharuch Chemicals, Dyes & Intermediates: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Bharuch dye or intermediate unit buys petrochemical feedstock, runs multi-step batch reactions in reactors, and sells to textile, agrochemical and pharma buyers.** Cash is made on conversion margin, not on the molecule: value sits in reactor throughput, solvent recovery and the ability to pass feedstock cost through. **The working-capital cycle is the real credit risk** — inventory of feedstock and in-process material plus receivables from formulators tie up cash, and rating reports flag elevated working-capital intensity that blocks capital in high-growth scenarios [9]. Capex is reactor, boiler and effluent-treatment heavy, and rating commentary expects it to be met largely from internal accrual [8]. **So when a proposal lands, check the feedstock-to-product pass-through clause and the receivable days by buyer; if pass-through is absent, ask for the last four quarters' gross margin by product.**",
+  "## What has changed now\n**National chemical output is shrinking while bank credit to the sector races ahead.** IIP for NIC 20 is -0.5% YoY and -1.2% Apr-to-date, against bank credit growth of +20.7% YoY — a gap of +21.9 pp [D]. That gap means lenders are funding inventory and receivables, not new demand. **Brent at $113/bbl sits above the $75–100 band [D], so feedstock and freight costs are elevated and margin depends on pass-through.** Locally, a Bharuch chemical unit explosion killed 5 workers and injured 5 on 16-Oct-2026 [3] — safety and consent compliance are now live credit issues, not just EHS. **So when a proposal lands, check the factory licence, consent-to-operate validity and last safety audit; if any is expired or pending, ask for the renewal receipt before appraisal.**",
+  "## Where the growth is\n**Peer results show the split clearly: volume-led specialty players are winning.** Aarti Industries reported Q2 FY27 PAT up 60% to Rs. 169 crore on 30% volume growth [5], with revenue up 75% to ₹3,668 crore [6] and record quarterly revenue and EBITDA [4][7]. **Pursue borrowers who are qualified suppliers into such specialty chains** — long-term supply agreements, export-qualified, with fuel-additive or agrochemical intermediate lines. **Avoid commodity dye and generic intermediate units selling into spot domestic markets**, where Chinese dumping and de-stocking hit revenue (rating commentary notes a 9% dip last fiscal on pricing pressure and de-stocking) [8]. Local project-tracker pages list new chemical and synthetic-organic projects in Gujarat [1][2], but they carry no borrower-level financials — treat them as a pipeline list only.",
+  "## How to grow safely\n**Structure against the working-capital cycle, not the balance sheet.** Fund receivables and inventory with a cash-flow-tied limit, not a term loan for expansion until the unit shows two quarters of stable throughput. **Take every month: stock-and-receivable statement, feedstock purchase invoices, power and steam consumption, and consent-compliance status.** Covenant on pass-through: if gross margin falls below the trailing four-quarter average, the limit freezes. **For capex, insist on internal-accrual funding with minimal external debt, as rating commentary expects [8]; if the borrower proposes debt-funded expansion, ask for the project report and phasing.**",
+  "## Early-warning signs\n**Watch the credit-to-output gap at borrower level.** If a unit's drawing power rises while power consumption and dispatches are flat, the limit is funding unsold stock — freeze and inspect. **Watch receivable days by buyer; if a single formulator crosses a third of receivables, ask for that buyer's payment record.** Watch consent and safety status: any notice after the Bharuch incident [3] means stop fresh disbursement. **Watch feedstock pass-through; if Brent stays above the band [D] and the borrower's margin compresses, the unit is absorbing cost it cannot recover.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-receivable statement",
+   "Drawing power rises while dispatches flat for two months -> freeze limit and inspect godown"
+  ],
+  [
+   "Quarterly buyer-wise receivable ageing",
+   "Single buyer crosses one-third of receivables -> seek that buyer's payment record and credit insurance"
+  ],
+  [
+   "Consent-to-operate and safety audit status (quarterly)",
+   "Notice or lapse after Bharuch incident [3] -> stop fresh disbursement until renewal"
+  ],
+  [
+   "Monthly feedstock invoice vs product price",
+   "Margin below trailing four-quarter average -> invoke pass-through covenant and reprice"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "National chemical output negative, credit-output gap wide, Bharuch unit explosion killed 5 workers.",
+ "articles": [
+  {
+   "title": "New & Upcoming Projects in Chemicals Projects in India - Page 830",
+   "url": "https://newprojectstracker.com/projects-india/chemicals?page=830",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "New & Upcoming Projects in Synthetic Organic Chemicals Projects in Gujarat - Page 196",
+   "url": "https://newprojectstracker.com/projects-india/synthetic-organic-chemicals/gujarat?page=196",
+   "date": "2026-10-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Gujarat: 5 Workers Killed, 5 Injured in Explosion at Bharuch Chemical Unit",
+   "url": "https://www.pratidintime.com/national/gujarat-5-workers-killed-5-injured-in-explosion-at-bharuch-chemical-unit-12684216",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Sustains Growth Momentum in Q2 FY27, Led by Higher Volumes",
+   "url": "https://m.thewire.in/article_pdf/ptiprnews/aarti-industries-sustains-growth-momentum-in-q2-fy27-led-by-higher-volumes",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Q2 FY27 PAT soars 60% to Rs. 169 crore on 30% volume growth",
+   "url": "https://www.indianchemicalnews.com/general/aarti-industries-q2-fy27-pat-soars-60-to-rs-169-crore-on-30-volume-growth-32473",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Q2: Net profit rises 58.5%, revenue jumps 75% to ₹3,668 crore - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/aarti-industries-q2-net-profit-rises-revenue-jumps-stock-price-20023746.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Sustains Growth Momentum in Q2 FY27, Led by Higher Volumes - The Tribune",
+   "url": "https://www.tribuneindia.com/news/business/aarti-industries-sustains-growth-momentum-in-q2-fy27-led-by-higher-volumes-2-2/amp/?utm=relatedarticles",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "NCA: fair cash accrual*",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2024/september/gradual-recovery-ahead.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 30, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=138118#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA analyses the long period of past financial performance trends and estimates the future financial performance to assess the ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/919~Agrochemicals,%20Rating%20Methodology,%20Jun%202024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "January 23,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140464#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 43 (national 22 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +20.7% YoY vs output -1.2% (gap +21.9 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

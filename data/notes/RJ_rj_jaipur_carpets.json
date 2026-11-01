@@ -1,0 +1,154 @@
+{
+ "key": "rj_jaipur|carpets",
+ "state": "RJ",
+ "city": "rj_jaipur",
+ "ind": "carpets",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 46,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Jaipur carpet exporters with verified US order books and tight monthly stock-and-receivable reporting; avoid small hand-knotted units selling into the domestic festive trade on unsecured limits.",
+ "title": "Jaipur Carpets & Rugs: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Jaipur carpet unit buys wool, silk, viscose, jute and acrylic yarn, puts it out to hand-knotters or tufting machines, and sells finished rugs into two very different channels: export buyers (the US is the visible one) and the domestic heritage/hotel/festive trade. **Cash sits in the loom, not in the showroom** — a hand-knotted piece takes months to make, so working capital is locked in work-in-progress and yarn long before an invoice exists. That is a wide price ladder, and pricing power lives only at the top of it. ## Where value and cash actually sit\n**The exporter's cash cycle is order-driven; the domestic seller's is season-driven.** Jaipur Rugs' shipment records show repeated US-bound consignments of hand-knotted wool, wool-silk, tufted acrylic and viscose rugs through JNPT to Savannah [3] — so for exporters, receivables and shipping documents are the real collateral, not the loom. Domestic demand peaks before Diwali [2], which means festive stock is bought on credit and must convert within weeks. Rating evidence on a carpet peer shows the failure mode: working capital limits around 80% utilised for twelve months with cash of Rs 0.22 crore [10]. **So when a proposal lands, check limit utilisation for the last twelve months, not the last quarter; if it is above 80% through a full year, ask what the peak season does to it.**\n\n## What has changed now\nRajasthan is running behind the country: GST collections -4.7% Apr-to-date against India +6.1%, and electricity demand +4.0% against India +9.5% [D]. **That is a local demand signal, and it argues for lending to order-backed exporters rather than to units dependent on Rajasthani retail.** Nationally, carpet-and-rug output (NIC 13) is +13.1% YoY and +11.9% Apr-to-date [D], so the trade itself is not shrinking. Peer results are mixed and mostly old: Oriental Weavers' 9M 2024 shows revenue +34% with EBITDA margin 16.6% [4], while Faze Three's FY26 revenue rose 32.92% to Rs 932.76 crore but operating profit fell 20.15% [5]. **Growth without margin is the pattern to underwrite against — ask for gross margin by product line, and if tufted machine-made is carrying the growth, price the limit for commodity risk.**\n\n## Who to pursue, and how to grow safely\nPursue mid-sized Jaipur exporters with confirmed US/UK purchase orders, a mix of hand-knotted and tufted, and a clean stock statement; Welspun Living's October 2026 call still expects US demand intact and targets double-digit UK revenue growth [6]. Avoid small units whose entire book is festive domestic stock and whose security is a godown of unsold rugs. **Structure as packing credit against orders plus a receivable discount, not a plain cash credit.** Take monthly stock-and-receivable statements, quarterly limit-utilisation data, and shipping-bill copies per consignment. Note that this city has thin published coverage — the local sources are trade colour [1][2] and shipment data [3], not audited financials — so lean on first principles and the peer set. ## Early-warning signs\n- **Limit utilisation above 80% for two straight quarters [10] -> freeze enhancement and ask for receivables ageing.**\n- **US shipment frequency falling month-on-month [3] -> reprice or reduce the limit.**\n- **Festive stock still unsold by December [2] -> demand inventory write-down plan before renewing.**\n- **Revenue growing while operating profit falls, as at Faze Three [5] -> cut tenor and raise margin."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-receivable statement",
+   "Receivable days stretch beyond the customer's own stated terms -> hold further disbursement and inspect ageing"
+  ],
+  [
+   "Quarterly working capital limit utilisation",
+   "Above 80% for two consecutive quarters -> freeze enhancement, seek fresh collateral"
+  ],
+  [
+   "Monthly shipping-bill and export-invoice log",
+   "US consignment count falls two months running -> reprice limit or reduce exposure"
+  ],
+  [
+   "Quarterly GST and electricity data for Rajasthan [D]",
+   "Continued underperformance versus India -> tighten new-to-bank domestic-only units"
+  ],
+  [
+   "Post-Diwali inventory check (annual, December)",
+   "Festive stock unsold -> require written write-down plan before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Rajasthan GST and power demand trail India, signalling local demand stress.",
+ "articles": [
+  {
+   "title": "Jaipur Rugs: Latest News & Videos, Photos about Jaipur Rugs | The Economic Times - Page 1 - Business News›Jaipur Rugs",
+   "url": "https://economictimes.indiatimes.com/topic/Jaipur-Rugs#1",
+   "date": "2026-10-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "जयपुर में मिर्जापुर की कालीनों की धूम, 5 हजार से 15 लाख तक कीमत - Advertisement",
+   "url": "https://hindi.news18.com/news/rajasthan/jaipur-jawaharlal-kala-kendra-mirzapur-handmade-carpets-festival-season-demand-price-design-local18-10896670.html#1",
+   "date": "2026-10-08",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "jaipur rugs co.pvt.ltd. - jaipur rugs co.pvt.ltd.",
+   "url": "https://www.52wmb.com/supplier/35193263#1",
+   "date": "2026-09-19",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Oriental Weavers Carpet 9M 2024 Results",
+   "url": "https://orientalweavers.com/wp-content/uploads/2024/11/9M24-Investor-Presentation.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Faze Three Limited",
+   "url": "https://www.perplexity.ai/app/finance/FAZE3Q.NS?comparing=FAZE3Q.NS%2CKPRMILL.NS%2CJINDWORLD.NS%2CAYMSYNTEX.NS%2CTRIDENT.BO%2CWELSPUNLIV.BO%2CHIMATSEIDE.BO%2CKPRMILL.BO%2CVTL.NS&preset=peers&symbol=GARFIBRES.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Informist Media - Analyst Concall: Welspun Living eyes UK, US push; H2 capex to be INR 3.5 billion",
+   "url": "https://www.informistmedia.com/EquityWire/63595/Analyst-Concall-Welspun-Living-eyes-UK-US-push-H2-capex-to-be-INR-3-5-billion",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Welspun Living Limited",
+   "url": "https://www.perplexity.ai/app/finance/WELSPUNLIV.BO?comparing=WELSPUNLIV.BO%2CAYMSYNTEX.BO%2CALOKINDS.NS%2CPASHUPATI.NS%2CARVIND.NS%2CKPRMILL.NS&preset=peers&symbol=VTL.BO&eventId=545669",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Cottage Industries Exposition Limited (Revised)",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410121017_Cottage_Industries_Exposition_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "• Comfortable financial risk profile: The financial risk profile should remain supported by controlled reliance on external debt...",
+   "url": "https://integraliq.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Golden%20Texo%20Fabs%20Private%20Limited-RU-05-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Marwar Carpets International",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/06032023091903_Marwar_Carpets_International.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 46 (national 77 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

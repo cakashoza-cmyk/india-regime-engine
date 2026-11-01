@@ -1,0 +1,142 @@
+{
+ "key": "gj_ahmedabad|chemicals_dyes",
+ "state": "GJ",
+ "city": "gj_ahmedabad",
+ "ind": "chemicals_dyes",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 43,
+ "nudged_by_news": false,
+ "verdict": "AVOID for now — lend only to compliant, low-leverage dye/intermediate units with proven pass-through; skip the rest until air-consent and safety records clear.",
+ "title": "Ahmedabad Chemicals, Dyes & Intermediates: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A dye or intermediate unit buys petro-derived feedstock, runs multi-step batch reactions in reactors, and sells drums of colour or chemical to textile, agrochem and export buyers.** Cash is made on conversion margin, not on the molecule: the spread between feedstock cost and selling price, minus power, steam and effluent treatment. Pricing power is thin and episodic — most units pass cost through with a lag, so a feedstock spike first hits the balance sheet, not the P&L. Working capital sits in inventory (feedstock plus in-process batches) and in receivables from textile and export buyers; capex is reactor trains, boilers and effluent plants, and the effluent plant is now the binding constraint, not the reactor. ## What has changed now\n**The local shock is regulatory and safety, not demand.** Ahmedabad has issued closure notices to 19 factories in an air-pollution crackdown [1], and a chemical leak at a Naroli unit killed 2 and injured 7 [2] — note that source [2] is dated October 2024, so treat it as history, not fresh news. Nationally, chemicals output (NIC 20) is -0.5% YoY and -1.2% April-to-date [D], while bank credit to the sector runs +20.7% YoY against that falling output — a +21.9 pp gap [D]. **That gap is the real credit risk: money is chasing a shrinking pie.** Brent at $113/bbl sits above the $75–100 band [D], so feedstock and fuel costs stay elevated. Peer results are the counter-signal: Aarti Industries posted Q2 FY27 PAT up 60% to Rs. 169 crore on 30% volume growth [4], revenue up 75% to Rs. 3,668 crore [5], with record quarterly revenue and EBITDA [3][6]. **Scale players with long-term global supply agreements are winning; small converters are not.** Rating commentary flags elevated working-capital intensity that blocks capital in high-growth scenarios [8], and China dumping plus de-stocking pressure [7] — both undated, so verify currency. ## Where to grow\n**Pursue mid-size specialty and intermediate makers with export or long-term supply contracts, and dye units selling to organised textile buyers.** These mirror the peer pattern of volume-led growth [4][5]. Avoid commodity dye converters with single-product dependence, units in Odhav or Vatva without a current consent-to-operate, and any borrower whose effluent or safety record is unclear. When a proposal lands, check the consent-to-operate and pollution-board status first; if it is expired or under notice, ask for the compliance plan and dated clearance before anything else. ## How to grow safely\n**Structure against the working-capital cycle, not the fixed assets.** Take monthly stock-and-receivable statements, quarterly GSTR-2B versus purchase register, and a covenant capping total outside liabilities to tangible net worth. Because feedstock is the swing cost, ask for the pass-through clause in customer contracts; if absent, ask for the last four quarters' gross margin to see who absorbed the spike. Collect from customer: current feedstock contract terms, effluent plant capacity, and insurance cover for the Naroli-type event. ## Early-warning signs\n**Watch consent status, inventory days and receivable ageing together.** A closure notice [1] or a safety incident [2] stops production and cash at once. Rising inventory with flat sales means feedstock bought ahead of a price fall. Stretched receivables from textile buyers signal the downstream is stressed."
+ ],
+ "watch": [
+  [
+   "Pollution-board consent status (monthly)",
+   "notice or expiry -> freeze new limits, seek dated clearance"
+  ],
+  [
+   "Inventory days vs sales (monthly)",
+   "inventory up, sales flat -> ask for feedstock contract and pricing"
+  ],
+  [
+   "GST 2B vs purchase register (quarterly)",
+   "mismatch -> stop disbursement, reconcile before release"
+  ],
+  [
+   "Gross margin trend (quarterly)",
+   "margin fall with Brent above band [D] -> check pass-through clause"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Closure notices and a fatal leak hit local units while national output falls and credit outpaces it.",
+ "articles": [
+  {
+   "title": "Ahmedabad Air Pollution: 19 Factories Face Closure Notices",
+   "url": "https://urbanacres.in/ahmedabad-air-pollution-crackdown-19-factories-face-closure-notices/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "अहमदाबाद की फैक्ट्री में केमिकल लीक, 2 की मौत, 7 गंभीर रूप से घायल",
+   "url": "https://hindi.news24online.com/state/gujarat/ahmedabad-chemical-leak-in-factory-narol-many-people-dead-injured/930632/",
+   "date": "2026-10-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Sustains Growth Momentum in Q2 FY27, Led by Higher Volumes",
+   "url": "https://m.thewire.in/article_pdf/ptiprnews/aarti-industries-sustains-growth-momentum-in-q2-fy27-led-by-higher-volumes",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Q2 FY27 PAT soars 60% to Rs. 169 crore on 30% volume growth",
+   "url": "https://www.indianchemicalnews.com/general/aarti-industries-q2-fy27-pat-soars-60-to-rs-169-crore-on-30-volume-growth-32473",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Q2: Net profit rises 58.5%, revenue jumps 75% to ₹3,668 crore - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/aarti-industries-q2-net-profit-rises-revenue-jumps-stock-price-20023746.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Sustains Growth Momentum in Q2 FY27, Led by Higher Volumes - The Tribune",
+   "url": "https://www.tribuneindia.com/news/business/aarti-industries-sustains-growth-momentum-in-q2-fy27-led-by-higher-volumes-2-2/amp/?utm=relatedarticles",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "NCA: fair cash accrual*",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2024/september/gradual-recovery-ahead.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 30, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=138118#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA analyses the long period of past financial performance trends and estimates the future financial performance to assess the ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/919~Agrochemicals,%20Rating%20Methodology,%20Jun%202024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "January 23,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140464#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 43 (national 22 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +20.7% YoY vs output -1.2% (gap +21.9 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,158 @@
+{
+ "key": "mh_tarapur|chemicals_dyes",
+ "state": "MH",
+ "city": "mh_tarapur",
+ "ind": "chemicals_dyes",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 33,
+ "nudged_by_news": false,
+ "verdict": "Avoid new dye/intermediate exposure in Tarapur until fire-safety and power-cost gaps are closed; lend only to fire-compliant, power-secured units with tight monthly monitoring.",
+ "title": "Tarapur Chemicals, Dyes & Intermediates: a note to the credit manager",
+ "narrative": [
+  "**So when a proposal lands, check the working-capital cycle first, not the capex plan.** Where the receivable days and inventory days are not in the file, collect from customer.",
+  "## What has changed now\n**The data call is Avoid (score 33), and the news flow is worse, so the call stays Avoid.** India-wide IIP for NIC 20 is -0.5% YoY and -1.2% Apr-to-date [D], while bank credit is +20.7% YoY [D] — money is chasing a shrinking output base. **Maharashtra electricity demand grew 6.0% Apr-to-date against India's 9.5% [D], a local demand signal that matters because power is a large running cost for these units.** Locally, a fire at a Tarapur MIDC mill ran two and a half hours before control, with financial loss reported [1]; a chemical plant explosion with casualties is reported nationally [3]. **So when a proposal lands, check the fire NOC, the last fire-audit date and the insurer's loading; if the audit is older than twelve months, ask for a fresh one before sanction.**",
+  "## Where the growth is\n**Peer results show the demand is real for scale players: Aarti Industries reported Q2 FY27 net profit up 58.5% and revenue up 75% to ₹3,668 crore [6], with PAT at ₹169 crore on 30% volume growth [5] and record quarterly revenue and EBITDA [4][7].** That is export-led specialty volume, not commodity dye. **Pursue units with a written offtake or long-term supply agreement, own effluent treatment, and a product that is not a me-too colour.** Avoid traders with no plant, units with a single buyer above half of sales, and anyone whose fire compliance is unclear. **Rating commentary flags elevated working-capital intensity in high-growth chemical operations [9] and pricing pressure from Chinese dumping with inventory de-stocking abroad [8] — so ask for the buyer-wise sales split and the last price revision.**",
+  "## How to grow safely\n**Structure on cash flow, not on the balance sheet: sanction against a drawing-power limit built on verified receivables, with a monthly stock-and-book-debt statement as the operating discipline.** Take the fire insurance assignment, a charge on receivables, and a promoter personal guarantee. **Take every month: stock statement, debtor ageing, power bill, and GST returns.** If the power bill shows a month-on-month fall beyond the seasonal norm, ask for the order book. **Rating reports note capex is largely met from internal accrual with minimal external funding [8] — so a borrower asking for term debt for expansion should show why internal accrual is insufficient.**",
+  "## Early-warning signs\n**Watch the power bill, the fire audit and the debtor ageing together; they fail before the balance sheet does.** A falling power bill with flat sales means hidden shutdown; a lapsed fire NOC means the insurer can walk; a debtor list that lengthens by more than a fortnight means the buyer is squeezing. **If any two move together, stop fresh disbursement and ask for the buyer correspondence.**"
+ ],
+ "watch": [
+  [
+   "Monthly power bill (monthly)",
+   "fall beyond seasonal norm with flat sales -> ask for order book and plant shutdown log"
+  ],
+  [
+   "Fire NOC and audit date (quarterly)",
+   "older than twelve months or lapsed -> hold fresh disbursement until renewed"
+  ],
+  [
+   "Debtor ageing (monthly)",
+   "ageing lengthens by more than a fortnight -> ask for buyer correspondence and stop enhancement"
+  ],
+  [
+   "GST returns vs stock statement (monthly)",
+   "turnover mismatch above 10% -> collect from customer and re-rate limit"
+  ],
+  [
+   "Insurance policy status (quarterly)",
+   "policy lapsed or loading raised -> require assignment and reprice"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Tarapur MIDC fire and a chemical plant blast add safety risk to an already shrinking output base.",
+ "articles": [
+  {
+   "title": "Tarapur MIDC Fire: तारापूर एमआयडीसीतील गिनी सिल्क मिलला भीषण आग; अडीच तासांच्या प्रयत्नांनंतर आगीवर नियंत्रण, जीवितहानी टळली",
+   "url": "https://www.esakal.com/mumbai/massive-fire-at-guinea-silk-mill-in-tarapur-midc-controlled-after-two-and-a-half-hours-with-no-loss-of-life-reported-sdj87",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "NGL Fine - Chem News - NGL Fine - Chem Announcement, Latest News on NGL Fine - Chem - - Intimation Regarding Receipt Of SEBI Exemption Order Under Regulation 11(5) Of The SEBI (Substantial Acquisition Of Shares And...",
+   "url": "https://m.economictimes.com/ngl-fine-chem-ltd/stocksupdate/companyid-8412.cms#1",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Tiến hành hoạt động chữa cháy : Nổ nhà máy hóa chất gây nhiều thương vong ở Ấn Độ",
+   "url": "https://vtv.vn/tien-hanh-hoat-dong-chua-chay.html",
+   "date": "2026-10-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Sustains Growth Momentum in Q2 FY27, Led by Higher Volumes",
+   "url": "https://m.thewire.in/article_pdf/ptiprnews/aarti-industries-sustains-growth-momentum-in-q2-fy27-led-by-higher-volumes",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Q2 FY27 PAT soars 60% to Rs. 169 crore on 30% volume growth",
+   "url": "https://www.indianchemicalnews.com/general/aarti-industries-q2-fy27-pat-soars-60-to-rs-169-crore-on-30-volume-growth-32473",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Q2: Net profit rises 58.5%, revenue jumps 75% to ₹3,668 crore - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/aarti-industries-q2-net-profit-rises-revenue-jumps-stock-price-20023746.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Sustains Growth Momentum in Q2 FY27, Led by Higher Volumes - The Tribune",
+   "url": "https://www.tribuneindia.com/news/business/aarti-industries-sustains-growth-momentum-in-q2-fy27-led-by-higher-volumes-2-2/amp/?utm=relatedarticles",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "NCA: fair cash accrual*",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2024/september/gradual-recovery-ahead.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 30, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=138118#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA analyses the long period of past financial performance trends and estimates the future financial performance to assess the ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/919~Agrochemicals,%20Rating%20Methodology,%20Jun%202024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "January 23,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140464#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 33 (national 22 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: electricity demand +6.0% Apr-to-date vs India +9.5% (3.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +20.7% YoY vs output -1.2% (gap +21.9 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
