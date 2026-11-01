@@ -804,6 +804,12 @@
 "score": 49,
 "at": "2026-11-01 23:55 IST"
 },
+"HR|hr_panipat|woollen_textiles": {
+"call": "caution",
+"base": "ok",
+"score": 80,
+"at": "2026-11-02 00:41 IST"
+},
 "HR|hr_sonipat|footwear": {
 "call": "caution",
 "base": "caution",
@@ -1404,6 +1410,12 @@
 "score": 26,
 "at": "2026-11-01 23:56 IST"
 },
+"MP|mp_pithampur|vehicle_oem": {
+"call": "ok",
+"base": "ok",
+"score": 70,
+"at": "2026-11-02 00:40 IST"
+},
 "MZ|mz_aizawl|handicrafts": {
 "call": "caution",
 "base": "caution",
@@ -1799,6 +1811,12 @@
 "base": "caution",
 "score": 64,
 "at": "2026-11-01 23:49 IST"
+},
+"TN|tn_hosur|two_wheelers": {
+"call": "caution",
+"base": "ok",
+"score": 70,
+"at": "2026-11-02 00:40 IST"
 },
 "TN|tn_kanchipuram|silk_weaving": {
 "call": "caution",
