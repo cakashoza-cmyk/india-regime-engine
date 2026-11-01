@@ -1,0 +1,154 @@
+{
+ "key": "tn_hosur|two_wheelers",
+ "state": "TN",
+ "city": "tn_hosur",
+ "ind": "two_wheelers",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:40 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Hosur two-wheelers, but only to Tier-1/Tier-2 ancillaries and dealers tied to TVS, Ather and Hero programmes, with monthly stock and receivable checks; avoid single-OEM, thin-margin component makers and EV-only startups until the AURIC ramp is visible.",
+ "title": "Hosur two-wheelers: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nHosur is an assembly and Tier-1/Tier-2 town: steel, aluminium, plastics and electronics come in, and scooters, motorcycles and EV drivetrains go out to dealers and, increasingly, export ports. **Cash is made on throughput and model mix, not on price** — OEMs set prices and pass commodity swings through with a lag, so a supplier's margin is a spread over conversion cost. Ather's Hosur plant runs near-full at 35,000 units/month against 1.8 lakh Q2 FY27 pre-orders [1], and TVS is adding capacity on the back of a 52% Q2 net jump [2]. **So when a proposal lands, check which OEM programme and which model the borrower's line feeds; if it is a single model, ask what happens to the line in a model changeover.**",
+  "## Where value and cash sit\nValue sits with the OEM and the tooling owner; the supplier owns the machine and the receivable. **Working capital is the real risk, not capex** — CRISIL notes OEM-dependent suppliers run smaller working capital because of just-in-time procurement and prompt payment, while aftermarket and export sellers carry longer cycles [10]. Ather is putting ₹122 crore into capacity [3], which means tooling and vendor advances flow down. **So structure against the receivable, not the fixed asset: check debtor days by OEM and ask for the purchase order and payment terms in writing; if receivables stretch past the stated OEM cycle, ask why and pull the bank statement.**",
+  "## What has changed now\nNational output is strong — IIP NIC 30 up 25.3% YoY and 22.7% Apr-to-date [D] — and peers confirm it: Bajaj, TVS and Hero all posted strong Q2 with industry sales up 27% [4], and Bajaj calls its EV business margin-accretive domestically [5]. **But Tamil Nadu is the weak spot: state GST collections are down 3.2% Apr-to-date against India's +6.1%, a 9.3 pp gap [D].** Bank credit is running ahead of output by 4.3 pp [D], so some of the growth is leverage, not volume. Hero shows the margin squeeze — share up to 7.3% on scooters and VIDA, but input cost inflation and competitive pressure hit the stock [6][7]. **So treat Hosur demand as real but local cash as tight; if a borrower's GST filings lag the state trend, ask for the reason before sanctioning enhancement.**",
+  "## Who to pursue, and how to grow safely\nPursue Tier-1 and Tier-2 ancillaries with two or more OEM programmes, dealers with TVS/Ather/Hero franchises and demonstrated EV service capability, and logistics or tooling vendors with assigned receivables. **Avoid single-OEM component makers below 12% operating margin, pure EV startups without an OEM order, and aftermarket-only traders carrying long cycles [10].** ICRA flags hedging policy and commodity exposure relative to profits as a core analytical focus [8], so take the hedge book. **Take monthly: stock-and-debtor statements, GST returns, top-three customer receivable ageing, and capacity utilisation; covenant on DSCR and a receivables cap.**",
+  "## Early-warning signs\n- **Monthly stock statement (monthly):** inventory up while sales flat -> ask for order book and cut limit. - **GST returns (monthly):** filings below the Tamil Nadu trend [D] -> ask for reason and hold enhancement. - **Receivable ageing (monthly):** any OEM beyond stated terms -> ask for the payment advice and reprice. - **Hedge book (quarterly):** unhedged commodity exposure large versus profit [8] -> ask for the hedging policy."
+ ],
+ "watch": [
+  [
+   "Monthly stock and debtor statement (monthly)",
+   "Inventory rising with flat sales -> ask for order book, freeze limit"
+  ],
+  [
+   "GST returns vs state trend (monthly)",
+   "Filings below Tamil Nadu -3.2% [D] -> ask reason, hold enhancement"
+  ],
+  [
+   "Receivable ageing by OEM (monthly)",
+   "Any OEM beyond stated terms -> ask payment advice, reprice"
+  ],
+  [
+   "Commodity hedge cover (quarterly)",
+   "Unhedged exposure large vs profit [8] -> ask hedging policy"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Tamil Nadu GST down 3.2% vs India +6.1% offsets strong national output and peer results.",
+ "articles": [
+  {
+   "title": "Ather's Delayed Factory May Be Costing ₹300 Crore in Monthly Revenue",
+   "url": "https://flipit.money/flips/athers-delayed-factory-may-be-costing-rs300-crore-in-monthly-revenue",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "TVS Motor Q2 Net Soars 52%, Plans Big Capacity Expansion - The Economic Times",
+   "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/29/et-brands/tvs-motor-q2-net-soars-52-plans-big-capacity-expansion/printarticle/135281263.cms",
+   "date": "2026-10-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ather Energy To Invest ₹122 Crore In Manufacturing Capacity Expansion | Autocar Professional",
+   "url": "https://www.autocarpro.in/news/ather-energy-to-invest-rs-122-crore-in-manufacturing-capacity-expansion-135462",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Bajaj, TVS, Hero post strong Q2 profit; industry sales grow 27 percent",
+   "url": "https://www.forbesindia.com/article/business/automobile/bajaj-tvs-hero-post-strong-q2-profit-industry-sales-grow-27-percent/3000028/1",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Bajaj Auto posts record Q2 2026 as shares rise 3.17% By Investing.com - Earnings call transcript: Bajaj Auto posts record Q2 2026 as shares rise 3.17%",
+   "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-bajaj-auto-posts-record-q2-2026-as-shares-rise-317-93CH-5657711#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hero MotoCorp faces margin pressure despite strong Q2 growth - The Economic Times",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hero-motocorp-faces-margin-pressure-despite-strong-q2-growth/printarticle/135337599.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hero Moto to Keep Momentum Going with Premium, EV Focus",
+   "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/30/et-mkts/hero-moto-to-keep-momentum-going-with-premium-ev-focus/articleshow/135333560.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/archive/CRISIL-Ratings-crieria-two-wheeler-industry_2007.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update December 24, 2024 | Mumbai",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Wardwizard Innovations & Mobility Limited-RU-24-12-2024.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 100 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 30 output +25.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +22.7% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +22.7% (gap +4.3 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

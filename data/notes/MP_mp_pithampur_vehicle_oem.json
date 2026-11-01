@@ -1,0 +1,154 @@
+{
+ "key": "mp_pithampur|vehicle_oem",
+ "state": "MP",
+ "city": "mp_pithampur",
+ "ind": "vehicle_oem",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:40 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Pithampur auto OEM — but only to tier-1/tier-2 suppliers with confirmed OEM orders and clean receivables; avoid single-OEM, EV-only and greenfield bets until MP GST turns positive.",
+ "title": "Pithampur cars & commercial vehicles (OEM): a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Pithampur is a vehicle-assembly and component town: metal, plastics and electronics go in, finished vehicles and sub-assemblies come out, and cash comes back only after the OEM pays.** The OEM holds pricing power; the supplier absorbs commodity swings and carries the working-capital cycle. So when a proposal lands, check who the end customer is and what share of the borrower's sales that one OEM takes; if it is above half, ask for the purchase-order pipeline and the OEM's payment history.",
+  "## What the numbers say now\n**National output is strong — IIP for NIC 29 is +25.2% YoY and +19.2% Apr-to-date [D] — but bank credit to the sector is running ahead at +27.0% YoY, a +7.8 pp gap [D].** That gap is where over-lending hides. Locally, Madhya Pradesh GST is -0.1% Apr-to-date against India +6.1%, 6.2 pp slower [D] — a real local stress signal. Peer results are healthy: M&M automotive revenue +25% with EBIT margin 9.5% [5], Tata Motors CV net profit ₹2,560 crore on volumes +26% [6], and Q4FY26 auto EBITDA growth seen at about 21% [4]. But peers also flag margin pressure from commodity and freight costs [4][7]. Note [4] and [5] are April–May 2026 and [6] is dated 12 Aug 2026 — treat them as recent history, not current quarter.",
+  "## Where the growth is\n**The live local news is capacity, not demand: EKA Mobility has inaugurated six facilities across Pune and Pithampur for electric commercial vehicles, components and interiors [1][2], and Classic Legends' Pithampur plant is near full utilisation with a greenfield under evaluation [3].** Pursue tier-1 and tier-2 suppliers with confirmed orders from these plants, tooling and interior vendors, and established ICE component makers adding an EV line. Avoid pure-play EV startups with no production history, and single-customer borrowers whose only order is a new plant's ramp-up.",
+  "## How to grow safely\n**Structure against the receivable, not the optimism: bill-discounting and invoice-backed limits tied to the OEM's acceptance, with a debtor cap per OEM.** Take monthly stock-and-debtor statements, monthly sales register, and quarterly GSTR-2B versus purchase register. Covenant a minimum interest cover and a cap on total debt to tangible net worth, per ICRA's auto-component methodology [10]. For any greenfield or expansion request, ask for land and plant approvals and the customer's letter of intent before sanction.",
+  "## Early-warning signs\n**Watch the borrower's receivable days against the OEM's stated payment terms, and the local GST number.** If MP GST stays negative while the borrower reports rising sales, ask for e-way bills. If a single OEM's share crosses the agreed cap, cut the limit. If commodity inflation forces OEM price hikes [6], check whether the borrower can pass it on — if not, reprice."
+ ],
+ "watch": [
+  [
+   "Monthly debtor ageing and OEM-wise sales mix",
+   "Receivable days stretch beyond agreed terms -> freeze fresh disbursement and seek OEM confirmation"
+  ],
+  [
+   "Monthly GST returns and e-way bill data",
+   "MP GST stays negative while borrower sales rise -> ask for invoices and reconcile"
+  ],
+  [
+   "Quarterly stock statement",
+   "Inventory days rise with flat sales -> reduce drawing power"
+  ],
+  [
+   "Monthly bank statement of the borrower",
+   "Cheque returns or delayed OEM receipts -> move to invoice-backed limits only"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "National output strong, local GST weak; new Pithampur capacity offsets.",
+ "articles": [
+  {
+   "title": "EKA Mobility expands manufacturing footprint",
+   "url": "https://yourstory.com/2026/11/eka-mobility-expands-manufacturing-footprint",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "EKA expands manufacturing footprint with six facilities across Pune and Pithampur",
+   "url": "https://www.bizmudra.com/eka-expands-manufacturing-footprint-with-six-facilities-across-pune-and-pithampur/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Classic Legends plans capacity expansion, weighs greenfield factory | Bucephalus Industrial News",
+   "url": "http://www.bucephalus.kalamin.org/industrial-news-bulletin/item/classic-legends-plans-capacity-expansion-weighs-greenfield-factory/",
+   "date": "2026-04-23",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14% - CNBC TV18 - M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14%",
+   "url": "https://www.cnbctv18.com/market/mahindra-and-mahindra-mm-q4-results-volumes-realisation-suv-tractor-guidance-share-price-19898900.htm#1",
+   "date": "2026-05-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Page 3 - Tata Motors - Sunday, October 25, 2026 | 08:00 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/topic/tata-motors/page-3#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto Q1 Earnings: Export-Focused OEMs May Weather Margin Pressure Better, Says Nirmal Bang's Yash Agrawal - Auto companies are likely to report healthy revenue growth for the June quarter on the back of robust volume growth across vehic...",
+   "url": "https://www.ndtvprofit.com/markets/auto-q1-earnings-export-focused-oems-may-weather-margin-pressure-better-says-nirmal-bangs-yash-agrawal-11800307?pfrom=mailchimp&utm_campaign=mailchimp#1",
+   "date": "2026-07-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "| Industry | Key reasons for rating action in the second half of 2015-16 | Outlook for the medium term |",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/publications/ratings-roundup/RRUH2-16-formatted_v4_April4_secured_Publishing.pdf#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA assesses the ability of a manufacturer to generate healthy cash flows to reinvest in the business and meet its debt- servic...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/342~Auto%20Component%20Suppliers,%20Rating%20Methodology,%20Jun%202016%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "As this methodology highlights, while undertaking the credit assessment of entities, ICRA seeks to incorporate all the relevant ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/778~Commercial%20Vehicles#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 100 x 0.6 + Madhya Pradesh 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Madhya Pradesh: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

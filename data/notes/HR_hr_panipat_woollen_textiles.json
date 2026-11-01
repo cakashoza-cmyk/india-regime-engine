@@ -1,0 +1,154 @@
+{
+ "key": "hr_panipat|woollen_textiles",
+ "state": "HR",
+ "city": "hr_panipat",
+ "ind": "woollen_textiles",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:41 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": true,
+ "verdict": "OK to lend selectively in Panipat woollens — favour integrated, low-leverage units with fire compliance; avoid single-channel blanket makers exposed to the 50% domestic demand dip.",
+ "title": "Panipat woollen & shawl textiles: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Panipat turns polyester yarn into mink, flano and polar blankets, and roughly 160 units here supply almost 99% of domestic demand [3].** Cash comes from four channels — stockists, the marriage season, festivals and cold weather [3] — so the year is a seasonal spike, not a smooth line. Yarn is the dominant input and its price is crude-linked, so the unit is really a spread business: buy yarn, convert, sell before the season turns. **When a proposal lands, check the yarn-to-blanket spread and the seasonality of receivables, not just turnover.**\n\n## What has broken now\n**Domestic demand is down nearly 50% this season and production is down 30-35% [3].** Yarn that cost Rs 100-105 per kg last year is now around Rs 155 per kg, and common mink blankets sell at Rs 210-240 per kg [3]. Peer Prakash Woollen shows the same squeeze: revenue up 45% but operating costs up 50%, leaving an operating loss of Rs 218.11 lakh, with profit only from a Rs 648.05 lakh NHAI land compensation [4][5]. **So when a proposal lands, strip out one-off income; if profit depends on an exceptional item, ask what the operating result was.** Fire risk is real and local — a blanket factory fire in Balana village with fire-safety equipment gaps [2].\n\n## Where the growth is\n**Haryana GST collections are running +10.1% Apr-to-date against India's +6.1% [D], and India-wide IIP for NIC 13 is +13.1% YoY [D].** That is a local tailwind, but the blanket segment is clearly the weak spot. Pursue integrated units with own dyeing/finishing, diversified into shawls and made-ups, and units selling to institutional or export buyers. Iris Clothings shows +40.3% YoY total income at a 15.2% EBITDA margin [6]; Arvind shows +23% revenue and +44% net profit [7] — both are larger, branded players, so read them as direction, not as Panipat comparables. **Avoid pure blanket converters with one stockist channel and no fire compliance.**\n\n## How to grow safely\n**Structure as cash credit against stock and receivables with a drawing power recalculated monthly, plus a term loan only for fire-safety and finishing capex.** Rating methodology is explicit that weaving is fixed- and working-capital intensive and that low leverage protects through downturns [8][11]. Take monthly stock statements, quarterly GST returns, and yarn purchase invoices. **If the drawing power is being met only by revaluing old stock, ask for a physical inspection.**\n\n## Early-warning signs\n- **Monthly stock statement (monthly):** stock ageing beyond one season -> cut drawing power and ask for stock liquidation plan.\n- **GST returns (monthly):** turnover falling faster than the 50% industry dip [3] -> freeze fresh limits.\n- **Yarn invoice prices (monthly):** purchase price moving above Rs 155 per kg [3] without matching sale price -> rework the spread.\n- **Fire-safety certificate (annual):** no valid certificate -> no enhancement until compliance [2]."
+ ],
+ "watch": [
+  [
+   "Monthly stock statement",
+   "ageing beyond one season -> cut drawing power, seek liquidation plan"
+  ],
+  [
+   "Monthly GST returns",
+   "turnover fall steeper than 50% industry dip [3] -> freeze fresh limits"
+  ],
+  [
+   "Monthly yarn invoices",
+   "purchase above Rs 155/kg [3] without sale-price pass-through -> rework spread"
+  ],
+  [
+   "Annual fire-safety certificate",
+   "no valid certificate -> no enhancement until compliance [2]"
+  ],
+  [
+   "Quarterly peer results",
+   "operating loss like Prakash Woollen [4] -> review account"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Panipat blanket demand down ~50%, production down 30-35%, yarn costs up [3].",
+ "articles": [
+  {
+   "title": "अजमेर में पानीपत-लुधियाना के कंबलों की दुकानें सजीं,कारोबारियों की बढ़ाई चिंता",
+   "url": "https://hindi.news18.com/amp/news/rajasthan/ajmer-blanket-market-panipat-ludhiana-blankets-rising-costs-low-sales-ajmer-news-local18-ws-k-10955650.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "पानीपत की कंबल फैक्ट्री में भीषण आग, भरभरा कर गिर गई दीवार, बाल-बाल बचे मजदूर",
+   "url": "https://www.etvbharat.com/hi/state/fire-in-blanket-factory-at-panipat-balana-village-fire-safety-equipment-hrs26103104044",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Panipat blanket industry faces 50% dip in domestic demand - The Tribune - Add Tribune As Your Trusted Source",
+   "url": "https://www.tribuneindia.com/news/haryana/panipat-blanket-industry-faces-50-dip-in-domestic-demand/amp/?utm=relatedarticles#1",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Prakash Woollen Q1FY27 profit turns positive on land compensation - Prakash Woollen Q1FY27 profit turns positive on land compensation",
+   "url": "https://scanx.trade/stock-market-news/companies/prakash-woollen-synthetic-mills-q1-results-net-profit-jumps-on-land-compensation/47985953#1",
+   "date": "2026-08-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Prakash Woollen & Synthetic Mills Ltd Reports Flat Quarterly Performance Amid Margin Pressures - Get Started in 30 Seconds",
+   "url": "https://www.marketsmojo.com/news/stocks-in-action/prakash-woollen-synthetic-mills-ltd-reports-flat-quarterly-performance-amid-margin-pressures-4148982#1",
+   "date": "2026-08-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Iris Clothings Ltd (NSE:IRISDOREME) (Q2 2027) Earnings Call Highlights: 40% Revenue Surge, ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/iris-clothings-ltd-nseirisdoreme-q2-2027-earnings-call-highlights-40-revenue-surge--4919819",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Arvind Ltd Reports 44% Rise in Q2 Net Profit on Strong Advanced Materials Growth - Knitting Views",
+   "url": "https://knittingviews.com/arvind-ltd-reports-44-rise-in-q2-net-profit-on-strong-advanced-materials-growth/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "• Comfortable financial risk profile: The financial risk profile should remain supported by controlled reliance on external debt...",
+   "url": "https://integraliq.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Golden%20Texo%20Fabs%20Private%20Limited-RU-05-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 83 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
