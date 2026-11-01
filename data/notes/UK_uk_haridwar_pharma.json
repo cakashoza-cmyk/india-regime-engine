@@ -1,0 +1,154 @@
+{
+ "key": "uk_haridwar|pharma",
+ "state": "UK",
+ "city": "uk_haridwar",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 16,
+ "nudged_by_news": false,
+ "verdict": "Avoid new pharma/API exposure in Haridwar for now; lend only to established, cash-generative formulation units with tight monthly monitoring, and decline new-to-bank API capex proposals.",
+ "title": "Haridwar Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A pharma unit here buys raw materials and solvents, runs them through reactors or formulation lines, and sells to formulators, exporters or institutions on credit.** Cash sits in inventory (API and intermediates hold long) and in receivables from a handful of buyers; the rating record shows working-capital intensity of 52% in FY2019, 47% in FY2020 and 48% in 7MFY2021 at one listed peer, still described as high [10]. Pricing power is thin for generics and contract work, better for niche APIs and CDMO. **So when a proposal lands, check the buyer list and the inventory days first; if one buyer is above a third of sales, ask for the supply agreement and payment history.**\n\n## What has changed now\n**The local economy is running behind the country: Uttarakhand GST collections are -19.1% Apr-to-date against India +6.1%, and electricity demand +4.7% against India +9.5% [D].** Nationally, output is -2.1% Apr-to-date while bank credit is +21.6% YoY, a 23.7 pp gap [D] — money is chasing a shrinking base, so weak units get refinanced rather than fixed. Locally, Akums resumed production at its Haridwar sites in May 2026 after a disruption [3], and Rishi Chemical Works has announced an API unit in the district [2]. **The local source base is thin — one awareness conference [1] and project announcements — so lean on first principles and peers, not on Haridwar-specific data.**\n\n## Where the growth is\n**Peer results show the money is in APIs and CDMO, not plain formulations: Aarti Pharmalabs posted record quarterly revenue of Rs. 613 crore, up 47% YoY, with EBITDA margin at 22.2% [4][6], and RPG Life Sciences is targeting 25% API growth [5].** The API industry grew at 8.4% CAGR between CY2017 and CY2022E and is expected at ~7% ahead, with China supplying 65-70% of India's API imports [11] — import substitution is the real demand. **Pursue established formulation units adding an API block, and CDMO suppliers to listed players; avoid new-to-bank standalone API capex and units dependent on US contract research orders, where one rating saw revenue of Rs. 61.0 crore in FY2024 hit by weak demand [8].**\n\n## How to grow safely\n**Structure against the working-capital cycle, not the balance sheet: receivables and inventory eat cash before sales convert.** Take monthly stock and debtor statements, quarterly GST returns, and a monthly receivables-ageing; covenant a debt-service cover and a cap on single-buyer concentration. **Where a unit has fund-based limits, track utilisation — one peer's utilisation fell from 70-90% to 40-50% in Q1FY25 [9], which is the signal to ask why before it becomes a default.**\n\n## Early-warning signs\n- **GST turnover falling faster than the Uttarakhand -19.1% [D] (monthly) -> freeze new limits and inspect stock.**\n- **Receivables beyond 90 days rising two months running (monthly) -> ask for buyer confirmations and shift to LC-backed sales.**\n- **Power consumption per unit of output dropping (quarterly) -> check for partial shutdown; the state's demand is already +4.7% vs India +9.5% [D].**\n- **Single-buyer share crossing a third of sales (quarterly) -> reprice or reduce exposure.**"
+ ],
+ "watch": [
+  [
+   "GST returns vs state trend (monthly)",
+   "Turnover down more than the state's -19.1% [D] -> freeze limits, inspect stock"
+  ],
+  [
+   "Receivables ageing (monthly)",
+   "Over-90-day debt rising two months running -> seek buyer confirmation, move to LC sales"
+  ],
+  [
+   "Fund-based limit utilisation (monthly)",
+   "Utilisation stuck above 90% -> ask for the cash-flow reason before renewing"
+  ],
+  [
+   "Power consumption per unit output (quarterly)",
+   "Falling while sales flat -> check for partial shutdown, reassess"
+  ],
+  [
+   "Single-buyer concentration (quarterly)",
+   "Above one-third of sales -> cap exposure or reprice"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Uttarakhand GST -19.1% and power demand lagging India signal local demand stress.",
+ "articles": [
+  {
+   "title": "हरिद्वार में इंडियन फार्माकोपिया पर वैज्ञानिक सम्मेलन आयोजित, जागरूकता बढ़ाना उद्देश्य",
+   "url": "https://network10.in/public/index.php/Uttarakhand/Scientific-conference-on-Indian-Pharmacopoeia-held-in-Haridwar-aim-is-to-raise-awareness",
+   "date": "2026-10-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Rishi Chemical Works plans to construct active pharmaceutical ingredients (API) manufacturing unit in Haridwar dist, Uttarakhand.",
+   "url": "https://newsonprojects.com/site/projects?id=60897",
+   "date": "2026-07-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "akums drugs and pharmaceuticals resumes production at haridwar sites",
+   "url": "https://www.capitalmarket.com/markets/news/Hot-Pursuit/akums-drugs-and-pharmaceuticals-resumes-production-at-haridwar-sites/1694572",
+   "date": "2026-05-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 16 (national 27 x 0.6 + Uttarakhand 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttarakhand: GST collections -19.1% Apr-to-date vs India +6.1% (25.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Uttarakhand: electricity demand +4.7% Apr-to-date vs India +9.5% (4.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

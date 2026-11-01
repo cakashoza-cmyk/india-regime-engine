@@ -1,0 +1,155 @@
+{
+ "key": "ts_hyderabad|pharma",
+ "state": "TS",
+ "city": "ts_hyderabad",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 56,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Hyderabad API/formulation units with clean USFDA history and funded working capital; avoid single-customer, single-facility exporters with open 483s.",
+ "title": "Hyderabad Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "So when a proposal lands, check the customer-wise sales split and the facility-wise USFDA status before you look at the balance sheet. [8][10]\n\n## What has changed now\n**The local tailwind is real but the sector signal is not: Telangana GST is up 13.8% Apr-to-date against India's 6.1%, and state power demand is up 15.7% against 9.5% nationally [D].** Against that, India-wide output is down 2.1% Apr-to-date while bank credit is up 21.6% YoY, a 23.7 pp gap [D] — money is chasing a shrinking output base. In Hyderabad specifically, Granules' Gagillapur finished-dosage site drew 11 USFDA observations on 30-Oct-2026, its first inspection since a February 2025 warning letter; none were data-integrity or cross-contamination, and manufacturing is unaffected [1][2]. **Read that as a documentation-and-investigation problem, not a shutdown — but it is the second adverse event at one site in two years.**\n\n## Where the growth is\n**Peer results show the money is in API and CDMO, not plain dosage: Aarti Pharmalabs posted record quarterly revenue of Rs. 613 crore, up 47% YoY, with EBITDA margin at 22.2% [4][6], and RPG Life Sciences is targeting 25% API growth with another acquisition within 12 months [5].** RPG's own Q2 revenue rose 16.5% to Rs. 211.6 crore yet the stock fell over 10% [7] — the market is pricing quality of earnings, not topline. Pursue Hyderabad API and intermediate makers with multi-customer order books and CDMO contracts; avoid single-customer CRAMS units, where one US client loss hits revenue hard [8]. ## How to grow safely\n**Structure against the working-capital cycle, which is the real risk: Concord's working capital intensity ran 47-52% of sales even after improvement [10].** Take monthly stock-and-receivable statements, a receivables-ageing covenant, and a USFDA status declaration each quarter. Where a borrower has fund-based limits, track utilisation — Cohance's fell from 70-90% to 40-50% in Q1FY25 [9], which is a genuine signal of order slowdown, not prudence. Ask for facility-wise inspection history; if any site is under a warning letter, ask for the remediation timeline and hold limit enhancement. ## Early-warning signs\n**Watch for a second 483 at the same site, receivable days stretching past the stated cycle, and customer concentration above half of sales [8][10].** Note that the rating sources here are undated and pre-date FY26 — treat them as structural, not current. Hyderabad-specific borrower data is thin in these sources; lean on first principles and the peer numbers above.",
+  "## Verdict for the desk\n**Caution, not avoid: the Telangana demand signals [D] support selective lending, but the credit-to-output gap [D] and the Granules observations [1] mean we underwrite facility quality and customer spread, not the city's growth story.**"
+ ],
+ "watch": [
+  [
+   "USFDA inspection status per facility (quarterly)",
+   "new 483 or warning letter at a financed site -> freeze limit enhancement, ask for remediation plan"
+  ],
+  [
+   "Receivable days vs stated credit terms (monthly)",
+   "ageing stretches beyond agreed cycle -> ask for customer-wise collection proof, cut limit"
+  ],
+  [
+   "Fund-based limit utilisation (monthly)",
+   "utilisation drops sharply without sales fall -> ask for order book, check for customer loss"
+  ],
+  [
+   "Customer concentration (quarterly)",
+   "top customer above half of sales -> require diversification covenant before renewal"
+  ],
+  [
+   "Inventory days and stock statement (monthly)",
+   "inventory builds faster than sales -> ask for slow-moving stock list, tighten drawing power"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Granules' Hyderabad site drew 11 USFDA observations, its second adverse event since the 2025 warning letter.",
+ "articles": [
+  {
+   "title": "Finished dosage facility of Granules in Hyderabad gets 11 U.S. FDA observations",
+   "url": "https://www.thehindu.com/business/Industry/finished-dosage-facility-of-granules-in-hyderabad-gets-11-us-fda-observations/article71648787.ece",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "USFDA completes CGMP inspection at Granules India’s Gagillapur facility",
+   "url": "https://www.moneyworks4me.com/company/news/index/id/845119",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Here's why Granules India shares could see a reaction on Monday - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/granules-india-share-price-gagilapur-unit-11-usfda-observations-newsbreak-confirmed-impact-conclusion-reaction-20023880.htm/amp",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 56 (national 27 x 0.6 + Telangana 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Telangana: GST collections +13.8% Apr-to-date vs India +6.1% (7.7 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Telangana: electricity demand +15.7% Apr-to-date vs India +9.5% (6.2 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

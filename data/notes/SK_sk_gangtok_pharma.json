@@ -1,0 +1,142 @@
+{
+ "key": "sk_gangtok|pharma",
+ "state": "SK",
+ "city": "sk_gangtok",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 16,
+ "nudged_by_news": false,
+ "verdict": "Avoid new pharma/API exposure in Gangtok until Sikkim's local demand signals and compliance position stabilise; lend only to the strongest, well-structured existing relationships.",
+ "title": "Gangtok Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Gangtok-area pharma or API unit buys solvents, intermediates and packaging, runs reactors or formulation lines on power and steam, and sells to formulators or exports.** Cash is made on throughput and yield, not on price — most units are price-takers against larger Indian and Chinese suppliers. Working capital sits in inventory and receivables; API peers show working capital intensity of 52% in FY2019, 47% in FY2020 and 48% in 7MFY2021 [9], so **assume a long cash cycle until the customer's own numbers say otherwise.** Capex is reactor-and-utility heavy and lumpy; a Cohance peer carried term loans of Rs. 152 crore with repayments back-ended from May 2025 [8].\n\n## What has changed now\n**Sikkim's local demand is contracting while India's is not.** State GST collections are -53.8% Apr-to-date against India +6.1% [D], and electricity demand is -0.5% against India +9.5% [D]. Nationally, output is -2.1% Apr-to-date while bank credit is +21.6% YoY [D] — **credit is running far ahead of output, so pricing power is thin.** Separately, the Sikkim High Court has ordered statewide inspections of industries over waste violations [1]; so when a proposal lands, check the unit's consent-to-operate status and any inspection notice before sanctioning, and if there is an open violation, ask for the compliance plan and timeline in writing.\n\n## Where the growth is\n**Peer results are strong but they are not Gangtok.** Aarti Pharmalabs reported record quarterly revenue of Rs. 613 crore, up 47% YoY, with EBITDA margin at 22.2% [3][5]; RPG Life Sciences targets 25% API growth and is evaluating another acquisition within 12 months [4], though its stock fell over 10% after Q2 despite revenue rising 16.5% to Rs. 211.6 crore [6]. **Pursue Gangtok units that are contract-manufacturing or CDMO-linked for these larger players, with diversified customers.** Avoid single-customer units: a rated peer with Rs. 61.0 crore FY2024 revenue was flagged for high customer concentration [7]. The Governor met pharma manufacturers in Gangtok in August 2026 [2] — a relationship signal, not a demand signal.\n\n## How to grow safely\n**Structure against the cash cycle, not the P&L.** Take monthly stock-and-receivable statements, monthly GST returns, and quarterly utility bills; if receivables cross the customer's stated credit terms, ask for the ageing and stop enhancement. Keep limits sized to 40-50% utilisation headroom, as the peer with Rs. 420 crore limits ran [8]. **Take a charge on receivables and inventory, and a personal guarantee on every new line.**\n\n## Early-warning signs\n**Watch power and GST first.** If the unit's own electricity consumption falls while its sales grow, ask for the production log. If GST filings lag or turnover dips against the state's -53.8% [D], freeze fresh disbursal. Any new court or pollution notice [1] means stop and reassess."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns",
+   "Two consecutive months of falling turnover -> freeze fresh disbursal and re-price"
+  ],
+  [
+   "Monthly electricity bills",
+   "Consumption down while sales up -> demand production log and stock statement"
+  ],
+  [
+   "Quarterly receivable ageing",
+   "Ageing beyond stated credit terms -> stop enhancement, seek charge enforcement"
+  ],
+  [
+   "Court/pollution notices (event-based)",
+   "Any inspection notice or violation [1] -> halt disbursal until compliance plan is filed"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Sikkim GST -53.8% and power -0.5% vs India growth; court-ordered inspections add compliance risk.",
+ "articles": [
+  {
+   "title": "Sikkim High Court Orders Statewide Industry Inspections Over Waste Violations",
+   "url": "https://newire.in/articles/sikkim-high-court-orders-statewide-industry-inspections-over-waste-violations",
+   "date": "2026-10-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "06.08.2026 : Sikkim Governor, Shri Om Prakash Mathur today convened a meeting with various Pharmaceutical companies having their manufacturing plants in the State at Lok Bhavan, Gangtok. | Lok Bhavan Sikkim | India",
+   "url": "https://rajbhavansikkim.gov.in/06-08-2026-sikkim-governor-shri-om-prakash-mathur-today-convened-a-meeting-with-various-pharmaceutical-companies-having-their-manufacturing-plants-in-the-state-at-lok-bhavan-gangtok/",
+   "date": "2026-08-05",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 16 (national 27 x 0.6 + Sikkim 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Sikkim: GST collections -53.8% Apr-to-date vs India +6.1% (59.9 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Sikkim: electricity demand -0.5% Apr-to-date vs India +9.5% (10.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

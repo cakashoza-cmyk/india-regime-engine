@@ -1,0 +1,150 @@
+{
+ "key": "py_puducherry|pharma",
+ "state": "PY",
+ "city": "py_puducherry",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 16,
+ "nudged_by_news": false,
+ "verdict": "Avoid new pharma/API exposure in Puducherry for now; lend only to licensed, compliance-clean formulation or CDMO units with verified export orders and tight monthly monitoring.",
+ "title": "Puducherry Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Puducherry pharma unit buys APIs and excipients, converts them into formulations or contract batches, and sells into domestic trade or export.** Cash is tied up in raw-material inventory and in receivables from distributors and overseas buyers; the plant itself is the smaller part of the balance sheet. **The value sits in regulatory approvals and customer qualification, not in the machinery** — which is why a licence cancellation can wipe out a unit overnight. Note the December 2025 crackdown: the Drugs Control Department cancelled licences and sealed several firms for violations in sale, storage and distribution [2]. So when a proposal lands, check the current drug licence and any suspension history first; if the licence status is unclear, ask for the department's written confirmation before anything else. ## What has changed now\n**The local demand signal is weak.** Puducherry GST collections are down 20.7% Apr-to-date against India's +6.1%, and electricity demand is up only 6.1% versus India's 9.5% [D]. Nationally, output is -2.1% Apr-to-date while bank credit is +21.6% YoY [D] — money is chasing a shrinking production base, so weak borrowers will look creditworthy on paper. That is a local news claim from FIEO, not audited data — treat it as direction, not proof. ## Where the growth is\n**Peer results show the API/CDMO end is where the money is being made.** Aarti Pharmalabs reported record quarterly revenue of ₹613 crore, up 47% YoY, with EBITDA margin at 22.2% [4][6]. RPG Life Sciences is targeting 25% API growth and eyeing another acquisition within 12 months [5]. **Pursue Puducherry units that are genuine contract manufacturers or API suppliers with named export buyers and clean licences.** Avoid pure traders and storage/distribution outfits — that is exactly the segment the crackdown hit [2]. ## How to grow safely\n**Structure against the working-capital cycle, because that is where these firms die.** Rating reports show working-capital intensity of 47-52% at one API peer [10] and high customer concentration at another [8]. So take monthly stock-and-debtor statements, not quarterly; if receivables cross the sanctioned cycle, ask for the buyer-wise ageing. **Take the drug licence renewal date, GST returns and top-five buyer concentration every month.** Where exports fund repayment, insist on export-realisation routing through the bank. ## Early-warning signs\n- **GST turnover falling faster than the Puducherry average of -20.7% [D] (monthly)** -> stop fresh disbursement and review the limit. - **Any licence show-cause or sealing notice [2] (event-based)** -> freeze the account and call the promoter. - **Top buyer crossing a third of sales [8] (quarterly)** -> ask for a second-buyer order book before renewal. - **Inventory days rising while sales fall [10] (monthly)** -> shift to stock-backed limits only."
+ ],
+ "watch": [
+  [
+   "GST returns vs Puducherry -20.7% [D] (monthly)",
+   "turnover underperforming the state average -> stop fresh disbursement, review limit"
+  ],
+  [
+   "Drug licence status [2] (event-based)",
+   "show-cause or sealing notice -> freeze account, call promoter"
+  ],
+  [
+   "Buyer concentration [8] (quarterly)",
+   "top buyer above a third of sales -> demand second-buyer order book before renewal"
+  ],
+  [
+   "Inventory and receivable days [10] (monthly)",
+   "inventory days rising while sales fall -> move to stock-backed limits only"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Puducherry GST -20.7% and power demand lagging India; local licence crackdown on pharma firms.",
+ "articles": [
+  {
+   "title": "Puducherry’s export profile possesses significant strength for further growth, says FIEO",
+   "url": "https://www.thehindu.com/news/cities/puducherry/puducherrys-export-profile-possesses-significant-strength-for-further-growth-says-fieo/article71649312.ece",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Crackdown on firms involved in sale, storage of medicines in Puducherry - Crackdown on firms involved in sale, storage of medicines in Puducherry",
+   "url": "https://www.thehindu.com/news/cities/puducherry/crackdown-on-firms-involved-in-sale-storage-of-medicines-in-puducherry/article70416134.ece#1",
+   "date": "2025-12-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "அங்கீகரிக்கப்பட்ட மருந்தகங்களில் மருந்து வாங்கி பயன்படுத்த வேண்டும்",
+   "url": "https://www.dinamalar.com/news/puducherry/medicines-should-be-purchased-and-used-at-authorized-pharmacies/4101987",
+   "date": "2025-12-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 16 (national 27 x 0.6 + Puducherry 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Puducherry: GST collections -20.7% Apr-to-date vs India +6.1% (26.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Puducherry: electricity demand +6.1% Apr-to-date vs India +9.5% (3.4 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,158 @@
+{
+ "key": "uk_dehradun|pharma",
+ "state": "UK",
+ "city": "uk_dehradun",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 16,
+ "nudged_by_news": false,
+ "verdict": "Avoid new pharma/API exposure in Dehradun for now; the only lendable names are audited, branded formulation units with clean licences — everything else waits.",
+ "title": "Dehradun Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Dehradun pharma unit buys API and excipients, runs them through formulation, tableting or packing, and sells finished doses to distributors or contract customers.** Cash comes in on distributor terms, so the money is tied up in raw-material stock and receivables long before it returns. **The value sits in the licence and the brand, not the plant** — a formulation line is replaceable; a manufacturing licence and a customer-approved site are not. Peer rating work shows the working-capital drag is structural: Concord Biotech's working capital intensity ran 77% in FY2018, 47% in FY2020 and 48% in 7MFY2021 [10].",
+  "## What has changed now\n**The local signal is negative and it is recent.** Uttarakhand GST collections are -19.1% Apr-to-date against India +6.1%, 25.2 pp slower [D], and state electricity demand is +4.7% against India +9.5%, 4.8 pp slower [D]. Nationally, output is -2.1% Apr-to-date while bank credit is +21.6% YoY, a gap of +23.7 pp [D] — credit is running well ahead of production, which is exactly when weak units get refinanced rather than repaid. **On top of that, a counterfeit-medicine factory was busted in Dehradun in July 2026, allegedly packing fake drugs under well-known companies' labels** [1][2]. That is a local enforcement event, not a peer result, and it will tighten FSDA scrutiny of every small unit in the district.",
+  "## Where the growth is — and who to avoid\n**Peer results are strong and they are all in APIs and CDMO, not in local formulation trading.** Aarti Pharmalabs reported record quarterly revenue of Rs. 613 crore, up 47% YoY, with EBITDA margin at 22.2% [4][6]; RPG Life Sciences is targeting 25% API growth and another acquisition within 12 months [5]. **Pursue the Dehradun borrower who supplies into that chain** — a licensed unit with a named contract-manufacturing or CDMO customer, audited accounts, and a plant the customer has inspected. **Avoid traders, loan-licence operators and any unit whose labels are not its own**; the July raid [1][2] shows how quickly that becomes a criminal matter, not a credit matter.",
+  "## How to grow safely\n**Structure against the working-capital cycle, not the balance sheet.** Rating evidence shows fund-based utilisation swinging from 70-90% to 40-50% in a single quarter at Cohance Lifesciences [9] — so size the limit to the peak, and take monthly stock-and-receivables statements plus GST returns every month. **Take the licence copy, the FSDA inspection report and the customer's site-approval letter at sanction**, and re-take the licence annually. Where the borrower is small — one rated peer ran revenues of Rs. 61.0 crore in FY2024 with high customer concentration [8] — cap exposure to a single customer's share of sales; collect from customer the actual top-three customer percentages.",
+  "## Early-warning signs\n**Watch the licence and the label first.** Any FSDA notice, any label or packaging discrepancy, any change in the named manufacturer on the carton is a stop-and-explain event, not a monitoring item. **Then watch the cash:** receivables stretching past the peer range [10], inventory building while sales fall, or utilisation pinned at the top of the limit [9]. **And watch the state:** another quarter of Uttarakhand GST below India [D] means the local distributor chain is shrinking, so shorten tenor on new limits rather than raising them."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs sales (monthly)",
+   "GST turnover falls below reported sales for two months -> freeze fresh disbursement and ask for the sales register"
+  ],
+  [
+   "Stock-and-receivables statement (monthly)",
+   "Receivable days move beyond the 48% working-capital-intensity benchmark [10] -> reprice or cut the limit"
+  ],
+  [
+   "FSDA licence and inspection status (quarterly)",
+   "Any notice, raid or label discrepancy [1][2] -> stop disbursement and refer to legal"
+  ],
+  [
+   "Fund-based limit utilisation (monthly)",
+   "Utilisation stays above 90% for two months [9] -> treat as a term-loan request in disguise and decline"
+  ],
+  [
+   "Uttarakhand GST collection trend (quarterly)",
+   "State collections stay below India for another quarter [D] -> shorten tenor on all new limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Counterfeit factory raid in Dehradun plus state GST -19.1% and power demand lagging India.",
+ "articles": [
+  {
+   "title": "देहरादून में नकली दवाओं की फैक्ट्री का भंडाफोड़, नामी कंपनियों के रैपर में बन रही थीं फर्जी दवाएं - शहर",
+   "url": "https://www.timesnowhindi.com/cities/counterfeit-medicines-factory-busted-in-dehradun-article-155153643#1",
+   "date": "2026-07-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "FSDA की बड़ी कार्रवाई: फर्जी दवा निर्माण का खुलासा, भारी मात्रा में नकली दवाएं और पैकिंग सामग्री बरामद| Navbharat Live - FSDA की बड़ी कार्रवाई: फर्जी दवा निर्माण का खुलासा, भारी मात्रा में नकली दवाएं और पैकिंग सामग्री बरामद",
+   "url": "https://navbharatlive.com/uttar-pradesh/fake-medicines-factory-busted-dehradun-fsda-ghaziabad-crime-branch-seize-1882313.html/amp#1",
+   "date": "2026-07-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "SIDDHARTHA INSTITUTE OF PHARMACY, DEHRADUN",
+   "url": "https://siddharthagroup.co.in/siddhartha-institute-of-pharmacy/uploads/images/news/img_1888546_Int%20con_20250213_135211_0000.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 16 (national 27 x 0.6 + Uttarakhand 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttarakhand: GST collections -19.1% Apr-to-date vs India +6.1% (25.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Uttarakhand: electricity demand +4.7% Apr-to-date vs India +9.5% (4.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

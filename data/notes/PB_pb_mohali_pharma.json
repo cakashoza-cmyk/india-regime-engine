@@ -1,0 +1,154 @@
+{
+ "key": "pb_mohali|pharma",
+ "state": "PB",
+ "city": "pb_mohali",
+ "ind": "pharma",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 46,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to formulation units and API makers with clean USFDA/state records and verified input-tax records; avoid any borrower linked to the NCB property freeze or with unexplained asset build-up.",
+ "title": "Mohali Pharmaceuticals & APIs: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA Mohali pharma unit buys APIs, excipients and solvents, runs them through reaction, drying, milling and packing, and sells either bulk API to formulators or finished doses to distributors and institutions. **Cash is made in the conversion spread, not in the molecule** — so the credit question is always whether the borrower controls its input cost and its customer, or is squeezed between both. API imports are dominated by China at 65-70% of India's total [11], so a Mohali API maker's margin moves with import landed cost and FX, not with its own pricing. Collect from customer: product mix, import share of raw material, and customer-wise concentration. ## Where value and cash actually sit\nWorking capital is the business. Peer rating work shows working capital intensity of 48% in 7MFY2021, down from 77% in FY2018, and still described as high [10]; a contract-research peer ran revenues of Rs. 61.0 crore in FY2024 with high customer concentration [8]. **So when a proposal lands, check receivable days and inventory holding against these benchmarks; if receivable days exceed the peer range, ask for the ageing and the top-five buyer list before sanctioning.** Capex is lumpy and back-ended — one peer carries term loans of Rs. 152 crore with repayments starting May 2025 [9] — so match tenor to the plant, never fund a reactor out of a working-capital line. ## What has changed now\nTwo things. First, enforcement: the NCB froze 25 properties worth Rs 20.10 crore, most in Mohali, in a pharmaceutical drug diversion case, with industrial plots and commercial units at Gillco Industrial Park, Janta Industrial Estate and JLPL among them [1]. **Any borrower, promoter or family member appearing in that property list is an automatic decline, whatever the financials say.** Second, demand is real but the national picture is stretched: bank credit is up 21.6% YoY against output down 2.1% [D]. Punjab GST is running +9.7% Apr-to-date versus India +6.1% [D], a genuine local tailwind, while Punjab electricity demand grew 8.8% versus India's 9.5% [D] — neutral. ## Where to grow, and how to grow safely\nPeers are expanding: Aarti Pharmalabs posted record quarterly revenue of Rs. 613 crore, up 47% YoY, with EBITDA margin at 22.2% [4][6], and RPG Life Sciences targets 25% API growth with an acquisition within 12 months [5]. **Pursue Mohali API and CDMO units supplying such expanding buyers, and formulation makers with domestic institutional orders; avoid traders with no plant, and any unit whose only collateral is property in the frozen localities [1].** Structure as cash-flow lending against verified GST turnover, with a receivables-backed drawing power. Take monthly GSTR-2B versus purchase register, stock statement, and a quarterly plant visit with effluent and drug-licence checks. ## Early warning signs\n- GST return vs bank credit turnover divergence (monthly): gap beyond 10% -> freeze limit and seek explanation. - Receivable days drift (monthly): rising two quarters running -> shift to LC-backed sales. - Customer concentration (quarterly): top buyer above 40% of sales -> cap exposure. - Any promoter name in an NDPS or NCB order (event-based): immediate stop and legal review [1]."
+ ],
+ "watch": [
+  [
+   "GST 2B vs purchase register (monthly)",
+   "mismatch above 5% -> hold disbursement, ask for reconciliation"
+  ],
+  [
+   "Receivable days vs peer range (monthly)",
+   "two-quarter rise -> reduce drawing power, move to LC sales"
+  ],
+  [
+   "Top-customer share of sales (quarterly)",
+   "above 40% -> cap exposure and seek diversification plan"
+  ],
+  [
+   "Promoter name in NDPS/NCB orders (event-based)",
+   "any match -> stop limit, escalate to legal [1]"
+  ],
+  [
+   "Plant licence and USFDA/state inspection status (quarterly)",
+   "adverse observation -> re-rate account, seek remediation timeline"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "NCB froze Rs 20.10 crore of Mohali pharma-linked property in a drug diversion case [1].",
+ "articles": [
+  {
+   "title": "Pharma drug case: NCB freezes 25 properties worth Rs 20 cr in Mohali; Ambala family absconding - The Tribune",
+   "url": "https://www.tribuneindia.com/news/punjab/pharma-drug-case-ncb-freezes-25-properties-worth-rs-20-10-crore-in-mohali-ambala-family-absconding/amp/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Import Alert | Latest & Breaking News on Import Alert | Photos, Videos, Breaking Stories and Articles on Import Alert - 15",
+   "url": "https://www.moneycontrol.com/news/tags/import-alert.html#1",
+   "date": "2026-10-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Q4 Cy13 | Latest & Breaking News on Q4 Cy13 | Photos, Videos, Breaking Stories and Articles on Q4 Cy13",
+   "url": "https://www.moneycontrol.com/news/tags/q4-cy13.html",
+   "date": "2026-10-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highlights: Record Revenue of Rs. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs--4919466",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences targets 25% API growth, eyes another acquisition within 12 months - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/earnings/rpg-life-sciences-targets-25-api-growth-eyes-another-acquisition-within-12-months-q2-earnings-results-boardroom-cancer-drug-20023370.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Aarti Pharmalabs Ltd (BOM:543748) (Q2 2027) Earnings Call Highli",
+   "url": "https://www.gurufocus.com/news/9160559/aarti-pharmalabs-ltd-bom543748-q2-2027-earnings-call-highlights-record-revenue-of-rs-613-crore-pat-surges-275x-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "RPG Life Sciences Share Price Crashes Over 10% After Q2 FY27 Results",
+   "url": "https://www.angelone.in/news/stocks/rpg-life-sciences-share-price-crashes-over-10-after-q2-fy27-results",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "November 26,2024",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=131299&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The company’s liquidity profile is adequate",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131037_Cohance_Lifesciences_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Concord Biotech Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=101130#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Highlights",
+   "url": "https://www.icra.in/Rating/DownloadResearchSummaryReport?id=4966#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 46 (national 27 x 0.6 + Punjab 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Punjab: GST collections +9.7% Apr-to-date vs India +6.1% (3.6 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output -2.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +21.6% YoY vs output -2.1% (gap +23.7 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Punjab: electricity demand +8.8% Apr-to-date vs India +9.5% (0.7 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
