@@ -8,7 +8,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from engine import lending_sources as ls  # noqa: E402
+from engine import lending_sources as ls
+from engine import lending_geo as geo  # noqa: E402
 
 IST = timezone(timedelta(hours=5, minutes=30))
 OUT = ROOT / "data" / "lending_latest.json"
@@ -100,10 +101,19 @@ def score_sector(sector, data, macro, cfg, today):
         add("iip_fytd", iip["fytd_pct"], "% FYTD", "iip_nic2", iip, f"output {iip['fytd_pct']:+.1f}% Apr-to-date")
     if exp:
         add("export_fytd_usd", exp["usd_fytd_pct"], "% FYTD (USD)", "exports_qe", exp, f"exports {exp['usd_fytd_pct']:+.1f}% Apr-to-date in USD (Rs {exp['inr_fytd_cr']:,.0f} Cr FYTD)")
+    act = sector.get("activity")
+    arec = ((data.get(act["dataset"]) or {}).get(act["key"]) if act else None)
+    if act and arec and arec.get(act["field"]) is not None:
+        arec2 = {**arec, "check_ok": arec.get("check_ok", True) and arec.get("fytd_check_ok", True)}
+        add("activity_proxy", arec[act["field"]], "% FYTD", act["dataset"], arec2, f"{act['label']} {arec[act['field']]:+.1f}%")
     if cr and iip:
         gap = round(cr["yoy_pct"] - iip["fytd_pct"], 1)
         rec = {**cr, "check_ok": cr["check_ok"] and iip["check_ok"], "_period": min(cr["_period"], iip["_period"])}
         add("credit_vs_output", gap, "pp", "rbi_sibc", rec, f"bank credit {cr['yoy_pct']:+.1f}% YoY vs output {iip['fytd_pct']:+.1f}% (gap {gap:+.1f} pp)")
+    elif cr and act and arec and arec.get(act["field"]) is not None:
+        gap = round(cr["yoy_pct"] - arec[act["field"]], 1)
+        rec = {**cr, "check_ok": cr["check_ok"] and arec.get("check_ok", True), "_period": min(cr["_period"], arec["_period"])}
+        add("credit_vs_output", gap, "pp", "rbi_sibc", rec, f"bank credit {cr['yoy_pct']:+.1f}% YoY vs activity {arec[act['field']]:+.1f}% (gap {gap:+.1f} pp)")
     core = [k for k, v in drivers.items() if v["score"] is not None]
     drivers.update(overlays(sector, macro, th))
     num = sum(wt[k] * drivers[k]["score"] for k in core)
@@ -124,7 +134,7 @@ def score_sector(sector, data, macro, cfg, today):
             "why": why_line(verdict, drivers, wt), "credit": cr and {k: cr[k] for k in ("name", "outstanding_cr", "yoy_pct", "fy_pct", "as_of")},
             "rbi_row": sector.get("rbi_row"), "iip_nic": sector.get("iip_nic"), "export_row": sector.get("export_row"),
             "energy": sector.get("energy"), "wc_intensity": sector.get("wc_intensity"), "ews": sector.get("ews"),
-            "guidance": sector.get("guidance", []), "note": sector.get("note"), "commodities": sector.get("commodities", [])}
+            "group": sector.get("group"), "guidance": sector.get("guidance", []), "note": sector.get("note"), "commodities": sector.get("commodities", [])}
 
 
 def why_line(verdict, drivers, wt):
@@ -169,22 +179,38 @@ def run(today=None, fetch=True):
     cfg = ls.load_config()
     today = today or datetime.now(IST).date()
     state, health, data, meta = ls.load_state(), [], {}, {}
-    validators = {"rbi_sibc": ls.validate_sibc, "iip_nic2": ls.validate_iip, "exports_qe": ls.validate_exports}
+    validators = {"rbi_sibc": ls.validate_sibc, "iip_nic2": ls.validate_iip, "exports_qe": ls.validate_exports,
+                  "gst_state": ls.validate_gst, "power_state": ls.validate_power, "rbi_state": ls.validate_rbi_state}
+    accuracy = {}
     for ds, v in validators.items():
+        prev = json.loads(json.dumps(state.get(ds))) if state.get(ds) else None
         payload, period, url, sid = ls.discover(ds, cfg, state, health, today, v) if fetch else (
             (state.get(ds) or {}).get("payload"), (state.get(ds) or {}).get("period"), (state.get(ds) or {}).get("url"), "cache")
         if not payload:
             meta[ds] = {"ok": False, "label": cfg["sources"][ds]["label"]}
             continue
-        src_url = payload.get("release_url") or url
-        rows = {}
-        for k, r in payload["rows"].items():
-            kk = int(k) if ds == "exports_qe" else k
-            rows[kk] = {**r, "_period": r.get("as_of") or period, "_url": src_url}
+        def _rows(payload, period, url):
+            src_url = payload.get("release_url") or url
+            return src_url, {(int(k) if ds == "exports_qe" else k): {**r, "_period": r.get("as_of") or period, "_url": src_url} for k, r in payload["rows"].items()}
+        src_url, rows = _rows(payload, period, url)
+        ok, detail = geo.accuracy_checks({ds: rows}).get(ds, (True, "no second-source check defined"))
+        accuracy[ds] = {"ok": ok, "detail": detail, "period": period, "kept_last_good": False}
+        if not ok:
+            if prev and prev.get("payload") and prev.get("period") != period:
+                state[ds] = prev
+                payload, period, url, sid = prev["payload"], prev["period"], prev["url"], "last_good"
+                src_url, rows = _rows(payload, period, url)
+                accuracy[ds]["kept_last_good"] = prev["period"]
+            else:
+                meta[ds] = {"ok": False, "label": cfg["sources"][ds]["label"], "error": "failed accuracy check: " + detail}
+                if prev: state[ds] = prev
+                continue
         data[ds] = rows
         fresh, why = is_fresh(period, cfg["sources"][ds]["max_age_days"], today)
         meta[ds] = {"ok": True, "label": cfg["sources"][ds]["label"], "period": period, "url": src_url, "via": sid,
-                    "fresh": fresh, "stale_reason": why, "file_url": payload.get("xlsx_url")}
+                    "fresh": fresh, "stale_reason": why, "file_url": payload.get("xlsx_url"),
+                    "tier": cfg["sources"][ds].get("tier"), "report_url": payload.get("report_url"), "year_ago_url": payload.get("year_ago_url"),
+                    "checked_ist": (state.get(ds) or {}).get("checked_ist")}
     macro = macro_inputs()
     health.append({"dataset": "macro_engine", "source": "regime_latest", "ok": bool(macro), "error": None if macro else "regime_latest.json missing", "url": "data/regime_latest.json"})
     comms = {}
@@ -196,6 +222,30 @@ def run(today=None, fetch=True):
     else:
         comms = (json.loads(OUT.read_text()).get("commodities") if OUT.exists() else {}) or {}
     sectors = [score_sector(s, data, macro, cfg, today) for s in cfg["sectors"]]
+    # RBI FSR GNPA (display only), parsed once per edition and cached
+    fsr_cache = state.setdefault("fsr_gnpa", {})
+    for rep in cfg.get("fsr_reports", []):
+        if rep["url"] not in fsr_cache and fetch:
+            r, err = ls.validate_fsr_gnpa(rep["url"])
+            health.append({"dataset": "fsr_gnpa", "source": rep["edition"], "ok": bool(r), "error": err, "url": rep["url"], "period": r and r["period"]})
+            if r:
+                fsr_cache[rep["url"]] = {**r, "edition": rep["edition"]}
+    gnpa_series = sorted([{**v, "url": u} for u, v in fsr_cache.items()], key=lambda x: (int(x["period"][-2:]), x["period"][:3] == "Sep"))
+    # monthly credit-growth history (accumulates one point per SIBC release; never back-filled)
+    hist = state.setdefault("credit_history", {})
+    if data.get("rbi_sibc") and meta.get("rbi_sibc", {}).get("period"):
+        hist[meta["rbi_sibc"]["period"]] = {k: v.get("yoy_pct") for k, v in data["rbi_sibc"].items() if isinstance(v, dict) and v.get("check_ok")}
+    for s_ in sectors:
+        s_["plain"] = geo.plain_summary(s_)
+        s_["gnpa"] = geo.gnpa_for(cfg, gnpa_series, s_["id"])
+        row = s_.get("rbi_row")
+        s_["credit_trend"] = [{"period": p, "yoy_pct": h.get(row)} for p, h in sorted(hist.items()) if row and h.get(row) is not None][-13:]
+    states = geo.state_indicators(cfg, data, meta)
+    combos, avoid = geo.build_geo(cfg, sectors, states)
+    news_p = ROOT / "data" / "local_news.json"
+    news = json.loads(news_p.read_text()) if news_p.exists() else {}
+    geo.attach_local(combos, news)
+    hl = geo.highlights(cfg, sectors, states, combos)
     run_id = datetime.now(IST).strftime("%Y%m%dT%H%M%S") + "-" + uuid.uuid4().hex[:6]
     nonfood = (data.get("rbi_sibc") or {})
     out = {
@@ -205,12 +255,14 @@ def run(today=None, fetch=True):
         "regime": macro.get("_regime"),
         "macro": {k: v for k, v in macro.items() if not k.startswith("_") and k in ("cpi_headline", "repo_rate", "rbi_stance_score", "india10y", "credit_growth", "capacity_util", "brent", "usdinr_ref", "iip_yoy", "gst_yoy", "gdp_yoy", "food_inflation")},
         "system_credit": {k: nonfood[k] for k in ("2", "2.1", "2.2", "2.3", "3") if k in nonfood},
-        "datasets": meta, "sectors": sectors, "commodities": comms,
+        "datasets": meta, "sectors": sectors, "states": states, "clusters": cfg["clusters"], "geo_config": cfg["geo"],
+        "combos": combos, "avoid_list": avoid, "highlights": hl, "highlight_rules": cfg["highlight_rules"], "highlight_thresholds": cfg["highlight_thresholds"],
+        "accuracy": accuracy, "local_news_status": {k: news.get(k) for k in ("active", "status", "checked_ist", "last_run")}, "gnpa_editions": [{k: g[k] for k in ("edition", "period", "url")} for g in gnpa_series], "commodities": comms,
         "counts": {v: sum(s["verdict"] == v for s in sectors) for v in ("Lend", "Selective", "Avoid", UNKNOWN)},
         "config": {"weights": cfg["weights"], "thresholds": cfg["thresholds"]},
         "missing_sources": cfg["missing_sources"],
         "deepseek": {"enabled": ls.deepseek_available(), "use": "URL discovery and language only; never numbers"},
-        "health": health, "warnings": calibration_warnings(cfg, today) + [f"SOURCE_DOWN: {m['label']}" for m in meta.values() if not m["ok"]],
+        "health": health, "warnings": calibration_warnings(cfg, today) + [f"ACCURACY_FAIL: {k}: {a['detail']}" for k, a in accuracy.items() if not a["ok"]] + [f"SOURCE_DOWN: {m['label']}" for m in meta.values() if not m["ok"]],
     }
     for s in out["sectors"]:  # drop internals
         for d in s["drivers"].values():
@@ -218,14 +270,18 @@ def run(today=None, fetch=True):
     if fetch:
         ls.save_state(state)
         record_health(health, run_id)
-    OUT.write_text(json.dumps(out, indent=1, default=str, ensure_ascii=False))
+    out["avoid_list"] = [{"i": combos.index(c), "rank": c["severity_rank"]} for c in avoid]
+    OUT.write_text(json.dumps(out, separators=(",", ":"), default=str, ensure_ascii=False))
     return out
 
 
 if __name__ == "__main__":
     o = run(fetch="--offline" not in sys.argv)
-    print(o["counts"])
+    print(o["counts"], "avoid combos:", len(o["avoid_list"]))
     for s in o["sectors"]:
         print(f"{s['verdict']:<18} {str(s['score']):>4}  {s['name']}  | {s['why']}")
     for w in o["warnings"]:
         print("WARNING", w)
+    if any(not a["ok"] for a in o["accuracy"].values()):
+        print("ACCURACY GATE FAILED — last good values kept where available")
+        sys.exit(2)

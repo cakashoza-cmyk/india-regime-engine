@@ -50,4 +50,4 @@ const card=(k,v,cls='')=>`<div class="k"><div class="m">${k}</div><div class="${
  try{const h=await (await fetch('./data/regime_history.json',{cache:'no-store'})).json();
  document.getElementById('hist').innerHTML=tbl(['When','Regime','Sub','Stage','Position','Check back','Outcome'],h.slice(-30).reverse().map(r=>[r.generated_at_ist,r.regime_label,r.sub_label,r.stage,r.position?`${r.position.action} ${f(r.position.size)}`:'—',r.check_back_date,r.outcome??'pending']));}catch(e){}
 })().catch(e=>{document.getElementById('gen').textContent='Failed to load snapshot: '+e});
-</script></body></html>
+</script><script src="assets/nav.js"></script></body></html>

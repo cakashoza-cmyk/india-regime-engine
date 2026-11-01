@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Methodology — Macro Credit Radar</title><link rel="stylesheet" href="assets/site.css"></head><body><main>
+<div class="disc"><b>This is a decision aid, not a substitute for credit judgment.</b> It flags sector × place combinations to look at harder. It does not approve or reject any borrower, and it is not loan advice to anyone outside the bank.</div>
+<div class="card"><h2>What it answers</h2><p>"Should I be careful lending to a <i>sector</i> in a <i>place</i>?" You pick a state or industrial cluster and a sector, and you get one of three answers: <span class="pill ok">OK to lend</span> <span class="pill caution">Caution</span> <span class="pill avoid">Avoid</span>, then the top three reasons and the evidence behind them.</p></div>
+<div class="card"><h2>Where the numbers come from (official only)</h2><ul>
+<li><b>Bank credit by sector</b> — RBI, Sectoral Deployment of Bank Credit (monthly xlsx).</li>
+<li><b>Factory output by industry</b> — Index of Industrial Production, MoSPI (via PIB release).</li>
+<li><b>Exports by product</b> — Department of Commerce Quick Estimates.</li>
+<li><b>State GST collections</b> — GSTN monthly GST revenue report (state-wise domestic collections, Apr-to-date).</li>
+<li><b>State electricity demand</b> — Central Electricity Authority, Power Supply Position (Energy), compared with the same month a year earlier.</li>
+<li><b>State bank credit (annual)</b> — RBI Handbook of Statistics on Indian States (shown, not scored).</li>
+<li><b>Sector bad loans (GNPA)</b> — RBI Financial Stability Report, half-yearly (shown, not scored).</li>
+<li><b>Interest rates, inflation, oil</b> — the macro regime engine (verified), used only as a small ±5 point overlay.</li></ul>
+<p>Commodity prices (Yahoo) and anything from news or AI are <b>display only</b> and never change a call.</p></div>
+<div class="card"><h2>How the call is made</h2><ol>
+<li><b>National sector score (0–100).</b> Each verified driver gets +1 (good), 0 (neutral) or −1 (weak) against fixed thresholds: output growth above 5% is good, below 0% weak; exports growth above 10% good, below 0% weak; credit growing more than 20 points faster than output is weak (possible over-lending). Score = 50 + 50 × weighted average. At least two verified drivers are needed, otherwise "Unknown — collect".</li>
+<li><b>Local score (0–100).</b> For the state (a cluster uses its state): GST and electricity demand growth compared with all-India. More than 2 points faster = +1, more than 2 points slower or shrinking = −1. Both signals must be verified, otherwise the page says <i>"Not enough local data. National view: …"</i>.</li>
+<li><b>Combined score</b> = national × 0.6 + local × 0.4. <b>OK to lend</b> at 65 or more, <b>Avoid</b> below 45, otherwise <b>Caution</b>.</li>
+<li><b>Ground check by bankers</b> (1 = our stance is correct, 10 = incorrect). If at least 5 ratings average above 6, an OK to lend becomes Caution.</li>
+<li><b>Local credit view</b> (AI reading of local news, weekly). If it says local conditions are worse than the macro view, an OK to lend becomes Caution. It never creates or removes an Avoid and never upgrades a call.</li></ol>
+<p class="mut">The Avoid/OK call is always data-based. Ratings and the news view can only add caution.</p></div>
+<div class="card"><h2>How accuracy is checked</h2><ul>
+<li>Every run re-downloads each official file and checks it against a second, independent figure: RBI growth rates are recomputed from the rupee levels; IIP growth from the index levels; export totals re-added; GST Table 4 is matched against GST Table 2; electricity requirement − supply must equal the shortfall; the sum of states must be within 2% of the All-India bank credit.</li>
+<li>If a check fails, the run fails, the last good values are kept, and the Data audit page shows the failure.</li>
+<li>Data older than its normal release cycle is marked stale and stops counting.</li></ul></div>
+<div class="card"><h2>Limitations</h2><ul>
+<li>Sector data is national. The local view comes from state-wide GST and electricity data, not from the cluster itself.</li>
+<li>GST collections are affected by tax-rate changes and settlement timing, so they are compared with all-India rather than read on their own.</li>
+<li>Services, NBFC, agriculture and some infrastructure sectors lack an official monthly output series, so many of them show "Unknown — collect".</li>
+<li>Quarterly state credit (RBI BSR on DBIE), state exports (DGCI&S) and PLFS employment are not yet machine-readable here.</li>
+<li>Thresholds and weights are expert-set and have not been back-tested against loan outcomes.</li>
+<li>The bank's own NPA and SMA data is not used, and must not be entered on this site.</li></ul></div>
+</main><script src="assets/nav.js"></script></body></html>

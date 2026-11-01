@@ -1,0 +1,20 @@
+:root{--ok:#15803d;--okb:#dcfce7;--ca:#b45309;--cab:#fef3c7;--av:#b91c1c;--avb:#fee2e2;--un:#475569;--unb:#e2e8f0;--ink:#0f172a;--mut:#64748b;--line:#e2e8f0;--bg:#f8fafc}
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg)}
+nav.mcr{background:#0f172a;color:#fff;display:flex;flex-wrap:wrap;gap:4px;padding:8px 12px;align-items:center;position:sticky;top:0;z-index:5}
+nav.mcr b{margin-right:12px}nav.mcr a{color:#cbd5e1;text-decoration:none;padding:6px 10px;border-radius:6px}nav.mcr a.on,nav.mcr a:hover{background:#1e293b;color:#fff}
+main{max-width:1100px;margin:0 auto;padding:16px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;margin:12px 0}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}.tabs button{border:1px solid var(--line);background:#fff;padding:8px 14px;border-radius:999px;cursor:pointer;font:inherit}.tabs button.on{background:#0f172a;color:#fff}
+.pill{display:inline-block;padding:2px 10px;border-radius:999px;font-weight:600;font-size:13px}
+.ok{background:var(--okb);color:var(--ok)}.caution{background:var(--cab);color:var(--ca)}.avoid{background:var(--avb);color:var(--av)}.unknown{background:var(--unb);color:var(--un)}
+.big{font-size:30px;font-weight:800;padding:10px 18px;border-radius:12px;display:inline-block}
+.mut{color:var(--mut);font-size:13px}.row{display:flex;gap:12px;flex-wrap:wrap}.row>*{flex:1 1 220px}
+select,input,textarea{font:inherit;padding:8px;border:1px solid #cbd5e1;border-radius:8px;width:100%;background:#fff}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{border-bottom:1px solid var(--line);padding:6px;text-align:left;vertical-align:top}th{background:#f1f5f9;position:sticky;top:44px}
+.tbl{overflow:auto;max-height:70vh}details summary{cursor:pointer;color:#334155}
+.warn{background:#fff7ed;border:1px solid #fed7aa;padding:8px 12px;border-radius:8px;font-size:13px}
+.disc{background:#f1f5f9;border-left:4px solid #64748b;padding:8px 12px;font-size:13px}
+ol.reasons li{margin:6px 0}abbr{text-decoration:underline dotted;cursor:help}
+button.b{background:#0f172a;color:#fff;border:0;padding:8px 14px;border-radius:8px;cursor:pointer;font:inherit}
+.scale{display:flex;gap:4px;flex-wrap:wrap}.scale label{border:1px solid var(--line);border-radius:6px;padding:4px 9px;cursor:pointer}.scale input{display:none}.scale input:checked+span{font-weight:800;color:#b91c1c}
+@media(max-width:600px){.big{font-size:22px}th{top:0}}

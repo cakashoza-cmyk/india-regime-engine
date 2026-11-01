@@ -40,15 +40,26 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
         run: python engine/pipeline.py ${{ inputs.force_language && '--force-language' || '' }}
-      - name: Lending radar (sector Lend/Selective/Avoid)
+      - name: Local credit view (weekly per pair; DeepSeek; capped calls)
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-        run: python engine/lending.py
+          LOCAL_NEWS_MAX_CALLS: "300"
+        run: python engine/local_news.py || echo "local news scan failed (display-only, non-blocking)"
+      - name: Lending radar (verdicts + accuracy gate)
+        id: lending
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          set +e
+          python engine/lending.py
+          rc=$?
+          echo "rc=$rc" >> "$GITHUB_OUTPUT"
+          if [ $rc -ne 0 ] && [ $rc -ne 2 ]; then exit $rc; fi
       - name: Commit lending radar
         run: |
           git config user.name "regime-engine-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/lending_latest.json data/lending_state.json engine/regime.db
+          git add data/lending_latest.json data/lending_state.json data/local_news.json engine/regime.db
           git diff --cached --quiet || git commit -m "lending radar $(date -u +%FT%TZ)"
       - name: Commit snapshot
         run: |
@@ -70,3 +81,8 @@ jobs:
           git diff --cached --quiet || git commit -m "engine snapshot $(date -u +%FT%TZ)"
           git pull --rebase -X ours origin main || true
           git push
+      - name: Accuracy gate
+        if: steps.lending.outputs.rc == '2'
+        run: |
+          echo "::error::Accuracy check failed against the second source; last good values were kept (see Data audit)."
+          exit 1

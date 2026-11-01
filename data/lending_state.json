@@ -1,6 +1,109 @@
 {
+ "credit_history": {
+  "2026-09-30": {
+   "1": 19.52,
+   "2": 19.46,
+   "2.1": 19.06,
+   "2.10": 21.01,
+   "2.11": 12.43,
+   "2.12": 18.22,
+   "2.13": 19.22,
+   "2.13.1": 22.64,
+   "2.13.2": 11.92,
+   "2.14": 36.02,
+   "2.14.1": 30.6,
+   "2.14.2": 37.69,
+   "2.15": 26.98,
+   "2.16": 33.05,
+   "2.17": 30.03,
+   "2.18": 11.79,
+   "2.18.1": 22.88,
+   "2.18.2": -13.44,
+   "2.18.3": 0.69,
+   "2.18.4": 12.79,
+   "2.18.5": 21.9,
+   "2.18.6": -22.52,
+   "2.18.7": 5.67,
+   "2.19": 26.84,
+   "2.2": 25.28,
+   "2.2.1": -6.99,
+   "2.2.2": 45.52,
+   "2.2.3": 20.53,
+   "2.2.4": 26.26,
+   "2.3": 6.79,
+   "2.4": 18.91,
+   "2.4.1": 15.25,
+   "2.4.2": 25.77,
+   "2.4.3": 14.62,
+   "2.4.4": 23.26,
+   "2.5": 11.88,
+   "2.6": 20.65,
+   "2.7": 15.53,
+   "2.8": 9.34,
+   "2.9": 25.54,
+   "2.9.1": 53.12,
+   "2.9.2": 21.62,
+   "2.9.3": 28.92,
+   "2.9.4": 20.7,
+   "3": 28.32,
+   "3.1": 24.58,
+   "3.10": 17.59,
+   "3.2": 45.8,
+   "3.3": 27.92,
+   "3.4": 9.37,
+   "3.5": 42.73,
+   "3.6": 20.03,
+   "3.7": 23.93,
+   "3.7.1": 29.1,
+   "3.7.2": 18.07,
+   "3.8": 23.34,
+   "3.9": 41.77,
+   "3.9.1": 19.69,
+   "3.9.2": 79.69,
+   "4": 17.25,
+   "4.1": 4.55,
+   "4.2": 11.45,
+   "4.3": 53.27,
+   "4.4": 22.16,
+   "4.5": 7.22,
+   "4.6": 12.84,
+   "4.7": 15.5,
+   "4.8": 82.57,
+   "4.9": 15.59,
+   "S1:1": 19.52,
+   "S1:2": 19.46,
+   "S1:2.1": 24.42,
+   "S1:2.2": 33.24,
+   "S1:2.3": 15.98,
+   "S1:3": 28.32,
+   "S1:3.1": 24.58,
+   "S1:3.10": 17.59,
+   "S1:3.2": 45.8,
+   "S1:3.3": 27.92,
+   "S1:3.4": 9.37,
+   "S1:3.5": 42.73,
+   "S1:3.6": 20.03,
+   "S1:3.7": 23.93,
+   "S1:3.7.1": 29.1,
+   "S1:3.7.2": 18.07,
+   "S1:3.8": 23.34,
+   "S1:3.9": 41.77,
+   "S1:3.9.1": 19.69,
+   "S1:3.9.2": 79.69,
+   "S1:4": 17.25,
+   "S1:4.1": 4.55,
+   "S1:4.2": 11.45,
+   "S1:4.3": 53.27,
+   "S1:4.4": 22.16,
+   "S1:4.5": 7.22,
+   "S1:4.6": 12.84,
+   "S1:4.7": 15.5,
+   "S1:4.8": 82.57,
+   "S1:4.9": 15.59
+  }
+ },
  "exports_qe": {
-  "checked_ist": "2026-11-01 14:19",
+  "checked_ist": "2026-11-01 14:54",
   "discovered_by": "commerce_pattern",
   "first_seen": "2026-11-01",
   "payload": {
@@ -370,8 +473,431 @@
   "period": "2026-09-30",
   "url": "https://www.commerce.gov.in/files/2026-10/Quick%20Estimates%20September%202026.pdf"
  },
+ "fsr_gnpa": {
+  "https://rbidocs.rbi.org.in/rdocs//PublicationReport/Pdfs/0FSRDEC25D1EB9AAEE5724BD5A3E068490996BAD5.PDF": {
+   "edition": "FSR December 2025",
+   "gnpa": {
+    "basic_metals": 1.0,
+    "cement": 1.7,
+    "chemicals": 0.9,
+    "construction": 3.0,
+    "engineering": 2.4,
+    "food": 4.4,
+    "gems_jewellery": 2.8,
+    "infra_ex_power": 2.6,
+    "infrastructure": 1.5,
+    "mining": 1.7,
+    "paper": 3.3,
+    "power": 0.5,
+    "refining": 1.1,
+    "rubber_plastics": 1.9,
+    "textiles": 3.5,
+    "vehicles": 0.9
+   },
+   "period": "Sep-25"
+  },
+  "https://rbidocs.rbi.org.in/rdocs//PublicationReport/Pdfs/0FSRJUNE20253006258AE798B4484642AD861CC35BC2CB3D8E.PDF": {
+   "edition": "FSR June 2025",
+   "gnpa": {
+    "basic_metals": 1.2,
+    "cement": 2.1,
+    "chemicals": 1.1,
+    "construction": 3.1,
+    "engineering": 3.0,
+    "food": 4.2,
+    "gems_jewellery": 4.2,
+    "infra_ex_power": 3.2,
+    "infrastructure": 2.0,
+    "mining": 1.7,
+    "paper": 3.5,
+    "power": 0.9,
+    "refining": 1.2,
+    "rubber_plastics": 2.1,
+    "textiles": 3.6,
+    "vehicles": 1.1
+   },
+   "period": "Mar-25"
+  },
+  "https://rbidocs.rbi.org.in/rdocs//PublicationReport/Pdfs/0FSRJUNE2026_300626A120EF6C37694C8C933181147F1379D7.PDF": {
+   "edition": "FSR June 2026",
+   "gnpa": {
+    "basic_metals": 1.0,
+    "cement": 1.6,
+    "chemicals": 0.7,
+    "construction": 2.4,
+    "engineering": 2.0,
+    "food": 2.9,
+    "gems_jewellery": 1.8,
+    "infrastructure": 1.2,
+    "mining": 1.8,
+    "paper": 2.9,
+    "refining": 1.1,
+    "rubber_plastics": 1.7,
+    "textiles": 3.1,
+    "vehicles": 0.6
+   },
+   "period": "Mar-26"
+  }
+ },
+ "gst_state": {
+  "checked_ist": "2026-11-01 14:54",
+  "discovered_by": "gstn_pattern",
+  "first_seen": "2026-11-01",
+  "payload": {
+   "release_url": "https://tutorial.gst.gov.in/downloads/news/final_gst_revenue_report_for_publishing_monthly_sep_2026.pdf",
+   "rows": {
+    "Andaman and Nicobar Islands": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 321.0,
+     "fytd_pct": 12.3,
+     "month_cr": 50.0,
+     "month_prev_cr": 35.0,
+     "month_yoy_pct": 42.9
+    },
+    "Andhra Pradesh": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 21992.0,
+     "fytd_pct": -0.2,
+     "month_cr": 3599.0,
+     "month_prev_cr": 3384.0,
+     "month_yoy_pct": 6.4
+    },
+    "Arunachal Pradesh": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 932.0,
+     "fytd_pct": 11.1,
+     "month_cr": 136.0,
+     "month_prev_cr": 93.0,
+     "month_yoy_pct": 46.2
+    },
+    "Assam": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 12051.0,
+     "fytd_pct": 36.9,
+     "month_cr": 2415.0,
+     "month_prev_cr": 1287.0,
+     "month_yoy_pct": 87.6
+    },
+    "Bihar": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 10122.0,
+     "fytd_pct": -0.1,
+     "month_cr": 1700.0,
+     "month_prev_cr": 1590.0,
+     "month_yoy_pct": 6.9
+    },
+    "Center Jurisdiction": {
+     "check_ok": true,
+     "month_cr": 536.0,
+     "month_prev_cr": 392.0,
+     "month_yoy_pct": 36.7
+    },
+    "Chandigarh": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 1621.0,
+     "fytd_pct": 3.4,
+     "month_cr": 238.0,
+     "month_prev_cr": 229.0,
+     "month_yoy_pct": 3.9
+    },
+    "Chhattisgarh": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 15676.0,
+     "fytd_pct": 2.4,
+     "month_cr": 2366.0,
+     "month_prev_cr": 2347.0,
+     "month_yoy_pct": 0.8
+    },
+    "Dadra and Nagar Haveli and Daman & Diu": {
+     "check_ok": true,
+     "fytd_check_ok": false,
+     "fytd_cr": 2649.0,
+     "fytd_pct": 11.3,
+     "month_cr": 384.0,
+     "month_prev_cr": 366.0,
+     "month_yoy_pct": 4.9
+    },
+    "Delhi": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 42414.0,
+     "fytd_pct": 2.7,
+     "month_cr": 6354.0,
+     "month_prev_cr": 5691.0,
+     "month_yoy_pct": 11.6
+    },
+    "Goa": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 3544.0,
+     "fytd_pct": -1.2,
+     "month_cr": 494.0,
+     "month_prev_cr": 533.0,
+     "month_yoy_pct": -7.3
+    },
+    "Gujarat": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 75762.0,
+     "fytd_pct": 11.9,
+     "month_cr": 12222.0,
+     "month_prev_cr": 10419.0,
+     "month_yoy_pct": 17.3
+    },
+    "Haryana": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 66605.0,
+     "fytd_pct": 10.1,
+     "month_cr": 10097.0,
+     "month_prev_cr": 9882.0,
+     "month_yoy_pct": 2.2
+    },
+    "Himachal Pradesh": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 4205.0,
+     "fytd_pct": -22.8,
+     "month_cr": 640.0,
+     "month_prev_cr": 815.0,
+     "month_yoy_pct": -21.5
+    },
+    "India": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 874366.0,
+     "fytd_pct": 6.1,
+     "month_cr": 137996.0,
+     "month_prev_cr": 125334.0,
+     "month_yoy_pct": 10.1
+    },
+    "Jammu and Kashmir": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 3420.0,
+     "fytd_pct": -10.6,
+     "month_cr": 487.0,
+     "month_prev_cr": 690.0,
+     "month_yoy_pct": -29.4
+    },
+    "Jharkhand": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 15302.0,
+     "fytd_pct": -0.2,
+     "month_cr": 2456.0,
+     "month_prev_cr": 2360.0,
+     "month_yoy_pct": 4.1
+    },
+    "Karnataka": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 86892.0,
+     "fytd_pct": 11.1,
+     "month_cr": 13884.0,
+     "month_prev_cr": 12001.0,
+     "month_yoy_pct": 15.7
+    },
+    "Kerala": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 19759.0,
+     "fytd_pct": 10.3,
+     "month_cr": 3328.0,
+     "month_prev_cr": 3010.0,
+     "month_yoy_pct": 10.6
+    },
+    "Ladakh": {
+     "check_ok": false,
+     "fytd_check_ok": true,
+     "fytd_cr": 271.0,
+     "fytd_pct": 8.9,
+     "month_cr": 50.0,
+     "month_prev_cr": 44.0,
+     "month_yoy_pct": 13.6
+    },
+    "Lakshadweep": {
+     "check_ok": false,
+     "fytd_check_ok": true,
+     "fytd_cr": 14.0,
+     "fytd_pct": -11.3,
+     "month_cr": 1.0,
+     "month_prev_cr": 2.0,
+     "month_yoy_pct": -50.0
+    },
+    "Madhya Pradesh": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 20502.0,
+     "fytd_pct": -0.1,
+     "month_cr": 3198.0,
+     "month_prev_cr": 3041.0,
+     "month_yoy_pct": 5.2
+    },
+    "Maharashtra": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 193297.0,
+     "fytd_pct": 8.6,
+     "month_cr": 29986.0,
+     "month_prev_cr": 25973.0,
+     "month_yoy_pct": 15.5
+    },
+    "Manipur": {
+     "check_ok": false,
+     "fytd_check_ok": true,
+     "fytd_cr": 422.0,
+     "fytd_pct": 5.3,
+     "month_cr": 92.0,
+     "month_prev_cr": 37.0,
+     "month_yoy_pct": 148.6
+    },
+    "Meghalaya": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 1107.0,
+     "fytd_pct": -14.8,
+     "month_cr": 164.0,
+     "month_prev_cr": 191.0,
+     "month_yoy_pct": -14.1
+    },
+    "Mizoram": {
+     "check_ok": false,
+     "fytd_check_ok": true,
+     "fytd_cr": 236.0,
+     "fytd_pct": 4.3,
+     "month_cr": 38.0,
+     "month_prev_cr": 29.0,
+     "month_yoy_pct": 31.0
+    },
+    "Nagaland": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 505.0,
+     "fytd_pct": 13.8,
+     "month_cr": 76.0,
+     "month_prev_cr": 55.0,
+     "month_yoy_pct": 38.2
+    },
+    "Odisha": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 26199.0,
+     "fytd_pct": 0.5,
+     "month_cr": 4356.0,
+     "month_prev_cr": 3964.0,
+     "month_yoy_pct": 9.9
+    },
+    "Other Territory": {
+     "check_ok": true,
+     "month_cr": 265.0,
+     "month_prev_cr": 206.0,
+     "month_yoy_pct": 28.6
+    },
+    "Puducherry": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 1196.0,
+     "fytd_pct": -20.7,
+     "month_cr": 179.0,
+     "month_prev_cr": 259.0,
+     "month_yoy_pct": -30.9
+    },
+    "Punjab": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 15619.0,
+     "fytd_pct": 9.7,
+     "month_cr": 2549.0,
+     "month_prev_cr": 2167.0,
+     "month_yoy_pct": 17.6
+    },
+    "Rajasthan": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 26601.0,
+     "fytd_pct": -4.7,
+     "month_cr": 4151.0,
+     "month_prev_cr": 4165.0,
+     "month_yoy_pct": -0.3
+    },
+    "Sikkim": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 1159.0,
+     "fytd_pct": -53.8,
+     "month_cr": 194.0,
+     "month_prev_cr": 396.0,
+     "month_yoy_pct": -51.0
+    },
+    "Tamil Nadu": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 63962.0,
+     "fytd_pct": -3.2,
+     "month_cr": 10188.0,
+     "month_prev_cr": 10670.0,
+     "month_yoy_pct": -4.5
+    },
+    "Telangana": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 33765.0,
+     "fytd_pct": 13.8,
+     "month_cr": 5327.0,
+     "month_prev_cr": 4512.0,
+     "month_yoy_pct": 18.1
+    },
+    "Tripura": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 636.0,
+     "fytd_pct": 5.0,
+     "month_cr": 86.0,
+     "month_prev_cr": 89.0,
+     "month_yoy_pct": -3.4
+    },
+    "Uttar Pradesh": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 58376.0,
+     "fytd_pct": 14.2,
+     "month_cr": 8882.0,
+     "month_prev_cr": 7516.0,
+     "month_yoy_pct": 18.2
+    },
+    "Uttarakhand": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 8677.0,
+     "fytd_pct": -19.1,
+     "month_cr": 1277.0,
+     "month_prev_cr": 1665.0,
+     "month_yoy_pct": -23.3
+    },
+    "West Bengal": {
+     "check_ok": true,
+     "fytd_check_ok": true,
+     "fytd_cr": 33825.0,
+     "fytd_pct": -1.3,
+     "month_cr": 5549.0,
+     "month_prev_cr": 5229.0,
+     "month_yoy_pct": 6.1
+    }
+   }
+  },
+  "period": "2026-09-30",
+  "url": "https://tutorial.gst.gov.in/downloads/news/final_gst_revenue_report_for_publishing_monthly_sep_2026.pdf"
+ },
  "iip_nic2": {
-  "checked_ist": "2026-11-01 14:18",
+  "checked_ist": "2026-11-01 14:54",
   "discovered_by": "last_known",
   "first_seen": "2026-11-01",
   "payload": {
@@ -579,8 +1105,252 @@
   "period": "2026-09-30",
   "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475"
  },
+ "power_state": {
+  "checked_ist": "2026-11-01 14:55",
+  "discovered_by": "cea_dashboard",
+  "first_seen": "2026-11-01",
+  "payload": {
+   "release_url": "https://cea.nic.in/reports/dashboardView?headingId=107&subHeadingId=1003&subSubHeadingId=10010&title=Power%20Supply%20Position%20-%20Energy&lang=en",
+   "report_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/629bb710-1d47-4ca7-803e-8d47bc107b66",
+   "rows": {
+    "Andhra Pradesh": {
+     "check_ok": true,
+     "fytd_pct": 18.1,
+     "fytd_req_mu": 40429.0,
+     "month_yoy_pct": 23.0,
+     "req_mu": 8399.0
+    },
+    "Arunachal Pradesh": {
+     "check_ok": true,
+     "fytd_pct": -0.6,
+     "fytd_req_mu": 513.0,
+     "month_yoy_pct": -1.7,
+     "req_mu": 114.0
+    },
+    "Assam": {
+     "check_ok": true,
+     "fytd_pct": 1.9,
+     "fytd_req_mu": 6602.0,
+     "month_yoy_pct": 8.8,
+     "req_mu": 1566.0
+    },
+    "Bihar": {
+     "check_ok": true,
+     "fytd_pct": 14.1,
+     "fytd_req_mu": 25679.0,
+     "month_yoy_pct": 22.1,
+     "req_mu": 5862.0
+    },
+    "Chandigarh": {
+     "check_ok": true,
+     "fytd_pct": 3.9,
+     "fytd_req_mu": 1001.0,
+     "month_yoy_pct": 15.3,
+     "req_mu": 226.0
+    },
+    "Chhattisgarh": {
+     "check_ok": true,
+     "fytd_pct": 6.7,
+     "fytd_req_mu": 20042.0,
+     "month_yoy_pct": -8.7,
+     "req_mu": 3722.0
+    },
+    "Delhi": {
+     "check_ok": true,
+     "fytd_pct": 6.5,
+     "fytd_req_mu": 20775.0,
+     "month_yoy_pct": 10.4,
+     "req_mu": 4397.0
+    },
+    "Goa": {
+     "check_ok": true,
+     "fytd_pct": 6.7,
+     "fytd_req_mu": 2513.0,
+     "month_yoy_pct": 12.1,
+     "req_mu": 480.0
+    },
+    "Gujarat": {
+     "check_ok": true,
+     "fytd_pct": 11.0,
+     "fytd_req_mu": 74974.0,
+     "month_yoy_pct": 11.5,
+     "req_mu": 14767.0
+    },
+    "Haryana": {
+     "check_ok": true,
+     "fytd_pct": 11.4,
+     "fytd_req_mu": 37714.0,
+     "month_yoy_pct": 21.3,
+     "req_mu": 8604.0
+    },
+    "Himachal Pradesh": {
+     "check_ok": true,
+     "fytd_pct": -6.8,
+     "fytd_req_mu": 5384.0,
+     "month_yoy_pct": -4.6,
+     "req_mu": 1118.0
+    },
+    "India": {
+     "check_ok": true,
+     "fytd_pct": 9.5,
+     "fytd_req_mu": 796316.0,
+     "note": "sum of states parsed"
+    },
+    "Jharkhand": {
+     "check_ok": true,
+     "fytd_pct": 15.2,
+     "fytd_req_mu": 7607.0,
+     "month_yoy_pct": 19.1,
+     "req_mu": 1616.0
+    },
+    "Karnataka": {
+     "check_ok": true,
+     "fytd_pct": 23.3,
+     "fytd_req_mu": 45673.0,
+     "month_yoy_pct": 34.8,
+     "req_mu": 8941.0
+    },
+    "Kerala": {
+     "check_ok": true,
+     "fytd_pct": 11.1,
+     "fytd_req_mu": 14262.0,
+     "month_yoy_pct": 6.5,
+     "req_mu": 2629.0
+    },
+    "Madhya Pradesh": {
+     "check_ok": true,
+     "fytd_pct": 7.5,
+     "fytd_req_mu": 43548.0,
+     "month_yoy_pct": 0.7,
+     "req_mu": 8107.0
+    },
+    "Maharashtra": {
+     "check_ok": true,
+     "fytd_pct": 6.0,
+     "fytd_req_mu": 90892.0,
+     "month_yoy_pct": 5.4,
+     "req_mu": 16448.0
+    },
+    "Manipur": {
+     "check_ok": true,
+     "fytd_pct": 12.6,
+     "fytd_req_mu": 527.0,
+     "month_yoy_pct": 22.1,
+     "req_mu": 116.0
+    },
+    "Meghalaya": {
+     "check_ok": true,
+     "fytd_pct": 10.2,
+     "fytd_req_mu": 915.0,
+     "month_yoy_pct": 16.6,
+     "req_mu": 197.0
+    },
+    "Mizoram": {
+     "check_ok": true,
+     "fytd_pct": 5.6,
+     "fytd_req_mu": 320.0,
+     "month_yoy_pct": 9.5,
+     "req_mu": 69.0
+    },
+    "Nagaland": {
+     "check_ok": true,
+     "fytd_pct": 8.3,
+     "fytd_req_mu": 471.0,
+     "month_yoy_pct": 12.6,
+     "req_mu": 107.0
+    },
+    "Odisha": {
+     "check_ok": true,
+     "fytd_pct": 5.1,
+     "fytd_req_mu": 21243.0,
+     "month_yoy_pct": -1.7,
+     "req_mu": 4182.0
+    },
+    "Puducherry": {
+     "check_ok": true,
+     "fytd_pct": 6.1,
+     "fytd_req_mu": 1680.0,
+     "month_yoy_pct": 6.9,
+     "req_mu": 325.0
+    },
+    "Punjab": {
+     "check_ok": true,
+     "fytd_pct": 8.8,
+     "fytd_req_mu": 42061.0,
+     "month_yoy_pct": 27.8,
+     "req_mu": 10585.0
+    },
+    "Rajasthan": {
+     "check_ok": true,
+     "fytd_pct": 4.0,
+     "fytd_req_mu": 48279.0,
+     "month_yoy_pct": 6.8,
+     "req_mu": 10517.0
+    },
+    "Sikkim": {
+     "check_ok": true,
+     "fytd_pct": -0.5,
+     "fytd_req_mu": 209.0,
+     "month_yoy_pct": -5.1,
+     "req_mu": 37.0
+    },
+    "Tamil Nadu": {
+     "check_ok": true,
+     "fytd_pct": 9.8,
+     "fytd_req_mu": 63997.0,
+     "month_yoy_pct": 12.2,
+     "req_mu": 12689.0
+    },
+    "Telangana": {
+     "check_ok": true,
+     "fytd_pct": 15.7,
+     "fytd_req_mu": 40161.0,
+     "month_yoy_pct": 19.9,
+     "req_mu": 8939.0
+    },
+    "Tripura": {
+     "check_ok": true,
+     "fytd_pct": -1.7,
+     "fytd_req_mu": 863.0,
+     "month_yoy_pct": 7.2,
+     "req_mu": 194.0
+    },
+    "UT of J&K and Ladakh": {
+     "check_ok": true,
+     "fytd_pct": -0.5,
+     "fytd_req_mu": 7927.0,
+     "month_yoy_pct": 6.4,
+     "req_mu": 1589.0
+    },
+    "Uttar Pradesh": {
+     "check_ok": true,
+     "fytd_pct": 8.6,
+     "fytd_req_mu": 85979.0,
+     "month_yoy_pct": 10.0,
+     "req_mu": 17790.0
+    },
+    "Uttarakhand": {
+     "check_ok": true,
+     "fytd_pct": 4.7,
+     "fytd_req_mu": 7783.0,
+     "month_yoy_pct": 6.9,
+     "req_mu": 1552.0
+    },
+    "West Bengal": {
+     "check_ok": true,
+     "fytd_pct": 5.7,
+     "fytd_req_mu": 36293.0,
+     "month_yoy_pct": 11.2,
+     "req_mu": 7491.0
+    }
+   },
+   "year_ago_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/5c671ea0-f150-4314-b550-62ad79bd8c13"
+  },
+  "period": "2026-08-31",
+  "url": "https://cea.nic.in/reports/dashboardView?headingId=107&subHeadingId=1003&subSubHeadingId=10010&title=Power%20Supply%20Position%20-%20Energy&lang=en"
+ },
  "rbi_sibc": {
-  "checked_ist": "2026-11-01 14:18",
+  "checked_ist": "2026-11-01 14:54",
   "discovered_by": "rbi_press_list",
   "first_seen": "2026-11-01",
   "payload": {
@@ -1206,11 +1976,594 @@
      "outstanding_cr": 1826360,
      "outstanding_yago_cr": 1580078,
      "yoy_pct": 15.59
+    },
+    "S1:1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 6.64,
+     "name": "Agriculture and Allied Activities",
+     "outstanding_cr": 2819238,
+     "outstanding_yago_cr": 2358825,
+     "yoy_pct": 19.52
+    },
+    "S1:2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 7.95,
+     "name": "Industry (Micro and Small, Medium and Large)",
+     "outstanding_cr": 4977182,
+     "outstanding_yago_cr": 4166495,
+     "yoy_pct": 19.46
+    },
+    "S1:2.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 8.58,
+     "name": "Micro and Small",
+     "outstanding_cr": 1155745,
+     "outstanding_yago_cr": 928936,
+     "yoy_pct": 24.42
+    },
+    "S1:2.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 16.09,
+     "name": "Medium",
+     "outstanding_cr": 514018,
+     "outstanding_yago_cr": 385795,
+     "yoy_pct": 33.24
+    },
+    "S1:2.3": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 6.57,
+     "name": "Large",
+     "outstanding_cr": 3307419,
+     "outstanding_yago_cr": 2851764,
+     "yoy_pct": 15.98
+    },
+    "S1:3": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 8.19,
+     "name": "Services",
+     "outstanding_cr": 6489608,
+     "outstanding_yago_cr": 5057536,
+     "yoy_pct": 28.32
+    },
+    "S1:3.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 7.26,
+     "name": "Transport Operators",
+     "outstanding_cr": 250471,
+     "outstanding_yago_cr": 201046,
+     "yoy_pct": 24.58
+    },
+    "S1:3.10": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 5.06,
+     "name": "Other Services3",
+     "outstanding_cr": 1319713,
+     "outstanding_yago_cr": 1122341,
+     "yoy_pct": 17.59
+    },
+    "S1:3.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 21.04,
+     "name": "Computer Software",
+     "outstanding_cr": 55325,
+     "outstanding_yago_cr": 37945,
+     "yoy_pct": 45.8
+    },
+    "S1:3.3": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 10.06,
+     "name": "Tourism, Hotels and Restaurants",
+     "outstanding_cr": 112875,
+     "outstanding_yago_cr": 88242,
+     "yoy_pct": 27.92
+    },
+    "S1:3.4": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 0.74,
+     "name": "Shipping",
+     "outstanding_cr": 10468,
+     "outstanding_yago_cr": 9571,
+     "yoy_pct": 9.37
+    },
+    "S1:3.5": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 25.5,
+     "name": "Aviation",
+     "outstanding_cr": 66126,
+     "outstanding_yago_cr": 46331,
+     "yoy_pct": 42.73
+    },
+    "S1:3.6": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 7.57,
+     "name": "Professional Services",
+     "outstanding_cr": 235858,
+     "outstanding_yago_cr": 196493,
+     "yoy_pct": 20.03
+    },
+    "S1:3.7": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 7.42,
+     "name": "Trade",
+     "outstanding_cr": 1486605,
+     "outstanding_yago_cr": 1199574,
+     "yoy_pct": 23.93
+    },
+    "S1:3.7.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 6.1,
+     "name": "Wholesale Trade1",
+     "outstanding_cr": 822486,
+     "outstanding_yago_cr": 637107,
+     "yoy_pct": 29.1
+    },
+    "S1:3.7.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 9.11,
+     "name": "Retail Trade",
+     "outstanding_cr": 664120,
+     "outstanding_yago_cr": 562467,
+     "yoy_pct": 18.07
+    },
+    "S1:3.8": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 12.02,
+     "name": "Commercial Real Estate",
+     "outstanding_cr": 699170,
+     "outstanding_yago_cr": 566853,
+     "yoy_pct": 23.34
+    },
+    "S1:3.9": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 8.85,
+     "name": "Non-Banking Financial Companies (NBFCs)2 of which,",
+     "outstanding_cr": 2252996,
+     "outstanding_yago_cr": 1589140,
+     "yoy_pct": 41.77
+    },
+    "S1:3.9.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 4.19,
+     "name": "Housing Finance Companies (HFCs)",
+     "outstanding_cr": 388995,
+     "outstanding_yago_cr": 325003,
+     "yoy_pct": 19.69
+    },
+    "S1:3.9.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 5.82,
+     "name": "Public Financial Institutions (PFIs)",
+     "outstanding_cr": 369061,
+     "outstanding_yago_cr": 205393,
+     "yoy_pct": 79.69
+    },
+    "S1:4": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 6.45,
+     "name": "Personal Loans",
+     "outstanding_cr": 7427342,
+     "outstanding_yago_cr": 6334523,
+     "yoy_pct": 17.25
+    },
+    "S1:4.1": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 5.26,
+     "name": "Consumer Durables",
+     "outstanding_cr": 23117,
+     "outstanding_yago_cr": 22110,
+     "yoy_pct": 4.55
+    },
+    "S1:4.2": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 4.05,
+     "name": "Housing (Including Priority Sector Housing)",
+     "outstanding_cr": 3491702,
+     "outstanding_yago_cr": 3132883,
+     "yoy_pct": 11.45
+    },
+    "S1:4.3": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 28.07,
+     "name": "Advances against Fixed Deposits (Including FCNR (B), NRNR Deposits etc.)",
+     "outstanding_cr": 216578,
+     "outstanding_yago_cr": 141307,
+     "yoy_pct": 53.27
+    },
+    "S1:4.4": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 13.88,
+     "name": "Advances to Individuals against share, bonds, etc.",
+     "outstanding_cr": 12010,
+     "outstanding_yago_cr": 9831,
+     "yoy_pct": 22.16
+    },
+    "S1:4.5": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 2.59,
+     "name": "Credit Card Outstanding",
+     "outstanding_cr": 302099,
+     "outstanding_yago_cr": 281765,
+     "yoy_pct": 7.22
+    },
+    "S1:4.6": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 6.58,
+     "name": "Education",
+     "outstanding_cr": 166076,
+     "outstanding_yago_cr": 147175,
+     "yoy_pct": 12.84
+    },
+    "S1:4.7": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 5.18,
+     "name": "Vehicle Loans",
+     "outstanding_cr": 812206,
+     "outstanding_yago_cr": 703216,
+     "yoy_pct": 15.5
+    },
+    "S1:4.8": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 25.11,
+     "name": "Loans against gold jewellery4",
+     "outstanding_cr": 577193,
+     "outstanding_yago_cr": 316156,
+     "yoy_pct": 82.57
+    },
+    "S1:4.9": {
+     "as_of": "2026-09-30",
+     "check_ok": true,
+     "fy_pct": 5.2,
+     "name": "Other Personal Loans",
+     "outstanding_cr": 1826360,
+     "outstanding_yago_cr": 1580078,
+     "yoy_pct": 15.59
     }
    },
    "xlsx_url": "https://rbidocs.rbi.org.in/rdocs/content/docs/SIBC30102026E.xlsx"
   },
   "period": "2026-09-30",
   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891"
+ },
+ "rbi_state": {
+  "checked_ist": "2026-11-01 14:55",
+  "discovered_by": "rbi_hsis_page",
+  "first_seen": "2026-11-01",
+  "payload": {
+   "release_url": "https://www.rbi.org.in/scripts/AnnualPublications.aspx?head=Handbook+of+Statistics+on+Indian+States",
+   "rows": {
+    "Andaman & Nicobar Islands": {
+     "cd_ratio_pct": 52.2,
+     "check_ok": true,
+     "credit_cr": 4485.0,
+     "credit_yoy_pct": 8.6,
+     "industry_credit_cr": 155.0,
+     "industry_credit_yoy_pct": 16.5
+    },
+    "Andhra Pradesh": {
+     "cd_ratio_pct": 151.1,
+     "check_ok": true,
+     "credit_cr": 832527.0,
+     "credit_yoy_pct": 9.0,
+     "industry_credit_cr": 89275.0,
+     "industry_credit_yoy_pct": -6.9
+    },
+    "Arunachal Pradesh": {
+     "cd_ratio_pct": 31.0,
+     "check_ok": true,
+     "credit_cr": 10653.0,
+     "credit_yoy_pct": 17.4,
+     "industry_credit_cr": 1021.0,
+     "industry_credit_yoy_pct": 34.9
+    },
+    "Assam": {
+     "cd_ratio_pct": 62.7,
+     "check_ok": true,
+     "credit_cr": 154473.0,
+     "credit_yoy_pct": 15.6,
+     "industry_credit_cr": 25553.0,
+     "industry_credit_yoy_pct": 37.5
+    },
+    "Bihar": {
+     "cd_ratio_pct": 51.4,
+     "check_ok": true,
+     "credit_cr": 304440.0,
+     "credit_yoy_pct": 10.0,
+     "industry_credit_cr": 33000.0,
+     "industry_credit_yoy_pct": 6.3
+    },
+    "Chandigarh": {
+     "cd_ratio_pct": 71.9,
+     "check_ok": true,
+     "credit_cr": 94919.0,
+     "credit_yoy_pct": 9.6,
+     "industry_credit_cr": 32653.0,
+     "industry_credit_yoy_pct": 17.8
+    },
+    "Chhattisgarh": {
+     "cd_ratio_pct": 79.5,
+     "check_ok": true,
+     "credit_cr": 223098.0,
+     "credit_yoy_pct": 15.3,
+     "industry_credit_cr": 57096.0,
+     "industry_credit_yoy_pct": 21.1
+    },
+    "Dadra & Nagar Haveli*": {
+     "cd_ratio_pct": 44.9,
+     "check_ok": true,
+     "credit_cr": 8832.0,
+     "credit_yoy_pct": 12.9,
+     "industry_credit_cr": 3090.0,
+     "industry_credit_yoy_pct": 17.4
+    },
+    "Daman & Diu": {
+     "cd_ratio_pct": 26.6,
+     "check_ok": true,
+     "credit_cr": 1490.0,
+     "credit_yoy_pct": 18.1,
+     "industry_credit_cr": 635.0,
+     "industry_credit_yoy_pct": -13.5
+    },
+    "Delhi": {
+     "cd_ratio_pct": 91.8,
+     "check_ok": true,
+     "credit_cr": 1823669.0,
+     "credit_yoy_pct": 7.1,
+     "industry_credit_cr": 707484.0,
+     "industry_credit_yoy_pct": 1.4
+    },
+    "Goa": {
+     "cd_ratio_pct": 26.7,
+     "check_ok": true,
+     "credit_cr": 34505.0,
+     "credit_yoy_pct": 9.5,
+     "industry_credit_cr": 5031.0,
+     "industry_credit_yoy_pct": 1.9
+    },
+    "Gujarat": {
+     "cd_ratio_pct": 79.7,
+     "check_ok": true,
+     "credit_cr": 1125894.0,
+     "credit_yoy_pct": 13.2,
+     "industry_credit_cr": 379864.0,
+     "industry_credit_yoy_pct": 13.6
+    },
+    "Haryana": {
+     "cd_ratio_pct": 68.4,
+     "check_ok": true,
+     "credit_cr": 677485.0,
+     "credit_yoy_pct": 16.4,
+     "industry_credit_cr": 185067.0,
+     "industry_credit_yoy_pct": 18.6
+    },
+    "Himachal Pradesh": {
+     "cd_ratio_pct": 37.8,
+     "check_ok": true,
+     "credit_cr": 63730.0,
+     "credit_yoy_pct": 15.3,
+     "industry_credit_cr": 10291.0,
+     "industry_credit_yoy_pct": 23.8
+    },
+    "Jammu & Kashmir": {
+     "cd_ratio_pct": 56.9,
+     "check_ok": true,
+     "credit_cr": 116297.0,
+     "credit_yoy_pct": 11.2,
+     "industry_credit_cr": 12251.0,
+     "industry_credit_yoy_pct": -0.9
+    },
+    "Jharkhand": {
+     "cd_ratio_pct": 39.3,
+     "check_ok": true,
+     "credit_cr": 151096.0,
+     "credit_yoy_pct": 15.4,
+     "industry_credit_cr": 28524.0,
+     "industry_credit_yoy_pct": 31.0
+    },
+    "Karnataka": {
+     "cd_ratio_pct": 67.7,
+     "check_ok": true,
+     "credit_cr": 1371514.0,
+     "credit_yoy_pct": 10.7,
+     "industry_credit_cr": 254698.0,
+     "industry_credit_yoy_pct": 12.6
+    },
+    "Kerala": {
+     "cd_ratio_pct": 68.8,
+     "check_ok": true,
+     "credit_cr": 633196.0,
+     "credit_yoy_pct": 9.0,
+     "industry_credit_cr": 53819.0,
+     "industry_credit_yoy_pct": 3.6
+    },
+    "Ladakh": {
+     "cd_ratio_pct": 43.3,
+     "check_ok": true,
+     "credit_cr": 4364.0,
+     "credit_yoy_pct": 9.7,
+     "industry_credit_cr": 272.0,
+     "industry_credit_yoy_pct": 14.8
+    },
+    "Lakshadweep": {
+     "cd_ratio_pct": 12.7,
+     "check_ok": true,
+     "credit_cr": 195.0,
+     "credit_yoy_pct": 16.1,
+     "industry_credit_cr": 9.0,
+     "industry_credit_yoy_pct": 200.0
+    },
+    "Madhya Pradesh": {
+     "cd_ratio_pct": 78.3,
+     "check_ok": true,
+     "credit_cr": 550095.0,
+     "credit_yoy_pct": 12.4,
+     "industry_credit_cr": 93981.0,
+     "industry_credit_yoy_pct": 12.2
+    },
+    "Maharashtra": {
+     "cd_ratio_pct": 98.1,
+     "check_ok": true,
+     "credit_cr": 4483171.0,
+     "credit_yoy_pct": 11.2,
+     "industry_credit_cr": 1085054.0,
+     "industry_credit_yoy_pct": 12.2
+    },
+    "Manipur": {
+     "cd_ratio_pct": 76.6,
+     "check_ok": true,
+     "credit_cr": 13396.0,
+     "credit_yoy_pct": 10.3,
+     "industry_credit_cr": 537.0,
+     "industry_credit_yoy_pct": -5.3
+    },
+    "Meghalaya": {
+     "cd_ratio_pct": 40.3,
+     "check_ok": true,
+     "credit_cr": 15391.0,
+     "credit_yoy_pct": 7.7,
+     "industry_credit_cr": 2768.0,
+     "industry_credit_yoy_pct": -16.3
+    },
+    "Mizoram": {
+     "cd_ratio_pct": 51.5,
+     "check_ok": true,
+     "credit_cr": 9049.0,
+     "credit_yoy_pct": 12.6,
+     "industry_credit_cr": 622.0,
+     "industry_credit_yoy_pct": 14.1
+    },
+    "Nagaland": {
+     "cd_ratio_pct": 52.1,
+     "check_ok": true,
+     "credit_cr": 10048.0,
+     "credit_yoy_pct": 11.1,
+     "industry_credit_cr": 515.0,
+     "industry_credit_yoy_pct": 5.7
+    },
+    "Odisha": {
+     "cd_ratio_pct": 48.1,
+     "check_ok": true,
+     "credit_cr": 298069.0,
+     "credit_yoy_pct": 11.9,
+     "industry_credit_cr": 51831.0,
+     "industry_credit_yoy_pct": 5.2
+    },
+    "Puducherry": {
+     "cd_ratio_pct": 72.0,
+     "check_ok": true,
+     "credit_cr": 24561.0,
+     "credit_yoy_pct": 12.1,
+     "industry_credit_cr": 2028.0,
+     "industry_credit_yoy_pct": 15.1
+    },
+    "Punjab": {
+     "cd_ratio_pct": 58.5,
+     "check_ok": true,
+     "credit_cr": 410319.0,
+     "credit_yoy_pct": 9.1,
+     "industry_credit_cr": 94347.0,
+     "industry_credit_yoy_pct": 9.0
+    },
+    "Rajasthan": {
+     "cd_ratio_pct": 88.6,
+     "check_ok": true,
+     "credit_cr": 698414.0,
+     "credit_yoy_pct": 13.4,
+     "industry_credit_cr": 126119.0,
+     "industry_credit_yoy_pct": 16.7
+    },
+    "Sikkim": {
+     "cd_ratio_pct": 43.4,
+     "check_ok": true,
+     "credit_cr": 7136.0,
+     "credit_yoy_pct": 8.4,
+     "industry_credit_cr": 919.0,
+     "industry_credit_yoy_pct": 7.6
+    },
+    "Tamil Nadu": {
+     "cd_ratio_pct": 115.4,
+     "check_ok": true,
+     "credit_cr": 1762746.0,
+     "credit_yoy_pct": 11.4,
+     "industry_credit_cr": 309938.0,
+     "industry_credit_yoy_pct": 3.0
+    },
+    "Telangana": {
+     "cd_ratio_pct": 111.6,
+     "check_ok": true,
+     "credit_cr": 1045686.0,
+     "credit_yoy_pct": 11.1,
+     "industry_credit_cr": 232544.0,
+     "industry_credit_yoy_pct": 8.7
+    },
+    "Tripura": {
+     "cd_ratio_pct": 43.2,
+     "check_ok": true,
+     "credit_cr": 19138.0,
+     "credit_yoy_pct": 10.0,
+     "industry_credit_cr": 1410.0,
+     "industry_credit_yoy_pct": -5.5
+    },
+    "Uttar Pradesh": {
+     "cd_ratio_pct": 50.9,
+     "check_ok": true,
+     "credit_cr": 1031463.0,
+     "credit_yoy_pct": 11.6,
+     "industry_credit_cr": 187053.0,
+     "industry_credit_yoy_pct": 11.1
+    },
+    "Uttarakhand": {
+     "cd_ratio_pct": 41.5,
+     "check_ok": true,
+     "credit_cr": 106979.0,
+     "credit_yoy_pct": 12.8,
+     "industry_credit_cr": 19769.0,
+     "industry_credit_yoy_pct": 20.3
+    },
+    "West Bengal": {
+     "cd_ratio_pct": 51.6,
+     "check_ok": true,
+     "credit_cr": 665833.0,
+     "credit_yoy_pct": 10.6,
+     "industry_credit_cr": 197846.0,
+     "industry_credit_yoy_pct": 12.2
+    }
+   },
+   "xlsx_urls": {
+    "cd_ratio": "https://rbidocs.rbi.org.in/rdocs/Publications/DOCs/153T_111220255DEA2A2D23744132BFEDD5768D038648.XLSX",
+    "credit": "https://rbidocs.rbi.org.in/rdocs/Publications/DOCs/156T_1112202520771561966C49F1B9C00F56ACF97557.XLSX",
+    "industry_credit": "https://rbidocs.rbi.org.in/rdocs/Publications/DOCs/158T_11122025E9070972891A407D90EFAD7C62F796F2.XLSX"
+   }
+  },
+  "period": "2025-03-31",
+  "url": "https://www.rbi.org.in/scripts/AnnualPublications.aspx?head=Handbook+of+Statistics+on+Indian+States"
  }
 }
