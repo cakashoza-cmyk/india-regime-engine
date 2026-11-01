@@ -101,7 +101,7 @@ async function doFetch(nk){const m=$('#fmsg');if(!FCFG)FCFG=await fetch('data/fe
   if(Date.now()-t0>(FCFG.poll_max_minutes||12)*60000){m.textContent='Still running — check back in a few minutes.';return}
   setTimeout(poll,(FCFG.poll_seconds||20)*1000)};setTimeout(poll,30000)}
 function v7html(x,ind,ct){const sup=i=>x.articles[i-1]?`<sup><a href="${esc(x.articles[i-1].url)}" target="_blank" rel="noopener">[${i}]</a></sup>`:'';
- const md=t=>esc(t).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\[(\d+)\]/g,(m,i)=>sup(+i));
+ const md=t=>esc(t).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\[(\d+)\]/g,(m,i)=>sup(+i)).replace(/\[D\]/g,'<sup title="Official data pack (see Details)">[D]</sup>');
  let h='',inUl=false;x.narrative.forEach(t=>{if(t.startsWith('- ')){if(!inUl){h+='<ul>';inUl=true}h+=`<li>${md(t.slice(2))}</li>`;return}if(inUl){h+='</ul>';inUl=false}h+=t.startsWith('## ')?`<h2>${md(t.slice(3))}</h2>`:`<p>${md(t)}</p>`});if(inUl)h+='</ul>';
  const m=V4[x.key]&&V4[x.key].market,f=v=>(v>0?'+':'')+v+'%';
  const mt=m?`<table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(m.nifty.r1m)}</td><td>${f(m.nifty.r3m)}</td><td>${f(m.nifty.r12m)}</td></tr>${Object.entries(m.peers).map(([k,p])=>`<tr><td>${esc(k)}</td><td>${f(p.r1m)}</td><td>${f(p.r3m)}</td><td>${f(p.r12m)}</td></tr>`).join('')}</table><p class="meta">Closing prices to ${esc(m.nifty.asof)}. ${esc(m.source)}.</p>`:'';
