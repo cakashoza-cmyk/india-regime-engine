@@ -383,14 +383,34 @@
    "geo_id": "rajkot_engineering",
    "state": "GJ",
    "sector": "nonferrous_brass",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 90"
+   "brief": {
+    "verdict_rationale": "The data-based call is OK to lend: combined score 88 (national 96 x 0.6 + Gujarat 75 x 0.4) sits well above the OK to lend threshold of 65. National output for NIC 25 rose +16.9% YoY and +12.0% Apr-to-date (data to Aug-2026), with bank credit +11.9% YoY against output +12.0% (gap -0.1 pp), so credit growth is matched by real activity. Gujarat's local score of 75 is supported by GST collections +11.9% Apr-to-date vs India +6.1% and electricity demand +11.0% Apr-to-date vs India +9.5% (data to Aug-2026).",
+    "sector_risks": [
+     "Metal price volatility on fixed orders: Brent at $113/bbl (data to Oct-2026) is above the $75–100 band, and the repo was raised to 5.5% from 5.25% with an RBI tightening stance (data to Oct-2026), the only negative-scored inputs in the pack.",
+     "Order slowdown and delivery disruption: the Rajkot Laxminagar feeder power cut hit roughly 1,000 factories and about 10,000 workers just before Diwali, per Offbeat Stories (2026-10-25), when order volumes normally rise.",
+     "Asset-quality backdrop is benign but not risk-free: RBI FSR GNPA for basic_metals was 1.2% (Mar-25), 1.0% (Sep-25) and 1.0% (Mar-26), leaving little cushion if metal price swings hit fixed-price orders."
+    ],
+    "local_news": "Limited local coverage. The only article, Offbeat Stories (2026-10-25), reports a half-day Laxminagar feeder outage affecting about 1,000 Rajkot factories and roughly 10,000 workers during the pre-Diwali order peak, with the Engineering Association questioning the maintenance scheduling; it gives no output-loss or delivery-delay figures.",
+    "borrower_checks": [
+     "Metal price hedging: confirm the share of copper/zinc/aluminium input covered by fixed-price contracts or hedges, and test the order book against a Brent $113/bbl and repo 5.5% cost scenario.",
+     "Order book in months: obtain the confirmed order book in months of production and compare it with the +16.9% YoY NIC 25 output growth (data to Aug-2026) to see if the borrower is keeping pace with the sector.",
+     "Export receivable days: check debtor days against the borrower's own sanctioned credit period and flag any stretch beyond it, given the credit lens's export receivable focus and the -0.1 pp credit-to-output gap (bank credit +11.9% YoY vs output +12.0%, data to Aug-2026)."
+    ],
+    "change_the_call": "A drop in the combined score below 65 would move the call from OK to lend to Caution; only a fall below 45 would justify Avoid. That would follow from the national score falling from 96 or Gujarat's 75 weakening, for example if NIC 25 output growth (+16.9% YoY, data to Aug-2026) turned negative or Gujarat GST growth (+11.9% Apr-to-date, data to Sep-2026) fell below India's +6.1%."
+   },
+   "outlook_vs_macro": "In line",
+   "why": "Sector score 88 clears the 65 OK band; Gujarat GST and power demand outpace India.",
+   "attempts": 2,
+   "sources": [
+    {
+     "url": "https://offbeatstories.in/news/rajkot-laxminagar-feeder-power-cut-factories-4169780554",
+     "title": "રાજકોટમાં વીજકાપથી 1,000 કારખાનાંની કામગીરીને અસર | Offbeat Stories",
+     "date": "2026-10-25"
+    }
    ],
-   "attempts": 3,
    "queries": "Rajkot engineering & auto components Non-ferrous Metals, Brass & Fabricated Metal",
    "pack": [
-    "Call (data-based): OK to lend; combined score 88 = national sector score 96 x 0.6 + Gujarat local score 75 x 0.4. Thresholds: OK to lend >= 65, Avoid < 45.",
+    "Call (data-based): OK to lend; combined score 88 = national sector score 96 x 0.6 + Gujarat local score 75 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
     "India Non-ferrous Metals, Brass & Fabricated Metal: IIP NIC 25 output +16.9% YoY (data to Aug-2026; scores positive).",
     "India Non-ferrous Metals, Brass & Fabricated Metal: output +12.0% Apr-to-date (data to Aug-2026; scores positive).",
     "India Non-ferrous Metals, Brass & Fabricated Metal: bank credit +11.9% YoY vs output +12.0% (gap -0.1 pp) (data to Aug-2026; scores positive).",
@@ -402,7 +422,7 @@
     "Gujarat electricity demand: +11.0% Apr-to-date vs India +9.5%; latest month +11.5% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Gujarat all-bank credit: Rs 1,125,894 Cr, +13.2% YoY; credit-deposit ratio 79.7% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:26 IST",
+   "scanned_ist": "2026-11-01 16:36 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 2
@@ -412,14 +432,28 @@
    "geo_id": "jamnagar",
    "state": "GJ",
    "sector": "nonferrous_brass",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 60"
-   ],
-   "attempts": 3,
+   "brief": {
+    "verdict_rationale": "The data-based call is OK to lend: combined score 88 (national 96 x 0.6 + Gujarat local 75 x 0.4) sits well above the OK-to-lend band of >= 65. National output is expanding (IIP NIC 25 +16.9% YoY to Aug-2026; +12.0% Apr-to-date) and bank credit growth of +11.9% YoY (RBI, Sep-2026) is matched to output, a gap of -0.1 pp. Gujarat's local strength shows in GST +11.9% Apr-to-date vs India +6.1% and electricity demand +11.0% Apr-to-date vs India +9.5%.",
+    "sector_risks": [
+     "Metal price volatility on fixed orders: Brent at $113/bbl (Oct-2026) is above the $75–100 band, and the repo at 5.5% (raised from 5.25%) with an RBI tightening stance raises input and working-capital cost risk for brass fabricators.",
+     "Order slowdown risk: national output growth of +12.0% Apr-to-date (to Aug-2026) is the pace credit growth of +11.9% YoY (RBI, Sep-2026) is funding; any deceleration in IIP NIC 25 would leave credit growth ahead of output.",
+     "Asset-quality backdrop is benign but thin: RBI FSR GNPA for basic_metals was 1.2% (Mar-25), 1.0% (Sep-25) and 1.0% (Mar-26), leaving little cushion if scrap availability or export receivables deteriorate."
+    ],
+    "local_news": "Limited local coverage.",
+    "borrower_checks": [
+     "Metal price hedging: confirm the share of order book covered by hedged or pass-through-priced contracts, benchmarked against the full order book, given Brent at $113/bbl (Oct-2026) above the $75–100 band.",
+     "Order book in months: obtain the confirmed order book in months of production and compare with the sector's output run-rate of +12.0% Apr-to-date (to Aug-2026).",
+     "Export receivable days: reconcile debtor days against the borrower's own stated credit terms and the sector credit growth of +11.9% YoY (RBI, Sep-2026)."
+    ],
+    "change_the_call": "A fall in the combined score below 65 would move the call to Caution, and below 45 to Avoid; the score would fall if the national score dropped from 96 or the Gujarat local score from 75."
+   },
+   "outlook_vs_macro": "Better",
+   "why": "Gujarat GST +11.9% and power demand +11.0% Apr-to-date outpace India's +6.1% and +9.5%.",
+   "attempts": 2,
+   "sources": [],
    "queries": "Jamnagar brass parts & refining Non-ferrous Metals, Brass & Fabricated Metal",
    "pack": [
-    "Call (data-based): OK to lend; combined score 88 = national sector score 96 x 0.6 + Gujarat local score 75 x 0.4. Thresholds: OK to lend >= 65, Avoid < 45.",
+    "Call (data-based): OK to lend; combined score 88 = national sector score 96 x 0.6 + Gujarat local score 75 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
     "India Non-ferrous Metals, Brass & Fabricated Metal: IIP NIC 25 output +16.9% YoY (data to Aug-2026; scores positive).",
     "India Non-ferrous Metals, Brass & Fabricated Metal: output +12.0% Apr-to-date (data to Aug-2026; scores positive).",
     "India Non-ferrous Metals, Brass & Fabricated Metal: bank credit +11.9% YoY vs output +12.0% (gap -0.1 pp) (data to Aug-2026; scores positive).",
@@ -431,7 +465,7 @@
     "Gujarat electricity demand: +11.0% Apr-to-date vs India +9.5%; latest month +11.5% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Gujarat all-bank credit: Rs 1,125,894 Cr, +13.2% YoY; credit-deposit ratio 79.7% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:26 IST",
+   "scanned_ist": "2026-11-01 16:36 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 2
@@ -484,14 +518,39 @@
    "geo_id": "tiruppur",
    "state": "TN",
    "sector": "apparel",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 75"
+   "brief": {
+    "verdict_rationale": "The data-based call is Avoid: combined score 10 (national sector score 0 x 0.6 + Tamil Nadu local score 25 x 0.4), far below the Avoid threshold of < 45. National output fell -7.4% YoY (data to Aug-2026) and -5.6% Apr-to-date, while exports fell -6.2% Apr-to-date in USD (Rs 69,301 Cr FYTD, data to Sep-2026). Bank credit to the sector rose +23.3% YoY against that -5.6% output (gap +28.9 pp, data to Aug-2026), and Tamil Nadu GST collections fell -3.2% Apr-to-date versus India +6.1% (data to Sep-2026).",
+    "sector_risks": [
+     "Order-book contraction: exports -6.2% Apr-to-date in USD (Rs 69,301 Cr FYTD, data to Sep-2026) and IIP NIC 14 output -7.4% YoY (data to Aug-2026) mean confirmed forward orders may not cover capacity.",
+     "Input-cost squeeze: the credit lens flags yarn cost rising faster than FOB prices; news reports say raw material and dyeing cost increases have pushed production cost up by more than 50 percent, with polyester and viscose yarn prices rising due to the West Asia conflict (news [0], [1]).",
+     "Credit build-up against falling output: bank credit to the sector is Rs 151,974 Cr outstanding, +23.3% YoY (RBI, Sep-2026) versus output -5.6%, and the repo was raised to 5.5% with an RBI tightening stance (data to Oct-2026), raising debt-service burden on shrinking volumes."
+    ],
+    "local_news": "Local coverage is current and specific: industry associations report that more than 50 percent of Tiruppur units have already closed, with the remainder at risk, and plan an attention protest after Nov 10 over yarn prices, power tariffs and labour shortage (news [0], [1]). News also reports that more than 90 percent of units are MSMEs employing about 10 lakh workers, and that the zero-percent import duty concession on cotton and yarn expires Oct 31 (news [0], [1]).",
+    "borrower_checks": [
+     "Confirmed export orders for the next 3 months versus installed capacity: require signed orders covering at least the borrower's committed monthly run-rate, given sector exports -6.2% Apr-to-date in USD (data to Sep-2026).",
+     "Yarn cost share of FOB price versus last year: obtain the cost sheet; news reports production cost up more than 50 percent from yarn and dyeing charges (news [0]), so reject files where yarn pass-through is not evidenced in FOB pricing.",
+     "Export bill realisation days and ECGC cover: pull the receivables ageing and ECGC policy; benchmark realisation against the borrower's stated credit terms and confirm cover is active before disbursal."
+    ],
+    "change_the_call": "A move to Caution (45 to 64) requires the combined score to rise from 10, which needs the national score to turn positive on IIP NIC 14 output and export growth; a return to OK (>= 65) requires both the national and Tamil Nadu local scores to recover substantially."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Sector output and exports contract while credit grows +23.3% and Tiruppur units close.",
+   "attempts": 2,
+   "sources": [
+    {
+     "url": "https://www.hindutamil.in/news/business/stagnation-of-the-knitwear-industry-in-tiruppur",
+     "title": "திருப்பூரில் பின்னலாடைத் தொழில் முடக்கம்: தீபாவளிக்குப் பிறகு போராட்டம் நடத்த முடிவு",
+     "date": "2026-10-29"
+    },
+    {
+     "url": "https://www.dinamalar.com/news/tamil-nadu-news/tiruppur-organizations-in-crisis-industry-systems-fight-plan/4362473",
+     "title": "நெருக்கடியில் திருப்பூர் நிறுவனங்கள் தொழில் அமைப்புகள் போராட திட்டம்",
+     "date": "2026-10-28"
+    }
    ],
-   "attempts": 3,
    "queries": "Tiruppur knitwear Readymade Garments & Made-ups",
    "pack": [
-    "Call (data-based): Avoid; combined score 10 = national sector score 0 x 0.6 + Tamil Nadu local score 25 x 0.4. Thresholds: OK to lend >= 65, Avoid < 45.",
+    "Call (data-based): Avoid; combined score 10 = national sector score 0 x 0.6 + Tamil Nadu local score 25 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
     "India Readymade Garments & Made-ups: IIP NIC 14 output -7.4% YoY (data to Aug-2026; scores negative).",
     "India Readymade Garments & Made-ups: output -5.6% Apr-to-date (data to Aug-2026; scores negative).",
     "India Readymade Garments & Made-ups: exports -6.2% Apr-to-date in USD (Rs 69,301 Cr FYTD) (data to Sep-2026; scores negative).",
@@ -503,7 +562,7 @@
     "Tamil Nadu electricity demand: +9.8% Apr-to-date vs India +9.5%; latest month +12.2% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Tamil Nadu all-bank credit: Rs 1,762,746 Cr, +11.4% YoY; credit-deposit ratio 115.4% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:26 IST",
+   "scanned_ist": "2026-11-01 16:36 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 2
@@ -619,14 +678,28 @@
    "geo_id": "coimbatore",
    "state": "TN",
    "sector": "engineering",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 30"
-   ],
+   "brief": {
+    "verdict_rationale": "The data-based call is Caution: combined score 58 sits in the Caution band 45 to 64, dragged down by the Tamil Nadu local score of 25 against a national score of 80. National demand is strong (IIP NIC 28 output +10.3% YoY to Aug-2026; exports +19.8% Apr-to-date in USD to Sep-2026), but bank credit to the sector is +37.7% YoY against output +10.4% (gap +27.3 pp, data to Aug-2026), and Tamil Nadu GST collections are -3.2% Apr-to-date versus India +6.1% (data to Sep-2026).",
+    "sector_risks": [
+     "Leverage outpacing output: bank credit to Engineering & Capital Goods is Rs 282,578 Cr outstanding, +37.7% YoY (RBI, Sep-2026), against output +10.4% Apr-to-date (data to Aug-2026), a +27.3 pp gap that raises the risk of receivables and retention money piling up as credit-funded capacity chases slower offtake.",
+     "Local demand divergence: Tamil Nadu GST collections -3.2% Apr-to-date vs India +6.1%, latest month -4.5% YoY (GSTN, data to Sep-2026), points to thinning order books for Coimbatore machinery makers even as national IIP NIC 28 output runs +10.3% YoY (data to Aug-2026).",
+     "State funding constraint: Tamil Nadu all-bank credit Rs 1,762,746 Cr, +11.4% YoY with credit-deposit ratio 115.4% (RBI state handbook, end-Mar-2025), limits headroom for working-capital and milestone-payment financing that this sector depends on."
+    ],
+    "local_news": "Limited local coverage.",
+    "borrower_checks": [
+     "Order book cover in months, benchmarked against the sector's +10.4% Apr-to-date output growth (data to Aug-2026): confirm contracted orders cover at least the next 6 months of billing.",
+     "Fixed-price contracts without price-variation clause as a share of order book: cap at 25% of order value, given steel cost exposure on fixed-price terms.",
+     "Receivable plus retention days vs 120: obtain the ageing schedule and confirm combined receivable and retention days are at or below 120."
+    ],
+    "change_the_call": "A Tamil Nadu local score rising enough to lift the combined score to 65 or above (OK to lend) would change the call, as would a fall below 45 (Avoid); the national score of 80 and local score of 25 are the inputs to watch."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "TN GST -3.2% Apr-to-date vs India +6.1%; credit +37.7% YoY outpaces output +10.4%.",
    "attempts": 3,
+   "sources": [],
    "queries": "Coimbatore pumps, motors & textiles machinery Engineering & Capital Goods",
    "pack": [
-    "Call (data-based): Caution; combined score 58 = national sector score 80 x 0.6 + Tamil Nadu local score 25 x 0.4. Thresholds: OK to lend >= 65, Avoid < 45.",
+    "Call (data-based): Caution; combined score 58 = national sector score 80 x 0.6 + Tamil Nadu local score 25 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
     "India Engineering & Capital Goods: IIP NIC 28 output +10.3% YoY (data to Aug-2026; scores positive).",
     "India Engineering & Capital Goods: output +10.4% Apr-to-date (data to Aug-2026; scores positive).",
     "India Engineering & Capital Goods: exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD) (data to Sep-2026; scores positive).",
@@ -637,7 +710,7 @@
     "Tamil Nadu electricity demand: +9.8% Apr-to-date vs India +9.5%; latest month +12.2% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Tamil Nadu all-bank credit: Rs 1,762,746 Cr, +11.4% YoY; credit-deposit ratio 115.4% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:26 IST",
+   "scanned_ist": "2026-11-01 16:36 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 2
@@ -647,14 +720,28 @@
    "geo_id": "chennai_auto",
    "state": "TN",
    "sector": "other_transport",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 60"
-   ],
-   "attempts": 3,
+   "brief": {
+    "verdict_rationale": "The data-based call is OK to lend: the combined score of 70 sits above the OK-to-lend threshold of 65, built from a national sector score of 100 and a Tamil Nadu local score of 25. National sector output is +25.3% YoY and +22.7% Apr-to-date (data to Aug-2026), with bank credit +27.0% YoY against output +22.7% (gap +4.3 pp). Sector asset quality is strong, with RBI FSR GNPA for 'vehicles' falling from 1.1% (Mar-25) to 0.9% (Sep-25) to 0.6% (Mar-26).",
+    "sector_risks": [
+     "Demand slowdown: Tamil Nadu GST collections are -3.2% Apr-to-date vs India +6.1% and -4.5% YoY in the latest month (GSTN, data to Sep-2026), pointing to weaker local consumption than the national output figures imply.",
+     "Dealer inventory build-up: bank credit to the sector is +27.0% YoY (Rs 165,751 Cr outstanding, RBI, Sep-2026) versus output +22.7% Apr-to-date, a +4.3 pp gap that can signal credit-funded stock rather than end demand.",
+     "EV disruption: the credit lens flags EV shift and ICE-specific product exposure as stress drivers; the pack gives no EV split, so ICE-heavy product mix is an unquantified repayment risk."
+    ],
+    "local_news": "Limited local coverage.",
+    "borrower_checks": [
+     "Dealer inventory days: obtain current dealer inventory days and compare against the borrower's own stated norm and prior-year level, since the pack shows credit +27.0% YoY versus output +22.7% Apr-to-date.",
+     "OEM volume trend: reconcile the borrower's order book to OEM volume trend, given national output +25.3% YoY and +22.7% Apr-to-date (data to Aug-2026).",
+     "Share of ICE-specific products: quantify the revenue share tied to ICE-only parts, as the credit lens names EV shift as a stress driver and the pack provides no EV split."
+    ],
+    "change_the_call": "A fall in the combined score below 65 would move the call from OK to lend to Caution; a fall below 45 would move it to Avoid."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Tamil Nadu GST -3.2% Apr-to-date and -4.5% latest month lag India +6.1%.",
+   "attempts": 2,
+   "sources": [],
    "queries": "Chennai / Hosur auto & components Cycles, Two-wheelers & Other Transport Equipment",
    "pack": [
-    "Call (data-based): OK to lend; combined score 70 = national sector score 100 x 0.6 + Tamil Nadu local score 25 x 0.4. Thresholds: OK to lend >= 65, Avoid < 45.",
+    "Call (data-based): OK to lend; combined score 70 = national sector score 100 x 0.6 + Tamil Nadu local score 25 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
     "India Cycles, Two-wheelers & Other Transport Equipment: IIP NIC 30 output +25.3% YoY (data to Aug-2026; scores positive).",
     "India Cycles, Two-wheelers & Other Transport Equipment: output +22.7% Apr-to-date (data to Aug-2026; scores positive).",
     "India Cycles, Two-wheelers & Other Transport Equipment: bank credit +27.0% YoY vs output +22.7% (gap +4.3 pp) (data to Aug-2026; scores positive).",
@@ -664,7 +751,7 @@
     "Tamil Nadu electricity demand: +9.8% Apr-to-date vs India +9.5%; latest month +12.2% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Tamil Nadu all-bank credit: Rs 1,762,746 Cr, +11.4% YoY; credit-deposit ratio 115.4% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:26 IST",
+   "scanned_ist": "2026-11-01 16:36 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 2
@@ -1405,12 +1492,12 @@
    "sector": "electronics",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 180, 50"
+    "numbers not found in the data pack or articles: 50"
    ],
    "attempts": 3,
    "queries": "Noida mobile & electronics Electronics Manufacturing",
    "pack": [
-    "Call (data-based): OK to lend; combined score 84 = national sector score 90 x 0.6 + Uttar Pradesh local score 75 x 0.4. Thresholds: OK to lend >= 65, Avoid < 45.",
+    "Call (data-based): OK to lend; combined score 84 = national sector score 90 x 0.6 + Uttar Pradesh local score 75 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
     "India Electronics Manufacturing: IIP NIC 26 output +19.3% YoY (data to Aug-2026; scores positive).",
     "India Electronics Manufacturing: output +13.6% Apr-to-date (data to Aug-2026; scores positive).",
     "India Electronics Manufacturing: exports +44.0% Apr-to-date in USD (Rs 304,256 Cr FYTD) (data to Sep-2026; scores positive).",
@@ -1420,7 +1507,7 @@
     "Uttar Pradesh electricity demand: +8.6% Apr-to-date vs India +9.5%; latest month +10.0% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttar Pradesh all-bank credit: Rs 1,031,463 Cr, +11.6% YoY; credit-deposit ratio 50.9% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:26 IST",
+   "scanned_ist": "2026-11-01 16:36 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 2
@@ -1474,12 +1561,12 @@
    "sector": "electrical_eq",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 180"
+    "numbers not found in the data pack or articles: 25, 60, 75"
    ],
    "attempts": 3,
    "queries": "Pune / Chakan auto & engineering Electrical Equipment, Pumps & Motors",
    "pack": [
-    "Call (data-based): OK to lend; combined score 80 = national sector score 100 x 0.6 + Maharashtra local score 50 x 0.4. Thresholds: OK to lend >= 65, Avoid < 45.",
+    "Call (data-based): OK to lend; combined score 80 = national sector score 100 x 0.6 + Maharashtra local score 50 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
     "India Electrical Equipment, Pumps & Motors: IIP NIC 27 output +30.9% YoY (data to Aug-2026; scores positive).",
     "India Electrical Equipment, Pumps & Motors: output +28.5% Apr-to-date (data to Aug-2026; scores positive).",
     "India Electrical Equipment, Pumps & Motors: exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD) (data to Sep-2026; scores positive).",
@@ -1489,7 +1576,7 @@
     "Maharashtra electricity demand: +6.0% Apr-to-date vs India +9.5%; latest month +5.4% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Maharashtra all-bank credit: Rs 4,483,171 Cr, +11.2% YoY; credit-deposit ratio 98.1% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:26 IST",
+   "scanned_ist": "2026-11-01 16:36 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 2
@@ -1587,11 +1674,25 @@
    "geo_id": "mumbai_fin",
    "state": "MH",
    "sector": "nbfc",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 60"
-   ],
-   "attempts": 3,
+   "brief": {
+    "verdict_rationale": "The pack gives no verified national NBFC sector data, so the call is Unknown, but the bank-exposure figure is striking: India bank credit to NBFCs stands at Rs 2,252,996 Cr outstanding, +41.8% YoY (RBI, Sep-2026), meaning the sector is absorbing bank funding at a pace well above the Rs 4,483,171 Cr, +11.2% YoY all-bank credit growth in Maharashtra (RBI state handbook, end-Mar-2025). Maharashtra's operating backdrop is mixed rather than weak: GST collections are +8.6% Apr-to-date vs India +6.1% with the latest month +15.5% YoY (GSTN, data to Sep-2026), while electricity demand is +6.0% Apr-to-date vs India +9.5% (CEA, data to Aug-2026). With a 98.1% credit-deposit ratio in Maharashtra (end-Mar-2025), banks have little slack to keep expanding NBFC on-lending, so the call rests on borrower-level asset quality and funding rather than sector aggregates.",
+    "sector_risks": [
+     "Funding squeeze: bank credit to NBFCs at Rs 2,252,996 Cr, +41.8% YoY (RBI, Sep-2026) is growing far faster than Maharashtra all-bank credit at +11.2% YoY with a 98.1% credit-deposit ratio (end-Mar-2025), so any bank pullback hits refinancing directly.",
+     "Asset quality: the credit lens flags rising GNPA/write-offs as the core stress channel, and the pack contains no GNPA or SMA figure for this sector, so deterioration would not be visible in the data provided.",
+     "Demand-side divergence: Maharashtra electricity demand at +6.0% Apr-to-date vs India +9.5% (CEA, data to Aug-2026) points to softer local activity than the national picture, which pressures CRE and trade borrower cash flows even as GST collections run at +8.6% Apr-to-date vs India +6.1% (GSTN, data to Sep-2026)."
+    ],
+    "local_news": "Limited local coverage.",
+    "borrower_checks": [
+     "GNPA plus SMA-1/SMA-2 as a share of book, trended over the last four quarters, with any upward drift treated as a downgrade trigger against the lender's stated threshold.",
+     "ALM mismatch: cumulative 1-year gap between inflows and outflows as a share of total liabilities, given bank borrowings are the funding base behind the Rs 2,252,996 Cr, +41.8% YoY sector exposure (RBI, Sep-2026).",
+     "CRAR versus the regulatory minimum, with capital headroom sized against the borrower's own loan growth rather than the sector's +41.8% YoY bank-credit pace."
+    ],
+    "change_the_call": "A verified national NBFC GNPA/SMA series and a CRAR reading would move the call off Unknown; a GNPA trend below the pack's OK threshold would support OK, above it Caution, and only a reading below the Avoid threshold would justify Avoid."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Bank funding to NBFCs up +41.8% YoY against a 98.1% state credit-deposit ratio leaves little refinancing slack.",
+   "attempts": 2,
+   "sources": [],
    "queries": "Mumbai-Thane NBFC, CRE & trade NBFCs ",
    "pack": [
     "Call: not enough verified national sector data (Unknown).",
@@ -1600,7 +1701,7 @@
     "Maharashtra electricity demand: +6.0% Apr-to-date vs India +9.5%; latest month +5.4% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Maharashtra all-bank credit: Rs 4,483,171 Cr, +11.2% YoY; credit-deposit ratio 98.1% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:26 IST",
+   "scanned_ist": "2026-11-01 16:36 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 2
@@ -1612,7 +1713,7 @@
    "sector": "commercial_real_estate",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 1.2, 90"
+    "numbers not found in the data pack or articles: 60"
    ],
    "attempts": 3,
    "queries": "Mumbai-Thane NBFC, CRE & trade Commercial Real Estate",
@@ -1624,7 +1725,7 @@
     "Maharashtra electricity demand: +6.0% Apr-to-date vs India +9.5%; latest month +5.4% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Maharashtra all-bank credit: Rs 4,483,171 Cr, +11.2% YoY; credit-deposit ratio 98.1% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:26 IST",
+   "scanned_ist": "2026-11-01 16:36 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 2
@@ -1933,14 +2034,28 @@
    "geo_id": "hyderabad_pharma",
    "state": "TS",
    "sector": "pharma",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 90"
-   ],
-   "attempts": 3,
+   "brief": {
+    "verdict_rationale": "The data-based call is Caution: the combined score of 56 sits in the Caution band of 45 to 64, pulled down by a national score of 27 against a Telangana local score of 100. The national weakness is visible in India Pharmaceuticals & APIs output -2.1% Apr-to-date (data to Aug-2026) while bank credit to the sector grew +21.6% YoY to Rs 111,382 Cr outstanding (RBI, Sep-2026), a gap of +23.7 pp. Telangana's local strength is real, with GST collections +13.8% Apr-to-date vs India +6.1% and electricity demand +15.7% Apr-to-date vs India +9.5% (data to Aug-2026), but it does not offset the sector-level credit-versus-output divergence.",
+    "sector_risks": [
+     "Credit is outrunning output: bank credit to Pharmaceuticals & APIs rose +21.6% YoY (RBI, Sep-2026) while IIP NIC 21 output fell -2.1% Apr-to-date (data to Aug-2026), a +23.7 pp gap that raises the risk of loans funding working capital and receivables rather than new capacity.",
+     "Receivables and distributor credit risk from the credit lens: with sector credit at Rs 111,382 Cr outstanding and +21.6% YoY (RBI, Sep-2026) against falling output, stretched domestic distributor receivables are the likely channel; the RBI FSR 'chemicals' GNPA ratio of 0.7% at Mar-26 is low but has fallen from 1.1% at Mar-25, so the buffer is thin if receivables turn.",
+     "Regulatory and input-cost exposure from the credit lens (USFDA inspection outcomes, China API prices) is not captured in the pack: the only sector signal is exports +4.9% Apr-to-date in USD (Rs 153,525 Cr FYTD, data to Sep-2026), which is neutral and gives no read on plant-level inspection status or China-sourced input share."
+    ],
+    "local_news": "Limited local coverage.",
+    "borrower_checks": [
+     "Debtor days vs 120: obtain the latest audited and provisional debtor-days figure and ageing of domestic distributor receivables, given sector credit growth of +21.6% YoY against output -2.1% Apr-to-date (data to Aug-2026).",
+     "Latest USFDA/WHO-GMP inspection status of each plant: collect the most recent inspection outcome (Form 483, warning letter, import alert or EIR) for every manufacturing site, per the credit lens check.",
+     "Share of China-sourced inputs and price trend: quantify China-sourced API and key-starting-material share of cost of goods and the price movement over the last four quarters, per the credit lens check."
+    ],
+    "change_the_call": "A national sector score high enough to lift the combined score to 65 or above would move the call to OK; a combined score below 45 would move it to Avoid, using the pack's bands exactly (OK / Caution / Avoid)."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Sector credit +21.6% YoY against output -2.1% Apr-to-date signals borrowing outpacing real activity.",
+   "attempts": 1,
+   "sources": [],
    "queries": "Hyderabad pharma & bulk drugs Pharmaceuticals & APIs",
    "pack": [
-    "Call (data-based): Caution; combined score 56 = national sector score 27 x 0.6 + Telangana local score 100 x 0.4. Thresholds: OK to lend >= 65, Avoid < 45.",
+    "Call (data-based): Caution; combined score 56 = national sector score 27 x 0.6 + Telangana local score 100 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
     "India Pharmaceuticals & APIs: IIP NIC 21 output +1.6% YoY (data to Aug-2026; scores neutral).",
     "India Pharmaceuticals & APIs: output -2.1% Apr-to-date (data to Aug-2026; scores negative).",
     "India Pharmaceuticals & APIs: exports +4.9% Apr-to-date in USD (Rs 153,525 Cr FYTD) (data to Sep-2026; scores neutral).",
@@ -1951,7 +2066,7 @@
     "Telangana electricity demand: +15.7% Apr-to-date vs India +9.5%; latest month +19.9% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Telangana all-bank credit: Rs 1,045,686 Cr, +11.1% YoY; credit-deposit ratio 111.6% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:26 IST",
+   "scanned_ist": "2026-11-01 16:36 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 2
@@ -1961,14 +2076,28 @@
    "geo_id": "hyderabad_pharma",
    "state": "TS",
    "sector": "chemicals_dyes",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 90"
-   ],
+   "brief": {
+    "verdict_rationale": "The combined score of 53 sits in the Caution band (45 to 64), driven by a national score of 22 against a Telangana local score of 100. National fundamentals are weak: IIP NIC 20 output -0.5% YoY and -1.2% Apr-to-date (data to Aug-2026), bank credit +20.7% YoY against that -1.2% output (gap +21.9 pp), and Brent at $113/bbl above the $75–100 band (data to Oct-2026). The local score of 100 reflects Telangana GST +13.8% Apr-to-date vs India +6.1% and electricity demand +15.7% Apr-to-date vs India +9.5% (data to Sep-2026 and Aug-2026).",
+    "sector_risks": [
+     "Realisation squeeze from Chinese competition: India output -1.2% Apr-to-date (data to Aug-2026) while bank credit to the sector grew +20.7% YoY (RBI, Sep-2026), a +21.9 pp gap that signals credit funding capacity rather than demand.",
+     "Crude-linked feedstock cost pressure: Brent $113/bbl above the $75–100 band (data to Oct-2026) compresses spread over feedstock, the lens's core margin driver.",
+     "Tightening funding cost: repo 5.5% raised from 5.25% with RBI stance tightening (data to Oct-2026), raising interest burden on the Rs 154,335 Cr sector credit outstanding."
+    ],
+    "local_news": "Limited local coverage.",
+    "borrower_checks": [
+     "Gross margin per tonne vs last year, benchmarked to the sector's -1.2% Apr-to-date output decline (data to Aug-2026).",
+     "Pollution-board consent validity and CETP dues: confirm current consent is unexpired and dues nil before disbursal.",
+     "Export receivables by country and days: reconcile against the +15.6% Apr-to-date USD export growth (Rs 156,272 Cr FYTD, data to Sep-2026) to confirm receivables are not ageing faster than sales."
+    ],
+    "change_the_call": "A national score rise sufficient to lift the combined score to 65 or above (OK to lend) would change the call; a fall below 45 would move it to Avoid."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "National output negative, credit-output gap +21.9 pp, Brent $113/bbl, repo tightening.",
    "attempts": 3,
+   "sources": [],
    "queries": "Hyderabad pharma & bulk drugs Chemicals, Dyes & Intermediates",
    "pack": [
-    "Call (data-based): Caution; combined score 53 = national sector score 22 x 0.6 + Telangana local score 100 x 0.4. Thresholds: OK to lend >= 65, Avoid < 45.",
+    "Call (data-based): Caution; combined score 53 = national sector score 22 x 0.6 + Telangana local score 100 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
     "India Chemicals, Dyes & Intermediates: IIP NIC 20 output -0.5% YoY (data to Aug-2026; scores negative).",
     "India Chemicals, Dyes & Intermediates: output -1.2% Apr-to-date (data to Aug-2026; scores negative).",
     "India Chemicals, Dyes & Intermediates: exports +15.6% Apr-to-date in USD (Rs 156,272 Cr FYTD) (data to Sep-2026; scores positive).",
@@ -1981,7 +2110,7 @@
     "Telangana electricity demand: +15.7% Apr-to-date vs India +9.5%; latest month +19.9% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Telangana all-bank credit: Rs 1,045,686 Cr, +11.1% YoY; credit-deposit ratio 111.6% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:26 IST",
+   "scanned_ist": "2026-11-01 16:36 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 2
@@ -2139,14 +2268,39 @@
    "geo_id": "bengaluru_tech",
    "state": "KA",
    "sector": "electronics",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 25, 50"
+   "brief": {
+    "verdict_rationale": "The data-based call is OK to lend: combined score 94 (national 90 x 0.6 + Karnataka 100 x 0.4) sits well above the OK band of >= 65. National output is +19.3% YoY (data to Aug-2026) and +13.6% Apr-to-date, with exports +44.0% Apr-to-date in USD (data to Sep-2026). Karnataka corroborates with GST +11.1% Apr-to-date vs India +6.1% and electricity demand +23.3% Apr-to-date (data to Aug-2026).",
+    "sector_risks": [
+     "Customer concentration: the credit lens flags loss of a major brand customer; news [0] shows the Wistron Narasapura iPhone plant near Bengaluru was ransacked by workers over unpaid wages, and Apple launched a detailed investigation into supplier-rule compliance.",
+     "Labour and staffing-agency payment risk: news [1] reports the Karnataka labour department found workers' rights violated at the Wistron factory and that overtime wages were not paid, with staffing firms asked to submit reports to the Bengaluru Labour Commissioner.",
+     "Credit outpacing output: bank credit to Electronics Manufacturing is Rs 82,564 Cr outstanding, +30.6% YoY (RBI, Sep-2026) against output +13.6% Apr-to-date (data to Aug-2026), a gap of +17.0 pp that the pack scores neutral."
+    ],
+    "local_news": "Limited local coverage. The Wistron items are dated to an earlier wage-violence episode and restart, not current trading, and the Innovsource feed is largely off-topic; they add only that labour-agency payment disputes and Apple supplier-rule scrutiny have hit a Bengaluru-area iPhone assembler before.",
+    "borrower_checks": [
+     "Customer concentration: top customer share of revenue and contract tenure, benchmarked against the credit lens concern over loss of a major brand customer.",
+     "Unhedged import exposure as a share of annual purchases, given rupee depreciation risk on imported parts cited in the credit lens.",
+     "PLI receivables ageing: days outstanding on PLI claims versus the credit lens stress case of delayed PLI claims."
+    ],
+    "change_the_call": "A national score falling below 65 while Karnataka stays at 100 would move the combined score into Caution (45 to 64); a combined score below 45 would be Avoid."
+   },
+   "outlook_vs_macro": "Better",
+   "why": "Karnataka GST +11.1% and power demand +23.3% Apr-to-date outpace India's +6.1% and +9.5%.",
+   "attempts": 2,
+   "sources": [
+    {
+     "url": "https://economictimes.indiatimes.com/topic/wistron-bengaluru/news#1",
+     "title": "wistron bengaluru News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+     "date": "2026-10-21"
+    },
+    {
+     "url": "https://economictimes.indiatimes.com/topic/innovsource/news#1",
+     "title": "innovsource News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+     "date": "2026-09-19"
+    }
    ],
-   "attempts": 3,
    "queries": "Bengaluru electronics & IT Electronics Manufacturing",
    "pack": [
-    "Call (data-based): OK to lend; combined score 94 = national sector score 90 x 0.6 + Karnataka local score 100 x 0.4. Thresholds: OK to lend >= 65, Avoid < 45.",
+    "Call (data-based): OK to lend; combined score 94 = national sector score 90 x 0.6 + Karnataka local score 100 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
     "India Electronics Manufacturing: IIP NIC 26 output +19.3% YoY (data to Aug-2026; scores positive).",
     "India Electronics Manufacturing: output +13.6% Apr-to-date (data to Aug-2026; scores positive).",
     "India Electronics Manufacturing: exports +44.0% Apr-to-date in USD (Rs 304,256 Cr FYTD) (data to Sep-2026; scores positive).",
@@ -2156,7 +2310,7 @@
     "Karnataka electricity demand: +23.3% Apr-to-date vs India +9.5%; latest month +34.8% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Karnataka all-bank credit: Rs 1,371,514 Cr, +10.7% YoY; credit-deposit ratio 67.7% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:26 IST",
+   "scanned_ist": "2026-11-01 16:36 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 2
@@ -2166,11 +2320,25 @@
    "geo_id": "bengaluru_tech",
    "state": "KA",
    "sector": "software_it",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 25, 60, 75"
-   ],
-   "attempts": 3,
+   "brief": {
+    "verdict_rationale": "The pack gives no verified national sector call (Unknown), so the sector-level verdict rests on Karnataka aggregates: all-bank credit of Rs 1,371,514 Cr at +10.7% YoY with a credit-deposit ratio of 67.7% (RBI state handbook, end-Mar-2025) shows a funded, deposit-backed base, while Karnataka GST collections at +11.1% Apr-to-date vs India +6.1% and latest month +15.7% YoY (GSTN, data to Sep-2026) point to activity running ahead of the national trend. Against that, bank credit to Computer Software & IT at Rs 55,325 Cr outstanding, +45.8% YoY (RBI, Sep-2026), shows sector leverage building far faster than the state book, which is the exposure to underwrite rather than the demand backdrop.",
+    "sector_risks": [
+     "Client budget cuts and loss of a key client: sector credit outstanding of Rs 55,325 Cr, +45.8% YoY (RBI, Sep-2026), has grown far faster than Karnataka all-bank credit at +10.7% YoY (RBI state handbook, end-Mar-2025), so a single lost account hits a more leveraged balance sheet.",
+     "Wage inflation and attrition: Karnataka electricity demand at +23.3% Apr-to-date vs India +9.5% and latest month +34.8% YoY (CEA, data to Aug-2026) is consistent with a large, expanding local operating footprint whose fixed cost base does not flex with deal wins.",
+     "Visa and tariff issues on export billing: the sector's revenue is export-led, and the pack carries no verified national sector data (Unknown), so repayment capacity cannot be benchmarked against an official sector series."
+    ],
+    "local_news": "Limited local coverage.",
+    "borrower_checks": [
+     "Top-client concentration: largest client as a share of revenue, benchmarked against the firm's own prior-year share and contract tenor, since the pack carries no sector concentration figure.",
+     "Receivable days: compare against the firm's own prior-year receivable days and its stated credit terms, as no sector benchmark exists in the pack.",
+     "Billing rate trend: realised rate per billable head versus the prior year, read alongside the +45.8% YoY growth in sector credit outstanding (RBI, Sep-2026) to test whether growth is volume or price."
+    ],
+    "change_the_call": "A published national sector series replacing the Unknown call would move the verdict, and a Karnataka all-bank credit growth print diverging from the +10.7% YoY (RBI state handbook, end-Mar-2025) would shift the band between OK and Caution; only a reading below the pack's Avoid threshold would take it to Avoid."
+   },
+   "outlook_vs_macro": "In line",
+   "why": "State GST and power demand outrun India; sector credit growth outruns the state book.",
+   "attempts": 2,
+   "sources": [],
    "queries": "Bengaluru electronics & IT Computer Software & IT",
    "pack": [
     "Call: not enough verified national sector data (Unknown).",
@@ -2179,7 +2347,7 @@
     "Karnataka electricity demand: +23.3% Apr-to-date vs India +9.5%; latest month +34.8% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Karnataka all-bank credit: Rs 1,371,514 Cr, +10.7% YoY; credit-deposit ratio 67.7% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:26 IST",
+   "scanned_ist": "2026-11-01 16:36 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 2
@@ -2533,18 +2701,48 @@
    "geo_id": "HP",
    "state": "HP",
    "sector": "*",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 1.5"
-   ],
+   "brief": {
+    "verdict_rationale": "The state's operating base is contracting: GST collections fell -22.8% Apr-to-date vs India +6.1% and the latest month was -21.5% YoY (GSTN, data to Sep-2026), while electricity demand fell -6.8% Apr-to-date vs India +9.5% and -4.6% YoY in the latest month (CEA, data to Aug-2026). Bank credit is still expanding at +15.3% YoY to Rs 63,730 Cr with a credit-deposit ratio of 37.8% (RBI, end-Mar-2025), so lending is running ahead of the demand signals that repay it. The call is Caution: the demand indicators sit below the OK band, but the pack gives no threshold placing them below an Avoid band.",
+    "sector_risks": [
+     "Demand and output contraction: GST -22.8% Apr-to-date vs India +6.1% and electricity demand -6.8% Apr-to-date vs India +9.5% (to Sep-2026 and Aug-2026) point to falling volumes behind repayment.",
+     "Unit closures and subsidy-driven shell capacity: the Amar Ujala report (2026-10-30) records 45% of industries shut in Shoghi, with 44 units fully closed or empty and only about 60 of 104 operating on the ground.",
+     "Payment cycles and cost pressure: the same report cites power at Rs 5.25 per unit and the loss of GST-era concessions, squeezing margins and stretching receivables."
+    ],
+    "local_news": "Limited local coverage. The Amar Ujala and Hindi TV News reports (2026-10-30) add ground-level closure evidence beyond the state aggregates: 45% of industries shut in Shoghi, 44 units fully closed or empty, and only about 60 of 104 operating. Satluj Bias Times (2026-10-04) reports opposition allegations of recovery pressure and tax-on-tax on industry and warns of unit migration from Baddi.",
+    "borrower_checks": [
+     "GST turnover trend: compare the borrower's own monthly GST returns against the state's -22.8% Apr-to-date and -21.5% latest-month YoY declines (GSTN, to Sep-2026); require the borrower to be outperforming the state, not tracking it.",
+     "Debtor days vs 90: obtain the receivables ageing and confirm debtor days are at or below 90.",
+     "Electricity bills trend vs last year: pull 12 months of bills and compare YoY consumption against the state's -6.8% Apr-to-date and -4.6% latest-month YoY (CEA, to Aug-2026); a steeper fall signals idle capacity."
+    ],
+    "change_the_call": "A move to OK requires GST and electricity demand to stop lagging India and return to the OK band; a move to Avoid requires either indicator to fall below the Avoid threshold in the pack."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "State GST and power demand fall while India grows; credit still up +15.3% YoY.",
    "attempts": 3,
+   "sources": [
+    {
+     "url": "https://www.amarujala.com/himachal-pradesh/ground-report-45-percent-of-industries-in-shoghi-shimla-are-shut-downsome-are-locked-up-2026-10-31",
+     "title": "सूरतेहाल: शिमला के शोघी में 45 फीसदी उद्योग बंद, लटके हैं ताले, सब्सिडी डकार कई उद्योगपतियों ने समेटा बोरिया-बिस्तर",
+     "date": "2026-10-30"
+    },
+    {
+     "url": "https://www.hinditvnews.co.in/himachal-%e0%a4%b6%e0%a5%8b%e0%a4%98%e0%a5%80-%e0%a4%ae%e0%a5%87%e0%a4%82-45-%e0%a4%89%e0%a4%a6%e0%a5%8d%e0%a4%af%e0%a5%8b%e0%a4%97-%e0%a4%ac%e0%a4%82%e0%a4%a6-%e0%a4%b8%e0%a4%ac%e0%a5%8d%e0%a4%b8/",
+     "title": "Himachal: शोघी में 45% उद्योग बंद, सब्सिडी हड़पकर कई उद्योगपतियों ने समेटा कारोबार - Hindi TV NEWS",
+     "date": "2026-10-30"
+    },
+    {
+     "url": "https://satlujbiastimes.com/%e0%a4%94%e0%a4%a6%e0%a5%8d%e0%a4%af%e0%a5%8b%e0%a4%97%e0%a4%bf%e0%a4%95-%e0%a4%95%e0%a5%8d%e0%a4%b7%e0%a5%87%e0%a4%a4%e0%a5%8d%e0%a4%b0-%e0%a4%ae%e0%a5%87%e0%a4%82-%e0%a4%b5%e0%a4%b8%e0%a5%82/",
+     "title": "औद्योगिक क्षेत्र में वसूली से रोजगार और निवेश की संभावनाएं खत्म कर रही सरकार: जयराम ठाकुर - सतलुज ब्यास टाइम्स",
+     "date": "2026-10-04"
+    }
+   ],
    "queries": "Himachal Pradesh industry MSME",
    "pack": [
     "Himachal Pradesh GST collections: -22.8% Apr-to-date vs India +6.1%; latest month -21.5% YoY (GSTN state-wise GST collections, data to Sep-2026).",
     "Himachal Pradesh electricity demand: -6.8% Apr-to-date vs India +9.5%; latest month -4.6% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Himachal Pradesh all-bank credit: Rs 63,730 Cr, +15.3% YoY; credit-deposit ratio 37.8% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:26 IST",
+   "scanned_ist": "2026-11-01 16:36 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 2
@@ -3750,16 +3948,30 @@
    "geo_id": "LA",
    "state": "LA",
    "sector": "*",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 60"
-   ],
-   "attempts": 3,
+   "brief": {
+    "verdict_rationale": "Ladakh all-bank credit stands at Rs 4,364 Cr, up +9.7% YoY, with a credit-deposit ratio of 43.3% (RBI state handbook, end-Mar-2025). The low 43.3% ratio signals deposit-rich, credit-light conditions, so the sector is not over-leveraged at the state level. With no local articles to contradict this, the data supports an OK call pending borrower-level checks.",
+    "sector_risks": [
+     "Payment-cycle stress: the credit lens flags delayed payments, and with state credit at Rs 4,364 Cr (+9.7% YoY, end-Mar-2025) any receivables slippage would sit against a thin 43.3% credit-deposit ratio, limiting headroom to absorb it.",
+     "Power availability and electricity demand lagging India: the lens lists power availability as a repayment driver, and the 43.3% credit-deposit ratio (end-Mar-2025) means little buffer if output is constrained.",
+     "Unit closures and tax-collection lag: the lens flags unit closures as a stress signal; the +9.7% YoY credit growth (end-Mar-2025) must be tested against GST turnover to confirm it reflects real activity rather than working-capital drawdowns."
+    ],
+    "local_news": "Limited local coverage.",
+    "borrower_checks": [
+     "GST turnover vs bank credit summations: confirm declared GST turnover is at least equal to total bank credit outstanding, not below it.",
+     "Debtor days vs 90: obtain the receivables ageing and confirm debtor days are at or under 90.",
+     "Electricity bills trend vs last year: compare the last 12 months of bills against the prior year to confirm stable or rising power usage, consistent with active operations."
+    ],
+    "change_the_call": "If borrower-level GST turnover falls below bank credit summations or debtor days exceed 90, the call moves to Caution; it moves to Avoid only if both deteriorate together with falling electricity bills."
+   },
+   "outlook_vs_macro": "In line",
+   "why": "State credit growth +9.7% YoY with a low 43.3% credit-deposit ratio; no local news to shift the view.",
+   "attempts": 2,
+   "sources": [],
    "queries": "Ladakh industry MSME",
    "pack": [
     "Ladakh all-bank credit: Rs 4,364 Cr, +9.7% YoY; credit-deposit ratio 43.3% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:26 IST",
+   "scanned_ist": "2026-11-01 16:36 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 2
@@ -3858,12 +4070,12 @@
  },
  "active": true,
  "status": "Weekly scan via DeepSeek search (news_llm, unverified; never used in verdicts).",
- "checked_ist": "2026-11-01 16:26 IST",
+ "checked_ist": "2026-11-01 16:36 IST",
  "last_run": {
-  "scanned": 92,
-  "skipped_fresh": 0,
-  "rejected": 15,
-  "calls_used": 433,
+  "scanned": 15,
+  "skipped_fresh": 77,
+  "rejected": 3,
+  "calls_used": 72,
   "call_cap": 1000,
   "errors": []
  }
