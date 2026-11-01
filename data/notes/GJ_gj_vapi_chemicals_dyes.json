@@ -1,0 +1,96 @@
+{
+ "key": "gj_vapi|chemicals_dyes",
+ "state": "GJ",
+ "city": "gj_vapi",
+ "ind": "chemicals_dyes",
+ "version": "v6",
+ "generated_at": "2026-11-01 20:45 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 43,
+ "nudged_by_news": false,
+ "verdict": "AVOID score 43 sits below our 45 cut-off, so no clean unsecured chemical exposure in Vapi — lend only against verified intermediate stock, a live consent to operate and power-backed production data.",
+ "title": "Vapi Chemicals, Dyes & Intermediates: a note to the credit manager",
+ "narrative": [
+  "## Start with what the plant physically is\nA Vapi dye or dye-intermediate unit is a battery of batch reactors fed with intermediates, solvents, acids and steam, and what leaves the gate is colour chemistry sold to textile, leather, ink and paint buyers [1]. **Raw material is the whole business; conversion cost and labour are small, and power, steam and effluent treatment are the next biggest lines.** That matters because the inputs feeding these reactors have repriced hard — H-acid has moved from 4万元/吨 at the start of the year to 25万元/吨, and the reduced dye intermediate from 2.5万元/吨 to 20万元/吨 [2]. So when a proposal lands, ask what the borrower buys and sells by product name, not 'dyes': a unit that makes its own intermediate at today's prices is a completely different credit from one that buys it at the top.\n\n## Where the cash actually sits\n**Cash is trapped in inventory and in the receivables of textile mills, and both move faster than the plant does.** Inventory is the real balance sheet here — hold intermediate into a rising price and you book a paper gain; buy at the peak and the same stock is a loss. We have no verified receivable terms for these units, so collect from customer the buyer-wise ageing, the agreed credit period and any bills already discounted with other banks. Capex is modest except for one line people forget: effluent treatment and the online continuous monitoring system, where a direction of 2 March 2015 required a bank guarantee equal to the cost of the system, forfeitable along with the consent to operate [1]. **So when you size the limit, ask for that OCEMS bank guarantee and any state-board dues, and net them off the liquidity you are otherwise relying on.**\n\n## What has changed in this cycle\n**The price line has turned up sharply while national output has not, and that gap is the whole story right now.** Disperse dye averaged 28.07 元/kg in 26Q3, up 74% YoY, and reactive dye 37.36 元/kg, up 68% YoY, on intermediate tightness and the nitration rules [2]. Peer Aarti Industries reports volumes up over 30%, revenue of ₹3,887 crore up 73% YoY and its highest-ever quarterly EBITDA of ₹418 crore — and says in the same breath that its pass-through model kept EBITDA margins suppressed [3]. Against that, India-wide chemicals output is -0.5% YoY and -1.2% Apr-to-date, bank credit is running at +20.7% YoY, a gap of +21.9 pp, and the repo is 5.5% after a raise from 5.25% on a tightening stance [D]. **Read it plainly: the system is lending far ahead of output, so this borrower's growth has to show up in kilos and electricity units, not in a rising sales line.**\n\n## Where the growth is — and who to lend to now\n**The composite score of 43 is Gujarat's 75 carrying a national 22 [D]: the state is lendable, the industry is not, and the borrower has to close that gap himself.** Pursue first the genuine intermediate maker — H-acid and the reduced dye intermediate are the named pinch points [2] — with its own treatment capacity or CETP membership and a consent to operate that outlives our tenor. Second, export-facing dye units that can produce restricted-substance documentation and buyer test certificates, because meeting buyers' lists is now a condition of trade rather than a price argument [1]. Third, contract manufacturers and job-work units feeding larger speciality players: Aarti's ten-year supply agreement with cumulative revenue potential of approximately ₹1,500 crore and commercial operations targeted for FY29 [3] tells you the outsourcing appetite is real, even though that contract is not in Vapi. **Do not take traders who own no reactor, single-buyer dye units, or anything touching benzidine-based azo dyes, banned under the Environment (Protection) Act, 1986 since 1997 [1].**\n\n## How to grow it safely\n**Structure against the stock, not the promise.** Sanction as cash-flow-based limits with drawing power computed from a monthly stock statement giving product, quantity and value, plus a GST-reconciled sales register; use LC-backed limits for imported intermediates where the borrower cannot hedge price. Keep term money floating off repo — at 5.5% and tightening [D], do not write long fixed-rate loans. Covenants that earn their keep: consent to operate valid beyond the tenor, OCEMS connected and streaming, no related-party outflow without consent, a DSCR floor and a cap on total outside liabilities. **Every month take five documents — stock statement by product, buyer-wise receivable ageing, GST sales register, electricity bill, and the ETP/OCEMS compliance certificate — and treat the electricity bill as the hardest of the five for a chemical unit to fake.**\n\n## Early warning signs\n**In this industry the first signal is regulatory, the second is physical, and only the third is financial.** A consent coming up for renewal, an OCEMS gap or a state-board notice is a stop-and-think event, not a talking point — closure directions went to 740 units across the 17 categories [1]. Watch electricity consumption against the sales register: a unit reporting growth on falling power is either trading or job-working, and either one changes the credit. Watch stock quantity rising while sales stay flat, which usually means the borrower is carrying inventory into a fall. **Be explicit that the local source is old — the OCEMS directions are from 2014 and 2015 and the compliance count is a 2018 reply to the Lok Sabha [1] — so use it as a map of the rules and verify each borrower's current consent independently.** If dye and intermediate prices hold near the levels in [2], the intermediate-heavy borrower with a live consent is the best risk-adjusted exposure in this estate; that is where new money should go."
+ ],
+ "watch": [
+  [
+   "Consent to operate validity and OCEMS streaming status (quarterly)",
+   "renewal date falls inside our tenor, or OCEMS not streaming -> freeze fresh drawings until state-board acknowledgement is produced"
+  ],
+  [
+   "Stock statement by product with quantity and value (monthly)",
+   "quantity rises while the sales register is flat -> recompute drawing power on fresh stock and ask for the age of the oldest lot"
+  ],
+  [
+   "Electricity bill and metered consumption (monthly)",
+   "consumption falls while declared sales rise -> call for process and job-work records, re-rate the limit as trading exposure"
+  ],
+  [
+   "Buyer-wise receivable ageing (monthly)",
+   "any buyer past the agreed credit period -> route further sales through LC or credit insurance, or stop drawdown"
+  ],
+  [
+   "Benchmark price of the borrower's main intermediate, e.g. H-acid and reduced dye intermediate (monthly, per [2])",
+   "benchmark falls sharply from the levels in [2] -> revalue stock, cut drawing power, review the limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Dye and intermediate prices up 74% and 68% YoY, peers growing volumes; small-unit consent risk still binds.",
+ "articles": [
+  {
+   "title": "Insight: Dye makers and India's pollution rules – OCEMS to azo bans",
+   "url": "https://chemicals.industry-report.net/2026/10/13/insight-dyes-pollution-rules-ocems-17-categories-azo-ban/#mh-comments",
+   "date": "2026-10-12",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "浙江龙盛(600352)：26Q3染料量价齐升 行业格局长期确定性优化 业绩基本符合预期",
+   "url": "http://stockfinance.sina.cn/stock/go.php/paper/reportid/846852720435/index.phtml",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Sustains Growth Momentum in Q2 FY27, Led by Higher Volumes",
+   "url": "https://m.thewire.in/article_pdf/ptiprnews/aarti-industries-sustains-growth-momentum-in-q2-fy27-led-by-higher-volumes",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Aarti Industries Sustains Growth Momentum in Q2 FY27, Led by Higher Volumes",
+   "url": "https://www.tribuneindia.com/news/business/aarti-industries-sustains-growth-momentum-in-q2-fy27-led-by-higher-volumes-2-2/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 43 (national 22 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 20 output -0.5% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -1.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +20.7% YoY vs output -1.2% (gap +21.9 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 9,
+  "fetch": 11,
+  "chat": 1,
+  "plain_fetch_free": 7
+ },
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
