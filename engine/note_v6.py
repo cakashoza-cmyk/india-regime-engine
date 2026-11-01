@@ -209,7 +209,7 @@ def build(state, city_id, ind_id):
     return {"key": f"{city_id}|{ind_id}", "state": state, "city": city_id, "ind": ind_id, "version": "v6",
             "generated_at": NOW.strftime("%Y-%m-%d %H:%M IST"), "call": call, "base_call": base, "score": score,
             "nudged_by_news": call != base, "verdict": note.get("verdict", ""), "title": note.get("title", ""),
-            "narrative": note.get("narrative", []), "watch": note.get("watch", []),
+            "narrative": [x for x in note.get("narrative", []) if x.strip() not in ("##", "## ", "-", "")], "watch": note.get("watch", []),
             "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
             "news_direction": note.get("news_direction"), "news_why": note.get("news_why"),
             "articles": [{"title": d["title"] or d["url"], "url": d["url"], "date": d["date"], "kind": d["kind"], "via": d["via"], "used": (i + 1) in used}
