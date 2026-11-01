@@ -1333,7 +1333,7 @@
    "industry": "handicrafts",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 40, 60, 90"
+    "numbers not found in the data pack or articles: 60"
    ],
    "attempts": 3,
    "queries": "Srinagar Handicrafts",
@@ -1349,7 +1349,7 @@
     "Jammu and Kashmir electricity demand: -0.5% Apr-to-date vs India +9.5%; latest month +6.4% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Jammu and Kashmir all-bank credit: Rs 116,297 Cr, +11.2% YoY; credit-deposit ratio 56.9% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -1360,11 +1360,19 @@
    "state": "JK",
    "sector": "tourism_hotels",
    "industry": "tourism_hotels",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 60"
-   ],
-   "attempts": 3,
+   "brief": {
+    "local_flavour": "Limited local coverage. No recent local articles were found, so the local picture rests on the data pack. India bank credit to Tourism, Hotels & Restaurants stands at Rs 112,875 Cr outstanding, +27.9% YoY, yet Jammu and Kashmir GST collections are -10.6% Apr-to-date versus India +6.1%, with the latest month -29.4% YoY. For Jammu hotels and restaurants this points to softer local demand and thinner cash flow against fixed costs, even as sector credit grows nationally. J&K all-bank credit is Rs 116,297 Cr, +11.2% YoY, with a credit-deposit ratio of 56.9%, so borrowers here are adding debt into a weakening revenue base; repayment capacity depends on occupancy and seasonal cash cover rather than national credit momentum.",
+    "borrower_checks": [
+     "Occupancy and average room rate: compare trailing 12-month occupancy and ARR against the borrower's own prior-year figures and loan-case projections, not just peak-season months.",
+     "Seasonal cash flow cover: months of fixed costs (lease, staff, utilities) covered by low-season cash receipts, tested against the borrower's actual off-season collections.",
+     "Lease and fixed obligations: annual lease plus debt service as a share of trailing 12-month EBITDA, stress-tested at the latest-month GST trend of -29.4% YoY."
+    ],
+    "change_the_call": "The call is Unknown because verified national sector data is insufficient; a score at or above the OK threshold of 65 would make it OK to lend, between the Avoid threshold of 45 and the OK threshold of 65 would be Caution, and below the Avoid threshold of 45 would be Avoid."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "J&K GST -10.6% Apr-to-date and -29.4% latest month versus India +6.1%.",
+   "attempts": 1,
+   "sources": [],
    "queries": "Jammu Tourism, Hotels",
    "pack": [
     "Call: not enough verified national sector data (Unknown).",
@@ -1374,7 +1382,7 @@
     "Jammu and Kashmir all-bank credit: Rs 116,297 Cr, +11.2% YoY; credit-deposit ratio 56.9% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -1385,11 +1393,19 @@
    "state": "JK",
    "sector": "tourism_hotels",
    "industry": "tourism_hotels",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 60"
-   ],
-   "attempts": 3,
+   "brief": {
+    "local_flavour": "Limited local coverage. No recent local articles were found, so the local picture rests on official figures. India bank credit to Tourism, Hotels & Restaurants stands at Rs 112,875 Cr outstanding, +27.9% YoY, showing lenders still expanding exposure to the sector nationally. Against that, Jammu and Kashmir GST collections are -10.6% Apr-to-date versus India +6.1%, with the latest month -29.4% YoY, a signal that local consumption and visitor-linked spending are contracting. For Srinagar hotels and restaurants this points to softer revenue and thinner seasonal cash flow cover, while fixed costs and lease obligations continue. Borrowers dependent on domestic tourist footfall should be assessed on debt service capacity through the low season, not peak-month receipts.",
+    "borrower_checks": [
+     "Occupancy and average room rate: compare trailing 12-month occupancy and ARR against the borrower's own prior-year figures and loan assumptions",
+     "Seasonal cash flow cover: low-season monthly operating cash flow versus fixed costs and debt service, requiring cover above 1.0x in the weakest three months",
+     "Lease obligations: annual lease and rent payable versus EBITDA, with lease cover below 25% of EBITDA"
+    ],
+    "change_the_call": "The call is Unknown because verified national sector data is insufficient; a score at or above 65 would make it OK to lend, between 45 and 64 Caution, and below 45 Avoid."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "J&K GST -10.6% Apr-to-date and -29.4% latest month signals weak local demand.",
+   "attempts": 1,
+   "sources": [],
    "queries": "Srinagar Tourism, Hotels",
    "pack": [
     "Call: not enough verified national sector data (Unknown).",
@@ -1399,7 +1415,7 @@
     "Jammu and Kashmir all-bank credit: Rs 116,297 Cr, +11.2% YoY; credit-deposit ratio 56.9% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -2103,7 +2119,7 @@
    "industry": "sports_goods",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 40, 60, 90"
+    "numbers not found in the data pack or articles: 60, 40"
    ],
    "attempts": 3,
    "queries": "Jalandhar Sports goods",
@@ -2120,7 +2136,7 @@
     "Punjab electricity demand: +8.8% Apr-to-date vs India +9.5%; latest month +27.8% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Punjab all-bank credit: Rs 410,319 Cr, +9.1% YoY; credit-deposit ratio 58.5% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -2204,7 +2220,7 @@
    "industry": "leather",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 60, 90"
+    "numbers not found in the data pack or articles: 60"
    ],
    "attempts": 3,
    "queries": "Jalandhar Leather",
@@ -2220,7 +2236,7 @@
     "Punjab electricity demand: +8.8% Apr-to-date vs India +9.5%; latest month +27.8% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Punjab all-bank credit: Rs 410,319 Cr, +9.1% YoY; credit-deposit ratio 58.5% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -2350,7 +2366,7 @@
     "Punjab all-bank credit: Rs 410,319 Cr, +9.1% YoY; credit-deposit ratio 58.5% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -2423,7 +2439,7 @@
     "Punjab electricity demand: +8.8% Apr-to-date vs India +9.5%; latest month +27.8% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Punjab all-bank credit: Rs 410,319 Cr, +9.1% YoY; credit-deposit ratio 58.5% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -2484,7 +2500,7 @@
    "industry": "machine_tools",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 30, 60"
+    "numbers not found in the data pack or articles: 60"
    ],
    "attempts": 3,
    "queries": "Batala Machine tools",
@@ -2501,7 +2517,7 @@
     "Punjab electricity demand: +8.8% Apr-to-date vs India +9.5%; latest month +27.8% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Punjab all-bank credit: Rs 410,319 Cr, +9.1% YoY; credit-deposit ratio 58.5% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -2698,7 +2714,7 @@
     "Punjab electricity demand: +8.8% Apr-to-date vs India +9.5%; latest month +27.8% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Punjab all-bank credit: Rs 410,319 Cr, +9.1% YoY; credit-deposit ratio 58.5% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -2925,7 +2941,7 @@
     "Uttarakhand electricity demand: +4.7% Apr-to-date vs India +9.5%; latest month +6.9% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttarakhand all-bank credit: Rs 106,979 Cr, +12.8% YoY; credit-deposit ratio 41.5% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -2954,7 +2970,7 @@
     "Uttarakhand electricity demand: +4.7% Apr-to-date vs India +9.5%; latest month +6.9% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttarakhand all-bank credit: Rs 106,979 Cr, +12.8% YoY; credit-deposit ratio 41.5% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -2979,7 +2995,7 @@
     "Uttarakhand all-bank credit: Rs 106,979 Cr, +12.8% YoY; credit-deposit ratio 41.5% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -3217,11 +3233,25 @@
    "state": "UK",
    "sector": "auto_components",
    "industry": "auto_components",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 50, 90"
+   "brief": {
+    "local_flavour": "Limited local coverage. The only Rudrapur article in the pack concerns rice millers protesting over 500 crore rupees of pending payments, not auto or auto components, so it says nothing about local parts makers' order books or receivables. The data pack's Uttarakhand signals are the usable local read: state GST collections are -19.1% Apr-to-date versus India +6.1%, and latest month -23.3% YoY, while all-bank credit is Rs 106,979 Cr, +12.8% YoY. For a Rudrapur parts borrower, weak state-level collections point to slower local demand and slower customer payments, squeezing cash flow against fixed wage and input outflows; the national sector's +25.2% YoY IIP output does not offset that local drag.",
+    "borrower_checks": [
+     "Debtor days versus 90, split by top OEM customer, to test receivables stretch against the state's -19.1% Apr-to-date GST collections",
+     "Share of sales to the single largest OEM versus 50%, with that OEM's volume trend, to test schedule-cut exposure",
+     "Share of ICE-only parts in revenue versus 30%, to test EV substitution risk in engine-part lines"
+    ],
+    "change_the_call": "A combined score of 65 or above would move the call to OK to lend; below 45 it would be Avoid. At 60 it stays Caution between the Avoid threshold of 45 and the OK threshold of 65."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "State GST -19.1% Apr-to-date and -23.3% latest month undercut the national auto output rise.",
+   "attempts": 2,
+   "sources": [
+    {
+     "url": "https://www.livehindustan.com/uttarakhand/rudrapur/story-rice-millers-protest-over-pending-rs-500-crore-payments-in-uttarakhand-201788783856282.html",
+     "title": "Rudrapur News: लंबित भुगतान न मिलने पर कच्चे आढ़तियों से धान नहीं खरीदेंगे राइस मिलर",
+     "date": "2026-09-06"
+    }
    ],
-   "attempts": 3,
    "queries": "Rudrapur Auto",
    "pack": [
     "Call (data-based): Caution; combined score 60 = national sector score 100 x 0.6 + Uttarakhand local score 0 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
@@ -3234,7 +3264,7 @@
     "Uttarakhand electricity demand: +4.7% Apr-to-date vs India +9.5%; latest month +6.9% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttarakhand all-bank credit: Rs 106,979 Cr, +12.8% YoY; credit-deposit ratio 41.5% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -3386,11 +3416,35 @@
    "state": "PB",
    "sector": "software_it",
    "industry": "it_bpo",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 90"
+   "brief": {
+    "local_flavour": "Limited local coverage. Mohali's IT-enabled services and BPO borrowers sit inside a wider industrial base of around 600 micro, small, medium and large industries that the Mohali Industries Association says has lost roughly 50 per cent of production to 8 to 10 hour unscheduled power cuts, with industrialists warning of losses near Rs 100 crore (news). For BPO units running night shifts, generator back-up at two to three times the cost of grid power compresses margins on fixed-rate client contracts and delays billing, so receivable days and cash conversion stretch. The parent sector still shows India bank credit to Computer Software & IT at Rs 55,325 Cr outstanding, up 45.8% YoY, and Punjab GST collections up 9.7% Apr-to-date against India's 6.1%, so demand-side liquidity is not the constraint; operating continuity is.",
+    "borrower_checks": [
+     "Top-client concentration: largest client share of revenue vs 30% ceiling",
+     "Receivable days on export and domestic invoices vs 90 days",
+     "Generator and back-up power cost as share of monthly operating cost vs 10%"
+    ],
+    "change_the_call": "The call is Unknown because no verified score exists for this industry; a verified score at or above 65 would make it OK to lend, between 45 and 64 Caution, and below 45 Avoid."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Night-shift BPO output hit by 8-10 hour Mohali power cuts; generator costs triple.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "https://x.com/ANI/status/2099620415320780908",
+     "title": "ANI (@ANI) on X",
+     "date": "2026-09-13"
+    },
+    {
+     "url": "https://www.indiatoday.in/amp/india/video/punjab-power-cuts-hit-mohali-units-industrialists-warn-of-rs-100-crore-loss-ytvd-2994294-2026-09-14#1",
+     "title": "Punjab Power Cuts Hit Mohali Units, Industrialists Warn of Rs 100 Crore Loss - advertisement",
+     "date": "2026-09-13"
+    },
+    {
+     "url": "https://theamansandeshtimes.com/22830/8-10-hour-power-cuts-hit-mohali-industry-pspcl-warned/",
+     "title": "8–10 Hour Power Cuts Hit Mohali Industry, PSPCL Warned - Aman Sandesh Times",
+     "date": "2026-09-07"
+    }
    ],
-   "attempts": 3,
    "queries": "Mohali IT-enabled services",
    "pack": [
     "Industry asked: IT-enabled services & BPO. Official series are not published for it separately; figures below are for the nearest parent sector, Computer Software & IT (proxy: parent sector).",
@@ -3401,7 +3455,7 @@
     "Punjab all-bank credit: Rs 410,319 Cr, +9.1% YoY; credit-deposit ratio 58.5% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -3655,11 +3709,30 @@
    "state": "HR",
    "sector": "other_transport",
    "industry": "two_wheelers",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 20, 60"
+   "brief": {
+    "local_flavour": "Limited local coverage. The Manesar material is dominated by HMSI Employee Union items: workers marched against the sacking of 2,500 contractual staff at the Manesar plant, and union leaders alleged production there was cut by 50 per cent, with a tool-down strike following; a tripartite meeting later resolved a Honda labour row. For local two-wheeler and component borrowers, output interruptions of that kind hit dispatch volumes and wage bills at the same time, so cash flow depends on OEM schedules holding. The parent sector backdrop is strong: India output for Cycles, Two-wheelers & Other Transport Equipment rose 25.3% YoY to Aug-2026, and Haryana GST collections grew 10.1% Apr-to-date versus India's 6.1%, supporting repayment capacity where plant operations are uninterrupted.",
+    "borrower_checks": [
+     "Dealer inventory days versus 30-45 days, with ageing stock split by model",
+     "Monthly OEM dispatch volumes versus the same month last year, flagging any 50 per cent-type production cut",
+     "Share of revenue from ICE-specific parts versus EV-compatible parts, tracked quarterly"
+    ],
+    "change_the_call": "A fall in the combined score below 65 would move the call from OK to lend to Caution; below 45 it would be Avoid."
+   },
+   "outlook_vs_macro": "In line",
+   "why": "Sector output and credit growth positive; local labour disruption offsets.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "https://economictimes.indiatimes.com/topic/HMSI-Employee-Union#1",
+     "title": "HMSI Employee Union: Latest News & Videos, Photos about HMSI Employee Union | The Economic Times - Page 1 - Business News›HMSI Employee Union",
+     "date": "2026-10-20"
+    },
+    {
+     "url": "https://economictimes.indiatimes.com/topic/hmsi-employee-union/news#1",
+     "title": "hmsi employee union News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+     "date": "2026-10-16"
+    }
    ],
-   "attempts": 3,
    "queries": "Manesar Two-wheelers",
    "pack": [
     "Industry asked: Two-wheelers. Official series are not published for it separately; figures below are for the nearest parent sector, Cycles, Two-wheelers & Other Transport Equipment (proxy: parent sector).",
@@ -3673,7 +3746,7 @@
     "Haryana electricity demand: +11.4% Apr-to-date vs India +9.5%; latest month +21.3% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Haryana all-bank credit: Rs 677,485 Cr, +16.4% YoY; credit-deposit ratio 68.4% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -4082,11 +4155,19 @@
    "state": "HR",
    "sector": "plastics",
    "industry": "plastics",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 50, 60"
-   ],
-   "attempts": 3,
+   "brief": {
+    "local_flavour": "Limited local coverage. With no recent local reporting from Bahadurgarh, the read rests on official figures. India Plastics & Rubber Processing output is +21.4% YoY (IIP NIC 22, to Aug-2026) and exports +17.1% Apr-to-date in USD (Rs 48,628 Cr FYTD), while bank credit to the sector is Rs 127,680 Cr outstanding, +21.0% YoY (RBI, Sep-2026). For local moulders and extruders this supports order books and receivable turnover, but credit growing faster than output (+2.8 pp gap) means leverage is building. Brent at $113/bbl sits above the $75–100 band, so power and freight costs pressure margins where polymer cost pass-through lags. Haryana electricity demand +11.4% Apr-to-date signals firm local activity. Repayment capacity hinges on passing input costs into invoice prices.",
+    "borrower_checks": [
+     "Polymer cost share of sales vs last year — flag if up more than 3 percentage points without matching price revisions",
+     "Top-3 customer share of revenue — benchmark below 50% to limit concentration risk",
+     "Debtor days on receivables — benchmark at or below 90 days"
+    ],
+    "change_the_call": "A combined score falling below the OK threshold of 65 would move the call to Caution; a score below the Avoid threshold of 45 would move it to Avoid."
+   },
+   "outlook_vs_macro": "In line",
+   "why": "Sector output and exports strong, but credit outpacing output and Brent above band offset gains.",
+   "attempts": 1,
+   "sources": [],
    "queries": "Bahadurgarh Plastics",
    "pack": [
     "Call (data-based): OK to lend; combined score 89 = national sector score 98 x 0.6 + Haryana local score 75 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
@@ -4101,7 +4182,7 @@
     "Haryana electricity demand: +11.4% Apr-to-date vs India +9.5%; latest month +21.3% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Haryana all-bank credit: Rs 677,485 Cr, +16.4% YoY; credit-deposit ratio 68.4% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -4266,7 +4347,7 @@
    "industry": "sugar",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 100, 14, 90"
+    "numbers not found in the data pack or articles: 13"
    ],
    "attempts": 3,
    "queries": "Yamunanagar Sugar",
@@ -4282,7 +4363,7 @@
     "Haryana electricity demand: +11.4% Apr-to-date vs India +9.5%; latest month +21.3% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Haryana all-bank credit: Rs 677,485 Cr, +16.4% YoY; credit-deposit ratio 68.4% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -4293,11 +4374,25 @@
    "state": "HR",
    "sector": "nonferrous_brass",
    "industry": "steel_utensils",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 60"
+   "brief": {
+    "local_flavour": "Limited local coverage. The only recent Hisar item is a power-supply report: Amar Ujala (23 Oct 2026) says 15–30 minute cuts disrupted production and loading at units, with 12 factories and 519 small industries exposed to a three-day electricity staff strike, and industrialist Satpal Aggarwal warning that longer outages would make order deadlines hard to meet. For utensil and fabricated-metal borrowers, idle machines raise per-unit cost and delay dispatch, stretching the cash conversion cycle just as input costs bite: Brent is $113/bbl, above the $75–100 band, and the repo is 5.5%, raised from 5.25%, with RBI tightening. Haryana all-bank credit is Rs 677,485 Cr, +16.4% YoY, so refinancing is available but costlier; repayment capacity hinges on dispatch continuity and receivable collection.",
+    "borrower_checks": [
+     "Export receivable days vs 90; confirm no ageing beyond 90 days given power-cut dispatch delays",
+     "Order book in months vs 3; verify confirmed orders cover at least 3 months of production",
+     "Metal price hedging cover vs 75% of forward order tonnage; check stainless steel input exposure is hedged"
+    ],
+    "change_the_call": "A fall in the combined score below 65 would move the call from OK to lend to Caution; a drop below 45 would make it Avoid."
+   },
+   "outlook_vs_macro": "In line",
+   "why": "Sector output +16.9% YoY offsets local power disruption and tighter repo.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "https://www.amarujala.com/haryana/hisar/intermittent-power-supply-leaves-industrialists-anxious-hisar-news-c-21-hsr1020-978336-2026-10-23#1",
+     "title": "Hisar News: बिजली की आंख-मिचौली से उद्योगपतियों की बढ़ीं धड़कनें - Hisar News: बिजली की आंख-मिचौली से उद्योगपतियों की बढ़ीं धड़कनें",
+     "date": "2026-10-22"
+    }
    ],
-   "attempts": 3,
    "queries": "Hisar Steel",
    "pack": [
     "Industry asked: Steel & metal utensils. Official series are not published for it separately; figures below are for the nearest parent sector, Non-ferrous Metals, Brass & Fabricated Metal (proxy: parent sector).",
@@ -4313,7 +4408,7 @@
     "Haryana electricity demand: +11.4% Apr-to-date vs India +9.5%; latest month +21.3% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Haryana all-bank credit: Rs 677,485 Cr, +16.4% YoY; credit-deposit ratio 68.4% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -4531,11 +4626,30 @@
    "state": "DL",
    "sector": "wholesale_trade",
    "industry": "textile_trading",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 30"
+   "brief": {
+    "local_flavour": "Limited local coverage. Delhi's cotton yarn market held steady but stayed subdued on weak downstream demand and persistent payment constraints, with buyers reluctant to make bulk purchases as slow cash flow cut buying capacity (Fibre2Fashion). Traders flagged that a planned nationwide protest could further squeeze buying before Diwali. For textile traders this means slower stock turns and stretched retailer payments, so receivable and inventory days matter more than margin. The data pack shows Delhi GST collections up 2.7% Apr-to-date against India's 6.1%, and Delhi all-bank credit at Rs 1,823,669 Cr, +7.1% YoY, with a credit-deposit ratio of 91.8% — a shallow local demand base against tight deposit funding.",
+    "borrower_checks": [
+     "Inventory plus receivable days vs 60",
+     "GST turnover vs bank credits: monthly GST-declared sales reconciled to bank credit turnover, flagging any gap",
+     "Top-retailer concentration: share of sales to the single largest buyer, with no single retailer above 25%"
+    ],
+    "change_the_call": "A combined score of 45 or above would move the call to Caution; at or above 65 it would be OK to lend. The current 12 sits below the Avoid threshold of 45."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Delhi GST growth 2.7% trails India's 6.1%; yarn demand weak, payments stretched.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "https://www.fibre2fashion.com/news/news/textile-news/north-india-s-cotton-yarn-market-bearish-ludhiana-prices-fall-314643-newsdetails.htm",
+     "title": "North India's cotton yarn market bearish, Ludhiana prices fall",
+     "date": "2026-10-28"
+    },
+    {
+     "url": "https://www.fibre2fashion.com/news/prime-content/textiles-markets/north-india-s-cotton-yarn-market-remains-weak-amid-cash-crunch-314445-newsdetails.htm",
+     "title": "North India's cotton yarn market remains weak amid cash crunch",
+     "date": "2026-10-21"
+    }
    ],
-   "attempts": 3,
    "queries": "Delhi Textile trading",
    "pack": [
     "Industry asked: Textile trading. Official series are not published for it separately; figures below are for the nearest parent sector, Wholesale Trade (proxy: parent sector).",
@@ -4548,7 +4662,7 @@
     "Delhi electricity demand: +6.5% Apr-to-date vs India +9.5%; latest month +10.4% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Delhi all-bank credit: Rs 1,823,669 Cr, +7.1% YoY; credit-deposit ratio 91.8% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -4639,11 +4753,35 @@
    "state": "HR",
    "sector": "nonferrous_brass",
    "industry": "steel_utensils",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 90"
+   "brief": {
+    "local_flavour": "Limited local coverage. Yamunanagar's news is about power, not utensils: a three-day UHBVN strike against privatisation left 11 of 27 feeders in Jagadhri broken down, with protests and road blockades (news [2], [3]), and 225 petrol pump dealers plan a one-day no-sale strike (news [0]). For utensil units, outages hit furnace and press runs and idle labour, squeezing cash flow in a trade where dealer credit already ties up working capital. The parent sector is expanding — IIP NIC 25 output +16.9% YoY and bank credit +11.9% YoY against output +12.0% — and Haryana electricity demand +11.4% Apr-to-date signals load pressure, so power reliability, not demand, is the local repayment risk.",
+    "borrower_checks": [
+     "Export receivable days vs 90; confirm any overdue beyond 90 days is provided for",
+     "Order book in months vs 3; check whether fixed-price orders are hedged against stainless steel price moves",
+     "Dealer credit days vs 60; reconcile outstanding dealer balances to invoices and check ageing beyond 60 days"
+    ],
+    "change_the_call": "A Haryana local score falling from 75 to below 45 would move the combined score below the Avoid threshold of 45 and change the call to Avoid; holding at or above the OK threshold of 65 keeps OK to lend."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Local power outages and pump strike disrupt output; sector demand itself is expanding.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "http://dailyhunt.in/news/india/english/the+tribune-epaper-thetribt/yamunanagar+petrol+pump+dealers+to+observe+symbolic+strike-newsid-n732214057?listname=newspaperLanding&topic=haryana&index=2&topicIndex=8&mode=pwa&action=click",
+     "title": "Yamunanagar petrol pump dealers to observe symbolic strike",
+     "date": "2026-10-29"
+    },
+    {
+     "url": "http://dailyhunt.in/news/india/english/the+tribune-epaper-thetribt/protests+erupt+across+yamunanagar+over+prolonged+power+cuts-newsid-n731398600?listname=newspaperLanding&topic=haryana&index=3&topicIndex=8&mode=pwa&action=click",
+     "title": "Protests erupt across Yamunanagar over prolonged power cuts",
+     "date": "2026-10-22"
+    },
+    {
+     "url": "https://www.bhaskar.com/local/haryana/yamunanagar/news/yamunanagar-jagadhri-electricity-strike-protest-power-outage-139460707.html#1",
+     "title": "यमुनानगर में बिजली-पानी के लिए तरसे लोग: जगाधरी में 4 जगह जाम; किसान यूनियन ने बिजली दफ्तर घेरा, हड़ताल का आज दूसरा दिन - Yamunanagar News - यमुनानगर में बिजली-पानी के लिए तरसे लोग:जगाधरी में 4 जगह जाम; किसान यूनियन ने बिजली दफ्तर घेरा, हड़ताल का आज दूसरा दिन",
+     "date": "2026-10-22"
+    }
    ],
-   "attempts": 3,
    "queries": "Yamunanagar Steel",
    "pack": [
     "Industry asked: Steel & metal utensils. Official series are not published for it separately; figures below are for the nearest parent sector, Non-ferrous Metals, Brass & Fabricated Metal (proxy: parent sector).",
@@ -4659,7 +4797,7 @@
     "Haryana electricity demand: +11.4% Apr-to-date vs India +9.5%; latest month +21.3% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Haryana all-bank credit: Rs 677,485 Cr, +16.4% YoY; credit-deposit ratio 68.4% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -4670,11 +4808,19 @@
    "state": "DL",
    "sector": "leather",
    "industry": "footwear",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 60, 90"
-   ],
-   "attempts": 3,
+   "brief": {
+    "local_flavour": "Limited local coverage. No recent local articles were found on Narela-Bawana footwear, so the read rests on the data pack. The parent Leather & Footwear sector scores Avoid at 33, with the Delhi local score at 0 against a national score of 55. Nationally, output is +8.1% YoY to Aug-2026 but only +2.4% Apr-to-date, and exports are -3.0% Apr-to-date in USD (Rs 21,080 Cr FYTD), so export-linked order books are thinning. Bank credit to the sector is Rs 15,032 Cr outstanding, +11.9% YoY, well ahead of output, meaning leveraged units carry more debt into a softer order cycle. For borrowers here, that points to slower receivable conversion and tighter cash cover on existing instalments.",
+    "borrower_checks": [
+     "Export receivable days: confirm under 90 days, with the ageing split by EU/US buyer",
+     "Confirmed export order book: at least 3 months of forward orders in hand, evidenced by purchase orders, not verbal commitments",
+     "CETP/effluent compliance certificate current, with no pending pollution board notice against the unit"
+    ],
+    "change_the_call": "A move to a combined score of 45 or above would shift the call to Caution; at 65 or above it would be OK to lend. The current 33 sits below the Avoid threshold of 45."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Exports -3.0% Apr-to-date while sector credit grows +11.9% YoY, so leverage outpaces demand.",
+   "attempts": 1,
+   "sources": [],
    "queries": "Narela-Bawana Footwear",
    "pack": [
     "Industry asked: Footwear. Official series are not published for it separately; figures below are for the nearest parent sector, Leather & Footwear (proxy: parent sector).",
@@ -4689,7 +4835,7 @@
     "Delhi electricity demand: +6.5% Apr-to-date vs India +9.5%; latest month +10.4% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Delhi all-bank credit: Rs 1,823,669 Cr, +7.1% YoY; credit-deposit ratio 91.8% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -4925,7 +5071,7 @@
     "Rajasthan all-bank credit: Rs 698,414 Cr, +13.4% YoY; credit-deposit ratio 88.6% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -4938,7 +5084,7 @@
    "industry": "handicrafts",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 40, 60, 90"
+    "numbers not found in the data pack or articles: 60, 40"
    ],
    "attempts": 3,
    "queries": "Jodhpur Handicrafts",
@@ -4954,7 +5100,7 @@
     "Rajasthan electricity demand: +4.0% Apr-to-date vs India +9.5%; latest month +6.8% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Rajasthan all-bank credit: Rs 698,414 Cr, +13.4% YoY; credit-deposit ratio 88.6% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -5102,11 +5248,19 @@
    "state": "RJ",
    "sector": "cement",
    "industry": "stone_granite",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 30, 60, 90"
-   ],
-   "attempts": 3,
+   "brief": {
+    "local_flavour": "Limited local coverage. No recent local articles were found on Udaipur's stone, granite and marble processing cluster, so the read rests on the proxy parent sector and state figures. India Cement output rose +11.4% YoY to Aug-2026 and bank credit to the sector grew +18.2% YoY against output of +10.2%, a gap of +8.0 pp, meaning borrowing has run ahead of real activity. For Udaipur processors this points to working-capital-funded stock and receivables rather than volume-led cash generation. Rajasthan's own backdrop is softer: state GST collections fell -4.7% Apr-to-date versus India +6.1%, and electricity demand rose only +4.0% Apr-to-date against India +9.5%, so local offtake and buyer payments are the cash-flow risk.",
+    "borrower_checks": [
+     "Dealer and buyer receivable days versus 90 days, with ageing split above 90 days",
+     "Stock holding days for finished slabs versus 60 days, valued at net realisable price",
+     "Monthly electricity and fuel cost per unit processed versus the borrower's own 12-month average"
+    ],
+    "change_the_call": "A move of the combined score from 57 to 65 or above, the OK threshold, would change the call to OK to lend; a fall below the Avoid threshold of 45 would make it Avoid."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Rajasthan GST -4.7% and power demand +4.0% lag India; credit growth outpaces output.",
+   "attempts": 1,
+   "sources": [],
    "queries": "Udaipur Stone, granite",
    "pack": [
     "Industry asked: Stone, granite & marble processing. Official series are not published for it separately; figures below are for the nearest parent sector, Cement (proxy: parent sector).",
@@ -5121,7 +5275,7 @@
     "Rajasthan electricity demand: +4.0% Apr-to-date vs India +9.5%; latest month +6.8% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Rajasthan all-bank credit: Rs 698,414 Cr, +13.4% YoY; credit-deposit ratio 88.6% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -5196,11 +5350,19 @@
    "state": "RJ",
    "sector": "tourism_hotels",
    "industry": "tourism_hotels",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 60"
-   ],
-   "attempts": 3,
+   "brief": {
+    "local_flavour": "Limited local coverage. With no recent local articles, the read on Udaipur's hotels, restaurants and tour operators rests on official figures. India bank credit to Tourism, Hotels & Restaurants stands at Rs 112,875 Cr outstanding, up 27.9% YoY, so lenders nationally are expanding exposure to the sector. The local demand signal is softer: Rajasthan GST collections are -4.7% Apr-to-date versus India +6.1%, and the latest month is -0.3% YoY, pointing to weaker turnover in the state's hospitality-linked businesses. For borrowers this means thinner seasonal cash flow against fixed costs such as leases and staff, so repayment capacity depends on occupancy and room rates holding through the low season rather than on new borrowing.",
+    "borrower_checks": [
+     "Occupancy rate and average room rate for the trailing 12 months, compared with the borrower's own loan-file projections and prior-year same months",
+     "Seasonal cash flow cover: low-season monthly collections versus fixed costs (lease plus staff), with cover at or above 1.0x in the weakest three months",
+     "Lease and fixed-obligation ratio: annual lease payments versus EBITDA, kept below 30% so a weak season does not breach debt service"
+    ],
+    "change_the_call": "The call is Unknown because verified national sector data is insufficient, so no score band applies yet. A verified score at or above the OK threshold of 65 would make it OK to lend; between the Avoid threshold and the OK threshold it stays Caution; below the Avoid threshold it is Avoid."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Rajasthan GST -4.7% Apr-to-date versus India +6.1% signals weaker local turnover.",
+   "attempts": 1,
+   "sources": [],
    "queries": "Udaipur Tourism, Hotels",
    "pack": [
     "Call: not enough verified national sector data (Unknown).",
@@ -5210,7 +5372,7 @@
     "Rajasthan all-bank credit: Rs 698,414 Cr, +13.4% YoY; credit-deposit ratio 88.6% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -5283,7 +5445,7 @@
     "Rajasthan electricity demand: +4.0% Apr-to-date vs India +9.5%; latest month +6.8% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Rajasthan all-bank credit: Rs 698,414 Cr, +13.4% YoY; credit-deposit ratio 88.6% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -5368,7 +5530,7 @@
    "industry": "engineering",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 30, 60"
+    "numbers not found in the data pack or articles: 60"
    ],
    "attempts": 3,
    "queries": "Alwar Engineering",
@@ -5384,7 +5546,7 @@
     "Rajasthan electricity demand: +4.0% Apr-to-date vs India +9.5%; latest month +6.8% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Rajasthan all-bank credit: Rs 698,414 Cr, +13.4% YoY; credit-deposit ratio 88.6% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -5420,11 +5582,19 @@
    "state": "RJ",
    "sector": "renewables",
    "industry": "solar_epc",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 1.2, 60, 90"
-   ],
-   "attempts": 3,
+   "brief": {
+    "local_flavour": "Limited local coverage. No recent local articles were found, so the local read rests on the data pack. Rajasthan's electricity demand is +4.0% Apr-to-date versus India +9.5%, and the latest month is +6.8% YoY, so offtake is growing but slower than the national pace; rooftop and EPC borrowers here depend on state discom connections and payment cycles rather than on demand alone. State GST collections are -4.7% Apr-to-date versus India +6.1%, with the latest month -0.3% YoY, a sign of softer local activity that can slow payments down the chain. All-bank credit in Rajasthan is Rs 698,414 Cr, +13.4% YoY, with a credit-deposit ratio of 88.6%, so funding is available but the state is already lending heavily against deposits. For borrowers, cash flow turns on discom settlement speed and module procurement costs, not on demand growth.",
+    "borrower_checks": [
+     "DISCOM receivable days on billed energy vs 90 days",
+     "Debt service cover ratio vs 1.2x",
+     "Module procurement cost per MW versus the contracted PPA tariff, with the margin stated in rupees"
+    ],
+    "change_the_call": "The call is Unknown because no verified sector score exists; it would move to OK to lend at or above 65, Caution between 45 and 64, and Avoid below 45 once a verified score is available."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Rajasthan GST -4.7% and demand growth below India point to slower local cash cycles.",
+   "attempts": 1,
+   "sources": [],
    "queries": "Jaisalmer Solar EPC",
    "pack": [
     "Industry asked: Solar EPC & rooftop. Official series are not published for it separately; figures below are for the nearest parent sector, Renewables (solar/wind) (proxy: parent sector).",
@@ -5435,7 +5605,7 @@
     "Rajasthan all-bank credit: Rs 698,414 Cr, +13.4% YoY; credit-deposit ratio 88.6% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -5965,11 +6135,25 @@
    "state": "UP",
    "sector": "leather",
    "industry": "footwear",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 90"
+   "brief": {
+    "local_flavour": "Limited local coverage. Agra's footwear cluster, which the press reports employs 400,000 workers, is caught between falling rural demand and rising costs, with overseas orders only partly rescuing larger manufacturers; Birkenstock's Delhi High Court action brought court-ordered factory inspections in Agra over suspected counterfeit sandals, and exporters have asked government for anti-dumping duty on Chinese footwear after the 2019 duty rise to 35% failed to stem inflows. For borrowers this means receivables and order books, not capacity, drive cash flow: India Leather & Footwear exports fell -3.0% Apr-to-date in USD (Rs 21,080 Cr FYTD) even as IIP NIC 15 output rose +8.1% YoY, so stock builds against weak foreign offtake. UP GST collections at +14.2% Apr-to-date versus India +6.1% show domestic demand holding, supporting repayment on local-trade exposures more than export-led ones.",
+    "borrower_checks": [
+     "Export receivable days versus 90, with ageing split by EU/US buyer",
+     "Confirmed export orders on hand versus 3 months of billing, given exports -3.0% Apr-to-date in USD",
+     "CETP/effluent compliance certificate current, plus BIS quality-rule registration status for the product line"
+    ],
+    "change_the_call": "A combined score of 65 or above moves the call to OK to lend; below 45 it becomes Avoid. At 63 it sits in Caution, between the Avoid threshold of 45 and the OK threshold of 65."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Export decline and US tariff closures outweigh output growth for Agra's export-led units.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "https://economictimes.indiatimes.com/topic/agra-shoe-factory/news#1",
+     "title": "agra shoe factory News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+     "date": "2026-10-24"
+    }
    ],
-   "attempts": 3,
    "queries": "Agra Footwear",
    "pack": [
     "Industry asked: Footwear. Official series are not published for it separately; figures below are for the nearest parent sector, Leather & Footwear (proxy: parent sector).",
@@ -5984,7 +6168,7 @@
     "Uttar Pradesh electricity demand: +8.6% Apr-to-date vs India +9.5%; latest month +10.0% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttar Pradesh all-bank credit: Rs 1,031,463 Cr, +11.6% YoY; credit-deposit ratio 50.9% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -6046,7 +6230,7 @@
    "industry": "tourism_hotels",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 20, 25, 60"
+    "numbers not found in the data pack or articles: 60, 40"
    ],
    "attempts": 3,
    "queries": "Agra Tourism, Hotels",
@@ -6058,7 +6242,7 @@
     "Uttar Pradesh all-bank credit: Rs 1,031,463 Cr, +11.6% YoY; credit-deposit ratio 50.9% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -6069,11 +6253,30 @@
    "state": "UP",
    "sector": "electronics",
    "industry": "electronic_components",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 180"
+   "brief": {
+    "local_flavour": "Limited local coverage. The Noida news is about apparel, not electronics: apparel units have fallen to 1,800 from 2,400 over the past six months and Noida apparel exports are projected at about ₹42,000 crore this financial year against ₹48,000 crore in 2025-26, per the Noida Apparel Exporter Cluster. For electronics borrowers the read-across is working capital, not demand: the parent sector shows India Electronics Manufacturing output +19.3% YoY and exports +44.0% Apr-to-date in USD (Rs 304,256 Cr FYTD), while bank credit to the sector is Rs 82,564 Cr outstanding, +30.6% YoY. UP GST collections at +14.2% Apr-to-date support local cash generation, but credit growing faster than output means repayment depends on converting receivables, not on order growth.",
+    "borrower_checks": [
+     "Debtor days on OEM receivables versus 90 days, split by largest customer",
+     "Unhedged import payables as a share of monthly purchases, reviewed against the rupee cost of imported parts",
+     "PLI receivable ageing: amount outstanding beyond 180 days from claim filing"
+    ],
+    "change_the_call": "A fall in the combined score below 65 would move the call from OK to lend to Caution; a fall below 45 would move it to Avoid."
+   },
+   "outlook_vs_macro": "In line",
+   "why": "Sector output and exports strong; credit growth outpaces output, so cash conversion decides.",
+   "attempts": 2,
+   "sources": [
+    {
+     "url": "https://textile.economictimes.indiatimes.com/news/manufacturing-retailing/us-demand-slowdown-hits-apparel-and-diamond-exporters/135355879?utm_source=latest_news&utm_medium=agencyListing",
+     "title": "US demand slowdown hits apparel and diamond exporters",
+     "date": "2026-10-29"
+    },
+    {
+     "url": "https://retail.economictimes.indiatimes.com/news/industry/us-demand-slowdown-hits-apparel-diamond-exporters-as-factories-shut-and-orders-dry-up/135352178?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etretail_news_2026-10-31&dt=2026-10-31",
+     "title": "US demand slowdown hits apparel, diamond exporters as factories shut and orders dry up",
+     "date": "2026-10-29"
+    }
    ],
-   "attempts": 3,
    "queries": "Noida Electronic components",
    "pack": [
     "Industry asked: Electronic components & PCBs. Official series are not published for it separately; figures below are for the nearest parent sector, Electronics Manufacturing (proxy: parent sector).",
@@ -6087,7 +6290,7 @@
     "Uttar Pradesh electricity demand: +8.6% Apr-to-date vs India +9.5%; latest month +10.0% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttar Pradesh all-bank credit: Rs 1,031,463 Cr, +11.6% YoY; credit-deposit ratio 50.9% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -6098,11 +6301,30 @@
    "state": "UP",
    "sector": "apparel",
    "industry": "apparel",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 70, 90"
+   "brief": {
+    "local_flavour": "Limited local coverage, but both extracts point the same way: Noida apparel units have fallen to 1,800 from 2,400 in six months, and cluster president Lalit Thakrul projects exports slipping to about ₹42,000 crore this year from ₹48,000 crore in 2025-26, with employment down to around 800,000 from roughly one million (news). Kapil Sadh of SK Overseas says buyers delay orders and push prices while wages, supplier dues and bank repayments continue, so cash gets locked in stranded fabric and unfinished goods (news). That is consistent with the data pack: India output -5.6% Apr-to-date and exports -6.2% Apr-to-date in USD, while bank credit to the sector is +23.3% YoY — borrowing rising against falling throughput. For borrowers here, repayment capacity rests on confirmed orders and bill realisation, not on order paper.",
+    "borrower_checks": [
+     "Confirmed export orders for the next 3 months as a percentage of installed capacity — require at least 60% confirmed in writing, not verbal buyer intent",
+     "Export bill realisation days versus 90 days, with ECGC cover confirmed on all outstanding receivables",
+     "Yarn and fabric cost as a share of FOB price versus last year — flag any unit where the share has risen, since FOB prices are being pushed down by US buyers"
+    ],
+    "change_the_call": "The call moves to Caution if the combined score rises to 45 or above, and to OK to lend at 65 or above; it stays Avoid below 45, where the score of 30 now sits."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Noida unit count and exports falling while sector credit grows 23.3% YoY.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "https://textile.economictimes.indiatimes.com/news/manufacturing-retailing/us-demand-slowdown-hits-apparel-and-diamond-exporters/135355879?utm_source=latest_news&utm_medium=agencyListing",
+     "title": "US demand slowdown hits apparel and diamond exporters",
+     "date": "2026-10-29"
+    },
+    {
+     "url": "https://retail.economictimes.indiatimes.com/news/industry/us-demand-slowdown-hits-apparel-diamond-exporters-as-factories-shut-and-orders-dry-up/135352178?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etretail_news_2026-10-31&dt=2026-10-31",
+     "title": "US demand slowdown hits apparel, diamond exporters as factories shut and orders dry up",
+     "date": "2026-10-29"
+    }
    ],
-   "attempts": 3,
    "queries": "Noida Readymade Garments",
    "pack": [
     "Call (data-based): Avoid; combined score 30 = national sector score 0 x 0.6 + Uttar Pradesh local score 75 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
@@ -6117,7 +6339,7 @@
     "Uttar Pradesh electricity demand: +8.6% Apr-to-date vs India +9.5%; latest month +10.0% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttar Pradesh all-bank credit: Rs 1,031,463 Cr, +11.6% YoY; credit-deposit ratio 50.9% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -6227,7 +6449,7 @@
    "industry": "mobile_assembly",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 180, 50"
+    "numbers not found in the data pack or articles: 40"
    ],
    "attempts": 3,
    "queries": "Noida Mobile",
@@ -6243,7 +6465,7 @@
     "Uttar Pradesh electricity demand: +8.6% Apr-to-date vs India +9.5%; latest month +10.0% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttar Pradesh all-bank credit: Rs 1,031,463 Cr, +11.6% YoY; credit-deposit ratio 50.9% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -6254,11 +6476,30 @@
    "state": "UP",
    "sector": "nonferrous_brass",
    "industry": "nonferrous_brass",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 90"
+   "brief": {
+    "local_flavour": "Limited local coverage. Moradabad's brass cluster is under pressure: a Business Standard report describes the industry 'still struggling to release from the clutches of demonatisation', with GST adding further trouble, while Frontline (Sep-2026) quotes artisan Dilshad Hussain getting 'one or two orders a month' and warns Peetal Nagari could shut down in five to seven years. For borrowers this means thin, lumpy order books and weak cash conversion, so repayment capacity rests on working-capital discipline rather than volume growth. The national picture is brighter — IIP NIC 25 output +16.9% YoY and bank credit +11.9% YoY against output +12.0% — but that strength is not reaching this cluster, and the repo at 5.5% (raised from 5.25%) with RBI tightening keeps interest cost on metal inventory elevated.",
+    "borrower_checks": [
+     "Order book in months of production versus a 3-month floor, evidenced by confirmed purchase orders rather than verbal commitments",
+     "Export receivable days versus 90, with ageing split for any buyer beyond 60 days",
+     "Metal price hedging cover on fixed-price orders versus 100% of contracted tonnage, given the 75% raw material price rise cited in Frontline"
+    ],
+    "change_the_call": "A fall in the combined score below 65 would move the call from OK to lend to Caution; a drop below 45 would make it Avoid."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Moradabad order flow is collapsing while national output and credit expand.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "https://www.business-standard.com/multimedia/video-gallery/companies/brass-industry-goes-from-bloom-to-gloom-one-year-after-demonatisation-55211.htm#1",
+     "title": "Brass industry goes from bloom to gloom one year after demonatisation - Friday, October 23, 2026 | 10:30 PM ISTहिंदी में पढें",
+     "date": "2026-10-22"
+    },
+    {
+     "url": "https://frontline.thehindu.com/politics/uttar-pradesh-industrial-decline-brass-lock-pottery/article71499767.ece#1",
+     "title": "Are Uttar Pradesh’s Manufacturing Industries Declining Due to Government Negligence? - Sections",
+     "date": "2026-09-29"
+    }
    ],
-   "attempts": 3,
    "queries": "Moradabad Non-ferrous Metals, Brass",
    "pack": [
     "Call (data-based): OK to lend; combined score 88 = national sector score 96 x 0.6 + Uttar Pradesh local score 75 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
@@ -6273,7 +6514,7 @@
     "Uttar Pradesh electricity demand: +8.6% Apr-to-date vs India +9.5%; latest month +10.0% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttar Pradesh all-bank credit: Rs 1,031,463 Cr, +11.6% YoY; credit-deposit ratio 50.9% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -6302,7 +6543,7 @@
     "Uttar Pradesh electricity demand: +8.6% Apr-to-date vs India +9.5%; latest month +10.0% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttar Pradesh all-bank credit: Rs 1,031,463 Cr, +11.6% YoY; credit-deposit ratio 50.9% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -6482,11 +6723,25 @@
    "state": "UP",
    "sector": "diamonds",
    "industry": "imitation_jewellery",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 50"
+   "brief": {
+    "local_flavour": "Limited local coverage. The only local article concerns Firozabad's glass cluster, not imitation jewellery, and reports that gas shortages and high prices tied to the Iran war threaten factories barred from coal-fired furnaces since 1996, with up to one million livelihoods reliant on glassmaking and more than $1 billion generated in a good year, including $200 million in exports. For imitation-jewellery borrowers, the relevant cash-flow signal is the parent sector's credit growth of +33.0% YoY against output of +3.8% (gap +29.2 pp), with Rs 136,738 Cr outstanding, while Uttar Pradesh GST collections rose +14.2% Apr-to-date. Borrowers carrying inventory and receivables funded by that credit growth face repayment pressure if festival demand does not convert to collections.",
+    "borrower_checks": [
+     "Inventory plus receivable days vs 180",
+     "Share of LGD in turnover and its price trend",
+     "Buyer concentration in Hong Kong/US and their payment record"
+    ],
+    "change_the_call": "A combined score of 65 or above would move the call to OK to lend; a fall below 45 would move it to Avoid. The current 51 sits in the Caution band between the Avoid threshold of 45 and the OK threshold of 65."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Credit up 33.0% against output up 3.8%; repo raised to 5.5% with tightening stance.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "https://agustiniano.com/inicio/?live-news-5884792-2026-05-04-city-of-glass-is-under-threat-from-iran-warin-india-firozabad-has-depended-on-it",
+     "title": "‘City of Glass’ Is Under Threat From Iran WarIn India, Firozabad has depended on its glassmaking industry for centuries. Fuel prices are starting to s",
+     "date": "2026-09-25"
+    }
    ],
-   "attempts": 3,
    "queries": "Firozabad Imitation jewellery",
    "pack": [
     "Industry asked: Imitation jewellery. Official series are not published for it separately; figures below are for the nearest parent sector, Cut & Polished Diamonds / Gems & Jewellery (proxy: parent sector).",
@@ -6502,7 +6757,7 @@
     "Uttar Pradesh electricity demand: +8.6% Apr-to-date vs India +9.5%; latest month +10.0% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttar Pradesh all-bank credit: Rs 1,031,463 Cr, +11.6% YoY; credit-deposit ratio 50.9% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -6604,11 +6859,30 @@
    "state": "UP",
    "sector": "cement",
    "industry": "stone_granite",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 90"
+   "brief": {
+    "local_flavour": "Agra's marble inlay (Pachikari) units are the local face of this industry, and the news is split. The Economic Times reports West Asia conflict has halted orders from the region, the main market, with major Gulf traders suspending operations and thousands of artisans jobless — a direct hit to export-linked cash flow and repayment capacity. Offsetting this, the same paper reports GST on marble and granite cut to 5%, which the Mines Ministry expects to lower construction costs and support housing and small-scale enterprises. The parent-sector proxy is expanding: India Cement IIP output +11.4% YoY and bank credit +18.2% YoY, while Uttar Pradesh GST collections rose +14.2% Apr-to-date. Borrowers with Gulf order books face receivable stress; domestic-facing units gain margin room.",
+    "borrower_checks": [
+     "Export receivable days on Gulf orders vs 90 days, given suspended West Asia trade",
+     "Share of revenue from West Asia exports vs domestic housing-linked sales, benchmark below 50% Gulf concentration",
+     "Fuel and power cost per tonne of processed stone vs the unit's own trailing 12-month average, tracking Brent at $113/bbl"
+    ],
+    "change_the_call": "A fall in the combined score below the OK threshold of 65 — for example from a weaker Uttar Pradesh local score — would move the call to Caution; below the Avoid threshold of 45 it becomes Avoid."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Gulf export halt hits Agra inlay units despite GST cut to 5% and +11.4% sector output.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "https://economictimes.indiatimes.com/topic/marble-inlay-industry#1",
+     "title": "marble inlay industry: Latest News & Videos, Photos about marble inlay industry | The Economic Times - Page 1 - Business News›marble inlay industry",
+     "date": "2026-10-16"
+    },
+    {
+     "url": "https://economictimes.indiatimes.com/topic/marble-inlay-industry/news#1",
+     "title": "marble inlay industry News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+     "date": "2026-09-30"
+    }
    ],
-   "attempts": 3,
    "queries": "Agra Stone, granite",
    "pack": [
     "Industry asked: Stone, granite & marble processing. Official series are not published for it separately; figures below are for the nearest parent sector, Cement (proxy: parent sector).",
@@ -6623,7 +6897,7 @@
     "Uttar Pradesh electricity demand: +8.6% Apr-to-date vs India +9.5%; latest month +10.0% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttar Pradesh all-bank credit: Rs 1,031,463 Cr, +11.6% YoY; credit-deposit ratio 50.9% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -6901,11 +7175,30 @@
    "state": "UP",
    "sector": "nonferrous_brass",
    "industry": "fasteners_hardware",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 90"
+   "brief": {
+    "local_flavour": "Limited local coverage. Aligarh's lock and hardware units are closing at a reported rate of five to ten a day, according to the Aligarh Locks and Hardware Association quoted by Frontline, with metal prices up 75 per cent in a year and weekly revisions wrecking fixed-order margins. A three-day idol-makers' strike over wastage allowance (50g versus 10g per kg) has hit Diwali orders in a trade the Bhaskar report puts at Rs 500 crore annual turnover, with brass quoted at Rs 950/kg in 2026 against Rs 550 in 2025. For borrowers this means input-cost spikes land before dispatch, squeezing cash flow between order and receivable. The parent sector still scores OK to lend at 88, with India output +16.9% YoY and UP GST +14.2% Apr-to-date, but local repayment depends on price pass-through clauses.",
+    "borrower_checks": [
+     "Raw-material price pass-through: confirm order contracts allow metal-price revision, given brass moved from Rs 550/kg (2025) to Rs 950/kg (2026) per the Bhaskar report",
+     "Export receivable days versus 90, with ageing split for US, Australia, Singapore and England buyers named in the Bhaskar report",
+     "Order book in months versus 3, tested against the reported five-to-ten unit closures per day cited by the Aligarh Locks and Hardware Association"
+    ],
+    "change_the_call": "A fall in the combined score below 65 would move the call from OK to lend to Caution; below 45 it becomes Avoid."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Local metal-price spikes and unit closures undercut the parent sector's positive output.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "https://frontline.thehindu.com/politics/uttar-pradesh-industrial-decline-brass-lock-pottery/article71499767.ece#1",
+     "title": "Are Uttar Pradesh’s Manufacturing Industries Declining Due to Government Negligence? - Sections",
+     "date": "2026-09-29"
+    },
+    {
+     "url": "https://www.bhaskar.com/local/uttar-pradesh/aligarh/news/aligarh-murti-karobar-strike-labor-protest-metal-wastage-dispute-139046846.html#1",
+     "title": "छीजन घटाने पर अटका मूर्ति कारोबार, तीन दिन से हड़ताल: मजदूर बोले- एक किलो पर 50 ग्राम छीजन यथावत रहे, कोयला-सिरे की महंगाई के बीच बढ़े मजदूरी, कारोबारी 10 ग्राम छीजन करने पर अड़े - Aligarh News - छीजन घटाने पर अटका मूर्ति कारोबार, तीन दिन से हड़ताल:मजदूर बोले- एक किलो पर 50 ग्राम छीजन यथावत रहे, कोयला-सिरे की महंगाई के बीच...",
+     "date": "2026-09-15"
+    }
    ],
-   "attempts": 3,
    "queries": "Aligarh Fasteners",
    "pack": [
     "Industry asked: Fasteners & hardware. Official series are not published for it separately; figures below are for the nearest parent sector, Non-ferrous Metals, Brass & Fabricated Metal (proxy: parent sector).",
@@ -6921,7 +7214,7 @@
     "Uttar Pradesh electricity demand: +8.6% Apr-to-date vs India +9.5%; latest month +10.0% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttar Pradesh all-bank credit: Rs 1,031,463 Cr, +11.6% YoY; credit-deposit ratio 50.9% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -6975,7 +7268,7 @@
    "industry": "distilleries_ethanol",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 60, 90"
+    "numbers not found in the data pack or articles: 60"
    ],
    "attempts": 3,
    "queries": "Gorakhpur Distilleries",
@@ -6992,7 +7285,7 @@
     "Uttar Pradesh electricity demand: +8.6% Apr-to-date vs India +9.5%; latest month +10.0% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttar Pradesh all-bank credit: Rs 1,031,463 Cr, +11.6% YoY; credit-deposit ratio 50.9% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -7005,7 +7298,7 @@
    "industry": "cement",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 20, 60, 70, 90"
+    "numbers not found in the data pack or articles: 60"
    ],
    "attempts": 3,
    "queries": "Gorakhpur Cement",
@@ -7021,7 +7314,7 @@
     "Uttar Pradesh electricity demand: +8.6% Apr-to-date vs India +9.5%; latest month +10.0% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttar Pradesh all-bank credit: Rs 1,031,463 Cr, +11.6% YoY; credit-deposit ratio 50.9% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -7385,11 +7678,35 @@
    "state": "UP",
    "sector": "metals",
    "industry": "steel_rerolling",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 60"
+   "brief": {
+    "local_flavour": "Limited local coverage. The only recent Muzaffarnagar reporting is IIA's September 2026 demand to the finance ministry for insolvency reform: chairman Amit Jain argues that when a large buyer fails, micro and small suppliers are treated as ordinary creditors and their working capital, wages and GST already paid are stranded (articles 0, 1, 3). For re-rolling and TMT borrowers this is a receivables risk, not a demand story. The parent-sector backdrop is mixed: India Iron & Steel output rose 2.4% YoY to Aug-2026 while bank credit to the sector grew 22.6% YoY against output of 3.4% Apr-to-date, a gap of 19.2 pp, and Brent at $113/bbl sits above the $75–100 band. UP GST collections rose 14.2% Apr-to-date versus India's 6.1%, supporting local cash flow.",
+    "borrower_checks": [
+     "Debtor days on TMT/billet sales to large buyers vs 90 days, with ageing split for any single buyer above 20% of turnover",
+     "Inventory days for scrap and finished stock vs 45 days",
+     "Margin per tonne after scrap/billet cost, tracked monthly against the borrower's own trailing 12-month average"
+    ],
+    "change_the_call": "A combined score of 65 or above would move the call to OK to lend; below 45 it becomes Avoid. At 57 the call stays Caution between the Avoid threshold of 45 and the OK threshold of 65."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Buyer insolvency risk strands MSME working capital; credit growth outpaces output.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "https://royalbulletin.in/muzaffarnagar/if-big-industry-sinks-in-muzaffarnagar-then-why-should-small/article-226594",
+     "title": "मुजफ्फरनगर में बड़ा उद्योग डूबा तो लघु उद्योग क्यों डूबे? दिवाला कानून में करोड़ों फंसे, IIA ने वित्त मंत्री से की छह बड़े सुधारों की मांग",
+     "date": "2026-09-08"
+    },
+    {
+     "url": "https://www.poojanews.com/tag/msme/",
+     "title": "MSME - News & Features Network",
+     "date": "2026-09-08"
+    },
+    {
+     "url": "https://www.poojanews.com/muzaffarnagar-msme-insolvency-law-iia-payment-gst-relief/#respond",
+     "title": "Muzaffarnagar के उद्योगपतियों ने उठाई बड़ी आवाज: कंपनी डूबी तो MSME का पैसा क्यों डूबे? IIA ने सरकार से दिवाला कानून बदलने की मांग की - News & Features Network",
+     "date": "2026-09-08"
+    }
    ],
-   "attempts": 3,
    "queries": "Muzaffarnagar Steel re-rolling",
    "pack": [
     "Industry asked: Steel re-rolling & TMT. Official series are not published for it separately; figures below are for the nearest parent sector, Iron & Steel (incl. secondary re-rolling) (proxy: parent sector).",
@@ -7404,7 +7721,7 @@
     "Uttar Pradesh electricity demand: +8.6% Apr-to-date vs India +9.5%; latest month +10.0% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Uttar Pradesh all-bank credit: Rs 1,031,463 Cr, +11.6% YoY; credit-deposit ratio 50.9% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -7473,7 +7790,7 @@
     "Sikkim all-bank credit: Rs 7,136 Cr, +8.4% YoY; credit-deposit ratio 43.4% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -7762,11 +8079,25 @@
    "state": "BR",
    "sector": "wholesale_trade",
    "industry": "wholesale_trade",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 30"
+   "brief": {
+    "local_flavour": "Limited local coverage. The only Patna item is a court ruling, not a market signal: the High Court held that a Rs 1,21,000 bank draft under the Bihar State Financial Corporation OTS Scheme, 2019 does not revive a Gaya aluminium unit already auctioned to a third party. For wholesale borrowers, the read-across is on exit routes, not demand: settlement offers do not restore sold collateral, so stressed distributors should not count on OTS to recover pledged stock or premises. The wider numbers are mixed. Bihar GST collections fell -0.1% Apr-to-date against India's +6.1%, while all-bank credit in Bihar grew +10.0% YoY to Rs 304,440 Cr. Weak state turnover with credit still expanding points to inventory and retailer receivables building faster than sales, squeezing cash flow and repayment capacity.",
+    "borrower_checks": [
+     "Inventory days plus receivable days combined, versus the 60-day lens benchmark",
+     "GST-reported turnover growth versus growth in bank credit drawn, versus Bihar's -0.1% Apr-to-date GST and +10.0% YoY credit",
+     "Top-retailer concentration: share of receivables from the largest buyer, versus a 25% single-buyer cap"
+    ],
+    "change_the_call": "A combined score of 45 or above would move the call to Caution; at 65 or above it would be OK to lend. The current 32 sits below the Avoid threshold of 45."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Bihar GST -0.1% while credit grows +10.0%; stock and receivables outpace sales.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "https://lawchakra.in/high-court/patna-high-court/one-time-settlement-bsfc/",
+     "title": "One Time Settlement Bid Cannot Revive Auctioned Unit, Says Patna High Court",
+     "date": "2026-10-30"
+    }
    ],
-   "attempts": 3,
    "queries": "Patna Wholesale Trade",
    "pack": [
     "Call (data-based): Avoid; combined score 32 = national sector score 20 x 0.6 + Bihar local score 50 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
@@ -7778,7 +8109,7 @@
     "Bihar electricity demand: +14.1% Apr-to-date vs India +9.5%; latest month +22.1% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Bihar all-bank credit: Rs 304,440 Cr, +10.0% YoY; credit-deposit ratio 51.4% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -7789,11 +8120,25 @@
    "state": "AR",
    "sector": "agriculture",
    "industry": "horticulture",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 60, 90"
+   "brief": {
+    "local_flavour": "Limited local coverage. The only local item is a first trial kiwi consignment shipped from Itanagar to Dubai's LuLu Hypermarket, flagged off on October 26, 2026, through the Department of Horticulture, APEDA and the Kiwi Growers Cooperative Society. For growers this is a single test order, not yet a repeatable buyer, so cash flow still rests on domestic mandi sales and the timing of the next harvest. State-level conditions are mixed: Arunachal Pradesh GST collections rose 11.1% Apr-to-date against India's 6.1%, while all-bank credit in the state stood at Rs 10,653 Cr, up 17.4% YoY, with a credit-deposit ratio of 31.0%. Export earnings, if the trial repeats, would arrive after shipment and lag the input spend.",
+    "borrower_checks": [
+     "Confirm crop insurance cover and land records for the plot, with the sum insured at least equal to the crop loan drawn",
+     "Check KCC repayment history for the last 3 seasons, with no overdue beyond 30 days",
+     "Verify irrigation access and cold storage tie-up, with post-harvest loss kept below 10% of the harvest"
+    ],
+    "change_the_call": "The call is Unknown because no verified series exists for this industry; a score of 65 or above would make it OK to lend, 45 to 64 Caution, and below 45 Avoid."
+   },
+   "outlook_vs_macro": "In line",
+   "why": "Trial export only; state credit growth 17.4% matches national agri trend.",
+   "attempts": 2,
+   "sources": [
+    {
+     "url": "https://newire.in/articles/arunachal-pradesh-launches-kiwi-exports-to-dubai-market",
+     "title": "Arunachal Pradesh Launches Kiwi Exports to Dubai Market",
+     "date": "2026-10-28"
+    }
    ],
-   "attempts": 3,
    "queries": "Itanagar Horticulture",
    "pack": [
     "Industry asked: Horticulture & floriculture. Official series are not published for it separately; figures below are for the nearest parent sector, Agriculture & Allied (proxy: parent sector).",
@@ -7804,7 +8149,7 @@
     "Arunachal Pradesh all-bank credit: Rs 10,653 Cr, +17.4% YoY; credit-deposit ratio 31.0% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -7915,7 +8260,7 @@
    "industry": "handicrafts",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 60"
+    "numbers not found in the data pack or articles: 60, 40"
    ],
    "attempts": 3,
    "queries": "Aizawl Handicrafts",
@@ -7931,7 +8276,7 @@
     "Mizoram all-bank credit: Rs 9,049 Cr, +12.6% YoY; credit-deposit ratio 51.5% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -8180,7 +8525,7 @@
    "industry": "horticulture",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 60, 90"
+    "numbers not found in the data pack or articles: 60"
    ],
    "attempts": 3,
    "queries": "Shillong Horticulture",
@@ -8193,7 +8538,7 @@
     "Meghalaya all-bank credit: Rs 15,391 Cr, +7.7% YoY; credit-deposit ratio 40.3% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -8269,11 +8614,30 @@
    "state": "ML",
    "sector": "cement",
    "industry": "cement",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 90"
+   "brief": {
+    "local_flavour": "Limited local coverage. The only local reporting concerns power infrastructure, not cement demand: the Power Minister said high pollution in Byrnihat is accelerating wear on poles, wires and equipment, with substation upgrades in final stages and the Umlyngkdait 132/33 KV substation targeted for December (news). For a cement borrower this cuts both ways: Meghalaya electricity demand is +10.2% Apr-to-date and +16.6% YoY latest month, so grinding and packing power reliability matters, while Meghalaya GST collections are -14.8% Apr-to-date against India +6.1% and -14.1% YoY latest month, pointing to weaker local construction-linked cash flow. Nationally, cement output is +11.4% YoY and bank credit +18.2% YoY, so repayment capacity rests on out-of-state sales and dealer collections rather than local demand.",
+    "borrower_checks": [
+     "Dealer receivable days vs 90",
+     "Fuel and power cost per tonne vs the borrower's own trailing four-quarter average, with Brent at $113/bbl against the $75–100 band",
+     "Share of sales outside Meghalaya vs local sales, given Meghalaya GST -14.8% Apr-to-date vs India +6.1%"
+    ],
+    "change_the_call": "A fall in the combined score below 65 would move the call from OK to lend to Caution; a fall below 45 would move it to Avoid."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Local GST -14.8% and weak credit-deposit ratio 40.3% offset strong national cement output.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "https://theshillongtimes.com/2026/10/30/high-pollution-damaging-power-infra-in-byrnihat-says-metbah/",
+     "title": "High pollution damaging power infra in Byrnihat, says Metbah",
+     "date": "2026-10-29"
+    },
+    {
+     "url": "https://newire.in/articles/pollution-corrodes-power-grid-in-ri-bhoi-as-repairs-lag",
+     "title": "Pollution Corrodes Power Grid in Ri-Bhoi as Repairs Lag",
+     "date": "2026-10-29"
+    }
    ],
-   "attempts": 3,
    "queries": "Byrnihat Cement",
    "pack": [
     "Call (data-based): OK to lend; combined score 67 = national sector score 95 x 0.6 + Meghalaya local score 25 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
@@ -8287,7 +8651,7 @@
     "Meghalaya electricity demand: +10.2% Apr-to-date vs India +9.5%; latest month +16.6% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Meghalaya all-bank credit: Rs 15,391 Cr, +7.7% YoY; credit-deposit ratio 40.3% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -8298,11 +8662,25 @@
    "state": "AS",
    "sector": "transport_ops",
    "industry": "logistics_warehousing",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 60, 90"
+   "brief": {
+    "local_flavour": "Limited local coverage. The only local item is Guwahati airport's designation as an official export point for agarwood chips and oil, which the article says simplifies the supply chain and opens export routes for producers. For local logistics and warehousing borrowers, that is a narrow cargo stream rather than a broad freight-volume lift, so cash flow still rests on general haulage and e-commerce movement. The parent-sector backdrop is mixed: India bank credit to Transport Operators stands at Rs 250,471 Cr outstanding, +24.6% YoY (RBI, Sep-2026), showing lenders are still funding fleets, while Brent at $113/bbl sits above the $75–100 band, squeezing diesel-heavy operating margins and raising the risk of EMI bounces on vehicle loans. Assam GST collections at +36.9% Apr-to-date versus India +6.1% suggest local billing activity is holding up.",
+    "borrower_checks": [
+     "Fleet utilisation: confirm current run-rate and 12-month average, with idle days per vehicle tracked against the operator's own prior-year figure",
+     "Diesel cost share of operating expenses: obtain the monthly fuel bill as a percentage of revenue and test repayment capacity at Brent $113/bbl, the level in the data pack",
+     "Customer payment days: compute receivable days from the sales ledger and compare against the borrower's stated credit terms, flagging any account beyond terms"
+    ],
+    "change_the_call": "The call is Unknown because no verified score exists for this industry; a verified score at or above 65 would make it OK to lend, between 45 and 64 Caution, and below 45 Avoid."
+   },
+   "outlook_vs_macro": "In line",
+   "why": "State GST growth is strong but diesel at $113/bbl offsets freight gains.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "https://newire.in/articles/guwahati-airport-cleared-for-agarwood-exports",
+     "title": "Guwahati Airport Cleared for Agarwood Exports",
+     "date": "2026-10-30"
+    }
    ],
-   "attempts": 3,
    "queries": "Guwahati Logistics",
    "pack": [
     "Industry asked: Logistics & warehousing. Official series are not published for it separately; figures below are for the nearest parent sector, Transport Operators (road fleets, logistics) (proxy: parent sector).",
@@ -8314,7 +8692,7 @@
     "Assam all-bank credit: Rs 154,473 Cr, +15.6% YoY; credit-deposit ratio 62.7% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -8369,11 +8747,19 @@
    "state": "AS",
    "sector": "refining",
    "industry": "refining",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 60, 90"
-   ],
-   "attempts": 3,
+   "brief": {
+    "local_flavour": "Limited local coverage. No recent local articles were found on petroleum refining or coal products in Dibrugarh, so the local read rests on official figures. The national sector scores negative on output, with IIP NIC 19 at -0.6% YoY and -0.9% Apr-to-date to Aug-2026, while bank credit to the sector grew +9.3% YoY to Rs 202,667 Cr outstanding (RBI, Sep-2026), a +10.2 pp gap against output. Brent at $113/bbl sits above the $75–100 band, squeezing refining margins and raising inventory-loss risk on crude swings. For borrowers here, flat output against rising credit and high crude prices points to thinner cash generation and slower receivables conversion, so repayment capacity depends on margin per barrel and under-recovery recoveries rather than volume growth.",
+    "borrower_checks": [
+     "Gross refining margin per barrel versus the borrower's own trailing 12-month average and budgeted margin, with any shortfall explained by crude price or product price movement",
+     "Inventory days on crude and product stock versus 30 days, plus a stated loss estimate if Brent moves $10/bbl from $113/bbl",
+     "Subsidy/under-recovery receivables as a share of total receivables versus 20%, with ageing against 90 days"
+    ],
+    "change_the_call": "A combined score rising to 45 or above would move the call from Avoid to Caution; at 65 or above it would be OK to lend."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Sector output negative, credit outpacing output, Brent above band.",
+   "attempts": 1,
+   "sources": [],
    "queries": "Dibrugarh Petroleum Refining",
    "pack": [
     "Call (data-based): Avoid; combined score 39 = national sector score 32 x 0.6 + Assam local score 50 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
@@ -8388,7 +8774,7 @@
     "Assam electricity demand: +1.9% Apr-to-date vs India +9.5%; latest month +8.8% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Assam all-bank credit: Rs 154,473 Cr, +15.6% YoY; credit-deposit ratio 62.7% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -8541,7 +8927,7 @@
    "industry": "handicrafts",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 50, 60, 90"
+    "numbers not found in the data pack or articles: 60"
    ],
    "attempts": 3,
    "queries": "Imphal Handicrafts",
@@ -8557,7 +8943,7 @@
     "Manipur all-bank credit: Rs 13,396 Cr, +10.3% YoY; credit-deposit ratio 76.6% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -8587,7 +8973,7 @@
     "West Bengal electricity demand: +5.7% Apr-to-date vs India +9.5%; latest month +11.2% YoY (CEA Power Supply Position, data to Aug-2026).",
     "West Bengal all-bank credit: Rs 665,833 Cr, +10.6% YoY; credit-deposit ratio 51.6% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -8616,7 +9002,7 @@
     "West Bengal electricity demand: +5.7% Apr-to-date vs India +9.5%; latest month +11.2% YoY (CEA Power Supply Position, data to Aug-2026).",
     "West Bengal all-bank credit: Rs 665,833 Cr, +10.6% YoY; credit-deposit ratio 51.6% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -9182,7 +9568,7 @@
     "Jharkhand electricity demand: +15.2% Apr-to-date vs India +9.5%; latest month +19.1% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Jharkhand all-bank credit: Rs 151,096 Cr, +15.4% YoY; credit-deposit ratio 39.3% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -9307,7 +9693,7 @@
     "West Bengal electricity demand: +5.7% Apr-to-date vs India +9.5%; latest month +11.2% YoY (CEA Power Supply Position, data to Aug-2026).",
     "West Bengal all-bank credit: Rs 665,833 Cr, +10.6% YoY; credit-deposit ratio 51.6% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -9512,7 +9898,7 @@
     "Odisha all-bank credit: Rs 298,069 Cr, +11.9% YoY; credit-deposit ratio 48.1% (RBI state handbook, end-Mar-2025).",
     "Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -9822,11 +10208,19 @@
    "state": "OD",
    "sector": "fertiliser",
    "industry": "fertiliser",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 60, 80, 90"
-   ],
-   "attempts": 3,
+   "brief": {
+    "local_flavour": "Limited local coverage. No recent local articles on Paradip fertiliser units were found, so the read rests on the data pack. The national picture is weak: fertiliser output (IIP NIC 20) fell 0.5% YoY and 1.2% Apr-to-date to Aug-2026, while bank credit to fertilisers rose 53.1% YoY to Rs 47,884 Cr in Sep-2026 — a 54.3 pp gap that points to working capital funding receivables rather than output. For Paradip borrowers, subsidy receivable build-up and input costs at Brent $113/bbl squeeze cash conversion, and with the repo at 5.5% after a raise from 5.25%, interest on that larger debt load rises. Odisha's backdrop is softer than India's: GST +0.5% Apr-to-date vs +6.1% nationally, and electricity demand +5.1% vs +9.5%.",
+    "borrower_checks": [
+     "Subsidy receivable days: track against 90 days, with ageing of claims by scheme and disbursement date",
+     "Input cost versus notified price per tonne of urea and complexes, using Brent $113/bbl as the freight and gas-linked cost reference",
+     "Working-capital limit utilisation versus sanctioned limit, reconciled to the +53.1% YoY growth in bank credit to fertilisers (Rs 47,884 Cr, Sep-2026)"
+    ],
+    "change_the_call": "The call moves to Caution if the combined score reaches 45, and to OK to lend at or above 65; it stays Avoid below 45, where the score of 0 now sits."
+   },
+   "outlook_vs_macro": "Worse",
+   "why": "Output falling while fertiliser credit grows 53.1% YoY signals receivables-funded stress.",
+   "attempts": 1,
+   "sources": [],
    "queries": "Paradip Fertilisers",
    "pack": [
     "Call (data-based): Avoid; combined score 0 = national sector score 0 x 0.6 + Odisha local score 0 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.",
@@ -9840,7 +10234,7 @@
     "Odisha electricity demand: +5.1% Apr-to-date vs India +9.5%; latest month -1.7% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Odisha all-bank credit: Rs 298,069 Cr, +11.9% YoY; credit-deposit ratio 48.1% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -9985,7 +10379,7 @@
     "Madhya Pradesh electricity demand: +7.5% Apr-to-date vs India +9.5%; latest month +0.7% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Madhya Pradesh all-bank credit: Rs 550,095 Cr, +12.4% YoY; credit-deposit ratio 78.3% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -10068,7 +10462,7 @@
     "Madhya Pradesh electricity demand: +7.5% Apr-to-date vs India +9.5%; latest month +0.7% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Madhya Pradesh all-bank credit: Rs 550,095 Cr, +12.4% YoY; credit-deposit ratio 78.3% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -10418,7 +10812,7 @@
    "industry": "vehicle_oem",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 50, 60, 90"
+    "numbers not found in the data pack or articles: 60"
    ],
    "attempts": 3,
    "queries": "Pithampur Cars",
@@ -10434,7 +10828,7 @@
     "Madhya Pradesh electricity demand: +7.5% Apr-to-date vs India +9.5%; latest month +0.7% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Madhya Pradesh all-bank credit: Rs 550,095 Cr, +12.4% YoY; credit-deposit ratio 78.3% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -10974,11 +11368,30 @@
    "state": "MP",
    "sector": "cement",
    "industry": "stone_granite",
-   "brief": null,
-   "rejected": [
-    "numbers not found in the data pack or articles: 90"
+   "brief": {
+    "local_flavour": "Limited local coverage. The two Jabalpur reports concern power cuts and industrial-estate disrepair, not stone processing directly. At Khajri Khiriya, traders say unscheduled outages in the past 7 days and a new cut schedule for 21 September have stopped lifting of goods from godowns and shops, with backup fuel pushing daily operating costs beyond budget and daily income at zero (news). At Richhai and Adhartal, about 270 and 160 industrial units respectively work amid broken roads, waterlogging and dead street lights (news). For stone units, power interruptions hit saws and polishing lines and idle labour while rent and wages continue, squeezing cash flow. Sector proxy figures are firm: India cement output +11.4% YoY and bank credit +18.2% YoY (data pack).",
+    "borrower_checks": [
+     "Debtor days on dealer and contractor sales vs 90 days",
+     "Monthly power-backup fuel spend as a share of operating cost, tracked against the borrower's own budgeted figure",
+     "Installed saw and polishing capacity utilisation vs the borrower's own break-even level"
+    ],
+    "change_the_call": "A fall in the combined score below 65 would move the call from OK to lend to Caution; a fall below 45 would move it to Avoid."
+   },
+   "outlook_vs_macro": "In line",
+   "why": "Proxy sector output and credit grow; local power and estate problems offset.",
+   "attempts": 1,
+   "sources": [
+    {
+     "url": "https://www.khabarabhitak.com/2026/09/blog-post_236.html",
+     "title": "भारी टैक्स देकर भी झेल रहे अंधेरे का दर्द,खजरी खिरिया के व्यापारी रो रहे खून के आंसू",
+     "date": "2026-09-19"
+    },
+    {
+     "url": "https://www.bhaskarhindi.com/city/jabalpur/industrial-areas-of-richhai-and-adhartal-in-a-state-of-disrepair-most-roads-dilapidated-1355845",
+     "title": "Jabalpur news: रिछाई और अधारताल औद्योगिक क्षेत्रों में बदहाली, अधिकांश सड़कें जर्जर",
+     "date": "2026-09-04"
+    }
    ],
-   "attempts": 3,
    "queries": "Jabalpur Stone, granite",
    "pack": [
     "Industry asked: Stone, granite & marble processing. Official series are not published for it separately; figures below are for the nearest parent sector, Cement (proxy: parent sector).",
@@ -10993,7 +11406,7 @@
     "Madhya Pradesh electricity demand: +7.5% Apr-to-date vs India +9.5%; latest month +0.7% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Madhya Pradesh all-bank credit: Rs 550,095 Cr, +12.4% YoY; credit-deposit ratio 78.3% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -11764,7 +12177,7 @@
    "industry": "refining",
    "brief": null,
    "rejected": [
-    "numbers not found in the data pack or articles: 60, 90"
+    "numbers not found in the data pack or articles: 60"
    ],
    "attempts": 3,
    "queries": "Jamnagar Petroleum Refining",
@@ -11781,7 +12194,7 @@
     "Gujarat electricity demand: +11.0% Apr-to-date vs India +9.5%; latest month +11.5% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Gujarat all-bank credit: Rs 1,125,894 Cr, +13.2% YoY; credit-deposit ratio 79.7% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -11810,7 +12223,7 @@
     "Gujarat electricity demand: +11.0% Apr-to-date vs India +9.5%; latest month +11.5% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Gujarat all-bank credit: Rs 1,125,894 Cr, +13.2% YoY; credit-deposit ratio 79.7% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -11842,7 +12255,7 @@
     "Gujarat electricity demand: +11.0% Apr-to-date vs India +9.5%; latest month +11.5% YoY (CEA Power Supply Position, data to Aug-2026).",
     "Gujarat all-bank credit: Rs 1,125,894 Cr, +13.2% YoY; credit-deposit ratio 79.7% (RBI state handbook, end-Mar-2025)."
    ],
-   "scanned_ist": "2026-11-01 16:51 IST",
+   "scanned_ist": "2026-11-01 17:11 IST",
    "tier": "news_llm",
    "window_days": 60,
    "prompt_version": 3
@@ -19211,13 +19624,34 @@
  },
  "active": true,
  "status": "Weekly scan via DeepSeek search (news_llm, unverified; never used in verdicts).",
- "checked_ist": "2026-11-01 16:51 IST",
+ "checked_ist": "2026-11-01 17:11 IST",
  "last_run": {
-  "scanned": 508,
-  "skipped_fresh": 0,
-  "rejected": 215,
-  "calls_used": 2546,
+  "scanned": 63,
+  "skipped_fresh": 293,
+  "rejected": 35,
+  "calls_used": 795,
   "call_cap": 3000,
-  "errors": []
+  "errors": [
+   "hp_kala_amb|steel_rerolling: HTTPError: HTTP Error 429: Too Many Requests",
+   "hp_kala_amb|paper: HTTPError: HTTP Error 429: Too Many Requests",
+   "pb_ludhiana|fasteners_hardware: HTTPError: HTTP Error 429: Too Many Requests",
+   "pb_mandi_gobindgarh|steel_rerolling: HTTPError: HTTP Error 429: Too Many Requests",
+   "pb_mohali|pharma: HTTPError: HTTP Error 429: Too Many Requests",
+   "pb_bathinda|refining: HTTPError: HTTP Error 429: Too Many Requests",
+   "pb_jalandhar|hand_tools: HTTPError: HTTP Error 429: Too Many Requests",
+   "ch_chandigarh|it_bpo: HTTPError: HTTP Error 429: Too Many Requests",
+   "ch_chandigarh|hospitals_healthcare: HTTPError: HTTP Error 429: Too Many Requests",
+   "uk_kashipur|sugar: HTTPError: HTTP Error 429: Too Many Requests",
+   "hr_sonipat|plastics: HTTPError: HTTP Error 429: Too Many Requests",
+   "hr_yamunanagar|plywood_laminates: HTTPError: HTTP Error 429: Too Many Requests",
+   "hr_gurugram|software_it: HTTPError: HTTP Error 429: Too Many Requests",
+   "dl_narela_bawana|plastics: HTTPError: HTTP Error 429: Too Many Requests",
+   "rj_jaipur|diamonds: HTTPError: HTTP Error 429: Too Many Requests",
+   "rj_jaipur|handicrafts: HTTPError: HTTP Error 429: Too Many Requests",
+   "dl_okhla|apparel: HTTPError: HTTP Error 429: Too Many Requests",
+   "dl_okhla|printing_publishing: HTTPError: HTTP Error 429: Too Many Requests",
+   "rj_bhilwara|textile_processing: HTTPError: HTTP Error 429: Too Many Requests",
+   "rj_jaipur|gold_jewellery: HTTPError: HTTP Error 429: Too Many Requests"
+  ]
  }
 }
