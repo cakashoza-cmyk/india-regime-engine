@@ -96,7 +96,7 @@ async function doFetch(nk){const m=$('#fmsg');if(!FCFG)FCFG=await fetch('data/fe
  else{m.textContent='Requesting…';
  try{const r=await fetch(FCFG.worker_url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({state:st,city:ct,ind})});const j=await r.json().catch(()=>({}));
   if(!r.ok){m.textContent=j.error||('Request refused ('+r.status+')');return}}catch(e){m.textContent='Could not reach the fetch service.';return}}
- m.innerHTML=FCFG.worker_url?'<span class="spin"></span> Researching local news… ~3 min <span id="fel"></span>':'Submit the GitHub issue that just opened. The note appears here in about 3–8 minutes; this page checks automatically.';const t0=Date.now();const tk=setInterval(()=>{const e=$('#fel');if(!e){clearInterval(tk);return}const s=Math.round((Date.now()-t0)/1000);e.textContent='('+Math.floor(s/60)+':'+String(s%60).padStart(2,'0')+')'},1000);
+ m.innerHTML=FCFG.worker_url?'<span class="spin"></span> Researching local news… ~1–2 min <span id="fel"></span>':'Submit the GitHub issue that just opened. The note appears here in about 3–8 minutes; this page checks automatically.';const t0=Date.now();const tk=setInterval(()=>{const e=$('#fel');if(!e){clearInterval(tk);return}const s=Math.round((Date.now()-t0)/1000);e.textContent='('+Math.floor(s/60)+':'+String(s%60).padStart(2,'0')+')'},1000);
  const poll=async()=>{const n=await fetch(`data/notes/${nk}.json?`+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null);
   if(n&&n.generated_at!==before){NOTES[nk]=n;render();return}
   if(Date.now()-t0>(FCFG.poll_max_minutes||12)*60000){m.textContent='Still running — check back in a few minutes.';return}

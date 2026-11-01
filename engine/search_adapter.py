@@ -24,12 +24,12 @@ def search(query, count=5):
     return _post("/v1/tools/search", {"query": query[:128], "count": count, "need_content": False}).get("results", [])
 
 
-def plain_fetch(url):
+def plain_fetch(url, timeout=60):
     """Secondary: plain HTTP GET + tag strip (no DeepSeek billing)."""
     import re, html as h
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        t = r.read().decode("utf-8", "ignore")
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        t = r.read(800000).decode("utf-8", "ignore")
     return {"title": "", "content": h.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", t))), "via": "plain-http"}
 
 
@@ -42,10 +42,13 @@ def fetch(url):
         return out
 
 
-def chat_json(system, user):
-    r = _post("/v1/chat/completions", {"model": "deepseek-flash", "temperature": 0,
+def chat_json(system, user, max_tokens=None):
+    body = {"model": "deepseek-flash", "temperature": 0,
         "response_format": {"type": "json_object"},
-        "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]})
+        "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}
+    if max_tokens:
+        body["max_tokens"] = max_tokens
+    r = _post("/v1/chat/completions", body)
     return json.loads(r["choices"][0]["message"]["content"])
 
 

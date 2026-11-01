@@ -11,7 +11,7 @@ from engine import search_adapter as sa  # noqa: E402
 from engine.local_news import LOCAL_TERMS  # noqa: E402
 IST = timezone(timedelta(hours=5, minutes=30))
 NOW = datetime.now(IST)
-CAP = 25
+CAP = 10  # v8 lean: 4 search + <=3 fetch + 1 chat (+2 search once per industry per 30d cache)
 CALLS = {"search": 0, "fetch": 0, "chat": 0, "plain_fetch_free": 0}
 BANNED = ["monitor closely", "macro headwinds", "headwinds", "exercise caution", "going forward", "challenging environment", "robust",
           "remains to be seen", "cautious optimism", "mixed bag", "evolving situation", "stay vigilant", "navigate", "landscape", "in conclusion"]
@@ -24,9 +24,9 @@ how to grow safely (structure, covenants, what to take every month), and early-w
 HARD RULES: (1) Use ONLY numbers that appear verbatim in the SOURCES or DATA PACK, and cite each with [n] (source number). Never compute, convert or estimate.
 (2) Where a needed figure is missing, write 'collect from customer'. (3) Separate local news from peer results from rating reports, and say when a source is old.
 (4) No generic filler; banned: monitor closely, headwinds, exercise caution, going forward, challenging environment, robust, navigate, landscape.
-(5) If sources say little about this city, say so plainly and lean on first principles plus peers. (6) Keep the note to 550-750 words. (7) Cite the official data pack as [D]. (8) Prefer Indian sources; if you use a foreign price, say which market it is and keep its unit. (9) Decide news_direction first. FINAL CALL = the data call, except OK becomes Caution when news_direction is Worse; the verdict must state the FINAL CALL, never a higher one; do not write the words 'FINAL CALL' and do not explain score bands or thresholds to the reader. Stay balanced: name who to pursue and who to avoid.
+(5) If sources say little about this city, say so plainly and lean on first principles plus peers. (6) Keep the note to 380-480 words, 4-5 headers. (7) Cite the official data pack as [D]. (8) Prefer Indian sources; if you use a foreign price, say which market it is and keep its unit. (9) Decide news_direction first. FINAL CALL = the data call, except OK becomes Caution when news_direction is Worse; the verdict must state the FINAL CALL, never a higher one; do not write the words 'FINAL CALL' and do not explain score bands or thresholds to the reader. Stay balanced: name who to pursue and who to avoid.
 Return JSON: {"verdict":"one line credit-head call","title":"<city> <industry>: a note to the credit manager",
-"narrative":["paragraph strings; headers start with '## ' (use about 5-6 headers); bullets start with '- '"],
+"narrative":["paragraph strings; headers start with '## ' ; bullets start with '- '"],
 "watch":[["monitorable (frequency)","trigger -> action"] x 3-5],"news_direction":"Worse|In line|Better","news_why":"<=20 words","sources_used":[n]}"""
 
 
@@ -50,22 +50,43 @@ def search(q, n=8):
 
 
 def fetch(url):
-    via, text, d = "deepseek", "", None
+    """Free direct HTTP first; DeepSeek fetch only as fallback."""
+    text, d, via = "", None, "plain-http"
     try:
-        _take("fetch")
-        r = sa._post("/v1/tools/fetch", {"url": url})
-        text, d = r.get("content") or "", r.get("published_date") or r.get("date")
-    except Cap:
-        raise
+        text = sa.plain_fetch(url, timeout=12).get("content", "")
+        CALLS["plain_fetch_free"] += 1
     except Exception:  # noqa: BLE001
         text = ""
     if len(text) < 400:
-        CALLS["plain_fetch_free"] += 1
+        if CALLS["fetch"] >= 3:
+            return "", d, "skipped"
+        via = "deepseek"
+        _take("fetch")
         try:
-            text, via = sa.plain_fetch(url).get("content", ""), "plain-http"
+            r = sa._post("/v1/tools/fetch", {"url": url}, timeout=25)
+            text, d = r.get("content") or "", r.get("published_date") or r.get("date")
         except Exception:  # noqa: BLE001
             text, via = "", "failed"
     return re.sub(r"\s+", " ", text), d, via
+
+
+def industry_cache(ind, short):
+    """Peer results + rating snippets per industry, shared across all pairs; refreshed only if >30 days old."""
+    p = ROOT / "data" / "cache" / "industry" / f"{ind['id']}.json"
+    if p.exists():
+        c = json.loads(p.read_text())
+        if (NOW - datetime.fromisoformat(c["fetched_at"])).days <= 30:
+            return c["items"], False
+    items = []
+    for kind, q in (("peer", f"{short} listed companies India latest quarter results volume margin demand"),
+                    ("rating", f"ICRA CARE CRISIL rating rationale {short} India working capital")):
+        for r in search(q, 6)[:4]:
+            if r.get("url"):
+                items.append({"kind": kind, "url": r["url"], "title": r.get("title", ""), "date": date_of(r),
+                              "snip": (r.get("summary") or r.get("snippet") or "")[:500]})
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps({"fetched_at": NOW.isoformat(), "industry": ind["id"], "items": items}, ensure_ascii=False, indent=1))
+    return items, True
 
 
 def date_of(r):
@@ -122,60 +143,56 @@ def build(state, city_id, ind_id):
     short = ind["name"].split(" (")[0].replace(" - ", " ").replace("&", "and")
     c = city["name"]
     lt = LOCAL_TERMS.get(state, "उद्योग मंदी भुगतान")
-    qs = [("local", f"{c} {short} industry news {NOW:%B %Y}"), ("local", f"{c} {short} units payment orders closure"),
-          ("local", f"{c} {lt}"), ("local", f"{c} {short.split()[0]} उद्योग"),
-          ("peer", f"{short} listed companies India Q2 FY27 results volume margin"),
-          ("peer", f"{short} earnings call concall FY27 management commentary demand raw material"),
-          ("rating", f"ICRA rationale {c} {short}"), ("rating", f"CARE ratings rationale {c} {short} working capital"),
-          ("cluster", f"{c} {short} cluster profile study cost structure")]
-    if ind.get("focus"):
-        qs.append(("local", f"{c} {ind['focus']}"[:128]))
+    from concurrent.futures import ThreadPoolExecutor
+    hindi = {"GJ": f"{c} {short.split()[0]} ઉદ્યોગ સમાચાર"}.get(state, f"{c} {short.split()[0]} उद्योग खबर")
+    qs = [f"{c} {short} industry news {NOW:%B %Y}", f"{c} {short} units orders payment closure {NOW:%Y}",
+          f"{c} {ind.get('focus') or short} {lt}"[:128], hindi]
     hits, seen = [], set()
-    for kind, q in qs:
-        for r in search(q):
-            u = r.get("url")
-            if u and u not in seen:
-                seen.add(u)
-                hits.append({"kind": kind, "url": u, "title": r.get("title", ""), "date": date_of(r),
-                             "snip": (r.get("summary") or r.get("snippet") or "")[:300]})
+    with ThreadPoolExecutor(4) as ex:
+        for res in ex.map(lambda q: search(q, 6), qs):
+            for r in res:
+                u = r.get("url")
+                if u and u not in seen:
+                    seen.add(u)
+                    hits.append({"kind": "local", "url": u, "title": r.get("title", ""), "date": date_of(r),
+                                 "snip": (r.get("summary") or r.get("snippet") or "")[:300]})
     cut_news = (NOW - timedelta(days=95)).strftime("%Y-%m-%d")
 
     def rank(h):
         t = (h["title"] + h["snip"] + h["url"]).lower()
-        loc_hit = c.lower() in t
-        rec = h["date"] or ""
-        if h["kind"] == "local":
-            return (2 if loc_hit and rec >= cut_news else 0, rec)
-        if h["kind"] == "rating":
-            return (2 if any(d in h["url"] for d in RATING) else 0, rec)
-        return (1, rec)
-    picks = []
-    for kind, k in (("local", 5), ("peer", 3), ("rating", 2), ("cluster", 1)):
-        picks += sorted([h for h in hits if h["kind"] == kind], key=rank, reverse=True)[:k]
+        tag = "/tag/" in h["url"] or "/category/" in h["url"]
+        return ((c.lower() in t) * 2 + ((h["date"] or "") >= cut_news) - tag * 2, h["date"] or "")
+    cands = sorted(hits, key=rank, reverse=True)[:6]
     docs = []
-    for h in picks:
+
+    def get(h):
         try:
             text, d2, via = fetch(h["url"])
         except Cap:
-            break
-        if len(text) < 400:
-            continue
-        if h["kind"] == "local" and c.lower() not in text.lower():
-            continue
+            return None
+        if len(text) < 400 or c.lower() not in text.lower():
+            return None
         dt = h["date"] or (re.search(r"20\d\d-\d\d-\d\d", str(d2 or "")) or [None])[0]
-        docs.append({**h, "date": dt or "date unknown", "via": via, "text": text[:6000]})
+        return {**h, "date": dt or "date unknown", "via": via, "text": text[:2500]}
+    with ThreadPoolExecutor(6) as ex:
+        for dd in ex.map(get, cands):
+            if dd and len(docs) < 3:
+                docs.append(dd)
+    cached, refreshed = industry_cache(ind, short)
+    for it in cached:
+        docs.append({**it, "date": it["date"] or "date unknown", "via": "cache", "text": it["snip"]})
     srcs = "\n\n".join(f"[{i+1}] ({d['kind']}; {d['date']}) {d['title']} {d['url']}\n{d['text']}" for i, d in enumerate(docs)) or "(no sources fetched)"
     corpus_nums = set(nums(" ".join(d["text"] + " " + d["title"] for d in docs) + " " + " ".join(pack)))
     user = (f"CITY: {c}, {stname}\nINDUSTRY: {ind['name']}\nTODAY: {NOW:%Y-%m-%d}\n\nDATA PACK (official, verified):\n" + "\n".join("- " + x for x in pack) +
             f"\n\nSOURCES:\n{srcs}")
     note, probs, bad, tries = {}, [], [], 0
-    for _ in range(2):
+    for _ in range(1):
         try:
             _take("chat")
         except Cap:
             break
         tries += 1
-        note = sa.chat_json(SYSTEM, user if not probs else user + "\n\nYOUR PREVIOUS NOTE WAS REJECTED: " + "; ".join(probs) +
+        note = sa.chat_json(SYSTEM, user, max_tokens=1200) if True else sa.chat_json(SYSTEM, user if not probs else user + "\n\nYOUR PREVIOUS NOTE WAS REJECTED: " + "; ".join(probs) +
                             ". Remove or replace every listed number with one that appears verbatim in a source, or write 'collect from customer'.")
         probs, bad = number_problems(note, corpus_nums)
         if not probs:
@@ -198,7 +215,7 @@ def build(state, city_id, ind_id):
             "articles": [{"title": d["title"] or d["url"], "url": d["url"], "date": d["date"], "kind": d["kind"], "via": d["via"], "used": (i + 1) in used}
                          for i, d in enumerate(docs)],
             "pack": pack, "trace": {"pass": not probs, "problems": probs, "synthesis_tries": tries, "sentences_stripped": stripped},
-            "calls": dict(CALLS), "tier": "news_llm (unverified); numbers traced to fetched sources"}
+            "calls": dict(CALLS), "industry_cache_refreshed": refreshed, "version_engine": "v8-lean", "tier": "news_llm (unverified); numbers traced to fetched sources"}
 
 
 def main():
