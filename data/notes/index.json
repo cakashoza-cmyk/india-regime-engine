@@ -48,6 +48,12 @@
 "score": 20,
 "at": "2026-11-01 23:50 IST"
 },
+"AP|ap_kakinada|rice_milling": {
+"call": "caution",
+"base": "caution",
+"score": 52,
+"at": "2026-11-02 00:35 IST"
+},
 "AP|ap_kakinada|seafood_processing": {
 "call": "caution",
 "base": "caution",
@@ -191,6 +197,12 @@
 "base": "avoid",
 "score": 27,
 "at": "2026-11-01 23:48 IST"
+},
+"CG|cg_korba|power": {
+"call": "caution",
+"base": "caution",
+"score": 45,
+"at": "2026-11-02 00:33 IST"
 },
 "CG|cg_raigarh|power": {
 "call": "caution",
@@ -510,6 +522,12 @@
 "score": 51,
 "at": "2026-11-01 23:53 IST"
 },
+"GJ|gj_mundra|power": {
+"call": "ok",
+"base": "ok",
+"score": 75,
+"at": "2026-11-02 00:34 IST"
+},
 "GJ|gj_rajkot|auto_components": {
 "call": "ok",
 "base": "ok",
@@ -611,6 +629,12 @@
 "base": "caution",
 "score": 46,
 "at": "2026-11-01 23:53 IST"
+},
+"GJ|gj_veraval|seafood_processing": {
+"call": "ok",
+"base": "ok",
+"score": 70,
+"at": "2026-11-02 00:35 IST"
 },
 "HP|hp_baddi|fmcg_distribution": {
 "call": "avoid",
@@ -954,6 +978,12 @@
 "score": 61,
 "at": "2026-11-01 23:53 IST"
 },
+"KA|ka_mangaluru|refining": {
+"call": "caution",
+"base": "caution",
+"score": 59,
+"at": "2026-11-02 00:34 IST"
+},
 "KA|ka_mangaluru|seafood_processing": {
 "call": "caution",
 "base": "ok",
@@ -1007,6 +1037,12 @@
 "base": "ok",
 "score": 70,
 "at": "2026-11-01 23:58 IST"
+},
+"KL|kl_kochi|shipbuilding": {
+"call": "ok",
+"base": "ok",
+"score": 90,
+"at": "2026-11-02 00:36 IST"
 },
 "KL|kl_kochi|spices": {
 "call": "caution",
