@@ -1,0 +1,158 @@
+{
+ "key": "dl_okhla|printing_publishing",
+ "state": "DL",
+ "city": "dl_okhla",
+ "ind": "printing_publishing",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 37,
+ "nudged_by_news": false,
+ "verdict": "Avoid new printing & publishing exposure in Okhla; lend only to niche digital/packaging converters with clean receivables and input-price pass-through, and decline plain commercial offset printers.",
+ "title": "Okhla printing & publishing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nOkhla Phases I and II carry the bulk of the estate's printing presses alongside garments, packaging and machinery, while Phase III is corporate/IT space [1]. **A press buys paper and ink, runs it through offset or digital machines, and sells a job — the cash cycle is short but the asset is the machine.** Paper and ink are the key raw materials and operating profitability stays exposed to their prices [9]. So when a proposal lands, check the paper procurement contract and whether job contracts carry an escalation clause; if the customer cannot reprice on input moves, ask for the last two years' gross margin by job type.",
+  "## Where value and cash sit\n**Value sits in the customer relationship and the machine, not in the building — Okhla rents run roughly ₹20–₹120 per sq ft per month depending on phase and building quality [1].** Working capital is the real risk: a rated peer carried NWC/OI of 41.1% in FY2025, improved from 43.3% in FY2024 [8]. So when a proposal lands, check debtor days against that 41.1% benchmark; if receivables stretch beyond it, ask for the aged debtor list and the top five buyers' payment history. Capex is continuous — publication businesses must keep upgrading infrastructure and technology [10] — so treat any request for fresh press capacity as a separate, fully appraised facility.",
+  "## What has changed now\n**The local demand signal is weak: Delhi GST collections grew 2.7% Apr-to-date against India's 6.1%, and Delhi electricity demand grew 6.5% against India's 9.5% [D].** India-wide printing output (NIC 17) fell 0.1% YoY even as Apr-to-date output rose 8.6% [D]. The data-based call is AVOID at 37 [D]. Peer results are mixed and mostly outside Delhi: True Colors reported H1 FY27 revenue of ₹183.01 crore with 17.67% EBITDA margins [6], while Dachepalli's 13.9% net margin came in below its 14% guidance [7]. The OPPA training office in Okhla is dated October 2025 — over a year old [2][3]. Sources say little specific to Okhla printing volumes, so lean on first principles and these peers.",
+  "## Who to pursue, who to avoid\n**Pursue digital-first converters and packaging-linked printers with contracted, repeat B2B buyers; avoid plain commercial offset job-shops bidding on price.** The education-linked segment shows stable demand and improving margins on better manufacturing efficiency and stable paper prices [8]. Repro's digital business grew about 16% YoY to roughly ₹394 crore in FY26 [5]. So when a proposal lands, check the share of revenue from contracted versus spot jobs; if spot jobs dominate, ask for the order book and decline if it is under one month.",
+  "## How to grow safely and what to watch\n**Structure every line as a receivables-backed working capital facility with a monthly stock-and-debtor statement as a condition.** Take the paper purchase register and GST returns every month, and covenant that escalation clauses exist on all major contracts [9]. Watch for debtor days crossing the 41.1% NWC/OI benchmark [8], a fall in Delhi GST growth below the current 2.7% [D], and any press running below stated capacity."
+ ],
+ "watch": [
+  [
+   "Monthly debtor ageing",
+   "Debtor days above the 41.1% NWC/OI peer benchmark [8] -> freeze further drawing power and seek a receivables charge"
+  ],
+  [
+   "Monthly GST returns",
+   "Delhi GST growth slipping below 2.7% Apr-to-date [D] -> cut exposure limits on spot-job printers"
+  ],
+  [
+   "Quarterly paper purchase register",
+   "Input cost rise with no escalation clause in customer contracts [9] -> reprice facility or demand margin support"
+  ],
+  [
+   "Monthly electricity/utility bills",
+   "Sharp fall in unit consumption versus stated capacity -> inspect plant and reassess"
+  ],
+  [
+   "Quarterly peer results",
+   "Printing peers reporting margin compression like the 13.9% vs 14% case [7] -> tighten new sanctions in that sub-segment"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Delhi GST and power demand both trail India; printing output down 0.1% YoY [D].",
+ "articles": [
+  {
+   "title": "Okhla Industrial Area: Companies, Jobs & Growth (2026) - SouthDelhiRentWala",
+   "url": "https://southdelhirentwala.com/south-delhi/okhla-industrial-area-south-delhi/",
+   "date": "2026-07-12",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "OPPA sets up office to train, upskill local printers",
+   "url": "https://www.printweek.in/article/oppa-sets-up-office-to-train-upskill-local-printers/45a99ez8063wpw8515f36gwcd0",
+   "date": "2025-10-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "OPPA sets up new Okhla office to train, upskill and unite local printers - THE PACKMAN",
+   "url": "https://thepackman.in/oppa-sets-up-new-okhla-office-to-train-upskill-and-unite-local-printers/",
+   "date": "2025-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "QUARTERLY REPORTS",
+   "url": "https://www.printweek.in/topic/quarterly-reports",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Repro India (REPRO) — Results, Filings & Concall Summary | MarketPing",
+   "url": "https://marketping.in/companies/repro-india",
+   "date": "2026-10-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "To",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8413ebef-f70e-4cdf-8156-c0120b65efbb.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "74% growth and a margin guidance that wasn't raised",
+   "url": "https://www.stockwatch.live/in/reports/74-growth-and-a-margin-guidance-that-wasnt-raised-56bb68fe-c942-4288-978e-9c77993b24db",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "November 20, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=139090#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 03, 2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=132263#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202311121147_Thomson_Press_India_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 37 (national 62 x 0.6 + Delhi 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Delhi: GST collections +2.7% Apr-to-date vs India +6.1% (3.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Delhi: electricity demand +6.5% Apr-to-date vs India +9.5% (3.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 17 output -0.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +8.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

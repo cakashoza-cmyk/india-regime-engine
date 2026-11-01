@@ -1,0 +1,147 @@
+{
+ "key": "mh_sangli|spices",
+ "state": "MH",
+ "city": "mh_sangli",
+ "ind": "spices",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:02 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 44,
+ "nudged_by_news": false,
+ "verdict": "Avoid new unsecured spice-trade exposure in Sangli; lend only to licensed, FDA-clean processors with stock-and-receivables control, and treat the rest as watchlist.",
+ "title": "Sangli Spices Processing & Trade: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Sangli spice unit buys raw chilli, coriander and masala inputs in the February-to-June arrival window, cleans, grinds, blends and packs, and sells into retail and festive demand.** Cash is locked in stock first and receivables second; the ICRA peer note puts net working capital over operating income at around 45% as on March 31, 2025, improved from 51% in FY2024 [9]. Utilisation peaks July to November, typically till Diwali [10] — so when a proposal lands, check whether the drawing power is built for that peak, not the annual average. ## What has changed now\n**Input costs are the swing factor: chilli and coriander inflation climbed 78% and 40% respectively, and the peer passed it through with pricing contributing 11.4% to growth [6].** That is a pricing-power test, not a demand test. Local demand is shifting toward ready-made festive faral in Sangli [1], which favours packers with brand and shelf presence over plain grinders. Avoid pure traders holding loose stock against price bets, and avoid any unit whose licence file is thin [2]. ## How to grow safely\n**Structure against the stock, not the balance sheet: cash credit or stock-and-receivable limits with monthly stock statements, and a charge on current assets.** Take every month the stock statement with ageing, the GST return, and the sales register split by customer. Cap unsecured exposure; insist on promoter contribution for any new capex, since the peer's own FY2027 capex of Rs 15-20 crore and repayments of around Rs 54 crore are serviced from cash flows [10]. A sudden shift from branded packing to loose trade, or pricing that lags input inflation [6], signals margin erosion. Sangli-specific published data on this trade is thin; the local paper covers demand and enforcement, not unit economics, so lean on first principles and the peer and rating evidence above.",
+  "## The call\n**The data-based call is AVOID at 44, and the local news flow — enforcement action and cost inflation — does not improve it.** Maharashtra electricity demand grew 6.0% Apr-to-date against India's 9.5% [D], a slower local signal, while state GST collections grew 8.6% against India's 6.1% [D]. India-wide exports fell 5.7% Apr-to-date in USD [D], and bank credit grew 26.3% YoY against output growth of 5.1% [D]. **Lend selectively to licensed, branded processors; avoid the trading end of this market.**"
+ ],
+ "watch": [
+  [
+   "FSSAI licence and FDA action status (quarterly)",
+   "Any suspension or seizure notice -> stop disbursement and review the account"
+  ],
+  [
+   "GST returns vs sales register (monthly)",
+   "Gap between filed turnover and book sales -> ask for reconciliation before renewal"
+  ],
+  [
+   "Input price movement, chilli and coriander (monthly)",
+   "Sharp input inflation without matching price revision -> test margin and reduce limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local adulteration seizure and 62 licence suspensions, plus sharp chilli and coriander inflation.",
+ "articles": [
+  {
+   "title": "Sangli News : दिवाळीच्या तयार फराळाला वाढती पसंती",
+   "url": "https://pudhari.news/maharashtra/sangali/growing-preference-for-ready-made-faral-for-diwali-in-sangli-dc95",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sangli Food Adulteration : भेसळीच्या संशयावरून सव्वा कोटींचा अन्नसाठा जप्त",
+   "url": "https://pudhari.news/maharashtra/sangali/sangli-suspected-adulterated-food-stock-worth-rs-1-25-crore-seized-sk95",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "How to Start a Spice Processing Unit in Maharashtra - Cost, Licences & Setup Guide",
+   "url": "https://www.iifl.com/blogs/gold-loan/how-to-start-a-spice-processing-unit-business-in-maharashtra",
+   "date": "2026-07-14",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Orkla India Q3 PAT rises 3.8% to ₹68 crore; EBITDA jumps 18% on volume-led growth",
+   "url": "https://retail.economictimes.indiatimes.com/news/food-entertainment/personal-care-pet-supplies-liquor/orkla-india-q3-pat-rises-3-8-to-68-crore-ebitda-jumps-18-on-volume-led-growth/128245690?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etretail_news_2026-02-13&dt=2026-02-13",
+   "date": "2026-02-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In conversation with Sanjay Sharma, Managing Director and CEO, Orkla India Ltd - enquiry@dsij",
+   "url": "https://insights.dsij.in/mr/dsijarticledetail/in-conversation-with-sanjay-sharma-managing-director-and-ceo-orkla-india-ltd#1",
+   "date": "2026-08-03",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Orkla India Returns To Double-Digit Growth Amid Spice Inflation Surges In Q1 - BW Businessworld - Orkla India Returns To Double-Digit Growth Amid Spice Inflation Surges In Q1",
+   "url": "https://www.businessworld.in/article/orkla-india-returns-to-double-digit-growth-amid-spice-inflation-surges-in-q1-618096#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Orkla India Q4 profit more than doubles despite slow revenue growth - CNBC TV18 - Orkla India Q4 profit more than doubles despite slow revenue growth",
+   "url": "https://www.cnbctv18.com/business/companies/orkla-india-q4-net-profit-jumps-107pc-to-rs73-crore-ws-l-19909327.htm#1",
+   "date": "2026-05-18",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "<table><tr><td>Particulars</td><td>Justification for Holding Levels</td></tr><tr><td>Raw Material</td><td>Our company is engaged...",
+   "url": "https://www.capitalmarket.com/pub/dp/dp80203.pdf#33#105#33",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "September 01, 2025",
+   "url": "https://www.icra.in/Rating/ShowRatingRationalReport?id=137401&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 18,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=141665&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 44 (national 40 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: electricity demand +6.0% Apr-to-date vs India +9.5% (3.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Exports -5.7% Apr-to-date in USD (Rs 19,248 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,154 @@
+{
+ "key": "kl_kozhikode|plywood_laminates",
+ "state": "KL",
+ "city": "kl_kozhikode",
+ "ind": "plywood_laminates",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 49,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to branded, compliant plywood and laminate units with verified GST turnover and tight monthly stock-and-receivable discipline; avoid commoditised veneer and small unbranded plywood units until their working-capital cycle and raw-material sourcing are proven.",
+ "title": "Kozhikode plywood, veneer & laminates: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Plywood and veneer convert timber and face veneer plus resin and chemicals into boards; laminates are a separate, more brand-led surface product.** Cash comes from selling to dealers, builders and interior contractors, so the cycle is buy timber and chemicals, hold work-in-process through drying and pressing, sell on dealer credit, then collect. **The two raw-material risks are timber/veneer availability and chemical-resin price volatility** [8][10]. **So when a proposal lands, check where the unit buys face veneer and core timber and whether supply is tied to a known source; if sourcing is spot and distant, ask for the last twelve months of purchase invoices and freight cost.**\n\n## Where value and cash sit\n**Value sits in brand, compliance and value-added grades, not in commodity plywood.** Rating commentary flags high fragmentation and intense price competition in commoditised plywood, with formalisation and brand-led share gains in premium laminates and compliant boards as the opportunity [8]. **Peer results show the plywood segment can grow fast while group margins stay thin:** Greenlam's plywood segment grew 90.7% YoY in the quarter cited, even as EBITDA margin contracted 200 bps to 10.6% [4]. **So when a proposal lands, check whether growth is coming from branded laminate or from low-margin plywood volume; if the mix is mostly commodity plywood, ask for grade-wise realisation and dealer-wise sales.**\n\n## What has changed now\n**The data pack gives a split signal.** Kerala GST collections are up 10.3% Apr-to-date against India's 6.1%, a local tailwind [D]. But India-wide IIP for NIC 16 is up 8.6% YoY while down 0.8% Apr-to-date, and bank credit is up 20.6% YoY against that output decline, a gap of 21.4 pp [D]. **That gap means credit is running ahead of output, so when a proposal lands, check whether the borrower's own sales growth is backed by GST returns; if sales growth outruns GST turnover, ask for the reconciliation.** Peer commentary notes chemical and resin cost inflation being passed on, with 18-20% FY27 revenue growth guided [7]. **So lean on first principles and peers for this city, and treat the Merino dealer listing at Puthiyapalam as evidence of a local distribution presence only, not of local manufacturing scale** [3]. ## How to grow safely\n**Pursue branded laminate dealers and converters, and plywood units with BIS-compliant grades and documented timber linkage.** Structure as a cash-flow loan against verified GST sales, with stock and receivable statements monthly. **Take every month: GST returns, stock statement, debtor ageing and a chemical-cost note.** Covenant on drawing power tied to verified stock and receivables, and a minimum current ratio. **Avoid unbranded veneer units and traders with no manufacturing footprint; if a borrower cannot show grade-wise sales and a named timber source, decline.**\n\n## Early-warning signs\n**Watch for sales growth without matching GST turnover, rising debtor days, and stock build-up in slow-moving grades.** Also watch chemical-cost pass-through failing in realisation. **If any of these appear, cut drawing power and ask for a fresh stock audit.**"
+ ],
+ "watch": [
+  [
+   "GST returns vs sales (monthly)",
+   "sales growth outruns GST turnover -> ask for reconciliation and cut drawing power"
+  ],
+  [
+   "Debtor ageing (monthly)",
+   "debtor days rise -> ask for dealer-wise collection plan and tighten limits"
+  ],
+  [
+   "Stock statement (monthly)",
+   "slow-moving grade build-up -> commission stock audit and reduce limit"
+  ],
+  [
+   "Chemical/resin cost note (monthly)",
+   "cost rise not passed into realisation -> ask for price revision evidence"
+  ],
+  [
+   "BIS/compliance status (quarterly)",
+   "non-compliant grade found -> pause fresh limits until rectified"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Credit up 20.6% YoY against output down 0.8% Apr-to-date signals lending ahead of real output.",
+ "articles": [
+  {
+   "title": "BIS Conducts Industry Meet in Perumbavoor | The New Indian Express Kozhikode - newspaper - Read this story on Magzter.com - Try GOLD - Free",
+   "url": "https://www.magzter.com/en/stories/newspaper/The-New-Indian-Express-Kozhikode/BIS-CONDUCTS-INDUSTRY-MEET-IN-PERUMBAVOOR#1",
+   "date": "2025-08-28",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Kozhikode: Gearing up for industrial push - The Economic Times daily newspaper is available online now.",
+   "url": "https://economictimes.indiatimes.com/property/kozhikode-gearing-up-for-industrial-push/articleshow/4028012.cms#1",
+   "date": "2009-01-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Merino Laminates - Malabar Ply - Puthiyapalam - Kozhikode, Puthiyapalam | Official timeline info",
+   "url": "https://shop.merinolaminates.com/merino-laminates-malabar-ply-puthiyapalam-kozhikode-finishing-materials-supplier-puthiyapalam-kozhikode-369841/Timeline",
+   "date": "date unknown",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "GREENLAM INDUSTRIES LTD?UTM_SOURCE=CHATGPTCOM. : Latest Quarterly Results Analysis - ICICI Direct - Saurabh Mittal, Managing Director & Chief Executive Officer, Greenlam Industries, said: “We are pleased to share that the second...",
+   "url": "https://www.icicidirect.com/research/equity/rapid-results/greenlam-industries-ltd?utm_source=chatgpt.com#2",
+   "date": "2026-10-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Weak volumes offset by margin expansion",
+   "url": "https://barodaetrade.com/Reports/GreenlamIndustries-Q1FY27ResultReview10Aug26-Research.pdf?csrt=5365357110039431149#1#3#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "<table><tr><td>Segment Performance</td><td>Q2FY26</td><td>Q2FY25</td><td>YoY(%)</td><td>Q1FY26</td><td>QoQ(%)</td><td>H1FY26</td...",
+   "url": "https://barodaetrade.com/Reports/GreenlamIndustries-Q2FY26ResultReview10Nov25-Research.pdf#2#4#2",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Greenlam Growth Strong, Margins Face Cost Pressure - - Offerings",
+   "url": "https://hdfcsky.com/news/greenlam-industries-demand-steady-cost-inflation-passed-on-maintain-reduce#1",
+   "date": "2026-05-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Industry Risk Score",
+   "url": "https://acuite.in/Upload/Acuite/0001/Plywood_Boards-Laminates.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Summary of rated instruments",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=62953#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Greenply Industries Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202607140707_Greenply_Industries_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 30,2021",
+   "url": "https://www.icra.in/web/viewer.html?file=%2FRating%2FShowRationalReportFilePdf%2F109020&_x_output_type_b6db407c4_=embedded_pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 49 (national 32 x 0.6 + Kerala 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Kerala: GST collections +10.3% Apr-to-date vs India +6.1% (4.2 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 16 output +8.6% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output -0.8% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +20.6% YoY vs output -0.8% (gap +21.4 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

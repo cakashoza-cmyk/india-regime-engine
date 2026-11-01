@@ -1,0 +1,144 @@
+{
+ "key": "tn_sivakasi|printing_publishing",
+ "state": "TN",
+ "city": "tn_sivakasi",
+ "ind": "printing_publishing",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 47,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Sivakasi printing units tied to fireworks packaging and education demand, with monthly stock and receivables checks; avoid units with no PESO-linked order book or heavy term debt.",
+ "title": "Sivakasi printing & publishing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Sivakasi printing runs on two demand engines: fireworks cartons and labels, and school and textbook work.** The town makes the bulk of India's organised fireworks, about 85% of the organised segment [1], and printing, packaging and transport livelihoods ride on it [1]. Paper and ink are the main inputs and both are price-volatile, so margins move with input costs unless contracts carry an escalation clause [9]. **So when a proposal lands, check whether the unit has a price-escalation clause with its buyers; if it sells only on fixed-price annual contracts, ask how it absorbed the last paper spike.**\n\n## Where cash sits and what has changed\n**Cash is trapped in festival-season receivables and paper stock, not in the press.** Fireworks demand peaks around Diwali [2][3], so printers build stock and extend credit to cracker units months before cash comes back. Tamil Nadu GST collections are -3.2% Apr-to-date against India +6.1%, a 9.3 pp gap [D], and India-wide printing output (NIC 17) is -0.1% YoY [D]. **So favour units with a named export or green-cracker buyer and a PESO-compliant unit; avoid pure domestic cracker-label printers with one large buyer.**\n\n## How to grow safely\n**Structure short: cash credit against stock and receivables, no long tenor for seasonal working capital.** Rating commentary on print peers flags working capital intensity of 41.1% of operating income in FY2025 [8] and continuous technology spend as a cash drain [10]."
+ ],
+ "watch": [
+  [
+   "GST returns (monthly/quarterly)",
+   "Two consecutive months of falling turnover -> freeze fresh limits"
+  ],
+  [
+   "Order book and Diwali advance bookings (seasonal)",
+   "Advance bookings fall versus prior year -> reduce seasonal limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "TN GST -3.2% vs India +6.1%; printing output -0.1% YoY.",
+ "articles": [
+  {
+   "title": "శివకాశి బాణసంచా పరిశ్రమలో కొత్త శకం.. గ్రీన్ క్రాకర్స్తో గ్లోబల్ మార్కెట్పై గురి..!",
+   "url": "https://tv9telugu.com/national/sivakasi-fireworks-industry-indias-firecracker-hub-eyes-global-markets-with-green-crackers-and-better-safety-1947449.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "விலையேற்றம், வேலை இழப்பு, வெடிவிபத்து... சிவகாசி பட்டாசு ஆலைகளின் தற்போதைய நிலை என்ன?",
+   "url": "https://www.vikatan.com/government-and-politics/governance/sivakasi-fireworks-industry-struggles?pfrom=news-twelve-story-collection",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "குழந்தைகளை கவரும் புதிய கலர்ஃபுல் பட்டாசுகள்.. இந்த தீபாவளிக்கு என்னென்ன ஸ்பெஷல்?",
+   "url": "https://tamil.samayam.com/tamil-nadu/news/diwali-2026-sivakasi-latest-firecrackers-collection/articleshow/135348486.cms",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "QUARTERLY REPORTS",
+   "url": "https://www.printweek.in/topic/quarterly-reports",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Repro India (REPRO) — Results, Filings & Concall Summary | MarketPing",
+   "url": "https://marketping.in/companies/repro-india",
+   "date": "2026-10-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "To",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8413ebef-f70e-4cdf-8156-c0120b65efbb.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "74% growth and a margin guidance that wasn't raised",
+   "url": "https://www.stockwatch.live/in/reports/74-growth-and-a-margin-guidance-that-wasnt-raised-56bb68fe-c942-4288-978e-9c77993b24db",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "November 20, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=139090#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 03, 2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=132263#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202311121147_Thomson_Press_India_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 47 (national 62 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 17 output -0.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +8.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.5% YoY vs output +8.6% (gap +6.9 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": false,
+  "problems": [
+   "watch list must have 3-5 items"
+  ],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

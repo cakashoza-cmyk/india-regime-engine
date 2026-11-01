@@ -1,0 +1,150 @@
+{
+ "key": "ap_guntur|spices",
+ "state": "AP",
+ "city": "ap_guntur",
+ "ind": "spices",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 44,
+ "nudged_by_news": false,
+ "verdict": "Avoid new chilli-linked spice exposure in Guntur until China demand and local arrivals stabilise; lend only to branded, diversified processors with clean stock-and-receivable discipline.",
+ "title": "Guntur Spices Processing & Trade: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nGuntur runs on red chilli: farmers bring pods to mandis, traders and cold-store owners hold stock, and processors clean, grind, sort and pack for domestic brands and exporters. **Cash is made in the spread between seasonal buying (Feb-June harvest) and year-round selling, so the balance sheet is really a stock-and-receivable book, not a factory.** Rating work on a peer spice processor shows net working capital at around 45% of operating income as on March 31, 2025, improved from 51% in FY2024, with seasonal raw-material availability (February to June) forcing higher stock [9]. Utilisation typically peaks July to November, i.e. now, through the Diwali season [10]. So when a proposal lands, check the stock statement against the season, not against last quarter.\n\n## What has changed now\n**Two local reports say Guntur chilli arrivals have halved while prices held stable, and that China has slowed buying of Guntur chilli [1][2][3].** Treat these as local trade press, not audited data, and note two of the three are translated aggregator pages. Nationally, exports are down 5.7% Apr-to-date in USD [D], and Andhra Pradesh GST collections are -0.2% Apr-to-date against India +6.1% [D]. Against that, AP electricity demand is +18.1% Apr-to-date versus India +9.5% [D], which tells us cold-storage and processing activity locally is not collapsing. Peer results are the counterweight: Orkla India grew revenue 10.4% in Q1 with chilli and coriander inflation at 78% and 40%, and pricing contributed 11.4% of growth [6]; Q4 profit rose 107% to ₹73 crore [7]. **Branded processors are passing cost through; traders holding naked stock are not.**\n\n## Where to grow\n**Pursue processors with branded or export contracts, own cold-storage capacity and a demonstrated pass-through of chilli inflation [6], plus spice volumes growing over 10% as seen at Orkla [4].** Avoid pure mandi traders and stock financiers whose collateral is chilli whose offtake to China has slowed [1]. For any exporter, collect from customer the share of revenue from China and the current order book before sanctioning.\n\n## How to grow safely\n**Structure as cash-flow lending against stock and receivables with a drawing-power formula, not a clean limit.** Take monthly stock-and-receivable statements, monthly GST returns, and quarterly stock audits; require the borrower to hedge or cap unhedged chilli inventory. Because working capital runs near 45% of operating income [9], size the limit to the seasonal peak, not the annual average. Ask for the FY2027 repayment and capex plan where the group has term debt, as peers carry ₹54 crore repayment and ₹15-20 crore capex in FY2027 [10].\n\n## Early-warning signs\n- **Weekly mandi arrival and price data (weekly):** arrivals staying at half of normal with flat prices [2][3] -> ask for updated stock ageing and reduce drawing power.\n- **Monthly GST returns (monthly):** turnover falling below the AP trend of -0.2% [D] -> freeze enhancement, review limit.\n- **Monthly export shipment data (monthly):** China-bound volumes not recovering [1] -> shift exposure to domestic branded buyers only.\n- **Quarterly stock audit (quarterly):** stock ageing beyond one season -> demand sell-down or additional collateral."
+ ],
+ "watch": [
+  [
+   "Weekly mandi arrivals and prices (weekly)",
+   "Arrivals stay halved with flat prices [2][3] -> cut drawing power and ask for stock ageing"
+  ],
+  [
+   "GST returns (monthly)",
+   "Turnover growth below AP's -0.2% [D] -> freeze enhancements, review limit"
+  ],
+  [
+   "Export shipment data (monthly)",
+   "China-bound volumes stay weak [1] -> restrict to domestic branded buyers"
+  ],
+  [
+   "Stock audit (quarterly)",
+   "Stock ageing beyond one season -> require sell-down or extra collateral"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Guntur chilli arrivals halved and China buying slowed, with AP GST at -0.2%.",
+ "articles": [
+  {
+   "title": "NPN English News - China Puts the Brakes on Guntur Chilli!,NPN English News",
+   "url": "https://npnenglishnews.com/article/china-puts-the-brakes-on-guntur-chilli",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Guntur: dostawy chili o połowę niższe, ceny stabilne",
+   "url": "https://vespertool.com/pl/news/burza-o-polowe-obniza-dostawy-chili-w-guntur-ceny-sie-trzymaja/",
+   "date": "2026-10-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Pimenta vermelha em Guntur: chegadas caem à metade",
+   "url": "https://vespertool.com/pt-br/news/tempestade-corta-pela-metade-as-chegadas-de-pimenta-em-guntur/",
+   "date": "2026-10-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Orkla India Q3 PAT rises 3.8% to ₹68 crore; EBITDA jumps 18% on volume-led growth",
+   "url": "https://retail.economictimes.indiatimes.com/news/food-entertainment/personal-care-pet-supplies-liquor/orkla-india-q3-pat-rises-3-8-to-68-crore-ebitda-jumps-18-on-volume-led-growth/128245690?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etretail_news_2026-02-13&dt=2026-02-13",
+   "date": "2026-02-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In conversation with Sanjay Sharma, Managing Director and CEO, Orkla India Ltd - enquiry@dsij",
+   "url": "https://insights.dsij.in/mr/dsijarticledetail/in-conversation-with-sanjay-sharma-managing-director-and-ceo-orkla-india-ltd#1",
+   "date": "2026-08-03",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Orkla India Returns To Double-Digit Growth Amid Spice Inflation Surges In Q1 - BW Businessworld - Orkla India Returns To Double-Digit Growth Amid Spice Inflation Surges In Q1",
+   "url": "https://www.businessworld.in/article/orkla-india-returns-to-double-digit-growth-amid-spice-inflation-surges-in-q1-618096#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Orkla India Q4 profit more than doubles despite slow revenue growth - CNBC TV18 - Orkla India Q4 profit more than doubles despite slow revenue growth",
+   "url": "https://www.cnbctv18.com/business/companies/orkla-india-q4-net-profit-jumps-107pc-to-rs73-crore-ws-l-19909327.htm#1",
+   "date": "2026-05-18",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "<table><tr><td>Particulars</td><td>Justification for Holding Levels</td></tr><tr><td>Raw Material</td><td>Our company is engaged...",
+   "url": "https://www.capitalmarket.com/pub/dp/dp80203.pdf#33#105#33",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "September 01, 2025",
+   "url": "https://www.icra.in/Rating/ShowRatingRationalReport?id=137401&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 18,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=141665&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 44 (national 40 x 0.6 + Andhra Pradesh 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Andhra Pradesh: GST collections -0.2% Apr-to-date vs India +6.1% (6.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Exports -5.7% Apr-to-date in USD (Rs 19,248 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Andhra Pradesh: electricity demand +18.1% Apr-to-date vs India +9.5% (8.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

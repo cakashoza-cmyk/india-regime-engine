@@ -1,0 +1,146 @@
+{
+ "key": "tn_erode|spices",
+ "state": "TN",
+ "city": "tn_erode",
+ "ind": "spices",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:02 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 34,
+ "nudged_by_news": false,
+ "verdict": "Avoid new unsecured spice-trade exposure in Erode; lend only to processors with hedged inventory, audited stock and a clean GST record, and only against stock plus receivables.",
+ "title": "Erode Spices Processing & Trade: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nErode is a turmeric and spice trading and processing cluster: firms buy raw turmeric at the regulated market yards, dry, boil, polish, grind and grade it, then sell to masala brands, exporters and domestic wholesalers. **Cash is made on the spread between raw purchase and graded sale, not on volume alone.** The raw material is the largest cost line, so a price swing moves both the stock value and the margin at once [11]. Working capital is heavy and seasonal: raw turmeric arrives February to June, so stocks build then and utilisation peaks July to November, up to Diwali [9][10]. **So when a proposal lands, check the stock-and-receivables cycle against that calendar, not against a flat monthly average.**\n\n## What has changed now\nErode turmeric crossed Rs 22,000 per quintal, the highest in recent years, and the same rise is seen in Nizamabad and Sangli [1]. Festival demand is holding wholesale and FOB levels steady [2]. **A high, steady price is good for a hedged processor and dangerous for a trader who bought forward on borrowed money.** The state signal is weak: Tamil Nadu GST collections are -3.2% Apr-to-date against India +6.1% [D], and India-wide exports are -5.7% Apr-to-date in USD [D]. Bank credit is growing +26.3% YoY against output +5.1% [D], so trade finance is chasing a smaller real pie. **So when a proposal lands, check whether the borrower's sales growth is real volume or just the Rs 22,000 price; if turnover jumped without a matching stock or buyer list, ask for the yard purchase records and the buyer-wise sales register.**\n\n## Where the growth is\nPeer results show the demand is in branded, packed spices, not loose trade: Orkla India's spice volumes rose over 10% [4], revenue rose 10.4% with pricing contributing 11.4% [6], and per-capita MTR spice consumption in Karnataka rose from Rs 16 in 2007 to Rs 110 in 2025 [5]. **Pursue Erode processors who sell graded, packed product to brands or exporters, and who can show a buyer contract.** Avoid pure yard traders who hold unhedged stock on cash credit, and avoid new-to-bank exporters with no shipment history. The local sources say little about Erode's own firm-level finances, so lean on these peers and on first principles. ## How to grow safely\nStructure against stock and receivables, not against the yard price. **Take a stock statement every month with lot-wise quantity and purchase rate, and a receivables ageing every month.** Cap drawing power at the lower of cost or realisable value, and revalue monthly as the Rs 22,000 level moves [1]. Take GST returns monthly and match them to sales. **If the borrower cannot show a forward sale against held stock, ask for a margin top-up or reduce the limit.**\n\n## Early-warning signs\n- Stock statement shows quantity rising while sales register is flat (monthly) -> ask for yard purchase bills and cut drawing power. - GST payment falls two months running while bank turnover holds (monthly) -> freeze fresh disbursement and inspect godown. - Turmeric price falls sharply from Rs 22,000 [1] with stock still on book (weekly) -> revalue stock and call for margin."
+ ],
+ "watch": [
+  [
+   "Stock statement vs sales register (monthly)",
+   "quantity up, sales flat -> ask for purchase bills, cut drawing power"
+  ],
+  [
+   "GST returns vs bank turnover (monthly)",
+   "GST falls two months while turnover holds -> freeze disbursement, inspect godown"
+  ],
+  [
+   "Turmeric yard price (weekly)",
+   "sharp fall from Rs 22,000 [1] with stock held -> revalue and call margin"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "TN GST -3.2% vs India +6.1%, exports -5.7%, credit up +26.3% vs output +5.1% [D].",
+ "articles": [
+  {
+   "title": "Erode turmeric price crosses Rs 22,000 per quintal, highest in recent yrs - Tamil Nadu",
+   "url": "https://www.newindianexpress.com/states/tamil-nadu/2026/Oct/14/erode-turmeric-price-crosses-rs-22000-per-quintal-highest-in-recent-yrs?utm_source=website&utm_medium=related-stories#1",
+   "date": "2026-10-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ceny indyjskiej kurkumy umacniają się dzięki popytowi festiwalowemu, poziomy FOB stabilne — CMB News - Indyjskie firmy z sektora kurkumy liczą na popyt festiwalowy, podczas gdy ceny hurtowe i FOB pozostają stabilne",
+   "url": "https://commodity-board.com/indyjskie-firmy-z-sektora-kurkumy-licza-na-popyt-festiwalowy-podczas-gdy-ceny-hurtowe-i-fob-pozostaja-stabilne#1",
+   "date": "2026-10-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Erode Turmeric, Manjal GI & Spice Market | Crazy Rich India",
+   "url": "https://edukatesg.com/portfolio/crazy-rich-india-erode-turmeric-manjal-gi-golden-spice-trading-economy/",
+   "date": "2026-10-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Orkla India Q3 PAT rises 3.8% to ₹68 crore; EBITDA jumps 18% on volume-led growth",
+   "url": "https://retail.economictimes.indiatimes.com/news/food-entertainment/personal-care-pet-supplies-liquor/orkla-india-q3-pat-rises-3-8-to-68-crore-ebitda-jumps-18-on-volume-led-growth/128245690?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etretail_news_2026-02-13&dt=2026-02-13",
+   "date": "2026-02-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In conversation with Sanjay Sharma, Managing Director and CEO, Orkla India Ltd - enquiry@dsij",
+   "url": "https://insights.dsij.in/mr/dsijarticledetail/in-conversation-with-sanjay-sharma-managing-director-and-ceo-orkla-india-ltd#1",
+   "date": "2026-08-03",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Orkla India Returns To Double-Digit Growth Amid Spice Inflation Surges In Q1 - BW Businessworld - Orkla India Returns To Double-Digit Growth Amid Spice Inflation Surges In Q1",
+   "url": "https://www.businessworld.in/article/orkla-india-returns-to-double-digit-growth-amid-spice-inflation-surges-in-q1-618096#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Orkla India Q4 profit more than doubles despite slow revenue growth - CNBC TV18 - Orkla India Q4 profit more than doubles despite slow revenue growth",
+   "url": "https://www.cnbctv18.com/business/companies/orkla-india-q4-net-profit-jumps-107pc-to-rs73-crore-ws-l-19909327.htm#1",
+   "date": "2026-05-18",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "<table><tr><td>Particulars</td><td>Justification for Holding Levels</td></tr><tr><td>Raw Material</td><td>Our company is engaged...",
+   "url": "https://www.capitalmarket.com/pub/dp/dp80203.pdf#33#105#33",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "September 01, 2025",
+   "url": "https://www.icra.in/Rating/ShowRatingRationalReport?id=137401&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 18,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=141665&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 34 (national 40 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Exports -5.7% Apr-to-date in USD (Rs 19,248 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

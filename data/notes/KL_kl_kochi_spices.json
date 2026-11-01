@@ -1,0 +1,151 @@
+{
+ "key": "kl_kochi|spices",
+ "state": "KL",
+ "city": "kl_kochi",
+ "ind": "spices",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:02 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 54,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to value-added Kochi spice processors with proven export order books and tight working-capital control; avoid pure commodity traders and thinly-capitalised bulk exporters until unit-level data is collected.",
+ "title": "Kochi Spices Processing & Trade: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nSpices processing in Kochi is a working-capital business wearing a factory coat. You buy raw cardamom, pepper, chilli and coriander in the February-to-June arrival window, hold stock, clean/sort/grind/blend, and sell into domestic FMCG or export. **Cash is trapped in inventory and receivables, not in the plant.** ICRA flags net working capital over operating income of around 45% as on March 31, 2025, improved from 51% in FY2024, with seasonal raw-material availability (February to June) forcing higher stock [9]. So when a proposal lands, check the stock-and-debtor cycle month by month, not the annual balance sheet; if inventory days spike outside the procurement window, ask why.\n\n## Where value and cash sit now\nValue sits in branded/value-added product, not bulk. Orkla India's Q1 FY27 revenue rose 10.4% with pricing contributing 11.4%, as chilli and coriander inflation climbed 78% and 40% respectively [6]. **Processors with brand and pricing power pass inflation through; bulk traders absorb it.** Peer Orkla's Q3 FY26 spices volumes surged over 10% with EBITDA up 17.7% [4], and its international business is around 21% of revenues across 45 countries [5]. Rating reports note utilisation peaks July-to-November, typically till Diwali [10]. So when a proposal lands, check whether the borrower's margin is pricing-led or volume-led; if margin is flat while raw material is inflating, ask for the customer-wise price revision letters.\n\n## What has changed\nKerala's first FTA consignment to New Zealand was flagged off from Kochi by Synthite Industries, with the India-New Zealand agreement in force from October 20 [1]. That is a real new-market opening for established exporters. Against it, India-wide exports are down 5.7% Apr-to-date in USD [D], and bank credit is growing 26.3% YoY against output of 5.1% [D] — **credit is running far ahead of output, so lending standards, not demand, are the risk.** Kerala GST collections are up 10.3% Apr-to-date versus India's 6.1% [D], a genuine local tailwind. The Kochi spice conference in February 2026 flagged regulatory shifts and traceability as priorities [3]; treat that as a compliance-cost signal, not a demand signal.\n\n## Who to pursue, who to avoid\nPursue value-added processors and grinders with branded or private-label domestic customers, documented export order books (FTA-linked or Gulf), and a demonstrated pass-through record. Avoid pure commodity traders, single-buyer bulk exporters, and anyone whose growth is funded by credit rather than orders. **The FTA story belongs to firms already exporting; do not underwrite a first-time exporter on it.**\n\n## How to grow safely\nStructure as cash-flow lending against stock and receivables with a drawing-power formula, not a clean term loan. Take monthly stock statements, ageing of debtors, and GST returns; covenant a maximum inventory-to-sales ratio and a minimum export realisation percentage. Rating reports show a peer servicing around Rs 54 crore of repayments and Rs 15-20 crore capex in FY2027 from cash flows [10] — **size repayments to the trough of the seasonal cycle, not the peak.** Collect from customer: actual inventory days, debtor days, and buyer concentration for each proposal.",
+  "## Early-warning signs\n- Monthly stock statement (monthly): inventory days rising outside February-June procurement -> ask for ageing and slow-moving stock write-down.\n- GST returns vs sales (monthly): GST turnover falling below book sales -> stop fresh disbursement and reconcile.\n- Export realisation (monthly): realisation percentage dropping or buyer concentration rising -> seek additional collateral or reduce limit.\n- Raw material price index (monthly): chilli/coriander inflation not matched by price revisions -> review margin covenant."
+ ],
+ "watch": [
+  [
+   "Monthly stock statement",
+   "inventory days rising outside Feb-June window -> ask for ageing and slow-moving stock write-down"
+  ],
+  [
+   "GST returns vs book sales (monthly)",
+   "GST turnover below book sales -> stop fresh disbursement and reconcile"
+  ],
+  [
+   "Export realisation (monthly)",
+   "realisation % dropping or buyer concentration rising -> seek collateral or cut limit"
+  ],
+  [
+   "Raw material price index (monthly)",
+   "chilli/coriander inflation not matched by price revisions -> review margin covenant"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "FTA export opening offsets weak national exports; credit growth far ahead of output keeps call at caution.",
+ "articles": [
+  {
+   "title": "Kerala spices make export history under India-N… | UNI India - Exclusive news and data that keep market professionals aheadFriday, October 23, 2026",
+   "url": "https://www.uniindia.com/south-india/trade-kerala-spices-new-zealand/216753#1",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "vj kurien: Latest News & Videos, Photos about vj kurien | The Economic Times - Page 1 - Business News›vj kurien",
+   "url": "https://economictimes.indiatimes.com/topic/vj-kurien#1",
+   "date": "2026-10-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "International Spice Conference Opens in Kochi Amid Regulatory Shifts - Advertisement",
+   "url": "https://www.deccanchronicle.com/business/international-spice-conference-opens-in-kochi-amid-regulatory-shifts-1939468?utm_source=home&utm_medium=justIn#1",
+   "date": "2026-02-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Orkla India Q3 PAT rises 3.8% to ₹68 crore; EBITDA jumps 18% on volume-led growth",
+   "url": "https://retail.economictimes.indiatimes.com/news/food-entertainment/personal-care-pet-supplies-liquor/orkla-india-q3-pat-rises-3-8-to-68-crore-ebitda-jumps-18-on-volume-led-growth/128245690?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etretail_news_2026-02-13&dt=2026-02-13",
+   "date": "2026-02-11",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In conversation with Sanjay Sharma, Managing Director and CEO, Orkla India Ltd - enquiry@dsij",
+   "url": "https://insights.dsij.in/mr/dsijarticledetail/in-conversation-with-sanjay-sharma-managing-director-and-ceo-orkla-india-ltd#1",
+   "date": "2026-08-03",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Orkla India Returns To Double-Digit Growth Amid Spice Inflation Surges In Q1 - BW Businessworld - Orkla India Returns To Double-Digit Growth Amid Spice Inflation Surges In Q1",
+   "url": "https://www.businessworld.in/article/orkla-india-returns-to-double-digit-growth-amid-spice-inflation-surges-in-q1-618096#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Orkla India Q4 profit more than doubles despite slow revenue growth - CNBC TV18 - Orkla India Q4 profit more than doubles despite slow revenue growth",
+   "url": "https://www.cnbctv18.com/business/companies/orkla-india-q4-net-profit-jumps-107pc-to-rs73-crore-ws-l-19909327.htm#1",
+   "date": "2026-05-18",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "<table><tr><td>Particulars</td><td>Justification for Holding Levels</td></tr><tr><td>Raw Material</td><td>Our company is engaged...",
+   "url": "https://www.capitalmarket.com/pub/dp/dp80203.pdf#33#105#33",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "September 01, 2025",
+   "url": "https://www.icra.in/Rating/ShowRatingRationalReport?id=137401&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 18,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=141665&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 54 (national 40 x 0.6 + Kerala 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Kerala: GST collections +10.3% Apr-to-date vs India +6.1% (4.2 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -5.7% Apr-to-date in USD (Rs 19,248 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
