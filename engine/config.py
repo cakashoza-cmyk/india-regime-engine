@@ -28,6 +28,7 @@ INDICATORS = {
     "india_vix":    dict(dial="fragility", type="fragility", weight=1),
     "dii_net":      dict(dial="fragility", type="display", weight=0),  # display only (AUDIT_LOGIC)
     "capacity_util": dict(dial="display", type="display", weight=0),
+    "ois_1y":       dict(dial="display", type="display", weight=0),
     # stage helpers (not dial votes)
     "nifty_auto":   dict(dial="stage", type="vote", weight=0),
     "nifty_metal":  dict(dial="stage", type="vote", weight=0),

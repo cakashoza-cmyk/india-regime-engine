@@ -1,52 +1,31 @@
 {
-  "_help": "Paste OFFICIAL prints only (MOSPI/RBI/PIB). value + prior + as_of + source_url. Leave value null if unknown \u2014 the engine never invents. Commit the file; the next run picks it up.",
-  "gdp_yoy": {
-    "value": null,
-    "prior": null,
-    "as_of": null,
-    "source_url": null
-  },
-  "iip_yoy": {
-    "value": null,
-    "prior": null,
-    "as_of": null,
-    "source_url": null
-  },
-  "gst_yoy": {
-    "value": null,
-    "prior": null,
-    "as_of": null,
-    "source_url": null
-  },
-  "cpi_headline": {
-    "value": null,
-    "prior": null,
-    "as_of": null,
-    "source_url": null
-  },
-  "cpi_core": {
-    "value": null,
-    "prior": null,
-    "as_of": null,
-    "source_url": null
-  },
-  "food_inflation": {
-    "value": null,
-    "prior": null,
-    "as_of": null,
-    "source_url": null
-  },
-  "credit_growth": {
-    "value": null,
-    "prior": null,
-    "as_of": null,
-    "source_url": null
-  },
-  "capacity_util": {
-    "value": null,
-    "prior": null,
-    "as_of": null,
-    "source_url": null,
-    "note": "RBI OBICUS %"
-  }
+  "_help": "Paste OFFICIAL prints only (MOSPI/RBI/PIB/GSTN). value + prior + as_of (reference period end) + release_date + source_url. Leave value null with a 'reason' if unknown — the engine never invents. 'verified': false keeps a value on the dashboard but out of scoring.",
+  "gdp_yoy": {"value": 7.8, "prior": 7.8, "as_of": "2026-06-30", "release_date": "2026-08-31",
+    "source_url": "https://www.mospi.gov.in/uploads/latestreleasesfiles/1788174301107-Press%20Note%20on%20GDP%20Estimates%20for%20Q1%202026-27.pdf",
+    "note": "Real GDP Q1 FY27 (Apr-Jun 2026) YoY; prior = Q4 FY26 7.8% (NSO 5 Jun 2026). Next: Q2 on ~30 Nov 2026."},
+  "iip_yoy": {"value": 6.7, "prior": 7.8, "as_of": "2026-09-30", "release_date": "2026-10-28",
+    "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+    "note": "IIP Sep 2026 YoY (index 124.3); prior = Aug 2026 revised."},
+  "gst_yoy": {"value": 14.7, "prior": 14.8, "as_of": "2026-09-30", "release_date": "2026-10-01",
+    "source_url": "https://tutorial.gst.gov.in/downloads/news/final_gst_revenue_report_for_publishing_monthly_sep_2026.pdf",
+    "note": "Gross GST Sep 2026 Rs 2,03,521 cr YoY; prior Aug 2026 (Rs 1,99,853 cr). Oct 2026 data due ~2 Nov."},
+  "cpi_headline": {"value": 5.54, "prior": 4.83, "as_of": "2026-09-30", "release_date": "2026-10-12",
+    "source_url": "https://mospi.gov.in/uploads/latestReleases/latest_release_1791800601071_643518af-5320-4e52-b78c-75c92b83885b_Press_Release_for_the_month_of_September,_2026.pdf",
+    "note": "All-India CPI (base 2024=100) Sep 2026 provisional; prior Aug 2026 final. Next release 12 Nov 2026."},
+  "cpi_core": {"value": null, "prior": null, "as_of": null, "source_url": null,
+    "reason": "MOSPI does not publish an official core CPI. Analyst estimates (CareEdge ~4.3% for Sep 2026) are not official, so not scored."},
+  "food_inflation": {"value": 7.74, "prior": 5.97, "as_of": "2026-09-30", "release_date": "2026-10-12",
+    "source_url": "https://mospi.gov.in/uploads/latestReleases/latest_release_1791800601071_643518af-5320-4e52-b78c-75c92b83885b_Press_Release_for_the_month_of_September,_2026.pdf",
+    "note": "All-India CFPI YoY Sep 2026; prior Aug 2026."},
+  "credit_growth": {"value": null, "prior": null, "as_of": null, "source_url": null,
+    "reason": "Scraped automatically from RBI 'Scheduled Banks' Statement of Position' (engine/official.py)."},
+  "repo_rate": {"value": 5.50, "prior": 5.25, "as_of": "2026-10-07", "release_date": "2026-10-07",
+    "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+    "stance": "calibrated tightening",
+    "note": "MPC hiked 25 bp on 7 Oct 2026 (SDF 5.25, MSF 5.75). Next MPC 2-4 Dec 2026."},
+  "ois_1y": {"value": 6.72, "prior": 6.18, "as_of": "2026-10-30", "verified": false,
+    "source_url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-buckle-for-fourth-straight-month-on-oils-climb/articleshow/135361502.cms",
+    "note": "FBIL MIBOR-OIS 1Y as reported by ET; FBIL site is JS-only so not machine-verified. Display only."},
+  "capacity_util": {"value": null, "prior": null, "as_of": null, "source_url": null, "note": "RBI OBICUS %",
+    "reason": "Not yet sourced from the latest RBI OBICUS survey."}
 }

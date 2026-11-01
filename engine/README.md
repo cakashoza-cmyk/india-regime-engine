@@ -78,3 +78,20 @@ Edit `engine/manual_inputs.json` (value, prior, as_of = reference period, source
 (DBIE CPI/food/IIP, FRED GDP/call-money/India 10Y, Yahoo markets) → `backtest/report_2018_2024.md`.
 Gaps not invented: core CPI, GST, credit growth, FII, breadth, OBICUS, RBI stance; repo history uses call-money as proxy.
 Because credit growth has no sourced history, the stage climb can't pass gate 2 in replay (max stage 1).
+
+## Sources & validation (v1.1, Nov 2026 audit)
+| Indicator | Primary | Cross-check |
+|---|---|---|
+| Nifty, Bank, Auto, Metal, India VIX | NSE `ind_close_all_DDMMYYYY.csv` (official) | Yahoo |
+| US 10Y | US Treasury par yield CSV | Yahoo ^TNX |
+| Brent | ICE active contract (`BZ<mon><yy>.NYM`, rolls on expiry day; value+prior same contract) | Yahoo BZ=F |
+| Repo / USDINR | RBI homepage (ref rate dated to its FBIL publication day) + MPC press release in manual_inputs | Yahoo INR=X |
+| Credit growth | RBI Scheduled Banks' Statement of Position (auto, YoY computed) | — |
+| Breadth | % of Nifty 50 above 200-DMA (NSE list + Yahoo prices) — unverified | — |
+| CPI, food, IIP, GDP, GST | `manual_inputs.json` official MOSPI/PIB/GSTN prints with URLs | — |
+| India 10Y | Investing (unverified; CCIL page is JS-only) | — |
+
+DBIE CPI is the discontinued base-2012 series: stored as history only, never scored.
+`engine/validate.py` assigns each value `verified | unverified | stale | failed` (sanity ranges + same-date
+two-source tolerance). `failed` values are forced to score 0. Dashboard shows a badge per value and a
+"Missing" table with the reason for every null.

@@ -7,7 +7,7 @@ a{color:#93c5fd}.p{background:#121a2b;border:1px solid #243049;border-radius:12p
 .k{background:#0f172a;border:1px solid #243049;border-radius:10px;padding:10px}table{width:100%;border-collapse:collapse;font-size:.8rem}
 th,td{border:1px solid #243049;padding:5px 7px;text-align:left}th{background:#0f172a;color:#9aa8c7}.stop{color:#fca5a5}.go{color:#86efac}.warn{color:#fcd34d}
 .paper{background:#422006;border:1px solid #f59e0b;color:#fde68a;padding:8px 10px;border-radius:8px;font-size:.85rem;margin-bottom:12px}
-</style></head><body><main>
+.badge{padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:600;border:1px solid currentColor}.bad{color:#f87171}</style></head><body><main>
 <h1>Macro Regime Intelligence Engine <span class="m">· v1 · <a href="./index.html">Seven Gates wizard</a></span></h1>
 <p class="m" id="gen">Loading…</p>
 <div class="paper" id="paper"></div>
@@ -41,7 +41,8 @@ const card=(k,v,cls='')=>`<div class="k"><div class="m">${k}</div><div class="${
  document.getElementById('sec').innerHTML=tbl(['Sector','Verdict','Marginal driver','Impact','All impacts'],x.sectors.map(s=>[s.sector,`<span class="${s.verdict=='own'?'go':s.verdict=='avoid'?'stop':'warn'}">${s.verdict}</span>`,s.marginal_driver,f(s.impact,3),esc(JSON.stringify(s.impacts))]))+`<p class="m">Null drivers (set to 0): ${x.driver_nulls.join('; ')||'none'}</p>`;
  document.getElementById('inv').innerHTML=tbl(['Rule','Value','Status'],d.invalidation_conditions.map(i=>[i.rule,f(i.value),`<span class="${i.status=='triggered'?'stop':i.status=='not triggered'?'go':'warn'}">${i.status}</span>`]));
  document.getElementById('flips').innerHTML=tbl(['Indicator','Tier','Current','Flip level','Flipped'],x.flips.map(i=>[i.indicator,i.tier,f(i.current_value,3),`${i.flip_direction} ${i.flip_level}`,i.is_flipped==null?'<span class=warn>unknown</span>':i.is_flipped?'<span class=stop>YES</span>':'no']));
- document.getElementById('ind').innerHTML=tbl(['Indicator','Dial','Value','Prior','Dir','Score','As of','Fresh','Source'],d.indicators.map(i=>[i.indicator,i.dial,f(i.value,3),f(i.prior_value,3),i.direction,i.score,i.as_of,i.is_stale?`<span class=warn>STALE ${esc(i.stale_since)}</span>`:'<span class=go>live</span>',i.source_url?`<a href="${i.source_url}" target=_blank>${i.source}</a>`:i.source]));
+ const BADGE={verified:'go',unverified:'warn',stale:'warn',failed:'bad'};
+ document.getElementById('ind').innerHTML=tbl(['Indicator','Dial','Value','Prior','Dir','Score','As of','Status','Checks','Source'],d.indicators.map(i=>[i.indicator,i.dial,f(i.value,3),f(i.prior_value,3),i.direction,i.score,i.as_of,`<span class="badge ${BADGE[i.status]||'warn'}">${esc((i.status||'unknown').toUpperCase())}</span>`,esc((i.checks||[]).join('; ')),i.source_url?`<a href="${i.source_url}" target=_blank>${i.source}</a>`:i.source]))+((d.missing||[]).length?'<h2 style="margin-top:10px">Missing (null, never invented)</h2>'+tbl(['Indicator','Reason'],d.missing.map(m=>[m.indicator,esc(m.reason)])):'');
  document.getElementById('log').innerHTML=tbl(['Indicator','Source','OK','Error'],d.source_log.map(l=>[l.indicator,l.source,l.ok?'<span class=go>ok</span>':'<span class=stop>fail</span>',esc(l.error)]));
  try{const h=await (await fetch('./data/regime_history.json',{cache:'no-store'})).json();
  document.getElementById('hist').innerHTML=tbl(['When','Regime','Sub','Stage','Position','Check back','Outcome'],h.slice(-30).reverse().map(r=>[r.generated_at_ist,r.regime_label,r.sub_label,r.stage,r.position?`${r.position.action} ${f(r.position.size)}`:'—',r.check_back_date,r.outcome??'pending']));}catch(e){}

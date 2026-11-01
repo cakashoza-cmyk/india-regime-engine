@@ -89,3 +89,31 @@ def test_invalidations():
     ind = {"cpi_headline": {"value": 6.5, "is_stale": False}, "us10y": {"value": 4.0, "is_stale": True}}
     st = {x["indicator"]: x["status"] for x in logic.invalidations(ind)}
     assert st["cpi_headline"] == "triggered" and st["us10y"] == "unknown (stale)" and st["capacity_util"] == "unknown"
+
+
+def test_brent_active_contract_rolls_on_expiry_day():
+    from datetime import date
+    from engine.official import brent_active_symbol
+    assert brent_active_symbol(date(2026, 10, 29))[0] == "BZZ26.NYM"
+    assert brent_active_symbol(date(2026, 10, 30))[0] == "BZF27.NYM"  # Dec expired 30 Oct
+
+
+def test_rbi_ref_rate_dated_to_publication_day():
+    from datetime import datetime
+    from engine.official import rbi_ref_rate_date, IST
+    assert rbi_ref_rate_date(datetime(2026, 10, 31, 12, 0, tzinfo=IST)) == "2026-10-30"  # Saturday
+    assert rbi_ref_rate_date(datetime(2026, 11, 2, 10, 0, tzinfo=IST)) == "2026-10-30"   # Mon pre-13:30
+    assert rbi_ref_rate_date(datetime(2026, 11, 2, 14, 0, tzinfo=IST)) == "2026-11-02"
+
+
+def test_validate_sanity_and_crosscheck():
+    import sqlite3
+    from engine import db, validate
+    c = sqlite3.connect(":memory:"); c.row_factory = sqlite3.Row; db.init(c)
+    a = db.q(c, "INSERT INTO raw_ingest (source, indicator, payload, ok, is_verified) VALUES (?,?,?,?,?)",
+             ("nse_archive", "nifty", '{"value": 23053.1, "as_of": "2026-10-30"}', 1, 1))
+    db.q(c, "INSERT INTO raw_ingest (source, indicator, payload, ok, is_verified) VALUES (?,?,?,?,?)",
+         ("yahoo", "nifty", '{"value": 24500, "as_of": "2026-10-30"}', 1, 1))
+    rec = dict(indicator="nifty", value=23053.1, as_of="2026-10-30", source="nse_archive", source_raw_id=a)
+    assert validate.check(c, rec)["status"] == "failed"  # 6% apart
+    assert validate.check(c, dict(rec, indicator="cpi_headline", value=55.4))["status"] == "failed"  # sanity

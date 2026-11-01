@@ -16,6 +16,7 @@ from engine.config import YAHOO  # noqa: E402
 from engine import search_adapter as sa  # noqa: E402
 from engine import dbie  # noqa: E402
 from engine import release_calendar as cal  # noqa: E402
+from engine import official  # noqa: E402
 
 IST = timezone(timedelta(hours=5, minutes=30))
 MANUAL = Path(__file__).resolve().parent / "manual_inputs.json"
@@ -28,8 +29,16 @@ def _store(conn, source, indicator, payload, ok, release_date=None, verified=Fal
          release_date, bool(verified), bool(ok)))
 
 
-def _yahoo(conn, key, sym, log):
+# Yahoo is only a cross-check where an official/exchange source exists (see ingest_official).
+YAHOO_CHECK_ONLY = {"nifty", "nifty_bank", "nifty_auto", "nifty_metal", "india_vix", "us10y", "brent"}
+
+
+def _yahoo(conn, key, sym, log, role=None):
     r = rd.yahoo_chart(sym, "1mo")
+    r["role"] = role or ("check" if key in YAHOO_CHECK_ONLY else "primary")
+    lbd = official.last_business_day(datetime.now(IST).date()).isoformat()
+    if r.get("as_of") and str(r["as_of"])[:10] > lbd:  # weekend tick -> last session
+        r["as_of"] = lbd
     ok = r.get("value") is not None
     _store(conn, "yahoo", key, r, ok, r.get("as_of"), verified=ok)
     log.append((key, "yahoo", ok, r.get("error")))
@@ -56,19 +65,51 @@ def ingest_rbi(conn, log):
     raw, err, _ = rd.http_get(url)
     parsed = parse_rbi_home(raw.decode("utf-8", "ignore")) if raw else {}
     today = datetime.now(IST).date().isoformat()
+    man = json.loads(MANUAL.read_text()) if MANUAL.exists() else {}
     for key in ("repo_rate", "usdinr_ref"):
         v = parsed.get(key)
         if v is not None:
-            _store(conn, "rbi", key, {"value": v, "prior": None, "as_of": today,
-                   "source_url": url, "extra": parsed, "note": "RBI homepage rates panel"}, True, today, True)
+            prior, as_of, note = None, today, "RBI homepage rates panel"
+            if key == "repo_rate":
+                m = man.get("repo_rate") or {}
+                if m.get("value") is not None and abs(float(m["value"]) - v) < 1e-9:
+                    prior, as_of = m.get("prior"), m.get("as_of") or today  # last MPC decision
+                    note += f"; prior/as_of from MPC decision {m.get('source_url')}"
+            else:
+                as_of = official.rbi_ref_rate_date()
+                note = "FBIL USD/INR reference rate as shown on RBI homepage (dated to its publication day)"
+            _store(conn, "rbi", key, {"value": v, "prior": prior, "as_of": as_of, "role": "primary",
+                   "source_url": url, "extra": parsed, "note": note}, True, as_of, True)
             log.append((key, "rbi.org.in", True, None))
-        elif key == "usdinr_ref":  # secondary: Yahoo INR=X
-            ok = _yahoo(conn, key, "INR=X", log)
+        elif key == "usdinr_ref":  # fallback: Yahoo INR=X
+            ok = _yahoo(conn, key, "INR=X", log, role="primary")
             if not ok:
                 _store(conn, "rbi", key, {"error": err or "not parsed", "source_url": url}, False)
         else:
             _store(conn, "rbi", key, {"error": err or "repo not parsed", "source_url": url}, False)
             log.append((key, "rbi.org.in", False, err or "not parsed"))
+
+
+def ingest_official(conn, log):
+    """Official / exchange-published sources (primary where available)."""
+    nse = official.nse_close_all()
+    for key in official.NSE_NAMES:
+        r = nse.get(key)
+        ok = r is not None
+        _store(conn, "nse_archive", key, dict(r, role="primary") if ok else {"error": "NSE ind_close_all not available"}, ok, r and r["as_of"], ok)
+        log.append((key, "nse ind_close_all", ok, None if ok else "not available"))
+    for key, src, fn in (("us10y", "treasury", official.treasury_10y), ("brent", "ice_contract", official.brent_active),
+                         ("credit_growth", "rbi_press", official.rbi_credit_growth), ("breadth_200dma", "nse+yahoo", official.breadth_nifty50)):
+        try:
+            r = fn()
+        except Exception as e:  # noqa: BLE001
+            r = {"error": str(e)}
+        ok = r.get("value") is not None and not r.get("error")
+        r["role"] = "primary"
+        _store(conn, src, key, r, ok, r.get("as_of"), ok)
+        log.append((key, src, ok, r.get("error")))
+    # second source for USD/INR
+    _yahoo(conn, "usdinr_ref", "INR=X", log, role="check")
 
 
 def ingest_flows_10y(conn, log):
@@ -79,6 +120,11 @@ def ingest_flows_10y(conn, log):
         log.append((key, r.get("source") or "nse", ok, r.get("error") or "; ".join(w) or None))
     y, w2 = rd.fetch_india10y()
     ok = y.get("value") is not None
+    if ok:  # Investing shows the last traded yield; on weekends/holidays date it to the last business day
+        lbd = official.last_business_day(datetime.now(IST).date()).isoformat()
+        if not y.get("as_of") or str(y["as_of"])[:10] > lbd:
+            y["as_of"] = lbd
+        y["role"] = "primary"
     _store(conn, "investing" if ok else "ccil", "india10y", y, ok, y.get("as_of"), ok)
     log.append(("india10y", y.get("source") or "ccil/investing", ok, y.get("error") or "; ".join(w2) or None))
 
@@ -97,7 +143,7 @@ def ingest_manual(conn, log):
         last = db.q(conn, "SELECT payload FROM raw_ingest WHERE indicator=? AND source='manual' AND ok ORDER BY id DESC LIMIT 1", (key,), one=True)
         if last and db.jload(last["payload"]) == rec:
             continue  # unchanged — no duplicate row
-        _store(conn, "manual", key, rec, True, rec.get("as_of"), True)
+        _store(conn, "manual", key, dict(rec, role="primary"), True, rec.get("as_of"), rec.get("verified", True) is not False)
         log.append((key, "manual", True, None))
 
 
@@ -107,7 +153,13 @@ def ingest_dbie(conn, log):
         try:
             r = dbie.latest(key)
             ok = r is not None
-            _store(conn, "dbie", key, r or {"error": "no rows"}, ok, r and r["as_of"], ok)
+            # CPI on DBIE is the discontinued base-2012 series (MOSPI switched to base 2024 in 2026):
+            # kept for history/backtest only, never verified for current scoring.
+            old_base = key in ("cpi_headline", "food_inflation", "cpi_core")
+            if r:
+                r = dict(r, role="history" if old_base else "primary",
+                         note="DBIE base-2012 CPI (discontinued) - history only" if old_base else "DBIE")
+            _store(conn, "dbie", key, r or {"error": "no rows"}, ok, r and r["as_of"], ok and not old_base)
             log.append((key, "rbi dbie api", ok, None if ok else "no rows"))
         except Exception as e:  # noqa: BLE001
             _store(conn, "dbie", key, {"error": str(e)}, False)
@@ -115,13 +167,8 @@ def ingest_dbie(conn, log):
 
 
 def ingest_stubs(conn, log):
-    # Not wired yet (documented in README). Logged as failures so they show as missing, not zero.
-    for key, why in (("breadth_200dma", "NSE bhavcopy breadth not wired in v1"),
-                     ("credit_growth", "no current fortnightly credit series wired in v1 (DBIE scrape lags) — paste official % in manual_inputs.json")):
-        has_manual = db.q(conn, "SELECT id FROM raw_ingest WHERE indicator=? AND ok LIMIT 1", (key,), one=True)
-        if not has_manual:
-            _store(conn, "stub", key, {"error": why}, False)
-            log.append((key, "stub", False, why))
+    """breadth + credit are now real scrapers (engine/official.py)."""
+    return
 
 
 def ingest_language(conn, log, force=False):
@@ -166,6 +213,7 @@ def run(conn, force_language=False) -> list:
     log: list = []
     for key, sym in YAHOO.items():
         _yahoo(conn, key, sym, log)
+    ingest_official(conn, log)
     ingest_rbi(conn, log)
     ingest_flows_10y(conn, log)
     ingest_dbie(conn, log)

@@ -13,6 +13,20 @@ IST = timezone(timedelta(hours=5, minutes=30))
 OUT = ROOT / "data"
 
 
+def _missing(ind_rows, log):
+    """Indicators with no usable value, with the reason (never a fabricated number)."""
+    from engine.config import INDICATORS
+    from engine.ingest import MANUAL
+    have = {r["indicator"] for r in ind_rows}
+    man = json.loads(MANUAL.read_text()) if MANUAL.exists() else {}
+    errs = {}
+    for k, src, ok, e in log:
+        if not ok and e:
+            errs.setdefault(k, f"{src}: {e}")
+    return [{"indicator": k, "reason": (man.get(k) or {}).get("reason") or errs.get(k) or "no source returned a value"}
+            for k in INDICATORS if k not in have]
+
+
 def export(conn, snap, ind_rows, log, alert_res):
     latest = {
         "generated_at_ist": datetime.now(IST).strftime("%Y-%m-%d %H:%M IST"),
@@ -23,7 +37,8 @@ def export(conn, snap, ind_rows, log, alert_res):
         "gap_description": snap["gap_description"], "sizing_recommendation": snap["sizing_recommendation"],
         "invalidation_conditions": snap["invalidation_conditions"], "detail": snap["detail"],
         "indicators": [{k: r.get(k) for k in ("indicator", "dial", "value", "prior_value", "direction", "score", "weight",
-                        "as_of", "is_stale", "stale_since", "source", "source_url")} for r in ind_rows],
+                        "as_of", "is_stale", "stale_since", "source", "source_url", "status", "checks", "note")} for r in ind_rows],
+        "missing": _missing(ind_rows, log),
         "source_log": [{"indicator": k, "source": s, "ok": ok, "error": e} for k, s, ok, e in log],
         "alert": alert_res,
     }
