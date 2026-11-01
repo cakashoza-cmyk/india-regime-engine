@@ -1,0 +1,154 @@
+{
+ "key": "mz_aizawl|handicrafts",
+ "state": "MZ",
+ "city": "mz_aizawl",
+ "ind": "handicrafts",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 48,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Aizawl handicraft units with verified buyer orders and low leverage; avoid pure domestic-retail artisans with no order book.",
+ "title": "Aizawl Handicrafts & Carpets: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Aizawl handicrafts is a cottage-scale, labour-and-handwork business: weavers, cane-and-bamboo workers and handloom units turning yarn, cane and dye into finished pieces sold through fairs, state emporia and a thin layer of traders.** Cash comes in lumps around the Zo Fair and festival season, not monthly [3]. The value sits in the finished piece and the artisan's skill, not in the loom; capex is small and mostly handloom frames and workspace. **Working capital sits in yarn and cane inventory and in unsold finished stock, so inventory discipline is the real credit risk** — rating work on comparable craft firms flags inventory management as a key sensitivity [9].\n\n## What has changed now\n**The local signal is soft: Mizoram electricity demand is up 5.6% Apr-to-date against India's 9.5%, 3.9 pp slower [D].** That is a demand-side warning for a state whose craft sales lean on local fairs and government events. The state government is publicly pushing market access and preservation of indigenous craft [1][2][3], which is real support but not yet order flow. **Peer results are poor: Golden Carpets' Q1FY27 revenue fell 53.6% YoY to ₹12.05 lakh with a ₹7.31 lakh net loss [5], and Priti International's revenue contracted 66.59% YoY with operating margin at -3.78% [4].** Note the Golden Carpets September 2025 filing showed sales up 170.82% to ₹0.52 crore [7] — the swing tells you how lumpy this trade is. Sources say little specific about Aizawl itself; lean on first principles and these peers.\n\n## Where to grow\n**Pursue units with a confirmed buyer — state emporia, exporter, or a fair order — and a clean stock register.** Pursue the cane-and-bamboo and handloom units supplying institutional buyers, and artisans grouped under a co-operative with a single accountable promoter. **Avoid pure retail artisans with no order book and no stock records.** When a proposal lands, check the order confirmation and last two seasons' sales; if sales are fair-dependent only, ask for the buyer's repeat-order history.\n\n## How to grow safely\n**Structure as a cash-flow-tied working-capital limit, not term debt, sized to verified inventory and receivables.** Take monthly stock-and-sales statements, a quarterly stock audit, and the buyer's payment record. **Covenant on inventory days and on promoter contribution; if leverage rises, ask for the reason before enhancing.** Rating methodology ties comfort to low leverage and longer-tenure debt [10], and to liquidity to meet short-term needs [11].\n\n## Early-warning signs\n- **Stock build-up without matching sales (monthly) -> freeze enhancement and inspect godown.**\n- **Fair orders cancelled or delayed (per season) -> reprice limit to confirmed orders only.**\n- **Electricity demand in Mizoram staying below India (quarterly) [D] -> tighten new-to-bank artisans.**\n- **Peer revenue declines continuing (quarterly) [4][5] -> require buyer confirmation before fresh limits.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-sales statement",
+   "Inventory days rising two months running -> freeze limit enhancement and inspect stock"
+  ],
+  [
+   "Seasonal fair order confirmations",
+   "Order cancelled or delayed -> reprice limit to confirmed orders only"
+  ],
+  [
+   "Quarterly CEA Mizoram demand vs India [D]",
+   "Gap widens beyond 3.9 pp -> tighten new-to-bank artisan limits"
+  ],
+  [
+   "Quarterly peer revenue (Golden Carpets, Priti) [4][5]",
+   "Further YoY decline -> require buyer confirmation before fresh limits"
+  ],
+  [
+   "Quarterly stock audit",
+   "Shortfall over 5% of stated stock -> escalate and reduce drawing power"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Mizoram power demand lags India by 3.9 pp; craft peers show sharp revenue falls and losses.",
+ "articles": [
+  {
+   "title": "Mizoram CM for preserving indigenous craftsmanship, promoting market access - Mizoram CM for preserving indigenous craftsmanship, promoting market access",
+   "url": "https://nagalandpost.com/mizoram-cm-for-preserving-indigenous-craftsmanship-promoting-market-access/#1",
+   "date": "2026-07-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Traditional attire, crafts preserved NE’s history before written records: Mizoram CM - The Rahnuma Daily",
+   "url": "https://therahnuma.com/traditional-attire-crafts-preserved-nes-history-before-written-records-mizoram-cm/",
+   "date": "2026-07-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Mizoram CM Lalduhoma calls for stronger market access for tribal artisans at state's Zo Fair",
+   "url": "https://www.indiatodayne.in/mizoram/story/mizoram-cm-lalduhoma-calls-for-stronger-market-access-for-tribal-artisans-at-states-zo-fair-1423618-2026-07-13",
+   "date": "2026-07-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Priti International Limited",
+   "url": "https://www.perplexity.ai/app/finance/PRITI.NS?comparing=ALKOSIGN.BO%2CHNI%2CXRX%2CKNCAY%2C7752.T%2CSUNDARAM.BO%2CNAVNETEDUL.NS&preset=peers&symbol=KNCAY",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Golden Carpets Q1 Results: Net loss widens to ₹7.31 lakh as revenue falls - Golden Carpets Q1 Results: Net loss widens to ₹7.31 lakh as revenue falls",
+   "url": "https://scanx.trade/stock-market-news/companies/golden-carpets-q1-results-net-loss-widens-to-7-31-lakh-as-revenue-falls/47667311#1",
+   "date": "2026-08-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Q4 FY26 Earnings Results",
+   "url": "https://tapetide.com/earnings-tracker/fy26/q4?sector=Consumer+Goods&sort=rev_qoq&order=desc",
+   "date": "2026-03-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Golden Carpe Standalone September 2025 Net Sales at Rs 0.52 crore, up 170.82% Y-o-Y - HomeNewsBusinessEarningsGolden Carpe Standalone September 2025 Net Sales at Rs 0.52 crore, up 170.82% Y-o-Y",
+   "url": "https://www.moneycontrol.com/news/business/earnings/golden-carpe-standalone-september-2025-net-sales-at-rs-0-52-crore-up-170-82-y-o-y-13664221.html#1",
+   "date": "2025-11-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Cottage Industries Exposition Limited (Revised)",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410121017_Cottage_Industries_Exposition_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 48 (national 48 x 0.6 + Mizoram None x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Mizoram: electricity demand +5.6% Apr-to-date vs India +9.5% (3.9 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Exports +32.5% Apr-to-date in USD (Rs 10,743 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.8% YoY vs output +3.8% (gap +23.0 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: IIP NIC 32 output +3.2% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,158 @@
+{
+ "key": "rj_jodhpur|handicrafts",
+ "state": "RJ",
+ "city": "rj_jodhpur",
+ "ind": "handicrafts",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 29,
+ "nudged_by_news": false,
+ "verdict": "Avoid new handicraft and carpet exposure in Jodhpur for now; lend only to GI-tagged mojari makers with verified export orders and clean GST, and decline the rest.",
+ "title": "Jodhpur Handicrafts & Carpets: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Jodhpur's handicraft and carpet units buy raw material, hold it as work-in-progress for weeks, and sell finished goods to buyers who pay late.** Leather mojari, carpets and fibre craft are labour-heavy, low-capex trades: the money sits in inventory and receivables, not in plant. Pricing power is thin because buyers compare across many small units, so a unit's cash cycle is set by how long it holds stock and how long its buyer takes to pay. **Ask every proposal for the inventory days and receivable days; if either is above the unit's own three-year average, ask why before you look at the profit line.** The rating literature is clear that inventory management while sustaining scale is the key sensitivity for this trade [9], and that weaving-type units are fixed- and working-capital intensive with high funding needs [8].",
+  "## What has changed now\n**The local economy is running behind the country: Rajasthan GST collections are -4.7% Apr-to-date against India +6.1%, and electricity demand is +4.0% against India +9.5% [D].** That is a demand signal, not a sentiment one, and it is why the data-based call on this cluster is AVOID at 29 [D]. Nationally, bank credit is +26.8% YoY against output +3.8% [D] and the repo is 5.5% with a tightening stance [D], so money is expensive and the system is lending ahead of real activity. **Peer results confirm the trade is shrinking: Priti International's revenue fell 66.59% YoY with operating margin at -3.78% in Q1 FY27 [4], and Golden Carpets' Q1FY27 revenue fell 53.6% YoY to ₹12.05 lakh with a net loss of ₹7.31 lakh [5].** Note that [4] carries no date and [7] is from November 2025, so treat both as old evidence.",
+  "## Where the growth is\n**The one live positive is the GI tag on Jodhpuri mojari, with the trade reported at about ₹100 crore a year and expected to double in two years [3].** That is a local newspaper claim from July 2026, not audited data, so use it as a direction, not a number. **Pursue GI-tagged mojari and leather-footwear makers with repeat export buyers and documented order books; avoid plain carpet weavers and generic craft traders with no GI or export linkage.** The IIHT Jodhpur seminar on MMCF fibres [1] tells you the institute is pushing man-made fibre skills locally, so fibre-craft units with that training are the second tier to look at.",
+  "## How to grow safely\n**Structure against the cash cycle, not the balance sheet: cash credit sized to inventory plus receivables, and term debt only for a specific machine with a repayment matched to its output.** Rating methodology ties debt coverage directly to tenure, so longer-tenure term debt is safer than short [10], and low leverage is what gives flexibility in a downturn [10]. **Take stock and receivable statements every month, GST returns every month, and a buyer-wise sales register every quarter; if receivables cross the unit's stated credit terms, ask for the buyer's payment proof.** Liquidity, including ability to refinance, is what decides survival here [11].",
+  "## Early-warning signs\n**Watch for a unit whose GST turnover falls while its bank turnover holds, or whose export buyer list shrinks by name.** If either appears, stop fresh disbursement and ask for the buyer's order confirmation. **Watch inventory days rising while sales fall; that is stock being held because it cannot be sold.** If it happens, ask for a physical stock statement and revalue the drawing power. **Watch for a second lender appearing in the same working-capital gap; ask for the sanction letter and the end-use.**"
+ ],
+ "watch": [
+  [
+   "GST returns vs bank statement turnover (monthly)",
+   "GST turnover falls while bank credits hold -> stop fresh disbursement, ask for buyer-wise sales register"
+  ],
+  [
+   "Inventory and receivable days (monthly)",
+   "Inventory days rise while sales fall -> ask for physical stock statement and revalue drawing power"
+  ],
+  [
+   "Buyer-wise export order book (quarterly)",
+   "Named buyer drops out or order value falls -> ask for the buyer's order confirmation before renewal"
+  ],
+  [
+   "Lender search / CIBIL enquiries (monthly)",
+   "Second lender appears in the same working-capital gap -> ask for sanction letter and end-use"
+  ],
+  [
+   "Rajasthan GST and power demand trend (monthly, [D])",
+   "State GST stays negative vs India -> hold new-to-bank handicraft proposals"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Rajasthan GST -4.7% and power +4.0% trail India; carpet peers show sharp revenue falls.",
+ "articles": [
+  {
+   "title": "आईआईएचटी जोधपुर में एमएमसीएफ फाइबर्स पर विशेषज्ञ सेमिनार - Doordrishti News",
+   "url": "https://doordrishtinews.com/expert-seminar-on-mmcf-fibers-at-iiht-jodhpur/rs-thapa/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "GI टैग से जोधपुरी मोजरी की पहचान वैश्विक, निर्यात बढ़ेगा",
+   "url": "https://pinewz.com/hindi/story/rajasthan/jodhpur-gi-tag-gives-jodhpuri-mojari-global-identity-exports-to-grow-1783670597506",
+   "date": "2026-07-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "200 साल पुराने जोधपुरी मोजरी को जीआई टैग: अभी सालाना 100 करोड़ का कारोबार; दो साल में दोगुना होने की उम्मीद - Jodhpur News",
+   "url": "https://www.bhaskar.com/local/rajasthan/jodhpur/news/jodhpur-mojari-gets-gi-tag-business-doubles-in-two-years-138405412.html",
+   "date": "2026-07-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Priti International Limited",
+   "url": "https://www.perplexity.ai/app/finance/PRITI.NS?comparing=ALKOSIGN.BO%2CHNI%2CXRX%2CKNCAY%2C7752.T%2CSUNDARAM.BO%2CNAVNETEDUL.NS&preset=peers&symbol=KNCAY",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Golden Carpets Q1 Results: Net loss widens to ₹7.31 lakh as revenue falls - Golden Carpets Q1 Results: Net loss widens to ₹7.31 lakh as revenue falls",
+   "url": "https://scanx.trade/stock-market-news/companies/golden-carpets-q1-results-net-loss-widens-to-7-31-lakh-as-revenue-falls/47667311#1",
+   "date": "2026-08-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Q4 FY26 Earnings Results",
+   "url": "https://tapetide.com/earnings-tracker/fy26/q4?sector=Consumer+Goods&sort=rev_qoq&order=desc",
+   "date": "2026-03-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Golden Carpe Standalone September 2025 Net Sales at Rs 0.52 crore, up 170.82% Y-o-Y - HomeNewsBusinessEarningsGolden Carpe Standalone September 2025 Net Sales at Rs 0.52 crore, up 170.82% Y-o-Y",
+   "url": "https://www.moneycontrol.com/news/business/earnings/golden-carpe-standalone-september-2025-net-sales-at-rs-0-52-crore-up-170-82-y-o-y-13664221.html#1",
+   "date": "2025-11-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cottage Industries Exposition Limited (Revised)",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410121017_Cottage_Industries_Exposition_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 29 (national 48 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +26.8% YoY vs output +3.8% (gap +23.0 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

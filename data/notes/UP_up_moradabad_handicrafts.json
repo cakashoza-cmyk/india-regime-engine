@@ -1,0 +1,154 @@
+{
+ "key": "up_moradabad|handicrafts",
+ "state": "UP",
+ "city": "up_moradabad",
+ "ind": "handicrafts",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:52 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 59,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to artisan-linked exporters with verified order books and tight monthly stock-and-receivable controls; avoid leveraged commodity brass units and craft businesses with no successor pipeline.",
+ "title": "Moradabad Handicrafts & Carpets: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nMoradabad runs on brass, metalware and carpets: small units buy metal or yarn, hand it to artisan households for casting, polishing, plating or weaving, then sell finished pieces to export houses and overseas buyers. **Cash is made in the conversion spread, not in the metal** — the unit earns a fabrication and finishing margin while metal and yarn move through as pass-through cost. So when a proposal lands, check whether the margin is a genuine conversion margin or a metal-price bet; if the borrower cannot show a per-piece conversion rate, ask for the job-work rate card and buyer purchase orders.",
+  "## Where value and cash actually sit\nValue sits in the artisan skill base and in buyer relationships, not in the machines. **The working-capital cycle is the real credit risk**: inventory of raw metal, work-in-progress at karigars' homes, and receivables from export buyers all sit between you and repayment. The local press reports that the traditional craft is under stress and that preparing the next generation of artisans is a challenge [1] — that is a supply-side constraint on capacity, not a demand signal. Peer results show how thin this is: Golden Carpets posted a Q1FY27 net loss of ₹7.31 lakh with revenue down 53.6% YoY [5], and Priti International's revenue contracted 66.59% YoY with operating margin at -3.78% in Q1 FY27 [4]. Rating methodology flags inventory management as a key sensitivity for this kind of business [9].",
+  "## What has changed now\nTwo things. First, the artisan pipeline: the successor problem in [1] means capacity is capped and unit costs can drift up. Second, governance noise — the EPCH exporters' body is in election mode, with voter-list fitness and notices issued [2][3]; that is association politics, not a credit event, but it tells you exporters are distracted and order documentation may slip. **The macro backdrop is not the problem**: UP GST collections are up 14.2% Apr-to-date versus India's 6.1% [D], and India-wide exports are up 32.5% Apr-to-date in USD [D]. But bank credit is running +26.8% YoY against output +3.8%, a 23.0 pp gap [D] — so the system is lending faster than the real economy is producing. Treat that as a warning on over-leverage in the cluster, not as demand.",
+  "## Where to grow, and how to grow safely\n**Pursue the artisan-linked exporter with a repeat buyer and a clean stock book**, and the small unit doing job-work for two or more established export houses. Avoid the leveraged commodity-metal trader and any unit whose sales are one large buyer with no written contract. Structure as a cash-flow loan against verified purchase orders, with a stock-and-receivables charge and monthly stock statements. Take every month: stock statement, debtor ageing by buyer, GST returns, and a physical verification of karigar work-in-progress. **Covenant the conversion margin and the receivable days**, not just the turnover.",
+  "## Early-warning signs\n- **Artisan attrition**: if the unit cannot name its karigar households, capacity is already leaking [1] -> ask for a karigar register and reduce limit.\n- **Receivable stretch**: debtor days rising while sales fall, as in the peer set [4][5] -> stop fresh disbursement and re-age the book.\n- **Inventory build**: stock rising faster than sales [9] -> insist on a stock audit before renewal.\n- **Association disruption**: EPCH election-related documentation gaps [2][3] -> verify buyer confirmations directly, not through the association."
+ ],
+ "watch": [
+  [
+   "Monthly stock and debtor ageing",
+   "Receivable days rise two months running -> freeze limit and re-age book"
+  ],
+  [
+   "Quarterly GST returns",
+   "Filing gap or turnover fall >20% -> call for buyer confirmations"
+  ],
+  [
+   "Monthly karigar register",
+   "Named artisan households drop -> cut limit and re-verify WIP"
+  ],
+  [
+   "Quarterly bank credit vs output gap [D]",
+   "Gap widens further -> tighten new-to-bank exposure in cluster"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local craft-skills crisis and weak peer results outweigh strong UP GST and export prints.",
+ "articles": [
+  {
+   "title": "Moradabad News: पीतलनगरी के पारंपरिक हुनर पर संकट, कारीगरों की अगली पीढ़ी तैयार करना चुनौती",
+   "url": "https://www.amarujala.com/uttar-pradesh/moradabad/traditional-craft-of-the-brass-city-faces-a-crisis-preparing-the-next-generation-of-artisans-remains-a-challenge-moradabad-news-c-15-1-mbd1055-1028315-2026-10-31",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Moradabad News: ईपीसीएच:वोटर लिस्ट की फिटनेस-प्रोसेस ने निर्यातकों में ला दी चुनावी गर्माहट",
+   "url": "https://www.livehindustan.com/uttar-pradesh/moradabad/story-epch-coa-elections-likely-to-begin-in-november-conclude-in-december-201793344193948.html",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Moradabad News: ईपीसीएच चुनाव : वोटर लिस्ट दुरुस्त कराने को नोटिस जारी",
+   "url": "https://www.livehindustan.com/uttar-pradesh/moradabad/story-epch-coa-elections-likely-to-begin-in-november-moradabad-central-region-seat-vacant-201793191552002.html",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Priti International Limited",
+   "url": "https://www.perplexity.ai/app/finance/PRITI.NS?comparing=ALKOSIGN.BO%2CHNI%2CXRX%2CKNCAY%2C7752.T%2CSUNDARAM.BO%2CNAVNETEDUL.NS&preset=peers&symbol=KNCAY",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Golden Carpets Q1 Results: Net loss widens to ₹7.31 lakh as revenue falls - Golden Carpets Q1 Results: Net loss widens to ₹7.31 lakh as revenue falls",
+   "url": "https://scanx.trade/stock-market-news/companies/golden-carpets-q1-results-net-loss-widens-to-7-31-lakh-as-revenue-falls/47667311#1",
+   "date": "2026-08-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Q4 FY26 Earnings Results",
+   "url": "https://tapetide.com/earnings-tracker/fy26/q4?sector=Consumer+Goods&sort=rev_qoq&order=desc",
+   "date": "2026-03-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Golden Carpe Standalone September 2025 Net Sales at Rs 0.52 crore, up 170.82% Y-o-Y - HomeNewsBusinessEarningsGolden Carpe Standalone September 2025 Net Sales at Rs 0.52 crore, up 170.82% Y-o-Y",
+   "url": "https://www.moneycontrol.com/news/business/earnings/golden-carpe-standalone-september-2025-net-sales-at-rs-0-52-crore-up-170-82-y-o-y-13664221.html#1",
+   "date": "2025-11-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Cottage Industries Exposition Limited (Revised)",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410121017_Cottage_Industries_Exposition_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 59 (national 48 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Exports +32.5% Apr-to-date in USD (Rs 10,743 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.8% YoY vs output +3.8% (gap +23.0 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Uttar Pradesh: electricity demand +8.6% Apr-to-date vs India +9.5% (0.9 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

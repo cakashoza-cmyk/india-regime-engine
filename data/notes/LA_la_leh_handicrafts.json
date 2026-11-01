@@ -1,0 +1,150 @@
+{
+ "key": "la_leh|handicrafts",
+ "state": "LA",
+ "city": "la_leh",
+ "ind": "handicrafts",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 48,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Leh pashmina/carpet units with verified buyer orders and clean receivables; avoid small loss-making weavers until order books and cash cycles are proven.",
+ "title": "Leh Handicrafts & Carpets: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Leh handicrafts and carpets is a wool-to-cash business: raw pashmina and wool bought from nomadic herders, spun and woven by household artisans, then sold to buyers in metros or abroad.** Cash sits in slow-moving finished stock and in receivables from distant buyers, not in the loom. The value is in design, finishing and buyer access; the weaving itself is low-margin piece work. So when a proposal lands, check where the borrower actually sits in that chain — raw wool trader, weaver, or finished-goods seller — because the working-capital cycle and the pricing power are completely different at each step.",
+  "## Where value and cash sit\n**Capex is light (looms, a small workshop, maybe a dyeing unit), so the real funding need is working capital, and the real risk is inventory.** Rating work on comparable textile and craft businesses flags inventory management as a key sensitivity [9] and notes the weaving business is fixed- as well as working-capital intensive [8]. Pricing power is thin for plain weaving and stronger for branded, design-led pashmina. So ask for the buyer list and order confirmations; if the borrower cannot name repeat buyers, treat the stock as illiquid and size the limit to what the buyer orders support.",
+  "## What has changed now\n**The local signal is positive but thin: Ladakhi brands showcased local craftsmanship at Lakmé Fashion Week with UT Administration support [1][2], and there is a policy push to lift pashmina from nomadic pastures into global supply chains [3].** That is visibility, not yet orders — no local sales or export figure for Leh appears in these sources, so collect from customer. Peer results are weak: Golden Carpets posted a Q1FY27 net loss of ₹7.31 lakh with revenue down 53.6% YoY to ₹12.05 lakh [5], and Priti International's revenue contracted 66.59% YoY with operating margin at -3.78% in Q1 FY27 [4]. Nationally, exports rose 32.5% Apr-to-date in USD [D], but bank credit grew 26.8% YoY against output of 3.8% [D] — money is chasing this sector faster than it is producing.",
+  "## Who to pursue, who to avoid\n**Pursue established Leh sellers with named buyers, repeat orders and a design or brand story — the type now getting fashion-week exposure [1][2].** Avoid pure job-work weavers and traders with no buyer contracts; the peer losses above [4][5] show how fast fixed costs bite when orders stop. Note the sources say little specifically about Leh volumes, so lean on first principles and these peers.",
+  "Rating methodology ties comfort to low leverage and longer-tenure debt [10], and to liquidity to meet short-term needs [11] — so keep the limit short-tenure and self-liquidating."
+ ],
+ "watch": [
+  [
+   "Quarterly buyer-wise sales",
+   "Top buyer share above half of sales -> seek a second confirmed buyer before renewal"
+  ],
+  [
+   "Monthly bank statement",
+   "Cheque returns or delayed buyer payments -> cut limit and ask for order confirmations"
+  ],
+  [
+   "Quarterly stock audit",
+   "Finished stock value exceeds order book -> revalue stock and reduce limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Fashion-week showcase and pashmina push are visibility, not orders; peer results weak.",
+ "articles": [
+  {
+   "title": "Ladakhi Brands thank UT Administration for opportunity to showcase local craftsmanship at Lakmé Fashion Week - Voice of Ladakh",
+   "url": "https://voiceofladakh.in/2026/10/ladakhi-brands-thank-ut-administration-for-opportunity-to-showcase-local-craftsmanship-at-lakme-fashion-week/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ladakhi Brands thank UT Administration for opportunity to showcase local craftsmanship at Lakme Fashion Week.",
+   "url": "https://ladakh.gov.in/ladakhi-brands-thank-ut-administration-for-opportunity-to-showcase-local-craftsmanship-at-lakme-fashion-week/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Heritage Meets Modernisation: Ladakh Pushes to Elevate Pashmina from Nomadic Pastures to Global Supply Chains - Advertisement",
+   "url": "https://www.republicworld.com/india/heritage-meets-modernisation-ladakh-pushes-to-elevate-pashmina-from-nomadic-pastures-to-global-supply-chains#1",
+   "date": "2026-05-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Priti International Limited",
+   "url": "https://www.perplexity.ai/app/finance/PRITI.NS?comparing=ALKOSIGN.BO%2CHNI%2CXRX%2CKNCAY%2C7752.T%2CSUNDARAM.BO%2CNAVNETEDUL.NS&preset=peers&symbol=KNCAY",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Golden Carpets Q1 Results: Net loss widens to ₹7.31 lakh as revenue falls - Golden Carpets Q1 Results: Net loss widens to ₹7.31 lakh as revenue falls",
+   "url": "https://scanx.trade/stock-market-news/companies/golden-carpets-q1-results-net-loss-widens-to-7-31-lakh-as-revenue-falls/47667311#1",
+   "date": "2026-08-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Q4 FY26 Earnings Results",
+   "url": "https://tapetide.com/earnings-tracker/fy26/q4?sector=Consumer+Goods&sort=rev_qoq&order=desc",
+   "date": "2026-03-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Golden Carpe Standalone September 2025 Net Sales at Rs 0.52 crore, up 170.82% Y-o-Y - HomeNewsBusinessEarningsGolden Carpe Standalone September 2025 Net Sales at Rs 0.52 crore, up 170.82% Y-o-Y",
+   "url": "https://www.moneycontrol.com/news/business/earnings/golden-carpe-standalone-september-2025-net-sales-at-rs-0-52-crore-up-170-82-y-o-y-13664221.html#1",
+   "date": "2025-11-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cottage Industries Exposition Limited (Revised)",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410121017_Cottage_Industries_Exposition_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 48 (national 48 x 0.6 + Ladakh None x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: Exports +32.5% Apr-to-date in USD (Rs 10,743 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.8% YoY vs output +3.8% (gap +23.0 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: IIP NIC 32 output +3.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +3.8% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

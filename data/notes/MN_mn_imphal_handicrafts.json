@@ -1,0 +1,154 @@
+{
+ "key": "mn_imphal|handicrafts",
+ "state": "MN",
+ "city": "mn_imphal",
+ "ind": "handicrafts",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 48,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Imphal handloom/handicraft units with verified festival and institutional order books and clean receivables; avoid leveraged single-channel weavers until cash-cycle data is collected.",
+ "title": "Imphal Handicrafts & Carpets: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Handloom and handicraft units in Imphal convert yarn and cane/bamboo into finished pieces sold through festive fairs, state emporia and NHDC channels.** The recent Mera Hou Chongba fair drew 42 stalls, with some recording sales over Rs 1.5 lakh across seven days [1][2] — that is the retail pulse, not a factory order book. Cash sits in finished-goods inventory and in festival receivables; value is in design and loom time, not machinery. **So when a proposal lands, check whether the unit sells through fairs/emporia or holds a repeat institutional buyer; if it is fair-only, ask for the last three fairs' stall sales.**",
+  "## Where cash and risk sit\n**The cycle is short but lumpy: yarn purchase, weaving, then festive sale, so working capital peaks before each fair.** Rating methodology flags weaving as fixed- and working-capital intensive with high funding needs [8], and inventory management is a key rating sensitivity [9]. **So when a proposal lands, check inventory days and yarn stocking ahead of fairs; if stock exceeds one season's sales, ask for the ageing and the buyer list.** Capex is loom and workshop, modest, but term debt tenure drives coverage [10].",
+  "## What has changed now\n**Local news is thin: the only Imphal datapoints are the October 2026 fair and a related seminar [1][2][3] — no city-level sales, order or credit data exists in the pack.** Manipur electricity demand is up 12.6% Apr-to-date versus India's 9.5% [D], a local activity tailwind, but that is power, not craft demand. Peer results are weak and dated: Golden Carpets' Q1FY27 revenue fell 53.6% YoY to Rs 12.05 lakh with a Rs 7.31 lakh net loss [5], and Priti International's revenue contracted 66.59% YoY with -3.78% operating margin [4]. **Treat peers as a warning on leveraged, single-channel craft exporters, not as Imphal evidence.**",
+  "## Where to grow, and how to grow safely\n**Pursue weaver collectives and small units with repeat buyers — state emporia, NHDC, hotel and export buyers — and units adding a second channel beyond fairs.** Avoid highly leveraged single-fair sellers and pure trading intermediaries with no loom base. **Structure as cash-flow-backed working capital with a drawing limit tied to verified orders; take monthly stock and sales statements, quarterly buyer-wise receivables, and fair-wise stall sales.** For term loans, match tenure to loom life per rating guidance [10]. Collect from customer: yarn cost per unit, realisations, receivable days, and current lender exposure.",
+  "## Early-warning signs\n**Watch for stock building faster than fair sales, receivables ageing past one season, and dependence on a single buyer or fair.** If stall sales fall below the Rs 1.5 lakh benchmark seen at the 2026 fair [1][2], ask for the next fair's bookings before renewing limits. If a unit cannot show buyer-wise receivables, treat it as unverified and hold enhancement."
+ ],
+ "watch": [
+  [
+   "Monthly stock and sales statement (monthly)",
+   "Stock exceeds one season's sales -> freeze drawing limit and inspect godown"
+  ],
+  [
+   "Buyer-wise receivables (quarterly)",
+   "Any single buyer above half of sales -> seek diversification plan before renewal"
+  ],
+  [
+   "Fair-wise stall sales (per fair)",
+   "Sales below Rs 1.5 lakh per stall [1][2] -> ask for next fair bookings and cut limit"
+  ],
+  [
+   "Yarn purchase invoices vs output (monthly)",
+   "Yarn bought far exceeds woven output -> query diversion and stop fresh disbursal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Only festive-fair local news; peer results weak but dated, no Imphal credit data.",
+ "articles": [
+  {
+   "title": "Mera Hou Chongba Festive Fair concludes",
+   "url": "https://www.thesangaiexpress.com/Encyc/2026/10/31/by-our-staff-reporter-imphal-oct-30-the-mera-hou-chongba-festive-fair-2026-organised-by-district-handlooms-tex.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Mera Hou Chongba Festive Fair concludes : 31st oct26",
+   "url": "https://e-pao.net/GP.asp?src=8..311026.oct26",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Seminar conducted",
+   "url": "https://www.thesangaiexpress.com/Encyc/2026/10/30/by-our-staff-reporter-imphal-oct-29-a-one-day-seminar-on-mera-houchongba-and-role-of-handloom-in-strengthening.html",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Priti International Limited",
+   "url": "https://www.perplexity.ai/app/finance/PRITI.NS?comparing=ALKOSIGN.BO%2CHNI%2CXRX%2CKNCAY%2C7752.T%2CSUNDARAM.BO%2CNAVNETEDUL.NS&preset=peers&symbol=KNCAY",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Golden Carpets Q1 Results: Net loss widens to ₹7.31 lakh as revenue falls - Golden Carpets Q1 Results: Net loss widens to ₹7.31 lakh as revenue falls",
+   "url": "https://scanx.trade/stock-market-news/companies/golden-carpets-q1-results-net-loss-widens-to-7-31-lakh-as-revenue-falls/47667311#1",
+   "date": "2026-08-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Q4 FY26 Earnings Results",
+   "url": "https://tapetide.com/earnings-tracker/fy26/q4?sector=Consumer+Goods&sort=rev_qoq&order=desc",
+   "date": "2026-03-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Golden Carpe Standalone September 2025 Net Sales at Rs 0.52 crore, up 170.82% Y-o-Y - HomeNewsBusinessEarningsGolden Carpe Standalone September 2025 Net Sales at Rs 0.52 crore, up 170.82% Y-o-Y",
+   "url": "https://www.moneycontrol.com/news/business/earnings/golden-carpe-standalone-september-2025-net-sales-at-rs-0-52-crore-up-170-82-y-o-y-13664221.html#1",
+   "date": "2025-11-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cottage Industries Exposition Limited (Revised)",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410121017_Cottage_Industries_Exposition_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 48 (national 48 x 0.6 + Manipur None x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Manipur: electricity demand +12.6% Apr-to-date vs India +9.5% (3.1 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Exports +32.5% Apr-to-date in USD (Rs 10,743 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.8% YoY vs output +3.8% (gap +23.0 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: IIP NIC 32 output +3.2% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

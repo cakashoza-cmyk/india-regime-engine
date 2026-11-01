@@ -1,0 +1,151 @@
+{
+ "key": "up_firozabad|glass",
+ "state": "UP",
+ "city": "up_firozabad",
+ "ind": "glass",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 71,
+ "nudged_by_news": false,
+ "verdict": "Lend in Firozabad glass only to furnace-owning units with verified fire safety and to mosaic/decorative assemblers with confirmed festival orders; avoid single-furnace units with no safety audit and no order book.",
+ "title": "Firozabad Glass & Glassware: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Firozabad turns silica sand, soda ash and borosilicate tube into bangles, tumblers, vases and now mosaic decorative pieces, and cash comes back only after the furnace runs and the trader sells.** The mosaic line is the clearest picture we have: borosilicate glass pipe is melted over fire, shaped, then coloured beads are hand-applied, with about five artisans on one piece [1]. That tells you the unit economics: labour-heavy, low ticket, seasonal spike. **So when a proposal lands, check the order book against the festival calendar, not the annual sales line.**\n\n## Where value and cash sit\n**Value sits in the furnace and the design skill, not in the godown.** A furnace is the fixed asset and the risk: a leak at one Firozabad glass factory took the fire department six hours to control [3]. Capex is furnace rebuilds and moulds; working capital is sand, fuel and artisan wages paid weekly against trader credit. **So ask for the furnace age, last rebuild date and fire-safety compliance before anything else; if the unit cannot show a safety audit, ask why and price it in.** Peer Borosil shows the margin reality: Q1 FY2027 revenue grew 9% but EBITDA margin fell to 14.6% on input cost inflation, with an 18% margin targeted for FY2027 [7]. **So stress the proposal at a margin below the borrower's own claim, and ask what price hike they have actually taken.**\n\n## What has changed now\n**The local demand signal is genuinely positive but narrow.** UP GST collections rose 14.2% Apr-to-date against India's 6.1% [D], and India-wide glass output (NIC 23) is up 11.4% YoY [D]. The state is also pushing a first-of-its-kind glass museum in Firozabad on the Italy model among 511 tourism projects [2] — that is sentiment and footfall, not borrower cash flow. **Treat the museum as a story, not a repayment source.** Note the sources say little about Firozabad's own credit or unit-level data; we are leaning on first principles and peers. ## Who to pursue, who to avoid\n**Pursue furnace-owning units with a safety record and decorative/mosaic assemblers with confirmed orders; avoid single-furnace units with no audit and pure trader-intermediaries with no stock.** The mosaic trade is seasonal and order-driven [1], so structure it as a drawing-power limit against confirmed purchase orders, not a clean term loan. **Take monthly stock and order statements, quarterly GST returns, and a furnace insurance endorsement in the bank's name.**\n\n## Early warning signs\n**Watch the furnace, the festival and the margin together.** A missed Diwali order cycle, a margin below the peer's 14.6% [7], or any fire/safety incident [3] is a signal to freeze fresh limits.",
+  "- Stock and order statement (monthly): stock ageing beyond one festival cycle -> cut limit by the unsold value. - GST returns (monthly): declared turnover falling below the drawing limit's assumed run-rate -> ask for revised projections. - Furnace insurance and safety certificate (annual): lapse or no audit -> stop fresh disbursement. - Margin trend (quarterly): EBITDA margin below 14.6% [7] -> reprice or ask for promoter support."
+ ],
+ "watch": [
+  [
+   "Stock and order statement (monthly)",
+   "stock ageing beyond one festival cycle -> cut limit by the unsold value"
+  ],
+  [
+   "GST returns (monthly)",
+   "declared turnover below assumed run-rate -> ask for revised projections"
+  ],
+  [
+   "Furnace insurance and safety certificate (annual)",
+   "lapse or no audit -> stop fresh disbursement"
+  ],
+  [
+   "Margin trend (quarterly)",
+   "EBITDA margin below 14.6% [7] -> reprice or ask for promoter support"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "UP GST and glass output positive, but local data thin and one factory fire noted.",
+ "articles": [
+  {
+   "title": "फिरोजाबाद के कारीगरों का कमाल, कांच के रंग-बिरंगे नगों से बना रहे खूबसूरत डेकोरेटिव आइटम",
+   "url": "https://hindi.news18.com/amp/news/uttar-pradesh/firozabad-glass-mosaic-items-diwali-home-decoration-handmade-decor-local18-10954603.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Uttar Pradesh Tourism: इटलीच्या धर्तीवर फिरोझाबादमध्ये उभारणार भारतातील पहिले; 'ग्लास म्युझियम'; ५११ पर्यटन प्रकल्पांना गती",
+   "url": "https://www.esakal.com/desh/india-first-glass-museum-to-come-up-in-firozabad-on-italy-model-as-uttar-pradesh-accelerates-511-tourism-projects-across-state-sdj87",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "फिरोजाबाद की ग्लास फैक्ट्री में भट्ठी लीक होने से लगी आग, दमकल विभाग ने 6 घंटे के बाद पाया काबू - firozabad glass factory fire furnace leak causes blaze",
+   "url": "https://www.jagran.com/uttar-pradesh/firozabad-firozabad-glass-factory-fire-furnace-leak-causes-blaze-40416555.html",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Borosil Q1 2026 profit falls as margins narrow By Investing.com - Earnings call transcript: Borosil Q1 2026 profit falls as margins narrow",
+   "url": "https://ca.investing.com/news/transcripts/earnings-call-transcript-borosil-q1-2026-profit-falls-as-margins-narrow-93CH-4807980#1",
+   "date": "2026-08-18",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Borosil (NSE:BOROLTD) Q3 2026 Earnings Call Transcript & Audio - Fundamental Charts Launch Get 1 month free + 20% off your first year",
+   "url": "https://stockanalysis.com/quote/nse/BOROLTD/transcripts/415958-q3-25-26/#1",
+   "date": "2026-02-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Borosil Ltd (BOM:543212) Q3 2026 Earnings Call Highlights: Stron - 🚀 Enjoy a 7-Day Free Trial Thru Aug 18, 2026",
+   "url": "https://www.gurufocus.com/news/8599900/borosil-ltd-bom543212-q3-2026-earnings-call-highlights-strong-revenue-growth-amidst-margin-pressures?r=caf6fe0e0db70d936033da5461e60141&utm_campaign=headlines#1",
+   "date": "2026-02-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Borosil (NSE:BOROLTD) Earnings Call Transcripts - Borosil Limited (NSE:BOROLTD)",
+   "url": "https://stockanalysis.com/quote/nse/BOROLTD/transcripts/#1",
+   "date": "2026-08-18",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SSGSFL has not cooperated with Credit Analysis & Research Ltd (CARE), ICRA Ltd (ICRA) and Brickwork Ratings India Pvt Ltd (Brick...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Sar%20Senapati%20Santaji%20Ghorpade%20Sugar%20Factory%20Limited-RU-03-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "April 07, 2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=134333#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202503120354_Gobind_Glass_and_Industries_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 71 (national 68 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 23 output +11.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +12.4% YoY vs output +10.2% (gap +2.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

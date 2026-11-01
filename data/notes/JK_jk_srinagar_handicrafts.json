@@ -1,0 +1,154 @@
+{
+ "key": "jk_srinagar|handicrafts",
+ "state": "JK",
+ "city": "jk_srinagar",
+ "ind": "handicrafts",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:51 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 29,
+ "nudged_by_news": false,
+ "verdict": "Avoid new unsecured handicraft/carpet exposure in Srinagar; lend only to GI-certified, toolkit-supported units with tight stock-and-receivable control.",
+ "title": "Srinagar Handicrafts & Carpets: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Srinagar carpet or Pashmina unit buys raw wool or yarn, pays master artisans by the piece, and sells finished pieces to exporters and showrooms months later.** Cash leaves at the loom and returns at the shipping bill, so the working-capital cycle is long and the inventory is the collateral. **The value sits in the finished, authenticated piece, not the loom** — which is why GI testing volumes matter to us. [1]",
+  "## What has changed now\n**The local demand signal is negative: J&K GST collections are -10.6% Apr-to-date against India +6.1%, and electricity demand is -0.5% against India +9.5% [D].** That is a state-level stress read, not a Srinagar-specific one — the sources say little about this city, so lean on first principles and peers. **Peer results confirm the squeeze: Golden Carpets' Q1FY27 revenue fell 53.6% YoY to ₹12.05 lakh with a ₹7.31 lakh net loss [5], and Priti International's revenue contracted 66.59% YoY with operating margin at -3.78% [4].** Both are dated 2026 and are the clearest read we have. **Nationally, bank credit is +26.8% YoY against output +3.8% [D] and repo is 5.5% on a tightening stance [D]** — so any handicraft proposal priced off old assumptions is underpriced.",
+  "## Where the growth is\n**The one live positive is authentication: GI testing is projected to nearly double to 42,000 in 2026-27 from 22,351 in 2025-26, with the daily rate up to around 170 from 75-85 [1].** Separately, the Textiles Ministry has released ₹30.46 lakh under NHDP for toolkits and skill training across carpet, Sozni, Papier Mache and walnut carving [2][3]. **So pursue the GI-certified Pashmina, Kani and Sozni units and the toolkit-supported artisan clusters; avoid the plain reseller and the unauthenticated grey-market trader.** When a proposal lands, check the GI test certificate and QR coding before sanctioning; if the borrower cannot show certification, ask why and price for the risk.",
+  "## How to grow safely\n**Structure against the inventory, not the balance sheet: hypothecation of stock, receivables-backed drawing power, and no clean unsecured limits.** Rating methodology is explicit that inventory management while sustaining scale is the key sensitivity [9] and that high leverage leaves a unit vulnerable in a downturn [8][10]. **Take stock statements and GI test counts every month, and receivables ageing every quarter.** If the drawing power falls below the limit, ask for the shortfall in cash before renewing.",
+  "## Early-warning signs\n**Watch the monthly GI test count at the unit, the stock-turn days, and the export receivable ageing.** If test volumes stall while stock rises, the unit is holding unsold inventory — stop fresh disbursement and inspect the godown. If a borrower's revenue falls at the pace of the peers above [4][5], move to secured-only. **The data call is Avoid at 29 [D]; the local news is mixed but the state demand signals are worse, so the call stays Avoid for unsecured and selective for certified units.**"
+ ],
+ "watch": [
+  [
+   "GI test count per borrower (monthly)",
+   "stalls two months running -> stop fresh disbursement, inspect stock"
+  ],
+  [
+   "Stock statement vs drawing power (monthly)",
+   "drawing power below limit -> demand cash shortfall before renewal"
+  ],
+  [
+   "Receivable ageing (quarterly)",
+   "beyond agreed days -> shift to secured-only, cap limit"
+  ],
+  [
+   "J&K GST collections (monthly)",
+   "stays negative -> freeze new unsecured sanctions in the cluster"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "State GST and power demand trail India sharply; peer carpet revenues collapsed.",
+ "articles": [
+  {
+   "title": "Kashmir GI tests set to double this fiscal - Daily Excelsior",
+   "url": "https://www.dailyexcelsior.com/kashmir-gi-tests-set-to-double-this-fiscal/amp/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Textiles Ministry releases ₹30.46 lakh for improved toolkits, upskilling of artisans - Textiles Ministry releases ₹30.46 lakh for improved toolkits, upskilling of artisans",
+   "url": "https://kashmirreader.com/2026/10/28/textiles-ministry-releases-%e2%82%b930-46-lakh-for-improved-toolkits-upskilling-of-artisans/#1",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "New push to preserve Kashmir’s traditional crafts - New push to preserve Kashmir’s traditional crafts",
+   "url": "https://risingkashmir.com/jammu-and-kashmir-news/kashmir/new-push-to-preserve-kashmirs-traditional-crafts-12759052#1",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Priti International Limited",
+   "url": "https://www.perplexity.ai/app/finance/PRITI.NS?comparing=ALKOSIGN.BO%2CHNI%2CXRX%2CKNCAY%2C7752.T%2CSUNDARAM.BO%2CNAVNETEDUL.NS&preset=peers&symbol=KNCAY",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Golden Carpets Q1 Results: Net loss widens to ₹7.31 lakh as revenue falls - Golden Carpets Q1 Results: Net loss widens to ₹7.31 lakh as revenue falls",
+   "url": "https://scanx.trade/stock-market-news/companies/golden-carpets-q1-results-net-loss-widens-to-7-31-lakh-as-revenue-falls/47667311#1",
+   "date": "2026-08-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Q4 FY26 Earnings Results",
+   "url": "https://tapetide.com/earnings-tracker/fy26/q4?sector=Consumer+Goods&sort=rev_qoq&order=desc",
+   "date": "2026-03-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Golden Carpe Standalone September 2025 Net Sales at Rs 0.52 crore, up 170.82% Y-o-Y - HomeNewsBusinessEarningsGolden Carpe Standalone September 2025 Net Sales at Rs 0.52 crore, up 170.82% Y-o-Y",
+   "url": "https://www.moneycontrol.com/news/business/earnings/golden-carpe-standalone-september-2025-net-sales-at-rs-0-52-crore-up-170-82-y-o-y-13664221.html#1",
+   "date": "2025-11-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cottage Industries Exposition Limited (Revised)",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410121017_Cottage_Industries_Exposition_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 29 (national 48 x 0.6 + Jammu and Kashmir 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Jammu and Kashmir: GST collections -10.6% Apr-to-date vs India +6.1% (16.7 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Jammu and Kashmir: electricity demand -0.5% Apr-to-date vs India +9.5% (10.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +26.8% YoY vs output +3.8% (gap +23.0 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
