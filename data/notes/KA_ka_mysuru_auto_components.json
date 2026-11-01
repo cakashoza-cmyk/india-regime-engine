@@ -1,0 +1,151 @@
+{
+ "key": "ka_mysuru|auto_components",
+ "state": "KA",
+ "city": "ka_mysuru",
+ "ind": "auto_components",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 100,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Mysuru auto components — Karnataka demand is running well ahead of India [D], so back tier-2 component and EV-transition suppliers with tight covenants and avoid single-OEM, engine-part-concentrated units.",
+ "title": "Mysuru Auto & Auto Components: a note to the credit manager",
+ "narrative": [
+  "**Pricing power is thin and set by the OEM** — ICRA notes high competitive intensity forces high operational efficiency [8], and CRISIL flags that suppliers of engine and related parts carry higher obsolescence risk as EVs spread [11]. So when a proposal lands, check the customer mix and the part family before the balance sheet. ## Where the cash actually sits\n**Gross current assets have averaged 160-170 days in recent years [10]** — that is the real lending need, not the machine. **Margin is squeezed from the input side**: ASK Automotive reported record revenue but aluminium squeezing margins [5], and Elara expects strong Q4FY26 volumes with margins under pressure from commodity risk [6]. So ask for the hedging policy on aluminium and steel; if the unit is unhedged and sells on fixed-price annual contracts, price the risk in or decline. **Capex should be customer-backed** — a new line only against a named OEM nomination letter, never speculative. ## What has changed now\n**Karnataka is outrunning India: GST collections +11.1% Apr-to-date vs +6.1% [D], and electricity demand +23.3% vs +9.5% [D].** Nationally, IIP for NIC 29 auto output is +25.2% YoY and +19.2% Apr-to-date [D]. **Peer results confirm the volume pull**: Motherson Sumi Wiring net profit up 35% to Rs 223 crore on revenue up 46.7% to Rs 4,054 crore [4], and Lumax Auto beat Q2 2026 estimates and lifted its outlook [7]. **Local news is thin on components specifically** — a Hyundai Bayon launch at a Mysuru dealer [3] and a proposed ARAI centre in neighbouring Mandya [2] are demand and ecosystem signals, not order books. Treat them as sentiment, not collateral. ## Who to pursue, who to avoid\n**Pursue tier-2 component makers with two or more OEM customers, EV-agnostic or EV-leaning product lines, and a nomination pipeline.** ASK's order wins span EV braking and aluminium lightweighting [5] — that is the shape to back. **Avoid single-OEM dependent units, engine/diesel-injection specialists with no EV plan [11], and any borrower whose receivables are stretching beyond the 160-170 day norm [10].**\n\n## How to grow safely\n**Structure as cash-flow lending against receivables, not clean term debt.** Take monthly stock-and-debtor statements, a quarterly drawing-power reconciliation, and a covenant capping Debt/EBITDA — rating guidance flags stress above 2.5-2.75 times [10]. **Take the OEM nomination letters and the hedging confirmations every quarter.** If receivables cross 170 days, ask for the ageing and the top-buyer payment record before any enhancement.",
+  "## Early warning signs to watch\n- **Receivable days drifting past 170 [10]** — ask for buyer-wise ageing and stop enhancement. - **Unhedged aluminium/steel exposure on fixed-price contracts [5][6]** — demand a hedge or reprice the facility. - **Customer concentration above two-thirds in one OEM** — seek a second nomination before renewal. - **Engine-part-only product mix with no EV roadmap [11]** — shorten tenor and raise margin."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-debtor statement",
+   "Receivable days cross 170 [10] -> freeze limit, request buyer-wise ageing"
+  ],
+  [
+   "Quarterly hedging confirmation",
+   "Unhedged metal exposure on fixed-price orders [5][6] -> demand hedge or reprice"
+  ],
+  [
+   "Quarterly Debt/EBITDA covenant",
+   "Crosses 2.5-2.75x [10] -> escalate, no enhancement"
+  ],
+  [
+   "Monthly OEM order/nomination tracker",
+   "Single-OEM share above two-thirds -> require second nomination at renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Karnataka GST and power demand outpace India; auto IIP +25.2% YoY [D].",
+ "articles": [
+  {
+   "title": "Women auto drivers mark Rajyotsava with free-ride pledge",
+   "url": "https://timesofindia.indiatimes.com/city/mysuru/women-auto-drivers-mark-rajyotsava-with-free-ride-pledge/articleshow/135433504.cms",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Shivakumar asks Kumaraswamy to identify land for ARAI centre in Mandya",
+   "url": "https://www.thehindu.com/news/national/karnataka/shivakumar-asks-kumaraswamy-to-identify-land-for-arai-centre-in-mandya/article71648656.ece",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Hyundai Bayon launched at KPR Hyundai in Mysuru - Star of Mysore",
+   "url": "https://starofmysore.com/hyundai-bayon-launched-at-kpr-hyundai-in-mysuru/",
+   "date": "2026-10-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 100 (national 100 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Karnataka: GST collections +11.1% Apr-to-date vs India +6.1% (5.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Karnataka: electricity demand +23.3% Apr-to-date vs India +9.5% (13.8 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

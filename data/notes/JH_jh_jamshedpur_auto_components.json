@@ -1,0 +1,158 @@
+{
+ "key": "jh_jamshedpur|auto_components",
+ "state": "JH",
+ "city": "jh_jamshedpur",
+ "ind": "auto_components",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Jamshedpur auto components — pursue Tier-2/Tier-3 units with Tata Motors-linked order books and EV-agnostic products; avoid single-OEM, engine-part-dependent units with stretched working capital.",
+ "title": "Jamshedpur Auto & Auto Components: a note to the credit manager",
+ "narrative": [
+  "Cash sits in receivables and inventory, not in the plant. The plant is presses, CNCs and dies — capex is lumpy and die-specific, so a supplier's asset is only worth what the next order book says.",
+  "## What has changed now\n**National auto-component output is running hot: IIP NIC 29 output +25.2% YoY and +19.2% Apr-to-date [D].** Peer results confirm demand — Motherson Sumi Wiring net profit up 35% to Rs 223 crore with revenue up 46.7% to Rs 4,054 crore [4], and Lumax lifted its growth guidance after a strong first half [7]. But margins are the weak spot: ASK Automotive posted record revenue while aluminium squeezed margins [5], and Elara expects Q4FY26 auto EBITDA growth of about 21% with commodity risks rising [6]. Locally, the signal is consumption-led — a Land Cruiser worth Rs 2.5 crore sold in Jamshedpur on Dhanteras, with EV and hybrid demand rising [1] — and Tata Motors' Jamshedpur plant agreed a 14% bonus with 151 new FTAs hired [2]. **So when a proposal lands, check the customer's commodity pass-through clause; if aluminium or steel is unhedged and unbilled, ask for the last three months' price-variation invoices.**",
+  "## Where the growth is\n**Bank credit is growing +27.0% YoY against output +19.2%, a 7.8 pp gap [D] — money is chasing this sector faster than it is producing.** Jharkhand's electricity demand is up 15.2% Apr-to-date versus India's 9.5% [D], a real local tailwind. Pursue Tier-2/Tier-3 units with EV-agnostic products — braking, lightweighting, aluminium — where ASK reports substantial EV order wins [5]. Avoid units concentrated on engine and related parts; rating commentary flags higher obsolescence risk as EVs spread [11]. **If a borrower's order book is one OEM and one part family, ask for the customer-wise sales split before you sanction.**",
+  "## How to grow safely\n**Structure against the working-capital cycle, not the P&L.** Rating commentary notes gross current assets averaging 160-170 days [10], so size the drawing power on that reality. Take monthly stock-and-debtor statements, quarterly GST returns, and a die/order-book confirmation from the OEM. **If Debt/EBITDA crosses 2.5-2.75 times on debt-funded capex, ask for the capex phasing and OEM letter of intent before enhancing limits [10].** Cap single-OEM exposure and take a second charge on dies where possible.",
+  "## Early-warning signs\n**Watch receivable days against the OEM's payment cycle and inventory build against order releases.** A supplier whose billing slows while its OEM parent is hiring [2] is a supplier losing share, not a supplier waiting for demand. Watch commodity-led gross margin compression [5][6] and any shift in the borrower's part mix toward engine components [11]. Local coverage of this cluster is thin — the Adityapur detail comes from a single LinkedIn post [3], so lean on first principles and peer results for the rest."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-debtor statement (monthly)",
+   "Receivable days stretch beyond the OEM cycle -> ask for the ageing and hold enhancement"
+  ],
+  [
+   "GST returns vs billed sales (quarterly)",
+   "Billed sales fall while GST turnover holds -> investigate unbilled or diverted sales"
+  ],
+  [
+   "Debt/EBITDA from annual financials (annual)",
+   "Crosses 2.5-2.75 times -> require capex phasing and OEM LOI before any limit increase"
+  ],
+  [
+   "OEM order releases and part mix (quarterly)",
+   "Shift toward engine parts or single-OEM concentration rises -> reduce exposure or reprice"
+  ],
+  [
+   "Commodity pass-through invoices (monthly)",
+   "Aluminium/steel cost unhedged and unbilled -> ask for price-variation invoices and margin bridge"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "National auto output +25.2% YoY, peer profits up, local luxury sales and plant hiring strong.",
+ "articles": [
+  {
+   "title": "पोर्ट पर उतरते ही डिलीवरी : जमशेदपुर में बिकीं ढाई करोड़ की लैंड क्रूजर, जानिए Dhanteras पर कारों का ट्रेंड",
+   "url": "https://org374nextwww.jagran.com/jharkhand/jamshedpur-jamshedpur-dhanteras-luxury-car-sales-boom-evs-hybrids-trend-40424349.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "टाटा मोटर्स जमशेदपुर प्लांट के कर्मियों को मिलेगा 85,176 रुपये का बोनस, प्रबंधन-यूनियन में बनी सहमति",
+   "url": "https://thefollowup.in/jharkhand/news/employees-of-the-tata-motors-jamshedpur-plant-will-receive-a-14-percent-bonus-this-year-84825.html",
+   "date": "2026-09-27",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Jamshedpur's Unsung Heroes: Adityapur-Gamharia Industrial Ecosystem | Ankit Kumar Jha 发布的此话题相关的动态 | 领英 - Jamshedpur's Unsung Heroes: Adityapur-Gamharia Industrial Ecosystem",
+   "url": "https://www.linkedin.com/posts/ankitkumarjha-jsr_jamshedpur-adityapur-gamharia-activity-7495679273337450496-e5ze#1",
+   "date": "2026-08-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 100 x 0.6 + Jharkhand 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Jharkhand: electricity demand +15.2% Apr-to-date vs India +9.5% (5.7 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

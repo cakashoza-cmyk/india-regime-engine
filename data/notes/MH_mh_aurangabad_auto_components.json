@@ -1,0 +1,154 @@
+{
+ "key": "mh_aurangabad|auto_components",
+ "state": "MH",
+ "city": "mh_aurangabad",
+ "ind": "auto_components",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Aurangabad auto components — pursue EV-capable tier-2 suppliers with tight covenants; avoid single-OEM, ICE-engine-dependent units.",
+ "title": "Aurangabad auto & auto components: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nAurangabad (Chhatrapati Sambhajinagar) runs on two anchors: the Bajaj Auto Waluj plant and the Skoda Auto Volkswagen India facility, both of which have had stop-start histories — the local coverage records a COVID-era shutdown, a 50% pay cut and a union shutdown appeal at Bajaj [1]. **A component supplier here is a press-and-machine shop that converts steel, aluminium and bought-out castings into brackets, shafts and sub-assemblies, and sells them to one or two OEMs on schedule.** Cash is made on the conversion margin, not the metal; the OEM sets the price and the payment clock.",
+  "## Where value and cash sit\n**Pricing power is thin and the working-capital cycle is long.** ICRA's two-wheeler methodology flags high competitive intensity forcing high operating efficiency [8], and a rated component peer shows gross current assets averaging 160-170 days [10]. Capex is press and CNC capacity — lumpy, and debt-funded capex that pushes Debt/EBITDA past 2.5-2.75 times is a stated rating red flag [10].",
+  "## What has changed now\n**Demand is strong but margins are being squeezed by input costs.** Motherson Sumi Wiring's Q2 profit rose 35% to Rs 223 crore on revenue up 46.7% to Rs 4,054 crore [4]; Lumax beat Q2 2026 estimates and lifted its growth target [7]; but ASK Automotive reported record revenue with aluminium squeezing margins [5], and Elara expects Q4FY26 EBITDA growth of about 21% with commodity risk [6]. Locally, CSN is being described as a rising EV hub on the back of JSW investment [2] — that is a LinkedIn post, not audited data, so treat it as a lead, not a fact. The Bajaj plant news [1] is old (COVID-era) and should not drive today's decision.",
+  "## Where to grow, and how to grow safely\n**Pursue tier-2 suppliers already shipping EV or powertrain-agnostic parts** — ASK's order wins span braking and aluminium lightweighting across EV [5], and CRISIL warns that engine-and-related-part suppliers face obsolescence risk as EVs spread [11]. Avoid single-OEM, diesel-injection-dependent units. Structure: receivables-backed CC as the core limit, LC for metal imports, and a term loan only against a confirmed OEM nomination letter. Take monthly: stock-and-receivable statements, OEM payment advices, and a quarterly Debt/EBITDA certificate.",
+  "- **Aluminium/steel input cost spike without a pass-through clause (monthly)** -> re-run the margin; if EBITDA falls below the level that services debt at 2.5x, restructure to LC-only. - **Order book shifting from ICE engine parts to EV parts (quarterly)** -> this is good; increase limit for EV-nominated suppliers, freeze for ICE-only. - **Debt/EBITDA above 2.5-2.75 times (quarterly)** -> stop fresh capex lending [10]. - **OEM plant shutdown or wage dispute at Waluj or SAVWIPL (event-based)** -> freeze new sanctions until production resumes [1]."
+ ],
+ "watch": [
+  [
+   "Input cost vs pass-through (monthly)",
+   "aluminium/steel spike with no clause -> re-run margin, shift to LC-only"
+  ],
+  [
+   "Debt/EBITDA (quarterly)",
+   "above 2.5-2.75x -> stop fresh capex lending [10]"
+  ],
+  [
+   "OEM plant status (event-based)",
+   "shutdown or wage dispute at Waluj/SAVWIPL -> freeze new sanctions [1]"
+  ],
+  [
+   "Order mix ICE vs EV (quarterly)",
+   "shift to EV parts -> raise limit for EV-nominated, freeze ICE-only"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Peer results strong but margin squeeze from aluminium; local EV hub claim unverified.",
+ "articles": [
+  {
+   "title": "Aurangabad Plant: Latest News, Photos, Videos on Aurangabad Plant - NDTV.COM - Advertisement",
+   "url": "https://www.ndtv.com/topic/aurangabad-plant#1",
+   "date": "2026-09-22",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Chhatrapati Sambhajinagar Emerges as India's Next EV Hub | Mragank Jain 发布的此话题相关的动态 | 领英 - 跳到主要内容",
+   "url": "https://www.linkedin.com/posts/mragank-jain_manufacturing-ev-indiagrowth-activity-7450762634595069952-3soN#1",
+   "date": "2026-04-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "3000 दुचाकी, 1300 कारची बुकिंग: गतवर्षीच्या तुलनेत 500 दुचाकी तर 100 कारची अधिक विक्री - Chhatrapati Sambhajinagar News - Sun, Oct 11, 2026Updated 04:13 AM IST",
+   "url": "https://divyamarathi.bhaskar.com/local/maharashtra/aurangabad/news/3000-two-wheelers-1300-cars-booked-500-two-wheelers-and-100-cars-sold-more-than-last-year-dbp-137474628.html#1",
+   "date": "2026-03-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 100 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

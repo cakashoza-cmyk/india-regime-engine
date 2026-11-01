@@ -1,0 +1,158 @@
+{
+ "key": "hr_gurugram|auto_components",
+ "state": "HR",
+ "city": "hr_gurugram",
+ "ind": "auto_components",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Gurugram auto components — pursue EV-transitioning and export-linked Tier-2 suppliers with tight covenants; avoid pure ICE-engine-part makers and stressed files already in OTS.",
+ "title": "Gurugram Auto & Auto Components: a note to the credit manager",
+ "narrative": [
+  "Capex is lumpy — a new mould or line is ordered only after an order win, so capex should track confirmed business, not precede it. **When a proposal lands, check the buyer concentration and the receivable days first; if one OEM is above half of sales, ask for the purchase order and payment history.**",
+  "## What has changed now\n**The national numbers are strong: IIP for NIC 29 output is +25.2% YoY and +19.2% Apr-to-date [D], and Haryana GST is running +10.1% Apr-to-date against India's +6.1% [D].** Peer results confirm demand — Motherson Sumi Wiring profit up 35% to Rs 223 crore with revenue up 46.7% to Rs 4,054 crore [4], and Lumax lifted its growth outlook [7]. But bank credit is growing +27.0% YoY against output +19.2%, a +7.8 pp gap [D], so part of the lending is running ahead of real production. **That gap is where weak files hide; ask what the loan actually funds.**",
+  "## The local pivot and the growth pocket\n**Gurgaon-Manesar MSMEs are being pushed to move from ICE parts to EV components — battery management, charging, electronics [1].** This is the growth pocket: pursue Tier-2 suppliers with a confirmed EV order, powertrain-agnostic tooling, and export enquiry. ASK Automotive's EV order wins and export push show the template [5]. **Avoid pure engine and diesel-injection part makers — rating methodology flags engine-part concentration as an obsolescence risk as EVs spread [11].** Note the local source is from September 2026 and does not quantify Gurugram's own EV adoption; collect from customer.",
+  "## How to grow safely\n**Structure against the receivable, not the balance sheet: invoice-discounted limits tied to confirmed OEM receivables, monthly stock-and-receivable statements, and a covenant capping debt/EBITDA.** Rating guidance flags debt/EBITDA above 2.5-2.75 times as a stress marker [10], and gross current assets of 160-170 days are normal for this trade [10] — so a file showing far more needs explanation. **Take the monthly stock statement, the receivable ageing by buyer, and GST returns every month; if ageing beyond 90 days crosses a fifth of receivables, ask for the buyer's payment confirmation.**",
+  "## Early-warning signs\n**Watch for a buyer cutting schedules, receivables stretching past 90 days, or the unit funding a new line before the order is signed.** Gurugram already sees MSME stress in auto components and OTS activity [3], so a file that has been restructured once should not get fresh limits. **If the promoter cannot name the EV or export order behind the next capex, decline; if the order is confirmed and the buyer is a rated OEM, lend against it.**"
+ ],
+ "watch": [
+  [
+   "Monthly receivable ageing by buyer",
+   "beyond-90-day receivables cross 20% of total -> freeze fresh limits and seek buyer confirmation"
+  ],
+  [
+   "Monthly stock statement vs GST returns",
+   "stock or turnover mismatch above 10% -> call for revised statements and site visit"
+  ],
+  [
+   "Quarterly debt/EBITDA",
+   "crosses 2.5-2.75 times [10] -> move to collateral top-up or reduce limit"
+  ],
+  [
+   "Monthly OEM schedule/order book",
+   "order cut or deferral by main buyer -> reassess limit and ask for alternate order proof"
+  ],
+  [
+   "Quarterly GST filing status",
+   "two consecutive late filings -> escalate and review account"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Strong IIP and Haryana GST offset by credit growing faster than output.",
+ "articles": [
+  {
+   "title": "Gurgaon-Manesar MSMEs Urged to Pivot Toward Electric Vehicle Component Manufacturing",
+   "url": "https://www.mirrornow.in/gurugram-news/gurgaon-manesar-msme-electric-vehicle-component-shift-article-156033049",
+   "date": "2026-09-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "वाहन रिसाइक्लिंग और ऑटो सर्कुलर इकोनॉमी हब बनेगा - वाहन रिसाइक्लिंग और ऑटो सर्कुलर इकोनॉमी हब बनेगा",
+   "url": "https://www.livehindustan.com/ncr/gurgaon/story-gurugram-implements-vehicle-scrapping-policy-to-boost-industry-and-reduce-pollution-201785173390767.html#1",
+   "date": "2026-07-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "MSME one-time settlement (OTS) in Gurugram",
+   "url": "https://msme.help/city/gurugram/msme-ots",
+   "date": "2026-06-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 100 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

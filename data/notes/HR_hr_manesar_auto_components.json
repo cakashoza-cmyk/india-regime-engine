@@ -1,0 +1,158 @@
+{
+ "key": "hr_manesar|auto_components",
+ "state": "HR",
+ "city": "hr_manesar",
+ "ind": "auto_components",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Manesar auto components — pursue tier-2/tier-3 suppliers to Maruti and EV-agnostic machined-part makers with tight covenants; avoid single-OEM, labour-exposed and pure-ICE-engine-part borrowers.",
+ "title": "Manesar Auto & Auto Components: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Manesar component maker buys steel, aluminium and bought-out castings, stamps or machines them, and sells into an OEM line that pays 45-90 days after a quality gate.** Cash is consumed at the input purchase and released only on OEM acceptance, so the working-capital cycle — not the margin — decides survival. Gross current assets for this peer set have averaged 160-170 days in recent years [10], so when a proposal lands, check the receivable-and-inventory days against that band; if the customer claims 90 days, ask for the OEM schedule and the actual collection statement.",
+  "## Where value and cash sit\n**Pricing power sits with design complexity, not with volume.** CRISIL notes that complex systems such as diesel fuel injection carry real pricing power, while engine-and-related parts face higher obsolescence risk as EVs spread [11]. So when a proposal lands, check what share of revenue is engine-specific; if it is high, ask for the EV transition plan and the powertrain-agnostic order book. Peer ASK Automotive is already winning EV components across braking and aluminium lightweighting [5] — that is the template to lend to.",
+  "## What has changed now\n**National auto-component output is running hot: IIP NIC 29 is +25.2% YoY and +19.2% Apr-to-date [D].** Haryana GST is +10.1% Apr-to-date against India's +6.1% [D], a genuine local tailwind. But bank credit to the sector is +27.0% YoY against output of +19.2%, a gap of +7.8 pp [D] — money is chasing this trade faster than it is producing. Peer Motherson Sumi Wiring grew revenue 46.7% to Rs 4,054 crore with profit up 35% to Rs 223 crore [4], and Lumax beat Q2 2026 estimates and lifted its outlook [7]. Margins, though, are the soft spot: ASK flags aluminium squeezing margins [5] and Elara expects Q4FY26 EBITDA growth of about 21% with commodity risk [6].",
+  "## Where to grow, and how to grow safely\n**Pursue tier-2/tier-3 machined and lightweighting suppliers with two or more OEM customers, and EV-component wins on the books [5].** Avoid single-OEM dependents and labour-exposed units — the Manesar belt has a documented history of Maruti stoppages and worker disputes [1][2], and those sources are old, so treat them as pattern, not current fact. Structure with a receivables-backed working-capital line, a Debt/EBITDA covenant inside 2.5-2.75 times [10], and a monthly take of stock statements, OEM schedules, GST returns and a commodity-hedging confirmation [8].",
+  "## Early-warning signs\n**Watch the credit-to-output gap [D] and commodity pass-through.** If a borrower's receivable days stretch past the 160-170 day peer band [10], cut limits and ask for the OEM reconciliation. If aluminium or steel input costs rise without a matching price revision [5][6], ask for the contract clause. If engine-part concentration is above half of revenue [11], ask for the EV order pipeline before any enhancement."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns and stock statements",
+   "Receivable days stretch beyond 160-170 [10] -> freeze enhancement, seek OEM reconciliation"
+  ],
+  [
+   "Quarterly Debt/EBITDA",
+   "Crosses 2.5-2.75 times [10] -> move to Caution, restructure to receivables-backed"
+  ],
+  [
+   "Monthly OEM schedules and order book",
+   "Single-OEM share above half of revenue -> ask for second-OEM pipeline before renewal"
+  ],
+  [
+   "Quarterly commodity cost vs price revision",
+   "Input cost rises with no pass-through [5][6] -> seek hedging proof and contract clause"
+  ],
+  [
+   "Monthly labour/plant status",
+   "Any stoppage or dispute at the buyer plant [1][2] -> reassess exposure and drawdown"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Output +25.2% YoY and Haryana GST +10.1% support lending, but credit +27.0% outruns output [D].",
+ "articles": [
+  {
+   "title": "Manesar Factory | Latest & Breaking News on Manesar Factory | Photos, Videos, Breaking Stories and Articles on Manesar Factory",
+   "url": "https://www.moneycontrol.com/news/tags/manesar-factory.html/videos/",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Muku | Latest & Breaking News on Muku | Photos, Videos, Breaking Stories and Articles on Muku",
+   "url": "https://www.moneycontrol.com/news/tags/muku.html",
+   "date": "2026-10-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Management Interviews | Latest & Breaking News on Management Interviews | Photos, Videos, Breaking Stories and Articles on Management Interviews- Moneycontrol | Page 7 - Get Instant Loan",
+   "url": "https://www.moneycontrol.com/news/pinconlifestyle/management-interviews-MU01-6months.html/page-7/#1",
+   "date": "2026-09-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 100 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

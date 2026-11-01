@@ -1,0 +1,158 @@
+{
+ "key": "hr_faridabad|auto_components",
+ "state": "HR",
+ "city": "hr_faridabad",
+ "ind": "auto_components",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Faridabad auto components — pursue tier-2/tier-3 suppliers to Maruti and EV-linked programmes with tight covenants; avoid single-OEM, ICE-engine-only and unaudited workshops.",
+ "title": "Faridabad Auto & Auto Components: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Faridabad's auto cluster is a machining-and-assembly trade: castings, forgings, sheet metal, wiring and fluid-transmission parts bought by OEMs on schedule and paid weeks later.** Cash is consumed at the input end (metal, power, labour) and released only when the OEM approves the part and pays; value sits in the tooling and the approved-vendor status, not in the shed. Faridabad has carried this trade for generations — Imperial Auto was set up here in 1969 [2] — so the city has deep supplier depth but also old assets and old product lines. **The city's own auto news is thin: the local stories we hold are a workshop armouring-cars raid [1] and unregistered autos [3], neither of which tells us cluster health — so lean on first principles and peers here.**",
+  "## Where cash and value sit\n**Working capital is the whole game: gross current assets averaged 160-170 days in recent years at a comparable component maker [10], so a supplier can be profitable and still short of cash.** Pricing power is real only where design complexity is high — diesel fuel injection is cited as an example of complexity that strengthens pricing power [11] — and weak in commodity fabrication. **So when a proposal lands, check the OEM-wise sales split and the tooling ownership; if one buyer is above half of sales, ask for the supply agreement and payment terms in writing.** Engine-and-related parts carry obsolescence risk as EVs spread [11]; treat a pure ICE-engine book as a declining annuity, not a growth story.",
+  "## What has changed now\n**Demand is running hot: IIP for NIC 29 output is +25.2% YoY and +19.2% Apr-to-date [D], and Haryana GST is +10.1% Apr-to-date against India's +6.1% [D].** Peers confirm the volume: Motherson Sumi Wiring revenue grew 46.7% to Rs 4,054 crore with profit up 35% to Rs 223 crore [4], and Lumax lifted its growth outlook after a strong first half [7]. **But bank credit is +27.0% YoY against output +19.2%, a gap of +7.8 pp [D] — money is entering this chain faster than metal is leaving it, so some of what you will see is leverage, not demand.** Margins are the pressure point: aluminium is squeezing margins at ASK [5] and Q4FY26 earnings were expected strong on volumes with margins under pressure [6].",
+  "## Who to pursue, and how to grow safely\n**Pursue tier-2 and tier-3 suppliers with an approved-vendor code at a Maruti-tier OEM, a second customer line, and EV or lightweighting order wins of the kind ASK reports [5].** Avoid single-customer fabricators, workshops with no audited accounts, and anyone whose only edge is a labour contract. **Structure short: 12-month limits, monthly stock-and-debtor statements, and a covenant that Debt/EBITDA stays under 2.5-2.75 times — the level at which rating agencies flag weak cash generation [10].** Take the debtor ageing and the top-five customer list every month, and a quarterly CMA. **Price for the metal: ask for the hedging policy, because rating methodology weighs hedging against profits [8].**",
+  "## Early-warning signs\n**Watch the gap between sales growth and receivable days: if debtor days stretch while sales rise, the OEM is funding itself with your borrower's money.** Watch inventory of engine-specific parts — obsolescence risk is explicit in the rating criteria [11]. Watch any sudden capex for a single programme without a written nomination. **And watch the local enforcement stories: a raid like the armouring case [1] signals an unrecorded order book, so if a borrower's workshop is in that trade, ask for the job-card register.**"
+ ],
+ "watch": [
+  [
+   "Monthly debtor ageing and top-five customer list",
+   "Receivable days rise two months running -> freeze limit increase and ask for OEM payment confirmation"
+  ],
+  [
+   "Monthly stock statement vs sanctioned limit",
+   "Inventory of engine-specific parts crosses a third of stock -> cut limit and re-price"
+  ],
+  [
+   "Quarterly CMA and Debt/EBITDA",
+   "Debt/EBITDA above 2.5-2.75 times [10] -> move to Caution and seek promoter infusion"
+  ],
+  [
+   "Monthly GST returns vs bank turnover",
+   "GST turnover falls below bank credits two quarters running -> ask for order book and reduce exposure"
+  ],
+  [
+   "Quarterly OEM volume commentary and metal price notes",
+   "Aluminium or steel cost rise without a pass-through clause -> re-price or exit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "IIP NIC 29 +25.2% YoY and Haryana GST +10.1% outpace India's +6.1%.",
+ "articles": [
+  {
+   "title": "CM flying squad busts Faridabad workshop over alleged armouring of cars - Explore",
+   "url": "https://www.hindustantimes.com/cities/gurugram-news/cm-flying-squad-busts-faridabad-workshop-over-alleged-armouring-of-cars-101790229265037-amp.html#1",
+   "date": "2026-09-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "# Faridabad: The Industrial City That Created Haryana’s Old - 0 notifications",
+   "url": "https://www.linkedin.com/posts/consultantsandeepsharma_faridabad-the-industrial-city-that-created-activity-7492652977048940544-G0v6/#1",
+   "date": "2026-08-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "फरीदाबाद में बिना पहचान प्लेट के दौड़ रहे 10 हजार से अधिक ऑटो, यात्रियों की सुरक्षा पर उठ रहे सवाल - faridabad 10000 autos run without unique id plates safety risk - विज्ञापन हटाएंसिर्फ खबर पढ़ें",
+   "url": "https://www.jagran.com/haryana/faridabad-faridabad-10000-autos-run-without-unique-id-plates-safety-risk-40313176.html?utm_source=Article_detail&utm_medium=Internal_referral&utm_campaign=CRE#1",
+   "date": "2026-07-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 100 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

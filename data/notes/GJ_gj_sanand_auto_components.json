@@ -1,0 +1,154 @@
+{
+ "key": "gj_sanand|auto_components",
+ "state": "GJ",
+ "city": "gj_sanand",
+ "ind": "auto_components",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 90,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Sanand auto components — pursue Tier-2 EV/powertrain-agnostic suppliers with tight covenants; avoid single-OEM, ICE-engine-dependent job-workers.",
+ "title": "Sanand auto & auto components: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nSanand is an OEM-anchored cluster: vehicle and engine plants pulling a ring of component and sub-assembly suppliers around them [3]. A component maker buys steel, aluminium and bought-out parts, converts them on presses and machining lines, and sells on schedule to one or two OEMs. **Cash is made on the conversion margin, not on the metal — so the spread between input cost and the price the OEM agrees to pay is the whole business.** Pricing power sits with the OEM; the supplier absorbs commodity swings unless the contract has a pass-through clause. ICRA's methodology flags exactly this: hedging policy and commodity exposure relative to profits is a core credit test [8]. So when a proposal lands, check the pass-through clause and the hedging policy; if aluminium or steel is a large share of raw material and there is no pass-through, ask for the last three quarters' gross margin to see who ate the squeeze.",
+  "## Where cash sits and what has changed\nWorking capital is the trap. Gross current assets have averaged 160-170 days in recent years for component makers [10], and rating guidance treats debt/EBITDA above 2.5-2.75 times as a stretch [10]. **A supplier can be profitable and still short of cash because receivables from a large OEM run long while payables to steel mills run short.** On the ground, Sanand's story is EV capacity: Tata Motors' takeover of the Ford Sanand plant carried a stated plan to make 2 lakh EVs annually by 2026 with additional investment of Rs 2,000 crore [3] — note this source is old and the 2026 milestone should be verified with the customer, not assumed. Locally, hiring for auto-component sales support in Sanand continues [2], a small but real sign the supplier base is still staffing up.",
+  "## The growth opportunity to pursue now\nNationally, IIP for NIC 29 output is +25.2% YoY and +19.2% Apr-to-date [D], and Gujarat GST collections are running +11.9% Apr-to-date against India's +6.1% [D]. **Pursue the powertrain-agnostic supplier — braking, aluminium lightweighting, interiors — because that is where peer order books are actually filling.** ASK Automotive's Q1 FY27 order wins include EV components across braking and aluminium lightweighting [5]; Motherson Sumi Wiring grew revenue 46.7% to Rs 4,054 crore and net profit 35% to Rs 223 crore in Q2 [4]; Lumax beat Q2 2026 estimates and lifted its growth target [7]. Avoid the pure ICE engine-part job-worker: CRISIL warns engine-focused suppliers face higher obsolescence risk as EVs spread [11].",
+  "Cap debt/EBITDA at 2.5 times in covenant [10]. Take quarterly commodity-cost reconciliation against the pass-through clause. For capex, insist on an order-backed tranche, not a lump sum.",
+  "## Early-warning signs\n- **Receivable days stretching past the 160-170 day norm [10] (monthly)** -> freeze fresh limits and ask for the OEM payment correspondence. - **Gross margin falling while aluminium or steel rises (quarterly)** -> check pass-through clause enforcement; if absent, reprice or exit. - **Debt/EBITDA crossing 2.5 times [10] (quarterly)** -> move to secured, amortising structure. - **Sanand EV ramp slipping past the stated 2026 milestone [3] (quarterly)** -> re-base the borrower's volume assumptions with them."
+ ],
+ "watch": [
+  [
+   "Receivable days (monthly)",
+   "crosses 160-170 days [10] -> freeze limits, request OEM payment correspondence"
+  ],
+  [
+   "Debt/EBITDA (quarterly)",
+   "above 2.5 times [10] -> shift to secured amortising structure"
+  ],
+  [
+   "Gross margin vs commodity index (quarterly)",
+   "margin falls while input rises -> enforce pass-through or reprice"
+  ],
+  [
+   "Sanand EV output milestone (quarterly)",
+   "slips past 2026 plan [3] -> re-base borrower volume assumptions"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Gujarat GST +11.9% vs India +6.1%, IIP NIC 29 +25.2%, peer profits up.",
+ "articles": [
+  {
+   "title": "Exclusive: Tata Motors Readies Mid-Size SUV Kuno To Challenge MG Windsor In 2027-2028 | Autocar Professional",
+   "url": "https://www.autocarpro.in/news/exclusive-tata-motors-readies-kuno-crossover-ev-to-challenge-mg-windsor-in-2027-2028-135573",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Sales support -Auto component - Sanand - Upman Placements - 3 to 8 years of experience - Naukri.com",
+   "url": "https://www.naukri.com/job-listings-sales-support-auto-component-upman-placements-sanand-3-to-8-years-301026029724",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sanand Plant: Latest News, Photos, Videos on Sanand Plant - NDTV.COM - Advertisement",
+   "url": "https://www.ndtv.com/topic/sanand-plant#1",
+   "date": "2026-10-17",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Motherson Sumi Q2 results: Net profit rises 35% to Rs 223 crore on strong auto-part demand- Moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/business/earnings/motherson-sumi-q2-results-net-profit-rises-35-to-rs-223-crore-on-strong-auto-part-demand-14064699.html?pitchClick=top-business-news&utm_source=budget_2026&utm_medium=desktop_Budget_Page&utm_campaign=Budget_Article_Consumption_Top_Business_News",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins By Investing.com - ASK Automotive Q1 FY27 slides: record revenue, aluminum squeezes margins",
+   "url": "https://www.investing.com/news/company-news/ask-automotive-q1-fy27-slides-record-revenue-aluminum-squeezes-margins-93CH-4837584#1",
+   "date": "2026-08-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook By Investing.com - Earnings call transcript: Lumax Auto beats Q2 2026 estimates, lifts outlook",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lumax-auto-beats-q2-2026-estimates-lifts-outlook-93CH-4933564#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Although the 2W industry is dominated by a few large players, the high competitive intensity in the industry mandates high opera...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/839~Two-Wheelers#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Gross current assets averaged between 160- 170 days in recent years",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324becf6-7c38-4ca5-a2a2-69ba698400ab.pdf#2#7#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/content/dam/crisil/criteria_methodology/automotive-and-automotive-component-companies/criteria-for-rating-automotive-and-automotive-component-companies.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 90 (national 100 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +27.0% YoY vs output +19.2% (gap +7.8 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
