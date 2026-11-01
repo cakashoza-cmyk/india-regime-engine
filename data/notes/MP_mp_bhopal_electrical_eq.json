@@ -1,0 +1,158 @@
+{
+ "key": "mp_bhopal|electrical_eq",
+ "state": "MP",
+ "city": "mp_bhopal",
+ "ind": "electrical_eq",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:22 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Bhopal electrical equipment, pumps and motors — but only to BHEL-anchored or replacement-demand borrowers with tight monthly stock and receivable checks; avoid pure project-driven pump makers.",
+ "title": "Bhopal Electrical Equipment, Pumps & Motors: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**These units buy steel, copper, laminations and bought-out castings, wind them and assemble them into motors, pumps and switchgear, then sell into two very different channels.** One is institutional and tender-driven — BHEL Bhopal alone runs limited tenders for electrical items, e.g. a bolt/washer/nut/plug set tender closing 15 Aug 2026 with two admitted bidders [3]. The other is dealer and replacement demand, where cash comes faster. **Value sits in copper and winding labour, not in the shell; cash sits in receivables from PSU and government buyers.** Pricing power is thin against tenders, so margin comes from bought-out cost control and capacity utilisation.",
+  "## What has changed now\n**National output is running hot: IIP for NIC 27 is +30.9% YoY and +28.5% Apr-to-date [D], with exports +19.8% Apr-to-date in USD [D].** But bank credit to the segment is +37.7% YoY against +28.5% output — a +9.2 pp gap [D]. **That gap is the real story: some of the growth is being funded, not earned.** Locally, the only fresh Bhopal signal is labour friction at BHEL Bhopal, where three unions have protested a ₹35,000 SIP amount circular [2]; the source is dated 30-31 Oct 2026 and says nothing about vendor payments. **Sources say little about Bhopal's private electrical cluster, so lean on first principles and peers.**",
+  "## What peers are telling us\n**Peer results are mixed and that matters for who you back.** Shakti Pumps grew Q1 FY27 revenue 37.9% YoY to ₹858.67 crore but PAT fell 46.72% to ₹51.59 crore [7]; H1 FY27 revenue rose 24.5% YoY to ₹16,047 Mn while PAT fell to ₹90.10 crore from ₹187.54 crore, with margin contraction on lower realisations and higher raw-material and logistics costs [5]. **Volume growth without margin is the pattern to underwrite against.** Pitti Engineering's management flagged higher manpower cost from new facilities, expecting relief only as utilisation rises [4]. Rating reports show the capex-and-working-capital model: one company incurred about ₹780 crore capex over three years plus about ₹600 crore incremental working capital [9], and another carries high working-capital intensity [8]. **So when a proposal lands, check whether the borrower's growth is funded by accruals or by debt; if the debt-to-output gap mirrors the +9.2 pp national gap [D], ask for the month-wise drawing-power statement and the receivable ageing before sanction.**",
+  "## Where to grow, and how to grow safely\n**Pursue BHEL-anchored component and job-work suppliers with Udyam registration and Make-in-India certification — the tender documents demand exactly these [3] — and dealers in replacement motors and pumps with a diversified buyer list.** Avoid single-project pump makers and borrowers whose order book is one government irrigation tender. **Structure as cash-credit against stock and book debts with a 25% margin, monthly stock statement and monthly receivables ageing; take quarterly GST returns and a half-yearly CMA.** Where the borrower supplies BHEL, take assignment of receivables or at least a letter of authority on the PSU payment. **Cap capex lending to borrowers with proven utilisation; peer evidence shows new capacity drags margin before it pays [4].**",
+  "## Early-warning signs\n**Watch receivable days against the PSU payment cycle, inventory of copper and finished motors, and the share of revenue from a single buyer.** A rising credit line with flat output, or margin slipping while revenue grows as at Shakti Pumps [5][7], means stop enhancement and re-price. **Any BHEL Bhopal labour disruption that delays vendor clearance [2] is a direct cash-flow signal for suppliers — ask for the payment status that month.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement (monthly)",
+   "Receivable days stretch beyond the borrower's own prior-quarter average -> freeze enhancement, seek PSU payment confirmation"
+  ],
+  [
+   "GST returns vs sales (quarterly)",
+   "GST turnover falls below bank-statement sales -> ask for revised CMA and reduce drawing power"
+  ],
+  [
+   "BHEL Bhopal tender and payment news (monthly)",
+   "Fresh labour action or tender cancellation at BHEL Bhopal [2][3] -> call supplier borrowers for payment status that week"
+  ],
+  [
+   "Utilisation and margin trend (quarterly)",
+   "Revenue up but PAT margin down as in peer results [5][7] -> re-price or exit at renewal"
+  ],
+  [
+   "Drawing power vs output (monthly)",
+   "Credit growth outpaces output, mirroring the +9.2 pp national gap [D] -> stop new limits, ask for debt-funding explanation"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "BHEL Bhopal union protest over ₹35,000 SIP; peer margins contracting despite revenue growth.",
+ "articles": [
+  {
+   "title": "SIP Amount Dispute | Bansal News",
+   "url": "https://bansalnews.com/tags/sip-amount-dispute",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "BHEL भोपाल: ₹35 हजार की SIP राशि पर भड़कीं तीन यूनियनें, प्रबंधन के सर्कुलर के खिलाफ संयुक्त मोर्चा खोला",
+   "url": "https://bansalnews.com/madhya-pradesh/bhopal/bhel-bhopal-sip-amount-union-protest-bps-12771854",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "E5863055 SET OF BOLT, WASHER, NUT and PLUG",
+   "url": "https://tenderkart.in/tender/7a77b813-2065-4bdf-b585-448d468358a0",
+   "date": "2026-08-03",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Pitti Engineering posts solid Q1 2026 growth, shares rise By Investing.com - Earnings call transcript: Pitti Engineering posts solid Q1 2026 growth, shares rise",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-pitti-engineering-posts-solid-q1-2026-growth-shares-rise-93CH-4851334#1",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shakti Pumps (India) (531431) Q2 26/27 Summary | Quartr",
+   "url": "https://quartr.com/events/shakti-pumps-india-531431-q2-26-27_FRMGdRqK",
+   "date": "2026-10-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shakti Pumps (India) Concall Summary: Key Highlights and Q1 FY27 Results",
+   "url": "https://www.sovrenn.com/knowledge/shakti-pumps-india-concall-summary-key-highlights-and-q1-fy-27-results",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Shakti Pumps tanks as Q1 PAT slides 47% YoY to Rs 52 crore - Friday, October 16, 2026 | 03:19 AM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/capital-market-news/shakti-pumps-tanks-as-q1-pat-slides-47-yoy-to-rs-52-crore-126072700418_1.html#1",
+   "date": "2026-07-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 04,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=136185#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 11, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145554#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "June 13,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=128071#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Mangal Electrical Industries Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202609140944_Mangal_Electrical_Industries_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 100 x 0.6 + Madhya Pradesh 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "India-wide: IIP NIC 27 output +30.9% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +28.5% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +37.7% YoY vs output +28.5% (gap +9.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

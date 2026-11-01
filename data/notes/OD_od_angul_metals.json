@@ -1,0 +1,154 @@
+{
+ "key": "od_angul|metals",
+ "state": "OD",
+ "city": "od_angul",
+ "ind": "metals",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:24 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new iron & steel exposure in Angul for now; the data call is Avoid (27) and the local news flow does not lift it — lend only to the strongest downstream units already on our books, and only with monthly cash-flow control.",
+ "title": "Angul iron & steel: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Angul is a primary-steel town first and a re-rolling town second.** The anchor is Jindal Steel's Angul plant, which management says is running at 70% utilisation and is targeted to reach 110% within twelve months [3]. Around that anchor sit secondary re-rollers, fabrication units, scrap and sponge-iron traders, and transport operators. **Cash is made on the spread between input cost (iron ore, coal, scrap, power) and finished-steel price, multiplied by tonnes sold** — not on price alone. Peer results show the split clearly: JSW Steel more than tripled September-quarter profit to Rs.5,279 crore on better volumes, higher steel prices and strong domestic demand [4], while Kirloskar Ferrous grew revenue 17% y-o-y to INR 2,046.7 crore but saw EBITDA margin fall as coking coal costs and rupee depreciation offset the growth [6]. **So when a proposal lands, check the unit's conversion spread and its power and coal contracts before you look at turnover; if the margin story rests on price alone, ask for the last six months of invoice-level realisations.**\n\n## What has changed now\n**The local demand signal is weak even as the national steel cycle looks strong.** Odisha GST collections grew 0.5% Apr-to-date against India's 6.1%, and Odisha electricity demand grew 5.1% against India's 9.5% [D] — both local stress signals. Nationally, IIP for NIC 24 (basic metals) is up only 2.4% YoY [D], and Brent at $113/bbl sits above the $75–100 band [D], which raises freight and power cost for every unit in the chain. **The peer set is doing well on volume but not on margin [4][6], and that is exactly the shape that hurts small re-rollers: they sell into a firm price but buy coal and power at inflated cost.** Note that the rating reports [8][9][10][11] are undated and mostly about large or distant entities — treat them as background on sector risk, not as Angul evidence. **Sources say little specific about Angul's secondary units, so lean on first principles and the peer margin pattern.**\n\n## Where the growth is — and who to avoid\n**Pursue the service layer around the anchor's ramp-up, not the steel-makers themselves.** If Jindal Steel moves Angul from 70% to 110% utilisation [3], the beneficiaries are scrap and sponge-iron suppliers, slag and by-product handlers, in-plant logistics and maintenance contractors, and fabrication units with purchase orders from the anchor. **These borrowers have a visible counterparty, short working-capital cycles and no steel-price exposure of their own.** Avoid standalone secondary re-rollers with no tied ore or coal source, no captive power, and receivables concentrated in one or two traders — they carry the full input-cost squeeze shown in [6] with none of the scale. **If a re-roller proposal arrives, ask for the power tariff contract and the top-five customer list; if either is missing, decline.**\n\n## How to grow safely\n**Structure against the anchor relationship, not against the balance sheet.** Take assignment of receivables or escrow of payments from the anchor where the borrower is a contractor or supplier; keep tenor inside the work order or supply contract. **Take every month: stock and receivable statements, GST returns, electricity bills, and the anchor's payment ledger for that vendor.** Set a covenant that total outside liabilities stay within a stated multiple of net worth, and a drawing-power cap tied to verified receivables. **If the borrower cannot produce monthly GST filings that match bank credits, stop enhancement and ask for the reconciliation.**\n\n## Early-warning signs\n**Watch the local demand gauges first.** If Odisha GST growth stays below India's for another quarter [D], treat it as a sign that end-demand in the state is not absorbing the anchor's extra output. **Watch the anchor's own utilisation disclosure [3] — if the 110% target slips, the service-layer order book thins quickly.** At the borrower level, a fall in electricity consumption per tonne produced, rising creditor days, or a shift from cash to credit sales are the first signs of a margin squeeze. **If any two of these appear in the same month, cut limits and move the account to weekly review.**"
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs bank statements (monthly)",
+   "GST turnover falls below bank credits for two months -> freeze enhancement and ask for reconciliation"
+  ],
+  [
+   "Anchor payment ledger for the vendor (monthly)",
+   "Payment days stretch beyond agreed terms -> reduce drawing power to verified receivables"
+  ],
+  [
+   "Electricity bill and units consumed (monthly)",
+   "Units per tonne fall without a stated shutdown -> site visit within a week and reassess limits"
+  ],
+  [
+   "Odisha GST and power demand vs India (quarterly)",
+   "Odisha growth stays below India for a second quarter [D] -> stop new-to-bank steel exposure in Angul"
+  ],
+  [
+   "Borrower's top-five customer concentration (quarterly)",
+   "Any single buyer crosses half of sales -> require assignment of that receivable or decline"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Odisha GST and power demand lag India; input costs squeeze re-roller margins despite firm steel prices.",
+ "articles": [
+  {
+   "title": "New & Upcoming Projects in Steel Projects in Odisha - Page 2",
+   "url": "https://newprojectstracker.com/projects-india/steel/odisha?page=2",
+   "date": "2026-10-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "angul plant capacity: Latest News & Videos, Photos about angul plant capacity | The Economic Times - Page 1 - Business News›angul plant capacity",
+   "url": "https://economictimes.indiatimes.com/topic/angul-plant-capacity#1",
+   "date": "2026-09-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Informist Media - Jindal Steel: Jindal Steel sees Angul plant utilisation reaching 110% in next 12 months",
+   "url": "https://www.informistmedia.com/EquityWire/60161/Jindal-Steel-Jindal-Steel-sees-Angul-plant-utilisation-reaching-110-37-in-next-12-months",
+   "date": "2026-09-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "JSW Steel profit more than triples on strong demand, beats Street estimates - JSW Steel profit more than triples on strong demand, beats Street estimates",
+   "url": "https://in.tradingview.com/news/moodys:f2c70b7c5e7ff:0-jsw-steel-profit-more-than-triples-on-strong-demand-beats-street-estimates/#1",
+   "date": "2026-10-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "steel sales volume: Latest News & Videos, Photos about steel sales volume | The Economic Times - Page 1",
+   "url": "https://economictimes.indiatimes.com/topic/steel-sales-volume#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "India: Kirloskar Ferrous posts volume-led growth in Q2 FY27 but high input costs erode margins - BigMint",
+   "url": "https://www.bigmint.co/insights/detail/india-kirloskar-ferrous-posts-volume-led-growth-in-q2-fy27-but-high-input-costs-erode-margins-804491",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "JSW Steel Earnings Call: Record Volumes, Bold CapEx - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/jsw-steel-earnings-call-record-volumes-bold-capex?utm_source=flipboard&utm_content=TipRanks%2Fmagazine%2FTipRanks+Labs#1",
+   "date": "2026-10-23",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "units",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=135559#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The liquidity of SAIL remains adequate, with free cash and cash balance of 317 crore as on March 31, 2025. Furthermore, SAIL is ...",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510141050_Steel_Authority_of_India_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/CauveryIronandSteelIndiaLimited_May%2006_%202024_RR_341841.html",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The gross contribution per metric tonne of a rated entity reflects the marginal profits generated per unit of incremental sales,...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/848~Ferrous%20Metals#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + Odisha 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Odisha: GST collections +0.5% Apr-to-date vs India +6.1% (5.6 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Odisha: electricity demand +5.1% Apr-to-date vs India +9.5% (4.4 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

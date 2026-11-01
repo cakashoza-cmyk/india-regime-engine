@@ -1,0 +1,150 @@
+{
+ "key": "ka_ballari|iron_ore_mining",
+ "state": "KA",
+ "city": "ka_ballari",
+ "ind": "iron_ore_mining",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:23 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution — lend selectively to established Ballari iron-ore operators with clean lease and EC records; the data pack gives no score, and the local news is worse, so no new exposure to lease-dependent or EC-pending borrowers until the SC panel reports.",
+ "title": "Ballari iron ore mining: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Iron ore mining turns a leased, finite resource into cash through a simple chain: extract, crush and screen, then move by road and rail to steel plants and traders.** Value sits in the mining lease and the environmental clearance, not in the plant; the crusher and washing units are modest capex, but the lease premium, royalty and statutory dues are the real cash sinks. **So when a proposal lands, check the lease deed, the approved mining capacity and the EC validity first; if any of the three is unclear, ask for the sanctioned lease order and the latest EC compliance return before you look at anything else.**",
+  "## Where cash sits and what has changed\n**Working capital is short and self-funding in a good year: ore is sold largely on advance or near-cash terms, so the cycle is inventory at the stockyard plus receivables from steel buyers.** Peer results show the price side is soft — SMIORE's average realisation fell 17% y-o-y to INR 3,095/t in Q1FY'27 [7], though it rose 9% q-o-q on a recovery in domestic benchmark prices [6]. **Locally, the news is worse: the Supreme Court-appointed committee has been urged to visit mining-affected areas in Ballari and Chitradurga and report to the court before the next hearing [2].** That is a live regulatory overhang on leases and clearances, and it is the single fact that should shape your stance this quarter.",
+  "## The growth opportunity\n**The demand pull is real and local: a 6 million tonne per annum steel plant with an 893 MW captive power plant has received environmental clearance in Ballari [1], and NMDC expects FY'27 output of around 60 million tonnes nationally [4].** Pursue established merchant miners with valid leases and a track record of statutory compliance, and the service layer around them — ore handling, crushing and transport contractors with written offtake. **Avoid new entrants whose only asset is an allotted lease with no EC, and avoid borrowers whose receivables depend on a single steel buyer.**",
+  "## How to grow safely\n**Structure against the lease, not the balance sheet: keep tenor inside the lease and EC validity, take the mining lease and offtake assignment where legally possible, and set a debt-service cover covenant tested quarterly.** Take a monthly stock-and-sales statement, royalty and statutory-dues payment proof, and the EC compliance status every month. **If royalty or statutory dues slip by even one month, treat it as a cash-flow signal and ask for the bank statement the same week.**",
+  "## Early-warning signs\n- **Lease or EC status (monthly):** any show-cause, suspension or court direction -> freeze fresh disbursement and review the account.\n- **Realisation per tonne (monthly):** a fall beyond the peer range of INR 3,095/t [7] -> re-run the cash-flow and ask for the buyer-wise price list.\n- **Statutory dues (monthly):** any delay in royalty or DMG payments -> ask for the bank statement and tighten the stock limit.\n- **Buyer concentration (quarterly):** one buyer above half of sales -> seek an offtake agreement or reduce exposure."
+ ],
+ "watch": [
+  [
+   "Lease and EC status (monthly)",
+   "any show-cause or court direction -> freeze fresh disbursement and review the account"
+  ],
+  [
+   "Realisation per tonne (monthly)",
+   "fall beyond the peer range of INR 3,095/t [7] -> re-run cash-flow and ask for buyer-wise price list"
+  ],
+  [
+   "Royalty and statutory dues (monthly)",
+   "any delay -> ask for bank statement and tighten the stock limit"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "one buyer above half of sales -> seek offtake agreement or cut exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "SC panel urged to inspect Ballari mining areas and report to court; regulatory overhang on leases.",
+ "articles": [
+  {
+   "title": "ಬಳ್ಳಾರಿ: ₹36 ಸಾವಿರ ಕೋಟಿಯ ಉದ್ದಿಮೆಗೆ ಅನುಮತಿ; 64 ಸಾವಿರಕ್ಕೂ ಅಧಿಕ ಉದ್ಯೋಗ",
+   "url": "https://www.prajavani.net/district/ballari/ballari-industrial-project-uttama-galva-steel-plant-4357017",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "SC panel urged to visit mining-hit areas, submit report in court - SC panel urged to visit mining-hit areas, submit report in court",
+   "url": "https://www.thehindu.com/news/national/karnataka/sc-panel-urged-to-visit-mining-hit-areas-submit-report-in-court/article71615919.ece#1",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "KIOCL likely to get Mining mandate in Bellari",
+   "url": "https://www.psuconnect.in/psu-news/kiocl-likely-to-get-mining-mandate-in-bellari",
+   "date": "2026-09-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "India: NMDC posts robust production growth in FY'26, eyes 60 mnt iron ore output in current fiscal - BigMint - India: NMDC posts robust production growth in FY'26, eyes 60 mnt iron ore output in current fiscal",
+   "url": "https://www.bigmint.co/insights/detail/india-nmdc-posts-robust-production-growth-in-fy-26-eyes-60-mnt-iron-ore-output-in-current-fiscal-755783#1",
+   "date": "2026-09-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India: SMIORE's iron ore output rises 14% in FY'26",
+   "url": "https://www.steelmint.in/india-smiores-iron-ore-output-rises-14-in-fy26-748433",
+   "date": "2026-05-07",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "印度SMIORE2027财年第一季度铁矿石产量同比增27% 产能扩至445万吨-炉料频道-钢之家钢铁网",
+   "url": "https://news.steelhome.com/2026/08/11/n4741422.html?type=old",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India: SMIORE's iron ore output rises over 25% y-o-y in Q1FY'27",
+   "url": "https://www.steelmint.in/india-smiores-iron-ore-output-rises-over-25-y-o-y-in-q1fy27-779123",
+   "date": "2026-08-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Mining is a highly capital- intensive business",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/850~Mining#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "September 24,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=137903#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "April 05, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=126853#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Geomin Industries Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202410131007_Geomin_Industries_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Karnataka None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

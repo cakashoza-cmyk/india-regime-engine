@@ -1,0 +1,146 @@
+{
+ "key": "mz_aizawl|horticulture",
+ "state": "MZ",
+ "city": "mz_aizawl",
+ "ind": "horticulture",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:23 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively to Anthurium growers tied to the Aizawl–Singapore export chain, structured on export receivables and crop-cycle cash flow; avoid diversified traders and loss-making floriculture peers.",
+ "title": "Aizawl horticulture & floriculture: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Anthurium is a shade-grown cut flower that leaves Aizawl as a perishable consignment, not a commodity in a warehouse.** The first export was 1,024 cut flowers weighing 70 kg in 50 corrugated boxes, shipped by IVC Agrovet Pvt. Ltd. from Aizawl to Singapore via Kolkata [1][2]. Cash turns when the consignment clears and the buyer pays — so the working-capital cycle is short on inventory but long on receivables, and freight plus cold-chain handling sit between harvest and cash. **When a proposal lands, check the buyer name and the payment route first; if the buyer is not a named overseas importer, ask for the contract.**\n\n## Where value and cash sit\n**Value sits in the planting material and the post-harvest pack, not in the stem count.** The Zo Anthurium Growers Cooperative Society and the Department of Horticulture sit inside this chain [1], which tells you the grower base is organised but small-ticket. **Price realisation per stem, cost per stem and the Kolkata transit cost are not in our sources — collect from customer.** Peer floriculture economics are thin: Pushpanjali Floriculture's March 2026 net sales were Rs 13.18 crore, up 40.95% from Rs 9.35 crore, yet quarterly net loss was Rs 2.15 crore and EBITDA negative at Rs 0.24 crore [6]. **So when a proposal shows revenue growth with negative EBITDA, ask what the loss per stem is and who absorbs it.**\n\n## What has changed\n**The change is market access, not demand.** APEDA and the Mizoram Horticulture Department flagged off the first Anthurium consignment to Singapore [1][2][3]; these reports are from early 2025 and the APEDA piece is dated 24 Mar 2025 [1], so treat the export lane as proven once, not proven at scale. **Ask for the number of consignments shipped since that first one — collect from customer.** Our data pack gives no score for this industry or state [D], so the call rests on first principles and the peer set, not on a model output.\n\n## Who to pursue, and how to grow safely\n**Pursue the cooperative-linked Anthurium grower with a named Singapore buyer and a pack-house relationship; avoid the diversified agri-trader.** Nagarjuna Agri-Tech's revenue jumped from Rs 15.31 million to Rs 321.81 million year-on-year in the June 2026 quarter [5], with margin slipping to 7% as interest and depreciation rose [7] — that is trading turnover, not horticulture cash. **Structure on export receivables with a charge on the crop and the pack-house proceeds; take the consignment-wise shipment statement and the buyer payment advice every month.** Set a covenant that export receivables convert within the agreed transit-plus-credit period; if ageing crosses it, stop fresh disbursement.\n\n## Early-warning signs\n**Watch rejection rates and transit delays before you watch the P&L.** A perishable consignment rejected at Singapore is a total loss of that cycle, so a rising rejection count is the first signal. **Take monthly: consignment count, rejection count, realised price per stem, and receivable ageing.** If two consecutive months show falling consignment count with rising ageing, ask for the buyer's confirmation directly."
+ ],
+ "watch": [
+  [
+   "Consignment count and rejection count (monthly)",
+   "Two months of falling shipments or any rejection -> freeze fresh disbursement and inspect the pack-house"
+  ],
+  [
+   "Export receivable ageing (monthly)",
+   "Ageing beyond the agreed transit-plus-credit period -> stop limit renewal, seek buyer confirmation"
+  ],
+  [
+   "Realised price per stem (monthly)",
+   "Price falls while volumes hold -> re-cut the drawing power to actual realisations"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "Single buyer above half of shipments -> require a second named importer or reduce exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "First Anthurium export from Aizawl to Singapore opens an overseas lane for local growers.",
+ "articles": [
+  {
+   "title": "APEDA facilitates first-ever export of Anthurium flowers from Mizoram to Singapore - APEDA facilitates first-ever export of Anthurium flowers from Mizoram to Singapore",
+   "url": "https://agrospectrumindia.com/index.php/news/8/31554/apeda-facilitates-first-ever-export-of-anthurium-flowers-from-mizoram-to-singapore.html#1",
+   "date": "2026-10-04",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Anthurium flowers exports from Mizoram to Singapore take off, a fillip to India's floriculture potential - - Economy",
+   "url": "https://government.economictimes.indiatimes.com/news/economy/anthurium-flowers-exports-from-mizoram-to-singapore-take-off-a-fillip-to-indias-floriculture-potential/119342648#1",
+   "date": "2025-03-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Mizoram exports 1st consignment of anthuriam | Guwahati News - The Times of India",
+   "url": "https://timesofindia.indiatimes.com/city/guwahati/mizoram-exports-1st-consignment-of-anthuriam/articleshow/118610493.cms",
+   "date": "2025-02-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Nagarjuna Agri Tech Share Price, Stock Price, LIVE NSE/BSE - Groww - NAGTECH •BSE",
+   "url": "https://groww.in/stocks/nagarjuna-agri-tech-ltd#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Nagarjuna Agri-Tech Limited Reports Earnings Results for the First Quarter Ended June 30, 2026",
+   "url": "https://in.marketscreener.com/news/nagarjuna-agri-tech-limited-reports-earnings-results-for-the-first-quarter-ended-june-30-2026-ce7859dbdc89f527",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Pushpanjali Flo Consolidated March 2026 Net Sales at Rs 13.18 crore, up 40.95% Y-o-Y- Moneycontrol.com - Get Instant Loan",
+   "url": "https://www.moneycontrol.com/news/business/earnings/pushpanjali-flo-consolidated-march-2026-net-sales-at-rs-13-18-crore-up-40-95-y-o-y-13917569.html#1",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Nagarjuna Agri-Tech Limited",
+   "url": "https://www.perplexity.ai/app/finance/NAGTECH.BO?comparing=NAGTECH.BO%2CINDOUS.BO%2CBSHSL.NS%2CTIERRA.BO%2CAGRITECH.BO%2CNATHBIOGEN.BO&preset=peers&symbol=MSL.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA analyses the long period of past financial performance trends and estimates the future financial performance to assess the ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/919~Agrochemicals,%20Rating%20Methodology,%20Jun%202024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Apart from the capital structure, ICRA pays attention to the debt coverage indicators, including interest coverage, debt service...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=890#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CARE AA-    CRISIL AA-    [ICRA]AA-",
+   "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/banking-stability/basel-3/Banking_Capital_Amendment_Rules_2011.pdf#17#17#17",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Mizoram None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

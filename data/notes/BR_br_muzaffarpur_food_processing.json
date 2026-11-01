@@ -1,0 +1,154 @@
+{
+ "key": "br_muzaffarpur|food_processing",
+ "state": "BR",
+ "city": "br_muzaffarpur",
+ "ind": "food_processing",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:23 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 53,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to small dairy and grain processors with clean food-safety records and verified GST turnover; avoid new units at Motipur until land allotment and power connection are documented.",
+ "title": "Muzaffarpur Food Processing: a note to the credit manager",
+ "narrative": [
+  "## What the business actually is\n**A Muzaffarpur food processor buys a perishable farm input, converts it within days, and sells into a thin-margin wholesale chain.** Dairy, flour and corn milling, and frozen or packaged foods dominate; the asset is a plant plus cold storage, and the cash cycle is short on the output side but long on the input side because farmers and mandis want cash. **Value sits in the cold chain and the brand, not the plant** — peers show this: Milky Mist lifted EBITDA margin to 15.17% on value-added dairy [4], while Dodla ran a 5.4% EBITDA margin on largely liquid milk [6]. So when a proposal lands, check the product mix first; if it is plain liquid milk or loose flour, ask what stops the margin sliding to Dodla's level.\n\n## What has changed now\n**Bihar's GST collections fell 0.1% Apr-to-date against India's +6.1% [D], so local demand and compliance are both soft.** Against that, electricity demand in Bihar rose 14.1% Apr-to-date versus India's +9.5% [D] — more load, likely more processing capacity running. **The local pipeline is real but early:** 38 units were cleared in eight months [1], and the cabinet has opened 266 acres at the Motipur sugar mill site for industry [2]. Neither source names food processing specifically, and neither gives investment or employment figures — collect from customer. **Food-safety enforcement is live:** raids in Patna and Muzaffarpur found stale chicken and expired stock in restaurants [3].\n\n## Where to grow\n**Pursue existing small dairy and grain processors with a brand and a cold room, and units supplying institutional buyers.** Peer evidence supports the segment: Milky Mist revenue rose 42% to Rs 1,089.4 crore with PAT up 175% to Rs 75 crore [4]; Dodla revenue rose 17.4% to INR1,196 crore [6]; Foods & Inns frozen food volume grew about 39% [7] (that call is from November 2025, a year old). **Avoid new greenfield units at Motipur until allotment letters and a power sanction exist**, and avoid anyone with a food-safety notice.\n\n## How to lend safely\n**Structure against the input cycle, not the plant.** Take monthly GST returns and a stock-and-cold-storage statement; if GST turnover trails the stock build for two months, ask for the sales register. **Covenant on food-safety licence validity and on packaging cost** — Dodla's packaging material cost rose 41.6% YoY [6]. Rating reports flag raw-material and agro-climatic swings as the core margin risk [8][9].\n\n## Early warning\n- GST filings (monthly): two missed returns -> freeze fresh limits.\n- Electricity bill (monthly): a drop against the 14.1% state trend [D] -> ask about idle capacity.\n- Cold-storage temperature and stock logs (monthly): spoilage or stock older than shelf life -> inspect.\n- Food-safety inspection report (quarterly): any adverse notice [3] -> stop disbursement."
+ ],
+ "watch": [
+  [
+   "GST returns (monthly)",
+   "two consecutive nil or falling returns -> freeze limit and inspect stock"
+  ],
+  [
+   "Electricity bill (monthly)",
+   "usage falls below the 14.1% state trend [D] -> ask about idle plant"
+  ],
+  [
+   "Cold-storage stock log (monthly)",
+   "stock older than shelf life -> physical inspection and provisioning review"
+  ],
+  [
+   "Food-safety licence and inspection (quarterly)",
+   "adverse notice [3] -> stop disbursement"
+  ],
+  [
+   "Motipur land and power documents (at sanction)",
+   "no allotment letter or power sanction [2] -> decline new greenfield"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Bihar GST -0.1% vs India +6.1% signals weak local demand and compliance.",
+ "articles": [
+  {
+   "title": "मुजफ्फरपुर में उद्योगों की दस्तक से जगी रोजगार की आस, 8 माह में 38 इकाइयों को हरी झंडी - bihar top news muzaffarpur industrial boom 38 new units boost jobs",
+   "url": "https://org374nextwww.jagran.com/bihar/muzaffarpur-bihar-top-news-muzaffarpur-industrial-boom-38-new-units-boost-jobs-40424312.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Bihar Cabinet Approves Industrial Use of 266 Acres at Motipur Sugar Mill Site, Opens Land for New Industries - https://indianmasterminds.com",
+   "url": "https://indianmasterminds.com/news/motipur-sugar-mill-industrial-development-bihar-247128/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "बिहार के नामी रेस्टोरेंट्स में परोसे जे रहे थे बासी चिकन-मटन! खाद्य विभाग की रेड में खुली पोल",
+   "url": "https://www.etvbharat.com/hi/bharat/patna-muzaffarpur-food-safety-department-raid-stale-chicken-expired-food-restaurants-brn26103101192",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Milky Mist shares in focus after Q2 PAT soars 175%; firm says festive season could create favourable demand - The Economic Times",
+   "url": "https://m.economictimes.com/markets/stocks/news/milky-mist-shares-in-focus-after-q2-pat-soars-175-firm-says-festive-season-could-create-favourable-demand/amp_articleshow/135341778.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Milky Mist shares in focus after Q2 PAT soars 175%; firm says festive season could create favourable demand",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/milky-mist-shares-in-focus-after-q2-pat-soars-175-firm-says-festive-season-could-create-favourable-demand/articleshow/135341778.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Dodla Dairy Ltd (BOM:543306) (Q2 2027) Earnings Call Highlights: Revenue Jumps 17. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/dodla-dairy-ltd-bom543306-q2-2027-earnings-call-highlights-revenue-jumps-17--4917924",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ... By GuruFocus - Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ...",
+   "url": "https://ca.investing.com/news/company-news/foods--inns-ltd-bom507552-q2-2026-earnings-call-highlights-strong-frozen-food-growth--4337253#1",
+   "date": "2025-11-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 26, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=145235#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 07, 2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=132285#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "January 29, 2024(Revised)",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=125143#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 53 (national 55 x 0.6 + Bihar 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Bihar: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Bihar: electricity demand +14.1% Apr-to-date vs India +9.5% (4.6 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +25.3% YoY vs output +5.1% (gap +20.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,127 @@
+{
+ "key": "gj_kandla_gandhidham|edible_oil",
+ "state": "GJ",
+ "city": "gj_kandla_gandhidham",
+ "ind": "edible_oil",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:21 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 51,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to mid-size Kandla-Gandhidham refiners with proven working-capital discipline and hedged raw-material books; avoid thin-margin vanaspati units and any borrower whose bank debt is growing far faster than throughput.",
+ "title": "Kandla-Gandhidham Edible Oils & Vanaspati: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Crushing and refining oil is a spread business, not a margin business.** You buy seed or crude palm/soy (largest cost line, per ICRA [5][7]), crush or refine, and sell oil and meal into a fragmented market where PBILDT margins run 1.47% to 3.32% [6]. Cash is made on volume, cycle timing and by-product (meal, vanaspati) realisation, not on price. **So when a proposal lands, check the gross-processing spread per tonne and the meal/vanaspati realisation separately; if the borrower cannot show spread per tonne, ask for the last six months of purchase and sale invoices.**\n\n## Where cash and value actually sit\n**Working capital is the whole business: inventory of seed/crude plus receivables from traders and institutional buyers.** Capex is modest relative to turnover, so the loan is really a stock-and-debtors facility. **Take stock statements and debtor ageing every month, not quarterly; if inventory days jump while sales are flat, ask why before renewing the limit.** Rating methodology flags raw-material price volatility as the core risk [7], and even large players slip on small working-capital payments — Cargill India had a technical delay on a Rs 65 lakh interest payment in June 2024 [8]. **So check the borrower's repayment record on small interest debits, not just principal.**\n\n## What has changed now\n**The macro signal is mixed and the local one is better.** Gujarat GST collections are up 11.9% Apr-to-date against India's 6.1% [D], and India-wide output is up 5.1% [D] — but exports are down 26.0% Apr-to-date in USD [D] and bank credit is up 45.5% YoY against 5.1% output growth [D]. **That credit-to-output gap of 40.4 pp [D] is the single most important number in this note: it says system leverage is running far ahead of real activity, so treat any borrower whose drawing power is growing faster than volumes as a warning.** Peer AWL Agri shows the pattern — Q2FY26 revenue up 22% but EBIT down 13% and PAT down 21% [1], then Q4FY26 revenue up 18% on 14% volume with EBITDA up 40% [2][3]. ## Who to pursue and how to grow safely\n**Pursue mid-size refiners and crushers with own storage, a hedged book and diversified buyer base; avoid pure vanaspati units with no brand and single-buyer dependence, which is exactly the low-value-add, fragmented segment CARA describes [6].** Structure as a cash-flow-backed working-capital limit with a stock-and-receivables charge, monthly drawing power, and a covenant that hedging covers a stated share of inventory — collect the hedge policy from customer. **If any small interest payment is delayed even by a day, treat it as a liquidity signal, as the Cargill event shows [8], and move the account to a monitored category with weekly stock reporting.**",
+  "## Kandla-Gandhidham read\n**Sources say little specifically about this city's edible-oil cluster, so this note leans on first principles and peer results.** The Gujarat GST number [D] is the only local datapoint and it is a positive one."
+ ],
+ "watch": [
+  [
+   "Monthly stock and debtor statement",
+   "Inventory days rise while sales flat -> freeze drawing power and re-assess current assets"
+  ],
+  [
+   "Monthly bank statement turnover",
+   "Interest debits funded from limit -> move to weekly monitoring and seek hedge policy"
+  ],
+  [
+   "Quarterly spread per tonne",
+   "Spread falls below borrower's own 6-month average -> cut limit and ask for buyer-wise sales register"
+  ],
+  [
+   "Quarterly hedge coverage of inventory",
+   "Unhedged inventory share rises -> require hedging covenant before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Exports down 26.0% and bank credit up 45.5% vs output 5.1% signal leverage outpacing real activity.",
+ "articles": [
+  {
+   "title": "Q2FY26 Quarterly Result Announced for AWL Agri Business Ltd.",
+   "url": "https://trendlyne.com/latest-news/755501/AWL/awl-agri-business-ltd/?page=2&qstime=1763127965",
+   "date": "2025-11-02",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "awl agri business q4 pat jumps 54 yoy to rs 292 cr",
+   "url": "http://capitalmarket.com/markets/news/hot-pursuit-news/awl-agri-business-q4-pat-jumps-54-yoy-to-rs-292-cr/1688233",
+   "date": "2026-04-28",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Manubhai Mangaldas - Revenue from operations increased 18% YoY to Rs 21,465 crore during the quarter, supported by 14% volume growth, driven by stron...",
+   "url": "http://portfolio.manumangal.com/CorporateInformation/Company-News-Details/AWL-Agri-Business-Ltd/25119010132#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Agr business",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8450969a-96f3-4f56-9513-305ba1f6fe30.pdf#3",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Purti Vanaspati Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Purti%20Vanaspati%20Private%20Limited-01-05-2018.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "One of the key risks that edible oil companies face is the risk arising out of the volatility in the prices of raw materials (oi...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/809~Edible%20Oil#2#3#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 09, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=128681#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 51 (national 35 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -26.0% Apr-to-date in USD (Rs 4,114 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +45.5% YoY vs output +5.1% (gap +40.4 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

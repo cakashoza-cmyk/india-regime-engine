@@ -1,0 +1,154 @@
+{
+ "key": "gj_bhavnagar|diamonds",
+ "state": "GJ",
+ "city": "gj_bhavnagar",
+ "ind": "diamonds",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:20 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 51,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively in Bhavnagar CPD only to small-ticket, domestic or non-US-linked units with tight stock-and-receivable control; avoid US-export-dependent cutters and polishers until tariff clarity returns.",
+ "title": "Bhavnagar Cut & Polished Diamonds: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Bhavnagar CPD unit buys rough, gets it cut and polished by job-work artisans, and sells polished stones to wholesalers and traders, mostly for export.** Cash is tied in rough inventory and in receivables from a handful of buyers; the factory itself is cheap (imported saws, bruting and polishing wheels), so the real funding need is working capital, not capex. Pricing power is thin: the segment is fragmented and low value-addition, so profitability stays modest and forex moves hit directly [9]. **So when a proposal lands, check the rough-to-polished conversion margin and the buyer list first; if the top three buyers exceed 61% of revenue, ask for the buyer-wise ageing and a plan to diversify [8].**\n\n## What has broken now\n**Bhavnagar is in a visible downturn: more than 50 diamond factories have shut and artisans are leaving in large numbers ahead of Diwali [2], and local reporting on 29-Oct-2026 describes the industry in recession [1].** The trigger is external: US tariff hikes of up to 50% on Indian diamonds hit Gujarat's cutting and polishing hubs, with nearly one lakh workers affected [3]. Peer survey work found more than 75% of CPD players expecting volume impact from US tariffs, with cost pass-through the key monitorable [4]. **Note the dates: [3] is Aug-2025 and [4] is a June-2025 channel check, so treat them as the cause, not the current state; collect from customer the latest US order book and tariff rate actually being paid.**\n\n## Where the growth is\n**Gujarat's local demand signal is the strongest thing in the pack: GST collections up 11.9% Apr-to-date versus India's 6.1% [D], and electricity demand up 11.0% versus 9.5% [D].** India-wide, CPD output (IIP NIC 32) is up only 3.2% YoY [D], so the state is running ahead of the national segment. Peer commentary points to festival and wedding demand and organised retail expansion supporting the domestic side [6], and certification intensity is rising [7]. **Pursue domestic-jewellery-linked polishers, small-ticket studded-jewellery units selling in India [11], and units with certified-stone workflows; avoid pure US-export cutters with single-buyer concentration.**\n\n## How to grow safely\n**Structure every new line as a stock-and-book-debt facility with a drawing power against pledged polished stock, not a clean limit.** Take monthly stock statements, buyer-wise sales and receivable ageing, and the rough purchase register; reconcile GST returns to sales every month. **If operating margin slips below 3% or revenue falls sharply, treat it as a rating-action trigger and cut limits [10]; if gearing rises on higher debtors or inventory, ask for the inventory ageing before any enhancement [10].** Keep tenors short and insist on forex hedging where export receivables exist [9].\n\n## Early-warning signs\n**Watch factory shutdowns and artisan migration in the Bhavnagar cluster [2], and any widening of the India credit-to-output gap (bank credit +33.0% YoY versus output +3.8% [D]) that signals borrowed stock building.** A buyer payment delay beyond agreed terms, or a customer asking to substitute rough inventory for cash margin, is the exit signal."
+ ],
+ "watch": [
+  [
+   "Factory shutdowns and artisan attendance in Bhavnagar cluster (monthly)",
+   "two or more borrower-adjacent closures -> freeze new limits in that cluster"
+  ],
+  [
+   "Stock and receivable ageing (monthly)",
+   "ageing beyond 90 days rises -> reduce drawing power and seek fresh stock pledge"
+  ],
+  [
+   "Operating margin and revenue trend (quarterly)",
+   "margin below 3% or sharp revenue fall -> cut limit and re-rate [10]"
+  ],
+  [
+   "US tariff and order book (monthly)",
+   "tariff stays high or US orders cancel -> shift exposure to domestic-linked units [3][4]"
+  ],
+  [
+   "GST returns vs sales reconciliation (monthly)",
+   "mismatch above tolerance -> stop disbursement and inspect books"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Bhavnagar reports over 50 factory closures and artisan exodus amid US tariff-driven recession.",
+ "articles": [
+  {
+   "title": "દિવાળી પહેલાં ભાવનગરના હીરા ઉદ્યોગમાં મંદી | bhavnagar Diamond industry | VTV Digital",
+   "url": "https://www.vtvgujarati.com/news-details/bhavnagar-diamond-industry-crisis-gujarati-samachar",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Bhavanagar Diamond: ભાવનગરમાં હીરા ઉદ્યોગ પર મંદીનું ગ્રહણ! 50થી વધુ કારખાનાઓને તાળાં, રત્નકલાકારોનું મોટાપાયે પલાયન",
+   "url": "https://gujarati.news18.com/photogallery/bhavnagar/over-fifty-diamond-factories-closed-in-bhavnagar-due-to-recession-vsd-ws-bl-2640199.html",
+   "date": "2026-10-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "US Tariffs Hit India’s Diamond Cutting & Polishing Sector Hard — Nearly 1 Lakh Workers Affected",
+   "url": "https://jewelbharat.com/us-tariffs-hit-india-diamond-industry/#content",
+   "date": "2025-08-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "INDIAN CUT AND POLISHED DIAMOND (CPD) INDUSTRY",
+   "url": "https://www.icra.in/Rating/DownloadResearchSpecialCommentReport?id=6387#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Gems & Jewellery stocks: Goldiam, Kalyan, Senco, Thangamayil zoom up to 18% - Gems & Jewellery stocks: Goldiam, Kalyan, Senco, Thangamayil zoom up to 18%",
+   "url": "https://www.business-standard.com/amp/markets/news/gems-jewellery-stocks-goldiam-kalyan-senco-thangamayil-zoom-up-to-18-126020900309_1.html#1",
+   "date": "2026-02-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The cut & polished diamond segment is an export- oriented segment in India",
+   "url": "https://www.bseindia.com/corporates/download/367919/IPO%20Prior/DRHP_20260930134918.pdf#41#108#41",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "International Gemmological Institute (India) (IGIL) Investor Relations, Earnings Summary & Outlook - International Gemmological Institute (India) (IGIL) investor relations material",
+   "url": "https://quartr.com/companies/international-gemmological-institute-india-ltd_21174#1",
+   "date": "2026-07-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 08, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130414#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Kiran Gems Private Limited",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/65008#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Update August 22, 2025 | Mumbai",
+   "url": "http://integraliq.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Narola%20Diamonds%20Private%20Limited-RU-22-08-2025.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sparkle Diam Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202610121043_Sparkle_Diam_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 51 (national 35 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Bank credit +33.0% YoY vs output +3.8% (gap +29.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Gujarat: electricity demand +11.0% Apr-to-date vs India +9.5% (1.5 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 32 output +3.2% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
