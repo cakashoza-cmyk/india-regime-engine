@@ -1,0 +1,158 @@
+{
+ "key": "up_kanpur|leather_goods",
+ "state": "UP",
+ "city": "up_kanpur",
+ "ind": "leather_goods",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 63,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Kanpur leather-goods makers with confirmed export orders and clean receivables; avoid undifferentiated small tanneries and job-work units.",
+ "title": "Kanpur leather goods: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nKanpur leather goods is a conversion business: raw and finished leather in, cut-stitch-assemble out, sold as bags, belts, gloves and footwear. **Cash is made on the cutting table and lost on the receivables ledger.** Value sits in design, buyer approval and finished-goods inventory; the tanning end is commodity and price-taking. The fair at Motijheel shows the demand is real and buyers include foreigners [1], and one stall is selling GPS laptop bags at Rs 4,800 and purses at Rs 2,900 [3] — so when a proposal lands, check whether the borrower sells own-design product at those price points or plain job-work; if plain job-work, ask for the buyer-wise margin sheet.",
+  "## What has changed now\nTwo things moved in Kanpur's favour this month. **The India-New Zealand FTA, effective 20 October 2026, removes up to 10% import duty on 181 products, opening a new market for Kanpur exporters** [2]. Separately, UP GST collections are running +14.2% Apr-to-date against India's +6.1% [D], a genuine local tailwind. Against that, India-wide exports are -3.0% Apr-to-date in USD [D] and bank credit is growing +11.9% YoY against output of +2.4% [D] — money is chasing borrowers faster than goods are moving. Peer results are mixed: the listed leather sector shows quarterly sales +13.68% but quarterly profit -4.79% and net margin 6.65% [4], while Sreeleathers posted sales +17.95% and net profit +82.80% in the March 2026 quarter [7]. **Treat the FTA as an order-flow opportunity, not yet as proven cash.**",
+  "## Where to grow\nPursue the export-ready converter: units with own designs, a named overseas buyer and a demonstrated ability to meet quality standards, since the FTA benefit reaches small and mid units too [2]. **Prioritise borrowers who can show a New Zealand buyer enquiry or order in hand, and who already sell own-label product.** Avoid pure job-work units, single-buyer dependents and tanneries with no finished-goods line.",
+  "## How to grow safely\nStructure against the order, not the balance sheet. **Take the export order copy, buyer-wise sales register and stock statement every month**, plus GST returns and bank statements. Keep tenor matched to the receivables cycle; ask for the actual credit period from customer. Where forex exposure exists, insist on a hedging policy — Super Tannery recorded a Rs 0.45 crore forex loss in FY24 without one [11].",
+  "## Early-warning signs\n- Monthly stock statement versus sales: inventory rising while sales flat -> stop fresh limits and inspect godown. - Buyer concentration: top buyer above half of sales -> ask for the second-buyer pipeline before renewal. - Receivable days stretching beyond the stated credit period -> move to order-backed limits only. - Forex loss line appearing in quarterly accounts -> require hedging before enhancing."
+ ],
+ "watch": [
+  [
+   "Monthly stock and sales statement",
+   "Inventory up with flat sales -> freeze limit enhancement and inspect stock"
+  ],
+  [
+   "Quarterly GST returns",
+   "Filing gaps or falling turnover -> re-rate the account and seek fresh buyer proof"
+  ],
+  [
+   "Monthly bank statement",
+   "Cheque returns or overdraft usage -> convert to order-backed limit"
+  ],
+  [
+   "Per-shipment export documents",
+   "No shipment against FTA order in two months -> treat FTA benefit as unproven"
+  ],
+  [
+   "Quarterly forex loss line",
+   "Unhedged loss recorded -> mandate hedging before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "NZ FTA duty removal and fast UP GST growth outweigh weak national exports.",
+ "articles": [
+  {
+   "title": "Kanpur News: लेदर मेले में देशी हुनर का जलवा, विदेशियों ने भी की खरीदारी",
+   "url": "https://www.amarujala.com/uttar-pradesh/kanpur/indigenous-craftsmanship-shines-at-the-leather-fair-foreigners-also-make-purchases-kanpur-news-c-12-1-knp1053-1700261-2026-11-01",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "भारत-न्यूजीलैंड FTA: चमका कानपुर लेदर उद्योग, 181 उत्पादों पर आयात शुल्क खत्म",
+   "url": "https://hindi.news18.com/news/uttar-pradesh/kanpur-leather-footwear-industry-india-new-zealand-fta-zero-import-duty-benefits-local18-10955129.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "कानपुर के लेदर मेले में बिक रहा ऐसा बैग, खोने पर खुद बताएगा अपनी लोकेशन, ये रही कीमत",
+   "url": "https://hindi.news18.com/news/uttar-pradesh/kanpur-leather-fair-2026-gps-enabled-purses-and-bags-attract-visitors-local18-10955109.html",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Leather Sector Stocks & Shares - Leather Stocks Listings in India | The Economic Times - Leather",
+   "url": "https://m.economictimes.com/stocks/sectors/leather?frmapp=yes#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sreeleathers Limited",
+   "url": "https://www.perplexity.ai/app/finance/SREEL.BO?comparing=SREEL.BO%2CMETROBRAND.NS%2CBATAINDIA.BO%2CBATAINDIA.NS%2CBIL.NS%2CCAMPUS.BO%2CLIBERTSHOE.BO%2CDECK&preset=peers&symbol=RELAXO.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "MAYUR UNIQUOTERS LIMITED",
+   "url": "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/10082026/c2e47cd9-6238-4752-aa2d-ee81eb89d01c.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Results - Announcements",
+   "url": "https://spfl.co.in/company-news/1702731",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Leiner Shoes Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202609130913_Leiner_Shoes_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Balaji Leather Creation",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Balaji%20Leather%20Creation-02-25-2019.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apart from the capital structure, ICRA pays attention to the debt coverage indicators, including interest coverage, debt service...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=890#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Super Tannery Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202501130115_Super_Tannery_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 63 (national 55 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 15 output +8.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -3.0% Apr-to-date in USD (Rs 21,080 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +11.9% YoY vs output +2.4% (gap +9.5 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

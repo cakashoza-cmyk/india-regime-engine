@@ -1,0 +1,150 @@
+{
+ "key": "ka_mangaluru|cashew",
+ "state": "KA",
+ "city": "ka_mangaluru",
+ "ind": "cashew",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 61,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to cashew processors with clean working-capital discipline and verified raw-material cover; avoid thinly capitalised, single-mill units with stretched limits.",
+ "title": "Mangaluru Cashew Processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Cashew processing is a raw-material conversion trade: you buy raw cashew nut, shell, peel, grade and pack, and sell kernels to buyers who set the price.** Value sits in the raw nut and in the working-capital cycle, not in the machine. The local picture is thin: the only Mangaluru-specific cashew item in our file is a government plan to invest ₹1 crore in grafted saplings through KCDC [3], and a local report that domestic production is low and processors import raw nuts to meet processing demand [3]. So lean on first principles and peers here, and say so in the file. ## Where cash and value sit\n**The cash is trapped between nut purchase and kernel sale, and the industry itself is fragmented with low entry barriers and limited pricing power** [10]. Labour dependence and periodic labour shortage further squeeze bargaining position [11]. **So when a proposal lands, check the raw-nut cover and the buyer book first; if the unit cannot show graded sales contracts, ask for the last six months of buyer-wise invoices.**\n\n## What has changed now\n**The national demand signal is weak: India-wide exports are -9.8% Apr-to-date in USD** [D]. Karnataka's local economy is running ahead — GST collections +11.1% Apr-to-date versus India +6.1%, and electricity demand +23.3% versus India +9.5% [D] — but that is a state-level tailwind, not a cashew-specific one. Rating reports show working-capital stress building in the sector: average utilisation around 50% in FY2025 rising to around 73% in 9M FY2026 at one entity [8], and over 90% with limited buffer at another [11]. **So treat limit utilisation as the first screen; if utilisation is above 90%, ask for the drawing-power statement and the stock-and-book-debt position before any enhancement.**\n\n## Who to pursue, who to avoid\n**Pursue integrated processors with own or contracted raw-nut supply, mechanised lines and a diversified buyer base** — the Aelea and Sampoorna profiles [4][7] show scale and margin are achievable. **Avoid single-mill, single-buyer units that live on ad-hoc imported nut parcels** [3][10]. The ₹1 crore sapling programme [3] is a supply-side positive only over years, not a reason to lend today. Collect from customer: local raw-nut arrival volumes, district-wise processing capacity, and current kernel export prices. ## How to grow safely\n**Structure against the nut, not the building: stock-and-receivables limits, monthly stock statements, and a covenant that raw-nut purchases are backed by confirmed orders.** Take every month: stock statement, debtor ageing, limit utilisation, and labour-days worked. **If utilisation crosses 90% [11], freeze enhancements and ask for the buyer-wise realisation statement.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock statement and limit utilisation (monthly)",
+   "utilisation above 90% [11] -> freeze enhancement, seek drawing-power statement"
+  ],
+  [
+   "Raw-nut purchase invoices vs import parcels (monthly)",
+   "purchases without confirmed orders -> reduce limit, seek sales contracts"
+  ],
+  [
+   "Labour-days and unit throughput (monthly)",
+   "throughput falls below plan for two months -> re-rate the account"
+  ],
+  [
+   "GST and electricity data for Karnataka (quarterly)",
+   "state GST growth slips below India [D] -> tighten new-to-bank intake"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "National exports -9.8% Apr-to-date [D]; sector working-capital utilisation rising to 73% and above 90% [8][11].",
+ "articles": [
+  {
+   "title": "ಮಂಗಳೂರಿನ ಮಂಜುಗಡ್ಡೆ ತಯಾರಿಕಾ ಘಟಕಕ್ಕೆ ಆಹಾರ ಸುರಕ್ಷತಾ ಇಲಾಖೆ ಅಧಿಕಾರಿಗಳ ದಾಳಿ ; ಐಸ್ ತಯಾರಿಗೆ ಶುದ್ಧ ನೀರಿನ ಬಳಕೆಗೆ ಸೂಚನೆ, ಮೀನು ಶೇಖರಣೆಗೆ ರಾಸಾಯನಿಕ ಬಳಸದಂತೆ ಎಚ್ಚರಿಕೆ",
+   "url": "https://headlinekarnataka.com/news/mangalore/27577/Food-Safety-Officials-Raid-Ice-Manufacturing-Unit-in-Mangaluru",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Kochikar blends tradition, tech at KCCI helm",
+   "url": "https://maritimetechnologyreview.com/2026/09/29/kochikar-blends-tradition-tech-at-kcci-helm/",
+   "date": "2026-09-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Govt. will invest ₹1 cr. for raising grafted cashew saplings: Eshwar Khandre - Govt. will invest ₹1 cr. for raising grafted cashew saplings: Eshwar Khandre",
+   "url": "https://www.thehindu.com/news/cities/Mangalore/govt-will-invest-1-cr-for-raising-grafted-cashew-saplings-eshwar-khandre/article70990274.ece#1",
+   "date": "2026-05-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "23rd May, 2026",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d7cc580f-486e-4b42-a88a-03bc71932873.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "FY26 was a landmark year for Pajson Agro, marked by strong financial performance and consistent execution across the business",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d43b876e-5331-4e22-8e37-125f7e06517b.pdf#11#21#11",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Aelea Commodities Ltd. Share Price Today: Live updates - Aelea Commodities",
+   "url": "https://zerodha.com:443/markets/stocks/BSE/ACLD/#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "NFP Sampoorna Foods Concall Summary: Key Highlights and FY26 Results",
+   "url": "https://www.sovrenn.com/knowledge/nfp-sampoorna-foods-concall-summary-key-highlights-and-fy-26-results",
+   "date": "2026-07-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 13,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=141546#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "February 10, 2025(Revised)",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=132927#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "June 04, 2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=135578#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 08, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=137482#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 61 (national 35 x 0.6 + Karnataka 100 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Karnataka: GST collections +11.1% Apr-to-date vs India +6.1% (5.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Karnataka: electricity demand +23.3% Apr-to-date vs India +9.5% (13.8 pp faster than India) — a local tailwind. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -9.8% Apr-to-date in USD (Rs 1,294 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

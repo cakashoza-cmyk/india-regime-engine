@@ -1,0 +1,150 @@
+{
+ "key": "kl_kollam|cashew",
+ "state": "KL",
+ "city": "kl_kollam",
+ "ind": "cashew",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 51,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to mechanised, well-capitalised Kollam cashew processors with verified import and export books; avoid labour-heavy manual shelling units and any import-intermediary exposure.",
+ "title": "Kollam Cashew Processing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Kollam shells and processes raw cashew nuts (RCN) into kernels, and the cash cycle runs import RCN, process, export kernels.** The city was once the world's cashew capital but is down to just about 100-120 processing plants [1]. Value sits in the kernel grade and the buyer relationship, not the shell; cash sits in RCN inventory and in export receivables, both of which stretch when shipping or payment stalls. Capex is modest per plant but mechanisation is the dividing line, since cheaper mechanised processing elsewhere in India is exactly what has taken share from Kollam [1].\n\n## What has broken now\n**The supply chain has physically seized: shipping bottlenecks, especially around the Strait of Hormuz, blocked RCN imports and stalled kernel exports, and shipments to GCC countries almost stopped [3].** Cash-strapped private owners downed shutters and thousands of labourers lost work [3]. Separately, a Kollam-linked cashew import fraud case is under police investigation, with a Kottarakkara merchant reported to have lost crores in an African RCN import deal routed through Tuticorin port [2]. So when a proposal lands, check the import counterparty and the port of landing against the actual bill of lading; if the RCN supplier is an unknown intermediary or the goods route through a third-party port agent, ask for the full contract chain and the payment trail before sanctioning.\n\n## Where the growth is\n**Peer results show the money is in integrated, mechanised processors, not manual shellers.** Aelea Commodities reported FY26 revenue from operations of ₹381.50 Cr, up 109% YoY, with EBITDA of ₹40.37 Cr and PAT of ₹21.32 Cr [4]; its ROCE is 28.13% and ROE 16.94% [6]. NFP Sampoorna Foods targets FY27 throughput of 4,000-4,200 MT at ~65-70% utilisation versus ~3,200 MT in FY26, and guides EBITDA margins of 16-20% as sustainable [7]. Pursue Kollam borrowers who own their processing line, buy RCN directly, and sell kernels to institutional or export buyers with a track record; avoid pure trading intermediaries and manual-shelling units dependent on contract labour.\n\n## How to grow safely\n**Structure against the working-capital cycle, because that is where these firms die.** Rating reports show utilisation swinging hard: one entity moved from around 50% in FY2025 to around 73% in 9M FY2026 [8], another sat at 93% between June and later months [11], and a third ran around 70-75% [9]. So take monthly stock-and-receivable statements and limit utilisation to a level with real headroom; if utilisation crosses 85%, ask for the ageing of RCN inventory and the export buyer list before any enhancement. The industry is highly fragmented with low entry barriers, faces intense competition from Vietnamese processors with cheaper labour and mechanised processing, and has limited pricing flexibility [10]; price the limit for that, not for the peer headline numbers.\n\n## Early-warning signs\n**Watch the physical flow first.** If a borrower reports RCN stuck at port or GCC shipments not moving, treat it as a cash event, not a delay [3]. If import documents name an unfamiliar intermediary, stop and verify against the fraud pattern reported in Kollam [2]. If monthly stock statements show inventory ageing without matching export invoices, ask for the buyer-wise outstanding. Kerala's GST collections grew 10.3% Apr-to-date versus India's 6.1% [D], which supports local formalising borrowers, but India-wide exports fell 9.8% Apr-to-date in USD [D], so export-dependent kernel sellers carry real demand risk. Note the local reporting is recent (2026) but the peer and rating documents carry no clear dates; treat their figures as indicative."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement (monthly)",
+   "Utilisation above 85% -> ask for RCN inventory ageing and export buyer list before any enhancement"
+  ],
+  [
+   "Shipping and port status for RCN and kernel consignments (monthly)",
+   "Reported port blockage or GCC shipments stalled -> treat as cash event, reassess limit"
+  ],
+  [
+   "Import documentation and counterparty verification (per transaction)",
+   "Unknown intermediary or third-party port agent -> stop, demand full contract chain and payment trail"
+  ],
+  [
+   "GST filings and turnover trend (monthly/quarterly)",
+   "Filing gap or turnover fall versus Kerala's 10.3% GST growth [D] -> ask for buyer-wise sales and outstanding"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Kollam plants down to 100-120, shipping halts exports, and an import fraud case hits local merchants.",
+ "articles": [
+  {
+   "title": "Kollam's Cashew Industry: A Ssow and painful decline - Sections",
+   "url": "https://frontline.thehindu.com/the-nation/kollam-cashew-industry-decline-women-workers/article71582385.ece#1",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "കശുവണ്ടി ഇറക്കുമതിയുടെ മറവിൽ തട്ടിപ്പ്; കൊല്ലം സ്വദേശിയായ വ്യവസായിക്ക് നഷ്ടമായത് കോടികൾ | kollam-cashew-import-fraud-muhsin-salim-case - കശുവണ്ടി ഇറക്കുമതിയുടെ മറവിൽ തട്ടിപ്പ്; കൊല്ലം സ്വദേശിയായ വ്യവസായിക്ക് നഷ്ടമായത് കോടികൾ",
+   "url": "https://www.mediaoneonline.com/amp/kerala/kollam-cashew-import-fraud-muhsin-salim-case-331356#1",
+   "date": "2026-07-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Shipping delays hit cashew sector in Kerala - Shipping delays hit cashew sector in Kerala",
+   "url": "https://www.thehindu.com/news/national/kerala/shipping-delays-hit-cashew-sector-in-kerala/article70998909.ece#1",
+   "date": "2026-05-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "23rd May, 2026",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d7cc580f-486e-4b42-a88a-03bc71932873.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "FY26 was a landmark year for Pajson Agro, marked by strong financial performance and consistent execution across the business",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d43b876e-5331-4e22-8e37-125f7e06517b.pdf#11#21#11",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Aelea Commodities Ltd. Share Price Today: Live updates - Aelea Commodities",
+   "url": "https://zerodha.com:443/markets/stocks/BSE/ACLD/#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "NFP Sampoorna Foods Concall Summary: Key Highlights and FY26 Results",
+   "url": "https://www.sovrenn.com/knowledge/nfp-sampoorna-foods-concall-summary-key-highlights-and-fy-26-results",
+   "date": "2026-07-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 13,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=141546#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "February 10, 2025(Revised)",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=132927#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "June 04, 2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=135578#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "September 08, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=137482#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 51 (national 35 x 0.6 + Kerala 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Kerala: GST collections +10.3% Apr-to-date vs India +6.1% (4.2 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -9.8% Apr-to-date in USD (Rs 1,294 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

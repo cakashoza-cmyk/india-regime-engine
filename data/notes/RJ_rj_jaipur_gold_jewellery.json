@@ -1,0 +1,154 @@
+{
+ "key": "rj_jaipur|gold_jewellery",
+ "state": "RJ",
+ "city": "rj_jaipur",
+ "ind": "gold_jewellery",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 21,
+ "nudged_by_news": false,
+ "verdict": "Avoid new gold-jewellery manufacturing exposure in Jaipur for now; lend only to organised, low-leverage, high-turnover manufacturers with tight gold-metal control, and decline the rest.",
+ "title": "Jaipur gold jewellery manufacturing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Jaipur gold-jewellery unit buys bullion or scrap, converts it into ornaments through karigars, and sells to wholesalers and retailers on thin making charges.** Cash is tied in gold inventory and receivables, not in plant; the metal is the balance sheet. Peer results show the model can scale fast when demand is there — Shanti Gold's Q4 FY26 revenue grew 121.65% YoY [4] and Q3 FY26 revenue rose 110.06% YoY [6] — but that is peer performance, not Jaipur. **So when a proposal lands, check the gold-metal account and inventory days first; if the unit cannot show karigar-wise metal reconciliation, ask for the stock statement and insurer's cover before anything else.**",
+  "## Where value and cash sit\n**Value sits in making charges and design, but cash sits in working capital, and that is where the risk is.** ICRA notes working-capital intensity of 15–20% and expects it to rise with gold prices [10], and flags intense competition from unorganised players limiting pricing flexibility [8]. Margins are real but thin: NGJL ran 11.0% operating and 5.7% net margin in FY2025 [9]; Ashapuri's EBITA margin was 8.78% [7]. **So price the limit to the cycle, not the festive peak; if the borrower asks for a limit sized to peak inventory, ask for the off-season stock statement and the last two years' drawing power.**",
+  "## What has changed now\n**Local demand has softened and the official data pack is negative on Rajasthan.** Gold fell ₹10,700 and silver ₹44,000 in the month, with buyers cautious ahead of Diwali [1]; a June 2026 report recorded a slump in Jaipur trade after the PM's appeal to abstain from buying yellow metal [3] — that source is five months old, treat it as context. Rajasthan GST collections are -4.7% Apr-to-date versus India +6.1%, and electricity demand +4.0% versus India +9.5% [D]. Nationally, bank credit is +33.0% YoY against output +3.8% [D], and the repo is 5.5% with a tightening stance [D]. **So do not read a festive order book as recovery; if the borrower's sales are flat while its limit utilisation is rising, ask why the gap is being funded by the bank.**",
+  "## Where to grow, and how to grow safely\n**Pursue organised manufacturers with 18-carat and 9/14-carat lines for younger buyers — Sky Gold's call notes 18-carat taking share from 22-carat, with 22-carat still 70–75% of sales [5].** Avoid single-promoter units with no metal audit, no hallmarking discipline and heavy bullion-price exposure. Structure as a cash-flow limit against verified stock and receivables, with a margin on gold value and a personal guarantee.",
+  "## Early-warning signs\n**Watch the metal, not the narrative.** A borrower extending credit terms to retailers, or holding inventory through a price fall, is the first sign. ICRA flags regulatory risk and bullion-import restrictions as sector-wide exposures [8], and rising gold prices lifting working-capital intensity [10]. **If receivables days stretch beyond the borrower's own two-year average, or gold-on-lease exceeds owned stock, stop fresh disbursement and ask for the ageing.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock and gold-metal reconciliation",
+   "Inventory days rise above the borrower's two-year average -> freeze fresh disbursement, ask for karigar-wise metal account"
+  ],
+  [
+   "Monthly GST returns and turnover",
+   "GST turnover falls two quarters running while limit utilisation rises -> reduce limit, seek additional collateral"
+  ],
+  [
+   "Quarterly receivables ageing",
+   "Receivables days stretch beyond own two-year average -> stop disbursement, ask for retailer-wise ageing"
+  ],
+  [
+   "Monthly gold price and local demand (Jaipur bullion reports)",
+   "Sustained price fall with flat offtake -> revalue stock cover and reassess margin"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Jaipur demand slumped and Rajasthan GST and power data trail India.",
+ "articles": [
+  {
+   "title": "Gold falls by ₹10,700 and silver by ₹44,000 in month: Buyers remain cautious despite price drop; rates decline ahead of Diwali - Jaipur News",
+   "url": "https://www.bhaskarenglish.in/local/rajasthan/jaipur/news/gold-silver-price-fall-diwali-bullion-market-investment-update-139546935.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Festive season outlook: Jewellers optimistic despite gold price concerns",
+   "url": "https://askfuzz.ai/discover/news/commodities/jaipur-jeweller-expects-festive-sales-but-shoppers-wait-on-gold-prices",
+   "date": "2026-09-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Jaipur Witnesses Slump In Gold Jewellery Trade After PM Modi’s Appeal To Abstain From Purchasing Yellow Metal - Jaipur Witnesses Slump In Gold Jewellery Trade After PM Modi’s Appeal To Abstain From Purchasing Yellow Metal",
+   "url": "https://www.etvbharat.com/en/business/jaipur-witnesses-slump-in-gold-jewelry-trade-after-appeal-by-pm-modi-to-abstain-from-purchasing-yellow-metal-enn26062303243#1",
+   "date": "2026-06-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "To, Listing/Compliance Department BSE Limited Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai- 400001 BSE Scrip Code: 544459",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/12512974-f101-4e80-8aeb-6ed6e2126afc.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sky Gold and Diamonds (BOM:541967) Q4 2026 Earnings Call Transcript & Audio - Therefore, as advance gold volumes grow, our absolute profit and margins improve",
+   "url": "https://stockanalysis.com/quote/bom/541967/transcripts/567997-q4-25-26/#2",
+   "date": "2026-05-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1674504&opt=CN&secid=2&subsecid=0&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ashapuri Gold Ornament Ltd (BOM:542579) Q3 2026 Earnings Call Highlights: Strong Profit Growth ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://sg.finance.yahoo.com/news/ashapuri-gold-ornament-ltd-bom-010153522.html#1",
+   "date": "2026-02-15",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 18,2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=139709#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 11, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=136298#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "February 17,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140979#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 27, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=134008#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 21 (national 35 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +33.0% YoY vs output +3.8% (gap +29.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

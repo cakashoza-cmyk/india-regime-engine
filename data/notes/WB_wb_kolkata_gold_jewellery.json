@@ -1,0 +1,150 @@
+{
+ "key": "wb_kolkata|gold_jewellery",
+ "state": "WB",
+ "city": "wb_kolkata",
+ "ind": "gold_jewellery",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 21,
+ "nudged_by_news": false,
+ "verdict": "Avoid new gold-jewellery manufacturing exposure in Kolkata for now; lend only to organised, GST-clean, low-leverage units with gold-metal limits and monthly stock statements, and decline any havala-linked or cash-heavy borrower.",
+ "title": "Kolkata gold jewellery manufacturing: a note to the credit manager",
+ "narrative": [
+  "## What the business actually is\n**A Kolkata gold unit buys bullion or scrap, converts it into chains, bangles and studded pieces, and sells to wholesalers and retailers in Bada Bazar and beyond.** Cash sits in inventory and in the gold itself, not in the factory. The ICRA reports describe the sector as working-capital intensive, with working capital intensity of 15-20% and rising with gold prices [10], and as fragmented with unorganised players squeezing margins [11]. Pricing power is thin: competition from unorganised players and peers limits pricing flexibility, and regulatory risk sits on top [8]. So when a proposal lands, check the inventory days and the gold-holding statement first; if the unit cannot show where the gold physically is, ask for the vault and karigar records before anything else. ## What has changed now\n**The local signal is weak and the national money signal is tight.** West Bengal GST collections are -1.3% Apr-to-date against India +6.1%, 7.4 pp slower [D], and electricity demand is +5.7% against India +9.5%, 3.8 pp slower [D]. India-wide bank credit is +33.0% YoY against output +3.8%, a gap of +29.2 pp [D], with repo at 5.5% and a tightening stance [D]. Locally, Bada Bazar gold and havala operators have been targeted by fraudsters, with Rs 50 lakh of fake notes recovered [1]. That is a local news report, not a peer result, and it matters: **cash-and-havala linkages are the single biggest credit risk in this trade.** If a borrower's receipts are largely cash or routed through non-bank channels, decline. ## Where the growth is\n**Peer results show the organised end is growing fast even while the local trade is stressed.** Shanti Gold reported Q4 FY26 revenue of Rs 658.93 crore, up 121.65% YoY, with PAT of Rs 51.93 crore [4], and Q3 FY26 revenue of Rs 636.93 crore against Rs 303.22 crore, up 110.06% [6]. Ashapuri reported PAT up 7.76% and EBITA margin at 8.78% [7]. Sky Gold notes 22 carat is still 70%-75% of sales while 18 carat is rising [5]. Pursue organised manufacturers supplying these chains: GST-registered, bank-routed sales, 18-22 carat mix, and a clean stock-and-receivables book. Avoid job-work karigars with no balance sheet and any unit whose sales are mostly cash. ## How to grow safely\n**Structure against the gold, not the balance sheet.** Take gold-metal loans or gold-linked limits where possible, monthly stock statements, and a charge on inventory. Rating reports show the safe profile: NGJL at total debt/tangible net worth of 0.5 times and interest coverage of 4.0 times [9]. Take monthly GST returns, stock statements and bank statements every month. ## Early-warning signs\n**Watch the gold and the cash, not the sales line.** If inventory days rise while sales are flat, the unit is holding gold it cannot sell; ask for the ageing. If GST turnover falls below bank credits, cash is leaking outside the books; stop enhancement. If the promoter's other entities show havala-type transactions, exit. Collect from customer the actual inventory days, karigar count and gold-holding split, as the sources do not give Kolkata-specific figures."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns (monthly)",
+   "GST turnover below bank credits for two months -> freeze limit enhancement and ask for sales register"
+  ],
+  [
+   "Stock statement and gold reconciliation (monthly)",
+   "Inventory days rising while sales flat -> ask for ageing and vault verification"
+  ],
+  [
+   "Bank statement routing (monthly)",
+   "Cash or non-bank receipts above 20% of turnover -> decline or exit"
+  ],
+  [
+   "Promoter entity search (quarterly)",
+   "Havala or fraud linkage found -> exit immediately"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "West Bengal GST -1.3% vs India +6.1%, power demand slower, and Bada Bazar havala fraud report.",
+ "articles": [
+  {
+   "title": "बड़ाबाजार के सोना और हवाला कारोबारी थे ठगों के निशाने पर!",
+   "url": "https://sanmarg.in/kolkata_city/gold-businesmann-were-on-targets-of-ficn-fraudster",
+   "date": "2026-10-28",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "bullion logistics News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/bullion-logistics/news#1",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "poor mans gold: Latest News & Videos, Photos about poor mans gold | The Economic Times - Page 1 - Business News›poor mans gold",
+   "url": "https://economictimes.indiatimes.com/topic/poor-mans-gold#1",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "To, Listing/Compliance Department BSE Limited Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai- 400001 BSE Scrip Code: 544459",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/12512974-f101-4e80-8aeb-6ed6e2126afc.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sky Gold and Diamonds (BOM:541967) Q4 2026 Earnings Call Transcript & Audio - Therefore, as advance gold volumes grow, our absolute profit and margins improve",
+   "url": "https://stockanalysis.com/quote/bom/541967/transcripts/567997-q4-25-26/#2",
+   "date": "2026-05-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1674504&opt=CN&secid=2&subsecid=0&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ashapuri Gold Ornament Ltd (BOM:542579) Q3 2026 Earnings Call Highlights: Strong Profit Growth ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://sg.finance.yahoo.com/news/ashapuri-gold-ornament-ltd-bom-010153522.html#1",
+   "date": "2026-02-15",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 18,2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=139709#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 11, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=136298#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "February 17,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140979#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 27, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=134008#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 21 (national 35 x 0.6 + West Bengal 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "West Bengal: GST collections -1.3% Apr-to-date vs India +6.1% (7.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "West Bengal: electricity demand +5.7% Apr-to-date vs India +9.5% (3.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +33.0% YoY vs output +3.8% (gap +29.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

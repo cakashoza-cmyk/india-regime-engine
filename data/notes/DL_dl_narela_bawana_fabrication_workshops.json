@@ -1,0 +1,134 @@
+{
+ "key": "dl_narela_bawana|fabrication_workshops",
+ "state": "DL",
+ "city": "dl_narela_bawana",
+ "ind": "fabrication_workshops",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid for now — Delhi demand signals are running behind India and the data-based call is Avoid; lend only to export-linked, low-leverage precision shops with clean receivables, and decline the rest.",
+ "title": "Narela-Bawana fabrication & machining: a note to the credit manager",
+ "narrative": [
+  "Capex is CNC/VMC machines and power; working capital is inventory plus receivables, and ICRA's methodology notes working capital is driven by receivables and inventory holding [5]. **So when a proposal lands, check the receivable days against the customer mix first; if one buyer is over a third of sales, ask for that buyer's payment history and whether the shop is a single-source vendor.**",
+  "## What has changed now\n**Delhi is lagging the country on both demand proxies: GST collections +2.7% Apr-to-date against India +6.1%, and electricity demand +6.5% against India +9.5% [D].** That is a local stress signal, and the repo at 5.5%, raised from 5.25% with a tightening stance, makes the interest line heavier [D]. **The data-based call is Avoid (score 27), so the bar for any new limit is high.** Note the sources say nothing specific about Narela-Bawana itself — I am leaning on first principles and the peer set, and you should treat the absence of local data as a reason to collect from customer, not to assume health.",
+  "## Where the growth is\n**The peers that are growing are export-linked and precision-focused, not local-job-work.** Rolex Rings reports international sales at 73% of bearing rings revenue and 72% of auto components revenue [1]; Kranti Industries grew H1 FY26 revenue 13.9% year-on-year [2]; Balu Forge posted 27.2% EBITDA margin in Q3FY26 [3]; Ramkrishna Forgings grew Q2 revenue 54.9% with EBITDA margin at 18.2% [4]. **Pursue the Narela-Bawana shops that supply tier-1 auto or export chains with documented purchase orders; avoid the pure local fabrication shops dependent on Delhi construction and general engineering, where the demand signal is weakest [D].**",
+  "## How to grow safely\n**Structure short: cash-credit against receivables, term loan only for a named machine with a customer order behind it.** Take monthly: GST returns, receivable ageing by buyer, machine-hour utilisation, and electricity bills — the last ties directly to the local demand signal [D]. **Covenant on receivable days and on leverage; ICRA notes low leverage preserves financial flexibility in a downturn [6].** If the buyer concentration rises or ageing stretches, ask for the buyer's ledger confirmation before enhancing.",
+  "## Early warning signs\n**Watch for receivable days stretching while sales stay flat, and for power consumption falling without a stated shutdown.** If GST turnover diverges from bank credits, ask for the sales register and the e-way bills. If a buyer delays beyond the agreed terms twice, stop enhancement and reprice."
+ ],
+ "watch": [
+  [
+   "GST returns vs bank credits (monthly)",
+   "divergence over 10% -> ask for sales register and e-way bills"
+  ],
+  [
+   "Receivable ageing by buyer (monthly)",
+   "days stretch two months running -> freeze limit enhancement"
+  ],
+  [
+   "Electricity consumption (monthly)",
+   "fall without stated reason -> site visit and utilisation check"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "single buyer above one-third of sales -> seek buyer confirmation and covenant"
+  ],
+  [
+   "Leverage and interest cover (quarterly)",
+   "leverage rises with flat sales -> reprice or decline renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Delhi GST and power demand both trail India, and repo was raised with a tightening stance.",
+ "articles": [
+  {
+   "title": "Rolex Rings Q1 FY27 slides: margins expand despite labor constraints By Investing.com - Rolex Rings Q1 FY27 slides: margins expand despite labor constraints",
+   "url": "https://in.investing.com/news/company-news/rolex-rings-q1-fy27-slides-margins-expand-despite-labor-constraints-93CH-5538588#1",
+   "date": "2026-08-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Kranti Industries Reports Strong H1 Growth With Margin Expansion - Kranti Industries Limited, a leading precision-engineering and machining-solutions company, has announced its unaudited standalo...",
+   "url": "https://www.constructionworld.in/policy-updates-and-economic-news/kranti-industries-reports-strong-h1-growth-with-margin-expansion/81734#Messages#1",
+   "date": "2025-11-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Q3FY26 Quarterly Result Announced for Balu Forge Industries Ltd.",
+   "url": "https://trendlyne.com/posts/5530205/q3fy26-quarterly-result-announced-for-balu-forge-industries-ltd",
+   "date": "2026-02-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ramkrishna Forgings Q2 Revenue Jumps 55% To Rs 1,405 Cr, PAT At Rs 71 Cr - BW Businessworld",
+   "url": "https://www.businessworld.in/article/ramkrishna-forgings-q2-revenue-jumps-55-to-rs-1-405-cr-pat-at-rs-71-cr-631421",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Notes on - Credit rating agencies in India CRISIL, CARE, ICRA, Small & Medium Enterprises Rating Agency (SMERA).",
+   "url": "http://dishtavostaging.unigoa.ac.in/resource?filename=7948_Notes.pdf&module_id=7948&type=quad#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + Delhi 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Delhi: GST collections +2.7% Apr-to-date vs India +6.1% (3.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Delhi: electricity demand +6.5% Apr-to-date vs India +9.5% (3.0 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]",
+  "India-wide: All-India domestic GST collections Apr-to-date (proxy) +6.1%. [official activity proxy, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

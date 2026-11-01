@@ -1,0 +1,149 @@
+{
+ "key": "kl_thrissur|gold_jewellery",
+ "state": "KL",
+ "city": "kl_thrissur",
+ "ind": "gold_jewellery",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 51,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to organised Thrissur manufacturers with tight gold-metal control; avoid unorganised job-work units.",
+ "title": "Thrissur gold jewellery manufacturing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A Thrissur gold unit buys bullion or scrap, converts it into 22-carat chains, bangles and studded pieces, and sells to retailers or through group showrooms.** Cash is tied up in metal, not in machines: the working-capital intensity of such manufacturers has stayed high at 15-20% and is likely to rise with gold prices [10]. Pricing power is thin because unorganised players and established peers limit flexibility [8]. So when a proposal lands, check the gold-metal-accounting policy first; if the unit holds unhedged stock beyond a week's production, ask for the hedging contract.",
+  "## What has changed now\n**The local demand signal is positive but the credit signal is not.** Kerala GST collections grew 10.3% Apr-to-date against India's 6.1% [D], and Thrissur's anchor houses are expanding — Malabar Gold opened a new MG Road showroom with launch offers [1]. **Money is chasing this trade faster than the trade is growing.** Regulatory intervention has already hit demand and supply [10], and bullion-import restrictions remain a live risk [8].",
+  "## Where the growth is\n**Pursue organised manufacturers supplying large retail chains, and the mid-carat story.** Peer results show the appetite: Shanti Gold's Q4 FY26 revenue grew 121.65% YoY with PAT up 465.30% [4], and Q3 FY26 revenue grew 110.06% [6]. Sky Gold's management notes 18-carat is taking share from 22-carat, though 22-carat still holds 70%-75% of sales [5]. Ashapuri's EBITA margin expanded 233 bps to 8.78% [7]. **Avoid pure job-work units with one buyer and no own design capability** — they carry the metal risk without the margin.",
+  "## How to grow safely\n**Structure against the metal, not the turnover.** Take the gold on consignment or hypothecation with a daily stock-and-ornament statement; set the drawing power on net metal position, not on receivables alone. Peer balance sheets show the template: NGJL ran Total Debt/Tangible Net Worth of 0.5 times with interest cover of 4.0 times in FY2025 [9]. **Every month take: metal stock statement, sales register by carat, buyer-wise receivables ageing, and GST returns.** If receivables days stretch beyond the unit's own stated cycle, ask for the buyer confirmation.",
+  "## Early-warning signs\n**Watch the metal account and the buyer list, not the P&L.** ICRA flags that working-capital utilisation stays high and liquidity improvement is the monitorable [11]. If a unit's limit utilisation stays pinned near sanctioned levels while sales fall, that is diversion. If a single retailer crosses a third of sales, ask for a second-buyer plan. If the unit cannot produce a hedging contract when gold prices rise, treat it as a trading position, not a manufacturing one.",
+  "## The call\n**Caution.** Thrissur's local demand is real [1][D], but the national credit-to-output gap [D] and thin pricing power [8] mean we lend to organised, hedged, multi-buyer units only. Sources on Thrissur-specific manufacturer financials are thin — collect from customer."
+ ],
+ "watch": [
+  [
+   "Monthly metal stock statement",
+   "Stock age > 15 days or unhedged position -> freeze drawing power"
+  ],
+  [
+   "Monthly GST returns",
+   "Filing gap or turnover fall > 20% -> ask for buyer-wise sales register"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Credit growing 33.0% vs output 3.8% nationally; jewellery IIP only 3.2%.",
+ "articles": [
+  {
+   "title": "തൃശൂരിൽ പുതിയ ഷോറൂം തുറന്ന് മലബാർ ഗോൾഡ് ആൻഡ് ഡയമണ്ട്സ്; ഉദ്ഘാടന ഓഫറുകളും പ്രഖ്യാപിച്ചു | Malabar Gold and Diamonds Thrissur | Times Kerala - മലബാർ ഗോൾഡ് ആൻഡ് ഡയമണ്ട്സിന് ഇന്ത്യയിൽ തൃശൂർ, കോഴിക്കോട് എന്നിവിടങ്ങൾക്കു പുറമെ ഹൈദരാബാദ്, കൊൽക്കത്ത, മുംബൈ, ബെംഗളൂരു, കോയമ്പത്ത...",
+   "url": "https://timeskerala.com/business/malabar-gold-diamonds-new-showroom-thrissur-mg-road/#2",
+   "date": "2026-10-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "thrissur gold trade News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/thrissur-gold-trade/news#1",
+   "date": "2026-10-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "thrissur based joyalukkas: Latest News & Videos, Photos about thrissur based joyalukkas | The Economic Times - Page 1 - Business News›thrissur based joyalukkas",
+   "url": "https://economictimes.indiatimes.com/topic/thrissur-based-joyalukkas#1",
+   "date": "2026-10-09",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "To, Listing/Compliance Department BSE Limited Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai- 400001 BSE Scrip Code: 544459",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/12512974-f101-4e80-8aeb-6ed6e2126afc.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sky Gold and Diamonds (BOM:541967) Q4 2026 Earnings Call Transcript & Audio - Therefore, as advance gold volumes grow, our absolute profit and margins improve",
+   "url": "https://stockanalysis.com/quote/bom/541967/transcripts/567997-q4-25-26/#2",
+   "date": "2026-05-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Capitaline",
+   "url": "http://www.derivatives.capitaline.com/newsdetails.aspx?sno=1674504&opt=CN&secid=2&subsecid=0&SelDt=",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ashapuri Gold Ornament Ltd (BOM:542579) Q3 2026 Earnings Call Highlights: Strong Profit Growth ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://sg.finance.yahoo.com/news/ashapuri-gold-ornament-ltd-bom-010153522.html#1",
+   "date": "2026-02-15",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "December 18,2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=139709#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 11, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=136298#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "February 17,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140979#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "March 27, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=134008#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 51 (national 35 x 0.6 + Kerala 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Kerala: GST collections +10.3% Apr-to-date vs India +6.1% (4.2 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Bank credit +33.0% YoY vs output +3.8% (gap +29.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Kerala: electricity demand +11.1% Apr-to-date vs India +9.5% (1.6 pp faster than India) — neutral. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 32 output +3.2% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": false,
+  "problems": [
+   "watch list must have 3-5 items"
+  ],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
