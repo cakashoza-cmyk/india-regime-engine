@@ -1,0 +1,154 @@
+{
+ "key": "gj_rajkot|pumps_valves",
+ "state": "GJ",
+ "city": "gj_rajkot",
+ "ind": "pumps_valves",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 78,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Rajkot pumps, motors and valves — pursue component and OEM suppliers with clean receivables; avoid pure government-tender players until their dues cycle is visible.",
+ "title": "Rajkot pumps, motors & valves: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Rajkot is a submersible-pump cluster: foundries and machine shops feeding small and mid-sized assemblers who sell through dealers and, increasingly, to government water schemes.** [1][2] Cash comes from converting castings, stampings, copper winding and bought-out motors into a finished pump, then collecting from dealers or from a state department. **The value sits in the impeller-and-motor design and in the dealer shelf, not in the casting.** So when a proposal lands, check whether the borrower owns a product design or is only a job-worker for a larger brand; if it is only a job-worker, ask who its top three buyers are and what share they take.",
+  "## Where cash actually sits\n**Working capital is the whole game: inventory of castings and wound motors, plus receivables that stretch hard when the buyer is a state scheme.** Rating reports on this industry flag working-capital intensity and only moderate pass-through of raw-material inflation in a competitive market [10]. **Capex is modest — a CNC line or a test bench — so a term loan for a new shed is usually the weakest use of our money.** So when a proposal lands, check the receivable days split between dealers and government buyers; if government is above half of receivables, ask for the last three years' collection pattern and the name of each department.",
+  "## What has changed now\n**The demand signal is genuinely strong: IIP for electrical equipment (NIC 28) is up 10.3% YoY and 10.4% Apr-to-date, and exports are up 19.8% Apr-to-date in USD [D].** Gujarat GST collections are running 11.9% Apr-to-date against India's 6.1% [D], so the local trading base is expanding faster than the country. **But the peer results show the trap: Shakti Pumps grew revenue 37.9% YoY to ₹858.67 crore in Q1 FY27 while PAT fell 46.72% to ₹51.59 crore [5].** Oswal Pumps grew FY26 operating income 44.3% to ₹2,064 crore but saw Q4 margins moderate to 23.2% on competitive tender pricing and input costs [7]. **Growth without margin is the pattern in this cluster right now.** Note the Rajkot IPO filing is from August 2025 and is a local signal only [3].",
+  "## Who to pursue, and how to grow safely\n**Pursue the component makers and the mid-size OEMs selling through dealers — they price on brand and collect on dealer terms.** Avoid, for now, borrowers whose order book is dominated by state water schemes: Shakti's Karnataka order was about 35% of its order book while that state's dues hit record highs in January 2026 [6]. **Structure as a cash-flow loan against receivables and inventory, not a bullet term loan.** Take stock-and-receivable statements every month, plus a dealer-wise ageing; covenant that government receivables stay below a stated share of the book and that drawing power is reset monthly on fresh statements. **Ask for the margin trend each quarter — if operating margin slips below 9.5% on a sustained basis, that is the rating agencies' own negative trigger for this industry [8].**",
+  "## Early-warning signs\n**Watch receivable days against the borrower's own prior year, not the industry average.** If dealer receivables stretch while sales grow, the growth is being bought. **Watch inventory of finished pumps: a rising finished-goods pile means the dealer shelf is full.** If a borrower's order book is growing but margins are falling, treat it as tender-led and reprice. **And watch any sudden equity raise to fund working capital — peers have done exactly that to support capex and higher working capital [9].**"
+ ],
+ "watch": [
+  [
+   "Quarterly margin (quarterly)",
+   "Operating margin below 9.5% sustained -> treat as rating-negative and reprice or exit [8]"
+  ],
+  [
+   "Order-book mix (quarterly)",
+   "Government share of order book above half -> ask for department-wise dues status before enhancing limits [6]"
+  ],
+  [
+   "Finished-goods inventory (monthly)",
+   "Finished pumps rising while sales flat -> stop fresh inventory funding"
+  ],
+  [
+   "GST filings and bank statements (monthly)",
+   "GST turnover falling behind bank credits -> ask for explanation and freeze enhancement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Strong IIP and export data offset by peer margin compression and state-dues risk.",
+ "articles": [
+  {
+   "title": "Rajkot: The Manufacturing Hub for Submersible Pumps in India",
+   "url": "https://www.mittigoldorganic.com/blog/rajkot-submersible-pumps-manufacturing-hub-india?lang=en",
+   "date": "2026-06-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "રાજકોટ: ભારતમાં સબમર્સિબર પંપ ઉત્પાદનનું હબ",
+   "url": "http://www.mittigoldorganic.com/blog/rajkot-submersible-pumps-manufacturing-hub-india?lang=gu",
+   "date": "2026-06-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Rajkot-Based One Of Largest Pump Manufacturers Files For ₹1,400 Cr IPO, Crompton, Finolex Among Key Clients",
+   "url": "https://ipocentral.in/rajkot-based-largest-pump-manufacturer-files-for-ipo/",
+   "date": "2025-08-07",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Shakti Pumps (India) Concall Summary: Key Highlights and Q1 FY27 Results",
+   "url": "https://www.sovrenn.com/knowledge/shakti-pumps-india-concall-summary-key-highlights-and-q1-fy-27-results",
+   "date": "2026-07-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Shakti Pumps tanks as Q1 PAT slides 47% YoY to Rs 52 crore - Friday, October 16, 2026 | 03:19 AM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/markets/capital-market-news/shakti-pumps-tanks-as-q1-pat-slides-47-yoy-to-rs-52-crore-126072700418_1.html#1",
+   "date": "2026-07-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Shakti Pumps (India) (BOM:531431) Q3 2026 Earnings Call Transcript & Audio - Shakti Pumps (India) Limited (BOM:531431)",
+   "url": "https://stockanalysis.com/quote/bom/531431/transcripts/531958-q3-25-26/#main#1",
+   "date": "2026-02-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "As per attached intimation… — Oswal Pumps | MarketPing",
+   "url": "https://marketping.in/alerts/oswal-pumps/as-per-attached-intimation-letter-fc158513-f32a-4a26-a953-e4304446f8d3",
+   "date": "2026-05-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "**Negative factors** – Pressure on KSB’s rating could arise if the company’s operating margins decline below 9.5% on a sustained...",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=137503#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 04,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=136185#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "C.R.I. Pumps Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202503120320_C.R.I._Pumps_Private_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "WPIL Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202604120424_WPIL_Limited.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 78 (national 80 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,158 @@
+{
+ "key": "wb_kolkata|leather_goods",
+ "state": "WB",
+ "city": "wb_kolkata",
+ "ind": "leather_goods",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 33,
+ "nudged_by_news": false,
+ "verdict": "Avoid new leather-goods exposure in Kolkata for now; lend only to proven, low-leverage converters with verified export order books, and decline the rest.",
+ "title": "Kolkata leather goods: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nKolkata leather goods means small tanneries and stitching units turning hides and imported components into bags, belts and gloves, mostly for export and some domestic fashion demand. **Cash is made on conversion margin, not on brand** — the unit buys raw material, cuts and stitches, and sells to a buyer or an export house. The sector is 'essentially dominated by small' players [9], so pricing power sits with the buyer, not the unit. Working capital is the whole game: inventory of hides and finished goods plus receivables from export buyers. Capex is modest (sewing, cutting, finishing), so the risk is not fixed assets — it is stock and receivables.",
+  "## What has changed now\n**The local demand signal is negative.** West Bengal GST collections are -1.3% Apr-to-date against India +6.1% [D], and electricity demand is +5.7% against India +9.5% [D] — both point to a slower local economy. India-wide exports are -3.0% Apr-to-date in USD [D], and the repo is 5.5% with a tightening stance [D], so working-capital cost is rising. **Treat the doubling talk as a pitch, not a fact.**",
+  "## Where the growth is — and who to avoid\nPeer results are mixed and old-dated: the leather sector shows Qtr Sales YoY +13.68% but Qtr Profit YoY -4.79% and profit 3Y CAGR -0.02 [4]; Sreeleathers net profit rose 82.80% to Rs 9.67 crore on sales of Rs 62.69 crore in the March 2026 quarter [7]. **Pursue the converter with a named export buyer and rising volumes; avoid the pure domestic fashion player with no order visibility.** Mayur Uniquoters shows growth came mostly from price, with volume around 2% [6] — so when a proposal lands, check whether growth is volume or price; if price-led, ask for the buyer contract.",
+  "## How to grow safely\n**Structure against the working-capital cycle, not the balance sheet.** Leiner Shoes carried overall gearing of 0.09x and interest coverage of 10.25x in March 2026 [8] — that is the quality bar. Balaji Leather ran interest coverage of 1.94x and total debt to GCA of 9.92x in FY18 [9] — that is the profile to decline. Take monthly stock and receivable statements, and a stock-and-receivables statement every month; if receivables age past the stated credit period, ask for the buyer's payment proof. Super Tannery's unhedged forex loss of Rs 0.45 crore in FY24 [11] means: if the borrower has unhedged export exposure, ask for the hedging policy.",
+  "## Early-warning signs\n- **GST and power:** monthly GST filing trend and electricity bill (monthly) — a fall in either means falling output; ask for order book. - **Receivables ageing (monthly):** if ageing stretches beyond the buyer's terms, ask for buyer confirmation and reduce limit. - **Stock build (monthly):** if finished-goods stock rises while sales fall, ask for the buyer's cancellation or delay notice. - **Forex exposure (quarterly):** if unhedged exposure grows, ask for the hedging policy [11]. - **Local macro (quarterly):** if WB GST stays below India, tighten new sanctions [D]."
+ ],
+ "watch": [
+  [
+   "GST filings and electricity bills (monthly)",
+   "falling trend -> ask for order book and cut limit"
+  ],
+  [
+   "Receivables ageing (monthly)",
+   "ageing beyond terms -> seek buyer confirmation, reduce exposure"
+  ],
+  [
+   "Finished-goods stock vs sales (monthly)",
+   "stock rising while sales fall -> ask for buyer delay notice"
+  ],
+  [
+   "Unhedged forex exposure (quarterly)",
+   "exposure growing -> demand hedging policy [11]"
+  ],
+  [
+   "WB GST vs India (quarterly)",
+   "WB stays below India -> tighten new sanctions [D]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "WB GST and power lag India; exports down; repo tightening.",
+ "articles": [
+  {
+   "title": "Bengal leather industry can double exports with better infrastructure",
+   "url": "https://theshillongtimes.com/2026/10/27/bengal-leather-industry-can-double-exports-with-better-infrastructure/",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "West Bengal Leather: Double Exports, Jobs with Better Infra",
+   "url": "https://money.rediff.com/news/market/west-bengal-leather-double-exports-jobs-with-better-infra/56926920261026",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "leather industry in India : Latest News Headlines, Videos and Photo Galleries on leather industry in India - Leather Industry In India",
+   "url": "https://www.business-standard.com/amp/topic/leather-industry-in-india#1",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Leather Sector Stocks & Shares - Leather Stocks Listings in India | The Economic Times - Leather",
+   "url": "https://m.economictimes.com/stocks/sectors/leather?frmapp=yes#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sreeleathers Limited",
+   "url": "https://www.perplexity.ai/app/finance/SREEL.BO?comparing=SREEL.BO%2CMETROBRAND.NS%2CBATAINDIA.BO%2CBATAINDIA.NS%2CBIL.NS%2CCAMPUS.BO%2CLIBERTSHOE.BO%2CDECK&preset=peers&symbol=RELAXO.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "MAYUR UNIQUOTERS LIMITED",
+   "url": "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/10082026/c2e47cd9-6238-4752-aa2d-ee81eb89d01c.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Results - Announcements",
+   "url": "https://spfl.co.in/company-news/1702731",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Leiner Shoes Private Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202609130913_Leiner_Shoes_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Balaji Leather Creation",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Balaji%20Leather%20Creation-02-25-2019.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Apart from the capital structure, ICRA pays attention to the debt coverage indicators, including interest coverage, debt service...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=890#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Super Tannery Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202501130115_Super_Tannery_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 33 (national 55 x 0.6 + West Bengal 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "West Bengal: GST collections -1.3% Apr-to-date vs India +6.1% (7.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "West Bengal: electricity demand +5.7% Apr-to-date vs India +9.5% (3.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Exports -3.0% Apr-to-date in USD (Rs 21,080 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

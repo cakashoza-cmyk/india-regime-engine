@@ -1,0 +1,154 @@
+{
+ "key": "up_unnao|meat_poultry_processing",
+ "state": "UP",
+ "city": "up_unnao",
+ "ind": "meat_poultry_processing",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Unnao meat & poultry processing — back integrated processors and cold-chain buyers only; avoid sub-scale wet shops and export-dependent units",
+ "title": "Unnao meat & poultry processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A meat/poultry processor buys live birds or animals, converts them through slaughter, chilling/freezing and packing, and sells into local wet markets, HORECA and frozen retail.** Cash sits in live inventory and receivables from distributors; value sits in cold-chain and shelf life, not in the killing floor. **Feed is the largest cost line, so margin is a feed-price and live-weight game, not a pricing game** — ICRA notes raw material is the largest component of cost for such FMCG-linked businesses [9]. Longer frozen shelf life partly shields realisations from broiler price swings [10]. For Unnao specifically, the local sources say almost nothing usable about the processing cluster, so lean on first principles and peers.",
+  "Peer results are mixed-to-positive: Venky's poultry revenue rose from INR 1,755 crore in FY24 to INR 1,927 crore in FY25, 10% growth [4], and Mayank Cattle Food reported higher H1 FY27 revenue on demand and efficiency [5]. **UP GST collections are running +14.2% Apr-to-date vs India +6.1% [D], a genuine local demand tailwind.** But India bank credit is +26.3% YoY against output +5.1% [D] — money is chasing this sector faster than it is producing, so underwriting discipline matters more than appetite.",
+  "## Where to grow\n**Pursue integrated processors with own feed/hatchery linkage, cold-chain owners, and B2B suppliers to frozen retail and HORECA.** Venky's model — feed, breeder, hatchery, processing, ready-to-cook [10] — is the template; look for borrowers copying even two of those stages. **Avoid standalone wet shops, units with temple-adjacent or unlicensed premises [3], and any borrower whose sales depend on a single export destination.** When a proposal lands, check the licence and municipal clearance first; if the shop is unlicensed or contested, decline regardless of cash flow.",
+  "## How to grow safely\n**Structure as working-capital-led: cash credit against live inventory and receivables, with a term loan only for cold storage or processing line.** Take monthly stock-and-receivable statements, monthly feed purchase invoices, and quarterly GST returns. **Covenant on feed cost as a share of sales and on inventory days; if feed share jumps, ask for the revised pricing and buyer contracts.** Rating reports show strong groups run large undrawn working capital buffers [8] — insist on the same headroom here.",
+  "## Early-warning signs\n**Watch live-weight purchase prices, cold-store electricity bills, and buyer concentration.** If a borrower's top buyer crosses a third of sales, ask for a second-buyer contract before enhancing limits. If municipal or social pressure on premises appears [3], freeze fresh disbursement and inspect the site."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-receivable statement",
+   "Inventory days rise beyond borrower's own 6-month average -> ask for ageing and hold enhancement"
+  ],
+  [
+   "Monthly feed purchase invoices",
+   "Feed cost share of sales jumps -> reprice or seek buyer pass-through proof"
+  ],
+  [
+   "Quarterly GST returns",
+   "Filing gap or turnover fall vs bank credits -> site visit within 15 days"
+  ],
+  [
+   "Premises licence/municipal status (quarterly)",
+   "Any closure or dispute notice [3] -> freeze disbursement, inspect site"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local reports show regulatory/social pressure on meat shops and US-linked trade disruption [2][3].",
+ "articles": [
+  {
+   "title": "Unnao News: बेटे से बोला मेट... दो घंटे बाद ले जाना मेरा शव - अमृत उजाला",
+   "url": "https://amritujala.com/unnao-news-%e0%a4%ac%e0%a5%87%e0%a4%9f%e0%a5%87-%e0%a4%b8%e0%a5%87-%e0%a4%ac%e0%a5%8b%e0%a4%b2%e0%a4%be-%e0%a4%ae%e0%a5%87%e0%a4%9f-%e0%a4%a6%e0%a5%8b-%e0%a4%98%e0%a4%82%e0%a4%9f%e0%a5%87/#top",
+   "date": "2026-07-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Unnao News: अमेरिका की रार से दोहरी मार, प्रभावित हुआ तीन हजार करोड़ का कारोबार - Unnao News: अमेरिका की रार से दोहरी मार, प्रभावित हुआ तीन हजार करोड़ का कारोबार",
+   "url": "https://www.amarujala.com/uttar-pradesh/unnao/unnao-news-unnao-news-c-221-1-sknp1054-143632-2026-01-18#1",
+   "date": "2026-01-17",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "उन्नाव में हिंदू संगठन ने हटवाई अवैध मांस की दुकान: गोकुल बाबा शिव मंदिर के पास हो रहा था संचालन, आक्रोशित दिखे कार्यकर्ता - Unnao News",
+   "url": "https://www.bhaskar.com/local/uttar-pradesh/unnao/news/hindu-organization-removes-illegal-meat-shop-in-unnao-136766177.html",
+   "date": "2025-12-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Venkys (India) Ltd (BOM:523261) Q4 2025 Earnings Call Highlights: Navigating Growth Amidst ... - Skip to navigation Skip to main content Skip to right column",
+   "url": "https://finance.yahoo.com/news/venkys-india-ltd-bom-523261-070404005.html#1",
+   "date": "2025-05-13",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Mayank Cattle Food Limited Reports Unaudited Half-Year Financial Results for September 2026 - Mayank Cattle Food Limited Reports Unaudited Half-Year Financial Results for September 2026",
+   "url": "https://thedailyguardian.com/business/mayank-cattle-food-limited-reports-unaudited-half-year-financial-results-for-september-2026-769619/#1",
+   "date": "2026-10-26",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ovobel Foods Ltd. Financial Results - Ovobel Foods Ltd",
+   "url": "https://www.bseindia.com/stock-share-price/ovobel-foods-ltd./ovobele/530741/financials-results#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "VENKY S (INDIA) LIMITED — Dossier | MarketPing",
+   "url": "https://marketping.in/companies/venky-s-india/dossier",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "The Group's liquidity position is likely to remain adequate",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=141757#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 08,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=146210#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Verkly’s India Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/Venkys%20India%20Limited-01-08-2020.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 67 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +42.1% Apr-to-date in USD (Rs 37,131 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
