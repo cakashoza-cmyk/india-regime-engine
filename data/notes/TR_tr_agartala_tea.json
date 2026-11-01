@@ -1,0 +1,154 @@
+{
+ "key": "tr_agartala|tea",
+ "state": "TR",
+ "city": "tr_agartala",
+ "ind": "tea",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 38,
+ "nudged_by_news": false,
+ "verdict": "Avoid new tea plantation exposure in Agartala for now; the new auction centre is a real positive but too new to underwrite, and Tripura's local demand signal is weak — lend only to small growers with auction-linked receivables and tight monthly structure.",
+ "title": "Agartala Tea Plantations: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A tea garden turns leaf into made tea and cash, and the cash sits far from the bush.** Green leaf is plucked, withered, rolled, fermented, dried and sorted within hours; the output is bulk made tea sold in lots, not branded packets. Cost is dominated by plucking labour and firewood/power for the factory; pricing power is near zero for a bulk seller, so realisation is set by the auction. **So when a proposal lands, check the factory's own cost per kg of made tea and the share of leaf bought from small growers versus own estate; if the borrower cannot state both, ask for the previous season's cost sheet.**\n\n## What has changed now\n**Tripura's first tea auction centre opened at PN Complex in Agartala, which the CM says will help producers secure better prices and reduce transportation costs [1][2][3].** That is genuinely the biggest structural change for a Tripura garden in years — it shortens the chain to the buyer and puts a local price discovery point on the borrower's doorstep. But it is days old, so there is no track record of realisations through it; collect from customer the first three months of auction sale prices and the commission charged. **Separately, Tripura's electricity demand fell 1.7% Apr-to-date against India's +9.5% [D] — a local activity signal that argues against funding capacity expansion right now.**\n\n## Where the growth is, and who to avoid\n**Pursue small tea growers and bought-leaf factories that will now sell through the Agartala centre, because their receivable is a documented auction sale rather than a distant broker's word.** Peer evidence says the money in tea is thin: Crisil saw plantation revenue down 8% in FY24 with operating margin at 5% [7], and Rossell's tea business earns 5-10% EBITDA against 20-30% in its aerospace arm [4]. ## How to grow safely\n**Structure against the auction receivable, not the land.** Sanction a cash credit sized to one auction cycle, with the auction centre's sale statement as the drawing base, and take the sale proceeds through an escrow at our branch. **Take every month: auction sale statements, leaf purchase and plucking labour cost, power bill, and stock of made tea with godown verification.** Covenant a minimum realisation per kg and a cap on bought-leaf dependence. If the borrower resists escrow, ask why the sale cannot be routed through us. ## Early warning signs\n**Watch for sale statements that stop arriving or shift to a private buyer, power bills falling faster than plucking volumes, and wage arrears to plucking gangs.** Any of these means the auction benefit is not reaching the borrower's cash cycle."
+ ],
+ "watch": [
+  [
+   "Auction sale statements (monthly)",
+   "No statement for one cycle -> stop drawing power and inspect godown"
+  ],
+  [
+   "Realisation per kg vs sanctioned base (monthly)",
+   "Falls below covenant for two months -> cut limit and seek fresh cost sheet"
+  ],
+  [
+   "Power bill and factory run-hours (monthly)",
+   "Bill falls with volumes flat -> ask for plucking and stock records"
+  ],
+  [
+   "Plucking labour wage payments (monthly)",
+   "Arrears reported -> freeze new disbursal and review"
+  ],
+  [
+   "Escrow inflows (weekly)",
+   "Sale proceeds bypass escrow -> treat as diversion, recall"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "New Agartala auction centre is positive but unproven; Tripura power demand weak offsets it.",
+ "articles": [
+  {
+   "title": "Tripura Opens First Tea Auction Centre in Agartala - Abotani TV — Northeast News",
+   "url": "https://abotanitv.in/2026/11/01/tripura-first-tea-auction-centre-agartala/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Agartala tea auction centre to boost Tripura’s tea industry: CM Manik Saha",
+   "url": "https://www.yugmarg.com/news/54423-agartala-tea-auction-centre-to-boost-tripura%e2%80%99s-tea-industry-cm-manik-saha.aspx",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tripura inaugurates first tea auction centre to cut costs, boost growers' earnings - The Economic Times",
+   "url": "https://m.economictimes.com/news/india/tripura-inaugurates-first-tea-auction-centre-to-boost-local-industry-and-prices/amp_articleshow/135346837.cms",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "5 Plantation Stocks India 2026: Strong Future Roadmaps - 5 Plantation Stocks India 2026: Strong Future Roadmaps",
+   "url": "https://univest.in/blogs/plantation-stocks-india-future-roadmaps-2026#1",
+   "date": "2026-08-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "CD EQUISEARCH - SHRI VASUPRADA PLANTATIONS LTD.",
+   "url": "https://cdequi.com/company-profile/quaterly-results.aspx?fincode=200555#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Tyroon Tea Company Limited",
+   "url": "https://www.perplexity.ai/app/finance/TYROON.BO?comparing=TYROON.BO%2CSDL.BO%2CEVOQ.BO%2CAMBICAAGAR.BO%2CNTCIND.BO%2CVIRATCRA.BO%2CIWP.BO&preset=peers&symbol=SINNAR.BO&eventId=544024",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Tag: tea plantation companies - Skip to content",
+   "url": "http://livecms.moneycontrol.com/tag/tea-plantation-companies#1",
+   "date": "2023-09-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 08, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144144#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "July 09,2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144159#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "129340",
+   "url": "https://www.icra.in/web/viewer.html?file=/Rating/ShowRationalReportFilePdf/129340",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "<table><tr><td rowspan=\"2\">LTCPL</td><td colspan=\"3\">Standalone</td><td colspan=\"2\">Consolidated with proportionate consolidatio...",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=142290&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 38 (national 46 x 0.6 + Tripura 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tripura: electricity demand -1.7% Apr-to-date vs India +9.5% (11.2 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Exports -13.6% Apr-to-date in USD (Rs 4,337 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

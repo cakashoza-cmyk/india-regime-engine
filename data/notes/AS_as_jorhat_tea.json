@@ -1,0 +1,150 @@
+{
+ "key": "as_jorhat|tea",
+ "state": "AS",
+ "city": "as_jorhat",
+ "ind": "tea",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 48,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Jorhat tea units with own leaf, auction access and clean receivables; avoid leveraged bought-leaf gardens and stressed auction buyers.",
+ "title": "Jorhat Tea Plantations: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A tea garden converts standing leaf into made tea, and cash arrives only after auction or private sale, so the whole credit story is the gap between plucking and payment.** Green leaf is plucked, withered, rolled, fermented, dried and sorted in the estate factory; the output is bulk tea sold through auctions or directly to blenders. Cost is dominated by plucking labour and factory fuel, while price is set by auction realisations you do not control. **So when a proposal lands, check the split between own-leaf and bought-leaf, because bought-leaf gardens carry a thinner margin and no estate asset cushion.**\n\n## Where cash and value sit now\n**The local signal is mixed: Assam GST collections are up 36.9% Apr-to-date against India's 6.1% [D], but Assam electricity demand is up only 1.9% against India's 9.5% [D], which points to weaker factory activity.** The Tea Board is expanding its auction network while the industry faces liquidity stress [2], and Jorhat's own auction centre has held its first sale [3]. **That is good for price discovery but does not fix a buyer's payment delay, so ask every borrower for their auction buyer-wise outstanding ageing; if one buyer exceeds a third of receivables, ask for the sale contract and payment history.** Peer results are volatile: Tyroon swung to a Q1FY27 net profit of Rs 115.52 lakh from a Q4FY26 loss of Rs 581.93 lakh even as sales de-grew [6]. ## Where the growth is\n**Pursue own-leaf estates with a factory, FPO-linked small grower clusters selling through the new Jorhat auction, and units with a blender contract.** Rating reports show the strong names are the ones with linkages: KDHP sells 18% of FY2026 tea to TCPL [9], and TSAIL held Rs 65.68 crore of liquid investments at March 31, 2026 with yield at 2,370 kg/hectare [8]. **Avoid leveraged bought-leaf gardens and traders whose only asset is an auction position; their margin is the spread, and the spread is what the liquidity stress [2] is squeezing.**\n\n## How to grow safely\n**Structure as a cash-credit limit sized to one auction cycle, with a 25% margin and monthly stock-and-receivables statements; take the auction sale statement and bank realisation every month.** Ask for the wage settlement position and the factory's fuel cost per kg, and collect from customer where these are not in the file. **If the borrower cannot show buyer-wise ageing, ask for the last three auction invoices before sanctioning.**\n\n## Early warning signs\n**Watch electricity consumption at the factory, buyer payment days, and leaf price paid to small growers.** If Assam electricity demand stays below India's growth [D] for another quarter, ask for the factory's own meter reading. If a buyer's payment slips past the auction cycle, stop fresh disbursement."
+ ],
+ "watch": [
+  [
+   "Monthly auction sale and realisation statement",
+   "Buyer payment beyond one auction cycle -> freeze limit and seek alternate buyer"
+  ],
+  [
+   "Monthly factory electricity meter reading",
+   "Consumption flat while sales rise -> ask for stock verification"
+  ],
+  [
+   "Quarterly buyer-wise receivables ageing",
+   "Single buyer above one-third of receivables -> seek contract and payment history"
+  ],
+  [
+   "Monthly green leaf purchase price",
+   "Leaf price rising faster than realisations -> review margin and limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Tea liquidity stress and weak Assam power demand outweigh the new Jorhat auction.",
+ "articles": [
+  {
+   "title": "tmco News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/tmco/news#1",
+   "date": "2026-10-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Tea Board Expands Auction Network as Tea Industry Faces Liquidity Stress - Tea Board Expands Auction Network as Tea Industry Faces Liquidity Stress",
+   "url": "https://www.whalesbook.com/news/English/commodities/Tea-Board-Expands-Auction-Network-as-Tea-Industry-Faces-Liquidity-Stress/6ac90fb079a16deaeaec4f3f#1",
+   "date": "2026-10-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "चाय व्यापार को नई दिशा देगा जोरहाट टी ऑक्शन सेंटर!",
+   "url": "https://krishitimes.com/jorhat-tea-auction-centre-first-auction-assam/",
+   "date": "2026-10-04",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "5 Plantation Stocks India 2026: Strong Future Roadmaps - 5 Plantation Stocks India 2026: Strong Future Roadmaps",
+   "url": "https://univest.in/blogs/plantation-stocks-india-future-roadmaps-2026#1",
+   "date": "2026-08-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CD EQUISEARCH - SHRI VASUPRADA PLANTATIONS LTD.",
+   "url": "https://cdequi.com/company-profile/quaterly-results.aspx?fincode=200555#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Tyroon Tea Company Limited",
+   "url": "https://www.perplexity.ai/app/finance/TYROON.BO?comparing=TYROON.BO%2CSDL.BO%2CEVOQ.BO%2CAMBICAAGAR.BO%2CNTCIND.BO%2CVIRATCRA.BO%2CIWP.BO&preset=peers&symbol=SINNAR.BO&eventId=544024",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Tag: tea plantation companies - Skip to content",
+   "url": "http://livecms.moneycontrol.com/tag/tea-plantation-companies#1",
+   "date": "2023-09-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 08, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144144#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 09,2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144159#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "129340",
+   "url": "https://www.icra.in/web/viewer.html?file=/Rating/ShowRationalReportFilePdf/129340",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "<table><tr><td rowspan=\"2\">LTCPL</td><td colspan=\"3\">Standalone</td><td colspan=\"2\">Consolidated with proportionate consolidatio...",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=142290&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 48 (national 46 x 0.6 + Assam 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Assam: GST collections +36.9% Apr-to-date vs India +6.1% (30.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Assam: electricity demand +1.9% Apr-to-date vs India +9.5% (7.6 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -13.6% Apr-to-date in USD (Rs 4,337 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

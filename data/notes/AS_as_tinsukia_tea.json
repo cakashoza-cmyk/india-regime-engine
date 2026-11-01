@@ -1,0 +1,158 @@
+{
+ "key": "as_tinsukia|tea",
+ "state": "AS",
+ "city": "as_tinsukia",
+ "ind": "tea",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 48,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Tinsukia tea estates with processing assets and diversified revenue; avoid single-garden, erosion-exposed, wage-sensitive borrowers until cash-flow and land-loss risks are verified.",
+ "title": "Tinsukia Tea Plantations: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A tea estate turns standing leaf into made tea, and cash comes from auction and private sales weeks after plucking.** Green leaf is plucked, withered, rolled, fermented, dried and sorted in the estate's own factory; the crop is seasonal, so working capital peaks in the plucking months and unwinds through the year. **Value sits in the factory and the bush age profile, not in the land alone** — ICRA notes one peer's favourable bush age (around 82% in the 6-50 year group in FY2026) drove a yield of 2,370 kg/hectare [8]. Capex is replanting, factory machinery and worker housing; pricing power is thin because made tea is a commodity, so margin is a cost game. **Ask every borrower for their cost of production per kg and their own yield per hectare — collect from customer.**",
+  "## What has changed now\n**Two local facts matter more than the national tea story.** Brahmaputra erosion is threatening the Rungagora and Dinjan tea estates in Tinsukia, with the local MLA calling for anti-erosion measures [2] — that is a direct asset-loss risk, not a sentiment issue. Separately, a Tinsukia estate has become the first in India to produce Matcha commercially [3], which shows a premium-product route exists but is early and unproven at scale. **Assam's electricity demand grew only 1.9% Apr-to-date against India's 9.5% [D], a local stress signal, while GST collections grew 36.9% against India's 6.1% [D].** Peer results are mixed: one plantation company swung to a Q1FY27 net profit of Rs 115.52 lakhs from a Q4FY26 loss of Rs 581.93 lakhs, yet sales de-grew [6].",
+  "## Where to grow\n**Pursue estates with their own factory, a young bush profile and a second revenue line.** The peer evidence is clear: aerospace components earn 20-30% EBITDA margins versus 5-10% for tea [4], and carbon-credit potential from estate forest cover is a future non-tea income [4]. **So when a proposal lands, check whether the borrower has a factory, a buyer linkage and any diversification; if the answer is only green-leaf sale to others, ask for the buyer contracts and price history.** Avoid gardens sitting on eroding river frontage [2] and single-garden borrowers with no processing asset.",
+  "## How to grow safely\n**Structure against the crop cycle, not the balance sheet date.** Sanction working capital sized to peak plucking months, with a cash-flow statement by month; take stock and book-debt statements every month, and a factory utilisation report quarterly. **Take the land and factory as primary security and a personal guarantee; if the borrower's yield or bush age is unknown, ask for the replanting register before enhancing limits.** For premium-product proposals like the Matcha line [3], lend only against confirmed offtake, not against the idea.",
+  "## Early-warning signs\n**Watch the garden, the wage bill and the buyer list.** If erosion reports name the borrower's estate [2], freeze enhancements and re-verify the mortgaged land. If monthly stock statements show made tea piling up unsold, ask for the auction invoices. If sales de-grow while profit jumps, as in the peer case [6], ask what one-off item drove the profit. **Tinsukia-specific published data is thin — the sources say little about this city beyond the erosion and Matcha items, so lean on first principles and peer numbers.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock and book-debt statement (monthly)",
+   "Made tea inventory rising two months running -> ask for auction invoices and cut limit utilisation"
+  ],
+  [
+   "Estate land status (quarterly)",
+   "Erosion report names borrower's garden -> freeze enhancements and re-verify mortgage"
+  ],
+  [
+   "Sales vs profit trend (quarterly)",
+   "Sales de-grow while profit jumps -> ask for one-off items behind the profit"
+  ],
+  [
+   "Factory utilisation (quarterly)",
+   "Utilisation falling below plan -> review working capital cycle and buyer contracts"
+  ],
+  [
+   "Wage and cost per kg (quarterly)",
+   "Cost per kg rising without price pass-through -> reprice or reduce exposure"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Brahmaputra erosion threatens two Tinsukia estates; Assam power demand lags India.",
+ "articles": [
+  {
+   "title": "Tea news October 2026",
+   "url": "https://thirst-tea.org/news/thirst-tea-news-october-2026/",
+   "date": "2026-10-11",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Assam: Brahmaputra erosion threatens Rungagora, Dinjan tea estates in Tinsukia - - Light modeFollow systemDark mode",
+   "url": "https://m.dailyhunt.in/news/india/english/north+east+now-epaper-norteast/assam+brahmaputra+erosion+threatens+rungagora+dinjan+tea+estates+in+tinsukia-newsid-n725532330#1",
+   "date": "2026-09-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Assam tea estate first in India to produce Matcha commercially - An estate in Assam’s Tinsukia district has created history by producing and launching India’s first-ever commercially manufactur...",
+   "url": "https://nagalandpost.com/assam-tea-estate-first-in-india-to-produce-matcha-commercially/#1",
+   "date": "2026-07-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "5 Plantation Stocks India 2026: Strong Future Roadmaps - 5 Plantation Stocks India 2026: Strong Future Roadmaps",
+   "url": "https://univest.in/blogs/plantation-stocks-india-future-roadmaps-2026#1",
+   "date": "2026-08-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "CD EQUISEARCH - SHRI VASUPRADA PLANTATIONS LTD.",
+   "url": "https://cdequi.com/company-profile/quaterly-results.aspx?fincode=200555#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Tyroon Tea Company Limited",
+   "url": "https://www.perplexity.ai/app/finance/TYROON.BO?comparing=TYROON.BO%2CSDL.BO%2CEVOQ.BO%2CAMBICAAGAR.BO%2CNTCIND.BO%2CVIRATCRA.BO%2CIWP.BO&preset=peers&symbol=SINNAR.BO&eventId=544024",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Tag: tea plantation companies - Skip to content",
+   "url": "http://livecms.moneycontrol.com/tag/tea-plantation-companies#1",
+   "date": "2023-09-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 08, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144144#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 09,2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144159#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "129340",
+   "url": "https://www.icra.in/web/viewer.html?file=/Rating/ShowRationalReportFilePdf/129340",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "<table><tr><td rowspan=\"2\">LTCPL</td><td colspan=\"3\">Standalone</td><td colspan=\"2\">Consolidated with proportionate consolidatio...",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=142290&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 48 (national 46 x 0.6 + Assam 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Assam: GST collections +36.9% Apr-to-date vs India +6.1% (30.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Assam: electricity demand +1.9% Apr-to-date vs India +9.5% (7.6 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -13.6% Apr-to-date in USD (Rs 4,337 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

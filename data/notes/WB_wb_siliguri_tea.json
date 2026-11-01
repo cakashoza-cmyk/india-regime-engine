@@ -1,0 +1,154 @@
+{
+ "key": "wb_siliguri|tea",
+ "state": "WB",
+ "city": "wb_siliguri",
+ "ind": "tea",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 28,
+ "nudged_by_news": false,
+ "verdict": "Avoid new tea plantation exposure in Siliguri; only lend to gardens with proven cash cover for the 20% bonus and no closure history.",
+ "title": "Siliguri Tea Plantations: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA tea garden turns standing leaf into made tea: plucking, withering, rolling, drying, sorting, then sale at auction or to buyers. **Cash comes in lumps after sale, but wages and the Puja bonus go out on fixed dates, so the working-capital cycle is the whole credit story.** Cost is dominated by plucking and factory labour, not by the bush; pricing is set at auction and by buyers, so a single garden has almost no pricing power. Capex is replanting and factory upkeep, slow to pay back. **So when a proposal lands, check the bonus and wage calendar against the auction receipt calendar; if the two do not overlap, ask how the gap is funded.**",
+  "## What has changed now\nLocal reporting is blunt: TIPA has asked the state for a case-by-case approach on the 20 per cent Puja bonus, warning that 15 to 20 tea gardens in North Bengal may face severe cash-flow problems and even closure if it is enforced without regard to their finances [2]. A minister has held an emergency meeting on reopening closed gardens in Siliguri [3], and local demand is building for government support to reopen shut gardens [1]. **This is a live cash crisis, not a price story.** The state macro is also weaker than India: West Bengal GST collections are -1.3% Apr-to-date against India +6.1% [D], and electricity demand is +5.7% against India +9.5% [D]. India-wide exports are -13.6% Apr-to-date in USD [D] and the repo is 5.5% with a tightening stance [D]. **Note the sources say little about Siliguri garden-level finances specifically; lean on first principles and peers.**",
+  "## Where the growth is\nPeer results show the split clearly. ICRA notes TSAIL held Rs 65.68 crore of liquid investments as on March 31, 2026, keeping net debt negative, with yield at 2,370 kg/hectare and about 82% of bushes in the 6-50 year age group in FY2026 [8]. KDHP draws comfort from Tata Consumer linkages, with 18% of FY2026 tea sold to TCPL [9][10]. Rossell's aerospace arm earns 20-30% EBITDA margins versus 5-10% for tea [4].",
+  "## How to grow safely\nStructure as cash credit against auction receivables with a clear drawing power, plus a term loan only for replanting with a moratorium matched to bush maturity. **Take the bonus liability schedule and the wage payment register every month, and the auction sale statement every fortnight.** Covenant on days-sales-outstanding and on the share of leaf sold to named buyers. If the garden seeks a bonus deferral, ask for the state negotiation outcome in writing before any enhancement.",
+  "## Early-warning signs\n- Bonus payment status (monthly): any deferral request -> freeze limits and inspect the garden. - Auction realisation per kg (fortnightly): falling below the garden's own cost -> stop fresh disbursal. - Wage arrears (monthly): any delay -> treat as closure risk and review the account. - Buyer concentration (quarterly): one buyer above half of sales -> seek an offtake letter."
+ ],
+ "watch": [
+  [
+   "Bonus payment status (monthly)",
+   "deferral request -> freeze limits, inspect garden"
+  ],
+  [
+   "Auction realisation per kg (fortnightly)",
+   "below garden cost -> stop fresh disbursal"
+  ],
+  [
+   "Wage arrears (monthly)",
+   "any delay -> treat as closure risk, review account"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "one buyer above half of sales -> seek offtake letter"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "TIPA warns 15-20 North Bengal gardens face cash-flow stress and possible closure over the 20% bonus.",
+ "articles": [
+  {
+   "title": "सरकारी सहायता का स्वागत, बंद चाय बागानों को खोलने की मांग तेज",
+   "url": "https://sanmarg.in/siliguri/sarkari-sahayata-ka-swagat-band-chai-baganon-ko-kholne-ki-mang-tez",
+   "date": "2026-10-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Bengal Tea planters seek negotiation on 20 pc b… | UNI India - Exclusive news and data that keep market professionals aheadTuesday, October 27, 2026",
+   "url": "https://www.uniindia.com/east-india/industry-wb-tea-planters-bonus/195757#1",
+   "date": "2026-09-27",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "सिलीगुड़ी में बंद चाय बागानों को फिर से खोलने पर मंत्री का आपात बैठक",
+   "url": "https://hi.siliguritimes.com/minister-holds-emergency-meeting/",
+   "date": "2026-09-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "5 Plantation Stocks India 2026: Strong Future Roadmaps - 5 Plantation Stocks India 2026: Strong Future Roadmaps",
+   "url": "https://univest.in/blogs/plantation-stocks-india-future-roadmaps-2026#1",
+   "date": "2026-08-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "CD EQUISEARCH - SHRI VASUPRADA PLANTATIONS LTD.",
+   "url": "https://cdequi.com/company-profile/quaterly-results.aspx?fincode=200555#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Tyroon Tea Company Limited",
+   "url": "https://www.perplexity.ai/app/finance/TYROON.BO?comparing=TYROON.BO%2CSDL.BO%2CEVOQ.BO%2CAMBICAAGAR.BO%2CNTCIND.BO%2CVIRATCRA.BO%2CIWP.BO&preset=peers&symbol=SINNAR.BO&eventId=544024",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Tag: tea plantation companies - Skip to content",
+   "url": "http://livecms.moneycontrol.com/tag/tea-plantation-companies#1",
+   "date": "2023-09-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 08, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144144#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 09,2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144159#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "129340",
+   "url": "https://www.icra.in/web/viewer.html?file=/Rating/ShowRationalReportFilePdf/129340",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "<table><tr><td rowspan=\"2\">LTCPL</td><td colspan=\"3\">Standalone</td><td colspan=\"2\">Consolidated with proportionate consolidatio...",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=142290&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 28 (national 46 x 0.6 + West Bengal 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "West Bengal: GST collections -1.3% Apr-to-date vs India +6.1% (7.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "West Bengal: electricity demand +5.7% Apr-to-date vs India +9.5% (3.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Exports -13.6% Apr-to-date in USD (Rs 4,337 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

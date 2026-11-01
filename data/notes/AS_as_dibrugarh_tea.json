@@ -1,0 +1,158 @@
+{
+ "key": "as_dibrugarh|tea",
+ "state": "AS",
+ "city": "as_dibrugarh",
+ "ind": "tea",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 48,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to bought-leaf and small estate borrowers with auction receipts and clean stock statements; avoid leveraged estate-only exposures until liquidity stress eases.",
+ "title": "Dibrugarh Tea Plantations: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A tea garden turns green leaf into made tea and cash through the auction floor, not the retail shelf.** Leaf is plucked, withered, rolled, fermented, dried and sorted within hours; the output is bulk tea sold largely at auction, so the grower is a price-taker on a commodity whose value sits in the leaf-to-made-tea conversion and the timing of sale. **Cash is locked in the garden and the warehouse, not in the brand.** Cost is dominated by plucking labour and fuel for drying; capex is modest but lumpy (factory, irrigation, replanting), and the working-capital cycle runs from monthly wage outflows to auction receipts weeks later. **So when a proposal lands, check the split between own-estate leaf and bought leaf, and ask for the last six months of auction sale statements before anything else.**",
+  "## What has changed now\n**The local signal is liquidity stress, not demand collapse.** The Tea Board is expanding its auction network precisely as the industry faces liquidity stress [2], and the official data pack flags Assam electricity demand up only 1.9% Apr-to-date against India's 9.5% [D] — a local stress signal. **The headline price is a mirage for credit purposes.** A rare variety fetched Rs 75,000/kg at auction from Dikom Tea Estate [1], but that is a specialty lot, not the bulk invoice price your borrower realises. **Rating reports show the strong survive on balance sheet, not price:** TSAIL held Rs 65.68 crore of liquid investments at March 31, 2026 [8], and KDHP draws comfort from Tata Consumer linkages with 18% of FY2026 tea sold to TCPL [9].",
+  "## Where the growth is\n**Pursue bought-leaf factories and small estates with direct buyer linkages, not leveraged legacy gardens.** The GST tailwind is real — Assam collections up 36.9% Apr-to-date versus India's 6.1% [D] — and the expanded auction network [2] widens the selling channel for borrowers who can deliver consistent lots. **Favour borrowers with a branded or export buyer contract**, mirroring the KDHP-TCPL model [9], and those with liquid reserves like TSAIL [8]. **Avoid estate-only borrowers with no auction receipts, no buyer contract and thin liquidity** — the liquidity stress [2] hits them first.",
+  "## How to grow safely\n**Structure against the auction cycle, not the harvest hope.** Sanction working capital sized to actual sale statements, with stock and receivables as primary security and a charge on the garden where title allows. **Take every month: auction sale statements, stock statements, wage-payment proof and a receivables ageing.** Set a covenant that drawing power is recalculated monthly from realised auction receipts, and require any buyer contract to be assigned. **If the borrower cannot produce auction statements, ask for the buyer's purchase confirmations and bank statements instead; if neither exists, decline.**",
+  "## Early-warning signs\n**Watch the cash conversion, not the crop.** Falling auction realisations against the same grade, rising bought-leaf dependence, delayed wage payments, and stock ageing beyond the season are the first cracks. **If electricity demand in Assam stays below India's growth [D], read it as factory idle time and ask why.** If a borrower's sale statements show declining volumes while peers like Tyroon report profit swings on de-growing sales [6], pull the limit and re-assess."
+ ],
+ "watch": [
+  [
+   "Auction sale statements (monthly)",
+   "realisation falls below the borrower's cost line for two consecutive months -> cut drawing power and seek buyer contract"
+  ],
+  [
+   "Wage payment proof (monthly)",
+   "any delay beyond the statutory date -> freeze fresh disbursement and inspect cash flow"
+  ],
+  [
+   "Stock statement (monthly)",
+   "stock ageing crosses one season -> require liquidation plan and revalue security"
+  ],
+  [
+   "Electricity demand trend, Assam (monthly)",
+   "stays below India's growth [D] for two more prints -> treat factory as under-utilised and re-price risk"
+  ],
+  [
+   "Buyer contract status (quarterly)",
+   "contract lapses or buyer share falls -> downgrade internal grade and seek alternate offtake proof"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Tea Board flags industry liquidity stress; Assam power demand lags India, signalling local factory slack.",
+ "articles": [
+  {
+   "title": "Rare variety of tea in Assam fetches Rs 75,000/kg at auction - Saturday, October 17, 2026 | 06:01 AM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/multimedia/video-gallery/general/rare-variety-of-tea-in-assam-fetches-rs-75-000-kg-at-auction-89154.htm#1",
+   "date": "2026-10-16",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tea Board Expands Auction Network as Tea Industry Faces Liquidity Stress - Tea Board Expands Auction Network as Tea Industry Faces Liquidity Stress",
+   "url": "https://www.whalesbook.com/news/English/commodities/Tea-Board-Expands-Auction-Network-as-Tea-Industry-Faces-Liquidity-Stress/6ac90fb079a16deaeaec4f3f#1",
+   "date": "2026-10-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Assam ATISIS 2026 & Dibrugarh Tea Auction: MSME Guide",
+   "url": "https://businesszindagi.com/assam-atisis-2026/amp/#Can_Small_Tea_Businesses_Move_Towards_Export",
+   "date": "2026-09-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "5 Plantation Stocks India 2026: Strong Future Roadmaps - 5 Plantation Stocks India 2026: Strong Future Roadmaps",
+   "url": "https://univest.in/blogs/plantation-stocks-india-future-roadmaps-2026#1",
+   "date": "2026-08-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CD EQUISEARCH - SHRI VASUPRADA PLANTATIONS LTD.",
+   "url": "https://cdequi.com/company-profile/quaterly-results.aspx?fincode=200555#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Tyroon Tea Company Limited",
+   "url": "https://www.perplexity.ai/app/finance/TYROON.BO?comparing=TYROON.BO%2CSDL.BO%2CEVOQ.BO%2CAMBICAAGAR.BO%2CNTCIND.BO%2CVIRATCRA.BO%2CIWP.BO&preset=peers&symbol=SINNAR.BO&eventId=544024",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Tag: tea plantation companies - Skip to content",
+   "url": "http://livecms.moneycontrol.com/tag/tea-plantation-companies#1",
+   "date": "2023-09-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 08, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144144#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 09,2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144159#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "129340",
+   "url": "https://www.icra.in/web/viewer.html?file=/Rating/ShowRationalReportFilePdf/129340",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "<table><tr><td rowspan=\"2\">LTCPL</td><td colspan=\"3\">Standalone</td><td colspan=\"2\">Consolidated with proportionate consolidatio...",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=142290&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 48 (national 46 x 0.6 + Assam 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Assam: GST collections +36.9% Apr-to-date vs India +6.1% (30.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Assam: electricity demand +1.9% Apr-to-date vs India +9.5% (7.6 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports -13.6% Apr-to-date in USD (Rs 4,337 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

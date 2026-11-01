@@ -1,0 +1,158 @@
+{
+ "key": "gj_surat|textile_processing",
+ "state": "GJ",
+ "city": "gj_surat",
+ "ind": "textile_processing",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Surat dyeing and processing, but only to units with clean labour compliance and verified effluent/waste handling; avoid units with unresolved wage disputes or no PLI-linked upgrade plan.",
+ "title": "Surat textile dyeing & processing: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA dyeing and processing house takes grey fabric or yarn, runs it through wet processes (scouring, dyeing, finishing) using boilers, effluent treatment and power, and sells finished fabric to garmenters and traders. **Cash is made on throughput and colour/quality consistency, not on the machine.** The two biggest cash sinks are power and water/effluent treatment, plus the working-capital cycle of holding inventory and carrying receivables [8]. So when a proposal lands, check the power source and the effluent plant first; if either is outsourced or informal, ask who bears the cost and the compliance risk.",
+  "## Where value and cash sit now\nValue sits with units that can upgrade machinery and hold quality, and the PLI revision just widened that door: minimum investment cut from ₹100 crore to ₹50 crore and turnover from ₹200 crore to ₹100 crore, with an 11% first-year incentive tapering to 7% by year five [1]. **That is the growth lever for mid-size Surat processors.** But the same unit faces a labour cost reset: workers are demanding eight-hour shifts, overtime after that, a 48-hour week cap and double wages for overtime under the amended Factories Act, and a fresh protest was called for November 1 after August unrest [3]. So when a proposal lands, check the wage register against the amended Act; if overtime is unpaid or shifts run 12 hours, ask for the remediation plan before sanctioning [2][3].",
+  "## The growth opportunity to pursue\nPursue mid-size processors with a credible PLI Part-II plan — ₹50 crore investment and ₹100 crore turnover now qualify — and a clean labour record [1]. **Peer results show the upside is real but uneven:** Arvind's Q2 FY27 net profit rose 44% to ₹148 crore on 23% revenue growth to ₹2,919 crore [6], while Sportking's operating margin jumped to 19% in Q1 FY27 from 12% a year earlier, though its three-year profit CAGR was -8% [7]. So when a proposal lands, check whether the margin is from power cost (Sportking's 40.3 MW solar could add ₹14-16 crore annually [7]) or from a one-off; if it is one-off, ask for the sustainable margin.",
+  "## How to grow safely\nStructure term loans against the PLI capex with milestone disbursement tied to machinery commissioning, and keep working-capital limits sized to the actual inventory-and-receivable cycle [8][9]. **Take every month:** GST returns, wage and overtime registers, effluent plant logs, and power bills. If GST collections in Gujarat are running +11.9% Apr-to-date versus India +6.1% [D], that is a local tailwind, but it does not fix a unit with unpaid overtime. Avoid units with unresolved wage disputes or no effluent compliance; the Extended Bulk Waste Generator framework now forces on-site wet-waste processing or compliance certificates [4], so ask for the certificate.",
+  "## Early-warning signs\nWatch for a strike call or FIR at the unit — August unrest led to three FIRs and 26 detentions [3] — and treat any repeat as a stop signal. **Watch the wage register monthly:** if overtime hours exceed the 125-per-quarter cap without double pay, the unit is one dispute away from a shutdown [3]. Watch power cost per metre and effluent penalties; if either jumps, ask for the cause before renewing the limit. Note that sources say little specific to Surat dyeing beyond the PLI and labour news, so lean on first principles and the peer margin data [6][7]."
+ ],
+ "watch": [
+  [
+   "Wage/overtime register (monthly)",
+   "overtime above 125 hrs/quarter unpaid -> freeze enhancement, demand remediation"
+  ],
+  [
+   "GST returns (monthly)",
+   "filing gap or falling turnover vs Gujarat +11.9% [D] -> ask for order book and buyer confirmation"
+  ],
+  [
+   "Effluent/waste compliance certificate (quarterly)",
+   "no certificate under EBWGR [4] -> withhold renewal until produced"
+  ],
+  [
+   "Power bill per metre (monthly)",
+   "sharp rise without output rise -> ask for cause, review margin"
+  ],
+  [
+   "Labour dispute/FIR news (event)",
+   "strike call or FIR at unit [3] -> stop disbursement, reassess"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Fresh November 1 protest and August unrest raise labour-cost and shutdown risk for Surat processors.",
+ "articles": [
+  {
+   "title": "Surat: Major Changes in Textile PLI Scheme: Turnover Limit Reduced by 50%, Scheme Duration Extended to FY 2033-34 | Loktej Surat News",
+   "url": "https://english.loktej.com/article/34187/surat--major-changes-in-textile-pli-scheme--turnover-limit-reduced-by-50---scheme-duration-extended-to-fy-2033-34",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Migrant Workers in Surat Fight for Rest and Fair Wages",
+   "url": "https://frontline.thehindu.com/the-nation/surat-embroidery-workers-labour-rights/article71644077.ece",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "After August unrest, Surat textile units brace for fresh wave of stir",
+   "url": "https://indianexpress.com/article/cities/ahmedabad/after-august-unrest-surat-textile-units-brace-for-fresh-wave-of-stir-10942762/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "FW",
+   "url": "http://www.fashionatingworld.com/new1-2/author/691-administrator2.feed?amp;start=3250&type=rssstart=9780/%27&start=920",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "FashionatingWorld News",
+   "url": "http://www.fashionatingworld.com/new1-2?start=406",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Arvind Ltd Reports 44% Rise in Q2 Net Profit on Strong Advanced Materials Growth - Knitting Views",
+   "url": "https://knittingviews.com/arvind-ltd-reports-44-rise-in-q2-net-profit-on-strong-advanced-materials-growth/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sportking India Limited",
+   "url": "https://www.perplexity.ai/app/finance/SPORTKING.BO?comparing=SPORTKING.BO%2CWELSPUNLIV.BO%2CALOKINDS.NS%2CPASHUPATI.NS%2CAYMSYNTEX.BO%2CFILATEX.NS&preset=peers&symbol=VTL.BO&eventId=545669",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "January 23,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140464#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "margins remained healthy at 15.48%",
+   "url": "http://www.bhageriagroup.com/wp-content/uploads/2021/09/Credit-Rating_CARE_2021.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 83 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +14.6% YoY vs output +11.9% (gap +2.7 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

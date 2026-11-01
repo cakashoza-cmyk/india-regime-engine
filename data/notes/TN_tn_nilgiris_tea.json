@@ -1,0 +1,154 @@
+{
+ "key": "tn_nilgiris|tea",
+ "state": "TN",
+ "city": "tn_nilgiris",
+ "ind": "tea",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 38,
+ "nudged_by_news": false,
+ "verdict": "Avoid new tea plantation exposure in Nilgiris; only lend to vertically-linked, low-leverage estates with hard collateral and monthly cash sweeps.",
+ "title": "Nilgiris Tea Plantations: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Nilgiris tea estate is a factory attached to a slow biological asset: bushes are plucked, leaf is withered, rolled, fermented and fired within hours, and made tea is sold at auction or to a buyer.** Cash arrives after the sale and the buyer's credit period, while wages, fuel and fertiliser go out every week, so the working-capital cycle is permanently negative for the grower. **Value sits in bush age and yield, not in the land title** — ICRA notes one peer's favourable age profile, with around 82% of bushes in the 6-50 year group in FY2026, giving a yield of 2,370 kg/hectare [8]. **Capex is replanting and factory machinery, both lumpy and deferrable, which is exactly why weak estates stop replanting and quietly run down.**",
+  "## What has changed now\n**The local demand signal is weak: Tamil Nadu GST collections are -3.2% Apr-to-date against India +6.1%, a 9.3 pp gap [D].** Nationally, exports are -13.6% Apr-to-date in USD [D], and tea is an export-exposed commodity, so auction realisations carry the risk.",
+  "## Where the growth is\n**Pursue estates with a captive buyer or a brand, not pure auction sellers.** KDHP works because 18% of FY2026 tea goes to TCPL, which holds 28.5% and leases the gardens to it [9]; TSAIL works because Rs 65.68 crore of liquid investments as on 31 March 2026 kept net debt negative [8]. **So when a proposal lands, check the share of output sold to a named buyer on contract; if it is under a third, ask who absorbs the auction price swing.** Avoid single-garden proprietorships with no replanting record and no buyer tie.",
+  "## How to grow safely\n**Structure as a cash-credit against auction receivables and warehouse stock, with a term loan only for replanting, never for working capital.** Take a monthly stock-and-receivable statement, monthly wage and fuel payout, and the auction sale statement every month. **Covenant on debt-service cover and on bush-age profile; if replanting falls below the estate's own normal rate, ask why before renewing.**",
+  "## Early-warning signs\n**Watch rainfall and road access: a timber lorry rolled into a tea estate near Kotagiri after rain-soaked roadside soil gave way [2] — slope failure damages bushes and blocks leaf movement to the factory.** A missed wage week, leaf diverted to bought-leaf factories, or a shift from contract to open auction sale are the first real signals."
+ ],
+ "watch": [
+  [
+   "Monthly auction sale statement",
+   "realisation below estate's own trailing average for two months -> cut drawing power"
+  ],
+  [
+   "Monthly wage and fuel payout",
+   "wage payment delayed past the estate's normal date -> stop fresh disbursal"
+  ],
+  [
+   "Quarterly stock and receivables",
+   "receivables ageing beyond the buyer's stated credit period -> ask for buyer confirmation"
+  ],
+  [
+   "Monsoon road and slope reports (seasonal)",
+   "access road blocked or bush damage reported -> inspect estate before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Tamil Nadu GST -3.2% vs India +6.1%, exports -13.6%, repo raised to 5.5%.",
+ "articles": [
+  {
+   "title": "Tasting Nilgiri Teas With the Warmth of Heart",
+   "url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/tasting-nilgiri-teas-with-the-warmth-of-heart-2000776",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "X 上的 RT_India (@RT_India_news)",
+   "url": "https://x.com/RT_India_news/status/2116878422987231456",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "How Seasons Shape the Character of Nilgiris Teas",
+   "url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/how-seasons-shape-the-character-of-nilgiris-teas-2000771?utm_source=home&utm_medium=justIn",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "5 Plantation Stocks India 2026: Strong Future Roadmaps - 5 Plantation Stocks India 2026: Strong Future Roadmaps",
+   "url": "https://univest.in/blogs/plantation-stocks-india-future-roadmaps-2026#1",
+   "date": "2026-08-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CD EQUISEARCH - SHRI VASUPRADA PLANTATIONS LTD.",
+   "url": "https://cdequi.com/company-profile/quaterly-results.aspx?fincode=200555#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Tyroon Tea Company Limited",
+   "url": "https://www.perplexity.ai/app/finance/TYROON.BO?comparing=TYROON.BO%2CSDL.BO%2CEVOQ.BO%2CAMBICAAGAR.BO%2CNTCIND.BO%2CVIRATCRA.BO%2CIWP.BO&preset=peers&symbol=SINNAR.BO&eventId=544024",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Tag: tea plantation companies - Skip to content",
+   "url": "http://livecms.moneycontrol.com/tag/tea-plantation-companies#1",
+   "date": "2023-09-17",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 08, 2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144144#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "July 09,2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/144159#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "129340",
+   "url": "https://www.icra.in/web/viewer.html?file=/Rating/ShowRationalReportFilePdf/129340",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "<table><tr><td rowspan=\"2\">LTCPL</td><td colspan=\"3\">Standalone</td><td colspan=\"2\">Consolidated with proportionate consolidatio...",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=142290&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 38 (national 46 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Exports -13.6% Apr-to-date in USD (Rs 4,337 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
