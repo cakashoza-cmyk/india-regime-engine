@@ -218,3 +218,90 @@ def decide(slv, conv, status, fragility, coverage):
     if why:
         return {"action": "STOP", "text": "STOP — no regime-driven call (" + "; ".join(why) + ").", **sec}
     return {"action": "PROCEED", "text": f"{slv} ({conv}, {status}{', fragility rising' if fragility is not None and fragility < 0 else ''}).", **sec}
+
+
+# ---- classify_regime (Akash's correction, Nov 2026). Numeric dial scores in [-1, 1]:
+# growth +ve = rising; inflation score +ve = inflation FALLING (favourable), -ve = rising; liquidity +ve = easing.
+POINT = 0.3
+STRONG = 0.6
+LIQ_PHRASE = {"accommodative": "accommodative liquidity",
+              "neutral_behind_curve": "neutral liquidity (central bank behind curve)",
+              "contracting": "contracting liquidity (central bank fighting)"}
+ACTION = {"confirmed": "full playbook",
+          "transitional": "preserve capital, watch for confirmation",
+          "emerging": "no change; watch for dials to point",
+          "contracting_but_unconfirmed": "no change; liquidity contracting but RBI-inflation/rates-biting not confirmed"}
+
+
+def liquidity_modifier(liq):
+    if liq is not None and liq >= POINT:
+        return "accommodative"
+    if liq is not None and liq <= -POINT:
+        return "contracting"
+    return "neutral_behind_curve"
+
+
+def rates_biting(ind) -> int:
+    """2-of-4 'rates are biting' check (assumption until Akash's code): repo rising, India 10Y rising,
+    credit growth decelerating, Bank Nifty falling. Stale/missing signals count as not biting."""
+    def dirn(k):
+        r = ind.get(k)
+        return r["direction"] if r and r.get("value") is not None and not r.get("is_stale") else 0
+    return sum([dirn("repo_rate") > 0, dirn("india10y") > 0, dirn("credit_growth") < 0, dirn("nifty_bank") < 0])
+
+
+def rbi_driver_is_inflation(stance) -> bool:
+    """From stored RBI stance language. Default True (spec default) when no stance is stored."""
+    if not stance:
+        return True
+    s = str(stance).lower()
+    return not any(w in s for w in ("accommodat", "easing", "growth support"))
+
+
+def classify_regime(g, inf, liq, rbi_driver_inflation=True, rates_biting_signals=0) -> dict:
+    vals = {"growth": g, "inflation": inf, "liquidity": liq}
+    pointing = {k: v for k, v in vals.items() if v is not None and abs(v) >= POINT}
+    n = len(pointing)
+    max_strength = max((abs(v) for v in pointing.values()), default=0.0)
+    gup, gdn = g is not None and g >= POINT, g is not None and g <= -POINT
+    iup, idn = inf is not None and inf <= -POINT, inf is not None and inf >= POINT  # inflation rising / falling
+    mod = liquidity_modifier(liq)
+    confirm_ok = bool(rbi_driver_inflation) and rates_biting_signals >= 2
+    sub = None
+    if gdn and iup:
+        regime = "Stagflation"
+    elif gup and iup and mod == "contracting":
+        regime, sub = ("Tightening", None) if confirm_ok else ("Unclear", "contracting_but_unconfirmed")
+    elif gup and iup:
+        regime = "Reflation"
+    elif gup and idn:
+        regime = "Goldilocks"
+    elif gdn and idn:
+        regime = "Slowdown"
+    else:
+        regime = "Unclear"
+    if n == 3 and max_strength >= STRONG:
+        confidence = "high"
+    elif n == 2 and max_strength >= STRONG:
+        confidence = "medium_high"
+    elif n >= 2:
+        confidence = "medium"
+    else:
+        confidence = "low"
+    if sub is None:
+        if regime == "Unclear":
+            sub = "emerging"
+        else:
+            sub = "transitional" if (n < 3 or max_strength < STRONG) else "confirmed"
+    checks = {"growth_pointing": "growth" in pointing, "inflation_pointing": "inflation" in pointing,
+              "liquidity_pointing": "liquidity" in pointing}
+    liq_state = {"accommodative": "accommodative",
+                 "contracting": "contracting (fighting)",
+                 "neutral_behind_curve": "neutral, central bank behind the curve" if regime == "Stagflation" else "neutral"}[mod]
+    full = f"{regime} ({sub}) with {LIQ_PHRASE[mod]}"
+    return {"regime": regime, "sub_label": sub, "confidence": confidence, "liquidity_modifier": mod,
+            "liquidity_state": liq_state, "full_label": full, "action": ACTION.get(sub, ""),
+            "diagnostics": {"dials_pointing": n, "max_strength": round(max_strength, 3),
+                            "margins": {k: (None if v is None else round(abs(v) - POINT, 3)) for k, v in vals.items()},
+                            "checks": checks, "all_checks_passed": all(checks.values()),
+                            "rbi_driver_inflation": bool(rbi_driver_inflation), "rates_biting_signals": rates_biting_signals}}

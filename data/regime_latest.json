@@ -1,6 +1,6 @@
 {
-  "generated_at_ist": "2026-11-01 12:09 IST",
-  "run_id": "20261101T120916-0ae93d",
+  "generated_at_ist": "2026-11-01 13:02 IST",
+  "run_id": "20261101T125933-2667df",
   "snapshot_date": "2026-11-01",
   "regime_label": "Stagflation",
   "sub_label": "confirmed",
@@ -8,20 +8,20 @@
   "scores": {
     "growth": -0.5,
     "inflation": -1,
-    "liquidity": -0.125,
+    "liquidity": -0.3,
     "vote": 0,
     "fragility": -1
   },
   "tier1_flips": 1,
   "tier2_confirmed": false,
   "gap_description": "Macro Stagflation and market vote (+0.00) agree \u2014 no gap left to harvest.",
-  "sizing_recommendation": "[PAPER] WAIT size 0.00 (stage 0 < 2); sleeve: Risk-Off (Strong, confirmed, fragility rising).",
+  "sizing_recommendation": "[PAPER] WAIT size 0.00 (invalidation triggered); sleeve: Risk-Off (Mixed, confirmed, fragility rising).",
   "invalidation_conditions": [
     {
       "indicator": "capacity_util",
       "rule": "Capacity utilisation > 75%",
-      "value": null,
-      "status": "unknown"
+      "value": 77.4,
+      "status": "triggered"
     },
     {
       "indicator": "cpi_headline",
@@ -46,17 +46,18 @@
     "dial_labels": {
       "growth": "Falling",
       "inflation": "Rising",
-      "liquidity": "Expanding",
+      "liquidity": "Unclear",
       "liquidity_hard": false
     },
-    "rbi_stance": null,
+    "rbi_stance": "tightening",
     "quadrant": "Stagflation",
     "sleeve": "Risk-Off",
-    "conviction": "Strong",
+    "conviction": "Mixed",
     "confirmation": "confirmed",
-    "coverage": 0.94,
+    "coverage": 0.95,
     "change": "no change",
     "liq_signals": {
+      "rbi_stance": "con",
       "us10y": "exp",
       "dxy": "exp",
       "usdinr_ref": "unknown",
@@ -64,7 +65,37 @@
       "repo_rate": "con",
       "fii_net": "exp"
     },
-    "n_indicators": 17,
+    "n_indicators": 18,
+    "classify_regime": {
+      "regime": "Stagflation",
+      "sub_label": "confirmed",
+      "confidence": "high",
+      "liquidity_modifier": "contracting",
+      "liquidity_state": "contracting (fighting)",
+      "full_label": "Stagflation (confirmed) with contracting liquidity (central bank fighting)",
+      "action": "full playbook",
+      "diagnostics": {
+        "dials_pointing": 3,
+        "max_strength": 1.0,
+        "margins": {
+          "growth": 0.2,
+          "inflation": 0.7,
+          "liquidity": 0.0
+        },
+        "checks": {
+          "growth_pointing": true,
+          "inflation_pointing": true,
+          "liquidity_pointing": true
+        },
+        "all_checks_passed": true,
+        "rbi_driver_inflation": true,
+        "rates_biting_signals": 4
+      }
+    },
+    "full_label": "Stagflation (confirmed) with contracting liquidity (central bank fighting)",
+    "liquidity_state": "contracting (fighting)",
+    "confidence": "high",
+    "action_text": "full playbook",
     "stage_trail": [
       {
         "gate": 1,
@@ -153,8 +184,10 @@
       "rates": 1.0,
       "funding_cost": 1.0,
       "credit_growth": -1.0,
+      "credit_level": 1.0,
+      "credit_direction": -1.0,
       "asset_quality": 0.0,
-      "liquidity": -0.125,
+      "liquidity": -0.3,
       "commodities": 1.0,
       "inflation": 1.0,
       "risk_off": 1.0
@@ -164,6 +197,22 @@
     ],
     "sectors": [
       {
+        "sector": "PSU_BANKS",
+        "marginal_driver": "credit_level",
+        "impact": 0.8,
+        "impacts": {
+          "credit_level": 0.8,
+          "asset_quality": 0.0,
+          "rates": -0.4
+        },
+        "verdict": "own",
+        "why": "Credit growth level is the biggest mover and it helps this sector (+0.80).",
+        "credit": {
+          "level_score": 1.0,
+          "direction_score": -1.0
+        }
+      },
+      {
         "sector": "FMCG",
         "marginal_driver": "risk_off",
         "impact": 0.2,
@@ -171,7 +220,8 @@
           "risk_off": 0.2,
           "inflation": -0.2
         },
-        "verdict": "TOO CLOSE TO CALL"
+        "verdict": "TOO CLOSE TO CALL",
+        "why": "risk-off (+0.20) and inflation (-0.20) pull in opposite directions within 20%."
       },
       {
         "sector": "IT",
@@ -182,18 +232,8 @@
           "growth": -0.15,
           "rates": 0.1
         },
-        "verdict": "avoid"
-      },
-      {
-        "sector": "PSU_BANKS",
-        "marginal_driver": "credit_growth",
-        "impact": -0.8,
-        "impacts": {
-          "credit_growth": -0.8,
-          "asset_quality": 0.0,
-          "rates": -0.4
-        },
-        "verdict": "avoid"
+        "verdict": "avoid",
+        "why": "Growth is the biggest mover and it hurts this sector (-0.15)."
       },
       {
         "sector": "AUTOS",
@@ -204,7 +244,8 @@
           "growth": -0.3,
           "commodities": -0.3
         },
-        "verdict": "avoid"
+        "verdict": "avoid",
+        "why": "Rates (repo + 10y) is the biggest mover and it hurts this sector (-0.90)."
       },
       {
         "sector": "REAL_ESTATE",
@@ -212,9 +253,10 @@
         "impact": -1.0,
         "impacts": {
           "rates": -1.0,
-          "liquidity": 0.087
+          "liquidity": 0.21
         },
-        "verdict": "avoid"
+        "verdict": "avoid",
+        "why": "Rates (repo + 10y) is the biggest mover and it hurts this sector (-1.00)."
       },
       {
         "sector": "NBFC",
@@ -222,20 +264,21 @@
         "impact": -1.0,
         "impacts": {
           "funding_cost": -1.0,
-          "liquidity": 0.1
+          "liquidity": 0.24
         },
-        "verdict": "avoid"
+        "verdict": "avoid",
+        "why": "Funding cost is the biggest mover and it hurts this sector (-1.00)."
       }
     ],
     "position": {
       "action": "wait",
       "size": 0.0,
-      "reason": "stage 0 < 2",
+      "reason": "invalidation triggered",
       "paper": true
     },
     "sleeve_view": {
       "action": "PROCEED",
-      "text": "Risk-Off (Strong, confirmed, fragility rising).",
+      "text": "Risk-Off (Mixed, confirmed, fragility rising).",
       "own": [
         "Cash/short-duration",
         "Gold",
@@ -250,7 +293,7 @@
     "paper_label": "PAPER / FOR REVIEW \u2014 not a live trade instruction (backtests showed no confirmed edge).",
     "check_back_date": "2026-12-01",
     "fragility_level": 1.0,
-    "gap_conviction": 1.0
+    "gap_conviction": 0.6
   },
   "indicators": [
     {
@@ -264,13 +307,13 @@
       "as_of": "2026-06-30",
       "is_stale": false,
       "stale_since": null,
-      "source": "manual",
-      "source_url": "https://www.mospi.gov.in/uploads/latestreleasesfiles/1788174301107-Press%20Note%20on%20GDP%20Estimates%20for%20Q1%202026-27.pdf",
+      "source": "tradingeconomics",
+      "source_url": "https://tradingeconomics.com/india/gdp-growth-annual",
       "status": "verified",
       "checks": [
-        "official source"
+        "cross-check manual=7.8 within 0.05"
       ],
-      "note": "Real GDP Q1 FY27 (Apr-Jun 2026) YoY; prior = Q4 FY26 7.8% (NSO 5 Jun 2026). Next: Q2 on ~30 Nov 2026."
+      "note": "Trading Economics: The Gross Domestic Product (GDP) in India expanded 7.80 percent in the second quarter of 2026 over the same quarter of the previous year."
     },
     {
       "indicator": "iip_yoy",
@@ -283,13 +326,13 @@
       "as_of": "2026-09-30",
       "is_stale": false,
       "stale_since": null,
-      "source": "manual",
-      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475",
+      "source": "tradingeconomics",
+      "source_url": "https://tradingeconomics.com/india/industrial-production",
       "status": "verified",
       "checks": [
-        "official source"
+        "cross-check manual=6.7 within 0.05"
       ],
-      "note": "IIP Sep 2026 YoY (index 124.3); prior = Aug 2026 revised."
+      "note": "Trading Economics: Industrial Production in India increased 6.70 percent in September of 2026 over the same month in the previous year."
     },
     {
       "indicator": "gst_yoy",
@@ -321,13 +364,14 @@
       "as_of": "2026-09-30",
       "is_stale": false,
       "stale_since": null,
-      "source": "manual",
-      "source_url": "https://mospi.gov.in/uploads/latestReleases/latest_release_1791800601071_643518af-5320-4e52-b78c-75c92b83885b_Press_Release_for_the_month_of_September,_2026.pdf",
+      "source": "mospi",
+      "source_url": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1791800601071_643518af-5320-4e52-b78c-75c92b83885b_Press_Release_for_the_month_of_September,_2026.pdf",
       "status": "verified",
       "checks": [
+        "cross-check tradingeconomics=5.54 within 0.05",
         "official source"
       ],
-      "note": "All-India CPI (base 2024=100) Sep 2026 provisional; prior Aug 2026 final. Next release 12 Nov 2026."
+      "note": "MOSPI CPI press release PDF (base 2024=100), Combined"
     },
     {
       "indicator": "food_inflation",
@@ -340,13 +384,14 @@
       "as_of": "2026-09-30",
       "is_stale": false,
       "stale_since": null,
-      "source": "manual",
-      "source_url": "https://mospi.gov.in/uploads/latestReleases/latest_release_1791800601071_643518af-5320-4e52-b78c-75c92b83885b_Press_Release_for_the_month_of_September,_2026.pdf",
+      "source": "mospi",
+      "source_url": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1791800601071_643518af-5320-4e52-b78c-75c92b83885b_Press_Release_for_the_month_of_September,_2026.pdf",
       "status": "verified",
       "checks": [
+        "cross-check tradingeconomics=7.74 within 0.05",
         "official source"
       ],
-      "note": "All-India CFPI YoY Sep 2026; prior Aug 2026."
+      "note": "MOSPI CPI press release PDF (base 2024=100), Combined"
     },
     {
       "indicator": "brent",
@@ -378,14 +423,14 @@
       "as_of": "2026-10-07",
       "is_stale": false,
       "stale_since": null,
-      "source": "manual",
-      "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+      "source": "rbi",
+      "source_url": "https://www.rbi.org.in/",
       "status": "verified",
       "checks": [
-        "cross-check rbi=5.5 within 1e-06",
+        "cross-check manual=5.5 within 1e-06",
         "official source"
       ],
-      "note": "MPC hiked 25 bp on 7 Oct 2026 (SDF 5.25, MSF 5.75). Next MPC 2-4 Dec 2026."
+      "note": "RBI homepage rates panel; prior/as_of from MPC decision https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742"
     },
     {
       "indicator": "india10y",
@@ -400,9 +445,9 @@
       "stale_since": null,
       "source": "investing",
       "source_url": "https://www.investing.com/rates-bonds/india-10-year-bond-yield",
-      "status": "unverified",
+      "status": "verified",
       "checks": [
-        "single non-official source"
+        "cross-check tradingeconomics=7.4 within 0.05"
       ],
       "note": null
     },
@@ -443,6 +488,25 @@
         "official source"
       ],
       "note": "SCB bank credit YoY (excl. inter-bank), computed from RBI statement columns"
+    },
+    {
+      "indicator": "rbi_stance_score",
+      "dial": "liquidity",
+      "value": -1,
+      "prior_value": null,
+      "direction": 0,
+      "score": -1,
+      "weight": 2,
+      "as_of": "2026-10-07",
+      "is_stale": false,
+      "stale_since": null,
+      "source": "rbi_mpc",
+      "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+      "status": "verified",
+      "checks": [
+        "official source"
+      ],
+      "note": "RBI MPC resolution (regex, not LLM)"
     },
     {
       "indicator": "usdinr_ref",
@@ -602,6 +666,25 @@
       "note": null
     },
     {
+      "indicator": "capacity_util",
+      "dial": "display",
+      "value": 77.4,
+      "prior_value": 75.6,
+      "direction": 1,
+      "score": 0,
+      "weight": 0,
+      "as_of": "2026-06-30",
+      "is_stale": false,
+      "stale_since": null,
+      "source": "tradingeconomics",
+      "source_url": "https://tradingeconomics.com/india/capacity-utilization",
+      "status": "unverified",
+      "checks": [
+        "single non-official source"
+      ],
+      "note": "Trading Economics: Capacity Utilization in India increased to 77.40 percent in the second quarter of 2026 from 75.60 percent in the first quarter of 2026."
+    },
+    {
       "indicator": "ois_1y",
       "dial": "display",
       "value": 6.72,
@@ -664,11 +747,7 @@
   "missing": [
     {
       "indicator": "cpi_core",
-      "reason": "MOSPI does not publish an official core CPI. Analyst estimates (CareEdge ~4.3% for Sep 2026) are not official, so not scored."
-    },
-    {
-      "indicator": "capacity_util",
-      "reason": "Not yet sourced from the latest RBI OBICUS survey."
+      "reason": "MOSPI does not publish core CPI, and the base-2024 press release has division indices but no division weights, so core cannot be computed without inventing weights. Analyst estimates (CareEdge ~4.3% Sep 2026) are not official."
     }
   ],
   "source_log": [
@@ -781,6 +860,72 @@
       "error": null
     },
     {
+      "indicator": "cpi_headline",
+      "source": "mospi api+pdf",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "food_inflation",
+      "source": "mospi api+pdf",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "cpi_headline",
+      "source": "tradingeconomics (check)",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "food_inflation",
+      "source": "tradingeconomics (check)",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "credit_growth",
+      "source": "tradingeconomics (check)",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "india10y",
+      "source": "tradingeconomics (check)",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "iip_yoy",
+      "source": "tradingeconomics (primary)",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "gdp_yoy",
+      "source": "tradingeconomics (primary)",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "capacity_util",
+      "source": "tradingeconomics (primary)",
+      "ok": true,
+      "error": null
+    },
+    {
+      "indicator": "india10y",
+      "source": "ccil headless",
+      "ok": false,
+      "error": "ccil: Command '['google-chrome', '--headless=new', '--no-sandbox', '--disable-gpu', '--virtual-time-budget=20000', '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36', '--dump-dom', 'https://www.ccilindia.com/tenorwise-indicative-yields']' timed out after 120 seconds"
+    },
+    {
+      "indicator": "rbi_stance",
+      "source": "rbi mpc resolution",
+      "ok": true,
+      "error": null
+    },
+    {
       "indicator": "repo_rate",
       "source": "rbi.org.in",
       "ok": true,
@@ -829,58 +974,16 @@
       "error": null
     },
     {
-      "indicator": "gdp_yoy",
-      "source": "manual",
-      "ok": true,
-      "error": null
-    },
-    {
-      "indicator": "iip_yoy",
-      "source": "manual",
-      "ok": true,
-      "error": null
-    },
-    {
-      "indicator": "gst_yoy",
-      "source": "manual",
-      "ok": true,
-      "error": null
-    },
-    {
-      "indicator": "cpi_headline",
-      "source": "manual",
-      "ok": true,
-      "error": null
-    },
-    {
       "indicator": "cpi_core",
       "source": "manual",
       "ok": false,
       "error": "no official print entered in engine/manual_inputs.json"
     },
     {
-      "indicator": "food_inflation",
-      "source": "manual",
-      "ok": true,
-      "error": null
-    },
-    {
       "indicator": "credit_growth",
       "source": "manual",
       "ok": false,
       "error": "no official print entered in engine/manual_inputs.json"
-    },
-    {
-      "indicator": "repo_rate",
-      "source": "manual",
-      "ok": true,
-      "error": null
-    },
-    {
-      "indicator": "ois_1y",
-      "source": "manual",
-      "ok": true,
-      "error": null
     },
     {
       "indicator": "capacity_util",
@@ -897,7 +1000,7 @@
   ],
   "alert": {
     "sent": [],
-    "text": null,
-    "note": "no change \u2014 nothing sent"
+    "text": "Macro Regime Engine\nInvalidation triggered: Capacity utilisation > 75%\nSource failures (stale carried): india10y\n[PAPER] WAIT size 0.00 (invalidation triggered); sleeve: Risk-Off (Mixed, confirmed, fragility rising).",
+    "note": "skipped: no TELEGRAM_*/SMTP_* secrets"
   }
 }

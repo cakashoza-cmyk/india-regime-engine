@@ -14,13 +14,13 @@ SANITY = {
     "india10y": (4, 12), "fii_net": (-60000, 60000), "dii_net": (-60000, 60000), "credit_growth": (-10, 40),
     "usdinr_ref": (60, 140), "us10y": (0, 10), "dxy": (70, 130), "nifty": (5000, 80000),
     "nifty_bank": (10000, 200000), "breadth_200dma": (0, 100), "india_vix": (5, 90),
-    "nifty_auto": (3000, 100000), "nifty_metal": (1000, 50000), "capacity_util": (50, 100), "ois_1y": (2, 12),
+    "nifty_auto": (3000, 100000), "nifty_metal": (1000, 50000), "capacity_util": (50, 100), "ois_1y": (2, 12), "rbi_stance_score": (-1, 1),
 }
 # tolerance: ("rel", fraction) or ("abs", units)
 TOL = {"nifty": ("rel", .005), "nifty_bank": ("rel", .005), "nifty_auto": ("rel", .005), "nifty_metal": ("rel", .005),
        "india_vix": ("rel", .02), "us10y": ("abs", .06), "brent": ("rel", .02), "usdinr_ref": ("rel", .01),
        "india10y": ("abs", .05), "repo_rate": ("abs", 1e-6)}
-OFFICIAL_SOURCES = {"rbi", "nse_archive", "treasury", "rbi_press", "nse"}
+OFFICIAL_SOURCES = {"rbi", "nse_archive", "treasury", "rbi_press", "nse", "mospi", "ccil", "rbi_mpc"}
 OFFICIAL_DOMAINS = ("mospi.gov.in", "pib.gov.in", "rbi.org.in", "gst.gov.in", "nseindia.com", "treasury.gov")
 
 

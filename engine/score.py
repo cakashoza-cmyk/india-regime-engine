@@ -27,6 +27,8 @@ def score_indicator(value, prior, indicator_type):
         return direction(value, prior)
     if indicator_type == "fragility":
         return -direction(value, prior)
+    if indicator_type == "stance":  # value already -1/0/+1 from the MPC resolution
+        return 0 if value is None else int(value)
     if indicator_type == "flow":  # AUDIT_LOGIC: FII > +500 expanding, < -500 contracting
         if value is None:
             return 0
@@ -65,7 +67,7 @@ def _prior_from_history(rows, good, value):
 MAX_AGE_DAYS = {"monthly": 75, "quarterly": 140, "daily": 7, "event": 400}
 CADENCE = {"gdp_yoy": "quarterly", "iip_yoy": "monthly", "gst_yoy": "monthly", "cpi_headline": "monthly",
            "cpi_core": "monthly", "food_inflation": "monthly", "credit_growth": "monthly",
-           "capacity_util": "quarterly", "repo_rate": "event", "credit_growth": "monthly"}
+           "capacity_util": "quarterly", "repo_rate": "event", "credit_growth": "monthly", "rbi_stance_score": "event"}
 
 
 def too_old(key, as_of, today=None):
@@ -90,6 +92,11 @@ def run(conn, run_id: str) -> list[dict]:
         p = db.jload(good["payload"])
         value = p.get("value")
         prior = p.get("prior")
+        if prior is None:  # same-reference-date prior from another source (e.g. official manual print)
+            for r in rows:
+                q = db.jload(r["payload"])
+                if r["ok"] and r["id"] != good["id"] and q.get("as_of") == p.get("as_of") and q.get("value") == value and q.get("prior") is not None:
+                    prior = q["prior"]; break
         if prior is None:
             prior = _prior_from_history(rows, good, value)
         kind = "rate" if meta["type"] == "rate" else "generic"

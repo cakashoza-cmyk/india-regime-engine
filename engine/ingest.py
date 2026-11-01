@@ -17,6 +17,7 @@ from engine import search_adapter as sa  # noqa: E402
 from engine import dbie  # noqa: E402
 from engine import release_calendar as cal  # noqa: E402
 from engine import official  # noqa: E402
+from engine import auto_macro  # noqa: E402
 
 IST = timezone(timedelta(hours=5, minutes=30))
 MANUAL = Path(__file__).resolve().parent / "manual_inputs.json"
@@ -112,6 +113,48 @@ def ingest_official(conn, log):
     _yahoo(conn, "usdinr_ref", "INR=X", log, role="check")
 
 
+AUTO_KEYS = {"cpi_headline", "food_inflation", "iip_yoy", "gdp_yoy", "capacity_util"}  # manual rows become cross-checks
+TE_ROLE = {"cpi_headline": "check", "food_inflation": "check", "credit_growth": "check", "india10y": "check",
+           "iip_yoy": "primary", "gdp_yoy": "primary", "capacity_util": "primary"}
+
+
+def ingest_auto(conn, log):
+    """Automatic macro: MOSPI API+PDF (CPI/food), CCIL headless (10Y), RBI MPC stance, Trading Economics."""
+    try:
+        cpi = auto_macro.mospi_cpi()
+    except Exception as e:  # noqa: BLE001
+        cpi = {"error": f"mospi: {e}"}
+    for key in ("cpi_headline", "food_inflation"):
+        r = cpi.get(key) if "error" not in cpi else None
+        _store(conn, "mospi", key, dict(r, role="primary") if r else {"error": cpi.get("error")}, bool(r), r and r["as_of"], bool(r))
+        log.append((key, "mospi api+pdf", bool(r), None if r else cpi.get("error")))
+    for key, role in TE_ROLE.items():
+        try:
+            r = auto_macro.tradingeconomics(key)
+        except Exception as e:  # noqa: BLE001
+            r = {"error": f"tradingeconomics: {e}"}
+        ok = r.get("value") is not None and not r.get("error")
+        r["role"] = role
+        _store(conn, "tradingeconomics", key, r, ok, r.get("as_of"), ok)
+        log.append((key, f"tradingeconomics ({role})", ok, r.get("error")))
+    try:
+        r = auto_macro.ccil_10y()
+    except Exception as e:  # noqa: BLE001
+        r = {"error": f"ccil: {e}"}
+    ok = r.get("value") is not None and not r.get("error")
+    r["role"] = "primary"
+    _store(conn, "ccil", "india10y", r, ok, r.get("as_of"), ok)
+    log.append(("india10y", "ccil headless", ok, r.get("error")))
+    try:
+        st = auto_macro.rbi_stance()
+        _store(conn, "rbi_mpc", "rbi_stance", st, True, st.get("as_of"), True)
+        _store(conn, "rbi_mpc", "rbi_stance_score", {**st, "role": "primary", "prior": None}, True, st.get("as_of"), True)
+        log.append(("rbi_stance", "rbi mpc resolution", True, None))
+    except Exception as e:  # noqa: BLE001
+        _store(conn, "rbi_mpc", "rbi_stance_score", {"error": str(e)}, False)
+        log.append(("rbi_stance", "rbi mpc resolution", False, str(e)))
+
+
 def ingest_flows_10y(conn, log):
     fii, dii, w = rd.fetch_fii_dii()
     for key, r in (("fii_net", fii), ("dii_net", dii)):
@@ -124,7 +167,7 @@ def ingest_flows_10y(conn, log):
         lbd = official.last_business_day(datetime.now(IST).date()).isoformat()
         if not y.get("as_of") or str(y["as_of"])[:10] > lbd:
             y["as_of"] = lbd
-        y["role"] = "primary"
+        y["role"] = "check"  # CCIL (official) is primary
     _store(conn, "investing" if ok else "ccil", "india10y", y, ok, y.get("as_of"), ok)
     log.append(("india10y", y.get("source") or "ccil/investing", ok, y.get("error") or "; ".join(w2) or None))
 
@@ -141,9 +184,9 @@ def ingest_manual(conn, log):
             log.append((key, "manual", False, "no official print entered in engine/manual_inputs.json"))
             continue
         last = db.q(conn, "SELECT payload FROM raw_ingest WHERE indicator=? AND source='manual' AND ok ORDER BY id DESC LIMIT 1", (key,), one=True)
-        if last and db.jload(last["payload"]) == rec:
+        if last and {k: v for k, v in db.jload(last["payload"]).items() if k != "role"} == rec:
             continue  # unchanged — no duplicate row
-        _store(conn, "manual", key, dict(rec, role="primary"), True, rec.get("as_of"), rec.get("verified", True) is not False)
+        _store(conn, "manual", key, dict(rec, role="check" if key in AUTO_KEYS else "primary"), True, rec.get("as_of"), rec.get("verified", True) is not False)
         log.append((key, "manual", True, None))
 
 
@@ -214,6 +257,7 @@ def run(conn, force_language=False) -> list:
     for key, sym in YAHOO.items():
         _yahoo(conn, key, sym, log)
     ingest_official(conn, log)
+    ingest_auto(conn, log)
     ingest_rbi(conn, log)
     ingest_flows_10y(conn, log)
     ingest_dbie(conn, log)

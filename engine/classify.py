@@ -29,13 +29,21 @@ def run(conn, run_id):
     coverage = sum(1 for k in expected if k in ind and not ind[k]["is_stale"]) / len(expected)
     prev = db.q(conn, "SELECT regime_label, detail FROM regime_snapshots WHERE run_id<>? ORDER BY id DESC LIMIT 1", (run_id,), one=True)
     prev_label = prev["regime_label"] if prev else None
-    status = logic.confirm(prev_label, label)
-    sub = "acute" if hard and l == "Contracting" else status
+    # Akash's classify_regime on numeric dial scores supersedes the label-vote regime + 2-eval confirm.
+    cr = logic.classify_regime(scores["growth"], scores["inflation"], scores["liquidity"],
+                               rbi_driver_inflation=logic.rbi_driver_is_inflation(stance),
+                               rates_biting_signals=logic.rates_biting(ind))
+    label, sub = cr["regime"], cr["sub_label"]
+    status = sub
+    if label == "Stagflation" and slv == "Unclear":
+        slv = "Risk-Off"
     change = "no change" if prev_label == label else f"{prev_label or 'none'} -> {label}"
     detail = {"dial_labels": {"growth": g, "inflation": i, "liquidity": l, "liquidity_hard": hard},
               "rbi_stance": stance, "quadrant": quad, "sleeve": slv, "conviction": conv,
               "confirmation": status, "coverage": round(coverage, 2), "change": change,
-              "liq_signals": logic.liq_signals(ind, stance), "n_indicators": len(voting)}
+              "liq_signals": logic.liq_signals(ind, stance), "n_indicators": len(voting),
+              "classify_regime": cr, "full_label": cr["full_label"], "liquidity_state": cr["liquidity_state"],
+              "confidence": cr["confidence"], "action_text": cr["action"]}
     db.q(conn, "INSERT INTO regime_snapshots (run_id, snapshot_date, growth_score, inflation_score, liquidity_score, vote_score, fragility_score, regime_label, sub_label, detail) VALUES (?,?,?,?,?,?,?,?,?,?)",
          (run_id, date.today().isoformat(), scores["growth"], scores["inflation"], scores["liquidity"], scores["vote"],
           scores["fragility"], label, sub, db.jdump(detail)))

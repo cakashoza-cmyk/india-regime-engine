@@ -17,6 +17,7 @@ INDICATORS = {
     "india10y":     dict(dial="liquidity", type="rate", weight=1),
     "fii_net":      dict(dial="liquidity", type="flow", weight=1),
     "credit_growth": dict(dial="liquidity", type="growth", weight=1),
+    "rbi_stance_score": dict(dial="liquidity", type="stance", weight=2),  # MPC stance: -1 tightening .. +1 accommodative
     "usdinr_ref":   dict(dial="liquidity", type="fragility", weight=1),
     "us10y":        dict(dial="liquidity", type="fragility", weight=1),
     "dxy":          dict(dial="liquidity", type="fragility", weight=1),

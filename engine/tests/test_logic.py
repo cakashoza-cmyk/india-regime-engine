@@ -117,3 +117,37 @@ def test_validate_sanity_and_crosscheck():
     rec = dict(indicator="nifty", value=23053.1, as_of="2026-10-30", source="nse_archive", source_raw_id=a)
     assert validate.check(c, rec)["status"] == "failed"  # 6% apart
     assert validate.check(c, dict(rec, indicator="cpi_headline", value=55.4))["status"] == "failed"  # sanity
+
+
+# ---- Akash's official classify_regime tests
+from engine.logic import classify_regime
+
+
+def test_classify_A_stagflation_transitional():
+    r = classify_regime(-0.50, -1.00, -0.13)
+    assert (r["regime"], r["sub_label"], r["liquidity_modifier"]) == ("Stagflation", "transitional", "neutral_behind_curve")
+
+
+def test_classify_B_stagflation_confirmed_contracting():
+    r = classify_regime(-0.70, -0.80, -0.55)
+    assert (r["regime"], r["sub_label"], r["liquidity_modifier"]) == ("Stagflation", "confirmed", "contracting")
+
+
+def test_classify_C_unclear_emerging():
+    r = classify_regime(-0.50, -0.10, -0.10)
+    assert (r["regime"], r["sub_label"]) == ("Unclear", "emerging")
+
+
+def test_classify_D_contracting_but_unconfirmed():
+    r = classify_regime(0.50, -0.50, -0.50, rbi_driver_inflation=False, rates_biting_signals=0)
+    assert (r["regime"], r["sub_label"]) == ("Unclear", "contracting_but_unconfirmed")
+
+
+def test_classify_E_tightening():
+    assert classify_regime(0.50, -0.50, -0.50, True, 2)["regime"] == "Tightening"
+
+
+def test_classify_trace_case_full_label():
+    r = classify_regime(-0.50, -1.00, -0.13, rbi_driver_inflation=True, rates_biting_signals=2)
+    assert r["regime"] == "Stagflation" and r["sub_label"] == "transitional" and r["confidence"] == "medium_high"
+    assert r["full_label"] == "Stagflation (transitional) with neutral liquidity (central bank behind curve)"
