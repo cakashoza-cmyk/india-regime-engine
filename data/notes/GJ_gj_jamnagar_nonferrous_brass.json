@@ -1,0 +1,143 @@
+{
+ "key": "gj_jamnagar|nonferrous_brass",
+ "state": "GJ",
+ "city": "gj_jamnagar",
+ "ind": "nonferrous_brass",
+ "version": "v6",
+ "generated_at": "2026-11-01 22:59 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 88,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Jamnagar brass — back registered foundries and machining units with metal-price pass-through and tested buyers; skip unregistered job-work shops and anyone funding inventory with short bank lines.",
+ "title": "Jamnagar Non-ferrous Metals, Brass & Fabricated Metal: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Jamnagar is India's main brass-components cluster: about 3,500 units per the BEE profile — 900 foundries, 150 extrusion, 2,100 machining, 350 electroplating — with a state estimate of nearly 8,000 units of all sizes and 3 lakh+ jobs [1].** A part moves through several firms: ingot or rod is cast or extruded, then turned, milled, threaded, drilled and plated, in GIDC Phases I and II, Patel Colony, M.P. Shah, Hapa and Digvijay Plot [1]. Products run from one gram to ten kilograms, sold to electrical, plumbing, Railways and defence buyers [1]. So when a proposal lands, check which step of the chain the borrower actually owns; a machining shop with no furnace has a very different asset base from a foundry.\n\n## Where cash and value sit\n**Copper and zinc scrap and ingots are most of a part's cost, and volatile metal prices are the cluster's main challenge [1].** That means the borrower's real margin is conversion — melting, machining, plating — not metal. Ask for the conversion charge per kilogram separately from metal cost; if the customer cannot show it, collect from customer. Working capital is metal inventory plus receivables from larger OEM buyers; capex is furnaces, blowers and machine tools, which is why BEE runs energy-efficiency programmes here [1]. **Peer evidence says working capital is the pressure point: average utilisation of fund-based limits stayed high at 88% for the trailing twelve months at one metals borrower [8], and another carries moderately high working-capital needs supported by bank lines [9].**\n\n## What has changed now\n**The data call is OK (score 88; national 96, Gujarat 75) [D].** Gujarat GST collections are up 11.9% Apr-to-date against India's 6.1% [D], and India-wide NIC 25 output is up 16.9% YoY, 12.0% Apr-to-date, with bank credit growth of 11.9% roughly matching output [D]. **Locally, scrap rates for brass and aluminium are sliding before Diwali even as global metal prices hold, on a festive lull [2] — that is a margin and inventory-valuation event, not a demand collapse.** Peer results are mixed: Gravita's Q2 FY27 revenue rose 38% with EBITDA margin above 10% but PAT up only 6% [3][5], while KSH International's Q3 FY26 revenue rose 59% and PAT fell 9% [4]. Read that as volume growth without pricing power.\n\n## Who to pursue, and how to grow safely\n**Pursue registered foundries and machining units with named electrical, plumbing or Railway buyers, conversion-charge pricing and a tested metal-pricing clause; avoid unregistered job-work shops and pure traders holding metal on short bank lines.** Gujarat has declared brass parts a cluster industry and priority sector under Atmanirbhar Gujarat 2022, with SIDBI support for finance and quality control [1] — use that for testing and certification, which export buyers demand [1]. Structure limits against inventory plus receivables, take monthly stock-and-receivable statements, and require the borrower to pass metal-price moves to customers.\n\n## Early-warning signs\n**Watch limit utilisation above 88% [8], falling conversion charges, and inventory valued at pre-Diwali scrap rates [2].** If a borrower's receivable days stretch while metal prices slide, ask for the buyer-wise ageing and the pricing clause.",
+  "## "
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-receivable statement",
+   "Inventory valued above latest scrap rate [2] -> revalue and trim limit"
+  ],
+  [
+   "Monthly limit utilisation",
+   "Utilisation above 88% [8] -> ask for buyer-wise ageing and pricing clause"
+  ],
+  [
+   "Quarterly conversion charge per kg",
+   "Falling conversion charge -> reprice or reduce exposure"
+  ],
+  [
+   "Quarterly GST returns",
+   "GST growth slipping below Gujarat's 11.9% [D] -> review the account"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Gujarat GST and NIC 25 output strong; pre-Diwali scrap slide is seasonal, not structural.",
+ "articles": [
+  {
+   "title": "Insight: Jamnagar – how India's brass parts cluster is organised",
+   "url": "https://metal.industry-report.net/2026/10/23/insight-jamnagar-brass-parts-cluster-foundries-extrusion-machining/",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Your Brass and Aluminium Scrap Rates Are Sliding Before Diwali, Even as Global Metal Prices Hold. The Festive Lull Is the Reason.",
+   "url": "https://recykaltimes.com/article/your-brass-and-aluminium-scrap-rates-are-sliding-before-diwali-even-as",
+   "date": "2026-10-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Gravita India Ltd (BOM:533282) (Q2 2027) Earnings Call Highlights: Revenue Jumps 38% as ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/gravita-india-ltd-bom-533282-110841255.html",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Q3FY26 Quarterly Result Announced for KSH International Ltd.",
+   "url": "https://trendlyne.com/posts/5520605/q3fy26-quarterly-result-announced-for-ksh-international-ltd",
+   "date": "2026-02-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Gravita India Ltd. (GRAVITA) — Q2 FY27 | Positive",
+   "url": "https://quartrly.in/discover/pitches/gravita-india-ltd-q2-fy27?from=board-tone",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India: Shyam Metallics reports nearly 9% rise in PAT for 9MFY'26 - BigMint - India: Shyam Metallics reports nearly 9% rise in PAT for 9MFY'26",
+   "url": "https://www.bigmint.co/insights/detail/india-shyam-metallics-reports-nearly-9-rise-in-pat-for-9mfy-26-717977#1",
+   "date": "2026-10-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Financial leverage is a measure of an entity's dependence on borrowed funds",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/1016~Non-Ferrous%20Metals,%20Rating%20Methodology,%20Mar%202026.pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202505130524_Shera_Metal_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Moderately high working capital requirements; although adequately supported by bank lines: Company has moderately high working...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/M%20S%20Metals%20And%20Steels%20Private%20Limited-RU-19-07-2024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Cash flows",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/1018~Jewellery-Retail,%20Rating%20Methodology,%20Mar%202026.pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 88 (national 96 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 25 output +16.9% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +12.0% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +11.9% YoY vs output +12.0% (gap -0.1 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
