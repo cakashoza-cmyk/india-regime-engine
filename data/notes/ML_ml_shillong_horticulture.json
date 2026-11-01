@@ -1,0 +1,150 @@
+{
+ "key": "ml_shillong|horticulture",
+ "state": "ML",
+ "city": "ml_shillong",
+ "ind": "horticulture",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Data pack score is UNKNOWN, so no borrower clears the 65 lend line on data; lend only to contract-backed, diversified Shillong horticulture/floriculture units, and decline single-crop cut-flower growers selling into open mandis.",
+ "title": "Shillong horticulture & floriculture: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**This is a perishable-crop business: seed or sapling plus polyhouse, water and labour go in, and cut flowers, vegetables and fruit come out within weeks, so cash arrives fast but spoils faster.** Value sits in the last mile — grading, cold storage and the buyer — not in the field. Capex is polyhouse, irrigation and a packhouse; the working-capital cycle is short on the sales side and long on the receivable side when selling to institutional buyers. **Price is set daily by the buyer, not the grower, and the government has ruled out a blanket support price for all farm produce [3], so there is no floor under a weak lot.** Collect from customer: current realisations per stem/kg, buyer mix and receivable days.",
+  "## What has changed now\n**The state is promoting FTA-linked exports and pushing to reopen border haats with upgraded trade infrastructure along the Bangladesh border [1], which is a genuine new demand channel for graded produce.** A floriculture expo is running in Upper Shillong [2], which tells us the cluster is active but not that volumes or prices have risen. **The data pack gives no score for Meghalaya or the national benchmark [D], so we have no quantitative read on this city at all.** Sources say little specific to Shillong's own trade volumes; lean on first principles and on peers.",
+  "## What the peers say\n**Peer results are mixed and mostly not Shillong: Pushpanjali Floriculture grew March 2026 net sales 40.95% year-on-year to Rs 13.18 crore but posted a quarterly net loss of Rs 2.15 crore and negative EBITDA of Rs 0.24 crore [6].** Nagarjuna Agri-Tech's June 2026 sales jumped to INR 321.81 million from INR 15.31 million a year ago [5], but its June 2026 EPS fell to -0.01 despite higher revenue of Rs 32 crore [7] — growth without profit. **Read this as: revenue growth in this sector is easy to buy and hard to convert to cash.** The rating-methodology sources [8][9][10][11] are generic and old; they give no sector number.",
+  "## Who to pursue, and how to grow safely\n**Pursue growers with a written offtake or export order, at least two crops, and their own grading or cold room; avoid single-crop cut-flower growers selling into open mandis and traders with no land or packhouse.** When a proposal lands, check the offtake contract's buyer and penalty clause; if the buyer is a single unrated trader, ask for assignment of receivables or a tripartite confirmation. **Structure as a cash-flow loan sized to the crop cycle, not a term loan sized to the polyhouse.** Take every month: sales and realisation register, buyer-wise receivables ageing, power bills for the cold room, and a crop-condition note.",
+  "## Early-warning signs\n**Watch for a shift from contracted buyers to mandi sales, receivables stretching past the crop cycle, and cold-room power bills falling while sales are claimed flat.** If receivables age past the cycle, stop enhancement and ask for the buyer's payment proof. If a borrower's crop mix narrows to one flower, cut limit and require crop insurance. If border-haat reopening slips, treat export-order projections as unconfirmed."
+ ],
+ "watch": [
+  [
+   "Realisation register vs contracted price (monthly)",
+   "Realisation below contract for two months -> freeze enhancement, review offtake"
+  ],
+  [
+   "Cold-room power bills (monthly)",
+   "Bills fall while sales claimed flat -> inspect stock and stop disbursement"
+  ],
+  [
+   "Crop mix and insurance (quarterly)",
+   "Single-crop concentration -> cut limit, require insurance"
+  ],
+  [
+   "Border haat / FTA export order status (quarterly)",
+   "Reopening slips -> treat export projections as unconfirmed, resize"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "FTA export push and border haat revival are positive but unquantified; no Meghalaya score in data pack.",
+ "articles": [
+  {
+   "title": "Meghalaya Promotes FTA Benefits to Boost Exports, Seeks Revival of Border Haats",
+   "url": "https://www.sentinelassam.com/north-east-india-news/meghalaya-news/meghalaya-promotes-fta-benefits-to-boost-exports-seeks-revival-of-border-haats",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Floriculture expo underway in Upper Shillong",
+   "url": "https://highlandpost.com/author/sambor/page/2865/#back-to-top",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Govt rules out blanket support price for all farm produce",
+   "url": "https://theshillongtimes.com/2026/07/31/govt-rules-out-blanket-support-price-for-all-farm-produce/#respond",
+   "date": "2026-07-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Nagarjuna Agri Tech Share Price, Stock Price, LIVE NSE/BSE - Groww - NAGTECH •BSE",
+   "url": "https://groww.in/stocks/nagarjuna-agri-tech-ltd#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Nagarjuna Agri-Tech Limited Reports Earnings Results for the First Quarter Ended June 30, 2026",
+   "url": "https://in.marketscreener.com/news/nagarjuna-agri-tech-limited-reports-earnings-results-for-the-first-quarter-ended-june-30-2026-ce7859dbdc89f527",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Pushpanjali Flo Consolidated March 2026 Net Sales at Rs 13.18 crore, up 40.95% Y-o-Y- Moneycontrol.com - Get Instant Loan",
+   "url": "https://www.moneycontrol.com/news/business/earnings/pushpanjali-flo-consolidated-march-2026-net-sales-at-rs-13-18-crore-up-40-95-y-o-y-13917569.html#1",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Nagarjuna Agri-Tech Limited",
+   "url": "https://www.perplexity.ai/app/finance/NAGTECH.BO?comparing=NAGTECH.BO%2CINDOUS.BO%2CBSHSL.NS%2CTIERRA.BO%2CAGRITECH.BO%2CNATHBIOGEN.BO&preset=peers&symbol=MSL.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA analyses the long period of past financial performance trends and estimates the future financial performance to assess the ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/919~Agrochemicals,%20Rating%20Methodology,%20Jun%202024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Apart from the capital structure, ICRA pays attention to the debt coverage indicators, including interest coverage, debt service...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=890#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CARE AA-    CRISIL AA-    [ICRA]AA-",
+   "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/banking-stability/basel-3/Banking_Capital_Amendment_Rules_2011.pdf#17#17#17",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Meghalaya None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

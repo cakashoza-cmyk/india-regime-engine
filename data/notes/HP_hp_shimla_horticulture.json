@@ -1,0 +1,150 @@
+{
+ "key": "hp_shimla|horticulture",
+ "state": "HP",
+ "city": "hp_shimla",
+ "ind": "horticulture",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution on apple-led horticulture lending in Shimla this season; lend selectively to diversified growers, nurseries and floriculture units with irrigation and processing linkages, and avoid pure apple-orchard borrowers relying on one harvest.",
+ "title": "Shimla horticulture & floriculture: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**An orchard turns land, water, chilling hours and labour into one annual cash event — the harvest — and everything about the credit hinges on that single date.** Apple output in the state fell to around 1.30 crore boxes this season against more than 2.25 crore boxes last year, with the minister citing inadequate chilling hours, cold weather at flowering and unseasonal rain [1]. So when a proposal lands, check the borrower's own box count and price realisation for the last three seasons, not the district average; if the numbers are missing, collect from customer.\n\n## Where cash and value sit\n**Value sits in post-harvest handling, not in the orchard gate.** HPMC recorded turnover of Rs 214.19 crore and profit of around Rs 12 crore in 2025-26, and has moved into processing, cold storage, post-harvest management and value-added products, with digital procurement under MIS-2026 [2]. That tells you where the margin is: grading, storage and processing. So when a proposal lands, check whether the borrower sells at the gate or holds stock; if they hold stock, ask for the cold-storage agreement and the buyer's name.\n\n## What has changed now\n**This is a bad apple year, and the payment chain is disputed.** The same local report carries the minister's allegation of mispayments to orchardists [1]. Peer results are mixed and not a guide to Shimla: Pushpanjali Floriculture's March 2026 net sales rose 40.95% to Rs 13.18 crore but it posted a quarterly net loss of Rs 2.15 crore and negative EBITDA of Rs 0.24 crore [6]; Nagarjuna Agri-Tech's revenue jump to Rs 321.81 million in Q1 FY27 from Rs 15.31 million is a trading business, not an orchard [5]. The rating sources [8][9][10][11] are methodology documents and carry no Shimla-specific data. Sources say little about Shimla city itself, so lean on first principles and these peers.\n\n## Where to grow safely\n**Pursue the diversification the district administration is already funding.** Shimla DC approved Rs 51.42 crore under MIDH for 2026-27, plus micro-irrigation plans and a Rs 60-lakh general and Rs 9.87-lakh SC grant, and is trialling blueberry in Shilaru [3]. So when a proposal lands, favour borrowers with micro-irrigation, protected cultivation, floriculture or a processing tie-up; if the borrower is a pure apple orchardist with no irrigation, ask for the alternate-crop plan before sanctioning.\n\n## Structure, covenants and early warning\n**Take the harvest cycle as the repayment cycle.** Structure limits against the borrower's own box output and price, and take monthly stock and sales statements through the season. Watch: box arrivals versus last year (monthly) — a second weak season means restructure or exit; cold-storage occupancy (monthly) — falling occupancy means stock is not moving, so ask for buyer confirmations; HPMC and MIS procurement payment timelines (monthly) — any delay in the digital portal payouts means stop fresh disbursement; and rainfall and snowfall records (seasonal) — a second dry winter means no new orchard limits."
+ ],
+ "watch": [
+  [
+   "Box arrivals and price realisation (monthly, in season)",
+   "Arrivals below the borrower's three-year average -> cut limit and ask for the alternate-crop plan"
+  ],
+  [
+   "Cold-storage occupancy and stock ageing (monthly)",
+   "Occupancy falling or stock ageing past the season -> ask for buyer confirmations and stop fresh disbursement"
+  ],
+  [
+   "HPMC/MIS procurement payment timelines (monthly)",
+   "Payout delay on the digital portal -> freeze new disbursement to that borrower"
+  ],
+  [
+   "Rainfall and snowfall records (seasonal)",
+   "Second consecutive dry winter -> no new orchard limits, review existing ones"
+  ],
+  [
+   "Micro-irrigation and scheme disbursement status (quarterly)",
+   "Scheme funds not reaching the borrower -> verify the MIDH sanction before releasing the next tranche"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Apple output fell to about 1.30 crore boxes from over 2.25 crore, with mispayment allegations.",
+ "articles": [
+  {
+   "title": "Himachal apple production falls sharply; Jagat Singh Negi accuses BJP of misleading orchardists over mispayments - www.lokmattimes.com - Himachal apple production falls sharply; Jagat Singh Negi accuses BJP of misleading orchardists over mispayments",
+   "url": "https://www.lokmattimes.com/national/himachal-apple-production-falls-sharply-jagat-singh-negi-accuses-bjp-of-misleading-orchardists-over-mispayments/#1",
+   "date": "2026-10-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "HPMC records Rs 214.19 cr turnover as digital a… | UNI India - Exclusive news and data that keep market professionals aheadSaturday, October 17, 2026",
+   "url": "https://www.uniindia.com/north-india/hpmc-turnover-digital-apple-procurement-diversification/186412#1",
+   "date": "2026-09-19",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Shimla DC approves Rs 51.42 cr for horticulture development - The Tribune - Add Tribune As Your Trusted Source",
+   "url": "https://www.tribuneindia.com/news/himachal/shimla-dc-approves-51-42-cr-for-horticulture-development/amp/#1",
+   "date": "2026-01-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Nagarjuna Agri Tech Share Price, Stock Price, LIVE NSE/BSE - Groww - NAGTECH •BSE",
+   "url": "https://groww.in/stocks/nagarjuna-agri-tech-ltd#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Nagarjuna Agri-Tech Limited Reports Earnings Results for the First Quarter Ended June 30, 2026",
+   "url": "https://in.marketscreener.com/news/nagarjuna-agri-tech-limited-reports-earnings-results-for-the-first-quarter-ended-june-30-2026-ce7859dbdc89f527",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Pushpanjali Flo Consolidated March 2026 Net Sales at Rs 13.18 crore, up 40.95% Y-o-Y- Moneycontrol.com - Get Instant Loan",
+   "url": "https://www.moneycontrol.com/news/business/earnings/pushpanjali-flo-consolidated-march-2026-net-sales-at-rs-13-18-crore-up-40-95-y-o-y-13917569.html#1",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Nagarjuna Agri-Tech Limited",
+   "url": "https://www.perplexity.ai/app/finance/NAGTECH.BO?comparing=NAGTECH.BO%2CINDOUS.BO%2CBSHSL.NS%2CTIERRA.BO%2CAGRITECH.BO%2CNATHBIOGEN.BO&preset=peers&symbol=MSL.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA analyses the long period of past financial performance trends and estimates the future financial performance to assess the ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/919~Agrochemicals,%20Rating%20Methodology,%20Jun%202024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Apart from the capital structure, ICRA pays attention to the debt coverage indicators, including interest coverage, debt service...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=890#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CARE AA-    CRISIL AA-    [ICRA]AA-",
+   "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/banking-stability/basel-3/Banking_Capital_Amendment_Rules_2011.pdf#17#17#17",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Himachal Pradesh None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

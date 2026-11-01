@@ -1,0 +1,146 @@
+{
+ "key": "mn_imphal|horticulture",
+ "state": "MN",
+ "city": "mn_imphal",
+ "ind": "horticulture",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution — lend only to FPCs and registered flower growers with a demonstrated buyer and crop insurance; the data pack gives no score for Imphal horticulture, and the local news is worse than neutral.",
+ "title": "Imphal horticulture & floriculture: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Horticulture here is a working-capital business dressed as a farming business.** Growers put in seed, saplings, polyhouse or shade-net, water and labour, then wait for a harvest window; cash arrives in lumps at sale, not monthly. Floriculture is the sharper version: cut flowers and orchids are perishable, so the grower sells into a local market or loses the crop. **The value sits in the last mile — grading, cold storage, packaging and the buyer relationship — not in the field.** Manipur imports flowers worth around Rs 200 crore annually [3], which tells you the local demand is real and currently met from outside. **That import number is the growth map: every rupee of it displaced by a local grower is new revenue.**\n\n## What has changed now\n**Weather loss is the live risk, and the state is paying relief rather than insurers.** Relief went by Direct Benefit Transfer to 1,562 horticulture farmers whose fruits and vegetables were damaged by hailstorms and strong winds in March this year [1]. **Read that as: the crop can be wiped in a single event, and the compensation is described by the state itself as modest [1].** On the positive side, MOMA has pushed organic certification and exports, including to the UAE [1], and a Saturday Flower Market at Sanjenthong now gives growers a weekly selling platform, with cut-flower and loose-flower cultivation rising in Imphal East and Imphal West [3]. **So when a proposal lands, check whether the borrower sells through a registered outlet or a named buyer; if the answer is 'the local mandi, whoever comes', ask for the last three months of sale slips.**\n\n## Where to grow\n**Pursue Farmer Producer Companies and registered flower growers in Imphal East and Imphal West [3], and nursery or bonsai operators already selling at the Saturday market.** These have a visible channel and a collection point. **Avoid the pure open-field vegetable grower with no insurance and no buyer contract** — that is the borrower the March hailstorm hit [1]. The 39 MoUs signed at the North East Development Summit, including orchid and essential-oil production, are a pipeline signal, not yet a credit case [2].\n\n## How to grow safely\n**Structure against the harvest cycle, not the financial year.** Take a monthly stock-and-sale statement, a copy of the buyer's receipt or market slip, and proof of crop insurance each season. **Ask for the polyhouse or shade-net bill as evidence of capex actually done.** Peer results show why discipline matters: Pushpanjali Floriculture's March 2026 net sales rose 40.95% to Rs 13.18 crore but the quarter posted a net loss of Rs 2.15 crore [6] — **volume growth without margin is not repayment capacity.**\n\n## Early warning signs\n- **Relief or compensation appearing in the account (monthly)** — a hailstorm or wind payout [1] means crop loss; ask for a fresh cash-flow and defer the next instalment.\n- **Sale slips shifting from named buyers to cash mandi sales (monthly)** — pricing power is gone; cut limit.\n- **No crop-insurance premium paid by the season date (seasonal)** — the borrower is carrying the weather risk alone; hold new disbursement.\n- **Stock build-up without matching sales (monthly)** — perishables are ageing; inspect the cold store."
+ ],
+ "watch": [
+  [
+   "Monthly sale slips and buyer receipts",
+   "Named-buyer share falls below half of sales -> cut limit and ask for a buyer contract"
+  ],
+  [
+   "Relief/DBT credit in the account (event-based)",
+   "Any hailstorm or wind compensation credit [1] -> redo cash flow, defer instalment"
+  ],
+  [
+   "Crop-insurance premium (seasonal)",
+   "No premium paid by season date -> hold fresh disbursement"
+  ],
+  [
+   "Stock and cold-store position (monthly)",
+   "Stock rising while sales flat -> physical inspection before next drawdown"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Hailstorm relief to 1,562 farmers shows uninsured crop loss; no local credit data.",
+ "articles": [
+  {
+   "title": "MOMA marks 10 years; relief released to 1,562 fanners hit by hailstorm, strong winds : 16th may26",
+   "url": "https://e-pao.net/GP.asp?src=20..160526.may26",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Manipur Government inks 39 MoUs during North East Development Summit - Monday, October 26, 2026 | 12:46 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/multimedia/video-gallery/general/manipur-government-inks-39-mous-during-north-east-development-summit-55807.htm#1",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Saturday Flower Market now adorns Imphal : 18th oct26",
+   "url": "https://e-pao.net/GP.asp?src=5..181026.oct26",
+   "date": "2026-10-17",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Nagarjuna Agri Tech Share Price, Stock Price, LIVE NSE/BSE - Groww - NAGTECH •BSE",
+   "url": "https://groww.in/stocks/nagarjuna-agri-tech-ltd#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Nagarjuna Agri-Tech Limited Reports Earnings Results for the First Quarter Ended June 30, 2026",
+   "url": "https://in.marketscreener.com/news/nagarjuna-agri-tech-limited-reports-earnings-results-for-the-first-quarter-ended-june-30-2026-ce7859dbdc89f527",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Pushpanjali Flo Consolidated March 2026 Net Sales at Rs 13.18 crore, up 40.95% Y-o-Y- Moneycontrol.com - Get Instant Loan",
+   "url": "https://www.moneycontrol.com/news/business/earnings/pushpanjali-flo-consolidated-march-2026-net-sales-at-rs-13-18-crore-up-40-95-y-o-y-13917569.html#1",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Nagarjuna Agri-Tech Limited",
+   "url": "https://www.perplexity.ai/app/finance/NAGTECH.BO?comparing=NAGTECH.BO%2CINDOUS.BO%2CBSHSL.NS%2CTIERRA.BO%2CAGRITECH.BO%2CNATHBIOGEN.BO&preset=peers&symbol=MSL.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA analyses the long period of past financial performance trends and estimates the future financial performance to assess the ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/919~Agrochemicals,%20Rating%20Methodology,%20Jun%202024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Apart from the capital structure, ICRA pays attention to the debt coverage indicators, including interest coverage, debt service...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=890#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CARE AA-    CRISIL AA-    [ICRA]AA-",
+   "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/banking-stability/basel-3/Banking_Capital_Amendment_Rules_2011.pdf#17#17#17",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Manipur None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

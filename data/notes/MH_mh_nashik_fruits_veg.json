@@ -1,0 +1,158 @@
+{
+ "key": "mh_nashik|fruits_veg",
+ "state": "MH",
+ "city": "mh_nashik",
+ "ind": "fruits_veg",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 44,
+ "nudged_by_news": false,
+ "verdict": "Avoid new fruit and vegetable processing exposure in Nashik for now; lend only to frozen and snack processors with contracted volumes and tight monthly stock reporting, and decline pulp and export-led units.",
+ "title": "Nashik Fruit & Vegetable Processing: a note to the credit manager",
+ "narrative": [
+  "Collect from customer: peak inventory days, buyer credit terms, and share of revenue from exports. **Pricing power is thin because raw material is the largest cost line and moves with weather** [9]; a processor who cannot pass fruit price through absorbs it in margin.",
+  "## What has changed now\n**The data call is Avoid at 44, and the news flow is worse, so the call stays Avoid.** India-wide exports are down 9.6% Apr-to-date in USD [D], and the peer set confirms the pain: Foods & Inns Q4 FY26 profit fell 16% on lower volumes, with realisations down 25.3% [4]. **Maharashtra electricity demand grew 6.0% Apr-to-date against India's 9.5%, a local stress signal** [D], even as state GST collections grew 8.6% against India's 6.1% [D]. Locally, unseasonal rains have hit crops around Jalgav and lemon growers are waiting on compensation [2]; that is a raw-material supply and quality risk, not a demand story. **Bank credit is growing 26.3% YoY against output of 5.1%** [D], so the system is lending faster than the real economy is producing; do not add to that gap in this sector.",
+  "## Where the growth is\n**The one clear positive is the ₹124 crore Prime Fresh project in Nashik, part of the 12 national horticulture clusters launched in October 2026** [3]. That is a capex and anchor-buyer signal, not yet a lending signal. **Pursue frozen and snack processors with domestic quick-service and retail contracts**; the peer's frozen food volume grew about 39% YoY in Q2 FY26 [6] and snacks and pulp are described as showing tremendous growth [7]. **Avoid pulp-only exporters and gherkin units exposed to a single season** [8], and avoid any unit whose sales ledger is dominated by one overseas buyer.",
+  "## How to grow safely\n**Structure against the season, not the balance sheet.** Size the limit to one harvest cycle, take the stock and receivables of named buyers as primary security, and keep a cash-flow cover covenant. **Take monthly stock-and-receivable statements, buyer-wise sales, and a quarterly drawing-power certificate**; if stock days exceed the agreed cap, ask for the buyer contract and the ageing. **When a proposal lands, check the export share and the realisation trend first; if realisations are falling while volumes rise, ask for the price list and the buyer-wise margin.**",
+  "## Early-warning signs\n**Watch for inventory building while sales stay flat, receivables ageing past 90 days, and a shift from domestic to export buyers.** If a unit's electricity consumption falls while its stock rises, ask for the production log. **If the promoter brings in a new lender or the stock statement stops arriving, treat it as a signal to reduce exposure.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Stock days above agreed cap for two months -> ask for buyer contracts and ageing, freeze further drawing"
+  ],
+  [
+   "Quarterly buyer-wise sales and export share",
+   "Export share rising above agreed level -> reprice or reduce limit"
+  ],
+  [
+   "Monthly electricity and production log",
+   "Power use falling while stock rises -> site visit and production log review"
+  ],
+  [
+   "Quarterly realisation trend",
+   "Realisations falling with flat volumes -> ask for price list and margin by buyer"
+  ],
+  [
+   "Monthly GST and bank statement",
+   "GST turnover below bank credits for two months -> escalate and review limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Export decline, peer profit fall and local crop losses outweigh the Nashik cluster investment.",
+ "articles": [
+  {
+   "title": "A New Chapter Of Agricultural Revolution Begins In Nashik. - TRIPURA STAR NEWS",
+   "url": "https://www.tripurastarnews.com/a-new-chapter-of-agricultural-revolution-begins-in-nashik/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "लिंबू उत्पादक मदतीच्या प्रतिक्षेत",
+   "url": "https://www.esakal.com/uttar-maharashtra/nashik/jalgav-farmers-help-needed",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "PM Modi Launches 12 Horticulture Clusters Nationwide, Prime Fresh To Invest ₹124 Crore In Nashik Project",
+   "url": "https://www.freepressjournal.in/business/pm-modi-launches-12-horticulture-clusters-nationwide-prime-fresh-to-invest-124-crore-in-nashik-project",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q4 profits decline 16% on account of lower sales volumes - Hello Entrepreneurs",
+   "url": "https://helloentrepreneurs.com/business/foods-inns-ltd-q4-profits-decline-16-on-account-of-lower-sales-volumes-86606/",
+   "date": "2026-06-01",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q4 FY26 Earnings Call Analysis: Revenue, Margin, Capex Outlook | Arthneeti",
+   "url": "https://www.arthneeti.com/stocks/foods-inns/concall/q3-fy26-earnings-call-analysis",
+   "date": "2026-01-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ... By GuruFocus - Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ...",
+   "url": "https://ca.investing.com/news/company-news/foods--inns-ltd-bom507552-q2-2026-earnings-call-highlights-strong-frozen-food-growth--4337253#1",
+   "date": "2025-11-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q1 FY27 Earnings Call Summary",
+   "url": "https://www.investorstack.in/earnings-calls/foodsin",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 26, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=145235#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "May 27,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=143259&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- Growth in revenue by 15-20% along with a steady operating margin, leading to higher-than-expected cash accrual",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Nufarm%20Frozens%20Private%20Limited-RU-24-03-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 44 (national 40 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: electricity demand +6.0% Apr-to-date vs India +9.5% (3.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Exports -9.6% Apr-to-date in USD (Rs 16,044 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

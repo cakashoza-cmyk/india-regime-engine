@@ -1,0 +1,150 @@
+{
+ "key": "nl_dimapur|horticulture",
+ "state": "NL",
+ "city": "nl_dimapur",
+ "ind": "horticulture",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution — lend only to protected-cultivation flower and seedling growers with verified buyer tie-ups and monthly cash sweeps; the data pack score is unavailable, so no proposal clears the 65 bar on data alone.",
+ "title": "Dimapur horticulture & floriculture: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**This is a living-asset business: cuttings and seedlings go into protected or open beds, and cash comes back only when a stem or seedling is sold within days of harvest.** Orchids, gerbera and carnation have been grown successfully in Nagaland, and the district administration and Central Institute of Horticulture, Medziphema have pushed protected and open cultivation with market linkages [1]. A hi-tech vegetable seedlings unit already sits at the State Horticulture Nursery, Dimapur [2]. **The value sits in the last mile — grading, cold chain and the buyer — not in the field.** Post-harvest handling of flowers and losses of horticultural produce were the core training topics at SAMETI, Medziphema [3].\n\n## Where cash and risk sit\n**Working capital is short and brutal: flowers are perishable, so a missed sale is a write-off, not inventory.** The Horticulture Commissioner flagged the need for flower-drying technology, which tells you spoilage is the live problem [1]. **Capex is polyhouse and nursery structure — long-lived, loan-funded, and only worth it if the buyer contract outlives the loan.** Note the age of our local file: the training report is dated July 2020 and the seedlings unit January 2018 [1][2], so treat both as background, not current market evidence. **Dimapur-specific price, yield and buyer data is thin — collect from customer.**\n\n## What peers say\n**Peer results are split, and that is the real signal.** Pushpanjali Floriculture grew March 2026 net sales to Rs 13.18 crore, up 40.95% from Rs 9.35 crore, yet posted a quarterly net loss of Rs 2.15 crore and negative EBITDA of Rs 0.24 crore [6]. Nagarjuna Agri-Tech's June 2026 quarter shows sales of INR 321.81 million against INR 15.31 million a year ago [5], with margin slippage as interest and depreciation rose [7]. **Volume growth without margin is the pattern — so when a proposal lands, check EBITDA margin and interest cover, not turnover; if sales are growing but EBITDA is negative, ask what the price realisation per stem actually is.**\n\n## Who to pursue now\n**Pursue the seedling and planting-material producer first** — it sells a repeat input to other growers, has a shorter cash cycle than cut flowers, and the Dimapur nursery precedent exists [2]. **Second, protected-cultivation flower growers with a written buyer tie-up**, since the district machinery has explicitly backed protected cultivation with market linkages [1]. **Avoid open-field cut-flower growers selling into spot markets and anyone without a cold-chain or drying plan** — spoilage risk sits entirely on us [1][3].\n\n## How to grow safely\n**Structure against the crop cycle, not the loan tenor.** Take monthly stock-and-sales statements, and a monthly sweep of sale proceeds through the account. **Take a charge on the polyhouse and a post-dated cheque for each harvest season; if receivables age past one cycle, ask for the buyer's payment record.** Insist on crop insurance and a named buyer before disbursal.\n\n## Early warning signs\n- **Spoilage or rejection reported at the buyer end** — pull the limit and re-assess within the month.\n- **Sales up but EBITDA negative, as in the peer case [6]** — stop fresh disbursal and ask for cost breakup.\n- **No buyer contract renewal on file** — treat as unsecured and reduce exposure."
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-sales statement (monthly)",
+   "Spoilage or rejection above normal -> freeze limit and inspect the packhouse"
+  ],
+  [
+   "Bank statement sale-proceeds sweep (monthly)",
+   "Proceeds routed outside the account -> ask for buyer payment proof and re-rate"
+  ],
+  [
+   "EBITDA and interest cover from quarterly returns (quarterly)",
+   "Sales up but EBITDA negative -> stop fresh disbursal, seek cost breakup"
+  ],
+  [
+   "Buyer contract and renewal status (quarterly)",
+   "No renewal on file -> treat exposure as unsecured and reduce"
+  ],
+  [
+   "Crop insurance and polyhouse charge (annual)",
+   "Lapse or charge not perfected -> withhold next tranche"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Local reports are old training and nursery items; peer results show growth with weak margins.",
+ "articles": [
+  {
+   "title": "Online training promotes flower growers in Nagaland - .\n\n# Online training promotes flower growers in Nagaland\n\nDimapur, July 27 (MExN): Considering the immense potential to promote",
+   "url": "https://morungexpress.com/online-training-promotes-flower-growers-in-nagaland#1",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Hi-Tech Vegetable Seedlings Production Unit at Dimapur",
+   "url": "https://morungexpress.com/hi-tech-vegetable-seedlings-production-unit-dimapur",
+   "date": "2026-10-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "SAMETI trains ATMA officials on preserving surplus crops - .\n\n# SAMETI trains ATMA officials on preserving surplus crops\n\nDimapur, November 12 (MExN): State Agricultural Management and Ex",
+   "url": "https://morungexpress.com/sameti-trains-atma-officials-preserving-surplus-crops#1",
+   "date": "2026-10-08",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Nagarjuna Agri Tech Share Price, Stock Price, LIVE NSE/BSE - Groww - NAGTECH •BSE",
+   "url": "https://groww.in/stocks/nagarjuna-agri-tech-ltd#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Nagarjuna Agri-Tech Limited Reports Earnings Results for the First Quarter Ended June 30, 2026",
+   "url": "https://in.marketscreener.com/news/nagarjuna-agri-tech-limited-reports-earnings-results-for-the-first-quarter-ended-june-30-2026-ce7859dbdc89f527",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Pushpanjali Flo Consolidated March 2026 Net Sales at Rs 13.18 crore, up 40.95% Y-o-Y- Moneycontrol.com - Get Instant Loan",
+   "url": "https://www.moneycontrol.com/news/business/earnings/pushpanjali-flo-consolidated-march-2026-net-sales-at-rs-13-18-crore-up-40-95-y-o-y-13917569.html#1",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Nagarjuna Agri-Tech Limited",
+   "url": "https://www.perplexity.ai/app/finance/NAGTECH.BO?comparing=NAGTECH.BO%2CINDOUS.BO%2CBSHSL.NS%2CTIERRA.BO%2CAGRITECH.BO%2CNATHBIOGEN.BO&preset=peers&symbol=MSL.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA analyses the long period of past financial performance trends and estimates the future financial performance to assess the ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/919~Agrochemicals,%20Rating%20Methodology,%20Jun%202024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Apart from the capital structure, ICRA pays attention to the debt coverage indicators, including interest coverage, debt service...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=890#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CARE AA-    CRISIL AA-    [ICRA]AA-",
+   "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/banking-stability/basel-3/Banking_Capital_Amendment_Rules_2011.pdf#17#17#17",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Nagaland None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

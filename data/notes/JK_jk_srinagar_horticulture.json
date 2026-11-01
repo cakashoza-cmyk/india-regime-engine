@@ -1,0 +1,150 @@
+{
+ "key": "jk_srinagar|horticulture",
+ "state": "JK",
+ "city": "jk_srinagar",
+ "ind": "horticulture",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution — lend selectively to cold-chain and processing units with verified receivables; avoid pure orchard-level and floriculture exposure until price and incentive data are in hand.",
+ "title": "Srinagar horticulture & floriculture: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**This is a harvest-to-cash business, not a manufacturing one: apples and flowers are picked in a short window, then either sold at once or held in cold storage against a later price.** Cash leaves the borrower at harvest (labour, packing, freight) and comes back only when the crop is sold — so the working-capital cycle is the whole credit story. Cost is dominated by picking, carting and storage rent; pricing power sits with the buyer, not the grower. **So when a proposal lands, check the borrower's own harvest-to-sale calendar and the share of crop that goes into storage versus spot sale; if the storage share is high, ask what price they are betting on and who has agreed to buy.**",
+  "## What has changed now\n**Cold stores in Kashmir are filling up because growers are holding stock hoping for better prices [1] — that is a price bet funded by storage rent, and it lengthens the cash cycle.** Separately, 43 industrial incentive cases worth about ₹1,800 crore are pending with the government, and the association has taken this to the LG [2]. **So when a proposal lands, check whether the borrower's cash flow depends on a pending incentive claim; if it does, ask for the claim status and treat that receivable as collect-from-customer until disbursed.** On the positive side, Northern Railway is offering a 50% concession on round-trip fares for fruit consignments [3] — that lowers outbound freight cost for traders who rail their crop.",
+  "## Where the growth is\n**Pursue cold-chain operators, packhouses and fruit traders who move volume by rail, and processing units with a real offtake contract.** The rail concession [3] and the cold-store build-out [1] both point to organised storage and logistics as the segment where cash is most visible. **Avoid pure orchard-level lending and floriculture until you have price data — the listed floriculture peer shows sales up 40.95% to ₹13.18 crore in March 2026 but a net loss of ₹2.15 crore and negative EBITDA of ₹0.24 crore [6], so revenue growth alone is not repayment capacity.** Note the peer is a national listed company, not a Srinagar unit; local floriculture data is thin and must be collected from customer.",
+  "## How to grow safely\n**Structure against the crop, not the balance sheet: sanction limits tied to storage receipts and rail consignments, with a monthly stock-and-receipt statement as the drawing condition.** Take every month: cold-store rent receipts, rail booking confirmations, and a stock statement reconciled to the godown. **If the borrower cannot produce storage receipts, ask for the godown's own issue register.** Keep tenors inside one storage season and avoid bullet repayment against a hoped-for price.",
+  "## Early-warning signs\n**Watch for stock sitting past the normal sale window, rent arrears at the cold store, and any proposal that leans on the pending ₹1,800 crore incentive pool [2] for repayment.** If rail bookings stop while storage rent keeps accruing, ask why the crop is not moving. **If the borrower's sale price falls below the storage-plus-freight cost, treat it as a stress signal and re-size the limit.**"
+ ],
+ "watch": [
+  [
+   "Cold-store occupancy and rent receipts (monthly)",
+   "Stock held past normal sale window -> ask for sale plan and re-size limit"
+  ],
+  [
+   "Rail consignment bookings (monthly)",
+   "Bookings stop while rent accrues -> ask why crop is not moving; treat as stress"
+  ],
+  [
+   "Incentive claim status (quarterly)",
+   "Claim still pending -> exclude from cash flow; collect from customer"
+  ],
+  [
+   "Realised sale price vs storage plus freight cost (monthly)",
+   "Price below cost -> re-size limit and review tenor"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Cold stores filling on a price bet and ₹1,800 crore of incentives stuck lengthen the cash cycle.",
+ "articles": [
+  {
+   "title": "Kashmir’s cold storages fill up as apple growers bet on better prices | The Kashmir Glory",
+   "url": "https://thekashmirglory.com/kashmirs-cold-storages-fill-up-as-apple-growers-bet-on-better-prices/#comments",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "PICCA President Bashir Naik raises ₹1,800 crore investment issue with LG, seeks clearance of 43 cases",
+   "url": "https://ziraattimes.com/2026/10/picca-president-bashir-naik-raises-%e2%82%b91800-crore-investment-issue-with-lg-seeks-clearance-of-43-cases/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Srinagar News: कश्मीरी सेब कारोबारियों को उत्तर रेलवे की सौगात, राउंड-ट्रिप पर 50% छूट के साथ ट्रेन से भेजी जाएगी फल की खेप",
+   "url": "https://www.amarujala.com/jammu-and-kashmir/srinagar/srinagar-apple-farming-northern-railway-gave-facility-round-trip-50-concession-on-fare-srinagar-news-c-10-1-jam1027-1051224-2026-10-30",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Nagarjuna Agri Tech Share Price, Stock Price, LIVE NSE/BSE - Groww - NAGTECH •BSE",
+   "url": "https://groww.in/stocks/nagarjuna-agri-tech-ltd#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Nagarjuna Agri-Tech Limited Reports Earnings Results for the First Quarter Ended June 30, 2026",
+   "url": "https://in.marketscreener.com/news/nagarjuna-agri-tech-limited-reports-earnings-results-for-the-first-quarter-ended-june-30-2026-ce7859dbdc89f527",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Pushpanjali Flo Consolidated March 2026 Net Sales at Rs 13.18 crore, up 40.95% Y-o-Y- Moneycontrol.com - Get Instant Loan",
+   "url": "https://www.moneycontrol.com/news/business/earnings/pushpanjali-flo-consolidated-march-2026-net-sales-at-rs-13-18-crore-up-40-95-y-o-y-13917569.html#1",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Nagarjuna Agri-Tech Limited",
+   "url": "https://www.perplexity.ai/app/finance/NAGTECH.BO?comparing=NAGTECH.BO%2CINDOUS.BO%2CBSHSL.NS%2CTIERRA.BO%2CAGRITECH.BO%2CNATHBIOGEN.BO&preset=peers&symbol=MSL.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA analyses the long period of past financial performance trends and estimates the future financial performance to assess the ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/919~Agrochemicals,%20Rating%20Methodology,%20Jun%202024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Apart from the capital structure, ICRA pays attention to the debt coverage indicators, including interest coverage, debt service...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=890#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CARE AA-    CRISIL AA-    [ICRA]AA-",
+   "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/banking-stability/basel-3/Banking_Capital_Amendment_Rules_2011.pdf#17#17#17",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Jammu and Kashmir None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

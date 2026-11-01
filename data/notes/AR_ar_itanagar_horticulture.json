@@ -1,0 +1,146 @@
+{
+ "key": "ar_itanagar|horticulture",
+ "state": "AR",
+ "city": "ar_itanagar",
+ "ind": "horticulture",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively to Itanagar horticulture and floriculture only where the borrower has a confirmed buyer, a working cold chain and a repayment schedule matched to harvest cash; the data pack gives no score, so treat this as a first-principles call, not a green light.",
+ "title": "Itanagar horticulture & floriculture: a note to the credit manager",
+ "narrative": [
+  "## What the business actually is\n**This is a harvest-to-cash business, not a farm-asset business.** A grower puts in planting material, labour and orchard upkeep for years, then sells a perishable crop in a short window; kiwi from Itanagar has now gone as a trial shipment to Dubai, showcased at LuLu Hypermarket in Al Qusais [1], and a first cut-flower consignment went to Guwahati with farmers earning Rs 1L [3]. **Cash sits in the dispatch window, not in the field** — so when a proposal lands, check the buyer, the dispatch month and who bears transit loss before you look at the land.\n\n## Where value and cash sit\n**Pricing power is thin and freight-heavy.** The kiwi line is described as a maiden trial shipment [1] and the flower line as a first consignment [3]; neither is a repeat contract yet. **Working capital is the real exposure:** packing, grading and cold movement are paid before the buyer pays. Capex is modest — packhouses, grading sheds, basic cold storage — and should be the only thing we fund as term debt. **Ask for the buyer's name, the per-kg realisation and the payment terms; collect from customer where the proposal is silent.**\n\n## What has changed now\n**The change is market access, not yield.** State departments, APEDA and the Kiwi Growers Cooperative Society drove the Dubai trial [1], and the government is pushing data-driven agri projects through NERAMAC [2]. **Peer results are mixed and should not be read as a sector signal:** Pushpanjali Floriculture's March 2026 net sales rose 40.95% to Rs 13.18 crore but it posted a net loss of Rs 2.15 crore with EBITDA negative at Rs 0.24 crore [6]; Nagarjuna Agri-Tech's June 2026 quarter sales were INR 321.81 million against INR 15.31 million a year ago [5], with erratic profit [7]. **Sources say little about Itanagar specifically** — the local items are single consignments, so lean on first principles and these peers.\n\n## Who to pursue, who to avoid\n**Pursue the aggregator, not the individual smallholder:** cooperative-linked kiwi growers with a named export buyer [1], cut-flower growers selling into Guwahati with repeat dispatches [3], and packhouse or grading units serving them. **Avoid single-season, single-buyer growers** and anyone whose only evidence is a trial shipment [1]. **Take a charge on receivables and a second charge on the orchard or shed; size the limit to one dispatch cycle, not one year.**\n\n## What to take every month and what to watch\n**Monthly: dispatch invoices, buyer payment receipts, cold-storage bills and a stock-and-mortality statement.** If receipts lag invoices by more than one cycle, stop fresh disbursement and ask for the buyer's confirmation. **If a second consignment does not follow the first [1][3], treat the line as unproven and shift to cash-backed limits.**"
+ ],
+ "watch": [
+  [
+   "Dispatch and payment receipts (monthly)",
+   "receipts lag invoices by one cycle -> stop fresh disbursement, seek buyer confirmation"
+  ],
+  [
+   "Repeat consignment evidence (quarterly)",
+   "no second shipment after the trial [1][3] -> downgrade to cash-backed limit"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "single buyer above half of sales -> ask for a second buyer or reduce limit"
+  ],
+  [
+   "Cold-chain and transit loss (monthly)",
+   "losses rise on the Dubai or Guwahati route -> reprice or exit the line"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Two first-time consignments open market access but prove no repeat demand yet.",
+ "articles": [
+  {
+   "title": "Arunachal kiwi reaches Dubai market, opens export avenues for growers - Arun Khabar",
+   "url": "https://arunkhabar.in/arunachal-kiwi-reaches-dubai-market-opens-export-avenues-for-growers/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Arunachal minister urges data-driven projects as NERAMAC presents agri proposals",
+   "url": "http://dev.uniindia.com/arunachal-minister-urges-data-driven-projects-as-neramac-presents-agri-proposals/east/news/3875751.html",
+   "date": "2026-06-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Arunachal flags first cut-flower consignment to Guwahati, farmers earn Rs 1L",
+   "url": "https://assamtribune.com/amp/north-east/arunachal-flags-first-cut-flower-consignment-to-guwahati-farmers-earn-rs-1l-1604373",
+   "date": "2026-01-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Nagarjuna Agri Tech Share Price, Stock Price, LIVE NSE/BSE - Groww - NAGTECH •BSE",
+   "url": "https://groww.in/stocks/nagarjuna-agri-tech-ltd#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Nagarjuna Agri-Tech Limited Reports Earnings Results for the First Quarter Ended June 30, 2026",
+   "url": "https://in.marketscreener.com/news/nagarjuna-agri-tech-limited-reports-earnings-results-for-the-first-quarter-ended-june-30-2026-ce7859dbdc89f527",
+   "date": "2026-08-10",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Pushpanjali Flo Consolidated March 2026 Net Sales at Rs 13.18 crore, up 40.95% Y-o-Y- Moneycontrol.com - Get Instant Loan",
+   "url": "https://www.moneycontrol.com/news/business/earnings/pushpanjali-flo-consolidated-march-2026-net-sales-at-rs-13-18-crore-up-40-95-y-o-y-13917569.html#1",
+   "date": "2026-05-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Nagarjuna Agri-Tech Limited",
+   "url": "https://www.perplexity.ai/app/finance/NAGTECH.BO?comparing=NAGTECH.BO%2CINDOUS.BO%2CBSHSL.NS%2CTIERRA.BO%2CAGRITECH.BO%2CNATHBIOGEN.BO&preset=peers&symbol=MSL.BO",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA analyses the long period of past financial performance trends and estimates the future financial performance to assess the ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/919~Agrochemicals,%20Rating%20Methodology,%20Jun%202024.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Apart from the capital structure, ICRA pays attention to the debt coverage indicators, including interest coverage, debt service...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport?id=890#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "CARE AA-    CRISIL AA-    [ICRA]AA-",
+   "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/banking-stability/basel-3/Banking_Capital_Amendment_Rules_2011.pdf#17#17#17",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Arunachal Pradesh None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

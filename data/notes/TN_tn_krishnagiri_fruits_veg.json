@@ -1,0 +1,154 @@
+{
+ "key": "tn_krishnagiri|fruits_veg",
+ "state": "TN",
+ "city": "tn_krishnagiri",
+ "ind": "fruits_veg",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 34,
+ "nudged_by_news": false,
+ "verdict": "Avoid new unsecured or greenfield exposure in Krishnagiri fruit and vegetable processing; lend only to established pulp/frozen processors with contracted offtake, and then on tight working-capital structure.",
+ "title": "Krishnagiri Fruit & Vegetable Processing: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nKrishnagiri and Dharmapuri cultivate mangoes across 51,000 hectares, and 24 mango pulp industries sit in Krishnagiri alone [3]. The unit buys seasonal fruit at harvest, crushes it into pulp or freezes it, stores it in cold rooms, and sells to beverage, dairy and export buyers across the year. **Cash is made in the crush season and consumed in the eleven months after it** — so the loan is really financing inventory, not a factory. Raw material is the largest cost line and moves with the crop [9]; the ICRA note on a gherkin processor makes the same point — yield and price swing with weather and hit margin directly [8].\n\n## Where value and cash sit now\nPricing power is thin and realisation-led. The listed peer Foods & Inns saw Q4 profit fall 16% to ₹19 crore even as margin improved to 6.6% from 5.8%, with realisations down 25.3% on Middle East disruption to cash flows [4]. **Volume growth is not the same as cash growth here.** India-wide exports are down 9.6% Apr-to-date in USD [D], so the export leg of pulp demand is soft; when a proposal leans on export realisations, ask for the buyer-wise contract and the last twelve months' actual realisation per tonne — collect from customer.\n\n## The local picture and the growth opening\nTamil Nadu GST collections are -3.2% Apr-to-date against India +6.1%, a 9.3 pp gap [D] — the local trade is billing less. Against that, the state has proposed five integrated mango processing parks with cold storage and pulp units in Dharmapuri-Krishnagiri [1][2], and farmers have welcomed a value-addition centre [3]. **That is a proposal, not a built asset — treat it as a pipeline signal, not collateral.** The peer's frozen segment grew about 39% YoY in Q2 FY26 [6] and snacks and pulp are showing strong growth with capacity expansion underway [7]. So pursue established frozen and ethnic-snack processors and pulp units with domestic beverage buyers; avoid new entrants waiting on the park, and avoid pure export pulp traders.\n\n## How to grow safely\nStructure against the season: cash credit sized to peak inventory, repaid at the tail of the crush, not a term loan for a shed. **Take stock and receivables statements every month, and insurance on inventory as a condition.** Where the park is cited as the plan, ask for the allotment letter and the promoter's own equity before sanctioning anything. Bank credit is running +26.3% YoY against output +5.1% [D]; the system is lending ahead of production, so our exposure must be earned by the borrower's own cash cycle.\n\n## Early warning signs\n- Monthly stock statement showing inventory ageing past the normal sale window (monthly) -> stop fresh drawdown and inspect cold storage.\n- Realisation per tonne falling two quarters running (quarterly) -> reprice limit to actual cash cycle.\n- GST returns showing billing below the sanctioned turnover estimate (monthly) -> ask for buyer-wise sales register.\n- Any single buyer crossing a third of sales (quarterly) -> seek assignment of receivables or reduce limit."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivables statement (monthly)",
+   "Inventory ageing beyond normal sale window -> freeze drawdown, physical inspection"
+  ],
+  [
+   "GST returns vs sanction estimate (monthly)",
+   "Billing below estimate for two months -> ask for buyer-wise sales register"
+  ],
+  [
+   "Realisation per tonne (quarterly)",
+   "Two consecutive quarterly falls -> resize limit to actual cash cycle"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "Single buyer above a third of sales -> seek receivables assignment or cut limit"
+  ],
+  [
+   "Park allotment and promoter equity (on proposal)",
+   "No allotment letter or thin equity -> decline the greenfield request"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "TN GST -3.2% vs India +6.1% and exports -9.6% Apr-to-date weaken local offtake.",
+ "articles": [
+  {
+   "title": "तमिलनाडु में धर्मपुरी‑कृष्णागिरी को आम औद्योगिक कॉरिडोर बनाते हुए पाँच प्रसंस्करण पार्क प्रस्तावित",
+   "url": "https://lokshakti.in/india/tamil-nadu-dharmapuri-krishnagiri-mango-corridor",
+   "date": "2026-08-04",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "TN plans mango industrial corridor in Dharmapuri-Krishnagiri; 5 processing parks proposed - www.lokmattimes.com - TN plans mango industrial corridor in Dharmapuri-Krishnagiri; 5 processing parks proposed",
+   "url": "https://www.lokmattimes.com/national/tn-plans-mango-industrial-corridor-in-dharmapuri-krishnagiri-5-processing-parks-proposed/#1",
+   "date": "2026-08-04",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "TN farmers welcome plan to set up value addition centre for mangoes - Tamil Nadu",
+   "url": "https://www.newindianexpress.com/states/tamil-nadu/2026/Aug/04/tn-farmers-welcome-plan-to-set-up-value-addition-centre-for-mangoes#1",
+   "date": "2026-08-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q4 profits decline 16% on account of lower sales volumes - Hello Entrepreneurs",
+   "url": "https://helloentrepreneurs.com/business/foods-inns-ltd-q4-profits-decline-16-on-account-of-lower-sales-volumes-86606/",
+   "date": "2026-06-01",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q4 FY26 Earnings Call Analysis: Revenue, Margin, Capex Outlook | Arthneeti",
+   "url": "https://www.arthneeti.com/stocks/foods-inns/concall/q3-fy26-earnings-call-analysis",
+   "date": "2026-01-31",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ... By GuruFocus - Foods & Inns Ltd (BOM:507552) Q2 2026 Earnings Call Highlights: Strong Frozen Food Growth ...",
+   "url": "https://ca.investing.com/news/company-news/foods--inns-ltd-bom507552-q2-2026-earnings-call-highlights-strong-frozen-food-growth--4337253#1",
+   "date": "2025-11-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Foods & Inns Ltd Q1 FY27 Earnings Call Summary",
+   "url": "https://www.investorstack.in/earnings-calls/foodsin",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "August 26, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=145235#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "May 27,2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?Id=143259&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- Growth in revenue by 15-20% along with a steady operating margin, leading to higher-than-expected cash accrual",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Nufarm%20Frozens%20Private%20Limited-RU-24-03-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 34 (national 40 x 0.6 + Tamil Nadu 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Tamil Nadu: GST collections -3.2% Apr-to-date vs India +6.1% (9.3 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Exports -9.6% Apr-to-date in USD (Rs 16,044 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
