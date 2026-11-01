@@ -103,7 +103,7 @@
   }
  },
  "exports_qe": {
-  "checked_ist": "2026-11-01 15:02",
+  "checked_ist": "2026-11-01 16:03",
   "discovered_by": "commerce_pattern",
   "first_seen": "2026-11-01",
   "payload": {
@@ -540,7 +540,7 @@
   }
  },
  "gst_state": {
-  "checked_ist": "2026-11-01 15:02",
+  "checked_ist": "2026-11-01 16:04",
   "discovered_by": "gstn_pattern",
   "first_seen": "2026-11-01",
   "payload": {
@@ -897,221 +897,221 @@
   "url": "https://tutorial.gst.gov.in/downloads/news/final_gst_revenue_report_for_publishing_monthly_sep_2026.pdf"
  },
  "iip_nic2": {
-  "checked_ist": "2026-11-01 15:02",
-  "discovered_by": "last_known",
+  "checked_ist": "2026-11-01 16:03",
+  "discovered_by": "deepseek_site_search",
   "first_seen": "2026-11-01",
   "payload": {
    "rows": {
     "10": {
      "check_ok": true,
-     "fytd_pct": 5.4,
-     "index": 105.1,
-     "index_yago": 97.5,
+     "fytd_pct": 5.1,
+     "index": 104.5,
+     "index_yago": 101.7,
      "name": "Manufacture of food products",
      "weight": 5.679,
-     "yoy_pct": 7.8
+     "yoy_pct": 2.8
     },
     "11": {
      "check_ok": true,
-     "fytd_pct": 12.7,
-     "index": 128.8,
-     "index_yago": 92.4,
+     "fytd_pct": 8.4,
+     "index": 120.5,
+     "index_yago": 101.9,
      "name": "Manufacture of beverages",
      "weight": 1.113,
-     "yoy_pct": 39.4
+     "yoy_pct": 18.3
     },
     "12": {
      "check_ok": true,
-     "fytd_pct": -3.3,
-     "index": 119.1,
-     "index_yago": 116.1,
+     "fytd_pct": -4.4,
+     "index": 118.0,
+     "index_yago": 128.2,
      "name": "Manufacture of tobacco products",
      "weight": 0.774,
-     "yoy_pct": 2.6
+     "yoy_pct": -8.0
     },
     "13": {
      "check_ok": true,
-     "fytd_pct": 12.9,
-     "index": 145.2,
-     "index_yago": 123.7,
+     "fytd_pct": 11.9,
+     "index": 136.9,
+     "index_yago": 121.0,
      "name": "Manufacture of textiles",
      "weight": 3.275,
-     "yoy_pct": 17.4
+     "yoy_pct": 13.1
     },
     "14": {
      "check_ok": true,
      "fytd_pct": -5.6,
-     "index": 89.1,
-     "index_yago": 94.0,
+     "index": 89.0,
+     "index_yago": 96.1,
      "name": "Manufacture of wearing apparel",
      "weight": 1.97,
-     "yoy_pct": -5.2
+     "yoy_pct": -7.4
     },
     "15": {
      "check_ok": true,
-     "fytd_pct": 2.5,
-     "index": 102.7,
-     "index_yago": 98.3,
+     "fytd_pct": 2.4,
+     "index": 109.7,
+     "index_yago": 101.5,
      "name": "Manufacture of leather and related products",
      "weight": 0.607,
-     "yoy_pct": 4.5
+     "yoy_pct": 8.1
     },
     "16": {
      "check_ok": true,
-     "fytd_pct": -2.6,
-     "index": 104.3,
-     "index_yago": 116.6,
+     "fytd_pct": -0.8,
+     "index": 112.2,
+     "index_yago": 103.3,
      "name": "Manufacture of wood and products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
      "weight": 0.239,
-     "yoy_pct": -10.5
+     "yoy_pct": 8.6
     },
     "17": {
      "check_ok": true,
-     "fytd_pct": 7.7,
-     "index": 110.2,
-     "index_yago": 107.1,
+     "fytd_pct": 8.6,
+     "index": 112.0,
+     "index_yago": 112.1,
      "name": "Manufacture of paper and paper products",
      "weight": 1.375,
-     "yoy_pct": 2.9
+     "yoy_pct": -0.1
     },
     "19": {
      "check_ok": true,
-     "fytd_pct": 0.4,
-     "index": 107.9,
-     "index_yago": 102.1,
+     "fytd_pct": -0.9,
+     "index": 108.2,
+     "index_yago": 108.8,
      "name": "Manufacture of coke and refined petroleum products",
      "weight": 7.721,
-     "yoy_pct": 5.7
+     "yoy_pct": -0.6
     },
     "20": {
      "check_ok": true,
-     "fytd_pct": -1.1,
-     "index": 108.2,
-     "index_yago": 108.8,
+     "fytd_pct": -1.2,
+     "index": 109.6,
+     "index_yago": 110.1,
      "name": "Manufacture of chemicals and chemical products",
      "weight": 7.813,
-     "yoy_pct": -0.6
+     "yoy_pct": -0.5
     },
     "21": {
      "check_ok": true,
-     "fytd_pct": -4.4,
-     "index": 112.9,
-     "index_yago": 123.9,
+     "fytd_pct": -2.1,
+     "index": 124.5,
+     "index_yago": 122.5,
      "name": "Manufacture of basic pharmaceuticals products and pharmaceutical preparations",
      "weight": 5.833,
-     "yoy_pct": -8.9
+     "yoy_pct": 1.6
     },
     "22": {
      "check_ok": true,
-     "fytd_pct": 18.5,
-     "index": 128.1,
-     "index_yago": 106.8,
+     "fytd_pct": 18.2,
+     "index": 127.3,
+     "index_yago": 104.9,
      "name": "Manufacture of rubber and plastics products",
      "weight": 3.384,
-     "yoy_pct": 19.9
+     "yoy_pct": 21.4
     },
     "23": {
      "check_ok": true,
-     "fytd_pct": 9.5,
-     "index": 114.9,
-     "index_yago": 107.5,
+     "fytd_pct": 10.2,
+     "index": 118.3,
+     "index_yago": 106.2,
      "name": "Manufacture of other non-metallic mineral products",
      "weight": 3.519,
-     "yoy_pct": 6.9
+     "yoy_pct": 11.4
     },
     "24": {
      "check_ok": true,
-     "fytd_pct": 3.7,
-     "index": 133.4,
-     "index_yago": 129.4,
+     "fytd_pct": 3.4,
+     "index": 134.8,
+     "index_yago": 131.7,
      "name": "Manufacture of basic metals",
      "weight": 9.198,
-     "yoy_pct": 3.1
+     "yoy_pct": 2.4
     },
     "25": {
      "check_ok": true,
-     "fytd_pct": 11.4,
-     "index": 141.9,
-     "index_yago": 128.8,
+     "fytd_pct": 12.0,
+     "index": 137.1,
+     "index_yago": 117.3,
      "name": "Manufacture of fabricated metal products, except machinery and equipment",
      "weight": 2.481,
-     "yoy_pct": 10.2
+     "yoy_pct": 16.9
     },
     "26": {
      "check_ok": true,
-     "fytd_pct": 12.6,
-     "index": 175.3,
-     "index_yago": 163.3,
+     "fytd_pct": 13.6,
+     "index": 165.5,
+     "index_yago": 138.7,
      "name": "Manufacture of computer, electronic and optical products",
      "weight": 2.085,
-     "yoy_pct": 7.3
+     "yoy_pct": 19.3
     },
     "27": {
      "check_ok": true,
-     "fytd_pct": 29.5,
-     "index": 172.7,
-     "index_yago": 129.0,
+     "fytd_pct": 28.5,
+     "index": 170.2,
+     "index_yago": 130.0,
      "name": "Manufacture of electrical equipment",
      "weight": 3.175,
-     "yoy_pct": 33.9
+     "yoy_pct": 30.9
     },
     "28": {
      "check_ok": true,
-     "fytd_pct": 9.0,
-     "index": 144.0,
-     "index_yago": 139.7,
+     "fytd_pct": 10.4,
+     "index": 127.3,
+     "index_yago": 115.4,
      "name": "Manufacture of machinery and equipment n.e.c.",
      "weight": 5.02,
-     "yoy_pct": 3.1
+     "yoy_pct": 10.3
     },
     "29": {
      "check_ok": true,
      "fytd_pct": 19.2,
-     "index": 147.1,
-     "index_yago": 123.6,
+     "index": 144.5,
+     "index_yago": 115.4,
      "name": "Manufacture of motor vehicles, trailers and semi-trailers",
      "weight": 6.417,
-     "yoy_pct": 19.0
+     "yoy_pct": 25.2
     },
     "30": {
      "check_ok": true,
-     "fytd_pct": 22.0,
-     "index": 191.2,
-     "index_yago": 160.5,
+     "fytd_pct": 22.7,
+     "index": 181.2,
+     "index_yago": 144.6,
      "name": "Manufacture of other transport equipment",
      "weight": 2.089,
-     "yoy_pct": 19.1
+     "yoy_pct": 25.3
     },
     "31": {
      "check_ok": true,
-     "fytd_pct": 8.6,
-     "index": 139.2,
-     "index_yago": 123.4,
+     "fytd_pct": 7.4,
+     "index": 123.5,
+     "index_yago": 112.9,
      "name": "Manufacture of furniture",
      "weight": 0.283,
-     "yoy_pct": 12.8
+     "yoy_pct": 9.4
     },
     "32": {
      "check_ok": true,
-     "fytd_pct": 1.9,
-     "index": 126.4,
-     "index_yago": 135.0,
+     "fytd_pct": 3.8,
+     "index": 120.8,
+     "index_yago": 117.1,
      "name": "Other manufacturing",
      "weight": 1.509,
-     "yoy_pct": -6.4
+     "yoy_pct": 3.2
     }
    }
   },
-  "period": "2026-09-30",
-  "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329475"
+  "period": "2026-08-31",
+  "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2315957&reg=48&lang=2#4"
  },
  "power_state": {
-  "checked_ist": "2026-11-01 15:02",
+  "checked_ist": "2026-11-01 16:04",
   "discovered_by": "cea_dashboard",
   "first_seen": "2026-11-01",
   "payload": {
    "release_url": "https://cea.nic.in/reports/dashboardView?headingId=107&subHeadingId=1003&subSubHeadingId=10010&title=Power%20Supply%20Position%20-%20Energy&lang=en",
-   "report_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/2b22e649-7806-4570-b8f1-c03d04b5e356",
+   "report_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/754e570d-7625-491e-802f-6b56a862b489",
    "rows": {
     "Andhra Pradesh": {
      "check_ok": true,
@@ -1344,13 +1344,13 @@
      "req_mu": 7491.0
     }
    },
-   "year_ago_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/8303d285-9e5e-4935-8ec6-1170c81e991c"
+   "year_ago_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/09dabb3f-b225-4b8b-a9fd-0a0161b7c068"
   },
   "period": "2026-08-31",
   "url": "https://cea.nic.in/reports/dashboardView?headingId=107&subHeadingId=1003&subSubHeadingId=10010&title=Power%20Supply%20Position%20-%20Energy&lang=en"
  },
  "rbi_sibc": {
-  "checked_ist": "2026-11-01 15:01",
+  "checked_ist": "2026-11-01 16:03",
   "discovered_by": "rbi_press_list",
   "first_seen": "2026-11-01",
   "payload": {
@@ -2254,7 +2254,7 @@
   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891"
  },
  "rbi_state": {
-  "checked_ist": "2026-11-01 15:02",
+  "checked_ist": "2026-11-01 16:04",
   "discovered_by": "rbi_hsis_page",
   "first_seen": "2026-11-01",
   "payload": {

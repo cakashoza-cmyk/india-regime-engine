@@ -1,6 +1,1821 @@
 {
- "items": {},
- "active": false,
- "status": "Local scan activates once the key is added (GitHub secret DEEPSEEK_API_KEY).",
- "checked_ist": "2026-11-01 15:01 IST"
+ "items": {
+  "surat_textiles|mmf_textiles": {
+   "geo_type": "cluster",
+   "geo_id": "surat_textiles",
+   "state": "GJ",
+   "sector": "mmf_textiles",
+   "analysis": "Limited local coverage. The only local report describes Surat weavers protesting a textile trading firm over dues pending more than 200 days, with an alleged Rs 8 lakh dispute of which only half was said to be paid. Weavers say delayed payments have become a major concern amid difficult market conditions, and some traders allegedly disappeared without clearing festive-period dues. Such delays hit small units' working capital and household and operating costs ahead of Diwali, weakening repayment capacity where receivables from traders stay stuck.",
+   "outlook_vs_macro": "Worse",
+   "why": "Payment delays over 200 days and trader defaults strain weavers' working capital and repayment.",
+   "sources": [
+    {
+     "url": "https://urbanacres.in/surat-weavers-protest-as-textile-dues-cross-200-days-ahead-of-diwali/",
+     "title": "Surat Weavers Protest Over 200-Day Textile Dues",
+     "date": "2026-10-31"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "2a8a6296fad63fd472aa6a2f5893d4ae6694770e",
+   "queries": "Surat MMF weaving & processing Textiles",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "surat_textiles|cotton_textiles": {
+   "geo_type": "cluster",
+   "geo_id": "surat_textiles",
+   "state": "GJ",
+   "sector": "cotton_textiles",
+   "analysis": "Limited local coverage. The only local report describes Surat weavers protesting a textile trading firm over dues pending more than 200 days, with police called and weavers seeking a case alleging cheating and criminal breach of trust. The dispute centres on an alleged Rs 8 lakh payment, of which only half was reportedly paid. Weavers say delayed payments have become a major concern amid difficult market conditions, and the dispute surfaced ahead of Diwali when jobwork providers seek clearance of outstanding payments. Such delays strain small units' working capital and household expenses, weakening repayment capacity.",
+   "outlook_vs_macro": "Worse",
+   "why": "Payment delays over 200 days and protests signal stressed working capital for local weavers.",
+   "sources": [
+    {
+     "url": "https://urbanacres.in/surat-weavers-protest-as-textile-dues-cross-200-days-ahead-of-diwali/",
+     "title": "Surat Weavers Protest Over 200-Day Textile Dues",
+     "date": "2026-10-31"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "2a8a6296fad63fd472aa6a2f5893d4ae6694770e",
+   "queries": "Surat MMF weaving & processing Textiles",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "surat_diamonds|diamonds": {
+   "geo_type": "cluster",
+   "geo_id": "surat_diamonds",
+   "state": "GJ",
+   "sector": "diamonds",
+   "analysis": "Limited local coverage. Surat's diamond cutting and polishing sector shows stress: one unit shut with the owner untraceable and roughly Rs 14.50 lakh in pending salaries, and the union says owners cut cutters' pay by about 20% through a three-to-four-year slowdown and have not restored it. The union also expects a shorter Diwali break of 5–15 November because order load will not allow a longer closure, citing large orders from international and domestic markets. Unpaid wages and disputed pay weaken workers' incomes and repayment capacity, while a shorter closure signals recovering capacity but no settlement is announced.",
+   "outlook_vs_macro": "Worse",
+   "why": "Unit closure, unpaid wages and a 20% pay cut dispute outweigh signs of order recovery.",
+   "sources": [
+    {
+     "url": "https://indianexpress.com/article/cities/ahmedabad/surat-diamond-unit-shuts-owner-untraceable-as-workers-flag-pending-salaries-10934573/#1",
+     "title": "Surat diamond unit shuts, owner untraceable as workers flag ‘pending salaries’ - Friday, Oct 23, 2026",
+     "date": "2026-10-23"
+    },
+    {
+     "url": "https://caratcapital.org/a-twenty-percent-the-cutters-want-back.html",
+     "title": "Surat's cutters ask for the 20% their wages lost — Carat Capital",
+     "date": "2026-10-09"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "23b130cb6382ff2a3598a1a3e45afd71be68bc0c",
+   "queries": "Surat diamond cutting & polishing Cut & Polished Diamonds / Gems & Jewellery",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "morbi_ceramics|ceramics": {
+   "geo_type": "cluster",
+   "geo_id": "morbi_ceramics",
+   "state": "GJ",
+   "sector": "ceramics",
+   "analysis": "Limited local coverage. Morbi's ceramic industry is facing a downturn, with the packaging association citing rising raw material prices, payments stuck in the market and increased gas prices amid a global war situation; members even agreed to control production by shutting plants two to three days a week if needed. Unpaid dues are a live concern: firms with payments outstanding for 180 days will be listed and cut off from supply, and non-payers face blacklisting after 15 days. Industry also raised electricity shortage, water and infrastructure needs with the minister. These pressures weigh on borrowers' cash flow and working capital.",
+   "outlook_vs_macro": "Worse",
+   "why": "Local downturn, stuck payments, gas and power stress weigh on repayment capacity.",
+   "sources": [
+    {
+     "url": "https://www.divyabhaskar.co.in/local/gujarat/morbi/news/morbi-minister-trikam-chhanga-ceramic-industry-visit-updates-139545094.html",
+     "title": "મંત્રી ત્રિકમ છાંગાએ સિરામિક ઉદ્યોગના પ્રશ્નો સાંભળ્યા: ખાનગી ફેક્ટરીની મુલાકાત દરમિયાન વીજળી, પાણી અને ઇન્ફ્રાસ્ટ્રક્ચર અંગે ચર્ચા કરી - Morbi News",
+     "date": "2026-10-30"
+    },
+    {
+     "url": "https://www.divyabhaskar.co.in/local/gujarat/morbi/news/morbi-packaging-association-blacklist-non-paying-companies-139088424.html",
+     "title": "મોરબી પેકેજિંગ એસોસિએશને બાકી પેમેન્ટ ચૂકવવા માટે એકમોને મુદત આપી: સમયસર પેમેન્ટ ન કરનાર એકમો થશે બ્લેકલિસ્ટ, કોઈ કંપની માલ સપ્લાય નહીં કરે - Morbi News",
+     "date": "2026-09-19"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "020e105b5dd5eb6a2903f3d59951c0770fbbdd75",
+   "queries": "Morbi ceramic tiles Ceramic Tiles, Sanitaryware & Glass",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "vapi_ankleshwar_chem|chemicals_dyes": {
+   "geo_type": "cluster",
+   "geo_id": "vapi_ankleshwar_chem",
+   "state": "GJ",
+   "sector": "chemicals_dyes",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "3f68252ad1a77a42a67e94db68290e5aa80cb4cc",
+   "queries": "Vapi / Ankleshwar / Dahej / Sachin chemicals & dyes Chemicals, Dyes & Intermediates",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "vapi_ankleshwar_chem|petrochem": {
+   "geo_type": "cluster",
+   "geo_id": "vapi_ankleshwar_chem",
+   "state": "GJ",
+   "sector": "petrochem",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "3f68252ad1a77a42a67e94db68290e5aa80cb4cc",
+   "queries": "Vapi / Ankleshwar / Dahej / Sachin chemicals & dyes Petrochemicals",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "vapi_ankleshwar_chem|pharma": {
+   "geo_type": "cluster",
+   "geo_id": "vapi_ankleshwar_chem",
+   "state": "GJ",
+   "sector": "pharma",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "3f68252ad1a77a42a67e94db68290e5aa80cb4cc",
+   "queries": "Vapi / Ankleshwar / Dahej / Sachin chemicals & dyes Pharmaceuticals & APIs",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "rajkot_engineering|engineering": {
+   "geo_type": "cluster",
+   "geo_id": "rajkot_engineering",
+   "state": "GJ",
+   "sector": "engineering",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Rajkot engineering & auto components Engineering & Capital Goods",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "rajkot_engineering|nonferrous_brass": {
+   "geo_type": "cluster",
+   "geo_id": "rajkot_engineering",
+   "state": "GJ",
+   "sector": "nonferrous_brass",
+   "analysis": "Limited local coverage. The only local article reports a half-day power cut on the Laxminagar feeder affecting around 1,000 small and large factories and roughly 10,000 workers in Rajkot's industrial areas, just before Diwali when order volumes rise and factories need continuous production. The Engineering Association says maintenance could have been scheduled on a Wednesday instead of a Sunday, and that keeping factories shut on a pre-Diwali Wednesday is difficult because units try to finish orders before the holidays. For borrowers, disrupted production and delayed deliveries can disturb working capital cycles and timely repayment.",
+   "outlook_vs_macro": "Worse",
+   "why": "Power cuts disrupted production before Diwali, straining working capital and delivery schedules.",
+   "sources": [
+    {
+     "url": "https://offbeatstories.in/news/rajkot-laxminagar-feeder-power-cut-factories-4169780554",
+     "title": "રાજકોટમાં વીજકાપથી 1,000 કારખાનાંની કામગીરીને અસર | Offbeat Stories",
+     "date": "2026-10-25"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "34ba84ea06ce9e739290537da80d94c07a78dd18",
+   "queries": "Rajkot engineering & auto components Non-ferrous Metals, Brass & Fabricated Metal",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "jamnagar|nonferrous_brass": {
+   "geo_type": "cluster",
+   "geo_id": "jamnagar",
+   "state": "GJ",
+   "sector": "nonferrous_brass",
+   "analysis": null,
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "rejected": "empty or contained a figure not in the articles",
+   "sig": "5a8b315cb65320cff046d72a059a248d218f9e1d",
+   "queries": "Jamnagar brass parts & refining Non-ferrous Metals, Brass & Fabricated Metal",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "jamnagar|refining": {
+   "geo_type": "cluster",
+   "geo_id": "jamnagar",
+   "state": "GJ",
+   "sector": "refining",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Jamnagar brass parts & refining Petroleum Refining & Coal Products",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "tiruppur|apparel": {
+   "geo_type": "cluster",
+   "geo_id": "tiruppur",
+   "state": "TN",
+   "sector": "apparel",
+   "analysis": "Tiruppur knitwear is in severe distress: industry bodies report production costs up over 50 percent from yarn and dyeing charges, power tariff rises, skilled labour shortage and loss of new domestic and export orders, with more than 50 percent of units already closed and the rest at risk; over 90 percent of firms are MSMEs employing about 10 lakh workers. These cost and order pressures squeeze margins and working capital, weakening repayment capacity, and associations plan protests after Deepavali/November 10 seeking government relief.",
+   "outlook_vs_macro": "Worse",
+   "why": "Costs up over 50 percent, half of units closed, orders lost, protests planned.",
+   "sources": [
+    {
+     "url": "https://www.hindutamil.in/news/business/stagnation-of-the-knitwear-industry-in-tiruppur",
+     "title": "திருப்பூரில் பின்னலாடைத் தொழில் முடக்கம்: தீபாவளிக்குப் பிறகு போராட்டம் நடத்த முடிவு",
+     "date": "2026-10-29"
+    },
+    {
+     "url": "https://www.dinamalar.com/news/tamil-nadu-news/tiruppur-organizations-in-crisis-industry-systems-fight-plan/4362473",
+     "title": "நெருக்கடியில் திருப்பூர் நிறுவனங்கள் தொழில் அமைப்புகள் போராட திட்டம்",
+     "date": "2026-10-28"
+    },
+    {
+     "url": "https://www.apcnewstamil.com/news/tiruppur-knitwear-industry-crisis-production-cost-msme-protest/242467",
+     "title": "திருப்பூரில் பின்னலாடைத் தொழில் கடும் முடக்கம்! 50% உயர்ந்த உற்பத்திச் செலவு… தீபாவளிக்குப் பின் போராட்டம் அறிவிப்பு! - apcnewstamil.com",
+     "date": "2026-10-28"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "9839f71efe5e4870ce957813005d39a35013a64f",
+   "queries": "Tiruppur knitwear Readymade Garments & Made-ups",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "tiruppur|cotton_textiles": {
+   "geo_type": "cluster",
+   "geo_id": "tiruppur",
+   "state": "TN",
+   "sector": "cotton_textiles",
+   "analysis": "Limited local coverage. Tiruppur knitwear is in severe stress: industry bodies report production costs up over 50% on yarn and dyeing charges, fresh domestic and export orders stalled, and about 50% of units already closed, with the rest at risk from labour shortage and the economic crisis. US tariffs of 25% have stopped fresh American orders and old deals are being renegotiated, squeezing margins. Over 90% of firms are MSMEs employing roughly 10 lakh workers, so cost inflation and lost orders directly weaken repayment capacity and working capital.",
+   "outlook_vs_macro": "Worse",
+   "why": "Costs up over 50%, half of units closed, US orders stalled.",
+   "sources": [
+    {
+     "url": "https://www.hindutamil.in/news/business/stagnation-of-the-knitwear-industry-in-tiruppur",
+     "title": "திருப்பூரில் பின்னலாடைத் தொழில் முடக்கம்: தீபாவளிக்குப் பிறகு போராட்டம் நடத்த முடிவு",
+     "date": "2026-10-29"
+    },
+    {
+     "url": "https://www.dinamalar.com/news/tamil-nadu-news/tiruppur-organizations-in-crisis-industry-systems-fight-plan/4362473",
+     "title": "நெருக்கடியில் திருப்பூர் நிறுவனங்கள் தொழில் அமைப்புகள் போராட திட்டம்",
+     "date": "2026-10-28"
+    },
+    {
+     "url": "https://www.apcnewstamil.com/news/tiruppur-knitwear-industry-crisis-production-cost-msme-protest/242467",
+     "title": "திருப்பூரில் பின்னலாடைத் தொழில் கடும் முடக்கம்! 50% உயர்ந்த உற்பத்திச் செலவு… தீபாவளிக்குப் பின் போராட்டம் அறிவிப்பு! - apcnewstamil.com",
+     "date": "2026-10-28"
+    },
+    {
+     "url": "https://economictimes.indiatimes.com/topic/tirupur-garment-industry#1",
+     "title": "tirupur garment industry: Latest News & Videos, Photos about tirupur garment industry | The Economic Times - Page 1 - Business News›tirupur garment industry",
+     "date": "2026-10-22"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "bbbe2356cca50c416b0cda674e588eba0312615c",
+   "queries": "Tiruppur knitwear Textiles",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "coimbatore|electrical_eq": {
+   "geo_type": "cluster",
+   "geo_id": "coimbatore",
+   "state": "TN",
+   "sector": "electrical_eq",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Coimbatore pumps, motors & textiles machinery Electrical Equipment, Pumps & Motors",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "coimbatore|engineering": {
+   "geo_type": "cluster",
+   "geo_id": "coimbatore",
+   "state": "TN",
+   "sector": "engineering",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Coimbatore pumps, motors & textiles machinery Engineering & Capital Goods",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "chennai_auto|other_transport": {
+   "geo_type": "cluster",
+   "geo_id": "chennai_auto",
+   "state": "TN",
+   "sector": "other_transport",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Chennai / Hosur auto & components Cycles, Two-wheelers & Other Transport Equipment",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "sivakasi|furniture_misc": {
+   "geo_type": "cluster",
+   "geo_id": "sivakasi",
+   "state": "TN",
+   "sector": "furniture_misc",
+   "analysis": "Sivakasi fireworks units face a difficult season: manufacturing costs rose 15-25 per cent on higher aluminium powder and colouring salt prices, several smaller units have shut down, migrant labour did not return, and unseasonal October rain disrupted production. The Supreme Court's green-cracker order came too late, with nearly 90 per cent of the season's output normally done by end-September, and units faced suspensions and sealing. Online sales are growing but also draw fraud warnings and a 2018 court ban. These pressures squeeze margins, working capital and repayment capacity.",
+   "outlook_vs_macro": "Worse",
+   "why": "Costs up 15-25 per cent, labour shortage, late court ruling and unit closures weaken repayment capacity.",
+   "sources": [
+    {
+     "url": "https://www.thehindubusinessline.com/news/rising-costs-labour-crunch-and-court-delays-hit-sivakasi-fireworks-industry/article71652067.ece",
+     "title": "Rising costs, labour crunch and court delays hit Sivakasi fireworks industry",
+     "date": "2026-10-31"
+    },
+    {
+     "url": "https://www.bbc.com/tamil/articles/cmz7x2ryzx47o?at_medium=RSS&at_campaign=rss",
+     "title": "தீபாவளி: பட்டாசுகளை ஆன்லைனில் வாங்குவது ஏன் ஆபத்தானது? சைபர் கிரைம் எச்சரிப்பது ஏன்? - BBC News தமிழ்",
+     "date": "2026-10-30"
+    },
+    {
+     "url": "https://www.vikatan.com/government-and-politics/governance/sivakasi-fireworks-industry-struggles?pfrom=news-twelve-story-collection",
+     "title": "விலையேற்றம், வேலை இழப்பு, வெடிவிபத்து... சிவகாசி பட்டாசு ஆலைகளின் தற்போதைய நிலை என்ன?",
+     "date": "2026-10-29"
+    },
+    {
+     "url": "https://economictimes.indiatimes.com/topic/sivakasi-labour-concerns#1",
+     "title": "sivakasi labour concerns: Latest News & Videos, Photos about sivakasi labour concerns | The Economic Times - Page 1 - Business News›sivakasi labour concerns",
+     "date": "2026-10-10"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "30c703cc20a72a2420a6f80294e03e6a710c163e",
+   "queries": "Sivakasi fireworks, matches & printing Furniture, Toys, Fireworks & Misc. Manufacturing",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "sivakasi|paper": {
+   "geo_type": "cluster",
+   "geo_id": "sivakasi",
+   "state": "TN",
+   "sector": "paper",
+   "analysis": "Limited local coverage. Sivakasi fireworks units face a 15-25 per cent rise in manufacturing costs from costlier aluminium powder and colour salts, labour shortages as migrant workers did not return, unseasonal October rain, and a late Supreme Court green-cracker ruling; several smaller units have shut down. Suspensions and sealing of units have left workers without income, and online sales are hurting shop sales. These pressures squeeze margins and working capital, weakening borrowers' repayment capacity.",
+   "outlook_vs_macro": "Worse",
+   "why": "Costs, labour shortage, unit closures and regulatory delays squeeze margins and repayment capacity.",
+   "sources": [
+    {
+     "url": "https://www.thehindubusinessline.com/news/rising-costs-labour-crunch-and-court-delays-hit-sivakasi-fireworks-industry/article71652067.ece",
+     "title": "Rising costs, labour crunch and court delays hit Sivakasi fireworks industry",
+     "date": "2026-10-31"
+    },
+    {
+     "url": "https://www.bbc.com/tamil/articles/cmz7x2ryzx47o?at_medium=RSS&at_campaign=rss",
+     "title": "தீபாவளி: பட்டாசுகளை ஆன்லைனில் வாங்குவது ஏன் ஆபத்தானது? சைபர் கிரைம் எச்சரிப்பது ஏன்? - BBC News தமிழ்",
+     "date": "2026-10-30"
+    },
+    {
+     "url": "https://www.vikatan.com/government-and-politics/governance/sivakasi-fireworks-industry-struggles?pfrom=news-twelve-story-collection",
+     "title": "விலையேற்றம், வேலை இழப்பு, வெடிவிபத்து... சிவகாசி பட்டாசு ஆலைகளின் தற்போதைய நிலை என்ன?",
+     "date": "2026-10-29"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "30c703cc20a72a2420a6f80294e03e6a710c163e",
+   "queries": "Sivakasi fireworks, matches & printing Paper & Paper Products",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "ludhiana|other_transport": {
+   "geo_type": "cluster",
+   "geo_id": "ludhiana",
+   "state": "PB",
+   "sector": "other_transport",
+   "analysis": "Limited local coverage. The articles show Ludhiana's cycle industry facing prolonged power cuts, with industrialists warning of shifting units, which threatens production continuity and repayment capacity. Delayed payments of MSME units are flagged as a live grievance, straining working capital. Local MPs and associations are seeking reduced GST on bicycles and resolution of PSIEC and Phase VIII issues, while infrastructure works such as the Halwara Airport and elevated road are in progress. These unresolved operating and payment problems weigh on borrowers despite supportive political engagement.",
+   "outlook_vs_macro": "Worse",
+   "why": "Power cuts and delayed MSME payments strain working capital and repayment capacity.",
+   "sources": [
+    {
+     "url": "https://jagratilahar.com/english/business/104563/56th-Agm-Of-United-Cycles-Parts-And-Manufacturers-Association-ucpma-Mp-rajya-Sabha-From-Ludhiana-Sanjeev-Arora-Support-To-Key-Industry-Challenges-In-Punjab",
+     "title": "Mp Arora Assures Industry Of Continued Support To Key Industry Challenges In Punjab",
+     "date": "2026-09-12"
+    },
+    {
+     "url": "https://menafn.com/1111657101/Punjab-Ludhiana-Bicycle-Industry-Hit-By-Long-Power-Cuts-Industrialists-Warn-Of-Shifting-Units#1",
+     "title": "Punjab: Ludhiana Bicycle Industry Hit By Long Power Cuts Industrialists Warn Of Shifting Units - We use cookies",
+     "date": "2026-09-12"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "66bed323dfacc8592db6e04bd6461469dfa5595b",
+   "queries": "Ludhiana cycles, hosiery & fasteners Cycles, Two-wheelers & Other Transport Equipment",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "ludhiana|apparel": {
+   "geo_type": "cluster",
+   "geo_id": "ludhiana",
+   "state": "PB",
+   "sector": "apparel",
+   "analysis": "Limited local coverage. The articles describe Ludhiana's hosiery, knitwear and garment makers facing a 40-odd percent hike in raw material costs over recent months, with little chance to pass the load on. Wholesale inflation in manufactured textiles rose from 12.63 percent in August to 13.85 percent in September, and chemical product inflation rose from 14.30 to 16.74 percent. Crude oil prices and geopolitical shocks, plus low-cost Chinese machinery, yarn and winterwear, squeeze margins. These cost pressures and supply disruptions weaken borrowers' working capital and repayment capacity.",
+   "outlook_vs_macro": "Worse",
+   "why": "Rising raw material costs, high textile inflation and supply disruption squeeze margins beyond national view.",
+   "sources": [
+    {
+     "url": "https://theprint.in/economy/for-ludhianas-hosiery-businesses-a-spool-of-rising-costs-shrinking-profits-fading-festive-cheer/3078349/#1",
+     "title": "For Ludhiana's hosiery businesses, a spool of rising costs, shrinking profits & fading festive cheer - For Ludhiana’s hosiery businesses, a spool of rising costs, shrinking profits & fading festive cheer",
+     "date": "2026-10-21"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "bc2af08834b3090c2f0c1dbd245f744702e69958",
+   "queries": "Ludhiana cycles, hosiery & fasteners Readymade Garments & Made-ups",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "ludhiana|nonferrous_brass": {
+   "geo_type": "cluster",
+   "geo_id": "ludhiana",
+   "state": "PB",
+   "sector": "nonferrous_brass",
+   "analysis": "Limited local coverage. The only article on Ludhiana reports a 40-odd percent hike in raw material costs for hosiery, knitwear and garment makers, with crude-linked synthetic inputs and dye chemicals disrupted by China's closures of chemical suppliers, and wholesale inflation in manufactured textiles rising from 12.63 percent in August to 13.85 percent in September. These squeeze margins and working capital, weakening borrowers' repayment capacity, and the China factor in machinery, yarn and winterwear adds price competition. Local conditions for this sector look worse than the national Lend view.",
+   "outlook_vs_macro": "Worse",
+   "why": "Rising input costs, dye supply disruption and inflation squeeze hosiery margins and working capital.",
+   "sources": [
+    {
+     "url": "https://theprint.in/economy/for-ludhianas-hosiery-businesses-a-spool-of-rising-costs-shrinking-profits-fading-festive-cheer/3078349/#1",
+     "title": "For Ludhiana's hosiery businesses, a spool of rising costs, shrinking profits & fading festive cheer - For Ludhiana’s hosiery businesses, a spool of rising costs, shrinking profits & fading festive cheer",
+     "date": "2026-10-21"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "bc2af08834b3090c2f0c1dbd245f744702e69958",
+   "queries": "Ludhiana cycles, hosiery & fasteners Non-ferrous Metals, Brass & Fabricated Metal",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "panipat|cotton_textiles": {
+   "geo_type": "cluster",
+   "geo_id": "panipat",
+   "state": "HR",
+   "sector": "cotton_textiles",
+   "analysis": "Limited local coverage. Panipat's blanket and recycled-yarn cluster is in a sharp downturn: domestic demand has fallen nearly 50% in peak season, production is down around 30-35%, and many units run at about one-third capacity with unsold stock. Polyester yarn has risen from Rs 100-105 to around Rs 155 per kg, squeezing margins, while payment cycles have stretched from 35-40 days to nearly two months, straining working capital. Overseas demand is also slowing amid the Iran-Israel-US conflict. These pressures directly weaken borrowers' repayment capacity and cash flow.",
+   "outlook_vs_macro": "Worse",
+   "why": "Demand halved, costs up, payments delayed two months; local stress exceeds national Lend view.",
+   "sources": [
+    {
+     "url": "https://www.dainiktribuneonline.com/news/editorials/a-desolate-market/",
+     "title": "बेजार हुआ बाजार",
+     "date": "2026-10-29"
+    },
+    {
+     "url": "https://www.tribuneindia.com/news/haryana/panipat-blanket-industry-faces-50-dip-in-domestic-demand/amp/?utm=relatedarticles#1",
+     "title": "Panipat blanket industry faces 50% dip in domestic demand - The Tribune - Add Tribune As Your Trusted Source",
+     "date": "2026-10-26"
+    },
+    {
+     "url": "http://dailyhunt.in/news/india/english/the+tribune-epaper-thetribt/panipat+blanket+industry+faces+50+dip+in+domestic+demand-newsid-n731724202?listname=newspaperLanding&topic=haryana&index=1&topicIndex=8&mode=pwa&action=click",
+     "title": "Panipat blanket industry faces 50% dip in domestic demand",
+     "date": "2026-10-25"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "f495e0d6f682365ffc8b628e18300ed7281d66ef",
+   "queries": "Panipat home textiles & recycled yarn Textiles",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "panipat|apparel": {
+   "geo_type": "cluster",
+   "geo_id": "panipat",
+   "state": "HR",
+   "sector": "apparel",
+   "analysis": "Limited local coverage. Panipat's blanket and recycled-yarn cluster is in a deep slump: domestic demand has fallen nearly 50% in peak season, production is down 30-35%, and many units run at about one-third capacity with unsold stock. Polyester yarn has risen from Rs 100-105 to around Rs 155 per kg, squeezing margins, while payments that came in 35-40 days now take nearly two months, straining working capital. Overseas demand is also weak amid the Iran-Israel-US conflict. These pressures directly weaken borrowers' repayment capacity and cash flow.",
+   "outlook_vs_macro": "Worse",
+   "why": "Demand halved, costs up, payments delayed two months; cluster distress exceeds national Avoid view.",
+   "sources": [
+    {
+     "url": "https://www.dainiktribuneonline.com/news/editorials/a-desolate-market/",
+     "title": "बेजार हुआ बाजार",
+     "date": "2026-10-29"
+    },
+    {
+     "url": "https://www.tribuneindia.com/news/haryana/panipat-blanket-industry-faces-50-dip-in-domestic-demand/amp/?utm=relatedarticles#1",
+     "title": "Panipat blanket industry faces 50% dip in domestic demand - The Tribune - Add Tribune As Your Trusted Source",
+     "date": "2026-10-26"
+    },
+    {
+     "url": "http://dailyhunt.in/news/india/english/the+tribune-epaper-thetribt/panipat+blanket+industry+faces+50+dip+in+domestic+demand-newsid-n731724202?listname=newspaperLanding&topic=haryana&index=1&topicIndex=8&mode=pwa&action=click",
+     "title": "Panipat blanket industry faces 50% dip in domestic demand",
+     "date": "2026-10-25"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "f495e0d6f682365ffc8b628e18300ed7281d66ef",
+   "queries": "Panipat home textiles & recycled yarn Readymade Garments & Made-ups",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "manesar_gurugram|other_transport": {
+   "geo_type": "cluster",
+   "geo_id": "manesar_gurugram",
+   "state": "HR",
+   "sector": "other_transport",
+   "analysis": "Limited local coverage. The articles centre on labour unrest in the Manesar auto cluster: Honda Motorcycle & Scooter India reports rising labour trouble over the last 2-3 years, HMSI faces worker trouble at Manesar, and Maruti Suzuki received an additional demand of Rs 137.58 crore for Manesar plant land and laid off over 500 workers after the Manesar violence. Such disputes can disrupt production and working capital, weakening borrowers' repayment capacity, though the coverage is old and lacks current detail.",
+   "outlook_vs_macro": "Worse",
+   "why": "Labour unrest and layoffs at Manesar plants threaten output and repayment capacity.",
+   "sources": [
+    {
+     "url": "https://www.moneycontrol.com/news/tags/trouble.html",
+     "title": "Trouble | Latest & Breaking News on Trouble | Photos, Videos, Breaking Stories and Articles on Trouble",
+     "date": "2026-10-17"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "b02d1b79a8a20ca7c8ac3e7fcdb64d2568266fc2",
+   "queries": "Manesar / Gurugram auto hub Cycles, Two-wheelers & Other Transport Equipment",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "moradabad|nonferrous_brass": {
+   "geo_type": "cluster",
+   "geo_id": "moradabad",
+   "state": "UP",
+   "sector": "nonferrous_brass",
+   "analysis": "Limited local coverage. Moradabad's brass industry is still struggling a year after demonetisation, and GST brought further trouble for manufacturers, leaving the sector in gloom rather than bloom. A master artisan reports getting only one or two orders a month and warns the whole industry might shut down in the next five to seven years. Weak order flow and the twin shocks of demonetisation and GST squeeze borrowers' repayment capacity and working capital, since demand and cash cycles remain disrupted.",
+   "outlook_vs_macro": "Worse",
+   "why": "Local brass sector in gloom, thin orders, demonetisation and GST stress despite national Lend view.",
+   "sources": [
+    {
+     "url": "https://www.business-standard.com/multimedia/video-gallery/companies/brass-industry-goes-from-bloom-to-gloom-one-year-after-demonatisation-55211.htm#1",
+     "title": "Brass industry goes from bloom to gloom one year after demonatisation - Friday, October 23, 2026 | 10:30 PM ISTहिंदी में पढें",
+     "date": "2026-10-22"
+    },
+    {
+     "url": "https://frontline.thehindu.com/politics/uttar-pradesh-industrial-decline-brass-lock-pottery/article71499767.ece#1",
+     "title": "Are Uttar Pradesh’s Manufacturing Industries Declining Due to Government Negligence? - Sections",
+     "date": "2026-09-29"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "0c444347563638569e68a81f7dbca6d2b547279d",
+   "queries": "Moradabad brass & handicrafts Non-ferrous Metals, Brass & Fabricated Metal",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "moradabad|handicrafts": {
+   "geo_type": "cluster",
+   "geo_id": "moradabad",
+   "state": "UP",
+   "sector": "handicrafts",
+   "analysis": "Limited local coverage. Moradabad's brass industry is still struggling a year after demonetisation, and GST brought further trouble for manufacturers. A master artisan reports getting only one or two orders a month and warns the industry might shut down in five to seven years without government support. Weak order flow and the twin shocks of demonetisation and GST strain borrowers' repayment capacity and working capital.",
+   "outlook_vs_macro": "Worse",
+   "why": "Local articles describe ongoing distress and collapsing orders in Moradabad brass.",
+   "sources": [
+    {
+     "url": "https://www.business-standard.com/multimedia/video-gallery/companies/brass-industry-goes-from-bloom-to-gloom-one-year-after-demonatisation-55211.htm#1",
+     "title": "Brass industry goes from bloom to gloom one year after demonatisation - Friday, October 23, 2026 | 10:30 PM ISTहिंदी में पढें",
+     "date": "2026-10-22"
+    },
+    {
+     "url": "https://frontline.thehindu.com/politics/uttar-pradesh-industrial-decline-brass-lock-pottery/article71499767.ece#1",
+     "title": "Are Uttar Pradesh’s Manufacturing Industries Declining Due to Government Negligence? - Sections",
+     "date": "2026-09-29"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "0c444347563638569e68a81f7dbca6d2b547279d",
+   "queries": "Moradabad brass & handicrafts Handicrafts & Carpets",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "kanpur_agra_leather|leather": {
+   "geo_type": "cluster",
+   "geo_id": "kanpur_agra_leather",
+   "state": "UP",
+   "sector": "leather",
+   "analysis": "Limited local coverage. The articles point to a difficult picture for Kanpur and Agra leather and footwear borrowers. Agra shoemakers are squeezed by costs and fading demand, and the local industry employs 400,000 workers. US tariffs have led to factory closures and job losses, with goods stuck and workers on unpaid leave. The Middle East conflict is reducing demand for manufactured exports and is visible in Kanpur's leather exports. Delayed GST refunds have caused working capital shortages, and small and medium enterprises may be forced to shut. Local conditions look worse than the national macro view.",
+   "outlook_vs_macro": "Worse",
+   "why": "Tariff closures, fading demand, stuck goods and working capital shortages hit local borrowers.",
+   "sources": [
+    {
+     "url": "https://economictimes.indiatimes.com/topic/agra-shoe-factory/news#1",
+     "title": "agra shoe factory News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+     "date": "2026-10-24"
+    },
+    {
+     "url": "https://economictimes.indiatimes.com/topic/mukhtarul-amin#1",
+     "title": "mukhtarul amin: Latest News & Videos, Photos about mukhtarul amin | The Economic Times - Page 1 - Business News›mukhtarul amin",
+     "date": "2026-10-23"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "fd7e22a8f8e73024d6233359a549c5614c010e49",
+   "queries": "Kanpur / Agra leather & footwear Leather & Footwear",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "firozabad|glass": {
+   "geo_type": "cluster",
+   "geo_id": "firozabad",
+   "state": "UP",
+   "sector": "glass",
+   "analysis": null,
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "rejected": "empty or contained a figure not in the articles",
+   "sig": "2ab291692f72b0f4e51ae0064a3c8b2730c0228d",
+   "queries": "Firozabad glass & bangles Glass & Glassware",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "bhadohi|handicrafts": {
+   "geo_type": "cluster",
+   "geo_id": "bhadohi",
+   "state": "UP",
+   "sector": "handicrafts",
+   "analysis": "Limited local coverage. The only Bhadohi-specific item reports that US tariffs have caused a major business decline in the carpet sector, with most goods on hold, factories reducing staff and the Carpet Export Promotion Council urging government intervention; sixty percent of Bhadohi's carpet exports went to America. This matters for repayment capacity and working capital because halted production and reduced staffing point to weaker cash flows and stretched liquidity for borrowers. A separate piece notes Bhadohi weavers reaching international customers online, but does not offset the tariff disruption.",
+   "outlook_vs_macro": "Worse",
+   "why": "US tariffs halt most Bhadohi carpet goods; factories cut staff, exports hit.",
+   "sources": [
+    {
+     "url": "https://economictimes.indiatimes.com/topic/carpet-factory#1",
+     "title": "carpet factory: Latest News & Videos, Photos about carpet factory | The Economic Times - Page 1 - Business News›carpet factory",
+     "date": "2026-09-12"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "46378eab6c1c9d070ced5ab45954b525401e5caf",
+   "queries": "Bhadohi-Mirzapur carpets Handicrafts & Carpets",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "west_up_sugar|sugar": {
+   "geo_type": "cluster",
+   "geo_id": "west_up_sugar",
+   "state": "UP",
+   "sector": "sugar",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Western UP sugar belt Sugar & Ethanol",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "noida_electronics|electronics": {
+   "geo_type": "cluster",
+   "geo_id": "noida_electronics",
+   "state": "UP",
+   "sector": "electronics",
+   "analysis": "Limited local coverage. The supplied articles concern Noida's apparel exporters and Surat's diamond manufacturers, not mobile and electronics manufacturing, so they say nothing about this sector's borrowers in Noida. The only Noida material describes apparel units falling to 1,800 from 2,400 in six months, exports projected to slip to about ₹42,000 crore from ₹48,000 crore, and workforce shrinking to around 800,000 from roughly one million, with US tariff uncertainty disrupting order negotiations, production planning and working capital, leaving inventory stranded and cash locked in unfinished goods. None of this can be applied to electronics.",
+   "outlook_vs_macro": "In line",
+   "why": "Articles cover apparel and diamonds, not electronics; no sector-specific local evidence.",
+   "sources": [
+    {
+     "url": "https://textile.economictimes.indiatimes.com/news/manufacturing-retailing/us-demand-slowdown-hits-apparel-and-diamond-exporters/135355879?utm_source=latest_news&utm_medium=agencyListing",
+     "title": "US demand slowdown hits apparel and diamond exporters",
+     "date": "2026-10-29"
+    },
+    {
+     "url": "https://retail.economictimes.indiatimes.com/news/industry/us-demand-slowdown-hits-apparel-diamond-exporters-as-factories-shut-and-orders-dry-up/135352178?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etretail_news_2026-10-31&dt=2026-10-31",
+     "title": "US demand slowdown hits apparel, diamond exporters as factories shut and orders dry up",
+     "date": "2026-10-29"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "d705f8de0a37b17335fb61acee83dc0d5e808196",
+   "queries": "Noida mobile & electronics Electronics Manufacturing",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "pune_auto|engineering": {
+   "geo_type": "cluster",
+   "geo_id": "pune_auto",
+   "state": "MH",
+   "sector": "engineering",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Pune / Chakan auto & engineering Engineering & Capital Goods",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "pune_auto|electrical_eq": {
+   "geo_type": "cluster",
+   "geo_id": "pune_auto",
+   "state": "MH",
+   "sector": "electrical_eq",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Pune / Chakan auto & engineering Electrical Equipment, Pumps & Motors",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "bhiwandi|mmf_textiles": {
+   "geo_type": "cluster",
+   "geo_id": "bhiwandi",
+   "state": "MH",
+   "sector": "mmf_textiles",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Bhiwandi powerloom Textiles",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "bhiwandi|cotton_textiles": {
+   "geo_type": "cluster",
+   "geo_id": "bhiwandi",
+   "state": "MH",
+   "sector": "cotton_textiles",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Bhiwandi powerloom Textiles",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "mumbai_fin|nbfc": {
+   "geo_type": "cluster",
+   "geo_id": "mumbai_fin",
+   "state": "MH",
+   "sector": "nbfc",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Mumbai-Thane NBFC, CRE & trade NBFCs ",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "mumbai_fin|commercial_real_estate": {
+   "geo_type": "cluster",
+   "geo_id": "mumbai_fin",
+   "state": "MH",
+   "sector": "commercial_real_estate",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Mumbai-Thane NBFC, CRE & trade Commercial Real Estate",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "mumbai_fin|wholesale_trade": {
+   "geo_type": "cluster",
+   "geo_id": "mumbai_fin",
+   "state": "MH",
+   "sector": "wholesale_trade",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Mumbai-Thane NBFC, CRE & trade Wholesale Trade",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "kolhapur_sugar|sugar": {
+   "geo_type": "cluster",
+   "geo_id": "kolhapur_sugar",
+   "state": "MH",
+   "sector": "sugar",
+   "analysis": "Limited local coverage. In Kolhapur-Sangli, sugar workers' unions have warned of shutting all sugar factories from 22 October unless pending demands, including unpaid wages and revival of closed and sick factories, are met, and they marched at the Kolhapur collector's office. Farmer leader Raju Shetti is also asking Sangli mills to suspend crushing until sugar and ethanol prices rise, with weighbridges occupied in Sangli. One Sangli factory, Kranti, is paying a final Rs 100 per tonne cane installment before Diwali. Strikes and halted crushing threaten borrowers' cane payments and working capital.",
+   "outlook_vs_macro": "Worse",
+   "why": "Strike and protest threats disrupt crushing, cane payments and mill cash flows.",
+   "sources": [
+    {
+     "url": "https://www.chinimandi.com/sangli-kranti-sugar-factory-pays-final-installment-of-rs-100-chairman-sharad-lad-in-marathi/",
+     "title": "सांगली : क्रांती कारखान्याकडून १०० रुपयांचा अंतिम हप्ता अदा - अध्यक्ष शरद लाड - ChiniMandi",
+     "date": "2026-10-29"
+    },
+    {
+     "url": "https://pudhari.news/maharashtra/sangali/sangli-sugar-factory-workers-indefinite-strike-from-22nd-announces-tatyasaheb-kale-dc95",
+     "title": "Sangli News : साखर कामगारांचा २२ पासून बेमुदत संप",
+     "date": "2026-10-17"
+    },
+    {
+     "url": "https://shev.io/en/news/maharashtra-cane-protests-threaten-sugar-crushing-season",
+     "title": "Maharashtra cane protests threaten sugar crushing",
+     "date": "2026-10-16"
+    },
+    {
+     "url": "https://sugartoday.in/accept-the-demands-otherwise-factories-will-be-closed-from-the-22nd/",
+     "title": "मागण्या मान्य करा; अन्यथा 22 पासून कारखान्यांची धुराडी बंद",
+     "date": "2026-10-05"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "a3b21c2a902f3064911411e6f988972ea6e90205",
+   "queries": "Kolhapur-Sangli sugar co-operatives Sugar & Ethanol",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "jamshedpur|metals": {
+   "geo_type": "cluster",
+   "geo_id": "jamshedpur",
+   "state": "JH",
+   "sector": "metals",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Jamshedpur steel & auto ancillaries Iron & Steel ",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "jamshedpur|mining": {
+   "geo_type": "cluster",
+   "geo_id": "jamshedpur",
+   "state": "JH",
+   "sector": "mining",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Jamshedpur steel & auto ancillaries Mining & Quarrying",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "odisha_metals|metals": {
+   "geo_type": "cluster",
+   "geo_id": "odisha_metals",
+   "state": "OD",
+   "sector": "metals",
+   "analysis": "Limited local coverage. The articles point to stress across Odisha's iron and steel units: a new freight policy left some industrial units worse off and forced more than one to shut operations, sponge iron makers accuse Orissa Mining of unrealistic prices, and steel companies threatened to surrender units over the government's failure to address surging production costs, with promoters citing inability to pay salaries. Reports say more than 300 out of 350 steel units have shut and 90% of steel units are closed. These pressures on costs, pricing and closures bear directly on borrowers' repayment capacity and working capital.",
+   "outlook_vs_macro": "Worse",
+   "why": "Freight policy, unrealistic ore pricing and mass unit closures signal deeper local stress than national view.",
+   "sources": [
+    {
+     "url": "https://economictimes.indiatimes.com/topic/orissa-steel-federation/news#1",
+     "title": "orissa steel federation News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+     "date": "2026-10-04"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "dacecc408c5238fe1095fb3b6418340e67abd2b9",
+   "queries": "Odisha steel, aluminium & mining belt Iron & Steel ",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "odisha_metals|mining": {
+   "geo_type": "cluster",
+   "geo_id": "odisha_metals",
+   "state": "OD",
+   "sector": "mining",
+   "analysis": "Limited local coverage. The articles point to disruption and cost pressure in this belt: a bandh halted mining operations and mineral transportation in Sundargarh, with shops and markets shut, which interrupts output and cash flow for borrowers. Sponge iron makers accuse Orissa Mining of unrealistic prices, and a new freight policy reportedly left some mineral users worse off, with units forced to shut. Steelmakers without captive mines seek an iron ore export ban, while producers oppose it. Environmental opposition to further mining and aluminium expansion adds regulatory risk.",
+   "outlook_vs_macro": "Worse",
+   "why": "Disruption, pricing disputes and unit closures weigh on repayment capacity.",
+   "sources": [
+    {
+     "url": "https://thewire.in/tag/vedanta-odisha-investment",
+     "title": "Vedanta-odisha-investment News: Latest vedanta-odisha-investment News Live | Vedanta-odisha-investment Live News Online",
+     "date": "2026-10-29"
+    },
+    {
+     "url": "https://thewire.in/tag/niyamgiri-mining",
+     "title": "Niyamgiri-mining News: Latest niyamgiri-mining News Live | Niyamgiri-mining Live News Online",
+     "date": "2026-10-29"
+    },
+    {
+     "url": "https://odishatv.in/odisha/odisha-bandh-brings-mining-operations-to-halt-in-sundargarh-shops-and-markets-shut-12636995#1",
+     "title": "Odisha Bandh brings mining operations to halt in Sundargarh; shops and markets shut - Odisha Bandh brings mining operations to halt in Sundargarh; shops and markets shut",
+     "date": "2026-10-07"
+    },
+    {
+     "url": "https://economictimes.indiatimes.com/topic/orissa-steel-federation/news#1",
+     "title": "orissa steel federation News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+     "date": "2026-10-04"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "0516acd9ebb4a499324c60965308425a0142e592",
+   "queries": "Odisha steel, aluminium & mining belt Mining & Quarrying",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "hyderabad_pharma|pharma": {
+   "geo_type": "cluster",
+   "geo_id": "hyderabad_pharma",
+   "state": "TS",
+   "sector": "pharma",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Hyderabad pharma & bulk drugs Pharmaceuticals & APIs",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "hyderabad_pharma|chemicals_dyes": {
+   "geo_type": "cluster",
+   "geo_id": "hyderabad_pharma",
+   "state": "TS",
+   "sector": "chemicals_dyes",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Hyderabad pharma & bulk drugs Chemicals, Dyes & Intermediates",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "baddi_pharma|pharma": {
+   "geo_type": "cluster",
+   "geo_id": "baddi_pharma",
+   "state": "HP",
+   "sector": "pharma",
+   "analysis": "The Baddi-Barotiwala-Nalagarh pharma belt faces dual strain: Gulf conflict has disrupted API, solvent and petrochemical inputs, with raw material costs up as much as 30 per cent and packaging also costlier, forcing smaller manufacturers to scale back output or absorb losses while eroding export competitiveness. Locally, poor roads, hours-long power cuts, a weekly shutdown and Fire NOC delays add pressure, and migrant worker insecurity risks productivity bottlenecks. These raise working capital needs and squeeze repayment capacity for SMEs already on thin margins.",
+   "outlook_vs_macro": "Worse",
+   "why": "Input cost spikes, power cuts, weekly shutdowns and infrastructure neglect compound thin margins.",
+   "sources": [
+    {
+     "url": "https://www.pninews.com/amp/gulf-conflict-puts-indias-pharma-hubs-under-dual-strain/",
+     "title": "Gulf Conflict Puts India’s Pharma Hubs Under Dual Strain",
+     "date": "2026-10-31"
+    },
+    {
+     "url": "https://nationaltimesmedia.com/the-chief-minister-has-not-held-even-one-meeting-with-industrialists-in-four-years-is-this-not-arrogance-rajendra-rana/",
+     "title": "“The Chief Minister Has Not Held Even One Meeting with Industrialists in Four Years—Is This Not Arrogance?”: Rajendra Rana - National Times",
+     "date": "2026-10-20"
+    },
+    {
+     "url": "https://www.indianewscalling.com/himachal/news/191185--4--.aspx",
+     "title": "मुख्यमंत्री ने 4 साल में उद्योगपतियों से एक बैठक तक नहीं की, ये अहंकार नहीं तो क्या है?",
+     "date": "2026-10-20"
+    },
+    {
+     "url": "https://dainiksaveratimes.com/national/himachal/rajinder-rana-attacked-congress-government-over-poor-condition-of-industrial-hub-baddi-nalagarh/",
+     "title": "rajinder rana",
+     "date": "2026-10-20"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "f08ffbcf77552fff5f4f8124296d35422e09a486",
+   "queries": "Baddi-Barotiwala-Nalagarh pharma Pharmaceuticals & APIs",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "jaipur_gems|diamonds": {
+   "geo_type": "cluster",
+   "geo_id": "jaipur_gems",
+   "state": "RJ",
+   "sector": "diamonds",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Jaipur gems & jewellery Cut & Polished Diamonds / Gems & Jewellery",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "jaipur_gems|handicrafts": {
+   "geo_type": "cluster",
+   "geo_id": "jaipur_gems",
+   "state": "RJ",
+   "sector": "handicrafts",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Jaipur gems & jewellery Handicrafts & Carpets",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "bengaluru_tech|electronics": {
+   "geo_type": "cluster",
+   "geo_id": "bengaluru_tech",
+   "state": "KA",
+   "sector": "electronics",
+   "analysis": "Limited local coverage. The articles centre on labour and staffing problems at Wistron's Narasapura iPhone plant near Bengaluru: workers went on rampage over delayed wages, the Karnataka labour department found workers' rights violated and overtime unpaid, and staffing firms face allegations of payment irregularities. These issues matter for repayment capacity and working capital because wage and contractor payment disputes can halt production and hiring; the staffing federation warned fresh expansion and hiring plans may be stalled until processes are in place. On the positive side, Karnataka plans an end-to-end electronics hub and Wistron committed further investment.",
+   "outlook_vs_macro": "Worse",
+   "why": "Labour unrest, wage violations and stalled hiring plans weigh on local electronics operations.",
+   "sources": [
+    {
+     "url": "https://economictimes.indiatimes.com/topic/wistron-bengaluru/news#1",
+     "title": "wistron bengaluru News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+     "date": "2026-10-21"
+    },
+    {
+     "url": "https://economictimes.indiatimes.com/topic/innovsource/news#1",
+     "title": "innovsource News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+     "date": "2026-09-19"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "e3cd47a8e49307b837431d38b883fbec5c4bcb10",
+   "queries": "Bengaluru electronics & IT Electronics Manufacturing",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "bengaluru_tech|software_it": {
+   "geo_type": "cluster",
+   "geo_id": "bengaluru_tech",
+   "state": "KA",
+   "sector": "software_it",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Bengaluru electronics & IT Computer Software & IT",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "kerala_cashew|cashew": {
+   "geo_type": "cluster",
+   "geo_id": "kerala_cashew",
+   "state": "KL",
+   "sector": "cashew",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Kollam cashew Cashew Processing",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "kerala_coir|jute_coir": {
+   "geo_type": "cluster",
+   "geo_id": "kerala_coir",
+   "state": "KL",
+   "sector": "jute_coir",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Alappuzha coir Jute & Coir",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "assam_tea|tea": {
+   "geo_type": "cluster",
+   "geo_id": "assam_tea",
+   "state": "AS",
+   "sector": "tea",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Assam tea gardens Tea Plantations",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "kolkata_jute|jute_coir": {
+   "geo_type": "cluster",
+   "geo_id": "kolkata_jute",
+   "state": "WB",
+   "sector": "jute_coir",
+   "analysis": "Limited local coverage. The articles report an acute raw jute shortage and spiralling prices in West Bengal, with at least 14 mills across the Hooghly industrial belt having suspended operations or facing severe production disruptions, and around 75,000 workers already affected. The last JBA rate is frozen at Rs 17,100 per quintal, trade is banned and the new crop is ten weeks away, so mills are asked to run without raw material. This threatens borrowers' repayment capacity and working capital, as mills cannot secure inputs or sustain output; millers seek release of residual stocks, emergency imports and a viable price corridor.",
+   "outlook_vs_macro": "Worse",
+   "why": "Raw jute shortage, suspended mills and frozen prices hit Hooghly belt harder than selective national view.",
+   "sources": [
+    {
+     "url": "https://www.business-standard.com/topic/jute-industry#1",
+     "title": "jute industry : Latest News Headlines, Videos and Photo Galleries on jute industry - Monday, October 26, 2026 | 05:35 PM ISTहिंदी में पढें",
+     "date": "2026-10-25"
+    },
+    {
+     "url": "https://www.business-standard.com/topic/jute#1",
+     "title": "Jute - Monday, October 26, 2026 | 06:05 PM ISTहिंदी में पढें",
+     "date": "2026-10-25"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "bc0166da8526feb5dced40a9e47579497b8978cf",
+   "queries": "Kolkata-Hooghly jute mills Jute & Coir",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "rajasthan_re|renewables": {
+   "geo_type": "cluster",
+   "geo_id": "rajasthan_re",
+   "state": "RJ",
+   "sector": "renewables",
+   "analysis": "Limited local coverage. The articles report that grids in Gujarat and Rajasthan are rejecting green power, with Rajasthan curtailment persisting despite the new Khetri-Narela transmission line and over 4 GW of capacity facing near-total shutdowns during peak solar hours. Nationally, over 42 GW awaits power supply contracts and stranded capacity has more than doubled to over 50 GW. For borrowers, rejected output and missing contracts weaken revenue and working capital, and developers warn of risks to project viability. Local conditions look worse than the national picture.",
+   "outlook_vs_macro": "Worse",
+   "why": "Persistent curtailment and rejected power in Rajasthan and Gujarat weaken revenues.",
+   "sources": [
+    {
+     "url": "https://economictimes.indiatimes.com/topic/SPDA/news#1",
+     "title": "SPDA News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+     "date": "2026-10-14"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "cde6311112aaea92b981426cb34d778c32f11236",
+   "queries": "Rajasthan / Gujarat (Khavda) renewables Renewables ",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "rajasthan_re|power": {
+   "geo_type": "cluster",
+   "geo_id": "rajasthan_re",
+   "state": "RJ",
+   "sector": "power",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Rajasthan / Gujarat (Khavda) renewables Power Generation & Distribution",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "namakkal_transport|transport_ops": {
+   "geo_type": "cluster",
+   "geo_id": "namakkal_transport",
+   "state": "TN",
+   "sector": "transport_ops",
+   "analysis": "Limited local coverage. For Namakkal truck operators, the key local issue is the closure of government sand quarries since the Enforcement Directorate began investigating alleged illegal sand mining in September 2023; truck owners and drivers say this has affected more than 55,000 truck owners and two lakh drivers and cleaners, and that vehicle owners are struggling to repay loans and meet expenses. The power loom crisis in Kumarapalayam and Pallipalayam adds pressure, as weavers sell looms as scrap and the textile chain fractures, reducing transport demand. Local conditions look worse than the unknown national macro view.",
+   "outlook_vs_macro": "Worse",
+   "why": "Quarry closures hit truck owners' loan repayment; textile slump cuts transport demand.",
+   "sources": [
+    {
+     "url": "https://timesofindia.indiatimes.com/city/salem/truck-owners-drivers-seek-immediate-reopening-of-govt-sand-quarries-in-tamil-nadu/articleshow/135322658.cms",
+     "title": "Truck owners, drivers seek immediate reopening of govt sand quarries in Tamil Nadu",
+     "date": "2026-10-28"
+    },
+    {
+     "url": "https://www.mirrornow.in/chennai-news/namakkal-power-loom-crisis-weavers-scrap-machinery-amid-rising-costs-article-156219836",
+     "title": "Namakkal Power Loom Crisis: Weavers Forced to Scrap Equipment Amid Rising Costs",
+     "date": "2026-09-23"
+    },
+    {
+     "url": "https://timesofindia.indiatimes.com/city/chennai/looms-fall-silent-in-kongu-nadu/articleshow/134467898.cms?utm_source=jionews&utm_medium=Referral&utm_campaign=jionews&comscorekw=jionews#1",
+     "title": "Looms fall silent in Kongu Nadu - Looms fall silent in Kongu Nadu",
+     "date": "2026-09-23"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "227fbce16e2ca276a4cb7e8c1d2d01dc79544e84",
+   "queries": "Namakkal truck operators Transport Operators ",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "JK|*": {
+   "geo_type": "state",
+   "geo_id": "JK",
+   "state": "JK",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Jammu and Kashmir industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "HP|*": {
+   "geo_type": "state",
+   "geo_id": "HP",
+   "state": "HP",
+   "sector": "*",
+   "analysis": "Limited local coverage. In Shoghi, Shimla district's only industrial area, 45 percent of industries are shut and 44 are fully closed or empty, with some owners taking subsidies and leaving. Borrowers face weak demand because there is no nearby market, raw material comes from other states at high cost, GST ended concessions, power costs Rs 5.25 per unit, and roads and water are poor. These raise working capital and repayment strain. Separately, the state faces an acute financial crunch, with LADF instalments and salary hikes delayed.",
+   "outlook_vs_macro": "Worse",
+   "why": "Closures, subsidy abuse, high input and power costs, poor infrastructure, and state financial crunch.",
+   "sources": [
+    {
+     "url": "https://www.amarujala.com/himachal-pradesh/ground-report-45-percent-of-industries-in-shoghi-shimla-are-shut-downsome-are-locked-up-2026-10-31",
+     "title": "सूरतेहाल: शिमला के शोघी में 45 फीसदी उद्योग बंद, लटके हैं ताले, सब्सिडी डकार कई उद्योगपतियों ने समेटा बोरिया-बिस्तर",
+     "date": "2026-10-30"
+    },
+    {
+     "url": "https://www.hinditvnews.co.in/himachal-%e0%a4%b6%e0%a5%8b%e0%a4%98%e0%a5%80-%e0%a4%ae%e0%a5%87%e0%a4%82-45-%e0%a4%89%e0%a4%a6%e0%a5%8d%e0%a4%af%e0%a5%8b%e0%a4%97-%e0%a4%ac%e0%a4%82%e0%a4%a6-%e0%a4%b8%e0%a4%ac%e0%a5%8d%e0%a4%b8/",
+     "title": "Himachal: शोघी में 45% उद्योग बंद, सब्सिडी हड़पकर कई उद्योगपतियों ने समेटा कारोबार - Hindi TV NEWS",
+     "date": "2026-10-30"
+    },
+    {
+     "url": "https://economictimes.indiatimes.com/topic/himachal-financial-crisis/news#1",
+     "title": "himachal financial crisis News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+     "date": "2026-10-25"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "9041201d737523c1d9733ffe1c668cef8087b14a",
+   "queries": "Himachal Pradesh industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "PB|*": {
+   "geo_type": "state",
+   "geo_id": "PB",
+   "state": "PB",
+   "sector": "*",
+   "analysis": "Limited local coverage. The only local article reports a Laghu Udyog Bharati delegation telling the Punjab Governor that micro and small industries face prolonged delays in disbursement of subsidies for cases approved in 2022 under PMEGP, with entrepreneurs bearing interest on bank loans while awaiting payment and further delays risking accumulated interest eroding the entire subsidy. The delegation also cited unscheduled power cuts, law-and-order issues and policy inconsistencies affecting the business environment. These matter for repayment capacity and working capital because delayed subsidy inflows and interest burden strain small borrowers' cash flows, while power cuts and policy inconsistency disrupt operations.",
+   "outlook_vs_macro": "Worse",
+   "why": "Subsidy delays, interest burden, power cuts and policy inconsistency pressure small firms.",
+   "sources": [
+    {
+     "url": "https://lubindia.com/news/laghu-udyog-bharati-delegation-meets-punjab-governor-raises-industry-challenges-and-subsidy-delays/",
+     "title": "Laghu Udyog Bharati Delegation Meets Punjab Governor, Raises Industry Challenges and Subsidy Delays – LUB – Laghu Udyog Bharati",
+     "date": "2026-10-08"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "30baa02902b5bef0254851c9e92db76b5e707b30",
+   "queries": "Punjab industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "CH|*": {
+   "geo_type": "state",
+   "geo_id": "CH",
+   "state": "CH",
+   "sector": "*",
+   "analysis": "Limited local coverage. The only article reports that Chandigarh lacks a formal MSME framework, with the MSMED Act's institutional provisions such as delayed payment adjudication through a Facilitation Council not adopted, despite applicability in neighbouring states. Industry bodies have raised parity concerns. The Minister states 89,119 MSMEs are registered in Chandigarh, 37,035 in services. Absent delayed payment protection and institutional support, local borrowers' working capital and repayment capacity face added risk from unpaid dues and weaker grievance redressal, though Udyam registration benefits remain available.",
+   "outlook_vs_macro": "Worse",
+   "why": "No local MSME framework or delayed payment protection weakens borrower working capital and repayment capacity.",
+   "sources": [
+    {
+     "url": "https://jagratilahar.com/english/politics/128676/Manish-Tewari-Questions-Msme-Framework-Non-Implementation-In-Chandigarh-In-Lok-Sabha",
+     "title": "Manish Tewari Questions Msme Framework Non Implementation In Chandigarh In Lok Sabha",
+     "date": "2026-10-03"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "0abfcd3b0feab798fc9a3f51c272bdd8baced7ac",
+   "queries": "Chandigarh industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "UK|*": {
+   "geo_type": "state",
+   "geo_id": "UK",
+   "state": "UK",
+   "sector": "*",
+   "analysis": "Limited local coverage. The only Uttarakhand-specific item reports power cuts of up to 15 hours after weak monsoon rainfall cut river flows and hydropower generation, with UPCL invoking force majeure and heavy industries in Kumaon and Garhwal hit hardest, while the utility works to secure extra central grid supply and restart shut hydropower and gas plants ahead of the festive season and Haridwar Ardh Kumbh. For MSME borrowers, prolonged outages disrupt production and raise working capital needs, weakening repayment capacity. Related articles on Himalayan water stress and extreme weather add risk.",
+   "outlook_vs_macro": "Worse",
+   "why": "Up to 15-hour power cuts hit industry hardest, disrupting production and working capital.",
+   "sources": [
+    {
+     "url": "https://economictimes.indiatimes.com/topic/Uttarakhand-crisis#1",
+     "title": "Uttarakhand crisis: Latest News & Videos, Photos about Uttarakhand crisis | The Economic Times - Page 1 - Business News›Uttarakhand crisis",
+     "date": "2026-10-12"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "95a2f984d3940a554d1d6e74d2ca58a0c1207e28",
+   "queries": "Uttarakhand industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "HR|*": {
+   "geo_type": "state",
+   "geo_id": "HR",
+   "state": "HR",
+   "sector": "*",
+   "analysis": "Limited local coverage. The articles report a three-day strike by Haryana electricity employees that shut factories in Gurugram, Faridabad, Karnal, Ambala, Panipat and Bahadurgarh, with around 5,000 manufacturing units affected and output worth around Rs 48-50 crore lost daily. Firms still owe wages, rent, loan instalments and raw material costs, and delayed deliveries risk losing customers and withholding of payments for months, hitting cash flows and loan repayments. Margins of 5-7% mean three lost days could push units into losses; many lack generators because of pollution restrictions.",
+   "outlook_vs_macro": "Worse",
+   "why": "Power strike halts production, strains cash flow and loan repayment for thin-margin MSMEs.",
+   "sources": [
+    {
+     "url": "https://www.etvbharat.com/hi/business/haryana-power-strike-impacts-msmes-india-sme-forum-president-vinod-kumar-on-production-crisis-hin26102400815#1",
+     "title": "हरियाणा बिजली हड़ताल से संकट में एमएसएमई उत्पादन, सप्लाई चेन ठप होने पर बोले इंडिया एसएमई फोरम के अध्यक्ष - हरियाणा बिजली हड़ताल से संकट में एमएसएमई उत्पादन, सप्लाई चेन ठप होने पर बोले इंडिया एसएमई फोरम के अध्यक्ष",
+     "date": "2026-10-23"
+    },
+    {
+     "url": "https://www.etvbharat.com/en/business/haryana-power-strike-hits-msmes-puts-production-and-supply-chains-at-risk-india-sme-forum-president-enn26102306819#1",
+     "title": "Haryana Power Strike Hits MSMEs, Puts Production And Supply Chains At Risk: India SME Forum President - Haryana Power Strike Hits MSMEs, Puts Production And Supply Chains At Risk: India SME Forum President",
+     "date": "2026-10-22"
+    },
+    {
+     "url": "https://www.thehindu.com/news/cities/Delhi/haryana-power-strike-disrupts-industries-units-report-outages/article71612291.ece#1",
+     "title": "Haryana: power strike disrupts industries, units report outages - Haryana: power strike disrupts industries, units report outages",
+     "date": "2026-10-22"
+    },
+    {
+     "url": "https://timesofindia.indiatimes.com/city/gurgaon/how-power-dept-strike-crippled-gurgaons-industrial-belt-factories-shut-workers-idle-industry-leaders-estimate-rs-20000-crore-in-losses/articleshow/135148394.cms#1",
+     "title": "How power dept strike crippled Gurgaon's industrial belt: Factories shut, workers idle; industry leaders estimate Rs 20,000 crore in losses - - News",
+     "date": "2026-10-22"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "83c15b5b905a8ce99b3114ca832cc5a087e26d4e",
+   "queries": "Haryana industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "DL|*": {
+   "geo_type": "state",
+   "geo_id": "DL",
+   "state": "DL",
+   "sector": "*",
+   "analysis": null,
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "rejected": "empty or contained a figure not in the articles",
+   "sig": "b46015d43d6f29c48ab84c8271adfc0f04eb79ed",
+   "queries": "Delhi industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "RJ|*": {
+   "geo_type": "state",
+   "geo_id": "RJ",
+   "state": "RJ",
+   "sector": "*",
+   "analysis": null,
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "rejected": "empty or contained a figure not in the articles",
+   "sig": "523628d8f8d1d526def683eba909f8c286887742",
+   "queries": "Rajasthan industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "UP|*": {
+   "geo_type": "state",
+   "geo_id": "UP",
+   "state": "UP",
+   "sector": "*",
+   "analysis": "Limited local coverage. The only Uttar Pradesh-specific report is a 2026 video saying the state's textile industry was hit hard by demonetisation, with factories shut because they could not pay daily wagers amid a cash crunch, and rural banks limiting withdrawals. Separately, Muzaffarnagar MSMEs have asked the government to change insolvency law so small suppliers are not treated as ordinary creditors when a large buyer fails, since unpaid dues are their working capital and wage money, and GST is paid before payment arrives. These matter for repayment capacity and working capital.",
+   "outlook_vs_macro": "Worse",
+   "why": "UP textile units shut on cash crunch; Muzaffarnagar MSME dues stuck in insolvency.",
+   "sources": [
+    {
+     "url": "https://www.business-standard.com/multimedia/video-gallery/general/watch-demonetisation-badly-hits-textile-industry-43508.htm#1",
+     "title": "Watch: Demonetisation badly hits textile industry - Wednesday, October 14, 2026 | 12:36 AM ISTहिंदी में पढें",
+     "date": "2026-10-13"
+    },
+    {
+     "url": "https://www.poojanews.com/muzaffarnagar-msme-insolvency-law-iia-payment-gst-relief/#respond",
+     "title": "Muzaffarnagar के उद्योगपतियों ने उठाई बड़ी आवाज: कंपनी डूबी तो MSME का पैसा क्यों डूबे? IIA ने सरकार से दिवाला कानून बदलने की मांग की - News & Features Network",
+     "date": "2026-09-08"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "4fc8f255ec6edca08dbc458560731c215ec4174b",
+   "queries": "Uttar Pradesh industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "BR|*": {
+   "geo_type": "state",
+   "geo_id": "BR",
+   "state": "BR",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Bihar industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "SK|*": {
+   "geo_type": "state",
+   "geo_id": "SK",
+   "state": "SK",
+   "sector": "*",
+   "analysis": "Limited local coverage. The only local article reports that the Sikkim government has welcomed Parliament's passage of the MSME Development (Amendment) Bill 2026, saying it will create a more supportive and business-friendly environment for MSMEs. The amendment seeks to modernise the legal framework and support MSME growth amid rapid technological and digital changes. The articles do not describe local trading conditions, demand, or working capital pressures, so they do not show how borrowers' repayment capacity is affected in Sikkim. No local evidence indicates conditions better or worse than the national macro view.",
+   "outlook_vs_macro": "In line",
+   "why": "Only a policy-welcome report; no local demand or repayment evidence.",
+   "sources": [
+    {
+     "url": "https://sikkimexpress.com/news-details/sikkim-govt-welcomes-msme-development-amendment-bill-2026#1",
+     "title": "Sikkim govt welcomes MSME Development (Amendment) Bill 2026 - Sikkimexpress - Thursday, Aug 13, 2026 22:00 [IST]",
+     "date": "2026-09-06"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "871e99add6055a3f51aca5b0d379050e68946ecd",
+   "queries": "Sikkim industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "AR|*": {
+   "geo_type": "state",
+   "geo_id": "AR",
+   "state": "AR",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Arunachal Pradesh industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "NL|*": {
+   "geo_type": "state",
+   "geo_id": "NL",
+   "state": "NL",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Nagaland industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "MN|*": {
+   "geo_type": "state",
+   "geo_id": "MN",
+   "state": "MN",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Manipur industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "MZ|*": {
+   "geo_type": "state",
+   "geo_id": "MZ",
+   "state": "MZ",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Mizoram industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "TR|*": {
+   "geo_type": "state",
+   "geo_id": "TR",
+   "state": "TR",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Tripura industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "ML|*": {
+   "geo_type": "state",
+   "geo_id": "ML",
+   "state": "ML",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Meghalaya industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "AS|*": {
+   "geo_type": "state",
+   "geo_id": "AS",
+   "state": "AS",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Assam industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "WB|*": {
+   "geo_type": "state",
+   "geo_id": "WB",
+   "state": "WB",
+   "sector": "*",
+   "analysis": "Limited local coverage. The articles centre on West Bengal's jute industry, where raw jute shortages and soaring prices have disrupted mills in the Hooghly industrial belt; around 14 mills have suspended work or cut production and nearly 75,000 workers face job losses or irregular employment. Mills report hoarding, delayed arrivals and rising costs, and seek buffer stock release and MSP enforcement. For MSME borrowers this squeezes working capital and repayment capacity through higher input costs and interrupted output. Separately, MSME units in four manufacturing hubs are reported shutting shops as global orders dry up.",
+   "outlook_vs_macro": "Worse",
+   "why": "Raw jute shortages, mill closures and weak export orders pressure MSME cash flow.",
+   "sources": [
+    {
+     "url": "https://economictimes.indiatimes.com/topic/raw-jute-shortage#1",
+     "title": "raw jute shortage: Latest News & Videos, Photos about raw jute shortage | The Economic Times - Page 1 - Business News›raw jute shortage",
+     "date": "2026-09-19"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "2ebb0a7e6670117d315b3df751657fd37bb94bb2",
+   "queries": "West Bengal industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "JH|*": {
+   "geo_type": "state",
+   "geo_id": "JH",
+   "state": "JH",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Jharkhand industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "OD|*": {
+   "geo_type": "state",
+   "geo_id": "OD",
+   "state": "OD",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Odisha industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "CG|*": {
+   "geo_type": "state",
+   "geo_id": "CG",
+   "state": "CG",
+   "sector": "*",
+   "analysis": "Limited local coverage. The only article reports that payments worth Rs 280.65 crore owed to micro and small enterprises in Chhattisgarh are stuck in disputes, with 890 cases pending. This directly hits borrowers' working capital, making it hard to buy raw material, pay wages and run daily business, and recovery efforts add cost. Buyers, including large firms and state and central government undertakings, are said to withhold payment on quality grounds. A new 210-day dispute process and a 15-day written objection rule may ease this, but the backlog remains.",
+   "outlook_vs_macro": "Worse",
+   "why": "Large stuck payments squeeze MSME working capital despite new dispute timelines.",
+   "sources": [
+    {
+     "url": "https://www.bhaskar.com/local/chhattisgarh/raipur/news/the-game-of-withholding-payments-under-the-guise-of-quality-dbp-138935498.html#1",
+     "title": "गुणवत्ता की आड़ में भुगतान रोकने का खेल: माल बिक गया फिर भी एमएसएमई के 280 करोड़ फंसे, अब 210 दिन में निपटाने होंगे विवाद - Raipur News - गुणवत्ता की आड़ में भुगतान रोकने का खेल:माल बिक गया फिर भी एमएसएमई के 280 करोड़ फंसे, अब 210 दिन में निपटाने होंगे विवाद",
+     "date": "2026-09-04"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "c09ead2e5ee064af475a2c5a5c4502d28858b1ee",
+   "queries": "Chhattisgarh industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "MP|*": {
+   "geo_type": "state",
+   "geo_id": "MP",
+   "state": "MP",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Madhya Pradesh industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "GJ|*": {
+   "geo_type": "state",
+   "geo_id": "GJ",
+   "state": "GJ",
+   "sector": "*",
+   "analysis": "Limited local coverage. Gujarat MSMEs face an eight-hour power shutdown from 4 PM to midnight on staggering holidays, with over 250 units in Navsari GIDC affected and SGCCI warning of losses in the thousands of crores and risk to nearly 25 lakh workers. In Surat textiles, yarn prices rose 40% to 45% since June while fabric demand is weak, unsold inventory is building and buyer payments are delayed, squeezing working capital. Some factories may shut looms about 15 days early. Delayed deliveries could trigger payment delays and deepen liquidity pressure, especially for MSMEs.",
+   "outlook_vs_macro": "Worse",
+   "why": "Power cuts and yarn cost squeeze threaten output, payments and working capital.",
+   "sources": [
+    {
+     "url": "https://www.newindianexpress.com/states/gujarat/2026/Oct/19/gujarat-power-crisis-hits-industry-before-diwali-eight-hour-cuts-threaten-rs-1000s-crores-loss#1",
+     "title": "Gujarat power crisis hits industry before Diwali: Eight-hour cuts threaten Rs 1,000s crores loss - Gujarat",
+     "date": "2026-10-18"
+    },
+    {
+     "url": "https://www.apparelviews.com/gujarat-textile-industry-faces-diwali-shutdown-risk",
+     "title": "Gujarat textile industry faces Diwali shutdown risk",
+     "date": "2026-10-15"
+    },
+    {
+     "url": "https://textilevaluechain.in/gujarat-textile-industry-faces-possible-early-diwali-shutdown-amid-45-yarn-price-rise",
+     "title": "Gujarat Textile Industry Faces Possible Early Diwali Shutdown Amid 45% Yarn Price Rise",
+     "date": "2026-10-15"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "fef09eed0801cc827ceb01b2b1b6b337f3fffe27",
+   "queries": "Gujarat industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "DN|*": {
+   "geo_type": "state",
+   "geo_id": "DN",
+   "state": "DN",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Dadra and Nagar Haveli and Daman & Diu industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "MH|*": {
+   "geo_type": "state",
+   "geo_id": "MH",
+   "state": "MH",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "ed29be16a4ecacc88584d84235dc216b6860ad53",
+   "queries": "Maharashtra industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "KA|*": {
+   "geo_type": "state",
+   "geo_id": "KA",
+   "state": "KA",
+   "sector": "*",
+   "analysis": "Limited local coverage. Karnataka's small industries, represented by KASSIA, are threatening to cease operations over a power tariff hike of Rs 2.89 per unit, which they say will break their backs, with reports of further rises in property tax and guidance value. The CM ruled out cutting power charges for industries, citing arrears and inherited dues of Rs 11,000 crore owed to Escoms. Banks are also criticised for not supporting central loan schemes, and 59-minute loans are called a non-starter. These cost and credit pressures weigh on MSME working capital and repayment capacity.",
+   "outlook_vs_macro": "Worse",
+   "why": "Tariff hike, tax rises and weak bank scheme support squeeze MSME costs and credit.",
+   "sources": [
+    {
+     "url": "https://economictimes.indiatimes.com/topic/kassia/news#1",
+     "title": "kassia News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+     "date": "2026-09-06"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "1281db615983d807fe16d1fbc89d217bc9aaecf6",
+   "queries": "Karnataka industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "GA|*": {
+   "geo_type": "state",
+   "geo_id": "GA",
+   "state": "GA",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Goa industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "KL|*": {
+   "geo_type": "state",
+   "geo_id": "KL",
+   "state": "KL",
+   "sector": "*",
+   "analysis": "Limited local coverage. Kerala's MSMEs face frequent, unscheduled power cuts that cut production, raise wastage and income loss; generators are unaffordable as diesel is costly, with one plywood unit spending about one lakh rupees monthly on generator fuel. Separately, West Asia tensions have stretched cardamom exporters' payment cycles from 15 days to over a month, with Gulf clearance taking 60 to 70 days, and prices above ₹3,000 per kilogram raising working capital needs; festival banking closures add liquidity strain. These hit repayment capacity through lost output and delayed receivables.",
+   "outlook_vs_macro": "Worse",
+   "why": "Power cuts cut output and income; export payment delays and higher working capital strain cash flow.",
+   "sources": [
+    {
+     "url": "https://insights.tridge.com/speaker-product-news-reports/KJLyFXpzJzgKuB1Gqsm5QUKHGgR43AVdqLHmRbphbeEHgszMd9RnqwnU",
+     "title": "West Asia Crisis Delays Payments, Strains Kerala’s Cardamom Export Sector | Tridge Insights",
+     "date": "2026-10-30"
+    },
+    {
+     "url": "https://www.deshabhimani.com/News/kerala/power-cut-impacts-hj1",
+     "title": "വൈദ്യുതി പ്രതിസന്ധി വലയ്ക്കുന്നു; പവർ പോകുന്ന ചെറുകിട വ്യവസായം, അന്നം മുട്ടിക്കുന്ന കട്ട്",
+     "date": "2026-09-23"
+    },
+    {
+     "url": "https://www.mangalam.com/news/detail/869221-news-details.html#1",
+     "title": "വൈദ്യുതി ഓഫീസിലേക്ക് മാര്ച്ച് നടത്തി - Monday, 21 September 2026",
+     "date": "2026-09-15"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "caae25bd3c6389fe65635042ae43da1a96c47a1b",
+   "queries": "Kerala industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  },
+  "TN|*": {
+   "geo_type": "state",
+   "geo_id": "TN",
+   "state": "TN",
+   "sector": "*",
+   "analysis": null,
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "rejected": "empty or contained a figure not in the articles",
+   "sig": "427937f2c74d749aaf99cb7f4dcbb7d89296946f",
+   "queries": "Tamil Nadu industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "PY|*": {
+   "geo_type": "state",
+   "geo_id": "PY",
+   "state": "PY",
+   "sector": "*",
+   "analysis": "Limited local coverage. No relevant local articles in the last 60 days.",
+   "outlook_vs_macro": null,
+   "why": null,
+   "sources": [],
+   "sig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "queries": "Puducherry industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "tier": "news_llm",
+   "window_days": 60
+  },
+  "TS|*": {
+   "geo_type": "state",
+   "geo_id": "TS",
+   "state": "TS",
+   "sector": "*",
+   "analysis": "Limited local coverage. The only local reporting concerns electricity: unscheduled power cuts are worrying small and medium-scale industries around Hyderabad, threatening production and raising operating costs, while diesel generators are described as expensive to reinstall and run. Industrialists are urging the State government to promote rooftop solar power. At a stakeholders' meeting in Hyderabad, the TGSPDCL CMD assured industrial representatives that electricity-related concerns would receive priority attention, with discussions covering power supply reliability, tariffs, delayed payment surcharges, solar generation, net metering and pending issues. Power reliability and energy costs bear directly on MSMEs' operating costs, working capital and repayment capacity, but the articles give no figures on output, credit or demand.",
+   "outlook_vs_macro": "Worse",
+   "why": "Unscheduled power cuts raise operating costs for Hyderabad MSMEs; no national macro view given.",
+   "sources": [
+    {
+     "url": "https://telanganatoday.com/tag/industrial-power-supply",
+     "title": "\"industrial-power-supply\"",
+     "date": "2026-10-22"
+    }
+   ],
+   "tier": "news_llm",
+   "sig": "5e1b1267784340011d69dd26296e00f3af086ebb",
+   "queries": "Telangana industry MSME",
+   "scanned_ist": "2026-11-01 15:43 IST",
+   "window_days": 60
+  }
+ },
+ "active": true,
+ "status": "Weekly scan via DeepSeek search (news_llm, unverified; never used in verdicts).",
+ "checked_ist": "2026-11-01 15:43 IST",
+ "last_run": {
+  "scanned": 89,
+  "skipped_fresh": 0,
+  "unchanged": 0,
+  "calls_used": 300,
+  "call_cap": 300,
+  "errors": []
+ }
 }
