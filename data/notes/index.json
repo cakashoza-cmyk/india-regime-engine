@@ -1446,6 +1446,12 @@
 "score": 27,
 "at": "2026-11-01 23:57 IST"
 },
+"OD|od_jharsuguda|aluminium_products": {
+"call": "caution",
+"base": "caution",
+"score": 45,
+"at": "2026-11-02 01:18 IST"
+},
 "OD|od_jharsuguda|sponge_iron": {
 "call": "avoid",
 "base": "avoid",
