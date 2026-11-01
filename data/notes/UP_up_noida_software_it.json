@@ -1,0 +1,146 @@
+{
+ "key": "up_noida|software_it",
+ "state": "UP",
+ "city": "up_noida",
+ "ind": "software_it",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:01 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "OK to lend selectively in Noida IT services — pursue mid-size domestic-focused and GCC-support firms with 90-day-or-better receivables; avoid US-concentrated billable-hour shops and sub-scale startups until the AI city moves past in-principle approval.",
+ "title": "Noida Computer Software & IT: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Noida software firm sells skilled people and code, not inventory — cash turns on the receivable cycle, not on stock.** Revenue is billed monthly against contracts; the cost base is salaries, bench time, subcontractor fees and office rent, with almost no raw material. Pricing power sits with firms that own a product or a sticky managed-service contract; pure staff-augmentation shops price at the client's rate card. **So when a proposal lands, check the contract mix first: fixed-price and managed-service work earns margin, time-and-material work earns only utilisation.**\n\n## What has changed now\n**The local news is a land and policy signal, not yet a revenue signal.** Noida Authority has given in-principle approval to an AI city-cum-business park with at least 50 per cent of built-up area reserved for IT and knowledge-based services [1], aimed at GCCs, IT firms and start-ups [2], under the UP Private Business Park Development Scheme, 2025, with bids still to be invited for a master developer [3]. **Nothing here is built or leased yet — treat it as a 2027-plus pipeline, not 2026 cash flow.** Peer results are mixed: InfoBeans grew 22 per cent in constant currency but profit growth of 16 per cent trailed revenue of 30 per cent, with rising 90-day receivables [4]; TCS held margins while its stock is down 30.3 per cent year-to-date as AI undermines billable-hour work [5]; Cognizant's Q3 beat lifted the Nifty IT index nearly 2 per cent [6]; Sasken grew revenue 25.6 per cent to Rs 321 crores with EBITDA margin up 700 basis points [7]. **Read together: growth is real for focused mid-caps, but the billable-hour model is being repriced.** Rating methodology notes (undated, treat as background) flag US revenue concentration and visa norms as structural risks [9]. **Take monthly: receivable ageing by client, billed-versus-collected, employee count and attrition, and top-five client concentration.** Structure as a working-capital line sized to the receivable cycle, not a term loan for office fit-out; take a charge on receivables and a personal guarantee. **If receivables cross 90 days, ask for the client name and contract; if one client exceeds 30 per cent of revenue, cap exposure.**\n\n## Early-warning signs\n**Watch unbilled revenue rising faster than billed revenue — that is work done but not accepted, and it is the first place a software lender loses money.** Watch bench strength and salary delays; watch a shift from fixed-price to time-and-material without a margin explanation. **Sources say little about Noida-specific borrower data, so lean on these first-principles checks plus the peer numbers above.**"
+ ],
+ "watch": [
+  [
+   "Receivable ageing (monthly)",
+   "90+ days crosses 25% of book -> freeze new drawdown and ask for client-wise ledger"
+  ],
+  [
+   "Top-client concentration (quarterly)",
+   "Single client above 30% of revenue -> cap exposure and seek diversification plan"
+  ],
+  [
+   "Employee count and attrition (monthly)",
+   "Headcount falls over 10% in a quarter -> re-underwrite contract pipeline"
+  ],
+  [
+   "Unbilled revenue (quarterly)",
+   "Unbilled grows faster than billed -> ask for acceptance evidence and milestone proof"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "AI city is only in-principle approval; peer results mixed but mid-caps growing.",
+ "articles": [
+  {
+   "title": "Noida plans AI city and business park to attract global tech companies - Desi Metros",
+   "url": "https://desimetros.com/noida-ai-city-business-park-authority-approval-uttar-pradesh-tech-news/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Noida Plans AI City to Attract GCCs, IT Firms and Startups",
+   "url": "https://www.siliconindia.com/news/startups/noida-plans-ai-city-to-attract-gccs-it-firms-and-startups-nid-242897-cid-19.html",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Noida to develop AI city with GCCs, IT firms and start-ups",
+   "url": "https://telecomlive.in/web/2026/10/30/noida-to-develop-ai-city-with-gccs-it-firms-and-start-ups/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "InfoBeans: Real 22% Growth While India's IT Giants Stall, at ~17x - the Margin Proof Isn't Here Yet",
+   "url": "https://www.ainvest.com/news/infobeans-real-22-growth-india-giants-stall-17x-margin-proof-isn-2610/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's TCS rises as margins steady despite AI investments",
+   "url": "https://dev.theedgemalaysia.com/node/821176",
+   "date": "2026-10-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Nifty IT surges nearly 2% after Cognizant Q3 earnings beat; Infosys, TCS, Coforge rally",
+   "url": "https://www.etnownews.com/markets/nifty-it-jumps-cognizant-q3-earnings-coforge-infosys-tcs-lead-gains-article-156433218",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sasken Technologies Ltd (BOM:532663) (Q2 2027) Earnings Call Highlights: Revenue Surges 25. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/sasken-technologies-ltd-bom532663-q2-2027-earnings-call-highlights-revenue-surges-25--4919886",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The rating exercise is primarily focused on assessing the future debt servicing capability of a company",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/858~IT%20Services,%20Rating%20Methodology,%20Jul%202023%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Software%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Uttar Pradesh None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

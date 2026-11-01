@@ -1,0 +1,151 @@
+{
+ "key": "tn_chennai|software_it",
+ "state": "TN",
+ "city": "tn_chennai",
+ "ind": "software_it",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution on Chennai IT services lending: the data pack gives no score, and local news is of layoffs, so lend only to niche mid-tier firms with contracted order books and clean receivables; avoid body-shop staffing and single-client vendors.",
+ "title": "Chennai Computer Software & IT: a note to the credit manager",
+ "narrative": [
+  "Pricing power belongs to firms with proprietary platforms or long-term managed-service contracts; pure staffing firms price-take and lose the first seat when a client cuts. The rating methodology flags exactly this: revenue is overseas, so US spend and visa norms drive collections [9], and working capital is the gap between receivables and payables [11]. ## What has changed now\n**The local signal is layoffs, not growth: a Chennai delivery manager's anonymous account describes 12 people dismissed in 15 minutes, with no warnings [1][2].** That is unverified and company-unnamed, so treat it as sentiment, not a credit fact. The peer set is split: InfoBeans grew 22% in constant currency while giants stalled, but profit growth of 16% trailed revenue of 30% and 90-day receivables rose [4]; TCS held margins while its stock is down 30.3% year-to-date as AI erodes billable hours [5]; Sasken grew revenue 25.6% to Rs. 321 crores with software services up 34% and EBITDA margin up 700 basis points [7]. Cognizant's Q3 beat lifted the whole Nifty IT index nearly 2% [6]. So when a proposal lands, check which of these two profiles the borrower resembles; if revenue is growing but receivable days are stretching, ask why the cash is not following the invoice. ## Where the growth is\n**Pursue Chennai firms riding the AI-infrastructure build-out: Vultr is unveiling India's largest AMD AI factory in Chennai on 2 November 2026 [3].** That pulls in sovereign-cloud and AI-compute services vendors, plus productised software firms with recurring licences. Pursue Sasken-type niche engineering-services exporters with 25.6% revenue growth and expanding margins [7], and mid-tier firms with 22%-type constant-currency growth and diversified clients [4]. Avoid pure bench-staffing vendors, single-client dependencies, and firms whose only differentiator is headcount. The rating criteria are blunt: geographic concentration in the US is a risk when spend slows [9]. ## How to grow safely\n**Structure against the receivable, not the pitch.** Take monthly: ageing of receivables by client, billed-versus-unbilled revenue, top-five client concentration, attrition of billable staff, and monthly bank statements. Where receivables cross 90 days [4], convert part of the limit to a bill-discounted facility against confirmed invoices. Collect from customer: exact receivable days, client concentration percentages, and USD hedging policy, none of which the sources give.",
+  "## Early-warning signs\n**Watch the payroll-to-collection gap first: salaries are fixed monthly, collections are not.** A borrower stretching payables while receivables age is funding operations from suppliers, and that ends badly. Second, watch senior attrition; the Chennai account shows middle managers absorbing decisions made above them [1], and departing delivery heads take client relationships. Third, watch a sudden shift from project to pure time-and-material billing, which is where AI pressure shows first [5]. The data pack carries no score for this sector, so the call rests on these fundamentals, not a number."
+ ],
+ "watch": [
+  [
+   "Receivable ageing by client (monthly)",
+   "Over 90 days on any single client -> shift that exposure to bill discounting and cap fresh limits"
+  ],
+  [
+   "Top-five client concentration (quarterly)",
+   "Above half of revenue in one client -> ask for contract tenure and add a client-diversification covenant"
+  ],
+  [
+   "Billable headcount and senior attrition (monthly)",
+   "Delivery-head exits or bench rising -> freeze enhancement and re-check order book"
+  ],
+  [
+   "Billed versus unbilled revenue (monthly)",
+   "Unbilled share climbing -> ask for milestone proof and reduce limit to billed book"
+  ],
+  [
+   "Bank statements and salary run (monthly)",
+   "Salary paid from overdraft rather than collections -> stop fresh disbursal and review"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Chennai layoff account and AI pressure on billable hours outweigh mixed peer results.",
+ "articles": [
+  {
+   "title": "'Fire Them By Friday': Chennai IT Manager's Anonymous Account Hits A Nerve",
+   "url": "https://www.ndtvprofit.com/business/it-layoffs-fire-them-by-friday-chennai-it-managers-anonymous-account-hits-a-nerve-12266149",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "12 नाम, 15 मिनट और 'शुक्रवार तक निकालो' का फरमान: टीम को नौकरी से निकालने के आदेश से टूटा IT मैनेजर; ऑफिस की पार्किंग में रो पड़ा",
+   "url": "https://www.zeenews.com/trending/article-chennai-it-manager-ordered-to-fire-twelve-employees-by-friday-emotional-reddit-post-layoffs-3414619",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Meet Counterpoint Research at Vultr Unveils India’s Largest AMD AI Factory",
+   "url": "https://counterpointresearch.com/en/insights/meet-at-vultr-unveils-indias-largest-amd-ai-factory",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "InfoBeans: Real 22% Growth While India's IT Giants Stall, at ~17x - the Margin Proof Isn't Here Yet",
+   "url": "https://www.ainvest.com/news/infobeans-real-22-growth-india-giants-stall-17x-margin-proof-isn-2610/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's TCS rises as margins steady despite AI investments",
+   "url": "https://dev.theedgemalaysia.com/node/821176",
+   "date": "2026-10-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Nifty IT surges nearly 2% after Cognizant Q3 earnings beat; Infosys, TCS, Coforge rally",
+   "url": "https://www.etnownews.com/markets/nifty-it-jumps-cognizant-q3-earnings-coforge-infosys-tcs-lead-gains-article-156433218",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sasken Technologies Ltd (BOM:532663) (Q2 2027) Earnings Call Highlights: Revenue Surges 25. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/sasken-technologies-ltd-bom532663-q2-2027-earnings-call-highlights-revenue-surges-25--4919886",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The rating exercise is primarily focused on assessing the future debt servicing capability of a company",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/858~IT%20Services,%20Rating%20Methodology,%20Jul%202023%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Software%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Tamil Nadu None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

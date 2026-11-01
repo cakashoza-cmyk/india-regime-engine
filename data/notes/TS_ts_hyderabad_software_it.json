@@ -1,0 +1,142 @@
+{
+ "key": "ts_hyderabad|software_it",
+ "state": "TS",
+ "city": "ts_hyderabad",
+ "ind": "software_it",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:00 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively to Hyderabad IT services and captives with contracted, multi-client revenue and clean receivables; the data pack gives no score, so treat this as a Caution call and decline single-client, bench-heavy firms.",
+ "title": "Hyderabad Computer Software & IT: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Software services sell people's hours and fixed-price project delivery, so cash comes from billing utilisation, not from assets.** A Hyderabad firm rents space, buys laptops and connectivity, and converts engineers into invoices; value sits in client contracts and people, not plant. Infosys is adding a 1.1 million sq ft block with 10,000 seats supporting 13,000 employees at Pocharam, taking the campus to seven blocks and about 4.58 million sq ft on 450 acres [1][2][3]. So when a proposal lands, check debtor days and the top-client share first; if one client is above a third of revenue, ask for the contract term and whether billing is time-and-material or fixed-price. **Capex is fit-out and seats, not machinery, so lease liabilities and deposits matter more than term loans.** Collect from customer: debtor days, top-client concentration, bench percentage, and lease commitments. ## What has changed\n**AI is compressing billable hours across India's US$315-billion software services sector, and TCS still trades 30.3% down year-to-date despite steady margins [5].** Peer results are mixed, not broken: Cognizant's Q3 beat lifted the Nifty IT index nearly 2% [6], Sasken grew revenue 25.6% to Rs 321 crores with software services up 34% and EBITDA margin up 700 basis points [7], while InfoBeans grew 22% in constant currency but profit growth of 16% trailed revenue of 30% [4]. **Read this as a split market: mid-tier specialists are winning share while giants stall.** The rating methodology sources are undated and old; treat them as principle, not current fact [8][9]. ## Who to pursue, who to avoid\n**Pursue mid-tier specialists with 20%+ growth, diversified clients and improving margins, and vendors feeding the expanding Hyderabad campuses [1][2][7].** Avoid single-client body shops, firms with falling utilisation, and any borrower whose revenue depends on one US client without a signed renewal. **Structure as a receivables-backed working-capital line with a drawing power against verified invoices, not a clean term loan.** Take monthly: ageing of receivables beyond 90 days, client-wise billing, employee count and attrition, and bank statement inflows against invoiced revenue. ## Early-warning signs\n**Watch for receivable days stretching while revenue grows, which is how a growing firm runs out of cash [4].** If debtor days cross 90 and the top client delays, cut drawing power and ask for the renewal letter. If monthly billing falls two months running with headcount flat, treat it as a demand problem, not seasonality. If the borrower cannot show client-wise collections, stop enhancement until they do."
+ ],
+ "watch": [
+  [
+   "Receivable ageing (monthly)",
+   "Debtor days beyond 90 -> reduce drawing power and demand renewal proof from top client"
+  ],
+  [
+   "Headcount and utilisation (monthly)",
+   "Bench above 15% or headcount falling with flat billing -> shift to invoice-backed only"
+  ],
+  [
+   "Top-client concentration (quarterly)",
+   "Single client above one-third of revenue -> require contract term and diversify or decline"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Hyderabad campus expansion offsets mixed peer results; no data score, so Caution.",
+ "articles": [
+  {
+   "title": "Infosys Hyderabad Pocharam campus: New 1.1 million sq ft block adds 10,000 seats, supports 13,000 employees | Company Business News",
+   "url": "https://www.livemint.com/companies/news/infosys-hyderabad-pocharam-campus-new-1-1-million-sq-ft-block-adds-10-000-seats-supports-13-000-employees-11793440276906.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Infosys expands Pocharam Development Center in Hyderabad",
+   "url": "https://www.moneyworks4me.com/company/news/index/id/845120",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Telangana: Infosys Pocharam campus expands by 11 lakh sq ft, 10K seats",
+   "url": "https://www.newindianexpress.com/states/telangana/2026/Oct/31/telangana-infosys-pocharam-campus-expands-by-11-lakh-sq-ft-10k-seats",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "InfoBeans: Real 22% Growth While India's IT Giants Stall, at ~17x - the Margin Proof Isn't Here Yet",
+   "url": "https://www.ainvest.com/news/infobeans-real-22-growth-india-giants-stall-17x-margin-proof-isn-2610/",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's TCS rises as margins steady despite AI investments",
+   "url": "https://dev.theedgemalaysia.com/node/821176",
+   "date": "2026-10-08",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Nifty IT surges nearly 2% after Cognizant Q3 earnings beat; Infosys, TCS, Coforge rally",
+   "url": "https://www.etnownews.com/markets/nifty-it-jumps-cognizant-q3-earnings-coforge-infosys-tcs-lead-gains-article-156433218",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Sasken Technologies Ltd (BOM:532663) (Q2 2027) Earnings Call Highlights: Revenue Surges 25. ... By GuruFocus",
+   "url": "https://ca.investing.com/news/company-news/sasken-technologies-ltd-bom532663-q2-2027-earnings-call-highlights-revenue-surges-25--4919886",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "The rating exercise is primarily focused on assessing the future debt servicing capability of a company",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/858~IT%20Services,%20Rating%20Methodology,%20Jul%202023%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria contacts",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/Rating%20Criteria%20for%20Software%20Industry.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Telangana None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
