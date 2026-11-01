@@ -7,7 +7,8 @@ CREATE TABLE IF NOT EXISTS raw_ingest (
     fetched_at TIMESTAMPTZ DEFAULT NOW(),
     release_date DATE,
     is_verified BOOLEAN DEFAULT FALSE,
-    ok BOOLEAN DEFAULT TRUE              -- added: false = failed pull (error payload, no value)
+    ok BOOLEAN DEFAULT TRUE,             -- added: false = failed pull (error payload, no value)
+    source_tier VARCHAR(20)              -- official_primary|official_secondary|market_data|news_llm
 );
 CREATE TABLE IF NOT EXISTS indicators (
     id BIGSERIAL PRIMARY KEY,
@@ -51,5 +52,7 @@ CREATE TABLE IF NOT EXISTS flip_levels (
     flip_direction VARCHAR(10),
     is_flipped BOOLEAN DEFAULT FALSE,
     tier SMALLINT,
-    last_checked TIMESTAMPTZ
+    last_checked TIMESTAMPTZ,
+    last_calibrated DATE,
+    calibration_note TEXT
 );

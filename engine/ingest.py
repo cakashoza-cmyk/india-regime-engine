@@ -12,22 +12,28 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 import refresh_data as rd  # noqa: E402  (reuse proven fetchers)
 from engine import db  # noqa: E402
-from engine.config import YAHOO  # noqa: E402
+from engine.config import YAHOO, tier_for  # noqa: E402
 from engine import search_adapter as sa  # noqa: E402
 from engine import dbie  # noqa: E402
 from engine import release_calendar as cal  # noqa: E402
 from engine import official  # noqa: E402
 from engine import auto_macro  # noqa: E402
+IST = cal.IST
 
 IST = timezone(timedelta(hours=5, minutes=30))
 MANUAL = Path(__file__).resolve().parent / "manual_inputs.json"
 
 
 def _store(conn, source, indicator, payload, ok, release_date=None, verified=False):
+    tier = tier_for(source, payload if isinstance(payload, dict) else None)
+    if tier == "news_llm":
+        verified = False  # spec 1.1: news/LLM is never verified
+    if isinstance(payload, dict):
+        payload = {**payload, "source_tier": tier, "data_period": payload.get("as_of")}
     return db.q(conn,
-        "INSERT INTO raw_ingest (source, indicator, payload, fetched_at, release_date, is_verified, ok) VALUES (?,?,?,?,?,?,?)",
+        "INSERT INTO raw_ingest (source, indicator, payload, fetched_at, release_date, is_verified, ok, source_tier) VALUES (?,?,?,?,?,?,?,?)",
         (source, indicator, db.jdump(payload), datetime.now(timezone.utc).isoformat(),
-         release_date, bool(verified), bool(ok)))
+         release_date, bool(verified), bool(ok), tier))
 
 
 # Yahoo is only a cross-check where an official/exchange source exists (see ingest_official).
@@ -114,17 +120,27 @@ def ingest_official(conn, log):
 
 
 AUTO_KEYS = {"cpi_headline", "food_inflation", "iip_yoy", "gdp_yoy", "capacity_util"}  # manual rows become cross-checks
+# capacity_util removed from TE: TE labelled RBI's Q4FY26 77.4% as the latest quarter (RBI's latest is Q1FY27 74.6%).
 TE_ROLE = {"cpi_headline": "check", "food_inflation": "check", "credit_growth": "check", "india10y": "check",
-           "iip_yoy": "primary", "gdp_yoy": "primary", "capacity_util": "primary"}
+           "iip_yoy": "primary", "gdp_yoy": "primary"}
 
 
 def ingest_auto(conn, log):
     """Automatic macro: MOSPI API+PDF (CPI/food), CCIL headless (10Y), RBI MPC stance, Trading Economics."""
-    try:
-        cpi = auto_macro.mospi_cpi()
-    except Exception as e:  # noqa: BLE001
-        cpi = {"error": f"mospi: {e}"}
+    now = datetime.now(IST)
+    cal.HOLIDAYS = official.nse_holidays() or cal.HOLIDAYS
+    have = db.q(conn, "SELECT id FROM raw_ingest WHERE source='mospi' AND indicator='cpi_headline' AND ok AND fetched_at > ? LIMIT 1",
+                ((datetime.now(timezone.utc) - timedelta(days=35)).isoformat(),), one=True)
+    if cal.should_pull("cpi_headline", now) or not have:
+        try:
+            cpi = auto_macro.mospi_cpi()  # MoSPI PDF first; PIB has no machine-readable listing (see README)
+        except Exception as e:  # noqa: BLE001
+            cpi = {"error": f"mospi: {e}"}
+    else:
+        cpi = {"skip": f"before this month's CPI release ({cal.release_date('cpi_headline', now.year, now.month)} 16:00 IST); last pull kept"}
     for key in ("cpi_headline", "food_inflation"):
+        if "skip" in cpi:
+            log.append((key, "mospi api+pdf", True, cpi["skip"])); continue
         r = cpi.get(key) if "error" not in cpi else None
         _store(conn, "mospi", key, dict(r, role="primary") if r else {"error": cpi.get("error")}, bool(r), r and r["as_of"], bool(r))
         log.append((key, "mospi api+pdf", bool(r), None if r else cpi.get("error")))
@@ -137,6 +153,21 @@ def ingest_auto(conn, log):
         r["role"] = role
         _store(conn, "tradingeconomics", key, r, ok, r.get("as_of"), ok)
         log.append((key, f"tradingeconomics ({role})", ok, r.get("error")))
+    # OBICUS (RBI publication page), probe forward from the last found publication id
+    last = db.q(conn, "SELECT payload FROM raw_ingest WHERE source='rbi_obicus' AND ok ORDER BY id DESC LIMIT 1", one=True)
+    sid = (db.jload(last["payload"]).get("publication_id") if last else None) or official.OBICUS_SEED_ID
+    recent = last and db.q(conn, "SELECT id FROM raw_ingest WHERE source='rbi_obicus' AND ok AND fetched_at > ? LIMIT 1",
+                           ((datetime.now(timezone.utc) - timedelta(hours=20)).isoformat(),), one=True)
+    try:
+        r = official.rbi_obicus(sid, 1) if recent else official.rbi_obicus(sid, 40)  # full forward probe once a day
+    except Exception as e:  # noqa: BLE001
+        r = {"error": f"obicus: {e}"}
+    ok = r.get("value") is not None and not r.get("error")
+    if ok:
+        r["expected_quarter"] = official.expected_obicus_quarter(datetime.now(IST).date())
+        r["role"] = "primary"
+    _store(conn, "rbi_obicus", "capacity_util", r, ok, r.get("as_of"), ok)
+    log.append(("capacity_util", "rbi obicus", ok, r.get("error")))
     try:
         r = auto_macro.ccil_10y()
     except Exception as e:  # noqa: BLE001
@@ -156,7 +187,16 @@ def ingest_auto(conn, log):
 
 
 def ingest_flows_10y(conn, log):
-    fii, dii, w = rd.fetch_fii_dii()
+    try:
+        api = official.nse_fii_dii()  # primary: NSE fiidiiTradeReact (cookie warm-up)
+    except Exception as e:  # noqa: BLE001
+        api = {}
+        log.append(("fii_net", "nse api", False, f"fiidiiTradeReact: {e}"))
+    for key in ("fii_net", "dii_net"):
+        if key in api:
+            _store(conn, "nse_api", key, {**api[key], "role": "primary"}, True, api[key]["as_of"], True)
+            log.append((key, "nse api", True, None))
+    fii, dii, w = rd.fetch_fii_dii()  # fallback (kept)
     for key, r in (("fii_net", fii), ("dii_net", dii)):
         ok = r.get("value") is not None
         _store(conn, "nse", key, r, ok, r.get("as_of"), ok)
@@ -223,33 +263,30 @@ def ingest_language(conn, log, force=False):
         for j in jobs:
             log.append((j, "deepseek", False, "DEEPSEEK_API_KEY not set — skipped"))
         return
+    week_ago = (datetime.now(timezone.utc) - timedelta(days=7)).isoformat()
     for j in jobs:
-        try:
-            res = sa.policy_language(j)
-            _store(conn, "deepseek", j, res, res.get("stance") is not None, None, False)
-            log.append((j, "deepseek", res.get("stance") is not None, res.get("error")))
-        except Exception as e:  # noqa: BLE001
-            _store(conn, "deepseek", j, {"error": str(e)}, False)
-            log.append((j, "deepseek", False, str(e)))
+        if not force and db.q(conn, "SELECT id FROM raw_ingest WHERE source='deepseek' AND indicator=? AND fetched_at > ? LIMIT 1",
+                              (f"llm_{j}", week_ago), one=True):
+            log.append((j, "deepseek", True, "ran within 7 days - skipped (spec 4.4)"))
+            continue
+        res, err = None, None
+        for _attempt in range(3):  # 1 try + at most 2 retries
+            try:
+                res = sa.policy_language(j); break
+            except Exception as e:  # noqa: BLE001
+                err = str(e)
+        res = res or {"error": err}
+        rule = db.q(conn, "SELECT payload FROM raw_ingest WHERE source='rbi_mpc' AND indicator='rbi_stance' AND ok ORDER BY id DESC LIMIT 1", one=True)
+        if rule and res.get("stance"):
+            res["agrees_with_rule_based"] = sa.normalise_stance(db.jload(rule["payload"]).get("stance")) == res["stance"]
+        # stored under llm_* so it never overrides the rule-based stance (cross-check only, display only)
+        _store(conn, "deepseek", f"llm_{j}", res, res.get("stance") is not None, None, False)
+        log.append((j, "deepseek (cross-check)", res.get("stance") is not None, res.get("error")))
 
 
 def ingest_deepseek_numbers(conn, log):
-    """Macro numbers via DeepSeek Search+Fetch when no official manual print. Stored is_verified=False;
-    becomes verified only if it equals a manual/structured value. Unverified numbers never feed scoring."""
-    if not os.environ.get("DEEPSEEK_API_KEY"):
-        log.append(("deepseek_numbers", "deepseek", False, "DEEPSEEK_API_KEY not set — skipped"))
-        return
-    when = datetime.now(IST).strftime("%B %Y")
-    for key in [k for k in sa.NAMES if k not in ("cpi_headline", "cpi_core", "food_inflation")]:  # never CPI via LLM
-        try:
-            r = sa.get_indicator_via_deepseek(key, when)
-        except Exception as e:  # noqa: BLE001
-            r = {"value": None, "error": f"deepseek: {e}"}
-        man = db.q(conn, "SELECT payload FROM raw_ingest WHERE indicator=? AND source='manual' AND ok ORDER BY id DESC LIMIT 1", (key,), one=True)
-        mv = db.jload(man["payload"]).get("value") if man else None
-        verified = r.get("value") is not None and mv is not None and abs(float(r["value"]) - float(mv)) < 1e-6
-        _store(conn, "deepseek", key, r, r.get("value") is not None, r.get("as_of"), verified)
-        log.append((key, "deepseek (unverified)" if not verified else "deepseek=manual", r.get("value") is not None, r.get("error")))
+    """Spec 4.4: numeric indicators never go through DeepSeek (structured sources only)."""
+    return
 
 
 def run(conn, force_language=False) -> list:

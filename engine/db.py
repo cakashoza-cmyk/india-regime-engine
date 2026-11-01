@@ -33,6 +33,12 @@ def init(conn) -> None:
             cur.execute(sql)
     else:
         conn.executescript(_sqlite_schema(sql))
+    for tbl, col, typ in (("raw_ingest", "source_tier", "VARCHAR(20)"), ("flip_levels", "last_calibrated", "DATE"),
+                          ("flip_levels", "calibration_note", "TEXT")):
+        try:  # migrate existing DBs
+            conn.cursor().execute(f"ALTER TABLE {tbl} ADD COLUMN {col} {typ}")
+        except Exception:  # noqa: BLE001  column exists
+            if IS_PG: conn.rollback()
     conn.commit()
 
 

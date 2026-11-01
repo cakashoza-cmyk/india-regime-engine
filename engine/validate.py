@@ -20,7 +20,7 @@ SANITY = {
 TOL = {"nifty": ("rel", .005), "nifty_bank": ("rel", .005), "nifty_auto": ("rel", .005), "nifty_metal": ("rel", .005),
        "india_vix": ("rel", .02), "us10y": ("abs", .06), "brent": ("rel", .02), "usdinr_ref": ("rel", .01),
        "india10y": ("abs", .05), "repo_rate": ("abs", 1e-6)}
-OFFICIAL_SOURCES = {"rbi", "nse_archive", "treasury", "rbi_press", "nse", "mospi", "ccil", "rbi_mpc"}
+OFFICIAL_SOURCES = {"rbi_obicus", "nse_api", "rbi", "nse_archive", "treasury", "rbi_press", "nse", "mospi", "ccil", "rbi_mpc"}
 OFFICIAL_DOMAINS = ("mospi.gov.in", "pib.gov.in", "rbi.org.in", "gst.gov.in", "nseindia.com", "treasury.gov")
 
 

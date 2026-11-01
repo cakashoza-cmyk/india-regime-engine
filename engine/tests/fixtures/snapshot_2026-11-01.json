@@ -1,0 +1,259 @@
+{
+ "note": "frozen snapshot of run 20261101T134213-1b9bc7 (1 Nov 2026) for deterministic regression test 6.5",
+ "indicators": {
+  "gdp_yoy": {
+   "dial": "growth",
+   "value": 7.8,
+   "prior_value": 7.8,
+   "direction": 0,
+   "score": 0,
+   "weight": 2,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-06-30"
+  },
+  "iip_yoy": {
+   "dial": "growth",
+   "value": 6.7,
+   "prior_value": 7.8,
+   "direction": -1,
+   "score": -1,
+   "weight": 1,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-09-30"
+  },
+  "gst_yoy": {
+   "dial": "growth",
+   "value": 14.7,
+   "prior_value": 14.8,
+   "direction": -1,
+   "score": -1,
+   "weight": 1,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-09-30"
+  },
+  "cpi_headline": {
+   "dial": "inflation",
+   "value": 5.54,
+   "prior_value": 4.83,
+   "direction": 1,
+   "score": -1,
+   "weight": 2,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-09-30"
+  },
+  "food_inflation": {
+   "dial": "inflation",
+   "value": 7.74,
+   "prior_value": 5.97,
+   "direction": 1,
+   "score": -1,
+   "weight": 1,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-09-30"
+  },
+  "brent": {
+   "dial": "inflation",
+   "value": 113.43000030517578,
+   "prior_value": 110.80000305175781,
+   "direction": 1,
+   "score": -1,
+   "weight": 1,
+   "is_stale": false,
+   "source_tier": "market_data",
+   "data_period": "2026-10-30"
+  },
+  "repo_rate": {
+   "dial": "liquidity",
+   "value": 5.5,
+   "prior_value": 5.25,
+   "direction": 1,
+   "score": -1,
+   "weight": 2,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-10-07"
+  },
+  "india10y": {
+   "dial": "liquidity",
+   "value": 7.3977,
+   "prior_value": null,
+   "direction": 0,
+   "score": 0,
+   "weight": 1,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-10-30"
+  },
+  "fii_net": {
+   "dial": "liquidity",
+   "value": 3598.54,
+   "prior_value": null,
+   "direction": 0,
+   "score": 1,
+   "weight": 1,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-10-30"
+  },
+  "credit_growth": {
+   "dial": "liquidity",
+   "value": 18.23,
+   "prior_value": 19.38,
+   "direction": -1,
+   "score": -1,
+   "weight": 1,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-10-15"
+  },
+  "rbi_stance_score": {
+   "dial": "liquidity",
+   "value": -1,
+   "prior_value": null,
+   "direction": 0,
+   "score": -1,
+   "weight": 2,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-10-07"
+  },
+  "usdinr_ref": {
+   "dial": "liquidity",
+   "value": 95.2492,
+   "prior_value": null,
+   "direction": 0,
+   "score": 0,
+   "weight": 1,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-10-30"
+  },
+  "us10y": {
+   "dial": "liquidity",
+   "value": 4.94,
+   "prior_value": 4.98,
+   "direction": -1,
+   "score": 1,
+   "weight": 1,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-10-30"
+  },
+  "dxy": {
+   "dial": "liquidity",
+   "value": 101.87999725341797,
+   "prior_value": 102.04000091552734,
+   "direction": -1,
+   "score": null,
+   "weight": 1,
+   "is_stale": false,
+   "source_tier": "market_data",
+   "data_period": "2026-10-30"
+  },
+  "nifty": {
+   "dial": "vote",
+   "value": 23053.1,
+   "prior_value": 22936.75,
+   "direction": 1,
+   "score": 1,
+   "weight": 1,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-10-30"
+  },
+  "nifty_bank": {
+   "dial": "vote",
+   "value": 54686.95,
+   "prior_value": 54909.65,
+   "direction": -1,
+   "score": -1,
+   "weight": 1,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-10-30"
+  },
+  "breadth_200dma": {
+   "dial": "vote",
+   "value": 32.0,
+   "prior_value": null,
+   "direction": 0,
+   "score": null,
+   "weight": 1,
+   "is_stale": false,
+   "source_tier": "market_data",
+   "data_period": "2026-10-30"
+  },
+  "india_vix": {
+   "dial": "fragility",
+   "value": 15.3,
+   "prior_value": 15.11,
+   "direction": 1,
+   "score": -1,
+   "weight": 1,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-10-30"
+  },
+  "dii_net": {
+   "dial": "fragility",
+   "value": -817.51,
+   "prior_value": null,
+   "direction": 0,
+   "score": 0,
+   "weight": 0,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-10-30"
+  },
+  "capacity_util": {
+   "dial": "display",
+   "value": 74.6,
+   "prior_value": 77.4,
+   "direction": -1,
+   "score": 0,
+   "weight": 0,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "Q1FY27"
+  },
+  "ois_1y": {
+   "dial": "display",
+   "value": 6.72,
+   "prior_value": 6.18,
+   "direction": 1,
+   "score": 0,
+   "weight": 0,
+   "is_stale": false,
+   "source_tier": "news_llm",
+   "data_period": "2026-10-30"
+  },
+  "nifty_auto": {
+   "dial": "stage",
+   "value": 25422.7,
+   "prior_value": 25645.6,
+   "direction": -1,
+   "score": -1,
+   "weight": 0,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-10-30"
+  },
+  "nifty_metal": {
+   "dial": "stage",
+   "value": 11784.9,
+   "prior_value": 11848.45,
+   "direction": -1,
+   "score": -1,
+   "weight": 0,
+   "is_stale": false,
+   "source_tier": "official_primary",
+   "data_period": "2026-10-30"
+  }
+ },
+ "stance": "calibrated tightening"
+}

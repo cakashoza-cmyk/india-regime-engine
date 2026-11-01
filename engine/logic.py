@@ -116,7 +116,7 @@ def confirm(prev_label, label):
 
 
 def dial_score(rows):
-    live = [r for r in rows if r.get("value") is not None and r["weight"] and not r.get("is_stale")]
+    live = [r for r in rows if r.get("value") is not None and r["weight"] and not r.get("is_stale") and r.get("score") is not None]
     w = sum(r["weight"] for r in live)
     if not w:
         return None
@@ -157,6 +157,17 @@ def flips(ind, levels):
         out.append({"indicator": k, "current_value": v, "flip_level": lv["level"], "flip_direction": lv["direction"],
                     "is_flipped": f, "tier": lv["tier"], "stale": bool(r and r.get("is_stale"))})
     return out
+
+
+def active_flips(fl):
+    return [f["indicator"] for f in fl if f["is_flipped"]]
+
+
+def invalidation_status(inv):
+    sts = [i["status"] for i in inv]
+    if "triggered" in sts:
+        return "triggered"
+    return "pending_data" if any(s.startswith("unknown") or s == "stale" for s in sts) else "none"
 
 
 def gap(regime, vote):
@@ -203,7 +214,7 @@ def invalidations(ind):
     for k, dirn, lvl, label in INVALIDATIONS:
         r = ind.get(k)
         v = r.get("value") if r else None
-        st = "unknown" if v is None else "unknown (stale)" if r.get("is_stale") else ("triggered" if (v > lvl if dirn == "above" else v < lvl) else "not triggered")
+        st = "unknown" if v is None else "stale" if r.get("is_stale") else ("triggered" if (v > lvl if dirn == "above" else v < lvl) else "not triggered")
         out.append({"indicator": k, "rule": label, "value": v, "status": st})
     return out
 

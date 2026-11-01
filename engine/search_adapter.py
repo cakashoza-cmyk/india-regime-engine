@@ -49,67 +49,86 @@ def chat_json(system, user):
     return json.loads(r["choices"][0]["message"]["content"])
 
 
+# ---- Spec 4.3 mandatory prompt (data extraction, never analysis)
+SYSTEM_PROMPT = ("You are a data extraction tool, not an analyst. Do not infer numbers not explicitly in the text. "
+                 "Return JSON only. If the value is not present, return null.")
+OFFICIAL = ("rbi.org.in", "mospi.gov.in", "pib.gov.in")
+STANCES = ("tightening", "neutral", "easing")
+
+
+def normalise_stance(s):
+    s = (s or "").lower()
+    if "tighten" in s or "withdrawal" in s:
+        return "tightening"
+    if "accommodat" in s or "eas" in s:
+        return "easing"
+    return "neutral" if "neutral" in s else None
+
+
+def verify_keywords(keywords, text):
+    """Spec 4.2: every keyword the LLM cites must appear verbatim in the source text."""
+    kws = [k for k in (keywords or []) if isinstance(k, str) and k.strip()]
+    return bool(kws) and all(k.lower() in text.lower() for k in kws)
+
+
 def policy_language(job: str) -> dict:
+    """RBI stance as JSON {stance, keywords[]}; cross-check only (rule-based MPC parse stays primary).
+    Always news_llm / unverified, never scored."""
     from datetime import date
-    my = date.today().strftime("%B %Y")
-    q = QUERIES[job].format(my=my)
-    results = search(q)
-    results = sorted(results, key=lambda r: (-(r.get("authority") or 0), -(r.get("rerank_score") or 0)))
+    q = QUERIES[job].format(my=date.today().strftime("%B %Y"))
+    results = sorted(search(q), key=lambda r: (-(r.get("authority") or 0), -(r.get("rerank_score") or 0)))
     if not results:
         return {"query": q, "stance": None, "error": "no search results"}
     top = results[0]
     try:
         page = fetch(top["url"]).get("content", "")[:12000]
-    except Exception as e:  # noqa: BLE001
+    except Exception:  # noqa: BLE001
         page = top.get("summary", "")
-    out = chat_json(
-        "Classify RBI policy language. Reply JSON {stance: one of tightening|neutral|accommodative|withdrawal_of_accommodation|unknown, "
-        "tone: hawkish|neutral|dovish|unknown, quote: exact sentence from the text supporting it, meeting_date: as stated or null}. "
-        "Do not output any numbers you did not read verbatim. If unsure use unknown.",
-        f"Source: {top['url']}\n\n{page}")
-    stance = out.get("stance")
-    if stance == "withdrawal_of_accommodation":
-        stance = "tightening"
-    return {"query": q, "source_url": top["url"], "title": top.get("title"), "stance": stance if stance != "unknown" else None,
-            "tone": out.get("tone"), "quote": out.get("quote"), "meeting_date": out.get("meeting_date"),
-            "evidence": "ai-language", "error": None if stance not in (None, "unknown") else "stance unknown"}
+    out = chat_json(SYSTEM_PROMPT,
+        "From the text, return JSON {\"stance\": \"tightening\"|\"neutral\"|\"easing\"|null, \"keywords\": [exact phrases "
+        f"copied from the text that state the stance]}}.\nSource: {top['url']}\n\n{page}")
+    stance = out.get("stance") if out.get("stance") in STANCES else None
+    ok = verify_keywords(out.get("keywords"), page)
+    return {"query": q, "source_url": top["url"], "stance": stance if ok else None, "keywords": out.get("keywords"),
+            "keywords_verbatim": ok, "evidence": "llm cross-check (display only)",
+            "error": None if stance and ok else ("keywords not verbatim in source" if stance else "stance null")}
 
 
-OFFICIAL = ("rbi.org.in", "mospi.gov.in", "pib.gov.in")
-NAMES = {"cpi_headline": "CPI inflation", "cpi_core": "core CPI inflation", "food_inflation": "food inflation CFPI",
-         "iip_yoy": "IIP growth", "gdp_yoy": "GDP growth", "gst_yoy": "GST collections growth",
-         "credit_growth": "bank credit growth", "capacity_util": "OBICUS capacity utilisation"}
+def extract_number(indicator: str, url: str, text: str) -> dict:
+    """Spec 4.3 extraction call. Result is NEVER official_primary: official domain -> official_secondary,
+    else news_llm; always is_verified=False and not scored until a structured source matches."""
+    out = chat_json(SYSTEM_PROMPT,
+        f"Extract: indicator={indicator}. Return JSON {{\"indicator\": str, \"value\": number|null, \"period\": str|null, "
+        f"\"source_url\": str, \"is_official\": bool}}.\nSource: {url}\n\n{text[:12000]}")
+    v = out.get("value")
+    if v is not None and str(v) not in text:
+        v = None  # not explicitly in the text
+    tier = "official_secondary" if any(d in url for d in OFFICIAL) else "news_llm"
+    return {"indicator": indicator, "value": v, "period": out.get("period"), "source_url": url,
+            "source_tier": tier, "is_verified": False, "scored": False}
 
 
-def get_indicator_via_deepseek(indicator: str, when: str, numeric: bool = True) -> dict:
-    """Spec section 5. Returns a raw payload; caller stores it with is_verified=False."""
-    name = NAMES.get(indicator, indicator)
-    base = f"{name} India {when} actual official"
-    hits, errors = [], []
-    for site in OFFICIAL + (None,):
-        q = (f"site:{site} " + base if site else base)[:128]
-        try:
-            hits = search(q, count=5)  # spec bug fixed: count, not max_results
-        except Exception as e:  # noqa: BLE001
-            errors.append(f"search {q!r}: {e}")
-            continue
-        off = [r for r in hits if any(d in r.get("url", "") for d in OFFICIAL)]
-        if off:
-            hits = off
-            break
-        if site is None and not numeric and hits:
-            hits = hits[:1]  # language indicators may use top result
-            break
-        hits = []
-    if not hits:
-        return {"indicator": indicator, "value": None, "error": "; ".join(errors) or "no official-domain result", "evidence": "ai"}
-    top = hits[0]
-    page = fetch(top["url"])
-    out = chat_json(
-        "Extract one Indian macro data point from an official page. Reply JSON {value: number|null, unit, release_date, "
-        "reference_period, prior: number|null, context: one verbatim line}. Use null if the number is not explicitly in the text.",
-        f"Indicator: {name}\nSource: {top['url']}\n\n{(page.get('content') or '')[:3000]}")
-    return {"indicator": indicator, "value": out.get("value"), "prior": out.get("prior"), "unit": out.get("unit"),
-            "as_of": out.get("release_date"), "reference_period": out.get("reference_period"), "context": out.get("context"),
-            "source_url": top["url"], "fetch_via": page.get("via", "deepseek-fetch"), "evidence": "ai-unverified",
-            "error": None if out.get("value") is not None else "value not found on page"}
+def consensus(values: list[dict], tol=0.1) -> dict:
+    """Spec 4.2: consensus CPI/GDP needs >=2 independent sources (distinct domains) that agree."""
+    from urllib.parse import urlparse
+    by = {}
+    for r in values:
+        if r.get("value") is not None:
+            by.setdefault(urlparse(r["source_url"]).netloc, float(r["value"]))
+    vals = list(by.values())
+    if len(vals) < 2:
+        return {"value": None, "reason": "fewer than 2 independent sources", "sources": list(by)}
+    if max(vals) - min(vals) > tol:
+        return {"value": None, "reason": f"sources disagree {vals}", "sources": list(by)}
+    return {"value": round(sum(vals) / len(vals), 2), "sources": list(by), "source_tier": "news_llm", "scored": False}
+
+
+def commentary(topic: str, text: str, url: str) -> dict:
+    """Capex commentary / earnings revisions: news_llm, display only, never scored."""
+    out = chat_json(SYSTEM_PROMPT, f"Summarise {topic} statements as JSON {{\"points\": [exact sentences]}}.\nSource: {url}\n\n{text[:12000]}")
+    return {"topic": topic, "points": out.get("points"), "source_url": url, "source_tier": "news_llm", "scored": False}
+
+
+# Numeric indicators never go through DeepSeek (spec 4.4).
+def get_indicator_via_deepseek(*a, **k):
+    raise RuntimeError("disabled by spec 4.4: numeric indicators come only from structured sources")

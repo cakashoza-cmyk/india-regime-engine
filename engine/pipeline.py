@@ -27,6 +27,20 @@ def _missing(ind_rows, log):
             for k in INDICATORS if k not in have]
 
 
+def flip_level_warnings(today=None):
+    from datetime import date
+    from engine.config import FLIP_LEVELS, FLIP_STALE_DAYS
+    today = today or date.today()
+    out = []
+    for k, lv in FLIP_LEVELS.items():
+        age = (today - date.fromisoformat(lv["last_calibrated"])).days
+        if age > FLIP_STALE_DAYS:
+            out.append(f"FLIP_LEVEL_STALE: {k} last calibrated {lv['last_calibrated']} ({age} days)")
+    for w in out:
+        print("WARNING", w)
+    return out
+
+
 def export(conn, snap, ind_rows, log, alert_res):
     latest = {
         "generated_at_ist": datetime.now(IST).strftime("%Y-%m-%d %H:%M IST"),
@@ -37,8 +51,9 @@ def export(conn, snap, ind_rows, log, alert_res):
         "gap_description": snap["gap_description"], "sizing_recommendation": snap["sizing_recommendation"],
         "invalidation_conditions": snap["invalidation_conditions"], "detail": snap["detail"],
         "indicators": [{k: r.get(k) for k in ("indicator", "dial", "value", "prior_value", "direction", "score", "weight",
-                        "as_of", "is_stale", "stale_since", "source", "source_url", "status", "checks", "note")} for r in ind_rows],
+                        "as_of", "is_stale", "stale_since", "source", "source_url", "status", "checks", "note", "source_tier", "data_period", "survey_quarter", "diagnostics")} for r in ind_rows],
         "missing": _missing(ind_rows, log),
+        "warnings": flip_level_warnings(),
         "source_log": [{"indicator": k, "source": s, "ok": ok, "error": e} for k, s, ok, e in log],
         "alert": alert_res,
     }
@@ -55,6 +70,7 @@ def export(conn, snap, ind_rows, log, alert_res):
 
 def run(force_language=False, skip_ingest=False):
     conn = db.connect(); db.init(conn)
+    flip_level_warnings()  # startup check (spec 3.3)
     run_id = datetime.now(IST).strftime("%Y%m%dT%H%M%S") + "-" + uuid.uuid4().hex[:6]
     log = [] if skip_ingest else ingest.run(conn, force_language)
     ind_rows = score.run(conn, run_id)

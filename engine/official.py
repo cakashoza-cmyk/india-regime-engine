@@ -176,3 +176,105 @@ def breadth_nifty50() -> dict:
     return {"value": round(100 * above / n, 1), "prior": None, "as_of": as_of, "source_url": src,
             "note": f"% of Nifty 50 above 200-DMA ({above}/{n}); constituents NSE, prices Yahoo",
             "missing": missing}
+
+
+# ---------- RBI OBICUS (capacity utilisation), official publication page ----------
+OBICUS_SEED_ID = 24087  # discovery start (publication id of the Oct-2026 release); not a value
+RBI_PUB = "https://www.rbi.org.in/scripts/PublicationsView.aspx?id={}"
+
+
+def parse_obicus(text):
+    i = text.find("Table 1: Capacity Utilisation")
+    if i < 0:
+        raise ValueError("Table 1 not found")
+    seg = text[i:i + 1500].split("Note:")[0]
+    rows = re.findall(r"Q([1-4]):(\d{4})-(\d{2})\s+\d+\s+(\d+\.\d)\s+(\d+\.\d)", seg)
+    if not rows:
+        raise ValueError("no quarter rows")
+    q, y1, y2, cu, cusa = rows[-1]
+    prior = float(rows[-2][3]) if len(rows) > 1 else None
+    fy_end = int(y1) + 1
+    qend = {1: (int(y1), 6), 2: (int(y1), 9), 3: (int(y1), 12), 4: (fy_end, 3)}[int(q)]
+    last = (date(qend[0], qend[1] % 12 + 1, 1) if qend[1] < 12 else date(qend[0] + 1, 1, 1)) - timedelta(days=1)
+    return {"value": float(cu), "prior": prior, "cu_sa": float(cusa), "survey_quarter": f"Q{q}FY{str(fy_end)[2:]}",
+            "as_of": last.isoformat()}
+
+
+def expected_obicus_quarter(today: date) -> str:
+    """Latest quarter whose OBICUS result should be out: quarter end + ~100 days (RBI releases
+    Q4FY26 on 5 Aug, Q1FY27 on 7 Oct 2026)."""
+    y, m = today.year, today.month
+    ends = []
+    for yy in (y - 1, y):
+        for mm in (3, 6, 9, 12):
+            d = date(yy, mm, 30 if mm in (6, 9) else 31)
+            if d + timedelta(days=100) <= today:
+                ends.append(d)
+    d = max(ends)
+    q = {6: 1, 9: 2, 12: 3, 3: 4}[d.month]
+    fy = d.year + 1 if d.month > 3 else d.year
+    return f"Q{q}FY{str(fy)[2:]}"
+
+
+def rbi_obicus(start_id: int | None = None, span: int = 60) -> dict:
+    """Probe RBI publication ids from the last known OBICUS release forward; keep the newest match."""
+    best, last_id = None, None
+    sid = start_id or OBICUS_SEED_ID
+    misses = 0
+    for pid in range(sid, sid + span):
+        t, err = _get(RBI_PUB.format(pid))
+        if not t or "PublicationsView" not in t and "Reserve Bank" not in t:
+            misses += 1
+            if misses > 15:
+                break
+            continue
+        misses = 0
+        s = _text(t)
+        if "Capacity Utilisation Survey on the Manufacturing sector" in s and "Table 1: Capacity Utilisation" in s:
+            try:
+                best, last_id = parse_obicus(s), pid
+            except ValueError:
+                pass
+    if not best:
+        return {"error": "no OBICUS publication found from id %d" % sid}
+    return {**best, "source_url": RBI_PUB.format(last_id), "publication_id": last_id,
+            "note": f"RBI OBICUS capacity utilisation {best['survey_quarter']} (CU-SA {best['cu_sa']})"}
+
+
+# ---------- NSE FII/DII API (cookie warm-up) ----------
+def nse_fii_dii() -> dict:
+    import http.cookiejar, urllib.request
+    cj = http.cookiejar.CookieJar()
+    op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
+    h = {**UA, "Accept": "application/json, text/plain, */*", "Referer": "https://www.nseindia.com/reports/fii-dii"}
+    try:
+        op.open(urllib.request.Request("https://www.nseindia.com/", headers=UA), timeout=20).read()
+    except Exception:  # noqa: BLE001  (warm-up often returns 403 but still sets cookies)
+        pass
+    url = "https://www.nseindia.com/api/fiidiiTradeReact"
+    raw = op.open(urllib.request.Request(url, headers=h), timeout=20).read()
+    out = {}
+    for r in json.loads(raw):
+        key = "fii_net" if r["category"].upper().startswith("FII") else "dii_net" if r["category"].upper() == "DII" else None
+        if key:
+            out[key] = {"value": float(r["netValue"]), "prior": None,
+                        "as_of": datetime.strptime(r["date"], "%d-%b-%Y").date().isoformat(), "source_url": url,
+                        "note": f"NSE provisional cash market {r['category']} net (buy {r['buyValue']} / sell {r['sellValue']} cr)"}
+    return out
+
+
+# ---------- NSE trading holidays (for release rollover) ----------
+def nse_holidays() -> set[str]:
+    import http.cookiejar, urllib.request
+    try:
+        cj = http.cookiejar.CookieJar()
+        op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
+        try:
+            op.open(urllib.request.Request("https://www.nseindia.com/", headers=UA), timeout=15).read()
+        except Exception:  # noqa: BLE001
+            pass
+        raw = op.open(urllib.request.Request("https://www.nseindia.com/api/holiday-master?type=trading",
+                                             headers={**UA, "Referer": "https://www.nseindia.com/"}), timeout=15).read()
+        return {datetime.strptime(h["tradingDate"], "%d-%b-%Y").date().isoformat() for h in json.loads(raw).get("CM", [])}
+    except Exception:  # noqa: BLE001
+        return set()

@@ -31,3 +31,30 @@ def language_jobs_due(d: date, force: bool = False) -> list[str]:
 
 def cpi_release_passed(d: date) -> bool:
     return d.day >= 12
+
+
+# ---- Spec 1.2: CPI/IIP release time 16:00 IST; weekend/holiday rollover to next business day.
+from datetime import datetime, time, timedelta, timezone  # noqa: E402
+IST = timezone(timedelta(hours=5, minutes=30))
+RELEASE_DAY = {"cpi_headline": 12, "food_inflation": 12, "cpi_core": 12, "iip_yoy": 28}
+RELEASE_TIME = time(16, 0)
+HOLIDAYS: set[str] = set()  # filled from NSE holiday-master at runtime (official.nse_holidays); weekend rollover always applies
+
+
+def release_date(key: str, year: int, month: int, holidays: set[str] | None = None) -> date:
+    hol = HOLIDAYS if holidays is None else holidays
+    d = date(year, month, RELEASE_DAY[key])
+    while d.weekday() >= 5 or d.isoformat() in hol:
+        d += timedelta(days=1)
+    return d
+
+
+def should_pull(key: str, now, holidays: set[str] | None = None) -> bool:
+    """True once this month's official release (16:00 IST, rolled over) has happened."""
+    if isinstance(now, str):
+        now = datetime.fromisoformat(now)
+    if now.tzinfo is None:
+        now = now.replace(tzinfo=IST)
+    now = now.astimezone(IST)
+    rd = release_date(key, now.year, now.month, holidays)
+    return now >= datetime.combine(rd, RELEASE_TIME, tzinfo=IST)

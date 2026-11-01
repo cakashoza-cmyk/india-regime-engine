@@ -88,7 +88,7 @@ def test_marginal_driver_and_close_call():
 def test_invalidations():
     ind = {"cpi_headline": {"value": 6.5, "is_stale": False}, "us10y": {"value": 4.0, "is_stale": True}}
     st = {x["indicator"]: x["status"] for x in logic.invalidations(ind)}
-    assert st["cpi_headline"] == "triggered" and st["us10y"] == "unknown (stale)" and st["capacity_util"] == "unknown"
+    assert st["cpi_headline"] == "triggered" and st["us10y"] == "stale" and st["capacity_util"] == "unknown"
 
 
 def test_brent_active_contract_rolls_on_expiry_day():
@@ -151,3 +151,88 @@ def test_classify_trace_case_full_label():
     r = classify_regime(-0.50, -1.00, -0.13, rbi_driver_inflation=True, rates_biting_signals=2)
     assert r["regime"] == "Stagflation" and r["sub_label"] == "transitional" and r["confidence"] == "medium_high"
     assert r["full_label"] == "Stagflation (transitional) with neutral liquidity (central bank behind curve)"
+
+
+# ---------------- Spec Module 6 (final) ----------------
+import json as _json
+from pathlib import Path as _Path
+
+
+def test_6_2_flip_levels_recalibrated():
+    from engine.config import get_flip_level, evaluate_flip, FLIP_LEVELS
+    assert get_flip_level("cpi_headline") == 6.0
+    assert get_flip_level("us10y") == 5.5
+    assert evaluate_flip("cpi_headline", 5.54)["flipped"] is False
+    assert evaluate_flip("us10y", 4.94)["flipped"] is False
+    assert all("last_calibrated" in v and "calibration_note" in v for v in FLIP_LEVELS.values())
+
+
+def test_6_3_ois_news_llm_excluded():
+    from engine.score import gate_score
+    s, diag = gate_score("ois_1y", -1, "news_llm", "unverified", False)
+    assert s is None and "excluded: unverified" in diag
+    s, diag = gate_score("india10y", -1, "official_secondary", "verified", False)
+    assert s is None and "excluded: unverified" in diag  # Tier-1 needs official_primary/market_data
+    assert gate_score("india10y", -1, "official_primary", "verified", False) == (-1, "scored")
+    assert gate_score("cpi_headline", -1, "official_primary", "verified", True)[0] is None
+
+
+def test_6_4_should_pull_cpi_1600_ist_with_rollover():
+    from engine.release_calendar import should_pull, release_date
+    from datetime import date
+    assert should_pull("cpi_headline", "2026-11-12T15:59+05:30", holidays=set()) is False
+    assert should_pull("cpi_headline", "2026-11-12T16:05+05:30", holidays=set()) is True
+    assert release_date("cpi_headline", 2026, 12, set()) == date(2026, 12, 14)  # 12 Dec 2026 = Saturday
+    assert should_pull("cpi_headline", "2026-12-12T16:05+05:30", holidays=set()) is False
+    assert should_pull("cpi_headline", "2026-12-14T16:05+05:30", holidays=set()) is True
+    assert release_date("cpi_headline", 2026, 11, {"2026-11-12"}) == date(2026, 11, 13)  # holiday rollover
+
+
+def test_6_5_regression_fixed_snapshot():
+    fx = _json.loads((_Path(__file__).parent / "fixtures" / "snapshot_2026-11-01.json").read_text())
+    ind = fx["indicators"]
+    from engine.config import FLIP_LEVELS
+    scores = {d: logic.dial_score([dict(r) for r in ind.values() if r["dial"] == d]) for d in ("growth", "inflation", "liquidity")}
+    cr = logic.classify_regime(scores["growth"], scores["inflation"], scores["liquidity"],
+                               rbi_driver_inflation=logic.rbi_driver_is_inflation(fx["stance"]),
+                               rates_biting_signals=logic.rates_biting(ind))
+    st, _ = logic.stage(ind)
+    fl = logic.flips(ind, FLIP_LEVELS)
+    inv = logic.invalidations(ind)
+    assert cr["regime"] in ("Stagflation", "Tightening")
+    assert logic.invalidation_status(inv) in ("none", "pending_data")
+    assert st == 0
+    assert "capacity_util" not in logic.active_flips(fl)
+
+
+def test_obicus_parse_and_freshness():
+    from engine.official import parse_obicus, expected_obicus_quarter
+    from datetime import date
+    t = "Table 1: Capacity Utilisation (per cent) Quarter No. of companies CU CU-SA Q4:2025-26 1010 77.4 75.0 Q1:2026-27 994 74.6 76.3 Note: x"
+    r = parse_obicus(t)
+    assert (r["value"], r["prior"], r["survey_quarter"], r["as_of"]) == (74.6, 77.4, "Q1FY27", "2026-06-30")
+    assert expected_obicus_quarter(date(2026, 11, 1)) == "Q1FY27"
+    assert expected_obicus_quarter(date(2027, 1, 20)) == "Q2FY27"
+    stale = {"capacity_util": {"value": 77.4, "is_stale": True}}
+    assert logic.invalidations(stale)[0]["status"] == "stale"
+
+
+def test_llm_keyword_verbatim_and_consensus():
+    from engine import search_adapter as sa
+    assert sa.verify_keywords(["calibrated tightening"], "The MPC decided on a calibrated tightening stance")
+    assert not sa.verify_keywords(["hawkish pivot"], "The MPC decided on a calibrated tightening stance")
+    assert sa.consensus([{"value": 5.5, "source_url": "https://a.com/x"}])["value"] is None
+    assert sa.consensus([{"value": 5.5, "source_url": "https://a.com/x"}, {"value": 5.52, "source_url": "https://b.com/y"}])["value"] == 5.51
+    assert "not an analyst" in sa.SYSTEM_PROMPT
+    import pytest
+    with pytest.raises(RuntimeError):
+        sa.get_indicator_via_deepseek("cpi_headline")
+
+
+def test_tier_mapping():
+    from engine.config import tier_for
+    assert tier_for("rbi_obicus") == "official_primary"
+    assert tier_for("yahoo") == "market_data"
+    assert tier_for("tradingeconomics") == "official_secondary"
+    assert tier_for("manual", {"source_url": "https://economictimes.com/x"}) == "news_llm"
+    assert tier_for("manual", {"source_url": "https://www.mospi.gov.in/x"}) == "official_primary"

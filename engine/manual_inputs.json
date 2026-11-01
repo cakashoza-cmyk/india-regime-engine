@@ -69,14 +69,13 @@
     "as_of": "2026-10-30",
     "verified": false,
     "source_url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-buckle-for-fourth-straight-month-on-oils-climb/articleshow/135361502.cms",
-    "note": "FBIL MIBOR-OIS 1Y as reported by ET; FBIL site is JS-only so not machine-verified. Display only."
+    "note": "FBIL MIBOR-OIS 1Y as reported by ET; FBIL site is JS-only so not machine-verified. Display only.",
+    "source_tier": "news_llm"
   },
   "capacity_util": {
     "value": null,
     "prior": null,
     "as_of": null,
-    "source_url": null,
-    "note": "RBI OBICUS %",
-    "reason": "Fetched automatically from Trading Economics (RBI OBICUS); no RBI OBICUS release in the current RBI press list to cross-check."
+    "reason": "automatic: RBI OBICUS publication scrape (rbi_obicus). Manual row intentionally null."
   }
 }

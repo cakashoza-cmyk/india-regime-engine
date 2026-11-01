@@ -16,11 +16,15 @@ def run(conn, run_id):
     now = datetime.now(timezone.utc).isoformat()
     for f in fl:
         db.q(conn, "DELETE FROM flip_levels WHERE indicator=?", (f["indicator"],))
-        db.q(conn, "INSERT INTO flip_levels (indicator, current_value, flip_level, flip_direction, is_flipped, tier, last_checked) VALUES (?,?,?,?,?,?,?)",
-             (f["indicator"], f["current_value"], f["flip_level"], f["flip_direction"], f["is_flipped"], f["tier"], now))
+        lv = FLIP_LEVELS[f["indicator"]]
+        db.q(conn, "INSERT INTO flip_levels (indicator, current_value, flip_level, flip_direction, is_flipped, tier, last_checked, last_calibrated, calibration_note) VALUES (?,?,?,?,?,?,?,?,?)",
+             (f["indicator"], f["current_value"], f["flip_level"], f["flip_direction"], f["is_flipped"], f["tier"], now,
+              lv.get("last_calibrated"), lv.get("calibration_note")))
     t1 = sum(1 for f in fl if f["tier"] == 1 and f["is_flipped"])
     t2 = [f for f in fl if f["tier"] == 2 and f["is_flipped"] is not None]
     t2_conf = bool(t2) and sum(1 for f in t2 if f["is_flipped"]) / len(t2) >= 0.6
-    d = s["detail"]; d.update(stage_trail=trail, gap_type=gap_type, flips=fl)
+    inv = logic.invalidations(ind)
+    d = s["detail"]; d.update(stage_trail=trail, gap_type=gap_type, flips=fl, active_flips=logic.active_flips(fl),
+                              invalidation_status=logic.invalidation_status(inv))
     update(conn, run_id, stage=st, gap_description=gap_text, tier1_flips=t1, tier2_confirmed=t2_conf, detail=d,
-           invalidation_conditions=logic.invalidations(ind))
+           invalidation_conditions=inv)
