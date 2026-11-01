@@ -1,0 +1,154 @@
+{
+ "key": "cg_korba|aluminium_products",
+ "state": "CG",
+ "city": "cg_korba",
+ "ind": "aluminium_products",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new aluminium exposure in Korba: the data call is AVOID (27) and local signals are worse than India; lend only to asset-backed downstream fabricators with verified offtake, and decline smelter-linked and power-intensive proposals.",
+ "title": "Korba aluminium & aluminium products: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Korba's aluminium story is a smelter town, not a fabrication cluster.** The anchor asset is the Korba (P) smelter, which ran Søderberg cells and then prebake cells using Chinese technology [2]; Wood Mackenzie's note is dated April 2026 and is a paid asset report, so treat it as background, not current operating data. **Cash in this business is made by converting alumina and power into metal and selling at the London price** — so the borrower's margin is the gap between the metal price and its power-plus-alumina cost, not a value-added spread. **Downstream units — extrusion, conductors, rolled products — buy metal at the smelter gate and sell to state utilities and construction**, and their cash sits in receivables from those buyers. **Collect from customer** the split between own-metal and bought-metal, power tariff, and receivable days before you size anything.\n\n## What has changed now\n**The local economy is running behind India.** Chhattisgarh GST collections grew +2.4% Apr-to-date against India's +6.1%, and electricity demand +6.7% against +9.5% [D] — both local stress signals. **Brent at $113/bbl sits above the $75–100 band [D]**, which matters because smelting is power-intensive and coal logistics are fuel-linked. **Labour disruption at BALCO stopped work in April 2026 [3]** — a local report, and the only Korba-specific operating news we have; it is seven months old. **India-wide aluminium output (NIC 24) grew only +2.4% YoY [D]**, so the national volume picture is modest even as prices are strong.\n\n## Where the growth is — and who to avoid\n**Peer results are strong but they are the producer's story, not the fabricator's.** Vedanta Aluminium's Q2FY27 revenue rose 41% to INR 22,066 crore with EBITDA of INR 10,192 crore at ~46% margin [4], and production hit a record 649,000 tonnes, up 5% [6]. **Management expects net effective price in H2 to be about $50 lower than Q2 [5]** — so do not underwrite fabricators on today's metal price. **Pursue downstream fabricators with firm utility or PSU offtake, own premises, and metal bought on back-to-back orders.** **Avoid smelter-dependent ancillaries, power-intensive remelters, and any proposal whose repayment assumes the current price holds**; a rating note on a similar borrower flags margins staying sensitive to international aluminium prices and global logistics [10].\n\n## How to grow safely\n**Structure against the metal, not the balance sheet.** Take hypothecation of stock and receivables with a charge on the smelter-gate purchase contract, and keep tenor inside the order cycle. **Ask for the monthly metal purchase invoice and the buyer's acceptance every month**, plus GST returns and bank statements. **If the proposal's receivable days exceed the customer's stated credit terms, ask for the ageing and the top-three buyer names.** Where promoters support the unit through unsecured interest-free loans — seen at Rs 135 crore in one rated peer [10] — treat that as a cushion, not as repayment capacity.\n\n## Early-warning signs\n**Watch the local demand pulse first.** If Chhattisgarh GST growth slips further below India's +6.1% [D], tighten new sanctions. **If the borrower's power bill per tonne rises while realisations fall, ask for the revised cost sheet and reprice.** **If a labour action at the anchor smelter recurs [3], expect downstream dispatches to stall — ask for the dispatch register.** **If Brent stays above $113/bbl [D], stress-test the borrower at a lower metal price, given the expected $50 H2 price decline [5].**"
+ ],
+ "watch": [
+  [
+   "GST returns (monthly)",
+   "Chhattisgarh GST growth falls further below India's +6.1% [D] -> freeze new sanctions, review existing limits"
+  ],
+  [
+   "Power bill and dispatch register (monthly)",
+   "Power cost per tonne rises while realisation falls -> ask for revised cost sheet, reprice or reduce limit"
+  ],
+  [
+   "Metal purchase invoices and buyer acceptances (monthly)",
+   "Receivable days exceed stated credit terms -> ask for ageing and top-three buyer names"
+  ],
+  [
+   "Brent and LME price (weekly)",
+   "Brent stays above $113/bbl [D] or metal price falls toward the expected $50 H2 decline [5] -> stress-test and cut tenor"
+  ],
+  [
+   "Site labour status (fortnightly)",
+   "Labour action at the anchor smelter recurs [3] -> ask for dispatch register, hold disbursement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local GST and power demand trail India; Brent above band; Korba labour stoppage reported.",
+ "articles": [
+  {
+   "title": "korba mill: Latest News & Videos, Photos about korba mill | The Economic Times - Page 1 - Business News›korba mill",
+   "url": "https://economictimes.indiatimes.com/topic/korba-mill#1",
+   "date": "2026-10-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Data & analytics solutions",
+   "url": "https://www.woodmac.com/reports/metals-korba-p-aluminium-smelter-16063261",
+   "date": "2026-04-14",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Korba: बालको में कर्मचारियों का आंदोलन जारी, काम हुआ ठप; कर्मचारियों ने कंपनी प्रबंधन पर लगाया अन्याय का आरोप",
+   "url": "https://www.amarujala.com/video/chhattisgarh/korba/balko-ke-majdur-hdtaal-par-kam-thap-macha-hdkap-korba-news-c-1-1-noi1487-4121378-2026-04-03",
+   "date": "2026-04-02",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Vedanta Aluminium’s Q2FY27: Profit doubles to INR 6,187 Cr, EBITDA rises 83% YoY",
+   "url": "https://investor.wedbush.com/wedbush/article/bizwire-2026-10-31-vedanta-aluminiums-q2fy27-profit-doubles-to-inr-6187-cr-ebitda-rises-83-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Vedanta Aluminium posts record Q2 2026 on higher output By Investing.com - Earnings call transcript: Vedanta Aluminium posts record Q2 2026 on higher output",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-vedanta-aluminium-posts-record-q2-2026-on-higher-output-93CH-4937632#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Vedanta Aluminium quarterly profit more than doubles on high prices, record production - The Economic Times - Today’s Paper",
+   "url": "https://m.economictimes.com/markets/stocks/earnings/vedanta-aluminium-quarterly-profit-more-than-doubles-on-high-prices-record-production/amp_articleshow/135264708.cms#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Company Announcements - MUMBAI, India--(BUSINESS WIRE)--Aug",
+   "url": "https://markets.ft.markitdigital.com/data/announce/detail?dockey=600-202608020850BIZWIRE_USPRX____20260731_BW149639-1#1",
+   "date": "2026-08-01",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "August 29, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=137377#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- Cement",
+   "url": "https://www.crisil.com/content/dam/crisilrating/criteria-and-methodology/criteria-for-manufacturing-trading-and-corporate-services-sector.pdf#5#15#5",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "March 30, 2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=142029&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Om Metallogic Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202609120901_Om_Metallogic_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + Chhattisgarh 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Chhattisgarh: GST collections +2.4% Apr-to-date vs India +6.1% (3.7 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Chhattisgarh: electricity demand +6.7% Apr-to-date vs India +9.5% (2.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,150 @@
+{
+ "key": "hr_karnal|dairy_products",
+ "state": "HR",
+ "city": "hr_karnal",
+ "ind": "dairy_products",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Karnal dairy, but only to relocated or compliant value-added processors with tight monthly milk-payment and buyer-receipt controls; avoid the 44 dairies under final relocation notice until they shift.",
+ "title": "Karnal dairy products: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Karnal dairy buys raw milk from village farmers, chills it, and converts it into milk, ghee, cheese or other value-added products. Cash comes in daily from milk sales and, for ghee and cheese, from distributors and retail chains. **The whole model turns on the spread between what you pay the farmer per fat unit and what the end market pays.** Farmers in five villages are demanding a Rs 12 per fat increase because tudi and khal feed have turned expensive [2], so when a proposal lands, check the procurement rate the unit actually pays versus the rate it can pass on; if the buyer contracts are fixed-price, ask how the spread survives a Rs 12 per fat rise.\n\n## Where value and cash sit\nValue sits in value-added products, not liquid milk. Milky Mist's Q2 FY27 revenue rose 42% to Rs 1,089.4 crore with EBITDA margin at 15.17% versus 13.95%, helped by product mix [4][6], and yogurt was its fastest-growing category [7]. **That is the peer template: ghee, cheese and curd carry the margin; plain milk carries the volume.** Working capital is short on the procurement side (farmers are paid on a short cycle) and longer on the distributor side, so monthly milk-payment discipline is the real credit test. Capex is chilling and processing equipment; collect from customer the unit's capacity and utilisation.\n\n## What has changed now\nKarnal's local stress is regulatory, not demand. **44 dairies have received a final notice to relocate or be sealed** [1], and an earlier sealing drive returned with only statements [3], so enforcement is live but uneven. Haryana GST collections are running +10.1% Apr-to-date versus India +6.1% [D], a genuine local tailwind. Nationally, bank credit is +26.3% YoY against output +5.1% [D], so pricing is competitive and weak units get refinanced rather than fixed. The CRISIL 13-14% growth call is from July 2024 and is dated [10]; treat it as history, not a forecast.\n\n## Who to pursue and how to grow safely\n**Pursue processors already on relocated or compliant premises, with a value-added product share and named buyers.** Avoid the 44 notice-hit units until relocation is documented [1]. Structure against receivables and milk payables, not land. Take monthly: farmer payment register, buyer receipts, fat-based procurement rate, and stock of ghee and cheese. If the unit sells only liquid milk, ask for the buyer list and contract tenure before sanctioning.\n\n## Early-warning signs\n- Farmer payout delays beyond the agreed cycle -> stop fresh disbursement and inspect.\n- Procurement rate rising without a matching end-price change [2] -> rework the spread.\n- Any sealing or relocation notice on the unit [1][3] -> freeze limit until compliance proof.\n- Receivable days stretching past the peer norm -> ask for buyer confirmations."
+ ],
+ "watch": [
+  [
+   "Farmer payment register (monthly)",
+   "Payout delayed beyond agreed cycle -> stop fresh disbursement and inspect"
+  ],
+  [
+   "Procurement rate vs end price (monthly)",
+   "Rate rises without matching price change [2] -> rework spread and reset limit"
+  ],
+  [
+   "Municipal relocation/sealing notices (monthly)",
+   "Any notice on the unit [1][3] -> freeze limit until compliance proof"
+  ],
+  [
+   "Buyer receipts and receivable days (monthly)",
+   "Days stretch past peer norm -> ask for buyer confirmations"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "44 Karnal dairies face final relocation-or-sealing notice, a local regulatory shock.",
+ "articles": [
+  {
+   "title": "Karnal News: 44 डेयरियों को अंतिम नोटिस शिफ्ट न करने पर होंगी सील",
+   "url": "https://www.amarujala.com/haryana/karnal/final-notice-to-44-dairies-to-be-sealed-if-not-relocated-karnal-news-c-18-knl1018-1011104-2026-10-13",
+   "date": "2026-10-12",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "दूध का रेट 12 रुपए प्रति फैट करने की डिमांड: करनाल में 5 गांव के पशुपालकों की बैठक; बोले- तूड़ी-खल महंगे, दाम कम - Karnal News - - Hindi News",
+   "url": "https://www.bhaskar.com/local/haryana/karnal/news/karnal-dairy-farmers-demand-milk-price-hike-insurance-support-138993190.html#1",
+   "date": "2026-09-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Karnal News: डेयरी सील करने निकली टीम, सिर्फ बयान लेकर बैरंग लौटी - Karnal News: डेयरी सील करने निकली टीम, सिर्फ बयान लेकर बैरंग लौटी",
+   "url": "https://www.amarujala.com/haryana/karnal/the-team-went-out-to-seal-the-dairy-but-returned-empty-handed-with-only-statements-karnal-news-c-18-knl1018-798641-2025-12-11#1",
+   "date": "2025-12-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Milky Mist shares in focus after Q2 PAT soars 175%; firm says festive season could create favourable demand - The Economic Times",
+   "url": "https://m.economictimes.com/markets/stocks/news/milky-mist-shares-in-focus-after-q2-pat-soars-175-firm-says-festive-season-could-create-favourable-demand/amp_articleshow/135341778.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "News by CNBC TV18 on TradingView, 2026-10-30",
+   "url": "https://in.tradingview.com/news/cnbctv:60466e682094b:0/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Milky Mist shares in focus after Q2 PAT soars 175%; firm says festive season could create favourable demand",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/milky-mist-shares-in-focus-after-q2-pat-soars-175-firm-says-festive-season-could-create-favourable-demand/articleshow/135341778.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Milky Mist net profit nearly triples in Q2, topline crosses ₹1,000 crore; stock in focus - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/milky-mist-share-price-net-profit-nearly-triples-in-q2-topline-crosses-1000-crore-stock-20022955.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 14,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=138342#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Press release",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2024/september/dairies-to-milk-13-14-percent-revenue-growth-this-fiscal-on-strong-demand.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "April 08, 2025(Revised)",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=134369#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 67 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +42.1% Apr-to-date in USD (Rs 37,131 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

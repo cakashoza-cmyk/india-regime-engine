@@ -1,0 +1,150 @@
+{
+ "key": "od_angul|aluminium_products",
+ "state": "OD",
+ "city": "od_angul",
+ "ind": "aluminium_products",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:48 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 27,
+ "nudged_by_news": false,
+ "verdict": "Avoid new aluminium exposure in Angul for now; lend only to downstream units with firm offtake and tight monthly monitoring, and decline commodity-price plays.",
+ "title": "Angul aluminium & aluminium products: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Angul is a smelter-and-downstream town: primary metal from NALCO's complex feeds extruders, rolled-product and conductor units that convert ingots and billets into profiles, sheets and wire.** Cash is made on conversion margin, not on metal — the metal is a pass-through priced off the exchange, so the borrower earns a fixed spread per tonne and the metal price risk sits with whoever holds inventory. **Cost structure is power-heavy and working capital is metal-heavy:** power, alumina and labour are the fixed-ish costs, while receivables from OEMs and inventory of metal set the cash cycle. **So when a proposal lands, check the power tariff contract and the conversion spread per tonne first; if the spread is not documented, ask for the last four quarters' job-work invoices.**",
+  "## What has changed now\n**The official data pack reads AVOID for this cluster [D], and the local demand signals are weak: Odisha GST collections grew +0.5% Apr-to-date against India's +6.1% [D], and Odisha electricity demand +5.1% against India's +9.5% [D].** India-wide aluminium output (NIC 24) grew only +2.4% YoY [D], and Brent at $113/bbl [D] raises freight and power-linked costs across the chain. **The local news is promotional, not demand evidence:** Odisha is inviting downstream investors to the Angul Aluminium Park with assured raw material and incentives [1], and NALCO is tying up EGA's DX+ Ultra technology for a 0.5 MTPA smelter expansion [2] — both are supply-side and multi-year. **Peer results are strong but say nothing about Angul's small units:** Vedanta Aluminium's Q2FY27 revenue rose 41% to INR 22,066 crore with EBITDA of INR 10,192 crore at ~46% margin [3], profit more than doubled to INR 6,187 crore [5], and management guides net effective price in H2 about $50 lower than Q2 [4]. **That last line is the warning: the integrated producers are guiding prices down while Angul's converters buy metal at those prices.**",
+  "## Where the growth is\n**Pursue downstream converters with firm OEM offtake — extruded profiles for construction and transport, and conductor/rod units selling to state utilities — because their revenue is conversion-linked and survives a metal price fall.** The Angul park pitch [1] means new units will seek term debt for plant and machinery; those are worth underwriting only with a committed buyer. **Avoid pure metal traders, scrap-based remelters with no offtake contract, and any unit whose margin depends on holding inventory through a price rise.** Rating evidence on a converter shows margins guided at 9.5–10% with healthy coverage [7], and another rated peer shows interest coverage of 10.99x and total debt to GCA of 0.85x as on March 31, 2026 [10] — use these as the shape of an acceptable downstream balance sheet, not as Angul benchmarks.",
+  "## How to grow safely\n**Structure every new line as a working-capital facility against documented invoices, with the metal leg cash-margined or backed by a price hedge, and keep term debt to plant only.** Take monthly: stock-and-receivable statements, power bills, job-work invoices and the top-five buyer ledger. **Covenant a minimum conversion margin per tonne and a maximum inventory days; if inventory days cross the agreed level, ask for the buyer contract and reduce the drawing power.** Rating notes flag that margins stay sensitive to international aluminium prices and global logistics even with hedging [9], so price-linked covenants matter more than turnover covenants here.",
+  "## Early-warning signs\n**Watch the borrower's power bill and buyer concentration together — a converter losing one OEM account shows up in receivables before it shows in sales.** If Odisha GST growth stays below India's +6.1% [D] for another quarter, treat new-to-bank proposals in this cluster as unsecured until proven otherwise. **If a borrower's margin depends on the metal price holding, decline; the integrated peers themselves expect H2 realisations about $50 lower than Q2 [4].** Note that the rating sources [7][9][10] carry no clear dates and [8] is a generic methodology paper — treat them as directional only. **Sources say little specific about Angul's own unit-level finances; collect from customer before any sanction.**"
+ ],
+ "watch": [
+  [
+   "Monthly stock-and-receivable statement",
+   "Inventory days above covenant -> cut drawing power and ask for buyer contract"
+  ],
+  [
+   "Monthly power bill vs budget",
+   "Bill up more than output -> reprice the conversion spread or exit"
+  ],
+  [
+   "Quarterly GST and electricity data for Odisha [D]",
+   "Odisha growth stays below India for two quarters -> no new-to-bank sanctions"
+  ],
+  [
+   "Monthly top-five buyer ledger",
+   "Any single buyer above half of sales -> seek assignment of receivables"
+  ],
+  [
+   "Quarterly metal price vs contract",
+   "Realisation falls toward the guided $50 lower H2 level [4] -> review hedge cover"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Odisha GST and power demand lag India; peers guide lower H2 prices.",
+ "articles": [
+  {
+   "title": "Odisha invites aluminium downstream industries to invest in Angul - Subscribe",
+   "url": "https://sambadenglish.com/latest-news/odisha-invites-aluminium-downstream-industries-to-invest-in-angul-12587331#1",
+   "date": "2026-09-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "NALCO Partners with EGA for DX+ Ultra Technology in 0.5 MTPA Angul Aluminium Smelter Expansion - https://indianmasterminds.com - 25 October 2026",
+   "url": "https://indianmasterminds.com/news/nalco-ega-dx-ultra-angul-smelter-expansion-230982/#content#1",
+   "date": "2026-09-06",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Vedanta Aluminium’s Q2FY27: Profit doubles to INR 6,187 Cr, EBITDA rises 83% YoY",
+   "url": "https://investor.wedbush.com/wedbush/article/bizwire-2026-10-31-vedanta-aluminiums-q2fy27-profit-doubles-to-inr-6187-cr-ebitda-rises-83-yoy",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Vedanta Aluminium posts record Q2 2026 on higher output By Investing.com - Earnings call transcript: Vedanta Aluminium posts record Q2 2026 on higher output",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-vedanta-aluminium-posts-record-q2-2026-on-higher-output-93CH-4937632#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Vedanta Aluminium quarterly profit more than doubles on high prices, record production - The Economic Times - Today’s Paper",
+   "url": "https://m.economictimes.com/markets/stocks/earnings/vedanta-aluminium-quarterly-profit-more-than-doubles-on-high-prices-record-production/amp_articleshow/135264708.cms#1",
+   "date": "2026-10-27",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Company Announcements - MUMBAI, India--(BUSINESS WIRE)--Aug",
+   "url": "https://markets.ft.markitdigital.com/data/announce/detail?dockey=600-202608020850BIZWIRE_USPRX____20260731_BW149639-1#1",
+   "date": "2026-08-01",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "August 29, 2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=137377#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "- Cement",
+   "url": "https://www.crisil.com/content/dam/crisilrating/criteria-and-methodology/criteria-for-manufacturing-trading-and-corporate-services-sector.pdf#5#15#5",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "March 30, 2026",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport?id=142029&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Om Metallogic Limited",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202609120901_Om_Metallogic_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 27 (national 45 x 0.6 + Odisha 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Odisha: GST collections +0.5% Apr-to-date vs India +6.1% (5.6 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Odisha: electricity demand +5.1% Apr-to-date vs India +9.5% (4.4 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Brent $113/bbl above the $75–100 band. [Brent, macro engine, data to Oct-2026]",
+  "India-wide: IIP NIC 24 output +2.4% YoY. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

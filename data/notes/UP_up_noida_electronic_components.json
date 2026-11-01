@@ -1,0 +1,154 @@
+{
+ "key": "up_noida|electronic_components",
+ "state": "UP",
+ "city": "up_noida",
+ "ind": "electronic_components",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 84,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Noida electronic components and PCBs, but only to B2B PCB/PCBA makers with pass-through pricing and tight inventory discipline; avoid consumer-durable-linked assemblers and thin-networth capex-heavy units.",
+ "title": "Noida electronic components & PCBs: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A PCB or component unit buys copper-clad laminate, gold, solder and chemicals, runs plating, etching and drilling lines, and sells boards or assemblies to OEMs on a one-quarter price-pass-through lag [7].** Cash sits in inventory and receivables, not in the machine: a peer's working capital intensity was 45% in FY2021 on high inventory and receivable days [11]. So when a proposal lands, check inventory days and receivable days first; if inventory is held to meet minimum order quantities [11], ask what share is customer-committed versus speculative.\n\n## What has changed now\n**Input costs are moving against the maker: copper-clad laminate rose 13% and gold also rose, squeezing PCB input costs, with recovery only from Q4FY26 [7].** Consumer-durable-linked PCBA demand is soft [7], and RAC demand swung from Q1 down ~5-10% to Q2 down ~35% [4]. India-wide IIP for NIC 26 is +19.3% YoY and +13.6% Apr-to-date [D], and exports are +44.0% Apr-to-date in USD [D] — so the export-facing B2B book is running ahead of the domestic consumer book. UP GST collections are +14.2% Apr-to-date against India +6.1% [D].\n\n## Where the growth is in Noida\n**UP contributes about 55% of India's mobile phone production and 60% of its electronic component manufacturing [1], and the state is courting a 500-acre 'Singapore City' in YEIDA Sector 7 for semiconductor fabrication, logistics and data centres [1][2].** HCL has submitted an SEZ proposal for a semiconductor hub in Greater Noida [3]. These are proposals, not orders — collect from customer any confirmed offtake before you size a facility. Pursue B2B PCB/PCBA suppliers to mobile and telecom OEMs, and component makers with multi-vertical order books beyond consumer durables [7]. Avoid assemblers whose sole end-market is room air conditioners [4] and thin-networth units funding capex on debt — a peer carried networth of Rs.16.40 crore with TOL/TNW at 1.97 times and gearing expected to rise on debt-funded capex [10].\n\n## How to grow safely\n**Structure term debt to the capex only, keep working capital as a separate cash-credit line sized to the 45% intensity peer benchmark [11], and take a quarterly price-pass-through covenant because the lag is one quarter [7].** Take monthly stock statements and ageing; take GST returns monthly to confirm the +14.2% UP trend [D] is showing in the borrower's own filings. For any SEZ or Singapore City-linked proposal [1][2][3], ask for the lease or allotment letter and the customer's purchase order — collect from customer.\n\n## Early warning signs\n**Watch for receivable days stretching past the one-quarter pass-through window [7], inventory build without matching orders [11], and any shift of sales mix toward consumer durables [7].** A rating report on a PCB peer is dated March 2024 [10] and the peer result notes carry no clear date [4][5][7] — treat them as directional, not current. Local sources say little about Noida's own component units; the Singapore City and HCL items are announcements [1][2][3], so lean on first principles and the peer numbers above."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable ageing",
+   "Receivable days exceed one quarter -> ask for customer payment confirmation and reprice the limit"
+  ],
+  [
+   "Monthly GST returns",
+   "Filing turnover falls below the UP +14.2% trend [D] -> freeze fresh disbursement and review"
+  ],
+  [
+   "Quarterly input-cost pass-through check",
+   "Copper-clad laminate or gold cost rise not passed within one quarter [7] -> cut limit or demand margin support"
+  ],
+  [
+   "Quarterly sales-mix review",
+   "Consumer-durable share of sales rises [7] -> treat as concentration and cap exposure"
+  ],
+  [
+   "Capex drawdown vs lease/PO file",
+   "No lease or purchase order on file for SEZ/Singapore City-linked capex [1][2][3] -> hold term loan"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "UP GST +14.2% vs India +6.1%, IIP NIC 26 +19.3%, exports +44.0% Apr-to-date [D].",
+ "articles": [
+  {
+   "title": "Uttar Pradesh Plans 'Singapore City' Near Noida International Airport",
+   "url": "https://www.mirrornow.in/noida-news/uttar-pradesh-plans-singapore-city-near-noida-airport-article-156438365",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "UP Plans Singapore City Near Noida International Airport in Jewar to Attract Global Investments",
+   "url": "https://h4enews.com/singapore-city-near-noida-international-airport/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "ग्रेटर नोएडा में बनेगा सेमीकंडक्टर इंडस्ट्री का बड़ा हब, HCL ने SEZ को दिया प्रस्ताव",
+   "url": "https://hindi.tennews.in/?p=74108",
+   "date": "2026-09-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Management highlighted continued volatility in the RAC industry demand (Q1 down \\(\\sim 5 - 10\\%\\) , Q2 down \\(\\sim 35\\%\\) , Q3 m...",
+   "url": "https://barodaetrade.com/Reports/AmberEnterprises-Q3FY26ResultReview10Feb26-Research.pdf?csrt=16125714952700733129#2#4#2",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Strong Q1; Electronics set to grow through inorganic expansion",
+   "url": "https://barodaetrade.com/Reports/AmberEnterprises-Q1FY26ResultReview30Jul25-Research.pdf#1#3#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Amber Enterprises India Limited - /",
+   "url": "https://fiscal.ai/company/NSEI-AMBER/investor-relations/544984/#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Electronics margins were impacted by raw material inflation during the quarter, with copper- clad laminate costs rising \\(13\\%\\)...",
+   "url": "https://barodaetrade.com/Reports/AmberEnterprises-Q2FY26ResultReview7Nov25-Research.pdf?csrt=16125714952700733129#2#4#2",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "February 16, 2026(Revised)",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=140957#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "January 30, 2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=140666#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Circuit Systems (India) Private Limited (Erstwhile Circuit Systems (India) Limited) March 22, 2024",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202403120302_Circuit_Systems_(India)_Private_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Hi-Q Electronics (P) Limited: Ratings reaffirmed",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=108445#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 84 (national 90 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 26 output +19.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +13.6% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +44.0% Apr-to-date in USD (Rs 304,256 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

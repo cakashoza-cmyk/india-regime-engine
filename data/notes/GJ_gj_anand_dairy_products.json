@@ -1,0 +1,158 @@
+{
+ "key": "gj_anand|dairy_products",
+ "state": "GJ",
+ "city": "gj_anand",
+ "ind": "dairy_products",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:49 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 70,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Anand dairy — favour private dairies with value-added mix and tight procurement; avoid plain liquid-milk players with no pricing power.",
+ "title": "Anand dairy products: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A dairy buys raw milk from a fragmented farmer base, chills it within hours, and converts it into liquid milk, ghee, cheese and curd; cash comes back through distributors and modern trade, not from the farmer.** In Anand the cooperative model is the reference point: for every rupee paid for Amul milk, 80 paise goes back to the farmer, against closer to 35 in most private dairies [2]. That single number tells you where the margin lives — **a private dairy's profit is the spread between farmer price and end-market price, so procurement control is the whole credit story.** [9] confirms private dairies procure on end-market prices while cooperatives fix selling prices with government, which is why private players can outbid on procurement but carry the price risk themselves.",
+  "## Where cash and value sit\n**Value sits in value-added products, not in liquid milk.** Peer Milky Mist's Q2 FY27 revenue rose 42% to Rs 1,089.4 crore with PAT up 175% to Rs 75 crore, and EBITDA margin improved to 15.17% from 13.95% on product mix and efficiencies [4][6]; yogurt was its fastest-growing category on capacity expansion [7]. **So when a proposal lands, check the share of value-added products in revenue; if it is under a third, ask what the liquid-milk spread covers after procurement.** Working capital is short on the farmer side (paid in days) and long on the trade side — collect the actual debtor and creditor days from the customer, since no source gives them. Capex is chiller and chilling-centre heavy, so **tie any term loan to a named capacity addition, not to general expansion.**",
+  "## What has changed now\n**The local demand signal is genuinely strong: Gujarat GST collections are up 11.9% Apr-to-date against India's 6.1% [D].** But bank credit is growing 26.3% YoY against output of 5.1% [D] — **so the risk in Anand is not demand, it is leverage taken against demand.** Rating commentary flags raw-material price swings as the largest cost component for FMCG and dairy [8], and cooperative competition restricts profitability even for leaders [9]. Note the CRISIL 13-14% industry revenue growth view is from July 2024 [10] — old, use it as background only. Local Anand-specific news is thin; the ET Anand dairy page [1] and the Ananda Dairy cattle-feed launch [3] tell us little about credit, so lean on first principles and the Milky Mist peer read.",
+  "## Who to pursue, and how to grow safely\n**Pursue private dairies with a named value-added line (curd, paneer, ghee, cheese), an owned or contracted chilling network, and a farmer base they can pay on time.** Avoid pure liquid-milk processors selling into cooperatives' price umbrella, and avoid anyone whose growth is funded by bank credit rather than internal accruals. **Structure as a cash-flow loan with a drawing-power limit against stock and receivables, not a clean OD.** Take monthly: milk procurement litres and per-litre farmer price, value-added share of revenue, debtor days by channel, and stock ageing of ghee and cheese. **Covenant on value-added share and on debt-to-EBITDA, tested quarterly.**",
+  "## Early-warning signs\n**Watch the farmer price paid versus the end-market price — when that spread compresses for two months, margin is gone before the P&L shows it.** Watch procurement litres falling while revenue holds, which means the dairy is buying on the spot market at worse rates. Watch debtor days stretching in modern trade. Watch any drawdown that funds farmer payments rather than working capital. **If two of these appear together, stop fresh limits and ask for the last three months of procurement and sales registers.**"
+ ],
+ "watch": [
+  [
+   "Monthly procurement litres and per-litre farmer price (monthly)",
+   "Litres down 10% while revenue flat -> ask for spot purchase register and reprice limit"
+  ],
+  [
+   "Value-added share of revenue (quarterly)",
+   "Share falls below one-third -> cut drawing power and re-covenant"
+  ],
+  [
+   "Debtor days by channel (monthly)",
+   "Modern-trade days stretch beyond agreed terms -> shift to cash-and-carry or LC-backed sales"
+  ],
+  [
+   "Debt-to-EBITDA (quarterly)",
+   "Crosses covenant -> freeze fresh limits, seek promoter infusion"
+  ],
+  [
+   "Ghee/cheese stock ageing (monthly)",
+   "Stock beyond shelf norm -> demand markdown and reduce stock limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Gujarat GST +11.9% and strong peer results offset credit-growth gap; no local negative.",
+ "articles": [
+  {
+   "title": "anand dairy News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/anand-dairy/news#1",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Amul's Success: 80 Paise of Every Rupee to Farmers | Mantra Joshi 发布的此话题相关的动态 | 领英 - 跳到主要内容",
+   "url": "https://www.linkedin.com/posts/imantrajoshi_mini-case-study-25-the-anand-model-for-activity-7468155732752760832-dmrm#1",
+   "date": "2026-06-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ananda Dairy introduces new cattle feed to boost dairy production | Dairy Business Middle East & Africa - No.1 Dairy Industry Website & Magazine",
+   "url": "https://dairybusinessmea.com/2026/03/30/ananda-dairy-introduces-new-cattle-feed-to-boost-dairy-production/",
+   "date": "2026-03-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Milky Mist shares in focus after Q2 PAT soars 175%; firm says festive season could create favourable demand - The Economic Times",
+   "url": "https://m.economictimes.com/markets/stocks/news/milky-mist-shares-in-focus-after-q2-pat-soars-175-firm-says-festive-season-could-create-favourable-demand/amp_articleshow/135341778.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "News by CNBC TV18 on TradingView, 2026-10-30",
+   "url": "https://in.tradingview.com/news/cnbctv:60466e682094b:0/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Milky Mist shares in focus after Q2 PAT soars 175%; firm says festive season could create favourable demand",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/milky-mist-shares-in-focus-after-q2-pat-soars-175-firm-says-festive-season-could-create-favourable-demand/articleshow/135341778.cms",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Milky Mist net profit nearly triples in Q2, topline crosses ₹1,000 crore; stock in focus - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/milky-mist-share-price-net-profit-nearly-triples-in-q2-topline-crosses-1000-crore-stock-20022955.htm/amp",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 14,2025",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=138342#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Press release",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2024/september/dairies-to-milk-13-14-percent-revenue-growth-this-fiscal-on-strong-demand.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "April 08, 2025(Revised)",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=134369#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 70 (national 67 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +42.1% Apr-to-date in USD (Rs 37,131 Cr FYTD). [Dept of Commerce, data to Sep-2026]",
+  "India-wide: Bank credit +26.3% YoY vs output +5.1% (gap +21.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

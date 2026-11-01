@@ -1,0 +1,150 @@
+{
+ "key": "gj_morbi|glass",
+ "state": "GJ",
+ "city": "gj_morbi",
+ "ind": "glass",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:50 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 71,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Morbi glass and glassware at or above the 65 threshold, but only to units with verified gas-cost pass-through and clean working-capital cycles; avoid sub-scale units already squeezed by gas prices.",
+ "title": "Morbi Glass & Glassware: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nMorbi glass and glassware runs on furnaces that melt sand and cullet into containers, tableware and processed glass, then form, anneal and pack. **The cash engine is a continuous furnace that must run 24x7, so gas is the single biggest swing cost and the plant cannot be switched off cheaply.** Value sits in the melt and the mould, not the sand; pricing power is thin because buyers are traders and packers who compare quotes daily. Working capital is inventory-heavy (cullet, finished stock) plus receivables from trade channels; capex is furnace rebuilds and forming lines. Collect from customer the exact gas share of cost and the furnace age.\n\n## What has changed now\nLocal reporting says 50 ceramic units have shut and gas prices crossed 98 [3], and a Morbi Today headline puts propane at 104 per kg from today [2]. **Input cost is moving against the industry right now, and the local press is about ceramics, not glass specifically.** The minister's visit to a Morbi factory and assurance of early resolution of ceramic-industry issues [1][2] is political signalling, not a demand fact. Peer Borosil shows the pattern: Q1 FY2027 revenue up 9% but EBITDA margin down to 14.6% on input inflation, with management targeting 18% via price hikes and solar savings [7]. So when a proposal lands, check whether the unit has actually raised prices; if it has not, ask why and get the price list.\n\n## Where the growth is\nGujarat GST collections are running +11.9% Apr-to-date against India +6.1% [D], and IIP for NIC 23 is +11.4% YoY [D]. **Pursue Morbi units selling branded tableware and microwave-safe glassware into the domestic lunchbox and storage market, where Borosil cites an INR 4,000 crore lunchbox market with growing demand [5].** Also pursue BIS-compliant container makers and units adding solar power to cut gas exposure, as Borosil is doing with INR 27-28 crore of solar savings at EBITDA level in FY 2027 [4]. Avoid sub-scale job-work furnaces with no brand and no price list.\n\n## How to grow safely\nStructure term debt to furnace life, not to a generic tenor, and keep working-capital limits tight against stock statements. **Take monthly: gas price paid per kg, production in tonnes, sales value, and receivable days.** Covenant a minimum EBITDA margin and a maximum gas-cost share of revenue; if gas crosses the level at which the unit's margin falls below covenant, ask for a price-hike proof or reduce exposure. Peer capex is heavy (Borosil INR 125-150 crore FY 2027 [4]), so do not fund expansion on hope of margin recovery.\n\n## Early-warning signs\n- Gas price per kg (weekly): a fresh jump with no matching price hike -> freeze new limits and reprice.\n- Receivable days (monthly): stretching beyond agreed level -> ask for buyer-wise ageing and stop fresh bills discounting.\n- Furnace downtime or rebuild delay (event): -> inspect and reassess term-debt tenor.\n- Power/solar commissioning status (quarterly): slippage -> ask for revised cash flow."
+ ],
+ "watch": [
+  [
+   "Gas price per kg (weekly)",
+   "crosses the level that breaks covenant margin -> freeze new limits, seek price-hike proof"
+  ],
+  [
+   "Receivable days (monthly)",
+   "stretches beyond agreed cap -> demand buyer-wise ageing, halt fresh discounting"
+  ],
+  [
+   "Furnace uptime/rebuild (event-based)",
+   "unplanned shutdown or rebuild slip -> site inspection, reassess tenor"
+  ],
+  [
+   "Sales value and production tonnes (monthly)",
+   "volume falls while stock rises -> cut working-capital limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Gas at 104/kg and 50 Morbi units shut squeeze margins now.",
+ "articles": [
+  {
+   "title": "MORBI:બ્લુઝોન ફેક્ટરી ખાતે ગુજરાત સરકારના મંત્રીશ્રી ત્રિકમભાઈ છાંગાની શુભેચ્છા મુલાકાત",
+   "url": "https://m.dailyhunt.in/news/india/gujarati/vatsalyam+samachar-epaper-vatsalym/morbibluzon+phektari+khate+gujarat+sarakarana+mantrishri+trikamabhai+chhangani+shubhechchha+mulakat-newsid-n732238962?listname=newspaperLanding&topic=home&index=3&topicIndex=0&mode=pwa&action=click",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "મોરબી સિરામિક ઉદ્યોગને લગતા પ્રશ્નોની વહેલી તકે નિરાકરણ લાવવા મંત્રી ત્રિકમભાઈ છાંગાની ખાતરી",
+   "url": "https://morbitoday.com/news/1637830560",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "યુદ્ધના કારણે મોરબીને ફટકો: 50 સિરામિક એકમો બંધ, ગેસના ભાવ…",
+   "url": "https://www.gujaratsamachar.com/news/morbi/global-war-hits-morbi-hard-50-ceramic-units-closed-gas-prices-cross-98-causing-chaos-96719897460",
+   "date": "2026-09-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Earnings call transcript: Borosil Q1 2026 profit falls as margins narrow By Investing.com - Earnings call transcript: Borosil Q1 2026 profit falls as margins narrow",
+   "url": "https://ca.investing.com/news/transcripts/earnings-call-transcript-borosil-q1-2026-profit-falls-as-margins-narrow-93CH-4807980#1",
+   "date": "2026-08-18",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Borosil (NSE:BOROLTD) Q3 2026 Earnings Call Transcript & Audio - Fundamental Charts Launch Get 1 month free + 20% off your first year",
+   "url": "https://stockanalysis.com/quote/nse/BOROLTD/transcripts/415958-q3-25-26/#1",
+   "date": "2026-02-05",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Borosil Ltd (BOM:543212) Q3 2026 Earnings Call Highlights: Stron - 🚀 Enjoy a 7-Day Free Trial Thru Aug 18, 2026",
+   "url": "https://www.gurufocus.com/news/8599900/borosil-ltd-bom543212-q3-2026-earnings-call-highlights-strong-revenue-growth-amidst-margin-pressures?r=caf6fe0e0db70d936033da5461e60141&utm_campaign=headlines#1",
+   "date": "2026-02-09",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Borosil (NSE:BOROLTD) Earnings Call Transcripts - Borosil Limited (NSE:BOROLTD)",
+   "url": "https://stockanalysis.com/quote/nse/BOROLTD/transcripts/#1",
+   "date": "2026-08-18",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SSGSFL has not cooperated with Credit Analysis & Research Ltd (CARE), ICRA Ltd (ICRA) and Brickwork Ratings India Pvt Ltd (Brick...",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/Sar%20Senapati%20Santaji%20Ghorpade%20Sugar%20Factory%20Limited-RU-03-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "April 07, 2025",
+   "url": "https://www.ICRA.in/Rating/GetRationalReportFilePdf?id=134333#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Crisil The House That Rates India",
+   "url": "https://dalalbytes.com/research/crisil-investment-report.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Press Release",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202503120354_Gobind_Glass_and_Industries_Limited.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 71 (national 68 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 23 output +11.4% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +12.4% YoY vs output +10.2% (gap +2.2 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
