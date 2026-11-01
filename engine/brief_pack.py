@@ -138,7 +138,9 @@ def validate_v3(out, pack, articles_text, lens_text, bands, need_pack=2):
             probs.append(f"banned generic phrase: '{b}'")
     pack_n = nums(" ".join(pack))
     allowed = pack_n | nums(articles_text) | nums(lens_text) | {str(i) for i in range(0, 13)} | {str(bands["ok"] - 1)}
-    bad = sorted(n for n in nums(flat) if n not in allowed)
+    bench = {"15", "30", "45", "60", "90", "120", "180", "1.2", "1.25", "1.3", "1.5", "10", "15", "20", "25", "50", "75"}  # standard diligence benchmarks, allowed in borrower checks only
+    bad = sorted(n for n in nums(" ".join([fl, out.get("change_the_call", ""), out.get("why") or ""])) if n not in allowed)
+    bad += sorted(n for n in nums(" ".join(out.get("borrower_checks", []))) if n not in allowed | bench and n not in bad)
     if bad:
         probs.append("numbers not found in the data pack or articles: " + ", ".join(bad[:10]))
     cited = {n for n in nums(fl) if n in pack_n and n not in {"0", "1", "2", "3"}}

@@ -34,3 +34,13 @@ def test_band_check():
     assert not bp.band_problems("Below 65 the call drops to Caution; below 45 it becomes Avoid.", 65, 45)
     assert not bp.band_problems("A rise to 65 or more would make it OK to lend.", 65, 45)
     assert bp.band_problems("Exports must recover.", 65, 45)
+
+
+def test_v3_benchmarks_only_in_checks():
+    pack = ["Call: OK; combined score 80 = 83 x 0.6 + 75 x 0.4. Bands: OK to lend >= 65; Caution 45 to 64; Avoid < 45.", "exports +4.2%", "GST +11.9%"]
+    o = {"local_flavour": "Exports +4.2% and GST +11.9% with score 80. " + "w " * 60, "borrower_checks": ["debtor days vs 60", "b", "c"],
+         "change_the_call": "Below 65 it is Caution; below 45 Avoid.", "why": ""}
+    b = {"ok": 65, "avoid": 45}
+    assert bp.validate_v3(o, pack, "", "", b) == []
+    o2 = {**o, "local_flavour": o["local_flavour"] + " Dues of 60 days."}
+    assert any("not found" in p for p in bp.validate_v3(o2, pack, "", "", b))
