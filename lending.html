@@ -40,9 +40,9 @@ table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}td,th{te
 <script src="assets/nav.js"></script>
 <script>
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const LBL={ok:'OK to lend',caution:'Caution',avoid:'Avoid'};let D,B={},IND={},CITY={},sel={st:'',ct:'',ind:''};
+const LBL={ok:'OK to lend',caution:'Caution',avoid:'Avoid'};let D,V4={},B={},IND={},CITY={},sel={st:'',ct:'',ind:''};
 const qp=new URLSearchParams(location.search);
-Promise.all([fetch('data/radar.json').then(r=>r.json()),fetch('data/radar_briefs.json').then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,b])=>{D=d;B=b;init()});
+Promise.all([fetch('data/radar.json').then(r=>r.json()),fetch('data/radar_briefs.json').then(r=>r.ok?r.json():{}).catch(()=>({})),fetch('data/v4_test.json?'+Date.now()).then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,b,v])=>{D=d;B=b;V4=(v&&v.cards)||{};init()});
 function init(){D.industries.forEach(i=>IND[i.id]=i);D.cities.forEach(c=>CITY[c.id]=c);
  const sts=Object.entries(D.states).filter(([k])=>D.cities.some(c=>c.state==k)).sort((a,b)=>a[1].name.localeCompare(b[1].name));
  $('#st').innerHTML=sts.map(([k,v])=>`<option value="${k}">${esc(v.name)}</option>`).join('');
@@ -67,10 +67,18 @@ function init(){D.industries.forEach(i=>IND[i.id]=i);D.cities.forEach(c=>CITY[c.
 function fillCities(want){const cs=D.cities.filter(c=>c.state==sel.st).sort((a,b)=>a.name.localeCompare(b.name));$('#ct').innerHTML=cs.map(c=>`<option value="${c.id}">${esc(c.name)}</option>`).join('');sel.ct=cs.find(c=>c.id==want)?want:(cs[0]?.id||'');$('#ct').value=sel.ct}
 const mon=iso=>{if(!iso)return'';const m=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return m[+iso.slice(5,7)-1]+'-'+iso.slice(0,4)};
 function spark(pts,key,lab){if(!pts||pts.length<2)return'';const v=pts.map(p=>p[key]),mx=Math.max(...v.map(Math.abs),1);return `<div class="spark" aria-label="${esc(lab)}">${pts.map(p=>`<i class="${p[key]<0?'neg':''}" style="height:${Math.max(6,Math.abs(p[key])/mx*100)}%" title="${esc(p.period)}: ${p[key]}%"></i>`).join('')}</div><div class="meta">${pts.map(p=>esc(p.period)+' '+p[key]+'%').join(' · ')}</div>`}
+
+function v4html(v,b){const cite=t=>esc(t).replace(/\[(\d+(?:[,\s]*\d+)*)\]/g,(m,g)=>'['+g.split(/[,\s]+/).filter(Boolean).map(i=>v.articles[+i]?`<a href="${esc(v.articles[+i].url)}" target="_blank" rel="noopener">${i}</a>`:i).join(',')+']');
+ const f=x=>(x>0?'+':'')+x+'%',m=v.market,n=m.nifty;
+ const rows=Object.entries(m.peers).map(([k,p])=>`<tr><td>${esc(k)}</td><td>${f(p.r1m)}</td><td>${f(p.r3m)}</td><td>${f(p.r12m)}</td></tr>`).join('');
+ return `<h3>What is happening locally <span class="pill">AI read ${(b.sources_used||[]).length} local articles · unverified</span></h3><p>${cite(b.local_story)}</p>
+ <h3>What it means for repayment</h3><p>${cite(b.repayment_impact||'')}</p>
+ <p class="meta">News vs data: <b>${esc(b.news_direction||'')}</b>${b.news_direction_why?' — '+esc(b.news_direction_why):''} · written ${esc(v.generated_ist)}</p>
+ <h3>Market signal: listed peers</h3><p>${esc(b.market_read||'')}</p><table><tr><th>Share</th><th>1M</th><th>3M</th><th>12M</th></tr><tr><td><b>Nifty 50</b></td><td>${f(n.r1m)}</td><td>${f(n.r3m)}</td><td>${f(n.r12m)}</td></tr>${rows}</table><p class="meta">Price change to ${esc(n.asof)} close. ${esc(m.source)}. Market mood only; not used in the score.</p>`}
 function render(){const st=D.states[sel.st],ct=CITY[sel.ct],ind=IND[sel.ind];history.replaceState(null,'',`?state=${sel.st}&city=${sel.ct}${ind?'&ind='+ind.id:''}`);
  if(!ind){$('#result').innerHTML='<div class="card empty">Choose an industry to see the stance.</div>';return}
  const sec=D.sectors[ind.parent],e=D.calls[sel.st+'|'+ind.parent]||[null],[base,score,nat,loc,ins,rs]=e;
- const cb=B[sel.ct+'|'+ind.id],sb=B[sel.st+'|*'],br=cb||sb;let call=base;const nudged=base=='ok'&&br&&br.o=='Worse';if(nudged)call='caution';
+ const cb=B[sel.ct+'|'+ind.id],sb=B[sel.st+'|*'],br=cb||sb;let call=base;const v4=V4[sel.ct+'|'+ind.id],vb=v4&&v4.brief&&v4.brief.local_story?v4.brief:null;const nudged=vb?v4.nudged_by_news:(base=='ok'&&br&&br.o=='Worse');if(nudged)call='caution';
  const cls=call||'unknown',label=call?LBL[call]:'Not enough data';
  const reasons=(rs||[]).map(i=>D.reasons[i]);
  const al=r=>(call=='ok'||nudged)?r[1]>0:r[1]<0,ov=r=>/Brent|Repo /.test(r[0]);const lead=reasons.find(r=>r[3]=='national'&&al(r)&&!ov(r))||reasons.find(r=>al(r)&&!ov(r))||reasons.find(al)||reasons[0];
@@ -80,17 +88,17 @@ function render(){const st=D.states[sel.st],ct=CITY[sel.ct],ind=IND[sel.ind];his
  const why=reasons.slice(0,4).map(r=>`<li>${esc(r[0].split(' [')[0])} <span class="meta">${esc((r[0].match(/\[(.*)\]$/)||['',''])[1])}${r[2]?` · <a href="${esc(r[2])}" target="_blank" rel="noopener">source</a>`:''}</span></li>`).join('');
  const lt=cb?'':`<div class="note">Local brief not yet generated for ${esc(ct.name)}; state view shown.</div>`;
  const flav=br?`<p>${esc(br.f)}</p>`:`<p class="meta">${D.local_news_status?.active===false?'Local scan activates once the key is added.':'No local brief available yet for this state.'}</p>`;
- const checks=(cb&&cb.c)||sec.checks||[],change=(cb&&cb.x)||[call?`Score ${score??nat}: OK to lend needs ${D.geo.ok_at_or_above}+, Avoid below ${D.geo.avoid_below}.`:'',sec.change||''].join(' ');
- const srcs=[...reasons.filter(r=>r[2]).map(r=>[r[0].split(' [')[0],r[2],'official']),...((br&&br.s)||[]).map(s=>[s.title||s.url,s.url,'local news · '+s.date])];
+ const checks=(vb&&vb.borrower_checks)||(cb&&cb.c)||sec.checks||[],change=(vb&&vb.change_the_call)||(cb&&cb.x)||[call?`Score ${score??nat}: OK to lend needs ${D.geo.ok_at_or_above}+, Avoid below ${D.geo.avoid_below}.`:'',sec.change||''].join(' ');
+ const srcs=[...reasons.filter(r=>r[2]).map(r=>[r[0].split(' [')[0],r[2],'official']),...(vb?v4.articles.filter((a,i)=>(vb.sources_used||[]).includes(i)).map(a=>[a.title||a.url,a.url,'local article · '+a.date]):[]),...((!vb&&br&&br.s)||[]).map(s=>[s.title||s.url,s.url,'local news · '+s.date])];
  const drv=sec.drivers.map(d=>`<tr><td>${esc(d.t)}</td><td>${esc(d.st)}${d.r?` <span class="meta">${esc(d.r)}</span>`:''}</td><td>${esc(mon(d.d))}</td><td>${d.u?`<a href="${esc(d.u)}" target="_blank" rel="noopener">link</a>`:''}</td></tr>`).join('');
  const sig=Object.entries(st.signals).map(([k,s])=>`<tr><td>${k=='gst'?'GST collections':'Electricity demand'} Apr-to-date</td><td>${s.value>0?'+':''}${s.value}% vs India ${s.india>0?'+':''}${s.india}%</td><td>${esc(mon(s.as_of))}</td><td>${s.source_url?`<a href="${esc(s.source_url)}" target="_blank" rel="noopener">link</a>`:''}</td></tr>`).join('');
  const gn=sec.gnpa&&sec.gnpa.points&&sec.gnpa.points.length?`<h3>GNPA ratio, ${esc(sec.gnpa.fsr_category)} (RBI FSR, all banks)</h3>${spark(sec.gnpa.points,'value','GNPA')}`:'<h3>GNPA</h3><p class="meta">No matching RBI FSR category — Unknown, collect from internal MIS.</p>';
  const tr=sec.trend&&sec.trend.length>1?`<h3>Bank-credit growth trend (RBI)</h3>${spark(sec.trend.map(p=>({period:mon(p.period),yoy_pct:p.yoy_pct})),'yoy_pct','credit trend')}`:'';
  $('#result').innerHTML=`<div class="card" data-call="${cls}">
- <div class="top"><span class="badge ${cls}">${esc(label)}</span>${score!=null||nat!=null?`<span class="score">${score??nat}<small>/100</small></span>`:''}${proxy}</div>
+ <div class="top"><span class="badge ${cls}">${esc(label)}</span>${vb?'<span class="pill" style="background:#ecfeff;color:#0e7490">v4 test</span>':''}${score!=null||nat!=null?`<span class="score">${score??nat}<small>/100</small></span>`:''}${proxy}</div>
  <div class="head">${esc(head)}</div><div class="meta">${esc(formula)}${nudged?` Local news says conditions are worse than the data, so OK to lend becomes Caution.`:''}</div>
  <h3>Why</h3>${why?`<ul>${why}</ul>`:'<p class="meta">Not enough verified figures. Unknown — collect.</p>'}
- <h3>Local flavour <span class="pill">AI-written from local news · unverified</span></h3>${lt}${flav}${br&&br.o?`<p class="meta">Local outlook vs data: <b>${esc(br.o)}</b>${br.w?' — '+esc(br.w):''} · scanned ${esc(br.t)}</p>`:''}
+ ${vb?v4html(v4,vb):`<h3>Local flavour <span class="pill">AI-written from local news · unverified</span></h3>${lt}${flav}${br&&br.o?`<p class="meta">Local outlook vs data: <b>${esc(br.o)}</b>${br.w?' — '+esc(br.w):''} · scanned ${esc(br.t)}</p>`:''}`}
  <h3>Check with the borrower</h3><ol>${checks.map(c=>`<li>${esc(c)}</li>`).join('')}</ol>
  <h3>What would change the call</h3><p>${esc(change)}</p>
  <details><summary>Sources (${srcs.length})</summary><ul>${srcs.map(s=>`<li><a href="${esc(s[1])}" target="_blank" rel="noopener">${esc(s[0])}</a> <span class="meta">${esc(s[2])}</span></li>`).join('')}</ul></details>

@@ -383,7 +383,7 @@
    "brief": {
     "local_story": "Vapi GIDC's chemical and dye units are being shut down by the Gujarat Pollution Control Board. In the six months to 7 August 2026, GPCB closed 14 units in Vapi for breaking environment rules — half for air and water pollution, half for fire and accident cases — issued show-cause notices to 95 units and 10 further notices [0, 2026-08-07]. The report records units discharging chemical-laden water under cover of monsoon rain and polluted water escaping Vapi GIDC's drainage. Parliament was told that between 1 January 2025 and 24 February 2026 Vapi saw 1,890 inspections, 196 show-cause notices, 36 closure notices, and ₹1.81 crore of environmental penalty raised on 33 units, of which ₹1.39 crore was recovered [0, 2026-08-07].",
     "repayment_impact": "A closure notice stops a batch-chemical or dye unit's production at once, so a plant carrying term instalments and working capital dues earns nothing for that stretch while GPCB pursues ₹1.81 crore in penalties from 33 Vapi units (₹1.39 crore already recovered) [0]. Stoppage loss and penalty outflow land in the same month as the instalment.",
-    "market_read": "Nifty 50 is up 1.9% over one month but down 5.5% over three months and 10.9% over twelve. Five of the six listed peers are weaker than the index over 12 months — GHCL -41.6%, MOL -35.2%, ATUL -13.5%, DEEPAKNTR -12.7% — with AARTIIND the exception at +13.8% and ATUL the worst over 3 months at -25.4%.",
+    "market_read": "Nifty 50 is up 1.9% over one month but down 5.5% over three months and 10.9% over twelve. Four of the five listed peers are weaker than the index over 12 months — GHCL -41.6%, MOL -35.2%, ATUL -13.5%, DEEPAKNTR -12.7% — with AARTIIND the exception at +13.8% and ATUL the worst over 3 months at -25.4%.",
     "borrower_checks": [
      "GPCB enforcement history: count show-cause and closure notices on the unit in the last six months; the benchmark is zero, set against 196 show-cause notices and 36 closure notices issued in Vapi between 1 Jan 2025 and 24 Feb 2026 [0].",
      "Effluent route: verify where treated water is discharged; the benchmark is no discharge into Vapi GIDC drainage, since 33 Vapi units were fined ₹1.81 crore with ₹1.39 crore recovered [0].",
@@ -408,7 +408,10 @@
    "search_hits": 82,
    "dated_recent_hits": 3,
    "generated_ist": "2026-11-01 17:55 IST",
-   "tier": "news_llm (unverified)"
+   "tier": "news_llm (unverified)",
+   "manual_edits": [
+    "market_read: corrected AI miscount 'Five of the six' -> 'Four of the five'"
+   ]
   }
  },
  "calls": {
