@@ -192,7 +192,7 @@ def build(state, city_id, ind_id):
         except Cap:
             break
         tries += 1
-        note = sa.chat_json(SYSTEM, user, max_tokens=1200) if True else sa.chat_json(SYSTEM, user if not probs else user + "\n\nYOUR PREVIOUS NOTE WAS REJECTED: " + "; ".join(probs) +
+        note = sa.chat_json(SYSTEM, user, max_tokens=2000) if True else sa.chat_json(SYSTEM, user if not probs else user + "\n\nYOUR PREVIOUS NOTE WAS REJECTED: " + "; ".join(probs) +
                             ". Remove or replace every listed number with one that appears verbatim in a source, or write 'collect from customer'.")
         probs, bad = number_problems(note, corpus_nums)
         if not probs:

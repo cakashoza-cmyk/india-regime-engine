@@ -20,6 +20,9 @@ def main():
     for ii, c in sorted(cnt.items(), key=lambda x: (-x[1], x[0])):  # greedy balance, industry stays in one chunk
         j = load.index(min(load)); owner[ii] = j; load[j] += c
     mine = [p for p in pairs if owner[p[2]] == k]
+    if len(sys.argv) > 3:  # retry list file: lines "ST|city|industry"
+        want = {tuple(l.strip().split("|")) for l in open(sys.argv[3]) if l.strip()}
+        mine = [p for p in pairs if p in want]
     done = skipped = failed = 0
     tot = {"search": 0, "fetch": 0, "chat": 0}
     fails = []
