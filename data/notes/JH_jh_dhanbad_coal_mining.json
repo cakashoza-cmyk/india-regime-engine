@@ -1,0 +1,123 @@
+{
+ "key": "jh_dhanbad|coal_mining",
+ "state": "JH",
+ "city": "jh_dhanbad",
+ "ind": "coal_mining",
+ "version": "v6",
+ "generated_at": "2026-11-01 20:54 IST",
+ "call": null,
+ "base_call": null,
+ "score": null,
+ "nudged_by_news": false,
+ "verdict": "Caution — the data pack scores Dhanbad coal as None, so lend only against a signed washing or supply contract and a verified yield, never against the seam itself.",
+ "title": "Dhanbad Coal Mining & Washeries: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is",
+  "Dhanbad sits on the Jharia coalfield, which [6] calls the only source of prime coking coal in the country — geographically monopolised supply, with 50+ small and medium cokeries and 30+ washery units around it [6]. **The business is easy to describe: buy raw coal at the minehead, pay to move it, wash or blend it to a grade a steel mill or thermal plant will accept, and sell the washed tonne.** Cash comes from the spread between raw coal plus washing plus freight, and the washed realisation. The local proof is narrow but real: BCCL's washeries earned ₹501.94 crore in the first half, 3.54 times higher, with washed coal production up 12.8% [4]. Be aware how thin city-level evidence is — [6] is an undated aggregator page, so its numbers are claims to verify, not facts to lend on.",
+  "## Where the cash actually sits",
+  "**Working capital sits in the coal pile and the rent, not in the plant.** A first batch of 100–500 MT costs ₹30–50 lakh [6], and a rented 2000–3000 sqm washing unit runs ₹3–8 lakh a month [6]. A borrower who rents carries fixed monthly rent against a stock that a blockade can freeze in a day. [6] quotes 30–45% D2C gross margin and 15–25% wholesale margin; treat both as page claims. **So when a proposal lands, ask whether the washery is owned or rented and what the rent is; if the rent spread over the contracted monthly tonnage leaves nothing above the washing charge, ask for the signed offtake contract before you sanction.** Get the actual yield, the actual realisation and receivable days — collect from customer; no source here gives them.",
+  "## What has broken here this fortnight",
+  "**The risk in Dhanbad is not the coal price, it is the surface above the seam.** On 30 October, residents of Parghabad blocked Sudamdih ASP colliery's fire outsourced project over land compensation and pending purchases; production and coal transport stopped, and management promised approval by 7 November 2026 — the same date the Deputy Commissioner's land-purchase order expires [1]. On 29 October the same colliery was blocked over jobs and compensation, halting coal and overburden movement [2]. [1] records 15 years of pending claims, 2.16 acres used without payment and 3.88 acres under CNT case 21/24. **So when a proposal lands, ask which block the coal comes from; if that block has a live compensation or CNT case, cut tenor to the contract cycle and make a second source a condition of sanction.**",
+  "## What the peers are telling us",
+  "Peer results are mixed, and they are peer, not local. CIL's Q2FY27 production was 151 MT against a 158 MT target, offtake 186 MT, overburden 353 M.CuM against 374 M.CuM [5]; e-auction premium moderated to 51% from 57%, with ASP ₹1,647/t and e-auction realisation ₹2,283/t [5]. **Volumes are moving but auction-linked realisation is softening, so a trader or washery paid off e-auction parity is the one to underwrite hardest.** On the customer side, SAIL's imported coking coal reached ₹22,930/t, up ₹1,700 QoQ and a ₹3.2K swing against its own guidance, OPM at 12.9%, and FY27 volume guidance cut to 21 MT from 22 MT [3]; imported coal is 85% of its 19 MT basket [3]. **That is the real growth opening — domestic washed coking coal substituting an import at that landed price — but the umbrella price is set abroad, so your borrower's realisation moves without notice.**",
+  "## Who to pursue, who to avoid",
+  "**Pursue toll and beneficiation operators with a BCCL-linked supply and quality certification, and cokery feeders in the Jharia cluster — 50+ small and medium cokeries need backward integration [6].** [6] also describes traders who moved from ₹2–5 lakh to ₹50–100 lakh a month on long-term contracts; the page is undated and unverified, so lend to GST returns, not to the story. **Avoid first-time traders without mining or energy experience — [6] itself says the business is not for them, nor for anyone with under ₹20 lakh capital — and avoid any unit whose whole supply sits in one disputed block.**",
+  "## How to grow safely",
+  "**Unsecured room does exist: collateral-free lending to ₹20 lakh under RBI's MSME directions of 2026, and to ₹25 lakh on track record [6].** Build the discipline around what you take and when:",
+  "- Every month: washing invoice tally, diesel and freight bills, ROM-to-washed stock statement, e-way bills matched to GST.",
+  "- Every quarter: the supplier contract with its validity date, and the land case status at the Deputy Commissioner's office.",
+  "- Where none of this exists, collect from customer and hold the limit.",
+  "**Tie drawing power to the washing contract, not to spot e-auction; if the e-auction premium falls below the 51% recorded in [5], reprice the limit to FSA-linked cashflow.**"
+ ],
+ "watch": [
+  [
+   "Block-level stoppage news, weekly",
+   "any fresh chakka jam OR slippage of the 7 November 2026 compensation approval [1] -> freeze new limits for borrowers sourcing that block, allow only contract-backed drawings"
+  ],
+  [
+   "Washed output vs ROM input, monthly",
+   "yield falls below the figure in the signed washing contract -> demand third-party quality certificate and stop drawing power until reconciled"
+  ],
+  [
+   "E-auction premium, monthly (CIL/NCL notices)",
+   "premium below 51% [5] -> shift the limit to FSA-linked cashflow and reprice"
+  ],
+  [
+   "Receivables from steel or thermal buyers, monthly",
+   "beyond the credit period in the supply contract -> convert to LC-backed or reduce limit"
+  ],
+  [
+   "Land and CNT case status at DC office, quarterly",
+   "new case filed on a supplier block -> move borrower to an alternate source before renewal"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Two Sudamdih colliery stoppages in three days halted coal and overburden movement; 7 November compensation deadline [1][2].",
+ "articles": [
+  {
+   "title": "Dhanbad News: मुआवजे की मांग पर सुदामडीह कोलियरी का उत्पादन ठप, वार्ता के बाद आंदोलन स्थगित",
+   "url": "https://www.livehindustan.com/jharkhand/dhanbad/story-parghabad-residents-halt-sudamdih-coal-project-over-pending-land-compensation-201793388719758.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Dhanbad News: सुदामडीह कोलियरी में ग्रामीणों का चक्का जाम",
+   "url": "https://www.livehindustan.com/jharkhand/dhanbad/story-job-and-compensation-demands-halt-operations-at-sudamdih-asp-colliery-201793351462890.html",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Coal spike blindsides margin story; capex ambition intact, but execution watch on",
+   "url": "https://www.stockwatch.live/in/reports/coal-spike-blindsides-margin-story-capex-ambition-intact-but-execution-watch-on-6eb1dd4e-034e-4457-a0c1-cd5393005e08",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "बीसीसीएल वाशरी का मुनाफा 3.5 गुना बढ़ा: 501 करोड़ की कमाई",
+   "url": "https://www.prabhatkhabar.com/state/jharkhand/dhanbad/bccl-washery-profit-production-surge",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "IGI Logo",
+   "url": "https://investmentguruindia.com/newsdetail/buy-coal-india-ltd-india-ltd-for-target-rs-470-by-axis-direct821981",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Coal Business in Dhanbad — Real Costs, Steps & Govt Data | KidharMilega",
+   "url": "https://kidharmilega.in/products/coal-dhanbad/",
+   "date": "date unknown",
+   "kind": "cluster",
+   "via": "deepseek",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: UNKNOWN score None (national None x 0.6 + Jharkhand None x 0.4). OK to lend at or above 65, Avoid below 45."
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 10,
+  "fetch": 11,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
