@@ -1,0 +1,150 @@
+{
+ "key": "uk_haridwar|vehicle_oem",
+ "state": "UK",
+ "city": "uk_haridwar",
+ "ind": "vehicle_oem",
+ "version": "v6",
+ "generated_at": "2026-11-02 00:06 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 60,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Haridwar OEM-linked component and dealer borrowers with strong balance sheets; avoid small fleet operators and e-rickshaw financiers until local demand and enforcement settle.",
+ "title": "Haridwar Cars & Commercial Vehicles (OEM): a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Haridwar's auto cluster is OEM-linked component and assembly work plus a dealer and fleet layer that lives off vehicle sales and permits.** Inputs are steel, castings, plastics and power; output is parts and vehicles sold to OEMs or retail buyers. Cash sits in inventory and receivables, not in the plant. **So when a proposal lands, check the receivable days against the OEM's payment cycle and the inventory turn against the model cycle; if receivables stretch beyond the OEM's stated terms, ask for the buyer-wise ageing.**\n\n## What has changed now\n**The national picture is strong but the local picture is weak, and that gap is the whole story.** India-wide IIP for NIC 29 (motor vehicles) is +25.2% YoY and +19.2% Apr-to-date [D], and peers report healthy volumes: M&M automotive revenue +25% to ₹31,115 crore with EBIT margin 9.5% [5], Tata Motors CV volumes +26% with net profit ₹2,560 crore [6]. **But Uttarakhand GST collections are -19.1% Apr-to-date against India +6.1%, and electricity demand +4.7% against India +9.5% [D] — the state is running well behind the country.** Locally, the transport department seized 35 vehicles and issued 120 challans in Haridwar [1], and auto, vikram and e-rickshaw drivers protested the new electric bus and e-golf cart service [2][3]. **So when a fleet or passenger-transport proposal lands, check permit validity and challan history first; if the borrower's route overlaps the new electric bus corridor, ask how much of monthly collection comes from that route.**\n\n## Where the growth is\n**Pursue tier-2 component suppliers and authorised dealers tied to the OEMs that are actually growing, not the passenger-transport operators being displaced.** The peer results show volume-led growth at M&M and Tata Motors [5][6], and margin pressure from commodity and freight costs is the common thread [4][7]. **So when a component supplier lands, check whether the order book is with a growing OEM and whether price escalation clauses exist; if the contract is fixed-price with no commodity pass-through, ask for the last two quarters' gross margin.** Rating methodology for auto component suppliers and CV makers stresses cash-flow adequacy and leverage [10][11]; use those as the frame. **Avoid small e-rickshaw and vikram operators and single-route fleet owners until the permit dispute resolves.**\n\n## How to grow safely\n**Structure against the working-capital cycle, not the balance sheet.** Take monthly stock and debtor statements, a quarterly CMA, and a monthly challan and permit status for any transport borrower. **Take post-dated cheques or escrow of OEM receivables where the buyer is a large OEM; if the borrower resists, ask why the OEM payment cannot be routed.** Keep tenor within one model cycle. **Collect from customer the local order-book value and the OEM-wise sales split — the sources do not give Haridwar-specific auto output.**\n\n## Early-warning signs\n**Watch the local demand signals monthly, not the national ones.** A further fall in Uttarakhand GST or electricity demand [D], a rise in vehicle seizures [1], or widening protests against electric services [2][3] are the triggers. **If any two fire in the same month, freeze new transport-sector limits and review existing ones.**"
+ ],
+ "watch": [
+  [
+   "Uttarakhand GST collections (monthly)",
+   "two consecutive months below India growth -> pause new transport limits"
+  ],
+  [
+   "Vehicle seizure and challan reports in Haridwar (monthly)",
+   "rise in seizures -> recheck permits and challan history on all fleet borrowers"
+  ],
+  [
+   "OEM receivable ageing (monthly)",
+   "receivable days stretch beyond OEM terms -> ask for buyer-wise ageing and escrow"
+  ],
+  [
+   "Electric bus and e-rickshaw protest news (monthly)",
+   "escalation on the new corridor -> cut exposure to affected route operators"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "National auto output strong but Uttarakhand GST and power demand lag India; local seizures and protests.",
+ "articles": [
+  {
+   "title": "परिवहन विभाग का शिकंजा, हरिद्वार में 35 वाहन सीज",
+   "url": "https://jantaserishta.com/amp/local/uttarakhand/transport-department-tightens-its-grip-seizes-35-vehicles-in-haridwar-35--4911374",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Dehradun News: ऑटो, विक्रम, ई रिक्शा ने दिया धरना",
+   "url": "https://www.livehindustan.com/uttarakhand/dehradun/story-haridwar-vehicle-union-protests-e-golf-carts-and-city-bus-plan-201793341613209.html",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "हरिद्वार में इलेक्ट्रिक बस और ई-गोल्फ कार्ट सेवा के विरोध में उतरे ऑटो-विक्रम और ई-रिक्शा चालक",
+   "url": "https://www.amarujala.com/video/uttarakhand/haridwar/video-haridwarauto-rickshaw-and-e-rickshaw-drivers-protest-against-electric-bus-and-e-golf-cart-services-in-haridwar-2026-10-30",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Auto volumes stay strong in Q4, but margins may come under pressure - CNBC TV18 - Auto volumes stay strong in Q4, but margins may come under pressure",
+   "url": "https://www.cnbctv18.com/market/earnings/auto-volumes-stay-strong-in-q4-but-margins-may-come-under-pressure-19891158.htm/amp#1",
+   "date": "2026-04-21",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14% - CNBC TV18 - M&M Q4 Results: Revenue growth of 26% beats expectations, margins above 14%",
+   "url": "https://www.cnbctv18.com/market/mahindra-and-mahindra-mm-q4-results-volumes-realisation-suv-tractor-guidance-share-price-19898900.htm#1",
+   "date": "2026-05-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Page 3 - Tata Motors - Sunday, October 25, 2026 | 08:00 PM ISTहिंदी में पढें",
+   "url": "https://www.business-standard.com/topic/tata-motors/page-3#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Auto Q1 Earnings: Export-Focused OEMs May Weather Margin Pressure Better, Says Nirmal Bang's Yash Agrawal - Auto companies are likely to report healthy revenue growth for the June quarter on the back of robust volume growth across vehic...",
+   "url": "https://www.ndtvprofit.com/markets/auto-q1-earnings-export-focused-oems-may-weather-margin-pressure-better-says-nirmal-bangs-yash-agrawal-11800307?pfrom=mailchimp&utm_campaign=mailchimp#1",
+   "date": "2026-07-20",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "An entity's ability to sustain profitability through a business cycle is one of the key factors that ICRA incorporates in its an...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/845~Passenger%20Vehicles#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "| Industry | Key reasons for rating action in the second half of 2015-16 | Outlook for the medium term |",
+   "url": "https://www.crisilratings.com/content/dam/crisil/our-analysis/publications/ratings-roundup/RRUH2-16-formatted_v4_April4_secured_Publishing.pdf#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "ICRA assesses the ability of a manufacturer to generate healthy cash flows to reinvest in the business and meet its debt- servic...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/342~Auto%20Component%20Suppliers,%20Rating%20Methodology,%20Jun%202016%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "As this methodology highlights, while undertaking the credit assessment of entities, ICRA seeks to incorporate all the relevant ...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/778~Commercial%20Vehicles#3#3#3",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 60 (national 100 x 0.6 + Uttarakhand 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttarakhand: GST collections -19.1% Apr-to-date vs India +6.1% (25.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Uttarakhand: electricity demand +4.7% Apr-to-date vs India +9.5% (4.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 29 output +25.2% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +19.2% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
