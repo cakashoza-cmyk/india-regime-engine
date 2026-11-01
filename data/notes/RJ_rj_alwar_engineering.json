@@ -1,0 +1,150 @@
+{
+ "key": "rj_alwar|engineering",
+ "state": "RJ",
+ "city": "rj_alwar",
+ "ind": "engineering",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 48,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Alwar engineering units with a funded order book and a clean receivables record; avoid small job-work fabricators selling to state utilities and EPC contractors with stretched payables.",
+ "title": "Alwar Engineering & Capital Goods: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**An engineering unit in Alwar buys steel, castings and bought-out components, adds machining, fabrication or assembly, and sells either as an OEM supplier or as a job-worker to larger EPC and capital-goods buyers.** Cash comes in only after the buyer accepts the goods and pays, so the unit funds steel inventory and wages for weeks before a rupee returns. Pricing power sits with whoever holds the drawing and the customer relationship; the job-worker takes what the OEM offers. **So when a proposal lands, first ask who owns the drawing and who sets the price; if the borrower is a pure job-worker on a single buyer, treat it as a wage-earner with a balance sheet, not a manufacturer.**\n\n## Where cash sits and what has changed\n**Working capital is the whole business: inventory of steel and work-in-progress, plus receivables from EPC buyers who themselves wait on project payments.** Rating commentary on the sector notes that EPC cash conversion cycles stay high because execution periods are long, while OEMs turn faster [11], and that a longer cycle simply means more working-capital funding [9]. Against it, Rajasthan's GST collections ran 4.7% lower Apr-to-date against India's +6.1%, and state electricity demand grew 4.0% against India's 9.5% [D] — both local stress signals. **So treat the district as a two-speed market: a new OEM cluster pulling in suppliers, and a wider state economy that is not expanding.**\n\n## Where to grow, and how to grow safely\n**Pursue tier-2 machining and fabrication suppliers who have a purchase order or rate contract from the new engine plant or from listed capital-goods buyers, and whose order book is funded rather than bid for.** Peer results show the demand is real but margins are not automatic: Pitti is expanding on data-centre, mining and railway order visibility [4], DEE's revenue rose 77% to ₹286.7 crore with operating profit at ₹47.6 crore [5], Skipper reported its highest-ever Q2 revenue with PAT up 56% [6], while Suzlon grew revenue 26% to ₹4,869 crore but saw EBITDA margin fall to 14.8% from 18.6% [7]. **So structure against the order book, not the optimism: sanction against confirmed POs, keep the drawing and buyer details on file, and take monthly stock-and-receivables statements plus the GST return each month.** Avoid units whose order book is dominated by state utility or EPC contracts with retention money and bank guarantees; bid guarantees and performance guarantees tie up limits before any cash arrives [9]. ## Early-warning signs\n**Watch the buyer mix and the bank-guarantee book.** If a borrower's top buyer crosses half of sales, or guarantee limits are fully drawn while receivables age, the unit is financing someone else's project. **Ask for the monthly sales register and the guarantee utilisation; if either moves against you two months running, cut limits and move to cash-backed terms.**"
+ ],
+ "watch": [
+  [
+   "GST returns vs sales register (monthly)",
+   "GST turnover below reported sales by more than a tenth -> ask for the purchase invoices and re-rate the limit"
+  ],
+  [
+   "Bank-guarantee utilisation (monthly)",
+   "Guarantee limits fully drawn with no matching order inflow -> convert to cash margin or decline enhancement"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "Top buyer above half of sales -> seek a second buyer's POs before renewing"
+  ],
+  [
+   "Electricity and GST trend for Rajasthan (quarterly)",
+   "State GST or power demand stays below the India line for two more quarters -> tighten new-to-bank SME entries in the district"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Rajasthan GST and power demand trail India; only the new engine plant is positive.",
+ "articles": [
+  {
+   "title": "Alwar में शुरू हुई नई Industrial ताकत: TAFE–DEUTZ Engine Plant से बढ़ेगा Manufacturing, हजारों युवाओं को मिलेगा रोजगार - Alwar में शुरू हुई नई Industrial ताकत: TAFE–DEUTZ Engine Plant से बढ़ेगा Manufacturing, हजारों युवाओं को मिलेगा रोजगार",
+   "url": "https://ananyasoch.com/tafe-deutz-engine-plant-inauguration-alwar-rajasthan-manufacturing-investment#1",
+   "date": "2026-07-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "अलवर में शुरू हुआ नया इंजन प्लांट, उद्योगों को मिलेगी नई रफ्तार - Dainik Jaltedeep",
+   "url": "https://dainikjaltedeep.com/state/new-engine-plant-inaugurated-in-alwar/",
+   "date": "2026-07-19",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "TAFE Motors and DEUTZ AG Launch New Engine Manufacturing Facility in Alwar, Rajasthan",
+   "url": "https://newprojectstracker.com/capex-news/tafe-motors-and-deutz-ag-launch-new-engine-manufacturing-facility-in-alwar-rajasthan",
+   "date": "date unknown",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Pitti Engineering Bets Big on Growth Amid Margin Strain - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/pitti-engineering-bets-big-on-growth-amid-margin-strain#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "DEE’s order book crosses Rs 1,300 crore as Q3 profit rebounds sharply - DEE Development Engineers Ltd",
+   "url": "https://www.financialexpress.com/business/news/dees-order-book-crosses-rs-1300-crore-as-q3-profit-rebounds-sharply/4132452/?ref=Alsoread_article#1",
+   "date": "2026-02-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SKPL/SECT/2026-27/103",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7562945-dfe3-4861-a0ac-9b5f25acd39e.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India Wind Energy Market Tests Suzlon’s Growth Model",
+   "url": "https://urbanacres.in/indias-wind-energy-boom-is-testing-suzlons-growth-model/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating rationale Anawil Wire and Engineering Ltd",
+   "url": "https://nsearchives.nseindia.com/corporate/ANAWIL_21082026125904_Final_RR__Anawil_Wire_and_Engineering_Ltd.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| J Kumar    | ICRA A1    | ICRA A+    | Stable    | The rating favourably factors in JKIL’s strong OB position, which provides ...",
+   "url": "https://www.hdfcsec.com/hsl.docs//Industrials%20-%20N%E2%80%99HAI%E2%80%99%20Way%20-%20HSIE-202310251417508242006.pdf#11#40#11",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- **R$’000 crore**",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/may/the-march-of-capital-goods.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 48 (national 80 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

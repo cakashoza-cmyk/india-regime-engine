@@ -1,0 +1,150 @@
+{
+ "key": "mp_dewas|engineering",
+ "state": "MP",
+ "city": "mp_dewas",
+ "ind": "engineering",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 58,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Dewas engineering units with funded order books and tight monthly cash discipline; avoid firecracker-adjacent and thin-margin fabrication units until local GST trend turns.",
+ "title": "Dewas Engineering & Capital Goods: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Dewas engineering units convert steel, tube and castings into fabricated structures, precision tubes and machined parts, and cash comes back only after dispatch, inspection and retention release.** The value sits in the order book and the customer relationship, not the machine; the cash sits in receivables and work-in-progress, which is why the working capital cycle is the real credit risk [9][11]. **Capex is lumpy and order-led, so a proposal for a new line must be matched to a signed order, not to a forecast.** For EPC-type work the cash conversion cycle runs longer than for OEMs because execution periods stretch [11], so when a proposal lands, check whether the borrower is an OEM or an EPC supplier; if EPC, ask for the milestone-wise billing schedule and retention terms. ## What has changed now\n**The national demand signal is strong but the local tax signal is not.** India-wide IIP for NIC 28 is +10.3% YoY and +10.4% Apr-to-date [D], and exports are +19.8% Apr-to-date in USD [D]. Against that, Madhya Pradesh GST collections are -0.1% Apr-to-date versus India +6.1%, 6.2 pp slower [D]. **So when a Dewas proposal lands, check the borrower's own GST returns against the state trend; if his filings are flat while he claims order growth, ask for the buyer-wise sales register.** Local sources are thin on this city's engineering cluster, so lean on first principles and peers. Note the local firecracker factory blast of May 2026 [1] — it is not engineering, but it tells you safety and licence compliance in Dewas industrial premises get scrutiny; verify factory licence and safety records for any unit handling volatile inputs. ## Where the growth is\n**Pursue precision-tube and machined-component suppliers feeding data-centre, mining, off-highway and railway customers, and piping/fittings units tied to oil and gas.** Peer evidence supports this: Pitti cites data-centre power needs and global sourcing consolidation as structural demand [4]; DEE's piping and fittings order book crossed Rs 1,300 crore with Q3 revenue up 77% YoY to ₹286.7 crore [5]; Skipper reported its highest-ever Q2 revenue with PAT up 56% [6]. **Avoid pure fabrication job-work units with single customers and no retention history, and avoid anyone whose margin depends on one buyer's price revision.** Suzlon shows volume growth without margin — revenue up 26% to Rs 4,869 crore but EBITDA margin down to 14.8% from 18.6% [7] — so when a proposal lands, check whether volume growth is coming with falling margin; if yes, ask for the price-variation clause in the contract. ## How to grow safely\n**Structure every limit against the order book, not the balance sheet.** Take monthly: GST returns, buyer-wise sales and receivable ageing, order book with delivery dates, and stock statement reconciled to WIP. ## Early-warning signs\n**Watch receivable days crossing the contract retention period, WIP rising faster than billing, and GST filings turning flat while order book grows.** If any two appear together, freeze enhancement and re-price."
+ ],
+ "watch": [
+  [
+   "GST returns vs state trend (monthly)",
+   "borrower filings flat while MP stays at -0.1% [D] -> ask for buyer-wise sales register and hold enhancement"
+  ],
+  [
+   "Receivable days vs retention terms (monthly)",
+   "receivable days exceed retention period -> re-price limit and seek additional collateral"
+  ],
+  [
+   "Order book vs billing (quarterly)",
+   "WIP rises faster than billing for two quarters -> freeze limit and inspect site"
+  ],
+  [
+   "Margin trend (quarterly)",
+   "volume up but margin down, as with Suzlon 14.8% vs 18.6% [7] -> ask for price-variation clause and re-cut limit"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "MP GST -0.1% vs India +6.1% [D]; local engineering news thin, one blast incident [1].",
+ "articles": [
+  {
+   "title": "Dewas ਫੈਕਟਰੀ 'ਚ ਵੱਡਾ ਧਮਾਕਾ, ਕਈ ਲੋਕਾਂ ਦੀ ਮੌਤ ਤੇ ਕਈ ਲੋਕ ਝੁਲਸੇ , ਧਮਾਕੇ ਨਾਲ ਦਹਿਲਿਆ ਪੂਰਾ ਇਲਾਕਾ",
+   "url": "https://punjabi.abplive.com/news/india/dewas-firecracker-factory-blast-3-killed-23-injured-after-blast-at-firecracker-factory-in-madhya-pradesh-dewas-871910",
+   "date": "2026-05-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Indipower Acquires Caparo Tube Business, Bolstering Precision Tube Manufacturing in India - Tube & Pipe India",
+   "url": "https://tubepipeindia.com/indipower-acquires-caparo-tube/#content",
+   "date": "2025-07-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "DEWAS ENGINEERING PRIVATE LIMITED - U27320MP1998PTC012587",
+   "url": "https://www.InstaFinancials.com/company/DEWAS-ENGINEERING-PRIVATE-LIMITED/U27320MP1998PTC012587",
+   "date": "2023-04-15",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Pitti Engineering Bets Big on Growth Amid Margin Strain - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/pitti-engineering-bets-big-on-growth-amid-margin-strain#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "DEE’s order book crosses Rs 1,300 crore as Q3 profit rebounds sharply - DEE Development Engineers Ltd",
+   "url": "https://www.financialexpress.com/business/news/dees-order-book-crosses-rs-1300-crore-as-q3-profit-rebounds-sharply/4132452/?ref=Alsoread_article#1",
+   "date": "2026-02-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SKPL/SECT/2026-27/103",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7562945-dfe3-4861-a0ac-9b5f25acd39e.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India Wind Energy Market Tests Suzlon’s Growth Model",
+   "url": "https://urbanacres.in/indias-wind-energy-boom-is-testing-suzlons-growth-model/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating rationale Anawil Wire and Engineering Ltd",
+   "url": "https://nsearchives.nseindia.com/corporate/ANAWIL_21082026125904_Final_RR__Anawil_Wire_and_Engineering_Ltd.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| J Kumar    | ICRA A1    | ICRA A+    | Stable    | The rating favourably factors in JKIL’s strong OB position, which provides ...",
+   "url": "https://www.hdfcsec.com/hsl.docs//Industrials%20-%20N%E2%80%99HAI%E2%80%99%20Way%20-%20HSIE-202310251417508242006.pdf#11#40#11",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- **R$’000 crore**",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/may/the-march-of-capital-goods.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 58 (national 80 x 0.6 + Madhya Pradesh 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Madhya Pradesh: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,154 @@
+{
+ "key": "rj_bhiwadi|engineering",
+ "state": "RJ",
+ "city": "rj_bhiwadi",
+ "ind": "engineering",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 48,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively in Bhiwadi engineering & capital goods — favour component/machining SMEs with diversified, non-Rajasthan order books and tight monthly discipline; avoid single-shift gas-dependent units and pure local-order fabricators.",
+ "title": "Bhiwadi Engineering & Capital Goods: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Bhiwadi's engineering units convert steel, copper and bought-out castings into components, structures and machined parts, and cash comes back only after the buyer accepts and pays.** Value sits in the order book and the buyer relationship, not the machine; capex is moderate but lumpy, and the working-capital cycle is the real risk because EPC-linked buyers pay slowly [9][11]. **So when a proposal lands, check the order book's customer mix and payment terms before you look at the P&L.**",
+  "## What has changed now\n**The national demand signal is strong but the local one is not.** India-wide NIC 28 output is +10.3% YoY and +10.4% Apr-to-date [D], yet Rajasthan GST collections are -4.7% Apr-to-date against India +6.1%, and state electricity demand is +4.0% against India +9.5% [D]. **Local reporting says 400 factories in the Bhiwadi belt are near closure with production halved and 25,000 jobs at risk, driven by a gas/energy crisis and single-shift running [3] — that is a local news report from April 2026, so treat it as dated but directionally serious.** Separately, RPCB has no lab in Bhiwadi to test iron and copper particulate pollution [2], which tells you compliance scrutiny on foundry-type units is likely to rise. **If a unit runs one shift on gas, ask for its gas contract and last six months' power and fuel cost per tonne before anything else.**",
+  "## Where the growth is\n**Peer results show where demand actually is: data centres, mining, off-highway, railways and power T&D.** Pitti is commissioning a Hyderabad casting and machining facility through FY2030 on data-centre, mining, off-highway and railway order visibility [4]; Skipper posted its highest-ever Q2 revenue with PAT up 56% on T&D structures and exports [6]; DEE's order book crossed Rs 1,300 crore with Q3 revenue up 77% to Rs 286.7 crore [5]. **Pursue Bhiwadi component and machining SMEs that supply these chains — transmission structures, castings, machined parts — with at least part of the order book outside Rajasthan.** Avoid pure local-order fabricators and units whose entire output feeds one Rajasthan buyer.",
+  "## How to grow safely\n**Structure for the working-capital cycle, not the balance sheet.** Take monthly stock and receivable statements, sanction working capital against a drawing power you recompute each month, and keep term loans short and matched to a named machine. **Take every month: GST returns, e-way bills, top-five buyer ledger, power and fuel bills, and a stock-and-receivable statement; if receivables days stretch beyond the sanctioned cycle, cut drawing power immediately.** Where bank guarantees are needed for bidding, size the non-fund limit to the bid pipeline and take the counter-guarantee properly [9]. **If the proposal is a greenfield expansion, ask for phase-wise commissioning and customer confirmation, as Pitti's phased Hyderabad plan shows [4].**",
+  "## Early-warning signs\n**Watch the local, not the national, numbers.** A second consecutive month of falling GST in the unit's own filings, a shift from two shifts to one, or a buyer delaying beyond terms are the triggers. **Suzlon's Q2 FY27 shows volume growth with EBITDA margin down to 14.8% from 18.6% [7] — so if a borrower's revenue grows while margin falls, ask for the price-escalation clause in its contracts.** Any pollution notice or RPCB inspection letter on a foundry unit means stop and reassess [2]. **If the unit cannot show a gas or power contract beyond six months, decline.**"
+ ],
+ "watch": [
+  [
+   "GST returns vs e-way bills (monthly)",
+   "GST turnover falls below e-way bill value for two months -> freeze drawing power and call for buyer confirmations"
+  ],
+  [
+   "Power and fuel cost per tonne (monthly)",
+   "Cost rises while realisations flat -> ask for price-escalation clause; if none, reduce limit"
+  ],
+  [
+   "Order book by customer and state (quarterly)",
+   "Rajasthan share rises above half the book -> reprice or decline fresh limits"
+  ],
+  [
+   "RPCB/pollution notices (event-based)",
+   "Any inspection or notice on the unit -> stop disbursement and reassess [2]"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Rajasthan GST -4.7% and power demand +4.0% lag India; Bhiwadi gas crisis halved output at 400 units [D][3].",
+ "articles": [
+  {
+   "title": "bhiwadi industrial area: Latest News & Videos, Photos about bhiwadi industrial area | The Economic Times - Page 1 - Business News›bhiwadi industrial area",
+   "url": "https://economictimes.indiatimes.com/topic/bhiwadi-industrial-area#1",
+   "date": "2026-10-27",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "हवा में लोहे-तांबे के घातक कण, आरपीसीबी के पास भिवाड़ी में जांच के लिए लैब तक नहीं - Bhiwadi News - - Hindi News",
+   "url": "https://www.bhaskar.com/local/rajasthan/alwar/bhiwadi/news/deadly-iron-and-copper-particles-in-the-air-rpcb-doesn39t-even-have-a-lab-in-bhiwadi-to-test-them-dbp-139459227.html#1",
+   "date": "2026-10-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "25,000 could lose jobs in Rajasthan amid energy crisis: 400 factories on the brink of closure with production halved - Rajasthan News - - English News",
+   "url": "https://www.bhaskarenglish.in:443/local/rajasthan/news/bhiwadi-factories-one-shift-gas-crisis-production-cut-400-factories-closure-risk-137692628.html?_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT81Lz8ksztBLykgszk4s0kvOz9X3qDA1NS3LMssySrKvK0pNSy0qysxLj08qyi8vTi2ydc4oys9NBQDXyjU3QQAAAA%3d%3d&utm_campaign=137692628#1",
+   "date": "2026-04-13",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Pitti Engineering Bets Big on Growth Amid Margin Strain - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/pitti-engineering-bets-big-on-growth-amid-margin-strain#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "DEE’s order book crosses Rs 1,300 crore as Q3 profit rebounds sharply - DEE Development Engineers Ltd",
+   "url": "https://www.financialexpress.com/business/news/dees-order-book-crosses-rs-1300-crore-as-q3-profit-rebounds-sharply/4132452/?ref=Alsoread_article#1",
+   "date": "2026-02-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SKPL/SECT/2026-27/103",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7562945-dfe3-4861-a0ac-9b5f25acd39e.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India Wind Energy Market Tests Suzlon’s Growth Model",
+   "url": "https://urbanacres.in/indias-wind-energy-boom-is-testing-suzlons-growth-model/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating rationale Anawil Wire and Engineering Ltd",
+   "url": "https://nsearchives.nseindia.com/corporate/ANAWIL_21082026125904_Final_RR__Anawil_Wire_and_Engineering_Ltd.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| J Kumar    | ICRA A1    | ICRA A+    | Stable    | The rating favourably factors in JKIL’s strong OB position, which provides ...",
+   "url": "https://www.hdfcsec.com/hsl.docs//Industrials%20-%20N%E2%80%99HAI%E2%80%99%20Way%20-%20HSIE-202310251417508242006.pdf#11#40#11",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- **R$’000 crore**",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/may/the-march-of-capital-goods.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 48 (national 80 x 0.6 + Rajasthan 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Rajasthan: GST collections -4.7% Apr-to-date vs India +6.1% (10.8 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Rajasthan: electricity demand +4.0% Apr-to-date vs India +9.5% (5.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

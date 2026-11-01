@@ -1,0 +1,142 @@
+{
+ "key": "wb_howrah|engineering",
+ "state": "WB",
+ "city": "wb_howrah",
+ "ind": "engineering",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 48,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Howrah engineering units with confirmed order books and bank-guarantee-backed EPC work; avoid job-work fabricators and units dependent on the state's weak demand cycle.",
+ "title": "Howrah Engineering & Capital Goods: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Howrah's engineering units convert steel, castings and bought-out components into fabricated structures, machined parts and small capital equipment, and cash comes back only after dispatch, inspection and retention release.** The value sits in the order book and the customer relationship, not in the machines; the cash sits in receivables and retention money, which is why the working-capital cycle is the real credit risk, not the plant [8][10]. **For EPC-style work the cash conversion cycle is longer than for pure OEMs because execution periods stretch [10], so when a proposal lands, check the receivable days and retention terms before you look at the margin.**\n\n## What has changed now\n**The national demand signal is strong but Howrah's local signal is not.** India-wide IIP for NIC 28 output is +10.3% YoY and +10.4% Apr-to-date [D], yet West Bengal GST collections are -1.3% Apr-to-date against India +6.1%, and state electricity demand is +5.7% against India +9.5% [D]. **Local reporting describes Howrah's industrial base as shrinking and jobless [1], and that source is from April 2026, so treat it as directionally useful but dated.** Peer results are mixed: DEE's revenue rose 77% YoY to ₹286.7 crore with operating profit at ₹47.6 crore [4], Skipper posted record Q2 revenue with PAT up 56% [5], while Suzlon grew revenue 26% to ₹4,869 crore but EBITDA margin narrowed to 14.8% from 18.6% [6]. **Volume growth without margin is the pattern to underwrite against, so when a proposal lands, check whether the margin expansion is real or just order-book noise; if margins are flat while revenue jumps, ask for the customer-wise price escalation clause.**\n\n## Where the growth is\n**Pursue units tied to power transmission, railways, data-centre equipment and oil-and-gas piping, because that is where peer order books are visibly filling.** Pitti's expansion is backed by order visibility from data centres, mining, off-highway vehicles and railways [3], and DEE's rebound is driven by piping and fittings for oil and gas [4]. **Avoid pure job-work fabricators and units whose order book depends on state government spending, given the -1.3% GST and +5.7% electricity demand readings [D].**\n\n## How to grow safely\n**Structure term loans against confirmed order book, not against land, and take the bank guarantee line as the primary exposure.** Rating commentary flags that bid and performance guarantees are a core working-capital need in this business [8], so when a proposal lands, check the guarantee utilisation against the order book; if guarantees exceed the executable order book, ask for the order pipeline and customer confirmation. **Take monthly stock-and-receivable statements, quarterly GST returns and the order-book position every month, and reconcile receivable days against the retention schedule [10].**\n\n## Early-warning signs\n**Watch for receivable days stretching beyond the retention cycle, guarantee calls, and electricity consumption falling at the unit while the order book is claimed to be growing.** If GST turnover for the unit falls two quarters running while the state is already at -1.3% [D], ask for the customer-wise dispatch register. **If a borrower's margin narrows the way Suzlon's did to 14.8% from 18.6% [6], ask for the price-escalation clause before renewing.**"
+ ],
+ "watch": [
+  [
+   "Monthly GST returns (monthly)",
+   "Two consecutive quarters of falling turnover -> ask for dispatch register and customer confirmations"
+  ],
+  [
+   "Bank guarantee utilisation (monthly)",
+   "Guarantee exposure above executable order book -> seek order pipeline and customer confirmation"
+  ],
+  [
+   "Receivable days vs retention schedule (quarterly)",
+   "Receivable days stretch beyond retention cycle -> reduce limit and seek cash-flow statement"
+  ],
+  [
+   "Unit electricity consumption (monthly)",
+   "Consumption falls while order book claimed rising -> site visit and stock verification"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "West Bengal GST -1.3% and power demand +5.7% lag India; Howrah base described as shrinking [1][D].",
+ "articles": [
+  {
+   "title": "Howrah's Industrial Collapse: Once Called 'Sheffield of the East,' Now Facing Joblessness Crisis",
+   "url": "https://timesofindia.indiatimes.com/videos/the-narrative-election-special/news/howrahs-industrial-collapse-once-called-sheffield-of-the-east-now-facing-joblessness-crisis/videoshow/videos/the-narrative-election-special/news/krishnanagar-ground-report-a-tale-of-craft-cream-and-changing-times/videoshow/videos/the-narrative-election-special/news/howrahs-industrial-collapse-once-called-sheffield-of-the-east-now-facing-joblessness-crisis/videoshow/130512468.cms",
+   "date": "2026-04-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Howrah - इंजीनियरिंग कॉलेज के छात्र की अस्वाभाविक मौत",
+   "url": "https://sunlightnews.co.in/howrah-engineering-college-student-death/",
+   "date": "2025-08-10",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Pitti Engineering Bets Big on Growth Amid Margin Strain - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/pitti-engineering-bets-big-on-growth-amid-margin-strain#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "DEE’s order book crosses Rs 1,300 crore as Q3 profit rebounds sharply - DEE Development Engineers Ltd",
+   "url": "https://www.financialexpress.com/business/news/dees-order-book-crosses-rs-1300-crore-as-q3-profit-rebounds-sharply/4132452/?ref=Alsoread_article#1",
+   "date": "2026-02-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SKPL/SECT/2026-27/103",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7562945-dfe3-4861-a0ac-9b5f25acd39e.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India Wind Energy Market Tests Suzlon’s Growth Model",
+   "url": "https://urbanacres.in/indias-wind-energy-boom-is-testing-suzlons-growth-model/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating rationale Anawil Wire and Engineering Ltd",
+   "url": "https://nsearchives.nseindia.com/corporate/ANAWIL_21082026125904_Final_RR__Anawil_Wire_and_Engineering_Ltd.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| J Kumar    | ICRA A1    | ICRA A+    | Stable    | The rating favourably factors in JKIL’s strong OB position, which provides ...",
+   "url": "https://www.hdfcsec.com/hsl.docs//Industrials%20-%20N%E2%80%99HAI%E2%80%99%20Way%20-%20HSIE-202310251417508242006.pdf#11#40#11",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- **R$’000 crore**",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/may/the-march-of-capital-goods.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 48 (national 80 x 0.6 + West Bengal 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "West Bengal: GST collections -1.3% Apr-to-date vs India +6.1% (7.4 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "West Bengal: electricity demand +5.7% Apr-to-date vs India +9.5% (3.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 3,
+  "chat": 1,
+  "plain_fetch_free": 2
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,158 @@
+{
+ "key": "up_ghaziabad|engineering",
+ "state": "UP",
+ "city": "up_ghaziabad",
+ "ind": "engineering",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:55 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 78,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Ghaziabad engineering & capital goods — pursue order-backed OEM and export-linked component makers, avoid EPC and payment-stressed units.",
+ "title": "Ghaziabad Engineering & Capital Goods: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**These units convert steel, castings and bought-out components into machinery, structures and job-work parts, and cash comes back only after the buyer accepts and pays.** Value sits in the order book and the customer relationship, not the shop floor; the fixed asset is modest but the working-capital cycle is long, and for EPC-style work the cash conversion cycle runs higher than for OEMs [11]. So when a proposal lands, check the order book and buyer profile first; if the order book is thin or single-buyer, ask for the last twelve months of dispatch and payment records.",
+  "## What has changed now\n**The demand signal is genuinely strong: IIP for NIC 28 is +10.3% YoY and +10.4% Apr-to-date, and exports are +19.8% Apr-to-date in USD [D].** Uttar Pradesh GST is running +14.2% Apr-to-date against India's +6.1% [D], so Ghaziabad is pulling ahead of the national average. But local reporting says industrialists are protesting lack of facilities and restrictive policies [1], while a second local report frames policy reform as the fix [2]. **Read that as demand good, execution environment uneven.**",
+  "## Where the growth is\n**Pursue component and structure makers feeding power transmission, railways, data centres and export buyers.** Skipper posted its highest-ever Q2 revenue with PAT up 56% and strong export growth [6]; DEE's order book crossed Rs 1,300 crore with revenue up 77% YoY to Rs 286.7 crore [5]; Pitti cites AI data-centre power needs and global sourcing consolidation as structural demand [4]. Ghaziabad entrepreneurs reportedly booked Rs 18 crore of domestic and overseas orders at a UP trade show [3] — small, but it shows export enquiry is reaching this cluster. **Avoid pure EPC and single-client job-work units**, where the cash conversion cycle is longest [11].",
+  "## How to grow safely\n**Structure against the order book, not the balance sheet.** Take monthly stock and book-debt statements, monthly GST returns, and quarterly order-book position with buyer names. Ask for bank guarantees where bidding is involved [9]. Where margins are thin — Suzlon grew revenue 26% YoY to Rs 4,869 crore but EBITDA margin fell to 14.8% from 18.6% [7] — price for that and cap drawing power at a realistic margin. **Collect from customer** the local receivable days and capex plans; the sources do not give Ghaziabad-specific figures.",
+  "## Early warning signs\n**Watch receivable days stretching beyond the stated credit terms, order book that does not convert to dispatch, and rising payables masking a longer cycle [11].** A buyer concentration above half of monthly billing, or GST turnover falling below bank-statement credits, means stop and re-assess. Local sources are thin on Ghaziabad-specific credit data, so lean on first principles and these peer signals."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs bank credits",
+   "GST turnover below bank credits for two months -> ask for buyer-wise ledger and hold enhancement"
+  ],
+  [
+   "Order book and dispatch register (monthly)",
+   "Order book flat while inventory rises -> reduce drawing power"
+  ],
+  [
+   "Receivable days (monthly)",
+   "Receivables beyond stated terms by 15 days -> seek fresh buyer confirmation"
+  ],
+  [
+   "Buyer concentration (quarterly)",
+   "Single buyer above 50% of billing -> cap exposure and seek diversification plan"
+  ],
+  [
+   "Local policy/news on industrial facilities (monthly)",
+   "Fresh protest or restriction reported [1] -> pause new sanctions in affected estates"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Strong IIP and export data offset by local complaints on facilities and policy.",
+ "articles": [
+  {
+   "title": "Ghaziabad News: उद्यमियों-औद्योगिक क्षेत्रों को नहीं मिल रही सुविधाएं",
+   "url": "https://www.livehindustan.com/ncr/ghaziabad/story-ghaziabad-industrialists-protest-alleged-government-neglect-and-restrictive-policies-201793385802377.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ghaziabad News: सरकार की नीतियों में सुधार से आसान होगा उद्योग चलाना",
+   "url": "https://www.amarujala.com/delhi-ncr/ghaziabad/improving-government-policies-will-make-it-easier-to-run-a-business-ghaziabad-news-c-30-gbd1036-1012436-2026-10-31",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Ghaziabad News: गाजियाबाद के उद्यमियों को देश-विदेश से 18 करोड़ के खरीद आर्डर मिले - Ghaziabad News: गाजियाबाद के उद्यमियों को देश-विदेश से 18 करोड़ के खरीद आर्डर मिले",
+   "url": "https://www.livehindustan.com/ncr/ghaziabad/story-ghaziabad-entrepreneurs-get-18-crore-orders-at-up-international-trade-show-201792584228698.html#1",
+   "date": "2026-10-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Pitti Engineering Bets Big on Growth Amid Margin Strain - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/pitti-engineering-bets-big-on-growth-amid-margin-strain#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "DEE’s order book crosses Rs 1,300 crore as Q3 profit rebounds sharply - DEE Development Engineers Ltd",
+   "url": "https://www.financialexpress.com/business/news/dees-order-book-crosses-rs-1300-crore-as-q3-profit-rebounds-sharply/4132452/?ref=Alsoread_article#1",
+   "date": "2026-02-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SKPL/SECT/2026-27/103",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7562945-dfe3-4861-a0ac-9b5f25acd39e.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India Wind Energy Market Tests Suzlon’s Growth Model",
+   "url": "https://urbanacres.in/indias-wind-energy-boom-is-testing-suzlons-growth-model/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating rationale Anawil Wire and Engineering Ltd",
+   "url": "https://nsearchives.nseindia.com/corporate/ANAWIL_21082026125904_Final_RR__Anawil_Wire_and_Engineering_Ltd.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| J Kumar    | ICRA A1    | ICRA A+    | Stable    | The rating favourably factors in JKIL’s strong OB position, which provides ...",
+   "url": "https://www.hdfcsec.com/hsl.docs//Industrials%20-%20N%E2%80%99HAI%E2%80%99%20Way%20-%20HSIE-202310251417508242006.pdf#11#40#11",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- **R$’000 crore**",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/may/the-march-of-capital-goods.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 78 (national 80 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

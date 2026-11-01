@@ -1,0 +1,150 @@
+{
+ "key": "mp_mandideep|engineering",
+ "state": "MP",
+ "city": "mp_mandideep",
+ "ind": "engineering",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:54 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 58,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively in Mandideep engineering only to order-backed, export-linked component makers with tight monthly cash monitoring; avoid pure local-demand EPC and small fabricators until MP GST turns positive.",
+ "title": "Mandideep Engineering & Capital Goods: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**Mandideep engineering runs on converting steel, castings and bought-out components into machinery, structures and job-work for OEMs and projects, and cash comes back only after dispatch, inspection and retention release.** The value sits in the order book and the customer relationship, not the shed; pricing power is thin on job-work and stronger only where the unit is a sole-source vendor. Capex is lumpy (casting, machining, fabrication lines) and is usually committed before orders convert, so **when a proposal lands, check whether capex is backed by a signed order or only by intent; if only intent, ask for the customer LOI and the phase-wise commissioning plan.** [4][11]\n\n## Where cash sits and what has changed\n**Working capital is the whole game: receivables plus inventory minus payables, and EPC-type work carries a longer cash conversion cycle than OEM supply.** [9][11] Peer results show demand is real but margins are not keeping pace — Pitti is expanding through FY 2030 on data-centre, mining and railway order visibility while flagging margin strain [4], and Suzlon grew revenue 26% to Rs 4,869 crore in Q2 FY27 with EBITDA almost flat at Rs 720 crore and margin down to 14.8% from 18.6% [7]. **So when a proposal lands, check whether volume growth is being bought with price; if EBITDA margin is falling while sales rise, ask for the customer-wise price list and any fixed-price contracts.** [7]\n\n## The local signal versus the national one\n**The national picture is strong — IIP NIC 28 output +10.3% YoY and +10.4% Apr-to-date, exports +19.8% Apr-to-date in USD [D] — but Madhya Pradesh GST collections are -0.1% Apr-to-date against India +6.1%, a 6.2 pp gap [D].** That gap is the reason this is a Caution call and not a green one. **So treat the corridor as upside, not as a repayment source; if a borrower cites it, ask for the land or allotment document.** [1]\n\n## Who to pursue now, and how to grow safely\n**Pursue tier-2 component and structure makers with export or PSU-order linkage, and job-workers supplying named OEMs with a record of on-time dispatch.** Skipper's highest-ever Q2 revenue with PAT up 56% and export growth [6], and DEE's order book above Rs 1,300 crore with Q3 revenue up 77% to Rs 286.7 crore [5], show where order visibility exists. **Avoid pure local-demand fabricators, single-customer units and anyone bidding EPC on bank guarantees alone.** [9] Structure every limit with a cash-flow sweep and a receivables-backed drawing power; take stock and book-debt statements monthly, GST returns monthly, and a quarterly order-book certificate. **If a unit's order book is rising but monthly GST outflow is flat or falling, ask for the dispatch register and the customer confirmation.** [D]"
+ ],
+ "watch": [
+  [
+   "GST returns vs sales (monthly)",
+   "GST outflow flat or falling while sales rise -> ask for dispatch register and customer confirmation"
+  ],
+  [
+   "Order book certificate (quarterly)",
+   "Order book falls or single customer exceeds half -> reduce limit at renewal"
+  ],
+  [
+   "EBITDA margin (quarterly)",
+   "Margin down with flat volumes -> reprice or exit at next review"
+  ],
+  [
+   "MP GST state trend (monthly)",
+   "MP GST stays negative while India grows -> hold new-to-bank local-demand EPC"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "MP GST -0.1% vs India +6.1% signals local demand stress despite strong national IIP.",
+ "articles": [
+  {
+   "title": "भोपाल के पास मंडीदीप में बनेगा इकोनॉमिक कॉरिडोर, किसानों को 40 फीसदी हिस्सेदारी देने की तैयारी",
+   "url": "https://peoplesupdate.com/mandideep-economic-corridor-madhya-pradesh-farmers-40-percent-share-industrial-hub-213617",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Industrial demand : Latest News Headlines, Videos and Photo Galleries on Industrial demand",
+   "url": "https://bsppd.business-standard.com/topic/industrial-demand",
+   "date": "2026-10-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "mandideep News and Updates from The Economic Times - Page 1 - SEARCHED FOR:",
+   "url": "https://economictimes.indiatimes.com/topic/mandideep/news#1",
+   "date": "2026-10-20",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Pitti Engineering Bets Big on Growth Amid Margin Strain - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/pitti-engineering-bets-big-on-growth-amid-margin-strain#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "DEE’s order book crosses Rs 1,300 crore as Q3 profit rebounds sharply - DEE Development Engineers Ltd",
+   "url": "https://www.financialexpress.com/business/news/dees-order-book-crosses-rs-1300-crore-as-q3-profit-rebounds-sharply/4132452/?ref=Alsoread_article#1",
+   "date": "2026-02-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SKPL/SECT/2026-27/103",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7562945-dfe3-4861-a0ac-9b5f25acd39e.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India Wind Energy Market Tests Suzlon’s Growth Model",
+   "url": "https://urbanacres.in/indias-wind-energy-boom-is-testing-suzlons-growth-model/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating rationale Anawil Wire and Engineering Ltd",
+   "url": "https://nsearchives.nseindia.com/corporate/ANAWIL_21082026125904_Final_RR__Anawil_Wire_and_Engineering_Ltd.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| J Kumar    | ICRA A1    | ICRA A+    | Stable    | The rating favourably factors in JKIL’s strong OB position, which provides ...",
+   "url": "https://www.hdfcsec.com/hsl.docs//Industrials%20-%20N%E2%80%99HAI%E2%80%99%20Way%20-%20HSIE-202310251417508242006.pdf#11#40#11",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- **R$’000 crore**",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/may/the-march-of-capital-goods.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 58 (national 80 x 0.6 + Madhya Pradesh 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Madhya Pradesh: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

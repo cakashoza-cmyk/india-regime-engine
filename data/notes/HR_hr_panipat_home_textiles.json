@@ -1,0 +1,154 @@
+{
+ "key": "hr_panipat|home_textiles",
+ "state": "HR",
+ "city": "hr_panipat",
+ "ind": "home_textiles",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 80,
+ "nudged_by_news": true,
+ "verdict": "Caution on Panipat home textiles: lend selectively to organised towel/bedsheet converters with diversified buyers and recycled-yarn integration; avoid blanket-only units exposed to the 50% domestic demand collapse [1][2].",
+ "title": "Panipat home textiles & made-ups: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nPanipat turns waste cloth into yarn and then into blankets, rugs, towels and bedsheets — roughly 50 containers of used clothes arrive daily and are recycled into yarn [3]. Cash comes from converting cheap fibre into finished home textiles sold to domestic wholesale and export buyers. **Value sits in the spinning-to-finishing chain and in buyer relationships, not in the loom.** Capital is fixed-heavy (power looms, spinning, finishing) and working capital is inventory-led, with receivables stretching the cycle further [10][11]. So when a proposal lands, check how much of the unit is actually spinning and finishing versus plain weaving; if it is only weaving, ask who owns the yarn and on what credit. ## What has broken now\nLocal reporting says the blanket industry faces a nearly 50% decline in domestic demand this season, on top of an overseas slowdown tied to the Iran-Israel-US conflict [1][2]. **That is a blanket-specific shock, not a towel/bedsheet shock.** Peer results point the other way: Welspun Living Q2 FY27 revenue rose 16.9% to Rs 2,870 crore with home textile exports up 18.3% and domestic business up 28.2% [6]; Indo Count posted record Q1 FY27 revenue of Rs 1,224 crore at 13.1% EBITDA margin [7]. Note the ANI piece is about 10 months old [3]. **So when a blanket-only proposal lands, ask for the last six months of order book and buyer-wise sales; if domestic wholesale is the bulk, decline or cut exposure.**\n\n## Where the growth is\nHaryana GST collections rose 10.1% Apr-to-date versus India's 6.1% [D], and India-wide textile output (NIC 13) grew 13.1% YoY to Aug-2026 [D]. **Pursue organised towel and bedsheet converters with export or branded-domestic buyers, and units integrated into recycled-yarn spinning.** Peer evidence supports this: Welspun's global B2B innovation products grew 16% and other B2B 32% [4], and Iris Clothings grew total income 40.3% YoY in Q2 FY27 [5]. Avoid blanket-only units selling to domestic wholesale [1][2]. ## How to grow safely\nStructure as cash credit plus a term loan matched to the spinning/finishing capex, not to loom additions. **Take monthly stock-and-receivable statements, buyer-wise sales, and a quarterly CMA; covenant on total outside liabilities to tangible net worth and interest cover.** Rating reports show conservative peers running gearing of 0.6 times and TOL/TNW of 0.9 times [8]; use that as the benchmark, and collect from customer where their own numbers are missing. - Buyer-wise sales (monthly): top buyer share above half -> seek diversification or reduce limit. - GST returns (monthly): turnover falling two quarters running -> reassess limit. - Power and yarn purchase bills (monthly): output falling with no order-book reason -> shift to watch list."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Inventory days rising with flat sales -> freeze drawing power and ask for buyer-wise ageing"
+  ],
+  [
+   "Monthly GST returns",
+   "Two consecutive quarters of falling turnover -> reassess limit and seek fresh order book"
+  ],
+  [
+   "Monthly buyer-wise sales",
+   "Top buyer above half of sales -> require diversification plan or cut exposure"
+  ],
+  [
+   "Quarterly CMA and rating report",
+   "Gearing above 0.6 times or TOL/TNW above 0.9 times [8] -> move to watch list"
+  ],
+  [
+   "Monthly power and yarn purchase bills",
+   "Output falling without an order-book explanation -> shift to watch list"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Panipat blanket domestic demand down nearly 50% this season [1][2].",
+ "articles": [
+  {
+   "title": "Panipat blanket industry faces 50% dip in domestic demand - Subscribe To Print Edition About The Tribune Code Of Ethics Download App Careers Advertise with us Classifieds",
+   "url": "https://www.tribuneindia.com/news/haryana/panipat-blanket-industry-faces-50-dip-in-domestic-demand/#1",
+   "date": "2026-10-26",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Panipat blanket industry faces 50% dip in domestic demand",
+   "url": "http://dailyhunt.in/news/india/english/the+tribune-epaper-thetribt/panipat+blanket+industry+faces+50+dip+in+domestic+demand-newsid-n731724202?listname=newspaperLanding&topic=haryana&index=1&topicIndex=8&mode=pwa&action=click",
+   "date": "2026-10-25",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Asia's Premier News Agency - India News, Business & Political, National & International, Bollywood, Sports | ANI News",
+   "url": "https://www.aninews.in/videos/national/panipat-weaves-tradition-and-technology-into-global-textile-hub/",
+   "date": "2026-10-10",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Welspun Living Q1 FY27 slides: revenue surges 24%, margins expand By Investing.com - Welspun Living Q1 FY27 slides: revenue surges 24%, margins expand",
+   "url": "https://www.investing.com/news/company-news/welspun-living-q1-fy27-slides-revenue-surges-24-margins-expand-93CH-4857940#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Iris Clothings Ltd (NSE:IRISDOREME) (Q2 2027) Earnings Call Highlights: 40% Revenue Surge, ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/iris-clothings-ltd-nse-irisdoreme-110513986.html",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Welspun Living Q2 revenue rises 16.9 pc to Rs 2,870 crore, achieves net-cash position",
+   "url": "https://retail.economictimes.indiatimes.com/news/apparel-fashion/apparel/welspun-living-q2-revenue-rises-16-9-pc-to-rs-2870-crore-achieves-net-cash-position/135355113?utm_source=Mailer&utm_medium=newsletter&utm_campaign=etretail_news_2026-10-31&dt=2026-10-31",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Indo Count Delivers Record Q1 Revenue Of Rs 1,224 Crore - Textile Insights",
+   "url": "https://textileinsights.in/indo-count-delivers-record-q1-revenue-of-rs-1224-crore/#respond",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 12,2026",
+   "url": "https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/146256#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "• Comfortable financial risk profile: The financial risk profile should remain supported by controlled reliance on external debt...",
+   "url": "https://integraliq.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Golden%20Texo%20Fabs%20Private%20Limited-RU-05-02-2025.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "In addition to inventory holding requirements, the level of working capital for fabric- making entities is driven by the receiva...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/921~Textiles%20(Fabric),%20Rating%20Methodology,%20Jun%202024%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "between the resources available and the obligations, better the liquidity profile of an entity",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/548~Textiles%20(Fabric),%20Rating%20Methodology,%20Mar%202018%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 80 (national 83 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 13 output +13.1% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +11.9% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit +15.2% YoY vs output +11.9% (gap +3.3 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

@@ -1,0 +1,150 @@
+{
+ "key": "mp_gwalior|engineering",
+ "state": "MP",
+ "city": "mp_gwalior",
+ "ind": "engineering",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:53 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 58,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to Gwalior engineering units with confirmed order books and bank-guarantee-backed EPC work; avoid pure capex-led capacity builders until MP GST turns positive.",
+ "title": "Gwalior Engineering & Capital Goods: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A Gwalior engineering unit buys steel, castings and bought-out components, fabricates or machines them, and sells against purchase orders — so cash is tied up in the order book long before it returns as receivables.** Value sits in the order book and in the bank guarantees that win it, not in the shop floor [9]. Pricing power is thin: peers show volume growth without margin — Suzlon grew revenue 26% YoY to Rs 4,869 crore in Q2 FY27 while EBITDA stayed flat at Rs 720 crore and margin fell to 14.8% from 18.6% [7]. **So when a proposal lands, check the order book and the margin trend together; if revenue is rising but EBITDA is flat, ask what price was conceded to win the order.**\n\n## Where the cash actually sits\n**The working-capital cycle is the whole credit story here — receivables and inventory net of payables, and for EPC work the cash conversion cycle runs longer than for OEMs [11].** Peers show what execution can do when the cycle is funded: DEE's revenue rose 77% YoY to Rs 286.7 crore and operating profit to Rs 47.6 crore in Q3 FY26 [5]; Skipper reported its highest-ever Q2 revenue with PAT up 56% [6]. **So take the monthly receivables-and-inventory statement, not the annual audited one; if debtor days stretch beyond the sanctioned cycle, ask which buyer and what retention is being held.** Capex is the second drain — Pitti is commissioning a Hyderabad facility in phases through FY 2030 on order visibility [4], and CRISIL notes players are adding capex to lift utilisation [11]. **If a borrower proposes greenfield capex without a signed order book, ask for the customer letters before any term loan.**\n\n## What has changed now\n**The local signal is weak even as the national one is strong: Madhya Pradesh GST collections are -0.1% Apr-to-date against India +6.1%, 6.2 pp slower [D].** Nationally, IIP NIC 28 output is +10.3% YoY and +10.4% Apr-to-date, and exports are +19.8% Apr-to-date in USD [D]. **So treat the national numbers as the demand backdrop and the state GST as the local cash reality; if a Gwalior borrower's sales are growing faster than MP GST, ask where the goods are actually billed from.** Local news is thin on this industry: the only Gwalior-specific item is a GE Gwalior LT cable conversion tender [1], and the investment news is 12 multinationals and 24 telecom and textile proposals — interest, not yet plants, with investment size and timelines still unconfirmed [3]. The carpet story [2] is a different industry and does not inform this call.\n\n## Where to grow, and how to grow safely\n**Pursue tier-2 fabricators and machining shops feeding transmission, railway and data-centre demand, and EPC subcontractors with bank-guarantee-backed orders [9][4].** Avoid pure capacity builders and single-customer units. **Structure every limit against the order book: take monthly stock and receivable statements, quarterly GST returns, and a half-yearly bank-guarantee utilisation report; if BG limits are exhausted relative to the order book, ask for the next order before enhancing.**\n\n## Early-warning signs\n- **GST turnover falling below the sanctioned projection for two quarters (monthly) -> freeze enhancement and re-price the limit.**\n- **Debtor days rising while sales are flat (monthly) -> ask for the buyer-wise ageing and any retention money held.**\n- **EBITDA margin slipping while revenue grows, as at Suzlon [7] (quarterly) -> cut the limit to the confirmed order book.**\n- **BG invocation or a bid lost on pricing (event-based) -> collect from customer the reason and re-assess the pipeline.**"
+ ],
+ "watch": [
+  [
+   "Monthly GST returns and receivable ageing",
+   "Two quarters of GST turnover below projection -> freeze enhancement and re-price the limit"
+  ],
+  [
+   "Monthly stock and debtor statement",
+   "Debtor days rising with flat sales -> ask buyer-wise ageing and retention held"
+  ],
+  [
+   "Quarterly EBITDA and order book",
+   "Margin slipping while revenue grows -> cut limit to confirmed order book"
+  ],
+  [
+   "Bank guarantee utilisation (half-yearly)",
+   "BG limits exhausted against order book -> ask for next order before enhancing"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "MP GST -0.1% vs India +6.1%; local industry news thin, only tenders and unconfirmed proposals.",
+ "articles": [
+  {
+   "title": "Procurement Opportunity: SPL REPAIR FOR CONVERSION OF OH LT ACSR LINE TO LT UG CABLE AND OTHER CONNECTED ITEMS UNDER GE GWALIOR in GWALIOR, MADHYA PRADESH",
+   "url": "https://tenderdekho.com/tender-detail/td-2s5rrHFjDk",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "देश नहीं विदेशों तक है ग्वालियर के कालीन की पहचान, ऑनलाइन शॉपिंग के सहारे उद्योग, युद्ध का धुआं छटने का इंतजार",
+   "url": "https://www.etvbharat.com/hi/state/gwalior-carpet-industry-effect-iran-us-war-conflict-on-exports-global-recognition-gain-gi-tag-mps26103006063",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "ग्वालियर में 12 Multinational Companies लगाएंगी प्लांट, 24 प्रस्ताव मिले",
+   "url": "https://www.dainikjagranmpcg.com/state/madhya-pradesh/6ac7c1715ba97/article-68742",
+   "date": "2026-10-07",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Pitti Engineering Bets Big on Growth Amid Margin Strain - TipRanks.com - Advertisement",
+   "url": "https://www.tipranks.com/news/company-announcements/pitti-engineering-bets-big-on-growth-amid-margin-strain#1",
+   "date": "2026-10-24",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "DEE’s order book crosses Rs 1,300 crore as Q3 profit rebounds sharply - DEE Development Engineers Ltd",
+   "url": "https://www.financialexpress.com/business/news/dees-order-book-crosses-rs-1300-crore-as-q3-profit-rebounds-sharply/4132452/?ref=Alsoread_article#1",
+   "date": "2026-02-04",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "SKPL/SECT/2026-27/103",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7562945-dfe3-4861-a0ac-9b5f25acd39e.pdf#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India Wind Energy Market Tests Suzlon’s Growth Model",
+   "url": "https://urbanacres.in/indias-wind-energy-boom-is-testing-suzlons-growth-model/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating rationale Anawil Wire and Engineering Ltd",
+   "url": "https://nsearchives.nseindia.com/corporate/ANAWIL_21082026125904_Final_RR__Anawil_Wire_and_Engineering_Ltd.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Performance guarantees: In some businesses, an entity might be required to submit bank guarantees for bidding for orders (bid- b...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=549&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "| J Kumar    | ICRA A1    | ICRA A+    | Stable    | The rating favourably factors in JKIL’s strong OB position, which provides ...",
+   "url": "https://www.hdfcsec.com/hsl.docs//Industrials%20-%20N%E2%80%99HAI%E2%80%99%20Way%20-%20HSIE-202310251417508242006.pdf#11#40#11",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "- **R$’000 crore**",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/may/the-march-of-capital-goods.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 58 (national 80 x 0.6 + Madhya Pradesh 25 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Madhya Pradesh: GST collections -0.1% Apr-to-date vs India +6.1% (6.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
