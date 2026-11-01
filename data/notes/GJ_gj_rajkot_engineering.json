@@ -1,0 +1,133 @@
+{
+ "key": "gj_rajkot|engineering",
+ "state": "GJ",
+ "city": "gj_rajkot",
+ "ind": "engineering",
+ "version": "v6",
+ "generated_at": "2026-11-01 22:33 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 78,
+ "nudged_by_news": false,
+ "verdict": "FINAL CALL: OK — Rajkot engineering is lendable to precision, export-linked and documented MSMEs at or above 65; avoid below 45 [D].",
+ "title": "Rajkot Engineering & Capital Goods: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**Rajkot engineering is a mesh of about 10,000 MSME units turning metal into castings, machined parts, pumps, motors and machine tools, with buyers outside the cluster.** The local report describes foundries, machining and finishing shops, assemblers, and a thin layer of design and CNC firms; buyers include pump makers, auto tier-ones, submersible-pump distributors and European foundry buyers [8]. The local article adds castings and forgings, machine tools, bearings, fasteners, metal components, automotive parts, electric motors, pumps and precision components [3]. Local news is event-led: the 10th Rajkot Machine Tools Show is scheduled 25-28 November 2026, focused on machine tools, CNC, robotics, automation and precision engineering [1][2][4]. It says little about Rajkot margins, receivables or capex, so collect from customer.",
+  "## Where value and cash sit\n**Cash is made in the gap between buyer-approved precision work and commodity casting, and it sits in metal inventory, work-in-progress and receivables, not in the furnace.** Commodity castings and job work price off metal and buyer power; precision and CNC supply into export or OEM chains earns on tolerance, traceability and delivery. Cost structure is metal, power, labour, tooling and freight; pricing power is thin unless the unit is approved to a buyer’s drawing and quality system. Raw metal and WIP fund the foundry, finished parts wait for inspection, then receivables from OEM or export buyers. Capex is furnaces, CNC machines, inspection and testing. For any proposal, get cost break-up, receivable ageing, inventory days, customer-wise margins and capex quotation; collect from customer where absent.",
+  "## What changed now\n**The data call is OK score 78 (national 80, Gujarat 75), and the demand signal is positive: Gujarat GST is +11.9% Apr-to-date vs India +6.1%, India IIP NIC 28 is +10.3% YoY and output is +10.4% Apr-to-date, while exports are +19.8% Apr-to-date in USD [D].** That is a local tax base growing faster than India plus a capital-goods output and export pull. Peer results are Q2 FY27: APL Apollo sold 960,000 tons, earned EBITDA per ton of about ₹6,000, held working-capital days at zero and cash of ₹1,600 crore [5]. Sambhv Steel reported revenue of Rs 840 Cr, PAT of Rs 61 Cr, EBITDA margin more than 12%, value-added volumes up 27% and operating cash flow of Rs 213 Cr, but management flagged Chinese undercutting and QCO relaxation [6]. The Rajoo rating is [ICRA]A- (Stable)/[ICRA]A2+ but the date is unknown, so treat it as old [7]. Local news is capability-led, not distressed.",
+  "## Who to pursue, who to avoid\n**Pursue precision machining and CNC firms closest to the export customer, auto-component tier-2 units with documented approvals, machine-tool assemblers with a live order book, and export-ready foundries with inspection and traceability.** These are where Rajkot’s mesh becomes a supply relationship rather than a price auction [3][8]. Also pursue pump, motor and submersible assemblers selling through distributors if receivables are clean. Avoid single-buyer commodity foundries, job shops with no drawing or quality file, trading-style metal intermediaries, and units whose growth is only receivables-funded. When a proposal lands, check the OK score first; if it is below 45, decline [D]. If it is between 45 and 65, ask for the missing quality, buyer and cash-flow evidence before any exposure.",
+  "## How to grow safely\n**Structure working capital against receivables and inventory, term debt only against buyer-approved CNC or furnace capex, and take monthly evidence rather than annual assurances.** Use cash credit or bill discounting for OEM receivables, LC/BG for export orders, and term loan with moratorium matched to commissioning. Covenants: receivable ageing, inventory turns, customer concentration, DSCR and promoter contribution; collect from customer for current levels. Every month take GST returns, bank statements, debtor ageing, stock statement, order book, power bills, e-way bills and export shipping bills. If GST payment slips or receivables age beyond the agreed credit period, stop enhancement and ask for buyer confirmation. If order book falls below the next quarter plan, reprice or reduce limits.",
+  "## Early warning\n**The first sign is not a bounced cheque; it is a supplier being paid late while the buyer is paid on time.** Track GST filing and payment, receivable ageing, finished-casting inventory, power consumption, buyer concentration and freight or export documents. If the unit misses a GST payment, ask for the cash-flow bridge. If one buyer crosses the agreed concentration limit, seek diversification or a guarantee. If stock rises while sales stay flat, verify the quality hold. If export documents lag shipment, check the buyer and port. Local hard data is thin; rely on unit-level monthly evidence and peer benchmarks, not cluster reputation."
+ ],
+ "watch": [
+  [
+   "GST returns and payment (monthly)",
+   "late filing or part-payment -> ask for cash-flow bridge, freeze new limits"
+  ],
+  [
+   "Debtor ageing and buyer-wise receivables (monthly)",
+   "ageing stretches beyond agreed credit period -> obtain buyer confirmation, reduce limit"
+  ],
+  [
+   "Order book vs next-quarter sales plan (monthly)",
+   "order book falls below plan -> reprice, ask for new orders, cut drawing power"
+  ],
+  [
+   "Inventory and power use (monthly)",
+   "finished stock rises while power use falls -> verify quality hold and stop enhancement"
+  ],
+  [
+   "Export documents and buyer concentration (monthly)",
+   "shipping documents lag or one buyer crosses agreed share -> seek diversification or guarantee"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Better",
+ "news_why": "Gujarat GST and India capital-goods output/exports are positive; local show and peer results support.",
+ "articles": [
+  {
+   "title": "Rajkot industrial exhibition - Electric Excavator",
+   "url": "https://electricexcavator.in/tag/rajkot-industrial-exhibition/",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Rajkot Machine Tools Show 2026 - Electric Excavator",
+   "url": "https://electricexcavator.in/tag/rajkot-machine-tools-show-2026/",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Rajkot & Morbi: Engineering Global Markets",
+   "url": "https://www.maritimegateway.com/rajkot-morbi-engineering-global-markets/",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "CNC machinery - Electric Excavator",
+   "url": "https://electricexcavator.in/tag/cnc-machinery/",
+   "date": "2026-10-21",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "APL Apollo Tubes Ltd. (APLAPOLLO) — Q2 FY27 | Positive",
+   "url": "https://quartrly.in/discover/pitches/apl-apollo-tubes-ltd-q2-fy27?from=board-price",
+   "date": "2026-10-31",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Sambhv Steel Tubes Q2 FY27 Concall: 15-16% Blended Margin Outlook & Seamless Expansion & Outlook",
+   "url": "https://www.sovrenn.com/knowledge/sambhv-steel-tubes-q2-fy27-concall-15-16-blended-margin-outlook-seamless-expansion-outlook",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Rajoo Engineers Limited: Ratings upgraded to [ICRA]A- (Stable)/[ICRA]A2+",
+   "url": "https://www.icra.in/web/viewer.html?file=%2FRating%2FShowRationalReportFilePdf%2F107910&_x_output_type_b6db407c4_=embedded_pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Industrial Ecosystems 2: How Rajkot Built Its Foundry Cluster",
+   "url": "https://nitisagar.com/resources/reports/rajkot-engineering-cluster-castings-machine-tools/",
+   "date": "2026-09-26",
+   "kind": "cluster",
+   "via": "deepseek",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 78 (national 80 x 0.6 + Gujarat 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Gujarat: GST collections +11.9% Apr-to-date vs India +6.1% (5.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 9,
+  "fetch": 11,
+  "chat": 1,
+  "plain_fetch_free": 3
+ },
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
