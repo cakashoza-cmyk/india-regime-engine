@@ -1,0 +1,154 @@
+{
+ "key": "as_guwahati|wholesale_trade",
+ "state": "AS",
+ "city": "as_guwahati",
+ "ind": "wholesale_trade",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:59 IST",
+ "call": "avoid",
+ "base_call": "avoid",
+ "score": 32,
+ "nudged_by_news": false,
+ "verdict": "Avoid new wholesale-trade exposure in Guwahati for now; lend only to fast-moving FMCG/staples distributors with clean receivables and full fire cover, and decline discretionary-goods and slow-inventory traders.",
+ "title": "Guwahati Wholesale Trade: a note to the credit manager",
+ "narrative": [
+  "## What this business actually is\n**A Guwahati wholesaler buys stock in bulk, warehouses it, and sells on short credit to retailers and semi-wholesalers across the Brahmaputra valley.** Cash is made on turnover and margin per cycle, not on price; the balance sheet is mostly inventory and receivables, with little fixed capex beyond godown and vehicles. So when a proposal lands, check the stock-turn and receivable days first, because that is where the money is tied.",
+  "## What has changed now\n**Local demand has visibly softened: Durga Puja vendors in Guwahati report fewer footfalls and falling sales [1].** That is a festival-season read, not a full-year number, so treat it as a warning on discretionary stock. Input costs are also moving: milk in Guwahati rises by Rs 2 per litre from 1 November [2]. **Assam's electricity demand grew only 1.9% Apr-to-date against India's 9.5% [D], a local activity signal that sits against a strong state GST number of +36.9% [D].** The two point in opposite directions, so ask the borrower which end-market they actually serve.",
+  "## The growth pocket to pursue\n**Pursue distributors of daily-consumption staples and FMCG lines, where the milk price pass-through [2] shows pricing power exists in essentials.** Peer evidence supports wholesale as a live channel: Aditya Birla Lifestyle's wholesale channel grew 18% in Q2 [7], and Mishka Exim's June 2026 net sales rose 234.87% YoY on trading volumes [5] — though its gross margin was only 11.5% [5], which tells you thin-margin trading needs volume and clean collections to work. **Avoid traders in slow-moving discretionary goods and any single-godown operator without fire cover, given a Hatigaon wholesale shop fire with losses estimated up to Rs 1 crore [3].**",
+  "## How to grow safely\n**Structure limits against stock and receivables, not against turnover, and take monthly stock statements plus insurance endorsements in the bank's name.** CRISIL flags inventory obsolescence and receivable collection as the core trading risks [9][10], so when a proposal lands, check receivable days against scale; if collections stretch, ask for the ageing ledger and the top-five buyer list. **Take GST returns monthly and match them to stock and sales, because the state GST surge [D] makes under-reporting easy to hide.** Keep tenors short and renew annually.",
+  "## Early-warning signs\n**Watch for falling festival-season sales repeating beyond Puja [1], rising stock days, and any drop in the borrower's own electricity or godown activity.** If a borrower's sales fall while state GST rises [D], ask why before renewing. If fire cover lapses or stock is uninsured, stop enhancement until reinstated [3]. Note that the peer and rating sources here are undated or foreign-market; lean on the local news and the data pack."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement (monthly)",
+   "Stock days rise beyond the borrower's own six-month average -> freeze limit enhancement and inspect godown"
+  ],
+  [
+   "GST returns vs sales register (monthly)",
+   "GST-paid sales fall while Assam GST grows +36.9% [D] -> ask for buyer-wise ledger before renewal"
+  ],
+  [
+   "Insurance and fire-cover endorsement (quarterly)",
+   "Cover lapsed or godown uninsured -> stop enhancement until reinstated [3]"
+  ],
+  [
+   "Festival and seasonal sales feedback (quarterly)",
+   "Repeat of falling Puja footfalls [1] into next season -> shift limit to staples-only borrowers"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Guwahati Puja vendors report fewer footfalls and falling sales [1]; Assam power demand lags India [D].",
+ "articles": [
+  {
+   "title": "Fewer Footfalls, Falling Sales Mark Durga Puja for Guwahati Vendors",
+   "url": "https://guwahatiplus.com/exclusive-news/fewer-footfalls-falling-sales-mark-durga-puja-for-guwahati-vendors",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "মহঙা হ’ব গাখীৰ: গুৱাহাটীত প্ৰতি লিটাৰ গাখীৰত বৃদ্ধি পাব ২ টকাকৈ !",
+   "url": "https://www.etvbharat.com/as/state/milk-prices-to-rise-by-rs-2-per-litre-in-guwahati-from-november-1-amid-rising-dairy-costs-ass26103105549",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Fire Guts Wholesale Shop in Guwahati’s Hatigaon, Losses Estimated at Up to ₹1 Crore - News Network Private Limited",
+   "url": "https://newsnetworktv.com/fire-guts-wholesale-shop-in-guwahatis-hatigaon-losses-estimated-at-up-to-%e2%82%b91-crore/",
+   "date": "2026-09-03",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Tata Motors posts Q2 profit on strong commercial vehicle demand | Company Business News - Tata Motors posts Q2 profit on strong commercial vehicle demand",
+   "url": "https://www.livemint.com/companies/company-results/tata-motors-q2-results-commercial-vehicles-11792753847505.html#1",
+   "date": "2026-10-22",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Perplexity",
+   "url": "https://www.perplexity.ai/finance/MISHKA.BO?comparing=MISHKA.BO,NEWJAISA.NS,LLOYDSENT.BO,GANVERSE.BO,MTPL.BO,SHIVAUM.NS",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "tata motors spurts after q1 pat jumps 83 yoy; clocks wholesales of 108 700 units",
+   "url": "https://www.capitalmarket.com/markets/news/live-news/tata-motors-spurts-after-q1-pat-jumps-83-yoy;-clocks-wholesales-of-108-700-units/1722686",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Aditya Birla Lifestyle Q2 result: Revenue; Wholesale fastest growing channel with 18% rise - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/aditya-birla-lifestyle-q2-result-profit-revenue-ebitda-store-count-retailer-fashion-brands-wholesale-retail-share-price-20024057.htm/amp",
+   "date": "2026-10-30",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "With raw material costs being the largest component of FMCG company's cost structure, any fluctuation in prices of key raw mater...",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/790~FMCG#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Criteria for rating trading companies",
+   "url": "http://www.crisil.com/Ratings/SectorMethodology/MethodologyDocs/criteria/Criteria%20for%20rating%20trading%20companies.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Ratings",
+   "url": "https://www.crisil.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/External%20criteria%20for%20rating%20trading%20companies.pdf#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "ICRA also evaluates the liquidity profile of the company to assess its ability to meet short term financing requirements",
+   "url": "https://www.icra.in/Rating/GetRatingMethodologyFile/470~Media%20(Print),%20Rating%20Methodology,%20May%202017%20(Archived).pdf#toolbar=1&navpanes=1&scrollbar=1&view=FitH#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: AVOID score 32 (national 20 x 0.6 + Assam 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Assam: electricity demand +1.9% Apr-to-date vs India +9.5% (7.6 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Bank credit +29.1% YoY vs activity +6.1% (gap +23.0 pp). [RBI bank credit vs output, data to Sep-2026]",
+  "India-wide: Repo 5.5% (raised from 5.25%), RBI stance tightening. [RBI policy, macro engine, data to Oct-2026]",
+  "Assam: GST collections +36.9% Apr-to-date vs India +6.1% (30.8 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

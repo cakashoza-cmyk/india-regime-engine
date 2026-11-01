@@ -1,0 +1,154 @@
+{
+ "key": "up_saharanpur|sugar",
+ "state": "UP",
+ "city": "up_saharanpur",
+ "ind": "sugar",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 76,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Saharanpur sugar & ethanol — back the surviving mills and their cane suppliers, not the closed-mill ecosystem.",
+ "title": "Saharanpur Sugar & Ethanol: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\n**A mill buys cane from farmers within a 15-25 km catchment, crushes it for 4-5 months, and sells sugar, molasses and ethanol.** Cash comes in through the year but cane payment goes out during the crush, so the working-capital cycle is the whole credit story. The DM's instruction at Sarsawa that cane dues be paid on time and weighing be transparent tells you the state is watching payment discipline [1]. **So when a proposal lands, check the mill's cane-payment arrears position first; if arrears are running beyond the season, ask for the payment schedule and the DM's correspondence.**\n\n## What has changed in Saharanpur now\n**Two mills in the district have shut — Shakumbhari and Daya — and their cane centres have been reallocated to other mills [3].** Sarsawa has opened its 2026-27 crush [1] and Nanauta starts 1 November [2]. That reallocation is the growth signal: surviving mills get more cane without buying more land. **Pursue the mills absorbing reallocated centres and the larger cane suppliers feeding them; avoid anyone whose business depended on Shakumbhari or Daya procurement.**\n\n## Where value and cash sit\n**Value sits in recovery rate and in ethanol, not in sugar alone.** ICRA notes remunerative ethanol prices and interest subvention on distillery capex help prevent cane arrears piling up, and that ethanol plus firm domestic prices offset cyclicality for integrated mills [10]. A refining capex of about Rs 70 crore improved realisations by roughly Rs 0.5-1.0/kg at one rated mill [9]. **So when a proposal lands, check whether the borrower is integrated into ethanol or refining; if it is pure raw-sugar, ask what protects it in a low-recovery year.**\n\n## How to grow safely\n**Structure against the crush, not the calendar.** Peer results show the cycle is live: Triveni's Q1 FY27 saw improved profitability and reduced debt on strong sugar and distillery margins despite lower cane yields [5], and EID Parry's average realisation rose to INR 51.2 per kilogram from INR 43.7 [6]. **Take monthly: cane crushed, recovery rate, sugar and ethanol realisations, cane arrears, and stock statements; if recovery falls below the prior season, ask for the yield data before renewing limits.**\n\n## Early-warning signs\n**Watch cane arrears and centre allocation.** If a mill's reallocated centres are withdrawn or cane supply slips, the crush shortens and fixed costs bite. Rating commentary flags profitability as vulnerable to agro-climatic risk and industry cyclicality [10]. **If arrears cross one season or the mill misses a cane payment date, move the account to review and ask for a fresh CMA before any enhancement.**\n\n## The data call\n**The data pack scores Saharanpur sugar at 76 — above the 65 lend line [D].** UP GST collections grew 14.2% Apr-to-date against India's 6.1% [D], a local tailwind, though UP electricity demand grew 8.6% against India's 9.5% [D]. **Lend to integrated, cane-secured mills and their large suppliers; decline the closed-mill supplier chain.**"
+ ],
+ "watch": [
+  [
+   "Cane arrears position (monthly)",
+   "arrears beyond one season -> move to review, seek fresh CMA"
+  ],
+  [
+   "Recovery rate vs prior season (per crush)",
+   "recovery below prior season -> ask for yield data before renewal"
+  ],
+  [
+   "Cane centre allocation (per season)",
+   "centres withdrawn or supply slips -> reassess limit"
+  ],
+  [
+   "Sugar and ethanol realisation (monthly)",
+   "realisation falls below prior quarter -> ask for pricing contracts"
+  ],
+  [
+   "Stock and book-debt statement (monthly)",
+   "stock ageing or drawing power breach -> stop enhancement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Two Saharanpur mills shut; cane centres reallocated, concentrating risk on survivors.",
+ "articles": [
+  {
+   "title": "सहारनपुर की सरसावा शुगर मिल में पेराई सत्र शुरू:DM ने किसानों को समय पर भुगतान और बिना परेशानी गन्ना खरीद के निर्देश दिए",
+   "url": "https://thepradesh.com/sarsawa-sugar-mill-crushing-season-saharanpur-dm-payment-instruction-139560502-html/",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Saharanpur News: एक नवम्बर से शुरू होगा चीनी मिल का पेराई सत्र : जीएम अंकित कुमार",
+   "url": "https://www.livehindustan.com/uttar-pradesh/saharanpur/story-nanauta-sugar-mill-to-begin-crushing-season-on-sunday-farmers-advised-to-follow-supply-schedule-201793300356981.html",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Saharanpur News: शाकुंभरी मिल के बाद दया भी बंद, गन्ना सेंटर अन्य मिलों को आवंटित - Hindi News › Uttar Pradesh › Saharanpur News › Following the closure of Shakumbhari Mill, Daya Mill has also shut down; sugarcan...",
+   "url": "https://www.amarujala.com/uttar-pradesh/saharanpur/following-the-closure-of-shakumbhari-mill-daya-mill-has-also-shut-down-sugarcane-procurement-centers-have-been-reallocated-to-other-mills-saharanpur-news-c-30-1-sha1004-186590-2026-10-25#1",
+   "date": "2026-10-24",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Buy K P R Mill; target of Rs 1289: Prabhudas Lilladher",
+   "url": "https://in.tradingview.com/news/moneycontrol:63691d251094b:0-buy-k-p-r-mill-target-of-rs-1289-prabhudas-lilladher/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Triveni Engineering & Industries (NSE:TRIVENI) Earnings Call Transcripts - Triveni Engineering & Industries Limited (NSE:TRIVENI)",
+   "url": "https://stockanalysis.com/quote/nse/TRIVENI/transcripts/#main#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset By Investing.com - E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset",
+   "url": "https://www.investing.com/news/company-news/eid-parry-q1-fy27-slides-sugar-volumes-surge-amid-strategic-reset-93CH-4856707#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's EID Parry posts higher quarterly profit on strong sugar performance",
+   "url": "https://www.reuters.com/5f374b32b07b/world/india/indias-eid-parry-posts-higher-quarterly-profit-strong-sugar-performance-2026-05-26/",
+   "date": "2026-05-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "policies on exports, minimum support price (MSP), and ethanol pricing",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510121030_Zuari_Industries_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 08,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130418#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "April 06,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=142208#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 22, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=130589#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 76 (national 77 x 0.6 + Uttar Pradesh 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttar Pradesh: GST collections +14.2% Apr-to-date vs India +6.1% (8.1 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit -7.0% YoY vs output +5.1% (gap -12.1 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Uttar Pradesh: electricity demand +8.6% Apr-to-date vs India +9.5% (0.9 pp slower than India) — neutral. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

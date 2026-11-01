@@ -1,0 +1,154 @@
+{
+ "key": "mh_sangli|sugar",
+ "state": "MH",
+ "city": "mh_sangli",
+ "ind": "sugar",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 66,
+ "nudged_by_news": false,
+ "verdict": "Lend selectively in Sangli sugar and ethanol — pursue integrated mills with distillery capacity and tied cane, avoid pure-standalone crushers and unhedged greenfield distillery capex; the local signal is mixed, so structure tightly and take monthly data.",
+ "title": "Sangli Sugar & Ethanol: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Sangli mill buys cane from member and non-member farmers, crushes it into sugar, molasses and bagasse, and increasingly diverts juice or molasses into ethanol. Cash arrives in two lumps: sugar sold through releases and ethanol sold to OMCs on tender. **The whole model is a working-capital cycle, not a fixed-asset story** — cane is paid within days of crushing while sugar and ethanol receivables come back over months. ## Where value and cash sit\nValue sits in recovery rate and in the ethanol diversion, not in the sugar price alone. **Integrated mills with distillery capacity earn a second, contracted margin that pure crushers do not have** — ICRA notes remunerative ethanol prices and interest subvention for debt-funded distillery capex are what keep cane arrears from piling up [10]. Peer evidence supports the split: Triveni's Q1 FY27 profitability came from sugar and distillery margins with reduced debt [5], and EID Parry's realisation moved to INR 51.2 per kg from INR 43.7 per kg on premium mix [6]. ## What has changed now\nMaharashtra's GST collections are running +8.6% Apr-to-date against India's +6.1% [D] — a genuine local tailwind. But Maharashtra electricity demand is +6.0% against India's +9.5% [D], a 3.5 pp lag that says industrial activity in the state is softer than the national picture. Nationally, bank credit is -7.0% YoY against output +5.1% [D]. **The data call is OK at 66, but the local stress signal and the credit-output gap mean you lend to the strong and decline the marginal.** Note the local political noise around the G.D. Bapu successors [1] is a governance signal on cooperative mills, not a credit number — treat it as a reason to read the board resolution and cane-payment record, not as a figure. ## Who to pursue, who to avoid\nPursue integrated mills with own distillery, tied cane area and a clean cane-arrears record; pursue ethanol-only capex where the OMC offtake letter is in hand. Avoid standalone crushers with no ethanol outlet, mills with unpaid cane arrears, and greenfield distillery capex funded largely by debt. **Take monthly cane-crushing and cane-payment statements, quarterly stock-and-receivable statements, and the OMC contract copy at sanction.** Structure as a cash-flow loan against release orders with a receivables charge, and covenant a maximum cane-arrears days figure — collect from customer, since no source gives a Sangli-specific number. ## Early-warning signs\n- Cane arrears days rising month-on-month (monthly) -> stop fresh disbursement and ask for the farmer payment schedule. - Sugar recovery rate falling below the mill's own prior-season figure (seasonal) -> re-rate the proposal and cut drawing power. - Ethanol offtake letter not renewed or OMC tender lost (quarterly) -> shift the facility to a sugar-only structure or decline. - Stock-to-sales rising while releases stay flat (quarterly) -> ask for the release-order book and inspect godown stock."
+ ],
+ "watch": [
+  [
+   "Cane arrears days (monthly)",
+   "above the mill's own prior-season peak -> freeze disbursement and demand farmer payment proof"
+  ],
+  [
+   "Sugar recovery rate (seasonal)",
+   "below prior season -> cut drawing power and re-price"
+  ],
+  [
+   "Ethanol OMC contract status (quarterly)",
+   "lapsed or tender lost -> convert to sugar-only structure or decline"
+  ],
+  [
+   "Stock and release orders (quarterly)",
+   "stock-to-sales rising with flat releases -> inspect godown and ask for release book"
+  ],
+  [
+   "Electricity/industrial demand in Maharashtra (monthly)",
+   "continues below India -> tighten new-to-bank cooperative mill limits"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "Local crush plans current and real; state GST strong but power demand lags, so mixed.",
+ "articles": [
+  {
+   "title": "Sangli: घराघरात भांडणे लावण्याचा उद्योग बंद करा, अन्यथा..; शरद लाड यांचा विश्वजित कदम यांना इशारा",
+   "url": "https://www.lokmat.com/sangli/sharad-lad-issues-a-warning-following-the-statement-made-by-mla-vishwajeet-kadam-regarding-g-d-bapu-successors-a746/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "सांगली : राजारामबापू कारखान्याच्या चार युनिट्सकडून होणार २० लाख टन ऊस गाळप - अध्यक्ष प्रतीक पाटील - ChiniMandi",
+   "url": "https://www.chinimandi.com/sangli-rajarambapu-sugar-factorys-four-units-to-crush-20-lakh-tonnes-of-sugarcane-chairman-prateek-patil-in-marathi/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "सांगली : जिल्ह्यात यंदा ९८ लाख क्विंटल साखर उत्पादनाचा अंदाज, गळीत हंगाम कसोटीचाच - ChiniMandi",
+   "url": "https://www.chinimandi.com/sangli-sugar-production-in-the-district-is-estimated-at-9-8-million-quintals-this-year-the-crushing-season-is-set-to-be-a-challenging-one-in-marathi/",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Buy K P R Mill; target of Rs 1289: Prabhudas Lilladher",
+   "url": "https://in.tradingview.com/news/moneycontrol:63691d251094b:0-buy-k-p-r-mill-target-of-rs-1289-prabhudas-lilladher/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Triveni Engineering & Industries (NSE:TRIVENI) Earnings Call Transcripts - Triveni Engineering & Industries Limited (NSE:TRIVENI)",
+   "url": "https://stockanalysis.com/quote/nse/TRIVENI/transcripts/#main#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset By Investing.com - E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset",
+   "url": "https://www.investing.com/news/company-news/eid-parry-q1-fy27-slides-sugar-volumes-surge-amid-strategic-reset-93CH-4856707#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's EID Parry posts higher quarterly profit on strong sugar performance",
+   "url": "https://www.reuters.com/5f374b32b07b/world/india/indias-eid-parry-posts-higher-quarterly-profit-strong-sugar-performance-2026-05-26/",
+   "date": "2026-05-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "policies on exports, minimum support price (MSP), and ethanol pricing",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510121030_Zuari_Industries_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 08,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130418#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "April 06,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=142208#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 22, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=130589#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 66 (national 77 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit -7.0% YoY vs output +5.1% (gap -12.1 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Maharashtra: electricity demand +6.0% Apr-to-date vs India +9.5% (3.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

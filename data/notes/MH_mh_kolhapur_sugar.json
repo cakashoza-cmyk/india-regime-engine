@@ -1,0 +1,154 @@
+{
+ "key": "mh_kolhapur|sugar",
+ "state": "MH",
+ "city": "mh_kolhapur",
+ "ind": "sugar",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 66,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Kolhapur sugar & ethanol, but only to integrated mills with distillery cushion and clean cane-payment record; avoid pure-standalone mills and any account with arrears building.",
+ "title": "Kolhapur Sugar & Ethanol: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Kolhapur mill crushes cane for roughly a five-month season, converts juice into sugar and molasses, and now increasingly diverts juice/B-heavy molasses into ethanol. Cash arrives in two streams: sugar sold through the year and ethanol supplied to OMCs. **The mill's real product is timing — it buys cane in a short window and sells sugar over twelve months, so the balance sheet is a working-capital machine, not a factory.** Kolhapur sugar is quoted at ₹3,845/qtl and C-heavy ethanol at ₹56.8/L [1]; FRP is ₹340/qtl [1]. Cane cost is the single largest line and is politically set, so pricing power sits with the government, not the mill. Capex is lumpy and distillery-led — one peer spent ~₹70 crore on refining capacity funded by internal accruals, lifting realisations by ~₹0.5–1.0/kg [9].\n\n## What has changed now\n**The local cane price is unsettled: millers and farmers remain divided in Kolhapur, and a joint meeting is promised but not held [2][3].** That is the live risk — an unresolved cane price means arrears can build before the season's cash comes in. Rating commentary flags exactly this: government support via remunerative ethanol prices and interest subvention is what prevents cane arrears piling up, and integrated mills are better placed than standalone ones [10]. Peer results are healthier than the local news: Triveni's Q1 FY27 saw improved profitability and reduced debt on strong sugar and distillery margins [5], and EID Parry's realisation rose to ₹51.2/kg from ₹43.7/kg on premium mix [6]. Note the Simbhaoli UP mill sale [1] is a UP distress story, not Kolhapur — read it as a warning on leveraged standalone mills, not as local news. Sources say little specific about Kolhapur mill balance sheets; lean on first principles and peers.\n\n## Where to grow\n**Pursue integrated mills with a running distillery and a clean cane-payment record, and the cane growers'/co-operative structures that feed them.** The ethanol leg is the growth engine: remunerative ethanol prices plus interest subvention for debt-funded distillery capex are the stated supports [10]. Also look at premium/consumer-pack sugar players — the realisation gap between bulk and premium is real [6]. Avoid standalone mills with no distillery, mills with visible cane arrears, and any group showing the Simbhaoli pattern of debt-driven mill sales [1].\n\n## How to grow safely\n**Structure against the season, not the year: cash-flow-backed limits sized to one crush, with cane-payment escrow and monthly stock-and-arrer statements.** Take every month: cane arrears outstanding, sugar stock and free stock, ethanol supply invoices/OMC receivables, and distillery utilisation. Covenant on gearing and interest cover — peer rating work shows gearing ~1.4x and interest cover around 2x as the moderated norm [11]. When a proposal lands, check the cane price assumption against the unresolved Kolhapur deadlock [2]; if the mill is assuming a settled price, ask for the sensitivity at the FRP of ₹340/qtl [1].\n\n## Early-warning signs\n- Cane arrears rising month-on-month (monthly) → freeze fresh limits and ask for the payment plan.\n- Sugar realisations drifting below ₹3,845/qtl [1] (monthly) → re-run stock valuation and margin.\n- Ethanol offtake or OMC receivable ageing stretching (monthly) → tighten drawing power.\n- Any sign of mill divestment or group restructuring (quarterly) → treat as the Simbhaoli signal [1] and review exposure."
+ ],
+ "watch": [
+  [
+   "Cane arrears outstanding (monthly)",
+   "Arrears rise two months running -> freeze fresh limits, demand escrow funding"
+  ],
+  [
+   "Kolhapur sugar realisation vs ₹3,845/qtl [1] (monthly)",
+   "Falls below quoted level -> revalue stock, cut drawing power"
+  ],
+  [
+   "Ethanol OMC receivable ageing (monthly)",
+   "Ageing stretches beyond agreed days -> tighten limit, seek assignment"
+  ],
+  [
+   "Distillery utilisation (monthly)",
+   "Falls sharply -> ask for cause, review ethanol-linked cash flow"
+  ],
+  [
+   "Group restructuring/divestment news (quarterly)",
+   "Any mill sale signal [1] -> immediate exposure review"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Kolhapur cane price deadlock unresolved; millers and farmers still divided, meeting only promised.",
+ "articles": [
+  {
+   "title": "Simbhaoli Group’s Three Sugar Mills in Uttar Pradesh Set for Sale; Bidding Expected on November 5 – Sugar Times",
+   "url": "https://sugartimes.co.in/news/sugar-industry/simbhaoli-group-s-three-sugar-mills-in-uttar-pradesh-set-for-sale-bidding/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Maharashtra: Kolhapur sugarcane deadlock takes a new turn as millers and farmers remain divided - ChiniMandi",
+   "url": "https://www.chinimandi.com/maharashtra-kolhapur-sugarcane-deadlock-takes-a-new-turn-as-millers-and-farmers-remain-divided/",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sugarcane Price Issue | ऊस दरावर तोडगा काढण्यासाठी लवकरच संयुक्त बैठक घेणार : पालकमंत्री",
+   "url": "https://pudhari.news/maharashtra/kolhapur/joint-meeting-to-be-held-soon-to-resolve-sugarcane-price-dispute-minister-prakash-abitkar-ap84",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Buy K P R Mill; target of Rs 1289: Prabhudas Lilladher",
+   "url": "https://in.tradingview.com/news/moneycontrol:63691d251094b:0-buy-k-p-r-mill-target-of-rs-1289-prabhudas-lilladher/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Triveni Engineering & Industries (NSE:TRIVENI) Earnings Call Transcripts - Triveni Engineering & Industries Limited (NSE:TRIVENI)",
+   "url": "https://stockanalysis.com/quote/nse/TRIVENI/transcripts/#main#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset By Investing.com - E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset",
+   "url": "https://www.investing.com/news/company-news/eid-parry-q1-fy27-slides-sugar-volumes-surge-amid-strategic-reset-93CH-4856707#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's EID Parry posts higher quarterly profit on strong sugar performance",
+   "url": "https://www.reuters.com/5f374b32b07b/world/india/indias-eid-parry-posts-higher-quarterly-profit-strong-sugar-performance-2026-05-26/",
+   "date": "2026-05-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "policies on exports, minimum support price (MSP), and ethanol pricing",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510121030_Zuari_Industries_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 08,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130418#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "April 06,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=142208#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 22, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=130589#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 66 (national 77 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit -7.0% YoY vs output +5.1% (gap -12.1 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Maharashtra: electricity demand +6.0% Apr-to-date vs India +9.5% (3.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

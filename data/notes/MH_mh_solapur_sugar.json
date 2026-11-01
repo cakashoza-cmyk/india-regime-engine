@@ -1,0 +1,154 @@
+{
+ "key": "mh_solapur|sugar",
+ "state": "MH",
+ "city": "mh_solapur",
+ "ind": "sugar",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:56 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 66,
+ "nudged_by_news": true,
+ "verdict": "Lend selectively in Solapur sugar and ethanol — integrated mills with distillery or CBG capacity and clean cane-payment records are OK; stand-alone mills bidding the highest cane price are Avoid.",
+ "title": "Solapur Sugar & Ethanol: a note to the credit manager",
+ "narrative": [
+  "**Cash arrives in a lumpy seasonal cycle while cane payment is a social and political obligation that must be met fast.** Onkar Sugar is publicly promising the highest cane price in Solapur and payment within eight days [1] — so when a proposal lands, check the mill's own declared cane price against the district's prevailing rate; if a borrower is matching the highest price in the district, ask how it funds the gap between crush and sugar sale.",
+  "## Where value and cash sit\nValue sits in recovery rate, distillery share of revenue and the speed of cane settlement. **The single most revealing number in this industry is cane arrears.** Solapur farmers are already squeezed by pending cane bills from the last season [3] — so pull the Sugar Commissioner's arrears list for the borrower before sanction; if the mill appears with arrears, ask for the settlement schedule and hold disbursal against it. Peer evidence says integrated mills with ethanol absorb the cycle better: ICRA notes remunerative ethanol prices and interest subvention for debt-funded distillery capex help prevent cane arrears piling up [10].",
+  "## What has changed now\nTwo local facts pull in opposite directions. **Solapur's CBG capacity is set to rise to 363 tonnes per day [2] — that is the growth story, and it is real capex demand.** Against it, Maharashtra electricity demand grew 6.0% Apr-to-date versus India's 9.5% [D], a local stress signal, and bank credit nationally is running -7.0% YoY against output +5.1% [D]. Peer results are healthy — Triveni reports improved profitability and reduced debt on strong sugar and distillery margins [5], and EID Parry's average realization rose to INR 51.2 per kilogram from INR 43.7 per kilogram [6] — but these are peers, not Solapur mills, and the rating reports on cane cyclicality are undated [8][10].",
+  "## Who to pursue, and how to grow safely\n**Pursue integrated mills adding distillery or CBG capacity, and CBG project SPVs tied to an existing mill's cane supply [2].** Structure term debt against the distillery or CBG unit with a DSRA and a cane-availability covenant; take monthly cane-crushing and recovery data, monthly ethanol dispatch volumes, and the Sugar Commissioner's arrears position every month. Avoid stand-alone mills with no ethanol offtake and no arrears-free record.",
+  "## Early-warning signs\n- Cane arrears appearing on the Commissioner's list (monthly) -> freeze fresh disbursal and ask for a settlement plan. - Declared cane price above the district's prevailing rate (season start) -> re-underwrite the funding gap. - Recovery rate falling below the borrower's own three-year average (monthly) -> cut drawing power. - Ethanol or CBG offtake delays (monthly) -> ask for the offtake contract status."
+ ],
+ "watch": [
+  [
+   "Cane arrears position (monthly)",
+   "Borrower appears on Sugar Commissioner arrears list -> freeze disbursal, demand settlement plan"
+  ],
+  [
+   "Declared cane price vs district rate (season start)",
+   "Price above prevailing district rate -> re-underwrite funding gap"
+  ],
+  [
+   "Recovery rate (monthly)",
+   "Below borrower's three-year average -> cut drawing power"
+  ],
+  [
+   "Ethanol/CBG offtake (monthly)",
+   "Offtake delay -> ask for contract status and revise DSRA"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Solapur cane arrears persist and Maharashtra power demand lags India, offsetting CBG growth.",
+ "articles": [
+  {
+   "title": "Onkar Sugar aims to offer higest cane price in Solapur, promises payments within eight days - ChiniMandi",
+   "url": "https://www.chinimandi.com/onkar-sugar-aims-to-offer-higest-cane-price-in-solapur-promises-payments-within-eight-days/",
+   "date": "2026-10-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Solapur's CBG production capacity set to rise to 363 tonnes per day - ChiniMandi",
+   "url": "https://www.chinimandi.com/solapurs-cbg-production-capacity-set-to-rise-to-363-tonnes-per-day/",
+   "date": "2026-07-23",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Sugarcane Bills: ऊसबिलांच्या थकबाकीने शेतकऱ्यांची आर्थिक कोंडी",
+   "url": "https://agrowon.esakal.com/agro-special/pending-cane-bills-trouble-solapur-farmers",
+   "date": "2026-07-22",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Buy K P R Mill; target of Rs 1289: Prabhudas Lilladher",
+   "url": "https://in.tradingview.com/news/moneycontrol:63691d251094b:0-buy-k-p-r-mill-target-of-rs-1289-prabhudas-lilladher/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Triveni Engineering & Industries (NSE:TRIVENI) Earnings Call Transcripts - Triveni Engineering & Industries Limited (NSE:TRIVENI)",
+   "url": "https://stockanalysis.com/quote/nse/TRIVENI/transcripts/#main#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset By Investing.com - E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset",
+   "url": "https://www.investing.com/news/company-news/eid-parry-q1-fy27-slides-sugar-volumes-surge-amid-strategic-reset-93CH-4856707#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's EID Parry posts higher quarterly profit on strong sugar performance",
+   "url": "https://www.reuters.com/5f374b32b07b/world/india/indias-eid-parry-posts-higher-quarterly-profit-strong-sugar-performance-2026-05-26/",
+   "date": "2026-05-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "policies on exports, minimum support price (MSP), and ethanol pricing",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510121030_Zuari_Industries_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 08,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130418#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "April 06,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=142208#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 22, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=130589#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 66 (national 77 x 0.6 + Maharashtra 50 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Maharashtra: GST collections +8.6% Apr-to-date vs India +6.1% (2.5 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit -7.0% YoY vs output +5.1% (gap -12.1 pp). [RBI bank credit vs output, data to Aug-2026]",
+  "Maharashtra: electricity demand +6.0% Apr-to-date vs India +9.5% (3.5 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 2,
+  "chat": 1,
+  "plain_fetch_free": 4
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

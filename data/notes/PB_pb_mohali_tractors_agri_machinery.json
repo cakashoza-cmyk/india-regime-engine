@@ -1,0 +1,150 @@
+{
+ "key": "pb_mohali|tractors_agri_machinery",
+ "state": "PB",
+ "city": "pb_mohali",
+ "ind": "tractors_agri_machinery",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "ok",
+ "base_call": "ok",
+ "score": 78,
+ "nudged_by_news": false,
+ "verdict": "OK to lend in Mohali tractors & farm machinery — back proven component and implement suppliers to the Swaraj anchor, structure tightly on receivables and inventory, and decline new exposure to pure dealer/seasonal buyers with weak balance sheets.",
+ "title": "Mohali tractors & farm machinery: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\n**A tractor or farm-machinery unit in Mohali turns steel, castings, hydraulics and bought-out aggregates into machines and spares, and gets paid after the dealer or OEM chain clears.** Mohali's major industries include tractors and engineering goods, and the district houses around 30 large-scale industries with turnover above Rs.250 crore, including Swaraj Tractors [1]. The district carries over 71,126 MSMEs [1], so most of our book here will be tier-2 and tier-3 suppliers, job-workers and dealers feeding that anchor, not the OEM itself. Cash sits in inventory (castings, aggregates, finished machines) and in receivables from OEMs and dealers; value sits in the OEM approval, the tooling and the service relationship, not in the shed. ## What has changed now\n**National demand signals are positive but the local policy picture is stale and unresolved.** India-wide IIP for NIC 28 output is +10.3% YoY and +10.4% Apr-to-date [D], and Punjab GST collections are +9.7% Apr-to-date against India +6.1% [D]. **Treat the local news as dated context, not current fact; the demand read comes from [D] and peers.** Peer results are mixed-to-firm: Escorts Kubota posted a 9.2% rise in Q4 profit on higher tractor sales [5][6], while a CRISIL view (undated) flagged a 2-4% tractor decline on high base and elevated inventory [9]. ## Where to grow\n**Pursue component and implement suppliers with an OEM purchase order or approved-vendor letter, and dealers with owned premises and clean stock statements.** These borrowers ride the +10.3% output number [D] without carrying the full seasonal inventory risk. **Avoid new limits to pure seasonal dealers and to units whose only collateral is a plot in a disputed industrial area** — the governance fragmentation in [1] makes title and civic approvals slow to verify. Where a proposal lands from a supplier, check the OEM approval letter and last twelve months of invoices to that OEM; if the buyer concentration is above half of sales, ask for the OEM's payment terms in writing. ## How to grow safely\n**Structure on the working-capital cycle: cash credit against stock and receivables with a drawing power recalculated monthly, and term debt only for tooling tied to a named order.** Take stock and receivable statements every month, GST returns monthly, and OEM payment advices on receipt. **Covenant on receivables days and on promoter contribution; if receivables stretch beyond the stated OEM terms, ask for the ageing and hold further disbursal.** Gearing discipline matters — a rated peer carried gearing of 3.4 times [10], so treat anything materially above that as a conversation, not a tick-box. ## Early-warning signs\n**Watch dealer inventory and rabi cash flow first.** If a dealer's stock statement shows machines ageing past one season, cut drawing power and ask for a liquidation plan. If GST turnover falls two months running against the Punjab +9.7% trend [D], ask for the sales register and the OEM's dispatch schedule. If the OEM delays payment advices or a supplier's single-buyer share rises, reprice or reduce. Collect from customer the actual receivable days, inventory turns and capex plans — the sources do not give these for Mohali."
+ ],
+ "watch": [
+  [
+   "Monthly stock and receivable statement",
+   "Ageing beyond one season -> cut drawing power, seek liquidation plan"
+  ],
+  [
+   "Monthly GST returns",
+   "Two consecutive months of falling turnover -> ask for sales register and OEM dispatch schedule"
+  ],
+  [
+   "OEM payment advices (on receipt)",
+   "Delayed or missing advices -> hold disbursal, reprice"
+  ],
+  [
+   "Quarterly gearing and promoter contribution",
+   "Gearing materially above 3.4 times [10] -> require fresh contribution before enhancement"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "In line",
+ "news_why": "National output +10.3% and Punjab GST +9.7% offset dated local policy complaints.",
+ "articles": [
+  {
+   "title": "Mohali's industry dream falls through policy gaps - Mohali's industry dream falls through policy gaps",
+   "url": "https://www.htsyndication.com/ht-chandigarh/article/mohali-s-industry-dream-falls-through-policy-gaps/94498148#1",
+   "date": "2025-10-30",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Mohali: नीतिगत खामियों के कारण उद्योग का सपना टूटा | Mohali: Industry's dream shattered due to policy flaws - Punjab पंजाब : मोहाली ज़िले के विशाल 1,100 वर्ग किलोमीटर क्षेत्र पर नज़र डालने पर, ऐसा लगता है कि उद्योग का विकास वर्षों से नहीं...",
+   "url": "https://jantaserishta.com/local/punjab/mohali-industrys-dream-shattered-due-to-policy-flaws-4353682#1",
+   "date": "2025-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "बजट से मोहाली के उद्योग को लाभ, रॉ मैटीरियल की कीमतें घटने से बढ़ेगा कारोबार - बजट से मोहाली के उद्योग को लाभ, रॉ मैटीरियल की कीमतें घटने से बढ़ेगा कारोबार",
+   "url": "https://www.amarujala.com/punjab/mohali/people-s-expectations-were-shocked-by-the-general-budget-disappointed-mohali-news-pkl40257971?amp;utm_campaign=rssfeed&amp;utm_medium=Referral&utm_source=rssfeed#1",
+   "date": "2021-02-01",
+   "kind": "local",
+   "via": "plain-http",
+   "used": false
+  },
+  {
+   "title": "Key Takeaways of Recent Quarter",
+   "url": "https://www.icicidirect.com/mailcontent/idirect_mm_q3fy26.pdf#1#3#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "India's Escorts Kubota posts quarterly profit rise on strong demand, margin gains",
+   "url": "https://sg.finance.yahoo.com/news/indias-escorts-kubota-posts-quarterly-095027858.html",
+   "date": "2026-05-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's Escorts Kubota posts quarterly profit rise on strong demand, margin gains - 31daba760635ba",
+   "url": "https://in.marketscreener.com/news/india-s-escorts-kubota-posts-quarterly-profit-rise-on-strong-demand-margin-gains-ce7f58d3da80f720#1",
+   "date": "2026-05-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "M&M Q1 profit rises 7% as SUV sales stay robust - M&M Q1 profit rises 7% as SUV sales stay robust",
+   "url": "https://www.financialexpress.com/business/news/mampm-q1-profit-rises-7-as-suv-sales-stay-robust/4306602/?ref=ReadNext_article_3#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Key messages",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/june/crisil-view-on-the-automobile-sector.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://johndeere.widen.net/content/gcufgyrmuj/original/rating-rationale-29-jul-2025-082025.pdf?u=teq0fd&download=true#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Captain Tractors Pvt. Ltd.",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=76579#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 78 (national 80 x 0.6 + Punjab 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Punjab: GST collections +9.7% Apr-to-date vs India +6.1% (3.6 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

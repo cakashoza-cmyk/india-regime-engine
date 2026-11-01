@@ -1,0 +1,154 @@
+{
+ "key": "uk_kashipur|sugar",
+ "state": "UK",
+ "city": "uk_kashipur",
+ "ind": "sugar",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:57 IST",
+ "call": "caution",
+ "base_call": "caution",
+ "score": 46,
+ "nudged_by_news": false,
+ "verdict": "Caution: lend selectively to integrated, ethanol-linked mills and their cane suppliers with clean payment records; avoid standalone mills with cane-arrears and wage disputes.",
+ "title": "Kashipur Sugar & Ethanol: a note to the credit manager",
+ "narrative": [
+  "## What this business physically is\nA sugar mill crushes cane within hours of harvest, so the whole model is a race against sucrose loss: cane in, sugar and molasses out, ethanol if a distillery is attached. **Cash is made in the crush season and consumed in the off-season, so the working-capital cycle, not the P&L, decides survival.** Cane is bought at a state-administered price, sugar is sold at market, and ethanol is sold at administered prices [10] — so pricing power sits with the government on both ends and the mill lives on the spread. Capex is lumpy: one peer spent about Rs. 70 crore in FY2024 on refining capacity, funded from internal accruals, lifting realisations by roughly Rs. 0.5–1.0/kg [9].\n\n## What has changed in Kashipur now\nLocal reporting is thin, so lean on first principles plus peers. **The live local signal is a labour dispute at the Bajpur mill over cane allocation and revised pay [1], and farmers say they will expand cane area only if cane dues are paid on time [2][3].** That is the classic arrears spiral: late payment shrinks next year's cane, which cuts crush, which worsens payment. The state backdrop is weak — Uttarakhand GST collections are -19.1% Apr-to-date against India +6.1% [D], and electricity demand is +4.7% against India +9.5% [D]. Nationally, bank credit is -7.0% YoY against output +5.1% [D]. Peer results are better than the local picture: Triveni reports improved profitability and reduced debt on strong sugar and distillery margins [5], and EID Parry lifted realisations to INR 51.2/kg from INR 43.7/kg [6]. Rating commentary says ethanol prices and interest subvention should prevent cane arrears piling up for integrated mills [10].\n\n## Where to grow\n**Pursue integrated mills with a working distillery and a clean cane-payment record, and the cane suppliers and transporters tied to them.** Ethanol-linked cash flow is the growth engine [10]. Avoid standalone mills with arrears, and avoid any proposal where the promoter cannot show the last crush season's payment dates — collect from customer.\n\n## How to grow safely\nStructure against the season, not the year: **cash-flow-backed limits sized to one crush cycle, with a cane-payment escrow and monthly stock-and-receivables statements.** Take monthly: cane dues paid versus received, sugar and ethanol stock, and distillery run-rate. If a proposal lands, check the arrears ageing; if dues exceed one season, ask for the state subsidy or ethanol receivables as security.\n\n## Early-warning signs\n- Monthly cane-dues ageing (monthly): arrears cross one season -> freeze fresh limits.\n- Wage/gate-meeting reports (monthly): repeat protests [1] -> reassess crush continuity.\n- Distillery utilisation (monthly): falls below plan -> shift to secured receivables lending.\n- State GST trend (monthly) [D]: stays negative -> tighten new-to-bank."
+ ],
+ "watch": [
+  [
+   "Cane-dues ageing (monthly)",
+   "arrears beyond one season -> freeze fresh limits and seek escrow"
+  ],
+  [
+   "Labour/gate-meeting reports (monthly)",
+   "repeat protests at mill [1] -> reassess crush continuity"
+  ],
+  [
+   "Distillery utilisation (monthly)",
+   "below plan -> move to secured receivables lending"
+  ],
+  [
+   "State GST collections (monthly) [D]",
+   "stays negative -> tighten new-to-bank"
+  ],
+  [
+   "Sugar/ethanol stock statements (monthly)",
+   "stock build without sales -> ask for buyer contracts"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Local mill labour dispute over cane allocation and pay; weak state GST and power demand.",
+ "articles": [
+  {
+   "title": "Kashipur News: बाजपुर चीनी मिल में कर्मचारियों ने आयोजित की गेट मीटिंग,",
+   "url": "https://www.livehindustan.com/uttarakhand/kashipur/story-bajpur-sugar-mill-employees-warn-of-protest-over-cane-allocation-and-revised-pay-201793449927933.html",
+   "date": "2026-10-30",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "काशीपुर- गन्ना मूल्य भुगतान समय पर मिले तो होगी गन्ना क्षेत्रफल में बहुत अधिक वृद्धि",
+   "url": "https://dehradunmirror.com/kashipur-if-sugarcane-price-payment-is-made-on-time-there-will-be-huge-increase-in-sugarcane-area/",
+   "date": "2026-06-18",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Kashipur – Timely payment for sugarcane would lead to a significant increase in the sugarcane cultivation area.",
+   "url": "https://arnittimes.com/kashipur-timely-payment-for-sugarcane-would-lead-to-a-significant-increase-in-the-sugarcane-cultivation-area/",
+   "date": "2026-06-18",
+   "kind": "local",
+   "via": "deepseek",
+   "used": true
+  },
+  {
+   "title": "Buy K P R Mill; target of Rs 1289: Prabhudas Lilladher",
+   "url": "https://in.tradingview.com/news/moneycontrol:63691d251094b:0-buy-k-p-r-mill-target-of-rs-1289-prabhudas-lilladher/",
+   "date": "2026-10-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Triveni Engineering & Industries (NSE:TRIVENI) Earnings Call Transcripts - Triveni Engineering & Industries Limited (NSE:TRIVENI)",
+   "url": "https://stockanalysis.com/quote/nse/TRIVENI/transcripts/#main#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset By Investing.com - E.I.D. Parry Q1 FY27 slides: sugar volumes surge amid strategic reset",
+   "url": "https://www.investing.com/news/company-news/eid-parry-q1-fy27-slides-sugar-volumes-surge-amid-strategic-reset-93CH-4856707#1",
+   "date": "2026-08-12",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's EID Parry posts higher quarterly profit on strong sugar performance",
+   "url": "https://www.reuters.com/5f374b32b07b/world/india/indias-eid-parry-posts-higher-quarterly-profit-strong-sugar-performance-2026-05-26/",
+   "date": "2026-05-25",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "policies on exports, minimum support price (MSP), and ethanol pricing",
+   "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510121030_Zuari_Industries_Limited.pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "October 08,2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?id=130418#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "April 06,2026",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=142208#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "October 22, 2024",
+   "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=130589#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: CAUTION score 46 (national 77 x 0.6 + Uttarakhand 0 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Uttarakhand: GST collections -19.1% Apr-to-date vs India +6.1% (25.2 pp slower than India) — a local stress signal. [GSTN state-wise GST collections, data to Sep-2026]",
+  "Uttarakhand: electricity demand +4.7% Apr-to-date vs India +9.5% (4.8 pp slower than India) — a local stress signal. [CEA Power Supply Position, data to Aug-2026]",
+  "India-wide: Output +5.1% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Bank credit -7.0% YoY vs output +5.1% (gap -12.1 pp). [RBI bank credit vs output, data to Aug-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": false
+ },
+ "calls": {
+  "search": 4,
+  "fetch": 1,
+  "chat": 1,
+  "plain_fetch_free": 5
+ },
+ "industry_cache_refreshed": false,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}

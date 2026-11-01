@@ -1,0 +1,150 @@
+{
+ "key": "hr_faridabad|tractors_agri_machinery",
+ "state": "HR",
+ "city": "hr_faridabad",
+ "ind": "tractors_agri_machinery",
+ "version": "v6",
+ "generated_at": "2026-11-01 23:58 IST",
+ "call": "caution",
+ "base_call": "ok",
+ "score": 78,
+ "nudged_by_news": true,
+ "verdict": "OK to lend in Faridabad tractors and farm machinery — back dealer and component borrowers with verifiable festive-season cash flow, avoid pure retail tractor financiers and inventory-heavy dealers until the price hike settles.",
+ "title": "Faridabad tractors & farm machinery: a note to the credit manager",
+ "narrative": [
+  "## What the business physically is\nA Faridabad tractor borrower is usually one of three things: a dealer/distributor moving OEM units into Haryana and NCR mandis, a component or implement maker feeding the Faridabad–Farrukhnagar belt, or a retail financier carrying the farmer's EMI. **Cash turns on the festive and rabi sowing calendar, not on the calendar year.** The dealer buys from the OEM on credit, holds yard inventory, sells against part-cash and part-finance, and collects the finance leg through a tie-up NBFC. So when a proposal lands, check the dealer's OEM credit terms and the share of sales routed through tied-up financiers; if the financier leg is above half of sales, ask for the financier's settlement record.",
+  "## Where value and cash sit\n**Value sits in the OEM franchise and the service/parts annuity, not in the metal.** Peers show the margin story: Escorts Kubota's Q4 revenue rose 21.4% to Rs 29.51 billion with profit up 9.2% to Rs 3.25 billion [5][6], and M&M holds 44% tractor market share at Q3FY26 with core tractor margins near peak [4]. That tells you the OEMs have pricing room; the dealer does not. Working capital is the risk: yard stock plus receivables from financiers.",
+  "## What has changed now\n**Escorts Kubota is raising tractor prices across Kubota, Farmtrac and Powertrac after the festive season, citing input costs [2][3].** A price hike mid-season squeezes dealers holding pre-hike stock and can stall retail conversion. Note the local tailwind: Haryana GST collections grew 10.1% Apr-to-date against India's 6.1% [D], and India-wide IIP for NIC 28 is +10.3% YoY [D]. But the rating view is cautious — CRISIL saw tractors declining 2-4% on high base, weaker rabi profitability and elevated inventory [9], and that report is old, so treat it as direction, not forecast. Escorts sold 16,921 units in October 2026 [1]; collect from customer the Faridabad-specific split of that.",
+  "Structure dealer limits as cash-credit against stock and receivables with a 25% margin, and component makers on term loan plus working capital with DSRA of one quarter. Take every month: stock statement, financier-wise receivables, OEM dispatch invoices, and GST returns. Covenant a debt-service coverage floor and a stock-turn floor; if stock turn falls below the sanctioned norm for two months, freeze the drawing power.",
+  "- **GST turnover diverging from bank credits** — check monthly; if the gap widens two months running, call for the sales register. - **OEM price-hike pass-through failing at retail** — track dealer realisation monthly; if realisation falls while invoice cost rises, reprice the limit."
+ ],
+ "watch": [
+  [
+   "Monthly GST returns vs bank credits",
+   "Turnover-credit gap widening two months running -> call for sales register and re-assess limit"
+  ],
+  [
+   "Quarterly OEM dispatch and price circulars",
+   "Price hike not passed to retail realisation -> reprice limit and raise margin"
+  ],
+  [
+   "Quarterly debt-service coverage",
+   "Coverage below covenant floor -> restructure tenure or seek promoter infusion"
+  ]
+ ],
+ "watch_note": "Trigger levels are policy suggestions (analytical framing), not data.",
+ "news_direction": "Worse",
+ "news_why": "Escorts Kubota price hike after festive season squeezes dealer stock and retail conversion.",
+ "articles": [
+  {
+   "title": "Escorts Kubota Tractor Sales October 2026: Domestic & Export",
+   "url": "https://tractorguru.in/news/tractor-news/escorts-kubota-october-2026-tractor-sales-16921-units",
+   "date": "2026-10-31",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Escorts Kubota to increase tractor prices after the festive season as input costs bite - CNBC TV18",
+   "url": "https://www.cnbctv18.com/market/escorts-kubota-share-price-tractor-price-hike-across-portfolios-november-post-festive-season-20023053.htm/amp",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Escorts Kubota to Hike Tractor Prices Across Kubota, Farmtrac & Powertrac",
+   "url": "https://tractorguru.in/news/tractor-news/escorts-kubota-tractor-price-hike-november-2026",
+   "date": "2026-10-29",
+   "kind": "local",
+   "via": "plain-http",
+   "used": true
+  },
+  {
+   "title": "Key Takeaways of Recent Quarter",
+   "url": "https://www.icicidirect.com/mailcontent/idirect_mm_q3fy26.pdf#1#3#1",
+   "date": "date unknown",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's Escorts Kubota posts quarterly profit rise on strong demand, margin gains",
+   "url": "https://sg.finance.yahoo.com/news/indias-escorts-kubota-posts-quarterly-095027858.html",
+   "date": "2026-05-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "India's Escorts Kubota posts quarterly profit rise on strong demand, margin gains - 31daba760635ba",
+   "url": "https://in.marketscreener.com/news/india-s-escorts-kubota-posts-quarterly-profit-rise-on-strong-demand-margin-gains-ce7f58d3da80f720#1",
+   "date": "2026-05-06",
+   "kind": "peer",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "M&M Q1 profit rises 7% as SUV sales stay robust - M&M Q1 profit rises 7% as SUV sales stay robust",
+   "url": "https://www.financialexpress.com/business/news/mampm-q1-profit-rises-7-as-suv-sales-stay-robust/4306602/?ref=ReadNext_article_3#1",
+   "date": "2026-07-29",
+   "kind": "peer",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Low leverage improves the financial flexibility of an entity during any downturn, besides keeping the fixed financing expenses l...",
+   "url": "https://www.icra.in/Rating/ShowMethodologyReport/?id=389&Title=Indian+Textiles+Industry+%E2%80%93+Fabric&Report=Textiles+%28Fabric%29%2C+Rating+Methodology%2C+Nov+2015.pdf&_x_output_type_b6db407c4_=embedded_pdf#2#2#2",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Key messages",
+   "url": "https://www.crisilratings.com/content/dam/crisil/mailers/rating-newsletter/2023/june/crisil-view-on-the-automobile-sector.pdf#1#2#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": true
+  },
+  {
+   "title": "Rating Rationale",
+   "url": "https://johndeere.widen.net/content/gcufgyrmuj/original/rating-rationale-29-jul-2025-082025.pdf?u=teq0fd&download=true#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  },
+  {
+   "title": "Captain Tractors Pvt. Ltd.",
+   "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=76579#1#1#1",
+   "date": "date unknown",
+   "kind": "rating",
+   "via": "cache",
+   "used": false
+  }
+ ],
+ "pack": [
+  "Data-based call: OK score 78 (national 80 x 0.6 + Haryana 75 x 0.4). OK to lend at or above 65, Avoid below 45.",
+  "Haryana: GST collections +10.1% Apr-to-date vs India +6.1% (4.0 pp faster than India) — a local tailwind. [GSTN state-wise GST collections, data to Sep-2026]",
+  "India-wide: IIP NIC 28 output +10.3% YoY. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Output +10.4% Apr-to-date. [IIP, MoSPI, data to Aug-2026]",
+  "India-wide: Exports +19.8% Apr-to-date in USD (Rs 674,656 Cr FYTD). [Dept of Commerce, data to Sep-2026]"
+ ],
+ "trace": {
+  "pass": true,
+  "problems": [],
+  "synthesis_tries": 1,
+  "sentences_stripped": true
+ },
+ "calls": {
+  "search": 6,
+  "fetch": 0,
+  "chat": 1,
+  "plain_fetch_free": 6
+ },
+ "industry_cache_refreshed": true,
+ "version_engine": "v8-lean",
+ "tier": "news_llm (unverified); numbers traced to fetched sources"
+}
