@@ -13,15 +13,16 @@ jobs:
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
+      - run: pip install -q pytest
       - name: Fetch new NSE filings (incremental, last-known-good kept on failure)
         continue-on-error: true
+        env: { DETECTIVE_CACHE: /tmp/xbrl_cache }
         run: python3 engine/detective/fetch.py --incremental | tee /tmp/fetch.log
       - name: Rebuild briefing + alerts (no AI calls)
         run: |
           cp -r data/detective /tmp/detective_lkg
           if ! python3 engine/detective/build.py > /tmp/build.log 2>&1 || ! python3 -m pytest -q engine/tests/test_detective.py; then
             echo "Build or tests failed - restoring last-known-good data"; rm -rf data/detective; cp -r /tmp/detective_lkg data/detective
-            git checkout -- data/detective
           fi
       - name: Commit if changed (push triggers Pages redeploy)
         run: |
