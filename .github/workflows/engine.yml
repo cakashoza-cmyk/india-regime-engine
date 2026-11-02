@@ -41,6 +41,13 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
         run: python engine/pipeline.py ${{ inputs.force_language && '--force-language' || '' }}
+      - name: Rating actions, Gujarat (weekly, Sundays; CRISIL rationales; DeepSeek only for industry mapping)
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          if [ "$(date -u +%u)" = "7" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python -m engine.ratings_gj || echo "ratings refresh failed: last good data kept"
+          else echo "not Sunday: ratings refresh skipped"; fi
       - name: Lending radar (verdicts + accuracy gate)
         id: lending
         env:
@@ -57,7 +64,7 @@ jobs:
         run: |
           git config user.name "regime-engine-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/lending_latest.json data/lending_state.json data/local_news.json data/radar.json data/radar_briefs.json data/wpi_latest.json data/macro_extra.json engine/regime.db
+          git add data/lending_latest.json data/lending_state.json data/local_news.json data/radar.json data/radar_briefs.json data/wpi_latest.json data/macro_extra.json data/ratings_gj.json data/cache/ratings_seen.json engine/regime.db
           git diff --cached --quiet || git commit -m "lending radar $(date -u +%FT%TZ)"
       - name: Commit snapshot
         run: |

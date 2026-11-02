@@ -28,6 +28,12 @@ def export(out, news):
             continue
         calls[f"{c['state']}|{c['sector']}"] = [c.get("data_call", c.get("call")), c.get("score"), c.get("national_score"), c.get("local_score"),
                                                   c.get("insufficient"), [rid(r) for r in c.get("reasons", [])]]
+    from engine import ratings_gj
+    rg = ratings_gj.load()
+    rg_changed = ratings_gj.apply_to_calls(calls, rg["industries"]) if rg else []
+    ratings_view = rg and {k: rg[k] for k in ("generated", "coverage_from", "window_days", "recent_days", "min_actions", "thresholds", "agencies", "industries")}
+    if ratings_view:
+        ratings_view["changed_calls"] = rg_changed
     sectors = {}
     for s in out["sectors"]:
         sectors[s["id"]] = {"name": s["name"], "score": s.get("score"), "verdict": s["verdict"], "group": s.get("group"),
@@ -65,7 +71,7 @@ def export(out, news):
              "geo": out["geo_config"], "reasons": R, "calls": calls, "sectors": sectors, "states": states, "cities": cities,
              "industries": [{k: i.get(k) for k in ("id", "name", "group", "parent", "mapping", "nic", "focus", "series_misfit")} for i in inds],
              "local_news_status": out.get("local_news_status"),
-             "credit_regime": out.get("credit_regime"), "wpi": out.get("wpi"), "stress_summary": stress_summary, "gnpa_editions": out.get("gnpa_editions")}
+             "credit_regime": out.get("credit_regime"), "wpi": out.get("wpi"), "stress_summary": stress_summary, "ratings_gj": ratings_view, "gnpa_editions": out.get("gnpa_editions")}
     (ROOT / "data" / "radar.json").write_text(json.dumps(radar, separators=(",", ":"), ensure_ascii=False, default=str))
     (ROOT / "data" / "radar_briefs.json").write_text(json.dumps(briefs, separators=(",", ":"), ensure_ascii=False))
     return radar, briefs
