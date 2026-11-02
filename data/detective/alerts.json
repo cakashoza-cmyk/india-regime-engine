@@ -1,0 +1,470 @@
+{
+ "generated": "2026-11-03T05:18:33",
+ "research_only": true,
+ "ai_calls": 0,
+ "rule": "Same half-year YoY: receivables or inventory growth exceeds revenue (YTD) growth by >10pp, or YTD operating cash flow falls >15% while YTD profit rises >=10%. Growth in receivables/inventory must itself be positive. Lenders excluded.",
+ "alerts": [
+  {
+   "company": "AARTIIND",
+   "period": "2026-09-30",
+   "fq": "Q2FY27",
+   "compared_with": "Q2FY26",
+   "cluster": "Chemicals - Vapi/Bharuch-Ankleshwar",
+   "triggers": [
+    "Operating cash flow fell (477 -> 233 cr) while profit rose (144 -> 475 cr)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": null,
+    "receivables_growth_pct": 121.11,
+    "inventory_growth_pct": 24.07,
+    "pat_ytd": 474.81,
+    "pat_ytd_prior": 144.13,
+    "ocf_ytd": 233.25,
+    "ocf_ytd_prior": 477.23
+   },
+   "sources": [
+    {
+     "period": "Q2FY27",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750382_30102026072933_WEB.xml",
+     "filed": "2026-10-30"
+    },
+    {
+     "period": "Q2FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1567523_06112025114045_WEB.xml",
+     "filed": "2025-11-06"
+    }
+   ],
+   "name": "Aarti Industries"
+  },
+  {
+   "company": "ADANIPORTS",
+   "period": "2026-09-30",
+   "fq": "Q2FY27",
+   "compared_with": "Q2FY26",
+   "cluster": "Ports - Mundra (Kutch)",
+   "triggers": [
+    "Inventory +45.8% vs revenue +21.1% (gap 24.6pp)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": 21.14,
+    "receivables_growth_pct": 23.62,
+    "inventory_growth_pct": 45.79,
+    "pat_ytd": 7331.94,
+    "pat_ytd_prior": 6430.8,
+    "ocf_ytd": 13326.54,
+    "ocf_ytd_prior": 9503.44
+   },
+   "sources": [
+    {
+     "period": "Q2FY27",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1747684_28102026035327_WEB.xml",
+     "filed": "2026-10-28"
+    },
+    {
+     "period": "Q2FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1564828_04112025052400_WEB.xml",
+     "filed": "2025-11-04"
+    }
+   ],
+   "name": "Adani Ports & SEZ"
+  },
+  {
+   "company": "AMBUJACEM",
+   "period": "2026-09-30",
+   "fq": "Q2FY27",
+   "compared_with": "Q2FY26",
+   "cluster": "Cement - Kodinar (Saurashtra)",
+   "triggers": [
+    "Receivables +20.2% vs revenue -3.9% (gap 24.1pp)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": -3.94,
+    "receivables_growth_pct": 20.19,
+    "inventory_growth_pct": -12.71,
+    "pat_ytd": 896.0,
+    "pat_ytd_prior": 3271.94,
+    "ocf_ytd": 2896.0,
+    "ocf_ytd_prior": 1444.21
+   },
+   "sources": [
+    {
+     "period": "Q2FY27",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1749092_29102026060450_WEB.xml",
+     "filed": "2026-10-29"
+    },
+    {
+     "period": "Q2FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1564005_03112025062549_WEB.xml",
+     "filed": "2025-11-03"
+    }
+   ],
+   "name": "Ambuja Cements"
+  },
+  {
+   "company": "ARVIND",
+   "period": "2026-09-30",
+   "fq": "Q2FY27",
+   "compared_with": "Q2FY26",
+   "cluster": "Textiles - Ahmedabad",
+   "triggers": [
+    "Operating cash flow fell (439 -> 219 cr) while profit rose (161 -> 267 cr)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": null,
+    "receivables_growth_pct": 38.83,
+    "inventory_growth_pct": 21.22,
+    "pat_ytd": 267.14,
+    "pat_ytd_prior": 161.44,
+    "ocf_ytd": 219.04,
+    "ocf_ytd_prior": 439.0
+   },
+   "sources": [
+    {
+     "period": "Q2FY27",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1748235_28102026081127_WEB.xml",
+     "filed": "2026-10-28"
+    },
+    {
+     "period": "Q2FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1568222_07112025060042_WEB.xml",
+     "filed": "2025-11-07"
+    }
+   ],
+   "name": "Arvind"
+  },
+  {
+   "company": "ASIANPAINT",
+   "period": "2026-09-30",
+   "fq": "Q2FY27",
+   "compared_with": "Q2FY26",
+   "cluster": "Paints - Ankleshwar",
+   "triggers": [
+    "Operating cash flow fell (3482 -> 1900 cr) while profit rose (2135 -> 2645 cr)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": 17.45,
+    "receivables_growth_pct": 14.0,
+    "inventory_growth_pct": 20.83,
+    "pat_ytd": 2644.8,
+    "pat_ytd_prior": 2135.28,
+    "ocf_ytd": 1899.83,
+    "ocf_ytd_prior": 3482.26
+   },
+   "sources": [
+    {
+     "period": "Q2FY27",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1749465_29102026092521_WEB.xml",
+     "filed": "2026-10-29"
+    },
+    {
+     "period": "Q2FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1572848_12112025081025_WEB.xml",
+     "filed": "2025-11-12"
+    }
+   ],
+   "name": "Asian Paints"
+  },
+  {
+   "company": "ATUL",
+   "period": "2026-09-30",
+   "fq": "Q2FY27",
+   "compared_with": "Q2FY26",
+   "cluster": "Chemicals - Valsad/Vapi",
+   "triggers": [
+    "Operating cash flow fell (508 -> 391 cr) while profit rose (315 -> 413 cr)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": 22.94,
+    "receivables_growth_pct": 22.41,
+    "inventory_growth_pct": 19.98,
+    "pat_ytd": 412.64,
+    "pat_ytd_prior": 314.73,
+    "ocf_ytd": 391.16,
+    "ocf_ytd_prior": 507.52
+   },
+   "sources": [
+    {
+     "period": "Q2FY27",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1744960_23102026065526_WEB.xml",
+     "filed": "2026-10-23"
+    },
+    {
+     "period": "Q2FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1551863_17102025035733_WEB.xml",
+     "filed": "2025-10-17"
+    }
+   ],
+   "name": "Atul"
+  },
+  {
+   "company": "BHARATFORG",
+   "period": "2026-03-31",
+   "fq": "Q4FY26",
+   "compared_with": "Q4FY25",
+   "cluster": "Auto components - Sanand supply chain",
+   "triggers": [
+    "Receivables +34.8% vs revenue +11.2% (gap 23.6pp)",
+    "Operating cash flow fell (1796 -> 1487 cr) while profit rose (913 -> 1089 cr)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": 11.17,
+    "receivables_growth_pct": 34.79,
+    "inventory_growth_pct": 13.26,
+    "pat_ytd": 1089.4,
+    "pat_ytd_prior": 913.27,
+    "ocf_ytd": 1486.64,
+    "ocf_ytd_prior": 1796.34
+   },
+   "sources": [
+    {
+     "period": "Q4FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1664728_07052026104447_WEB.xml",
+     "filed": "2026-05-07"
+    },
+    {
+     "period": "Q4FY25",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1434415_08052025092007_WEB.xml",
+     "filed": "2025-05-08"
+    }
+   ],
+   "name": "Bharat Forge"
+  },
+  {
+   "company": "ELECON",
+   "period": "2026-09-30",
+   "fq": "Q2FY27",
+   "compared_with": "Q2FY26",
+   "cluster": "Capital goods - Vallabh Vidyanagar (Anand)",
+   "triggers": [
+    "Inventory +36.1% vs revenue +8.5% (gap 27.6pp)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": 8.5,
+    "receivables_growth_pct": 17.88,
+    "inventory_growth_pct": 36.12,
+    "pat_ytd": 166.7,
+    "pat_ytd_prior": 263.16,
+    "ocf_ytd": 241.93,
+    "ocf_ytd_prior": 165.2
+   },
+   "sources": [
+    {
+     "period": "Q2FY27",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1738168_14102026082331_WEB.xml",
+     "filed": "2026-10-14"
+    },
+    {
+     "period": "Q2FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1544852_10102025075708_WEB.xml",
+     "filed": "2025-10-10"
+    }
+   ],
+   "name": "Elecon Engineering"
+  },
+  {
+   "company": "FILATEX",
+   "period": "2026-03-31",
+   "fq": "Q4FY26",
+   "compared_with": "Q4FY25",
+   "cluster": "MMF/polyester - Dahej -> Surat weavers",
+   "triggers": [
+    "Operating cash flow fell (312 -> 244 cr) while profit rose (135 -> 225 cr)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": -2.15,
+    "receivables_growth_pct": -16.07,
+    "inventory_growth_pct": -7.95,
+    "pat_ytd": 224.63,
+    "pat_ytd_prior": 134.57,
+    "ocf_ytd": 243.72,
+    "ocf_ytd_prior": 312.22
+   },
+   "sources": [
+    {
+     "period": "Q4FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1662865_01052026065216_WEB.xml",
+     "filed": "2026-05-01"
+    },
+    {
+     "period": "Q4FY25",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1423499_23042025091306_WEB.xml",
+     "filed": "2025-04-23"
+    }
+   ],
+   "name": "Filatex India"
+  },
+  {
+   "company": "LT",
+   "period": "2026-09-30",
+   "fq": "Q2FY27",
+   "compared_with": "Q2FY26",
+   "cluster": "Capital goods - Hazira (Surat)",
+   "triggers": [
+    "Inventory +38.9% vs revenue +11.4% (gap 27.5pp)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": 11.41,
+    "receivables_growth_pct": 7.57,
+    "inventory_growth_pct": 38.95,
+    "pat_ytd": 10937.18,
+    "pat_ytd_prior": 8996.18,
+    "ocf_ytd": 5750.53,
+    "ocf_ytd_prior": 3816.13
+   },
+   "sources": [
+    {
+     "period": "Q2FY27",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1747229_27102026081332_WEB.xml",
+     "filed": "2026-10-27"
+    },
+    {
+     "period": "Q2FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1560629_29102025075509_WEB.xml",
+     "filed": "2025-10-29"
+    }
+   ],
+   "name": "Larsen & Toubro"
+  },
+  {
+   "company": "MARUTI",
+   "period": "2026-09-30",
+   "fq": "Q2FY27",
+   "compared_with": "Q2FY26",
+   "cluster": "Auto - Hansalpur/Becharaji",
+   "triggers": [
+    "Inventory +78.6% vs revenue +31.4% (gap 47.2pp)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": 31.4,
+    "receivables_growth_pct": -8.41,
+    "inventory_growth_pct": 78.61,
+    "pat_ytd": 5767.0,
+    "pat_ytd_prior": 7004.8,
+    "ocf_ytd": 5473.3,
+    "ocf_ytd_prior": 6286.8
+   },
+   "sources": [
+    {
+     "period": "Q2FY27",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1747191_27102026072947_WEB.xml",
+     "filed": "2026-10-27"
+    },
+    {
+     "period": "Q2FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1562963_31102025080837_WEB.xml",
+     "filed": "2025-10-31"
+    }
+   ],
+   "name": "Maruti Suzuki"
+  },
+  {
+   "company": "PIDILITIND",
+   "period": "2026-09-30",
+   "fq": "Q2FY27",
+   "compared_with": "Q2FY26",
+   "cluster": "Chemicals - Vapi/Bharuch",
+   "triggers": [
+    "Inventory +33.0% vs revenue +21.1% (gap 11.9pp)",
+    "Operating cash flow fell (1434 -> 1098 cr) while profit rose (1263 -> 1510 cr)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": 21.1,
+    "receivables_growth_pct": 30.37,
+    "inventory_growth_pct": 33.04,
+    "pat_ytd": 1509.97,
+    "pat_ytd_prior": 1262.73,
+    "ocf_ytd": 1098.04,
+    "ocf_ytd_prior": 1434.09
+   },
+   "sources": [
+    {
+     "period": "Q2FY27",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1748241_28102026081451_WEB.xml",
+     "filed": "2026-10-28"
+    },
+    {
+     "period": "Q2FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1562080_30102025075559_WEB.xml",
+     "filed": "2025-10-30"
+    }
+   ],
+   "name": "Pidilite"
+  },
+  {
+   "company": "THERMAX",
+   "period": "2026-03-31",
+   "fq": "Q4FY26",
+   "compared_with": "Q4FY25",
+   "cluster": "Capital goods - Gujarat projects",
+   "triggers": [
+    "Inventory +26.3% vs revenue +2.9% (gap 23.3pp)",
+    "Operating cash flow fell (1043 -> 542 cr) while profit rose (627 -> 720 cr)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": 2.94,
+    "receivables_growth_pct": -14.05,
+    "inventory_growth_pct": 26.27,
+    "pat_ytd": 720.26,
+    "pat_ytd_prior": 626.7,
+    "ocf_ytd": 541.54,
+    "ocf_ytd_prior": 1042.79
+   },
+   "sources": [
+    {
+     "period": "Q4FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1664624_07052026074732_WEB.xml",
+     "filed": "2026-05-07"
+    },
+    {
+     "period": "Q4FY25",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1435268_09052025073002_WEB.xml",
+     "filed": "2025-05-09"
+    }
+   ],
+   "name": "Thermax"
+  }
+ ],
+ "checked": 27,
+ "clear": [
+  "ASHOKLEY",
+  "ASIANTILES",
+  "ASTRAL",
+  "CONCOR",
+  "DEEPAKNTR",
+  "GPPL",
+  "JKLAKSHMI",
+  "KAJARIACER",
+  "MOTHERSON",
+  "NAVINFLUOR",
+  "PETRONET",
+  "SOMANYCERA",
+  "ULTRACEMCO",
+  "WELSPUNLIV"
+ ]
+}

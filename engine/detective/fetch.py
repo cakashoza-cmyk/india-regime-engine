@@ -131,30 +131,50 @@ def extract(q, ytd, inst):
         "volume": None,
     }
 
-def run(syms=None):
+def run(syms=None, incremental=False):
+    """incremental=True: keep every quarter already parsed (last-known-good) and only download
+    filings for quarter-ends not yet present. Any per-company failure leaves the old file untouched."""
     os.makedirs(RAW, exist_ok=True); os.makedirs(CACHE, exist_ok=True); warm()
+    stats = {"ok": 0, "failed": [], "new_quarters": 0}
     for row in UNIVERSE:
         sym = row[0]
         if syms and sym not in syms: continue
         fn = os.path.join(RAW, sym + ".json")
-        L = [x for x in listing(sym) if x["end"] != "None" and dt.date.fromisoformat(x["end"]) >= START]
-        nc = len({x["end"] for x in L if x["cons"]}); ns = len({x["end"] for x in L if not x["cons"]})
-        basis = "consolidated" if nc >= max(ns - 4, 1) and nc > 0 else "standalone"
-        L = [x for x in L if x["cons"] == (basis == "consolidated")]
-        byq = {}
-        for x in sorted(L, key=lambda x: x["filed"] or ""):  # later filings (revisions) overwrite
-            byq[x["end"]] = x
-        out = {"symbol": sym, "basis": basis, "fetched": dt.datetime.now().isoformat(timespec="seconds"), "quarters": {}}
-        for end, x in sorted(byq.items()):
-            try:
-                q, ytd, inst = parse(xml_for(x["xbrl"]), dt.date.fromisoformat(end))
-                m = extract(q, ytd, inst)
-                out["quarters"][end] = {"m": m, "src": x["xbrl"], "filed": x["filed"], "feed": x["src"], "audited": x["audited"]}
-            except Exception as e:
-                out["quarters"][end] = {"m": None, "src": x["xbrl"], "error": str(e)[:120]}
-        json.dump(out, open(fn, "w"), indent=0)
-        print(sym, basis, len(out["quarters"]), flush=True)
+        old = json.load(open(fn)) if os.path.exists(fn) else None
+        try:
+            L = [x for x in listing(sym) if x["end"] != "None" and dt.date.fromisoformat(x["end"]) >= START]
+            if not L: raise RuntimeError("empty listing (blocked or no filings)")
+            if incremental and old and old.get("quarters"):
+                basis = old["basis"]
+            else:
+                nc = len({x["end"] for x in L if x["cons"]}); ns = len({x["end"] for x in L if not x["cons"]})
+                basis = "consolidated" if nc >= max(ns - 4, 1) and nc > 0 else "standalone"
+            L = [x for x in L if x["cons"] == (basis == "consolidated")]
+            byq = {}
+            for x in sorted(L, key=lambda x: x["filed"] or ""):  # later filings (revisions) overwrite
+                byq[x["end"]] = x
+            out = {"symbol": sym, "basis": basis, "fetched": dt.datetime.now().isoformat(timespec="seconds"), "quarters": {}}
+            keep = (old or {}).get("quarters", {}) if incremental else {}
+            for end, x in sorted(byq.items()):
+                if end in keep and keep[end].get("m"):
+                    out["quarters"][end] = keep[end]; continue
+                try:
+                    q, ytd, inst = parse(xml_for(x["xbrl"]), dt.date.fromisoformat(end))
+                    out["quarters"][end] = {"m": extract(q, ytd, inst), "src": x["xbrl"], "filed": x["filed"], "feed": x["src"], "audited": x["audited"]}
+                    stats["new_quarters"] += 1
+                except Exception as e:
+                    if end in keep: out["quarters"][end] = keep[end]
+                    else: out["quarters"][end] = {"m": None, "src": x["xbrl"], "error": str(e)[:120]}
+            for end, v in keep.items(): out["quarters"].setdefault(end, v)  # never drop known-good quarters
+            if old and len([v for v in out["quarters"].values() if v.get("m")]) < len([v for v in old["quarters"].values() if v.get("m")]):
+                raise RuntimeError("fewer good quarters than last-known-good; keeping old file")
+            json.dump(out, open(fn, "w"), indent=0); stats["ok"] += 1
+            print(sym, basis, len(out["quarters"]), flush=True)
+        except Exception as e:
+            stats["failed"].append(sym); print(sym, "FAILED (kept last-known-good):", str(e)[:100], flush=True)
+    return stats
 
 if __name__ == "__main__":
-    import urllib.parse
-    run(set(sys.argv[1:]) or None)
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    st = run(set(args) or None, incremental="--incremental" in sys.argv)
+    print("SUMMARY", json.dumps(st))

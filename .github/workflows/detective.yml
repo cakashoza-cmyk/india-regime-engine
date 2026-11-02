@@ -1,0 +1,32 @@
+name: Detective Engine weekly refresh
+on:
+  workflow_dispatch:
+  schedule:
+    # Sunday 06:00 IST (00:30 UTC). Research data only; does not touch Lending Radar calls.
+    - cron: "30 0 * * 0"
+permissions:
+  contents: write
+concurrency: { group: detective-refresh, cancel-in-progress: false }
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch new NSE filings (incremental, last-known-good kept on failure)
+        continue-on-error: true
+        run: python3 engine/detective/fetch.py --incremental | tee /tmp/fetch.log
+      - name: Rebuild briefing + alerts (no AI calls)
+        run: |
+          cp -r data/detective /tmp/detective_lkg
+          if ! python3 engine/detective/build.py > /tmp/build.log 2>&1 || ! python3 -m pytest -q engine/tests/test_detective.py; then
+            echo "Build or tests failed - restoring last-known-good data"; rm -rf data/detective; cp -r /tmp/detective_lkg data/detective
+            git checkout -- data/detective
+          fi
+      - name: Commit if changed (push triggers Pages redeploy)
+        run: |
+          git config user.name "regime-engine-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/detective
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "detective weekly refresh $(date -u +%FT%TZ)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 10; done

@@ -69,4 +69,29 @@ class T(unittest.TestCase):
             if h["is_hypothesis"]: self.assertGreaterEqual(len(h["channels"]), 3)
             for e in h["evidence"]: self.assertIn(e, B["evidence_cited"])
 
+    def _raw(self, rec_now, inv_now, ocf_now, pat_now):
+        mk = lambda ry, rec, inv, ocf, pat: {"m": dict(revenue=ry/2, revenue_ytd=ry, receivables=rec, inventory=inv, ocf_ytd=ocf, pat=pat), "src": "https://nsearchives.nseindia.com/a.xml", "filed": "10-Nov-2025 10:00"}
+        return {"symbol": "ARVIND", "basis": "c", "quarters": {
+            "2025-06-30": mk(100, 1, 1, 1, 10), "2025-09-30": mk(200, 50, 50, 40, 10),
+            "2026-06-30": mk(110, 1, 1, 1, pat_now), "2026-09-30": mk(220, rec_now, inv_now, ocf_now, pat_now)}}
+
+    def test_wc_alert_receivables_gap(self):
+        import alerts
+        a = alerts.company_alert("ARVIND", self._raw(62, 52, 40, 10))  # rev +10%, receivables +24%
+        self.assertTrue(a["alert"]); self.assertIn("Receivables", a["triggers"][0]); self.assertIn("Surat", alerts.CLUSTER["FILATEX"])
+        self.assertEqual(len(a["sources"]), 2)
+
+    def test_wc_alert_quiet_when_in_line(self):
+        import alerts
+        self.assertFalse(alerts.company_alert("ARVIND", self._raw(55, 55, 40, 10))["alert"])
+
+    def test_wc_alert_ocf_down_profit_up(self):
+        import alerts
+        a = alerts.company_alert("ARVIND", self._raw(55, 55, 20, 15))
+        self.assertTrue(any("cash flow" in t for t in a["triggers"]))
+
+    def test_incremental_flag_exists(self):
+        import inspect
+        self.assertIn("incremental", inspect.signature(fetch.run).parameters)
+
 if __name__ == "__main__": unittest.main()

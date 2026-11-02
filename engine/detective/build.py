@@ -291,6 +291,10 @@ def main():
                evidence_cited={i: eb[i] for i in sorted(used_e)},
                counts=dict(evidence=len(ev), models=len(models), companies=len(raw)))
     json.dump(out, open(os.path.join(D, "briefing.json"), "w"), separators=(",", ":"))
+    from alerts import build_alerts
+    al = build_alerts(raw); out["wc_alerts"] = al
+    json.dump(al, open(os.path.join(D, "alerts.json"), "w"), indent=1)
+    json.dump(out, open(os.path.join(D, "briefing.json"), "w"), separators=(",", ":"))
     json.dump(ev, open(os.path.join(D, "evidence.json"), "w"), separators=(",", ":"))
     json.dump(models, open(os.path.join(D, "models.json"), "w"), separators=(",", ":"))
     print(json.dumps(dict(asof=fy_label(asof_q), counts=out["counts"], bt=bt, falses=len(falses), failed=len(out["failed_predictions"]),
