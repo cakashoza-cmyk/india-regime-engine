@@ -57,7 +57,7 @@ jobs:
         run: |
           git config user.name "regime-engine-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/lending_latest.json data/lending_state.json data/local_news.json data/radar.json data/radar_briefs.json engine/regime.db
+          git add data/lending_latest.json data/lending_state.json data/local_news.json data/radar.json data/radar_briefs.json data/wpi_latest.json data/macro_extra.json engine/regime.db
           git diff --cached --quiet || git commit -m "lending radar $(date -u +%FT%TZ)"
       - name: Commit snapshot
         run: |

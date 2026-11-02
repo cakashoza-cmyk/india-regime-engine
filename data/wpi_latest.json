@@ -1,0 +1,705 @@
+{
+ "month": "September 2026",
+ "headline_yoy": 11.39,
+ "months": [
+  "Apr-26",
+  "May-26",
+  "Jun-26",
+  "Jul-26",
+  "Aug-26",
+  "Sep-26"
+ ],
+ "all_yoy": [
+  8.36,
+  9.88,
+  9.97,
+  9.78,
+  9.92,
+  11.39
+ ],
+ "wpi_yoy": {
+  "all commodities i. primary articles": [
+   8.36,
+   9.88,
+   9.97,
+   9.78,
+   9.92,
+   11.39
+  ],
+  "food articles": [
+   2.61,
+   3.69,
+   5.4,
+   5.44,
+   5.67,
+   8.14
+  ],
+  "non-food articles": [
+   7.6,
+   10.2,
+   11.67,
+   17.66,
+   14.79,
+   10.28
+  ],
+  "minerals ii. fuel and power": [
+   8.0,
+   6.05,
+   8.31,
+   13.64,
+   8.24,
+   9.51
+  ],
+  "coal and lignite": [
+   -1.57,
+   -2.26,
+   -1.57,
+   -0.56,
+   1.57,
+   9.31
+  ],
+  "mineral oils": [
+   40.74,
+   49.82,
+   46.48,
+   32.4,
+   38.48,
+   40.02
+  ],
+  "electricity": [
+   -2.58,
+   -0.54,
+   -1.51,
+   0.44,
+   -1.73,
+   -0.43
+  ],
+  "crude petroleum & natural gas iii. manufactured products": [
+   56.31,
+   61.51,
+   34.75,
+   26.99,
+   34.41,
+   57.32
+  ],
+  "food products": [
+   4.72,
+   6.24,
+   7.58,
+   8.7,
+   9.65,
+   9.44
+  ],
+  "beverages": [
+   0.38,
+   1.25,
+   1.15,
+   0.48,
+   1.93,
+   1.44
+  ],
+  "tobacco products": [
+   12.08,
+   12.76,
+   14.6,
+   13.73,
+   13.17,
+   12.9
+  ],
+  "textiles": [
+   7.25,
+   10.98,
+   12.15,
+   12.69,
+   12.63,
+   13.85
+  ],
+  "wearing apparel": [
+   3.06,
+   3.72,
+   2.57,
+   3.61,
+   3.12,
+   3.57
+  ],
+  "leather and related products": [
+   3.87,
+   4.23,
+   3.91,
+   3.92,
+   4.48,
+   3.71
+  ],
+  "wood and products of wood": [
+   8.07,
+   6.58,
+   7.65,
+   7.41,
+   7.26,
+   5.97
+  ],
+  "paper and paper products": [
+   2.18,
+   2.95,
+   3.19,
+   3.4,
+   4.51,
+   5.15
+  ],
+  "printing and reproduction": [
+   3.08,
+   3.94,
+   3.45,
+   3.25,
+   3.04,
+   3.04
+  ],
+  "chemicals and chemical products": [
+   13.0,
+   14.73,
+   14.32,
+   13.56,
+   14.3,
+   16.74
+  ],
+  "pharma": [
+   2.61,
+   3.94,
+   3.42,
+   4.35,
+   3.4,
+   4.01
+  ],
+  "rubber and plastic products": [
+   10.07,
+   10.84,
+   10.46,
+   10.7,
+   11.18,
+   13.47
+  ],
+  "other non-metallic mineral products": [
+   1.75,
+   1.33,
+   2.04,
+   2.77,
+   2.57,
+   3.72
+  ],
+  "basic metals": [
+   10.7,
+   13.16,
+   10.68,
+   12.33,
+   10.88,
+   16.96
+  ],
+  "fabricated metal products": [
+   5.03,
+   6.33,
+   6.53,
+   7.24,
+   6.71,
+   7.51
+  ],
+  "computer, electronic and optical": [
+   -1.17,
+   -0.87,
+   -0.86,
+   -1.81,
+   -0.47,
+   4.0
+  ],
+  "electrical equipment": [
+   9.21,
+   11.41,
+   11.22,
+   11.38,
+   11.11,
+   11.93
+  ],
+  "machinery and equipment": [
+   1.84,
+   2.23,
+   2.23,
+   2.81,
+   3.18,
+   2.8
+  ],
+  "motor vehicles": [
+   0.85,
+   0.75,
+   3.23,
+   3.31,
+   3.7,
+   4.46
+  ],
+  "other transport equipment": [
+   3.21,
+   4.11,
+   4.69,
+   4.85,
+   4.93,
+   4.21
+  ],
+  "furniture": [
+   3.83,
+   5.18,
+   4.44,
+   4.24,
+   4.68,
+   5.17
+  ],
+  "other manufacturing": [
+   26.21,
+   21.41,
+   20.71,
+   20.28,
+   20.44,
+   19.16
+  ]
+ },
+ "fuel_primary_yoy": {
+  "Mineral Oils": [
+   40.74,
+   49.82,
+   46.48,
+   32.4,
+   38.48,
+   40.02
+  ],
+  "Crude Petroleum & Natural Gas": [
+   56.31,
+   61.51,
+   34.75,
+   26.99,
+   34.41,
+   57.32
+  ],
+  "Food Articles": [
+   2.61,
+   3.69,
+   5.4,
+   5.44,
+   5.67,
+   8.14
+  ],
+  "Non-Food Articles": [
+   7.6,
+   10.2,
+   11.67,
+   17.66,
+   14.79,
+   10.28
+  ],
+  "Electricity": [
+   -2.58,
+   -0.54,
+   -1.51,
+   0.44,
+   -1.73,
+   -0.43
+  ],
+  "Coal and Lignite": [
+   -1.57,
+   -2.26,
+   -1.57,
+   -0.56,
+   1.57,
+   9.31
+  ]
+ },
+ "oppi": {
+  "all commodities agriculture, forestry and fishing crop and animal production, hunting and related service activities forestry and logging fishing and aquaculture mining and quarrying mining of metal ores mining of coal and lignite other mining and quarrying extraction of crude petroleum and natural gas": [
+   108.8,
+   109.9,
+   110.0,
+   109.9,
+   110.8,
+   112.5
+  ],
+  "manufactured products": [
+   108.3,
+   109.7,
+   109.4,
+   108.7,
+   109.7,
+   111.0
+  ],
+  "food products": [
+   111.0,
+   112.5,
+   113.7,
+   115.4,
+   117.6,
+   117.7
+  ],
+  "beverages": [
+   104.6,
+   105.0,
+   105.2,
+   104.7,
+   105.8,
+   106.0
+  ],
+  "tobacco products": [
+   125.4,
+   125.6,
+   128.3,
+   128.4,
+   127.2,
+   127.1
+  ],
+  "textiles": [
+   100.9,
+   103.9,
+   105.3,
+   105.7,
+   106.3,
+   108.0
+  ],
+  "wearing apparel": [
+   109.9,
+   110.8,
+   111.0,
+   110.9,
+   111.2,
+   112.0
+  ],
+  "leather and related products": [
+   105.9,
+   107.1,
+   107.4,
+   107.1,
+   107.9,
+   107.4
+  ],
+  "wood and products of wood": [
+   113.3,
+   113.2,
+   113.6,
+   113.9,
+   113.4,
+   113.6
+  ],
+  "paper and paper products": [
+   93.9,
+   94.5,
+   94.1,
+   94.8,
+   95.4,
+   96.4
+  ],
+  "printing and reproduction": [
+   109.3,
+   109.5,
+   109.5,
+   109.6,
+   110.1,
+   110.6
+  ],
+  "coke and refined petroleum": [
+   121.1,
+   125.2,
+   122.3,
+   112.7,
+   117.8,
+   118.8
+  ],
+  "chemicals and chemical products": [
+   103.3,
+   104.1,
+   104.3,
+   103.1,
+   104.3,
+   106.3
+  ],
+  "pharma": [
+   103.2,
+   103.6,
+   103.7,
+   104.2,
+   104.2,
+   104.7
+  ],
+  "rubber and plastic products": [
+   106.7,
+   107.0,
+   107.4,
+   107.3,
+   108.1,
+   109.5
+  ],
+  "other non-metallic mineral products": [
+   99.0,
+   99.1,
+   99.8,
+   100.1,
+   99.7,
+   100.4
+  ],
+  "basic metals": [
+   102.7,
+   104.3,
+   101.0,
+   101.8,
+   100.6,
+   105.7
+  ],
+  "fabricated metal products": [
+   102.3,
+   103.3,
+   103.3,
+   103.9,
+   103.7,
+   104.9
+  ],
+  "computer, electronic and optical": [
+   104.3,
+   104.9,
+   104.7,
+   105.0,
+   106.1,
+   105.8
+  ],
+  "electrical equipment": [
+   105.7,
+   107.2,
+   107.9,
+   108.3,
+   109.0,
+   109.6
+  ],
+  "machinery and equipment": [
+   105.7,
+   105.7,
+   105.6,
+   106.4,
+   106.9,
+   106.9
+  ],
+  "motor vehicles": [
+   107.4,
+   107.2,
+   108.5,
+   108.9,
+   109.1,
+   109.9
+  ],
+  "other transport equipment": [
+   107.2,
+   107.6,
+   108.5,
+   109.3,
+   110.4,
+   110.2
+  ],
+  "furniture": [
+   105.3,
+   104.9,
+   104.7,
+   104.8,
+   104.6,
+   105.0
+  ],
+  "other manufacturing": [
+   120.9,
+   122.2,
+   121.5,
+   120.7,
+   120.6,
+   122.8
+  ]
+ },
+ "ippi": {
+  "manufacturing sector": [
+   104.2,
+   106.5,
+   105.9,
+   105.5,
+   104.2,
+   106.1
+  ],
+  "food products": [
+   108.3,
+   110.5,
+   112.1,
+   113.5,
+   114.7,
+   115.3
+  ],
+  "beverages": [
+   104.5,
+   105.4,
+   105.5,
+   106.5,
+   108.9,
+   108.8
+  ],
+  "tobacco products": [
+   124.7,
+   122.5,
+   123.5,
+   125.7,
+   125.8,
+   125.8
+  ],
+  "textiles": [
+   100.8,
+   103.4,
+   103.8,
+   104.0,
+   103.8,
+   104.9
+  ],
+  "wearing apparel": [
+   106.6,
+   107.4,
+   108.3,
+   107.9,
+   108.8,
+   109.4
+  ],
+  "leather and related products": [
+   96.0,
+   97.9,
+   97.1,
+   98.6,
+   97.1,
+   99.0
+  ],
+  "wood and products of wood": [
+   110.8,
+   113.4,
+   111.5,
+   110.5,
+   113.2,
+   111.8
+  ],
+  "paper and paper products": [
+   96.8,
+   97.2,
+   97.4,
+   98.1,
+   98.8,
+   99.8
+  ],
+  "printing and reproduction": [
+   98.3,
+   98.9,
+   98.8,
+   99.1,
+   99.4,
+   97.6
+  ],
+  "coke and refined petroleum": [
+   105.2,
+   111.8,
+   105.1,
+   100.6,
+   86.7,
+   94.7
+  ],
+  "chemicals and chemical products": [
+   107.9,
+   110.5,
+   110.7,
+   109.9,
+   110.8,
+   113.4
+  ],
+  "pharma": [
+   103.5,
+   105.3,
+   104.7,
+   105.0,
+   105.8,
+   107.3
+  ],
+  "rubber and plastic products": [
+   109.8,
+   111.1,
+   112.8,
+   111.9,
+   113.3,
+   115.5
+  ],
+  "other non-metallic mineral products": [
+   96.4,
+   98.4,
+   96.4,
+   93.1,
+   93.7,
+   95.8
+  ],
+  "basic metals": [
+   100.6,
+   102.2,
+   101.6,
+   101.6,
+   101.8,
+   103.4
+  ],
+  "fabricated metal products": [
+   102.2,
+   104.7,
+   105.7,
+   105.7,
+   105.5,
+   106.9
+  ],
+  "computer, electronic and optical": [
+   108.2,
+   107.0,
+   108.9,
+   109.8,
+   108.9,
+   108.8
+  ],
+  "electrical equipment": [
+   113.4,
+   116.2,
+   117.5,
+   117.6,
+   118.7,
+   120.2
+  ],
+  "machinery and equipment": [
+   105.0,
+   105.4,
+   105.0,
+   105.2,
+   106.2,
+   104.5
+  ],
+  "motor vehicles": [
+   102.8,
+   103.7,
+   104.0,
+   104.8,
+   105.1,
+   106.3
+  ],
+  "furniture": [
+   101.1,
+   100.7,
+   100.5,
+   101.9,
+   103.2,
+   102.0
+  ],
+  "other manufacturing": [
+   88.4,
+   89.5,
+   87.3,
+   87.7,
+   85.2,
+   86.2
+  ]
+ },
+ "source_url": "https://eaindustry.nic.in/press_release/press_release_202609.pdf",
+ "period": "2026-09",
+ "fetched_ist": "2026-11-02 08:25 IST",
+ "errors": [],
+ "source": "Office of the Economic Adviser, DPIIT: WPI/Output PPI/trial Input PPI press release (base 2022-23)"
+}

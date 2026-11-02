@@ -11,7 +11,10 @@
     "energy_overlay": 1.0,
     "rate_overlay": 1.0,
     "activity_proxy": 0.75,
-    "gnpa_trend": 1.0
+    "gnpa_trend": 1.0,
+    "margin": 1.0,
+    "regime_overlay": 1.0,
+    "_note2": "2 Nov 2026 economist audit: margin = OEA output PPI vs trial input PPI spread change (weight 1.0); regime_overlay is display weight only, its points come from engine/sector_sensitivity.json. Credit-vs-output gap is now a red-flag rule (0 up to 15 pp real gap, -1 above; above 25 pp no OK call)."
   },
   "thresholds": {
     "_last_calibrated": "2026-11-01",

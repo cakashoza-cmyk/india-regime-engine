@@ -122,3 +122,32 @@ def test_fallback_chain_logs_failures():
 
 def test_fy_label():
     assert L.fy_label(date(2026, 11, 1)).startswith("FY27") and L.fy_label(date(2027, 2, 1)).startswith("FY27")
+
+
+def _ctx(late=True):
+    from engine import regime_overlay as ro
+    from engine.tests.test_regime_overlay import _wpi
+    reg = {"factors": {"tightening": late, "oil_shock": late}, "late_cycle": late, "stage": "test", "next_mpc": "2026-12-04", "next_wpi": "2026-11-16"}
+    return {"sens": ro.sens(), "wpi": _wpi(), "regime": reg}
+
+
+def test_gap_is_red_flag_not_linear_and_deflated():
+    small = L.score_sector(SEC, _data(cr_yoy=14.6), {}, CFG, TODAY, _ctx())
+    assert small["drivers"]["credit_vs_output"]["score"] == 0  # a small gap earns nothing
+    assert "after WPI textiles inflation" in small["drivers"]["credit_vs_output"]["text"]
+    red = L.score_sector(SEC, _data(cr_yoy=60), {}, CFG, TODAY, _ctx())
+    cv = red["drivers"]["credit_vs_output"]
+    assert cv["score"] == -1 and cv["flag"] == "red" and red["score"] < 65
+
+
+def test_cyclical_cap_and_regime_overlay():
+    r = L.score_sector(SEC, _data(iip=(30, 30), exp=40, cr_yoy=20), {}, CFG, TODAY, _ctx())
+    assert r["score"] <= 85 and r["drivers"]["regime_overlay"]["points"] < 0
+    assert r["wrong_if"] if "wrong_if" in r else True
+
+
+def test_falling_gnpa_alone_cannot_upgrade():
+    sec = {**SEC, "_gnpa_points": [{"period": "Mar-25", "value": 2.5}, {"period": "Mar-26", "value": 1.0}], "_gnpa_cat": "textiles"}
+    ctx = {**_ctx(), "wpi": None}  # no margin driver: GNPA would be the only positive
+    r = L.score_sector(sec, _data(iip=(2, 2), exp=5, cr_yoy=14), {}, CFG, TODAY, ctx)
+    assert r["drivers"]["gnpa_trend"]["score"] == 0

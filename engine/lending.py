@@ -76,7 +76,14 @@ def overlays(sector, macro, th):
     return res
 
 
-def score_sector(sector, data, macro, cfg, today):
+def score_sector(sector, data, macro, cfg, today, ctx=None, shock=None):
+    """ctx = {'sens', 'wpi', 'regime'} enables the regime overlay, WPI margin driver and price-adjusted credit gap.
+    shock='demand_down5' re-scores with output growth 5 pp lower (stress panel)."""
+    ro_mod = None
+    if ctx:
+        from engine import regime_overlay as ro_mod
+    sv = (ctx or {}).get('sens', {}).get(sector['id'])
+    wpi = (ctx or {}).get('wpi')
     th, wt = cfg["thresholds"], cfg["weights"]
     srcs = cfg["sources"]
     drivers, excluded = {}, []
@@ -87,13 +94,19 @@ def score_sector(sector, data, macro, cfg, today):
             ok, why = False, "excluded: failed arithmetic cross-check"
         if val is None:
             ok, why = False, "missing value"
-        s = band(val, **({"pos_below": th["credit_vs_output_gap_pp"]["pos_below"], "neg_above": th["credit_vs_output_gap_pp"]["neg_above"]} if key == "credit_vs_output" else th[key])) if ok else None
+        if key == "credit_vs_output" and ctx:
+            # red-flag thresholds, not a linear score: a small gap earns nothing; a large gap is a warning
+            s = (-1 if val > ro_mod.GAP_WATCH else 0) if ok else None
+        else:
+            s = band(val, **({"pos_below": th["credit_vs_output_gap_pp"]["pos_below"], "neg_above": th["credit_vs_output_gap_pp"]["neg_above"]} if key == "credit_vs_output" else th[key])) if ok else None
         drivers[key] = {"score": s, "value": val, "unit": unit, "as_of": rec.get("_period"), "source_url": rec.get("_url"), "dataset": ds,
                         "status": "verified" if ok else ("stale" if why and why.startswith("stale") else "excluded"), "reason": why, "text": text}
         if not ok:
             excluded.append(f"{key}: {why}")
 
     iip = (data.get("iip_nic2") or {}).get(sector.get("iip_nic") or "")
+    if shock == "demand_down5" and iip:
+        iip = {**iip, "yoy_pct": iip["yoy_pct"] - 5, "fytd_pct": iip["fytd_pct"] - 5}
     exp = (data.get("exports_qe") or {}).get(sector.get("export_row") or -1)
     cr = (data.get("rbi_sibc") or {}).get(sector.get("rbi_row") or "")
     if iip:
@@ -103,6 +116,8 @@ def score_sector(sector, data, macro, cfg, today):
         add("export_fytd_usd", exp["usd_fytd_pct"], "% FYTD (USD)", "exports_qe", exp, f"exports {exp['usd_fytd_pct']:+.1f}% Apr-to-date in USD (Rs {exp['inr_fytd_cr']:,.0f} Cr FYTD)")
     act = sector.get("activity")
     arec = ((data.get(act["dataset"]) or {}).get(act["key"]) if act else None)
+    if shock == "demand_down5" and act and arec and arec.get(act["field"]) is not None:
+        arec = {**arec, act["field"]: arec[act["field"]] - 5}
     if act and arec and arec.get(act["field"]) is not None:
         arec2 = {**arec, "check_ok": arec.get("check_ok", True) and arec.get("fytd_check_ok", True)}
         add("activity_proxy", arec[act["field"]], "% FYTD", act["dataset"], arec2, f"{act['label']} {arec[act['field']]:+.1f}%")
@@ -112,13 +127,20 @@ def score_sector(sector, data, macro, cfg, today):
     if pc:
         pass
     elif cr and iip:
-        gap = round(cr["yoy_pct"] - iip["fytd_pct"], 1)
+        dfl, dname = ro_mod.deflator(sv, wpi) if ctx else (None, None)
+        if dfl is not None:  # real credit vs real output (IIP is a volume index)
+            real = round(cr["yoy_pct"] - dfl, 1)
+            gap = round(real - iip["fytd_pct"], 1)
+            txt = f"bank credit {cr['yoy_pct']:+.1f}% YoY, {real:+.1f}% after {dname} inflation {dfl:+.1f}%, vs output {iip['fytd_pct']:+.1f}% (real gap {gap:+.1f} pp)"
+        else:
+            gap = round(cr["yoy_pct"] - iip["fytd_pct"], 1)
+            txt = f"bank credit {cr['yoy_pct']:+.1f}% YoY vs output {iip['fytd_pct']:+.1f}% (gap {gap:+.1f} pp" + ("; not price-adjusted: no matching WPI group)" if ctx else ")")
         rec = {**cr, "check_ok": cr["check_ok"] and iip["check_ok"], "_period": min(cr["_period"], iip["_period"])}
-        add("credit_vs_output", gap, "pp", "rbi_sibc", rec, f"bank credit {cr['yoy_pct']:+.1f}% YoY vs output {iip['fytd_pct']:+.1f}% (gap {gap:+.1f} pp)")
+        add("credit_vs_output", gap, "pp", "rbi_sibc", rec, txt)
     elif cr and act and arec and arec.get(act["field"]) is not None:
         gap = round(cr["yoy_pct"] - arec[act["field"]], 1)
         rec = {**cr, "check_ok": cr["check_ok"] and arec.get("check_ok", True), "_period": min(cr["_period"], arec["_period"])}
-        add("credit_vs_output", gap, "pp", "rbi_sibc", rec, f"bank credit {cr['yoy_pct']:+.1f}% YoY vs activity {arec[act['field']]:+.1f}% (gap {gap:+.1f} pp)")
+        add("credit_vs_output", gap, "pp", "rbi_sibc", rec, f"bank credit {cr['yoy_pct']:+.1f}% YoY vs activity {arec[act['field']]:+.1f}% (gap {gap:+.1f} pp" + ("; both nominal, so no price adjustment needed)" if ctx else ")"))
     gp = sector.get("_gnpa_points") or []
     if len(gp) >= 2:
         last = gp[-1]
@@ -134,26 +156,54 @@ def score_sector(sector, data, macro, cfg, today):
         if not fresh:
             excluded.append("gnpa_trend: stale")
     cv = drivers.get("credit_vs_output")
+    if cv and ctx and cv["score"] is not None and cv["value"] > ro_mod.GAP_WATCH:
+        cv["flag"] = "red" if cv["value"] > ro_mod.GAP_RED else "watch"
+        cv["text"] += (f" — RED FLAG: credit running more than {ro_mod.GAP_RED:.0f} pp ahead of output (no OK call while this holds)" if cv["flag"] == "red"
+                       else f" — watch: credit running more than {ro_mod.GAP_WATCH:.0f} pp ahead of output")
     if cv and cv["score"] is not None and cr and cr.get("yoy_pct") is not None and cr["yoy_pct"] < 0:
         cv["score"] = -1
         cv["text"] += " — bank credit is shrinking: a warning (banks may be exiting), not a positive"
+    if ctx:
+        m = ro_mod.margin_driver(sv, wpi or {}) if wpi else None
+        if m:
+            drivers["margin"] = m
+            if m["score"] is None and m["status"] == "excluded":
+                excluded.append("margin: " + m["reason"])
+        gn = drivers.get("gnpa_trend")
+        if gn and gn.get("score") == 1 and not any(v.get("score") == 1 for k, v in drivers.items() if k != "gnpa_trend"):
+            gn["score"] = 0
+            gn["text"] += " — falling GNPA alone cannot upgrade a sector (lagging, flattered by write-offs and book growth)"
     core = [k for k, v in drivers.items() if v["score"] is not None]
-    drivers.update(overlays(sector, macro, th))
+    if not ctx:
+        drivers.update(overlays(sector, macro, th))
     num = sum(wt[k] * drivers[k]["score"] for k in core)
     den = sum(wt[k] for k in core)
     ov = [wt[k] * v["score"] for k, v in drivers.items() if k not in core and v.get("score") is not None]
     ovw = sum(wt[k] for k, v in drivers.items() if k not in core and v.get("score") is not None)
     adj = round(th["overlay_max_points"] * sum(ov) / ovw, 1) if ovw else 0.0
     core_score = round(50 + 50 * num / den) if den else None
+    capped_by = []
+    reg = (ctx or {}).get("regime")
+    if ctx and reg and sv and not sector.get("price_controlled") and not sector.get("series_misfit"):
+        pts, parts = ro_mod.overlay_points(sv, reg)
+        adj = pts or 0.0
+        drivers["regime_overlay"] = {"score": (-1 if adj < 0 else 1 if adj > 0 else 0), "points": adj, "parts": parts, "value": adj, "unit": "points",
+                                     "as_of": None, "source_url": None, "status": "verified",
+                                     "text": f"Regime ({reg['stage']}): " + (", ".join(f"{n} {p:+.1f}" for n, p in parts) if parts else "no sensitivity to active factors") + f" = {adj:+.1f} points"
+                                             + (" (" + ("cyclical" if sv["cyclical"] else "defensive") + f", {sv['demand']} demand)")}
     if len(core) < th["min_verified_drivers"] or not den:
         score, verdict = None, UNKNOWN
     else:
         score = max(0, min(100, round(core_score + adj)))
+        if ctx and reg and sv and reg.get("late_cycle") and sv["cyclical"] and score > ro_mod.CYCLICAL_CAP and "regime_overlay" in drivers:
+            score = ro_mod.CYCLICAL_CAP; capped_by.append(f"late-cycle cap {ro_mod.CYCLICAL_CAP} for cyclical sectors")
+        if cv and cv.get("flag") == "red" and score >= th["verdict"]["lend_at_or_above"]:
+            score = th["verdict"]["lend_at_or_above"] - 1; capped_by.append("credit-output gap red flag: no OK call")
         verdict = "Lend" if score >= th["verdict"]["lend_at_or_above"] else ("Avoid" if score < th["verdict"]["avoid_below"] else "Selective")
     scored = [(k, v) for k, v in drivers.items() if v.get("score") is not None]
     main = max(scored, key=lambda kv: abs(kv[1]["score"] * wt[kv[0]]), default=(None, None))[0]
     return {"id": sector["id"], "name": sector["name"], "cluster": sector["cluster"], "south_gujarat": sector.get("south_gujarat", False),
-            "score": score, "core_score": core_score, "overlay_adj": adj, "verdict": verdict, "drivers": drivers, "main_driver": main, "excluded": excluded,
+            "score": score, "core_score": core_score, "overlay_adj": adj, "capped_by": capped_by, "verdict": verdict, "drivers": drivers, "main_driver": main, "excluded": excluded,
             "why": why_line(verdict, drivers, wt), "credit": cr and {k: cr[k] for k in ("name", "outstanding_cr", "yoy_pct", "fy_pct", "as_of")},
             "rbi_row": sector.get("rbi_row"), "iip_nic": sector.get("iip_nic"), "export_row": sector.get("export_row"),
             "energy": sector.get("energy"), "wc_intensity": sector.get("wc_intensity"), "ews": sector.get("ews"),
@@ -257,7 +307,33 @@ def run(today=None, fetch=True):
         g0 = geo.gnpa_for(cfg, gnpa_series, s0["id"])
         if not s0.get("series_misfit"):
             s0["_gnpa_points"], s0["_gnpa_cat"] = g0.get("points") or [], g0.get("fsr_category")
-    sectors = [score_sector(s, data, macro, cfg, today) for s in cfg["sectors"]]
+    from engine import regime_overlay as ro, wpi as wpi_mod
+    if fetch:
+        try:
+            w_new = wpi_mod.fetch(today)
+            health.append({"dataset": "wpi", "source": "eaindustry.nic.in", "ok": bool(w_new and not w_new["errors"]), "error": w_new and "; ".join(w_new["errors"]), "url": w_new and w_new.get("source_url")})
+            if w_new and not w_new["errors"]:
+                wpi_mod.OUT.write_text(json.dumps(w_new, indent=1))
+        except Exception as e:  # noqa: BLE001
+            health.append({"dataset": "wpi", "source": "eaindustry.nic.in", "ok": False, "error": str(e)})
+        ro.refresh_extra(today)
+    wpi_d = wpi_mod.load()
+    if wpi_d and (wpi_d.get("errors") or (today - date.fromisoformat(wpi_d["period"] + "-01")).days > 75):
+        wpi_d = None  # failed validation or stale: margin driver and deflator stay unknown
+    reg = ro.regime(macro, wpi_d, today)
+    ctx = {"sens": ro.sens(), "wpi": wpi_d, "regime": reg}
+    sectors = [score_sector(s, data, macro, cfg, today, ctx) for s in cfg["sectors"]]
+    for s0, s_ in zip(cfg["sectors"], sectors):
+        sv = ctx["sens"].get(s_["id"])
+        applies = "regime_overlay" in s_["drivers"]
+        if s_["score"] is None or not applies:
+            s_["stress"] = None
+        else:
+            dd = score_sector(s0, data, macro, cfg, today, ctx, shock="demand_down5")["score"]
+            dl = ro.stress_deltas(sv, (dd - s_["score"]) if dd is not None else 0)
+            s_["stress"] = {k: {"delta": round(v, 1), "score": max(0, min(100, round(s_["score"] + v)))} for k, v in dl.items()}
+        s_["sensitivity"] = sv
+        s_["wrong_if"] = ro.wrong_if(s_, reg, today) if s_["score"] is not None else None
     # monthly credit-growth history (accumulates one point per SIBC release; never back-filled)
     hist = state.setdefault("credit_history", {})
     if data.get("rbi_sibc") and meta.get("rbi_sibc", {}).get("period"):
@@ -279,7 +355,7 @@ def run(today=None, fetch=True):
         "generated_at_ist": datetime.now(IST).strftime("%Y-%m-%d %H:%M IST"), "run_id": run_id, "fy": fy_label(today),
         "disclaimer": "Decision aid for credit judgment, not a replacement for it. Internal use only; not loan advice to any outside party.",
         "units": "Rs Cr; Indian FY Apr–Mar; growth % YoY unless stated",
-        "regime": macro.get("_regime"),
+        "regime": macro.get("_regime"), "credit_regime": reg, "wpi": wpi_d and {k: wpi_d.get(k) for k in ("month", "period", "headline_yoy", "source_url", "source")},
         "macro": {k: v for k, v in macro.items() if not k.startswith("_") and k in ("cpi_headline", "repo_rate", "rbi_stance_score", "india10y", "credit_growth", "capacity_util", "brent", "usdinr_ref", "iip_yoy", "gst_yoy", "gdp_yoy", "food_inflation")},
         "system_credit": {k: nonfood[k] for k in ("2", "2.1", "2.2", "2.3", "3") if k in nonfood},
         "datasets": meta, "sectors": sectors, "states": states, "clusters": cfg["clusters"], "geo_config": cfg["geo"],
