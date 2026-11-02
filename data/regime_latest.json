@@ -1,6 +1,6 @@
 {
-  "generated_at_ist": "2026-11-03 01:59 IST",
-  "run_id": "20261103T015925-8abcc9",
+  "generated_at_ist": "2026-11-03 03:47 IST",
+  "run_id": "20261103T034629-af951c",
   "snapshot_date": "2026-11-02",
   "regime_label": "Stagflation",
   "sub_label": "transitional",
@@ -8,7 +8,7 @@
   "scores": {
     "growth": -0.5,
     "inflation": -0.5,
-    "liquidity": 0.5,
+    "liquidity": -0.25,
     "vote": null,
     "fragility": -1
   },
@@ -34,7 +34,7 @@
     {
       "indicator": "us10y",
       "rule": "US10Y > 5.5%",
-      "value": 4.94,
+      "value": 4.91,
       "status": "not triggered",
       "note": null
     },
@@ -58,7 +58,7 @@
     "sleeve": "Risk-Off",
     "conviction": "Strong",
     "confirmation": "transitional",
-    "coverage": 0.84,
+    "coverage": 0.95,
     "change": "no change",
     "liq_signals": {
       "rbi_stance": "con",
@@ -66,7 +66,7 @@
       "dxy": "unknown",
       "usdinr_ref": "exp",
       "india10y": "exp",
-      "repo_rate": "unknown",
+      "repo_rate": "con",
       "fii_net": "exp"
     },
     "n_indicators": 18,
@@ -74,37 +74,37 @@
       "regime": "Stagflation",
       "sub_label": "transitional",
       "confidence": "medium",
-      "liquidity_modifier": "accommodative",
-      "liquidity_state": "accommodative",
-      "full_label": "Stagflation (transitional) with accommodative liquidity",
+      "liquidity_modifier": "neutral_behind_curve",
+      "liquidity_state": "neutral, central bank behind the curve",
+      "full_label": "Stagflation (transitional) with neutral liquidity (central bank behind curve)",
       "action": "preserve capital, watch for confirmation",
       "diagnostics": {
-        "dials_pointing": 3,
+        "dials_pointing": 2,
         "max_strength": 0.5,
         "margins": {
           "growth": 0.2,
           "inflation": 0.2,
-          "liquidity": 0.2
+          "liquidity": -0.05
         },
         "checks": {
           "growth_pointing": true,
           "inflation_pointing": true,
-          "liquidity_pointing": true
+          "liquidity_pointing": false
         },
-        "all_checks_passed": true,
+        "all_checks_passed": false,
         "rbi_driver_inflation": true,
-        "rates_biting_signals": 1
+        "rates_biting_signals": 2
       }
     },
-    "full_label": "Stagflation (transitional) with accommodative liquidity",
-    "liquidity_state": "accommodative",
+    "full_label": "Stagflation (transitional) with neutral liquidity (central bank behind curve)",
+    "liquidity_state": "neutral, central bank behind the curve",
     "confidence": "medium",
     "action_text": "preserve capital, watch for confirmation",
     "stage_trail": [
       {
         "gate": 1,
         "name": "Rate peak",
-        "passed": null
+        "passed": false
       }
     ],
     "gap_type": "unknown",
@@ -114,9 +114,9 @@
         "current_value": 5.5,
         "flip_level": 5.5,
         "flip_direction": "above",
-        "is_flipped": null,
+        "is_flipped": false,
         "tier": 1,
-        "stale": true
+        "stale": false
       },
       {
         "indicator": "india10y",
@@ -147,7 +147,7 @@
       },
       {
         "indicator": "brent",
-        "current_value": 104.38999938964844,
+        "current_value": 104.2300033569336,
         "flip_level": 100.0,
         "flip_direction": "below",
         "is_flipped": false,
@@ -174,7 +174,7 @@
       },
       {
         "indicator": "us10y",
-        "current_value": 4.94,
+        "current_value": 4.91,
         "flip_level": 5.5,
         "flip_direction": "above",
         "is_flipped": false,
@@ -193,7 +193,7 @@
       "credit_level": 1.0,
       "credit_direction": -1.0,
       "asset_quality": 0.0,
-      "liquidity": 0.5,
+      "liquidity": -0.25,
       "commodities": -1.0,
       "inflation": 0.5,
       "risk_off": 1.0
@@ -219,6 +219,17 @@
         }
       },
       {
+        "sector": "NBFC",
+        "marginal_driver": "liquidity",
+        "impact": 0.2,
+        "impacts": {
+          "funding_cost": -0.0,
+          "liquidity": 0.2
+        },
+        "verdict": "own",
+        "why": "Liquidity is the biggest mover and it helps this sector (+0.20)."
+      },
+      {
         "sector": "FMCG",
         "marginal_driver": "risk_off",
         "impact": 0.2,
@@ -228,6 +239,17 @@
         },
         "verdict": "own",
         "why": "Risk-off is the biggest mover and it helps this sector (+0.20)."
+      },
+      {
+        "sector": "REAL_ESTATE",
+        "marginal_driver": "liquidity",
+        "impact": 0.175,
+        "impacts": {
+          "rates": -0.0,
+          "liquidity": 0.175
+        },
+        "verdict": "own",
+        "why": "Liquidity is the biggest mover and it helps this sector (+0.17)."
       },
       {
         "sector": "AUTOS",
@@ -240,28 +262,6 @@
         },
         "verdict": "TOO CLOSE TO CALL",
         "why": "growth (-0.30) and commodities (Brent) (+0.30) pull in opposite directions within 20%."
-      },
-      {
-        "sector": "REAL_ESTATE",
-        "marginal_driver": "liquidity",
-        "impact": -0.35,
-        "impacts": {
-          "rates": -0.0,
-          "liquidity": -0.35
-        },
-        "verdict": "avoid",
-        "why": "Liquidity is the biggest mover and it hurts this sector (-0.35)."
-      },
-      {
-        "sector": "NBFC",
-        "marginal_driver": "liquidity",
-        "impact": -0.4,
-        "impacts": {
-          "funding_cost": -0.0,
-          "liquidity": -0.4
-        },
-        "verdict": "avoid",
-        "why": "Liquidity is the biggest mover and it hurts this sector (-0.40)."
       },
       {
         "sector": "IT",
@@ -434,7 +434,7 @@
     {
       "indicator": "brent",
       "dial": "inflation",
-      "value": 104.38999938964844,
+      "value": 104.2300033569336,
       "prior_value": 113.43000030517578,
       "direction": -1,
       "score": 1,
@@ -446,7 +446,7 @@
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
       "status": "verified",
       "checks": [
-        "cross-check yahoo=104.39 within 2%"
+        "cross-check yahoo=104.23 within 2%"
       ],
       "note": "ICE Brent active contract (value and prior from the same contract)",
       "source_tier": "market_data",
@@ -462,24 +462,24 @@
       "value": 5.5,
       "prior_value": 5.25,
       "direction": 1,
-      "score": null,
+      "score": -1,
       "weight": 2,
       "as_of": "2026-10-07",
-      "is_stale": true,
-      "stale_since": "2026-11-02T20:29:52.838355+00:00",
+      "is_stale": false,
+      "stale_since": null,
       "source": "rbi",
       "source_url": "https://www.rbi.org.in/",
-      "status": "stale",
+      "status": "verified",
       "checks": [
         "cross-check manual=5.5 within 1e-06",
-        "stale since 2026-11-02T20:29:52.838355+00:00"
+        "official source"
       ],
       "note": "RBI homepage rates panel; prior/as_of from MPC decision https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
       "source_tier": "official_primary",
       "data_period": "2026-10-07",
       "survey_quarter": null,
-      "diagnostics": "excluded: stale",
-      "stale_reason": "stale since 2026-11-02T20:29:52.838355+00:00",
+      "diagnostics": "scored",
+      "stale_reason": null,
       "release_date": "2026-10-07"
     },
     {
@@ -565,23 +565,23 @@
       "value": -1,
       "prior_value": null,
       "direction": 0,
-      "score": null,
+      "score": -1,
       "weight": 2,
       "as_of": "2026-10-07",
-      "is_stale": true,
-      "stale_since": "2026-11-02T20:29:52.629612+00:00",
+      "is_stale": false,
+      "stale_since": null,
       "source": "rbi_mpc",
       "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
-      "status": "stale",
+      "status": "verified",
       "checks": [
-        "stale since 2026-11-02T20:29:52.629612+00:00"
+        "official source"
       ],
       "note": "RBI MPC resolution (regex, not LLM)",
       "source_tier": "official_primary",
       "data_period": "2026-10-07",
       "survey_quarter": null,
-      "diagnostics": "excluded: stale",
-      "stale_reason": "stale since 2026-11-02T20:29:52.629612+00:00",
+      "diagnostics": "scored",
+      "stale_reason": null,
       "release_date": "2026-10-07"
     },
     {
@@ -612,33 +612,33 @@
     {
       "indicator": "us10y",
       "dial": "liquidity",
-      "value": 4.94,
-      "prior_value": 4.98,
+      "value": 4.91,
+      "prior_value": 4.94,
       "direction": -1,
       "score": 1,
       "weight": 1,
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "is_stale": false,
       "stale_since": null,
       "source": "treasury",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
       "status": "verified",
       "checks": [
-        "cross-check yahoo=4.929 within 0.06",
+        "cross-check yahoo=4.894 within 0.06",
         "official source"
       ],
       "note": "US Treasury daily par yield curve, 10 Yr",
       "source_tier": "official_primary",
-      "data_period": "2026-10-30",
+      "data_period": "2026-11-02",
       "survey_quarter": null,
       "diagnostics": "scored",
       "stale_reason": null,
-      "release_date": "2026-10-30"
+      "release_date": "2026-11-02"
     },
     {
       "indicator": "dxy",
       "dial": "liquidity",
-      "value": 101.76200103759766,
+      "value": 101.77799987792969,
       "prior_value": 101.87999725341797,
       "direction": 0,
       "score": null,
@@ -894,10 +894,7 @@
       "reason": "MOSPI does not publish core CPI, and the base-2024 press release has division indices but no division weights, so core cannot be computed without inventing weights. Analyst estimates (CareEdge ~4.3% Sep 2026) are not official."
     }
   ],
-  "warnings": [
-    "INGEST_FAILED:rbi_stance",
-    "INGEST_FAILED:repo_rate"
-  ],
+  "warnings": [],
   "release_calendar": {
     "mpc_dates_check": "verified vs rbi.org.in",
     "today_due": [],
@@ -1025,8 +1022,8 @@
     {
       "indicator": "credit_growth",
       "source": "rbi_press",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 418: Unknown Code"
+      "ok": true,
+      "error": null
     },
     {
       "indicator": "breadth_200dma",
@@ -1103,18 +1100,18 @@
     {
       "indicator": "rbi_stance",
       "source": "rbi mpc resolution",
-      "ok": false,
-      "error": "HTTP Error 418: Unknown Code"
+      "ok": true,
+      "error": null
     },
     {
       "indicator": "repo_rate",
       "source": "rbi.org.in",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 418: Unknown Code"
+      "ok": true,
+      "error": null
     },
     {
       "indicator": "usdinr_ref",
-      "source": "yahoo",
+      "source": "rbi.org.in",
       "ok": true,
       "error": null
     },
@@ -1193,7 +1190,7 @@
   ],
   "alert": {
     "sent": [],
-    "text": "Macro Regime Engine\nSource failures (stale carried): credit_growth, rbi_stance, repo_rate\n[PAPER] WAIT size 0.00 (stage 0 < 2); sleeve: Risk-Off (Strong, transitional, fragility rising).",
-    "note": "skipped: no TELEGRAM_*/SMTP_* secrets"
+    "text": null,
+    "note": "no change \u2014 nothing sent"
   }
 }
