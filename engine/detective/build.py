@@ -284,7 +284,7 @@ def main():
     used_e = {e for h in hs for e in h["evidence"]}; used_m = {m for h in hs for m in h["models"]} | {c for h in hs for c in h["contradictions"]}
     for m in models:
         if m["id"] in used_m: used_e.update(m["evidence"])
-    out = dict(generated=dt.datetime.now().isoformat(timespec="seconds"), as_of_quarter=asof_q, as_of_fq=fy_label(asof_q), ai_calls=0,
+    out = dict(generated=dt.datetime.now(dt.timezone(dt.timedelta(hours=5, minutes=30))).isoformat(timespec="seconds"), as_of_quarter=asof_q, as_of_fq=fy_label(asof_q), ai_calls=0,
                research_only=True, universe=list(META.values()), coverage=gaps, hypotheses=hs, timeline=tl, backtest=bt,
                false_alarms=falses, failed_predictions=failed_log(tl),
                models_current=[m for m in models if m["id"] in used_m],

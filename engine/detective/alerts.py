@@ -58,6 +58,6 @@ def build_alerts(raw):
         if sym in LENDERS: continue  # lender balance sheets have no trade receivables/inventory
         a = company_alert(sym, j)
         if a: a["name"] = meta[sym][1]; rows.append(a)
-    return dict(generated=dt.datetime.now().isoformat(timespec="seconds"), research_only=True, ai_calls=0,
+    return dict(generated=dt.datetime.now(dt.timezone(dt.timedelta(hours=5, minutes=30))).isoformat(timespec="seconds"), research_only=True, ai_calls=0,
                 rule=f"Same half-year YoY: receivables or inventory growth exceeds revenue (YTD) growth by >{THRESH_PP:.0f}pp, or YTD operating cash flow falls >15% while YTD profit rises >=10%. Growth in receivables/inventory must itself be positive. Lenders excluded.",
                 alerts=[r for r in rows if r["alert"]], checked=len(rows), clear=[r["company"] for r in rows if not r["alert"]])
