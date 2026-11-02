@@ -1,6 +1,6 @@
 {
-  "generated_at_ist": "2026-11-02 22:37 IST",
-  "run_id": "20261102T223610-be0f68",
+  "generated_at_ist": "2026-11-03 01:59 IST",
+  "run_id": "20261103T015925-8abcc9",
   "snapshot_date": "2026-11-02",
   "regime_label": "Stagflation",
   "sub_label": "transitional",
@@ -8,13 +8,13 @@
   "scores": {
     "growth": -0.5,
     "inflation": -0.5,
-    "liquidity": -0.111,
-    "vote": 1,
+    "liquidity": 0.5,
+    "vote": null,
     "fragility": -1
   },
   "tier1_flips": 0,
   "tier2_confirmed": false,
-  "gap_description": "Macro Stagflation but market voting up (vote +1.00) \u2014 market ignoring macro risk.",
+  "gap_description": "Macro says Stagflation; market vote unavailable.",
   "sizing_recommendation": "[PAPER] WAIT size 0.00 (stage 0 < 2); sleeve: Risk-Off (Strong, transitional, fragility rising).",
   "invalidation_conditions": [
     {
@@ -41,7 +41,7 @@
     {
       "indicator": "usdinr_ref",
       "rule": "USDINR > 98",
-      "value": 94.8755,
+      "value": 94.9000015258789,
       "status": "not triggered",
       "note": null
     }
@@ -58,15 +58,15 @@
     "sleeve": "Risk-Off",
     "conviction": "Strong",
     "confirmation": "transitional",
-    "coverage": 0.95,
+    "coverage": 0.84,
     "change": "no change",
     "liq_signals": {
       "rbi_stance": "con",
       "us10y": "exp",
-      "dxy": "exp",
+      "dxy": "unknown",
       "usdinr_ref": "exp",
       "india10y": "exp",
-      "repo_rate": "con",
+      "repo_rate": "unknown",
       "fii_net": "exp"
     },
     "n_indicators": 18,
@@ -74,49 +74,49 @@
       "regime": "Stagflation",
       "sub_label": "transitional",
       "confidence": "medium",
-      "liquidity_modifier": "neutral_behind_curve",
-      "liquidity_state": "neutral, central bank behind the curve",
-      "full_label": "Stagflation (transitional) with neutral liquidity (central bank behind curve)",
+      "liquidity_modifier": "accommodative",
+      "liquidity_state": "accommodative",
+      "full_label": "Stagflation (transitional) with accommodative liquidity",
       "action": "preserve capital, watch for confirmation",
       "diagnostics": {
-        "dials_pointing": 2,
+        "dials_pointing": 3,
         "max_strength": 0.5,
         "margins": {
           "growth": 0.2,
           "inflation": 0.2,
-          "liquidity": -0.189
+          "liquidity": 0.2
         },
         "checks": {
           "growth_pointing": true,
           "inflation_pointing": true,
-          "liquidity_pointing": false
+          "liquidity_pointing": true
         },
-        "all_checks_passed": false,
+        "all_checks_passed": true,
         "rbi_driver_inflation": true,
-        "rates_biting_signals": 2
+        "rates_biting_signals": 1
       }
     },
-    "full_label": "Stagflation (transitional) with neutral liquidity (central bank behind curve)",
-    "liquidity_state": "neutral, central bank behind the curve",
+    "full_label": "Stagflation (transitional) with accommodative liquidity",
+    "liquidity_state": "accommodative",
     "confidence": "medium",
     "action_text": "preserve capital, watch for confirmation",
     "stage_trail": [
       {
         "gate": 1,
         "name": "Rate peak",
-        "passed": false
+        "passed": null
       }
     ],
-    "gap_type": "overpriced",
+    "gap_type": "unknown",
     "flips": [
       {
         "indicator": "repo_rate",
         "current_value": 5.5,
         "flip_level": 5.5,
         "flip_direction": "above",
-        "is_flipped": false,
+        "is_flipped": null,
         "tier": 1,
-        "stale": false
+        "stale": true
       },
       {
         "indicator": "india10y",
@@ -147,7 +147,7 @@
       },
       {
         "indicator": "brent",
-        "current_value": 104.58000183105469,
+        "current_value": 104.38999938964844,
         "flip_level": 100.0,
         "flip_direction": "below",
         "is_flipped": false,
@@ -165,7 +165,7 @@
       },
       {
         "indicator": "usdinr_ref",
-        "current_value": 94.8755,
+        "current_value": 94.9000015258789,
         "flip_level": 95.0,
         "flip_direction": "above",
         "is_flipped": false,
@@ -193,7 +193,7 @@
       "credit_level": 1.0,
       "credit_direction": -1.0,
       "asset_quality": 0.0,
-      "liquidity": -0.111,
+      "liquidity": 0.5,
       "commodities": -1.0,
       "inflation": 0.5,
       "risk_off": 1.0
@@ -230,28 +230,6 @@
         "why": "Risk-off is the biggest mover and it helps this sector (+0.20)."
       },
       {
-        "sector": "NBFC",
-        "marginal_driver": "liquidity",
-        "impact": 0.089,
-        "impacts": {
-          "funding_cost": -0.0,
-          "liquidity": 0.089
-        },
-        "verdict": "own",
-        "why": "Liquidity is the biggest mover and it helps this sector (+0.09)."
-      },
-      {
-        "sector": "REAL_ESTATE",
-        "marginal_driver": "liquidity",
-        "impact": 0.078,
-        "impacts": {
-          "rates": -0.0,
-          "liquidity": 0.078
-        },
-        "verdict": "own",
-        "why": "Liquidity is the biggest mover and it helps this sector (+0.08)."
-      },
-      {
         "sector": "AUTOS",
         "marginal_driver": "growth",
         "impact": -0.3,
@@ -262,6 +240,28 @@
         },
         "verdict": "TOO CLOSE TO CALL",
         "why": "growth (-0.30) and commodities (Brent) (+0.30) pull in opposite directions within 20%."
+      },
+      {
+        "sector": "REAL_ESTATE",
+        "marginal_driver": "liquidity",
+        "impact": -0.35,
+        "impacts": {
+          "rates": -0.0,
+          "liquidity": -0.35
+        },
+        "verdict": "avoid",
+        "why": "Liquidity is the biggest mover and it hurts this sector (-0.35)."
+      },
+      {
+        "sector": "NBFC",
+        "marginal_driver": "liquidity",
+        "impact": -0.4,
+        "impacts": {
+          "funding_cost": -0.0,
+          "liquidity": -0.4
+        },
+        "verdict": "avoid",
+        "why": "Liquidity is the biggest mover and it hurts this sector (-0.40)."
       },
       {
         "sector": "IT",
@@ -434,7 +434,7 @@
     {
       "indicator": "brent",
       "dial": "inflation",
-      "value": 104.58000183105469,
+      "value": 104.38999938964844,
       "prior_value": 113.43000030517578,
       "direction": -1,
       "score": 1,
@@ -446,7 +446,7 @@
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
       "status": "verified",
       "checks": [
-        "cross-check yahoo=104.55 within 2%"
+        "cross-check yahoo=104.39 within 2%"
       ],
       "note": "ICE Brent active contract (value and prior from the same contract)",
       "source_tier": "market_data",
@@ -462,24 +462,24 @@
       "value": 5.5,
       "prior_value": 5.25,
       "direction": 1,
-      "score": -1,
+      "score": null,
       "weight": 2,
       "as_of": "2026-10-07",
-      "is_stale": false,
-      "stale_since": null,
+      "is_stale": true,
+      "stale_since": "2026-11-02T20:29:52.838355+00:00",
       "source": "rbi",
       "source_url": "https://www.rbi.org.in/",
-      "status": "verified",
+      "status": "stale",
       "checks": [
         "cross-check manual=5.5 within 1e-06",
-        "official source"
+        "stale since 2026-11-02T20:29:52.838355+00:00"
       ],
       "note": "RBI homepage rates panel; prior/as_of from MPC decision https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
       "source_tier": "official_primary",
       "data_period": "2026-10-07",
       "survey_quarter": null,
-      "diagnostics": "scored",
-      "stale_reason": null,
+      "diagnostics": "excluded: stale",
+      "stale_reason": "stale since 2026-11-02T20:29:52.838355+00:00",
       "release_date": "2026-10-07"
     },
     {
@@ -497,7 +497,7 @@
       "source_url": "https://www.ccilindia.com/tenorwise-indicative-yields",
       "status": "verified",
       "checks": [
-        "cross-check investing=7.313 within 0.05",
+        "cross-check tradingeconomics=7.34 within 0.05",
         "official source"
       ],
       "note": "CCIL tenor-wise indicative yield, 9Y-10Y benchmark 6.94% GS 2036",
@@ -565,50 +565,49 @@
       "value": -1,
       "prior_value": null,
       "direction": 0,
-      "score": -1,
+      "score": null,
       "weight": 2,
       "as_of": "2026-10-07",
-      "is_stale": false,
-      "stale_since": null,
+      "is_stale": true,
+      "stale_since": "2026-11-02T20:29:52.629612+00:00",
       "source": "rbi_mpc",
       "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
-      "status": "verified",
+      "status": "stale",
       "checks": [
-        "official source"
+        "stale since 2026-11-02T20:29:52.629612+00:00"
       ],
       "note": "RBI MPC resolution (regex, not LLM)",
       "source_tier": "official_primary",
       "data_period": "2026-10-07",
       "survey_quarter": null,
-      "diagnostics": "scored",
-      "stale_reason": null,
+      "diagnostics": "excluded: stale",
+      "stale_reason": "stale since 2026-11-02T20:29:52.629612+00:00",
       "release_date": "2026-10-07"
     },
     {
       "indicator": "usdinr_ref",
       "dial": "liquidity",
-      "value": 94.8755,
-      "prior_value": 95.2492,
+      "value": 94.9000015258789,
+      "prior_value": 95.15239715576172,
       "direction": -1,
-      "score": 1,
+      "score": null,
       "weight": 1,
-      "as_of": "2026-11-02",
+      "as_of": "2026-11-03",
       "is_stale": false,
       "stale_since": null,
-      "source": "rbi",
-      "source_url": "https://www.rbi.org.in/",
-      "status": "verified",
+      "source": "yahoo",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/INR%3DX?range=1mo&interval=1d",
+      "status": "unverified",
       "checks": [
-        "cross-check yahoo=94.89 within 1%",
-        "official source"
+        "single non-official source"
       ],
-      "note": "FBIL USD/INR reference rate as shown on RBI homepage (dated to its publication day)",
-      "source_tier": "official_primary",
-      "data_period": "2026-11-02",
+      "note": null,
+      "source_tier": "market_data",
+      "data_period": "2026-11-03",
       "survey_quarter": null,
-      "diagnostics": "scored",
+      "diagnostics": "excluded: unverified (validation unverified)",
       "stale_reason": null,
-      "release_date": "2026-11-02"
+      "release_date": "2026-11-03"
     },
     {
       "indicator": "us10y",
@@ -639,9 +638,9 @@
     {
       "indicator": "dxy",
       "dial": "liquidity",
-      "value": 101.68499755859375,
+      "value": 101.76200103759766,
       "prior_value": 101.87999725341797,
-      "direction": -1,
+      "direction": 0,
       "score": null,
       "weight": 1,
       "as_of": "2026-11-02",
@@ -667,23 +666,22 @@
       "value": 23440.8,
       "prior_value": 23053.1,
       "direction": 1,
-      "score": 1,
+      "score": null,
       "weight": 1,
       "as_of": "2026-11-02",
       "is_stale": false,
       "stale_since": null,
       "source": "nse_archive",
       "source_url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_02112026.csv",
-      "status": "verified",
+      "status": "failed",
       "checks": [
-        "cross-check yahoo=23440.8008 within 0.5%",
-        "official source"
+        "MISMATCH yahoo=23053.0996 vs 23440.8 (tol ('rel', 0.005))"
       ],
       "note": "NSE official index close file",
       "source_tier": "official_primary",
       "data_period": "2026-11-02",
       "survey_quarter": null,
-      "diagnostics": "scored",
+      "diagnostics": "excluded: unverified (validation failed)",
       "stale_reason": null,
       "release_date": "2026-11-02"
     },
@@ -693,32 +691,31 @@
       "value": 55002.2,
       "prior_value": 54686.95,
       "direction": 1,
-      "score": 1,
+      "score": null,
       "weight": 1,
       "as_of": "2026-11-02",
       "is_stale": false,
       "stale_since": null,
       "source": "nse_archive",
       "source_url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_02112026.csv",
-      "status": "verified",
+      "status": "failed",
       "checks": [
-        "cross-check yahoo=55002.1992 within 0.5%",
-        "official source"
+        "MISMATCH yahoo=54686.9492 vs 55002.2 (tol ('rel', 0.005))"
       ],
       "note": "NSE official index close file",
       "source_tier": "official_primary",
       "data_period": "2026-11-02",
       "survey_quarter": null,
-      "diagnostics": "scored",
+      "diagnostics": "excluded: unverified (validation failed)",
       "stale_reason": null,
       "release_date": "2026-11-02"
     },
     {
       "indicator": "breadth_200dma",
       "dial": "vote",
-      "value": 40.0,
-      "prior_value": 32.0,
-      "direction": 1,
+      "value": 32.0,
+      "prior_value": 40.0,
+      "direction": -1,
       "score": null,
       "weight": 1,
       "as_of": "2026-11-02",
@@ -730,7 +727,7 @@
       "checks": [
         "single non-official source"
       ],
-      "note": "% of Nifty 50 above 200-DMA (20/50); constituents NSE, prices Yahoo",
+      "note": "% of Nifty 50 above 200-DMA (16/50); constituents NSE, prices Yahoo",
       "source_tier": "market_data",
       "data_period": "2026-11-02",
       "survey_quarter": null,
@@ -753,7 +750,7 @@
       "source_url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_02112026.csv",
       "status": "verified",
       "checks": [
-        "cross-check yahoo=15.5 within 2%",
+        "cross-check yahoo=15.3 within 2%",
         "official source"
       ],
       "note": "NSE official index close file",
@@ -846,17 +843,16 @@
       "value": 25761.0,
       "prior_value": 25422.7,
       "direction": 1,
-      "score": 1,
+      "score": 0,
       "weight": 0,
       "as_of": "2026-11-02",
       "is_stale": false,
       "stale_since": null,
       "source": "nse_archive",
       "source_url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_02112026.csv",
-      "status": "verified",
+      "status": "failed",
       "checks": [
-        "cross-check yahoo=25761.0 within 0.5%",
-        "official source"
+        "MISMATCH yahoo=25422.6992 vs 25761.0 (tol ('rel', 0.005))"
       ],
       "note": "NSE official index close file",
       "source_tier": "official_primary",
@@ -872,17 +868,16 @@
       "value": 12162.7,
       "prior_value": 11784.9,
       "direction": 1,
-      "score": 1,
+      "score": 0,
       "weight": 0,
       "as_of": "2026-11-02",
       "is_stale": false,
       "stale_since": null,
       "source": "nse_archive",
       "source_url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_02112026.csv",
-      "status": "verified",
+      "status": "failed",
       "checks": [
-        "cross-check yahoo=12162.7002 within 0.5%",
-        "official source"
+        "MISMATCH yahoo=11784.9004 vs 12162.7 (tol ('rel', 0.005))"
       ],
       "note": "NSE official index close file",
       "source_tier": "official_primary",
@@ -899,12 +894,13 @@
       "reason": "MOSPI does not publish core CPI, and the base-2024 press release has division indices but no division weights, so core cannot be computed without inventing weights. Analyst estimates (CareEdge ~4.3% Sep 2026) are not official."
     }
   ],
-  "warnings": [],
+  "warnings": [
+    "INGEST_FAILED:rbi_stance",
+    "INGEST_FAILED:repo_rate"
+  ],
   "release_calendar": {
     "mpc_dates_check": "verified vs rbi.org.in",
-    "today_due": [
-      "obicus_weekly_poll"
-    ],
+    "today_due": [],
     "cpi": {
       "day": 12,
       "time_ist": "16:00",
@@ -1029,8 +1025,8 @@
     {
       "indicator": "credit_growth",
       "source": "rbi_press",
-      "ok": true,
-      "error": null
+      "ok": false,
+      "error": "HTTPError: HTTP Error 418: Unknown Code"
     },
     {
       "indicator": "breadth_200dma",
@@ -1107,18 +1103,18 @@
     {
       "indicator": "rbi_stance",
       "source": "rbi mpc resolution",
-      "ok": true,
-      "error": null
+      "ok": false,
+      "error": "HTTP Error 418: Unknown Code"
     },
     {
       "indicator": "repo_rate",
       "source": "rbi.org.in",
-      "ok": true,
-      "error": null
+      "ok": false,
+      "error": "HTTPError: HTTP Error 418: Unknown Code"
     },
     {
       "indicator": "usdinr_ref",
-      "source": "rbi.org.in",
+      "source": "yahoo",
       "ok": true,
       "error": null
     },
@@ -1138,13 +1134,13 @@
       "indicator": "fii_net",
       "source": "NSE provisional cash CM (fiidiiTradeReact) \u2014 equity only, not NSDL grand total",
       "ok": true,
-      "error": "Moneycontrol FII/DII page fetched but cash CM numbers not parsed; trying NSE."
+      "error": "Moneycontrol FII/DII scrape failed (HTTPError: HTTP Error 403: Forbidden); trying NSE cash CM API."
     },
     {
       "indicator": "dii_net",
       "source": "NSE provisional cash CM (fiidiiTradeReact) \u2014 equity only, not NSDL grand total",
       "ok": true,
-      "error": "Moneycontrol FII/DII page fetched but cash CM numbers not parsed; trying NSE."
+      "error": "Moneycontrol FII/DII scrape failed (HTTPError: HTTP Error 403: Forbidden); trying NSE cash CM API."
     },
     {
       "indicator": "india10y",
@@ -1193,17 +1189,11 @@
       "source": "manual",
       "ok": false,
       "error": "no official print entered in engine/manual_inputs.json"
-    },
-    {
-      "indicator": "rbi_stance",
-      "source": "deepseek",
-      "ok": true,
-      "error": "ran within 7 days - skipped (spec 4.4)"
     }
   ],
   "alert": {
     "sent": [],
-    "text": null,
-    "note": "no change \u2014 nothing sent"
+    "text": "Macro Regime Engine\nSource failures (stale carried): credit_growth, rbi_stance, repo_rate\n[PAPER] WAIT size 0.00 (stage 0 < 2); sleeve: Risk-Off (Strong, transitional, fragility rising).",
+    "note": "skipped: no TELEGRAM_*/SMTP_* secrets"
   }
 }
