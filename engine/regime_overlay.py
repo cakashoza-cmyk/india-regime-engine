@@ -121,16 +121,49 @@ def deflator(sv, wpi):
     return (v[-1], f"WPI {sv['deflator']}") if v else (None, None)
 
 
+DEFENSIVE_FLOOR = 45  # = AVOID_BELOW: a defensive sector bottoms at Caution without hard evidence
+DEMAND_SHOCK_PP = 5.0
+# Demand beta: how much of an economy-wide 5% demand shortfall shows up in the sector's own output.
+# Analyst judgment (not estimated): staples/pharma/utilities are near-inelastic; capex goods amplify the cycle.
+DEMAND_MAX_PTS = 10.0  # cap per unit beta: same scale as the largest repo +50 bp hit (2 notches x 2 x 2.5)
+BETA = {"defensive": 0.4, "govt": 0.6, "consumption": 1.0, "export": 1.0, "capex": 1.2}
+
+
+def demand_beta(sv):
+    if not sv:
+        return 1.0
+    if not sv.get("cyclical"):
+        return BETA["defensive"]
+    return BETA.get(sv.get("demand"), 1.0)
+
+
+def defensive_floor(sv, score, drivers):
+    """Defensive/exporter treatment (e.g. pharma): essential demand plus export diversification means weak activity
+    prints, a watch-level credit gap or a margin squeeze are not by themselves evidence of credit loss. The score may
+    only go below Caution on hard evidence: a deteriorating bank GNPA trend (RBI FSR) or a red-flag credit gap.
+    Returns (score, note or None)."""
+    if not sv or not sv.get("defensive_floor") or score is None or score >= DEFENSIVE_FLOOR:
+        return score, None
+    hard = (drivers.get("gnpa_trend") or {}).get("score") == -1 or (drivers.get("credit_vs_output") or {}).get("flag") == "red"
+    if hard:
+        return score, None
+    return DEFENSIVE_FLOOR, f"defensive floor {DEFENSIVE_FLOOR}: no hard evidence (GNPA rising or red-flag credit gap) for Avoid"
+
+
 def band(sc):
     return None if sc is None else ("ok" if sc >= OK_AT else "avoid" if sc < AVOID_BELOW else "caution")
 
 
 def stress_deltas(sv, demand_delta):
     """Score change per shock. Brent/INR/repo shocks use one extra sensitivity notch (repo +50 bp = two 25 bp notches);
-    demand -5% re-scores the output drivers with output growth 5 pp lower (computed by the caller)."""
+    demand -5% re-scores output growth lower by 5 pp x the sector's demand beta, holding the credit gap at baseline
+    (computed by the caller) so one shock is not counted three times through correlated drivers."""
     if sv is None:
         return None
-    return {"brent_up20": PTS * sv["crude"], "inr_down5": PTS * sv["inr"], "repo_up50": -2 * PTS * sv["rate"], "demand_down5": demand_delta}
+    # The core score is a step function of banded drivers, so a small shift that crosses a band edge (e.g. output +1% -> -1%)
+    # can swing 20 points. Cap the demand hit at DEMAND_MAX_PTS x beta so the shock is proportional to demand sensitivity.
+    dd = max(demand_delta, -DEMAND_MAX_PTS * demand_beta(sv)) if demand_delta is not None else 0
+    return {"brent_up20": PTS * sv["crude"], "inr_down5": PTS * sv["inr"], "repo_up50": -2 * PTS * sv["rate"], "demand_down5": dd}
 
 
 def wrong_if(sector_out, reg, today):

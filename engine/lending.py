@@ -105,8 +105,11 @@ def score_sector(sector, data, macro, cfg, today, ctx=None, shock=None):
             excluded.append(f"{key}: {why}")
 
     iip = (data.get("iip_nic2") or {}).get(sector.get("iip_nic") or "")
+    iip_base = iip
+    shock_pp = (ro_mod.DEMAND_SHOCK_PP * ro_mod.demand_beta(sv)) if (shock == "demand_down5" and ro_mod) else (5.0 if shock == "demand_down5" else 0.0)
     if shock == "demand_down5" and iip:
-        iip = {**iip, "yoy_pct": iip["yoy_pct"] - 5, "fytd_pct": iip["fytd_pct"] - 5}
+        # proportional to demand beta; IIP YoY and FYTD are one series, so shift them together (they share weight 1.0)
+        iip = {**iip, "yoy_pct": iip["yoy_pct"] - shock_pp, "fytd_pct": iip["fytd_pct"] - shock_pp}
     exp = (data.get("exports_qe") or {}).get(sector.get("export_row") or -1)
     cr = (data.get("rbi_sibc") or {}).get(sector.get("rbi_row") or "")
     if iip:
@@ -116,8 +119,10 @@ def score_sector(sector, data, macro, cfg, today, ctx=None, shock=None):
         add("export_fytd_usd", exp["usd_fytd_pct"], "% FYTD (USD)", "exports_qe", exp, f"exports {exp['usd_fytd_pct']:+.1f}% Apr-to-date in USD (Rs {exp['inr_fytd_cr']:,.0f} Cr FYTD)")
     act = sector.get("activity")
     arec = ((data.get(act["dataset"]) or {}).get(act["key"]) if act else None)
+    arec_base = arec
     if shock == "demand_down5" and act and arec and arec.get(act["field"]) is not None:
-        arec = {**arec, act["field"]: arec[act["field"]] - 5}
+        arec_base = arec
+        arec = {**arec, act["field"]: arec[act["field"]] - shock_pp}
     if act and arec and arec.get(act["field"]) is not None:
         arec2 = {**arec, "check_ok": arec.get("check_ok", True) and arec.get("fytd_check_ok", True)}
         add("activity_proxy", arec[act["field"]], "% FYTD", act["dataset"], arec2, f"{act['label']} {arec[act['field']]:+.1f}%")
@@ -127,17 +132,26 @@ def score_sector(sector, data, macro, cfg, today, ctx=None, shock=None):
     if pc:
         pass
     elif cr and iip:
+        iip_g = iip_base  # stress: credit gap held at baseline output (the demand shock is already in the output drivers)
         dfl, dname = ro_mod.deflator(sv, wpi) if ctx else (None, None)
         if dfl is not None:  # real credit vs real output (IIP is a volume index)
             real = round(cr["yoy_pct"] - dfl, 1)
-            gap = round(real - iip["fytd_pct"], 1)
-            txt = f"bank credit {cr['yoy_pct']:+.1f}% YoY, {real:+.1f}% after {dname} inflation {dfl:+.1f}%, vs output {iip['fytd_pct']:+.1f}% (real gap {gap:+.1f} pp)"
+            gap = round(real - iip_g["fytd_pct"], 1)
+            txt = f"bank credit {cr['yoy_pct']:+.1f}% YoY, {real:+.1f}% after {dname} inflation {dfl:+.1f}%, vs output {iip_g['fytd_pct']:+.1f}% (real gap {gap:+.1f} pp)"
+            if sv and sv.get("deflator_coarse"):
+                # coarse deflator group (e.g. 'other manufacturing' is driven by gold/silver jewellery prices): the deflated
+                # gap can hide a real credit surge, so keep the larger of the nominal and deflated gaps
+                ngap = round(cr["yoy_pct"] - iip_g["fytd_pct"], 1)
+                if ngap > gap:
+                    txt += f"; {dname} is a coarse match for this sector, so the nominal gap {ngap:+.1f} pp is used"
+                    gap = ngap
         else:
-            gap = round(cr["yoy_pct"] - iip["fytd_pct"], 1)
-            txt = f"bank credit {cr['yoy_pct']:+.1f}% YoY vs output {iip['fytd_pct']:+.1f}% (gap {gap:+.1f} pp" + ("; not price-adjusted: no matching WPI group)" if ctx else ")")
-        rec = {**cr, "check_ok": cr["check_ok"] and iip["check_ok"], "_period": min(cr["_period"], iip["_period"])}
+            gap = round(cr["yoy_pct"] - iip_g["fytd_pct"], 1)
+            txt = f"bank credit {cr['yoy_pct']:+.1f}% YoY vs output {iip_g['fytd_pct']:+.1f}% (gap {gap:+.1f} pp" + ("; not price-adjusted: no matching WPI group)" if ctx else ")")
+        rec = {**cr, "check_ok": cr["check_ok"] and iip_g["check_ok"], "_period": min(cr["_period"], iip_g["_period"])}
         add("credit_vs_output", gap, "pp", "rbi_sibc", rec, txt)
-    elif cr and act and arec and arec.get(act["field"]) is not None:
+    elif cr and act and arec_base and arec_base.get(act["field"]) is not None:
+        arec = arec_base  # stress: credit gap held at baseline activity (see above)
         gap = round(cr["yoy_pct"] - arec[act["field"]], 1)
         rec = {**cr, "check_ok": cr["check_ok"] and arec.get("check_ok", True), "_period": min(cr["_period"], arec["_period"])}
         add("credit_vs_output", gap, "pp", "rbi_sibc", rec, f"bank credit {cr['yoy_pct']:+.1f}% YoY vs activity {arec[act['field']]:+.1f}% (gap {gap:+.1f} pp" + ("; both nominal, so no price adjustment needed)" if ctx else ")"))
@@ -160,6 +174,11 @@ def score_sector(sector, data, macro, cfg, today, ctx=None, shock=None):
         cv["flag"] = "red" if cv["value"] > ro_mod.GAP_RED else "watch"
         cv["text"] += (f" — RED FLAG: credit running more than {ro_mod.GAP_RED:.0f} pp ahead of output (no OK call while this holds)" if cv["flag"] == "red"
                        else f" — watch: credit running more than {ro_mod.GAP_WATCH:.0f} pp ahead of output")
+        if cv["flag"] == "watch" and sv and not sv.get("cyclical") and not (cr and cr.get("yoy_pct", 0) < 0):
+            # defensive sectors: steady, non-discretionary demand means a watch-level gap is shown but not penalised
+            # (a red-flag gap still is); output is a weak denominator for staples/pharma whose credit funds capacity and exports
+            cv["score"] = 0
+            cv["text"] += " (defensive sector: shown, not penalised below the red-flag level)"
     if cv and cv["score"] is not None and cr and cr.get("yoy_pct") is not None and cr["yoy_pct"] < 0:
         cv["score"] = -1
         cv["text"] += " — bank credit is shrinking: a warning (banks may be exiting), not a positive"
@@ -197,6 +216,10 @@ def score_sector(sector, data, macro, cfg, today, ctx=None, shock=None):
         score = max(0, min(100, round(core_score + adj)))
         if ctx and reg and sv and reg.get("late_cycle") and sv["cyclical"] and score > ro_mod.CYCLICAL_CAP and "regime_overlay" in drivers:
             score = ro_mod.CYCLICAL_CAP; capped_by.append(f"late-cycle cap {ro_mod.CYCLICAL_CAP} for cyclical sectors")
+        if ctx and sv:
+            score, fl = ro_mod.defensive_floor(sv, score, drivers)
+            if fl:
+                capped_by.append(fl)
         if cv and cv.get("flag") == "red" and score >= th["verdict"]["lend_at_or_above"]:
             score = th["verdict"]["lend_at_or_above"] - 1; capped_by.append("credit-output gap red flag: no OK call")
         verdict = "Lend" if score >= th["verdict"]["lend_at_or_above"] else ("Avoid" if score < th["verdict"]["avoid_below"] else "Selective")

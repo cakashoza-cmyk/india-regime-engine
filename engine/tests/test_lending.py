@@ -151,3 +151,54 @@ def test_falling_gnpa_alone_cannot_upgrade():
     ctx = {**_ctx(), "wpi": None}  # no margin driver: GNPA would be the only positive
     r = L.score_sector(sec, _data(iip=(2, 2), exp=5, cr_yoy=14), {}, CFG, TODAY, ctx)
     assert r["drivers"]["gnpa_trend"]["score"] == 0
+
+
+PH = {**SEC, "id": "pharma"}  # same official-series fixture, pharma sensitivity row (defensive, defensive_floor)
+
+
+def test_defensive_floor_holds_caution_without_hard_evidence():
+    r = L.score_sector(PH, _data(iip=(-4, -4), exp=-3, cr_yoy=20), {}, CFG, TODAY, _ctx())
+    assert r["score"] == 45 and r["verdict"] == "Selective" and any("defensive floor" in c for c in r["capped_by"])
+
+
+def test_defensive_floor_released_by_rising_gnpa():
+    sec = {**PH, "_gnpa_points": [{"period": "Mar-25", "value": 1.0}, {"period": "Mar-26", "value": 2.0}], "_gnpa_cat": "chemicals"}
+    r = L.score_sector(sec, _data(iip=(-4, -4), exp=-3, cr_yoy=20), {}, CFG, TODAY, _ctx())
+    assert r["drivers"]["gnpa_trend"]["score"] == -1 and r["score"] < 45
+
+
+def test_defensive_floor_released_by_red_flag_gap():
+    r = L.score_sector(PH, _data(iip=(-4, -4), exp=-3, cr_yoy=60), {}, CFG, TODAY, _ctx())
+    assert r["drivers"]["credit_vs_output"]["flag"] == "red" and r["score"] < 45
+
+
+def test_defensive_watch_gap_not_penalised_but_cyclical_is():
+    d = _data(iip=(2, 2), exp=5, cr_yoy=24)  # deflated gap 15-25 pp: watch
+    ph, mmf = L.score_sector(PH, d, {}, CFG, TODAY, _ctx()), L.score_sector(SEC, _data(iip=(2, 2), exp=5, cr_yoy=34), {}, CFG, TODAY, _ctx())
+    assert ph["drivers"]["credit_vs_output"]["flag"] == "watch" and ph["drivers"]["credit_vs_output"]["score"] == 0
+    assert mmf["drivers"]["credit_vs_output"]["flag"] == "watch" and mmf["drivers"]["credit_vs_output"]["score"] == -1
+
+
+def test_coarse_deflator_keeps_nominal_gap():
+    dm = {**SEC, "id": "diamonds"}  # 'other manufacturing' WPI (+19% on gold/silver) is coarse for polished diamonds
+    r = L.score_sector(dm, _data(iip=(3, 3), exp=5, cr_yoy=33), {}, CFG, TODAY, _ctx())
+    cv = r["drivers"]["credit_vs_output"]
+    assert cv["value"] == 30.0 and cv["flag"] == "red" and "coarse match" in cv["text"] and r["score"] < 65
+
+
+def test_demand_shock_scales_with_beta_and_holds_credit_gap():
+    from engine import regime_overlay as ro
+    base = L.score_sector(SEC, _data(iip=(3, 3), exp=5, cr_yoy=14), {}, CFG, TODAY, _ctx())
+    sh = L.score_sector(SEC, _data(iip=(3, 3), exp=5, cr_yoy=14), {}, CFG, TODAY, _ctx(), shock="demand_down5")
+    assert sh["drivers"]["credit_vs_output"]["value"] == base["drivers"]["credit_vs_output"]["value"]  # no double count
+    assert sh["drivers"]["iip_fytd"]["value"] == 3 - 5 * ro.demand_beta(ro.sens()["mmf_textiles"])
+    ph = L.score_sector(PH, _data(iip=(3, 3), exp=5, cr_yoy=14), {}, CFG, TODAY, _ctx(), shock="demand_down5")
+    assert ph["drivers"]["iip_fytd"]["value"] == 3 - 5 * 0.4
+
+
+def test_demand_stress_capped_by_beta():
+    from engine import regime_overlay as ro
+    s = ro.sens()
+    assert ro.stress_deltas(s["pharma"], -30)["demand_down5"] == -4.0
+    assert ro.stress_deltas(s["cement"], -30)["demand_down5"] == -10 * ro.demand_beta(s["cement"])
+    assert ro.stress_deltas(s["cement"], -3)["demand_down5"] == -3

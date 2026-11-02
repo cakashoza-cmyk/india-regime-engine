@@ -1,5 +1,5 @@
 {
- "_doc": "Per-sector macro sensitivity used by the regime overlay and the stress panel (engine/regime_overlay.py). Coefficients are analyst judgments (economist audit, 2 Nov 2026), not estimated from data; each has a one-line rationale. rate: 0 none, 1 some, 2 high (floating-rate/EBLR, leveraged or financed demand). crude: -2 crude/fuel is a major cost .. +1 producer benefits. inr: -2 import-dependent inputs (weak rupee hurts) .. +2 net exporter (weak rupee helps). cyclical: demand falls with the cycle; defensives do not. wpi_group: OEA WPI/PPI NIC-2 group used for the margin driver and the credit deflator. margin_scope: group = margin driver scored; display = group-level only (shown, not scored, because the sector is a narrow slice of the group); none = no mapped series (unknown). deflator: WPI group for price-adjusting bank credit; ALL = headline WPI for broad trade/MSME books; null = no deflator (gap left nominal).",
+ "_doc": "Per-sector macro sensitivity used by the regime overlay and the stress panel (engine/regime_overlay.py). Coefficients are analyst judgments (economist audit, 2 Nov 2026), not estimated from data; each has a one-line rationale. rate: 0 none, 1 some, 2 high (floating-rate/EBLR, leveraged or financed demand). crude: -2 crude/fuel is a major cost .. +1 producer benefits. inr: -2 import-dependent inputs (weak rupee hurts) .. +2 net exporter (weak rupee helps). cyclical: demand falls with the cycle; defensives do not. wpi_group: OEA WPI/PPI NIC-2 group used for the margin driver and the credit deflator. margin_scope: group = margin driver scored; display = group-level only (shown, not scored, because the sector is a narrow slice of the group); none = no mapped series (unknown). deflator: WPI group for price-adjusting bank credit; ALL = headline WPI for broad trade/MSME books; null = no deflator (gap left nominal). demand_beta (derived in code): defensive 0.4, govt 0.6, consumption/export 1.0, capex 1.2 when cyclical; scales the demand stress shock. defensive_floor: score cannot fall below Caution (45) without hard evidence (GNPA trend -1 or credit-gap red flag). deflator_coarse: the WPI group is much broader than the sector (e.g. 'other manufacturing' is dominated by gold/silver jewellery prices, not polished diamonds), so the credit gap uses the larger of the nominal and deflated gaps.",
  "_last_reviewed": "2026-11-02",
  "sectors": {
   "mmf_textiles": {
@@ -44,7 +44,8 @@
    "wpi_group": "other manufacturing",
    "margin_scope": "none",
    "deflator": "other manufacturing",
-   "why": "Rough is imported and polished exported, so the rupee roughly nets out; very high working capital and USD credit lines make it rate-sensitive; discretionary demand."
+   "why": "Rough is imported and polished exported, so the rupee roughly nets out; very high working capital and USD credit lines make it rate-sensitive; discretionary demand.",
+   "deflator_coarse": true
   },
   "chemicals_dyes": {
    "rate": 1,
@@ -77,7 +78,8 @@
    "wpi_group": "pharma",
    "margin_scope": "group",
    "deflator": "pharma",
-   "why": "Defensive demand; formulation exporters gain from a weak rupee, partly offset by imported APIs/KSMs; low WC sensitivity to rates."
+   "why": "Defensive demand; formulation exporters gain from a weak rupee, partly offset by imported APIs/KSMs; low WC sensitivity to rates. Defensive floor: essential, non-discretionary demand with export diversification; output/credit-gap/margin signals alone cannot push it below Caution, only a rising GNPA trend or a red-flag credit gap can.",
+   "defensive_floor": true
   },
   "ceramics": {
    "rate": 1,
@@ -308,7 +310,8 @@
    "wpi_group": "other manufacturing",
    "margin_scope": "none",
    "deflator": "other manufacturing",
-   "why": "Export demand; weak rupee helps; discretionary."
+   "why": "Export demand; weak rupee helps; discretionary.",
+   "deflator_coarse": true
   },
   "sugar": {
    "rate": 1,
