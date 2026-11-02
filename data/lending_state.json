@@ -103,7 +103,7 @@
   }
  },
  "exports_qe": {
-  "checked_ist": "2026-11-01 22:25",
+  "checked_ist": "2026-11-02 18:23",
   "discovered_by": "commerce_pattern",
   "first_seen": "2026-11-01",
   "payload": {
@@ -496,6 +496,28 @@
    },
    "period": "Sep-25"
   },
+  "https://rbidocs.rbi.org.in/rdocs//PublicationReport/Pdfs/0FSRJUN2024_270620242B95CB128D1847A3ACAB5B5A4BEBF0DF.PDF": {
+   "edition": "FSR June 2024",
+   "gnpa": {
+    "basic_metals": 2.1,
+    "cement": 3.9,
+    "chemicals": 1.5,
+    "construction": 6.5,
+    "engineering": 5.0,
+    "food": 5.5,
+    "gems_jewellery": 6.7,
+    "infra_ex_power": 4.5,
+    "infrastructure": 2.8,
+    "mining": 2.0,
+    "paper": 4.0,
+    "power": 1.1,
+    "refining": 1.5,
+    "rubber_plastics": 3.3,
+    "textiles": 5.2,
+    "vehicles": 2.7
+   },
+   "period": "Mar-24"
+  },
   "https://rbidocs.rbi.org.in/rdocs//PublicationReport/Pdfs/0FSRJUNE20253006258AE798B4484642AD861CC35BC2CB3D8E.PDF": {
    "edition": "FSR June 2025",
    "gnpa": {
@@ -537,32 +559,10 @@
     "vehicles": 0.6
    },
    "period": "Mar-26"
-  },
-  "https://rbidocs.rbi.org.in/rdocs//PublicationReport/Pdfs/0FSRJUN2024_270620242B95CB128D1847A3ACAB5B5A4BEBF0DF.PDF": {
-   "period": "Mar-24",
-   "gnpa": {
-    "mining": 2.0,
-    "food": 5.5,
-    "textiles": 5.2,
-    "paper": 4.0,
-    "chemicals": 1.5,
-    "rubber_plastics": 3.3,
-    "cement": 3.9,
-    "basic_metals": 2.1,
-    "engineering": 5.0,
-    "vehicles": 2.7,
-    "gems_jewellery": 6.7,
-    "construction": 6.5,
-    "infrastructure": 2.8,
-    "power": 1.1,
-    "infra_ex_power": 4.5,
-    "refining": 1.5
-   },
-   "edition": "FSR June 2024"
   }
  },
  "gst_state": {
-  "checked_ist": "2026-11-01 22:26",
+  "checked_ist": "2026-11-02 18:24",
   "discovered_by": "gstn_pattern",
   "first_seen": "2026-11-01",
   "payload": {
@@ -919,7 +919,7 @@
   "url": "https://tutorial.gst.gov.in/downloads/news/final_gst_revenue_report_for_publishing_monthly_sep_2026.pdf"
  },
  "iip_nic2": {
-  "checked_ist": "2026-11-01 22:25",
+  "checked_ist": "2026-11-02 18:23",
   "discovered_by": "deepseek_site_search",
   "first_seen": "2026-11-01",
   "payload": {
@@ -1128,12 +1128,12 @@
   "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2315957&reg=48&lang=2#4"
  },
  "power_state": {
-  "checked_ist": "2026-11-01 22:26",
+  "checked_ist": "2026-11-02 18:24",
   "discovered_by": "cea_dashboard",
   "first_seen": "2026-11-01",
   "payload": {
    "release_url": "https://cea.nic.in/reports/dashboardView?headingId=107&subHeadingId=1003&subSubHeadingId=10010&title=Power%20Supply%20Position%20-%20Energy&lang=en",
-   "report_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/54cdbc4b-fc8b-41a8-a335-18bc67709da7",
+   "report_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/c8beba5b-bb45-43cd-9e3e-48ff34dccecd",
    "rows": {
     "Andhra Pradesh": {
      "check_ok": true,
@@ -1366,13 +1366,13 @@
      "req_mu": 7491.0
     }
    },
-   "year_ago_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/7a9ce317-a020-4992-a5f4-b849acb31cab"
+   "year_ago_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/bb06550b-96e4-407f-b558-31c6e00c9ce2"
   },
   "period": "2026-08-31",
   "url": "https://cea.nic.in/reports/dashboardView?headingId=107&subHeadingId=1003&subSubHeadingId=10010&title=Power%20Supply%20Position%20-%20Energy&lang=en"
  },
  "rbi_sibc": {
-  "checked_ist": "2026-11-01 22:25",
+  "checked_ist": "2026-11-02 18:23",
   "discovered_by": "rbi_press_list",
   "first_seen": "2026-11-01",
   "payload": {
@@ -2276,7 +2276,7 @@
   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891"
  },
  "rbi_state": {
-  "checked_ist": "2026-11-01 22:26",
+  "checked_ist": "2026-11-02 18:24",
   "discovered_by": "rbi_hsis_page",
   "first_seen": "2026-11-01",
   "payload": {
