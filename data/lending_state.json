@@ -103,7 +103,7 @@
   }
  },
  "exports_qe": {
-  "checked_ist": "2026-11-05 23:44",
+  "checked_ist": "2026-11-06 02:05",
   "discovered_by": "commerce_pattern",
   "first_seen": "2026-11-01",
   "payload": {
@@ -562,7 +562,7 @@
   }
  },
  "gst_state": {
-  "checked_ist": "2026-11-05 23:45",
+  "checked_ist": "2026-11-06 02:06",
   "discovered_by": "gstn_pattern",
   "first_seen": "2026-11-01",
   "payload": {
@@ -919,7 +919,7 @@
   "url": "https://tutorial.gst.gov.in/downloads/news/final_gst_revenue_report_for_publishing_monthly_sep_2026.pdf"
  },
  "iip_nic2": {
-  "checked_ist": "2026-11-05 23:44",
+  "checked_ist": "2026-11-06 02:05",
   "discovered_by": "deepseek_site_search",
   "first_seen": "2026-11-01",
   "payload": {
@@ -1128,12 +1128,12 @@
   "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2315957&reg=48&lang=2#4"
  },
  "power_state": {
-  "checked_ist": "2026-11-05 23:45",
+  "checked_ist": "2026-11-06 02:06",
   "discovered_by": "cea_dashboard",
   "first_seen": "2026-11-01",
   "payload": {
    "release_url": "https://cea.nic.in/reports/dashboardView?headingId=107&subHeadingId=1003&subSubHeadingId=10010&title=Power%20Supply%20Position%20-%20Energy&lang=en",
-   "report_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/a3c3ef8c-cb8a-420c-9861-023792bdbaae",
+   "report_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/8795604c-7eba-4a69-be7d-3ebc12404fe7",
    "rows": {
     "Andhra Pradesh": {
      "check_ok": true,
@@ -1366,13 +1366,13 @@
      "req_mu": 7491.0
     }
    },
-   "year_ago_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/eddf9f77-f653-455b-b357-7cc03a2008b8"
+   "year_ago_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/c8e70482-5f1c-4cf6-9063-bf62065415b9"
   },
   "period": "2026-08-31",
   "url": "https://cea.nic.in/reports/dashboardView?headingId=107&subHeadingId=1003&subSubHeadingId=10010&title=Power%20Supply%20Position%20-%20Energy&lang=en"
  },
  "rbi_sibc": {
-  "checked_ist": "2026-11-05 23:44",
+  "checked_ist": "2026-11-06 02:05",
   "discovered_by": "rbi_press_list",
   "first_seen": "2026-11-01",
   "payload": {
@@ -2276,7 +2276,7 @@
   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891"
  },
  "rbi_state": {
-  "checked_ist": "2026-11-05 23:45",
+  "checked_ist": "2026-11-06 02:06",
   "discovered_by": "rbi_hsis_page",
   "first_seen": "2026-11-01",
   "payload": {
