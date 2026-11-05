@@ -1,6 +1,6 @@
 {
-  "generated_at_ist": "2026-11-05 18:15 IST",
-  "run_id": "20261105T181446-731e60",
+  "generated_at_ist": "2026-11-05 20:59 IST",
+  "run_id": "20261105T205903-b96d59",
   "snapshot_date": "2026-11-05",
   "regime_label": "Stagflation",
   "sub_label": "transitional",
@@ -138,7 +138,7 @@
       },
       {
         "indicator": "fii_net",
-        "current_value": 7284.03,
+        "current_value": 14974.68,
         "flip_level": -3000,
         "flip_direction": "below",
         "is_flipped": false,
@@ -147,7 +147,7 @@
       },
       {
         "indicator": "brent",
-        "current_value": 96.8499984741211,
+        "current_value": 96.98999786376953,
         "flip_level": 100.0,
         "flip_direction": "below",
         "is_flipped": true,
@@ -436,7 +436,7 @@
     {
       "indicator": "brent",
       "dial": "inflation",
-      "value": 96.8499984741211,
+      "value": 96.98999786376953,
       "prior_value": 94.62000274658203,
       "direction": 1,
       "score": -1,
@@ -448,7 +448,7 @@
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
       "status": "verified",
       "checks": [
-        "cross-check yahoo=96.85 within 2%"
+        "cross-check yahoo=96.99 within 2%"
       ],
       "note": "ICE Brent active contract (value and prior from the same contract)",
       "source_tier": "market_data",
@@ -512,28 +512,28 @@
     {
       "indicator": "fii_net",
       "dial": "liquidity",
-      "value": 7284.03,
-      "prior_value": 6836.81,
+      "value": 14974.68,
+      "prior_value": 7284.03,
       "direction": 1,
       "score": 1,
       "weight": 1,
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "is_stale": false,
       "stale_since": null,
       "source": "nse_api",
       "source_url": "https://www.nseindia.com/api/fiidiiTradeReact",
       "status": "verified",
       "checks": [
-        "cross-check nse=7284.03 within 0.05",
+        "cross-check nse=14974.68 within 0.05",
         "official source"
       ],
-      "note": "NSE provisional cash market FII/FPI net (buy 21607.38 / sell 14323.35 cr)",
+      "note": "NSE provisional cash market FII/FPI net (buy 31797.86 / sell 16823.18 cr)",
       "source_tier": "official_primary",
-      "data_period": "2026-11-04",
+      "data_period": "2026-11-05",
       "survey_quarter": null,
       "diagnostics": "scored",
       "stale_reason": null,
-      "release_date": "2026-11-04"
+      "release_date": "2026-11-05"
     },
     {
       "indicator": "credit_growth",
@@ -600,7 +600,7 @@
       "source_url": "https://www.rbi.org.in/",
       "status": "verified",
       "checks": [
-        "cross-check yahoo=94.47 within 1%",
+        "cross-check yahoo=94.465 within 1%",
         "official source"
       ],
       "note": "FBIL USD/INR reference rate as shown on RBI homepage (dated to its publication day)",
@@ -640,7 +640,7 @@
     {
       "indicator": "dxy",
       "dial": "liquidity",
-      "value": 101.61499786376953,
+      "value": 101.56400299072266,
       "prior_value": 101.51000213623047,
       "direction": 0,
       "score": null,
@@ -768,28 +768,28 @@
     {
       "indicator": "dii_net",
       "dial": "fragility",
-      "value": -3712.23,
-      "prior_value": -3678.85,
+      "value": -10444.54,
+      "prior_value": -3712.23,
       "direction": -1,
       "score": 0,
       "weight": 0,
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "is_stale": false,
       "stale_since": null,
       "source": "nse_api",
       "source_url": "https://www.nseindia.com/api/fiidiiTradeReact",
       "status": "verified",
       "checks": [
-        "cross-check nse=-3712.23 within 0.05",
+        "cross-check nse=-10444.54 within 0.05",
         "official source"
       ],
-      "note": "NSE provisional cash market DII net (buy 16392.82 / sell 20105.05 cr)",
+      "note": "NSE provisional cash market DII net (buy 22168.28 / sell 32612.82 cr)",
       "source_tier": "official_primary",
-      "data_period": "2026-11-04",
+      "data_period": "2026-11-05",
       "survey_quarter": null,
       "diagnostics": "display only",
       "stale_reason": null,
-      "release_date": "2026-11-04"
+      "release_date": "2026-11-05"
     },
     {
       "indicator": "capacity_util",
@@ -826,19 +826,19 @@
       "weight": 0,
       "as_of": "2026-10-30",
       "is_stale": true,
-      "stale_since": "excluded: stale (period=2026-10-30, expected=2026-11-04)",
+      "stale_since": "excluded: stale (period=2026-10-30, expected=2026-11-05)",
       "source": "manual",
       "source_url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-buckle-for-fourth-straight-month-on-oils-climb/articleshow/135361502.cms",
       "status": "stale",
       "checks": [
-        "stale since excluded: stale (period=2026-10-30, expected=2026-11-04)"
+        "stale since excluded: stale (period=2026-10-30, expected=2026-11-05)"
       ],
       "note": "FBIL MIBOR-OIS 1Y as reported by ET; FBIL site is JS-only so not machine-verified. Display only.",
       "source_tier": "news_llm",
       "data_period": "2026-10-30",
       "survey_quarter": null,
-      "diagnostics": "display only; excluded: stale (period=2026-10-30, expected=2026-11-04)",
-      "stale_reason": "excluded: stale (period=2026-10-30, expected=2026-11-04)",
+      "diagnostics": "display only; excluded: stale (period=2026-10-30, expected=2026-11-05)",
+      "stale_reason": "excluded: stale (period=2026-10-30, expected=2026-11-05)",
       "release_date": "2026-10-30"
     },
     {
