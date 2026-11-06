@@ -526,5 +526,27 @@
     },
     "check_back_date": "2026-12-05",
     "outcome": null
+  },
+  {
+    "generated_at_ist": "2026-11-06 18:00 IST",
+    "run_id": "20261106T180001-022cac",
+    "regime_label": "Stagflation",
+    "sub_label": "transitional",
+    "stage": 0,
+    "scores": {
+      "growth": -0.333,
+      "inflation": -1,
+      "liquidity": -0.111,
+      "vote": 1,
+      "fragility": -1
+    },
+    "position": {
+      "action": "wait",
+      "size": 0.0,
+      "reason": "stage 0 < 2",
+      "paper": true
+    },
+    "check_back_date": "2026-12-06",
+    "outcome": null
   }
 ]
