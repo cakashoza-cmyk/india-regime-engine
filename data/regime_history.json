@@ -614,5 +614,27 @@
     },
     "check_back_date": "2026-12-07",
     "outcome": null
+  },
+  {
+    "generated_at_ist": "2026-11-08 22:17 IST",
+    "run_id": "20261108T221612-0b9805",
+    "regime_label": "Stagflation",
+    "sub_label": "confirmed",
+    "stage": 0,
+    "scores": {
+      "growth": -0.333,
+      "inflation": -0.75,
+      "liquidity": -0.667,
+      "vote": 1,
+      "fragility": null
+    },
+    "position": {
+      "action": "wait",
+      "size": 0.0,
+      "reason": "stage 0 < 2",
+      "paper": true
+    },
+    "check_back_date": "2026-12-08",
+    "outcome": null
   }
 ]
