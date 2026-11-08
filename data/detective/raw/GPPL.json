@@ -1,7 +1,7 @@
 {
 "symbol": "GPPL",
 "basis": "consolidated",
-"fetched": "2026-11-02T23:51:46",
+"fetched": "2026-11-08T06:35:21",
 "quarters": {
 "2018-09-30": {
 "m": {
@@ -700,6 +700,31 @@
 },
 "src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1712766_12082026055449_WEB.xml",
 "filed": "12-Aug-2026 17:54:49",
+"feed": "NSE integrated-filing-results",
+"audited": "Un-Audited"
+},
+"2026-09-30": {
+"m": {
+"revenue": 339.15,
+"other_income": 17.34,
+"ebitda": 211.82,
+"pat": 152.69,
+"finance_cost": 1.04,
+"depreciation": 31.1,
+"material_cost": 0.0,
+"impairment": null,
+"interest_income": null,
+"inventory": 8.99,
+"receivables": 80.85,
+"payables": 74.43,
+"debt": 0.0,
+"loans": null,
+"ocf_ytd": 435.2,
+"revenue_ytd": 670.92,
+"volume": null
+},
+"src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752963_04112026065504_WEB.xml",
+"filed": "04-Nov-2026 18:55:04",
 "feed": "NSE integrated-filing-results",
 "audited": "Un-Audited"
 }

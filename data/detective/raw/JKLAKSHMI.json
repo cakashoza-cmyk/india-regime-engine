@@ -1,7 +1,7 @@
 {
 "symbol": "JKLAKSHMI",
 "basis": "standalone",
-"fetched": "2026-11-02T23:51:03",
+"fetched": "2026-11-08T06:34:32",
 "quarters": {
 "2018-03-31": {
 "m": {
@@ -800,6 +800,31 @@
 },
 "src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1708388_05082026051852_WEB.xml",
 "filed": "05-Aug-2026 17:15:12",
+"feed": "NSE integrated-filing-results",
+"audited": "Un-Audited"
+},
+"2026-09-30": {
+"m": {
+"revenue": 1616.92,
+"other_income": 10.29,
+"ebitda": 154.2,
+"pat": 20.88,
+"finance_cost": 51.19,
+"depreciation": 84.28,
+"material_cost": 326.7,
+"impairment": null,
+"interest_income": null,
+"inventory": 986.47,
+"receivables": 187.43,
+"payables": 490.25,
+"debt": 2638.19,
+"loans": null,
+"ocf_ytd": -99.11,
+"revenue_ytd": 3521.7,
+"volume": null
+},
+"src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752833_04112026060537_WEB.xml",
+"filed": "04-Nov-2026 18:05:21",
 "feed": "NSE integrated-filing-results",
 "audited": "Un-Audited"
 }

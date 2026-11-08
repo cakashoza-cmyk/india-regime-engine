@@ -1,7 +1,7 @@
 {
 "symbol": "SOMANYCERA",
 "basis": "consolidated",
-"fetched": "2026-11-02T23:50:59",
+"fetched": "2026-11-08T06:34:25",
 "quarters": {
 "2018-06-30": {
 "m": {
@@ -825,6 +825,31 @@
 },
 "src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1712946_12082026065831_WEB.xml",
 "filed": "12-Aug-2026 18:58:20",
+"feed": "NSE integrated-filing-results",
+"audited": "Un-Audited"
+},
+"2026-09-30": {
+"m": {
+"revenue": 860.65,
+"other_income": 2.17,
+"ebitda": 99.72,
+"pat": 41.56,
+"finance_cost": 11.41,
+"depreciation": 28.0,
+"material_cost": 388.37,
+"impairment": null,
+"interest_income": null,
+"inventory": 417.28,
+"receivables": 286.99,
+"payables": 401.5,
+"debt": 277.42,
+"loans": null,
+"ocf_ytd": 52.03,
+"revenue_ytd": 1610.21,
+"volume": null
+},
+"src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753087_04112026073834_WEB.xml",
+"filed": "04-Nov-2026 19:38:11",
 "feed": "NSE integrated-filing-results",
 "audited": "Un-Audited"
 }

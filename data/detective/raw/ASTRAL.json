@@ -1,7 +1,7 @@
 {
 "symbol": "ASTRAL",
 "basis": "consolidated",
-"fetched": "2026-11-02T23:51:04",
+"fetched": "2026-11-08T06:34:33",
 "quarters": {
 "2018-03-31": {
 "m": {
@@ -850,6 +850,31 @@
 },
 "src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1712963_12082026070826_WEB.xml",
 "filed": "12-Aug-2026 19:08:18",
+"feed": "NSE integrated-filing-results",
+"audited": "Un-Audited"
+},
+"2026-09-30": {
+"m": {
+"revenue": 1988.3,
+"other_income": 11.8,
+"ebitda": 260.5,
+"pat": 127.3,
+"finance_cost": 12.2,
+"depreciation": 78.7,
+"material_cost": 1285.9,
+"impairment": null,
+"interest_income": null,
+"inventory": 1425.6,
+"receivables": 392.5,
+"payables": 960.1,
+"debt": 198.4,
+"loans": null,
+"ocf_ytd": -68.0,
+"revenue_ytd": 3566.3,
+"volume": null
+},
+"src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754338_05112026102124_WEB.xml",
+"filed": "05-Nov-2026 22:21:05",
 "feed": "NSE integrated-filing-results",
 "audited": "Un-Audited"
 }

@@ -1,7 +1,7 @@
 {
 "symbol": "THERMAX",
 "basis": "consolidated",
-"fetched": "2026-11-02T23:51:28",
+"fetched": "2026-11-08T06:35:02",
 "quarters": {
 "2018-03-31": {
 "m": {
@@ -780,6 +780,31 @@
 },
 "src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1705307_30072026053358_WEB.xml",
 "filed": "30-Jul-2026 17:31:08",
+"feed": "NSE integrated-filing-results",
+"audited": "Un-Audited"
+},
+"2026-09-30": {
+"m": {
+"revenue": 2755.87,
+"other_income": 81.79,
+"ebitda": 194.14,
+"pat": 113.11,
+"finance_cost": 36.92,
+"depreciation": 70.15,
+"material_cost": 1494.36,
+"impairment": null,
+"interest_income": null,
+"inventory": 1204.55,
+"receivables": 1774.81,
+"payables": 1910.67,
+"debt": 2841.6,
+"loans": null,
+"ocf_ytd": 364.86,
+"revenue_ytd": 5058.6,
+"volume": null
+},
+"src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753918_05112026063454_WEB.xml",
+"filed": "05-Nov-2026 18:33:37",
 "feed": "NSE integrated-filing-results",
 "audited": "Un-Audited"
 }

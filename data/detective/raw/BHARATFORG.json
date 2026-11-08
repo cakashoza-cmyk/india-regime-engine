@@ -1,7 +1,7 @@
 {
 "symbol": "BHARATFORG",
 "basis": "consolidated",
-"fetched": "2026-11-02T23:51:10",
+"fetched": "2026-11-08T06:34:42",
 "quarters": {
 "2019-03-31": {
 "m": null,
@@ -705,6 +705,31 @@
 },
 "src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1711215_10082026063159_WEB.xml",
 "filed": "10-Aug-2026 18:31:59",
+"feed": "NSE integrated-filing-results",
+"audited": "Un-Audited"
+},
+"2026-09-30": {
+"m": {
+"revenue": 4869.97,
+"other_income": 47.52,
+"ebitda": 767.67,
+"pat": 278.68,
+"finance_cost": 96.92,
+"depreciation": 269.76,
+"material_cost": 2234.58,
+"impairment": null,
+"interest_income": null,
+"inventory": 4692.61,
+"receivables": 4077.95,
+"payables": 3269.46,
+"debt": 7391.09,
+"loans": null,
+"ocf_ytd": 366.27,
+"revenue_ytd": 9509.91,
+"volume": null
+},
+"src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753991_05112026065454_WEB.xml",
+"filed": "05-Nov-2026 18:54:55",
 "feed": "NSE integrated-filing-results",
 "audited": "Un-Audited"
 }

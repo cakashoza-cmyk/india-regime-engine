@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T05:23:06+05:30",
+ "generated": "2026-11-08T12:05:27+05:30",
  "research_only": true,
  "ai_calls": 0,
  "rule": "Same half-year YoY: receivables or inventory growth exceeds revenue (YTD) growth by >10pp, or YTD operating cash flow falls >15% while YTD profit rises >=10%. Growth in receivables/inventory must itself be positive. Lenders excluded.",
@@ -175,6 +175,41 @@
    "name": "Asian Paints"
   },
   {
+   "company": "ASTRAL",
+   "period": "2026-09-30",
+   "fq": "Q2FY27",
+   "compared_with": "Q2FY26",
+   "cluster": "Pipes/plastics - Ahmedabad",
+   "triggers": [
+    "Inventory +32.5% vs revenue +21.4% (gap 11.1pp)",
+    "Operating cash flow fell (389 -> -68 cr) while profit rose (214 -> 248 cr)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": 21.36,
+    "receivables_growth_pct": 5.65,
+    "inventory_growth_pct": 32.45,
+    "pat_ytd": 247.5,
+    "pat_ytd_prior": 214.0,
+    "ocf_ytd": -68.0,
+    "ocf_ytd_prior": 388.8
+   },
+   "sources": [
+    {
+     "period": "Q2FY27",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754338_05112026102124_WEB.xml",
+     "filed": "2026-11-05"
+    },
+    {
+     "period": "Q2FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1566191_05112025082105_WEB.xml",
+     "filed": "2025-11-05"
+    }
+   ],
+   "name": "Astral"
+  },
+  {
    "company": "ATUL",
    "period": "2026-09-30",
    "fq": "Q2FY27",
@@ -210,35 +245,34 @@
   },
   {
    "company": "BHARATFORG",
-   "period": "2026-03-31",
-   "fq": "Q4FY26",
-   "compared_with": "Q4FY25",
+   "period": "2026-09-30",
+   "fq": "Q2FY27",
+   "compared_with": "Q2FY26",
    "cluster": "Auto components - Sanand supply chain",
    "triggers": [
-    "Receivables +34.8% vs revenue +11.2% (gap 23.6pp)",
-    "Operating cash flow fell (1796 -> 1487 cr) while profit rose (913 -> 1089 cr)"
+    "Receivables +31.3% vs revenue +19.8% (gap 11.5pp)"
    ],
    "alert": true,
    "note": null,
    "metrics": {
-    "revenue_ytd_growth_pct": 11.17,
-    "receivables_growth_pct": 34.79,
-    "inventory_growth_pct": 13.26,
-    "pat_ytd": 1089.4,
-    "pat_ytd_prior": 913.27,
-    "ocf_ytd": 1486.64,
-    "ocf_ytd_prior": 1796.34
+    "revenue_ytd_growth_pct": 19.76,
+    "receivables_growth_pct": 31.29,
+    "inventory_growth_pct": 17.0,
+    "pat_ytd": 188.79,
+    "pat_ytd_prior": 583.15,
+    "ocf_ytd": 366.27,
+    "ocf_ytd_prior": 998.79
    },
    "sources": [
     {
-     "period": "Q4FY26",
-     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1664728_07052026104447_WEB.xml",
-     "filed": "2026-05-07"
+     "period": "Q2FY27",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753991_05112026065454_WEB.xml",
+     "filed": "2026-11-05"
     },
     {
-     "period": "Q4FY25",
-     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1434415_08052025092007_WEB.xml",
-     "filed": "2025-05-08"
+     "period": "Q2FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1571493_11112025065417_WEB.xml",
+     "filed": "2025-11-11"
     }
    ],
    "name": "Bharat Forge"
@@ -380,6 +414,40 @@
    "name": "Maruti Suzuki"
   },
   {
+   "company": "MOTHERSON",
+   "period": "2026-09-30",
+   "fq": "Q2FY27",
+   "compared_with": "Q2FY26",
+   "cluster": "Auto components - Sanand/Becharaji",
+   "triggers": [
+    "Operating cash flow fell (3419 -> 2811 cr) while profit rose (1452 -> 2293 cr)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": 21.76,
+    "receivables_growth_pct": 25.21,
+    "inventory_growth_pct": 29.4,
+    "pat_ytd": 2293.23,
+    "pat_ytd_prior": 1451.72,
+    "ocf_ytd": 2810.92,
+    "ocf_ytd_prior": 3419.13
+   },
+   "sources": [
+    {
+     "period": "Q2FY27",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754223_05112026083544_WEB.xml",
+     "filed": "2026-11-05"
+    },
+    {
+     "period": "Q2FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1574562_13112025105041_WEB.xml",
+     "filed": "2025-11-13"
+    }
+   ],
+   "name": "Samvardhana Motherson"
+  },
+  {
    "company": "PIDILITIND",
    "period": "2026-09-30",
    "fq": "Q2FY27",
@@ -415,36 +483,69 @@
    "name": "Pidilite"
   },
   {
-   "company": "THERMAX",
-   "period": "2026-03-31",
-   "fq": "Q4FY26",
-   "compared_with": "Q4FY25",
-   "cluster": "Capital goods - Gujarat projects",
+   "company": "SOMANYCERA",
+   "period": "2026-09-30",
+   "fq": "Q2FY27",
+   "compared_with": "Q2FY26",
+   "cluster": "Ceramics - Morbi",
    "triggers": [
-    "Inventory +26.3% vs revenue +2.9% (gap 23.3pp)",
-    "Operating cash flow fell (1043 -> 542 cr) while profit rose (627 -> 720 cr)"
+    "Operating cash flow fell (103 -> 52 cr) while profit rose (20 -> 76 cr)"
    ],
    "alert": true,
    "note": null,
    "metrics": {
-    "revenue_ytd_growth_pct": 2.94,
-    "receivables_growth_pct": -14.05,
-    "inventory_growth_pct": 26.27,
-    "pat_ytd": 720.26,
-    "pat_ytd_prior": 626.7,
-    "ocf_ytd": 541.54,
-    "ocf_ytd_prior": 1042.79
+    "revenue_ytd_growth_pct": 24.86,
+    "receivables_growth_pct": -2.77,
+    "inventory_growth_pct": 13.85,
+    "pat_ytd": 75.79,
+    "pat_ytd_prior": 19.66,
+    "ocf_ytd": 52.03,
+    "ocf_ytd_prior": 102.79
    },
    "sources": [
     {
-     "period": "Q4FY26",
-     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1664624_07052026074732_WEB.xml",
-     "filed": "2026-05-07"
+     "period": "Q2FY27",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753087_04112026073834_WEB.xml",
+     "filed": "2026-11-04"
     },
     {
-     "period": "Q4FY25",
-     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1435268_09052025073002_WEB.xml",
-     "filed": "2025-05-09"
+     "period": "Q2FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1568584_07112025081933_WEB.xml",
+     "filed": "2025-11-07"
+    }
+   ],
+   "name": "Somany Ceramics"
+  },
+  {
+   "company": "THERMAX",
+   "period": "2026-09-30",
+   "fq": "Q2FY27",
+   "compared_with": "Q2FY26",
+   "cluster": "Capital goods - Gujarat projects",
+   "triggers": [
+    "Inventory +31.2% vs revenue +9.2% (gap 22.0pp)"
+   ],
+   "alert": true,
+   "note": null,
+   "metrics": {
+    "revenue_ytd_growth_pct": 9.22,
+    "receivables_growth_pct": -18.36,
+    "inventory_growth_pct": 31.18,
+    "pat_ytd": 134.9,
+    "pat_ytd_prior": 270.85,
+    "ocf_ytd": 364.86,
+    "ocf_ytd_prior": 63.34
+   },
+   "sources": [
+    {
+     "period": "Q2FY27",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753918_05112026063454_WEB.xml",
+     "filed": "2026-11-05"
+    },
+    {
+     "period": "Q2FY26",
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1571267_11112025054529_WEB.xml",
+     "filed": "2025-11-11"
     }
    ],
    "name": "Thermax"
@@ -454,16 +555,13 @@
  "clear": [
   "ASHOKLEY",
   "ASIANTILES",
-  "ASTRAL",
   "CONCOR",
   "DEEPAKNTR",
   "GPPL",
   "JKLAKSHMI",
   "KAJARIACER",
-  "MOTHERSON",
   "NAVINFLUOR",
   "PETRONET",
-  "SOMANYCERA",
   "ULTRACEMCO",
   "WELSPUNLIV"
  ]

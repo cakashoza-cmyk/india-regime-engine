@@ -1,7 +1,7 @@
 {
 "symbol": "MOTHERSON",
 "basis": "consolidated",
-"fetched": "2026-11-02T23:51:09",
+"fetched": "2026-11-08T06:34:40",
 "quarters": {
 "2018-03-31": {
 "m": {
@@ -850,6 +850,31 @@
 },
 "src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1709038_06082026044602_WEB.xml",
 "filed": "06-Aug-2026 16:46:02",
+"feed": "NSE integrated-filing-results",
+"audited": "Un-Audited"
+},
+"2026-09-30": {
+"m": {
+"revenue": 38279.85,
+"other_income": 80.07,
+"ebitda": 3357.21,
+"pat": 1217.57,
+"finance_cost": 524.75,
+"depreciation": 1399.14,
+"material_cost": 20896.46,
+"impairment": null,
+"interest_income": null,
+"inventory": 16434.12,
+"receivables": 24557.94,
+"payables": 31096.61,
+"debt": 19354.79,
+"loans": null,
+"ocf_ytd": 2810.92,
+"revenue_ytd": 73523.62,
+"volume": null
+},
+"src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754223_05112026083544_WEB.xml",
+"filed": "05-Nov-2026 20:35:45",
 "feed": "NSE integrated-filing-results",
 "audited": "Un-Audited"
 }
