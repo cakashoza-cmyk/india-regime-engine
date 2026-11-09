@@ -1,6 +1,6 @@
 {
-  "generated_at_ist": "2026-11-09 18:53 IST",
-  "run_id": "20261109T185316-85cf30",
+  "generated_at_ist": "2026-11-09 23:01 IST",
+  "run_id": "20261109T230035-f8bd24",
   "snapshot_date": "2026-11-09",
   "regime_label": "Stagflation",
   "sub_label": "transitional",
@@ -147,7 +147,7 @@
       },
       {
         "indicator": "brent",
-        "current_value": 94.4000015258789,
+        "current_value": 93.9000015258789,
         "flip_level": 100.0,
         "flip_direction": "below",
         "is_flipped": true,
@@ -436,7 +436,7 @@
     {
       "indicator": "brent",
       "dial": "inflation",
-      "value": 94.4000015258789,
+      "value": 93.9000015258789,
       "prior_value": 98.31999969482422,
       "direction": -1,
       "score": 1,
@@ -448,7 +448,7 @@
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
       "status": "verified",
       "checks": [
-        "cross-check yahoo=94.4 within 2%"
+        "cross-check yahoo=93.9 within 2%"
       ],
       "note": "ICE Brent active contract (value and prior from the same contract)",
       "source_tier": "market_data",
@@ -601,7 +601,7 @@
       "source_url": "https://www.rbi.org.in/",
       "status": "verified",
       "checks": [
-        "cross-check yahoo=93.9275 within 1%",
+        "cross-check yahoo=93.918 within 1%",
         "official source"
       ],
       "note": "FBIL USD/INR reference rate as shown on RBI homepage (dated to its publication day)",
@@ -641,7 +641,7 @@
     {
       "indicator": "dxy",
       "dial": "liquidity",
-      "value": 101.85399627685547,
+      "value": 101.81600189208984,
       "prior_value": 102.30000305175781,
       "direction": -1,
       "score": null,
@@ -827,19 +827,19 @@
       "weight": 0,
       "as_of": "2026-10-30",
       "is_stale": true,
-      "stale_since": "excluded: stale (period=2026-10-30, expected=2026-11-06)",
+      "stale_since": "excluded: stale (period=2026-10-30, expected=2026-11-09)",
       "source": "manual",
       "source_url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-buckle-for-fourth-straight-month-on-oils-climb/articleshow/135361502.cms",
       "status": "stale",
       "checks": [
-        "stale since excluded: stale (period=2026-10-30, expected=2026-11-06)"
+        "stale since excluded: stale (period=2026-10-30, expected=2026-11-09)"
       ],
       "note": "FBIL MIBOR-OIS 1Y as reported by ET; FBIL site is JS-only so not machine-verified. Display only.",
       "source_tier": "news_llm",
       "data_period": "2026-10-30",
       "survey_quarter": null,
-      "diagnostics": "display only; excluded: stale (period=2026-10-30, expected=2026-11-06)",
-      "stale_reason": "excluded: stale (period=2026-10-30, expected=2026-11-06)",
+      "diagnostics": "display only; excluded: stale (period=2026-10-30, expected=2026-11-09)",
+      "stale_reason": "excluded: stale (period=2026-10-30, expected=2026-11-09)",
       "release_date": "2026-10-30"
     },
     {
@@ -1198,9 +1198,9 @@
     },
     {
       "indicator": "rbi_stance",
-      "source": "deepseek (cross-check)",
+      "source": "deepseek",
       "ok": true,
-      "error": null
+      "error": "ran within 7 days - skipped (spec 4.4)"
     }
   ],
   "alert": {
