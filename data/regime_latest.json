@@ -1,6 +1,6 @@
 {
-  "generated_at_ist": "2026-11-10 02:30 IST",
-  "run_id": "20261110T023018-1c4d24",
+  "generated_at_ist": "2026-11-10 04:27 IST",
+  "run_id": "20261110T042709-5d4760",
   "snapshot_date": "2026-11-09",
   "regime_label": "Stagflation",
   "sub_label": "transitional",
@@ -147,7 +147,7 @@
       },
       {
         "indicator": "brent",
-        "current_value": 92.66000366210938,
+        "current_value": 92.16999816894531,
         "flip_level": 100.0,
         "flip_direction": "below",
         "is_flipped": true,
@@ -436,7 +436,7 @@
     {
       "indicator": "brent",
       "dial": "inflation",
-      "value": 92.66000366210938,
+      "value": 92.16999816894531,
       "prior_value": 98.31999969482422,
       "direction": -1,
       "score": 1,
@@ -448,7 +448,7 @@
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
       "status": "verified",
       "checks": [
-        "cross-check yahoo=92.66 within 2%"
+        "cross-check yahoo=92.17 within 2%"
       ],
       "note": "ICE Brent active contract (value and prior from the same contract)",
       "source_tier": "market_data",
@@ -641,7 +641,7 @@
     {
       "indicator": "dxy",
       "dial": "liquidity",
-      "value": 101.68699645996094,
+      "value": 101.69400024414062,
       "prior_value": 102.30000305175781,
       "direction": -1,
       "score": null,
