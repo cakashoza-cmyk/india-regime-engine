@@ -1,9 +1,9 @@
 {
  "usdinr_yoy": {
-  "value": 93.918,
+  "value": 93.92,
   "year_ago": 88.658,
   "yoy_pct": 5.9,
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-10",
   "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/INR%3DX?range=1y&interval=1d",
   "source_tier": "market_data"
  }
