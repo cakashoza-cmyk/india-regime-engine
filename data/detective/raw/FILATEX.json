@@ -1,7 +1,7 @@
 {
 "symbol": "FILATEX",
 "basis": "standalone",
-"fetched": "2026-11-15T07:00:50",
+"fetched": "2026-11-15T22:19:56",
 "quarters": {
 "2018-03-31": {
 "m": {
@@ -755,13 +755,13 @@
 },
 "2025-09-30": {
 "m": {
-"revenue": 2125.33,
-"other_income": 16.27,
-"ebitda": 166.69,
-"pat": 88.31,
-"finance_cost": 25.91,
-"depreciation": 38.37,
-"material_cost": 1706.13,
+"revenue": 1075.93,
+"other_income": 5.47,
+"ebitda": 88.93,
+"pat": 47.58,
+"finance_cost": 11.15,
+"depreciation": 19.46,
+"material_cost": 859.46,
 "impairment": null,
 "interest_income": null,
 "inventory": 397.14,
@@ -770,13 +770,14 @@
 "debt": 117.74,
 "loans": null,
 "ocf_ytd": 233.84,
-"revenue_ytd": null,
+"revenue_ytd": 2125.33,
 "volume": null
 },
-"src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1565005_04112025063746_WEB.xml",
-"filed": "04-Nov-2025 18:37:46",
+"src": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1568930_08112025090116_WEB.xml",
+"filed": null,
 "feed": "NSE integrated-filing-results",
-"audited": "Un-Audited"
+"audited": "Un-Audited",
+"period_days": 91
 },
 "2025-12-31": {
 "m": {

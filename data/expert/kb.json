@@ -1,0 +1,1726 @@
+{
+"generated": "2026-11-14 22:15 IST",
+"sources": {
+"technotex_surat": {
+"title": "Surat, the Silk City of India (cluster note, Office of the Textile Commissioner; cites 2004-05 exports)",
+"publisher": "Ministry of Textiles (Technotex)",
+"url": "http://www.technotex.gov.in/html/D_%20Surat.pdf",
+"date": "c. 2005-06 (data vintage)",
+"kind": "official",
+"verify": "manual",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "cached copy",
+"missing": [],
+"facts": [
+"sur_chain",
+"sur_shed",
+"sur_jobwork"
+]
+}
+},
+"dips_surat": {
+"title": "District Industrial Potentiality Survey Report of Surat District 2016-17",
+"publisher": "MSME-DI, Ministry of MSME",
+"url": "https://dcmsme.gov.in/dips/2016-17/DIPS%20Surat%2001.06.2016%20FINAL.pdf",
+"date": "2016",
+"kind": "official",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"sur_dips"
+]
+}
+},
+"sameeeksha_2012": {
+"title": "SAMEEEKSHA newsletter June 2012 (Surat textile processing cluster)",
+"publisher": "TERI / SAMEEEKSHA",
+"url": "https://sameeeksha.org/newsletter/SAMEEEKSHA_June2012.pdf",
+"date": "June 2012",
+"kind": "study",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"sur_processing"
+]
+}
+},
+"gst_15_2025": {
+"title": "Notification No. 15/2025-Central Tax (Rate), effective 22 September 2025 (Gazette of India)",
+"publisher": "Ministry of Finance, Department of Revenue",
+"url": "https://egazette.gov.in/WriteReadData/2025/266220.pdf",
+"date": "17 September 2025",
+"kind": "official",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"gst_jobwork"
+]
+}
+},
+"sdb_2022": {
+"title": "Surat Diamond Bourse compendium, September 2022",
+"publisher": "Surat Diamond Bourse",
+"url": "https://www.suratdiamondbourse.in/wp-content/uploads/2025/07/39-Sept-2022-Compendium_compressed.pdf",
+"date": "September 2022",
+"kind": "industry_body",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"dia_units",
+"dia_angadia"
+]
+}
+},
+"gjepc_sep2026": {
+"title": "India's Gem & Jewellery Exports Continue to Grow, Rising 9.43% to US$ 2.95 Billion in September 2026",
+"publisher": "GJEPC (Solitaire)",
+"url": "https://gjepc.org/solitaire/indias-gem-jewellery-exports-continue-to-grow-rising-9-43-to-us-2-95-billion-in-september-2026/",
+"date": "October 2026",
+"kind": "industry_body",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"dia_exports",
+"dia_lgd"
+]
+}
+},
+"fe_diamond_diwali_2026": {
+"title": "Surat diamond units halve Diwali break on improved orders",
+"publisher": "The Financial Express",
+"url": "https://www.financialexpress.com/business/industry-surat-diamond-units-halve-diwali-break-on-improved-orders-4381612/",
+"date": "11 November 2026",
+"kind": "news",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"dia_share",
+"dia_diwali"
+]
+}
+},
+"bee_morbi_2010": {
+"title": "Manual on Energy Conservation Measures in Ceramic Industry, Morbi cluster (BEE SME Programme)",
+"publisher": "Bureau of Energy Efficiency",
+"url": "https://sameeeksha.org/pdf/clusterprofile/Morbi_Ceramic_Cluster.pdf",
+"date": "April 2010",
+"kind": "official",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"mor_units",
+"mor_energy_bee"
+]
+}
+},
+"teri_morbi_profile": {
+"title": "Cluster profile: Morbi ceramic cluster",
+"publisher": "TERI / SAMEEEKSHA",
+"url": "https://sameeeksha.org/pdf/clusterprofile/Morbi_Ceramic_Cluster-old.pdf",
+"date": "undated (older profile)",
+"kind": "study",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"mor_energy",
+"mor_mud"
+]
+}
+},
+"hbl_morbi_gas_2026": {
+"title": "Gujarat Energy's PNG sales in Morbi drop nearly 90% to 1 mmscmd in five months",
+"publisher": "The Hindu BusinessLine",
+"url": "https://www.thehindubusinessline.com/companies/gujarat-energys-png-sales-in-morbi-drop-nearly-90-to-1-mmscmd-in-five-months/article71681521.ece",
+"date": "9 November 2026",
+"kind": "news",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"mor_gas2026"
+]
+}
+},
+"ngt_morbi_2019": {
+"title": "Babubhai Ramubhai Saini vs Gujarat Pollution Control Board, NGT order of 6 March, 2019",
+"publisher": "National Green Tribunal (via Indian Kanoon)",
+"url": "https://indiankanoon.org/doc/107353160/",
+"date": "6 March 2019",
+"kind": "official",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"mor_ngt"
+]
+}
+},
+"teri_vapi_2022": {
+"title": "Cluster Profile Report: Vapi Chemical Cluster (for BEE), April 2022",
+"publisher": "TERI for Bureau of Energy Efficiency",
+"url": "https://sameeeksha.org/pdf/clusterprofile/Vapi%20chemical%20cluster.pdf",
+"date": "April 2022",
+"kind": "study",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"vapi_units"
+]
+}
+},
+"teri_ankleshwar_2012": {
+"title": "Cluster Profile Report: Ankleshwar Chemical Cluster (TERI 2012, for SIDBI)",
+"publisher": "TERI / SIDBI",
+"url": "https://www.sidbi.in/uploads/posts/Cluster-Profile-Report---Ankleshwar-(Chemical)-Cluster.pdf",
+"date": "2012",
+"kind": "study",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"ank_units",
+"ank_markets"
+]
+}
+},
+"cpcb_cepi_2018": {
+"title": "CEPI - 2018 Action Plans (Critically / Severely Polluted Areas)",
+"publisher": "Central Pollution Control Board",
+"url": "https://cpcb.nic.in/new-cepi-action-plan/",
+"date": "list updated 16 Nov 2022",
+"kind": "official",
+"verify": "manual",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "cached copy",
+"missing": [],
+"facts": [
+"cepi_gj"
+]
+}
+},
+"ie_moratorium_2016": {
+"title": "Centre lifts moratorium on Gujarat's 3 industrial clusters (Nov 27, 2016)",
+"publisher": "The Indian Express",
+"url": "https://indianexpress.com/article/india/india-news-india/centre-lifts-moratorium-on-gujarats-3-industrial-clusters-4397391/",
+"date": "27 November 2016",
+"kind": "news",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"moratorium_2016"
+]
+}
+},
+"teri_rajkot_foundry_2015": {
+"title": "Cluster Profile Report: Rajkot foundries (TERI 2015)",
+"publisher": "TERI / SAMEEEKSHA",
+"url": "https://sameeeksha.org/pdf/clusterprofile/Rajkot_Foundries_Gujarat.pdf",
+"date": "2015",
+"kind": "study",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"raj_units"
+]
+}
+},
+"teri_rajkot_pump": {
+"title": "Cluster profile: Rajkot pump cluster",
+"publisher": "TERI / SAMEEEKSHA",
+"url": "https://sameeeksha.org/pdf/clusterprofile/Rajkot_pump_cluster.pdf",
+"date": "c. 2015 (data to 2015)",
+"kind": "study",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"raj_pumps"
+]
+}
+},
+"dips_rajkot": {
+"title": "Brief Industrial Profile of Rajkot District (Action Plan 2012-13)",
+"publisher": "MSME-DI (Br) Rajkot, Ministry of MSME",
+"url": "https://www.dcmsme.gov.in/dips/DIPS%2C%20RAJKOT-guj.pdf",
+"date": "2012-13",
+"kind": "official",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"raj_diesel"
+]
+}
+},
+"dop_clusters_2023": {
+"title": "Survey of Pharma Clusters (study for the Department of Pharmaceuticals), February 2023",
+"publisher": "Department of Pharmaceuticals / Centre for Market Research & Social Development",
+"url": "https://pharma-dept.gov.in/sites/default/files/Final%20Report-Survey%20of%20Pharma%20Clusters.pdf",
+"date": "February 2023 (fieldwork May to August 2022)",
+"kind": "official",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"amd_pharma_units"
+]
+}
+},
+"vg_pharma": {
+"title": "Pharmaceuticals sector page, Vibrant Gujarat (Government of Gujarat promotion site)",
+"publisher": "Government of Gujarat (Vibrant Gujarat)",
+"url": "https://www.vibrantgujarat.com/sectors/pharmaceuticals",
+"date": "read Nov 2026; figures FY 2023-24 and FY 2025-26",
+"kind": "official",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"gj_pharma_share"
+]
+}
+},
+"pib_alang_2026": {
+"title": "Ship recycling at Alang-Sosiya (PIB, 28 Jul 2026)",
+"publisher": "PIB, Ministry of Ports, Shipping and Waterways",
+"url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290486&lang=1&reg=3",
+"date": "28 July 2026",
+"kind": "official",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"alang_capacity",
+"alang_creditnote"
+]
+}
+},
+"dgma_ship_recycling": {
+"title": "Ship Recycling in India (DG Shipping, Engineering Wing)",
+"publisher": "Directorate General of Shipping",
+"url": "https://www.dgma.gov.in/engineering-wing/ew-ship-recycling-in-india",
+"date": "read Nov 2026",
+"kind": "official",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"alang_hkc"
+]
+}
+},
+"fe_alang_2026": {
+"title": "Gujarat targets turnaround of ailing Alang-Sosiya Ship Recycling Yard",
+"publisher": "The Financial Express",
+"url": "https://www.financialexpress.com/business/industry/gujarat-targets-turnaround-of-ailing-alang-sosiya-ship-recycling-yard/4305776/",
+"date": "29 July 2026",
+"kind": "news",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"alang_idle",
+"alang_arrivals"
+]
+}
+},
+"pib_ports_2025": {
+"title": "Major ports cargo FY 2024-25 (PIB, 13 May 2025)",
+"publisher": "PIB, Ministry of Ports, Shipping and Waterways",
+"url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128329&lang=2&reg=3",
+"date": "13 May 2025",
+"kind": "official",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"kandla_cargo"
+]
+}
+},
+"gerc_tariff_2026": {
+"title": "Tariff Schedule of DGVCL, MGVCL, PGVCL & UGVCL w.e.f. 01.04.2026",
+"publisher": "Gujarat Electricity Regulatory Commission",
+"url": "https://staging.gercin.org/wp-content/uploads/2026/03/Tariff-Schedule-of-DGVCL-MGVCL-PGVCL-UGVCL-w.e.f.-01.04.2026.pdf",
+"date": "March 2026, effective 1 April 2026",
+"kind": "official",
+"verify": "fetch",
+"check": {
+"status": "ok",
+"checked": "2026-11-15",
+"method": "fetched",
+"missing": [],
+"facts": [
+"gj_power_tariff"
+]
+}
+}
+},
+"facts": {
+"sur_chain": {
+"id": "sur_chain",
+"clusters": [
+"surat_textiles"
+],
+"section": "local",
+"topic": "units",
+"text": "Surat's chain runs from yarn texturising to weaving to processing: the Textile Commissioner's cluster note counted around 350 texturising and twisting units, 3.5 lakh powerlooms and around 470 processing units.",
+"quotes": [
+"There are around 350 texturising and twisting units",
+"3.5 Lakh powerlooms",
+"There are around 470 processing units."
+],
+"src": "technotex_surat"
+},
+"sur_shed": {
+"id": "sur_shed",
+"clusters": [
+"surat_textiles"
+],
+"section": "local",
+"topic": "practice",
+"text": "Weaving units are small: the same note puts the average at 12 looms per unit and records that several units usually operate in one common shed to keep small-scale (SSI) status.",
+"quotes": [
+"Average no. of powerlooms in a unit is 12. Usually no. of units operate in a common shed to keep SSI status."
+],
+"src": "technotex_surat"
+},
+"sur_jobwork": {
+"id": "sur_jobwork",
+"clusters": [
+"surat_textiles"
+],
+"section": "local",
+"topic": "practice",
+"text": "Processing houses work on job-work charges: the note sizes Surat processing (and embroidery and value addition) by job-work turnover, not by sales of fabric they own.",
+"quotes": [
+"is processed annually with the job work turnover of",
+"on job work charges"
+],
+"src": "technotex_surat"
+},
+"sur_dips": {
+"id": "sur_dips",
+"clusters": [
+"surat_textiles"
+],
+"section": "local",
+"topic": "units",
+"text": "About 24,000 of Surat district's units are in textiles; Surat contributes 18% of India's manmade-fibre exports and 40% of its manmade-fabric production (MSME-DI district survey 2016-17).",
+"quotes": [
+"While about 24,000 units in textile and 11,000 units in repairing and servicing are functioning in the district.",
+"It contributes 18 % to the total manmade fiber exports and 40 % of manmade fabric production in India."
+],
+"src": "dips_surat"
+},
+"sur_processing": {
+"id": "sur_processing",
+"clusters": [
+"surat_textiles"
+],
+"section": "local",
+"topic": "structure",
+"text": "A 2012 TERI study counted about 400 processing units: around 330 integrated dyeing-and-printing houses and 70-odd dyeing-only units, organised in the South Gujarat Textile Processors Association (SGTPA).",
+"quotes": [
+"There are about 400 textile processing units in the cluster",
+"around 330 are integrated units with facilities for both dyeing and printing, while the remaining70-odd units have only dyeing facilities",
+"South Gujarat Textile Processors Association (SGTPA)"
+],
+"src": "sameeeksha_2012"
+},
+"gst_jobwork": {
+"id": "gst_jobwork",
+"clusters": [
+"surat_textiles"
+],
+"section": "economics",
+"topic": "tax",
+"text": "Job work on textiles and textile products of Chapters 50 to 63 (services on goods owned by others, heading 9988) is in the concessional GST entry of Notification 15/2025-Central Tax (Rate), effective 22 September 2025: check a processor's job-work invoices against it.",
+"quotes": [
+"(g) Textiles and textile products falling under Chapters 50 to 63 in the First Schedule to the Customs Tariff Act, 1975",
+"services on physical inputs (goods) owned by others",
+"Heading 9988"
+],
+"src": "gst_15_2025"
+},
+"dia_units": {
+"id": "dia_units",
+"clusters": [
+"surat_diamonds"
+],
+"section": "local",
+"topic": "units",
+"text": "Surat's diamond industry employs nearly 7 lakh people in more than 6000 cutting and polishing units (Surat Diamond Bourse, 2022).",
+"quotes": [
+"nearly 7 lakh people, working in more than 6000 units of diamond cutting and polishing"
+],
+"src": "sdb_2022"
+},
+"dia_share": {
+"id": "dia_share",
+"clusters": [
+"surat_diamonds"
+],
+"section": "local",
+"topic": "stress",
+"text": "Surat processes about 90% of the world's diamonds; in the downturn manufacturers curtailed production, reduced working days and some kept units shut for extended periods (Financial Express, Nov 2026).",
+"quotes": [
+"Surat, which processes about 90% of the world's diamonds, had seen manufacturers curtail production, reduce working days and, in some cases, keep units shut for extended periods as demand weakened."
+],
+"src": "fe_diamond_diwali_2026"
+},
+"dia_angadia": {
+"id": "dia_angadia",
+"clusters": [
+"surat_diamonds"
+],
+"section": "local",
+"topic": "practice",
+"text": "The trade runs on trust-based informal systems: angadias (couriers) carry the diamonds and messages move on chits (Surat Diamond Bourse compendium).",
+"quotes": [
+"working system involving angadias for carrying the diamonds, informal message communications using chits"
+],
+"src": "sdb_2022"
+},
+"dia_exports": {
+"id": "dia_exports",
+"clusters": [
+"surat_diamonds"
+],
+"section": "economics",
+"topic": "markets",
+"text": "India's cut and polished diamond exports in April-September 2026: US$ 5.81 billion, down 6.96% in dollars but up 2.31% in rupees; volumes up 4.64% to 83.98 lakh carats (GJEPC).",
+"quotes": [
+"export volumes increasing 4.64% to 83.98 lakh carats during April-September 2026. In value terms, exports stood at US$ 5.81 billion, decline of 6.96%, however, recorded 2.31% growth in rupee terms."
+],
+"src": "gjepc_sep2026"
+},
+"dia_lgd": {
+"id": "dia_lgd",
+"clusters": [
+"surat_diamonds"
+],
+"section": "economics",
+"topic": "markets",
+"text": "Polished lab-grown diamond exports grew 17.08% to US$ 685.10 million in April-September 2026 (GJEPC).",
+"quotes": [
+"Polished lab-grown diamonds have also delivered positive results, with exports growing 17.08% to US$ 685.10 million"
+],
+"src": "gjepc_sep2026"
+},
+"dia_diwali": {
+"id": "dia_diwali",
+"clusters": [
+"surat_diamonds"
+],
+"section": "economics",
+"topic": "seasonality",
+"text": "Seasonality: units take an annual Diwali break; this year they cut it to around 15 days on Christmas-season orders, against breaks of nearly a month or more in the previous two years (Financial Express, 11 November 2026).",
+"quotes": [
+"sharply curtail their annual Diwali vacation to around 15 days this year. This marks a significant turnaround from the extended breaks of nearly a month or more over the past two years"
+],
+"src": "fe_diamond_diwali_2026"
+},
+"mor_units": {
+"id": "mor_units",
+"clusters": [
+"morbi_ceramics"
+],
+"section": "local",
+"topic": "units",
+"text": "BEE's Morbi manual counted approximately 479 ceramic units (wall, vitrified and floor tiles, sanitaryware, roofing tiles) with around 50 more coming up; more than 70% of India's tile manufacturing is from Morbi.",
+"quotes": [
+"There are approximately 479 ceramic units in this cluster",
+"There are around 50 more ceramic units coming up in Morbi.",
+"more than 70% of tile manufacturing in India is from Morbi"
+],
+"src": "bee_morbi_2010"
+},
+"mor_energy": {
+"id": "mor_energy",
+"clusters": [
+"morbi_ceramics"
+],
+"section": "economics",
+"topic": "input_cost",
+"text": "Energy is the swing cost: 30-35% of total production cost per the TERI cluster profile. Natural gas meets more than half of the thermal energy need; charcoal and lignite are used mainly in spray dryers.",
+"quotes": [
+"Energy cost comprises 30-35% of the total production cost.",
+"More than half of the thermal energy requirement is met through NG. Charcoal and lignite are mainly used in spray dryers."
+],
+"src": "teri_morbi_profile"
+},
+"mor_energy_bee": {
+"id": "mor_energy_bee",
+"clusters": [
+"morbi_ceramics"
+],
+"section": "economics",
+"topic": "input_cost",
+"text": "BEE's manual puts energy at about 25% to 30% of production cost.",
+"quotes": [
+"about 25% to 30% of the production cost is energy cost"
+],
+"src": "bee_morbi_2010"
+},
+"mor_mud": {
+"id": "mor_mud",
+"clusters": [
+"morbi_ceramics"
+],
+"section": "local",
+"topic": "structure",
+"text": "Around 40 units make spray-dried mud (body powder) and supply it to smaller tile units.",
+"quotes": [
+"Around 40 units manufacture spray-dried mud, which is supplied to the smaller units."
+],
+"src": "teri_morbi_profile"
+},
+"mor_gas2026": {
+"id": "mor_gas2026",
+"clusters": [
+"morbi_ceramics"
+],
+"section": "economics",
+"topic": "input_cost",
+"text": "Fuel switching is fast and price-driven: Gujarat Energy's gas volumes to Morbi fell nearly 90% in five months to around 1 mmscmd, from a peak of 8.5 mmscmd during the Iran-war supply disruption, as units switched back to propane (BusinessLine, 9 November 2026).",
+"quotes": [
+"natural gas volumes to India's biggest ceramic cluster in Morbi have nose-dived nearly 90 per cent in the last five months to around 1 million standard cubic metres per day (mmscmd), from a peak of 8.5 mmscmd during the supply disruption triggered by the Iran war, as improving propane availability has prompted manufacturers to switch back to the alternative fuel."
+],
+"src": "hbl_morbi_gas_2026"
+},
+"mor_ngt": {
+"id": "mor_ngt",
+"clusters": [
+"morbi_ceramics"
+],
+"section": "local",
+"topic": "regulation",
+"text": "Environmental closures have hit the cluster before: the NGT's March 2019 order records that Type-A coal-gasifier units were closed with power disconnected, and that GPCB had issued closure notices to 860 ceramic units in April 2018.",
+"quotes": [
+"all those industries are closed and closure orders have been passed and even the electricity supply has been disconnected",
+"notice has been issued to 860 ceramic units in April 2018 for closure"
+],
+"src": "ngt_morbi_2019"
+},
+"vapi_units": {
+"id": "vapi_units",
+"clusters": [
+"vapi_chemicals"
+],
+"section": "local",
+"topic": "units",
+"text": "Vapi has 300+ chemical manufacturing units, about 277 operational, in GIDC phase-1, phase-2 and phase-3 plus Sarigram; most have operated for the last 20 years (TERI for BEE, April 2022).",
+"quotes": [
+"There are 300+ chemical manufacturing units in Vapi cluster out of which about 277 units are presently operational. All these chemical manufacturing units are located in vapi phase-1,phase-2 & phase-3 of industrial area, few units are also located in Sarigram. Most of these manufacturing units are operational for the last 20 years."
+],
+"src": "teri_vapi_2022"
+},
+"ank_units": {
+"id": "ank_units",
+"clusters": [
+"ankleshwar_chemicals"
+],
+"section": "local",
+"topic": "units",
+"text": "Ankleshwar has close to 1,200 MSME units of which 600 are chemical units (dyes, pigments, insecticides, specialty chemicals, petrochemicals, pharmaceuticals, paints), on an estate of 1,600 hectares (TERI/SIDBI 2012).",
+"quotes": [
+"There are close to 1,200 MSME units in the Ankleshwar cluster, out of which 600 are chemical units, which manufacture various types of chemicals, like dyes, pigments, insecticides, specialty chemicals, petrochemicals, pharmaceuticals, and paints.",
+"spread over an area of 1,600 hectares"
+],
+"src": "teri_ankleshwar_2012"
+},
+"ank_markets": {
+"id": "ank_markets",
+"clusters": [
+"ankleshwar_chemicals"
+],
+"section": "local",
+"topic": "markets",
+"text": "Demand markets: the Ankleshwar chemical cluster mainly supplies large pharmaceutical companies in Ankleshwar and large textile manufacturers in Surat.",
+"quotes": [
+"The Ankleshwar chemical cluster mainly caters to the demands of various large pharmaceutical enterprises based in Ankleshwar and large textile manufacturers based in Surat."
+],
+"src": "teri_ankleshwar_2012"
+},
+"cepi_gj": {
+"id": "cepi_gj",
+"clusters": [
+"vapi_chemicals",
+"ankleshwar_chemicals",
+"surat_textiles",
+"rajkot_engineering"
+],
+"section": "local",
+"topic": "regulation",
+"text": "CPCB's CEPI 2018 action-plan list classes Ankleshwar, Rajkot, Surat, Vadodara, Vatva and Vapi as Critically Polluted Areas.",
+"quotes": [
+"CEPI - 2018 Action Plans",
+"| Gujarat (7) | Ankleshwar | --- |",
+"| | Rajkot | --- |",
+"| | Surat | --- |",
+"| | Vadodara | --- |",
+"| | Vatva | --- |",
+"| | Vapi | --- |"
+],
+"src": "cpcb_cepi_2018"
+},
+"moratorium_2016": {
+"id": "moratorium_2016",
+"clusters": [
+"vapi_chemicals",
+"ankleshwar_chemicals"
+],
+"section": "local",
+"topic": "regulation",
+"text": "Ankleshwar, Vapi and Vatva were under a moratorium on expansion and new investment for six years until the Centre lifted it (Indian Express, 27 November 2016).",
+"quotes": [
+"Six years after they were put on \"critically polluted area\" list, the Modi government Saturday announced the decision to lift the moratorium on expansion and new investments in Gujarat's industrial clusters of Ankleshwar, Vapi and Vatva"
+],
+"src": "ie_moratorium_2016"
+},
+"raj_units": {
+"id": "raj_units",
+"clusters": [
+"rajkot_engineering"
+],
+"section": "local",
+"topic": "units",
+"text": "An estimated 14,000 MSME units are in the Rajkot cluster, around 5,500 of them engineering units, spread over Rajkot, Metoda and Shapar; there are about 700 grey-iron foundries (TERI 2015).",
+"quotes": [
+"There are an estimated 14,000 MSME units in Rajkot cluster, of which around 5,500 are engineering units. The cluster is spread within Rajkot and neighboring Metoda and Shapar",
+"There are about 700 grey iron foundry units in Rajkot cluster."
+],
+"src": "teri_rajkot_foundry_2015"
+},
+"raj_pumps": {
+"id": "raj_pumps",
+"clusters": [
+"rajkot_engineering"
+],
+"section": "local",
+"topic": "markets",
+"text": "Pump makers grew from about 350 in 2010 to about 1000 in 2015 on farm demand for submersible pump sets; the Rajkot Engineering Association has over 1000 member units.",
+"quotes": [
+"By 2010 there were about 350 pump manufacturers in Rajkot, and this number has grown to about 1000 in 2015",
+"matching the growth in demand for submersible pump sets in the agricultural sector",
+"Rajkot Engineering Association (REA) is the apex industry association in the cluster, with a membership of over 1000 engineering units."
+],
+"src": "teri_rajkot_pump"
+},
+"raj_diesel": {
+"id": "raj_diesel",
+"clusters": [
+"rajkot_engineering"
+],
+"section": "local",
+"topic": "stress",
+"text": "The older diesel-engine and pump sub-cluster (375 units, Rs 200 crores turnover in the 2012-13 district profile) listed lack of innovation, the farm shift to submersible pumps, export uncertainty and Chinese competition as its main issues.",
+"quotes": [
+"Rajkot Engineering Cluster Diesel Engine / Pump Rajkot Engineering Association, Bhaktinagar Industrial Area, Rajkot 375 No. Rs. 200 crores",
+"1. Lack of innovation capabilities 2. SEVERELY HIT after the farmers were forced to switch to alternatives such as the submersible pumps",
+"3. Uncertainty in Export market 4. High competition from China due to light weight and lower cost."
+],
+"src": "dips_rajkot"
+},
+"amd_pharma_units": {
+"id": "amd_pharma_units",
+"clusters": [
+"ahmedabad_pharma"
+],
+"section": "local",
+"topic": "units",
+"text": "The Department of Pharmaceuticals' cluster survey (Feb 2023) counts 442 pharma units in the Ahmedabad cluster: 44 micro, 61 small, 175 medium and 162 large.",
+"quotes": [
+"Pharma Cluster Micro Small Medium Large",
+"Ahmedabad 44 61 175 162 442"
+],
+"src": "dop_clusters_2023"
+},
+"gj_pharma_share": {
+"id": "gj_pharma_share",
+"clusters": [
+"ahmedabad_pharma"
+],
+"section": "economics",
+"topic": "markets",
+"text": "Gujarat makes 16% of India's pharma output (FY 2023-24) and exported USD 4.4 Bn, a 17% share of India's pharma exports (FY 2025-26), to markets like USA, Brazil, UK, Belgium and Nigeria; it has 150 USFDA-approved units (Government of Gujarat).",
+"quotes": [
+"16% share in Total Output in Pharmaceuticals Sector (FY 2023-24)",
+"USD 4.4 Bn, contributing 17% share in India's exports (FY 2025-26)",
+"Caters to key markets like USA, Brazil, UK, Belgium, Nigeria.",
+"150 USFDA approved units"
+],
+"src": "vg_pharma"
+},
+"alang_capacity": {
+"id": "alang_capacity",
+"clusters": [
+"alang_shipbreaking"
+],
+"section": "local",
+"topic": "units",
+"text": "Alang-Sosiya handles 98% of India's ship recycling; it has 128 operational plots with capacity of 4.5 million LDT per annum, and 115 plots are Hong Kong Convention (HKC) compliant (PIB, July 2026).",
+"quotes": [
+"handles 98% of India's ship recycling activity. The yard has 128 currently operational plots having recycling capacity of 4.5 million LDT per annum.",
+"115 ship recycling plots at Alang have achieved HKC compliance"
+],
+"src": "pib_alang_2026"
+},
+"alang_hkc": {
+"id": "alang_hkc",
+"clusters": [
+"alang_shipbreaking"
+],
+"section": "local",
+"topic": "regulation",
+"text": "The Hong Kong Convention entered into force on 26 June 2025, making compliance mandatory for Parties.",
+"quotes": [
+"The Convention entered into force on 26 June 2025, making compliance mandatory for Parties."
+],
+"src": "dgma_ship_recycling"
+},
+"alang_idle": {
+"id": "alang_idle",
+"clusters": [
+"alang_shipbreaking"
+],
+"section": "local",
+"topic": "stress",
+"text": "Capacity is mostly idle: of 150 plots, 128 are allotted but only approximately 35-40 are operational because of the global downturn and few end-of-life vessels (GMB to Financial Express, July 2026).",
+"quotes": [
+"yard comprises 150 plots, of which 128 plots are presently allotted to ship recyclers. Owing to the prevailing downturn in the global ship recycling market and limited availability of end-of-life vessels, approximately 35-40 plots are presently operational."
+],
+"src": "fe_alang_2026"
+},
+"alang_arrivals": {
+"id": "alang_arrivals",
+"clusters": [
+"alang_shipbreaking"
+],
+"section": "economics",
+"topic": "capacity",
+"text": "Ship arrivals at Alang: 209 in 2021-22, 131 in 2022-23, 125 in 2023-2024, 113 in 2024-2025 and 119 in 2025-26 (official figures quoted by Financial Express).",
+"quotes": [
+"In 2021-22, the number was 209, followed by 131 in 2022-23, 125 in 2023-2024, 113 in 2024-2025",
+"The year 2025-26 saw 119 vessels coming."
+],
+"src": "fe_alang_2026"
+},
+"alang_creditnote": {
+"id": "alang_creditnote",
+"clusters": [
+"alang_shipbreaking"
+],
+"section": "local",
+"topic": "regulation",
+"text": "Policy support: under the Shipbreaking Credit Note Scheme, ship owners get a credit note worth 40% of the scrap value when they recycle at an HKC-compliant Indian yard (PIB).",
+"quotes": [
+"ship owners receive a credit note equivalent to 40% of the scrap value of a recycled ship when the recycling is carried out at an HKC-compliant Indian ship recycling yard"
+],
+"src": "pib_alang_2026"
+},
+"kandla_cargo": {
+"id": "kandla_cargo",
+"clusters": [
+"kandla_logistics"
+],
+"section": "local",
+"topic": "structure",
+"text": "Deendayal Port (Kandla) and Paradip were the first major ports to cross the 150-million-tonne cargo mark, in FY 2024-25 (PIB, May 2025).",
+"quotes": [
+"For the first time in the history of Major Ports, the Paradip Port Authority (PPA) and Deendayal Port Authority (DPA) surpassed the 150-million-tonne cargo handling mark"
+],
+"src": "pib_ports_2025"
+},
+"gj_power_tariff": {
+"id": "gj_power_tariff",
+"clusters": [
+"*GJ_MFG"
+],
+"section": "economics",
+"topic": "input_cost",
+"text": "Power, Gujarat state DISCOMs (DGVCL, MGVCL, PGVCL, UGVCL) from 1 April 2026: LT industrial (LTMD) energy charge 460 paise per unit post-paid; HT (HTP-1) 400 paise per unit up to 500 kVA billing demand, 420 up to 2500 kVA and 430 above, plus demand charges and peak-hour charges (0700 to 1100 and 1800 to 2200 hrs). A unit on a private licensee's supply has a different schedule: read its own bill.",
+"quotes": [
+"Post-Paid Energy Charge Pre-paid Energy Charge 460 Paise per Unit",
+"(a) Up to 500 kVA of billing demand 400 Paise per unit (b) For billing demand above 500 kVA and up to 2500 kVA 420 Paise per Unit (c) For billing demand above 2500 kVA 430 Paise per Unit",
+"0700 Hrs. to 1100 Hrs. and 1800 Hrs. to 2200 Hrs.",
+"RATE: HTP-1",
+"RATE: LTMD"
+],
+"src": "gerc_tariff_2026"
+}
+},
+"families": {
+"textile_weaving": {
+"label": "Textile weaving (MMF, cotton, powerloom)",
+"model": "Weavers buy yarn on credit from yarn dealers or spinners and sell grey fabric, usually on credit, to traders who get it processed and sell it on. Many weavers work on job-work for traders and own neither the yarn nor the fabric. The margin is the conversion spread between yarn and grey fabric; working capital is trader receivables plus yarn stock.",
+"facilities": [
+"Cash credit against stock and book debts, with drawing power from the stock statement and only debtors within the sanctioned age",
+"Term loan for looms (water-jet, air-jet, rapier) secured on the machines and the shed; prefer modernisation over a pure capacity add in a weak market",
+"Bill or invoice discounting (including TReDS where the buyer is eligible) instead of open cash credit where buyers are identifiable"
+],
+"tenor": "Match term-loan tenor to the useful life of the looms and to repayment capacity tested at peer-median margins, not the promoter's projection. Avoid bullet repayment.",
+"security": [
+"Hypothecation of looms and stock; mortgage of the shed or factory land",
+"Personal guarantees of all partners or directors, and clarity on who owns the shed where several units share it",
+"Insurance of machines and stock with the bank clause"
+],
+"covenants": [
+"Monthly stock and book-debt statements with an ageing of trader receivables",
+"Cap on loans and advances to group or sister units in the same shed",
+"Sales proceeds routed through the lending bank's account"
+],
+"monitoring": [
+"Power consumption month on month against production",
+"Debtors beyond the agreed age rising",
+"Production holidays or shift cuts announced in the cluster"
+],
+"red_flags": {
+"financials": [
+"Job-work income booked as sales of own fabric (inflates turnover)",
+"Yarn purchases that do not match the looms' capacity"
+],
+"gst": [
+"Grey fabric sold to a handful of traders who are themselves new registrants"
+],
+"bank": [
+"Trader payments in round amounts unrelated to invoices"
+],
+"site": [
+"Several units in one shed on a common power meter: confirm which machines belong to the borrower",
+"Looms idle during a working shift"
+]
+},
+"questions": [
+"Do you weave your own yarn or on job-work for traders, and in what proportion?",
+"Which traders take your fabric and in how many days do they actually pay?",
+"How many looms run per shift and how many shifts do you run?"
+],
+"upgrade": [
+"Trader receivable days falling across the cluster",
+"Yarn prices stable while fabric realisations hold"
+],
+"downgrade": [
+"Weavers' associations calling production holidays",
+"Payment delays or failures among textile-market traders",
+"Sharp rise in yarn prices that weavers cannot pass on"
+]
+},
+"textile_processing": {
+"label": "Textile processing (dyeing, printing, finishing)",
+"model": "Processing houses dye, print and finish fabric owned by traders and charge a job-work rate per metre. Revenue is a conversion charge; the main costs are dyes and chemicals, steam and thermal energy, power, water and effluent treatment. Pollution-control compliance decides whether the unit can run at all.",
+"facilities": [
+"Cash credit for dyes, chemicals and fuel stock plus job-work receivables",
+"Term loan for machines (jets, stenters, printing) or effluent treatment; compliance upgrades protect the asset",
+"Do not fund the fabric itself: it belongs to the trader"
+],
+"tenor": "Tenor to match machine life and repayment capacity on job-work rates at peer-median margins.",
+"security": [
+"Hypothecation of machinery and stock, mortgage of the factory",
+"Personal guarantees of promoters",
+"Fire insurance that also covers trader-owned fabric held in custody"
+],
+"covenants": [
+"Valid consent to operate from the pollution control board and current common effluent plant membership",
+"Monthly job-work register and receivable ageing",
+"No diversion into fabric trading without consent"
+],
+"monitoring": [
+"Pollution-board closure notices or effluent-capacity limits in the estate",
+"Fuel and dye cost increases not passed into job-work rates",
+"Fall in metres processed"
+],
+"red_flags": {
+"financials": [
+"Turnover that includes the value of trader-owned fabric rather than the job-work charge"
+],
+"gst": [
+"Job-work invoices at a rate that does not match the job-work entry"
+],
+"bank": [
+"Receipts from traders far below metres processed times the stated rate"
+],
+"site": [
+"Effluent treatment plant not running or bypassed",
+"Boiler fuel actually used versus the consented fuel"
+]
+},
+"questions": [
+"Until when is your consent to operate valid, and what is your effluent allocation?",
+"What job-work rate per metre do you charge and when did you last revise it?",
+"Which traders give you most of your work and how fast do they pay?"
+],
+"upgrade": [
+"Job-work rates revised up across the cluster",
+"Common effluent capacity expanded in the estate"
+],
+"downgrade": [
+"Closure directions from the pollution board in the estate",
+"Sustained fuel or dye cost rise without a job-work rate revision"
+]
+},
+"yarn": {
+"label": "Yarn and fibre (MMF texturising, spinning, ginning)",
+"model": "Yarn makers convert polyester chips, partially oriented yarn or fibre into finished yarn and sell to weavers on credit. Input prices track crude-oil derivatives (or cotton for spinners and ginners); margins depend on passing input changes through quickly, and stock losses hit when input prices fall.",
+"facilities": [
+"Cash credit or working capital demand loan against raw material, yarn stock and weaver receivables",
+"Letter of credit or buyer's credit for imported inputs, with hedging of foreign-currency exposure",
+"Term loan for texturising or spinning machines"
+],
+"tenor": "Term debt tenor to match machine life; size working capital on peer-level inventory and debtor days.",
+"security": [
+"Hypothecation of stock, receivables and machinery; mortgage of the factory",
+"Personal guarantees of promoters"
+],
+"covenants": [
+"Monthly stock statements valued at the lower of cost or market",
+"Policy on open foreign-currency exposure",
+"Ageing of weaver receivables"
+],
+"monitoring": [
+"Crude, PTA and MEG (or cotton) price swings",
+"Weaver demand and production holidays downstream",
+"Inventory valuation losses"
+],
+"red_flags": {
+"financials": [
+"Inventory gains booked in a rising market that reverse later"
+],
+"gst": [
+"Input credit build-up from an inverted duty structure not being refunded"
+],
+"bank": [
+"Weaver collections slowing"
+],
+"site": [
+"Machines idle for want of orders"
+]
+},
+"questions": [
+"How quickly do you pass on changes in input prices?",
+"How much input is imported and how is it hedged?",
+"Who are your largest weaver customers?"
+],
+"upgrade": [
+"Input prices stable and spreads holding"
+],
+"downgrade": [
+"Input price spike with weak downstream demand",
+"Cheap yarn imports"
+]
+},
+"textile_trading": {
+"label": "Textile trading (wholesale fabric markets)",
+"model": "Traders buy grey fabric from weavers, get it processed on job-work and sell finished fabric or sarees to wholesalers and retailers across India, mostly on long credit. The business is receivables and stock; the fixed asset is a shop or office in a textile market.",
+"facilities": [
+"Cash credit against stock and receivables with tight ageing limits",
+"Bill or invoice discounting against identifiable buyers",
+"No term loan for capacity: there is none to build"
+],
+"tenor": "Working capital only, renewed every year against audited figures and receivable ageing.",
+"security": [
+"Hypothecation of stock and receivables; mortgage of the shop, office or residence as collateral",
+"Personal guarantees"
+],
+"covenants": [
+"Receivable ageing with a cut-off for drawing power",
+"Periodic stock audit",
+"Limit on credit to any one buyer"
+],
+"monitoring": [
+"Buyer concentration and defaults in outstation markets",
+"Unsold seasonal stock after the wedding and festival seasons"
+],
+"red_flags": {
+"financials": [
+"Very thin margins with fast-rising turnover (circular trading)"
+],
+"gst": [
+"Purchases from and sales to the same parties"
+],
+"bank": [
+"Cash deposits dominating receipts"
+],
+"site": [
+"Shop stock not matching the statement"
+]
+},
+"questions": [
+"Which markets and buyers do you sell to and on what credit?",
+"How much of your stock is older than one season?"
+],
+"upgrade": [
+"Strong festival and wedding season sell-through"
+],
+"downgrade": [
+"Payment delays from outstation buyers",
+"Rising unsold stock"
+]
+},
+"diamonds": {
+"label": "Diamond cutting and polishing",
+"model": "Manufacturers buy rough diamonds (mostly imported, often on credit from sightholders or traders), cut and polish them, and sell polished stones to exporters, jewellers or overseas buyers. Margins are thin and depend on the rough-to-polished price spread; working capital is large because inventory is valuable and the cycle is long. Lab-grown diamonds compete with natural stones on price.",
+"facilities": [
+"Packing credit and post-shipment credit for exporters, with export proceeds routed through the bank",
+"Working capital against inventory only with independent valuation and close stock audit",
+"Machinery term loans (lasers, planning machines) are small; the risk sits in the inventory"
+],
+"tenor": "Short, self-liquidating export finance; no long-tenor unsecured exposure.",
+"security": [
+"Hypothecation of rough and polished stock with periodic independent valuation and stock audit",
+"Collateral property, because stock is easy to move",
+"Personal guarantees"
+],
+"covenants": [
+"Monthly stock statements valued by an approved valuer",
+"Export realisation within the permitted period; no unexplained overdue export bills",
+"Disclosure of every banking and trade-credit relationship"
+],
+"monitoring": [
+"Natural versus lab-grown price trend",
+"Rough imports versus polished exports",
+"Working-day cuts and unit closures in the cluster"
+],
+"red_flags": {
+"financials": [
+"Inventory rising while sales fall",
+"Large receivables from overseas related parties"
+],
+"gst": [
+"Job-work charges that do not match polished output"
+],
+"bank": [
+"Export proceeds arriving late or from parties other than the buyer",
+"Large cash or informal transfers"
+],
+"site": [
+"Machines and workers present versus claimed throughput",
+"Stock lying with job-workers or brokers"
+]
+},
+"questions": [
+"What share of your work is natural versus lab-grown, and how have their prices moved?",
+"Who supplies your rough and on what credit?",
+"Which buyers take your polished goods and on what payment terms?"
+],
+"upgrade": [
+"Polished prices and export values recovering together",
+"Working days restored across the cluster"
+],
+"downgrade": [
+"Export values falling while volumes rise (price pressure)",
+"Unit closures or long holidays",
+"Overdue export bills"
+]
+},
+"ceramics": {
+"label": "Ceramic tiles and sanitaryware",
+"model": "Units make tiles from clay and body powder, fire them in gas- or fuel-fired kilns, and sell through dealers across India and abroad. Energy is the largest controllable cost, so fuel price and fuel choice drive margins. The cluster has many similar units, so prices fall quickly when capacity runs ahead of demand.",
+"facilities": [
+"Cash credit against stock and dealer receivables",
+"Term loan for kilns, presses and polishing lines secured on the plant; test repayment at stressed fuel prices",
+"Export packing credit for exporters"
+],
+"tenor": "Term-loan tenor to match plant life, with a moratorium only for genuine construction; repayment tested at peer-median margins and stressed fuel cost.",
+"security": [
+"Mortgage of factory land and building, hypothecation of plant and stock",
+"Personal guarantees of promoters"
+],
+"covenants": [
+"Valid pollution-board consent and an approved fuel (no prohibited gasifiers)",
+"Monthly stock statements with ageing of finished goods",
+"Dealer receivable ageing"
+],
+"monitoring": [
+"Gas and propane prices and the unit's fuel switch",
+"Cluster shutdowns announced by the ceramic associations",
+"Finished goods piling up"
+],
+"red_flags": {
+"financials": [
+"Finished-goods stock rising faster than sales",
+"Margins above listed tile companies without a cost advantage"
+],
+"gst": [
+"Sales to dealers who are new registrants or do not file"
+],
+"bank": [
+"Gas bills paid late"
+],
+"site": [
+"Kilns shut or running below capacity",
+"Unauthorised fuel or gasifier in use"
+]
+},
+"questions": [
+"What fuel do your kilns and spray dryer use and how fast can you switch?",
+"How much finished stock do you hold and how old is it?",
+"Who are your largest dealers and export buyers?"
+],
+"upgrade": [
+"Fuel prices easing",
+"Housing and export demand picking up with stable tile prices"
+],
+"downgrade": [
+"Gas or propane price spike",
+"Cluster-wide shutdowns",
+"Trade-remedy action against Indian tiles abroad"
+]
+},
+"chemicals": {
+"label": "Chemicals, dyes and intermediates",
+"model": "Units make dyes, intermediates, agrochemicals or specialty chemicals from petrochemical feedstocks and sell to textile, pharma, agro and industrial buyers in India and abroad. Margins swing with feedstock prices and with Chinese export prices. Pollution compliance and effluent disposal capacity decide whether the plant can run.",
+"facilities": [
+"Cash credit against raw materials, finished goods and receivables",
+"Letters of credit for imported feedstock",
+"Term loans for capacity or effluent treatment; compliance upgrades protect the asset",
+"Export finance where exports are material"
+],
+"tenor": "Term debt tenor to match plant life, with repayment tested at peer-median margins and on a price-war scenario.",
+"security": [
+"Mortgage of the plant, hypothecation of stock and receivables",
+"Personal guarantees of promoters"
+],
+"covenants": [
+"Valid consents and hazardous-waste authorisation; membership of the common effluent and disposal facilities",
+"Periodic certification of environmental compliance",
+"Prompt disclosure of any pollution-board notice"
+],
+"monitoring": [
+"Closure notices from the pollution board in the estate",
+"Chinese price cuts on the unit's products",
+"Effluent or disposal capacity limits"
+],
+"red_flags": {
+"financials": [
+"Margins far above listed chemical companies",
+"Large inventory write-offs"
+],
+"gst": [
+"Exports claimed but shipping bills or refunds not matching"
+],
+"bank": [
+"Late payments to the effluent facility or hazardous-waste disposer"
+],
+"site": [
+"Condition of the effluent plant and storage",
+"Solvent recovery and hazardous-waste storage",
+"Fire safety"
+]
+},
+"questions": [
+"Which of your products face Chinese competition and how have your prices moved?",
+"What is your consent and effluent disposal status?",
+"Who are your top buyers and in which industries?"
+],
+"upgrade": [
+"Chinese supply curbs lifting Indian prices",
+"Stable feedstock prices"
+],
+"downgrade": [
+"Pollution-board closure action in the estate",
+"Price dumping from China",
+"Stress in a major buyer industry such as textiles"
+]
+},
+"pharma": {
+"label": "Pharmaceuticals (formulations and APIs)",
+"model": "Firms make active ingredients or finished formulations and sell to domestic distributors, institutions or export markets. Regulatory approvals are the moat: a plant's licences and inspection record decide which markets it can sell into. Working capital is driven by distributor and export receivables and by raw materials, often imported.",
+"facilities": [
+"Cash credit against stock and receivables",
+"Term loans for plant upgrades, especially quality systems",
+"Export finance where regulated-market exports are material"
+],
+"tenor": "Term debt tenor to match plant life, with headroom for remediation spending if an inspection goes badly.",
+"security": [
+"Mortgage of plant, hypothecation of stock and receivables",
+"Personal guarantees of promoters"
+],
+"covenants": [
+"Disclosure of any regulator warning letter, import alert or licence suspension",
+"Product licences kept current",
+"Receivable ageing from distributors and institutions"
+],
+"monitoring": [
+"Regulator inspection outcomes",
+"Price controls on key products",
+"Raw-material import dependence and price"
+],
+"red_flags": {
+"financials": [
+"Receivables from government institutions ageing",
+"Large loans to group concerns"
+],
+"gst": [
+"Batch production records not matching sales"
+],
+"bank": [
+"Distributor collections slowing"
+],
+"site": [
+"Quality systems and documentation",
+"Licence and inspection records"
+]
+},
+"questions": [
+"Which markets is your plant approved for and when was the last inspection?",
+"How dependent are you on imported raw materials?",
+"Which of your products are under price control?"
+],
+"upgrade": [
+"Clean inspections and new market approvals"
+],
+"downgrade": [
+"Warning letter or import alert",
+"Price controls on key products"
+]
+},
+"engineering": {
+"label": "Engineering, castings, pumps and components",
+"model": "Units machine, cast or forge metal parts and assemble pumps, engines and components for OEMs, farmers, dealers and export buyers. Steel and metal prices and power are key costs. Demand follows the investment cycle, farm incomes and OEM schedules; small units often supply bigger units on job-work.",
+"facilities": [
+"Cash credit against stock and receivables",
+"Term loans for CNC and foundry equipment secured on the machines",
+"Invoice discounting on TReDS for sales to larger buyers"
+],
+"tenor": "Term debt tenor to match machine life, tested at peer-median margins and on a slower order-book scenario.",
+"security": [
+"Hypothecation of machinery and stock, mortgage of the factory",
+"Personal guarantees of promoters"
+],
+"covenants": [
+"Order-book disclosure",
+"Receivable ageing, especially from large OEM buyers",
+"Pollution consent for foundries"
+],
+"monitoring": [
+"Order books and OEM schedules",
+"Steel and metal price swings",
+"Payment delays from large buyers"
+],
+"red_flags": {
+"financials": [
+"Order book not supporting projected sales",
+"Heavy dependence on one buyer"
+],
+"gst": [
+"Job-work for others booked as own sales"
+],
+"bank": [
+"Buyer payments stretching"
+],
+"site": [
+"Machine utilisation and number of shifts",
+"Foundry emission control"
+]
+},
+"questions": [
+"What is your current order book and from whom?",
+"How much of your output is job-work for larger units?",
+"How do steel price changes pass through to your buyers?"
+],
+"upgrade": [
+"Capex cycle and farm demand improving",
+"Stable steel prices"
+],
+"downgrade": [
+"Order cancellations",
+"Stress at a large buyer",
+"Poor monsoon for farm-pump makers"
+]
+},
+"shipbreaking": {
+"label": "Ship recycling",
+"model": "Recyclers buy end-of-life ships at international prices (usually in US dollars, often through cash buyers), beach and dismantle them, and sell steel scrap and re-rollable plates, machinery and fittings locally. Each ship is a large single bet on the scrap price and the rupee between purchase and sale; the plot earns nothing when no ship is available.",
+"facilities": [
+"Ship-wise transactional finance (letter of credit for the purchase, repaid from the scrap sales) rather than open limits",
+"No long-tenor term loans on plot infrastructure while plots are idle",
+"Cover for the currency exposure on purchase"
+],
+"tenor": "Short, ship-by-ship tenor matched to the dismantling cycle.",
+"security": [
+"Lien on the ship and its scrap stock, with stock audit",
+"Collateral property and personal guarantees"
+],
+"covenants": [
+"Hong Kong Convention compliance kept valid",
+"Purchase price and scrap sales tracked ship by ship",
+"Insurance of the vessel and the plot"
+],
+"monitoring": [
+"Ship arrivals and plot activity at the yard",
+"Steel scrap prices and the rupee",
+"Accidents and regulatory action on the plot"
+],
+"red_flags": {
+"financials": [
+"Losses parked in unsold scrap inventory"
+],
+"gst": [
+"Scrap sales to traders who do not file"
+],
+"bank": [
+"History of letter-of-credit devolvement"
+],
+"site": [
+"Plot idle; is the ship actually on the plot",
+"Safety and hazardous-waste handling"
+]
+},
+"questions": [
+"How many ships did you break in each of the last three years?",
+"What was your margin per ship, and your worst loss?",
+"Is your plot certified under the Hong Kong Convention?"
+],
+"upgrade": [
+"More ships coming for recycling as freight markets weaken",
+"Firm scrap prices"
+],
+"downgrade": [
+"Ship arrivals falling",
+"Rupee weakening during a ship's cycle",
+"Loss of compliance status"
+]
+},
+"logistics": {
+"label": "Ports, logistics and warehousing",
+"model": "Operators earn handling, freight or storage charges on cargo moving through ports and inland routes. Volumes follow trade flows in specific commodities; customer concentration and contract terms decide how stable revenue is. Assets (trucks, cranes, warehouses) are financed with term debt.",
+"facilities": [
+"Term loans or lease finance for vehicles, equipment or warehouses, repaid from contracted revenue",
+"Working capital for receivables from shippers and importers",
+"Lease rental discounting for warehouses let to strong tenants"
+],
+"tenor": "Asset life and contract tenor set the term; keep tenor within the main customer contract where revenue depends on it.",
+"security": [
+"Hypothecation of vehicles and equipment, mortgage of warehouse land",
+"Assignment of lease rentals or contract receivables"
+],
+"covenants": [
+"Escrow of contracted receivables where possible",
+"Customer concentration limits",
+"Insurance of assets and cargo liability"
+],
+"monitoring": [
+"Port volumes in the commodities the borrower handles",
+"Customer payment delays",
+"Freight rate trends"
+],
+"red_flags": {
+"financials": [
+"Revenue from one shipper or one commodity"
+],
+"gst": [
+"Freight invoices to related parties"
+],
+"bank": [
+"Irregular receipts from customers"
+],
+"site": [
+"Vehicles and equipment actually in use",
+"Warehouse occupancy"
+]
+},
+"questions": [
+"Which commodities and customers make up your volumes?",
+"What contracts do you hold and when do they expire?"
+],
+"upgrade": [
+"Port volumes rising in the borrower's commodities"
+],
+"downgrade": [
+"Loss of a major customer",
+"Trade disruption in the borrower's commodity"
+]
+},
+"generic_mfg": {
+"label": "Manufacturing (general)",
+"model": "",
+"facilities": [
+"Cash credit against stock and receivables, sized on peer-level working-capital days",
+"Term loan for plant and machinery secured on the assets"
+],
+"tenor": "Match tenor to asset life and test repayment capacity at conservative margins.",
+"security": [
+"Hypothecation of current assets and machinery, mortgage of the factory",
+"Personal guarantees of promoters"
+],
+"covenants": [
+"Monthly stock and book-debt statements",
+"Sales routed through the lending bank",
+"Restriction on loans to group concerns"
+],
+"monitoring": [
+"Power and raw-material consumption against production",
+"Receivable ageing"
+],
+"red_flags": {},
+"questions": [],
+"upgrade": [],
+"downgrade": []
+},
+"generic_services": {
+"label": "Trading, services and other (general)",
+"model": "",
+"facilities": [
+"Working capital against receivables and stock where relevant; term debt only against identifiable assets or contracted cash flows"
+],
+"tenor": "Keep tenor within the visible cash-flow horizon.",
+"security": [
+"Collateral property and personal guarantees",
+"Hypothecation of current assets"
+],
+"covenants": [
+"Receivable ageing",
+"Receipts routed through the lending bank"
+],
+"monitoring": [
+"Receipts in the bank account against reported sales"
+],
+"red_flags": {},
+"questions": [],
+"upgrade": [],
+"downgrade": []
+}
+},
+"generic_red": {
+"financials": [
+"Sales growth far above listed peers without new capacity or a named new buyer",
+"Debtor or inventory days moving the opposite way to margins (profit up, cash down)",
+"Large related-party sales, purchases, or loans and advances to group concerns",
+"Unsecured loans from promoters counted as quasi-equity without a subordination letter"
+],
+"gst": [
+"GSTR-1 turnover versus GSTR-3B tax paid versus turnover in the financials: unexplained gaps",
+"Input credit in GSTR-2B versus purchases booked: suppliers who do not file are a fake-invoice risk",
+"Sudden spike in turnover with the same few counterparties just before the proposal"
+],
+"bank": [
+"Credits in the bank statements versus GST turnover: sales routed through another bank or entity",
+"Round-tripping: same-day credits and debits with group concerns",
+"Cheque returns, frequent overdrawing and month-end window dressing of the cash credit account"
+],
+"site": [
+"Machines running and staff present versus the capacity claimed",
+"Stock physically present versus the stock statement, and the age of slow-moving lots",
+"Power meter readings versus the production claimed"
+]
+},
+"generic_q": [
+"Who are your top five buyers and suppliers, and what share of sales and purchases does each make?",
+"What credit terms do your buyers actually pay on, and how much is overdue today?",
+"What did the last downturn do to your volumes and margins, and how did you service debt then?",
+"Which group concerns do you trade with or lend to?"
+],
+"clusters": {
+"surat_textiles": {
+"name": "Surat textiles (yarn, weaving, processing, trading)",
+"state": "GJ",
+"pairs": [
+[
+"gj_surat",
+"mmf_textiles"
+],
+[
+"gj_surat",
+"textile_processing"
+],
+[
+"gj_surat",
+"manmade_fibres"
+],
+[
+"gj_surat",
+"textile_trading"
+]
+]
+},
+"surat_diamonds": {
+"name": "Surat diamond cutting and polishing",
+"state": "GJ",
+"pairs": [
+[
+"gj_surat",
+"diamonds"
+]
+]
+},
+"morbi_ceramics": {
+"name": "Morbi ceramic tiles",
+"state": "GJ",
+"pairs": [
+[
+"gj_morbi",
+"ceramics"
+]
+]
+},
+"vapi_chemicals": {
+"name": "Vapi chemicals",
+"state": "GJ",
+"pairs": [
+[
+"gj_vapi",
+"chemicals_dyes"
+]
+]
+},
+"ankleshwar_chemicals": {
+"name": "Ankleshwar chemicals",
+"state": "GJ",
+"pairs": [
+[
+"gj_ankleshwar",
+"chemicals_dyes"
+],
+[
+"gj_ankleshwar",
+"agrochemicals"
+]
+]
+},
+"rajkot_engineering": {
+"name": "Rajkot engineering (pumps, foundries, components)",
+"state": "GJ",
+"pairs": [
+[
+"gj_rajkot",
+"engineering"
+],
+[
+"gj_rajkot",
+"castings_forgings"
+],
+[
+"gj_rajkot",
+"pumps_valves"
+],
+[
+"gj_rajkot",
+"auto_components"
+]
+]
+},
+"ahmedabad_pharma": {
+"name": "Ahmedabad pharma",
+"state": "GJ",
+"pairs": [
+[
+"gj_ahmedabad",
+"pharma"
+]
+]
+},
+"alang_shipbreaking": {
+"name": "Alang-Sosiya ship recycling",
+"state": "GJ",
+"pairs": [
+[
+"gj_alang",
+"shipbuilding"
+]
+]
+},
+"kandla_logistics": {
+"name": "Kandla-Gandhidham port and logistics",
+"state": "GJ",
+"pairs": [
+[
+"gj_kandla_gandhidham",
+"ports"
+],
+[
+"gj_kandla_gandhidham",
+"logistics_warehousing"
+]
+]
+}
+},
+"rules": [
+"Sourced facts carry a verbatim quote and a link; numbers in a fact appear in its quote.",
+"Practice guidance is general credit practice, labelled, and contains no numbers.",
+"The verdict is the Lending Radar call; news and rating actions can only make it more cautious.",
+"Unknowns are shown grey as 'not yet known'. No AI-generated facts."
+]
+}

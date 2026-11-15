@@ -1,7 +1,7 @@
 {
 "symbol": "ARVIND",
 "basis": "consolidated",
-"fetched": "2026-11-15T07:00:32",
+"fetched": "2026-11-15T22:19:29",
 "quarters": {
 "2018-03-31": {
 "m": {
@@ -785,13 +785,13 @@
 },
 "2026-09-30": {
 "m": {
-"revenue": 5419.58,
-"other_income": 39.7,
-"ebitda": 549.8,
-"pat": 209.37,
-"finance_cost": 125.07,
-"depreciation": 200.17,
-"material_cost": 2676.89,
+"revenue": 2918.62,
+"other_income": 21.86,
+"ebitda": 309.54,
+"pat": 151.6,
+"finance_cost": 70.68,
+"depreciation": 107.05,
+"material_cost": 1463.94,
 "impairment": null,
 "interest_income": null,
 "inventory": 2576.73,
@@ -800,13 +800,14 @@
 "debt": 2650.77,
 "loans": null,
 "ocf_ytd": 219.04,
-"revenue_ytd": null,
+"revenue_ytd": 5419.58,
 "volume": null
 },
-"src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1748235_28102026081127_WEB.xml",
-"filed": "28-Oct-2026 20:11:15",
+"src": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1748483_29102026114959_WEB.xml",
+"filed": null,
 "feed": "NSE integrated-filing-results",
-"audited": "Un-Audited"
+"audited": "Un-Audited",
+"period_days": 91
 }
 }
 }

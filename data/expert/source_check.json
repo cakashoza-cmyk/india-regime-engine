@@ -1,0 +1,240 @@
+{
+ "generated": "2026-11-15",
+ "sources": {
+  "technotex_surat": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "cached copy",
+   "missing": [],
+   "facts": [
+    "sur_chain",
+    "sur_shed",
+    "sur_jobwork"
+   ]
+  },
+  "dips_surat": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "sur_dips"
+   ]
+  },
+  "sameeeksha_2012": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "sur_processing"
+   ]
+  },
+  "gst_15_2025": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "gst_jobwork"
+   ]
+  },
+  "sdb_2022": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "dia_units",
+    "dia_angadia"
+   ]
+  },
+  "fe_diamond_diwali_2026": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "dia_share",
+    "dia_diwali"
+   ]
+  },
+  "gjepc_sep2026": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "dia_exports",
+    "dia_lgd"
+   ]
+  },
+  "bee_morbi_2010": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "mor_units",
+    "mor_energy_bee"
+   ]
+  },
+  "teri_morbi_profile": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "mor_energy",
+    "mor_mud"
+   ]
+  },
+  "hbl_morbi_gas_2026": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "mor_gas2026"
+   ]
+  },
+  "ngt_morbi_2019": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "mor_ngt"
+   ]
+  },
+  "teri_vapi_2022": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "vapi_units"
+   ]
+  },
+  "teri_ankleshwar_2012": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "ank_units",
+    "ank_markets"
+   ]
+  },
+  "cpcb_cepi_2018": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "cached copy",
+   "missing": [],
+   "facts": [
+    "cepi_gj"
+   ]
+  },
+  "ie_moratorium_2016": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "moratorium_2016"
+   ]
+  },
+  "teri_rajkot_foundry_2015": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "raj_units"
+   ]
+  },
+  "teri_rajkot_pump": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "raj_pumps"
+   ]
+  },
+  "dips_rajkot": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "raj_diesel"
+   ]
+  },
+  "dop_clusters_2023": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "amd_pharma_units"
+   ]
+  },
+  "vg_pharma": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "gj_pharma_share"
+   ]
+  },
+  "pib_alang_2026": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "alang_capacity",
+    "alang_creditnote"
+   ]
+  },
+  "dgma_ship_recycling": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "alang_hkc"
+   ]
+  },
+  "fe_alang_2026": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "alang_idle",
+    "alang_arrivals"
+   ]
+  },
+  "pib_ports_2025": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "kandla_cargo"
+   ]
+  },
+  "gerc_tariff_2026": {
+   "status": "ok",
+   "checked": "2026-11-15",
+   "method": "fetched",
+   "missing": [],
+   "facts": [
+    "gj_power_tariff"
+   ]
+  }
+ }
+}

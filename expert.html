@@ -1,0 +1,78 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Credit Expert View — Lending Radar</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#f4f6fa;--card:#fff;--ink:#0f172a;--mut:#64748b;--line:#e2e8f0;--ok:#15803d;--okb:#dcfce7;--ca:#b45309;--cab:#fef3c7;--av:#b91c1c;--avb:#fee2e2;--un:#475569;--unb:#e2e8f0;--acc:#2563eb;--pg:#6d28d9;--pgb:#f3e8ff;--src:#1e40af;--srcb:#dbeafe}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:900px;margin:0 auto;padding:12px 12px 48px}
+h1{font-size:20px;margin:6px 0 2px}.sub{color:var(--mut);font-size:13px;margin:0 0 10px}
+a{color:var(--acc)}ul,ol{margin:4px 0;padding-left:20px}li{margin:4px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin-top:12px;box-shadow:0 1px 2px #0f172a0d}
+.find{position:relative}.find input{width:100%;font:inherit;padding:12px 14px;border:1px solid var(--line);border-radius:12px;min-height:48px;background:#fff}
+.res{position:absolute;left:0;right:0;top:100%;margin-top:4px;background:#fff;border:1px solid var(--line);border-radius:12px;max-height:360px;overflow:auto;z-index:30;box-shadow:0 12px 30px #0f172a22;display:none}
+.res.open{display:block}.res a{display:flex;gap:8px;align-items:center;padding:10px 12px;text-decoration:none;color:var(--ink);border-bottom:1px solid #f1f5f9}.res a:hover,.res a.act{background:#eff6ff}
+.steps{display:grid;gap:8px;grid-template-columns:1fr;margin-top:10px}@media(min-width:640px){.steps{grid-template-columns:1fr 1fr 1.3fr}}
+.steps label{font-size:11.5px;color:var(--mut);font-weight:700;text-transform:uppercase;letter-spacing:.4px;display:block;margin-bottom:3px}
+.steps select{width:100%;font:inherit;padding:10px;border:1px solid var(--line);border-radius:10px;min-height:46px;background:#fff}
+.crumb{font-size:13px;color:var(--mut);margin:10px 0 0;display:flex;flex-wrap:wrap;gap:4px;align-items:center}.crumb a{text-decoration:none}.crumb b{color:var(--ink)}
+.tools{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.tools a,.tools button{font:inherit;font-size:13.5px;font-weight:650;border-radius:999px;padding:8px 14px;border:1px solid var(--line);background:#fff;color:var(--ink);cursor:pointer;text-decoration:none}
+.tools .pri{background:#0f172a;color:#fff;border-color:#0f172a}
+.badge{font-weight:750;font-size:15px;padding:6px 14px;border-radius:999px;display:inline-block}.ok{background:var(--okb);color:var(--ok)}.caution{background:var(--cab);color:var(--ca)}.avoid{background:var(--avb);color:var(--av)}.unknown,.proxy,.dealer,.grey{background:var(--unb);color:var(--un)}
+.vbox{border-radius:18px;padding:16px;border:2px solid var(--line);background:#fff}.vbox.ok{border-color:#86efac;background:#f0fdf4}.vbox.caution{border-color:#fcd34d;background:#fffbeb}.vbox.avoid{border-color:#fca5a5;background:#fef2f2}.vbox.unknown,.vbox.proxy,.vbox.dealer{border-color:#cbd5e1;background:#f8fafc;color:var(--ink)}
+.vtop{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.vcall{font-size:24px;font-weight:800}.vscore{font-size:30px;font-weight:800}.vscore small{font-size:13px;color:var(--mut);font-weight:500}
+.vwhy{font-size:15.5px;margin:10px 0 6px;font-weight:550}.meta{color:var(--mut);font-size:12.5px}
+.bas{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:999px;background:#f1f5f9;color:#334155}.conf.high{background:#dcfce7;color:#166534}.conf.med{background:#fef9c3;color:#854d0e}.conf.low{background:#fee2e2;color:#991b1b}
+.depth{font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:999px}.depth.full{background:#dcfce7;color:#166534}.depth.partial{background:#fef9c3;color:#854d0e}.depth.standard{background:#f1f5f9;color:#475569}
+details.sec{background:#fff;border:1px solid var(--line);border-radius:16px;margin-top:10px;overflow:hidden}
+details.sec>summary{list-style:none;cursor:pointer;padding:14px 16px;display:flex;gap:10px;align-items:flex-start}details.sec>summary::-webkit-details-marker{display:none}
+details.sec>summary .n{flex:0 0 26px;height:26px;border-radius:50%;background:#0f172a;color:#fff;font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center}
+details.sec>summary .h{font-weight:750;font-size:15.5px}details.sec>summary .d{display:block;font-weight:400;font-size:13px;color:var(--mut);margin-top:2px}
+details.sec>summary::after{content:'＋';margin-left:auto;color:var(--mut);font-weight:700}details.sec[open]>summary::after{content:'－'}
+.body{padding:0 16px 14px}.body h4{font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:var(--mut);margin:14px 0 4px}
+.tg{display:inline-block;font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.4px;padding:1px 7px;border-radius:6px;margin-right:6px;vertical-align:1px}
+.tg.src{background:var(--srcb);color:var(--src)}.tg.pg{background:var(--pgb);color:var(--pg)}.tg.dat{background:#dcfce7;color:#166534}.tg.nw{background:#ffedd5;color:#9a3412}.tg.gr{background:var(--unb);color:var(--un)}
+.pgbox{background:#faf5ff;border:1px dashed #c4b5fd;border-radius:12px;padding:8px 12px;margin-top:6px}
+.fact{margin:6px 0}.fact .s{font-size:12px;color:var(--mut)}.fact details{display:inline}.fact summary{display:inline;cursor:pointer;font-size:12px;color:var(--acc)}.q{display:block;font-size:12.5px;color:#334155;background:#f8fafc;border-left:3px solid #93c5fd;padding:4px 8px;margin:4px 0;font-style:italic}
+.greyl{color:var(--un);background:#f1f5f9;border-radius:8px;padding:6px 10px;font-size:13.5px;margin:4px 0}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}td,th{text-align:left;padding:6px 4px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--mut);font-weight:600;font-size:12px}.tw{overflow-x:auto}
+.chk li{list-style:none;margin-left:-18px}.chk li::before{content:'☐ ';color:var(--mut)}
+.cmp{display:grid;grid-template-columns:1fr;gap:10px}@media(min-width:720px){.cmp{grid-template-columns:1fr 1fr}}
+.cmprow{border-top:1px solid var(--line);padding:8px 0}.cmprow b.l{display:block;font-size:12px;color:var(--mut);text-transform:uppercase;letter-spacing:.4px}
+.fb select,.fb input[name=employee_id],.fb textarea{display:block;width:100%;margin-top:4px;font:inherit;padding:9px 10px;border-radius:10px;border:1px solid #cbd5e1;background:#fff}
+.fbrow{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}.fb label{font-size:13px;font-weight:600;color:#334155}
+.fbscale{display:grid;grid-template-columns:repeat(10,1fr);gap:4px}.fbscale label{position:relative}.fbscale input{position:absolute;opacity:0}
+.fbscale span{display:block;text-align:center;padding:9px 0;border-radius:8px;border:1px solid #cbd5e1;font-weight:700;cursor:pointer;background:#f8fafc}.fbscale input:checked+span{background:#2563eb;color:#fff;border-color:#2563eb}
+.fbwarn{color:#b45309;font-size:12.5px;font-weight:600;margin:8px 0}.fbbtn{font:inherit;font-weight:700;background:#0f172a;color:#fff;border:0;border-radius:999px;padding:10px 20px;cursor:pointer}
+@media(max-width:480px){.fbrow{grid-template-columns:1fr}.vscore{font-size:26px}}
+.quick{display:flex;flex-wrap:wrap;gap:6px}.quick a{font-size:13px;padding:6px 10px;border-radius:999px;background:#eef2ff;color:#3730a3;text-decoration:none}
+.foot{color:var(--mut);font-size:12px;margin-top:18px}.empty{color:var(--mut);text-align:center;padding:24px 10px}
+.printhead{display:none}
+@media print{
+ nav.mcr,.noprint,.tools,.find,.steps,.fb,.crumb{display:none!important}
+ body{background:#fff;font-size:11.5pt}main{max-width:none;padding:0}
+ .card,.vbox,details.sec{box-shadow:none;break-inside:avoid-page;border-color:#94a3b8}
+ details.sec>summary::after{content:''}details.sec{break-inside:auto}
+ a{color:#000;text-decoration:none}a[href^="http"]::after{content:" [" attr(href) "]";font-size:8pt;color:#475569;word-break:break-all}
+ .printhead{display:block;border-bottom:2px solid #0f172a;margin-bottom:8px;padding-bottom:6px}
+ .fact details .q{display:block}
+}
+</style></head><body>
+<main>
+<div class="printhead"><b>Credit Expert View — Lending Radar</b> · <span id="ph"></span><br><span class="meta">Internal decision aid for credit judgment, not a replacement for it. Public data only; no customer data.</span></div>
+<h1 class="noprint">Credit Expert View</h1>
+<p class="sub noprint">How a seasoned local credit head would read a city and industry: the call, how to lend, the economics, local knowledge, red flags, what would change the view, and the evidence. Sourced facts are linked; <span class="tg pg">Practice guidance</span> is general credit practice; grey means not yet known.</p>
+<div class="card noprint">
+ <div class="find"><input id="q" type="search" placeholder="Search a city or industry, e.g. Surat, ceramics, Rajkot pumps" autocomplete="off" aria-label="Search city or industry"><div class="res" id="res" role="listbox"></div></div>
+ <div class="steps">
+  <div><label for="sst">1 · State</label><select id="sst"></select></div>
+  <div><label for="sct">2 · City</label><select id="sct"></select></div>
+  <div><label for="sind">3 · Industry</label><select id="sind"></select></div>
+ </div>
+ <div class="crumb" id="crumb"></div>
+</div>
+<div id="out"><div class="card empty">Loading…</div></div>
+<p class="foot" id="foot"></p>
+</main>
+<script src="assets/nav.js"></script>
+<script src="assets/expert.js"></script>
+</body></html>

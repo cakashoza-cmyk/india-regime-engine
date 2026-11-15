@@ -44,6 +44,36 @@ GROUPS = {
         "companies": ["FILATEX"],
         "fit": "Only one listed MMF-yarn witness (Filatex) is in the Detective universe, so flags stay grey; figures shown for context.",
     },
+    "tiles_listed": {
+        "label": "Listed tile makers (Morbi-linked)",
+        "companies": ["KAJARIACER", "SOMANYCERA", "ASIANTILES"],
+        "fit": "Kajaria and Somany (national brands with Morbi JV/associate units) and Asian Granito (Himmatnagar/Morbi). "
+               "Branded, dealer-network companies: a standalone Morbi unit usually has thinner margins and longer dealer credit.",
+    },
+    "chemicals_listed": {
+        "label": "Listed Gujarat chemical makers",
+        "companies": ["ATUL", "DEEPAKNTR", "AARTIIND", "NAVINFLUOR"],
+        "fit": "Atul (Valsad), Deepak Nitrite (Vadodara/Dahej), Aarti Industries (Vapi/Bharuch), Navin Fluorine (Surat/Dahej). "
+               "Large integrated firms with export customers; an SME dye or intermediate maker usually has thinner margins and less pricing power.",
+    },
+    "capital_goods_listed": {
+        "label": "Listed Gujarat capital-goods makers",
+        "companies": ["ELECON", "THERMAX"],
+        "fit": "Elecon (gears and material handling, Vallabh Vidyanagar) and Thermax (boilers and process equipment). Project-based "
+               "order books; a Rajkot job-shop or pump maker is smaller and more dependent on a few buyers.",
+    },
+    "auto_parts_listed": {
+        "label": "Listed auto-component and forging makers",
+        "companies": ["BHARATFORG", "MOTHERSON"],
+        "fit": "Bharat Forge (forgings) and Samvardhana Motherson (components). Global OEM suppliers, far larger than a "
+               "Rajkot casting or component unit; use as a ceiling, not a match.",
+    },
+    "ports_listed": {
+        "label": "Listed port and logistics operators (Gujarat)",
+        "companies": ["ADANIPORTS", "GPPL", "CONCOR"],
+        "fit": "Adani Ports (Mundra), Gujarat Pipavav Port and Container Corporation. Infrastructure owners with long-term "
+               "contracts; a Kandla-Gandhidham transporter or warehouse operator has far thinner margins.",
+    },
 }
 INDUSTRY_GROUP = {
     "mmf_textiles": "textile_chain",
@@ -53,6 +83,16 @@ INDUSTRY_GROUP = {
     "cotton_textiles": "cotton_chain",
     "home_textiles": "cotton_chain",
     "handloom_powerloom": "cotton_chain",
+    "ceramics": "tiles_listed",
+    "chemicals_dyes": "chemicals_listed",
+    "specialty_chemicals": "chemicals_listed",
+    "agrochemicals": "chemicals_listed",
+    "engineering": "capital_goods_listed",
+    "electrical_eq": "capital_goods_listed",
+    "castings_forgings": "auto_parts_listed",
+    "auto_components": "auto_parts_listed",
+    "ports": "ports_listed",
+    "logistics_warehousing": "ports_listed",
 }
 TEXTILE_INDUSTRIES = ["mmf_textiles", "textile_processing", "manmade_fibres", "cotton_textiles", "handloom_powerloom",
                       "home_textiles", "technical_textiles", "silk_weaving", "textile_trading", "apparel", "cotton_ginning"]

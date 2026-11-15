@@ -1,7 +1,7 @@
 {
 "symbol": "ASIANTILES",
 "basis": "consolidated",
-"fetched": "2026-11-15T07:00:57",
+"fetched": "2026-11-15T22:20:33",
 "quarters": {
 "2018-03-31": {
 "m": {
@@ -630,13 +630,13 @@
 },
 "2025-03-31": {
 "m": {
-"revenue": 471.62,
-"other_income": 6.88,
-"ebitda": 29.19,
-"pat": 16.43,
-"finance_cost": 8.09,
-"depreciation": 12.38,
-"material_cost": 298.92,
+"revenue": null,
+"other_income": null,
+"ebitda": null,
+"pat": null,
+"finance_cost": null,
+"depreciation": null,
+"material_cost": null,
 "impairment": null,
 "interest_income": null,
 "inventory": 283.17,
@@ -648,10 +648,12 @@
 "revenue_ytd": 1558.52,
 "volume": null
 },
-"src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1457401_29052025065239_WEB.xml",
+"src": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1457401_29052025065239_WEB.xml",
 "filed": "29-May-2025 18:52:40",
 "feed": "NSE integrated-filing-results",
-"audited": "Audited"
+"audited": "Audited",
+"period_days": 181,
+"note": "only a half-yearly filing found; quarter flows left null"
 },
 "2025-06-30": {
 "m": {

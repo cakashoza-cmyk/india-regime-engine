@@ -73,6 +73,8 @@ def parse(b, qend):
             elif t == "endDate": en = pdate(e.text)
             elif t == "instant": ins = pdate(e.text)
         ctx[c.get("id")] = (dim, st, en, ins)
+    od = ctx.get("OneD")
+    one_d_days = (od[2] - od[1]).days if od and od[1] and od[2] else None
     q, ytd, inst = {}, {}, {}
     for e in root.iter():
         cr = e.get("contextRef")
@@ -80,9 +82,13 @@ def parse(b, qend):
         name = e.tag.split("}")[-1]
         try: v = float(e.text)
         except Exception: continue
-        # Exchange taxonomy convention: OneD = current quarter, OneI = instant at quarter end,
-        # FourD = year-to-date (some files omit or mis-date these contexts, so the id wins).
-        if cr == "OneD": q[name] = v; continue
+        # Exchange taxonomy convention: OneD = current reporting period, OneI = instant at period end,
+        # FourD = year-to-date. Companies also file separate HALF-YEARLY results where OneD spans
+        # Apr-Sep; those values are a 6-month total, never a quarter (bug fixed 2026-11-15).
+        if cr == "OneD":
+            if one_d_days is not None and one_d_days > 95: ytd[name] = v
+            else: q[name] = v
+            continue
         if cr == "OneI": inst[name] = v; continue
         if cr == "FourD": ytd[name] = v; continue
         if cr not in ctx or ctx[cr][0]: continue
@@ -95,6 +101,23 @@ def parse(b, qend):
     if qend.month == 6:  # Q1: YTD == quarter
         for k, v in q.items(): ytd.setdefault(k, v)
     return q, ytd, inst
+
+def period_days(b):
+    """Length in days of the filing's main (OneD) period, or None if not dated."""
+    root = ET.fromstring(b)
+    for c in root.iter():
+        if c.tag.endswith("}context") and c.get("id") == "OneD":
+            st = en = None
+            for e in c.iter():
+                t = e.tag.split("}")[-1]
+                if t == "startDate": st = pdate(e.text)
+                elif t == "endDate": en = pdate(e.text)
+            return (en - st).days if st and en else None
+    return None
+
+def is_quarterly(b):
+    d = period_days(b)
+    return d is None or d <= 95
 
 def first(d, *names):
     for n in names:
@@ -131,6 +154,12 @@ def extract(q, ytd, inst):
         "volume": None,
     }
 
+def stale_half_year(rec):
+    """True if a kept record was parsed from a half-yearly filing before the 2026-11-15 fix."""
+    if "period_days" in rec: return False
+    try: return not is_quarterly(xml_for(rec["src"]))
+    except Exception: return False
+
 def run(syms=None, incremental=False):
     """incremental=True: keep every quarter already parsed (last-known-good) and only download
     filings for quarter-ends not yet present. Any per-company failure leaves the old file untouched."""
@@ -151,16 +180,29 @@ def run(syms=None, incremental=False):
                 basis = "consolidated" if nc >= max(ns - 4, 1) and nc > 0 else "standalone"
             L = [x for x in L if x["cons"] == (basis == "consolidated")]
             byq = {}
-            for x in sorted(L, key=lambda x: x["filed"] or ""):  # later filings (revisions) overwrite
-                byq[x["end"]] = x
+            for x in sorted(L, key=lambda x: x["filed"] or ""):  # later filings (revisions) first in list
+                byq.setdefault(x["end"], []).insert(0, x)
             out = {"symbol": sym, "basis": basis, "fetched": dt.datetime.now().isoformat(timespec="seconds"), "quarters": {}}
             keep = (old or {}).get("quarters", {}) if incremental else {}
-            for end, x in sorted(byq.items()):
-                if end in keep and keep[end].get("m"):
+            for end, cands in sorted(byq.items()):
+                if end in keep and keep[end].get("m") and not stale_half_year(keep[end]):
                     out["quarters"][end] = keep[end]; continue
                 try:
-                    q, ytd, inst = parse(xml_for(x["xbrl"]), dt.date.fromisoformat(end))
-                    out["quarters"][end] = {"m": extract(q, ytd, inst), "src": x["xbrl"], "filed": x["filed"], "feed": x["src"], "audited": x["audited"]}
+                    # A quarter-end can carry both a QUARTERLY and a HALF-YEARLY filing. Prefer the
+                    # latest quarterly one; a half-yearly file is used only if nothing else exists,
+                    # and then its 6-month flows go to YTD and the quarter flows stay null.
+                    x = b = None
+                    for cx in cands:
+                        cb = xml_for(cx["xbrl"])
+                        if is_quarterly(cb): x, b = cx, cb; break
+                    note = None
+                    if x is None:
+                        x = cands[0]; b = xml_for(x["xbrl"]); note = "only a half-yearly filing found; quarter flows left null"
+                    q, ytd, inst = parse(b, dt.date.fromisoformat(end))
+                    rec = {"m": extract(q, ytd, inst), "src": x["xbrl"], "filed": x["filed"], "feed": x["src"], "audited": x["audited"],
+                           "period_days": period_days(b)}
+                    if note: rec["note"] = note
+                    out["quarters"][end] = rec
                     stats["new_quarters"] += 1
                 except Exception as e:
                     if end in keep: out["quarters"][end] = keep[end]
