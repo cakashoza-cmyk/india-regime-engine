@@ -1,0 +1,143 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Proposal Sense-Check — Macro Credit Radar</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#f4f6fa;--card:#fff;--ink:#0f172a;--mut:#64748b;--line:#e2e8f0;--ok:#15803d;--okb:#dcfce7;--ca:#b45309;--cab:#fef3c7;--av:#b91c1c;--avb:#fee2e2;--un:#475569;--unb:#e2e8f0;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:14px 14px 40px}
+h1{font-size:20px;margin:6px 0 2px}.sub{color:var(--mut);font-size:13px;margin:0 0 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-top:14px;box-shadow:0 1px 2px #0f172a0d}
+.priv{background:#eff6ff;border:1px solid #bfdbfe;border-radius:12px;padding:9px 12px;font-size:13px;color:#1e3a8a}
+.grid{display:grid;gap:10px;grid-template-columns:1fr}@media(min-width:560px){.grid{grid-template-columns:1fr 1fr}}@media(min-width:820px){.grid.g4{grid-template-columns:repeat(4,1fr)}}
+label{font-size:12px;color:var(--mut);display:block;margin-bottom:4px;font-weight:600;text-transform:uppercase;letter-spacing:.4px}
+select,input{width:100%;font:inherit;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);min-height:46px}
+select:focus,input:focus{outline:2px solid var(--acc);border-color:transparent}input.bad{border-color:var(--av);background:#fff5f5}
+h2{font-size:16px;margin:0 0 6px}h3{font-size:13px;text-transform:uppercase;letter-spacing:.5px;color:var(--mut);margin:16px 0 6px}
+.btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+button{font:inherit;font-weight:650;border-radius:999px;padding:10px 18px;cursor:pointer;border:1px solid var(--line);background:#fff;color:var(--ink)}
+button.pri{background:#0f172a;color:#fff;border-color:#0f172a}
+.ex{background:#fef3c7;border:1px dashed #f59e0b;color:#78350f;border-radius:12px;padding:9px 12px;font-size:13.5px;font-weight:600;margin-top:12px;display:none}
+.badge{font-weight:750;font-size:15px;padding:6px 14px;border-radius:999px;display:inline-block}.ok{background:var(--okb);color:var(--ok)}.caution{background:var(--cab);color:var(--ca)}.avoid{background:var(--avb);color:var(--av)}.unknown,.proxy,.grey{background:var(--unb);color:var(--un)}
+.top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.score{font-size:26px;font-weight:750}.score small{font-size:13px;color:var(--mut);font-weight:500}
+.bas{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:999px}.bas.l{background:#dbeafe;color:#1e40af}.bas.h{background:#dcfce7;color:#166534}.bas.p{background:#fff7ed;color:#9a3412}
+.conf.high{background:#dcfce7;color:#166534}.conf.med{background:#fef9c3;color:#854d0e}.conf.low{background:#fee2e2;color:#991b1b}
+.meta{color:var(--mut);font-size:12.5px}ul,ol{margin:0;padding-left:20px}li{margin:4px 0}a{color:var(--acc)}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}td,th{text-align:left;padding:6px 4px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--mut);font-weight:600;font-size:12px}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.flag{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--line)}.flag:first-of-type{border-top:0}
+.dot{flex:0 0 auto;margin-top:3px;font-size:11px;font-weight:800;padding:2px 8px;border-radius:999px;text-transform:uppercase;letter-spacing:.3px}
+.dot.green{background:var(--okb);color:var(--ok)}.dot.amber{background:var(--cab);color:var(--ca)}.dot.red{background:var(--avb);color:var(--av)}.dot.grey,.dot.invalid{background:var(--unb);color:var(--un)}
+.overall{border-radius:12px;padding:12px 14px;font-weight:700;font-size:15.5px;margin-top:6px}.overall.reasonable{background:var(--okb);color:var(--ok)}.overall.stretched{background:var(--cab);color:var(--ca)}.overall.unrealistic{background:var(--avb);color:var(--av)}.overall.unjudged,.overall.invalid{background:var(--unb);color:var(--un)}
+.note{background:#f8fafc;border-left:3px solid var(--line);padding:8px 10px;border-radius:6px;font-size:13.5px;color:#334155;margin-top:8px}
+s{color:#94a3b8}.foot{color:var(--mut);font-size:12px;margin-top:18px}.empty{color:var(--mut);text-align:center;padding:24px 10px}
+details{margin-top:10px}summary{cursor:pointer;font-weight:600;font-size:14px}
+</style></head><body>
+<main>
+<h1>Proposal Sense-Check <span class="bas p" style="vertical-align:middle">Demo · Surat textiles first</span></h1>
+<p class="sub">Enter a proposal's projected numbers and see them against the Lending Radar stance, recent rating actions and what listed peers actually reported. Decision aid, not a substitute for credit judgment. Flags can only make a view more cautious, never less.</p>
+<div class="priv">🔒 Your numbers stay in this browser tab. Nothing you type is sent, saved or put in the URL; refresh the page and they are gone. Do not enter borrower names.</div>
+<form class="card" id="f" autocomplete="off" novalidate>
+ <h2>1 · The proposal</h2>
+ <div class="grid g4">
+  <div><label for="st">State</label><select id="st"></select></div>
+  <div><label for="ct">City</label><select id="ct"></select></div>
+  <div><label for="ind">Industry</label><select id="ind"></select></div>
+  <div><label for="loan">Loan type</label><select id="loan"><option value="wc">Working capital</option><option value="tl">Term loan</option><option value="capex">Capex</option></select></div>
+ </div>
+ <h3>Promoter's projected numbers (each optional)</h3>
+ <div class="grid g4" id="inputs"></div>
+ <div class="ex" id="exl"></div>
+ <div class="btns"><button type="button" class="pri" id="exb">Try an example</button><button type="button" id="clr">Clear numbers</button></div>
+</form>
+<div id="out"><div class="card empty">Loading data…</div></div>
+<p class="foot" id="foot"></p>
+</main>
+<script src="assets/nav.js"></script>
+<script src="assets/sensecheck.js"></script>
+<script>
+const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const S=window.SenseCheck,LBL={ok:'OK to lend',caution:'Caution',avoid:'Avoid',proxy:'Proxy, not assessed'};
+const ACTL={upgrade:'upgrade',downgrade:'downgrade',downgrade_inc:'downgrade (INC)',default:'default',watch_negative:'watch negative',watch_positive:'watch positive',watch_developing:'watch developing',outlook_negative:'outlook to negative',outlook_positive:'outlook to positive',outlook_stable:'outlook to stable',outlook_changed:'outlook changed',inc_new:'moved to Issuer Not Cooperating',inc_continues:'INC continues',reaffirm:'reaffirmed',assigned:'new rating',withdrawn:'withdrawn',other:'update'};
+const PH={growth:'e.g. 12',margin:'e.g. 9',debtor:'e.g. 60',inventory:'e.g. 75',creditor:'e.g. 45',capacity:'e.g. 70',dscr:'e.g. 1.4'};
+let D,R,P,B={},IND={},CITY={},NOTES={},EXAMPLE_ON=false;
+// Only the site's own static files are read. No request ever carries the numbers typed below.
+Promise.all([fetch('data/radar.json').then(r=>r.json()),fetch('data/ratings_gj.json').then(r=>r.ok?r.json():null).catch(()=>null),
+ fetch('data/sensecheck_peers.json').then(r=>r.ok?r.json():null).catch(()=>null),fetch('data/radar_briefs.json').then(r=>r.ok?r.json():{}).catch(()=>({}))])
+ .then(([d,r,p,b])=>{D=d;R=r;P=p;B=b||{};init()}).catch(()=>{$('#out').innerHTML='<div class="card empty">Could not load the Lending Radar data.</div>'});
+const band=sc=>sc==null?null:sc>=D.geo.ok_at_or_above?'ok':sc<D.geo.avoid_below?'avoid':'caution';
+const isPx=i=>IND[i]&&IND[i].mapping!='direct',misOf=i=>IND[i]&&(IND[i].series_misfit||(D.sectors[IND[i].parent]||{}).misfit)||'';
+function init(){D.industries.forEach(i=>IND[i.id]=i);D.cities.forEach(c=>CITY[c.id]=c);
+ $('#inputs').innerHTML=S.FIELDS.map(f=>`<div><label for="v_${f.id}">${esc(f.label)} (${f.unit})</label><input id="v_${f.id}" inputmode="decimal" type="text" placeholder="${PH[f.id]}" aria-describedby="exl"></div>`).join('');
+ const sts=Object.entries(D.states).filter(([k])=>D.cities.some(c=>c.state==k)).sort((a,b)=>a[1].name.localeCompare(b[1].name));
+ $('#st').innerHTML=sts.map(([k,v])=>`<option value="${k}">${esc(v.name)}</option>`).join('');
+ const inds=((P&&P.textile_industries)||['mmf_textiles']).filter(i=>IND[i]);
+ $('#ind').innerHTML=inds.map(i=>`<option value="${i}">${esc(IND[i].name)}${P&&P.industry_group[i]?'':' (no peer benchmark)'}</option>`).join('');
+ setSel('GJ','gj_surat','mmf_textiles');
+ $('#st').onchange=()=>{fillCities();run()};$('#ct').onchange=run;$('#ind').onchange=run;$('#loan').onchange=run;
+ $('#inputs').addEventListener('input',()=>{if(EXAMPLE_ON){EXAMPLE_ON=false;$('#exl').style.display='none'}run()});
+ $('#f').onsubmit=e=>{e.preventDefault();run()};
+ $('#exb').onclick=()=>{const x=S.EXAMPLE;setSel(x.state,x.city,x.industry);$('#loan').value=x.loan;S.FIELDS.forEach(f=>$('#v_'+f.id).value=x.values[f.id]??'');EXAMPLE_ON=true;$('#exl').textContent='⚠ '+x.label+'.';$('#exl').style.display='block';run()};
+ $('#clr').onclick=()=>{S.FIELDS.forEach(f=>$('#v_'+f.id).value='');EXAMPLE_ON=false;$('#exl').style.display='none';run()};
+ $('#foot').innerHTML=`Lending Radar data ${esc(D.generated_at_ist)} · ratings ${esc(R?.generated||'n/a')} · listed-peer filings to ${esc(P?.as_of_fq||'n/a')}. ${esc(D.disclaimer)} See <a href="lending.html">Lending Radar</a>, <a href="detective.html">Economic Detective</a> and <a href="methodology.html">methodology</a>.`;
+ run()}
+function setSel(st,ct,ind){$('#st').value=st;fillCities(ct);if([...$('#ind').options].some(o=>o.value==ind))$('#ind').value=ind}
+function fillCities(want){const st=$('#st').value,cs=D.cities.filter(c=>c.state==st).sort((a,b)=>a.name.localeCompare(b.name));$('#ct').innerHTML=cs.map(c=>`<option value="${c.id}">${esc(c.name)}</option>`).join('');if(want&&cs.some(c=>c.id==want))$('#ct').value=want}
+async function note(st,ct,ind){const k=`${st}_${ct}_${ind}`;if(!(k in NOTES))NOTES[k]=await fetch(`data/notes/${k}.json`).then(r=>r.ok?r.json():null).catch(()=>null);return NOTES[k]}
+function stance(st,ct,ind,n){const e=D.calls[st+'|'+IND[ind].parent]||[null],[base0,score,nat,,ins,rs]=e,base=score!=null?(base0||band(score)):null;
+ const basis=misOf(ind)?'proxy':n?'local':(isPx(ind)&&!(CITY[ct]?.hubs||[]).includes(ind))?'proxy':'hub';
+ const br=B[ct+'|'+ind]||B[st+'|*'];const nudged=base=='ok'&&(n?(n.nudged_by_news||n.news_direction=='Worse'):(br&&br.o=='Worse'));
+ const call=basis=='proxy'?'proxy':(nudged?'caution':base);
+ // confidence: same rule as the Lending Radar page (banker-feedback counts are not read here)
+ let conf=null;if(basis!='proxy'&&score!=null){const sec=D.sectors[IND[ind].parent]||{drivers:[]};const dv=sec.drivers.filter(d=>d.st=='verified'&&d.s!=null&&!/Brent|Repo |^Regime/.test(d.t));let p=0,why=[];
+  p+=dv.length>=3?2:dv.length==2?1:0;why.push(dv.length+' verified sector series');if(basis=='local'||IND[ind].mapping=='direct')p+=1;else why.push('parent-sector data');if(sec.drivers.some(d=>d.st=='stale')){p-=1;why.push('some data stale')}
+  const m=Math.min(Math.abs(score-D.geo.ok_at_or_above),Math.abs(score-D.geo.avoid_below));if(m>=8)p+=1;else{p-=1;why.push('score within '+m+' of a cut-off')}why.push('banker feedback not counted on this page');
+  conf={lv:p>=4?'high':p>=2?'med':'low',why:why.join('; ')}}
+ return {base,score,nat,ins,call,basis,nudged,reasons:(rs||[]).map(i=>D.reasons[i]).filter(Boolean),conf,note:n,br}}
+function stanceHtml(s,st,ct,ind){const I=IND[ind],sec=D.sectors[I.parent]||{},cls=s.call||'unknown',lab=s.call?LBL[s.call]:'Not enough data';
+ const BAS={local:['l','Local assessment'],hub:['h','Hub, official data'],proxy:['p','Proxy, not assessed']}[s.basis];
+ const why=s.reasons.slice(0,4).map(r=>`<li>${esc(r[0].split(' [')[0])} <span class="meta">${esc((r[0].match(/\[(.*)\]$/)||['',''])[1])}${r[2]?` · <a href="${esc(r[2])}" target="_blank" rel="noopener">source</a>`:''}</span></li>`).join('');
+ const formula=s.ins=='local'?`Not enough local data for ${D.states[st].name}; national view ${s.nat}.`:s.score!=null?`National ${s.nat} ${(s.score-s.nat)>=0?'+':''}${s.score-s.nat} ${D.states[st].name} adjustment = ${s.score}. OK to lend ≥ ${D.geo.ok_at_or_above}; Avoid < ${D.geo.avoid_below}.`:'';
+ const rc=(D.ratings_gj?.changed_calls||[]).includes(st+'|'+I.parent)?' Rating actions already cut this state call from OK to Caution.':'';
+ return `<div class="card"><h2>3 · Lending Radar stance</h2><div class="top"><span class="badge ${cls}">${esc(lab)}</span>${s.basis!='proxy'&&s.score!=null?`<span class="score">${s.score}<small>/100</small></span>`:''}<span class="bas ${BAS[0]}">Basis: ${BAS[1]}</span>${s.conf?`<span class="bas conf ${s.conf.lv}" title="${esc(s.conf.why)}">Confidence: ${s.conf.lv=='med'?'medium':s.conf.lv}${s.conf.lv=='low'?' · tentative':''}</span>`:''}</div>
+ <p style="margin:10px 0 4px"><b>${esc(I.name)} in ${esc(CITY[ct].name)}</b>${I.mapping!='direct'?` <span class="meta">(uses parent sector ${esc(sec.name)})</span>`:''}</p>
+ <div class="meta">${s.basis=='proxy'?`Not assessed: ${esc(CITY[ct].name)} is not a known hub for this industry and there is no local note. Parent-sector score ${s.score??'n/a'} is reference only, so the stance stays grey.`:esc(formula)+esc(rc)}${s.nudged&&s.basis!='proxy'?' Local news says conditions are worse than the data, so OK to lend becomes Caution.':''}</div>
+ ${s.conf?`<p class="meta">Confidence reasons: ${esc(s.conf.why)}.</p>`:''}
+ <h3>Drivers</h3>${why?`<ul>${why}</ul>`:'<p class="meta">Not enough verified figures. Unknown — collect.</p>'}
+ ${s.nudged&&s.note?.news_why?`<div class="note"><b>Local news (AI-read, unverified; can only lower a call):</b> ${esc(s.note.news_why)} <span class="meta">· note ${esc(s.note.generated_at||'')}</span></div>`:''}
+ <p class="meta" style="margin-top:8px"><a href="lending.html?state=${esc(st)}&city=${esc(ct)}&ind=${esc(ind)}">Open the full Lending Radar view →</a></p></div>`}
+function ratingsHtml(st,ind){const I=IND[ind];if(!R)return '';const head='<h2>4 · Recent rating actions</h2>';
+ if(st!=='GJ')return `<div class="card">${head}<span class="badge grey">No data</span><p class="meta">The rating-actions layer covers Gujarat only so far.</p></div>`;
+ const e=Object.entries(R.industries).find(([k,v])=>v.engine.includes(ind))||Object.entries(R.industries).find(([k,v])=>v.engine.includes(I.parent));
+ if(!e)return `<div class="card">${head}<span class="badge grey">No benchmark</span><p class="meta">No rating-action group maps to this industry.</p></div>`;
+ const [k,v]=e,ins=v.actions<R.min_actions,acts=R.actions.filter(a=>a.industry===k).sort((a,b)=>b.date.localeCompare(a.date));
+ const sig=ins?['grey',`Insufficient: ${v.actions} counted actions (needs ${R.min_actions})`]:{negative:['avoid','Negative: OK calls cut to Caution'],watch:['caution','Watch: flag only'],neutral:['ok','Neutral']}[v.signal]||['grey',v.signal];
+ const covered=Object.entries(R.agencies).filter(([a,x])=>x.status=='covered').map(([a])=>a).join(', ');
+ return `<div class="card">${head}<div class="top"><span class="badge ${sig[0]}">${esc(sig[1])}</span><span class="meta">${esc(v.label)}</span></div>
+ <p class="meta">${esc(covered)} rationales read ${esc(R.coverage_from)} to ${esc(R.generated)} (12-month target, back-filling weekly): ${v.actions} counted · ${v.upgrades} upgrades · ${v.downgrades} downgrades · ${v.defaults} defaults · ${v.inc_new} moved to Issuer Not Cooperating (shown, not scored) · net downgrade ratio ${v.net_ratio==null?'n/a':v.net_ratio.toFixed(2)}.</p>
+ <div class="tw"><table><tr><th>Date</th><th>Entity</th><th>Action</th><th></th></tr>${acts.slice(0,12).map(a=>`<tr><td>${esc(a.date)}</td><td>${esc(a.entity)}${a.city?` <span class="meta">(${esc(a.city)})</span>`:''}</td><td>${esc(ACTL[a.action]||a.action)}${a.counted?'':' <span class="meta">· not scored</span>'}</td><td><a href="${esc(a.url)}" target="_blank" rel="noopener">CRISIL</a></td></tr>`).join('')}</table></div>
+ ${acts.length>12?`<p class="meta">Showing 12 of ${acts.length} recorded actions.</p>`:''}
+ <p class="meta">CRISIL only; ICRA, CARE, India Ratings, Acuité, Infomerics and Brickwork not yet covered. Ratings can only make a call more cautious.</p></div>`}
+function peersHtml(ind){const head='<h2>5 · What listed peers actually reported</h2>';if(!P)return `<div class="card">${head}<span class="badge grey">No data</span></div>`;
+ const g=P.industry_group[ind];if(!g)return `<div class="card">${head}<span class="badge grey">No benchmark</span><p class="meta">No listed company in the Detective Engine universe is a fair peer for ${esc(IND[ind].name)}, so every input below stays grey. Nothing is guessed.</p></div>`;
+ const G=P.groups[g],BM=P.benchmarks[g],C=P.companies,O=P.observations,win=P.window.map(w=>w.fq).join(', ');
+ const cell=(s,m,unit)=>(O[s][m]||[]).map(r=>{const t=`${r.fq}: ${S.fmt(r.value,unit)}`;return r.excluded?`<s title="${esc(r.excluded)}">${esc(t)}</s>`:`<a href="${esc(r.source)}" target="_blank" rel="noopener" title="${esc('Filed '+(r.filed||'?')+(r.note?' · '+r.note:''))}">${esc(t)}</a>${r.note?'*':''}`}).join('<br>')||'<span class="meta">not reported</span>';
+ const rows=Object.entries(BM).map(([m,b])=>`<tr><td><b>${esc(b.label)}</b></td><td>${b.median==null?'<span class="badge grey" style="font-size:12px;padding:2px 8px">No benchmark</span>':`<b>${S.fmt(b.median,b.unit)}</b><br><span class="meta">${S.fmt(b.lo,b.unit)} to ${S.fmt(b.hi,b.unit)}</span>`}</td>${G.companies.map(s=>`<td>${b.per_company[s]!=null?`<b>${S.fmt(b.per_company[s],b.unit)}</b><br>`:''}${cell(s,m,b.unit)}</td>`).join('')}</tr>`).join('');
+ const anyEx=G.companies.some(s=>Object.values(O[s]).some(rs=>rs.some(r=>r.excluded))),anyNote=G.companies.some(s=>Object.values(O[s]).some(rs=>rs.some(r=>r.note)));
+ return `<div class="card">${head}<p style="margin:0 0 4px"><b>${esc(G.label)}</b></p><p class="meta">${esc(G.fit)}</p>
+ <div class="tw"><table><tr><th>Metric</th><th>Peer median<br>(range)</th>${G.companies.map(s=>`<th>${esc(C[s].name)}<br><span class="meta">${esc(C[s].gujarat||'')}</span></th>`).join('')}</tr>${rows}</table></div>
+ <p class="meta">Window: ${esc(win)} (filings to ${esc(P.as_of_fq)}). ${esc(P.method)} Each figure links to its NSE XBRL filing; bold = that company's median.${anyEx?' Struck-through values were left out (hover for why).':''}${anyNote?' * = suspected half-year figures in the feed for that quarter.':''} Interest cover is context only and never used to flag.</p></div>`}
+function flagsHtml(a,s,loan){const head='<h2>2 · Assumption check</h2>';
+ if(!a.flags.length)return `<div class="card">${head}<p class="meta">Enter one or more projected numbers above, or tap <b>Try an example</b>.</p></div>`;
+ const cmb=S.combine(s.call,a.verdict);
+ const loanNote={wc:'Working capital: debtor, inventory and creditor days drive drawing power. Where the projection is tighter than peers, size the limit on peer-level days.',tl:'Term loan: growth and margin drive DSCR. Re-run DSCR with peer-median growth and margin before relying on it.',capex:'Capex: check capacity utilisation ramp-up against your own unit visit; listed peers give no benchmark for it. Re-run DSCR at peer-median margin.'}[loan];
+ return `<div class="card">${head}${a.flags.map(f=>`<div class="flag"><span class="dot ${f.level}">${f.level=='grey'?'no benchmark':f.level=='invalid'?'check':f.level}</span><div>${esc(f.text)}</div></div>`).join('')}
+ <div class="overall ${a.verdict}">${esc(a.line)}</div>
+ ${s.call in {ok:1,caution:1,avoid:1}?`<p style="margin:10px 0 0"><b>Combined read:</b> Lending Radar ${esc(LBL[s.call])}${s.score!=null?' '+s.score:''} → for this proposal <span class="badge ${cmb.call}" style="font-size:13px;padding:3px 10px">${esc(LBL[cmb.call])}</span> ${cmb.changed?'(more cautious because the assumptions are '+esc(a.verdict)+')':'(unchanged; flags never upgrade a call)'}</p>`:`<p class="meta" style="margin-top:10px">No Radar stance to combine with (grey).</p>`}
+ <div class="note">${esc(loanNote)}</div>
+ <p class="meta">Rules: for growth and margin, at or below the peer median is green, above the median but within the peer range is amber, above every peer is red. For debtor and inventory days, at or above the median is green, below the median is amber, below every peer is red (slower than every peer is amber: check stock and debtors). Two or more reds = unrealistic; one red or two ambers = stretched. Peers are large listed firms, so an SME beating them needs proof.</p></div>`}
+let RUN=0;async function run(){const my=++RUN,st=$('#st').value,ct=$('#ct').value,ind=$('#ind').value;if(!IND[ind]||!CITY[ct])return;
+ const vals={};S.FIELDS.forEach(f=>vals[f.id]=$('#v_'+f.id).value);
+ const a=S.assess(vals,P,ind);S.FIELDS.forEach(f=>$('#v_'+f.id).classList.toggle('bad',a.flags.some(x=>x.id==f.id&&x.level=='invalid')));
+ const n=await note(st,ct,ind);if(my!==RUN)return;const s=stance(st,ct,ind,n);
+ $('#out').innerHTML=flagsHtml(a,s,$('#loan').value)+stanceHtml(s,st,ct,ind)+ratingsHtml(st,ind)+peersHtml(ind)}
+</script></body></html>

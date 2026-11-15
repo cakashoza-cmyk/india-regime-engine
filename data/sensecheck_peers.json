@@ -1,0 +1,792 @@
+{
+ "generated": "2026-11-15T12:31:46+05:30",
+ "as_of_quarter": "2026-09-30",
+ "as_of_fq": "Q2FY27",
+ "window": [
+  {
+   "period": "2025-12-31",
+   "fq": "Q3FY26"
+  },
+  {
+   "period": "2026-03-31",
+   "fq": "Q4FY26"
+  },
+  {
+   "period": "2026-06-30",
+   "fq": "Q1FY27"
+  },
+  {
+   "period": "2026-09-30",
+   "fq": "Q2FY27"
+  }
+ ],
+ "method": "Per company: median of its reported values in the last 4 quarters (working-capital days are reported half-yearly, so 1-2 points). Peer median / range = median, min and max of those company medians. Needs >= 2 companies, else grey. Source: NSE XBRL result filings via the Detective Engine (data/detective/evidence.json). No AI, no estimates.",
+ "no_benchmark": {
+  "creditor_days": "Creditor (payables) days are not extracted from the filings yet.",
+  "capacity_utilisation": "Listed peers do not report capacity utilisation in XBRL results.",
+  "dscr": "DSCR needs repayment schedules that results filings do not carry; interest cover is shown as context only, never used to flag."
+ },
+ "groups": {
+  "textile_chain": {
+   "label": "Listed textile chain (Gujarat-linked)",
+   "companies": [
+    "FILATEX",
+    "ARVIND",
+    "WELSPUNLIV"
+   ],
+   "fit": "Nearest listed peers for Surat weaving/processing: Filatex (polyester yarn, Dahej, supplies Surat weavers), Arvind (fabrics, Ahmedabad), Welspun Living (home textiles, Anjar). Large listed firms, not like-for-like with an SME weaver: they usually have better scale, pricing and collection, so an SME projecting BETTER numbers than them needs proof."
+  },
+  "cotton_chain": {
+   "label": "Listed cotton textile peers (Gujarat-linked)",
+   "companies": [
+    "ARVIND",
+    "WELSPUNLIV"
+   ],
+   "fit": "Arvind (denim/woven fabric, Ahmedabad) and Welspun Living (cotton home textiles, Anjar). Integrated exporters, not spinners or ginners: margins and working capital differ from a standalone spinning or ginning unit."
+  },
+  "mmf_yarn": {
+   "label": "Listed polyester yarn peer",
+   "companies": [
+    "FILATEX"
+   ],
+   "fit": "Only one listed MMF-yarn witness (Filatex) is in the Detective universe, so flags stay grey; figures shown for context."
+  }
+ },
+ "industry_group": {
+  "mmf_textiles": "textile_chain",
+  "textile_processing": "textile_chain",
+  "technical_textiles": "textile_chain",
+  "manmade_fibres": "mmf_yarn",
+  "cotton_textiles": "cotton_chain",
+  "home_textiles": "cotton_chain",
+  "handloom_powerloom": "cotton_chain"
+ },
+ "textile_industries": [
+  "mmf_textiles",
+  "textile_processing",
+  "manmade_fibres",
+  "cotton_textiles",
+  "handloom_powerloom",
+  "home_textiles",
+  "technical_textiles",
+  "silk_weaving",
+  "textile_trading",
+  "apparel",
+  "cotton_ginning"
+ ],
+ "companies": {
+  "ARVIND": {
+   "name": "Arvind",
+   "sector": "Textiles",
+   "gujarat": "Ahmedabad denim/garments",
+   "basis": "consolidated"
+  },
+  "FILATEX": {
+   "name": "Filatex India",
+   "sector": "Polyester yarn (MMF)",
+   "gujarat": "Dahej plant; supplies Surat weavers",
+   "basis": "standalone"
+  },
+  "WELSPUNLIV": {
+   "name": "Welspun Living",
+   "sector": "Home textiles",
+   "gujarat": "Anjar (Kutch) plant",
+   "basis": "consolidated"
+  }
+ },
+ "observations": {
+  "ARVIND": {
+   "revenue_yoy_pct": [
+    {
+     "id": "E00751",
+     "period": "2025-12-31",
+     "fq": "Q3FY26",
+     "value": 13.57,
+     "filed": "2026-01-30",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1614470_30012026040522_WEB.xml"
+    },
+    {
+     "id": "E00757",
+     "period": "2026-03-31",
+     "fq": "Q4FY26",
+     "value": 14.97,
+     "filed": "2026-05-16",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1668281_16052026024736_WEB.xml"
+    },
+    {
+     "id": "E00766",
+     "period": "2026-06-30",
+     "fq": "Q1FY27",
+     "value": 24.65,
+     "filed": "2026-08-12",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1712785_12082026060355_WEB.xml"
+    },
+    {
+     "id": "E00772",
+     "period": "2026-09-30",
+     "fq": "Q2FY27",
+     "value": 128.56,
+     "filed": "2026-10-28",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1748235_28102026081127_WEB.xml",
+     "excluded": "suspected half-year (YTD) revenue in the filing feed for this quarter or its year-ago quarter; left out of the benchmark"
+    }
+   ],
+   "ebitda_margin_pct": [
+    {
+     "id": "E00753",
+     "period": "2025-12-31",
+     "fq": "Q3FY26",
+     "value": 11.54,
+     "filed": "2026-01-30",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1614470_30012026040522_WEB.xml"
+    },
+    {
+     "id": "E00759",
+     "period": "2026-03-31",
+     "fq": "Q4FY26",
+     "value": 11.99,
+     "filed": "2026-05-16",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1668281_16052026024736_WEB.xml"
+    },
+    {
+     "id": "E00768",
+     "period": "2026-06-30",
+     "fq": "Q1FY27",
+     "value": 9.61,
+     "filed": "2026-08-12",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1712785_12082026060355_WEB.xml"
+    },
+    {
+     "id": "E00774",
+     "period": "2026-09-30",
+     "fq": "Q2FY27",
+     "value": 10.14,
+     "filed": "2026-10-28",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1748235_28102026081127_WEB.xml",
+     "note": "suspected half-year (YTD) figures for this quarter"
+    }
+   ],
+   "receivable_days": [
+    {
+     "id": "E00763",
+     "period": "2026-03-31",
+     "fq": "Q4FY26",
+     "value": 56.65,
+     "filed": "2026-05-16",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1668281_16052026024736_WEB.xml"
+    }
+   ],
+   "inventory_days_on_sales": [
+    {
+     "id": "E00764",
+     "period": "2026-03-31",
+     "fq": "Q4FY26",
+     "value": 85.28,
+     "filed": "2026-05-16",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1668281_16052026024736_WEB.xml"
+    }
+   ],
+   "interest_cover_x": [
+    {
+     "id": "E00756",
+     "period": "2025-12-31",
+     "fq": "Q3FY26",
+     "value": 6.54,
+     "filed": "2026-01-30",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1614470_30012026040522_WEB.xml"
+    },
+    {
+     "id": "E00762",
+     "period": "2026-03-31",
+     "fq": "Q4FY26",
+     "value": 7.55,
+     "filed": "2026-05-16",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1668281_16052026024736_WEB.xml"
+    },
+    {
+     "id": "E00771",
+     "period": "2026-06-30",
+     "fq": "Q1FY27",
+     "value": 4.42,
+     "filed": "2026-08-12",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1712785_12082026060355_WEB.xml"
+    },
+    {
+     "id": "E00777",
+     "period": "2026-09-30",
+     "fq": "Q2FY27",
+     "value": 4.4,
+     "filed": "2026-10-28",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1748235_28102026081127_WEB.xml",
+     "note": "suspected half-year (YTD) figures for this quarter"
+    }
+   ]
+  },
+  "FILATEX": {
+   "revenue_yoy_pct": [
+    {
+     "id": "E02830",
+     "period": "2025-12-31",
+     "fq": "Q3FY26",
+     "value": -1.78,
+     "filed": "2026-02-07",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1620979_07022026033510_WEB.xml"
+    },
+    {
+     "id": "E02836",
+     "period": "2026-03-31",
+     "fq": "Q4FY26",
+     "value": -8.75,
+     "filed": "2026-05-01",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1662865_01052026065216_WEB.xml"
+    },
+    {
+     "id": "E02845",
+     "period": "2026-06-30",
+     "fq": "Q1FY27",
+     "value": 9.14,
+     "filed": "2026-07-30",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1705498_30072026064403_WEB.xml"
+    },
+    {
+     "id": "E02851",
+     "period": "2026-09-30",
+     "fq": "Q2FY27",
+     "value": -38.64,
+     "filed": "2026-11-13",
+     "source": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1757623_13112026061710_WEB.xml",
+     "excluded": "suspected half-year (YTD) revenue in the filing feed for this quarter or its year-ago quarter; left out of the benchmark"
+    }
+   ],
+   "ebitda_margin_pct": [
+    {
+     "id": "E02832",
+     "period": "2025-12-31",
+     "fq": "Q3FY26",
+     "value": 8.92,
+     "filed": "2026-02-07",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1620979_07022026033510_WEB.xml"
+    },
+    {
+     "id": "E02838",
+     "period": "2026-03-31",
+     "fq": "Q4FY26",
+     "value": 8.75,
+     "filed": "2026-05-01",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1662865_01052026065216_WEB.xml"
+    },
+    {
+     "id": "E02847",
+     "period": "2026-06-30",
+     "fq": "Q1FY27",
+     "value": 6.8,
+     "filed": "2026-07-30",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1705498_30072026064403_WEB.xml"
+    },
+    {
+     "id": "E02853",
+     "period": "2026-09-30",
+     "fq": "Q2FY27",
+     "value": 6.98,
+     "filed": "2026-11-13",
+     "source": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1757623_13112026061710_WEB.xml"
+    }
+   ],
+   "receivable_days": [
+    {
+     "id": "E02842",
+     "period": "2026-03-31",
+     "fq": "Q4FY26",
+     "value": 9.41,
+     "filed": "2026-05-01",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1662865_01052026065216_WEB.xml"
+    },
+    {
+     "id": "E02857",
+     "period": "2026-09-30",
+     "fq": "Q2FY27",
+     "value": 10.98,
+     "filed": "2026-11-13",
+     "source": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1757623_13112026061710_WEB.xml"
+    }
+   ],
+   "inventory_days_on_sales": [
+    {
+     "id": "E02843",
+     "period": "2026-03-31",
+     "fq": "Q4FY26",
+     "value": 37.32,
+     "filed": "2026-05-01",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1662865_01052026065216_WEB.xml"
+    },
+    {
+     "id": "E02858",
+     "period": "2026-09-30",
+     "fq": "Q2FY27",
+     "value": 31.36,
+     "filed": "2026-11-13",
+     "source": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1757623_13112026061710_WEB.xml"
+    }
+   ],
+   "interest_cover_x": [
+    {
+     "id": "E02835",
+     "period": "2025-12-31",
+     "fq": "Q3FY26",
+     "value": 11.57,
+     "filed": "2026-02-07",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1620979_07022026033510_WEB.xml"
+    },
+    {
+     "id": "E02841",
+     "period": "2026-03-31",
+     "fq": "Q4FY26",
+     "value": 4.71,
+     "filed": "2026-05-01",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1662865_01052026065216_WEB.xml"
+    },
+    {
+     "id": "E02850",
+     "period": "2026-06-30",
+     "fq": "Q1FY27",
+     "value": 32.33,
+     "filed": "2026-07-30",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1705498_30072026064403_WEB.xml"
+    },
+    {
+     "id": "E02856",
+     "period": "2026-09-30",
+     "fq": "Q2FY27",
+     "value": 11.55,
+     "filed": "2026-11-13",
+     "source": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1757623_13112026061710_WEB.xml"
+    }
+   ]
+  },
+  "WELSPUNLIV": {
+   "revenue_yoy_pct": [
+    {
+     "id": "E05616",
+     "period": "2025-12-31",
+     "fq": "Q3FY26",
+     "value": -9.13,
+     "filed": "2026-02-12",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1624087_12022026042735_WEB.xml"
+    },
+    {
+     "id": "E05622",
+     "period": "2026-03-31",
+     "fq": "Q4FY26",
+     "value": -7.95,
+     "filed": "2026-05-15",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1668111_15052026093022_WEB.xml"
+    },
+    {
+     "id": "E05631",
+     "period": "2026-06-30",
+     "fq": "Q1FY27",
+     "value": 23.66,
+     "filed": "2026-08-13",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1713711_13082026060203_WEB.xml"
+    },
+    {
+     "id": "E05637",
+     "period": "2026-09-30",
+     "fq": "Q2FY27",
+     "value": 16.27,
+     "filed": "2026-10-30",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750372_30102026072231_WEB.xml"
+    }
+   ],
+   "ebitda_margin_pct": [
+    {
+     "id": "E05618",
+     "period": "2025-12-31",
+     "fq": "Q3FY26",
+     "value": 7.08,
+     "filed": "2026-02-12",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1624087_12022026042735_WEB.xml"
+    },
+    {
+     "id": "E05624",
+     "period": "2026-03-31",
+     "fq": "Q4FY26",
+     "value": 10.23,
+     "filed": "2026-05-15",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1668111_15052026093022_WEB.xml"
+    },
+    {
+     "id": "E05633",
+     "period": "2026-06-30",
+     "fq": "Q1FY27",
+     "value": 11.49,
+     "filed": "2026-08-13",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1713711_13082026060203_WEB.xml"
+    },
+    {
+     "id": "E05639",
+     "period": "2026-09-30",
+     "fq": "Q2FY27",
+     "value": 11.91,
+     "filed": "2026-10-30",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750372_30102026072231_WEB.xml"
+    }
+   ],
+   "receivable_days": [
+    {
+     "id": "E05628",
+     "period": "2026-03-31",
+     "fq": "Q4FY26",
+     "value": 50.96,
+     "filed": "2026-05-15",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1668111_15052026093022_WEB.xml"
+    },
+    {
+     "id": "E05643",
+     "period": "2026-09-30",
+     "fq": "Q2FY27",
+     "value": 37.28,
+     "filed": "2026-10-30",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750372_30102026072231_WEB.xml"
+    }
+   ],
+   "inventory_days_on_sales": [
+    {
+     "id": "E05629",
+     "period": "2026-03-31",
+     "fq": "Q4FY26",
+     "value": 84.3,
+     "filed": "2026-05-15",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1668111_15052026093022_WEB.xml"
+    },
+    {
+     "id": "E05644",
+     "period": "2026-09-30",
+     "fq": "Q2FY27",
+     "value": 65.11,
+     "filed": "2026-10-30",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750372_30102026072231_WEB.xml"
+    }
+   ],
+   "interest_cover_x": [
+    {
+     "id": "E05621",
+     "period": "2025-12-31",
+     "fq": "Q3FY26",
+     "value": 4.1,
+     "filed": "2026-02-12",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1624087_12022026042735_WEB.xml"
+    },
+    {
+     "id": "E05627",
+     "period": "2026-03-31",
+     "fq": "Q4FY26",
+     "value": 6.81,
+     "filed": "2026-05-15",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1668111_15052026093022_WEB.xml"
+    },
+    {
+     "id": "E05636",
+     "period": "2026-06-30",
+     "fq": "Q1FY27",
+     "value": 9.34,
+     "filed": "2026-08-13",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1713711_13082026060203_WEB.xml"
+    },
+    {
+     "id": "E05642",
+     "period": "2026-09-30",
+     "fq": "Q2FY27",
+     "value": 9.97,
+     "filed": "2026-10-30",
+     "source": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750372_30102026072231_WEB.xml"
+    }
+   ]
+  }
+ },
+ "benchmarks": {
+  "textile_chain": {
+   "revenue_yoy_pct": {
+    "label": "Sales growth",
+    "unit": "%",
+    "optimistic": "high",
+    "per_company": {
+     "FILATEX": -1.78,
+     "ARVIND": 14.97,
+     "WELSPUNLIV": 4.16
+    },
+    "periods": [
+     "Q3FY26",
+     "Q4FY26",
+     "Q1FY27",
+     "Q2FY27"
+    ],
+    "median": 4.16,
+    "lo": -1.78,
+    "hi": 14.97,
+    "n_companies": 3
+   },
+   "ebitda_margin_pct": {
+    "label": "EBITDA margin",
+    "unit": "%",
+    "optimistic": "high",
+    "per_company": {
+     "FILATEX": 7.87,
+     "ARVIND": 10.84,
+     "WELSPUNLIV": 10.86
+    },
+    "periods": [
+     "Q3FY26",
+     "Q4FY26",
+     "Q1FY27",
+     "Q2FY27"
+    ],
+    "median": 10.84,
+    "lo": 7.87,
+    "hi": 10.86,
+    "n_companies": 3
+   },
+   "receivable_days": {
+    "label": "Debtor days",
+    "unit": "days",
+    "optimistic": "low",
+    "per_company": {
+     "FILATEX": 10.2,
+     "ARVIND": 56.65,
+     "WELSPUNLIV": 44.12
+    },
+    "periods": [
+     "Q4FY26",
+     "Q2FY27"
+    ],
+    "median": 44.12,
+    "lo": 10.2,
+    "hi": 56.65,
+    "n_companies": 3
+   },
+   "inventory_days_on_sales": {
+    "label": "Inventory days",
+    "unit": "days",
+    "optimistic": "low",
+    "per_company": {
+     "FILATEX": 34.34,
+     "ARVIND": 85.28,
+     "WELSPUNLIV": 74.7
+    },
+    "periods": [
+     "Q4FY26",
+     "Q2FY27"
+    ],
+    "median": 74.7,
+    "lo": 34.34,
+    "hi": 85.28,
+    "n_companies": 3
+   },
+   "interest_cover_x": {
+    "label": "Interest cover (EBITDA / finance cost), context only",
+    "unit": "x",
+    "optimistic": null,
+    "per_company": {
+     "FILATEX": 11.56,
+     "ARVIND": 5.48,
+     "WELSPUNLIV": 8.07
+    },
+    "periods": [
+     "Q3FY26",
+     "Q4FY26",
+     "Q1FY27",
+     "Q2FY27"
+    ],
+    "median": 8.07,
+    "lo": 5.48,
+    "hi": 11.56,
+    "n_companies": 3
+   }
+  },
+  "cotton_chain": {
+   "revenue_yoy_pct": {
+    "label": "Sales growth",
+    "unit": "%",
+    "optimistic": "high",
+    "per_company": {
+     "ARVIND": 14.97,
+     "WELSPUNLIV": 4.16
+    },
+    "periods": [
+     "Q3FY26",
+     "Q4FY26",
+     "Q1FY27",
+     "Q2FY27"
+    ],
+    "median": 9.57,
+    "lo": 4.16,
+    "hi": 14.97,
+    "n_companies": 2
+   },
+   "ebitda_margin_pct": {
+    "label": "EBITDA margin",
+    "unit": "%",
+    "optimistic": "high",
+    "per_company": {
+     "ARVIND": 10.84,
+     "WELSPUNLIV": 10.86
+    },
+    "periods": [
+     "Q3FY26",
+     "Q4FY26",
+     "Q1FY27",
+     "Q2FY27"
+    ],
+    "median": 10.85,
+    "lo": 10.84,
+    "hi": 10.86,
+    "n_companies": 2
+   },
+   "receivable_days": {
+    "label": "Debtor days",
+    "unit": "days",
+    "optimistic": "low",
+    "per_company": {
+     "ARVIND": 56.65,
+     "WELSPUNLIV": 44.12
+    },
+    "periods": [
+     "Q4FY26",
+     "Q2FY27"
+    ],
+    "median": 50.38,
+    "lo": 44.12,
+    "hi": 56.65,
+    "n_companies": 2
+   },
+   "inventory_days_on_sales": {
+    "label": "Inventory days",
+    "unit": "days",
+    "optimistic": "low",
+    "per_company": {
+     "ARVIND": 85.28,
+     "WELSPUNLIV": 74.7
+    },
+    "periods": [
+     "Q4FY26",
+     "Q2FY27"
+    ],
+    "median": 79.99,
+    "lo": 74.7,
+    "hi": 85.28,
+    "n_companies": 2
+   },
+   "interest_cover_x": {
+    "label": "Interest cover (EBITDA / finance cost), context only",
+    "unit": "x",
+    "optimistic": null,
+    "per_company": {
+     "ARVIND": 5.48,
+     "WELSPUNLIV": 8.07
+    },
+    "periods": [
+     "Q3FY26",
+     "Q4FY26",
+     "Q1FY27",
+     "Q2FY27"
+    ],
+    "median": 6.78,
+    "lo": 5.48,
+    "hi": 8.07,
+    "n_companies": 2
+   }
+  },
+  "mmf_yarn": {
+   "revenue_yoy_pct": {
+    "label": "Sales growth",
+    "unit": "%",
+    "optimistic": "high",
+    "per_company": {
+     "FILATEX": -1.78
+    },
+    "periods": [
+     "Q3FY26",
+     "Q4FY26",
+     "Q1FY27"
+    ],
+    "median": null,
+    "lo": null,
+    "hi": null,
+    "n_companies": 1,
+    "grey": "fewer than 2 listed peers with filings in the window"
+   },
+   "ebitda_margin_pct": {
+    "label": "EBITDA margin",
+    "unit": "%",
+    "optimistic": "high",
+    "per_company": {
+     "FILATEX": 7.87
+    },
+    "periods": [
+     "Q3FY26",
+     "Q4FY26",
+     "Q1FY27",
+     "Q2FY27"
+    ],
+    "median": null,
+    "lo": null,
+    "hi": null,
+    "n_companies": 1,
+    "grey": "fewer than 2 listed peers with filings in the window"
+   },
+   "receivable_days": {
+    "label": "Debtor days",
+    "unit": "days",
+    "optimistic": "low",
+    "per_company": {
+     "FILATEX": 10.2
+    },
+    "periods": [
+     "Q4FY26",
+     "Q2FY27"
+    ],
+    "median": null,
+    "lo": null,
+    "hi": null,
+    "n_companies": 1,
+    "grey": "fewer than 2 listed peers with filings in the window"
+   },
+   "inventory_days_on_sales": {
+    "label": "Inventory days",
+    "unit": "days",
+    "optimistic": "low",
+    "per_company": {
+     "FILATEX": 34.34
+    },
+    "periods": [
+     "Q4FY26",
+     "Q2FY27"
+    ],
+    "median": null,
+    "lo": null,
+    "hi": null,
+    "n_companies": 1,
+    "grey": "fewer than 2 listed peers with filings in the window"
+   },
+   "interest_cover_x": {
+    "label": "Interest cover (EBITDA / finance cost), context only",
+    "unit": "x",
+    "optimistic": null,
+    "per_company": {
+     "FILATEX": 11.56
+    },
+    "periods": [
+     "Q3FY26",
+     "Q4FY26",
+     "Q1FY27",
+     "Q2FY27"
+    ],
+    "median": null,
+    "lo": null,
+    "hi": null,
+    "n_companies": 1,
+    "grey": "fewer than 2 listed peers with filings in the window"
+   }
+  }
+ }
+}
