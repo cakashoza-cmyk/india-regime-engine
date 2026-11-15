@@ -1,7 +1,7 @@
 {
 "symbol": "FILATEX",
 "basis": "standalone",
-"fetched": "2026-11-08T06:34:18",
+"fetched": "2026-11-15T07:00:50",
 "quarters": {
 "2018-03-31": {
 "m": {
@@ -850,6 +850,31 @@
 },
 "src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1705498_30072026064403_WEB.xml",
 "filed": "30-Jul-2026 18:44:03",
+"feed": "NSE integrated-filing-results",
+"audited": "Un-Audited"
+},
+"2026-09-30": {
+"m": {
+"revenue": 1304.19,
+"other_income": 8.43,
+"ebitda": 91.03,
+"pat": 53.48,
+"finance_cost": 7.88,
+"depreciation": 19.92,
+"material_cost": 1067.15,
+"impairment": null,
+"interest_income": null,
+"inventory": 419.71,
+"receivables": 146.99,
+"payables": 704.08,
+"debt": 237.18,
+"loans": null,
+"ocf_ytd": 262.26,
+"revenue_ytd": 2449.49,
+"volume": null
+},
+"src": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1757623_13112026061710_WEB.xml",
+"filed": "13-Nov-2026 18:17:10",
 "feed": "NSE integrated-filing-results",
 "audited": "Un-Audited"
 }

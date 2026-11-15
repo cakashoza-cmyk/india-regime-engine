@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T12:05:27+05:30",
+ "generated": "2026-11-15T12:31:46+05:30",
  "research_only": true,
  "ai_calls": 0,
  "rule": "Same half-year YoY: receivables or inventory growth exceeds revenue (YTD) growth by >10pp, or YTD operating cash flow falls >15% while YTD profit rises >=10%. Growth in receivables/inventory must itself be positive. Lenders excluded.",
@@ -312,40 +312,6 @@
    "name": "Elecon Engineering"
   },
   {
-   "company": "FILATEX",
-   "period": "2026-03-31",
-   "fq": "Q4FY26",
-   "compared_with": "Q4FY25",
-   "cluster": "MMF/polyester - Dahej -> Surat weavers",
-   "triggers": [
-    "Operating cash flow fell (312 -> 244 cr) while profit rose (135 -> 225 cr)"
-   ],
-   "alert": true,
-   "note": null,
-   "metrics": {
-    "revenue_ytd_growth_pct": -2.15,
-    "receivables_growth_pct": -16.07,
-    "inventory_growth_pct": -7.95,
-    "pat_ytd": 224.63,
-    "pat_ytd_prior": 134.57,
-    "ocf_ytd": 243.72,
-    "ocf_ytd_prior": 312.22
-   },
-   "sources": [
-    {
-     "period": "Q4FY26",
-     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1662865_01052026065216_WEB.xml",
-     "filed": "2026-05-01"
-    },
-    {
-     "period": "Q4FY25",
-     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1423499_23042025091306_WEB.xml",
-     "filed": "2025-04-23"
-    }
-   ],
-   "name": "Filatex India"
-  },
-  {
    "company": "LT",
    "period": "2026-09-30",
    "fq": "Q2FY27",
@@ -557,6 +523,7 @@
   "ASIANTILES",
   "CONCOR",
   "DEEPAKNTR",
+  "FILATEX",
   "GPPL",
   "JKLAKSHMI",
   "KAJARIACER",

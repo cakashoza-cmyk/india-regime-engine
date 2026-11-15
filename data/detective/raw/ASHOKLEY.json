@@ -1,7 +1,7 @@
 {
 "symbol": "ASHOKLEY",
 "basis": "consolidated",
-"fetched": "2026-11-08T06:34:39",
+"fetched": "2026-11-15T07:01:05",
 "quarters": {
 "2019-06-30": {
 "m": {
@@ -700,6 +700,31 @@
 },
 "src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1714908_14082026065518_WEB.xml",
 "filed": "14-Aug-2026 18:55:17",
+"feed": "NSE integrated-filing-results",
+"audited": "Un-Audited"
+},
+"2026-09-30": {
+"m": {
+"revenue": 17029.87,
+"other_income": 143.81,
+"ebitda": 2776.29,
+"pat": 891.45,
+"finance_cost": 1343.64,
+"depreciation": 318.39,
+"material_cost": 10822.55,
+"impairment": null,
+"interest_income": null,
+"inventory": 5447.85,
+"receivables": 3665.86,
+"payables": 8654.98,
+"debt": 63790.18,
+"loans": null,
+"ocf_ytd": -1695.74,
+"revenue_ytd": 30099.46,
+"volume": null
+},
+"src": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1758732_14112026091104_WEB.xml",
+"filed": "14-Nov-2026 21:10:24",
 "feed": "NSE integrated-filing-results",
 "audited": "Un-Audited"
 }
