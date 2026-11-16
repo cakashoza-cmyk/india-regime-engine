@@ -3,14 +3,14 @@
 | Field | Value |
 |-------|-------|
 | **Document** | Logic extract for independent review |
-| **Source of truth** | `index.html` + `app-gates.js` (Seven Gates wizard); prior SPA at `index.legacy.html`
+| **Source of truth** | `gates.html` + `app-gates.js` (Seven Gates wizard); prior SPA at `index.legacy.html`
 | **Live app** | https://cakashoza-cmyk.github.io/india-regime-engine/ |
 | **Source repo** | https://github.com/cakashoza-cmyk/india-regime-engine |
 | **Method tab** | Same live URL → **Method** |
 | **As of** | 2026-10-26 Asia/Calcutta |
 | **Owner** | Akash Oza |
 
-This document describes **rules as implemented in code**. It does not invent thresholds or sleeves that are not in `index.html`.
+This document describes **rules as implemented in code**. It does not invent thresholds or sleeves that are not in `gates.html`.
 
 ---
 
@@ -209,7 +209,7 @@ showBuyList = (call.confidence === "Strong") && (confirm.status === "confirmed")
 
 ---
 
-## 11. OW / UW lists (`SLEEVES` in `index.html`)
+## 11. OW / UW lists (`SLEEVES` in `gates.html`)
 
 ### Risk-On
 - **OW:** Broad equities; Midcaps (with liquidity expanding); Discretionary / consumption; IT & growth on dips if liquidity ok  
@@ -266,7 +266,7 @@ Treat the live app as a **checklist / consistency engine**, not an autopilot wit
 ## 14. Source code links
 
 - Repository: https://github.com/cakashoza-cmyk/india-regime-engine  
-- Blob (main `index.html`): https://github.com/cakashoza-cmyk/india-regime-engine/blob/main/index.html  
+- Blob (Seven Gates `gates.html`): https://github.com/cakashoza-cmyk/india-regime-engine/blob/main/gates.html  
 - Live Method tab: https://cakashoza-cmyk.github.io/india-regime-engine/  
 - This audit file (in-repo when pushed): https://github.com/cakashoza-cmyk/india-regime-engine/blob/main/AUDIT_LOGIC.md  
 - Raw: https://raw.githubusercontent.com/cakashoza-cmyk/india-regime-engine/main/AUDIT_LOGIC.md  
@@ -277,7 +277,7 @@ Treat the live app as a **checklist / consistency engine**, not an autopilot wit
 
 Independent reviewers should ask:
 
-1. **Source match:** Does each threshold in this doc (§3–§10) still match `index.html` on the audited commit SHA?
+1. **Source match:** Does each threshold in this doc (§3–§10) still match `gates.html` on the audited commit SHA?
 2. **Non-claims:** Is the UI still explicit that AI ≠ fact and Unclear/wait is allowed?
 3. **Growth purity:** Can Nifty alone ever set Growth ≠ Unclear? (Code: no.)
 4. **Transitory:** When food/crude↑ and core flat/falling, is Inflation Transitory and excluded from `iUp`?

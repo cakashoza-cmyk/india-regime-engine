@@ -128,3 +128,43 @@ def test_workflows_are_valid_yaml_and_rebuild_cards():
         y = yaml.safe_load((ROOT / ".github" / "workflows" / wf).read_text())
         runs = " ".join(str(s.get("run", "")) for j in y["jobs"].values() for s in j["steps"])
         assert "engine/cards.py" in runs and "data/cards" in runs, wf
+
+
+PLAIN = json.loads((ROOT / "engine" / "plain_industries.json").read_text())
+_YEAR = re.compile(r"\b(?:19|20)\d\d(?:-\d\d)?\b")
+
+
+def _nums(s):
+    s = _YEAR.sub(" ", s)
+    return {n.replace(",", "").rstrip(".") for n in re.findall(r"\d[\d,.]*", s)}
+
+
+def test_local_writeups_quote_their_sources():
+    """Every number in a local write-up must appear in a quoted snippet from a dated, linked source."""
+    city_ids = {c["id"] for c in D["cities"]}
+    ind_ids = {i["id"] for i in D["industries"]}
+    bad = []
+    for key, e in PLAIN.get("local", {}).items():
+        city, ind = key.split("|")
+        if city not in city_ids or ind not in ind_ids:
+            bad.append((key, "unknown city or industry"))
+        for c in e.get("checks", []):
+            if DIGIT.search(c):
+                bad.append((key, "digit in check", c))
+        for sec in ("what", "money"):
+            for l in e.get(sec, []):
+                if not DIGIT.search(l["t"]):
+                    continue
+                srcs = l.get("src") or []
+                if not srcs or not all(_src_ok(s) and s.get("quote") and re.fullmatch(r"\d{4}-\d\d-\d\d", s["as_of"]) for s in srcs):
+                    bad.append((key, "missing source/date/quote", l["t"]))
+                    continue
+                quoted = set().union(*(_nums(s["quote"]) for s in srcs))
+                missing = _nums(l["t"]) - quoted
+                if missing:
+                    bad.append((key, "number not in quote", sorted(missing), l["t"]))
+                if any((TODAY - date.fromisoformat(s["as_of"])).days > 2 * 366 for s in srcs):
+                    bad.append((key, "source older than two years", l["t"]))
+    assert not bad, bad[:5]
+    for k in ("gj_surat|diamonds", "gj_morbi|ceramics", "gj_surat|mmf_textiles"):
+        assert k in COMMON["local"], k

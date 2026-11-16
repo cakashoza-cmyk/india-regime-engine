@@ -39,7 +39,7 @@ python3 -m http.server 8765
 
 Then open `http://127.0.0.1:8765/` in a browser.
 
-Or open `index.html` directly (file://). The page embeds a fallback copy of the last `data/snapshot.json`; a local server is still best for live fetch. Browser calls to DeepSeek need network access.
+Or open `gates.html` (Seven Gates) directly (file://). The page embeds a fallback copy of the last `data/snapshot.json`; a local server is still best for live fetch. Browser calls to DeepSeek need network access.
 
 ## Fill macros via AI (DeepSeek)
 

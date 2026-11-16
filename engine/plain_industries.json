@@ -121,18 +121,1416 @@
  "local": {
   "gj_surat|mmf_textiles": {
    "what": [
-    {"t": "Polyester yarn, made from crude-oil derivatives, is woven into grey fabric on powerlooms, often as job-work, then dyed, printed, embroidered and finished for dress-material traders and garment buyers."},
-    {"t": "Surat makes about 65% of India's synthetic textiles, with yearly sales of about Rs 85,000 crore (as cited by the Southern Gujarat Chamber of Commerce and Industry).", "kind": "local fact", "src": [{"name": "Frontline", "url": "https://frontline.thehindu.com/the-nation/surat-embroidery-workers-labour-rights/article71644077.ece", "as_of": "2026-10-31", "label": "Oct 2026"}]}
+    {
+     "t": "Polyester yarn, made from crude-oil derivatives, is woven into grey fabric on powerlooms, often as job-work, then dyed, printed, embroidered and finished for dress-material traders and garment buyers."
+    },
+    {
+     "t": "Surat makes about 65% of India's synthetic textiles, with yearly sales of about Rs 85,000 crore (as cited by the Southern Gujarat Chamber of Commerce and Industry).",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Frontline",
+       "url": "https://frontline.thehindu.com/the-nation/surat-embroidery-workers-labour-rights/article71644077.ece",
+       "as_of": "2026-10-31",
+       "label": "Oct 2026",
+       "quote": "approximately 65 per cent of the country's synthetic textiles are produced in Surat with an annual sales value of Rs.85,000 crore"
+      }
+     ]
+    }
    ],
    "money": [
-    {"t": "The margin is in processing and finishing; grey fabric is a commodity. Pure job-work units earn only a conversion charge and have no pricing power."},
-    {"t": "Yarn and power decide the margin. Yarn follows crude oil, so a unit must pass price rises on quickly or absorb them."}
+    {
+     "t": "The margin is in processing and finishing; grey fabric is a commodity. Pure job-work units earn only a conversion charge and have no pricing power."
+    },
+    {
+     "t": "Yarn and power decide the margin. Yarn follows crude oil, so a unit must pass price rises on quickly or absorb them."
+    }
    ],
    "checks": [
     "Power bills against the shift register, every month: falling machine hours mean a slowdown.",
     "Yarn purchase register against the stock statement, every month: yarn piling up while sales stay flat means the unit is funding inventory instead of selling.",
     "Wage, EPF (Employees' Provident Fund) and ESI (Employees' State Insurance) payments on time: late payments are an early sign of stress or a strike.",
     "Any FIR or labour department notice against the unit."
+   ]
+  },
+  "gj_surat|diamonds": {
+   "what": [
+    {
+     "t": "Rough diamonds, mostly imported, are cut and polished in small and large units and sold to exporters and jewellers, with lab-grown diamonds a growing share."
+    },
+    {
+     "t": "Surat polishes over 90 of every 100 diamonds in the world; nearly 800,000 artisans work in about 5,000 cutting and polishing units.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Business Standard",
+       "url": "https://www.business-standard.com/economy/news/tariff-turbulence-surat-s-diamond-industry-faces-third-crisis-in-17-years-125081500004_1.html",
+       "as_of": "2025-08-15",
+       "label": "Aug 2025",
+       "quote": "over 90 in 100 diamonds globally are polished. The job is done by nearly 800,000 artisans, employed in about 5,000 diamond-cutting and -polishing units"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "Margins are thin: the spread between rough cost and polished price, earned on high volumes and long credit given to buyers abroad."
+    },
+    {
+     "t": "Exports decide it. The US took $4.8 billion of India's $13.2 billion cut-and-polished diamond exports in 2024-25, so US demand and tariffs move the whole cluster.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "The Hindu (GJEPC data)",
+       "url": "https://www.thehindu.com/business/us-has-no-alternative-to-india-in-diamonds-say-industry-leaders/article69932206.ece",
+       "as_of": "2025-08-15",
+       "label": "2024-25, published Aug 2025",
+       "quote": "in the 2024-25 fiscal year, India shipped cut and polished diamonds worth $4.8 billion to the United States. The U.S. market thus accounted for over one-third of the country's total diamond exports, which amounted to $13.2 billion for the year"
+      }
+     ]
+    },
+    {
+     "t": "Rough prices, polished prices and lab-grown competition, plus the cost of dollar credit, decide whether a unit earns or loses."
+    }
+   ],
+   "checks": [
+    "Stock plus receivables against the drawing power, every month: unsold polished goods pile up first.",
+    "Share of sales to the US and to a few buyers, and any delayed export proceeds.",
+    "Share of lab-grown diamonds in turnover, and how their price has moved.",
+    "Wage payments and worker headcount: cuts in working days show up before missed instalments."
+   ]
+  },
+  "gj_surat|textile_processing": {
+   "what": [
+    {
+     "t": "Process houses in Pandesara, Sachin, Kadodara and Palsana dye, bleach, print and finish grey man-made fabric, mostly on job work for traders who own the cloth."
+    },
+    {
+     "t": "Roughly 350 processing mills do the dyeing, printing and finishing for the Surat cluster.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Texfash",
+       "url": "https://texfash.com/special/enterprise-reshapes-surat-s-identity-through-unceasing-effort-and-expanding-opportunities",
+       "as_of": "2025-11-19",
+       "label": "Nov 2025",
+       "quote": "Roughly 350 processing mills anchor capacity for dyeing, printing and finishing across multiple product lines. With 350 textile malls , the city hosts 40,000-50,000 traders"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "They earn a job-work charge per metre, so the margin depends on volume and on keeping fuel, chemical and effluent costs below that charge."
+    },
+    {
+     "t": "Coal or gas, dyes and chemicals, and pollution-control compliance are the costs that decide it; traders' payment delays hit cash flow directly."
+    }
+   ],
+   "checks": [
+    "Metres processed per month against the job-work charge billed.",
+    "Fuel and dye cost per metre against last year.",
+    "Pollution board consents and effluent plant compliance: a closure order stops income overnight.",
+    "Receivable days from traders, and the top few traders' share."
+   ]
+  },
+  "gj_surat|textile_trading": {
+   "what": [
+    {
+     "t": "Traders in Surat's textile markets buy grey and finished fabric from weavers and process houses and sell sarees, dress material and garment fabric across India, mostly on credit through agents."
+    },
+    {
+     "t": "At least 40,000-50,000 traders work out of 350 textile malls; of the 70,000 shops, 30,000-40,000 sell sarees and 25,000-30,000 sell suits or dress material.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Texfash",
+       "url": "https://texfash.com/special/enterprise-reshapes-surat-s-identity-through-unceasing-effort-and-expanding-opportunities",
+       "as_of": "2025-11-19",
+       "label": "Nov 2025",
+       "quote": "Roughly 350 processing mills anchor capacity for dyeing, printing and finishing across multiple product lines. With 350 textile malls , the city hosts 40,000-50,000 traders"
+      },
+      {
+       "name": "Texfash",
+       "url": "https://texfash.com/special/enterprise-reshapes-surat-s-identity-through-unceasing-effort-and-expanding-opportunities",
+       "as_of": "2025-11-19",
+       "label": "Nov 2025",
+       "quote": "Of the 70,000 shops in the mall markets, 30,000-40,000 sell saris, 25,000-30,000 are into suits or dress material"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is a thin trading spread; profit depends on how fast stock turns and how quickly buyers in other states pay."
+    },
+    {
+     "t": "Payment cycles through commission agents, festival and wedding-season demand, and GST invoice matching decide cash flow."
+    }
+   ],
+   "checks": [
+    "Receivable days and the share of dues older than six months.",
+    "Stock turnover against last season.",
+    "GST returns matched to bank credits.",
+    "Concentration in a few agents or buyer states."
+   ]
+  },
+  "gj_morbi|ceramics": {
+   "what": [
+    {
+     "t": "Kiln-based units in Morbi make wall, floor and vitrified tiles and sanitaryware, selling across India and exporting to the Gulf, Africa, Europe and the US."
+    },
+    {
+     "t": "Morbi produces 80% of India's ceramics from over 900 MSME units; nearly 300 factories shut in the three years to Sep 2025.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Hindustan Times",
+       "url": "https://www.hindustantimes.com/india-news/cracks-appear-in-gujarat-ceramic-industry-as-tariffs-hurt-101756752962367.html",
+       "as_of": "2025-09-02",
+       "label": "Sep 2025",
+       "quote": "It produces 80% of India's ceramics ... housing over 900 MSME units ... Nearly 300 factories have shut down in the last three years ... for an industry where fuel represents a quarter of expenses"
+      }
+     ]
+    },
+    {
+     "t": "Of about 900 tile units, about 370 run fully on gas and about 530 on gas and propane.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "PL Capital research note (Building Materials)",
+       "url": "https://plindia.com/ResReport/Building%20Materials-5-3-26-PL.pdf",
+       "as_of": "2026-03-05",
+       "label": "Oct to Dec 2025, published Mar 2026",
+       "quote": "Q3FY26, Gujarat Gas volumes in Morbi declined sharply by ~50% YoY ... Of the ~900 ceramic tiles units in Morbi (370 fully gas-based and ~530 dual- fuel units using gas and propane)"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the gap between selling price per square metre and fuel plus clay cost, in a crowded cluster where prices are cut quickly when kilns run below capacity."
+    },
+    {
+     "t": "Fuel is about a quarter of expenses, so gas and propane prices decide margins.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Hindustan Times",
+       "url": "https://www.hindustantimes.com/india-news/cracks-appear-in-gujarat-ceramic-industry-as-tariffs-hurt-101756752962367.html",
+       "as_of": "2025-09-02",
+       "label": "Sep 2025",
+       "quote": "It produces 80% of India's ceramics ... housing over 900 MSME units ... Nearly 300 factories have shut down in the last three years ... for an industry where fuel represents a quarter of expenses"
+      }
+     ]
+    },
+    {
+     "t": "Gujarat Gas volumes in Morbi fell about 50% on a year earlier in Oct to Dec 2025, a sign of kilns running less.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "PL Capital research note (Building Materials)",
+       "url": "https://plindia.com/ResReport/Building%20Materials-5-3-26-PL.pdf",
+       "as_of": "2026-03-05",
+       "label": "Oct to Dec 2025, published Mar 2026",
+       "quote": "Q3FY26, Gujarat Gas volumes in Morbi declined sharply by ~50% YoY ... Of the ~900 ceramic tiles units in Morbi (370 fully gas-based and ~530 dual- fuel units using gas and propane)"
+      }
+     ]
+    }
+   ],
+   "checks": [
+    "Gas or propane cost per square metre against selling price, every month.",
+    "Kiln running days and planned shutdowns.",
+    "Dealer receivable days and stock of finished tiles.",
+    "Export orders under anti-dumping or tariff action."
+   ]
+  },
+  "gj_vapi|chemicals_dyes": {
+   "what": [
+    {
+     "t": "Plants in GIDC estates make dyes, dye intermediates, pigments and other chemicals for textile, pharma and agrochemical buyers in India and abroad, sharing common effluent treatment plants."
+    },
+    {
+     "t": "Gujarat makes nearly 75% of India's dyes and dye intermediates; Ankleshwar and Vapi are its main clusters.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Indian Chemical News",
+       "url": "https://www.indianchemicalnews.com/opinion/colors-of-opportunity-indias-expanding-dye-and-dyestuff-industry-27154",
+       "as_of": "2025-08-18",
+       "label": "Aug 2025",
+       "quote": "Gujarat alone accounting for nearly 75% of India's dye and dye intermediate production. The Ankleshwar and Vapi industrial clusters are particularly prominent"
+      }
+     ]
+    },
+    {
+     "t": "Gujarat earned 46.16% of India's chemical exports in 2024-25.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/ahmedabad/gujarat-retains-its-chemicals-exports-crown-with-46-share/articleshow/120908910.cms",
+       "as_of": "2025-05-06",
+       "label": "2024-25, published May 2025",
+       "quote": "contributing 46.16% of the country's total"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the spread between crude-linked raw materials and product prices, which Chinese supply often sets."
+    },
+    {
+     "t": "Raw-material prices, China's export prices, and effluent and pollution compliance costs decide it; a closure order stops income."
+    }
+   ],
+   "checks": [
+    "Pollution board consents, effluent plant dues and any closure notice.",
+    "Raw-material cost against selling price, every quarter.",
+    "Export receivable days and the share of a few buyers.",
+    "Inventory days of raw material and finished goods."
+   ]
+  },
+  "gj_ankleshwar|chemicals_dyes": {
+   "what": [
+    {
+     "t": "Plants in GIDC estates make dyes, dye intermediates, pigments and other chemicals for textile, pharma and agrochemical buyers in India and abroad, sharing common effluent treatment plants."
+    },
+    {
+     "t": "Gujarat makes nearly 75% of India's dyes and dye intermediates; Ankleshwar and Vapi are its main clusters.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Indian Chemical News",
+       "url": "https://www.indianchemicalnews.com/opinion/colors-of-opportunity-indias-expanding-dye-and-dyestuff-industry-27154",
+       "as_of": "2025-08-18",
+       "label": "Aug 2025",
+       "quote": "Gujarat alone accounting for nearly 75% of India's dye and dye intermediate production. The Ankleshwar and Vapi industrial clusters are particularly prominent"
+      }
+     ]
+    },
+    {
+     "t": "Gujarat earned 46.16% of India's chemical exports in 2024-25.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/ahmedabad/gujarat-retains-its-chemicals-exports-crown-with-46-share/articleshow/120908910.cms",
+       "as_of": "2025-05-06",
+       "label": "2024-25, published May 2025",
+       "quote": "contributing 46.16% of the country's total"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the spread between crude-linked raw materials and product prices, which Chinese supply often sets."
+    },
+    {
+     "t": "Raw-material prices, China's export prices, and effluent and pollution compliance costs decide it; a closure order stops income."
+    }
+   ],
+   "checks": [
+    "Pollution board consents, effluent plant dues and any closure notice.",
+    "Raw-material cost against selling price, every quarter.",
+    "Export receivable days and the share of a few buyers.",
+    "Inventory days of raw material and finished goods."
+   ]
+  },
+  "gj_bharuch|chemicals_dyes": {
+   "what": [
+    {
+     "t": "Plants in GIDC estates make dyes, dye intermediates, pigments and other chemicals for textile, pharma and agrochemical buyers in India and abroad, sharing common effluent treatment plants."
+    },
+    {
+     "t": "Gujarat makes nearly 75% of India's dyes and dye intermediates; Ankleshwar and Vapi are its main clusters.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Indian Chemical News",
+       "url": "https://www.indianchemicalnews.com/opinion/colors-of-opportunity-indias-expanding-dye-and-dyestuff-industry-27154",
+       "as_of": "2025-08-18",
+       "label": "Aug 2025",
+       "quote": "Gujarat alone accounting for nearly 75% of India's dye and dye intermediate production. The Ankleshwar and Vapi industrial clusters are particularly prominent"
+      }
+     ]
+    },
+    {
+     "t": "Gujarat earned 46.16% of India's chemical exports in 2024-25.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/ahmedabad/gujarat-retains-its-chemicals-exports-crown-with-46-share/articleshow/120908910.cms",
+       "as_of": "2025-05-06",
+       "label": "2024-25, published May 2025",
+       "quote": "contributing 46.16% of the country's total"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the spread between crude-linked raw materials and product prices, which Chinese supply often sets."
+    },
+    {
+     "t": "Raw-material prices, China's export prices, and effluent and pollution compliance costs decide it; a closure order stops income."
+    }
+   ],
+   "checks": [
+    "Pollution board consents, effluent plant dues and any closure notice.",
+    "Raw-material cost against selling price, every quarter.",
+    "Export receivable days and the share of a few buyers.",
+    "Inventory days of raw material and finished goods."
+   ]
+  },
+  "gj_dahej|chemicals_dyes": {
+   "what": [
+    {
+     "t": "Plants in GIDC estates make dyes, dye intermediates, pigments and other chemicals for textile, pharma and agrochemical buyers in India and abroad, sharing common effluent treatment plants."
+    },
+    {
+     "t": "Gujarat makes nearly 75% of India's dyes and dye intermediates; Ankleshwar and Vapi are its main clusters.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Indian Chemical News",
+       "url": "https://www.indianchemicalnews.com/opinion/colors-of-opportunity-indias-expanding-dye-and-dyestuff-industry-27154",
+       "as_of": "2025-08-18",
+       "label": "Aug 2025",
+       "quote": "Gujarat alone accounting for nearly 75% of India's dye and dye intermediate production. The Ankleshwar and Vapi industrial clusters are particularly prominent"
+      }
+     ]
+    },
+    {
+     "t": "Gujarat earned 46.16% of India's chemical exports in 2024-25.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/ahmedabad/gujarat-retains-its-chemicals-exports-crown-with-46-share/articleshow/120908910.cms",
+       "as_of": "2025-05-06",
+       "label": "2024-25, published May 2025",
+       "quote": "contributing 46.16% of the country's total"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the spread between crude-linked raw materials and product prices, which Chinese supply often sets."
+    },
+    {
+     "t": "Raw-material prices, China's export prices, and effluent and pollution compliance costs decide it; a closure order stops income."
+    }
+   ],
+   "checks": [
+    "Pollution board consents, effluent plant dues and any closure notice.",
+    "Raw-material cost against selling price, every quarter.",
+    "Export receivable days and the share of a few buyers.",
+    "Inventory days of raw material and finished goods."
+   ]
+  },
+  "gj_dahej|petrochem": {
+   "what": [
+    {
+     "t": "Large plants in the Dahej Petroleum, Chemicals and Petrochemicals Investment Region (PCPIR) near Bharuch turn naphtha, gas and imported feedstock into petrochemicals, chlor-alkali and specialty chemicals, served by Dahej port and LNG terminal."
+    },
+    {
+     "t": "Gujarat earned 46.16% of India's chemical exports in 2024-25.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/ahmedabad/gujarat-retains-its-chemicals-exports-crown-with-46-share/articleshow/120908910.cms",
+       "as_of": "2025-05-06",
+       "label": "2024-25, published May 2025",
+       "quote": "contributing 46.16% of the country's total"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the product-to-feedstock spread, set by global petrochemical cycles and crude and gas prices."
+    },
+    {
+     "t": "Feedstock cost, plant utilisation and Chinese capacity additions decide it; small local suppliers depend on the big plants' order and payment cycle."
+    }
+   ],
+   "checks": [
+    "Share of sales to the large Dahej anchor plants and their payment days.",
+    "Feedstock cost against product price, every quarter.",
+    "Pollution and safety compliance status."
+   ]
+  },
+  "gj_ahmedabad|pharma": {
+   "what": [
+    {
+     "t": "Formulation and bulk-drug plants around Ahmedabad (Changodar, Sanand, Bavla), Vadodara and Ankleshwar supply Indian and regulated export markets, with many small contract manufacturers."
+    },
+    {
+     "t": "Gujarat makes 33% of India's pharmaceutical output and about 28% of its pharma exports, from about 5,850 licensed manufacturers.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/ahmedabad/47-of-pharma-mous-from-vggs-2024-commissioned/articleshow/121523898.cms",
+       "as_of": "2025-05-31",
+       "label": "May 2025",
+       "quote": "Gujarat accounts for 33% of the country's total pharmaceutical production ... Gujarat holds approximately a 28% share in India's total pharmaceutical exports. Currently, there are about 5,850 licensed manufacturers in Gujarat"
+      }
+     ]
+    },
+    {
+     "t": "Gujarat's drug regulator approved 183 new allopathic medicine plants in 2024-25.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "ET Manufacturing (Gujarat FDCA)",
+       "url": "https://manufacturing.economictimes.indiatimes.com/news/life-sciences/guj-leads-pharma-sector-with-record-183-new-plants/120688834",
+       "as_of": "2025-04-28",
+       "label": "2024-25, published Apr 2025",
+       "quote": "We approved 183 new allopathic medicine plants last financial year"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "Margins sit in regulated-market approvals and branded formulations; contract and generic makers earn thinner, price-capped margins."
+    },
+    {
+     "t": "Imported raw-material (key starting material) prices, US generic price erosion and inspection outcomes decide it."
+    }
+   ],
+   "checks": [
+    "Latest USFDA or WHO-GMP (World Health Organization good manufacturing practice) inspection result for each plant.",
+    "Share of inputs imported from China and their price trend.",
+    "Receivable days from distributors and export buyers.",
+    "Concentration in a few contract customers."
+   ]
+  },
+  "gj_vadodara|pharma": {
+   "what": [
+    {
+     "t": "Formulation and bulk-drug plants around Ahmedabad (Changodar, Sanand, Bavla), Vadodara and Ankleshwar supply Indian and regulated export markets, with many small contract manufacturers."
+    },
+    {
+     "t": "Gujarat makes 33% of India's pharmaceutical output and about 28% of its pharma exports, from about 5,850 licensed manufacturers.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/ahmedabad/47-of-pharma-mous-from-vggs-2024-commissioned/articleshow/121523898.cms",
+       "as_of": "2025-05-31",
+       "label": "May 2025",
+       "quote": "Gujarat accounts for 33% of the country's total pharmaceutical production ... Gujarat holds approximately a 28% share in India's total pharmaceutical exports. Currently, there are about 5,850 licensed manufacturers in Gujarat"
+      }
+     ]
+    },
+    {
+     "t": "Gujarat's drug regulator approved 183 new allopathic medicine plants in 2024-25.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "ET Manufacturing (Gujarat FDCA)",
+       "url": "https://manufacturing.economictimes.indiatimes.com/news/life-sciences/guj-leads-pharma-sector-with-record-183-new-plants/120688834",
+       "as_of": "2025-04-28",
+       "label": "2024-25, published Apr 2025",
+       "quote": "We approved 183 new allopathic medicine plants last financial year"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "Margins sit in regulated-market approvals and branded formulations; contract and generic makers earn thinner, price-capped margins."
+    },
+    {
+     "t": "Imported raw-material (key starting material) prices, US generic price erosion and inspection outcomes decide it."
+    }
+   ],
+   "checks": [
+    "Latest USFDA or WHO-GMP (World Health Organization good manufacturing practice) inspection result for each plant.",
+    "Share of inputs imported from China and their price trend.",
+    "Receivable days from distributors and export buyers.",
+    "Concentration in a few contract customers."
+   ]
+  },
+  "gj_rajkot|engineering": {
+   "what": [
+    {
+     "t": "Rajkot's small and medium engineering units make diesel engines, pumps, castings, forgings, machine tools and auto parts, many as suppliers to larger manufacturers and exporters."
+    },
+    {
+     "t": "Rajkot district has more than 2.46 lakh micro, small and medium enterprises and 14 working Gujarat Industrial Development Corporation (GIDC) estates, employing over 11 lakh people directly, by industry estimates.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/rajkot/rajkot-bets-on-vibrant-gujarat-meet-to-drive-next-phase-industrial-growth/articleshow/126419243.cms",
+       "as_of": "2026-01-08",
+       "label": "Jan 2026",
+       "quote": "The district currently has 14 operational GIDCs and more than 2.46 lakh micro, small and medium enterprises, providing direct employment to over 11 lakh people, according to industry estimates"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the conversion charge over steel, scrap and pig-iron cost; units supplying big buyers have little pricing power."
+    },
+    {
+     "t": "Metal prices, the buyer's payment cycle and order concentration decide it; nearly half of Rajkot's industrial units now sell abroad, so export orders matter too.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/rajkot/rajkot-bets-on-vibrant-gujarat-meet-to-drive-next-phase-industrial-growth/articleshow/126419243.cms",
+       "as_of": "2026-01-08",
+       "label": "Jan 2026",
+       "quote": "enabled nearly half of Rajkot's industrial units to enter export markets"
+      }
+     ]
+    }
+   ],
+   "checks": [
+    "Share of the top few buyers in sales and their payment days.",
+    "Steel or scrap cost against selling price per piece.",
+    "Order book for the next quarter.",
+    "Power cost and machine utilisation."
+   ]
+  },
+  "gj_rajkot|auto_components": {
+   "what": [
+    {
+     "t": "Rajkot's small and medium engineering units make diesel engines, pumps, castings, forgings, machine tools and auto parts, many as suppliers to larger manufacturers and exporters."
+    },
+    {
+     "t": "Rajkot district has more than 2.46 lakh micro, small and medium enterprises and 14 working Gujarat Industrial Development Corporation (GIDC) estates, employing over 11 lakh people directly, by industry estimates.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/rajkot/rajkot-bets-on-vibrant-gujarat-meet-to-drive-next-phase-industrial-growth/articleshow/126419243.cms",
+       "as_of": "2026-01-08",
+       "label": "Jan 2026",
+       "quote": "The district currently has 14 operational GIDCs and more than 2.46 lakh micro, small and medium enterprises, providing direct employment to over 11 lakh people, according to industry estimates"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the conversion charge over steel, scrap and pig-iron cost; units supplying big buyers have little pricing power."
+    },
+    {
+     "t": "Metal prices, the buyer's payment cycle and order concentration decide it; nearly half of Rajkot's industrial units now sell abroad, so export orders matter too.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/rajkot/rajkot-bets-on-vibrant-gujarat-meet-to-drive-next-phase-industrial-growth/articleshow/126419243.cms",
+       "as_of": "2026-01-08",
+       "label": "Jan 2026",
+       "quote": "enabled nearly half of Rajkot's industrial units to enter export markets"
+      }
+     ]
+    }
+   ],
+   "checks": [
+    "Share of the top few buyers in sales and their payment days.",
+    "Steel or scrap cost against selling price per piece.",
+    "Order book for the next quarter.",
+    "Power cost and machine utilisation."
+   ]
+  },
+  "gj_rajkot|castings_forgings": {
+   "what": [
+    {
+     "t": "Rajkot's small and medium engineering units make diesel engines, pumps, castings, forgings, machine tools and auto parts, many as suppliers to larger manufacturers and exporters."
+    },
+    {
+     "t": "Rajkot district has more than 2.46 lakh micro, small and medium enterprises and 14 working Gujarat Industrial Development Corporation (GIDC) estates, employing over 11 lakh people directly, by industry estimates.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/rajkot/rajkot-bets-on-vibrant-gujarat-meet-to-drive-next-phase-industrial-growth/articleshow/126419243.cms",
+       "as_of": "2026-01-08",
+       "label": "Jan 2026",
+       "quote": "The district currently has 14 operational GIDCs and more than 2.46 lakh micro, small and medium enterprises, providing direct employment to over 11 lakh people, according to industry estimates"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the conversion charge over steel, scrap and pig-iron cost; units supplying big buyers have little pricing power."
+    },
+    {
+     "t": "Metal prices, the buyer's payment cycle and order concentration decide it; nearly half of Rajkot's industrial units now sell abroad, so export orders matter too.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/rajkot/rajkot-bets-on-vibrant-gujarat-meet-to-drive-next-phase-industrial-growth/articleshow/126419243.cms",
+       "as_of": "2026-01-08",
+       "label": "Jan 2026",
+       "quote": "enabled nearly half of Rajkot's industrial units to enter export markets"
+      }
+     ]
+    }
+   ],
+   "checks": [
+    "Share of the top few buyers in sales and their payment days.",
+    "Steel or scrap cost against selling price per piece.",
+    "Order book for the next quarter.",
+    "Power cost and machine utilisation."
+   ]
+  },
+  "gj_rajkot|pumps_valves": {
+   "what": [
+    {
+     "t": "Rajkot's small and medium engineering units make diesel engines, pumps, castings, forgings, machine tools and auto parts, many as suppliers to larger manufacturers and exporters."
+    },
+    {
+     "t": "Rajkot district has more than 2.46 lakh micro, small and medium enterprises and 14 working Gujarat Industrial Development Corporation (GIDC) estates, employing over 11 lakh people directly, by industry estimates.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/rajkot/rajkot-bets-on-vibrant-gujarat-meet-to-drive-next-phase-industrial-growth/articleshow/126419243.cms",
+       "as_of": "2026-01-08",
+       "label": "Jan 2026",
+       "quote": "The district currently has 14 operational GIDCs and more than 2.46 lakh micro, small and medium enterprises, providing direct employment to over 11 lakh people, according to industry estimates"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the conversion charge over steel, scrap and pig-iron cost; units supplying big buyers have little pricing power."
+    },
+    {
+     "t": "Metal prices, the buyer's payment cycle and order concentration decide it; nearly half of Rajkot's industrial units now sell abroad, so export orders matter too.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/rajkot/rajkot-bets-on-vibrant-gujarat-meet-to-drive-next-phase-industrial-growth/articleshow/126419243.cms",
+       "as_of": "2026-01-08",
+       "label": "Jan 2026",
+       "quote": "enabled nearly half of Rajkot's industrial units to enter export markets"
+      }
+     ]
+    }
+   ],
+   "checks": [
+    "Share of the top few buyers in sales and their payment days.",
+    "Steel or scrap cost against selling price per piece.",
+    "Order book for the next quarter.",
+    "Power cost and machine utilisation."
+   ]
+  },
+  "gj_jamnagar|nonferrous_brass": {
+   "what": [
+    {
+     "t": "Jamnagar's units melt imported and local brass scrap into rods and billets and machine them into parts such as plumbing fittings, electrical pins and inserts for buyers in India and abroad."
+    },
+    {
+     "t": "About 8,000 brass factories run in Jamnagar, employing over 3 lakh people directly and indirectly.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Abtak Media (Gujarati)",
+       "url": "https://www.abtakmedia.com/big-hope-in-the-budget-of-jamnagar-brass-industry-employing-3-lakh-people/",
+       "as_of": "2026-01-31",
+       "label": "Jan 2026",
+       "quote": "અંદાજે 8 હજાર જેટલા બ્રાસ કારખાનાઓ કાર્યરત છે, જેમાં પ્રત્યક્ષ અને પરોક્ષ રીતે ત્રણ લાખથી વધુ લોકોને રોજગારી (translation: about 8,000 brass factories run, giving jobs directly and indirectly to over 3 lakh people)"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the machining charge over the brass metal price; units that hold metal stock carry price risk."
+    },
+    {
+     "t": "Copper and zinc prices, imported scrap cost and export orders decide it."
+    }
+   ],
+   "checks": [
+    "Metal stock held against orders, and whether metal price risk is passed on.",
+    "Scrap import documents and supplier concentration.",
+    "Export receivable days.",
+    "Machine utilisation and power cost."
+   ]
+  },
+  "gj_alang|shipbuilding": {
+   "what": [
+    {
+     "t": "Plots on the Alang-Sosiya beach buy old ships, beach them and cut them up, selling steel scrap to re-rolling mills and machinery and fittings to second-hand markets. This is ship-breaking, not shipbuilding."
+    },
+    {
+     "t": "India did 35.4% of the world's ship recycling in 2025; Alang-Sosiya handles 98% of India's, from 128 working plots employing about 15,000 workers directly.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "PIB, Ministry of Ports, Shipping and Waterways",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290486&lang=1&reg=3",
+       "as_of": "2026-07-28",
+       "label": "Jul 2026",
+       "quote": "India became the world's leading ship recycling nation, accounting for 35.4% of global ship recycling volume. Alang-Sosiya Ship Recycling Yard ... handles 98% of India's ship recycling activity. The yard has 128 currently operational plots ... direct employment to about 15,000 workers"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the gap between the price paid for a ship (per light displacement tonne, in dollars) and what the steel and parts fetch locally weeks later."
+    },
+    {
+     "t": "Ship prices, steel scrap prices, the rupee and the supply of old ships decide it; each ship is a large single bet."
+    }
+   ],
+   "checks": [
+    "Price paid per tonne for each ship against current local scrap prices.",
+    "Dollar exposure and whether it is hedged.",
+    "Plot's Hong Kong Convention compliance and safety record.",
+    "Time from beaching to sale of steel."
+   ]
+  },
+  "gj_kandla_gandhidham|ports": {
+   "what": [
+    {
+     "t": "Port operators, terminals, stevedores, freight forwarders, warehouses and transporters around Kandla (Deendayal Port) and Mundra move bulk, liquid and container cargo for north and west India."
+    },
+    {
+     "t": "Deendayal Port at Kandla handled 160.11 million tonnes of cargo in 2025-26, the highest ever for a major port.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Deendayal Port Authority press note",
+       "url": "https://www.deendayalport.gov.in/uploads/Press_Note_160_MMT_DPA_01_04_2026_0956f87e33.pdf",
+       "as_of": "2026-04-01",
+       "label": "2025-26, published Apr 2026",
+       "quote": "achieving an unprecedented 160.11 MMT - the highest-ever cargo volume handled in the history of Major Ports"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "Operators earn per tonne or per container handled; small logistics firms earn thin margins on volume and are paid on credit."
+    },
+    {
+     "t": "Cargo volumes, freight rates, diesel cost and customer payment days decide it."
+    }
+   ],
+   "checks": [
+    "Cargo or container volumes handled against last year.",
+    "Concentration in a few shipping lines or importers.",
+    "Receivable days and fuel cost per trip.",
+    "Lease or licence tenure of port land against the loan tenor."
+   ]
+  },
+  "gj_kandla_gandhidham|logistics_warehousing": {
+   "what": [
+    {
+     "t": "Port operators, terminals, stevedores, freight forwarders, warehouses and transporters around Kandla (Deendayal Port) and Mundra move bulk, liquid and container cargo for north and west India."
+    },
+    {
+     "t": "Deendayal Port at Kandla handled 160.11 million tonnes of cargo in 2025-26, the highest ever for a major port.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "Deendayal Port Authority press note",
+       "url": "https://www.deendayalport.gov.in/uploads/Press_Note_160_MMT_DPA_01_04_2026_0956f87e33.pdf",
+       "as_of": "2026-04-01",
+       "label": "2025-26, published Apr 2026",
+       "quote": "achieving an unprecedented 160.11 MMT - the highest-ever cargo volume handled in the history of Major Ports"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "Operators earn per tonne or per container handled; small logistics firms earn thin margins on volume and are paid on credit."
+    },
+    {
+     "t": "Cargo volumes, freight rates, diesel cost and customer payment days decide it."
+    }
+   ],
+   "checks": [
+    "Cargo or container volumes handled against last year.",
+    "Concentration in a few shipping lines or importers.",
+    "Receivable days and fuel cost per trip.",
+    "Lease or licence tenure of port land against the loan tenor."
+   ]
+  },
+  "gj_mundra|ports": {
+   "what": [
+    {
+     "t": "Mundra is a private port with an industrial zone; local businesses are terminals, container freight stations, warehouses, transporters and service contractors around it."
+    }
+   ],
+   "money": [
+    {
+     "t": "Earnings follow cargo volumes and the port operator's contracts; small firms depend on a few large customers."
+    }
+   ],
+   "checks": [
+    "Cargo or container volumes handled against last year.",
+    "Concentration in a few shipping lines or importers.",
+    "Receivable days and fuel cost per trip.",
+    "Lease or licence tenure of port land against the loan tenor."
+   ]
+  },
+  "tn_tiruppur|hosiery_knitwear": {
+   "what": [
+    {
+     "t": "Tiruppur's units knit cotton yarn into fabric and stitch T-shirts, innerwear and knitwear, mostly for export buyers in the US and Europe, with dyeing and printing done locally."
+    },
+    {
+     "t": "Tiruppur's export revenue was Rs 42,544.40 crore in 2025-26, down 4.91% from Rs 44,747 crore in 2024-25.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "The New Indian Express",
+       "url": "https://www.newindianexpress.com/states/tamil-nadu/2026/Jun/06/tiruppur-reports-meagre-fall-in-export-revenue-of-rs-42544-crore-in-fy26",
+       "as_of": "2026-06-06",
+       "label": "2025-26, published Jun 2026",
+       "quote": "annual export revenue of Rs 42,544.40 crore in FY2025-26 against Rs 44,747 crore in FY2024-25, a decline of 4.91%"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the export price per piece over yarn, labour and processing cost, earned on buyer orders placed months ahead."
+    },
+    {
+     "t": "Cotton yarn prices, US and European orders, the rupee and wage costs decide it."
+    }
+   ],
+   "checks": [
+    "Confirmed export orders for the next three months against capacity.",
+    "Yarn cost share of the export price against last year.",
+    "Export proceeds realisation days.",
+    "Concentration in a few buyers or brands."
+   ]
+  },
+  "tn_tiruppur|apparel": {
+   "what": [
+    {
+     "t": "Tiruppur's units knit cotton yarn into fabric and stitch T-shirts, innerwear and knitwear, mostly for export buyers in the US and Europe, with dyeing and printing done locally."
+    },
+    {
+     "t": "Tiruppur's export revenue was Rs 42,544.40 crore in 2025-26, down 4.91% from Rs 44,747 crore in 2024-25.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "The New Indian Express",
+       "url": "https://www.newindianexpress.com/states/tamil-nadu/2026/Jun/06/tiruppur-reports-meagre-fall-in-export-revenue-of-rs-42544-crore-in-fy26",
+       "as_of": "2026-06-06",
+       "label": "2025-26, published Jun 2026",
+       "quote": "annual export revenue of Rs 42,544.40 crore in FY2025-26 against Rs 44,747 crore in FY2024-25, a decline of 4.91%"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the export price per piece over yarn, labour and processing cost, earned on buyer orders placed months ahead."
+    },
+    {
+     "t": "Cotton yarn prices, US and European orders, the rupee and wage costs decide it."
+    }
+   ],
+   "checks": [
+    "Confirmed export orders for the next three months against capacity.",
+    "Yarn cost share of the export price against last year.",
+    "Export proceeds realisation days.",
+    "Concentration in a few buyers or brands."
+   ]
+  },
+  "pb_ludhiana|hosiery_knitwear": {
+   "what": [
+    {
+     "t": "Ludhiana's hosiery and knitwear units make sweaters, cardigans, thermals and knitwear for India's winter market and for export."
+    },
+    {
+     "t": "Ludhiana has around 12,000 textile and hosiery units employing over 5 lakh people, selling about ₹40,000 crore a year in India and exporting about ₹5,000 crore.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "The Indian Express",
+       "url": "https://indianexpress.com/article/cities/chandigarh/ludhiana-hosiery-industry-protests-imports-turkey-bangladesh-10031184/",
+       "as_of": "2025-05-27",
+       "label": "May 2025",
+       "quote": "has around 12,000 small, medium, and large textile and hosiery units, employing over 5 lakh people directly and indirectly. The city contributes an estimated ₹40,000 crore annually to the domestic market and exports worth around ₹5,000 crore"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "Sales are seasonal: stock is built through summer and sold in a short winter season, so a mild winter or cheap imports leave stock and debts unpaid."
+    },
+    {
+     "t": "Yarn prices, winter demand and imports from Bangladesh and elsewhere decide it."
+    }
+   ],
+   "checks": [
+    "Unsold stock after the winter season against last year.",
+    "Dealer receivable days after the season.",
+    "Yarn cost against selling price.",
+    "Working capital used outside the season."
+   ]
+  },
+  "pb_ludhiana|bicycles": {
+   "what": [
+    {
+     "t": "Ludhiana's bicycle makers and hundreds of small parts suppliers make cycles and parts for Indian buyers, government schemes and export."
+    },
+    {
+     "t": "About 90 per cent of India's bicycle production comes from Ludhiana, with annual turnover of Rs 12,000 crore and about Rs 3,500 crore of exports.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "The Tribune",
+       "url": "https://www.tribuneindia.com/news/ludhiana/cycle-industry-seeks-revival-amid-export-challenges/",
+       "as_of": "2025-07-08",
+       "label": "Jul 2025",
+       "quote": "With annual turnover of Rs 12,000 crore, approximately 90 per cent of India's bicycle production originates from Ludhiana and it comprises around Rs 3,500 crore of export business"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is thin over steel and parts cost, with large government tenders and imports from China setting prices."
+    }
+   ],
+   "checks": [
+    "Steel cost against selling price.",
+    "Share of sales to government schemes and their payment delays.",
+    "Export orders and dealer receivables."
+   ]
+  },
+  "mh_bhiwandi|handloom_powerloom": {
+   "what": [
+    {
+     "t": "Small powerloom owners in Bhiwandi weave grey cloth, much of it as job-work for traders, in crowded sheds with hired workers."
+    },
+    {
+     "t": "Bhiwandi once had as many as 12 lakh powerlooms; the number has fallen to less than 6 lakh.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "The Indian Express",
+       "url": "https://indianexpress.com/article/cities/mumbai/us-tariff-threat-looms-large-at-bhiwandi-powerloom-hub-final-nail-on-our-coffin-10238222/",
+       "as_of": "2025-09-08",
+       "label": "Sep 2025",
+       "quote": "Bhiwandi was home to as many as 12 lakh powerlooms ... the number of power looms have since dwindled to less than 6 lakh at present ... a marginal profit of 50 paisa per metre of cloth sold"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is tiny: owners say they make about 50 paisa per metre of cloth sold, so power tariffs, yarn prices and cheap imports decide survival.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "The Indian Express",
+       "url": "https://indianexpress.com/article/cities/mumbai/us-tariff-threat-looms-large-at-bhiwandi-powerloom-hub-final-nail-on-our-coffin-10238222/",
+       "as_of": "2025-09-08",
+       "label": "Sep 2025",
+       "quote": "Bhiwandi was home to as many as 12 lakh powerlooms ... the number of power looms have since dwindled to less than 6 lakh at present ... a marginal profit of 50 paisa per metre of cloth sold"
+      }
+     ]
+    }
+   ],
+   "checks": [
+    "Looms actually running and shifts per day.",
+    "Power bills against output.",
+    "Trader payment days and job-work rates.",
+    "Yarn price movement against cloth price."
+   ]
+  },
+  "hr_panipat|home_textiles": {
+   "what": [
+    {
+     "t": "Panipat's units make bed sheets, cushion covers, bath mats, rugs and blankets, much of it from recycled yarn, mainly for export to Europe, the US, Japan and Australia."
+    },
+    {
+     "t": "Panipat's textile and handloom industry has an annual turnover of over Rs 50,000 crore, with around Rs 20,000 crore from exports.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "The Tribune",
+       "url": "https://www.tribuneindia.com/news/haryana/uk-india-free-trade-deal-brings-cheer-to-panipat-textile-industry/",
+       "as_of": "2025-07-27",
+       "label": "Jul 2025",
+       "quote": "has an annual turnover of over Rs 50,000 crore, with around Rs 20,000 crore from exports only"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the export price over recycled or cotton yarn, dyeing and labour cost, on orders from large foreign retailers."
+    },
+    {
+     "t": "Buyer orders, yarn prices and the rupee decide it."
+    }
+   ],
+   "checks": [
+    "Confirmed export orders against capacity.",
+    "Export proceeds realisation days.",
+    "Concentration in a few foreign buyers."
+   ]
+  },
+  "up_moradabad|nonferrous_brass": {
+   "what": [
+    {
+     "t": "Moradabad's units and artisans make brass, aluminium and steel decorative ware and household items, mostly for export."
+    },
+    {
+     "t": "Moradabad exported about Rs 1,583 crore of handicrafts in 2024-25, out of Uttar Pradesh's Rs 7,122 crore; nearly half goes to the US.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "India Today",
+       "url": "https://www.indiatoday.in/business/story/brass-city-in-crisis-us-tariff-threatens-livelihoods-of-over-2-lakh-artisans-in-moradabad-2780605-2025-09-02",
+       "as_of": "2025-09-02",
+       "label": "2024-25, published Sep 2025",
+       "quote": "Uttar Pradesh exported handicrafts worth Rs 7,122 crore in 2024-25, with Moradabad alone contributing around Rs 1,583 crore. Nearly half of these products are destined for the US"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "Exporters earn a margin over metal and artisan cost on orders from foreign buyers, so a US tariff or a lost buyer cuts income quickly."
+    },
+    {
+     "t": "Metal prices, US demand and tariffs, and the rupee decide it."
+    }
+   ],
+   "checks": [
+    "Share of sales to the US and orders on hold.",
+    "Export proceeds realisation days.",
+    "Metal stock against confirmed orders."
+   ]
+  },
+  "up_moradabad|handicrafts": {
+   "what": [
+    {
+     "t": "Moradabad's units and artisans make brass, aluminium and steel decorative ware and household items, mostly for export."
+    },
+    {
+     "t": "Moradabad exported about Rs 1,583 crore of handicrafts in 2024-25, out of Uttar Pradesh's Rs 7,122 crore; nearly half goes to the US.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "India Today",
+       "url": "https://www.indiatoday.in/business/story/brass-city-in-crisis-us-tariff-threatens-livelihoods-of-over-2-lakh-artisans-in-moradabad-2780605-2025-09-02",
+       "as_of": "2025-09-02",
+       "label": "2024-25, published Sep 2025",
+       "quote": "Uttar Pradesh exported handicrafts worth Rs 7,122 crore in 2024-25, with Moradabad alone contributing around Rs 1,583 crore. Nearly half of these products are destined for the US"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "Exporters earn a margin over metal and artisan cost on orders from foreign buyers, so a US tariff or a lost buyer cuts income quickly."
+    },
+    {
+     "t": "Metal prices, US demand and tariffs, and the rupee decide it."
+    }
+   ],
+   "checks": [
+    "Share of sales to the US and orders on hold.",
+    "Export proceeds realisation days.",
+    "Metal stock against confirmed orders."
+   ]
+  },
+  "up_kanpur|leather_tanning": {
+   "what": [
+    {
+     "t": "Tanneries in Kanpur and Unnao turn hides into finished leather, and units make saddlery, bags, belts and footwear, much of it for export."
+    },
+    {
+     "t": "Kanpur and Unnao have around 400 tanneries (259 in Kanpur), leather exports of about Rs 8,000 crore a year, and close to 10 lakh people employed.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "The Indian Express",
+       "url": "https://indianexpress.com/article/cities/lucknow/exporters-recover-business-trump-tariff-cutup-leather-industry-10511705/",
+       "as_of": "2026-02-03",
+       "label": "Feb 2026",
+       "quote": "There are around 400 small and large tanneries in the two districts - 259 in Kanpur and the rest in Unnao ... leather exports from Kanpur and Unnao together were worth around Rs 8,000 crore annually ... employment to nearly 10 lakh people"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the finished-leather or product price over hide and chemical cost; effluent rules and closure orders are a constant risk."
+    },
+    {
+     "t": "Export orders, especially from the US, hide prices and pollution compliance decide it."
+    }
+   ],
+   "checks": [
+    "Pollution board consent and any closure order.",
+    "Export orders and US share.",
+    "Export proceeds realisation days.",
+    "Hide and chemical cost against selling price."
+   ]
+  },
+  "up_kanpur|leather_goods": {
+   "what": [
+    {
+     "t": "Tanneries in Kanpur and Unnao turn hides into finished leather, and units make saddlery, bags, belts and footwear, much of it for export."
+    },
+    {
+     "t": "Kanpur and Unnao have around 400 tanneries (259 in Kanpur), leather exports of about Rs 8,000 crore a year, and close to 10 lakh people employed.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "The Indian Express",
+       "url": "https://indianexpress.com/article/cities/lucknow/exporters-recover-business-trump-tariff-cutup-leather-industry-10511705/",
+       "as_of": "2026-02-03",
+       "label": "Feb 2026",
+       "quote": "There are around 400 small and large tanneries in the two districts - 259 in Kanpur and the rest in Unnao ... leather exports from Kanpur and Unnao together were worth around Rs 8,000 crore annually ... employment to nearly 10 lakh people"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the finished-leather or product price over hide and chemical cost; effluent rules and closure orders are a constant risk."
+    },
+    {
+     "t": "Export orders, especially from the US, hide prices and pollution compliance decide it."
+    }
+   ],
+   "checks": [
+    "Pollution board consent and any closure order.",
+    "Export orders and US share.",
+    "Export proceeds realisation days.",
+    "Hide and chemical cost against selling price."
+   ]
+  },
+  "up_kanpur|footwear": {
+   "what": [
+    {
+     "t": "Tanneries in Kanpur and Unnao turn hides into finished leather, and units make saddlery, bags, belts and footwear, much of it for export."
+    },
+    {
+     "t": "Kanpur and Unnao have around 400 tanneries (259 in Kanpur), leather exports of about Rs 8,000 crore a year, and close to 10 lakh people employed.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "The Indian Express",
+       "url": "https://indianexpress.com/article/cities/lucknow/exporters-recover-business-trump-tariff-cutup-leather-industry-10511705/",
+       "as_of": "2026-02-03",
+       "label": "Feb 2026",
+       "quote": "There are around 400 small and large tanneries in the two districts - 259 in Kanpur and the rest in Unnao ... leather exports from Kanpur and Unnao together were worth around Rs 8,000 crore annually ... employment to nearly 10 lakh people"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "The margin is the finished-leather or product price over hide and chemical cost; effluent rules and closure orders are a constant risk."
+    },
+    {
+     "t": "Export orders, especially from the US, hide prices and pollution compliance decide it."
+    }
+   ],
+   "checks": [
+    "Pollution board consent and any closure order.",
+    "Export orders and US share.",
+    "Export proceeds realisation days.",
+    "Hide and chemical cost against selling price."
+   ]
+  },
+  "up_agra|footwear": {
+   "what": [
+    {
+     "t": "Agra's mechanised factories and thousands of household units cut, stitch and finish leather shoes for the Indian market and for export."
+    },
+    {
+     "t": "Agra makes an estimated 1.5 lakh pairs of shoes a day and accounts for 28% of India's footwear exports, shipping ₹3,000-4,000 crore a year.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "CNBC-TV18 (Agra Footwear Manufacturers & Exporters Chamber)",
+       "url": "https://www.cnbctv18.com/india/agra-footwear-artisans-west-asia-war-more-than-just-sand-in-the-shoe-ws-l-19902462.htm",
+       "as_of": "2026-05-09",
+       "label": "May 2026",
+       "quote": "units like this produce an estimated 1.5 lakh pairs of shoes every single day in the city alone. Agra accounts for 28% of India's footwear exports ... the city ships shoes worth ₹3,000-4,000 crore annually"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "Household units earn a small piece rate; exporters earn on orders from foreign brands, with leather and sole costs deciding the margin."
+    },
+    {
+     "t": "Export orders, leather prices and freight costs decide it."
+    }
+   ],
+   "checks": [
+    "Confirmed export orders and buyer concentration.",
+    "Export proceeds realisation days.",
+    "Leather cost against selling price."
+   ]
+  },
+  "mh_pune|auto_components": {
+   "what": [
+    {
+     "t": "Pune's auto cluster around Pimpri-Chinchwad and Chakan has vehicle makers and thousands of suppliers making engines, castings, forgings, sheet-metal and electrical parts."
+    },
+    {
+     "t": "The Pimpri-Chinchwad belt has over 4,000 manufacturing and ancillary units; Maharashtra makes 35.1% of India's automobile output by value and 22.3% of its auto-component exports.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "The Hindu BusinessLine",
+       "url": "https://www.thehindubusinessline.com/economy/pune-auto-hub-braces-for-trump-tariffs-seeks-government-relief/article69987622.ece",
+       "as_of": "2025-08-29",
+       "label": "Aug 2025",
+       "quote": "Maharashtra alone accounts for 35.1 per cent of the country's automobile output by value. The Pimpri-Chinchwad belt, at the heart of this hub, houses over 4,000 manufacturing and ancillary units ... 22.3 per cent of auto components and parts"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "Suppliers earn a conversion margin set by vehicle makers' price negotiations; metal-price changes are passed on with a lag."
+    },
+    {
+     "t": "Vehicle makers' production schedules, metal prices and export orders decide it."
+    }
+   ],
+   "checks": [
+    "Share of the top vehicle maker in sales and its schedule for the next quarter.",
+    "Metal price pass-through clauses in contracts.",
+    "Receivable days from vehicle makers.",
+    "Export orders exposed to US tariffs."
+   ]
+  },
+  "mh_pune|vehicle_oem": {
+   "what": [
+    {
+     "t": "Pune's auto cluster around Pimpri-Chinchwad and Chakan has vehicle makers and thousands of suppliers making engines, castings, forgings, sheet-metal and electrical parts."
+    },
+    {
+     "t": "The Pimpri-Chinchwad belt has over 4,000 manufacturing and ancillary units; Maharashtra makes 35.1% of India's automobile output by value and 22.3% of its auto-component exports.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "The Hindu BusinessLine",
+       "url": "https://www.thehindubusinessline.com/economy/pune-auto-hub-braces-for-trump-tariffs-seeks-government-relief/article69987622.ece",
+       "as_of": "2025-08-29",
+       "label": "Aug 2025",
+       "quote": "Maharashtra alone accounts for 35.1 per cent of the country's automobile output by value. The Pimpri-Chinchwad belt, at the heart of this hub, houses over 4,000 manufacturing and ancillary units ... 22.3 per cent of auto components and parts"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "Suppliers earn a conversion margin set by vehicle makers' price negotiations; metal-price changes are passed on with a lag."
+    },
+    {
+     "t": "Vehicle makers' production schedules, metal prices and export orders decide it."
+    }
+   ],
+   "checks": [
+    "Share of the top vehicle maker in sales and its schedule for the next quarter.",
+    "Metal price pass-through clauses in contracts.",
+    "Receivable days from vehicle makers.",
+    "Export orders exposed to US tariffs."
+   ]
+  },
+  "ts_hyderabad|pharma": {
+   "what": [
+    {
+     "t": "Hyderabad's pharma belt makes bulk drugs (active ingredients) and formulations, with many small contract and intermediate makers supplying the large companies."
+    },
+    {
+     "t": "Telangana makes about one-third of India's pharma output and nearly 50% of its bulk-drug exports.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "PIB factsheet",
+       "url": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150369&lang=1&reg=3",
+       "as_of": "2025-10-14",
+       "label": "Oct 2025",
+       "quote": "Telangana accounts for nearly 50% of India's bulk drug exports, contributes one-third of national pharma output"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "Bulk-drug makers earn a spread over imported key starting materials, often from China; formulation margins depend on regulated-market approvals."
+    },
+    {
+     "t": "Chinese input prices, US inspection outcomes and price erosion decide it."
+    }
+   ],
+   "checks": [
+    "Latest USFDA or WHO-GMP (World Health Organization good manufacturing practice) inspection result.",
+    "Share of China-sourced inputs and price trend.",
+    "Receivable days from large pharma buyers.",
+    "Pollution board compliance."
+   ]
+  },
+  "ts_hyderabad|api_bulk_drugs": {
+   "what": [
+    {
+     "t": "Hyderabad's pharma belt makes bulk drugs (active ingredients) and formulations, with many small contract and intermediate makers supplying the large companies."
+    },
+    {
+     "t": "Telangana makes about one-third of India's pharma output and nearly 50% of its bulk-drug exports.",
+     "kind": "local fact",
+     "src": [
+      {
+       "name": "PIB factsheet",
+       "url": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150369&lang=1&reg=3",
+       "as_of": "2025-10-14",
+       "label": "Oct 2025",
+       "quote": "Telangana accounts for nearly 50% of India's bulk drug exports, contributes one-third of national pharma output"
+      }
+     ]
+    }
+   ],
+   "money": [
+    {
+     "t": "Bulk-drug makers earn a spread over imported key starting materials, often from China; formulation margins depend on regulated-market approvals."
+    },
+    {
+     "t": "Chinese input prices, US inspection outcomes and price erosion decide it."
+    }
+   ],
+   "checks": [
+    "Latest USFDA or WHO-GMP (World Health Organization good manufacturing practice) inspection result.",
+    "Share of China-sourced inputs and price trend.",
+    "Receivable days from large pharma buyers.",
+    "Pollution board compliance."
    ]
   }
  }
