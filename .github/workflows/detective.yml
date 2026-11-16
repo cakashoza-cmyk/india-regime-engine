@@ -24,10 +24,12 @@ jobs:
           if ! python3 engine/detective/build.py > /tmp/build.log 2>&1 || ! python3 -m pytest -q engine/tests/test_detective.py; then
             echo "Build or tests failed - restoring last-known-good data"; rm -rf data/detective; cp -r /tmp/detective_lkg data/detective
           fi
+      - name: Rebuild simple cards with the new filings (no AI)
+        run: python3 engine/cards.py || echo "cards rebuild failed - last good cards kept"
       - name: Commit if changed (push triggers Pages redeploy)
         run: |
           git config user.name "regime-engine-bot"; git config user.email "actions@users.noreply.github.com"
-          git add data/detective
+          git add data/detective data/cards
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "detective weekly refresh $(date -u +%FT%TZ)"
           for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 10; done
