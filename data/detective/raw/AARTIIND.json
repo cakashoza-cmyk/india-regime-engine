@@ -1,7 +1,7 @@
 {
 "symbol": "AARTIIND",
 "basis": "standalone",
-"fetched": "2026-11-15T22:20:11",
+"fetched": "2026-11-15T07:00:54",
 "quarters": {
 "2018-03-31": {
 "m": {
@@ -805,13 +805,13 @@
 },
 "2026-09-30": {
 "m": {
-"revenue": 3942.23,
-"other_income": 5.14,
-"ebitda": 453.64,
-"pat": 186.17,
-"finance_cost": 87.67,
-"depreciation": 124.82,
-"material_cost": 2877.01,
+"revenue": 6182.96,
+"other_income": 8.25,
+"ebitda": 819.87,
+"pat": 330.5,
+"finance_cost": 169.91,
+"depreciation": 248.49,
+"material_cost": 4284.34,
 "impairment": null,
 "interest_income": null,
 "inventory": 1483.85,
@@ -820,14 +820,13 @@
 "debt": 5146.31,
 "loans": null,
 "ocf_ytd": 233.25,
-"revenue_ytd": 6182.96,
+"revenue_ytd": null,
 "volume": null
 },
-"src": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1751718_03112026023500_WEB.xml",
-"filed": null,
+"src": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750382_30102026072933_WEB.xml",
+"filed": "30-Oct-2026 19:29:21",
 "feed": "NSE integrated-filing-results",
-"audited": "Un-Audited",
-"period_days": 91
+"audited": "Un-Audited"
 }
 }
 }

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T22:22:52+05:30",
+ "generated": "2026-11-15T12:31:46+05:30",
  "research_only": true,
  "ai_calls": 0,
  "rule": "Same half-year YoY: receivables or inventory growth exceeds revenue (YTD) growth by >10pp, or YTD operating cash flow falls >15% while YTD profit rises >=10%. Growth in receivables/inventory must itself be positive. Lenders excluded.",
@@ -11,16 +11,15 @@
    "compared_with": "Q2FY26",
    "cluster": "Chemicals - Vapi/Bharuch-Ankleshwar",
    "triggers": [
-    "Receivables +121.1% vs revenue +66.1% (gap 55.0pp)",
-    "Operating cash flow fell (477 -> 233 cr) while profit rose (144 -> 330 cr)"
+    "Operating cash flow fell (477 -> 233 cr) while profit rose (144 -> 475 cr)"
    ],
    "alert": true,
    "note": null,
    "metrics": {
-    "revenue_ytd_growth_pct": 66.14,
+    "revenue_ytd_growth_pct": null,
     "receivables_growth_pct": 121.11,
     "inventory_growth_pct": 24.07,
-    "pat_ytd": 330.48,
+    "pat_ytd": 474.81,
     "pat_ytd_prior": 144.13,
     "ocf_ytd": 233.25,
     "ocf_ytd_prior": 477.23
@@ -28,8 +27,8 @@
    "sources": [
     {
      "period": "Q2FY27",
-     "url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1751718_03112026023500_WEB.xml",
-     "filed": "2026-11-19"
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750382_30102026072933_WEB.xml",
+     "filed": "2026-10-30"
     },
     {
      "period": "Q2FY26",
@@ -114,16 +113,15 @@
    "compared_with": "Q2FY26",
    "cluster": "Textiles - Ahmedabad",
    "triggers": [
-    "Receivables +38.8% vs revenue +23.8% (gap 15.0pp)",
-    "Operating cash flow fell (439 -> 219 cr) while profit rose (161 -> 209 cr)"
+    "Operating cash flow fell (439 -> 219 cr) while profit rose (161 -> 267 cr)"
    ],
    "alert": true,
    "note": null,
    "metrics": {
-    "revenue_ytd_growth_pct": 23.81,
+    "revenue_ytd_growth_pct": null,
     "receivables_growth_pct": 38.83,
     "inventory_growth_pct": 21.22,
-    "pat_ytd": 209.37,
+    "pat_ytd": 267.14,
     "pat_ytd_prior": 161.44,
     "ocf_ytd": 219.04,
     "ocf_ytd_prior": 439.0
@@ -131,8 +129,8 @@
    "sources": [
     {
      "period": "Q2FY27",
-     "url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1748483_29102026114959_WEB.xml",
-     "filed": "2026-11-19"
+     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1748235_28102026081127_WEB.xml",
+     "filed": "2026-10-28"
     },
     {
      "period": "Q2FY26",

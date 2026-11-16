@@ -70,11 +70,9 @@ function init(){D.industries.forEach(i=>IND[i.id]=i);D.cities.forEach(c=>CITY[c.
  $('#inputs').innerHTML=S.FIELDS.map(f=>`<div><label for="v_${f.id}">${esc(f.label)} (${f.unit})</label><input id="v_${f.id}" inputmode="decimal" type="text" placeholder="${PH[f.id]}" aria-describedby="exl"></div>`).join('');
  const sts=Object.entries(D.states).filter(([k])=>D.cities.some(c=>c.state==k)).sort((a,b)=>a[1].name.localeCompare(b[1].name));
  $('#st').innerHTML=sts.map(([k,v])=>`<option value="${k}">${esc(v.name)}</option>`).join('');
- const hasP=i=>!!(P&&P.industry_group&&P.industry_group[i]);
- const inds=D.industries.map(i=>i.id).filter(i=>IND[i]).sort((a,b)=>(hasP(b)-hasP(a))||IND[a].name.localeCompare(IND[b].name));
- $('#ind').innerHTML=`<optgroup label="With listed-peer benchmark">${inds.filter(hasP).map(i=>`<option value="${i}">${esc(IND[i].name)}</option>`).join('')}</optgroup><optgroup label="No peer benchmark yet (grey)">${inds.filter(i=>!hasP(i)).map(i=>`<option value="${i}">${esc(IND[i].name)} (no peer benchmark)</option>`).join('')}</optgroup>`;
- const Q=new URLSearchParams(location.search),qs=Q.get('state'),qc=Q.get('city'),qi=Q.get('ind');
- setSel(qs&&D.states[qs]?qs:'GJ',qc||'gj_surat',qi&&IND[qi]?qi:'mmf_textiles');
+ const inds=((P&&P.textile_industries)||['mmf_textiles']).filter(i=>IND[i]);
+ $('#ind').innerHTML=inds.map(i=>`<option value="${i}">${esc(IND[i].name)}${P&&P.industry_group[i]?'':' (no peer benchmark)'}</option>`).join('');
+ setSel('GJ','gj_surat','mmf_textiles');
  $('#st').onchange=()=>{fillCities();run()};$('#ct').onchange=run;$('#ind').onchange=run;$('#loan').onchange=run;
  $('#inputs').addEventListener('input',()=>{if(EXAMPLE_ON){EXAMPLE_ON=false;$('#exl').style.display='none'}run()});
  $('#f').onsubmit=e=>{e.preventDefault();run()};
@@ -102,7 +100,7 @@ function stanceHtml(s,st,ct,ind){const I=IND[ind],sec=D.sectors[I.parent]||{},cl
  const rc=(D.ratings_gj?.changed_calls||[]).includes(st+'|'+I.parent)?' Rating actions already cut this state call from OK to Caution.':'';
  return `<div class="card"><h2>3 · Lending Radar stance</h2><div class="top"><span class="badge ${cls}">${esc(lab)}</span>${s.basis!='proxy'&&s.score!=null?`<span class="score">${s.score}<small>/100</small></span>`:''}<span class="bas ${BAS[0]}">Basis: ${BAS[1]}</span>${s.conf?`<span class="bas conf ${s.conf.lv}" title="${esc(s.conf.why)}">Confidence: ${s.conf.lv=='med'?'medium':s.conf.lv}${s.conf.lv=='low'?' · tentative':''}</span>`:''}</div>
  <p style="margin:10px 0 4px"><b>${esc(I.name)} in ${esc(CITY[ct].name)}</b>${I.mapping!='direct'?` <span class="meta">(uses parent sector ${esc(sec.name)})</span>`:''}</p>
- <div class="meta">${s.basis=='proxy'?(misOf(ind)?`Not assessed: the official series does not fit this industry. ${esc(misOf(ind))}${s.score!=null?' Parent-sector score '+s.score+' is reference only.':''}`:`Not assessed: ${esc(CITY[ct].name)} is not a known hub for this industry and there is no local note. Parent-sector score ${s.score??'n/a'} is reference only, so the stance stays grey.`):esc(formula)+esc(rc)}${s.nudged&&s.basis!='proxy'?' Local news says conditions are worse than the data, so OK to lend becomes Caution.':''}</div>
+ <div class="meta">${s.basis=='proxy'?`Not assessed: ${esc(CITY[ct].name)} is not a known hub for this industry and there is no local note. Parent-sector score ${s.score??'n/a'} is reference only, so the stance stays grey.`:esc(formula)+esc(rc)}${s.nudged&&s.basis!='proxy'?' Local news says conditions are worse than the data, so OK to lend becomes Caution.':''}</div>
  ${s.conf?`<p class="meta">Confidence reasons: ${esc(s.conf.why)}.</p>`:''}
  <h3>Drivers</h3>${why?`<ul>${why}</ul>`:'<p class="meta">Not enough verified figures. Unknown — collect.</p>'}
  ${s.nudged&&s.note?.news_why?`<div class="note"><b>Local news (AI-read, unverified; can only lower a call):</b> ${esc(s.note.news_why)} <span class="meta">· note ${esc(s.note.generated_at||'')}</span></div>`:''}
@@ -141,5 +139,5 @@ let RUN=0;async function run(){const my=++RUN,st=$('#st').value,ct=$('#ct').valu
  const vals={};S.FIELDS.forEach(f=>vals[f.id]=$('#v_'+f.id).value);
  const a=S.assess(vals,P,ind);S.FIELDS.forEach(f=>$('#v_'+f.id).classList.toggle('bad',a.flags.some(x=>x.id==f.id&&x.level=='invalid')));
  const n=await note(st,ct,ind);if(my!==RUN)return;const s=stance(st,ct,ind,n);
- $('#out').innerHTML=flagsHtml(a,s,$('#loan').value)+stanceHtml(s,st,ct,ind)+ratingsHtml(st,ind)+peersHtml(ind)+`<p class="meta" style="margin-top:12px">Full credit view for this pick: <a href="expert.html?state=${encodeURIComponent(st)}&city=${encodeURIComponent(ct)}&ind=${encodeURIComponent(ind)}">Credit Expert View →</a></p>`}
+ $('#out').innerHTML=flagsHtml(a,s,$('#loan').value)+stanceHtml(s,st,ct,ind)+ratingsHtml(st,ind)+peersHtml(ind)}
 </script></body></html>

@@ -60,13 +60,11 @@ jobs:
           if [ $rc -ne 0 ] && [ $rc -ne 2 ]; then exit $rc; fi
       - name: Re-attach saved briefs (no DeepSeek; local notes are on-demand via fetch-note.yml)
         run: python engine/lending.py --offline || echo "re-attach skipped"
-      - name: Rebuild Credit Expert View (no AI calls; sourced facts were checked at build)
-        run: python -m engine.expert || echo "expert view rebuild failed: last good data kept"
       - name: Commit lending radar
         run: |
           git config user.name "regime-engine-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/lending_latest.json data/lending_state.json data/local_news.json data/radar.json data/radar_briefs.json data/wpi_latest.json data/macro_extra.json data/ratings_gj.json data/cache/ratings_seen.json data/expert engine/regime.db
+          git add data/lending_latest.json data/lending_state.json data/local_news.json data/radar.json data/radar_briefs.json data/wpi_latest.json data/macro_extra.json data/ratings_gj.json data/cache/ratings_seen.json engine/regime.db
           git diff --cached --quiet || git commit -m "lending radar $(date -u +%FT%TZ)"
       - name: Commit snapshot
         run: |
