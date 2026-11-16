@@ -61,8 +61,7 @@ jobs:
       - name: Re-attach saved briefs (no DeepSeek; local notes are on-demand via fetch-note.yml)
         run: python engine/lending.py --offline || echo "re-attach skipped"
       - name: Rebuild Credit Expert View (no AI calls; sourced facts were checked at build)
-        run: |
-          python -m engine.expert || echo "expert view rebuild failed - last good data kept"
+        run: python -m engine.expert || echo "expert view rebuild failed: last good data kept"
       - name: Commit lending radar
         run: |
           git config user.name "regime-engine-bot"
