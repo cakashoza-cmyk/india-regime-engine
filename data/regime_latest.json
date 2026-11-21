@@ -1,6 +1,6 @@
 {
-  "generated_at_ist": "2026-11-21 10:13 IST",
-  "run_id": "20261121T101130-07ffe6",
+  "generated_at_ist": "2026-11-21 23:15 IST",
+  "run_id": "20261121T231456-0a9011",
   "snapshot_date": "2026-11-21",
   "regime_label": "Stagflation",
   "sub_label": "transitional",
@@ -147,7 +147,7 @@
       },
       {
         "indicator": "brent",
-        "current_value": 92.55999755859375,
+        "current_value": 92.56999969482422,
         "flip_level": 100.0,
         "flip_direction": "below",
         "is_flipped": true,
@@ -436,25 +436,25 @@
     {
       "indicator": "brent",
       "dial": "inflation",
-      "value": 92.55999755859375,
+      "value": 92.56999969482422,
       "prior_value": 91.9800033569336,
       "direction": 1,
-      "score": null,
+      "score": -1,
       "weight": 1,
       "as_of": "2026-11-20",
       "is_stale": false,
       "stale_since": null,
       "source": "ice_contract",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
-      "status": "failed",
+      "status": "verified",
       "checks": [
-        "MISMATCH yahoo=89.87 vs 92.55999755859375 (tol ('rel', 0.02))"
+        "cross-check yahoo=92.57 within 2%"
       ],
       "note": "ICE Brent active contract (value and prior from the same contract)",
       "source_tier": "market_data",
       "data_period": "2026-11-20",
       "survey_quarter": null,
-      "diagnostics": "excluded: unverified (validation failed)",
+      "diagnostics": "scored",
       "stale_reason": null,
       "release_date": "2026-11-20"
     },
@@ -641,7 +641,7 @@
     {
       "indicator": "dxy",
       "dial": "liquidity",
-      "value": 103.83999633789062,
+      "value": 103.80999755859375,
       "prior_value": 103.9000015258789,
       "direction": 0,
       "score": null,
@@ -1096,7 +1096,7 @@
       "indicator": "capacity_util",
       "source": "rbi obicus",
       "ok": true,
-      "error": null
+      "error": "OBICUS polled within 7 days"
     },
     {
       "indicator": "india10y",
