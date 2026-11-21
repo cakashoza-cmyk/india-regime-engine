@@ -103,7 +103,7 @@
   }
  },
  "exports_qe": {
-  "checked_ist": "2026-11-14 22:14",
+  "checked_ist": "2026-11-21 10:16",
   "discovered_by": "commerce_pattern",
   "first_seen": "2026-11-01",
   "payload": {
@@ -562,7 +562,7 @@
   }
  },
  "gst_state": {
-  "checked_ist": "2026-11-14 22:14",
+  "checked_ist": "2026-11-21 10:16",
   "discovered_by": "gstn_pattern",
   "first_seen": "2026-11-01",
   "payload": {
@@ -919,460 +919,453 @@
   "url": "https://tutorial.gst.gov.in/downloads/news/final_gst_revenue_report_for_publishing_monthly_sep_2026.pdf"
  },
  "iip_nic2": {
-  "checked_ist": "2026-11-14 22:14",
+  "checked_ist": "2026-11-21 10:15",
   "discovered_by": "deepseek_site_search",
-  "first_seen": "2026-11-01",
+  "first_seen": "2026-11-21",
   "payload": {
    "rows": {
     "10": {
      "check_ok": true,
-     "fytd_pct": 5.1,
-     "index": 104.5,
-     "index_yago": 101.7,
+     "fytd_pct": 5.4,
+     "index": 105.1,
+     "index_yago": 97.5,
      "name": "Manufacture of food products",
      "weight": 5.679,
-     "yoy_pct": 2.8
+     "yoy_pct": 7.8
     },
     "11": {
      "check_ok": true,
-     "fytd_pct": 8.4,
-     "index": 120.5,
-     "index_yago": 101.9,
+     "fytd_pct": 12.7,
+     "index": 128.8,
+     "index_yago": 92.4,
      "name": "Manufacture of beverages",
      "weight": 1.113,
-     "yoy_pct": 18.3
+     "yoy_pct": 39.4
     },
     "12": {
      "check_ok": true,
-     "fytd_pct": -4.4,
-     "index": 118.0,
-     "index_yago": 128.2,
+     "fytd_pct": -3.3,
+     "index": 119.1,
+     "index_yago": 116.1,
      "name": "Manufacture of tobacco products",
      "weight": 0.774,
-     "yoy_pct": -8.0
+     "yoy_pct": 2.6
     },
     "13": {
      "check_ok": true,
-     "fytd_pct": 11.9,
-     "index": 136.9,
-     "index_yago": 121.0,
+     "fytd_pct": 12.9,
+     "index": 145.2,
+     "index_yago": 123.7,
      "name": "Manufacture of textiles",
      "weight": 3.275,
-     "yoy_pct": 13.1
+     "yoy_pct": 17.4
     },
     "14": {
      "check_ok": true,
      "fytd_pct": -5.6,
-     "index": 89.0,
-     "index_yago": 96.1,
+     "index": 89.1,
+     "index_yago": 94.0,
      "name": "Manufacture of wearing apparel",
      "weight": 1.97,
-     "yoy_pct": -7.4
+     "yoy_pct": -5.2
     },
     "15": {
      "check_ok": true,
-     "fytd_pct": 2.4,
-     "index": 109.7,
-     "index_yago": 101.5,
+     "fytd_pct": 2.5,
+     "index": 102.7,
+     "index_yago": 98.3,
      "name": "Manufacture of leather and related products",
      "weight": 0.607,
-     "yoy_pct": 8.1
+     "yoy_pct": 4.5
     },
     "16": {
      "check_ok": true,
-     "fytd_pct": -0.8,
-     "index": 112.2,
-     "index_yago": 103.3,
+     "fytd_pct": -2.6,
+     "index": 104.3,
+     "index_yago": 116.6,
      "name": "Manufacture of wood and products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
      "weight": 0.239,
-     "yoy_pct": 8.6
+     "yoy_pct": -10.5
     },
     "17": {
      "check_ok": true,
-     "fytd_pct": 8.6,
-     "index": 112.0,
-     "index_yago": 112.1,
+     "fytd_pct": 7.7,
+     "index": 110.2,
+     "index_yago": 107.1,
      "name": "Manufacture of paper and paper products",
      "weight": 1.375,
-     "yoy_pct": -0.1
+     "yoy_pct": 2.9
     },
     "19": {
      "check_ok": true,
-     "fytd_pct": -0.9,
-     "index": 108.2,
-     "index_yago": 108.8,
+     "fytd_pct": 0.4,
+     "index": 107.9,
+     "index_yago": 102.1,
      "name": "Manufacture of coke and refined petroleum products",
      "weight": 7.721,
-     "yoy_pct": -0.6
+     "yoy_pct": 5.7
     },
     "20": {
      "check_ok": true,
-     "fytd_pct": -1.2,
-     "index": 109.6,
-     "index_yago": 110.1,
+     "fytd_pct": -1.1,
+     "index": 108.2,
+     "index_yago": 108.8,
      "name": "Manufacture of chemicals and chemical products",
      "weight": 7.813,
-     "yoy_pct": -0.5
+     "yoy_pct": -0.6
     },
     "21": {
      "check_ok": true,
-     "fytd_pct": -2.1,
-     "index": 124.5,
-     "index_yago": 122.5,
+     "fytd_pct": -4.4,
+     "index": 112.9,
+     "index_yago": 123.9,
      "name": "Manufacture of basic pharmaceuticals products and pharmaceutical preparations",
      "weight": 5.833,
-     "yoy_pct": 1.6
+     "yoy_pct": -8.9
     },
     "22": {
      "check_ok": true,
-     "fytd_pct": 18.2,
-     "index": 127.3,
-     "index_yago": 104.9,
+     "fytd_pct": 18.5,
+     "index": 128.1,
+     "index_yago": 106.8,
      "name": "Manufacture of rubber and plastics products",
      "weight": 3.384,
-     "yoy_pct": 21.4
+     "yoy_pct": 19.9
     },
     "23": {
      "check_ok": true,
-     "fytd_pct": 10.2,
-     "index": 118.3,
-     "index_yago": 106.2,
+     "fytd_pct": 9.5,
+     "index": 114.9,
+     "index_yago": 107.5,
      "name": "Manufacture of other non-metallic mineral products",
      "weight": 3.519,
-     "yoy_pct": 11.4
+     "yoy_pct": 6.9
     },
     "24": {
      "check_ok": true,
-     "fytd_pct": 3.4,
-     "index": 134.8,
-     "index_yago": 131.7,
+     "fytd_pct": 3.7,
+     "index": 133.4,
+     "index_yago": 129.4,
      "name": "Manufacture of basic metals",
      "weight": 9.198,
-     "yoy_pct": 2.4
+     "yoy_pct": 3.1
     },
     "25": {
      "check_ok": true,
-     "fytd_pct": 12.0,
-     "index": 137.1,
-     "index_yago": 117.3,
+     "fytd_pct": 11.4,
+     "index": 141.9,
+     "index_yago": 128.8,
      "name": "Manufacture of fabricated metal products, except machinery and equipment",
      "weight": 2.481,
-     "yoy_pct": 16.9
+     "yoy_pct": 10.2
     },
     "26": {
      "check_ok": true,
-     "fytd_pct": 13.6,
-     "index": 165.5,
-     "index_yago": 138.7,
+     "fytd_pct": 12.6,
+     "index": 175.3,
+     "index_yago": 163.3,
      "name": "Manufacture of computer, electronic and optical products",
      "weight": 2.085,
-     "yoy_pct": 19.3
+     "yoy_pct": 7.3
     },
     "27": {
      "check_ok": true,
-     "fytd_pct": 28.5,
-     "index": 170.2,
-     "index_yago": 130.0,
+     "fytd_pct": 29.5,
+     "index": 172.7,
+     "index_yago": 129.0,
      "name": "Manufacture of electrical equipment",
      "weight": 3.175,
-     "yoy_pct": 30.9
+     "yoy_pct": 33.9
     },
     "28": {
      "check_ok": true,
-     "fytd_pct": 10.4,
-     "index": 127.3,
-     "index_yago": 115.4,
+     "fytd_pct": 9.0,
+     "index": 144.0,
+     "index_yago": 139.7,
      "name": "Manufacture of machinery and equipment n.e.c.",
      "weight": 5.02,
-     "yoy_pct": 10.3
+     "yoy_pct": 3.1
     },
     "29": {
      "check_ok": true,
      "fytd_pct": 19.2,
-     "index": 144.5,
-     "index_yago": 115.4,
+     "index": 147.1,
+     "index_yago": 123.6,
      "name": "Manufacture of motor vehicles, trailers and semi-trailers",
      "weight": 6.417,
-     "yoy_pct": 25.2
+     "yoy_pct": 19.0
     },
     "30": {
      "check_ok": true,
-     "fytd_pct": 22.7,
-     "index": 181.2,
-     "index_yago": 144.6,
+     "fytd_pct": 22.0,
+     "index": 191.2,
+     "index_yago": 160.5,
      "name": "Manufacture of other transport equipment",
      "weight": 2.089,
-     "yoy_pct": 25.3
+     "yoy_pct": 19.1
     },
     "31": {
      "check_ok": true,
-     "fytd_pct": 7.4,
-     "index": 123.5,
-     "index_yago": 112.9,
+     "fytd_pct": 8.6,
+     "index": 139.2,
+     "index_yago": 123.4,
      "name": "Manufacture of furniture",
      "weight": 0.283,
-     "yoy_pct": 9.4
+     "yoy_pct": 12.8
     },
     "32": {
      "check_ok": true,
-     "fytd_pct": 3.8,
-     "index": 120.8,
-     "index_yago": 117.1,
+     "fytd_pct": 1.9,
+     "index": 126.4,
+     "index_yago": 135.0,
      "name": "Other manufacturing",
      "weight": 1.509,
-     "yoy_pct": 3.2
+     "yoy_pct": -6.4
     }
    }
   },
-  "period": "2026-08-31",
-  "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2315957&reg=48&lang=2#4"
+  "period": "2026-09-30",
+  "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2329475&reg=48&lang=2#4"
  },
  "power_state": {
-  "checked_ist": "2026-11-14 22:15",
+  "checked_ist": "2026-11-21 10:16",
   "discovered_by": "cea_dashboard",
   "first_seen": "2026-11-01",
   "payload": {
    "release_url": "https://cea.nic.in/reports/dashboardView?headingId=107&subHeadingId=1003&subSubHeadingId=10010&title=Power%20Supply%20Position%20-%20Energy&lang=en",
-   "report_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/643a1efa-b4c8-4ce1-9738-bd399b87257e",
+   "report_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/2996e061-524e-4a6d-8660-625de5430c90",
    "rows": {
     "Andhra Pradesh": {
      "check_ok": true,
-     "fytd_pct": 18.1,
-     "fytd_req_mu": 40429.0,
-     "month_yoy_pct": 23.0,
-     "req_mu": 8399.0
+     "fytd_pct": 19.5,
+     "fytd_req_mu": 56301.0,
+     "month_yoy_pct": 25.8,
+     "req_mu": 7841.0
     },
     "Arunachal Pradesh": {
      "check_ok": true,
-     "fytd_pct": -0.6,
-     "fytd_req_mu": 513.0,
-     "month_yoy_pct": -1.7,
-     "req_mu": 114.0
+     "fytd_pct": -0.3,
+     "fytd_req_mu": 725.0,
+     "month_yoy_pct": 2.1,
+     "req_mu": 98.0
     },
     "Assam": {
      "check_ok": true,
-     "fytd_pct": 1.9,
-     "fytd_req_mu": 6602.0,
-     "month_yoy_pct": 8.8,
-     "req_mu": 1566.0
+     "fytd_pct": 0.8,
+     "fytd_req_mu": 9238.0,
+     "month_yoy_pct": -5.0,
+     "req_mu": 1200.0
     },
     "Bihar": {
      "check_ok": true,
-     "fytd_pct": 14.1,
-     "fytd_req_mu": 25679.0,
-     "month_yoy_pct": 22.1,
-     "req_mu": 5862.0
+     "fytd_pct": 12.1,
+     "fytd_req_mu": 35128.0,
+     "month_yoy_pct": 14.3,
+     "req_mu": 4518.0
     },
     "Chandigarh": {
      "check_ok": true,
-     "fytd_pct": 3.9,
-     "fytd_req_mu": 1001.0,
-     "month_yoy_pct": 15.3,
-     "req_mu": 226.0
+     "fytd_pct": 4.7,
+     "fytd_req_mu": 1337.0,
+     "month_yoy_pct": 6.1,
+     "req_mu": 140.0
     },
     "Chhattisgarh": {
      "check_ok": true,
-     "fytd_pct": 6.7,
-     "fytd_req_mu": 20042.0,
-     "month_yoy_pct": -8.7,
-     "req_mu": 3722.0
+     "fytd_pct": 8.3,
+     "fytd_req_mu": 27765.0,
+     "month_yoy_pct": 30.7,
+     "req_mu": 4074.0
     },
     "Delhi": {
      "check_ok": true,
      "fytd_pct": 6.5,
-     "fytd_req_mu": 20775.0,
-     "month_yoy_pct": 10.4,
-     "req_mu": 4397.0
+     "fytd_req_mu": 27977.0,
+     "month_yoy_pct": 14.2,
+     "req_mu": 3229.0
     },
     "Goa": {
      "check_ok": true,
-     "fytd_pct": 6.7,
-     "fytd_req_mu": 2513.0,
-     "month_yoy_pct": 12.1,
-     "req_mu": 480.0
+     "fytd_pct": 8.0,
+     "fytd_req_mu": 3492.0,
+     "month_yoy_pct": 13.8,
+     "req_mu": 510.0
     },
     "Gujarat": {
      "check_ok": true,
-     "fytd_pct": 11.0,
-     "fytd_req_mu": 74974.0,
-     "month_yoy_pct": 11.5,
-     "req_mu": 14767.0
+     "fytd_pct": 14.3,
+     "fytd_req_mu": 105786.0,
+     "month_yoy_pct": 35.3,
+     "req_mu": 16324.0
     },
     "Haryana": {
      "check_ok": true,
-     "fytd_pct": 11.4,
-     "fytd_req_mu": 37714.0,
-     "month_yoy_pct": 21.3,
-     "req_mu": 8604.0
+     "fytd_pct": 12.3,
+     "fytd_req_mu": 51893.0,
+     "month_yoy_pct": 13.1,
+     "req_mu": 6167.0
     },
     "Himachal Pradesh": {
      "check_ok": true,
-     "fytd_pct": -6.8,
-     "fytd_req_mu": 5384.0,
-     "month_yoy_pct": -4.6,
-     "req_mu": 1118.0
+     "fytd_pct": -4.2,
+     "fytd_req_mu": 7653.0,
+     "month_yoy_pct": 7.6,
+     "req_mu": 1137.0
     },
     "India": {
      "check_ok": true,
-     "fytd_pct": 9.5,
-     "fytd_req_mu": 796316.0,
+     "fytd_pct": 11.5,
+     "fytd_req_mu": 1109802.0,
      "note": "sum of states parsed"
     },
     "Jharkhand": {
      "check_ok": true,
-     "fytd_pct": 15.2,
-     "fytd_req_mu": 7607.0,
-     "month_yoy_pct": 19.1,
-     "req_mu": 1616.0
+     "fytd_pct": 12.3,
+     "fytd_req_mu": 10440.0,
+     "month_yoy_pct": 10.2,
+     "req_mu": 1433.0
     },
     "Karnataka": {
      "check_ok": true,
-     "fytd_pct": 23.3,
-     "fytd_req_mu": 45673.0,
-     "month_yoy_pct": 34.8,
-     "req_mu": 8941.0
-    },
-    "Kerala": {
-     "check_ok": true,
-     "fytd_pct": 11.1,
-     "fytd_req_mu": 14262.0,
-     "month_yoy_pct": 6.5,
-     "req_mu": 2629.0
+     "fytd_pct": 27.4,
+     "fytd_req_mu": 64888.0,
+     "month_yoy_pct": 40.9,
+     "req_mu": 9711.0
     },
     "Madhya Pradesh": {
      "check_ok": true,
-     "fytd_pct": 7.5,
-     "fytd_req_mu": 43548.0,
-     "month_yoy_pct": 0.7,
-     "req_mu": 8107.0
+     "fytd_pct": 10.3,
+     "fytd_req_mu": 61552.0,
+     "month_yoy_pct": 34.9,
+     "req_mu": 10085.0
     },
     "Maharashtra": {
      "check_ok": true,
-     "fytd_pct": 6.0,
-     "fytd_req_mu": 90892.0,
-     "month_yoy_pct": 5.4,
-     "req_mu": 16448.0
+     "fytd_pct": 11.4,
+     "fytd_req_mu": 129485.0,
+     "month_yoy_pct": 32.3,
+     "req_mu": 20372.0
     },
     "Manipur": {
      "check_ok": true,
-     "fytd_pct": 12.6,
-     "fytd_req_mu": 527.0,
-     "month_yoy_pct": 22.1,
-     "req_mu": 116.0
+     "fytd_pct": 14.6,
+     "fytd_req_mu": 753.0,
+     "month_yoy_pct": 15.6,
+     "req_mu": 111.0
     },
     "Meghalaya": {
      "check_ok": true,
-     "fytd_pct": 10.2,
-     "fytd_req_mu": 915.0,
-     "month_yoy_pct": 16.6,
-     "req_mu": 197.0
+     "fytd_pct": 6.8,
+     "fytd_req_mu": 1252.0,
+     "month_yoy_pct": -3.5,
+     "req_mu": 167.0
     },
     "Mizoram": {
      "check_ok": true,
-     "fytd_pct": 5.6,
-     "fytd_req_mu": 320.0,
-     "month_yoy_pct": 9.5,
-     "req_mu": 69.0
+     "fytd_pct": 6.8,
+     "fytd_req_mu": 456.0,
+     "month_yoy_pct": 11.1,
+     "req_mu": 70.0
     },
     "Nagaland": {
      "check_ok": true,
-     "fytd_pct": 8.3,
-     "fytd_req_mu": 471.0,
-     "month_yoy_pct": 12.6,
-     "req_mu": 107.0
+     "fytd_pct": 7.8,
+     "fytd_req_mu": 666.0,
+     "month_yoy_pct": 5.6,
+     "req_mu": 95.0
     },
     "Odisha": {
      "check_ok": true,
-     "fytd_pct": 5.1,
-     "fytd_req_mu": 21243.0,
-     "month_yoy_pct": -1.7,
-     "req_mu": 4182.0
+     "fytd_pct": 5.7,
+     "fytd_req_mu": 29487.0,
+     "month_yoy_pct": 11.2,
+     "req_mu": 4174.0
     },
     "Puducherry": {
      "check_ok": true,
-     "fytd_pct": 6.1,
-     "fytd_req_mu": 1680.0,
-     "month_yoy_pct": 6.9,
-     "req_mu": 325.0
+     "fytd_pct": 7.2,
+     "fytd_req_mu": 2319.0,
+     "month_yoy_pct": 9.1,
+     "req_mu": 311.0
     },
     "Punjab": {
      "check_ok": true,
-     "fytd_pct": 8.8,
-     "fytd_req_mu": 42061.0,
-     "month_yoy_pct": 27.8,
-     "req_mu": 10585.0
+     "fytd_pct": 13.1,
+     "fytd_req_mu": 58213.0,
+     "month_yoy_pct": 19.5,
+     "req_mu": 6383.0
     },
     "Rajasthan": {
      "check_ok": true,
-     "fytd_pct": 4.0,
-     "fytd_req_mu": 48279.0,
-     "month_yoy_pct": 6.8,
-     "req_mu": 10517.0
+     "fytd_pct": 8.4,
+     "fytd_req_mu": 68771.0,
+     "month_yoy_pct": 25.1,
+     "req_mu": 10012.0
     },
     "Sikkim": {
      "check_ok": true,
-     "fytd_pct": -0.5,
-     "fytd_req_mu": 209.0,
-     "month_yoy_pct": -5.1,
-     "req_mu": 37.0
+     "fytd_pct": -2.1,
+     "fytd_req_mu": 276.0,
+     "month_yoy_pct": -8.6,
+     "req_mu": 32.0
     },
     "Tamil Nadu": {
      "check_ok": true,
-     "fytd_pct": 9.8,
-     "fytd_req_mu": 63997.0,
-     "month_yoy_pct": 12.2,
-     "req_mu": 12689.0
+     "fytd_pct": 10.3,
+     "fytd_req_mu": 87753.0,
+     "month_yoy_pct": 12.3,
+     "req_mu": 11424.0
     },
     "Telangana": {
      "check_ok": true,
-     "fytd_pct": 15.7,
-     "fytd_req_mu": 40161.0,
-     "month_yoy_pct": 19.9,
-     "req_mu": 8939.0
+     "fytd_pct": 22.0,
+     "fytd_req_mu": 58959.0,
+     "month_yoy_pct": 49.5,
+     "req_mu": 9839.0
     },
     "Tripura": {
      "check_ok": true,
-     "fytd_pct": -1.7,
-     "fytd_req_mu": 863.0,
-     "month_yoy_pct": 7.2,
-     "req_mu": 194.0
+     "fytd_pct": 0.4,
+     "fytd_req_mu": 1258.0,
+     "month_yoy_pct": 4.8,
+     "req_mu": 196.0
     },
     "UT of J&K and Ladakh": {
      "check_ok": true,
-     "fytd_pct": -0.5,
-     "fytd_req_mu": 7927.0,
-     "month_yoy_pct": 6.4,
-     "req_mu": 1589.0
+     "fytd_pct": -1.1,
+     "fytd_req_mu": 10943.0,
+     "month_yoy_pct": -4.8,
+     "req_mu": 1510.0
     },
     "Uttar Pradesh": {
      "check_ok": true,
-     "fytd_pct": 8.6,
-     "fytd_req_mu": 85979.0,
-     "month_yoy_pct": 10.0,
-     "req_mu": 17790.0
+     "fytd_pct": 6.0,
+     "fytd_req_mu": 114409.0,
+     "month_yoy_pct": 4.9,
+     "req_mu": 13266.0
     },
     "Uttarakhand": {
      "check_ok": true,
-     "fytd_pct": 4.7,
-     "fytd_req_mu": 7783.0,
-     "month_yoy_pct": 6.9,
-     "req_mu": 1552.0
+     "fytd_pct": 4.5,
+     "fytd_req_mu": 10542.0,
+     "month_yoy_pct": 7.4,
+     "req_mu": 1309.0
     },
     "West Bengal": {
      "check_ok": true,
-     "fytd_pct": 5.7,
-     "fytd_req_mu": 36293.0,
-     "month_yoy_pct": 11.2,
-     "req_mu": 7491.0
+     "fytd_pct": 5.4,
+     "fytd_req_mu": 50037.0,
+     "month_yoy_pct": 8.5,
+     "req_mu": 6846.0
     }
    },
-   "year_ago_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/763b6c0a-7dfc-40c1-b0e0-2940546dec8c"
+   "year_ago_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/d8f2a16f-0695-4e0b-a21f-ae0dd46a3a61"
   },
-  "period": "2026-08-31",
+  "period": "2026-10-31",
   "url": "https://cea.nic.in/reports/dashboardView?headingId=107&subHeadingId=1003&subSubHeadingId=10010&title=Power%20Supply%20Position%20-%20Energy&lang=en"
  },
  "rbi_sibc": {
-  "checked_ist": "2026-11-14 22:14",
+  "checked_ist": "2026-11-21 10:15",
   "discovered_by": "last_known",
   "first_seen": "2026-11-01",
   "payload": {
@@ -2276,7 +2269,7 @@
   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891"
  },
  "rbi_state": {
-  "checked_ist": "2026-11-14 22:15",
+  "checked_ist": "2026-11-21 10:16",
   "discovered_by": "rbi_hsis_page",
   "first_seen": "2026-11-01",
   "payload": {
