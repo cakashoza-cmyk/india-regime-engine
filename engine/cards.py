@@ -190,7 +190,8 @@ def peer_lines(parent):
         a, b = p["last"], p["prev"]
         word = "down from" if a["margin"] < b["margin"] else ("up from" if a["margin"] > b["margin"] else "same as")
         der = " (quarter worked out from a half-year filing)" if a["derived"] or b["derived"] else ""
-        out.append(line(f"Listed peer {u['name']} ({re.sub(r'\s*\(.*?\)', '', u['what']).lower()}): operating margin (EBITDA) {a['margin']}% in {qname(a['period'])}, "
+        what = re.sub(r'\s*\(.*?\)', '', u['what']).lower()
+        out.append(line(f"Listed peer {u['name']} ({what}): operating margin (EBITDA) {a['margin']}% in {qname(a['period'])}, "
                         f"{word} {b['margin']}% a year earlier{der}. A large listed firm, not an SME: read it for the direction of margins only.",
                         "filing", [src(f"NSE filing, {u['name']}", a["src"], filed_date(a["filed"]) or a["period"], qname(a["period"])),
                                    src(f"NSE filing, {u['name']}", b["src"], filed_date(b["filed"]) or b["period"], qname(b["period"]))]))
