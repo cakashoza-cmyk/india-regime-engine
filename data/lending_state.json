@@ -103,7 +103,7 @@
   }
  },
  "exports_qe": {
-  "checked_ist": "2026-11-22 23:34",
+  "checked_ist": "2026-11-23 20:57",
   "discovered_by": "commerce_pattern",
   "first_seen": "2026-11-01",
   "payload": {
@@ -562,7 +562,7 @@
   }
  },
  "gst_state": {
-  "checked_ist": "2026-11-22 23:35",
+  "checked_ist": "2026-11-23 20:58",
   "discovered_by": "gstn_pattern",
   "first_seen": "2026-11-01",
   "payload": {
@@ -919,7 +919,7 @@
   "url": "https://tutorial.gst.gov.in/downloads/news/final_gst_revenue_report_for_publishing_monthly_sep_2026.pdf"
  },
  "iip_nic2": {
-  "checked_ist": "2026-11-22 23:34",
+  "checked_ist": "2026-11-23 20:57",
   "discovered_by": "deepseek_site_search",
   "first_seen": "2026-11-21",
   "payload": {
@@ -1128,19 +1128,19 @@
   "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2329475&reg=48&lang=2#4"
  },
  "power_state": {
-  "checked_ist": "2026-11-22 23:35",
+  "checked_ist": "2026-11-23 20:58",
   "discovered_by": "cea_dashboard",
   "first_seen": "2026-11-01",
   "payload": {
    "release_url": "https://cea.nic.in/reports/dashboardView?headingId=107&subHeadingId=1003&subSubHeadingId=10010&title=Power%20Supply%20Position%20-%20Energy&lang=en",
-   "report_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/952ab018-aca6-422f-9408-573730bcbeb1",
+   "report_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/c1aa3447-7b94-40a5-bdfe-48d523ee6b49",
    "rows": {
     "Andhra Pradesh": {
      "check_ok": true,
-     "fytd_pct": 19.5,
-     "fytd_req_mu": 56301.0,
-     "month_yoy_pct": 25.8,
-     "req_mu": 7841.0
+     "fytd_pct": 19.4,
+     "fytd_req_mu": 56287.0,
+     "month_yoy_pct": 26.7,
+     "req_mu": 7897.0
     },
     "Arunachal Pradesh": {
      "check_ok": true,
@@ -1151,17 +1151,17 @@
     },
     "Assam": {
      "check_ok": true,
-     "fytd_pct": 0.8,
-     "fytd_req_mu": 9238.0,
+     "fytd_pct": 0.9,
+     "fytd_req_mu": 9239.0,
      "month_yoy_pct": -5.0,
      "req_mu": 1200.0
     },
     "Bihar": {
      "check_ok": true,
      "fytd_pct": 12.1,
-     "fytd_req_mu": 35128.0,
-     "month_yoy_pct": 14.3,
-     "req_mu": 4518.0
+     "fytd_req_mu": 35117.0,
+     "month_yoy_pct": 14.0,
+     "req_mu": 4507.0
     },
     "Chandigarh": {
      "check_ok": true,
@@ -1172,31 +1172,31 @@
     },
     "Chhattisgarh": {
      "check_ok": true,
-     "fytd_pct": 8.3,
-     "fytd_req_mu": 27765.0,
-     "month_yoy_pct": 30.7,
-     "req_mu": 4074.0
+     "fytd_pct": 9.0,
+     "fytd_req_mu": 27924.0,
+     "month_yoy_pct": 35.8,
+     "req_mu": 4233.0
     },
     "Delhi": {
      "check_ok": true,
      "fytd_pct": 6.5,
-     "fytd_req_mu": 27977.0,
+     "fytd_req_mu": 27978.0,
      "month_yoy_pct": 14.2,
-     "req_mu": 3229.0
+     "req_mu": 3230.0
     },
     "Goa": {
      "check_ok": true,
-     "fytd_pct": 8.0,
-     "fytd_req_mu": 3492.0,
-     "month_yoy_pct": 13.8,
-     "req_mu": 510.0
+     "fytd_pct": 8.3,
+     "fytd_req_mu": 3499.0,
+     "month_yoy_pct": 15.4,
+     "req_mu": 517.0
     },
     "Gujarat": {
      "check_ok": true,
-     "fytd_pct": 14.3,
-     "fytd_req_mu": 105786.0,
-     "month_yoy_pct": 35.3,
-     "req_mu": 16324.0
+     "fytd_pct": 14.4,
+     "fytd_req_mu": 105937.0,
+     "month_yoy_pct": 36.6,
+     "req_mu": 16475.0
     },
     "Haryana": {
      "check_ok": true,
@@ -1214,37 +1214,37 @@
     },
     "India": {
      "check_ok": true,
-     "fytd_pct": 11.5,
-     "fytd_req_mu": 1109802.0,
+     "fytd_pct": 11.6,
+     "fytd_req_mu": 1098718.0,
      "note": "sum of states parsed"
     },
     "Jharkhand": {
      "check_ok": true,
-     "fytd_pct": 12.3,
-     "fytd_req_mu": 10440.0,
-     "month_yoy_pct": 10.2,
-     "req_mu": 1433.0
+     "fytd_pct": 12.4,
+     "fytd_req_mu": 10449.0,
+     "month_yoy_pct": 10.9,
+     "req_mu": 1442.0
     },
     "Karnataka": {
      "check_ok": true,
-     "fytd_pct": 27.4,
-     "fytd_req_mu": 64888.0,
-     "month_yoy_pct": 40.9,
-     "req_mu": 9711.0
+     "fytd_pct": 26.7,
+     "fytd_req_mu": 64531.0,
+     "month_yoy_pct": 37.3,
+     "req_mu": 9459.0
     },
     "Madhya Pradesh": {
      "check_ok": true,
-     "fytd_pct": 10.3,
-     "fytd_req_mu": 61552.0,
-     "month_yoy_pct": 34.9,
-     "req_mu": 10085.0
+     "fytd_pct": 10.4,
+     "fytd_req_mu": 61621.0,
+     "month_yoy_pct": 35.8,
+     "req_mu": 10153.0
     },
     "Maharashtra": {
      "check_ok": true,
      "fytd_pct": 11.4,
-     "fytd_req_mu": 129485.0,
-     "month_yoy_pct": 32.3,
-     "req_mu": 20372.0
+     "fytd_req_mu": 129385.0,
+     "month_yoy_pct": 31.6,
+     "req_mu": 20272.0
     },
     "Manipur": {
      "check_ok": true,
@@ -1276,52 +1276,52 @@
     },
     "Odisha": {
      "check_ok": true,
-     "fytd_pct": 5.7,
-     "fytd_req_mu": 29487.0,
-     "month_yoy_pct": 11.2,
-     "req_mu": 4174.0
+     "fytd_pct": 6.1,
+     "fytd_req_mu": 29594.0,
+     "month_yoy_pct": 14.0,
+     "req_mu": 4280.0
     },
     "Puducherry": {
      "check_ok": true,
-     "fytd_pct": 7.2,
-     "fytd_req_mu": 2319.0,
+     "fytd_pct": 6.7,
+     "fytd_req_mu": 2310.0,
      "month_yoy_pct": 9.1,
      "req_mu": 311.0
     },
     "Punjab": {
      "check_ok": true,
-     "fytd_pct": 13.1,
-     "fytd_req_mu": 58213.0,
-     "month_yoy_pct": 19.5,
-     "req_mu": 6383.0
+     "fytd_pct": 13.2,
+     "fytd_req_mu": 58234.0,
+     "month_yoy_pct": 19.9,
+     "req_mu": 6404.0
     },
     "Rajasthan": {
      "check_ok": true,
-     "fytd_pct": 8.4,
-     "fytd_req_mu": 68771.0,
-     "month_yoy_pct": 25.1,
-     "req_mu": 10012.0
+     "fytd_pct": 8.6,
+     "fytd_req_mu": 68866.0,
+     "month_yoy_pct": 26.3,
+     "req_mu": 10107.0
     },
     "Sikkim": {
      "check_ok": true,
-     "fytd_pct": -2.1,
-     "fytd_req_mu": 276.0,
-     "month_yoy_pct": -8.6,
-     "req_mu": 32.0
+     "fytd_pct": -2.5,
+     "fytd_req_mu": 275.0,
+     "month_yoy_pct": -11.4,
+     "req_mu": 31.0
     },
     "Tamil Nadu": {
      "check_ok": true,
-     "fytd_pct": 10.3,
-     "fytd_req_mu": 87753.0,
-     "month_yoy_pct": 12.3,
-     "req_mu": 11424.0
+     "fytd_pct": 10.2,
+     "fytd_req_mu": 87706.0,
+     "month_yoy_pct": 13.4,
+     "req_mu": 11534.0
     },
     "Telangana": {
      "check_ok": true,
-     "fytd_pct": 22.0,
-     "fytd_req_mu": 58959.0,
-     "month_yoy_pct": 49.5,
-     "req_mu": 9839.0
+     "fytd_pct": 21.5,
+     "fytd_req_mu": 58693.0,
+     "month_yoy_pct": 47.5,
+     "req_mu": 9708.0
     },
     "Tripura": {
      "check_ok": true,
@@ -1330,42 +1330,35 @@
      "month_yoy_pct": 4.8,
      "req_mu": 196.0
     },
-    "UT of J&K and Ladakh": {
-     "check_ok": true,
-     "fytd_pct": -1.1,
-     "fytd_req_mu": 10943.0,
-     "month_yoy_pct": -4.8,
-     "req_mu": 1510.0
-    },
     "Uttar Pradesh": {
      "check_ok": true,
-     "fytd_pct": 6.0,
-     "fytd_req_mu": 114409.0,
-     "month_yoy_pct": 4.9,
-     "req_mu": 13266.0
+     "fytd_pct": 6.1,
+     "fytd_req_mu": 114466.0,
+     "month_yoy_pct": 5.3,
+     "req_mu": 13324.0
     },
     "Uttarakhand": {
      "check_ok": true,
-     "fytd_pct": 4.5,
-     "fytd_req_mu": 10542.0,
-     "month_yoy_pct": 7.4,
-     "req_mu": 1309.0
+     "fytd_pct": 4.4,
+     "fytd_req_mu": 10538.0,
+     "month_yoy_pct": 7.1,
+     "req_mu": 1306.0
     },
     "West Bengal": {
      "check_ok": true,
      "fytd_pct": 5.4,
-     "fytd_req_mu": 50037.0,
-     "month_yoy_pct": 8.5,
-     "req_mu": 6846.0
+     "fytd_req_mu": 50059.0,
+     "month_yoy_pct": 8.9,
+     "req_mu": 6868.0
     }
    },
-   "year_ago_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/b814fd20-0e9b-473f-816c-2cbffbb88acb"
+   "year_ago_url": "https://cea.nic.in/api/dashboardReports/download-pdf/en/a9629e83-0363-476f-ad93-20515f6c8826"
   },
   "period": "2026-10-31",
   "url": "https://cea.nic.in/reports/dashboardView?headingId=107&subHeadingId=1003&subSubHeadingId=10010&title=Power%20Supply%20Position%20-%20Energy&lang=en"
  },
  "rbi_sibc": {
-  "checked_ist": "2026-11-22 23:34",
+  "checked_ist": "2026-11-23 20:57",
   "discovered_by": "last_known",
   "first_seen": "2026-11-01",
   "payload": {
@@ -2269,7 +2262,7 @@
   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63891"
  },
  "rbi_state": {
-  "checked_ist": "2026-11-22 23:35",
+  "checked_ist": "2026-11-23 20:58",
   "discovered_by": "rbi_hsis_page",
   "first_seen": "2026-11-01",
   "payload": {
