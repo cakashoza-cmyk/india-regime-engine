@@ -1,6 +1,6 @@
 {
-  "generated_at_ist": "2026-11-24 20:49 IST",
-  "run_id": "20261124T204852-d928a1",
+  "generated_at_ist": "2026-11-25 00:22 IST",
+  "run_id": "20261125T002122-d2aa70",
   "snapshot_date": "2026-11-24",
   "regime_label": "Stagflation",
   "sub_label": "transitional",
@@ -147,7 +147,7 @@
       },
       {
         "indicator": "brent",
-        "current_value": 90.45999908447266,
+        "current_value": 91.01000213623047,
         "flip_level": 100.0,
         "flip_direction": "below",
         "is_flipped": true,
@@ -436,7 +436,7 @@
     {
       "indicator": "brent",
       "dial": "inflation",
-      "value": 90.45999908447266,
+      "value": 91.01000213623047,
       "prior_value": 89.37000274658203,
       "direction": 1,
       "score": null,
@@ -448,7 +448,7 @@
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
       "status": "failed",
       "checks": [
-        "MISMATCH yahoo=87.85 vs 90.45999908447266 (tol ('rel', 0.02))"
+        "MISMATCH yahoo=88.37 vs 91.01000213623047 (tol ('rel', 0.02))"
       ],
       "note": "ICE Brent active contract (value and prior from the same contract)",
       "source_tier": "market_data",
@@ -498,7 +498,7 @@
       "source_url": "https://www.ccilindia.com/tenorwise-indicative-yields",
       "status": "verified",
       "checks": [
-        "cross-check tradingeconomics=7.2 within 0.05",
+        "cross-check tradingeconomics=7.22 within 0.05",
         "official source"
       ],
       "note": "CCIL tenor-wise indicative yield, 9Y-10Y benchmark 6.94% GS 2036",
@@ -601,7 +601,7 @@
       "source_url": "https://www.rbi.org.in/",
       "status": "verified",
       "checks": [
-        "cross-check yahoo=92.9 within 1%",
+        "cross-check yahoo=92.71 within 1%",
         "official source"
       ],
       "note": "FBIL USD/INR reference rate as shown on RBI homepage (dated to its publication day)",
@@ -641,7 +641,7 @@
     {
       "indicator": "dxy",
       "dial": "liquidity",
-      "value": 103.82599639892578,
+      "value": 103.7979965209961,
       "prior_value": 104.31999969482422,
       "direction": -1,
       "score": null,
@@ -1138,13 +1138,13 @@
       "indicator": "fii_net",
       "source": "NSE provisional cash CM (fiidiiTradeReact) \u2014 equity only, not NSDL grand total",
       "ok": true,
-      "error": "Moneycontrol FII/DII page fetched but cash CM numbers not parsed; trying NSE."
+      "error": "Moneycontrol FII/DII scrape failed (HTTPError: HTTP Error 403: Forbidden); trying NSE cash CM API."
     },
     {
       "indicator": "dii_net",
       "source": "NSE provisional cash CM (fiidiiTradeReact) \u2014 equity only, not NSDL grand total",
       "ok": true,
-      "error": "Moneycontrol FII/DII page fetched but cash CM numbers not parsed; trying NSE."
+      "error": "Moneycontrol FII/DII scrape failed (HTTPError: HTTP Error 403: Forbidden); trying NSE cash CM API."
     },
     {
       "indicator": "india10y",
