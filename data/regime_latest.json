@@ -1,7 +1,7 @@
 {
-  "generated_at_ist": "2026-11-24 03:43 IST",
-  "run_id": "20261124T034246-b48e1f",
-  "snapshot_date": "2026-11-23",
+  "generated_at_ist": "2026-11-24 05:57 IST",
+  "run_id": "20261124T055714-46ef96",
+  "snapshot_date": "2026-11-24",
   "regime_label": "Stagflation",
   "sub_label": "transitional",
   "stage": 0,
@@ -147,7 +147,7 @@
       },
       {
         "indicator": "brent",
-        "current_value": 89.33999633789062,
+        "current_value": 89.55000305175781,
         "flip_level": 100.0,
         "flip_direction": "below",
         "is_flipped": true,
@@ -302,7 +302,7 @@
       ]
     },
     "paper_label": "PAPER / FOR REVIEW \u2014 not a live trade instruction (backtests showed no confirmed edge).",
-    "check_back_date": "2026-12-23",
+    "check_back_date": "2026-12-24",
     "fragility_level": null,
     "gap_conviction": 1.0
   },
@@ -437,7 +437,7 @@
     {
       "indicator": "brent",
       "dial": "inflation",
-      "value": 89.33999633789062,
+      "value": 89.55000305175781,
       "prior_value": 92.56999969482422,
       "direction": -1,
       "score": null,
@@ -449,7 +449,7 @@
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
       "status": "failed",
       "checks": [
-        "MISMATCH yahoo=86.72 vs 89.33999633789062 (tol ('rel', 0.02))"
+        "MISMATCH yahoo=86.72 vs 89.55000305175781 (tol ('rel', 0.02))"
       ],
       "note": "ICE Brent active contract (value and prior from the same contract)",
       "source_tier": "market_data",
@@ -642,7 +642,7 @@
     {
       "indicator": "dxy",
       "dial": "liquidity",
-      "value": 104.35199737548828,
+      "value": 104.31700134277344,
       "prior_value": 103.80999755859375,
       "direction": 1,
       "score": null,
