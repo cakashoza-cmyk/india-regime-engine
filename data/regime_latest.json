@@ -1,6 +1,6 @@
 {
-  "generated_at_ist": "2026-11-25 20:30 IST",
-  "run_id": "20261125T202945-b9f5d2",
+  "generated_at_ist": "2026-11-25 23:27 IST",
+  "run_id": "20261125T232623-0c8ece",
   "snapshot_date": "2026-11-25",
   "regime_label": "Stagflation",
   "sub_label": "transitional",
@@ -63,7 +63,7 @@
     "liq_signals": {
       "rbi_stance": "con",
       "us10y": "exp",
-      "dxy": "unknown",
+      "dxy": "exp",
       "usdinr_ref": "exp",
       "india10y": "exp",
       "repo_rate": "con",
@@ -147,7 +147,7 @@
       },
       {
         "indicator": "brent",
-        "current_value": 93.05000305175781,
+        "current_value": 93.76000213623047,
         "flip_level": 100.0,
         "flip_direction": "below",
         "is_flipped": true,
@@ -436,7 +436,7 @@
     {
       "indicator": "brent",
       "dial": "inflation",
-      "value": 93.05000305175781,
+      "value": 93.76000213623047,
       "prior_value": 91.4000015258789,
       "direction": 1,
       "score": null,
@@ -448,7 +448,7 @@
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
       "status": "failed",
       "checks": [
-        "MISMATCH yahoo=89.65 vs 93.05000305175781 (tol ('rel', 0.02))"
+        "MISMATCH yahoo=90.13 vs 93.76000213623047 (tol ('rel', 0.02))"
       ],
       "note": "ICE Brent active contract (value and prior from the same contract)",
       "source_tier": "market_data",
@@ -498,7 +498,7 @@
       "source_url": "https://www.ccilindia.com/tenorwise-indicative-yields",
       "status": "verified",
       "checks": [
-        "cross-check investing=7.169 within 0.05",
+        "cross-check tradingeconomics=7.17 within 0.05",
         "official source"
       ],
       "note": "CCIL tenor-wise indicative yield, 9Y-10Y benchmark 6.94% GS 2036",
@@ -641,9 +641,9 @@
     {
       "indicator": "dxy",
       "dial": "liquidity",
-      "value": 103.88700103759766,
+      "value": 103.62200164794922,
       "prior_value": 103.80999755859375,
-      "direction": 0,
+      "direction": -1,
       "score": null,
       "weight": 1,
       "as_of": "2026-11-25",
@@ -1148,9 +1148,9 @@
     },
     {
       "indicator": "india10y",
-      "source": "Investing.com India 10-Year Bond Yield",
-      "ok": true,
-      "error": "CCIL tenorwise failed (HTTPError: HTTP Error 403: Forbidden).; CCIL tenorwise failed (HTTPError: HTTP Error 403: Forbidden)."
+      "source": "ccil/investing",
+      "ok": false,
+      "error": "Investing.com India 10Y failed (HTTPError: HTTP Error 403: Forbidden). india10y left null \u2014 do not invent."
     },
     {
       "indicator": "cpi_headline",
@@ -1197,7 +1197,7 @@
   ],
   "alert": {
     "sent": [],
-    "text": "Macro Regime Engine\nInvalidation triggered: CPI > 6.0%\n[PAPER] WAIT size 0.00 (invalidation triggered); sleeve: Risk-Off (Strong, transitional).",
+    "text": "Macro Regime Engine\nInvalidation triggered: CPI > 6.0%\nSource failures (stale carried): india10y\n[PAPER] WAIT size 0.00 (invalidation triggered); sleeve: Risk-Off (Strong, transitional).",
     "note": "skipped: no TELEGRAM_*/SMTP_* secrets"
   }
 }
