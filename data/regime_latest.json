@@ -1,6 +1,6 @@
 {
-  "generated_at_ist": "2026-11-27 01:18 IST",
-  "run_id": "20261127T011801-fc5419",
+  "generated_at_ist": "2026-11-27 03:30 IST",
+  "run_id": "20261127T033013-7d8e02",
   "snapshot_date": "2026-11-26",
   "regime_label": "Stagflation",
   "sub_label": "transitional",
@@ -642,7 +642,7 @@
     {
       "indicator": "dxy",
       "dial": "liquidity",
-      "value": 103.7760009765625,
+      "value": 103.78099822998047,
       "prior_value": 103.66999816894531,
       "direction": 0,
       "score": null,
